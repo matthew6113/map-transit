@@ -49,7 +49,7 @@ Choices made so far, newest last within each section. A decision waiting on Matt
   - So range requests that trigger a preflight, and font loads, could fail in some browsers. Mobile
     Safari is the worry.
   - BAM's CSS also points at root-relative `/generated/` URLs.
-  - `make basemap` copies BAM's deployed `/generated/` (110 files, 277 MB) and checks it against
+  - `make basemap` copies BAM's deployed `/generated/` (110 files, 279 MB) and checks it against
     `basemap.lock.json`. The deploy restores it from a release asset, so a BAM redeploy can't change
     this map underneath it.
   - Development proxies BAM's site, as BAM's own `vite.mock.config.ts` does.
@@ -203,6 +203,27 @@ Milliseconds from a year step to a settled map, 12 steps each:
     511 line is loaded, and stays visible when the credits collapse.
   - There's no "511" in the map's name, and no agency logos.
   - Matthew must send MTC the live link within 30 days of launch (`DATA_LOG.md`).
+
+### Open: BRT lane limits (researched 2026-10-13; needs Matthew)
+
+Decision 3 draws BRT only where the dedicated center or median lanes run, cut at limits an official
+source names. Searching official pages found that only Van Ness names its limits:
+
+- **Van Ness BRT (Muni 49): sourced.** Center-running lanes from Mission St to Lombard St, opened
+  April 2022. Source: SFMTA, https://www.sfmta.com/projects/van-ness-improvement-project.
+- **Tempo (AC Transit 1T): no limits found.**
+  - AC Transit's press releases (June 30 and Aug 7, 2020) and Alameda CTC (Aug 12, 2020) say only
+    that it has a "nearly 10-mile network of dedicated and painted bus-only lanes", curbside or in
+    the center, from Uptown Oakland to San Leandro BART.
+  - Wikipedia's route section (median running from 14th Ave on International Blvd; mixed traffic on
+    Broadway and in San Leandro) cites nothing, so it can't be used.
+- **VTA Alum Rock–Santa Clara BRT (Rapid 522): no limits found.**
+  - VTA's Aug 2018 release (reprinted by Mass Transit) says that "for approximately one mile of the
+    route, there is a dedicated lane for buses only", on Alum Rock Ave, and that left turns were
+    restored at Jose Figueres Ave, McCreery Ave and N 34th St. It doesn't name where the lane ends.
+
+How to draw Tempo and VTA is Matthew's call. The options are in the Phase 1 report, and nothing is
+drawn for either line until he picks one.
 
 ## Interface (2026-10-13)
 
