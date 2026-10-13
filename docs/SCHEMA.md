@@ -193,7 +193,7 @@ theme's `transit.widths`).
 | `light_rail` | Muni Metro, VTA light rail | Light rail |
 | `people_mover` | SFO AirTrain, BART's Oakland Airport line | Light rail |
 | `ferry` | every ferry route | Ferry |
-| `brt` | Van Ness BRT, Tempo, VTA's Alum Rock/Santa Clara segment: only where buses have dedicated center or median lanes (decision 3) | BRT |
+| `brt` | Van Ness BRT, Tempo, VTA's Alum Rock BRT: only where buses have center or median lanes (decision 3). The agency's source names the corridor, and OpenStreetMap's lane tags give where the lanes run (decision 9). | BRT |
 | `heritage` | Niles Canyon, Napa Valley Wine Train, Western Railway Museum | Heritage (off by default) |
 
 ## Future lines

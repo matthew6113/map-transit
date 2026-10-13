@@ -157,12 +157,18 @@ describe('provenance', () => {
     }
   });
 
-  it('draws BRT only where an official source names the dedicated-lane corridor (decision 3)', () => {
-    const official = new Set(sources.sources.filter((s: { type: string }) => s.type === 'official').map((s: { id: string }) => s.id));
+  it('draws BRT only on center or median lanes: the agency names the corridor, surveyed data the lanes (decisions 3 and 9)', () => {
+    const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
     for (const f of folders) {
+      const segs = new Map(f.segments.map((s) => [s.properties.id, s.properties]));
       for (const l of f.lines.filter((x) => (x as { mode?: string }).mode === 'brt')) {
-        const cites = l.sources.filter((s) => official.has(s.source) && (s as { supports?: string[] }).supports?.includes('route'));
-        expect(cites.length, `${l.id} needs an official source for its lane limits`).toBeGreaterThan(0);
+        expect(l.sources.some((s) => type.get(s.source) === 'official'), `${l.id} needs its agency's own source for the corridor`).toBe(true);
+        for (const r of l.route) {
+          const seg = segs.get(r.segment)!;
+          const lanes = seg.sources.filter((s) => ['official', 'dataset'].includes(type.get(s.source) ?? '') && (s as { supports?: string[] }).supports?.includes('route'));
+          expect(lanes.length, `${seg.id} needs a source for where its lanes run`).toBeGreaterThan(0);
+          expect(seg.geometry_method as string, `${seg.id} must say it follows center or median lanes`).toMatch(/center or median bus lane/);
+        }
       }
     }
   });

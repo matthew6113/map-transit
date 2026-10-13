@@ -13,6 +13,10 @@ trips run, longest first, keeping only the parts more than COVER_M from what's a
 with no published shape is drawn through its stops and marked approximate. Lines are clipped at the
 map's pan limits; a line that runs beyond them says where to (`continues_beyond`).
 
+BRT (decisions 3 and 9) is drawn only where its buses run in center or median lanes: each route's
+coverage is kept where it lies along OpenStreetMap ways with such a lane (osm_lanes.py), and written to
+data/present/brt/.
+
 Writes data/present/<agency>/{lines.json, segments.geojson, points.geojson}, data/present/feeds.json,
 and this step's entries in data/sources.json and data/systems.json. GTFS has no opening dates: they
 stay null and flagged until Phase 2 sources them (decision 4).
@@ -38,8 +42,9 @@ import numpy as np
 import shapely
 from pyproj import Transformer
 from shapely.geometry import LineString, MultiLineString, Point, box, mapping
-from shapely.ops import linemerge, nearest_points, unary_union
+from shapely.ops import linemerge, nearest_points, substring, unary_union
 
+from . import osm_lanes
 from .common import (DATA, RAW, ROOT, SOURCES, ensure_systems, fetch, load_env, merge_registry,
                      round_coords, sha256, write_geojson, write_json)
 
@@ -256,6 +261,207 @@ def finish(lines_m: list[LineString]) -> list[list[list[float]]]:
     return parts
 
 
+# ------------------------------------------------------------------------------------------ BRT
+
+LANE_M = 15.0  # route geometry this close to a median-lane way runs in that lane
+LANE_GAP_M = 120.0  # gaps shorter than this are closed (lane tags lapse across intersections)
+STOP_M = 30.0  # a route's stops this close to the kept corridor are its stations
+END_CHECK_M = 250.0  # how far the kept corridor may end from a lane limit the agency names
+BRT_ACCESSED = "2026-10-13"
+
+
+@dataclass
+class Brt:
+    """A BRT corridor (decision 3): the agency's route, drawn where it runs in center or median lanes."""
+    corridor: str
+    agency: str  # regex on agency_name
+    system: tuple[str, str, str]
+    route: str  # regex on route_short_name
+    source: dict  # the agency's own description of the corridor (official)
+    ends: tuple[str, ...] = ()  # cross streets the agency names as the lane limits, checked against OSM
+
+
+BRT = [
+    Brt("Van Ness BRT", r"San Francisco Municipal|SFMTA|\bMuni\b", ("muni", "San Francisco Municipal Railway", "Muni"), r"^49$", {
+        "id": "brt-sfmta-van-ness", "title": "Van Ness Improvement Project",
+        "publisher": "San Francisco Municipal Transportation Agency", "type": "official",
+        "url": "https://www.sfmta.com/projects/van-ness-improvement-project", "accessed": BRT_ACCESSED,
+        "notes": "Center-running bus lanes on Van Ness Ave from Mission St to Lombard St; BRT service began in April 2022.",
+    }, ends=("Mission", "Lombard")),
+    Brt("Tempo", r"AC Transit|Alameda.?Contra Costa", ("ac-transit", "Alameda-Contra Costa Transit District", "AC Transit"), r"^1T$", {
+        "id": "brt-actransit-tempo", "title": "AC Transit press release on Tempo's launch", "publisher": "AC Transit",
+        "date": "2020-08-07", "type": "official", "url": "https://www.actransit.org/node/688", "accessed": BRT_ACCESSED,
+        "notes": ("Tempo runs from Uptown Oakland to San Leandro BART along International Blvd and East 14th St, on a "
+                  "'nearly 10-mile network of dedicated and painted bus-only lanes'. It doesn't say where the center lanes "
+                  "start and end, so OSM's lane tags do (decision 9)."),
+    }),
+    Brt("Alum Rock BRT", r"\bVTA\b|Santa Clara Valley Transportation", ("vta", "Santa Clara Valley Transportation Authority", "VTA"), r"^522$", {
+        "id": "brt-vta-rapid-522", "title": "Route 522: Rapid 522, Palo Alto TC to Eastridge (schedule)",
+        "publisher": "Santa Clara Valley Transportation Authority", "type": "official",
+        "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
+        "accessed": BRT_ACCESSED,
+        "notes": ("Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & "
+                  "Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after "
+                  "Muirfield' (eastbound)."),
+    }, ends=("34th", "Muirfield")),
+]
+OSM_SOURCE = "osm-overpass-brt"
+
+
+def clip_to_lanes(route_m: list[LineString], lanes_m) -> list[LineString]:
+    """The parts of a route that run along a median-lane way: within LANE_M of one, with gaps under
+    LANE_GAP_M closed and pieces under SLIVER_M dropped."""
+    zone = lanes_m.buffer(LANE_M)
+    kept = []
+    for line in route_m:
+        inside = line.intersection(zone)
+        spans = sorted(tuple(sorted((line.project(Point(p.coords[0])), line.project(Point(p.coords[-1])))))
+                       for p in getattr(inside, "geoms", [inside]) if isinstance(p, LineString) and not p.is_empty)
+        merged: list[list[float]] = []
+        for a, b in spans:
+            if merged and a - merged[-1][1] < LANE_GAP_M:
+                merged[-1][1] = max(merged[-1][1], b)
+            else:
+                merged.append([a, b])
+        kept += [substring(line, a, b) for a, b in merged if b - a >= SLIVER_M]
+    return kept
+
+
+def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[tuple[str, str, str]]:
+    """Every BRT corridor, into data/present/brt/. Returns the systems it used. Without Overpass (and
+    no cached response), it says so and leaves the folder as it is."""
+    agencies = g.table("agency.txt")
+    routes = g.table("routes.txt")
+    stops = {s["stop_id"]: s for s in g.table("stops.txt")}
+    lines_out, segments_out, points_out, systems, bases = [], [], [], [], set()
+    for c in BRT:
+        aids = {a.get("agency_id", "") for a in agencies if re.search(c.agency, a["agency_name"])}
+        matched = [r for r in routes if r.get("agency_id", "") in aids and re.search(c.route, r["route_short_name"].strip())]
+        if len(matched) != 1:
+            print(f"[brt] {c.corridor}: expected one route matching {c.route!r}, found {[r['route_short_name'] for r in matched]}; skipped")
+            continue
+        r = matched[0]
+        trips = [t for t in g.table("trips.txt") if t["route_id"] == r["route_id"]]
+        counts = Counter(t.get("shape_id") for t in trips if t.get("shape_id"))
+        shaped = {sid for sid, n in counts.items() if n >= 2 or len(counts) == 1}
+        pts: dict[str, list] = defaultdict(list)
+        for row in g.table("shapes.txt"):
+            if row["shape_id"] in shaped:
+                pts[row["shape_id"]].append((int(row["shape_pt_sequence"]), float(row["shape_pt_lon"]), float(row["shape_pt_lat"])))
+        shapes_deg = [LineString([(x, y) for _, x, y in sorted(p)]) for p in pts.values() if len(p) >= 2]
+        if not shapes_deg:
+            print(f"[brt] {c.corridor}: route {r['route_short_name']} has no shapes; skipped")
+            continue
+        x0, y0, x1, y1 = unary_union(shapes_deg).bounds
+        line_id = f"{c.system[0]}-{slug(r['route_short_name'])}"
+        try:
+            response = osm_lanes.fetch(f"brt-{line_id}", (x0 - 0.0012, y0 - 0.001, x1 + 0.0012, y1 + 0.001), refresh=refresh)
+        except osm_lanes.OverpassUnavailable as e:
+            print(f"[brt] {e}. Allow overpass-api.de (docs/DECISIONS.md, decision 9); BRT kept as it is.")
+            return []
+        bases.add(osm_lanes.osm_base(response))
+        median, review = osm_lanes.median_ways(response, to_metres)
+        for w in review:
+            lane_tags = {k: v for k, v in w.tags.items() if osm_lanes.BUS_KEY.match(k) or k in ("oneway", "highway", "name")}
+            print(f"[brt] {c.corridor}: review way {w.id} (its tags don't say where the bus lane is): {lane_tags}")
+        if not median:
+            print(f"[brt] {c.corridor}: no center or median bus lanes in OSM along route {r['route_short_name']}; skipped")
+            continue
+        kept = clip_to_lanes(cover([to_metres(s) for s in shapes_deg]), unary_union([m for _, m in median]))
+        parts = finish(kept)
+        if not parts:
+            print(f"[brt] {c.corridor}: route {r['route_short_name']} doesn't run along the median lanes; skipped")
+            continue
+        used_ways = sorted(w.id for w, m in median if any(k.distance(m) <= LANE_M for k in kept))
+        kept_m = unary_union(kept)
+
+        # Stations: the route's stops along the kept corridor, one per name.
+        trip_ids = {t["trip_id"] for t in trips}
+        route_stops = {st["stop_id"] for st in g.table("stop_times.txt") if st["trip_id"] in trip_ids}
+        stations: dict[str, dict] = {}
+        for sid in sorted(route_stops):
+            s = stops.get(sid)
+            if s and to_metres(Point(float(s["stop_lon"]), float(s["stop_lat"]))).distance(kept_m) <= STOP_M:
+                stations.setdefault(s["stop_name"].strip(), s)
+
+        # The lane limits the agency names, checked against where OSM's lanes end.
+        flags = ["opened_unsourced"]
+        notes = []
+        ends = [Point(p.coords[i]) for p in kept for i in (0, -1)]
+        for street in c.ends:
+            named = [s for sid in route_stops if (s := stops.get(sid)) and re.search(rf"\b{re.escape(street)}\b", s["stop_name"], re.I)]
+            if not named:
+                notes.append(f"Can't check the limit at {street}: no stop on the route is named for it.")
+                continue
+            gap = min(to_metres(Point(float(s["stop_lon"]), float(s["stop_lat"]))).distance(e) for s in named for e in ends)
+            if gap > END_CHECK_M:
+                flags.append("conflicting_sources")
+                notes.append(f"The agency puts a lane limit at {street}, but OSM's lanes end {gap:.0f} m from the nearest stop named for it.")
+        for n in notes:
+            print(f"[brt] {c.corridor}: {n}")
+
+        name = f"{r['route_short_name'].strip()} {r['route_long_name'].strip()}".strip()
+        seg_id = f"{line_id}-brt-lanes"
+        agency_ref = {"source": c.source["id"], "supports": ["general"] + (["route"] if c.ends else [])}
+        segments_out.append({
+            "type": "Feature",
+            "properties": {
+                "id": seg_id, "system": c.system[0], "name": f"{c.corridor}, center or median lanes",
+                "opened": None, "closed": None,
+                "geometry_confidence": "surveyed",
+                "geometry_method": (f"GTFS shapes.txt ({len(shapes_deg)} shape{'' if len(shapes_deg) == 1 else 's'} of route {r['route_short_name']}), kept within {LANE_M:g} m "
+                                    f"of OSM ways with a center or median bus lane (gaps under {LANE_GAP_M:g} m closed), simplified "
+                                    f"to {SIMPLIFY_M:g} m. OSM ways {', '.join(map(str, used_ways))}; Overpass data as of "
+                                    f"{osm_lanes.osm_base(response)}."),
+                "sources": [{"source": OSM_SOURCE, "supports": ["geometry", "route"]}, {"source": source_id, "supports": ["geometry"]}, agency_ref],
+                "flags": flags,
+                **({"notes": " ".join(notes)} if notes else {}),
+            },
+            "geometry": {"type": "LineString", "coordinates": parts[0]} if len(parts) == 1 else {"type": "MultiLineString", "coordinates": parts},
+        })
+        lines_out.append({
+            "id": line_id, "name": name, "short_name": r["route_short_name"].strip(), "system": c.system[0],
+            "operators": [{"name": next(a["agency_name"] for a in agencies if a.get("agency_id", "") == r.get("agency_id", ""))}],
+            "mode": "brt", "era": "present", "opened": None, "closed": None, "status": "active",
+            "summary": f"Drawn only along {c.corridor}, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
+            "route": [{"segment": seg_id}],
+            "sources": [{"source": source_id, "supports": ["route", "stations", "name", "operator"]}, agency_ref],
+            "flags": flags,
+        })
+        for sname, s in sorted(stations.items()):
+            points_out.append({
+                "type": "Feature",
+                "properties": {
+                    "id": f"{line_id}-{slug(sname)}", "kind": "station", "name": sname, "system": c.system[0],
+                    "line_ids": [line_id], "opened": None, "closed": None,
+                    "geometry_confidence": "surveyed", "geometry_method": f"GTFS stops.txt, stop {s['stop_id']}",
+                    "sources": [{"source": source_id, "supports": ["stations"]}], "flags": ["opened_unsourced"],
+                },
+                "geometry": {"type": "Point", "coordinates": round_coords([float(s["stop_lon"]), float(s["stop_lat"])])},
+            })
+        systems.append(c.system)
+        print(f"[brt] {c.corridor}: route {r['route_short_name']}, {sum(p.length for p in kept) / 1000:.1f} km on "
+              f"{len(used_ways)} OSM ways, {len(stations)} stations")
+
+    if not lines_out:
+        return []
+    base = ", ".join(sorted(b for b in bases if b))
+    merge_registry(SOURCES, "sources", "brt-", [c.source for c in BRT])
+    merge_registry(SOURCES, "sources", OSM_SOURCE, [{
+        "id": OSM_SOURCE, "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+        "publisher": "OpenStreetMap contributors", "url": osm_lanes.OVERPASS, "type": "dataset",
+        "license": osm_lanes.OVERPASS_LICENSE, "accessed": TODAY,
+        "notes": f"Overpass data as of {base}. The queries are cached with their responses in data/raw/osm/.",
+    }])
+    note = (f"Generated by transit_pipeline.gtfs (BRT) from the 511 feed (SHA-256 {digest[:12]}) and OpenStreetMap "
+            f"via Overpass ({base}). Don't edit by hand; rerun.")
+    out = DATA / "present" / "brt"
+    write_json(out / "lines.json", {"$comment": note, "lines": lines_out})
+    write_geojson(out / "segments.geojson", segments_out, comment=note)
+    write_geojson(out / "points.geojson", points_out, comment=note)
+    return systems
+
+
 # ------------------------------------------------------------------------------------------ build
 
 class GtfsZip:
@@ -470,6 +676,8 @@ def main() -> None:
         plan.append((agency, agency.feed))
     if have_key:
         plan.append((None, FERRY_FEED))
+    else:
+        print("[gtfs] ferries and brt: need TRANSIT_511_API_KEY (BRT also needs overpass-api.de); kept as they are")
 
     systems = []
     for feed_id in sorted({f for _, f in plan}):
@@ -515,6 +723,10 @@ def main() -> None:
                 aid = a.get("agency_id", "")
                 if aid not in claimed and ferry_types[aid] & (RAIL_FERRY_TYPES - {"4"}) and not re.search(SKIP_511, a["agency_name"]):
                     print(f"[gtfs] note: {a['agency_name']} ({aid}) runs rail routes but has no rule in AGENCIES")
+            # BRT, on its center or median lanes only (decisions 3 and 9).
+            for sys_id, name, short in build_brt(g, source_id, digest, refresh):
+                used.append(f"{sys_id} (BRT)")
+                systems.append({"id": sys_id, "name": name, "short_name": short})
         merge_registry(SOURCES, "sources", source_id, [feed_source(feed, info, digest)])
         feed_log[feed_id] = {
             "id": feed_id, "title": feed.title, "url": feed.url.replace("api_key={key}&", ""), "sha256": digest,

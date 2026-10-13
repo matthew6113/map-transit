@@ -85,6 +85,17 @@ What it requires:
 | Used for | One line: the 36 `monorail`-class segments around SFO (most named "SFO AirTrain"), merged into the guideway. Its Red and Blue lines are service patterns on the same guideway. |
 | Gaps | No stations yet, since Overture's segments carry no stops. Opening date not sourced. |
 
+### OpenStreetMap bus lanes, for BRT (decision 9)
+
+| | |
+|---|---|
+| Status | Not fetched yet. Needs `overpass-api.de` in the environment's allowed domains, and the 511 key for the routes. |
+| Origin | Overpass API (`https://overpass-api.de/api/interpreter`): ways tagged `highway=busway`, or with any `busway*`, `bus:lanes*`, `psv:lanes*`, `lanes:bus*` or `lanes:psv*` tag, in each BRT route's bbox padded by about 100 m. Each query and its response are cached in `data/raw/osm/brt-<line>.json`, with the response's `timestamp_osm_base`. |
+| License | ODbL 1.0, © OpenStreetMap contributors. |
+| Used for | Where Van Ness BRT (Muni 49), Tempo (AC Transit 1T) and the Alum Rock BRT (VTA Rapid 522) run in center or median lanes. The routes come from the 511 feed. |
+| Agency sources | SFMTA's Van Ness project page and VTA's Rapid 522 schedule name their lane limits, and the pipeline checks OSM against them. AC Transit doesn't name Tempo's. |
+| Gaps | Ways whose tags don't say which lane is the bus lane are printed for review, not drawn. |
+
 ## Future era
 
 ### Bay Area megaprojects line records
