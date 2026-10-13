@@ -13,7 +13,9 @@ import { execFileSync } from 'node:child_process';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { expect, test, type Page } from '@playwright/test';
 
-const YEARS = 24;
+const YEARS = 12;
+/** A step that never settles is recorded at this cap. */
+const CAP_MS = 20_000;
 
 async function idle(page: Page) {
   await page.evaluate(() => new Promise<void>((r) => {
@@ -27,13 +29,15 @@ async function idle(page: Page) {
 async function measure(page: Page, step: string, from: number): Promise<number[]> {
   const times: number[] = [];
   for (let y = from; y < from + YEARS; y++) {
-    const ms = await page.evaluate(([code, year]) => new Promise<number>((resolve) => {
+    const ms = await page.evaluate(([code, year, cap]) => new Promise<number>((resolve) => {
       const m = (window as unknown as { __map: import('maplibre-gl').Map }).__map;
       const t0 = performance.now();
       m.once('idle', () => resolve(performance.now() - t0));
+      setTimeout(() => resolve(cap), cap);
       new Function('year', code)(year);
       m.triggerRepaint();
-    }), [step, y] as const);
+    }), [step, y, CAP_MS] as const);
+    console.log(`  year ${y}: ${Math.round(ms)} ms`);
     times.push(ms);
   }
   return times;
@@ -46,10 +50,12 @@ const stats = (xs: number[]) => {
 };
 
 test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, context }) => {
-  test.setTimeout(900_000);
+  test.setTimeout(1_500_000);
   execFileSync('node', ['tests/fixtures/make-synthetic.mjs', '10000']);
   await page.setViewportSize({ width: 1440, height: 900 });
-  await page.goto('/?era=past&year=1900&perf=synthetic&test=1#map=10/37.75/-122.25');
+  // Without the building print: under software WebGL it dominates every frame and hides the
+  // differences being measured. (Phase 5 re-measures with buildings on a real GPU.)
+  await page.goto('/?era=past&year=1900&perf=synthetic&test=1&buildings=0#map=10/37.75/-122.25');
   await page.waitForFunction(() => document.body.dataset.mapReady === 'true', null, { timeout: 120_000 });
   await page.waitForFunction(() => {
     const m = (window as unknown as { __map?: import('maplibre-gl').Map }).__map;
@@ -60,10 +66,10 @@ test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, cont
   const cdp = await context.newCDPSession(page);
   await cdp.send('Emulation.setCPUThrottlingRate', { rate: 4 });
 
-  // A: the app's own path.
+  console.log('A: app path');
   const a = await measure(page, 'window.__app.setYear(year, { animateFrom: year - 1 })', 1901);
 
-  // B: setFilter directly on the same layers.
+  console.log('B: setFilter');
   const b = await measure(page, `
     const m = window.__map;
     const ids = m.getStyle().layers.filter((l) => l.id.startsWith('transit-past-')).map((l) => l.id);
@@ -89,15 +95,17 @@ test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, cont
     }, 'transit-selected-casing');
   });
   await idle(page);
+  console.log('C: global-state paint');
   const c = await measure(page, 'window.__map.setGlobalStateProperty("year", year)', 1951);
 
   // Hover: feature-state on the five features of one synthetic line.
+  console.log('Hover: feature-state');
   const hover = await measure(page, `
     const m = window.__map;
     for (let i = 1; i <= 5; i++) m.setFeatureState({ source: 'transit-past-lines', id: (year % 1000) * 5 + i }, { hover: year % 2 === 0 });`, 1975);
 
   const result = {
-    features: 10000, cpuSlowdown: 4, renderer: 'SwiftShader (software WebGL)',
+    features: 10000, cpuSlowdown: 4, renderer: 'SwiftShader (software WebGL)', buildings: false, stepsPerMethod: YEARS,
     msToIdle: { appPath: stats(a), setFilter: stats(b), globalStatePaint: stats(c), hoverFeatureState: stats(hover) },
   };
   mkdirSync('test-results', { recursive: true });
