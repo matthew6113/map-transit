@@ -461,7 +461,9 @@ def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[
         })
         lines_out.append({
             "id": line_id, "name": name, "short_name": short, "system": c.system[0],
-            "operators": [{"name": next(a["agency_name"] for a in agencies if a.get("agency_id", "") == r.get("agency_id", ""))}],
+            "operators": [{"name": operator if not (operator := next(a["agency_name"] for a in agencies
+                                                                   if a.get("agency_id", "") == r.get("agency_id", ""))).isupper()
+                           else c.system[2]}],  # "AC TRANSIT" in the feed reads "AC Transit"
             "mode": "brt", "era": "present", "opened": None, "closed": None, "status": "active",
             "summary": f"Drawn only along {c.corridor}, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
             "route": [{"segment": seg_id}],
