@@ -34,6 +34,17 @@ OPEN_ENDED = 9999.0  # still running (or not yet open): no closing year
 NOT_YET = 9000.0  # future lines: never on the year slider
 
 
+
+def line_sources(line: dict, segments: dict) -> list[dict]:
+    """The line's own sources, then its segments' (so the panel credits who drew the geometry too).
+    A source cited by both is listed once, with what each citation supports."""
+    merged: dict[str, dict] = {}
+    refs = list(line["sources"]) + [s for r in line["route"] for s in segments[r["segment"]]["properties"]["sources"]]
+    for ref in refs:
+        m = merged.setdefault(ref["source"], {**ref, "supports": []})
+        m["supports"] += [x for x in ref.get("supports", []) if x not in m["supports"]]
+    return list(merged.values())
+
 def decimal_year(d: str | None) -> float | None:
     """'1903' -> 1903.0, '1903-05' -> 1903.33, '1903-05-14' -> 1903.37 (a trailing ~ is ignored)."""
     if not d:
@@ -226,7 +237,7 @@ def main() -> None:
                     "flags": segments[r["segment"]]["properties"]["flags"],
                     **({"notes": segments[r["segment"]]["properties"]["notes"]} if "notes" in segments[r["segment"]]["properties"] else {}),
                 } for r in line["route"]],
-                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line["sources"]],
+                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line_sources(line, segments)],
             })
 
         by_line = {l["id"]: l for l in lines}

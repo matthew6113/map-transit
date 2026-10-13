@@ -1735,7 +1735,8 @@
             "route",
             "stations",
             "name",
-            "operator"
+            "operator",
+            "geometry"
           ]
         },
         {
@@ -1749,6 +1750,20 @@
           "source": "brt-actransit-tempo",
           "supports": [
             "general"
+          ]
+        },
+        {
+          "id": "osm-overpass-brt",
+          "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://overpass-api.de/api/interpreter",
+          "type": "dataset",
+          "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
+          "accessed": "2026-10-13",
+          "source": "osm-overpass-brt",
+          "supports": [
+            "geometry",
+            "route"
           ]
         }
       ]
@@ -1819,7 +1834,8 @@
             "route",
             "stations",
             "name",
-            "operator"
+            "operator",
+            "geometry"
           ]
         },
         {
@@ -1832,6 +1848,20 @@
           "source": "brt-sfmta-van-ness",
           "supports": [
             "general",
+            "route"
+          ]
+        },
+        {
+          "id": "osm-overpass-brt",
+          "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://overpass-api.de/api/interpreter",
+          "type": "dataset",
+          "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
+          "accessed": "2026-10-13",
+          "source": "osm-overpass-brt",
+          "supports": [
+            "geometry",
             "route"
           ]
         }
@@ -3828,7 +3858,8 @@
             "route",
             "stations",
             "name",
-            "operator"
+            "operator",
+            "geometry"
           ]
         },
         {
@@ -3841,6 +3872,20 @@
           "source": "brt-vta-rapid-522",
           "supports": [
             "general",
+            "route"
+          ]
+        },
+        {
+          "id": "osm-overpass-brt",
+          "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://overpass-api.de/api/interpreter",
+          "type": "dataset",
+          "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
+          "accessed": "2026-10-13",
+          "source": "osm-overpass-brt",
+          "supports": [
+            "geometry",
             "route"
           ]
         }
