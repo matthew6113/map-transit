@@ -1,0 +1,449 @@
+{
+  "$comment": "BAM's built basemap, as copied into public/generated/ by `make basemap`. Refresh deliberately (make basemap-refresh) and review the diff.",
+  "source": "https://matthew6113.github.io/BAM/generated",
+  "bam_commit_read": "9600699ae10affa5787c1a73374c34a5fa8e4b41",
+  "fetched": "2026-10-13",
+  "id": "830e7d00280d",
+  "files": {
+    "tiles/base.pmtiles": {
+      "bytes": 6157951,
+      "sha256": "a153b7fc39db9f8e5f4eea1f5cf2e7eff9272d8997f3348eebd20c429774e10f"
+    },
+    "tiles/buildings-overview-all.pmtiles": {
+      "bytes": 80096135,
+      "sha256": "bbcefb9d7f56adc7cc6761e4496283bc8ab6a53706ba60466609d04c606ee962"
+    },
+    "tiles/buildings-overview-light.pmtiles": {
+      "bytes": 19998783,
+      "sha256": "f8813ff91a3248c92244c0d7309ac0b421e7b92a9d44a2f34cf469444da378d7"
+    },
+    "tiles/buildings-z13.pmtiles": {
+      "bytes": 47314919,
+      "sha256": "3de03be36d7fc8d49f8b954cffdb344c2309990bf46920f075a10f2b7d0ffc66"
+    },
+    "tiles/buildings-z14.pmtiles": {
+      "bytes": 55537024,
+      "sha256": "39d3d8399d0c110c94710ac75c7d8fe2a3267c3bb99cfb1c2bdf3618e825292f"
+    },
+    "tiles/buildings-z15.pmtiles": {
+      "bytes": 64998016,
+      "sha256": "c55980d88cffdd6732ab031490ea6865b1474f511b47873affbe58ccf251a27b"
+    },
+    "data/labels.geojson": {
+      "bytes": 10545,
+      "sha256": "891e14583c6379230c40a83bcbe695217be03fa44f88ec717fe42e17ccbb37d5"
+    },
+    "fonts/LibreFranklin-Variable.woff2": {
+      "bytes": 31836,
+      "sha256": "3cc9b4af7bdfa63513e745c781daf1c80504a0d93c9f208a5a33a7e063baac44"
+    },
+    "fonts/LibreFranklin-Italic-Variable.woff2": {
+      "bytes": 35840,
+      "sha256": "578201681127ff7d05f0bc69c036b2e2a7eee31fea78640379332aa295d0b5da"
+    },
+    "fonts/MegaprojectsSerif-Variable.woff2": {
+      "bytes": 72240,
+      "sha256": "d43374a5529bd2ddbc9314fb5949d4d18790ba5e9f9915858d406e9acb1e763f"
+    },
+    "fonts/MegaprojectsSerif-Italic-Variable.woff2": {
+      "bytes": 53536,
+      "sha256": "3c164b085d977ace8529e401e4ca5961076d6788e5af2533bee2643b14bf3690"
+    },
+    "fonts/LibreFranklin-OFL.txt": {
+      "bytes": 4495,
+      "sha256": "2710268527181a27b8e938617551bae29e714e6525247be6679bf897a9942a60"
+    },
+    "fonts/SourceSerif4-OFL.txt": {
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    "glyphs/Libre Franklin Regular/0-255.pbf": {
+      "bytes": 76866,
+      "sha256": "800f72fecfc3346df95545a43e7d6dcf2dd2ebdd46db258da713d53fb90eba3f"
+    },
+    "glyphs/Libre Franklin Regular/256-511.pbf": {
+      "bytes": 80461,
+      "sha256": "5098337198eedc9eb9f777637297059e2ce697a0af03774d9fc4d65d500a315c"
+    },
+    "glyphs/Libre Franklin Regular/512-767.pbf": {
+      "bytes": 21357,
+      "sha256": "4d67a0aba24027ef5122e57e7e6427e62fe38e8e2eee76ed78b30bc867c82b5b"
+    },
+    "glyphs/Libre Franklin Regular/768-1023.pbf": {
+      "bytes": 4885,
+      "sha256": "831b9becd3322721e895b1e6f75dc5c6e2830b93063859f19481aa16fb03b188"
+    },
+    "glyphs/Libre Franklin Regular/1024-1279.pbf": {
+      "bytes": 106641,
+      "sha256": "3e5e64792d16e7b9b9c90fd7010a642ab7873ede3494768625dcbbd0bd0b0fd1"
+    },
+    "glyphs/Libre Franklin Regular/1280-1535.pbf": {
+      "bytes": 8418,
+      "sha256": "3253045be7215c828fe92bff22504e0825fc5d9f73f2d2a012f76cf0eb5d37b8"
+    },
+    "glyphs/Libre Franklin Regular/7680-7935.pbf": {
+      "bytes": 88787,
+      "sha256": "df4762d4f23274fad1a188e46d0becb16cb762bac40423300a6f211999543586"
+    },
+    "glyphs/Libre Franklin Regular/8192-8447.pbf": {
+      "bytes": 17828,
+      "sha256": "4199adf735b959b7d7bc09e14d664e600f933764813fe86b7ad37bcd501e99bb"
+    },
+    "glyphs/Libre Franklin Regular/8448-8703.pbf": {
+      "bytes": 7862,
+      "sha256": "6c8fd2234862216964f8b1ef70687dfc621e9ee25ed8a8b28734d0fc8a2f44e5"
+    },
+    "glyphs/Libre Franklin Regular/8704-8959.pbf": {
+      "bytes": 5683,
+      "sha256": "2360b15d38c79458eef0fce44cd1029019e18c5d44091acc7aab3e6c13acf67a"
+    },
+    "glyphs/Libre Franklin Regular/9472-9727.pbf": {
+      "bytes": 438,
+      "sha256": "49fbc705d36264ca7ede4c1a759a273faaaa4e04e9ec08e4b090d737051c594f"
+    },
+    "glyphs/Libre Franklin Regular/9984-10239.pbf": {
+      "bytes": 880,
+      "sha256": "93a9c05fe4b59ac7ca2897887d06257f2a7661eeb0eff3fac98fda08d1b91373"
+    },
+    "glyphs/Libre Franklin Regular/64256-64511.pbf": {
+      "bytes": 941,
+      "sha256": "640c8d3947c58ffac7be6670774fe94cbb4bfaa7124e74520ffb67be853472a6"
+    },
+    "glyphs/Libre Franklin Medium/0-255.pbf": {
+      "bytes": 78696,
+      "sha256": "854e8786c48a08a802a541fee1b9ca679910a207d127c710533effd18fe323c0"
+    },
+    "glyphs/Libre Franklin Medium/256-511.pbf": {
+      "bytes": 82387,
+      "sha256": "d4dea50d15a4454877eac3d791fb26456cccb179e450b353feecfae51be8c43c"
+    },
+    "glyphs/Libre Franklin Medium/512-767.pbf": {
+      "bytes": 21861,
+      "sha256": "a09263643d97ee04d28fee42adefaf2f73530359e473defd0cd61e4600831336"
+    },
+    "glyphs/Libre Franklin Medium/768-1023.pbf": {
+      "bytes": 4990,
+      "sha256": "a7cd1e3bc1fa5d6919e6f92ca8a2af767e0d4218b30291c3946b4b0826256b12"
+    },
+    "glyphs/Libre Franklin Medium/1024-1279.pbf": {
+      "bytes": 108892,
+      "sha256": "7ccc5c9dccda02d2c74aab1b3a6a5548e614fbda071163bfb7d8a84da1baf575"
+    },
+    "glyphs/Libre Franklin Medium/1280-1535.pbf": {
+      "bytes": 8558,
+      "sha256": "5bcb2fdf6ed86dbf37552949046c6109d78383e5f0ee80aee40ada659cfb44c9"
+    },
+    "glyphs/Libre Franklin Medium/7680-7935.pbf": {
+      "bytes": 91046,
+      "sha256": "62901ad65940ce1964e0e6d4582f73e4068545302397849e02668ffa8a3692eb"
+    },
+    "glyphs/Libre Franklin Medium/8192-8447.pbf": {
+      "bytes": 18237,
+      "sha256": "8637fc6ab5265cf877705cf2bcf20307505757a75ec6834f20288de6d33e2ce8"
+    },
+    "glyphs/Libre Franklin Medium/8448-8703.pbf": {
+      "bytes": 7944,
+      "sha256": "68f80a677c7660a49d7db799764984134d50899f9b1d7e54fbc15b24f64bd0d8"
+    },
+    "glyphs/Libre Franklin Medium/8704-8959.pbf": {
+      "bytes": 5867,
+      "sha256": "338ebe69c57a0f97e5a1c2d0f3897f411003af9f2904a1ee28721970b53ec1e5"
+    },
+    "glyphs/Libre Franklin Medium/9472-9727.pbf": {
+      "bytes": 438,
+      "sha256": "df558845ec9844bdff219a778799c7672f57fad868e1c21e008b54096b27dd26"
+    },
+    "glyphs/Libre Franklin Medium/9984-10239.pbf": {
+      "bytes": 880,
+      "sha256": "93a9c05fe4b59ac7ca2897887d06257f2a7661eeb0eff3fac98fda08d1b91373"
+    },
+    "glyphs/Libre Franklin Medium/64256-64511.pbf": {
+      "bytes": 989,
+      "sha256": "bc31a35dbce3f46d60bbfc1eb141e203de11144810082f22497c34169e09bddf"
+    },
+    "glyphs/Libre Franklin SemiBold/0-255.pbf": {
+      "bytes": 80990,
+      "sha256": "732a4c476035b9e672676e018eebc2a7f7c9502584aa6cd58b00508d8b89b7bd"
+    },
+    "glyphs/Libre Franklin SemiBold/256-511.pbf": {
+      "bytes": 84530,
+      "sha256": "0460178e18a631635d1aa2f8186f05473321002f7031b86a08c1d42de1cb36e1"
+    },
+    "glyphs/Libre Franklin SemiBold/512-767.pbf": {
+      "bytes": 22527,
+      "sha256": "47d9cc9ce34d2459b8783290933a605dc8fd95537c6a1651401fb5bffa9b5220"
+    },
+    "glyphs/Libre Franklin SemiBold/768-1023.pbf": {
+      "bytes": 5257,
+      "sha256": "9b61df997c82c8ad6275d3883ce70c351ca5ced174edf7454fb5b294214f8929"
+    },
+    "glyphs/Libre Franklin SemiBold/1024-1279.pbf": {
+      "bytes": 111175,
+      "sha256": "aea5515952af3bef53b6d5f6a84bbcf061724248cf71d922712520f69b72e508"
+    },
+    "glyphs/Libre Franklin SemiBold/1280-1535.pbf": {
+      "bytes": 8760,
+      "sha256": "63c7f24ca69c9a01c22fab004ea6cb35d484f164cf86c250dd71cf5432448b4c"
+    },
+    "glyphs/Libre Franklin SemiBold/7680-7935.pbf": {
+      "bytes": 93543,
+      "sha256": "97a69aaa19ab212b79957d0c38399ecf24a9e5b5cd655cd068e8d79599f51094"
+    },
+    "glyphs/Libre Franklin SemiBold/8192-8447.pbf": {
+      "bytes": 18610,
+      "sha256": "7e4ceb00d6644570ee0376eebc195989d4af2cf6090abf9739c79b954ba932df"
+    },
+    "glyphs/Libre Franklin SemiBold/8448-8703.pbf": {
+      "bytes": 8081,
+      "sha256": "32fcf9bc5bafc5f0022d3d1f585f7461cd06d86ef9003f74df777b4cd28b8835"
+    },
+    "glyphs/Libre Franklin SemiBold/8704-8959.pbf": {
+      "bytes": 6075,
+      "sha256": "cf3f7aa9ba3c44ab689e0233c49619c8ead3eb5f196f13c8a6689e8a65c31f83"
+    },
+    "glyphs/Libre Franklin SemiBold/9472-9727.pbf": {
+      "bytes": 462,
+      "sha256": "411b7a7eda26c6c3d82bb238b7034b479cde368042452ddcd1882b2689d1393b"
+    },
+    "glyphs/Libre Franklin SemiBold/9984-10239.pbf": {
+      "bytes": 880,
+      "sha256": "93a9c05fe4b59ac7ca2897887d06257f2a7661eeb0eff3fac98fda08d1b91373"
+    },
+    "glyphs/Libre Franklin SemiBold/64256-64511.pbf": {
+      "bytes": 989,
+      "sha256": "6cf1ba0b45ed33205fe21fa80531e122e49b0cc5900b2aee808d1486cc2d96ba"
+    },
+    "glyphs/Libre Franklin Italic/0-255.pbf": {
+      "bytes": 81223,
+      "sha256": "2f8cd21e561a047bf2e58b2363575c385e5220502b74c6d8783b709643890830"
+    },
+    "glyphs/Libre Franklin Italic/256-511.pbf": {
+      "bytes": 85954,
+      "sha256": "757af1ffa3f6221c9b918254a1abe19275f90335b2398d851c7a0de9098c9cd4"
+    },
+    "glyphs/Libre Franklin Italic/512-767.pbf": {
+      "bytes": 22067,
+      "sha256": "96859953d4ff82e5a3ef032803b8b6a6787d5c10467870e4462c622fbded6e43"
+    },
+    "glyphs/Libre Franklin Italic/768-1023.pbf": {
+      "bytes": 4923,
+      "sha256": "da4bc78577e0ab2d92e90351bac8c0d6e718c0d4ab551d312eb3d50e64463ad4"
+    },
+    "glyphs/Libre Franklin Italic/1024-1279.pbf": {
+      "bytes": 111170,
+      "sha256": "72df2f80720566e2e323ce82fbe79460e59ac04a8967d6103030670374a538fd"
+    },
+    "glyphs/Libre Franklin Italic/1280-1535.pbf": {
+      "bytes": 8634,
+      "sha256": "cdb5590198915d31c4ca874e177094d6866f6769af50f22548f8f19d760af1d3"
+    },
+    "glyphs/Libre Franklin Italic/7680-7935.pbf": {
+      "bytes": 93566,
+      "sha256": "5e51f44585e594f314da68a4aef01061180d349e11376e74e2e06b4fe0c3948a"
+    },
+    "glyphs/Libre Franklin Italic/8192-8447.pbf": {
+      "bytes": 18257,
+      "sha256": "90d039e0fc25d61ad04fb7d7e474f1192cd973a6fe5cb777942ed97396f3f852"
+    },
+    "glyphs/Libre Franklin Italic/8448-8703.pbf": {
+      "bytes": 7838,
+      "sha256": "a7aa96486964cf755356e754849f7a2418d1303d13d0939f2824336e1d591c63"
+    },
+    "glyphs/Libre Franklin Italic/8704-8959.pbf": {
+      "bytes": 6015,
+      "sha256": "74d45e3e50448445e6f88097a627cbf7f1a78e8751436da9326f04beda09f667"
+    },
+    "glyphs/Libre Franklin Italic/9472-9727.pbf": {
+      "bytes": 445,
+      "sha256": "de145d15a2510efed620010cc5f1327da167dfbfa2d56d9901f7c288c4054e6e"
+    },
+    "glyphs/Libre Franklin Italic/9984-10239.pbf": {
+      "bytes": 966,
+      "sha256": "4fde49f8e633882f9e078150bd9fc725491abdc33d07e071f80647e4ddc0437a"
+    },
+    "glyphs/Libre Franklin Italic/64256-64511.pbf": {
+      "bytes": 1044,
+      "sha256": "0d42d195392796f5f2e96e93adbfdbec2fe309a2c0b3141b38e77ca2c6f0b868"
+    },
+    "glyphs/Megaprojects Serif Regular/0-255.pbf": {
+      "bytes": 75817,
+      "sha256": "ee7eb86bb3ad85c597faf063b5e31027c1d30ff79e31fe9f3f0b467f4ea64cc1"
+    },
+    "glyphs/Megaprojects Serif Regular/256-511.pbf": {
+      "bytes": 73685,
+      "sha256": "5fad271c31969721db9f5ae0969d2c5c9b828c40ed2f580dc01097914a5c59e4"
+    },
+    "glyphs/Megaprojects Serif Regular/512-767.pbf": {
+      "bytes": 7487,
+      "sha256": "20779ad69933cdbd5ad4ce245798951db86799db23063165d07d39a28671c0f9"
+    },
+    "glyphs/Megaprojects Serif Regular/768-1023.pbf": {
+      "bytes": 36748,
+      "sha256": "bc4aee390a7274d0697569651e5b9d69a8200606b91e5cf7658001331ca77f81"
+    },
+    "glyphs/Megaprojects Serif Regular/1024-1279.pbf": {
+      "bytes": 71112,
+      "sha256": "2873f84c18efc1673b8ebbe4d6123dde1c31e0f4db17b84440df694f61027729"
+    },
+    "glyphs/Megaprojects Serif Regular/7424-7679.pbf": {
+      "bytes": 3641,
+      "sha256": "78ae4124ae5b05448584a337ab07d2798cba63a37e19652349740e69dabbd285"
+    },
+    "glyphs/Megaprojects Serif Regular/7680-7935.pbf": {
+      "bytes": 76656,
+      "sha256": "a080d764d698699cad5620e4028f35c8be5ece7434780d4f734b11cd0ff9ad7f"
+    },
+    "glyphs/Megaprojects Serif Regular/8192-8447.pbf": {
+      "bytes": 19301,
+      "sha256": "ce646f7bd0497f58a89d71f23319b462511fb82828ed48075d2bdfa57be6244d"
+    },
+    "glyphs/Megaprojects Serif Regular/8448-8703.pbf": {
+      "bytes": 10052,
+      "sha256": "8947f7621702159824973ac81d1e74a42de28779ad72eb5fe9b263961a98b86f"
+    },
+    "glyphs/Megaprojects Serif Regular/8704-8959.pbf": {
+      "bytes": 5352,
+      "sha256": "c3feef12bfb91b4abd6a270e15c4248bd959fe471e666708c25634b0def9ccfe"
+    },
+    "glyphs/Megaprojects Serif Regular/9472-9727.pbf": {
+      "bytes": 4359,
+      "sha256": "ce4ae3093432234111704f7d64d2b0a546e31c7989f283d6899295324a81115c"
+    },
+    "glyphs/Megaprojects Serif Regular/9728-9983.pbf": {
+      "bytes": 1633,
+      "sha256": "b5e11347dabf859204bd2601b836b427627c2123ec6650d28e066d16f234a21f"
+    },
+    "glyphs/Megaprojects Serif Regular/9984-10239.pbf": {
+      "bytes": 1156,
+      "sha256": "719514c212582c08f607a584a6f55867ffc890485dde750f444a43dbcc79e67e"
+    },
+    "glyphs/Megaprojects Serif Regular/11776-12031.pbf": {
+      "bytes": 882,
+      "sha256": "6710005b9b64cba47e6688b2584a08fed6d50e51d4afe57ea7c0078dfe47f08a"
+    },
+    "glyphs/Megaprojects Serif Regular/64256-64511.pbf": {
+      "bytes": 2928,
+      "sha256": "e09467ce48446226b1527f165eb06c641761ca244f8361ed396ec1b2418080b2"
+    },
+    "glyphs/Megaprojects Serif SemiBold/0-255.pbf": {
+      "bytes": 77694,
+      "sha256": "ae81a8bc2077211717a14cd3bda23e3a9c956abb322cb09f9ce86a0c517c09d0"
+    },
+    "glyphs/Megaprojects Serif SemiBold/256-511.pbf": {
+      "bytes": 75197,
+      "sha256": "955783f9f54efc8c33e0ac83794eab85dc8aa72e5c06179b9c0e3f5ec91be2a3"
+    },
+    "glyphs/Megaprojects Serif SemiBold/512-767.pbf": {
+      "bytes": 7742,
+      "sha256": "720be93ada9d40a2314b42d8a55f30934eba6eee3a0b25f8ede1e95ff2d42edc"
+    },
+    "glyphs/Megaprojects Serif SemiBold/768-1023.pbf": {
+      "bytes": 37746,
+      "sha256": "7aed5776d364980d508bff860d225a78e3e8d1cc9b98fff1459cb458134a9f70"
+    },
+    "glyphs/Megaprojects Serif SemiBold/1024-1279.pbf": {
+      "bytes": 72692,
+      "sha256": "6c8e320276e930f30dd86bd954764f981153b25fae07c7dbc78c6029e64c4bb2"
+    },
+    "glyphs/Megaprojects Serif SemiBold/7424-7679.pbf": {
+      "bytes": 3737,
+      "sha256": "5da8a5891cc5af30e765737239ea261317b6a91dda4266183c304570530fdc74"
+    },
+    "glyphs/Megaprojects Serif SemiBold/7680-7935.pbf": {
+      "bytes": 78138,
+      "sha256": "2cdf8ce22cfb12c401a989d9363dde68043fd5b71ca5d7ed5a27203ffa30104e"
+    },
+    "glyphs/Megaprojects Serif SemiBold/8192-8447.pbf": {
+      "bytes": 19748,
+      "sha256": "a7d3d2c88815d896d13c8dabcd8cc805cef039a1fdcfe1add11135993652fca0"
+    },
+    "glyphs/Megaprojects Serif SemiBold/8448-8703.pbf": {
+      "bytes": 10125,
+      "sha256": "59013e9e0eaea99a650a8f33f9fd91d3a714953d692bfaa671c2f071161d8fe0"
+    },
+    "glyphs/Megaprojects Serif SemiBold/8704-8959.pbf": {
+      "bytes": 5500,
+      "sha256": "9f962334eb68ed357fa0aa1548d737f2754b107c28596fd36ce5afc1819033be"
+    },
+    "glyphs/Megaprojects Serif SemiBold/9472-9727.pbf": {
+      "bytes": 4491,
+      "sha256": "20a268ab2d19867601330f06334a2275a7a9ca3bef16acebd9645d8488ebb2a3"
+    },
+    "glyphs/Megaprojects Serif SemiBold/9728-9983.pbf": {
+      "bytes": 1657,
+      "sha256": "985b8601f2f8e6076a6983d8a543a1401e4ecdc904cc62a07dba579e15bc5b4c"
+    },
+    "glyphs/Megaprojects Serif SemiBold/9984-10239.pbf": {
+      "bytes": 1232,
+      "sha256": "42343a9057403e28a6c63a4c0b3630d5330092e5a8f589e4331ee9f1290d348a"
+    },
+    "glyphs/Megaprojects Serif SemiBold/11776-12031.pbf": {
+      "bytes": 898,
+      "sha256": "27d0c63c4ae32a95d2c9a6cb16d694a95d80291910a9ec4276109513605edc56"
+    },
+    "glyphs/Megaprojects Serif SemiBold/64256-64511.pbf": {
+      "bytes": 3024,
+      "sha256": "e3e57d98c6aeeb9aa229011868d2a403b0c096d7256b62bcbd49c90ddfbaf51e"
+    },
+    "glyphs/Megaprojects Serif Italic/0-255.pbf": {
+      "bytes": 78455,
+      "sha256": "cd9c6f415d0aed6dd7dd7d2ae42dc57ae419a5d7337da5b72272076210ef0e1b"
+    },
+    "glyphs/Megaprojects Serif Italic/256-511.pbf": {
+      "bytes": 76366,
+      "sha256": "100cac6fb12c2c84361214ac5e5b3b3b8b34d1e7585dc6165a2ae7b9f45aa8fc"
+    },
+    "glyphs/Megaprojects Serif Italic/512-767.pbf": {
+      "bytes": 7555,
+      "sha256": "b6b6f43cf1cdcdba25d1ef6f4bd35585ef0af2e1d0188f10f93b556e027ccddd"
+    },
+    "glyphs/Megaprojects Serif Italic/768-1023.pbf": {
+      "bytes": 37198,
+      "sha256": "5dd660d3b758289431d754023c3a6defa769de28b6265e9be33635a6c7a9ac4c"
+    },
+    "glyphs/Megaprojects Serif Italic/1024-1279.pbf": {
+      "bytes": 72613,
+      "sha256": "8d1cf8fa662207ebd5ccb08f526b5290dfbada933e5a3fad88017ece6000bd77"
+    },
+    "glyphs/Megaprojects Serif Italic/7424-7679.pbf": {
+      "bytes": 3795,
+      "sha256": "1c9ee2a68f062e90d3e9d710d8584bbfb35db8f5ae1d8b227e6db14c8cc789b4"
+    },
+    "glyphs/Megaprojects Serif Italic/7680-7935.pbf": {
+      "bytes": 78266,
+      "sha256": "634240c7762f81a228a0e674aec4d985994a1cccc51457075decda97bae8ff23"
+    },
+    "glyphs/Megaprojects Serif Italic/8192-8447.pbf": {
+      "bytes": 20507,
+      "sha256": "594b3dfe2b9516ba47c3bd94b7ad00b13e76215c14504ae9806f93443c209b55"
+    },
+    "glyphs/Megaprojects Serif Italic/8448-8703.pbf": {
+      "bytes": 9640,
+      "sha256": "dff3dab8d446e5b01710046c4734446ccf89ae3e6779049be722b337a3cb16a8"
+    },
+    "glyphs/Megaprojects Serif Italic/8704-8959.pbf": {
+      "bytes": 5472,
+      "sha256": "697b62f1914e8885ae3101e86891e4990452611d0a8e0fc1e49e6cbff98bff1b"
+    },
+    "glyphs/Megaprojects Serif Italic/9472-9727.pbf": {
+      "bytes": 4426,
+      "sha256": "9f15e4830c77eb856c05791804b795dba411d69ef55238371a05aebb26f1ec4b"
+    },
+    "glyphs/Megaprojects Serif Italic/9728-9983.pbf": {
+      "bytes": 1632,
+      "sha256": "2167a47eea89e4e8757bfa80bbe40c8e385539eb8b5cda868b5adbc11caf5dba"
+    },
+    "glyphs/Megaprojects Serif Italic/9984-10239.pbf": {
+      "bytes": 1155,
+      "sha256": "25af02b68d96d9688d1c865575586ad69cd5b2b2d862a884f7392c1799764b1e"
+    },
+    "glyphs/Megaprojects Serif Italic/11776-12031.pbf": {
+      "bytes": 881,
+      "sha256": "b065dfbc0d9e3e5c0c92e87affbc436e09c9c50d807a55c66cbe070f359b5e08"
+    },
+    "glyphs/Megaprojects Serif Italic/64256-64511.pbf": {
+      "bytes": 4283,
+      "sha256": "99af71fd04507fea6f1f43bbcad6e65eb22f887af1ae510009908b5cfc21ecc8"
+    }
+  }
+}

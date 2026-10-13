@@ -1,0 +1,8 @@
+import { render } from 'preact';
+import { App } from './App';
+import './styles.css';
+
+const root = document.getElementById('app')!;
+// index.html holds a static title and byline for the first paint; the app draws its own in their place.
+root.replaceChildren();
+render(<App />, root);

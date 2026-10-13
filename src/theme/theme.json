@@ -1,0 +1,93 @@
+{
+  "name": "Placeholder",
+  "note": "colors, type, map and opacity are BAM's (matthew6113/BAM src/theme/theme.json at 9600699), kept identical so the two maps can share one theme file. transit is this map's own group. Matthew will supply the final palette: replace this file; no code needs to change. The mode hues are placeholders validated for color-vision deficiency in legend order (docs/DECISIONS.md).",
+  "colors": {
+    "land": "#FBFAF6",
+    "water": "#E3E8EA",
+    "shoreline": "#9CA6AE",
+    "outsideRegion": "#F2F0EA",
+    "buildings": "#3A3631",
+    "labels": "#3A3835",
+    "context": "#C5CAD0",
+    "contextExtrusion": "#C9CDD2",
+    "selection": "#000000",
+    "selectionFill": "#DEDAD1",
+    "panelBackground": "#FFFFFF",
+    "panelText": "#1E1E1E",
+    "panelRule": "#E3E3E3"
+  },
+  "opacity": {
+    "buildings": 0.85,
+    "buildingsRegional": 0.22,
+    "buildingsCity": 0.45,
+    "contextExtrusion": 0.45
+  },
+  "transit": {
+    "note": "Hue always means mode (decision 2). Order matters: the legend lists the modes in this order, and adjacent hues were checked for color-vision deficiency.",
+    "modes": {
+      "heavy_rail": "#1F5FAD",
+      "commuter_rail": "#C02942",
+      "interurban": "#6A3FB0",
+      "streetcar": "#2F7D1F",
+      "cable": "#A62F86",
+      "light_rail": "#B35400",
+      "ferry": "#007FA8",
+      "brt": "#7F6A00",
+      "heritage": "#6F665C"
+    },
+    "widths": {
+      "note": "Width multipliers by mode: a second channel for mode besides hue.",
+      "heavy_rail": 1,
+      "commuter_rail": 1,
+      "interurban": 0.85,
+      "streetcar": 0.6,
+      "cable": 0.55,
+      "light_rail": 0.8,
+      "ferry": 0.65,
+      "brt": 0.7,
+      "heritage": 0.6
+    },
+    "eras": {
+      "ghostOpacity": 0.3,
+      "presentInFuture": 0.4,
+      "borrowedDatesMix": 0.5,
+      "fadeInYears": 1,
+      "fadeOutYears": 2
+    },
+    "status": {
+      "note": "Future status as solidity, not hue (decision 2). Placeholder: Phase 3 shows options.",
+      "planned": 0.5,
+      "environmental": 0.65,
+      "funded": 0.8,
+      "under_construction": 0.95,
+      "opening": 1
+    }
+  },
+  "type": {
+    "ui": "Libre Franklin",
+    "text": "Megaprojects Serif",
+    "mapLabels": "Libre Franklin"
+  },
+  "map": {
+    "shorelineWidth": 1,
+    "heightExaggeration": 1,
+    "light": {
+      "color": "#FFFFFF",
+      "azimuth": 210,
+      "polar": 40,
+      "intensity": 0.35
+    }
+  },
+  "layers": {
+    "buildings": true,
+    "water": true,
+    "shoreline": true,
+    "saltPonds": true,
+    "outsideRegion": true,
+    "labels": true,
+    "contextRoads": true,
+    "contextRail": true,
+    "contextFerry": false,
+    "overview": "all"
+  }
+}

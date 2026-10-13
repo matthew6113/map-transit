@@ -1,0 +1,307 @@
+/**
+ * The basemap half of BAM's style (src/map/style.ts at 9600699), split out so another map can put its
+ * own layers on top: land, water, shoreline, context roads and rail, buildings, then labels. Layer ids
+ * and every paint value are BAM's; the changes are listed in docs/VENDORED.md:
+ * - `layers.context` is three flags (roads, rail, ferry), and rail can be freight-only, because this
+ *   map draws its own transit lines;
+ * - two slots for the caller's layers: `under` (above context, below buildings, where BAM's selection
+ *   fill sits) and `over` (above buildings, below labels);
+ * - 3D context buildings follow the 2D/3D mode only (BAM also shows them while a project is open).
+ */
+import type { ExpressionSpecification, LayerSpecification, SourceSpecification, StyleSpecification } from 'maplibre-gl';
+import type { Theme } from '../theme/theme';
+import {
+  CONTEXT_EXTRUSION_MIN_ZOOM,
+  DETAIL_MAX_ZOOM,
+  DETAIL_MIN_ZOOM,
+  DETAIL_ZOOMS,
+  GLYPHS_URL,
+  LABELS_URL,
+  TILE_BASE_URL,
+} from './config';
+
+export type ViewMode = '2d' | '3d';
+
+export interface BasemapOptions {
+  mode: ViewMode;
+  /** Layers drawn above the context lines and below the buildings. */
+  under?: LayerSpecification[];
+  /** Layers drawn above the buildings and below the labels. */
+  over?: LayerSpecification[];
+  /** Extra sources for those layers. */
+  sources?: Record<string, SourceSpecification>;
+  /** Context rail: every line (BAM's look) or freight only (this map draws its own transit). */
+  rail?: 'all' | 'freight';
+  name?: string;
+  /** Global state defaults, kept constant so a diffed setStyle never resets them. */
+  state?: StyleSpecification['state'];
+}
+
+export const OSM_CREDIT =
+  '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>, ' +
+  '<a href="https://overturemaps.org">Overture Maps Foundation</a>';
+
+/** Fontstack names match the glyph folders built by BAM's scripts/build-glyphs.mjs. */
+export function fontStacks(family: string) {
+  return {
+    regular: [`${family} Regular`],
+    medium: [family === 'Libre Franklin' ? 'Libre Franklin Medium' : `${family} SemiBold`],
+    italic: [`${family} Italic`],
+  };
+}
+
+const visible = (on: boolean) => (on ? 'visible' : 'none') as 'visible' | 'none';
+
+/** Builds the whole MapLibre style from the theme. Every color comes from the theme. */
+export function buildBasemapStyle(theme: Theme, opts: BasemapOptions): StyleSpecification {
+  const c = theme.colors;
+  const L = theme.layers;
+  const fonts = fontStacks(theme.type.mapLabels);
+  const w = theme.map.shorelineWidth;
+  const showSaltPonds = L.saltPonds;
+
+  const waterFilter: ExpressionSpecification = showSaltPonds
+    ? ['==', ['geometry-type'], 'Polygon']
+    : ['!=', ['get', 'kind'], 'salt_pond'];
+
+  const shorelineWidth: ExpressionSpecification = [
+    'interpolate', ['exponential', 1.4], ['zoom'],
+    6, 0.45 * w,
+    10, 0.7 * w,
+    14, 1.1 * w,
+    18, 1.8 * w,
+  ];
+
+  const cityLabel = (tier: 1 | 2 | 3, minzoom: number): LayerSpecification => ({
+    id: `label-city-${tier}`,
+    type: 'symbol',
+    source: 'labels',
+    minzoom,
+    maxzoom: 14.5,
+    filter: ['all', ['==', ['get', 'kind'], 'city'], ['==', ['get', 'tier'], tier]],
+    layout: {
+      visibility: visible(L.labels),
+      'text-field': ['get', 'name'],
+      'text-font': tier === 1 ? fonts.medium : fonts.regular,
+      'text-size': tier === 1
+        ? ['interpolate', ['linear'], ['zoom'], 6, 11.5, 9, 14, 12, 15.5]
+        : tier === 2
+          ? ['interpolate', ['linear'], ['zoom'], 8, 11, 10, 12.5, 13, 13.5]
+          : ['interpolate', ['linear'], ['zoom'], 10, 11, 13, 12.5],
+      'text-letter-spacing': 0.01,
+      'text-max-width': 8,
+      'symbol-sort-key': tier,
+      'text-padding': 6,
+    },
+    paint: {
+      'text-color': c.labels,
+      'text-halo-color': c.land,
+      'text-halo-width': 2,
+      'text-halo-blur': 0.5,
+    },
+  });
+
+  const waterLabel = (tier: 1 | 2 | 3, minzoom: number): LayerSpecification => ({
+    id: `label-water-${tier}`,
+    type: 'symbol',
+    source: 'labels',
+    minzoom,
+    filter: ['all', ['==', ['get', 'kind'], 'water'], ['==', ['get', 'tier'], tier]],
+    layout: {
+      visibility: visible(L.labels),
+      'text-field': ['get', 'name'],
+      'text-font': fonts.italic,
+      'text-size': tier === 1
+        ? ['interpolate', ['linear'], ['zoom'], 6, 11, 9, 13, 12, 15]
+        : ['interpolate', ['linear'], ['zoom'], 8, 10.5, 11, 12.5],
+      'text-letter-spacing': 0.06,
+      'text-max-width': 7,
+      'symbol-sort-key': tier,
+    },
+    paint: {
+      'text-color': c.labels,
+      'text-halo-color': c.water,
+      'text-halo-width': 1.2,
+      'text-halo-blur': 0.4,
+    },
+  });
+
+  const railFilter: ExpressionSpecification = opts.rail === 'freight'
+    ? ['all', ['==', ['get', 'kind'], 'rail'], ['!=', ['get', 'transit'], true]]
+    : ['==', ['get', 'kind'], 'rail'];
+
+  const layers: LayerSpecification[] = [
+    { id: 'land', type: 'background', paint: { 'background-color': c.land } },
+    {
+      id: 'outside-region',
+      type: 'fill',
+      source: 'base',
+      'source-layer': 'region_mask',
+      layout: { visibility: visible(L.outsideRegion) },
+      paint: { 'fill-color': c.outsideRegion, 'fill-antialias': false },
+    },
+    {
+      id: 'water',
+      type: 'fill',
+      source: 'base',
+      'source-layer': 'water',
+      filter: waterFilter,
+      layout: { visibility: visible(L.water) },
+      paint: { 'fill-color': c.water, 'fill-antialias': false },
+    },
+    {
+      id: 'shoreline',
+      type: 'line',
+      source: 'base',
+      'source-layer': 'shoreline',
+      filter: showSaltPonds ? ['has', 'kind'] : ['==', ['get', 'kind'], 'shore'],
+      layout: { visibility: visible(L.shoreline && L.water), 'line-join': 'round', 'line-cap': 'round' },
+      paint: { 'line-color': c.shoreline, 'line-width': shorelineWidth },
+    },
+    {
+      id: 'context-highway',
+      type: 'line',
+      source: 'base',
+      'source-layer': 'context',
+      filter: ['==', ['get', 'kind'], 'highway'],
+      layout: { visibility: visible(L.contextRoads), 'line-join': 'round', 'line-cap': 'round' },
+      paint: {
+        'line-color': c.context,
+        'line-width': ['interpolate', ['exponential', 1.5], ['zoom'], 9, 0.4, 12, 0.8, 16, 2],
+      },
+    },
+    {
+      id: 'context-freeway',
+      type: 'line',
+      source: 'base',
+      'source-layer': 'context',
+      filter: ['==', ['get', 'kind'], 'freeway'],
+      layout: { visibility: visible(L.contextRoads), 'line-join': 'round', 'line-cap': 'round' },
+      paint: {
+        'line-color': c.context,
+        'line-width': ['interpolate', ['exponential', 1.5], ['zoom'], 7, 0.45, 12, 1.2, 16, 3],
+      },
+    },
+    {
+      id: 'context-rail',
+      type: 'line',
+      source: 'base',
+      'source-layer': 'context',
+      filter: railFilter,
+      layout: { visibility: visible(L.contextRail), 'line-join': 'round' },
+      paint: {
+        'line-color': c.context,
+        // Transit lines read a little stronger than freight track.
+        'line-width': [
+          'interpolate', ['linear'], ['zoom'],
+          8, ['case', ['==', ['get', 'transit'], true], 0.7, 0.5],
+          14, ['case', ['==', ['get', 'transit'], true], 1.5, 1.1],
+        ],
+        'line-dasharray': [4, 2],
+      },
+    },
+    {
+      id: 'context-ferry',
+      type: 'line',
+      source: 'base',
+      'source-layer': 'context',
+      filter: ['==', ['get', 'kind'], 'ferry'],
+      layout: { visibility: visible(L.contextFerry), 'line-cap': 'round' },
+      paint: {
+        'line-color': c.shoreline,
+        'line-width': ['interpolate', ['linear'], ['zoom'], 9, 0.6, 14, 1.2],
+        'line-dasharray': [0.5, 2.5],
+      },
+    },
+    ...(opts.under ?? []),
+    {
+      id: 'buildings-overview',
+      type: 'fill',
+      source: 'buildings-overview',
+      'source-layer': 'buildings',
+      maxzoom: DETAIL_MIN_ZOOM,
+      layout: { visibility: visible(L.buildings) },
+      paint: {
+        'fill-color': c.buildings,
+        // Soft ink until street level, so density reads as tone; full ink from DETAIL_MIN_ZOOM.
+        'fill-opacity': [
+          'interpolate', ['exponential', 1.4], ['zoom'],
+          8, theme.opacity.buildingsRegional,
+          DETAIL_MIN_ZOOM - 0.5, theme.opacity.buildingsCity,
+          DETAIL_MIN_ZOOM, theme.opacity.buildings,
+        ],
+      },
+    },
+    // Street-level buildings come from one archive per zoom (BAM pipeline tiles.py).
+    ...DETAIL_ZOOMS.map((z): LayerSpecification => ({
+      id: `buildings-z${z}`,
+      type: 'fill',
+      source: `buildings-z${z}`,
+      'source-layer': 'buildings',
+      minzoom: z,
+      ...(z < DETAIL_MAX_ZOOM ? { maxzoom: z + 1 } : {}),
+      layout: { visibility: visible(L.buildings) },
+      paint: { 'fill-color': c.buildings, 'fill-opacity': theme.opacity.buildings },
+    })),
+    // Faint context massing for buildings with a mapped or measured height (3D mode only).
+    ...DETAIL_ZOOMS.filter((z) => z >= CONTEXT_EXTRUSION_MIN_ZOOM).map((z): LayerSpecification => ({
+      id: `buildings-context-3d-z${z}`,
+      type: 'fill-extrusion',
+      source: `buildings-z${z}`,
+      'source-layer': 'buildings',
+      minzoom: z,
+      ...(z < DETAIL_MAX_ZOOM ? { maxzoom: z + 1 } : {}),
+      layout: { visibility: visible(L.buildings && opts.mode === '3d') },
+      paint: {
+        'fill-extrusion-color': c.contextExtrusion,
+        'fill-extrusion-height': ['*', ['get', 'h'], theme.map.heightExaggeration],
+        'fill-extrusion-base': 0,
+        'fill-extrusion-opacity': [
+          'interpolate', ['linear'], ['zoom'],
+          CONTEXT_EXTRUSION_MIN_ZOOM, 0,
+          CONTEXT_EXTRUSION_MIN_ZOOM + 1, theme.opacity.contextExtrusion,
+        ],
+        'fill-extrusion-vertical-gradient': true,
+      },
+    })),
+    ...(opts.over ?? []),
+    waterLabel(1, 6),
+    waterLabel(2, 7.8),
+    waterLabel(3, 10),
+    cityLabel(1, 6),
+    cityLabel(2, 8.4),
+    cityLabel(3, 10),
+  ];
+
+  const overview = L.overview === 'light' ? 'buildings-overview-light' : 'buildings-overview-all';
+
+  return {
+    version: 8,
+    name: opts.name ?? `Basemap (${theme.name})`,
+    glyphs: GLYPHS_URL,
+    ...(opts.state ? { state: opts.state } : {}),
+    light: {
+      anchor: 'map',
+      color: theme.map.light.color,
+      intensity: theme.map.light.intensity,
+      position: [1.15, theme.map.light.azimuth, theme.map.light.polar],
+    },
+    sources: {
+      base: { type: 'vector', url: `pmtiles://${TILE_BASE_URL}/base.pmtiles`, attribution: OSM_CREDIT },
+      'buildings-overview': {
+        type: 'vector',
+        url: `pmtiles://${TILE_BASE_URL}/${overview}.pmtiles`,
+        attribution: OSM_CREDIT,
+      },
+      ...Object.fromEntries(
+        DETAIL_ZOOMS.map((z) => [
+          `buildings-z${z}`,
+          { type: 'vector' as const, url: `pmtiles://${TILE_BASE_URL}/buildings-z${z}.pmtiles`, attribution: OSM_CREDIT },
+        ]),
+      ),
+      labels: { type: 'geojson', data: LABELS_URL },
+      ...(opts.sources ?? {}),
+    },
+    layers,
+  };
+}
