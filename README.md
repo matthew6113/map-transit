@@ -19,7 +19,7 @@ Requirements: Node 22+ and [uv](https://docs.astral.sh/uv/).
 
 ```sh
 npm install
-make basemap     # optional: copy BAM's built basemap locally (277 MB); without it, dev proxies BAM's site
+make basemap     # optional: copy BAM's built basemap locally (279 MB); without it, dev proxies BAM's site
 npm run dev      # http://127.0.0.1:5173
 ```
 

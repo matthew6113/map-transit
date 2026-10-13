@@ -3,7 +3,7 @@
   "source": "https://matthew6113.github.io/BAM/generated",
   "bam_commit_read": "9600699ae10affa5787c1a73374c34a5fa8e4b41",
   "fetched": "2026-10-13",
-  "id": "830e7d00280d",
+  "id": "c58e3ba99831",
   "files": {
     "tiles/base.pmtiles": {
       "bytes": 6157951,
@@ -22,12 +22,12 @@
       "sha256": "3de03be36d7fc8d49f8b954cffdb344c2309990bf46920f075a10f2b7d0ffc66"
     },
     "tiles/buildings-z14.pmtiles": {
-      "bytes": 55537024,
-      "sha256": "39d3d8399d0c110c94710ac75c7d8fe2a3267c3bb99cfb1c2bdf3618e825292f"
+      "bytes": 55938468,
+      "sha256": "a2e9ba0f03067e010805f4a2a88bb0fcec70f702dbc1ddc0f1b9538a8743bf87"
     },
     "tiles/buildings-z15.pmtiles": {
-      "bytes": 64998016,
-      "sha256": "c55980d88cffdd6732ab031490ea6865b1474f511b47873affbe58ccf251a27b"
+      "bytes": 66052844,
+      "sha256": "fce4bae52500cc70bb36b63c2f516b87261cdacb3c0d3f2677ff89fa389e65aa"
     },
     "data/labels.geojson": {
       "bytes": 10545,

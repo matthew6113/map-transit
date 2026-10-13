@@ -4,6 +4,10 @@ Data changes, newest first. Code changes are in the git log.
 
 ## 2026-10-13: Phase 1 (without the 511 key)
 
+- **Basemap re-pinned** as snapshot `c58e3ba99831` (110 files, 279 MB). BAM's files are unchanged
+  since the Phase 0 snapshot; that snapshot's lock recorded two building tiles (z14 and z15) that the
+  container's proxy had cut short, so a complete download never matched it. Downloads now check every
+  file's length and retry.
 - **Amtrak.** Three lines from Amtrak's national GTFS (version 20261013), clipped at the map's
   edge:
   - Capitol Corridor

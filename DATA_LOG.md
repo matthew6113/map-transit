@@ -15,7 +15,7 @@ Status key: **in use** is drawn on the map; **checked** was used only to check o
 |---|---|
 | Status | In use. |
 | Origin | `https://matthew6113.github.io/BAM/generated/`, the build of [matthew6113/BAM](https://github.com/matthew6113/BAM) as deployed on Oct 13, 2026. BAM's source was read at commit `9600699`. |
-| Contents | 110 files, 277 MB, listed with SHA-256s in `basemap.lock.json` (snapshot id `830e7d00280d`). Tiles: `base.pmtiles` (region mask, water, shoreline, context roads, rail and ferries); building footprints for the overview and for z13, z14 and z15; city and water labels; Libre Franklin and Megaprojects Serif fonts with SDF glyphs. |
+| Contents | 110 files, 279 MB, listed with SHA-256s in `basemap.lock.json` (snapshot id `c58e3ba99831`). Tiles: `base.pmtiles` (region mask, water, shoreline, context roads, rail and ferries); building footprints for the overview and for z13, z14 and z15; city and water labels; Libre Franklin and Megaprojects Serif fonts with SDF glyphs. |
 | License | Map data © OpenStreetMap contributors and Overture Maps Foundation (release 2026-09-23.1), ODbL 1.0. Building footprints also from Microsoft and Esri Community Maps contributors. Fonts under the SIL Open Font License; the OFL texts are copied with them. See BAM's `data/CREDITS.md`. |
 | How to refresh | `make basemap-refresh`, then review the diff of `basemap.lock.json`. |
 | Gaps | Context rail carries no names or operators. Abandoned, disused and under-construction track was filtered out in BAM's pipeline. |

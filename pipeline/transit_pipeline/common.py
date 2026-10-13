@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import time
 import urllib.request
 from pathlib import Path
 
@@ -45,11 +46,18 @@ def fetch(url: str, dest: Path, timeout: int = 300, refresh: bool = False) -> Pa
     dest.parent.mkdir(parents=True, exist_ok=True)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     tmp = dest.with_suffix(dest.suffix + ".part")
-    with urllib.request.urlopen(req, timeout=timeout) as r, open(tmp, "wb") as f:
-        while chunk := r.read(1 << 20):
-            f.write(chunk)
-    tmp.rename(dest)
-    return dest
+    # Some proxies end a long transfer early without an error, so check the length and retry.
+    for attempt in range(4):
+        with urllib.request.urlopen(req, timeout=timeout) as r, open(tmp, "wb") as f:
+            expected = r.headers.get("Content-Length")
+            while chunk := r.read(1 << 20):
+                f.write(chunk)
+        if expected is None or tmp.stat().st_size == int(expected):
+            tmp.rename(dest)
+            return dest
+        time.sleep(2 ** attempt)
+    tmp.unlink()
+    raise OSError(f"download of {dest.name} was cut short {attempt + 1} times")
 
 
 def sha256(path: Path) -> str:

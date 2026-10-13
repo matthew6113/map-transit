@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import sys
+import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -53,7 +54,14 @@ FONTSTACKS = [
 
 
 def _request(url: str, method: str = "GET"):
-    return urllib.request.urlopen(urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT}), timeout=120)
+    """Open a URL, retrying a few times when GitHub Pages answers 5xx under the glyph probe's load."""
+    for attempt in range(5):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT}), timeout=120)
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt == 4:
+                raise
+            time.sleep(2 ** attempt)
 
 
 def _exists(url: str) -> bool:
@@ -69,18 +77,29 @@ def _exists(url: str) -> bool:
 def discover() -> list[str]:
     """Every file to copy: the fixed list, plus each fontstack's glyph ranges that exist."""
     probes = [f"glyphs/{stack}/{start}-{start + 255}.pbf" for stack in FONTSTACKS for start in range(0, 65536, 256)]
-    with ThreadPoolExecutor(16) as pool:
+    with ThreadPoolExecutor(8) as pool:
         found = [p for p, ok in zip(probes, pool.map(lambda p: _exists(f"{BAM_SITE}/{urllib.request.quote(p)}"), probes)) if ok]
     return FILES + found
 
 
 def download(path: str, dest: Path) -> None:
+    """Download one file whole. A transfer cut short (some proxies end it without an error) is retried,
+    so a truncated tile can never be written to the lock."""
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(dest.suffix + ".part")
-    with _request(f"{BAM_SITE}/{urllib.request.quote(path)}") as r, open(tmp, "wb") as f:
-        while chunk := r.read(1 << 20):
-            f.write(chunk)
-    tmp.rename(dest)
+    for attempt in range(5):
+        with _request(f"{BAM_SITE}/{urllib.request.quote(path)}") as r, open(tmp, "wb") as f:
+            expected = r.headers.get("Content-Length")
+            while chunk := r.read(1 << 20):
+                f.write(chunk)
+        got = tmp.stat().st_size
+        if expected is None or got == int(expected):
+            tmp.rename(dest)
+            return
+        print(f"[basemap] {path}: got {got} of {expected} bytes, retrying", file=sys.stderr)
+        time.sleep(2 ** attempt)
+    tmp.unlink()
+    sys.exit(f"[basemap] {path}: every download was cut short")
 
 
 def refresh() -> None:
