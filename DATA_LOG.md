@@ -81,7 +81,7 @@ Railway.
 | U.S. DOT NTAD North American Rail Network | Candidate | Public domain. Out-of-service arcs; BAM's `ntad_rail.py` fetches it. |
 | USGS Historical Topographic Map Collection | Candidate | Public domain, already georeferenced, 1890s onward. Source for `digitized` geometry. |
 | Library of Congress railroad and Sanborn maps | Candidate | Public domain (pre-1929). |
-| David Rumsey Map Collection and Allmaps georeferences | Candidate | The scans are CC BY-NC-SA. Whether tracing facts from public-domain maps through these scans is allowed is an open license question for Matthew. |
+| David Rumsey Map Collection and Allmaps georeferences | Candidate, fallback only (decision 7) | The scans are CC BY-NC-SA 3.0 (https://davidrumsey.com/about; https://purl.stanford.edu/xh235dd9059). Non-commercial use only; adaptations take the same license; commercial republication needs permission from rumseymapcenter@stanford.edu. Credit: "David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries." Used only where no USGS or Library of Congress map shows the line, and every feature traced from one is tagged with this license. |
 | Demoro, *The Key Route*; Ford, *Red Trains in the East Bay*; Sappers; Western Railway Museum; Market Street Railway; cable-car-guy.com | Candidate | Dates and text routings. The printed books may need page citations from Matthew. |
 
 <!-- coverage:start -->

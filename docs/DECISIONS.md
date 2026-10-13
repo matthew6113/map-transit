@@ -23,6 +23,24 @@ Choices made so far, newest last within each section. A decision waiting on Matt
    - A shared segment borrows the earliest sourced opening and the latest sourced closing.
    - With nothing sourced, the segment is left off the slider.
 
+## Made by Matthew (2026-10-13, Phase 1 planning)
+
+5. **Ferries: every public ferry in 511's regional feed is part of the present network,** not only
+   SF Bay Ferry and Golden Gate Ferry. Seasonal or tourist routes are included if 511 carries them,
+   and their panel says so when the feed marks them seasonal.
+6. **The placeholder palette stays through the Phase 1 checkpoint.** Matthew will supply his own.
+7. **Rumsey scans: public-domain maps first.**
+   - Geometry is traced from USGS and Library of Congress scans (public domain) first.
+   - A David Rumsey Map Collection scan is used only where no public-domain map shows the line.
+   - The Rumsey images are CC BY-NC-SA 3.0. Non-commercial use is allowed "in any work or
+     publication, either in print or digital media"; adaptations must carry the same license; and
+     commercial republication needs permission (rumseymapcenter@stanford.edu).
+   - Every feature traced from a Rumsey scan cites a source whose `license` is "CC BY-NC-SA 3.0
+     (David Rumsey Map Collection)", so those features can be listed and swapped out.
+   - Credit: "David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries."
+8. **`main` was created at the first scaffold commit,** and Phase 0 and 1 merge to it through a pull
+   request. Merging to `main` deploys to GitHub Pages.
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**
