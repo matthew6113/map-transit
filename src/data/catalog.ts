@@ -92,6 +92,19 @@ export const ERA_FILES: Record<Era, { draw: string; lines: string; points: strin
 
 const absolute = (url: string) => new URL(url, location.href).href;
 
+/**
+ * The rendering spike (tests/perf.spec.ts) swaps the past era for 10,000 synthetic features with
+ * ?perf=synthetic. Development server only: production builds drop this branch.
+ */
+const SYNTHETIC = import.meta.env.DEV && new URLSearchParams(location.search).get('perf') === 'synthetic';
+if (SYNTHETIC) {
+  ERA_FILES.past = {
+    draw: '/tests/fixtures/synthetic-draw.geojson',
+    lines: '/tests/fixtures/synthetic-lines.geojson',
+    points: '/tests/fixtures/synthetic-points.geojson',
+  };
+}
+
 /** Source URLs for MapLibre, which resolves them in a worker: make them absolute. */
 export function eraUrls(era: Era) {
   const f = ERA_FILES[era];

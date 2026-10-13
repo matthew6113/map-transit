@@ -1,0 +1,114 @@
+# Tests and builds the site, and deploys to GitHub Pages from main.
+# Pull requests build and test only. Settings -> Pages -> Source must be "GitHub Actions".
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      # Write is used only to archive the basemap snapshot as a release asset the first time.
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v7
+
+      # Where GitHub Pages serves the site (https://matthew6113.github.io/map-transit until a custom
+      # domain is set); the build follows it.
+      - name: Read the Pages address
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: astral-sh/setup-uv@v7
+
+      - run: npm ci
+
+      - run: npm test
+
+      - run: npx tsc --noEmit
+
+      # The app files must match the authoring data: rebuild them and fail on any difference.
+      - name: Check data/app is up to date
+        run: |
+          uv run --directory pipeline python -m transit_pipeline.build
+          git diff --exit-code -- data/app DATA_LOG.md || (echo "::error::data/app is stale: run make app-data and commit" && exit 1)
+
+      # BAM's basemap, pinned by basemap.lock.json (docs/DECISIONS.md). Restore it from this repo's
+      # release asset; the first build for a new lock copies it from BAM's site, checks every file and
+      # archives it, so later builds don't depend on BAM's current deploy.
+      - name: Restore the basemap snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(node -p "require('./basemap.lock.json').id")
+          tag="basemap-$id"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            mkdir -p public/generated
+            gh release download "$tag" --pattern 'basemap.tar' --output /tmp/basemap.tar --clobber
+            tar -xf /tmp/basemap.tar -C public/generated
+            uv run --directory pipeline python -m transit_pipeline.basemap verify
+          else
+            uv run --directory pipeline python -m transit_pipeline.basemap fetch
+            if [ "${{ github.event_name }}" != "pull_request" ] || [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+              tar -cf /tmp/basemap.tar -C public/generated .
+              gh release create "$tag" /tmp/basemap.tar --title "Basemap snapshot $id" --notes \
+                "BAM's built basemap (matthew6113/BAM), as listed in basemap.lock.json. Map data © OpenStreetMap contributors, Overture Maps Foundation (ODbL 1.0); buildings also from Microsoft and Esri Community Maps contributors; fonts under the SIL Open Font License."
+            fi
+          fi
+
+      # Always https: GitHub serves github.io and custom domains over HTTPS.
+      - run: npm run build
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+          SITE_URL: https://${{ steps.pages.outputs.host }}${{ steps.pages.outputs.base_path }}
+
+      - name: Upload the site
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  # The interaction tests in WebKit (mobile Safari's engine), which the cloud container lacks.
+  webkit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps webkit
+      - run: npm run e2e
+        env:
+          PW_WEBKIT: "1"
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

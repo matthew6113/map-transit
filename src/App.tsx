@@ -212,11 +212,13 @@ export function App() {
     map.easeTo({ ...camera, duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1200 });
   }, [map, closeLine]);
 
-  // Leaving an era closes a line it doesn't draw.
-  useEffect(() => {
-    const line = openId ? byId.get(openId) : null;
-    if (line && !DATASETS[era].includes(line.era)) void closeLine({ push: true });
-  }, [era]);
+  /** The era switcher: leaving an era closes a line it doesn't draw. (Opening a line from another
+   * era switches era itself, without closing anything.) */
+  const chooseEra = useCallback((next: Era) => {
+    const line = live.current.openId ? live.current.byId.get(live.current.openId) : null;
+    if (line && !DATASETS[next].includes(line.era)) void closeLine();
+    setEra(next);
+  }, [closeLine, setEra]);
 
   // Deep link on load, and the back and forward buttons.
   useEffect(() => {
@@ -253,6 +255,12 @@ export function App() {
     setYear(y);
   }, []);
 
+  // Test hooks (development and ?test=1 only), for the e2e and rendering tests.
+  useEffect(() => {
+    if (!import.meta.env.DEV && !params.has('test')) return;
+    (window as unknown as { __app: unknown }).__app = { setYear: onYear, setEra: chooseEra, openLine, closeLine };
+  }, [onYear, chooseEra, openLine, closeLine]);
+
   const line = openId ? byId.get(openId) : undefined;
   const undatedCount = lines.filter((l) => DATASETS.past.includes(l.era) && l.undated).length;
   const toggleGroup = (g: ModeGroup) =>
@@ -265,7 +273,7 @@ export function App() {
         <h1>{SITE_TITLE}</h1>
         <p class="byline">by <a href="https://www.matthewhuguet.com/">Matthew Huguet</a></p>
         <div class="era-bar">
-          <EraSwitcher era={era} onChange={setEra} />
+          <EraSwitcher era={era} onChange={chooseEra} />
           {era === 'past' && (
             <YearSlider year={year} playing={playing} speed={speed} onYear={onYear} onPlaying={setPlaying}
               onSpeed={setSpeed} undatedCount={undatedCount} />
