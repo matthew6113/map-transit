@@ -12,6 +12,7 @@ export function formatDate(d: string | null | undefined): string {
 
 export function formatLength(km: number): string {
   const mi = km / 1.609344;
+  if (mi < 0.1) return `${Math.max(1, Math.round(km * 1000))} m`;
   const r = (x: number) => (x >= 10 ? Math.round(x).toString() : x.toFixed(1));
   return `${r(mi)} mi (${r(km)} km)`;
 }
