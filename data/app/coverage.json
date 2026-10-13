@@ -1,0 +1,41 @@
+{
+  "past": {
+    "lines": 0,
+    "segments": 0,
+    "points": 0,
+    "km_by_confidence": {},
+    "undated_segments": 0,
+    "borrowed_dates": 0,
+    "flags": {}
+  },
+  "present": {
+    "lines": 6,
+    "segments": 6,
+    "points": 50,
+    "km_by_confidence": {
+      "surveyed": 394.1
+    },
+    "undated_segments": 6,
+    "borrowed_dates": 0,
+    "flags": {
+      "opened_unsourced": 62
+    }
+  },
+  "future": {
+    "lines": 6,
+    "segments": 14,
+    "points": 17,
+    "km_by_confidence": {
+      "approximate": 111.0,
+      "digitized": 21.7,
+      "surveyed": 10.5
+    },
+    "undated_segments": 0,
+    "borrowed_dates": 0,
+    "flags": {
+      "expected_opening_unsourced": 6,
+      "license_unclear": 15,
+      "status_unverified": 6
+    }
+  }
+}

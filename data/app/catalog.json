@@ -1,0 +1,2093 @@
+{
+  "lines": [
+    {
+      "id": "bart-silicon-valley-phase-2",
+      "name": "BART Silicon Valley Phase II",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "under_construction",
+      "status_label": "Under construction",
+      "status_as_of": "2026-10-07",
+      "expected_opening": null,
+      "last_verified": "2026-10-07",
+      "summary": "VTA's six-mile extension of BART from Berryessa through downtown San José to Santa Clara, with three underground stations, one at-grade station and a rail yard, built around a single tunnel about 53 feet across. Its adopted budget is $12.7 billion. Early works are under way at the tunnel launch site, but the federal grant that would pay for about 40% of it is not yet signed, and service is scheduled for 2039 (VTA aims for 2037).",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/bart-silicon-valley-phase-2/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (infrastructure): BAM stage 'infrastructure': early construction ahead of tunneling (launch structure dug, demolition and utility relocation at station sites). Stage note at 2026-10-07: Early construction, ahead of tunneling. Crews finished excavating the West Portal launch structure for the tunnel boring machine in early September 2026, and demolition and utility relocation are under way at station sites. In August 2026 VTA signed a restated tunnel contract and gave notice to proceed with pre-tunneling work only. The federal grant agreement that would fund most of the line is not yet signed (VTA's target is late 2027), the boring machine is in storage in Germany with delivery expected in the second half of 2027, and FTA's oversight consultant rates the project high risk while VTA re-baselines its cost and schedule.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 10.5,
+      "confidence_km": {
+        "surveyed": 10.5
+      },
+      "bbox": [
+        -121.942002,
+        37.331917,
+        -121.865311,
+        37.365361
+      ],
+      "fids": [
+        1,
+        2,
+        3
+      ],
+      "segments": [
+        {
+          "id": "bart-silicon-valley-phase-2-s1",
+          "name": "Santa Clara and Newhall Yard (above ground)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GIS: VTA BSVII_Alignment_2022 (Hosted feature service, layer 22), centreline of the two tracks",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ],
+          "notes": "At-grade and surface track from the tail track west of Santa Clara station to the West Portal"
+        },
+        {
+          "id": "bart-silicon-valley-phase-2-s2",
+          "name": "Single-bore tunnel",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GIS: VTA BSVII_Alignment_2022 (Hosted feature service, layer 22), centreline of the two tracks",
+          "structure": "tunnel",
+          "flags": [
+            "license_unclear"
+          ],
+          "notes": "About five miles between the West Portal and the East Portal"
+        },
+        {
+          "id": "bart-silicon-valley-phase-2-s3",
+          "name": "East Portal approach (above ground)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GIS: VTA BSVII_Alignment_2022 (Hosted feature service, layer 22), centreline of the two tracks",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ],
+          "notes": "Surface track from the Phase I tail tracks south of Berryessa to the East Portal"
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-bart-silicon-valley-phase-2-record",
+          "title": "Bay Area megaprojects: BART Silicon Valley Phase II (project record, verified 2026-10-07)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-07",
+          "source": "bam-bart-silicon-valley-phase-2-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'infrastructure': early construction ahead of tunneling (launch structure dug, demolition and utility relocation at station sites)."
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-geometry",
+          "title": "VTA GIS alignment",
+          "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
+          "type": "official",
+          "license": "VTA public GIS service (gis.vta.org, ArcGIS Enterprise hosted feature services shared publicly); no license or terms of use stated on the service or its portal item.",
+          "source": "bam-bart-silicon-valley-phase-2-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-1",
+          "title": "vta.org: phase-ii",
+          "url": "https://www.vta.org/projects/bart-sv/phase-ii",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-2",
+          "title": "vta.org: planning-and-environmental",
+          "url": "https://www.vta.org/projects/bart-sv/phase-ii/planning-and-environmental",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-3",
+          "title": "vtabart.org: 2026-07-CA-BSVII-OP25-ProjectMonitoringReport_08-28-2026-091626-v1.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/09/2026-07-CA-BSVII-OP25-ProjectMonitoringReport_08-28-2026-091626-v1.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-4",
+          "title": "vtabart.org: 2026-03-CA-BSVII-OP25-ProjectMonitoringReport-051926-v1-1.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/05/2026-03-CA-BSVII-OP25-ProjectMonitoringReport-051926-v1-1.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-5",
+          "title": "vtabart.org: BSVII_Executive-Monthly-Report_July_2026.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/09/BSVII_Executive-Monthly-Report_July_2026.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-6",
+          "title": "vtabart.org: 2026_BSVII_October_ConstructionMonthlyUpdate-FINAL.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/09/2026_BSVII_October_ConstructionMonthlyUpdate-FINAL.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-7",
+          "title": "vtabart.org: VTABSV_FactSheet_Overview-Benefits-051226_v1-3.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/08/VTABSV_FactSheet_Overview-Benefits-051226_v1-3.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-8",
+          "title": "vtabart.org: VTABSV_FactSheet_2025_Diridon_01062026.pdf",
+          "url": "https://vtabart.org/wp-content/uploads/2026/08/VTABSV_FactSheet_2025_Diridon_01062026.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-9",
+          "title": "vta.org: 2026-02_BSVII_Diridon_Parking_Addendum.pdf",
+          "url": "https://www.vta.org/sites/default/files/2026-03/2026-02_BSVII_Diridon_Parking_Addendum.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-10",
+          "title": "vta.org: ceqa_addendum.pdf",
+          "url": "https://www.vta.org/sites/default/files/2024-07/ceqa_addendum.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-11",
+          "title": "vta.org: VolumeIII_AppendixB_ProjectPlansandProfiles_feb20_2018.pdf",
+          "url": "https://www.vta.org/sites/default/files/2022-04/VolumeIII_AppendixB_ProjectPlansandProfiles_feb20_2018.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-11",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-12",
+          "title": "santaclaravta.iqm2.com: FileOpen.aspx",
+          "url": "https://santaclaravta.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=3034&Inline=True",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-12",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-13",
+          "title": "santaclaravta.iqm2.com: FileOpen.aspx",
+          "url": "https://santaclaravta.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=3133&Inline=True",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-13",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-14",
+          "title": "ceqanet.lci.ca.gov: 2002022004",
+          "url": "https://ceqanet.lci.ca.gov/2002022004",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-14",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-15",
+          "title": "santaclara.courts.ca.gov: vtas-management-and-oversight-bart-silicon-valley-phase-ii.pdf",
+          "url": "https://santaclara.courts.ca.gov/system/files/civil/vtas-management-and-oversight-bart-silicon-valley-phase-ii.pdf",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-15",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-16",
+          "title": "gtfs.vta.org: gtfs_vta.zip",
+          "url": "https://gtfs.vta.org/gtfs_vta.zip",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-16",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-17",
+          "title": "gis.vta.org: 22",
+          "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-17",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-18",
+          "title": "gis.vta.org: 0",
+          "url": "https://gis.vta.org/gis/rest/services/Hosted/BSV_Phase_II_Stations/FeatureServer/0",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-18",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-bart-silicon-valley-phase-2-src-19",
+          "title": "gis.vta.org: 11",
+          "url": "https://gis.vta.org/gis/rest/services/Hosted/BSV_Phase_II_Construction/FeatureServer/11",
+          "type": "official",
+          "source": "bam-bart-silicon-valley-phase-2-src-19",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cahsr-sf-sj",
+      "name": "California High-Speed Rail: San Francisco to San Jose",
+      "system": "cahsr",
+      "system_name": "California High-Speed Rail",
+      "operators": [],
+      "mode": "intercity_rail",
+      "mode_label": "Intercity rail",
+      "group": "commuter_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "environmental",
+      "status_label": "Environmental review",
+      "status_as_of": "2026-10-07",
+      "expected_opening": null,
+      "last_verified": "2026-10-07",
+      "summary": "The Bay Area end of California's high-speed rail line. Rather than building new tracks up the Peninsula, high-speed trains would share Caltrain's newly electrified corridor for about 49 miles from San Francisco to San Jose, stopping at Fourth and King (and later the Salesforce Transit Center via The Portal), Millbrae for SFO, and San Jose Diridon. The route was environmentally approved in 2022, but no construction has started and the Authority's current plan reaches the Bay Area by 2039.",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/cahsr-sf-sj/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared (ROD Oct 2022); right-of-way, design and station work not started. Stage note at 2026-10-07: Environmentally cleared: the Authority's Board certified the Final EIR/EIS and approved the route in August 2022, and the Record of Decision followed in October 2022. No construction has started. The 2026 Business Plan's schedule lists right-of-way, design, and the Fourth and King, Millbrae and San Jose station work as 'not started'. It plans for trains to reach the Bay Area over upgraded shared tracks by 2039 in its San Francisco–Bakersfield scenario. That depends on funding and on agreements with Caltrain and partners, including for the San Jose to Gilroy line. Until The Portal is built, Fourth and King is the interim terminus.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 75.12,
+      "confidence_km": {
+        "approximate": 75.12
+      },
+      "bbox": [
+        -122.413117,
+        37.329925,
+        -121.902883,
+        37.776658
+      ],
+      "fids": [
+        7,
+        8
+      ],
+      "segments": [
+        {
+          "id": "cahsr-sf-sj-s1",
+          "name": "Fourth and King to Scott Boulevard (shared Caltrain corridor)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "approximate",
+          "method": "GIS: U.S. DOT Bureau of Transportation Statistics, NTAD North American Rail Network Lines, Caltrain-owned (JPBX) main line, routed between the FRA nodes nearest Fourth and King and San José Diridon (65 arcs); split at the ROD's Scott Boulevard point (Biological Opinion sec. 2.3, PDF p. 250).",
+          "structure": null,
+          "flags": [],
+          "notes": "Approval: San Francisco to San Jose section: Board, Aug 17, 2022 (Res. HSRA 22-20); Record of Decision, Oct 14, 2022"
+        },
+        {
+          "id": "cahsr-sf-sj-s2",
+          "name": "Scott Boulevard to San José Diridon (shared Caltrain corridor)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "approximate",
+          "method": "GIS: U.S. DOT Bureau of Transportation Statistics, NTAD North American Rail Network Lines, Caltrain-owned (JPBX) main line, routed between the FRA nodes nearest Fourth and King and San José Diridon (65 arcs); split at the ROD's Scott Boulevard point (Biological Opinion sec. 2.3, PDF p. 250).",
+          "structure": null,
+          "flags": [],
+          "notes": "Approval: Approved with the San Jose to Merced section (Board, Apr 28, 2022), per this section's ROD p. 1"
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-cahsr-sf-sj-record",
+          "title": "Bay Area megaprojects: California High-Speed Rail: San Francisco to San Jose (project record, verified 2026-10-07)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-07",
+          "source": "bam-cahsr-sf-sj-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'entitled': environmentally cleared (ROD Oct 2022); right-of-way, design and station work not started."
+        },
+        {
+          "id": "bam-cahsr-sf-sj-geometry",
+          "title": "U.S. DOT/BTS National Transportation Atlas (rail network); Caltrain GTFS stations",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "dataset",
+          "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Stations: Peninsula Corridor Joint Powers Board developer licence: non-exclusive, limited and revocable rights to use, reproduce and redistribute the data (https://www.caltrain.com/developer-resources).",
+          "source": "bam-cahsr-sf-sj-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-1",
+          "title": "hsr.ca.gov: san-francisco-to-san-jose",
+          "url": "https://hsr.ca.gov/high-speed-rail-in-california/project-sections/san-francisco-to-san-jose/",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-2",
+          "title": "hsr.ca.gov: northern-california",
+          "url": "https://hsr.ca.gov/project-overview/project-sections/northern-california/",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-3",
+          "title": "hsr.ca.gov: Final_EIRS_FJ_V1-03_Fact_Sheet.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2022/05/Final_EIRS_FJ_V1-03_Fact_Sheet.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-4",
+          "title": "hsr.ca.gov: FJ-CEQA-Approval-Resolution-final-A11Y.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2022/08/FJ-CEQA-Approval-Resolution-final-A11Y.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-5",
+          "title": "hsr.ca.gov: 22-19_FJ_CEQA_Approval_Resolution_Exhibit_A_Map.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2022/08/22-19_FJ_CEQA_Approval_Resolution_Exhibit_A_Map.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-6",
+          "title": "hsr.ca.gov: FJ-Final-ROD-Combined-A11Y.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2022/10/FJ-Final-ROD-Combined-A11Y.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-7",
+          "title": "hsr.ca.gov: 2026-Final-Business-Plan-060126-A11Y.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2026/06/2026-Final-Business-Plan-060126-A11Y.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-8",
+          "title": "hsr.ca.gov: Northern-California-At-a-Glance-Factsheet-A11Y.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2026/09/Northern-California-At-a-Glance-Factsheet-A11Y.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-9",
+          "title": "hsr.ca.gov: Final_EIRS_FJ_V3-04_Alternative-A_Book_A1.pdf",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2022/05/Final_EIRS_FJ_V3-04_Alternative-A_Book_A1.pdf",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-10",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-cahsr-sf-sj-src-11",
+          "title": "caltrain.com: developer-resources",
+          "url": "https://www.caltrain.com/developer-resources",
+          "type": "official",
+          "source": "bam-cahsr-sf-sj-src-11",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-cloverdale",
+      "name": "SMART Cloverdale extension",
+      "system": "smart",
+      "system_name": "Sonoma-Marin Area Rail Transit",
+      "operators": [],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "environmental",
+      "status_label": "Environmental review",
+      "status_as_of": "2026-10-08",
+      "expected_opening": null,
+      "last_verified": "2026-10-08",
+      "summary": "The last leg of the voter-approved SMART system: about 13.5 miles of out-of-service railroad from north of Healdsburg to Cloverdale, with new stations at Geyserville (adopted in August 2026) and Cloverdale. It was environmentally cleared with the rest of the line and is in the regional plan, but it has no construction funding yet.",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/smart-cloverdale/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (proposed): BAM stage 'proposed': environmentally cleared but not yet fully funded, with no construction schedule. Stage note at 2026-10-08: Shown as proposed: environmentally cleared but not yet fully funded, with no construction schedule; SMART says the Cloverdale station will be completed when funding becomes available. SMART's 2006 EIR and 2008 SEIR covered the whole 70-mile corridor to Cloverdale. On Aug 19, 2026 the Board adopted a Geyserville station into SMART's program and approved it as a station project of its own, statutorily exempt from CEQA as a passenger rail project (Public Resources Code 21080.25, as amended by SB 71), to be advanced as part of the extension to Cloverdale; SMART filed the notice of exemption the next day. The extension is in Plan Bay Area 2050+, adopted in March 2026, with a $353 million capital cost and a 2025-2035 opening period, but SMART says it still needs state and federal grants and has applications pending or in development. SMART puts Healdsburg to Cloverdale at about 18 miles, and a Geyserville station at about the midpoint lets it split that into two smaller projects that may compete better for grants. The Cloverdale station site is listed as to be determined, and the Healdsburg design-build contract includes options to continue north if more grants are secured.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 21.58,
+      "confidence_km": {
+        "approximate": 21.58
+      },
+      "bbox": [
+        -123.01205,
+        38.659334,
+        -122.872296,
+        38.807179
+      ],
+      "fids": [
+        14
+      ],
+      "segments": [
+        {
+          "id": "smart-cloverdale-s1",
+          "name": "Lytton Springs Road to Cloverdale (Cloverdale extension)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "approximate",
+          "method": "GIS: U.S. DOT Bureau of Transportation Statistics, NTAD North American Rail Network Lines, SMART-owned track (RROWNER 'SMRT'/'SMAR', out of service north of Windsor), routed between FRA nodes; cut from where the County of Sonoma's Lytton Springs Road centreline crosses the line to where its E 1st Street centreline in Cloverdale crosses it (the Strategic Plan's limits).",
+          "structure": null,
+          "flags": [],
+          "notes": "Approval: Covered by SMART's 2006 EIR and 2008 SEIR (SCH 2002112033); Geyserville station adopted Aug 19, 2026; unfunded"
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-smart-cloverdale-record",
+          "title": "Bay Area megaprojects: SMART Cloverdale extension (project record, verified 2026-10-08)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-08",
+          "source": "bam-smart-cloverdale-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'proposed': environmentally cleared but not yet fully funded, with no construction schedule."
+        },
+        {
+          "id": "bam-smart-cloverdale-geometry",
+          "title": "U.S. DOT/BTS National Transportation Atlas (rail network); County of Sonoma and SMART GIS",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "dataset",
+          "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Cut points: County of Sonoma street centrelines (Streets_Public): CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. Stations: County of Sonoma parcels: CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. SMART station points: SMART's layer on the County of Sonoma GIS server (copyright 'SMART'; no licence stated).",
+          "source": "bam-smart-cloverdale-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-1",
+          "title": "sonomamarintrain.org: geyserville",
+          "url": "https://www.sonomamarintrain.org/geyserville",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-2",
+          "title": "sonomamarintrain.org: stations",
+          "url": "https://www.sonomamarintrain.org/stations",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-3",
+          "title": "sonomamarintrain.org: healdsburgextension",
+          "url": "https://www.sonomamarintrain.org/healdsburgextension",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-4",
+          "title": "sonomamarintrain.org: SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-5",
+          "title": "sonomamarintrain.org: 09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-6",
+          "title": "sonomamarintrain.org: SMART_StrategicPlan_FY25-30.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Document%20Library/SMART_StrategicPlan_FY25-30.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-7",
+          "title": "planbayarea.org: Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+          "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-8",
+          "title": "dot.ca.gov: us101northcmcpamendmentseptember2026.pdf",
+          "url": "https://dot.ca.gov/-/media/dot-media/district-4/documents/d4-transportation-planning-local-assistance/system-regional-planning/cmcp/us101northcmcpamendmentseptember2026.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-9",
+          "title": "dot.ca.gov: 2025-ca-state-rail-annual-report-web-a11y.pdf",
+          "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/california-state-rail-plan/2025-ca-state-rail-annual-report-web-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-10",
+          "title": "ceqanet.lci.ca.gov: 2002112033",
+          "url": "https://ceqanet.lci.ca.gov/Project/2002112033",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-11",
+          "title": "cloverdale.net: Draft-Specific-Plan---Revised-92926",
+          "url": "https://www.cloverdale.net/DocumentCenter/View/7035/Draft-Specific-Plan---Revised-92926",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-11",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-12",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-12",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-13",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/CRAPublic/ParcelsPublicShapeFile/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-13",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-14",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Stations/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-14",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-15",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/BASEPublic/Streets_Public/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-15",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-16",
+          "title": "ceqanet.lci.ca.gov: 2026080751",
+          "url": "https://ceqanet.lci.ca.gov/2026080751",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-16",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-cloverdale-src-17",
+          "title": "sonomamarintrain.org: 02-15-2023--Item8--BOD.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/02-15-2023--Item8--BOD.pdf",
+          "type": "official",
+          "source": "bam-smart-cloverdale-src-17",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-healdsburg",
+      "name": "SMART Healdsburg extension",
+      "system": "smart",
+      "system_name": "Sonoma-Marin Area Rail Transit",
+      "operators": [],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "funded",
+      "status_label": "Funded",
+      "status_as_of": "2026-10-08",
+      "expected_opening": null,
+      "last_verified": "2026-10-08",
+      "summary": "The next step north for SMART's trains: about nine miles of railroad, idle for decades, rebuilt from today's end of the line at Windsor through Healdsburg, with a new Healdsburg station, a replacement Russian River rail bridge and the SMART Pathway alongside. It is funded at about $269 million, in design, and planned to open in late 2028; where the Healdsburg station goes is being reconsidered.",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/smart-healdsburg/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': funded, environmentally cleared and in design; construction hasn't started. Stage note at 2026-10-08: Funded, environmentally cleared and in design; construction hasn't started. The route is covered by SMART's 2006 EIR and 2008 SEIR for the 70-mile system; the Board adopted an addendum for this segment on Dec 17, 2025, and the California Transportation Commission, as a responsible agency, accepted it and approved the project for future consideration of funding on Jan 29, 2026. The progressive design-build team, under contract since September 2025, had prepared 50% design documents by September 2026, and utility potholing began in April 2026. The first construction package, Windsor Station to Front Street, is due for award in October 2026, with construction starting in spring 2027; a second package, Front Street to North Street, includes the station. SMART is also asking the public where the Healdsburg station should go: the historic Depot/Hudson Street site the City prefers (reaffirmed in September 2026), or a Downtown site on Vine Street about 0.45 mile away. Service is planned for December 2028.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 14.21,
+      "confidence_km": {
+        "approximate": 14.21
+      },
+      "bbox": [
+        -122.87489,
+        38.549126,
+        -122.818502,
+        38.659334
+      ],
+      "fids": [
+        13
+      ],
+      "segments": [
+        {
+          "id": "smart-healdsburg-s1",
+          "name": "Windsor to Lytton Springs Road (Healdsburg extension)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "approximate",
+          "method": "GIS: U.S. DOT Bureau of Transportation Statistics, NTAD North American Rail Network Lines, SMART-owned track (RROWNER 'SMRT'/'SMAR', out of service north of Windsor), routed between FRA nodes; cut from the Windsor station (National Transit Map stop 4251896) projected onto the line, to where the County of Sonoma's Lytton Springs Road centreline crosses it (the addendum's milepost 72.00).",
+          "structure": null,
+          "flags": [],
+          "notes": "Approval: CEQA addendum adopted by SMART's Board Dec 17, 2025 (SCH 2002112033); funded (CTC baseline agreement)"
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-smart-healdsburg-record",
+          "title": "Bay Area megaprojects: SMART Healdsburg extension (project record, verified 2026-10-08)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-08",
+          "source": "bam-smart-healdsburg-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'entitled': funded, environmentally cleared and in design; construction hasn't started."
+        },
+        {
+          "id": "bam-smart-healdsburg-geometry",
+          "title": "U.S. DOT/BTS National Transportation Atlas (rail network); County of Sonoma and SMART GIS",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "dataset",
+          "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Cut points: County of Sonoma street centrelines (Streets_Public): CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. Stations: BTS National Transit Map stops: Creative Commons Attribution 3.0 United States (service copyright text). SMART station points: SMART's layer on the County of Sonoma GIS server (copyright 'SMART'; no licence stated).",
+          "source": "bam-smart-healdsburg-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-1",
+          "title": "sonomamarintrain.org: healdsburgextension",
+          "url": "https://www.sonomamarintrain.org/healdsburgextension",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-2",
+          "title": "sonomamarintrain.org: healdsburgstationlocation",
+          "url": "https://www.sonomamarintrain.org/healdsburgstationlocation",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-3",
+          "title": "sonomamarintrain.org: stations",
+          "url": "https://www.sonomamarintrain.org/stations",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-4",
+          "title": "sonomamarintrain.org: 9.16.26%20Consideration%20of%20Healdsburg%20Station%20Location.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/9.16.26%20Consideration%20of%20Healdsburg%20Station%20Location.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-5",
+          "title": "sonomamarintrain.org: 09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-6",
+          "title": "sonomamarintrain.org: SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-7",
+          "title": "sonomamarintrain.org: SMART%20Board%20of%20Directors%20Packet%2009.17.2025.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Board/COC%20Documents/SMART%20Board%20of%20Directors%20Packet%2009.17.2025.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-8",
+          "title": "sonomamarintrain.org: 02%20-%20Minutes%2012.172025.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/02%20-%20Minutes%2012.172025.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-9",
+          "title": "sonomamarintrain.org: 8%20-%20%20FY%2025%20Annual%20Report.pdf",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/8%20-%20%20FY%2025%20Annual%20Report.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-10",
+          "title": "ceqanet.lci.ca.gov: 2002112033",
+          "url": "https://ceqanet.lci.ca.gov/Project/2002112033",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-11",
+          "title": "ceqanet.lci.ca.gov: 46",
+          "url": "https://ceqanet.lci.ca.gov/2002112033/46",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-11",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-12",
+          "title": "ceqanet.lci.ca.gov: xgdCcY",
+          "url": "https://ceqanet.lci.ca.gov/2002112033/46/Attachment/xgdCcY",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-12",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-13",
+          "title": "ceqanet.lci.ca.gov: 47",
+          "url": "https://ceqanet.lci.ca.gov/2002112033/47",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-13",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-14",
+          "title": "catc.ca.gov: 1-smart-ba-healdsburg.pdf",
+          "url": "https://catc.ca.gov/-/media/ctc-media/documents/programs/baseline-agreements/2025-12/1-smart-ba-healdsburg.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-14",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-15",
+          "title": "catc.ca.gov: 159-2-8a13-a11y.pdf",
+          "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-06/159-2-8a13-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-15",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-16",
+          "title": "dot.ca.gov: 2025-ca-state-rail-annual-report-web-a11y.pdf",
+          "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/california-state-rail-plan/2025-ca-state-rail-annual-report-web-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-16",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-17",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-17",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-18",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_National_Transit_Map_Stops/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-18",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-19",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Rail_Tracks/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-19",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-20",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Stations/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-20",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-21",
+          "title": "socogis.sonomacounty.ca.gov: 0",
+          "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/BASEPublic/Streets_Public/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-21",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-22",
+          "title": "catc.ca.gov: 35-2-2c3-a11y.pdf",
+          "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-01/35-2-2c3-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-22",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-23",
+          "title": "catc.ca.gov: 03-1-2-a11y.pdf",
+          "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-08/03-1-2-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-23",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-24",
+          "title": "catc.ca.gov: 99-2-6s8-a11y.pdf",
+          "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-10/99-2-6s8-a11y.pdf",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-24",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-smart-healdsburg-src-25",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Railroad_Grade_Crossings/FeatureServer/0",
+          "type": "official",
+          "source": "bam-smart-healdsburg-src-25",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-portal",
+      "name": "The Portal (Downtown Rail Extension)",
+      "system": "caltrain",
+      "system_name": "Caltrain",
+      "operators": [],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "environmental",
+      "status_label": "Environmental review",
+      "status_as_of": "2026-10-07",
+      "expected_opening": null,
+      "last_verified": "2026-10-07",
+      "summary": "A rail tunnel to bring Caltrain, and later high-speed rail, from the Fourth and King terminus about 1.3 miles into the Salesforce Transit Center, whose two-level underground train box was built for it and has stood empty since 2018. It adds an underground station at Fourth and Townsend. The $8.3 billion project is environmentally cleared and in federal engineering review, with a $3.38 billion federal grant in sight. It still needs the rest of its local and state funding, and TJPA forecasts service in late 2036.",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/the-portal/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared, in FTA's Engineering phase, not under construction or fully funded. Stage note at 2026-10-07: Environmentally cleared and in the Engineering phase of FTA's Capital Investment Grants program since May 2024, but not yet under construction or fully funded. Design is at 30% for the tunnel and stations and 60% for the early works. Right-of-way appraisals are under way, and proposals for the civil and tunnel progressive design-build contract are due Oct 9, 2026. The Full Funding Grant Agreement is targeted for July 2027. TJPA says utility relocation construction will start in 2028 and forecasts that the line will be ready for service on Nov 17, 2036.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 3.46,
+      "confidence_km": {
+        "digitized": 3.46
+      },
+      "bbox": [
+        -122.400436,
+        37.766559,
+        -122.39158,
+        37.790378
+      ],
+      "fids": [
+        4,
+        5,
+        6
+      ],
+      "segments": [
+        {
+          "id": "the-portal-s1",
+          "name": "Tunnel, from the Caltrain tracks at Seventh Street to the Salesforce Transit Center",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "traced: TJPA, The Portal Monthly Status Report, September 2026, p. 4, Figure 1, The Portal Alignment and Major Components (drawing MP-05b-AL-20260512); orange alignment, centreline (RMS 1.18 m georeference).",
+          "structure": "tunnel",
+          "flags": []
+        },
+        {
+          "id": "the-portal-s2",
+          "name": "Salesforce Transit Center train box (existing, fitted out)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "traced: TJPA, The Portal Monthly Status Report, September 2026, p. 4, Figure 1, The Portal Alignment and Major Components (drawing MP-05b-AL-20260512); dark orange train box, centreline.",
+          "structure": "tunnel",
+          "flags": []
+        },
+        {
+          "id": "the-portal-s3",
+          "name": "Trackwork to 16th Street (existing Caltrain tracks)",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "GIS: U.S. DOT Bureau of Transportation Statistics, NTAD North American Rail Network Lines, Caltrain main line from the point nearest the tunnel's west end (2 m away) to DataSF's 16th Street centreline; extent from the figure and the SFCTA memo (Jan 2026): 'trackwork to 16th Street'.",
+          "structure": null,
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-the-portal-record",
+          "title": "Bay Area megaprojects: The Portal (Downtown Rail Extension) (project record, verified 2026-10-07)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-07",
+          "source": "bam-the-portal-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'entitled': environmentally cleared, in FTA's Engineering phase, not under construction or fully funded."
+        },
+        {
+          "id": "bam-the-portal-geometry",
+          "title": "TJPA, The Portal Monthly Status Report (Sept 2026), Figure 1",
+          "url": "https://www.tjpa.org/media/40591?inline=",
+          "type": "official",
+          "license": "Traced facts from a public TJPA report (the PDF is not redistributed). Georeference: Open Data Commons Public Domain Dedication and License (PDDL) 1.0; City and County of San Francisco. Trackwork: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text).",
+          "source": "bam-the-portal-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-1",
+          "title": "tjpa.org: portaldtx",
+          "url": "https://www.tjpa.org/portaldtx",
+          "type": "official",
+          "source": "bam-the-portal-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-2",
+          "title": "tjpa.org: about-portal",
+          "url": "https://www.tjpa.org/portaldtx/about-portal",
+          "type": "official",
+          "source": "bam-the-portal-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-3",
+          "title": "tjpa.org: frequently-asked-questions",
+          "url": "https://www.tjpa.org/portaldtx/frequently-asked-questions",
+          "type": "official",
+          "source": "bam-the-portal-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-4",
+          "title": "tjpa.org: environmental-review",
+          "url": "https://www.tjpa.org/portaldtx/environmental-review",
+          "type": "official",
+          "source": "bam-the-portal-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-5",
+          "title": "tjpa.org: project-schedule",
+          "url": "https://www.tjpa.org/portaldtx/project-schedule",
+          "type": "official",
+          "source": "bam-the-portal-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-6",
+          "title": "tjpa.org: 40591",
+          "url": "https://www.tjpa.org/media/40591?inline=",
+          "type": "official",
+          "source": "bam-the-portal-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-7",
+          "title": "tjpa.org: download",
+          "url": "https://www.tjpa.org/media/40552/download?inline",
+          "type": "official",
+          "source": "bam-the-portal-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-8",
+          "title": "tjpa.org: download",
+          "url": "https://www.tjpa.org/media/40136/download?inline",
+          "type": "official",
+          "source": "bam-the-portal-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-9",
+          "title": "tjpa.org: download",
+          "url": "https://www.tjpa.org/media/40503/download",
+          "type": "official",
+          "source": "bam-the-portal-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-10",
+          "title": "tjpa.org: download",
+          "url": "https://www.tjpa.org/media/40582/download?inline",
+          "type": "official",
+          "source": "bam-the-portal-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-11",
+          "title": "tjpa.org: The%20Portal%20Project%20Implementation%20MOU%201-30-25.pdf",
+          "url": "https://www.tjpa.org/files/2026-06/The%20Portal%20Project%20Implementation%20MOU%201-30-25.pdf",
+          "type": "official",
+          "source": "bam-the-portal-src-11",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-12",
+          "title": "tjpa.org: Vol-1-TJPA-Final-SEIS-EIR_11-18.pdf",
+          "url": "https://www.tjpa.org/uploads/2015/12/Vol-1-TJPA-Final-SEIS-EIR_11-18.pdf",
+          "type": "official",
+          "source": "bam-the-portal-src-12",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-13",
+          "title": "sfcta.org: SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
+          "url": "https://www.sfcta.org/sites/default/files/2026-01/SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
+          "type": "official",
+          "source": "bam-the-portal-src-13",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-14",
+          "title": "ceqanet.lci.ca.gov: 1995063004",
+          "url": "https://ceqanet.lci.ca.gov/1995063004",
+          "type": "official",
+          "source": "bam-the-portal-src-14",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-15",
+          "title": "ceqanet.lci.ca.gov: 16",
+          "url": "https://ceqanet.lci.ca.gov/1995063004/16",
+          "type": "official",
+          "source": "bam-the-portal-src-15",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-16",
+          "title": "ceqanet.lci.ca.gov: 17",
+          "url": "https://ceqanet.lci.ca.gov/1995063004/17",
+          "type": "official",
+          "source": "bam-the-portal-src-16",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-17",
+          "title": "data.sf.gov: 3psu-pn9h",
+          "url": "https://data.sf.gov/d/3psu-pn9h",
+          "type": "official",
+          "source": "bam-the-portal-src-17",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-the-portal-src-18",
+          "title": "services.arcgis.com: 0",
+          "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+          "type": "official",
+          "source": "bam-the-portal-src-18",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valley-link",
+      "name": "Valley Link",
+      "system": "valley-link",
+      "system_name": "Valley Link",
+      "operators": [],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "future",
+      "opened": null,
+      "closed": null,
+      "status": "environmental",
+      "status_label": "Environmental review",
+      "status_as_of": "2026-10-07",
+      "expected_opening": null,
+      "last_verified": "2026-10-07",
+      "summary": "A new passenger rail line along the I-580 corridor linking BART at Dublin/Pleasanton with ACE commuter trains at Vasco Road in Livermore, so riders from the San Joaquin Valley can change trains across a platform instead of driving over the Altamont Pass. The first 11 miles, with three stations and battery-electric trains, are environmentally cleared and in design; an extension to Mountain House is cleared but unfunded.",
+      "links": [
+        {
+          "label": "Project record in the megaprojects map",
+          "url": "https://matthew6113.github.io/BAM/p/valley-link/"
+        }
+      ],
+      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared and in design; no construction yet. Stage note at 2026-10-07: Environmentally cleared and in design; no construction yet. The Authority certified the Subsequent EIR for the 22-mile Phase 1 in October 2024 and FTA issued a FONSI on May 27, 2025. In June 2025 the Board split delivery after cost increases at 30% design, starting with the 11-mile Phase 1A to Vasco Road; a joint CEQA addendum and NEPA re-evaluation for the 1.5-mile connection from I-580/First Street to Vasco Road is targeted for fall 2026. A CM/GC preconstruction contract went to Kiewit in June 2026. Construction funding is not yet secured: the Authority is preparing to ask FTA to enter the Capital Investment Grants Engineering phase.",
+      "flags": [
+        "status_unverified",
+        "expected_opening_unsourced"
+      ],
+      "undated": false,
+      "length_km": 18.31,
+      "confidence_km": {
+        "approximate": 0.08,
+        "digitized": 18.23
+      },
+      "bbox": [
+        -121.902125,
+        37.69549,
+        -121.706381,
+        37.704394
+      ],
+      "fids": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "segments": [
+        {
+          "id": "valley-link-s1",
+          "name": "Dublin/Pleasanton Station and approach, elevated south of eastbound I-580",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "traced: Valley Link Rail Project Draft Subsequent EIR, Chapter 2, Project Description (April 2024, SCH 2018092027), PDF p. 18, Figure 2-13, Dublin/Pleasanton Station: 'Proposed Rail Alignment', centre of the two tracks (RMS 1.61 m georeference).",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ]
+        },
+        {
+          "id": "valley-link-s2",
+          "name": "Viaduct over eastbound I-580 into the median",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "approximate",
+          "method": "constructed: a straight join between the end of the alignment in Figure 2-13 and the start of the median widening in Figure 2-4, which the SEIR describes as 'an elevated viaduct over the eastbound I-580 freeway lanes to the median of I-580' (p. 2-6). Not drawn in the figures.",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ]
+        },
+        {
+          "id": "valley-link-s3",
+          "name": "In the I-580 median, Dublin/Pleasanton to First Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "traced: Valley Link Rail Project Draft Subsequent EIR, Chapter 2, Project Description (April 2024, SCH 2018092027), PDF pp. 9-11, Figures 2-4 to 2-6 (Proposed Project 1-3 of 9): the 'Median Widening' line (trimmed RMS 1.6, 2.76, 1.99 m). The 2026 report: 'Phase 1A would be constructed within the I-580 median from the Dublin/Pleasanton BART Station to just east of the First Street overcrossing'.",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ]
+        },
+        {
+          "id": "valley-link-s4",
+          "name": "First Street to Vasco Road: flyover, Southfront and Mid-town aerial viaducts, then at grade beside the UPRR tracks",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "digitized",
+          "method": "traced: Tri-Valley-San Joaquin Valley Regional Rail Authority, Board packet, June 10, 2026 (item 4.c.2, AB 1171 Initial Project Report), PDF p. 31, Figure 4, Valley Link Phase 1A Connection From I-580 to Vasco Road Station: the blue Valley Link alignment to the tail tracks east of Vasco Road (RMS 2.95 m georeference).",
+          "structure": null,
+          "flags": [
+            "license_unclear"
+          ],
+          "notes": "Runs parallel to the existing Union Pacific tracks, not on them: 'returning to grade south of the proposed Livermore OMF parallel to the existing UPRR tracks' (2026 report, PDF p. 30)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bam-valley-link-record",
+          "title": "Bay Area megaprojects: Valley Link (project record, verified 2026-10-07)",
+          "author": "Matthew Huguet",
+          "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+          "type": "dataset",
+          "date": "2026-10-07",
+          "source": "bam-valley-link-record",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "BAM stage 'entitled': environmentally cleared and in design; no construction yet."
+        },
+        {
+          "id": "bam-valley-link-geometry",
+          "title": "Valley Link Board packet (June 10, 2026), Figure 4, and Draft SEIR (2024) figures",
+          "url": "https://www.valleylinkrail.com/_files/ugd/8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+          "type": "official",
+          "license": "Traced facts from public documents of the Tri-Valley-San Joaquin Valley Regional Rail Authority (PDFs not redistributed). Georeference: OpenStreetMap contributors (ODbL 1.0), via Overture Maps. Station checks: BART GTFS (bart.gov developer terms); Caltrans California Transit Stops (public, no license stated).",
+          "source": "bam-valley-link-geometry",
+          "supports": [
+            "geometry",
+            "stations"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-1",
+          "title": "valleylinkrail.com: valleylink-project",
+          "url": "https://www.valleylinkrail.com/valleylink-project",
+          "type": "official",
+          "source": "bam-valley-link-src-1",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-2",
+          "title": "valleylinkrail.com: environmental-ceqa",
+          "url": "https://www.valleylinkrail.com/environmental-ceqa",
+          "type": "official",
+          "source": "bam-valley-link-src-2",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-3",
+          "title": "getvalleylinked.com",
+          "url": "https://www.getvalleylinked.com/",
+          "type": "official",
+          "source": "bam-valley-link-src-3",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-4",
+          "title": "valleylinkrail.com: 95df9a_d5454624d39d4a078b0aa7b18dddc57c.pdf",
+          "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_d5454624d39d4a078b0aa7b18dddc57c.pdf",
+          "type": "official",
+          "source": "bam-valley-link-src-4",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-5",
+          "title": "valleylinkrail.com: 95df9a_1336405d248b467fb082db9ecc4416ae.pdf",
+          "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_1336405d248b467fb082db9ecc4416ae.pdf",
+          "type": "official",
+          "source": "bam-valley-link-src-5",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-6",
+          "title": "valleylinkrail.com: 8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+          "url": "https://www.valleylinkrail.com/_files/ugd/8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+          "type": "official",
+          "source": "bam-valley-link-src-6",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-7",
+          "title": "valleylinkrail.com: 95df9a_af705a6cc23f44438b8f9b29cb18bec9.pdf",
+          "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_af705a6cc23f44438b8f9b29cb18bec9.pdf",
+          "type": "official",
+          "source": "bam-valley-link-src-7",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-8",
+          "title": "valleylinkrail.com: 95df9a_0f161a7a5be14083a255266808a38859.pdf",
+          "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_0f161a7a5be14083a255266808a38859.pdf",
+          "type": "official",
+          "source": "bam-valley-link-src-8",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-9",
+          "title": "ceqanet.lci.ca.gov: 2018092027",
+          "url": "https://ceqanet.lci.ca.gov/Project/2018092027",
+          "type": "official",
+          "source": "bam-valley-link-src-9",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-10",
+          "title": "ceqanet.lci.ca.gov: 9",
+          "url": "https://ceqanet.lci.ca.gov/2018092027/9",
+          "type": "official",
+          "source": "bam-valley-link-src-10",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-11",
+          "title": "ceqanet.lci.ca.gov: 6",
+          "url": "https://ceqanet.lci.ca.gov/2018092027/6",
+          "type": "official",
+          "source": "bam-valley-link-src-11",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-12",
+          "title": "ceqanet.lci.ca.gov: ZPbOAG",
+          "url": "https://ceqanet.lci.ca.gov/2018092027/6/Attachment/ZPbOAG",
+          "type": "official",
+          "source": "bam-valley-link-src-12",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-13",
+          "title": "bart.gov: google_transit.zip",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "official",
+          "source": "bam-valley-link-src-13",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "bam-valley-link-src-14",
+          "title": "caltrans-gis.dot.ca.gov: 0",
+          "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHrailroad/CA_Transit_Stops/FeatureServer/0",
+          "type": "official",
+          "source": "bam-valley-link-src-14",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-blue",
+      "name": "Blue line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 62.61,
+      "confidence_km": {
+        "surveyed": 62.61
+      },
+      "bbox": [
+        -122.468901,
+        37.688567,
+        -121.899243,
+        37.809944
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "bart-blue-gtfs",
+          "name": "Blue line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 012A_shp (run by 266 of 542 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-green",
+      "name": "Green line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 85.46,
+      "confidence_km": {
+        "surveyed": 85.46
+      },
+      "bbox": [
+        -122.468901,
+        37.368485,
+        -121.87471,
+        37.809944
+      ],
+      "fids": [
+        2
+      ],
+      "segments": [
+        {
+          "id": "bart-green-gtfs",
+          "name": "Green line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 005A_shp (run by 117 of 259 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-oakland-airport",
+      "name": "Oakland Airport line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "people_mover",
+      "mode_label": "People mover",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 5.14,
+      "confidence_km": {
+        "surveyed": 5.14
+      },
+      "bbox": [
+        -122.212226,
+        37.71325,
+        -122.195778,
+        37.753581
+      ],
+      "fids": [
+        3
+      ],
+      "segments": [
+        {
+          "id": "bart-oakland-airport-gtfs",
+          "name": "Oakland Airport line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 020_shp (run by 516 of 1032 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-orange",
+      "name": "Orange line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 81.12,
+      "confidence_km": {
+        "surveyed": 81.12
+      },
+      "bbox": [
+        -122.353023,
+        37.368485,
+        -121.87471,
+        37.936737
+      ],
+      "fids": [
+        4
+      ],
+      "segments": [
+        {
+          "id": "bart-orange-gtfs",
+          "name": "Orange line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 003C_shp (run by 369 of 769 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-red",
+      "name": "Red line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 59.88,
+      "confidence_km": {
+        "surveyed": 59.88
+      },
+      "bbox": [
+        -122.47109,
+        37.600271,
+        -122.26627,
+        37.936737
+      ],
+      "fids": [
+        5
+      ],
+      "segments": [
+        {
+          "id": "bart-red-gtfs",
+          "name": "Red line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 008A_shp (run by 201 of 402 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bart-yellow",
+      "name": "Yellow line",
+      "system": "bart",
+      "system_name": "Bay Area Rapid Transit",
+      "operators": [
+        {
+          "name": "Bay Area Rapid Transit"
+        }
+      ],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 99.93,
+      "confidence_km": {
+        "surveyed": 99.93
+      },
+      "bbox": [
+        -122.471099,
+        37.600271,
+        -121.780434,
+        38.02385
+      ],
+      "fids": [
+        6
+      ],
+      "segments": [
+        {
+          "id": "bart-yellow-gtfs",
+          "name": "Yellow line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt, shape 002A_shp (run by 265 of 758 trips), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-bart",
+          "title": "Bay Area Rapid Transit GTFS feed, version 72",
+          "publisher": "Bay Area Rapid Transit",
+          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "type": "dataset",
+          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "accessed": "2026-10-13",
+          "source": "gtfs-bart",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name"
+          ]
+        }
+      ]
+    }
+  ]
+}

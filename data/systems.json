@@ -1,0 +1,29 @@
+{
+  "systems": [
+    {
+      "id": "bart",
+      "name": "Bay Area Rapid Transit",
+      "short_name": "BART"
+    },
+    {
+      "id": "cahsr",
+      "name": "California High-Speed Rail",
+      "short_name": "High-speed rail"
+    },
+    {
+      "id": "caltrain",
+      "name": "Caltrain",
+      "short_name": "Caltrain"
+    },
+    {
+      "id": "smart",
+      "name": "Sonoma-Marin Area Rail Transit",
+      "short_name": "SMART"
+    },
+    {
+      "id": "valley-link",
+      "name": "Valley Link",
+      "short_name": "Valley Link"
+    }
+  ]
+}

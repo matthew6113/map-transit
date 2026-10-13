@@ -1,0 +1,14 @@
+{
+  "feeds": [
+    {
+      "agency": "bart",
+      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+      "sha256": "affdc4d70cac01f71e54f049c754ba36824a885edcdef2ef8b024820c9e93080",
+      "fetched": "2026-10-13",
+      "feed_version": "72",
+      "feed_start_date": "20260112",
+      "feed_end_date": "20260830",
+      "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement"
+    }
+  ]
+}
