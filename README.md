@@ -28,7 +28,7 @@ npm run dev      # http://127.0.0.1:5173
 | `make basemap` | Copy BAM's basemap into `public/generated/`, checked against `basemap.lock.json`. |
 | `make basemap-refresh` | Re-read BAM's deployed basemap and rewrite the lock (review the diff). |
 | `make future-sync` | Import BAM's future lines at the pinned commit (`data/future/bam/`). |
-| `make present-preview` | Today's BART lines from BART's GTFS (`data/present/bart/`). |
+| `make present` | Today's network from GTFS: 511's regional feed (needs `TRANSIT_511_API_KEY`), Amtrak, and BART's own feed as a fallback, plus the SFO AirTrain from Overture (`data/present/<agency>/`). |
 | `make app-data` | Build the files the app reads (`data/app/`), and the coverage table in `DATA_LOG.md`. |
 | `npm test` | Schemas, data rules (sources, null-date flags, routes, bounds, future-status freshness) and theme contrast. |
 | `npm run e2e` / `npm run screenshots` / `npm run perf` | Playwright: interaction tests, review screenshots, and the year-slider rendering spike. |

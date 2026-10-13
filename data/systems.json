@@ -1,6 +1,11 @@
 {
   "systems": [
     {
+      "id": "amtrak",
+      "name": "Amtrak",
+      "short_name": "Amtrak"
+    },
+    {
       "id": "bart",
       "name": "Bay Area Rapid Transit",
       "short_name": "BART"
@@ -14,6 +19,11 @@
       "id": "caltrain",
       "name": "Caltrain",
       "short_name": "Caltrain"
+    },
+    {
+      "id": "sfo-airtrain",
+      "name": "SFO AirTrain",
+      "short_name": "AirTrain"
     },
     {
       "id": "smart",

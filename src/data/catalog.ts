@@ -68,6 +68,8 @@ export interface LineRecord {
   fate?: string;
   fate_note?: string;
   successor?: string;
+  /** Where a line clipped at the map's edge goes on to. */
+  continues_beyond?: string;
   gauge_mm?: number;
   gauge_label?: string;
   traction?: { type: string; from?: string | null; to?: string | null }[];

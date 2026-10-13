@@ -3,14 +3,20 @@
 import { useEffect, useState } from 'preact/hooks';
 import { OVERTURE_RELEASE } from '../basemap/config';
 
-export function MapDataCredits() {
+/** 511's Data Disseminator Agreement (5.b): "data provided by 511.org", linked, near the data. */
+export const Credit511 = () => <a href="http://www.511.org">Data provided by 511.org</a>;
+
+export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
   return (
     <>
+      {has511 && <><Credit511 />. </>}
       Base map from <a href="https://matthew6113.github.io/BAM/">Bay Area megaprojects</a>: map data{' '}
       <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> and{' '}
       <a href="https://overturemaps.org">Overture Maps Foundation</a> (release {OVERTURE_RELEASE}, ODbL); building
-      footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. Today's BART lines from{' '}
-      <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART's GTFS feed</a>. Future
+      footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. Today's lines from GTFS feeds:{' '}
+      <a href="https://511.org/open-data/transit">511.org</a> (MTC),{' '}
+      <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; the SFO AirTrain
+      from <a href="https://overturemaps.org">Overture Maps</a> (OpenStreetMap, ODbL). Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
       County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Sources for every line
       are in its panel.
@@ -21,9 +27,11 @@ export function MapDataCredits() {
 interface Props {
   /** Collapse once the viewer starts using the map (OSM attribution guidelines allow this). */
   collapse: boolean;
+  /** Any line on the map comes from 511's feed: its credit stays visible even when collapsed. */
+  has511?: boolean;
 }
 
-export function Credits({ collapse }: Props) {
+export function Credits({ collapse, has511 = false }: Props) {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
@@ -38,8 +46,9 @@ export function Credits({ collapse }: Props) {
   return (
     <footer class={`credits ${open ? 'open' : ''}`}>
       <p id="credits-body" class="credits-body" hidden={!open}>
-        <MapDataCredits />
+        <MapDataCredits has511={has511} />
       </p>
+      {has511 && !open && <span class="credit-511"><Credit511 /> · </span>}
       <button type="button" class="credits-toggle" aria-expanded={open} aria-controls="credits-body"
         onClick={() => setOpen(!open)}>
         {open ? 'Hide credits' : '© OpenStreetMap contributors, Overture Maps · Credits'}

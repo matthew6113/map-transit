@@ -267,6 +267,12 @@ body {
   color: inherit;
 }
 
+/* 511's required credit stays beside the collapsed credit line. */
+.credit-511 {
+  background: color-mix(in srgb, var(--color-land) 88%, transparent);
+  padding: 2px 0 2px 4px;
+}
+
 /* ---------------------------------------------------------------- hover tooltip */
 
 .map-tooltip {

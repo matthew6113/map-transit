@@ -133,6 +133,9 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
   paved_over, still_freight, heritage_railway or replaced_by_rail.
 - `fate_note`
 - `successor`
+- `continues_beyond`: for a line clipped at the map's pan limits, where it goes on to, taken from its
+  terminals in the source (e.g. "Chicago Union Station"). A test checks that every line carrying it
+  reaches the map's edge.
 
 **Route:** `route[]`, each entry `{segment, from?, to?, note?}`, in route order.
 

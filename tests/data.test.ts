@@ -157,6 +157,16 @@ describe('provenance', () => {
     }
   });
 
+  it('draws BRT only where an official source names the dedicated-lane corridor (decision 3)', () => {
+    const official = new Set(sources.sources.filter((s: { type: string }) => s.type === 'official').map((s: { id: string }) => s.id));
+    for (const f of folders) {
+      for (const l of f.lines.filter((x) => (x as { mode?: string }).mode === 'brt')) {
+        const cites = l.sources.filter((s) => official.has(s.source) && (s as { supports?: string[] }).supports?.includes('route'));
+        expect(cites.length, `${l.id} needs an official source for its lane limits`).toBeGreaterThan(0);
+      }
+    }
+  });
+
   it('only uses public-domain photos', () => {
     for (const { kind, p } of all) {
       const photo = p.photo as { license: string } | undefined;
@@ -175,6 +185,19 @@ describe('geometry', () => {
         for (const [x, y] of coordsOf(s.geometry.coordinates)) {
           expect(x >= x0 && x <= x1 && y >= y0 && y <= y1, `${s.properties.id} at ${x},${y}`).toBe(true);
         }
+      }
+    }
+  });
+
+  it('marks lines clipped at the map edge with where they continue to, and only those', () => {
+    const near = (x: number, y: number) =>
+      Math.min(Math.abs(x - x0), Math.abs(x - x1), Math.abs(y - y0), Math.abs(y - y1)) < 0.002;
+    for (const f of folders) {
+      const segs = new Map(f.segments.map((s) => [s.properties.id, s]));
+      for (const l of f.lines) {
+        if (!(l as { continues_beyond?: string }).continues_beyond) continue;
+        const touches = l.route.some((r) => coordsOf(segs.get(r.segment)!.geometry.coordinates).some(([x, y]) => near(x, y)));
+        expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge`).toBe(true);
       }
     }
   });

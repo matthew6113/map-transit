@@ -76,6 +76,7 @@ export function LinePanel({ line, onClose }: Props) {
           {traction && <div><dt>Power</dt><dd>{traction}</dd></div>}
           <div><dt>Length as drawn</dt><dd>{formatLength(line.length_km)}</dd></div>
         </dl>
+        {line.continues_beyond && <p class="small">Continues beyond the map to {line.continues_beyond}.</p>}
       </section>
 
       {(line.fate || line.fate_note || line.successor) && (

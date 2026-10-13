@@ -1702,7 +1702,7 @@
         37.809944
       ],
       "fids": [
-        1
+        5
       ],
       "segments": [
         {
@@ -1712,12 +1712,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 012A_shp (run by 266 of 542 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -1734,7 +1734,229 @@
             "geometry",
             "route",
             "stations",
-            "name"
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amtrak-california-zephyr",
+      "name": "California Zephyr",
+      "system": "amtrak",
+      "system_name": "Amtrak",
+      "operators": [
+        {
+          "name": "Amtrak"
+        }
+      ],
+      "mode": "intercity_rail",
+      "mode_label": "Intercity rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "continues_beyond": "Chicago Union Station",
+      "flags": [
+        "opened_unsourced",
+        "license_unclear"
+      ],
+      "undated": true,
+      "length_km": 206.09,
+      "confidence_km": {
+        "surveyed": 206.09
+      },
+      "bbox": [
+        -122.360192,
+        37.840274,
+        -121.0,
+        38.981813
+      ],
+      "fids": [
+        2
+      ],
+      "segments": [
+        {
+          "id": "amtrak-california-zephyr-gtfs",
+          "name": "California Zephyr, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 12 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "license_unclear"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-13",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capitol-corridor",
+      "name": "Capitol Corridor",
+      "system": "amtrak",
+      "system_name": "Amtrak",
+      "operators": [
+        {
+          "name": "Amtrak"
+        }
+      ],
+      "mode": "intercity_rail",
+      "mode_label": "Intercity rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced",
+        "license_unclear"
+      ],
+      "undated": true,
+      "length_km": 275.87,
+      "confidence_km": {
+        "surveyed": 275.87
+      },
+      "bbox": [
+        -122.360192,
+        37.331308,
+        -121.080625,
+        38.902995
+      ],
+      "fids": [
+        4
+      ],
+      "segments": [
+        {
+          "id": "capitol-corridor-gtfs",
+          "name": "Capitol Corridor, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "license_unclear"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-13",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amtrak-coast-starlight",
+      "name": "Coast Starlight",
+      "system": "amtrak",
+      "system_name": "Amtrak",
+      "operators": [
+        {
+          "name": "Amtrak"
+        }
+      ],
+      "mode": "intercity_rail",
+      "mode_label": "Intercity rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "continues_beyond": "Los Angeles and Seattle",
+      "flags": [
+        "opened_unsourced",
+        "license_unclear"
+      ],
+      "undated": true,
+      "length_km": 353.74,
+      "confidence_km": {
+        "surveyed": 353.74
+      },
+      "bbox": [
+        -122.360192,
+        36.75,
+        -121.466335,
+        39.0
+      ],
+      "fids": [
+        3
+      ],
+      "segments": [
+        {
+          "id": "amtrak-coast-starlight-gtfs",
+          "name": "Coast Starlight, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "license_unclear"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-13",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
           ]
         }
       ]
@@ -1772,7 +1994,7 @@
         37.809944
       ],
       "fids": [
-        2
+        6
       ],
       "segments": [
         {
@@ -1782,12 +2004,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 005A_shp (run by 117 of 259 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 3 shapes run by 259 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -1804,7 +2026,8 @@
             "geometry",
             "route",
             "stations",
-            "name"
+            "name",
+            "operator"
           ]
         }
       ]
@@ -1842,7 +2065,7 @@
         37.753581
       ],
       "fids": [
-        3
+        7
       ],
       "segments": [
         {
@@ -1852,12 +2075,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 020_shp (run by 516 of 1032 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 2 shapes run by 1032 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -1874,7 +2097,8 @@
             "geometry",
             "route",
             "stations",
-            "name"
+            "name",
+            "operator"
           ]
         }
       ]
@@ -1912,7 +2136,7 @@
         37.936737
       ],
       "fids": [
-        4
+        8
       ],
       "segments": [
         {
@@ -1922,12 +2146,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 003C_shp (run by 369 of 769 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -1944,7 +2168,8 @@
             "geometry",
             "route",
             "stations",
-            "name"
+            "name",
+            "operator"
           ]
         }
       ]
@@ -1982,7 +2207,7 @@
         37.936737
       ],
       "fids": [
-        5
+        9
       ],
       "segments": [
         {
@@ -1992,12 +2217,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 008A_shp (run by 201 of 402 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -2014,6 +2239,74 @@
             "geometry",
             "route",
             "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sfo-airtrain",
+      "name": "SFO AirTrain",
+      "system": "sfo-airtrain",
+      "system_name": "SFO AirTrain",
+      "operators": [
+        {
+          "name": "San Francisco International Airport"
+        }
+      ],
+      "mode": "people_mover",
+      "mode_label": "People mover",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "notes": "Its Red and Blue lines are service patterns on the same guideway, drawn as one line. No stations yet: Overture's segments carry no stops. Operator as named by the guideway's owner, SFO; to be sourced.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 11.12,
+      "confidence_km": {
+        "surveyed": 11.12
+      },
+      "bbox": [
+        -122.401447,
+        37.613211,
+        -122.384391,
+        37.635234
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "sfo-airtrain-guideway",
+          "name": "SFO AirTrain guideway",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "Overture Maps transportation segments, release 2026-09-23.1: the 36 monorail-class segments around SFO (16 named 'SFO AirTrain'; the rest its connectors and yard leads), merged",
+          "structure": "elevated",
+          "flags": [
+            "opened_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "overture-transportation-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme, release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-transportation-2026-09-23-1",
+          "supports": [
+            "geometry",
             "name"
           ]
         }
@@ -2041,9 +2334,9 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 99.93,
+      "length_km": 100.33,
       "confidence_km": {
-        "surveyed": 99.93
+        "surveyed": 100.33
       },
       "bbox": [
         -122.471099,
@@ -2052,7 +2345,7 @@
         38.02385
       ],
       "fids": [
-        6
+        10
       ],
       "segments": [
         {
@@ -2062,12 +2355,12 @@
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt, shape 002A_shp (run by 265 of 758 trips), simplified to 3 m",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One stroke per line until the present network is split into dated segments (Phase 2), so lines sharing track overlap."
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
@@ -2084,7 +2377,8 @@
             "geometry",
             "route",
             "stations",
-            "name"
+            "name",
+            "operator"
           ]
         }
       ]

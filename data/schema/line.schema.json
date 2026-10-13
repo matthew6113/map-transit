@@ -283,6 +283,11 @@
         "successor": {
           "type": "string"
         },
+        "continues_beyond": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Where a line clipped at the map's pan limits goes on to, from its terminals in the source (e.g. 'Chicago Union Station')."
+        },
         "route": {
           "type": "array",
           "items": {

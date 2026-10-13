@@ -831,6 +831,16 @@
       "notes": "Cited by BAM's valley-link record."
     },
     {
+      "id": "gtfs-amtrak",
+      "title": "Amtrak GTFS feed, version 20261013",
+      "publisher": "Amtrak",
+      "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+      "type": "dataset",
+      "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+      "accessed": "2026-10-13",
+      "notes": "feed_info dates 20261014 to 20261020; file SHA-256 d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa."
+    },
+    {
       "id": "gtfs-bart",
       "title": "Bay Area Rapid Transit GTFS feed, version 72",
       "publisher": "Bay Area Rapid Transit",
@@ -839,6 +849,15 @@
       "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
       "accessed": "2026-10-13",
       "notes": "feed_info dates 20260112 to 20260830; file SHA-256 affdc4d70cac01f71e54f049c754ba36824a885edcdef2ef8b024820c9e93080."
+    },
+    {
+      "id": "overture-transportation-2026-09-23-1",
+      "title": "Overture Maps Foundation, transportation theme, release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "Read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/, rail segments in (-122.42, 37.6, -122.36, 37.645)."
     }
   ]
 }

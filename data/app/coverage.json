@@ -9,16 +9,17 @@
     "flags": {}
   },
   "present": {
-    "lines": 6,
-    "segments": 6,
-    "points": 50,
+    "lines": 10,
+    "segments": 10,
+    "points": 68,
     "km_by_confidence": {
-      "surveyed": 394.1
+      "surveyed": 1241.4
     },
-    "undated_segments": 6,
+    "undated_segments": 10,
     "borrowed_dates": 0,
     "flags": {
-      "opened_unsourced": 62
+      "license_unclear": 24,
+      "opened_unsourced": 88
     }
   },
   "future": {

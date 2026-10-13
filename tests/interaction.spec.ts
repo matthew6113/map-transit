@@ -3,7 +3,14 @@
  * shared track, deep link, Escape), the year slider by keyboard, reduced motion and the phone layout.
  * Chromium here; WebKit in CI (PW_WEBKIT=1).
  */
+import { readFileSync } from 'node:fs';
 import { expect, test, type Page } from '@playwright/test';
+
+/** Counts come from the built catalog, so the tests follow the data. */
+const catalog = JSON.parse(readFileSync('data/app/catalog.json', 'utf8')) as { lines: { era: string; group: string }[] };
+const present = catalog.lines.filter((l) => l.era === 'present');
+const future = catalog.lines.filter((l) => l.era === 'present' || l.era === 'future');
+const futureNotHeavy = future.filter((l) => l.group !== 'heavy_rail');
 
 test.setTimeout(240_000);
 
@@ -36,24 +43,24 @@ test('eras, filters, list and the line panel', async ({ page }) => {
   const radio = (name: string) => page.getByRole('radio', { name });
   await expect(radio('Present')).toHaveAttribute('aria-checked', 'true');
   const list = page.locator('.line-list li');
-  await expect(list).toHaveCount(6);
+  await expect(list).toHaveCount(present.length);
 
   // The era switcher is a radio group: arrow keys move between eras.
   await radio('Present').focus();
   await page.keyboard.press('ArrowRight');
   await expect(radio('Future')).toHaveAttribute('aria-checked', 'true');
-  await expect(list).toHaveCount(12);
+  await expect(list).toHaveCount(future.length);
   await expect.poll(() => new URL(page.url()).searchParams.get('era')).toBe('future');
 
-  // The legend is the filter: switching heavy rail off removes BART's six rapid-transit lines (the
+  // The legend is the filter: switching heavy rail off removes BART's rapid-transit lines (the
   // Oakland Airport line is a people mover, filed under light rail).
   const heavy = page.getByRole('button', { name: /Heavy rail/ });
   await heavy.click();
   await expect(heavy).toHaveAttribute('aria-pressed', 'false');
-  await expect(list).toHaveCount(6);
+  await expect(list).toHaveCount(futureNotHeavy.length);
   await expect(page.locator('.line-list')).not.toContainText('Rapid transit');
   await heavy.click();
-  await expect(list).toHaveCount(12);
+  await expect(list).toHaveCount(future.length);
 
   // Open a line from the list; the panel names it, the URL follows, Escape closes it.
   await page.getByRole('button', { name: /^Valley Link/ }).click();

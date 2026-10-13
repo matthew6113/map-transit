@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import urllib.request
 from pathlib import Path
 
@@ -21,9 +22,25 @@ MODE_GROUP = {mode: v["group"] for mode, v in VOCAB["modes"].items()}
 USER_AGENT = "bay-area-transit-map/0.1 (+https://github.com/matthew6113/map-transit)"
 
 
-def fetch(url: str, dest: Path, timeout: int = 300) -> Path:
-    """Download url to dest (cached: an existing file is reused)."""
-    if dest.exists() and dest.stat().st_size > 0:
+def load_env() -> None:
+    """Read KEY=VALUE lines from the repo's .env (git-ignored) into the environment, without
+    overriding what's already set. Secrets such as TRANSIT_511_API_KEY live there or in the
+    cloud environment's settings, never in the repo."""
+    path = ROOT / ".env"
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+def fetch(url: str, dest: Path, timeout: int = 300, refresh: bool = False) -> Path:
+    """Download url to dest (cached: an existing file is reused unless refresh). Never logs the
+    URL, which may carry an API key."""
+    if dest.exists() and dest.stat().st_size > 0 and not refresh:
         return dest
     dest.parent.mkdir(parents=True, exist_ok=True)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -66,6 +83,15 @@ def round_coords(coords, places: int = 6):
     if isinstance(coords, (int, float)):
         return round(coords, places)
     return [round_coords(c, places) for c in coords]
+
+
+def ensure_systems(entries: list[dict]) -> None:
+    """Add systems (id, name, short_name) to data/systems.json, keeping every existing entry."""
+    data = json.loads(SYSTEMS.read_text()) if SYSTEMS.exists() else {"systems": []}
+    have = {s["id"] for s in data["systems"]}
+    data["systems"] += [e for e in entries if e["id"] not in have]
+    data["systems"].sort(key=lambda e: e["id"])
+    write_json(SYSTEMS, data)
 
 
 def merge_registry(path: Path, key: str, prefix: str, entries: list[dict]) -> None:

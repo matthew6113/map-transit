@@ -1,14 +1,32 @@
 {
   "feeds": [
     {
-      "agency": "bart",
+      "id": "amtrak",
+      "title": "Amtrak GTFS feed",
+      "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+      "sha256": "d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa",
+      "fetched": "2026-10-13",
+      "feed_version": "20261013",
+      "feed_start_date": "20261014",
+      "feed_end_date": "20261020",
+      "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+      "agencies": [
+        "amtrak"
+      ]
+    },
+    {
+      "id": "bart",
+      "title": "Bay Area Rapid Transit GTFS feed",
       "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
       "sha256": "affdc4d70cac01f71e54f049c754ba36824a885edcdef2ef8b024820c9e93080",
       "fetched": "2026-10-13",
       "feed_version": "72",
       "feed_start_date": "20260112",
       "feed_end_date": "20260830",
-      "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement"
+      "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+      "agencies": [
+        "bart"
+      ]
     }
   ]
 }

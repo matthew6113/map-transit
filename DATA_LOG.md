@@ -22,30 +22,68 @@ Status key: **in use** is drawn on the map; **checked** was used only to check o
 
 ## Present era
 
-### BART GTFS feed
+The lines are built by `make present`: `pipeline/transit_pipeline/gtfs.py` and `overture.py`.
 
-| | |
-|---|---|
-| Status | In use (Phase 0 preview). |
-| Origin | `https://www.bart.gov/dev/schedules/google_transit.zip`, which redirected to `google_transit_20260810-20270108_v02.zip`. Fetched Oct 13, 2026. SHA-256 `affdc4d7…` (full value in `data/present/feeds.json`). Its `feed_info` says version 72, valid Jan 12 to Aug 30, 2026, which doesn't match the file name. |
-| License | BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement |
-| Used for | 6 lines (Yellow, Orange, Green, Red, Blue, Oakland Airport) and 50 stations. Each line is drawn from the shape most of its trips run, simplified to 3 m. |
-| Gaps | GTFS has no opening dates, so every BART line and station is `opened_unsourced` (null) and stays off the year slider until Phase 2 sources dates by extension. Each line is one segment, so shared track isn't split into dated segments yet. |
+How each line's geometry is made:
+- It covers every shape its trips run, longest first.
+- It keeps only the parts more than 25 m from track already kept, and joins each branch to the track
+  it leaves.
+- It's simplified to 3 m and clipped at the map's pan limits.
+- A line that runs past those limits records where it goes on to (`continues_beyond`).
+
+Opening dates aren't in GTFS. Every present line and station is `opened_unsourced` (null) and stays
+off the year slider until Phase 2 sources dates by extension (decision 4). Each line is still one
+segment, so lines that share track overlap.
 
 ### 511.org regional feed
 
 | | |
 |---|---|
-| Status | Candidate (Phase 1). |
-| Origin | `https://api.511.org/transit/datafeeds?operator_id=RG`. Needs Matthew's API key in `TRANSIT_511_API_KEY`; the key is never committed. Rate limit 60 requests per hour. |
-| License | To check: the 511 SF Bay Open Data terms. |
+| Status | Waiting for the API key (Phase 1). The pipeline reads `TRANSIT_511_API_KEY` from the environment or `.env`; the key is never committed or logged. |
+| Origin | `https://api.511.org/transit/datafeeds?operator_id=RG` (with `api_key`). Rate limit 60 requests per hour. |
+| License | The 511 Data Disseminator Agreement (https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf, last modified May 2019). See below. |
+| Will cover | BART, Muni Metro and the F, E and cable cars, Caltrain, VTA light rail, SMART, ACE, the Gold Runner if 511 carries it, every ferry operator (decision 5), and the BRT corridors (decision 3). Amtrak-run trains come from Amtrak's feed instead. |
+| **Action for Matthew** | Within 30 days of the site's launch, email developerresources@511.org a link or screenshots of the map (section 2.g). |
+
+What the agreement allows: use, copying, storing, distribution, derivative works and public display
+(section 1).
+
+What it requires:
+- **Credit:** "data provided by 511.org" or "powered by 511.org", linked to http://www.511.org and
+  near the data (5.b). The map shows it in the credit line, collapsed or open, whenever a 511 line is
+  loaded.
+- **Branding:** no "511" in the product's name (5.c), and no agency trademarks or logos (2.e, 5.d).
+- **Sales:** the data can't be sold as received (2.b).
+- **Currency:** the information should be kept reasonably current (2.a).
 
 ### Amtrak national GTFS
 
 | | |
 |---|---|
-| Status | Candidate (Phase 1). |
-| Used for | The Zephyr, Starlight and San Joaquins. Clipped at the map's pan limits. |
+| Status | In use. |
+| Origin | `https://content.amtrak.com/content/gtfs/GTFS.zip`, fetched Oct 13, 2026: feed version 20261013, valid Oct 14–20, 2026. SHA-256 in `data/present/feeds.json`. |
+| License | None stated in the feed, and none found on Amtrak's site, so every Amtrak feature is flagged `license_unclear`. **Open item for Matthew.** |
+| Used for | Capitol Corridor (San José to Auburn), California Zephyr ("continues beyond the map to Chicago Union Station") and Coast Starlight (to Los Angeles and Seattle): 3 lines and 18 stations. Thruway buses are left out. |
+| Gaps | **The Gold Runner (the San Joaquins, renamed Nov 3, 2025) isn't in Amtrak's national feed.** Next, check whether 511 carries it. |
+
+### BART GTFS feed
+
+| | |
+|---|---|
+| Status | In use as the fallback for BART until the 511 key arrives. After that, BART comes from 511. |
+| Origin | `https://www.bart.gov/dev/schedules/google_transit.zip`, which redirected to `google_transit_20260810-20270108_v02.zip`, fetched Oct 13, 2026. Its `feed_info` says version 72, valid Jan 12 to Aug 30, 2026, which doesn't match the file name. |
+| License | BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement |
+| Used for | 6 lines (Yellow, Orange, Green, Red, Blue, Oakland Airport) and 50 stations. |
+
+### SFO AirTrain (Overture Maps)
+
+| | |
+|---|---|
+| Status | In use. |
+| Origin | Overture Maps transportation segments, release 2026-09-23.1 (the same as BAM's basemap), read from `s3://overturemaps-us-west-2`. It covers the rail segments in a box around SFO, cached in `data/raw/overture/`. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Used for | One line: the 36 `monorail`-class segments around SFO (most named "SFO AirTrain"), merged into the guideway. Its Red and Blue lines are service patterns on the same guideway. |
+| Gaps | No stations yet, since Overture's segments carry no stops. Opening date not sourced. |
 
 ## Future era
 
@@ -88,8 +126,8 @@ Railway.
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
 | past | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| present | 6 | 6 | 50 | 394.1 | 0 | 0 | 6 | 0 |
+| present | 10 | 10 | 68 | 1241.4 | 0 | 0 | 10 | 0 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `expected_opening_unsourced` 6, `license_unclear` 15, `opened_unsourced` 62, `status_unverified` 6.
+Open flags: `expected_opening_unsourced` 6, `license_unclear` 39, `opened_unsourced` 88, `status_unverified` 6.
 <!-- coverage:end -->

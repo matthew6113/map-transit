@@ -172,6 +172,38 @@ Milliseconds from a year step to a settled map, 12 steps each:
   data should be smaller than 10,000 segments.
 <!-- perf:end -->
 
+## Present-era data (2026-10-13, Phase 1)
+
+- **One source per train.** Amtrak-run trains (Capitol Corridor, Zephyr, Coast Starlight) come from
+  Amtrak's national feed, and are skipped in 511's feed so nothing is drawn twice. Every other agency
+  comes from 511. BART's own feed is a fallback until the key arrives.
+- **Grouping routes into lines** follows a table per agency in `gtfs.py`:
+  - BART by color.
+  - Muni Metro by letter; F and E as streetcars; each cable line.
+  - Caltrain, SMART and ACE as one line each, because their patterns share track.
+  - VTA by color.
+  - Every ferry route in 511's feed.
+
+  Bus substitutions and shuttle patterns such as Muni's S are skipped. A rail agency in 511 with no
+  rule is printed for review, never drawn silently.
+- **Geometry covers every shape a line runs,** which replaces the Phase 0 "busiest shape" rule. That
+  rule dropped branches such as Caltrain's Gilroy tail and BART's airport wye.
+  - Shapes are taken longest first; only parts more than 25 m from kept track are added; slivers
+    under 200 m are dropped; each branch is joined to the track it leaves; then the result is
+    simplified to 3 m.
+  - A route with no published shape is drawn through its stops and marked `approximate` (dashed).
+- **Clipping.** Lines are clipped at BAM's pan limits. Where they go on to comes from their
+  terminals' names in the feed (`continues_beyond`), never written by hand.
+- **Stations.** Rail and people movers show their stations, ferries their terminals. Muni Metro on
+  the surface, the F and E and the cable cars show only subway stations, which keeps the city quiet.
+- **The SFO AirTrain** comes from Overture (OpenStreetMap): every monorail-class segment around SFO,
+  as one people-mover line. No GTFS feed carries it.
+- **511 attribution (Data Disseminator Agreement 5.b).**
+  - "Data provided by 511.org", linked to http://www.511.org, appears in the credit line whenever a
+    511 line is loaded, and stays visible when the credits collapse.
+  - There's no "511" in the map's name, and no agency logos.
+  - Matthew must send MTC the live link within 30 days of launch (`DATA_LOG.md`).
+
 ## Interface (2026-10-13)
 
 - **The app opens on the present era.** The past era opens at 1925, the interurbans' heyday, and

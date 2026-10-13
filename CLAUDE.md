@@ -86,7 +86,7 @@ BAM's "the present as print, the future in color".
 | Command | What it does |
 |---|---|
 | `npm install`, then `make basemap` | Install, then copy BAM's built basemap into `public/generated/`, checked against `basemap.lock.json` (277 MB). Without it, the dev server proxies BAM's site. |
-| `make data` | `future-sync` (BAM's future lines), `present-preview` (BART GTFS), then `app-data` (the app files in `data/app/`). The steps run individually too. |
+| `make data` | `future-sync` (BAM's future lines), `present` (GTFS from 511, Amtrak and BART, plus the AirTrain from Overture; 511 needs `TRANSIT_511_API_KEY`), then `app-data` (the app files in `data/app/`). The steps run individually too. |
 | `npm run dev` | Dev server on http://127.0.0.1:5173. |
 | `npm test` | Schemas, data rules, future-status freshness and theme contrast. Validation lives only here. |
 | `npm run e2e` | Playwright: eras, hover and select, keyboard, reduced motion, mobile, deep links. |
