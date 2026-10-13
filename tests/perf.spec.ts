@@ -4,7 +4,8 @@
  * time from a year step to a settled map for:
  *  A. the app's path: whole-year filters through the diffed setStyle, plus feature-state fades;
  *  B. the same filters with map.setFilter directly (no style diff);
- *  C. a global-state paint expression (map.setGlobalStateProperty), the rejected alternative.
+ *  C. the same filters written with global-state, stepped with map.setGlobalStateProperty;
+ *  D. no year filter at all: visibility as feature-state, set only on features crossing the year.
  * Plus hover: feature-state on one line's features.
  * Headless Chromium draws with SwiftShader (software WebGL), so absolute times are pessimistic;
  * the comparison is what counts. Results: test-results/perf.json.
@@ -80,25 +81,68 @@ test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, cont
         : Array.isArray(c) && c[0] === '>' && c[1][1] === 'close_y' ? ['>', ['get', 'close_y'], year - 2] : c));
     }`, 1930);
 
-  // C: global-state paint on a layer of its own (the app's past layers hidden).
+  // C: global-state in the same layers' filters (set once; each step sets the year).
   await page.evaluate(() => {
     const m = (window as unknown as { __map: import('maplibre-gl').Map }).__map;
-    for (const l of m.getStyle().layers) if (l.id.startsWith('transit-past-')) m.setLayoutProperty(l.id, 'visibility', 'none');
     m.setGlobalStateProperty('year', 1950);
-    m.addLayer({
-      id: 'perf-global-state', type: 'line', source: 'transit-past-draw',
-      paint: {
-        'line-color': '#1F5FAD', 'line-width': 2,
-        'line-opacity': ['case', ['all', ['<', ['get', 'open_y'], ['+', ['global-state', 'year'], 1]],
-          ['>', ['get', 'close_y'], ['global-state', 'year']]], 1, 0],
-      },
-    }, 'transit-selected-casing');
+    for (const l of m.getStyle().layers) {
+      if (!l.id.startsWith('transit-past-')) continue;
+      const f = m.getFilter(l.id);
+      if (!Array.isArray(f) || f[0] !== 'all') continue;
+      m.setFilter(l.id, f.map((c) => (Array.isArray(c) && c[0] === '<' && (c[1] as unknown[])[1] === 'open_y'
+        ? ['<', ['get', 'open_y'], ['+', ['global-state', 'year'], 1]]
+        : Array.isArray(c) && c[0] === '>' && (c[1] as unknown[])[1] === 'close_y'
+          ? ['>', ['get', 'close_y'], ['-', ['global-state', 'year'], 2]] : c)) as import('maplibre-gl').FilterSpecification);
+    }
   });
   await idle(page);
-  console.log('C: global-state paint');
+  console.log('C: global-state filters');
   const c = await measure(page, 'window.__map.setGlobalStateProperty("year", year)', 1951);
 
-  // Hover: feature-state on the five features of one synthetic line.
+  // D: visibility as feature-state. No year in any filter: every past layer's opacity reads a
+  // feature-state "vis", and each step sets it only on the features that open or close.
+  await page.evaluate(async () => {
+    const m = (window as unknown as { __map: import('maplibre-gl').Map }).__map;
+    const w = window as unknown as { __years: Record<string, { fid: number; open: number; close: number }[]>; __vis: Record<string, Set<number>> };
+    w.__years = {};
+    w.__vis = {};
+    for (const kind of ['draw', 'lines', 'points']) {
+      const fc = await (await fetch(`/tests/fixtures/synthetic-${kind}.geojson`)).json();
+      w.__years[`transit-past-${kind}`] = fc.features.map((f: { properties: { fid: number; open_y: number; close_y: number } }) =>
+        ({ fid: f.properties.fid, open: f.properties.open_y, close: f.properties.close_y }));
+      w.__vis[`transit-past-${kind}`] = new Set();
+    }
+    const vis: import('maplibre-gl').ExpressionSpecification = ['coalesce', ['feature-state', 'vis'], 0];
+    for (const l of m.getStyle().layers) {
+      if (!l.id.startsWith('transit-past-')) continue;
+      const f = m.getFilter(l.id);
+      if (Array.isArray(f) && f[0] === 'all') {
+        m.setFilter(l.id, f.filter((x) => !(Array.isArray(x) && (x[0] === '<' || x[0] === '>'))) as import('maplibre-gl').FilterSpecification);
+      }
+      if (l.type === 'line' && !l.id.endsWith('-highlight') && !l.id.endsWith('-hit')) m.setPaintProperty(l.id, 'line-opacity', vis);
+      if (l.type === 'circle') {
+        m.setPaintProperty(l.id, 'circle-opacity', vis);
+        m.setPaintProperty(l.id, 'circle-stroke-opacity', vis);
+      }
+    }
+    (window as unknown as { __step: (y: number) => void }).__step = (year: number) => {
+      for (const [source, items] of Object.entries(w.__years)) {
+        const shown = w.__vis[source];
+        for (const it of items) {
+          const on = it.open < year + 1 && it.close > year;
+          if (on !== shown.has(it.fid)) {
+            m.setFeatureState({ source, id: it.fid }, { vis: on ? 1 : 0 });
+            if (on) shown.add(it.fid); else shown.delete(it.fid);
+          }
+        }
+      }
+    };
+    (window as unknown as { __step: (y: number) => void }).__step(1950);
+  });
+  await idle(page);
+  console.log('D: feature-state visibility');
+  const d = await measure(page, 'window.__step(year)', 1951);
+
   console.log('Hover: feature-state');
   const hover = await measure(page, `
     const m = window.__map;
@@ -106,7 +150,7 @@ test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, cont
 
   const result = {
     features: 10000, cpuSlowdown: 4, renderer: 'SwiftShader (software WebGL)', buildings: false, stepsPerMethod: YEARS,
-    msToIdle: { appPath: stats(a), setFilter: stats(b), globalStatePaint: stats(c), hoverFeatureState: stats(hover) },
+    msToIdle: { appPath: stats(a), setFilter: stats(b), globalStateFilters: stats(c), featureStateVisibility: stats(d), hoverFeatureState: stats(hover) },
   };
   mkdirSync('test-results', { recursive: true });
   writeFileSync('test-results/perf.json', JSON.stringify(result, null, 2));
