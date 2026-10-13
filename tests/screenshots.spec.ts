@@ -18,6 +18,15 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'present-3d-sf', url: '/?view=3d&test=1#map=15/37.7880/-122.3990/-20/55' },
   { name: 'mobile-present', url: '/?test=1', width: 390, height: 844 },
   { name: 'mobile-line', url: '/l/bart-yellow?test=1&at=99', width: 390, height: 844 },
+  // Phase 1: the full present network, where it is densest, and each BRT corridor.
+  { name: 'present-downtown-sf', url: '/?test=1#map=14.6/37.7880/-122.4040/0/0' },
+  { name: 'present-san-jose', url: '/?test=1#map=12.6/37.3400/-121.8900/0/0' },
+  { name: 'present-ferries-marin', url: '/?test=1#map=11.4/37.8700/-122.4600/0/0' },
+  { name: 'present-peninsula', url: '/?test=1#map=10.4/37.5600/-122.2900/0/0' },
+  { name: 'present-sfo-airtrain', url: '/l/sfo-airtrain?test=1&at=99' },
+  { name: 'present-brt-van-ness', url: '/l/muni-49?test=1&at=99' },
+  { name: 'present-brt-tempo', url: '/l/ac-transit-1t?test=1&at=99' },
+  { name: 'present-brt-alum-rock', url: '/l/vta-522?test=1&at=99' },
 ];
 
 async function settle(page: Page) {

@@ -77,6 +77,15 @@ def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+def tidy(name: str) -> str:
+    """A feed's name in the map's style: a name in capitals gets its words capitalized
+    ("POWELL-HYDE" to "Powell-Hyde", "14TH" to "14th"), and a spaced hyphen becomes an en dash."""
+    name = name.strip()
+    if name.isupper():
+        name = re.sub(r"\b[a-z][a-z']*", lambda m: m.group(0).title(), name.lower())
+    return re.sub(r"\s+-\s+", "\u2013", name)
+
+
 # ------------------------------------------------------------------------------------------ feeds
 
 @dataclass
@@ -143,23 +152,24 @@ def muni_line(r: dict) -> LineDef | None:
     short = r["route_short_name"].strip().upper()
     long = r["route_long_name"].strip()
     if r["route_type"] == "5":
-        name = long or short
+        name = re.sub(r"\s+cable car$", "", tidy(long or short), flags=re.I)
         return (f"muni-cable-{slug(name)}", f"{name} cable car", "cable")
     if r["route_type"] == "0" and short in MUNI_METRO:
-        return (f"muni-{short.lower()}", f"{short} {long}".strip(), "light_rail")
+        return (f"muni-{short.lower()}", f"{short} {tidy(long)}".strip(), "light_rail")
     if r["route_type"] == "0" and short in {"F", "E"}:
-        return (f"muni-{short.lower()}", f"{short} {long}".strip(), "streetcar")
+        return (f"muni-{short.lower()}", f"{short} {tidy(long)}".strip(), "streetcar")
     return None  # shuttles (S), substitutions and anything else
 
 
 def vta_line(r: dict) -> LineDef | None:
-    if r["route_type"] != "0":
-        return None
+    if r["route_type"] != "0" or r["route_short_name"].strip().lower().startswith("event"):
+        return None  # special-event services run over the same track
     text = f"{r['route_short_name']} {r['route_long_name']}"
     for color in ("Blue", "Green", "Orange"):
         if color.lower() in text.lower():
             return (f"vta-{color.lower()}", f"{color} line", "light_rail")
-    return (f"vta-{slug(text)}", text.strip(), "light_rail")
+    print(f"[gtfs] note: VTA light rail route {text.strip()!r} has no rule; skipped")
+    return None
 
 
 AMTRAK_LINES = {
@@ -178,7 +188,8 @@ def ferry_line(agency_slug: str) -> Callable[[dict], LineDef | None]:
     def rule(r: dict) -> LineDef | None:
         if r["route_type"] != "4":
             return None
-        name = r["route_long_name"].strip() or r["route_short_name"].strip()
+        name = re.sub(r"\s+ferry$", "", tidy(r["route_long_name"] or r["route_short_name"]), flags=re.I)
+        name = re.sub(r"\s*\u2013\s*", "\u2013", name)
         return (f"{agency_slug}-{slug(name)}", name, "ferry")
     return rule
 
@@ -190,14 +201,14 @@ class Agency:
     feed: str
     match: str  # regex on agency_name in agency.txt
     line: Callable[[dict], LineDef | None]
-    stations: str = "all"  # "all" stops (collapsed to their stations), or only stops with a "parent" station
+    stations: str = "all"  # "all" stops (collapsed to their stations); "named": only stops named as a station
     point_kind: str = "station"
 
 
 AGENCIES = [
     Agency("bart", ("bart", "Bay Area Rapid Transit", "BART"), "511", r"Bay Area Rapid Transit|\bBART\b", bart_line),
     Agency("muni", ("muni", "San Francisco Municipal Railway", "Muni"), "511", r"San Francisco Municipal|SFMTA|\bMuni\b",
-           muni_line, stations="parent"),
+           muni_line, stations="named"),
     Agency("caltrain", ("caltrain", "Caltrain", "Caltrain"), "511", r"Caltrain|Peninsula Corridor",
            single(("caltrain", "Caltrain", "commuter_rail"))),
     Agency("vta", ("vta", "Santa Clara Valley Transportation Authority", "VTA"), "511", r"\bVTA\b|Santa Clara Valley Transportation",
@@ -208,6 +219,8 @@ AGENCIES = [
            single(("ace", "Altamont Corridor Express", "commuter_rail"))),
     Agency("gold-runner", ("gold-runner", "Gold Runner (formerly the San Joaquins)", "Gold Runner"), "511", r"Gold Runner|San Joaquin",
            single(("gold-runner", "Gold Runner", "intercity_rail"))),
+    Agency("sfo-airtrain", ("sfo-airtrain", "SFO AirTrain", "AirTrain"), "511", r"^SFO Airport$",
+           single(("sfo-airtrain", "SFO AirTrain", "people_mover"))),
     Agency("amtrak", ("amtrak", "Amtrak", "Amtrak"), "amtrak", r"^Amtrak$",
            lambda r: AMTRAK_LINES.get(r["route_long_name"].strip()) if r["route_type"] == "2" else None),
 ]
@@ -215,6 +228,15 @@ AGENCIES = [
 SKIP_511 = r"Capitol Corridor|^Amtrak"
 # Every other agency in the 511 feed that runs ferries counts (decision 5): matched by route type.
 FERRY_FEED = "511"
+
+
+STATION_DIRECTION = re.compile(r"\s*/?\s*\b(Downtown|Downtn|Outbound|Outbd|Inbound|Northbound|Southbound)$", re.I)
+
+
+def station_name(name: str) -> str:
+    """A station's name from one of its platform stops: "Metro Castro Station/Outbound" is "Castro"."""
+    name = STATION_DIRECTION.sub("", re.sub(r"^Metro\s+", "", name.strip()))
+    return tidy(re.sub(r"\s+Station$", "", name))
 
 
 # ------------------------------------------------------------------------------------------ geometry
@@ -266,7 +288,7 @@ def finish(lines_m: list[LineString]) -> list[list[list[float]]]:
 LANE_M = 15.0  # route geometry this close to a median-lane way runs in that lane
 LANE_GAP_M = 120.0  # gaps shorter than this are closed (lane tags lapse across intersections)
 STOP_M = 30.0  # a route's stops this close to the kept corridor are its stations
-END_CHECK_M = 250.0  # how far the kept corridor may end from a lane limit the agency names
+END_CHECK_M = 200.0  # how far the kept corridor may end from a cross street the agency names as a lane limit
 BRT_ACCESSED = "2026-10-13"
 
 
@@ -278,7 +300,7 @@ class Brt:
     system: tuple[str, str, str]
     route: str  # regex on route_short_name
     source: dict  # the agency's own description of the corridor (official)
-    ends: tuple[str, ...] = ()  # cross streets the agency names as the lane limits, checked against OSM
+    ends: tuple[tuple[str, str], ...] = ()  # lane limits the agency names: (as it says it, OSM name pattern)
 
 
 BRT = [
@@ -287,15 +309,15 @@ BRT = [
         "publisher": "San Francisco Municipal Transportation Agency", "type": "official",
         "url": "https://www.sfmta.com/projects/van-ness-improvement-project", "accessed": BRT_ACCESSED,
         "notes": "Center-running bus lanes on Van Ness Ave from Mission St to Lombard St; BRT service began in April 2022.",
-    }, ends=("Mission", "Lombard")),
-    Brt("Tempo", r"AC Transit|Alameda.?Contra Costa", ("ac-transit", "Alameda-Contra Costa Transit District", "AC Transit"), r"^1T$", {
+    }, ends=(("Mission St", "^Mission Street$"), ("Lombard St", "^Lombard Street$"))),
+    Brt("Tempo", r"(?i)AC Transit|Alameda.?Contra Costa", ("ac-transit", "Alameda-Contra Costa Transit District", "AC Transit"), r"^1T$", {
         "id": "brt-actransit-tempo", "title": "AC Transit press release on Tempo's launch", "publisher": "AC Transit",
         "date": "2020-08-07", "type": "official", "url": "https://www.actransit.org/node/688", "accessed": BRT_ACCESSED,
         "notes": ("Tempo runs from Uptown Oakland to San Leandro BART along International Blvd and East 14th St, on a "
                   "'nearly 10-mile network of dedicated and painted bus-only lanes'. It doesn't say where the center lanes "
                   "start and end, so OSM's lane tags do (decision 9)."),
     }),
-    Brt("Alum Rock BRT", r"\bVTA\b|Santa Clara Valley Transportation", ("vta", "Santa Clara Valley Transportation Authority", "VTA"), r"^522$", {
+    Brt("Alum Rock BRT", r"\bVTA\b|Santa Clara Valley Transportation", ("vta", "Santa Clara Valley Transportation Authority", "VTA"), r"(^|\s)522$", {
         "id": "brt-vta-rapid-522", "title": "Route 522: Rapid 522, Palo Alto TC to Eastridge (schedule)",
         "publisher": "Santa Clara Valley Transportation Authority", "type": "official",
         "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
@@ -303,7 +325,7 @@ BRT = [
         "notes": ("Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & "
                   "Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after "
                   "Muirfield' (eastbound)."),
-    }, ends=("34th", "Muirfield")),
+    }, ends=(("34th St", "^(North |N )?34th Street$"), ("Muirfield", "^Muirfield"))),
 ]
 OSM_SOURCE = "osm-overpass-brt"
 
@@ -353,7 +375,7 @@ def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[
             print(f"[brt] {c.corridor}: route {r['route_short_name']} has no shapes; skipped")
             continue
         x0, y0, x1, y1 = unary_union(shapes_deg).bounds
-        line_id = f"{c.system[0]}-{slug(r['route_short_name'])}"
+        line_id = f"{c.system[0]}-{slug(re.sub(r'^Rapid\s+', '', r['route_short_name'].strip()))}"
         try:
             response = osm_lanes.fetch(f"brt-{line_id}", (x0 - 0.0012, y0 - 0.001, x1 + 0.0012, y1 + 0.001), refresh=refresh)
         except osm_lanes.OverpassUnavailable as e:
@@ -361,13 +383,18 @@ def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[
             return []
         bases.add(osm_lanes.osm_base(response))
         median, review = osm_lanes.median_ways(response, to_metres)
+        route_m = unary_union(cover([to_metres(s) for s in shapes_deg]))
+        along = route_m.buffer(LANE_M)
         for w in review:
+            w_m = to_metres(w.line)
+            if w_m.intersection(along).length < 50.0:
+                continue  # crosses the route, or doesn't touch it
             lane_tags = {k: v for k, v in w.tags.items() if osm_lanes.BUS_KEY.match(k) or k in ("oneway", "highway", "name")}
             print(f"[brt] {c.corridor}: review way {w.id} (its tags don't say where the bus lane is): {lane_tags}")
         if not median:
             print(f"[brt] {c.corridor}: no center or median bus lanes in OSM along route {r['route_short_name']}; skipped")
             continue
-        kept = clip_to_lanes(cover([to_metres(s) for s in shapes_deg]), unary_union([m for _, m in median]))
+        kept = clip_to_lanes(list(getattr(route_m, "geoms", [route_m])), unary_union([m for _, m in median]))
         parts = finish(kept)
         if not parts:
             print(f"[brt] {c.corridor}: route {r['route_short_name']} doesn't run along the median lanes; skipped")
@@ -388,19 +415,32 @@ def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[
         flags = ["opened_unsourced"]
         notes = []
         ends = [Point(p.coords[i]) for p in kept for i in (0, -1)]
-        for street in c.ends:
-            named = [s for sid in route_stops if (s := stops.get(sid)) and re.search(rf"\b{re.escape(street)}\b", s["stop_name"], re.I)]
-            if not named:
-                notes.append(f"Can't check the limit at {street}: no stop on the route is named for it.")
+        bbox = (x0 - 0.0012, y0 - 0.001, x1 + 0.0012, y1 + 0.001)
+        for said, pattern in c.ends:
+            try:
+                streets = osm_lanes.streets(f"brt-{line_id}-{slug(said)}", bbox, pattern, refresh=refresh)
+            except osm_lanes.OverpassUnavailable as e:
+                notes.append(f"Can't check the limit at {said}: {e}.")
                 continue
-            gap = min(to_metres(Point(float(s["stop_lon"]), float(s["stop_lat"]))).distance(e) for s in named for e in ends)
+            # Roads by that name near the route (a side street may end short of it, as Muirfield Dr does).
+            near = [to_metres(w.line) for w in streets if to_metres(w.line).distance(route_m) <= END_CHECK_M]
+            if not near:
+                notes.append(f"Can't check the limit at {said}: OSM has no road by that name near the route.")
+                continue
+            gap = min(e.distance(n) for e in ends for n in near)
             if gap > END_CHECK_M:
                 flags.append("conflicting_sources")
-                notes.append(f"The agency puts a lane limit at {street}, but OSM's lanes end {gap:.0f} m from the nearest stop named for it.")
+                notes.append(f"The agency puts a lane limit at {said}, but OSM's lanes end {gap:.0f} m from it.")
+            else:
+                print(f"[brt] {c.corridor}: OSM's lanes end {gap:.0f} m from {said}, where the agency puts a limit")
         for n in notes:
             print(f"[brt] {c.corridor}: {n}")
 
-        name = f"{r['route_short_name'].strip()} {r['route_long_name'].strip()}".strip()
+        short = re.sub(r"^Rapid\s+", "", r["route_short_name"].strip())
+        long = r["route_long_name"].strip()
+        if r["route_short_name"].strip().startswith("Rapid"):
+            long = re.sub(r"\s+Rapid$", "", long)  # "Rapid 522 Palo Alto TC - Eastridge Rapid"
+        name = tidy(f"{r['route_short_name'].strip()} {long}")
         seg_id = f"{line_id}-brt-lanes"
         agency_ref = {"source": c.source["id"], "supports": ["general"] + (["route"] if c.ends else [])}
         segments_out.append({
@@ -420,7 +460,7 @@ def build_brt(g: "GtfsZip", source_id: str, digest: str, refresh: bool) -> list[
             "geometry": {"type": "LineString", "coordinates": parts[0]} if len(parts) == 1 else {"type": "MultiLineString", "coordinates": parts},
         })
         lines_out.append({
-            "id": line_id, "name": name, "short_name": r["route_short_name"].strip(), "system": c.system[0],
+            "id": line_id, "name": name, "short_name": short, "system": c.system[0],
             "operators": [{"name": next(a["agency_name"] for a in agencies if a.get("agency_id", "") == r.get("agency_id", ""))}],
             "mode": "brt", "era": "present", "opened": None, "closed": None, "status": "active",
             "summary": f"Drawn only along {c.corridor}, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
@@ -516,14 +556,22 @@ def build_agency(agency: Agency, g: GtfsZip, feed: Feed, agency_ids: set[str], s
         if st["trip_id"] in trip_line:
             trip_stops[st["trip_id"]].append((int(st["stop_sequence"]), st["stop_id"]))
 
+    groups: dict[str, set[str]] = defaultdict(set)  # a "named" station's platform stops
+
     def station_of(stop_id: str) -> str | None:
         s = stops.get(stop_id)
         if not s:
             return None
+        if agency.stations == "named":
+            # Muni's stops in the regional feed have no parent stations of their own (only those shared
+            # with BART do), so a station is every stop named as one, both directions together.
+            if not re.search(r"\bStation\b", s["stop_name"]):
+                return None
+            key = "name:" + station_name(s["stop_name"])
+            groups[key].add(stop_id)
+            return key
         parent = s.get("parent_station")
-        if parent and parent in stops:
-            return parent
-        return None if agency.stations == "parent" else stop_id
+        return parent if parent and parent in stops else stop_id
 
     flags = ["opened_unsourced"] + (["license_unclear"] if feed.license_unclear else [])
     lines_out, segments_out = [], []
@@ -604,22 +652,28 @@ def build_agency(agency: Agency, g: GtfsZip, feed: Feed, agency_ids: set[str], s
     points_out = []
     for sid, ids in sorted(station_lines.items()):
         ids &= kept_lines
-        s = stops[sid]
-        pt = Point(float(s["stop_lon"]), float(s["stop_lat"]))
+        members = sorted(groups[sid]) if sid in groups else [sid]
+        lons = [float(stops[m]["stop_lon"]) for m in members]
+        lats = [float(stops[m]["stop_lat"]) for m in members]
+        pt = Point(sum(lons) / len(lons), sum(lats) / len(lats))
         if not ids or not BOUNDS.contains(pt):
             continue
+        named = sid.startswith("name:")
+        name = sid[5:] if named else stops[sid]["stop_name"].strip()
+        method = (f"GTFS stops.txt: the mean of stops {', '.join(members)} (its platforms)" if named
+                  else f"GTFS stops.txt, stop {sid}")
         points_out.append({
             "type": "Feature",
             "properties": {
-                "id": f"{agency.slug}-{slug(sid)}",
+                "id": f"{agency.slug}-{slug(name if named else sid)}",
                 "kind": "ferry_terminal" if all(l["mode"] == "ferry" for l in lines_out if l["id"] in ids) else agency.point_kind,
-                "name": s["stop_name"].strip(),
+                "name": name,
                 "system": agency.system[0],
                 "line_ids": sorted(ids),
                 "opened": None,
                 "closed": None,
                 "geometry_confidence": "surveyed",
-                "geometry_method": f"GTFS stops.txt, stop {sid}",
+                "geometry_method": method,
                 "sources": [{"source": source_id, "supports": ["stations"]}],
                 "flags": flags,
             },
@@ -645,7 +699,8 @@ def feed_source(feed: Feed, info: dict, digest: str) -> dict:
         "type": "dataset",
         "license": feed.license,
         "accessed": TODAY,
-        "notes": f"feed_info dates {info.get('feed_start_date', '?')} to {info.get('feed_end_date', '?')}; file SHA-256 {digest}.",
+        "notes": (f"feed_info dates {info['feed_start_date']} to {info['feed_end_date']}; " if info.get("feed_start_date") and info.get("feed_end_date")
+                  else "feed_info gives no dates; ") + f"file SHA-256 {digest}.",
     }
 
 
@@ -680,7 +735,8 @@ def main() -> None:
         print("[gtfs] ferries and brt: need TRANSIT_511_API_KEY (BRT also needs overpass-api.de); kept as they are")
 
     systems = []
-    for feed_id in sorted({f for _, f in plan}):
+    plan_feeds = sorted({f for _, f in plan})
+    for feed_id in plan_feeds:
         feed = FEEDS[feed_id]
         zpath = fetch(feed.download_url(), RAW / "gtfs" / feed_id / "feed.zip", refresh=refresh)
         digest = sha256(zpath)
@@ -733,6 +789,13 @@ def main() -> None:
             "fetched": TODAY, "feed_version": info.get("feed_version", ""), "feed_start_date": info.get("feed_start_date"),
             "feed_end_date": info.get("feed_end_date"), "license": feed.license, "agencies": sorted(used),
         }
+    # A feed no agency comes from any more (BART's own, once 511's key arrives) leaves the records.
+    produced = {a for f in plan_feeds for a in feed_log[f]["agencies"]}
+    for fid in [f for f in feed_log if f not in plan_feeds]:
+        feed_log[fid]["agencies"] = [a for a in feed_log[fid]["agencies"] if a not in produced]
+        if not feed_log[fid]["agencies"]:
+            del feed_log[fid]
+            merge_registry(SOURCES, "sources", f"gtfs-{fid}", [])
     ensure_systems(systems)
     write_json(feeds_json, {"feeds": [feed_log[k] for k in sorted(feed_log)]})
 

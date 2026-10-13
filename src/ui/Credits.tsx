@@ -15,8 +15,8 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       <a href="https://overturemaps.org">Overture Maps Foundation</a> (release {OVERTURE_RELEASE}, ODbL); building
       footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. Today's lines from GTFS feeds:{' '}
       <a href="https://511.org/open-data/transit">511.org</a> (MTC),{' '}
-      <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; the SFO AirTrain
-      from <a href="https://overturemaps.org">Overture Maps</a> (OpenStreetMap, ODbL). Future
+      <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; BRT lanes from{' '}
+      <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL). Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
       County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Sources for every line
       are in its panel.

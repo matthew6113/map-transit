@@ -22,6 +22,8 @@ from __future__ import annotations
 
 import json
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
@@ -31,6 +33,7 @@ from shapely.geometry import LineString
 from .common import RAW, USER_AGENT, write_json
 
 OVERPASS = "https://overpass-api.de/api/interpreter"
+RETRIES = 4
 CACHE = RAW / "osm"
 DIVIDED_M = 40.0  # the two halves of a divided road run this close; a one-way couplet doesn't
 LANE_LISTS = ("bus:lanes", "psv:lanes")
@@ -50,32 +53,57 @@ class Way:
 
 def query(bbox: tuple[float, float, float, float]) -> str:
     """Every way around the route that carries a busway or bus-lane tag, with its geometry."""
-    w, s, e, n = bbox
-    area = f"({s:.5f},{w:.5f},{n:.5f},{e:.5f})"
+    area = _area(bbox)
     keys = "^(busway|bus:lanes|psv:lanes|lanes:bus|lanes:psv)(:.*)?$"
     return (f'[out:json][timeout:120];(way["highway"="busway"]{area};way[~"{keys}"~"."]{area};);'
             "out tags geom;")
 
 
-def fetch(name: str, bbox: tuple[float, float, float, float], refresh: bool = False) -> dict:
-    """The Overpass response for a bbox, cached as data/raw/osm/<name>.json. A cached response is
-    reused when its bbox covers this one."""
+def _area(bbox: tuple[float, float, float, float]) -> str:
+    w, s, e, n = bbox
+    return f"({s:.5f},{w:.5f},{n:.5f},{e:.5f})"
+
+
+def street_query(bbox: tuple[float, float, float, float], pattern: str) -> str:
+    """Every road in the bbox whose name matches pattern (the cross streets an agency names)."""
+    return f'[out:json][timeout:60];way["highway"]["name"~"{pattern}"]{_area(bbox)};out tags geom;'
+
+
+def _fetch(name: str, bbox: tuple[float, float, float, float], q: str, refresh: bool) -> dict:
+    """An Overpass response, cached as data/raw/osm/<name>.json and reused while the cached query is
+    the same and its bbox covers this one."""
     path = CACHE / f"{name}.json"
     if path.exists() and not refresh:
         cached = json.loads(path.read_text())
         cw, cs, ce, cn = cached["bbox"]
         w, s, e, n = bbox
-        if cw <= w and cs <= s and ce >= e and cn >= n:
+        same = cached.get("query", "").replace(_area(tuple(cached["bbox"])), "") == q.replace(_area(bbox), "")
+        if same and cw <= w and cs <= s and ce >= e and cn >= n:
             return cached["response"]
-    body = urllib.parse.urlencode({"data": query(bbox)}).encode()
+    body = urllib.parse.urlencode({"data": q}).encode()
     req = urllib.request.Request(OVERPASS, data=body, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(req, timeout=180) as r:
-            response = json.loads(r.read())
-    except OSError as e:
-        raise OverpassUnavailable(f"{OVERPASS} unreachable ({e.__class__.__name__}: {e})") from e
-    write_json(path, {"bbox": list(bbox), "query": query(bbox), "response": response})
+    for attempt in range(RETRIES):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                response = json.loads(r.read())
+            break
+        except OSError as e:
+            busy = not isinstance(e, urllib.error.HTTPError) or e.code in (429, 502, 503, 504)
+            if not busy or attempt == RETRIES - 1:
+                raise OverpassUnavailable(f"{OVERPASS} unreachable ({e.__class__.__name__}: {e})") from e
+            time.sleep(15 * (attempt + 1))  # Overpass is a shared server: back off and try again
+    write_json(path, {"bbox": list(bbox), "query": q, "response": response})
     return response
+
+
+def fetch(name: str, bbox: tuple[float, float, float, float], refresh: bool = False) -> dict:
+    """The busway and bus-lane ways in a bbox."""
+    return _fetch(name, bbox, query(bbox), refresh)
+
+
+def streets(name: str, bbox: tuple[float, float, float, float], pattern: str, refresh: bool = False) -> list[Way]:
+    """The roads in a bbox whose name matches pattern."""
+    return ways(_fetch(name, bbox, street_query(bbox, pattern), refresh))
 
 
 def osm_base(response: dict) -> str:

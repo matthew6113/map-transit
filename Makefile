@@ -8,7 +8,7 @@ help:
 	@echo "make basemap          Copy BAM's built basemap into public/generated/ and check it against basemap.lock.json"
 	@echo "make basemap-refresh  Re-read BAM's deployed basemap and rewrite the lock (review the diff)"
 	@echo "make future-sync      Import BAM's future lines at the pinned commit (data/future/bam/)"
-	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment) and the AirTrain from Overture"
+	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment), BRT lanes from OpenStreetMap"
 	@echo "make present-refresh  The same, downloading every feed again"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"
 	@echo "make data             future-sync, present and app-data"
@@ -35,11 +35,9 @@ future-sync: tools
 
 present: tools
 	$(PY) transit_pipeline.gtfs
-	$(PY) transit_pipeline.overture
 
 present-refresh: tools
 	$(PY) transit_pipeline.gtfs --refresh
-	$(PY) transit_pipeline.overture
 
 app-data: tools
 	$(PY) transit_pipeline.build
