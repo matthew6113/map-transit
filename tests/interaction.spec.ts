@@ -45,11 +45,13 @@ test('eras, filters, list and the line panel', async ({ page }) => {
   await expect(list).toHaveCount(12);
   await expect.poll(() => new URL(page.url()).searchParams.get('era')).toBe('future');
 
-  // The legend is the filter: switching heavy rail off removes BART from the list.
+  // The legend is the filter: switching heavy rail off removes BART's six rapid-transit lines (the
+  // Oakland Airport line is a people mover, filed under light rail).
   const heavy = page.getByRole('button', { name: /Heavy rail/ });
   await heavy.click();
   await expect(heavy).toHaveAttribute('aria-pressed', 'false');
-  await expect(list).toHaveCount(5);
+  await expect(list).toHaveCount(6);
+  await expect(page.locator('.line-list')).not.toContainText('Rapid transit');
   await heavy.click();
   await expect(list).toHaveCount(12);
 
