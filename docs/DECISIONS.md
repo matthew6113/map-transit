@@ -132,7 +132,26 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
 ### Rendering spike (2026-10-13)
 
 <!-- perf:start -->
-Results pending (tests/perf.spec.ts).
+`npm run perf` (`tests/perf.spec.ts`) used 10,000 synthetic past segments plus 2,000 points under a
+4× CPU slowdown, with the building print off. Headless Chromium draws with SwiftShader (software
+WebGL), where one repaint alone takes about 1–1.5 s, so the absolute times are pessimistic and the
+comparison is what counts.
+
+Milliseconds from a year step to a settled map, 12 steps each:
+
+| Approach | Median | p90 | Max |
+|---|---|---|---|
+| **A. Feature-state visibility, set only on features crossing the year (shipped)** | **1,055** | **2,587** | **4,140** |
+| B. Year in every layer's filter, via `setFilter` (the plan's first proposal) | 4,928 | 7,495 | 8,187 |
+| C. The same filters written with `global-state`, via `setGlobalStateProperty` | 3,328 | 6,264 | 8,503 |
+| Hover: feature-state on one line's five features | 30 | 2,316 | 4,338 |
+
+- A is 3–5× faster than B or C.
+- B and C reload the source and re-lay out every layer at each step. A costs about one repaint.
+- An earlier run that compared one global-state paint layer against ten filtered layers was not a
+  fair test and isn't used.
+- **Still to do:** re-measure on a real GPU, including WebKit on an iPhone, in Phase 5. The real past
+  data should be smaller than 10,000 segments.
 <!-- perf:end -->
 
 ## Interface (2026-10-13)
