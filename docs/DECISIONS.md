@@ -40,6 +40,15 @@ Choices made so far, newest last within each section. A decision waiting on Matt
    - Credit: "David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries."
 8. **`main` was created at the first scaffold commit,** and Phase 0 and 1 merge to it through a pull
    request. Merging to `main` deploys to GitHub Pages.
+9. **BRT lane limits come from OpenStreetMap's bus-lane tags** (decision 3 says how far to draw).
+   - Only SFMTA publishes its limits (Van Ness, Mission St to Lombard St). AC Transit and VTA describe
+     their dedicated lanes without saying where they start and end (research below).
+   - Each line cites its agency for the corridor being BRT. Where the center or median lanes run comes
+     from OSM's surveyed tags (`highway=busway`, or `designated` in the innermost position of
+     `bus:lanes`/`psv:lanes`), fetched from Overpass (ODbL).
+   - Van Ness is checked against SFMTA's limits, and Alum Rock against VTA's schedule; a mismatch is
+     flagged `conflicting_sources`.
+   - The method is in "Present-era data" below.
 
 ## Architecture (2026-10-13)
 
@@ -204,7 +213,7 @@ Milliseconds from a year step to a settled map, 12 steps each:
   - There's no "511" in the map's name, and no agency logos.
   - Matthew must send MTC the live link within 30 days of launch (`DATA_LOG.md`).
 
-### Open: BRT lane limits (researched 2026-10-13; needs Matthew)
+### BRT lane limits (researched 2026-10-13; Matthew chose OSM, decision 9)
 
 Decision 3 draws BRT only where the dedicated center or median lanes run, cut at limits an official
 source names. Searching official pages found that only Van Ness names its limits:
@@ -217,13 +226,36 @@ source names. Searching official pages found that only Van Ness names its limits
     the center, from Uptown Oakland to San Leandro BART.
   - Wikipedia's route section (median running from 14th Ave on International Blvd; mixed traffic on
     Broadway and in San Leandro) cites nothing, so it can't be used.
-- **VTA Alum Rock–Santa Clara BRT (Rapid 522): no limits found.**
-  - VTA's Aug 2018 release (reprinted by Mass Transit) says that "for approximately one mile of the
-    route, there is a dedicated lane for buses only", on Alum Rock Ave, and that left turns were
-    restored at Jose Figueres Ave, McCreery Ave and N 34th St. It doesn't name where the lane ends.
+- **VTA Alum Rock–Santa Clara BRT (Rapid 522): named in its schedule** (found after decision 9).
+  - VTA's Aug 2018 release (reprinted by Mass Transit) says only that "for approximately one mile of
+    the route, there is a dedicated lane for buses only", on Alum Rock Ave.
+  - VTA's own Rapid 522 schedule
+    (https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf)
+    gives the limits in its driving directions:
+    - on Alum Rock Ave, buses "Merge Left into Bus Only lane";
+    - they use the "median BRT stops at Alum Rock & Jackson and Alum Rock & King";
+    - they "Merge Right into regular traffic lane after 34th" westbound, and "after Muirfield"
+      eastbound.
+  - The pipeline checks OSM's extent against these limits, as it does for Van Ness.
 
-How to draw Tempo and VTA is Matthew's call. The options are in the Phase 1 report, and nothing is
-drawn for either line until he picks one.
+Matthew chose OpenStreetMap's lane tags for all three (decision 9).
+
+**The method** (`pipeline/transit_pipeline/osm_lanes.py` and the BRT rule in `gtfs.py`):
+- **Query.** Overpass is queried over each route's GTFS shapes, padded by 100 m, for ways that carry
+  any bus-lane or busway tag. The response is cached in `data/raw/osm/`, and its `timestamp_osm_base`
+  is recorded.
+- **What counts as a center or median lane.** A way counts if it is a `highway=busway`, or if a
+  `bus:lanes` or `psv:lanes` list (plain, `:forward` or `:backward`) is `designated` in its innermost
+  lane:
+  - On a one-way way, the innermost lane is the first entry.
+  - On a two-way way, it's the first entry of each direction, the one next to the centre line. A
+    two-way way's plain list runs left to right across the whole road, so its innermost lane can't be
+    told apart, and it's listed for review instead.
+  - Curb lanes (`busway=lane`, `busway:right=lane`) don't count.
+- **Clipping.** The route's GTFS coverage is kept only within 15 m of those ways. Gaps under 120 m
+  are closed, where the tags lapse at intersections, and pieces under 200 m are dropped.
+- **Records.** Each segment is `surveyed`, and its `geometry_method` names the shapes, the OSM way ids
+  and `timestamp_osm_base`.
 
 ## Interface (2026-10-13)
 
