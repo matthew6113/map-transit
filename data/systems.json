@@ -1,9 +1,24 @@
 {
   "systems": [
     {
+      "id": "ac-transit",
+      "name": "Alameda-Contra Costa Transit District",
+      "short_name": "AC Transit"
+    },
+    {
+      "id": "ace",
+      "name": "Altamont Corridor Express",
+      "short_name": "ACE"
+    },
+    {
       "id": "amtrak",
       "name": "Amtrak",
       "short_name": "Amtrak"
+    },
+    {
+      "id": "angel-island-tiburon-ferry",
+      "name": "Angel Island Tiburon Ferry",
+      "short_name": "Angel Island Tiburon Ferry"
     },
     {
       "id": "bart",
@@ -21,6 +36,26 @@
       "short_name": "Caltrain"
     },
     {
+      "id": "golden-gate-ferry",
+      "name": "Golden Gate Ferry",
+      "short_name": "Golden Gate Ferry"
+    },
+    {
+      "id": "muni",
+      "name": "San Francisco Municipal Railway",
+      "short_name": "Muni"
+    },
+    {
+      "id": "muni",
+      "name": "San Francisco Municipal Railway",
+      "short_name": "Muni"
+    },
+    {
+      "id": "san-francisco-bay-ferry",
+      "name": "San Francisco Bay Ferry",
+      "short_name": "San Francisco Bay Ferry"
+    },
+    {
       "id": "sfo-airtrain",
       "name": "SFO AirTrain",
       "short_name": "AirTrain"
@@ -31,9 +66,19 @@
       "short_name": "SMART"
     },
     {
+      "id": "treasure-island-ferry",
+      "name": "Treasure Island Ferry",
+      "short_name": "Treasure Island Ferry"
+    },
+    {
       "id": "valley-link",
       "name": "Valley Link",
       "short_name": "Valley Link"
+    },
+    {
+      "id": "vta",
+      "name": "Santa Clara Valley Transportation Authority",
+      "short_name": "VTA"
     }
   ]
 }

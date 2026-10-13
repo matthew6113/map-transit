@@ -831,6 +831,44 @@
       "notes": "Cited by BAM's valley-link record."
     },
     {
+      "id": "brt-actransit-tempo",
+      "title": "AC Transit press release on Tempo's launch",
+      "publisher": "AC Transit",
+      "date": "2020-08-07",
+      "type": "official",
+      "url": "https://www.actransit.org/node/688",
+      "accessed": "2026-10-13",
+      "notes": "Tempo runs from Uptown Oakland to San Leandro BART along International Blvd and East 14th St, on a 'nearly 10-mile network of dedicated and painted bus-only lanes'. It doesn't say where the center lanes start and end, so OSM's lane tags do (decision 9)."
+    },
+    {
+      "id": "brt-sfmta-van-ness",
+      "title": "Van Ness Improvement Project",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/van-ness-improvement-project",
+      "accessed": "2026-10-13",
+      "notes": "Center-running bus lanes on Van Ness Ave from Mission St to Lombard St; BRT service began in April 2022."
+    },
+    {
+      "id": "brt-vta-rapid-522",
+      "title": "Route 522: Rapid 522, Palo Alto TC to Eastridge (schedule)",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
+      "accessed": "2026-10-13",
+      "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
+    },
+    {
+      "id": "gtfs-511",
+      "title": "511 SF Bay regional GTFS feed (operator RG)",
+      "publisher": "Metropolitan Transportation Commission (511.org)",
+      "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+      "type": "dataset",
+      "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+      "accessed": "2026-10-13",
+      "notes": "feed_info gives no dates; file SHA-256 7b3665119162f9efa99f111043b67d5f436ead0f56f83b256a8c9c05288018e6."
+    },
+    {
       "id": "gtfs-amtrak",
       "title": "Amtrak GTFS feed, version 20261013",
       "publisher": "Amtrak",
@@ -841,23 +879,14 @@
       "notes": "feed_info dates 20261014 to 20261020; file SHA-256 d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa."
     },
     {
-      "id": "gtfs-bart",
-      "title": "Bay Area Rapid Transit GTFS feed, version 72",
-      "publisher": "Bay Area Rapid Transit",
-      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+      "id": "osm-overpass-brt",
+      "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+      "publisher": "OpenStreetMap contributors",
+      "url": "https://overpass-api.de/api/interpreter",
       "type": "dataset",
-      "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+      "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
       "accessed": "2026-10-13",
-      "notes": "feed_info dates 20260112 to 20260830; file SHA-256 affdc4d70cac01f71e54f049c754ba36824a885edcdef2ef8b024820c9e93080."
-    },
-    {
-      "id": "overture-transportation-2026-09-23-1",
-      "title": "Overture Maps Foundation, transportation theme, release 2026-09-23.1",
-      "publisher": "Overture Maps Foundation",
-      "url": "https://docs.overturemaps.org/guides/transportation/",
-      "type": "dataset",
-      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/, rail segments in (-122.42, 37.6, -122.36, 37.645)."
+      "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
     }
   ]
 }

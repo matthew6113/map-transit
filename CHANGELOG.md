@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-13: Phase 1, with the 511 key
+
+- **511's regional feed** (SHA-256 `7b366511…`, fetched Oct 13): BART, Muni (J, K, L, M, N and T;
+  the F; three cable car lines), Caltrain, VTA (Blue, Green, Orange), SMART, ACE, the SFO AirTrain,
+  and 14 ferry routes from four operators (Golden Gate Ferry, San Francisco Bay Ferry, Angel
+  Island–Tiburon Ferry, Treasure Island Ferry).
+- **BRT** on its center or median lanes (decision 9): Van Ness (Muni 49), Tempo (AC Transit 1T) and
+  Alum Rock (VTA Rapid 522), from OpenStreetMap via Overpass.
+- **The SFO AirTrain** now comes from 511, with its 11 stations. The Overture version is gone.
+- **BART** now comes from 511, and its own feed's record was dropped.
+- **Not in the feeds:** the Gold Runner (the San Joaquins) is in neither 511's nor Amtrak's feed, and Muni's E line isn't in 511's current feed.
+- The present era has 43 lines and 266 stations, ferry terminals included.
+
 ## 2026-10-13: Phase 1 (without the 511 key)
 
 - **Basemap re-pinned** as snapshot `c58e3ba99831` (110 files, 279 MB). BAM's files are unchanged

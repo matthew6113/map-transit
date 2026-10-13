@@ -1,6 +1,33 @@
 {
   "feeds": [
     {
+      "id": "511",
+      "title": "511 SF Bay regional GTFS feed (operator RG)",
+      "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+      "sha256": "7b3665119162f9efa99f111043b67d5f436ead0f56f83b256a8c9c05288018e6",
+      "fetched": "2026-10-13",
+      "feed_version": "",
+      "feed_start_date": "",
+      "feed_end_date": "",
+      "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+      "agencies": [
+        "ac-transit (BRT)",
+        "ace",
+        "angel-island-tiburon-ferry",
+        "bart",
+        "caltrain",
+        "golden-gate-ferry",
+        "muni",
+        "muni (BRT)",
+        "san-francisco-bay-ferry",
+        "sfo-airtrain",
+        "smart",
+        "treasure-island-ferry",
+        "vta",
+        "vta (BRT)"
+      ]
+    },
+    {
       "id": "amtrak",
       "title": "Amtrak GTFS feed",
       "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
@@ -12,20 +39,6 @@
       "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
       "agencies": [
         "amtrak"
-      ]
-    },
-    {
-      "id": "bart",
-      "title": "Bay Area Rapid Transit GTFS feed",
-      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
-      "sha256": "affdc4d70cac01f71e54f049c754ba36824a885edcdef2ef8b024820c9e93080",
-      "fetched": "2026-10-13",
-      "feed_version": "72",
-      "feed_start_date": "20260112",
-      "feed_end_date": "20260830",
-      "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
-      "agencies": [
-        "bart"
       ]
     }
   ]

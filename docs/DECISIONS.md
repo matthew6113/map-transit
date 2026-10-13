@@ -185,16 +185,23 @@ Milliseconds from a year step to a settled map, 12 steps each:
 
 - **One source per train.** Amtrak-run trains (Capitol Corridor, Zephyr, Coast Starlight) come from
   Amtrak's national feed, and are skipped in 511's feed so nothing is drawn twice. Every other agency
-  comes from 511. BART's own feed is a fallback until the key arrives.
+  comes from 511, the SFO AirTrain included. BART's own feed is used only when there's no 511 key.
 - **Grouping routes into lines** follows a table per agency in `gtfs.py`:
   - BART by color.
   - Muni Metro by letter; F and E as streetcars; each cable line.
   - Caltrain, SMART and ACE as one line each, because their patterns share track.
-  - VTA by color.
+  - VTA by color. Its special-event services (Event-Blue, Event-Green, Event-Orange, Event-Special)
+    run over the same track and are skipped.
+  - The SFO AirTrain as one line; its Red and Blue lines share one guideway.
   - Every ferry route in 511's feed.
 
   Bus substitutions and shuttle patterns such as Muni's S are skipped. A rail agency in 511 with no
   rule is printed for review, never drawn silently.
+- **Names follow the map's sentence case.**
+  - A name the feed gives in capitals ("J CHURCH", "POWELL-HYDE CABLE CAR") gets its words
+    capitalized as proper names: "J Church", "Powell-Hyde cable car".
+  - A spaced hyphen becomes an en dash.
+  - A ferry route loses a trailing "Ferry", since the mode already says it: "Larkspur–San Francisco".
 - **Geometry covers every shape a line runs,** which replaces the Phase 0 "busiest shape" rule. That
   rule dropped branches such as Caltrain's Gilroy tail and BART's airport wye.
   - Shapes are taken longest first; only parts more than 25 m from kept track are added; slivers
@@ -205,8 +212,15 @@ Milliseconds from a year step to a settled map, 12 steps each:
   terminals' names in the feed (`continues_beyond`), never written by hand.
 - **Stations.** Rail and people movers show their stations, ferries their terminals. Muni Metro on
   the surface, the F and E and the cable cars show only subway stations, which keeps the city quiet.
-- **The SFO AirTrain** comes from Overture (OpenStreetMap): every monorail-class segment around SFO,
-  as one people-mover line. No GTFS feed carries it.
+  - In 511's feed, Muni's stops have a parent station only where they share one with BART.
+  - So a Muni station is every stop named as one, with its directions merged: "Metro Castro
+    Station/Downtown" and "Metro Castro Station/Outbound" become "Castro", at the mean of their
+    positions.
+  - That gives 13 stations, the Central Subway's included.
+- **The SFO AirTrain comes from 511's "SFO Airport" feed** (since Oct 13, with the key).
+  - It replaced the Overture (OpenStreetMap) guideway used before the key, because GTFS is this era's
+    source and it carries the 11 stations.
+  - The Overture step and its `pyarrow` dependency were removed.
 - **511 attribution (Data Disseminator Agreement 5.b).**
   - "Data provided by 511.org", linked to http://www.511.org, appears in the credit line whenever a
     511 line is loaded, and stays visible when the credits collapse.
@@ -237,6 +251,17 @@ source names. Searching official pages found that only Van Ness names its limits
     - they "Merge Right into regular traffic lane after 34th" westbound, and "after Muirfield"
       eastbound.
   - The pipeline checks OSM's extent against these limits, as it does for Van Ness.
+
+**Results (Oct 13, 2026, with OSM as of 2026-10-13):**
+
+| Corridor | Median lanes | Check against the agency's limits |
+|---|---|---|
+| Van Ness (Muni 49) | 3.2 km on 34 OSM ways, 14 stations | Ends 15 m from Mission St and 3 m from Lombard St |
+| Tempo (AC Transit 1T) | 9.3 km on 208 OSM ways, 21 stations | No published limits to check |
+| Alum Rock (VTA Rapid 522) | 2.2 km on 11 OSM ways; the Alum Rock & King and Alum Rock & Jackson stations, the two VTA names | Ends 70 m from N 34th St and 173 m from Muirfield Dr |
+
+- One way along Tempo is listed for review and isn't drawn: 11th St, way 1056371791, in the downtown
+  couplet. Its tags (`lanes:bus=1`, `bus:lanes=yes|yes|yes`) don't say where the bus lane is.
 
 Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 

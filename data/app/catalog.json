@@ -1670,6 +1670,387 @@
       ]
     },
     {
+      "id": "ac-transit-1t",
+      "name": "1T International–E. 14th",
+      "short_name": "1T",
+      "system": "ac-transit",
+      "system_name": "Alameda-Contra Costa Transit District",
+      "operators": [
+        {
+          "name": "AC TRANSIT"
+        }
+      ],
+      "mode": "brt",
+      "mode_label": "Bus rapid transit",
+      "group": "brt",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "summary": "Drawn only along Tempo, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 9.31,
+      "confidence_km": {
+        "surveyed": 9.31
+      },
+      "bbox": [
+        -122.245415,
+        37.734768,
+        -122.163351,
+        37.789032
+      ],
+      "fids": [
+        13
+      ],
+      "segments": [
+        {
+          "id": "ac-transit-1t-brt-lanes",
+          "name": "Tempo, center or median lanes",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt (3 shapes of route 1T), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 28931808, 52495699, 52495700, 53293089, 53293090, 118420269, 118421441, 135259730, 195604786, 415823472, 415823474, 415823477, 415823478, 415826574, 415826575, 415826576, 415826577, 415850009, 415850014, 415850025, 415850035, 415853554, 415853568, 415855610, 415855613, 415855614, 415855615, 415855616, 415855617, 415855623, 415855624, 415855630, 415855631, 415855633, 415855634, 415855636, 415855637, 415855639, 415855640, 415855642, 415855643, 415855644, 416147489, 416147495, 416148895, 416148900, 416148905, 417698755, 417701665, 417701690, 518186974, 618326473, 618458944, 618458945, 618458952, 618458953, 676108645, 683988722, 684007090, 684007091, 684007092, 684007093, 684007094, 684007095, 684007097, 746022966, 746022968, 746022971, 746027377, 746049273, 746049276, 746049278, 746049292, 746049300, 746049304, 746049305, 746049308, 746049309, 746049311, 746049313, 746210038, 746210039, 746253947, 746253950, 746253953, 746253956, 746253957, 746253964, 746253969, 746709083, 761806085, 766105018, 769764785, 770033618, 770080601, 770080741, 770080743, 770081704, 770081705, 770083873, 770088589, 793941961, 797207209, 797207210, 800769162, 801428030, 933296476, 933296480, 933362013, 933362015, 933760043, 933760048, 934183370, 934192096, 934192099, 934228914, 934228915, 934228920, 934276735, 934276736, 934276742, 946486509, 986736932, 1000196287, 1000806414, 1026995591, 1030325062, 1030355385, 1034771073, 1034806900, 1042627675, 1042936643, 1042936645, 1061356686, 1061377318, 1061379549, 1065779657, 1069216911, 1069216913, 1069216917, 1069216919, 1069216920, 1069216922, 1069216925, 1069216926, 1071424400, 1071424402, 1071424405, 1071424406, 1071424408, 1071424409, 1071424410, 1071424412, 1071424413, 1071424414, 1071424417, 1071555013, 1072675018, 1072683086, 1072701901, 1072701904, 1073488046, 1074122880, 1074128603, 1075016064, 1075674785, 1075674791, 1075674793, 1075674797, 1075935972, 1075935974, 1075935976, 1076018969, 1077413017, 1077413018, 1077413019, 1077413020, 1077413021, 1077413024, 1077413025, 1077413026, 1077413027, 1077413028, 1077413029, 1077603673, 1109981755, 1125133758, 1134740783, 1134740784, 1152328704, 1182987707, 1185041061, 1190790203, 1210918018, 1228875190, 1304579604, 1374054334, 1388719756, 1390452115, 1430531957, 1430531958, 1457097807, 1463046773, 1493329088, 1534387319, 1534387321, 1554838086, 1556713491; Overpass data as of 2026-10-13T23:09:31Z.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        },
+        {
+          "id": "brt-actransit-tempo",
+          "title": "AC Transit press release on Tempo's launch",
+          "publisher": "AC Transit",
+          "date": "2020-08-07",
+          "type": "official",
+          "url": "https://www.actransit.org/node/688",
+          "accessed": "2026-10-13",
+          "source": "brt-actransit-tempo",
+          "supports": [
+            "general"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-49",
+      "name": "49 Van Ness-Mission",
+      "short_name": "49",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "brt",
+      "mode_label": "Bus rapid transit",
+      "group": "brt",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "summary": "Drawn only along Van Ness BRT, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 3.2,
+      "confidence_km": {
+        "surveyed": 3.2
+      },
+      "bbox": [
+        -122.424563,
+        37.772964,
+        -122.41863,
+        37.801379
+      ],
+      "fids": [
+        12
+      ],
+      "segments": [
+        {
+          "id": "muni-49-brt-lanes",
+          "name": "Van Ness BRT, center or median lanes",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt (4 shapes of route 49), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 619979097, 682793453, 767944815, 1047613716, 1047613717, 1054649979, 1054649980, 1054649983, 1054649985, 1054649986, 1054649987, 1054649988, 1054649989, 1054649990, 1054649991, 1054649992, 1054649993, 1054649994, 1054649995, 1054649996, 1054649997, 1054649998, 1054649999, 1054650000, 1054650001, 1054650002, 1054650003, 1054650004, 1054650005, 1054650006, 1054650007, 1128305794, 1128354344, 1218554444; Overpass data as of 2026-10-13T23:08:33Z.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        },
+        {
+          "id": "brt-sfmta-van-ness",
+          "title": "Van Ness Improvement Project",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/projects/van-ness-improvement-project",
+          "accessed": "2026-10-13",
+          "source": "brt-sfmta-van-ness",
+          "supports": [
+            "general",
+            "route"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-alameda-seaplane",
+      "name": "Alameda Seaplane",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 8.86,
+      "confidence_km": {
+        "surveyed": 8.86
+      },
+      "bbox": [
+        -122.39125,
+        37.77477,
+        -122.29832,
+        37.79567
+      ],
+      "fids": [
+        31
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-alameda-seaplane-gtfs",
+          "name": "Alameda Seaplane, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 35 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ace",
+      "name": "Altamont Corridor Express",
+      "system": "ace",
+      "system_name": "Altamont Corridor Express",
+      "operators": [
+        {
+          "name": "Altamont Corridor Express"
+        }
+      ],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 157.41,
+      "confidence_km": {
+        "surveyed": 157.41
+      },
+      "bbox": [
+        -122.03319,
+        37.33067,
+        -121.26145,
+        37.95709
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "ace-gtfs",
+          "name": "Altamont Corridor Express, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-ferry-angel-island-san-francisco",
+      "name": "Angel Island–San Francisco",
+      "system": "golden-gate-ferry",
+      "system_name": "Golden Gate Ferry",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 11.37,
+      "confidence_km": {
+        "surveyed": 11.37
+      },
+      "bbox": [
+        -122.45011,
+        37.79653,
+        -122.38891,
+        37.86921
+      ],
+      "fids": [
+        16
+      ],
+      "segments": [
+        {
+          "id": "golden-gate-ferry-angel-island-san-francisco-gtfs",
+          "name": "Angel Island–San Francisco, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bart-blue",
       "name": "Blue line",
       "system": "bart",
@@ -1691,18 +2072,18 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 62.61,
+      "length_km": 62.62,
       "confidence_km": {
-        "surveyed": 62.61
+        "surveyed": 62.62
       },
       "bbox": [
-        -122.468901,
-        37.688567,
-        -121.899243,
-        37.809944
+        -122.4689,
+        37.68859,
+        -121.89924,
+        37.80994
       ],
       "fids": [
-        5
+        6
       ],
       "segments": [
         {
@@ -1722,14 +2103,156 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vta-blue",
+      "name": "Blue line",
+      "system": "vta",
+      "system_name": "Santa Clara Valley Transportation Authority",
+      "operators": [
+        {
+          "name": "VTA"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 28.07,
+      "confidence_km": {
+        "surveyed": 28.07
+      },
+      "bbox": [
+        -121.94472,
+        37.23595,
+        -121.78893,
+        37.41049
+      ],
+      "fids": [
+        41
+      ],
+      "segments": [
+        {
+          "id": "vta-blue-gtfs",
+          "name": "Blue line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 347 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-cable-california-street",
+      "name": "California Street cable car",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 2.3,
+      "confidence_km": {
+        "surveyed": 2.3
+      },
+      "bbox": [
+        -122.42224,
+        37.79039,
+        -122.3964,
+        37.79367
+      ],
+      "fids": [
+        21
+      ],
+      "segments": [
+        {
+          "id": "muni-cable-california-street-gtfs",
+          "name": "California Street cable car, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 584 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
@@ -1804,6 +2327,77 @@
           "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
           "accessed": "2026-10-13",
           "source": "gtfs-amtrak",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caltrain",
+      "name": "Caltrain",
+      "system": "caltrain",
+      "system_name": "Caltrain",
+      "operators": [
+        {
+          "name": "Caltrain"
+        }
+      ],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 123.87,
+      "confidence_km": {
+        "surveyed": 123.87
+      },
+      "bbox": [
+        -122.41314,
+        37.00351,
+        -121.56615,
+        37.7762
+      ],
+      "fids": [
+        15
+      ],
+      "segments": [
+        {
+          "id": "caltrain-gtfs",
+          "name": "Caltrain, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
@@ -1962,6 +2556,77 @@
       ]
     },
     {
+      "id": "muni-f",
+      "name": "F Market & Wharves",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 9.22,
+      "confidence_km": {
+        "surveyed": 9.22
+      },
+      "bbox": [
+        -122.4352,
+        37.7625,
+        -122.39305,
+        37.80862
+      ],
+      "fids": [
+        24
+      ],
+      "segments": [
+        {
+          "id": "muni-f-gtfs",
+          "name": "F Market & Wharves, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bart-green",
       "name": "Green line",
       "system": "bart",
@@ -1988,13 +2653,13 @@
         "surveyed": 85.46
       },
       "bbox": [
-        -122.468901,
-        37.368485,
+        -122.4689,
+        37.36848,
         -121.87471,
-        37.809944
+        37.80994
       ],
       "fids": [
-        6
+        7
       ],
       "segments": [
         {
@@ -2014,14 +2679,653 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vta-green",
+      "name": "Green line",
+      "system": "vta",
+      "system_name": "Santa Clara Valley Transportation Authority",
+      "operators": [
+        {
+          "name": "VTA"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 23.98,
+      "confidence_km": {
+        "surveyed": 23.98
+      },
+      "bbox": [
+        -121.98426,
+        37.27963,
+        -121.88619,
+        37.41132
+      ],
+      "fids": [
+        42
+      ],
+      "segments": [
+        {
+          "id": "vta-green-gtfs",
+          "name": "Green line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-harbor-bay",
+      "name": "Harbor Bay",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 13.92,
+      "confidence_km": {
+        "surveyed": 13.92
+      },
+      "bbox": [
+        -122.39107,
+        37.73601,
+        -122.25697,
+        37.79689
+      ],
+      "fids": [
+        32
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-harbor-bay-gtfs",
+          "name": "Harbor Bay, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 19 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-j",
+      "name": "J Church",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 11.4,
+      "confidence_km": {
+        "surveyed": 11.4
+      },
+      "bbox": [
+        -122.44737,
+        37.72122,
+        -122.39171,
+        37.79442
+      ],
+      "fids": [
+        25
+      ],
+      "segments": [
+        {
+          "id": "muni-j-gtfs",
+          "name": "J Church, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-k",
+      "name": "K Ingleside",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 13.44,
+      "confidence_km": {
+        "surveyed": 13.44
+      },
+      "bbox": [
+        -122.47181,
+        37.72129,
+        -122.38952,
+        37.79442
+      ],
+      "fids": [
+        26
+      ],
+      "segments": [
+        {
+          "id": "muni-k-gtfs",
+          "name": "K Ingleside, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-l",
+      "name": "L Taraval",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 13.6,
+      "confidence_km": {
+        "surveyed": 13.6
+      },
+      "bbox": [
+        -122.50463,
+        37.73618,
+        -122.38961,
+        37.79442
+      ],
+      "fids": [
+        27
+      ],
+      "segments": [
+        {
+          "id": "muni-l-gtfs",
+          "name": "L Taraval, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 752 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-ferry-larkspur-san-francisco",
+      "name": "Larkspur–San Francisco",
+      "system": "golden-gate-ferry",
+      "system_name": "Golden Gate Ferry",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 20.7,
+      "confidence_km": {
+        "surveyed": 20.7
+      },
+      "bbox": [
+        -122.50835,
+        37.79578,
+        -122.38708,
+        37.94473
+      ],
+      "fids": [
+        17
+      ],
+      "segments": [
+        {
+          "id": "golden-gate-ferry-larkspur-san-francisco-gtfs",
+          "name": "Larkspur–San Francisco, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 94 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-m",
+      "name": "M Ocean View",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 17.17,
+      "confidence_km": {
+        "surveyed": 17.17
+      },
+      "bbox": [
+        -122.47524,
+        37.71316,
+        -122.38781,
+        37.79443
+      ],
+      "fids": [
+        28
+      ],
+      "segments": [
+        {
+          "id": "muni-m-gtfs",
+          "name": "M Ocean View, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 732 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-n",
+      "name": "N Judah",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 17.38,
+      "confidence_km": {
+        "surveyed": 17.38
+      },
+      "bbox": [
+        -122.50853,
+        37.75284,
+        -122.38682,
+        37.79443
+      ],
+      "fids": [
+        29
+      ],
+      "segments": [
+        {
+          "id": "muni-n-gtfs",
+          "name": "N Judah, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-oakland-alameda",
+      "name": "Oakland & Alameda",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 12.22,
+      "confidence_km": {
+        "surveyed": 12.22
+      },
+      "bbox": [
+        -122.39079,
+        37.79089,
+        -122.27978,
+        37.79853
+      ],
+      "fids": [
+        33
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-oakland-alameda-gtfs",
+          "name": "Oakland & Alameda, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 106 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
@@ -2059,13 +3363,13 @@
         "surveyed": 5.14
       },
       "bbox": [
-        -122.212226,
+        -122.21223,
         37.71325,
-        -122.195778,
-        37.753581
+        -122.19578,
+        37.75358
       ],
       "fids": [
-        7
+        8
       ],
       "segments": [
         {
@@ -2085,14 +3389,85 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-oakland-alameda-water-shuttle",
+      "name": "Oakland Alameda Water Shuttle",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 0.25,
+      "confidence_km": {
+        "surveyed": 0.25
+      },
+      "bbox": [
+        -122.27846,
+        37.79196,
+        -122.27773,
+        37.79417
+      ],
+      "fids": [
+        34
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-oakland-alameda-water-shuttle-gtfs",
+          "name": "Oakland Alameda Water Shuttle, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 115 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
@@ -2130,13 +3505,13 @@
         "surveyed": 81.12
       },
       "bbox": [
-        -122.353023,
-        37.368485,
+        -122.35302,
+        37.36848,
         -121.87471,
-        37.936737
+        37.93674
       ],
       "fids": [
-        8
+        9
       ],
       "segments": [
         {
@@ -2156,20 +3531,317 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
             "stations",
             "name",
             "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vta-orange",
+      "name": "Orange line",
+      "system": "vta",
+      "system_name": "Santa Clara Valley Transportation Authority",
+      "operators": [
+        {
+          "name": "VTA"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 28.6,
+      "confidence_km": {
+        "surveyed": 28.6
+      },
+      "bbox": [
+        -122.0776,
+        37.35815,
+        -121.83207,
+        37.41578
+      ],
+      "fids": [
+        43
+      ],
+      "segments": [
+        {
+          "id": "vta-orange-gtfs",
+          "name": "Orange line, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-cable-powell-hyde",
+      "name": "Powell-Hyde cable car",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 4.17,
+      "confidence_km": {
+        "surveyed": 4.17
+      },
+      "bbox": [
+        -122.42057,
+        37.78441,
+        -122.40765,
+        37.80666
+      ],
+      "fids": [
+        22
+      ],
+      "segments": [
+        {
+          "id": "muni-cable-powell-hyde-gtfs",
+          "name": "Powell-Hyde cable car, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-cable-powell-mason",
+      "name": "Powell-Mason cable car",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 2.59,
+      "confidence_km": {
+        "surveyed": 2.59
+      },
+      "bbox": [
+        -122.41525,
+        37.78441,
+        -122.40765,
+        37.80536
+      ],
+      "fids": [
+        23
+      ],
+      "segments": [
+        {
+          "id": "muni-cable-powell-mason-gtfs",
+          "name": "Powell-Mason cable car, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vta-522",
+      "name": "Rapid 522 Palo Alto TC–Eastridge",
+      "short_name": "522",
+      "system": "vta",
+      "system_name": "Santa Clara Valley Transportation Authority",
+      "operators": [
+        {
+          "name": "VTA"
+        }
+      ],
+      "mode": "brt",
+      "mode_label": "Bus rapid transit",
+      "group": "brt",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "summary": "Drawn only along Alum Rock BRT, where it runs in center or median bus lanes (the rest of the route runs in traffic).",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 2.23,
+      "confidence_km": {
+        "surveyed": 2.23
+      },
+      "bbox": [
+        -121.857983,
+        37.351666,
+        -121.836402,
+        37.361934
+      ],
+      "fids": [
+        14
+      ],
+      "segments": [
+        {
+          "id": "vta-522-brt-lanes",
+          "name": "Alum Rock BRT, center or median lanes",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt (4 shapes of route Rapid 522), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 500400301, 500400363, 500400364, 711193418, 711193419, 712180900, 712180901, 712180905, 712180906, 1072588040, 1300025636; Overpass data as of 2026-10-13T23:20:36Z.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        },
+        {
+          "id": "brt-vta-rapid-522",
+          "title": "Route 522: Rapid 522, Palo Alto TC to Eastridge (schedule)",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "type": "official",
+          "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
+          "accessed": "2026-10-13",
+          "source": "brt-vta-rapid-522",
+          "supports": [
+            "general",
+            "route"
           ]
         }
       ]
@@ -2202,12 +3874,12 @@
       },
       "bbox": [
         -122.47109,
-        37.600271,
+        37.60027,
         -122.26627,
-        37.936737
+        37.93674
       ],
       "fids": [
-        9
+        10
       ],
       "segments": [
         {
@@ -2227,14 +3899,85 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-richmond",
+      "name": "Richmond",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 16.44,
+      "confidence_km": {
+        "surveyed": 16.44
+      },
+      "bbox": [
+        -122.39733,
+        37.79439,
+        -122.35928,
+        37.90948
+      ],
+      "fids": [
+        35
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-richmond-gtfs",
+          "name": "Richmond, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 5 shapes run by 41 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
@@ -2252,7 +3995,7 @@
       "system_name": "SFO AirTrain",
       "operators": [
         {
-          "name": "San Francisco International Airport"
+          "name": "SFO Airport"
         }
       ],
       "mode": "people_mover",
@@ -2263,51 +4006,694 @@
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "notes": "Its Red and Blue lines are service patterns on the same guideway, drawn as one line. No stations yet: Overture's segments carry no stops. Operator as named by the guideway's owner, SFO; to be sourced.",
       "flags": [
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 11.12,
+      "length_km": 7.21,
       "confidence_km": {
-        "surveyed": 11.12
+        "surveyed": 7.21
       },
       "bbox": [
-        -122.401447,
-        37.613211,
-        -122.384391,
-        37.635234
+        -122.40142,
+        37.61321,
+        -122.38437,
+        37.63509
       ],
       "fids": [
-        1
+        38
       ],
       "segments": [
         {
-          "id": "sfo-airtrain-guideway",
-          "name": "SFO AirTrain guideway",
+          "id": "sfo-airtrain-gtfs",
+          "name": "SFO AirTrain, as run in GTFS",
           "opened": null,
           "closed": null,
           "borrowed": false,
           "confidence": "surveyed",
-          "method": "Overture Maps transportation segments, release 2026-09-23.1: the 36 monorail-class segments around SFO (16 named 'SFO AirTrain'; the rest its connectors and yard leads), merged",
-          "structure": "elevated",
+          "method": "GTFS shapes.txt: 2 shapes run by 820 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
           "flags": [
             "opened_unsourced"
-          ]
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
         }
       ],
       "sources": [
         {
-          "id": "overture-transportation-2026-09-23-1",
-          "title": "Overture Maps Foundation, transportation theme, release 2026-09-23.1",
-          "publisher": "Overture Maps Foundation",
-          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-          "source": "overture-transportation-2026-09-23-1",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
-            "name"
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "name": "SMART",
+      "system": "smart",
+      "system_name": "Sonoma-Marin Area Rail Transit",
+      "operators": [
+        {
+          "name": "Sonoma-Marin Area Rail Transit"
+        }
+      ],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 77.25,
+      "confidence_km": {
+        "surveyed": 77.25
+      },
+      "bbox": [
+        -122.81852,
+        37.94785,
+        -122.50751,
+        38.54912
+      ],
+      "fids": [
+        39
+      ],
+      "segments": [
+        {
+          "id": "smart-gtfs",
+          "name": "SMART, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-ferry-sausalito-san-francisco",
+      "name": "Sausalito–San Francisco",
+      "system": "golden-gate-ferry",
+      "system_name": "Golden Gate Ferry",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 11.15,
+      "confidence_km": {
+        "surveyed": 11.15
+      },
+      "bbox": [
+        -122.47755,
+        37.79578,
+        -122.38931,
+        37.85629
+      ],
+      "fids": [
+        18
+      ],
+      "segments": [
+        {
+          "id": "golden-gate-ferry-sausalito-san-francisco-gtfs",
+          "name": "Sausalito–San Francisco, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 8 shapes run by 40 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-south-san-francisco",
+      "name": "South San Francisco",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 22.73,
+      "confidence_km": {
+        "surveyed": 22.73
+      },
+      "bbox": [
+        -122.37725,
+        37.66268,
+        -122.27978,
+        37.80034
+      ],
+      "fids": [
+        36
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-south-san-francisco-gtfs",
+          "name": "South San Francisco, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-t",
+      "name": "T Third",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "San Francisco Municipal Transportation Agency"
+        }
+      ],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 10.65,
+      "confidence_km": {
+        "surveyed": 10.65
+      },
+      "bbox": [
+        -122.40809,
+        37.70886,
+        -122.38714,
+        37.79494
+      ],
+      "fids": [
+        30
+      ],
+      "segments": [
+        {
+          "id": "muni-t-gtfs",
+          "name": "T Third, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "angel-island-tiburon-ferry-tiburon-to-angel-island",
+      "name": "Tiburon to Angel Island",
+      "system": "angel-island-tiburon-ferry",
+      "system_name": "Angel Island Tiburon Ferry",
+      "operators": [
+        {
+          "name": "Angel Island Tiburon Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 1.87,
+      "confidence_km": {
+        "surveyed": 1.87
+      },
+      "bbox": [
+        -122.45572,
+        37.86831,
+        -122.43509,
+        37.87257
+      ],
+      "fids": [
+        5
+      ],
+      "segments": [
+        {
+          "id": "angel-island-tiburon-ferry-tiburon-to-angel-island-gtfs",
+          "name": "Tiburon to Angel Island, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 632 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-ferry-tiburon-san-francisco",
+      "name": "Tiburon–San Francisco",
+      "system": "golden-gate-ferry",
+      "system_name": "Golden Gate Ferry",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 11.38,
+      "confidence_km": {
+        "surveyed": 11.38
+      },
+      "bbox": [
+        -122.45592,
+        37.79578,
+        -122.38913,
+        37.87273
+      ],
+      "fids": [
+        19
+      ],
+      "segments": [
+        {
+          "id": "golden-gate-ferry-tiburon-san-francisco-gtfs",
+          "name": "Tiburon–San Francisco, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 18 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treasure-island-ferry-treasure-island-yerba-buena-island",
+      "name": "Treasure Island–Yerba Buena Island",
+      "system": "treasure-island-ferry",
+      "system_name": "Treasure Island Ferry",
+      "operators": [
+        {
+          "name": "Treasure Island Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 2.84,
+      "confidence_km": {
+        "surveyed": 2.84
+      },
+      "bbox": [
+        -122.39256,
+        37.79675,
+        -122.3722,
+        37.81667
+      ],
+      "fids": [
+        40
+      ],
+      "segments": [
+        {
+          "id": "treasure-island-ferry-treasure-island-yerba-buena-island-gtfs",
+          "name": "Treasure Island–Yerba Buena Island, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 54 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-ferry-triangle",
+      "name": "Triangle",
+      "system": "golden-gate-ferry",
+      "system_name": "Golden Gate Ferry",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 24.2,
+      "confidence_km": {
+        "surveyed": 24.2
+      },
+      "bbox": [
+        -122.45592,
+        37.79653,
+        -122.38891,
+        37.87273
+      ],
+      "fids": [
+        20
+      ],
+      "segments": [
+        {
+          "id": "golden-gate-ferry-triangle-gtfs",
+          "name": "Triangle, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "san-francisco-bay-ferry-vallejo",
+      "name": "Vallejo",
+      "system": "san-francisco-bay-ferry",
+      "system_name": "San Francisco Bay Ferry",
+      "operators": [
+        {
+          "name": "San Francisco Bay Ferry"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 47.71,
+      "confidence_km": {
+        "surveyed": 47.71
+      },
+      "bbox": [
+        -122.4364,
+        37.79511,
+        -122.24385,
+        38.10147
+      ],
+      "fids": [
+        37
+      ],
+      "segments": [
+        {
+          "id": "san-francisco-bay-ferry-vallejo-gtfs",
+          "name": "Vallejo, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-13",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
           ]
         }
       ]
@@ -2334,18 +4720,18 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 100.33,
+      "length_km": 100.34,
       "confidence_km": {
-        "surveyed": 100.33
+        "surveyed": 100.34
       },
       "bbox": [
-        -122.471099,
-        37.600271,
-        -121.780434,
+        -122.4711,
+        37.60027,
+        -121.78043,
         38.02385
       ],
       "fids": [
-        10
+        11
       ],
       "segments": [
         {
@@ -2365,14 +4751,14 @@
       ],
       "sources": [
         {
-          "id": "gtfs-bart",
-          "title": "Bay Area Rapid Transit GTFS feed, version 72",
-          "publisher": "Bay Area Rapid Transit",
-          "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
-          "license": "BART Developer License Agreement: https://www.bart.gov/schedules/developers/developer-license-agreement",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
           "accessed": "2026-10-13",
-          "source": "gtfs-bart",
+          "source": "gtfs-511",
           "supports": [
             "geometry",
             "route",
