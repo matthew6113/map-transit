@@ -63,11 +63,18 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
   deep-clones and compares the whole style. The one exception is the selected line's drawing. It's
   small, and it must be in the style, because the diff compares GeoJSON data and would otherwise wipe
   it on the next sync.
-- **The year is a filter on whole years, applied through the diffed style. The fades are
-  feature-state**, set only on the features crossing the year.
-  - `global-state` paint expressions that also read feature properties are data-driven, so every
-    change reloads the source (`style_layer.ts` → `_updateLayer` → `'reload'`). They aren't used.
-  - The perf spike measured both; see below.
+- **The year is feature-state, not a filter (changed after the rendering spike; this reverses the
+  plan's "whole-year setFilter").**
+  - In the past era, every transit layer's opacity reads a feature-state `vis` from 0 to 1, and each
+    year step sets it only on the features whose visibility changes (`src/timeline/visibility.ts`).
+  - The same `vis` carries the fades: closing lines fade over two years, and opening lines fade in
+    over the step while playing.
+  - A year filter, whether set with `setFilter` or written with `global-state`, makes MapLibre reload
+    the whole source and re-lay out every layer on it at each step (`style_layer.ts` →
+    `_updateLayer` → `'reload'`).
+  - Costs: the client keeps each feature's years (`EraIndex`), hit-testing skips features hidden this
+    year (`visibleAt`), and entering the past era sets `vis` on every feature once.
+  - Undated features stay out by a static filter.
 - **Hover and selection are feature-state** on every feature of the line (promoteId `fid`), the same
   way BAM's massing "rise" works. A style rebuild doesn't reset them: they are reapplied after every
   sync and on `style.load`.

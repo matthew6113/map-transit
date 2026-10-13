@@ -8,7 +8,7 @@ import { DATASETS, fadeOutYears } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, type ModeGroup, type Theme } from './theme/theme';
-import { applyFades, clearFades } from './timeline/fade';
+import { applyYear, resetVisibility, visibleAt, type Dated } from './timeline/visibility';
 import { Controls } from './ui/Controls';
 import { Credits } from './ui/Credits';
 import { EraSwitcher } from './ui/EraSwitcher';
@@ -89,41 +89,55 @@ export function App() {
     theme,
     mode,
     loaded,
-    view: { era, year, ghost: ghost && era !== 'past', hiddenGroups, selected: openId },
-  }), [theme, mode, loaded, era, year, ghost, hiddenGroups, openId]);
+    view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId },
+  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId]);
 
-  /** Feature-state doesn't live in the style: put hover, selection and fades back after any sync. */
-  const restoreState = useCallback(() => {
+  /** The past era's year, as feature-state (src/timeline/visibility.ts). */
+  const showYear = useCallback((opts: { animateFrom?: number } = {}) => {
+    if (!map || live.current.era !== 'past') return;
+    const idx = live.current.indexes;
+    applyYear(map, Object.fromEntries(DATASETS.past.map((d) => [d, idx[d]])), live.current.year, fadeOutYears(theme),
+      { animateFrom: opts.animateFrom, stepMs: stepMs(live.current.speed) });
+  }, [map, theme]);
+
+  /**
+   * Feature-state doesn't live in the style. A diffed sync keeps it, but can add sources (whose
+   * features then need their year); a full style reload drops it all.
+   */
+  const restoreState = useCallback((full: boolean) => {
     if (!map) return;
-    const { era: e, openId: id, byId: lines, indexes: idx, year: y } = live.current;
+    const { openId: id, byId: lines } = live.current;
     const set = (line: LineRecord | null | undefined, state: Record<string, boolean>) => {
       if (!line || !map.getSource(`transit-${line.era}-lines`)) return;
       for (const fid of line.fids) map.setFeatureState({ source: `transit-${line.era}-lines`, id: fid }, state);
     };
+    if (full) resetVisibility(map);
     set(hovered.current, { hover: true });
     set(id ? lines.get(id) : null, { selected: true });
-    if (e === 'past') {
-      const from = animateFrom.current;
-      animateFrom.current = undefined;
-      applyFades(map, Object.fromEntries(DATASETS.past.map((d) => [d, idx[d]])), y, fadeOutYears(theme), stepMs(live.current.speed), from);
-    } else {
-      clearFades(map);
-    }
-  }, [map, theme]);
+    showYear();
+  }, [map, showYear]);
 
   useEffect(() => {
     if (!map) return;
-    onAfterSync(map, restoreState);
-    map.on('style.load', restoreState);
+    const afterDiff = () => restoreState(false);
+    const afterReload = () => restoreState(true);
+    onAfterSync(map, afterDiff);
+    map.on('style.load', afterReload);
     return () => {
-      map.off('style.load', restoreState);
+      map.off('style.load', afterReload);
     };
   }, [map, restoreState]);
 
-  // Fades need the era's index; apply them once it arrives too.
+  // A new year (or an era's files arriving): show the network as of then.
   useEffect(() => {
-    restoreState();
-  }, [indexes, restoreState]);
+    const from = animateFrom.current;
+    animateFrom.current = undefined;
+    showYear({ animateFrom: from });
+  }, [year, era, indexes, showYear]);
+
+  /** Lines under the pointer count only if they're on the map this year. */
+  const shown = useCallback((p: Record<string, unknown>) =>
+    live.current.era !== 'past' || visibleAt(p as unknown as Dated, live.current.year, fadeOutYears(theme)), [theme]);
 
   // The URL follows the view (debounced: Safari limits history updates).
   useEffect(() => {
@@ -295,7 +309,7 @@ export function App() {
         <Index era={era} lines={lines} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
           onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
       </header>
-      <MapView inputs={inputs} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
+      <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}
         onSelectLine={(id) => void openLine(id)} />
       <span id="controls-start" tabIndex={-1} />

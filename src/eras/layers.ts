@@ -12,8 +12,9 @@
  * tube is a tunnel or subway; a lighter tint is a date borrowed from the line; future status is
  * solidity; the ghost overlay is faint and uncased.
  *
- * The year is a filter on whole years (the past era only); the fade in and out is feature-state on
- * just the features crossing the year (src/timeline/fade.ts). Nothing here reads global state.
+ * The year is not in the style at all. In the past era, every layer's opacity reads a feature-state
+ * `vis`, which src/timeline/visibility.ts sets only on the features crossing the year: a filter or a
+ * global-state change would reload the whole source on every step (docs/DECISIONS.md).
  */
 import type { ExpressionSpecification, LayerSpecification, SourceSpecification } from 'maplibre-gl';
 
@@ -25,8 +26,6 @@ import type { Era } from '../data/vocab';
 
 export interface TransitView {
   era: Era;
-  /** The past era's slider year. */
-  year: number;
   /** Past rights-of-way, faint, under the present and future networks. */
   ghost: boolean;
   /** Filter groups switched off in the legend. */
@@ -47,6 +46,9 @@ export const hitLayers = (era: Era) => DATASETS[era].map((d) => `transit-${d}-hi
 
 /** After closing, a line stays on the map, fading, for this many years. */
 export const fadeOutYears = (theme: Theme) => theme.transit.eras.fadeOutYears;
+
+/** In the past era, how visible a feature is this year (set by src/timeline/visibility.ts). */
+const VIS: ExpressionSpecification = ['coalesce', ['feature-state', 'vis'], 0];
 
 const byGroup = (_theme: Theme, value: (g: ModeGroup) => string | number): ExpressionSpecification =>
   ['match', ['get', 'group'], ...MODE_GROUPS.flatMap((g) => [g, value(g)]), value('heavy_rail')] as unknown as ExpressionSpecification;
@@ -72,28 +74,24 @@ function color(theme: Theme): ExpressionSpecification {
 }
 
 /**
- * Future status as solidity; shared existing track at BAM's 0.55; fades via feature-state. In the
- * future era today's network steps back (BAM: the present as print, the future in color).
+ * Future status as solidity; shared existing track at BAM's 0.55. In the future era today's network
+ * steps back (BAM: the present as print, the future in color). In the past era, the year's `vis`.
  */
-function opacity(theme: Theme, dataset: Era, era: Era): ExpressionSpecification {
-  const fade: ExpressionSpecification = ['coalesce', ['feature-state', 'fade'], 1];
-  if (dataset === 'present' && era === 'future') return ['*', fade, theme.transit.eras.presentInFuture];
-  if (dataset !== 'future') return fade;
+function opacity(theme: Theme, dataset: Era, era: Era): ExpressionSpecification | number {
+  if (era === 'past') return VIS;
+  if (dataset === 'present' && era === 'future') return theme.transit.eras.presentInFuture;
+  if (dataset !== 'future') return 1;
   const s = theme.transit.status;
-  return ['*', fade,
+  return ['*',
     ['match', ['get', 'status'],
       'planned', s.planned, 'environmental', s.environmental, 'funded', s.funded,
       'under_construction', s.under_construction, 'opening', s.opening, 1],
     ['case', ['==', ['get', 'shared'], 1], 0.55, 1]];
 }
 
-function yearFilter(view: TransitView, theme: Theme): FilterSpecification[] {
-  if (view.era !== 'past') return [];
-  return [
-    ['==', ['get', 'undated'], 0],
-    ['<', ['get', 'open_y'], view.year + 1],
-    ['>', ['get', 'close_y'], view.year - fadeOutYears(theme)],
-  ];
+/** Undated features never show on the year slider (decision 4); the year itself is feature-state. */
+function pastFilter(view: TransitView): FilterSpecification[] {
+  return view.era === 'past' ? [['==', ['get', 'undated'], 0]] : [];
 }
 
 const groupFilter = (view: TransitView): FilterSpecification[] =>
@@ -135,7 +133,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   }
 
   for (const d of DATASETS[view.era]) {
-    const base = [...yearFilter(view, theme), ...groupFilter(view)];
+    const base = [...pastFilter(view), ...groupFilter(view)];
     const src = `transit-${d}-draw`;
     layers.push(
       {
@@ -196,10 +194,10 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         paint: {
           'line-color': byGroup(theme, (g) => modeColor(theme, g)),
           'line-width': width(theme, 3, 5, 11),
-          'line-opacity': ['case',
+          'line-opacity': ['*', view.era === 'past' ? VIS : 1, ['case',
             ['boolean', ['feature-state', 'selected'], false], 1,
             ['boolean', ['feature-state', 'hover'], false], 0.9,
-            0],
+            0]],
         },
       },
     );
@@ -224,7 +222,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   );
 
   for (const d of DATASETS[view.era]) {
-    const base = [...yearFilter(view, theme), ...groupFilter(view)];
+    const base = [...pastFilter(view), ...groupFilter(view)];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
     layers.push(
       {
@@ -239,8 +237,8 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
           'circle-color': ['case', isNew, byGroup(theme, (g) => modeColor(theme, g)), c.land],
           'circle-stroke-color': ['case', isNew, c.land, byGroup(theme, (g) => modeColor(theme, g))],
           'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 10, 1.1, 16, 2],
-          'circle-opacity': ['coalesce', ['feature-state', 'fade'], 1],
-          'circle-stroke-opacity': ['coalesce', ['feature-state', 'fade'], 1],
+          'circle-opacity': view.era === 'past' ? VIS : 1,
+          'circle-stroke-opacity': view.era === 'past' ? VIS : 1,
         },
       },
       {
@@ -259,7 +257,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
           'text-max-width': 9,
           'text-optional': true,
         },
-        paint: { 'text-color': c.labels, 'text-halo-color': c.land, 'text-halo-width': 1.6 },
+        paint: { 'text-color': c.labels, 'text-halo-color': c.land, 'text-halo-width': 1.6, 'text-opacity': view.era === 'past' ? VIS : 1 },
       },
     );
   }
@@ -270,7 +268,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
       id: `transit-${d}-hit`,
       type: 'line',
       source: `transit-${d}-lines`,
-      filter: all(...yearFilter(view, theme), ...groupFilter(view)),
+      filter: all(...pastFilter(view), ...groupFilter(view)),
       paint: { 'line-color': '#000000', 'line-opacity': 0, 'line-width': 16 },
     });
   }

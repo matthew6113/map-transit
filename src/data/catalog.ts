@@ -121,14 +121,20 @@ export async function loadCatalog(): Promise<LineRecord[]> {
 export interface EraIndex {
   pieces: Map<string, LngLat[][]>;
   draw: { fid: number; open: number; close: number }[];
+  lines: { fid: number; open: number; close: number }[];
   points: { fid: number; open: number; close: number }[];
 }
 
 type Geom = { type: 'LineString'; coordinates: LngLat[] } | { type: 'MultiLineString'; coordinates: LngLat[][] };
-type YearProps = { properties: { fid: number; open_y: number; close_y: number } };
+type YearProps = { properties: { fid: number; open_y: number; close_y: number; undated?: number } };
 
 const years = (features: YearProps[]) =>
-  features.map((f) => ({ fid: f.properties.fid, open: f.properties.open_y, close: f.properties.close_y }));
+  features.map((f) => ({
+    fid: f.properties.fid,
+    // Undated features never show on the slider (decision 4).
+    open: f.properties.undated ? -1 : f.properties.open_y,
+    close: f.properties.undated ? -1 : f.properties.close_y,
+  }));
 
 /** The same URLs the map sources use, so the browser serves the second request from its cache. */
 export async function loadEraIndex(era: Era): Promise<EraIndex> {
@@ -145,5 +151,5 @@ export async function loadEraIndex(era: Era): Promise<EraIndex> {
     list.push(...parts);
     pieces.set(f.properties.line, list);
   }
-  return { pieces, draw: years(draw.features), points: years(points.features) };
+  return { pieces, draw: years(draw.features), lines: years(lines.features), points: years(points.features) };
 }

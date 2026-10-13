@@ -38,14 +38,14 @@ const applied = new WeakMap<maplibregl.Map, StyleInputs>();
 const afterSync = new WeakMap<maplibregl.Map, () => void>();
 
 /**
- * Bring the map's style up to date, as a diff. The style holds no data (sources load by URL), so
- * this is cheap; the year slider calls it once per whole year.
+ * Bring the map's style up to date, as a diff. The style holds no data (sources load by URL) and no
+ * year (feature-state, src/timeline/visibility.ts), so this runs only when the view changes.
  */
 export function syncStyle(map: maplibregl.Map, next: StyleInputs) {
   const prev = applied.get(map);
   if (
     prev && prev.theme === next.theme && prev.mode === next.mode && prev.loaded.join() === next.loaded.join() &&
-    prev.view.era === next.view.era && prev.view.year === next.view.year && prev.view.ghost === next.view.ghost &&
+    prev.view.era === next.view.era && prev.view.ghost === next.view.ghost &&
     prev.view.selected === next.view.selected && prev.view.hiddenGroups.join() === next.view.hiddenGroups.join()
   ) return;
   applied.set(map, next);
@@ -72,6 +72,8 @@ interface Hover {
 
 interface Props {
   inputs: StyleInputs;
+  /** Whether a feature under the pointer is on the map now (the past era hides by feature-state). */
+  shown: (props: Record<string, unknown>) => boolean;
   statusLabel: (status: string) => string;
   onReady: (map: maplibregl.Map) => void;
   onFirstInteraction?: () => void;
@@ -79,23 +81,24 @@ interface Props {
   onSelectLine?: (id: string) => void;
 }
 
-/** The distinct lines under a point, in the order the map returned them. */
-function linesAt(features: maplibregl.MapGeoJSONFeature[]): LineHit[] {
+/** The distinct lines under a point that are on the map now, in the order the map returned them. */
+function linesAt(features: maplibregl.MapGeoJSONFeature[], shown: (p: Record<string, unknown>) => boolean): LineHit[] {
   const seen = new Map<string, LineHit>();
   for (const f of features) {
+    if (!shown(f.properties)) continue;
     const p = f.properties as { line: string; name: string; group: string; status: string };
     if (!seen.has(p.line)) seen.set(p.line, { id: p.line, name: p.name, group: p.group, status: p.status });
   }
   return [...seen.values()];
 }
 
-export function MapView({ inputs, statusLabel, onReady, onFirstInteraction, onHoverLine, onSelectLine }: Props) {
+export function MapView({ inputs, shown, statusLabel, onReady, onFirstInteraction, onHoverLine, onSelectLine }: Props) {
   const container = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const [hover, setHover] = useState<Hover | null>(null);
   const [chooser, setChooser] = useState<Hover | null>(null);
-  const cb = useRef({ onHoverLine, onSelectLine, era: inputs.view.era });
-  cb.current = { onHoverLine, onSelectLine, era: inputs.view.era };
+  const cb = useRef({ onHoverLine, onSelectLine, shown, era: inputs.view.era });
+  cb.current = { onHoverLine, onSelectLine, shown, era: inputs.view.era };
 
   useEffect(() => {
     if (!container.current) return;
@@ -133,7 +136,7 @@ export function MapView({ inputs, statusLabel, onReady, onFirstInteraction, onHo
     map.on('mousemove', (e) => {
       if (!hoverable) return;
       const layers = hitLayers(cb.current.era).filter((id) => map.getLayer(id));
-      const hits = layers.length ? linesAt(map.queryRenderedFeatures(e.point, { layers })) : [];
+      const hits = layers.length ? linesAt(map.queryRenderedFeatures(e.point, { layers }), cb.current.shown) : [];
       if (!hits.length) {
         if (hovered) {
           map.getCanvas().style.cursor = '';
@@ -152,7 +155,7 @@ export function MapView({ inputs, statusLabel, onReady, onFirstInteraction, onHo
     });
     map.on('click', (e) => {
       const layers = hitLayers(cb.current.era).filter((id) => map.getLayer(id));
-      const hits = layers.length ? linesAt(map.queryRenderedFeatures(e.point, { layers })) : [];
+      const hits = layers.length ? linesAt(map.queryRenderedFeatures(e.point, { layers }), cb.current.shown) : [];
       setHover(null);
       map.getCanvas().style.cursor = '';
       if (hits.length === 1) {
