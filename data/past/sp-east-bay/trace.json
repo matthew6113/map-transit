@@ -1,0 +1,171 @@
+{
+  "$comment": "Geometry recipes for data/past/sp-east-bay (decision 12): `make past` rebuilds each geometry from these. Pixels are read off the named crop of a USGS sheet (transit_pipeline.usgs_topo crop SHEET OUT --bbox=... --zoom=...).",
+  "segments": {
+    "sp-oakland-mole": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.336,
+              37.803,
+              -122.3,
+              37.814
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              205,
+              215
+            ],
+            [
+              380,
+              213
+            ],
+            [
+              540,
+              215
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.322,
+              37.805,
+              -122.3,
+              37.8115
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              120,
+              211
+            ],
+            [
+              300,
+              218
+            ],
+            [
+              500,
+              228
+            ],
+            [
+              700,
+              243
+            ],
+            [
+              880,
+              255
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 20,
+      "note": "The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's"
+    },
+    "sp-alameda-mole": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.336,
+              37.79,
+              -122.312,
+              37.7985
+            ],
+            "zoom": 2.6
+          },
+          "px": [
+            [
+              185,
+              210
+            ],
+            [
+              300,
+              240
+            ],
+            [
+              400,
+              265
+            ],
+            [
+              500,
+              288
+            ],
+            [
+              600,
+              317
+            ],
+            [
+              700,
+              345
+            ],
+            [
+              800,
+              371
+            ],
+            [
+              900,
+              397
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.314,
+              37.785,
+              -122.288,
+              37.7935
+            ],
+            "zoom": 2.6
+          },
+          "px": [
+            [
+              100,
+              178
+            ],
+            [
+              200,
+              205
+            ],
+            [
+              300,
+              228
+            ],
+            [
+              400,
+              250
+            ],
+            [
+              480,
+              262
+            ],
+            [
+              600,
+              265
+            ],
+            [
+              700,
+              265
+            ],
+            [
+              840,
+              265
+            ]
+          ]
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 60,
+      "note": "The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915"
+    }
+  },
+  "points": {}
+}

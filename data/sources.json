@@ -1004,6 +1004,18 @@
       "notes": "15-minute sheet, surveyed 1894, edition of 1915. HTMC scan 298897, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 2faaad04375cd1513bc360228eeadcc421ea01d6454669c55310f5efc20254bb."
     },
     {
+      "id": "usgs-san-francisco-north-1950",
+      "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1950",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1950. HTMC scan 466304, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3241ae304a5619935b87c9668b257872919c0954e3ed1db06fbafffd6507bf28."
+    },
+    {
       "id": "usgs-san-leandro-1948",
       "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
       "author": "U.S. Geological Survey",

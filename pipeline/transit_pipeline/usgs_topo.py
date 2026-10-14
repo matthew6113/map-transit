@@ -90,6 +90,7 @@ SHEETS = [
     Sheet("usgs-oakland-east-1949", "Oakland East", 24000, 1949, "293613", None, "7.5-minute sheet, aerial photographs of 1946, surveyed 1947, edition of 1949"),
     Sheet("usgs-richmond-1949", "Richmond", 24000, 1949, "294669", None, "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949"),
     Sheet("usgs-san-leandro-1948", "San Leandro", 24000, 1948, "300123", None, "7.5-minute sheet, edition of 1948"),
+    Sheet("usgs-san-francisco-north-1950", "San Francisco North", 24000, 1950, "466304", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1950"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
