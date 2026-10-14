@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        113,
-        114,
         115,
-        116
+        116,
+        117,
+        118
       ],
       "segments": [
         {
@@ -1882,8 +1882,6 @@
         37.793407
       ],
       "fids": [
-        117,
-        118,
         119,
         120,
         121,
@@ -1891,7 +1889,9 @@
         123,
         124,
         125,
-        126
+        126,
+        127,
+        128
       ],
       "segments": [
         {
@@ -2149,8 +2149,6 @@
         37.891454
       ],
       "fids": [
-        2,
-        3,
         4,
         5,
         6,
@@ -2165,7 +2163,9 @@
         15,
         16,
         17,
-        18
+        18,
+        19,
+        20
       ],
       "segments": [
         {
@@ -2769,14 +2769,14 @@
         37.793407
       ],
       "fids": [
-        142,
-        143,
         144,
         145,
         146,
         147,
         148,
-        149
+        149,
+        150,
+        151
       ],
       "segments": [
         {
@@ -3076,8 +3076,8 @@
         37.790421
       ],
       "fids": [
-        88,
-        89
+        90,
+        91
       ],
       "segments": [
         {
@@ -3205,7 +3205,7 @@
         37.760891
       ],
       "fids": [
-        112
+        114
       ],
       "segments": [
         {
@@ -3325,7 +3325,7 @@
         37.794462
       ],
       "fids": [
-        79
+        81
       ],
       "segments": [
         {
@@ -3452,8 +3452,6 @@
         37.806482
       ],
       "fids": [
-        150,
-        151,
         152,
         153,
         154,
@@ -3464,7 +3462,9 @@
         159,
         160,
         161,
-        162
+        162,
+        163,
+        164
       ],
       "segments": [
         {
@@ -3877,8 +3877,6 @@
         37.80035
       ],
       "fids": [
-        127,
-        128,
         129,
         130,
         131,
@@ -3891,7 +3889,9 @@
         138,
         139,
         140,
-        141
+        141,
+        142,
+        143
       ],
       "segments": [
         {
@@ -4294,15 +4294,15 @@
         37.824321
       ],
       "fids": [
-        220,
-        221,
         222,
         223,
         224,
         225,
         226,
         227,
-        228
+        228,
+        229,
+        230
       ],
       "segments": [
         {
@@ -4782,14 +4782,14 @@
         37.805981
       ],
       "fids": [
-        163,
-        164,
         165,
         166,
         167,
         168,
         169,
-        170
+        170,
+        171,
+        172
       ],
       "segments": [
         {
@@ -5080,7 +5080,7 @@
         37.788015
       ],
       "fids": [
-        106
+        108
       ],
       "segments": [
         {
@@ -5222,8 +5222,6 @@
         37.806482
       ],
       "fids": [
-        171,
-        172,
         173,
         174,
         175,
@@ -5231,7 +5229,9 @@
         177,
         178,
         179,
-        180
+        180,
+        181,
+        182
       ],
       "segments": [
         {
@@ -5507,6 +5507,125 @@
       ]
     },
     {
+      "id": "ggf-hyde-berkeley",
+      "name": "Hyde Street–Berkeley auto ferry",
+      "system": "golden-gate-ferries",
+      "system_name": "Golden Gate Ferries",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry Co.",
+          "from": "1927-06-16",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": null
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1927-06-16",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Auto ferries from Hyde Street Pier to the end of a long pier from the foot of University Ave in Berkeley.",
+      "fate": "abandoned",
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999); when it last ran isn't sourced, so it is left off the year slider.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "undated": true,
+      "length_km": 6.75,
+      "confidence_km": {
+        "approximate": 6.75
+      },
+      "bbox": [
+        -122.421788,
+        37.80985,
+        -122.360382,
+        37.840424
+      ],
+      "fids": [
+        2
+      ],
+      "segments": [
+        {
+          "id": "ggf-hyde-berkeley-course",
+          "name": "Ferry, Hyde Street to the Berkeley pier",
+          "opened": "1927-06-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.42076,37.80985 to -122.36038,37.84042 (6763 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The course isn't recorded: drawn as the shortest way over water between the terminals."
+        }
+      ],
+      "sources": [
+        {
+          "id": "nps-hyde-street-pier",
+          "title": "Hyde Street Pier",
+          "publisher": "National Park Service, San Francisco Maritime National Historical Park",
+          "type": "official",
+          "url": "https://www.nps.gov/safr/learn/historyculture/hyde-street-pier.htm",
+          "accessed": "2026-10-14",
+          "source": "nps-hyde-street-pier",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ],
+          "note": "\"The first ferry on the Berkeley run departed on June 16, 1927.\""
+        },
+        {
+          "id": "crc-d17097",
+          "title": "Railroad Commission of California, Decision No. 17097 (Application No. 12661)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1926-07-07",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17097_19260707_A12661.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d17097",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "crc-d29999",
+          "title": "Railroad Commission of California, Decision No. 29999 (Application No. 21237)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-08-09",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29999_19370809_A21237.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d29999",
+          "supports": [
+            "general"
+          ],
+          "note": "Authorized in August 1937 to suspend the San Francisco-Berkeley route for six months."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ggf-hyde-sausalito",
       "name": "Hyde Street–Sausalito auto ferry",
       "system": "golden-gate-ferries",
@@ -5656,7 +5775,7 @@
         37.785808
       ],
       "fids": [
-        95
+        97
       ],
       "segments": [
         {
@@ -5758,7 +5877,7 @@
         37.817801
       ],
       "fids": [
-        58
+        60
       ],
       "segments": [
         {
@@ -5903,15 +6022,15 @@
         37.824321
       ],
       "fids": [
-        229,
-        230,
         231,
         232,
         233,
         234,
         235,
         236,
-        237
+        237,
+        238,
+        239
       ],
       "segments": [
         {
@@ -6379,8 +6498,8 @@
         37.90596
       ],
       "fids": [
-        63,
-        64
+        65,
+        66
       ],
       "segments": [
         {
@@ -6532,8 +6651,6 @@
         37.891351
       ],
       "fids": [
-        198,
-        199,
         200,
         201,
         202,
@@ -6544,7 +6661,9 @@
         207,
         208,
         209,
-        210
+        210,
+        211,
+        212
       ],
       "segments": [
         {
@@ -7058,11 +7177,11 @@
         37.806637
       ],
       "fids": [
-        90,
-        91,
         92,
         93,
-        94
+        94,
+        95,
+        96
       ],
       "segments": [
         {
@@ -7247,12 +7366,12 @@
         37.7762
       ],
       "fids": [
-        249,
-        250,
         251,
         252,
         253,
-        254
+        254,
+        255,
+        256
       ],
       "segments": [
         {
@@ -7529,8 +7648,6 @@
         37.7762
       ],
       "fids": [
-        238,
-        239,
         240,
         241,
         242,
@@ -7539,7 +7656,9 @@
         245,
         246,
         247,
-        248
+        248,
+        249,
+        250
       ],
       "segments": [
         {
@@ -8005,15 +8124,15 @@
         37.830986
       ],
       "fids": [
-        19,
-        20,
         21,
         22,
         23,
         24,
         25,
         26,
-        27
+        27,
+        28,
+        29
       ],
       "segments": [
         {
@@ -8448,8 +8567,6 @@
         38.047172
       ],
       "fids": [
-        65,
-        66,
         67,
         68,
         69,
@@ -8461,7 +8578,9 @@
         75,
         76,
         77,
-        78
+        78,
+        79,
+        80
       ],
       "segments": [
         {
@@ -9057,8 +9176,6 @@
         37.887944
       ],
       "fids": [
-        46,
-        47,
         48,
         49,
         50,
@@ -9068,7 +9185,9 @@
         54,
         55,
         56,
-        57
+        57,
+        58,
+        59
       ],
       "segments": [
         {
@@ -9523,12 +9642,12 @@
         37.795493
       ],
       "fids": [
-        80,
-        81,
         82,
         83,
         84,
-        85
+        85,
+        86,
+        87
       ],
       "segments": [
         {
@@ -9685,6 +9804,138 @@
       ]
     },
     {
+      "id": "vallejo-ferry",
+      "name": "San Francisco–Vallejo ferry",
+      "system": "vallejo-ferry",
+      "system_name": "San Francisco-Vallejo ferry",
+      "operators": [
+        {
+          "name": "Z. J. and C. N. Hatch",
+          "from": "1895",
+          "to": "1904"
+        },
+        {
+          "name": "Monticello Steamship Co.",
+          "from": "1904",
+          "to": "1927-04-29"
+        },
+        {
+          "name": "Golden Gate Ferry Co.",
+          "from": "1927-04-29",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": "1937-09-12"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1895",
+      "closed": "1937-09-12",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Steamers from the foot of Clay St in San Francisco up the bay and San Pablo Bay to Vallejo, by Mare Island.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned with the close of business on September 12, 1937, after the bridges opened (CRC Decision No. 30121).",
+      "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 43.85,
+      "confidence_km": {
+        "approximate": 43.85
+      },
+      "bbox": [
+        -122.430927,
+        37.7958,
+        -122.246424,
+        38.09994
+      ],
+      "fids": [
+        3
+      ],
+      "segments": [
+        {
+          "id": "vallejo-ferry-course",
+          "name": "Ferry, Clay Street to Vallejo",
+          "opened": null,
+          "closed": "1937-09-12",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.39500,37.79580 to -122.26299,38.09994 (43970 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the foot of Clay St to Vallejo's waterfront. Both ends are placed from text: the pier at the foot of Clay St, which no longer reaches the water, and Vallejo's ferry terminal of today, as the old landing's exact place isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d29464",
+          "title": "Railroad Commission of California, Decision No. 29464 (Application No. 20742)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-01-18",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29464_19370118_A20742.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d29464",
+          "supports": [
+            "opened",
+            "operator"
+          ],
+          "note": "Inaugurated by Z. J. and C. N. Hatch in 1895; the Monticello Steamship Co. from 1904."
+        },
+        {
+          "id": "crc-d30086",
+          "title": "Railroad Commission of California, Decision No. 30086 (Application No. 20742)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-09-07",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30086_19370907_A20742.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d30086",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "\"continuously in operation since 1896\"; the San Francisco landing is the \"Pier at Foot of Clay Street\"."
+        },
+        {
+          "id": "crc-d30121",
+          "title": "Railroad Commission of California, Decision No. 30121 (Application No. 20779)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-09-13",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30121_19370913_A20779.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d30121",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"abandoned its service with the close of business September 12th\" (1937)."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "nwp-sausalito-san-rafael",
       "name": "Sausalito–San Rafael electric line",
       "system": "northwestern-pacific",
@@ -9733,10 +9984,10 @@
         37.977386
       ],
       "fids": [
-        59,
-        60,
         61,
-        62
+        62,
+        63,
+        64
       ],
       "segments": [
         {
@@ -9921,15 +10172,15 @@
         37.824321
       ],
       "fids": [
-        211,
-        212,
         213,
         214,
         215,
         216,
         217,
         218,
-        219
+        219,
+        220,
+        221
       ],
       "segments": [
         {
@@ -10428,8 +10679,6 @@
         37.891481
       ],
       "fids": [
-        181,
-        182,
         183,
         184,
         185,
@@ -10444,7 +10693,9 @@
         194,
         195,
         196,
-        197
+        197,
+        198,
+        199
       ],
       "segments": [
         {
@@ -11059,8 +11310,8 @@
         37.790312
       ],
       "fids": [
-        86,
-        87
+        88,
+        89
       ],
       "segments": [
         {
@@ -11184,8 +11435,6 @@
         37.82911
       ],
       "fids": [
-        36,
-        37,
         38,
         39,
         40,
@@ -11193,7 +11442,9 @@
         42,
         43,
         44,
-        45
+        45,
+        46,
+        47
       ],
       "segments": [
         {
@@ -11647,14 +11898,14 @@
         37.82911
       ],
       "fids": [
-        28,
-        29,
         30,
         31,
         32,
         33,
         34,
-        35
+        35,
+        36,
+        37
       ],
       "segments": [
         {
@@ -12040,11 +12291,11 @@
         37.80035
       ],
       "fids": [
-        107,
-        108,
         109,
         110,
-        111
+        111,
+        112,
+        113
       ],
       "segments": [
         {
@@ -12230,8 +12481,6 @@
         37.79562
       ],
       "fids": [
-        96,
-        97,
         98,
         99,
         100,
@@ -12239,7 +12488,9 @@
         102,
         103,
         104,
-        105
+        105,
+        106,
+        107
       ],
       "segments": [
         {

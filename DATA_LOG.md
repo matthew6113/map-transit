@@ -241,9 +241,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 34 | 134 | 10 | 0 | 235.0 | 25.9 | 8 | 103 |
+| past | 36 | 136 | 11 | 0 | 235.0 | 76.5 | 9 | 104 |
 | present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 110, `conflicting_sources` 12, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 405, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 113, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 406, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

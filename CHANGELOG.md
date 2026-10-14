@@ -32,6 +32,9 @@ Data changes, newest first. Code changes are in the git log.
 
 ## 2026-10-14: Phase 2b, the first historic ferries
 
+- **The San Francisco–Vallejo ferry** (1895–1937), from the foot of Clay St, and **the Hyde
+  Street–Berkeley auto ferry** (from 1927), to the end of the Berkeley pier, which the 1949 USGS sheet
+  still draws. The Berkeley ferry's last run isn't sourced, so it stays off the year slider.
 - **The Key Route ferry** from its pier to the Ferry Building, 1903–1939, and **the Hyde
   Street–Sausalito auto ferry**, 1922–1938 (`data/past/ferries/`), with its terminals traced off
   the 1950 USGS sheet. Courses are drawn over water between the terminals and dashed: the sources

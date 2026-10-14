@@ -1173,6 +1173,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d17097",
+      "title": "Railroad Commission of California, Decision No. 17097 (Application No. 12661)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1926-07-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17097_19260707_A12661.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Certificate for the Golden Gate Ferry Co.'s auto ferry between San Francisco (Hyde Street) and Berkeley, from a pier at the foot of University Avenue (OCR)."
+    },
+    {
       "id": "crc-d17743",
       "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
       "author": "Railroad Commission of the State of California",
@@ -1233,6 +1243,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d29464",
+      "title": "Railroad Commission of California, Decision No. 29464 (Application No. 20742)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-01-18",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29464_19370118_A20742.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Southern Pacific Golden Gate Ferries' routes in January 1937, among them San Francisco, Hyde Street - Berkeley and - Sausalito, and Clay Street - Vallejo. The San Francisco-Vallejo ferry was inaugurated by Z. J. and C. N. Hatch in 1895, passed to the Monticello Steamship Co. in 1904, to the Golden Gate Ferry Co. on April 29, 1927, and to Southern Pacific Golden Gate Ferries on May 1, 1929 (OCR)."
+    },
+    {
       "id": "crc-d29614",
       "title": "Railroad Commission of the State of California, Decision No. 29614 (Application No. 21048): bridge railway grade separations, Oakland",
       "author": "Railroad Commission of the State of California",
@@ -1253,6 +1273,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d29999",
+      "title": "Railroad Commission of California, Decision No. 29999 (Application No. 21237)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-08-09",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29999_19370809_A21237.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes Southern Pacific Golden Gate Ferries to abandon the Ferry Building-Oakland (Broadway) and Richmond auto ferries and to \"suspend the operation of the San Francisco-Berkeley\" route for six months (OCR)."
+    },
+    {
       "id": "crc-d30015",
       "title": "Railroad Commission of the State of California, Decision No. 30015 (Application No. 21219): Southern Pacific 'Off-Line' bridge connecting tracks, Oakland and Alameda",
       "author": "Railroad Commission of the State of California",
@@ -1261,6 +1291,26 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d30086",
+      "title": "Railroad Commission of California, Decision No. 30086 (Application No. 20742)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-09-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30086_19370907_A20742.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes the abandonment of the ferry between San Francisco (\"Pier at Foot of Clay Street\") and Vallejo, a service \"continuously in operation since 1896\" (OCR)."
+    },
+    {
+      "id": "crc-d30121",
+      "title": "Railroad Commission of California, Decision No. 30121 (Application No. 20779)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-09-13",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30121_19370913_A20779.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The ferry company, under the Commission's order to abandon its San Francisco-Vallejo route, \"abandoned its service with the close of business September 12th\" (1937; OCR)."
     },
     {
       "id": "crc-d31113",

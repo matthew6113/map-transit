@@ -159,6 +159,12 @@
       "name": "Sacramento Northern Railway",
       "short_name": "Sacramento Northern",
       "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
+    },
+    {
+      "id": "vallejo-ferry",
+      "name": "San Francisco-Vallejo ferry",
+      "short_name": "Vallejo ferry",
+      "notes": "The Hatch brothers' ferry of 1895, the Monticello Steamship Co.'s from 1904, then the Golden Gate Ferry Co.'s and from 1929 Southern Pacific Golden Gate Ferries'."
     }
   ]
 }

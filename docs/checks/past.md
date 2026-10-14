@@ -24,8 +24,11 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `ier-bridge-lead` Interurban lead to 26th Street | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/ier-bridge-lead.jpg) |
 | `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/transbay-terminal.jpg) |
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |
+| `ggf-hyde-berkeley-course` Ferry, Hyde Street to the Berkeley pier | approximate |  |  |  |
+| `vallejo-ferry-course` Ferry, Clay Street to Vallejo | approximate |  |  |  |
 | `ferry-hyde-street-pier` Hyde Street Pier | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-hyde-street-pier.jpg) |
 | `ferry-sausalito-nwp` Sausalito ferry terminal (Northwestern Pacific) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-sausalito-nwp.jpg) |
+| `ferry-berkeley-pier` Berkeley ferry pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/ferry-berkeley-pier.jpg) |
 | `key-pier` Key Route Pier | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2b/traces/key-pier-corrected.jpg) [as traced](../screenshots/p2b/traces/key-pier.jpg) |
 | `key-trunk-shore` Pier approach and subway to Poplar Junction | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-trunk-shore.jpg) |
 | `key-yerba-buena` Yerba Buena Avenue to San Pablo Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-yerba-buena.jpg) |
@@ -165,6 +168,7 @@ Each traced feature, with how it was made. The review images (`make past-review`
 
 ## Conflicting sources
 
+- line `vallejo-ferry` (San Francisco–Vallejo ferry): The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.
 - line `sf-union-st-cable` (Union Street cable line): SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.
 - line `sf-castro-st-cable` (Castro Street cable line): Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.
 - line `muni-b-geary` (B Geary): Muni's own reports give June 24 or 25, 1913 for the run to the beach; Callwell gives June 25. From March 22, 1949 it turned at the Transbay Terminal by 1st and Fremont Sts (Callwell p. 46); that loop isn't drawn, nor the Ferry Building loop. Whether it kept the 33rd Ave, Balboa St and 45th Ave route to the end isn't sourced yet.
