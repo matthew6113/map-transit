@@ -165,6 +165,242 @@
       "fit": "sf1915-bay",
       "est_error_m": 60,
       "note": "The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915"
+    },
+    "sp-mole-16th-st": {
+      "parts": [
+        {
+          "join": "sp-oakland-mole",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.322,
+              37.805,
+              -122.3,
+              37.8115
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              1000,
+              145
+            ],
+            [
+              1100,
+              85
+            ],
+            [
+              1200,
+              30
+            ],
+            [
+              1265,
+              0
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              0,
+              1060
+            ],
+            [
+              100,
+              960
+            ],
+            [
+              170,
+              870
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 25,
+      "note": "The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain"
+    },
+    "sp-16th-st-34th-st": {
+      "parts": [
+        {
+          "join": "sp-mole-16th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              260,
+              700
+            ],
+            [
+              330,
+              540
+            ],
+            [
+              370,
+              450
+            ],
+            [
+              385,
+              404
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 20,
+      "note": "Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street"
+    },
+    "sp-wood-st": {
+      "parts": [
+        {
+          "join": "sp-16th-st-34th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              390,
+              250
+            ],
+            [
+              395,
+              82
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.2955,
+              37.8305,
+              -122.2805,
+              37.8425
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              305,
+              986
+            ],
+            [
+              305,
+              700
+            ],
+            [
+              300,
+              520
+            ],
+            [
+              310,
+              450
+            ],
+            [
+              350,
+              385
+            ],
+            [
+              400,
+              345
+            ],
+            [
+              440,
+              330
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue)"
+    },
+    "sp-stanford-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Stanford Avenue"
+          ],
+          "from": "Hollis Street",
+          "to": "Adeline Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "The private right of way ran beside the avenue (on its south side, as the 1949 sheet draws it); drawn on the avenue's centerline"
+    },
+    "sp-adeline-st": {
+      "parts": [
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "Stanford Avenue",
+          "to": "Shattuck Avenue"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Private right of way along Adeline Street; drawn on the street's centerline"
+    },
+    "sp-shattuck-ave-south": {
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Adeline Street",
+          "to": "Bancroft Way"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 10,
+      "note": "Paved-in right of way in Shattuck Avenue"
+    },
+    "sp-shattuck-ave-north": {
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Bancroft Way",
+          "to": "Vine Street"
+        }
+      ],
+      "check": "usgs-san-francisco-1915",
+      "est_error_m": 10,
+      "note": "In the paved street"
     }
   },
   "points": {}

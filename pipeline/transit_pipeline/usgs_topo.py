@@ -417,13 +417,21 @@ def tiles(sheet: str, corners: list[tuple[str, tuple[float, float]]], out: Path,
 
 
 def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: int = 0,
-         roads: bool = False, marks: list[tuple[float, float, str]] | None = None) -> None:
+         roads: bool = False, marks: list[tuple[float, float, str]] | None = None,
+         shift_m: tuple[float, float] = (0.0, 0.0)) -> None:
     """Render the frame, with a lon/lat grid, and optionally a pixel grid, today's named roads
     (thin, labelled: to match corners for control points), overlay geometry (red) and marked
     pixels. Writes OUT.png and OUT.json (the frame, for `pick`)."""
     img = Image.fromarray(render(frame)).convert("RGBA")
     cols, rows = frame.size
     w, s, e, n = frame.bbox
+    # Overlays can be moved by a shift (metres east, north), e.g. a sheet's error reversed, so
+    # today's geometry lands where the sheet draws the same things.
+    k_lat = 1 / 111_320
+    k_lon = 1 / (111_320 * math.cos(math.radians((s + n) / 2)))
+
+    def ov_px(lon: float, lat: float) -> tuple[float, float]:
+        return frame.to_px(lon + shift_m[0] * k_lon, lat + shift_m[1] * k_lat)
     layer = Image.new("RGBA", img.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(layer)
     font = ImageFont.load_default(size=max(11, int(12 * min(frame.zoom, 2))))
@@ -455,7 +463,7 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
         for _, name, g in all_roads():
             if not g.intersects(area):
                 continue
-            pts = [frame.to_px(*c) for c in to_degrees(g).coords]
+            pts = [ov_px(*c) for c in to_degrees(g).coords]
             draw.line(pts, fill=(20, 140, 60, 200), width=1)
             if g.length > longest.get(name, (0, None))[0]:
                 longest[name] = (g.length, pts)
@@ -470,13 +478,13 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
             parts = {"LineString": [g["coordinates"]], "MultiLineString": g["coordinates"]}.get(g["type"])
             if parts:
                 for part in parts:
-                    draw.line([frame.to_px(*c[:2]) for c in part], fill=(230, 20, 20, 170), width=2)
+                    draw.line([ov_px(*c[:2]) for c in part], fill=(230, 20, 20, 170), width=2)
             elif g["type"] == "Point":
-                x, y = frame.to_px(*g["coordinates"][:2])
+                x, y = ov_px(*g["coordinates"][:2])
                 draw.ellipse([x - 5, y - 5, x + 5, y + 5], outline=(230, 20, 20, 220), width=2)
             label = f.get("properties", {}).get("id")
             if label and (parts or g["type"] == "Point"):
-                lx, ly = frame.to_px(*(parts[0][len(parts[0]) // 2] if parts else g["coordinates"])[:2])
+                lx, ly = ov_px(*(parts[0][len(parts[0]) // 2] if parts else g["coordinates"])[:2])
                 draw.text((lx + 6, ly - 6), label, fill=(200, 0, 0, 255), font=font)
     for x, y, label in marks or []:
         draw.ellipse([x - 4, y - 4, x + 4, y + 4], outline=(255, 120, 0, 255), width=2)
@@ -520,6 +528,7 @@ def main() -> None:
     c.add_argument("--px", type=int, default=0, help="also draw a pixel grid this many pixels apart")
     c.add_argument("--roads", action="store_true", help="also draw today's named roads (Overture), labelled")
     c.add_argument("--mark", action="append", default=[], help="X,Y[,label]: circle a pixel")
+    c.add_argument("--shift", default="0,0", help="E,N metres to move overlays and roads by (write --shift=-74,-213)")
     t = sub.add_parser("tiles")
     t.add_argument("sheet", choices=sorted(BY_ID))
     t.add_argument("out", type=Path)
@@ -535,7 +544,7 @@ def main() -> None:
     elif a.cmd == "crop":
         marks = [(float(m.split(",")[0]), float(m.split(",")[1]), ",".join(m.split(",")[2:])) for m in a.mark]
         frame = Frame(a.sheet, tuple(float(v) for v in a.bbox.split(",")), a.zoom)
-        crop(frame, a.out, a.overlay, a.px, a.roads, marks)
+        crop(frame, a.out, a.overlay, a.px, a.roads, marks, tuple(float(v) for v in a.shift.split(",")))
     elif a.cmd == "tiles":
         tiles(a.sheet, [named_corner(c) for c in a.corners], a.out, a.half, a.zoom)
     else:

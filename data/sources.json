@@ -859,6 +859,210 @@
       "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
     },
     {
+      "id": "chpw-1939-01-terminal-opened",
+      "title": "Bay Bridge Terminal … Officially Opened",
+      "publisher": "California Highways and Public Works (California Department of Public Works)",
+      "date": "1939-01",
+      "url": "https://libraryarchives.metro.net/DPGTL/californiahighways/chpw_1939_jan.pdf",
+      "type": "official",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "p. 16."
+    },
+    {
+      "id": "chpw-1939-02-terminal-dedicated",
+      "title": "Bay Bridge Terminal Dedicated",
+      "publisher": "California Highways and Public Works (California Department of Public Works)",
+      "date": "1939-02",
+      "url": "https://libraryarchives.metro.net/DPGTL/californiahighways/chpw_1939_feb.pdf",
+      "type": "official",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "pp. 6–8, 28."
+    },
+    {
+      "id": "cpuc-d54669",
+      "title": "Public Utilities Commission of the State of California, Decision No. 54669 (Application No. 36656): Key System, discontinuance of transbay rail service",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1957-03-12",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54669_19570312_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d12906",
+      "title": "Railroad Commission of the State of California, Decision No. 12906 (Case No. 1911): Southern Pacific service over the Harrison Street bridge, Oakland–Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1923-12-07",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D12906_19231207_C1911.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d17743",
+      "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1926-12-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17743_19261211_C1536.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d25740",
+      "title": "Railroad Commission of the State of California, Decision No. 25740 (Application No. 18640): abandonment of Southern Pacific's California Street, Ellsworth Street and Eighteenth Street lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1933-03-16",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D25740_19330316_A18640.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d27800",
+      "title": "Railroad Commission of the State of California, Decision No. 27800 (Case No. 3908): Oakland v. Southern Pacific, the Eighteenth Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1935-03-04",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27800_19350304_C3908.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d28671",
+      "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+      "author": "Railroad Commission of the State of California",
+      "date": "1936-03-23",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29614",
+      "title": "Railroad Commission of the State of California, Decision No. 29614 (Application No. 21048): bridge railway grade separations, Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-03-22",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29614_19370322_A21048.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29615",
+      "title": "Railroad Commission of the State of California, Decision No. 29615 (Application No. 21049): bridge railway crossings near 26th Street, Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-03-22",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29615_19370322_A21049.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d30015",
+      "title": "Railroad Commission of the State of California, Decision No. 30015 (Application No. 21219): Southern Pacific 'Off-Line' bridge connecting tracks, Oakland and Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-08-09",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30015_19370809_A21219.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33445",
+      "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+      "author": "Railroad Commission of the State of California",
+      "date": "1940-08-24",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33732",
+      "title": "Railroad Commission of the State of California, Decision No. 33732 (Application No. 23312): Interurban Electric Railway: the Alameda lines and their substitute service",
+      "author": "Railroad Commission of the State of California",
+      "date": "1940-12-17",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33732_19401217_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33891",
+      "title": "Railroad Commission of the State of California, Decision No. 33891 (Application No. 23312): Interurban Electric Railway: the Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-02-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33891_19410211_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34053",
+      "title": "Railroad Commission of the State of California, Decision No. 34053 (Application No. 23909): Key System crossings of the former Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-03-25",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34053_19410325_A23909.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34060",
+      "title": "Railroad Commission of the State of California, Decision No. 34060 (Application No. 23312): Interurban Electric Railway: substitute service for the Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-04-01",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34060_19410401_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34389",
+      "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-07-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34460",
+      "title": "Railroad Commission of the State of California, Decision No. 34460 (Application No. 23312): Key System substitute service for the Shattuck Avenue and Ninth Street lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-08-01",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34460_19410801_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "erj-1911-06-17-sp-oakland",
+      "title": "Southern Pacific Electrification at Oakland, Cal.: Rolling Stock and Repair Shops",
+      "publisher": "Electric Railway Journal 37(24)",
+      "date": "1911-06-17",
+      "url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24",
+      "type": "journal",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 1048–1053."
+    },
+    {
+      "id": "erj-1912-01-06-statistics",
+      "title": "Electric Railway Statistics for 1911",
+      "publisher": "Electric Railway Journal 39(1)",
+      "date": "1912-01-06",
+      "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+      "type": "journal",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "p. 2: \"the Southern Pacific Company electrified 40 miles of its lines radiating from Oakland, Cal., using the 1200-volt overhead-trolley, direct-current system.\""
+    },
+    {
       "id": "gtfs-511",
       "title": "511 SF Bay regional GTFS feed (operator RG)",
       "publisher": "Metropolitan Transportation Commission (511.org)",
@@ -889,6 +1093,27 @@
       "notes": "feed_info dates 20251126 to 20260630; file SHA-256 9964232c8aad74f9e1ef069445d6561ef02f2e779507181d54b8c14731d51baf."
     },
     {
+      "id": "haer-ca-164",
+      "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+      "author": "J. W. Snyder, Caltrans",
+      "publisher": "National Park Service, Historic American Engineering Record",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+      "type": "official",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "haer-ca-32",
+      "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+      "author": "Historic American Engineering Record; JRP Historical Consulting",
+      "publisher": "National Park Service, Historic American Engineering Record",
+      "date": "1999-05-01",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+      "type": "official",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14"
+    },
+    {
       "id": "osm-overpass-brt",
       "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
       "publisher": "OpenStreetMap contributors",
@@ -906,6 +1131,73 @@
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
       "notes": "Named road segments in (-122.36, 37.7, -122.15, 37.93), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "rag-1912-09-13-guppy",
+      "title": "Electrification of Oakland Suburban Lines",
+      "author": "R. T. Guppy",
+      "publisher": "Railway Age Gazette 53(11)",
+      "date": "1912-09-13",
+      "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+      "type": "journal",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 460–463. Read from archive.org's OCR text."
+    },
+    {
+      "id": "railway-signaling-1939-03-bay-bridge",
+      "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+      "publisher": "Railway Signaling (Simmons-Boardman)",
+      "date": "1939-03",
+      "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+      "type": "journal",
+      "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "pp. 148–154."
+    },
+    {
+      "id": "sf-call-1911-06-03-p18",
+      "title": "The San Francisco Call, June 3, 1911, p. 18",
+      "publisher": "The San Francisco Call",
+      "date": "1911-06-03",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-06-03/ed-1/?sp=18",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Read through Chronicling America's OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-07-01-p14",
+      "title": "The San Francisco Call, July 1, 1911, p. 14",
+      "publisher": "The San Francisco Call",
+      "date": "1911-07-01",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-07-01/ed-1/?sp=14",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Read through Chronicling America's OCR."
+    },
+    {
+      "id": "sf-call-1911-12-23-p17",
+      "title": "Electric Train Makes Trial Trip, The San Francisco Call, December 23, 1911, p. 17",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-23",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-23/ed-1/?sp=17",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Dec 22: \"The first electric train operated by the Southern Pacific company in Berkeley made a trial trip this afternoon\", from the Oakland mole over the Shattuck Avenue line to the city's northern limits."
+    },
+    {
+      "id": "sf-call-1911-12-31-p22",
+      "title": "The San Francisco Call, December 31, 1911, p. 22",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-31",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-31/ed-1/?sp=22",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Oakland, Dec 30: \"For the last time tonight the old familiar locomotive whistle sounded in Seventh street.\""
     },
     {
       "id": "usgs-concord-1897",
