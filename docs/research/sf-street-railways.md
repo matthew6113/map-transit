@@ -85,6 +85,8 @@ These run on Market St, so today's F track on Market St must first be cut at the
 
 ### Muni's own streetcar lines, 1912–1982
 
+Drawn so far (`data/past/sf-muni/`): A, B and E, from Callwell alone. C, D, F and H wait for routes.
+
 Dates mostly from CW, MFR and WR.
 
 - **A Geary–10th Ave**, 1912-12-28 to December 1932.

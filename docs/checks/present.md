@@ -43,6 +43,8 @@ Track older than today's service, whose opening isn't sourced yet. The line's ow
 - `muni-l-33rd-46th-ave` (33rd Ave to 46th Ave, on Taraval St): The L reached 48th Ave in 1923; whether the track was new then isn't stated.
 - `muni-l-46th-ave-wawona` (Taraval St to Wawona St, on 46th Ave): The L reached Wawona & 46th Ave in 1937; whether the track was new then isn't stated.
 - `muni-duboce-ave` (Duboce Ave, the portal to Church St): Street track older than the subway; its date isn't sourced yet.
+- `muni-f-market-drumm-1st` (Market St, Drumm St to 1st St): Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46).
+- `muni-f-market-1st-kearny` (Market St, 1st St to Kearny St): Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St.
 - `muni-f-market-st` (17th & Castro to Market & Drumm, on Market St): Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records.
 - `caltrain-san-jose-gilroy` (San José to Gilroy): The Southern Pacific's older line, carrying Caltrain from July 1, 1992; its own dates are for the past era. Cut at Tamien, which opened with the Gilroy service.
 - `caltrain-fourth-king-seventh` (4th & King to Seventh St and 16th St): The Southern Pacific's approach to its San Francisco terminal, older than the Bayshore Cutoff; when it first carried passengers isn't sourced. The cut is where the old line left the Seventh St tracks for Division St, as the 1950 San Francisco North sheet draws it.

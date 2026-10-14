@@ -1684,6 +1684,374 @@
       ]
     },
     {
+      "id": "muni-a-geary-10th",
+      "name": "A Geary–10th Avenue",
+      "short_name": "A",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1932-12"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1932-12",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Muni's first line: from Kearny St and Market St out Geary St and up 10th Ave to Golden Gate Park.",
+      "fate": "abandoned",
+      "fate_note": "Its 10th Ave service was abandoned in December 1932, after the Market Street Railway's 31 Balboa line opened alongside (Callwell p. 39).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet.",
+      "flags": [],
+      "undated": false,
+      "length_km": 6.68,
+      "confidence_km": {
+        "digitized": 6.68
+      },
+      "bbox": [
+        -122.468581,
+        37.773306,
+        -122.403113,
+        37.788015
+      ],
+      "fids": [
+        89,
+        90
+      ],
+      "segments": [
+        {
+          "id": "muni-geary-market-10th",
+          "name": "Geary St and Blvd, Market St to 10th Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to 10th Avenue (5847 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-10th-geary-fulton",
+          "name": "10th Ave, Geary Blvd to Fulton St",
+          "opened": "1912-12-28",
+          "closed": "1932-12",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 10th Avenue centerline from Geary Boulevard to Fulton Street (837 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-b-geary",
+      "name": "B Geary",
+      "short_name": "B",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1956-12-29"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1956-12-29",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A shuttle on Geary from 10th to 33rd Aves on Muni's first day, then from June 25, 1913 the Ferry Building to Ocean Beach, out Market and Geary and by 33rd Ave, Balboa St, 45th Ave and Cabrillo St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses replaced the B after December 29, 1956, leaving only the J, K, L, M and N streetcar lines (Callwell p. 48).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Muni's own reports give June 24 or 25, 1913 for the run to the beach; Callwell gives June 25. From March 22, 1949 it turned at the Transbay Terminal by 1st and Fremont Sts (Callwell p. 46); that loop isn't drawn, nor the Ferry Building loop. Whether it kept the 33rd Ave, Balboa St and 45th Ave route to the end isn't sourced yet.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 11.06,
+      "confidence_km": {
+        "digitized": 10.16,
+        "surveyed": 0.9
+      },
+      "bbox": [
+        -122.510041,
+        37.77327,
+        -122.396101,
+        37.793407
+      ],
+      "fids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "from": "1913-06-25",
+          "to": "1949-03-21",
+          "note": "On Market St's outside tracks to the Ferry Building until March 21, 1949",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "from": "1913-06-25",
+          "note": "On Market St's outside tracks",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-geary-market-10th",
+          "name": "Geary St and Blvd, Market St to 10th Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "from": "1913-06-25",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to 10th Avenue (5847 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-10th-33rd",
+          "name": "Geary Blvd, 10th Ave to 33rd Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Boulevard centerline from 10th Avenue to 33rd Avenue (2182 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-33rd-geary-balboa",
+          "name": "33rd Ave, Geary Blvd to Balboa St",
+          "opened": "1913-06-25",
+          "closed": null,
+          "from": "1913-06-25",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 33rd Avenue centerline from Geary Boulevard to Balboa Street (421 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "When the B left this end of its route isn't sourced yet."
+        },
+        {
+          "id": "muni-balboa-33rd-45th",
+          "name": "Balboa St, 33rd Ave to 45th Ave",
+          "opened": "1913-06-25",
+          "closed": null,
+          "from": "1913-06-25",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Balboa Street centerline from 33rd Avenue to 45th Avenue (1134 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "When the B left this end of its route isn't sourced yet."
+        },
+        {
+          "id": "muni-45th-balboa-cabrillo",
+          "name": "45th Ave, Balboa St to Cabrillo St",
+          "opened": "1913-06-25",
+          "closed": null,
+          "from": "1913-06-25",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 45th Avenue centerline from Balboa Street to Cabrillo Street (207 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "When the B left this end of its route isn't sourced yet."
+        },
+        {
+          "id": "muni-cabrillo-45th-la-playa",
+          "name": "Cabrillo St, 45th Ave to La Playa St",
+          "opened": "1913-06-25",
+          "closed": null,
+          "from": "1913-06-25",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Cabrillo Street centerline from 45th Avenue to La Playa Street (377 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "When the B left this end of its route isn't sourced yet."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "key-f",
       "name": "Berkeley line",
       "short_name": "F",
@@ -2473,7 +2841,7 @@
         37.760891
       ],
       "fids": [
-        86
+        88
       ],
       "segments": [
         {
@@ -2673,6 +3041,329 @@
       ]
     },
     {
+      "id": "muni-e-union",
+      "name": "E Union",
+      "short_name": "E",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1913-12-11",
+          "to": "1947-06-08"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1913-12-11",
+      "closed": "1947-06-08",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Presidio & Ferries' streetcar line, bought by the city in 1913: from the Ferry Building by Jackson and Washington Sts, Columbus Ave and Union St to Cow Hollow and The Presidio. Named the E in 1915.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by trolley and motor buses after June 8, 1947 (Callwell p. 45).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Drawn as Callwell describes it at the city's purchase in 1913; it was rebuilt to city standards while in service, and later changes aren't sourced yet. Its right-of-way in The Presidio isn't drawn.",
+      "flags": [],
+      "undated": false,
+      "length_km": 6.27,
+      "confidence_km": {
+        "digitized": 6.27
+      },
+      "bbox": [
+        -122.447177,
+        37.79492,
+        -122.394249,
+        37.80035
+      ],
+      "fids": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "segments": [
+        {
+          "id": "muni-e-embarcadero",
+          "name": "The Embarcadero, Market St to Washington St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's The Embarcadero centerline from Market Street to Washington Street (224 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The Presidio & Ferries' track to the Ferry Building, which Muni bought in 1913; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-washington",
+          "name": "Washington St, The Embarcadero to Columbus Ave (eastbound)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Washington Street centerline from The Embarcadero to Columbus Avenue (708 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The eastbound track. When it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-jackson",
+          "name": "Jackson St, Drumm St to Columbus Ave (westbound)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Jackson Street centerline from Drumm Street to Columbus Avenue (646 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The westbound track, drawn from Drumm St: Jackson St no longer reaches The Embarcadero. When it opened isn't sourced yet."
+        },
+        {
+          "id": "sf-columbus-washington-union",
+          "name": "Columbus Ave, Washington St to Union St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Columbus Avenue centerline from Washington Street to Union Street (808 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-union-columbus-larkin",
+          "name": "Union St, Columbus Ave to Larkin St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Columbus Avenue to Larkin Street (935 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-e-larkin",
+          "name": "Larkin St, Union St to Vallejo St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Larkin Street centerline from Union Street to Vallejo Street (209 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-vallejo",
+          "name": "Vallejo St, Larkin St to Franklin St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Vallejo Street centerline from Larkin Street to Franklin Street (441 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-franklin",
+          "name": "Franklin St, Vallejo St to Union St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Franklin Street centerline from Vallejo Street to Union Street (210 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "sf-union-franklin-steiner",
+          "name": "Union St, Franklin St to Steiner St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Franklin Street to Steiner Street (1026 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-e-union-steiner-baker",
+          "name": "Union St, Steiner St to Baker St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Steiner Street to Baker Street (737 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-baker",
+          "name": "Baker St, Union St to Greenwich St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Baker Street centerline from Union Street to Greenwich Street (210 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-greenwich",
+          "name": "Greenwich St, Baker St to Lyon St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Greenwich Street centerline from Baker Street to Lyon Street (123 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet. The line ran on into The Presidio on its own right-of-way, which isn't drawn."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "operator",
+            "closed"
+          ],
+          "pages": "31",
+          "note": "December 11, 1913: the city buys the Presidio & Ferries RR and \"begins Muni streetcar service on the company's line\", then running \"from the Ferry Building, on The Embarcadero, Jackson (westbound) and Washington (eastbound), Columbus Ave., Union, Larkin, Vallejo, Franklin, then back to Union, Baker, Greenwich, and a right of way in The Presidio.\" It \"was named the E line in February 1915.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Presidio & Ferries Railroad (1882)\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "The line \"ran along Union Street to Steiner\" (OCR)."
+        }
+      ]
+    },
+    {
       "id": "sp-encinal-avenue",
       "name": "Encinal Avenue line",
       "system": "southern-pacific",
@@ -2724,15 +3415,15 @@
         37.824321
       ],
       "fids": [
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
       ],
       "segments": [
         {
@@ -3468,15 +4159,15 @@
         37.824321
       ],
       "fids": [
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
       ],
       "segments": [
         {
@@ -3946,19 +4637,19 @@
         37.891351
       ],
       "fids": [
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
       ],
       "segments": [
         {
@@ -4661,12 +5352,12 @@
         37.7762
       ],
       "fids": [
-        155,
-        156,
-        157,
-        158,
-        159,
-        160
+        179,
+        180,
+        181,
+        182,
+        183,
+        184
       ],
       "segments": [
         {
@@ -4943,17 +5634,17 @@
         37.7762
       ],
       "fids": [
-        144,
-        145,
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
       ],
       "segments": [
         {
@@ -6514,15 +7205,15 @@
         37.824321
       ],
       "fids": [
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
       ],
       "segments": [
         {
@@ -7021,23 +7712,23 @@
         37.891481
       ],
       "fids": [
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
       ],
       "segments": [
         {
@@ -8634,7 +9325,9 @@
       ],
       "fids": [
         84,
-        85
+        85,
+        86,
+        87
       ],
       "segments": [
         {
@@ -8652,14 +9345,42 @@
           ]
         },
         {
-          "id": "sf-union-columbus-steiner",
-          "name": "Union St, Columbus Ave to Steiner St",
+          "id": "sf-union-columbus-larkin",
+          "name": "Union St, Columbus Ave to Larkin St",
           "opened": "1882",
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Union Street centerline from Columbus Avenue to Steiner Street (2402 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "method": "Along today's Union Street centerline from Columbus Avenue to Larkin Street (935 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-union-larkin-franklin",
+          "name": "Union St, Larkin St to Franklin St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Larkin Street to Franklin Street (440 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-union-franklin-steiner",
+          "name": "Union St, Franklin St to Steiner St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Franklin Street to Steiner Street (1026 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
           "flags": [
             "closed_unsourced"
@@ -9246,7 +9967,7 @@
         37.79567
       ],
       "fids": [
-        187
+        189
       ],
       "segments": [
         {
@@ -9730,8 +10451,8 @@
         37.41049
       ],
       "fids": [
-        209,
-        210
+        211,
+        212
       ],
       "segments": [
         {
@@ -10453,7 +11174,9 @@
         126,
         127,
         128,
-        129
+        129,
+        130,
+        131
       ],
       "segments": [
         {
@@ -10470,6 +11193,36 @@
             "opened_unsourced"
           ],
           "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
         },
         {
           "id": "muni-f-embarcadero",
@@ -10923,8 +11676,8 @@
         37.41132
       ],
       "fids": [
-        211,
-        212
+        213,
+        214
       ],
       "segments": [
         {
@@ -10996,7 +11749,7 @@
         37.79689
       ],
       "fids": [
-        188
+        190
       ],
       "segments": [
         {
@@ -11066,8 +11819,6 @@
         37.79443
       ],
       "fids": [
-        130,
-        131,
         132,
         133,
         134,
@@ -11076,7 +11827,9 @@
         137,
         138,
         139,
-        140
+        140,
+        141,
+        142
       ],
       "segments": [
         {
@@ -11332,8 +12085,6 @@
         37.79443
       ],
       "fids": [
-        141,
-        142,
         143,
         144,
         145,
@@ -11342,7 +12093,9 @@
         148,
         149,
         150,
-        151
+        151,
+        152,
+        153
       ],
       "segments": [
         {
@@ -11594,8 +12347,6 @@
         37.79443
       ],
       "fids": [
-        152,
-        153,
         154,
         155,
         156,
@@ -11603,7 +12354,9 @@
         158,
         159,
         160,
-        161
+        161,
+        162,
+        163
       ],
       "segments": [
         {
@@ -11943,8 +12696,6 @@
         37.79443
       ],
       "fids": [
-        162,
-        163,
         164,
         165,
         166,
@@ -11953,7 +12704,9 @@
         169,
         170,
         171,
-        172
+        172,
+        173,
+        174
       ],
       "segments": [
         {
@@ -12196,8 +12949,6 @@
         37.79443
       ],
       "fids": [
-        173,
-        174,
         175,
         176,
         177,
@@ -12205,7 +12956,9 @@
         179,
         180,
         181,
-        182
+        182,
+        183,
+        184
       ],
       "segments": [
         {
@@ -12459,8 +13212,8 @@
         37.79853
       ],
       "fids": [
-        189,
-        190
+        191,
+        192
       ],
       "segments": [
         {
@@ -12627,7 +13380,7 @@
         37.79417
       ],
       "fids": [
-        191
+        193
       ],
       "segments": [
         {
@@ -12942,13 +13695,13 @@
         37.41578
       ],
       "fids": [
-        213,
-        214,
         215,
         216,
         217,
         218,
-        219
+        219,
+        220,
+        221
       ],
       "segments": [
         {
@@ -13838,8 +14591,8 @@
         37.90948
       ],
       "fids": [
-        192,
-        193
+        194,
+        195
       ],
       "segments": [
         {
@@ -13936,13 +14689,13 @@
         37.63509
       ],
       "fids": [
-        198,
-        199,
         200,
         201,
         202,
         203,
-        204
+        204,
+        205,
+        206
       ],
       "segments": [
         {
@@ -14026,9 +14779,9 @@
         38.549119
       ],
       "fids": [
-        205,
-        206,
-        207
+        207,
+        208,
+        209
       ],
       "segments": [
         {
@@ -14262,8 +15015,8 @@
         37.80034
       ],
       "fids": [
-        194,
-        195
+        196,
+        197
       ],
       "segments": [
         {
@@ -14347,10 +15100,10 @@
         37.794812
       ],
       "fids": [
-        183,
-        184,
         185,
-        186
+        186,
+        187,
+        188
       ],
       "segments": [
         {
@@ -14642,7 +15395,7 @@
         37.81667
       ],
       "fids": [
-        208
+        210
       ],
       "segments": [
         {
@@ -14799,8 +15552,8 @@
         38.10147
       ],
       "fids": [
-        196,
-        197
+        198,
+        199
       ],
       "segments": [
         {

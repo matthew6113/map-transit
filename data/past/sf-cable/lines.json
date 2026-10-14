@@ -627,7 +627,13 @@
           "segment": "sf-columbus-washington-union"
         },
         {
-          "segment": "sf-union-columbus-steiner"
+          "segment": "sf-union-columbus-larkin"
+        },
+        {
+          "segment": "sf-union-larkin-franklin"
+        },
+        {
+          "segment": "sf-union-franklin-steiner"
         }
       ],
       "sources": [

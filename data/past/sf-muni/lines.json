@@ -1,0 +1,262 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Muni's first streetcar lines (Phase 2b.D), from Callwell's chronology (Muni, 1999). Research: docs/research/sf-street-railways.md.",
+  "lines": [
+    {
+      "id": "muni-a-geary-10th",
+      "name": "A Geary–10th Avenue",
+      "short_name": "A",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1932-12"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1932-12",
+      "status": "closed",
+      "summary": "Muni's first line: from Kearny St and Market St out Geary St and up 10th Ave to Golden Gate Park.",
+      "fate": "abandoned",
+      "fate_note": "Its 10th Ave service was abandoned in December 1932, after the Market Street Railway's 31 Balboa line opened alongside (Callwell p. 39).",
+      "route": [
+        {
+          "segment": "muni-geary-market-10th"
+        },
+        {
+          "segment": "muni-10th-geary-fulton"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "39",
+          "note": "\"The A-line service on 10th Ave. was abandoned in December 1932 because of the competition from the 31 line.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet."
+    },
+    {
+      "id": "muni-b-geary",
+      "name": "B Geary",
+      "short_name": "B",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1956-12-29"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1956-12-29",
+      "status": "closed",
+      "summary": "A shuttle on Geary from 10th to 33rd Aves on Muni's first day, then from June 25, 1913 the Ferry Building to Ocean Beach, out Market and Geary and by 33rd Ave, Balboa St, 45th Ave and Cabrillo St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses replaced the B after December 29, 1956, leaving only the J, K, L, M and N streetcar lines (Callwell p. 48).",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "from": "1913-06-25",
+          "to": "1949-03-21",
+          "note": "On Market St's outside tracks to the Ferry Building until March 21, 1949"
+        },
+        {
+          "segment": "muni-f-market-1st-kearny",
+          "from": "1913-06-25",
+          "note": "On Market St's outside tracks"
+        },
+        {
+          "segment": "muni-geary-market-10th",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-geary-10th-33rd"
+        },
+        {
+          "segment": "muni-33rd-geary-balboa",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-balboa-33rd-45th",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-45th-balboa-cabrillo",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-cabrillo-45th-la-playa",
+          "from": "1913-06-25"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "30",
+          "note": "\"The Geary line began service from the Ferry Building to the beach on June 25th\" (1913); \"the city opted to extend its line on 33rd Ave., Balboa, 45th Ave., and Cabrillo to Ocean Beach.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "48",
+          "note": "December 29, 1956: \"Last day of the B streetcar line on Geary\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "46",
+          "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "29",
+          "note": "April 22, 1913: the Lower Market Street Agreement \"allowed for the joint use of the outside Market St. tracks (and the outside loop on state-owned land at the Ferry Building) by Muni and URR streetcar lines\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Muni's own reports give June 24 or 25, 1913 for the run to the beach; Callwell gives June 25. From March 22, 1949 it turned at the Transbay Terminal by 1st and Fremont Sts (Callwell p. 46); that loop isn't drawn, nor the Ferry Building loop. Whether it kept the 33rd Ave, Balboa St and 45th Ave route to the end isn't sourced yet."
+    },
+    {
+      "id": "muni-e-union",
+      "name": "E Union",
+      "short_name": "E",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1913-12-11",
+          "to": "1947-06-08"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1913-12-11",
+      "closed": "1947-06-08",
+      "status": "closed",
+      "summary": "The Presidio & Ferries' streetcar line, bought by the city in 1913: from the Ferry Building by Jackson and Washington Sts, Columbus Ave and Union St to Cow Hollow and The Presidio. Named the E in 1915.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by trolley and motor buses after June 8, 1947 (Callwell p. 45).",
+      "route": [
+        {
+          "segment": "muni-e-embarcadero"
+        },
+        {
+          "segment": "muni-e-washington"
+        },
+        {
+          "segment": "muni-e-jackson"
+        },
+        {
+          "segment": "sf-columbus-washington-union"
+        },
+        {
+          "segment": "sf-union-columbus-larkin"
+        },
+        {
+          "segment": "muni-e-larkin"
+        },
+        {
+          "segment": "muni-e-vallejo"
+        },
+        {
+          "segment": "muni-e-franklin"
+        },
+        {
+          "segment": "sf-union-franklin-steiner"
+        },
+        {
+          "segment": "muni-e-union-steiner-baker"
+        },
+        {
+          "segment": "muni-e-baker"
+        },
+        {
+          "segment": "muni-e-greenwich"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "pages": "31",
+          "note": "December 11, 1913: the city buys the Presidio & Ferries RR and \"begins Muni streetcar service on the company's line\", then running \"from the Ferry Building, on The Embarcadero, Jackson (westbound) and Washington (eastbound), Columbus Ave., Union, Larkin, Vallejo, Franklin, then back to Union, Baker, Greenwich, and a right of way in The Presidio.\" It \"was named the E line in February 1915.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "45",
+          "note": "June 8, 1947: \"Last day of streetcar service on the E line, with trolley and motor buses\""
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as Callwell describes it at the city's purchase in 1913; it was rebuilt to city standards while in service, and later changes aren't sourced yet. Its right-of-way in The Presidio isn't drawn."
+    }
+  ]
+}

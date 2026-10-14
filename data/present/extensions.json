@@ -555,6 +555,14 @@
         "Mason St & Jackson St": [
           -122.41167,
           37.7956
+        ],
+        "Market St & 1st St": [
+          -122.399163,
+          37.79105
+        ],
+        "Market St & Kearny St": [
+          -122.403436,
+          37.787676
         ]
       },
       "segments": [
@@ -953,6 +961,46 @@
             }
           ],
           "notes": "Runs on 4th St from King St to the portal north of Brannan St. Special weekend service from November 19, 2022, a date SFMTA announced beforehand; the T has run through it daily since January 7, 2023."
+        },
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "line": "muni-f",
+          "from": "Market St & Drumm St",
+          "to": "Market St & 1st St",
+          "opened": null,
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "46",
+              "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "line": "muni-f",
+          "from": "Market St & 1st St",
+          "to": "Market St & Kearny St",
+          "opened": null,
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "29",
+              "note": "Muni's A line ran \"from Kearny & Market, on Geary\" from December 28, 1912."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
         },
         {
           "id": "muni-f-market-st",

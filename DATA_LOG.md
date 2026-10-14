@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`) and the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`) and the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -235,9 +235,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 22 | 75 | 8 | 0 | 124.2 | 9.8 | 4 | 53 |
-| present | 44 | 99 | 275 | 1939.3 | 0 | 0 | 9 | 26 |
+| past | 25 | 93 | 8 | 0 | 138.7 | 9.8 | 4 | 68 |
+| present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 58, `conflicting_sources` 7, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 360, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 73, `conflicting_sources` 8, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 371, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

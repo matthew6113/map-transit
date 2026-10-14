@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, Muni's first streetcar lines
+
+- **A Geary–10th Ave** (1912–1932), **B Geary** (1912–1956) and **E Union** (1913–1947), from
+  Callwell's chronology, in `data/past/sf-muni/`. The B runs from the Ferry Building over today's F
+  track on Market St, now cut at 1st St and Kearny St (decision 13), until March 21, 1949. The E
+  follows the Presidio & Ferries' route as the city bought it in 1913.
+- The Union St cable segment is split at Larkin and Franklin Sts, where the E's streetcars turned
+  off Union St.
+
 ## 2026-10-14: Phase 2b, the San Francisco & San Jose Railroad
 
 - **Caltrain's track dated by stretch,** from the papers of the day where it is older than Caltrain:

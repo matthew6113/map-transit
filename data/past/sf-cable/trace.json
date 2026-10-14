@@ -310,13 +310,41 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15
     },
-    "sf-union-columbus-steiner": {
+    "sf-union-columbus-larkin": {
       "parts": [
         {
           "streets": [
             "Union Street"
           ],
           "from": "Columbus Avenue",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-union-larkin-franklin": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Larkin Street",
+          "to": "Franklin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-union-franklin-steiner": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Franklin Street",
           "to": "Steiner Street",
           "area": "sf"
         }
