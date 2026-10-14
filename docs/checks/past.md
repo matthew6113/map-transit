@@ -95,8 +95,15 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `sp-sixteenth-street` Sixteenth Street Station | street-centerline | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-sixteenth-street.jpg) |
 | `sp-northbrae` Northbrae | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-northbrae.jpg) |
 | `sp-thousand-oaks` Thousand Oaks | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-thousand-oaks.jpg) |
+| `sp-pen-division` Seventh St to Harrison St, by Division St | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sp-pen-division.jpg) |
+| `sp-pen-mission` The Mission, from 16th St to 26th St | similarity | usgs-san-francisco-1899 | 40 m | [corrected](../screenshots/p2b/traces/sp-pen-mission-corrected.jpg) [as traced](../screenshots/p2b/traces/sp-pen-mission.jpg) |
+| `sp-pen-mission-link` 26th St to San Jose Ave | approximate |  |  |  |
+| `sp-pen-bernal-cut` The Bernal Cut, along San Jose Ave | street-centerline | usgs-san-francisco-south-1950 | 30 m | [review](../screenshots/p2b/traces/sp-pen-bernal-cut.jpg) |
+| `sp-pen-ocean-view` Glen Park to San Bruno, by Ocean View and Colma | geotiff | usgs-san-francisco-south-1950 | 20 m | [review](../screenshots/p2b/traces/sp-pen-ocean-view.jpg) |
+| `sp-pen-san-jose` San José: the old main line to the Market Street station | geotiff | usgs-san-jose-1943 | 30 m | [review](../screenshots/p2b/traces/sp-pen-san-jose.jpg) |
 
 ## Conflicting sources
 
 - line `sf-union-st-cable` (Union Street cable line): SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.
 - line `sf-castro-st-cable` (Castro Street cable line): Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.
+- line `sp-peninsula` (Peninsula trains, San Francisco to San José): The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.

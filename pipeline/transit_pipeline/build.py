@@ -370,7 +370,10 @@ def main() -> None:
             # today's network first from the dated track it stands on (extensions.py), which is
             # nearer the mark than its line's first day.
             o, c, borrowed, undated = segment_years(p, users)
-            track = [seg_display[s][0] for s in on_track.get(p["id"], []) if seg_display[s][0] is not None]
+            # Only track no older than its lines' service: Caltrain's stations stand on track of
+            # 1863, but most of them are far newer.
+            track = [seg_display[s][0] for s in on_track.get(p["id"], []) if seg_display[s][0] is not None
+                     and (o is None or seg_display[s][0] >= o)]
             if era == "present" and p["opened"] is None and track:
                 o, borrowed = min(track), True
                 undated = c is None

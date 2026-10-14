@@ -221,6 +221,11 @@ today's lines were opened in stages, and `extensions.py` applies it in `make app
 - **Dates come from official sources only,** as for the future era; a dataset may place a cut point.
   An agency's date announced before the day counts, and the notes say it was announced. Tests check
   both rules and that every null stretch says why.
+- **Track older than the service on it is a past fact.** Where a stretch opened before its line's
+  own `opened` (Caltrain's 1863–64 track, under Caltrain from 1980), its date may come from any
+  citable source but Wikipedia, as in the past era; so may the route of a stretch with no date.
+- **A station borrows its track's date only if the track is no older than its lines' service,**
+  so Caltrain's stations show from 1980, not 1863.
 
 ## Modes
 

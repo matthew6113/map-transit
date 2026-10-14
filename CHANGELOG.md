@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, the San Francisco & San Jose Railroad
+
+- **Caltrain's track dated by stretch,** from the papers of the day where it is older than Caltrain:
+  San Bruno to Mayfield (October 1863), Mayfield to San José (January 16, 1864), the Bayshore Cutoff
+  (December 8, 1907) and San José's line of December 31, 1935. Caltrain itself dates from July 1,
+  1980, when Caltrans took over the Peninsula Commute Service.
+- **The Peninsula trains** (`data/past/sp-peninsula/`), 1863–1980: the San Francisco & San Jose
+  Railroad, then the Southern Pacific. Before 1907 they left the city by Division St, the Mission,
+  the Bernal Cut and Ocean View, traced from the 1899 and 1950 USGS sheets; in San José they ran into
+  the Market Street station until 1935 (the 1943 sheet). They run over today's Caltrain track
+  (decision 13).
+- **The Ocean View line,** the local trains left on the old line after 1907. When they stopped
+  (1928–30) isn't sourced yet.
+- Stations of today's network borrow their track's date only when the track is no older than their
+  line's service, so Caltrain's stations no longer appear in 1863.
+- Research: `docs/research/early-railroads.md`.
+
 ## 2026-10-14: Phase 2b, San Francisco's cable lines
 
 - **Ten cable lines that left no present line** (`data/past/sf-cable/`), 1873–1956: the Clay

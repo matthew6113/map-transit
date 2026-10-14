@@ -1033,6 +1033,15 @@
       "notes": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" December 1935: \"A new terminal opens on Cahill Street in San Jose, now known as San Jose Diridon Station.\" June 23, 1975: \"Fourth and Townsend streets terminal opens in San Francisco.\""
     },
     {
+      "id": "caltrain-milestones-1980s",
+      "title": "Caltrain milestones: the 1980s",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/milestones-1980s",
+      "accessed": "2026-10-14",
+      "notes": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\" 1987: \"Peninsula Corridor Study Joint Powers Board is formed.\""
+    },
+    {
       "id": "caltrain-milestones-1990s",
       "title": "Caltrain milestones: the 1990s",
       "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
@@ -1163,6 +1172,26 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d20559",
+      "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1928-12-05",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
+      "accessed": "2026-10-14",
+      "notes": "San Jose's relocation: the main line runs \"over tracks laid in Fourth Street, from Julian Street to the southerly end of Fourth Street at Reed Street\"; the new line \"will depart from the existing main line at Polhemus Street and follow the alignment of the existing College Park to Santa Cruz Branch … to a point near San Carlos street. Southerly from San Carlos street an entirely new line is to be constructed on private right-of-way, joining the existing main line near Lick Station\" (OCR)."
+    },
+    {
+      "id": "crc-d22212",
+      "title": "Railroad Commission of California, Decision No. 22212 (Application No. 16292)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-03-18",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22212_19300318_A16292.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Lets the Southern Pacific \"abandon its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\". Recites Decision No. 20459 (November 15, 1928), which let the trains be discontinued for highway work \"between San Jose Avenue and Randall Street\", and that \"during the year ending October 31, 1928, no passengers whatever were carried\" southbound (OCR)."
+    },
+    {
       "id": "crc-d25740",
       "title": "Railroad Commission of the State of California, Decision No. 25740 (Application No. 18640): abandonment of Southern Pacific's California Street, Ellsworth Street and Eighteenth Street lines",
       "author": "Railroad Commission of the State of California",
@@ -1231,6 +1260,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d3351",
+      "title": "Railroad Commission of California, Decision No. 3351 (Application No. 1966)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1916-05-20",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D3351_19160520_A1966.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The Southern Pacific's main line in San Jose \"enters the City from the northwest near the end of Autumn Street, runs eastward across San Pedro, North First, North Second and North Third streets and then turns southerly and follows Fourth Street\" (OCR)."
     },
     {
       "id": "crc-d33732",
@@ -1416,6 +1455,17 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "langley-sf-directory-1867",
+      "title": "The San Francisco Directory for the year commencing September, 1867",
+      "author": "Henry G. Langley",
+      "date": "1867",
+      "type": "primary_document",
+      "url": "https://archive.org/details/sanfranciscodire1867lang",
+      "license": "Public domain (published 1867)",
+      "accessed": "2026-10-14",
+      "notes": "p. 37, \"General Review\" (scan n140): the first train of October 17, 1863 ran \"from the Mission Dolores to Big Tree Station\"; \"The principal depot at present is at the corner of Valencia and Market Streets.\""
     },
     {
       "id": "mtc-airtrain-extension-2021",
@@ -1615,6 +1665,17 @@
       "notes": "pp. 460–463. Read from archive.org's OCR text."
     },
     {
+      "id": "railroad-gazette-1907-03-15",
+      "title": "The Bay Shore cut-off of the Southern Pacific",
+      "publisher": "Railroad Gazette 42(11)",
+      "date": "1907-03-15",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 328-331 (OCR): the cutoff runs \"from existing tracks of the Southern Pacific in Seventh street, San Francisco\" \"to junction with the original line at San Bruno, is 9.84 miles\"; five tunnels; \"to be ready for service in the fall\"."
+    },
+    {
       "id": "railway-signaling-1939-03-bay-bridge",
       "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
       "publisher": "Railway Signaling (Simmons-Boardman)",
@@ -1633,6 +1694,38 @@
       "url": "https://www.sfbayferry.com/our-history/",
       "accessed": "2026-10-14",
       "notes": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\" 1989: \"The City of Alameda eventually started the Alameda Oakland Ferry Service\". 2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\". 2019: the Richmond terminal was completed \"and service was launched\"."
+    },
+    {
+      "id": "sf-business-directory-1864",
+      "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+      "date": "1864",
+      "type": "primary_document",
+      "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+      "license": "Public domain (published 1864)",
+      "accessed": "2026-10-14",
+      "notes": "p. 283, the San Francisco and San Jose Railroad (read on the page image, scan n306): \"On the 17th day of October, 1863, the first train passed over the portion of the road finished, from the Mission to Big Tree Station on the San Francisquito Creek. On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place. And later, on the 14th of February following, the San Francisco end of the road was extended to the corner of Fourth and Brannan streets\". p. 282: the timetable, \"leaving the Depot on Brannan Street, bet. Third and Fourth\"."
+    },
+    {
+      "id": "sf-call-1907-11-30",
+      "title": "The San Francisco Call, November 30, 1907, p. 5 (Southern Pacific advertisement)",
+      "publisher": "The San Francisco Call",
+      "date": "1907-11-30",
+      "type": "primary_document",
+      "url": "https://www.loc.gov/resource/sn85066387/1907-11-30/ed-1/?sp=5",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "Chronicling America. \"Bay Shore Cutoff to be formally opened and in operation December 8th\" (OCR; to be read on the page image)."
+    },
+    {
+      "id": "sf-call-1907-12-08",
+      "title": "Guests inspect the new Bay Shore cutoff",
+      "publisher": "The San Francisco Call",
+      "date": "1907-12-08",
+      "type": "primary_document",
+      "url": "https://www.loc.gov/resource/sn85066387/1907-12-08/ed-1/?sp=24",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "p. 24, Chronicling America (OCR; to be read on the page image): \"total length operated from Third and Townsend streets to San Bruno is 11.04 miles\", \"2.65 miles shorter than by way of Ocean View\", \"the junction with the old line at San Bruno\"."
     },
     {
       "id": "sf-call-1911-06-02-p8",
@@ -1891,6 +1984,17 @@
       "notes": "Hosted by the Transportation Authority of Marin. The Holiday Express train of Saturday, December 14, 2019 arrived at the Novato Downtown ribbon cutting, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\" The Larkspur ribbon cutting was Friday, December 13."
     },
     {
+      "id": "sp-bulletin-1936-01",
+      "title": "Southern Pacific Bulletin, January 1936",
+      "publisher": "Southern Pacific Company",
+      "date": "1936-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_002087",
+      "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+      "accessed": "2026-10-14",
+      "notes": "p. 7 (read on the page image): San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\" \"All traffic has ceased over the old line.\" \"The new route leaves the old line at Polhemus Street on the north side of the city and proceeds along the route of the Santa Cruz Branch … to the new station built on the site of the old South Pacific Coast depot. Thence … to a connection with the main line at Lick.\""
+    },
+    {
       "id": "srj-1904-02-13-key-route-1",
       "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
       "publisher": "Street Railway Journal 23(7)",
@@ -2044,6 +2148,30 @@
       "notes": "7.5-minute sheet, edition of 1950. HTMC scan 300067, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 e4c69e7c91cac13b21c6a576f655c7f6f30e52fec3a22ec2b1cf2bb232855109."
     },
     {
+      "id": "usgs-san-jose-1899",
+      "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_298900_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1899. HTMC scan 298900, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 589c29aab28bff9c6f89cbf33bed1daad8b626460ef102ef5c89ebc2f4bf6e38."
+    },
+    {
+      "id": "usgs-san-jose-1943",
+      "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1943",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1943",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_466308_1943_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1943. HTMC scan 466308, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 54f2629b73699450c0fb8bde6565086fac4099489250165ae19e727c93ed3d3c."
+    },
+    {
       "id": "usgs-san-leandro-1948",
       "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
       "author": "U.S. Geological Survey",
@@ -2054,6 +2182,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
+    },
+    {
+      "id": "usgs-san-mateo-1899",
+      "title": "San Mateo, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_298921_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1899. HTMC scan 298921, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 b5164e60d1be21e324b09a119c89bc27530dbd0e156fe7c47c0ee20714bb65c7."
+    },
+    {
+      "id": "usgs-san-mateo-1915",
+      "title": "San Mateo, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_298922_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1915. HTMC scan 298922, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 f648bf5144d507111594c6c2314ec90b0a8ec7d13100b81d7056088fcbab6774."
     },
     {
       "id": "vta-30-years-timeline",

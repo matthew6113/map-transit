@@ -4614,6 +4614,773 @@
       ]
     },
     {
+      "id": "sp-ocean-view",
+      "name": "Ocean View line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific",
+          "from": "1907-12-08",
+          "to": null
+        }
+      ],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "past",
+      "opened": "1907-12-08",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Local trains on the old line through the Mission, the Bernal Cut and Ocean View to San Bruno, after through trains moved to the Bayshore Cutoff in 1907.",
+      "fate": "abandoned",
+      "fate_note": "The Railroad Commission let the Southern Pacific suspend the trains for highway work in November 1928 (Decision No. 20459) and abandon them in March 1930 (Decision No. 22212).",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1907-12-08",
+          "to": null
+        }
+      ],
+      "notes": "When the last train ran isn't sourced: Decision No. 20459 (November 15, 1928) let the trains stop for highway work between San Jose Ave and Randall St, and in the year to October 31, 1928 they carried no southbound passengers at all; Decision No. 22212 (March 18, 1930) let them be abandoned. The track stayed in freight use (it is on the 1950 sheet).",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "undated": true,
+      "length_km": 22.1,
+      "confidence_km": {
+        "approximate": 0.67,
+        "digitized": 20.48,
+        "surveyed": 0.95
+      },
+      "bbox": [
+        -122.469879,
+        37.631656,
+        -122.39472,
+        37.7762
+      ],
+      "fids": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "segments": [
+        {
+          "id": "caltrain-fourth-king-seventh",
+          "name": "4th & King to Seventh St and 16th St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Caltrain 4th & King and Seventh Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's approach to its San Francisco terminal, older than the Bayshore Cutoff; when it first carried passengers isn't sourced. The cut is where the old line left the Seventh St tracks for Division St, as the 1950 San Francisco North sheet draws it."
+        },
+        {
+          "id": "sp-pen-division",
+          "name": "Seventh St to Harrison St, by Division St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (10 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The old line left the Seventh St tracks at about 16th St and ran west by Division St. The 1950 sheet still draws the track, as a spur, so it is traced from there."
+        },
+        {
+          "id": "sp-pen-mission",
+          "name": "The Mission, from 16th St to 26th St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1899) (5 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1899) (8 hand-read points); the sheet corrected by a shift on 3 control points (the same railroad near Division St, where the 1950 San Francisco North sheet still draws it; +115 m E, +220 m N, RMS 0.0 m).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Traced from the 1899 sheet, which is drawn about 115 m east and 220 m north of where it should be here; the fit moves it back by matching the curve near Division St that both sheets draw."
+        },
+        {
+          "id": "sp-pen-mission-link",
+          "name": "26th St to San Jose Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Given point by point.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The 1899 sheet ends at 37°45′ N, partway along this stretch, and the 1915 sheet south of it draws the city too densely to read the railroad. Drawn straight on, at the 1899 sheet's bearing, to San Jose Ave, so it is approximate."
+        },
+        {
+          "id": "sp-pen-bernal-cut",
+          "name": "The Bernal Cut, along San Jose Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's San Jose Avenue centerline from -122.42233,37.74719 to -122.43342,37.73279 (2168 m; Overture 2026-09-23.1, across gaps of up to 60 m where the street is cut today); checked on USGS San Francisco South 1:24,000 (1950).",
+          "structure": "cut",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "San Jose Ave and BART took over the cut; the railroad is drawn on today's San Jose Ave centerline, within about 30 m of the track."
+        },
+        {
+          "id": "sp-pen-ocean-view",
+          "name": "Glen Park to San Bruno, by Ocean View and Colma",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco South 1:24,000 (1950) (8 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (21 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (14 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (16 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (16 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (5 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (13 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "BART runs beside or on much of this right-of-way today. Traced from the 1950 sheet, where the track still ran."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sf-call-1907-12-08",
+          "title": "Guests inspect the new Bay Shore cutoff",
+          "publisher": "The San Francisco Call",
+          "date": "1907-12-08",
+          "type": "primary_document",
+          "url": "https://www.loc.gov/resource/sn85066387/1907-12-08/ed-1/?sp=24",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1907-12-08",
+          "supports": [
+            "opened"
+          ],
+          "note": "The cutoff opened December 8, 1907, \"2.65 miles shorter than by way of Ocean View\"."
+        },
+        {
+          "id": "crc-d22212",
+          "title": "Railroad Commission of California, Decision No. 22212 (Application No. 16292)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1930-03-18",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22212_19300318_A16292.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d22212",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "note": "\"its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "railroad-gazette-1907-03-15",
+          "title": "The Bay Shore cut-off of the Southern Pacific",
+          "publisher": "Railroad Gazette 42(11)",
+          "date": "1907-03-15",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "railroad-gazette-1907-03-15",
+          "supports": [
+            "route"
+          ],
+          "pages": "328",
+          "note": "The cutoff began \"from existing tracks of the Southern Pacific in Seventh street\"."
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "route"
+          ],
+          "note": "The 1899 sheet (surveyed 1894) draws the line from Seventh St by Division St, south through the Mission and diagonally to the Bernal Cut."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-south-1950",
+          "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-south-1950",
+          "supports": [
+            "route"
+          ],
+          "note": "The 1950 sheet draws San Jose Ave in the cut, with the railroad's label beside it."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-peninsula",
+      "name": "Peninsula trains, San Francisco to San José",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "San Francisco & San Jose Railroad",
+          "from": "1863-10",
+          "to": "1870"
+        },
+        {
+          "name": "Southern Pacific",
+          "from": "1870",
+          "to": "1980-06-30"
+        }
+      ],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "past",
+      "opened": "1863-10",
+      "closed": "1980-06-30",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains between San Francisco and San José: the San Francisco & San Jose Railroad's from 1863, the Southern Pacific's from 1870. They left the city through the Mission, the Bernal Cut and Ocean View until the Bayshore Cutoff opened in 1907, and reached San José's Cahill Street station from the end of 1935. Caltrain runs on the same track.",
+      "fate_note": "On July 1, 1980 Caltrans took over the Peninsula Commute Service, with the Southern Pacific still running the trains; it became today's Caltrain (Caltrain milestones).",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1863-10",
+          "to": null
+        },
+        {
+          "type": "diesel_electric",
+          "from": null,
+          "to": "1980-06-30"
+        }
+      ],
+      "notes": "The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 99.34,
+      "confidence_km": {
+        "approximate": 0.67,
+        "digitized": 22.28,
+        "surveyed": 76.4
+      },
+      "bbox": [
+        -122.469879,
+        37.323881,
+        -121.892879,
+        37.7762
+      ],
+      "fids": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "segments": [
+        {
+          "id": "caltrain-fourth-king-seventh",
+          "name": "4th & King to Seventh St and 16th St",
+          "opened": null,
+          "closed": null,
+          "from": "1864-02-14",
+          "note": "From February 14, 1864, when trains first ran from Fourth and Brannan Sts",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Caltrain 4th & King and Seventh Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's approach to its San Francisco terminal, older than the Bayshore Cutoff; when it first carried passengers isn't sourced. The cut is where the old line left the Seventh St tracks for Division St, as the 1950 San Francisco North sheet draws it."
+        },
+        {
+          "id": "sp-pen-division",
+          "name": "Seventh St to Harrison St, by Division St",
+          "opened": null,
+          "closed": null,
+          "from": "1864-02-14",
+          "to": "1907-12-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (10 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The old line left the Seventh St tracks at about 16th St and ran west by Division St. The 1950 sheet still draws the track, as a spur, so it is traced from there."
+        },
+        {
+          "id": "sp-pen-mission",
+          "name": "The Mission, from 16th St to 26th St",
+          "opened": null,
+          "closed": null,
+          "to": "1907-12-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1899) (5 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1899) (8 hand-read points); the sheet corrected by a shift on 3 control points (the same railroad near Division St, where the 1950 San Francisco North sheet still draws it; +115 m E, +220 m N, RMS 0.0 m).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Traced from the 1899 sheet, which is drawn about 115 m east and 220 m north of where it should be here; the fit moves it back by matching the curve near Division St that both sheets draw."
+        },
+        {
+          "id": "sp-pen-mission-link",
+          "name": "26th St to San Jose Ave",
+          "opened": null,
+          "closed": null,
+          "to": "1907-12-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Given point by point.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The 1899 sheet ends at 37°45′ N, partway along this stretch, and the 1915 sheet south of it draws the city too densely to read the railroad. Drawn straight on, at the 1899 sheet's bearing, to San Jose Ave, so it is approximate."
+        },
+        {
+          "id": "sp-pen-bernal-cut",
+          "name": "The Bernal Cut, along San Jose Ave",
+          "opened": null,
+          "closed": null,
+          "to": "1907-12-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's San Jose Avenue centerline from -122.42233,37.74719 to -122.43342,37.73279 (2168 m; Overture 2026-09-23.1, across gaps of up to 60 m where the street is cut today); checked on USGS San Francisco South 1:24,000 (1950).",
+          "structure": "cut",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "San Jose Ave and BART took over the cut; the railroad is drawn on today's San Jose Ave centerline, within about 30 m of the track."
+        },
+        {
+          "id": "sp-pen-ocean-view",
+          "name": "Glen Park to San Bruno, by Ocean View and Colma",
+          "opened": null,
+          "closed": null,
+          "to": "1907-12-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco South 1:24,000 (1950) (8 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (21 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (14 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (16 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (16 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (5 hand-read points); then traced by eye from USGS San Francisco South 1:24,000 (1950) (13 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "BART runs beside or on much of this right-of-way today. Traced from the 1950 sheet, where the track still ran."
+        },
+        {
+          "id": "caltrain-bayshore-cutoff",
+          "name": "Bayshore Cutoff, Seventh St to San Bruno",
+          "opened": "1907-12-08",
+          "closed": null,
+          "from": "1907-12-08",
+          "note": "Through trains moved to the Bayshore Cutoff on December 8, 1907",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Seventh Street junction and San Bruno junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). The San Bruno junction is where the old line meets today's track on the 1950 San Francisco South sheet."
+        },
+        {
+          "id": "caltrain-san-bruno-mayfield",
+          "name": "San Bruno to California Avenue (Mayfield)",
+          "opened": "1863-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno junction and California Avenue (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). The San Francisco & San Jose Railroad of 1863. The first train, on October 17, 1863, ran only as far as Big Tree Station on San Francisquito Creek."
+        },
+        {
+          "id": "caltrain-mayfield-san-jose",
+          "name": "California Avenue (Mayfield) to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "from": "1864-01-16",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between California Avenue and Polhemus Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). Cut at Polhemus Street, where the old main line into San José left it until 1935 (Southern Pacific Bulletin)."
+        },
+        {
+          "id": "sp-pen-san-jose",
+          "name": "San José: the old main line to the Market Street station",
+          "opened": null,
+          "closed": null,
+          "from": "1864-01-16",
+          "to": "1935-12-31",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Jose 1:62,500 (1943) (11 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "From the junction at Polhemus Street east through the station yard, as the 1943 sheet still draws it, to the yard's east end near Fourth St. The line ran on down Fourth St to Reed St and south to Lick; that part isn't drawn yet."
+        },
+        {
+          "id": "caltrain-santa-cruz-branch",
+          "name": "Polhemus Street to San Carlos Street, by Diridon",
+          "opened": null,
+          "closed": null,
+          "from": "1935-12-31",
+          "note": "Over the Santa Cruz branch to the new Cahill Street station from December 31, 1935",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Polhemus Street junction and San Carlos Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Santa Cruz branch's older track, which the main line took over on December 31, 1935; when it first carried passengers isn't sourced. The San Carlos St cut is where the 1943 San Jose sheet draws the new line leaving the branch."
+        }
+      ],
+      "sources": [
+        {
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "note": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" 1870: absorbed into Southern Pacific. December 1935: the Cahill Street terminal."
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "283",
+          "note": "First train October 17, 1863, from the Mission to Big Tree Station; to San Jose January 16, 1864; to Fourth and Brannan Sts February 14, 1864."
+        },
+        {
+          "id": "langley-sf-directory-1867",
+          "title": "The San Francisco Directory for the year commencing September, 1867",
+          "author": "Henry G. Langley",
+          "date": "1867",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscodire1867lang",
+          "license": "Public domain (published 1867)",
+          "accessed": "2026-10-14",
+          "source": "langley-sf-directory-1867",
+          "supports": [
+            "general"
+          ],
+          "pages": "37",
+          "note": "\"The principal depot at present is at the corner of Valencia and Market Streets.\""
+        },
+        {
+          "id": "sf-call-1907-12-08",
+          "title": "Guests inspect the new Bay Shore cutoff",
+          "publisher": "The San Francisco Call",
+          "date": "1907-12-08",
+          "type": "primary_document",
+          "url": "https://www.loc.gov/resource/sn85066387/1907-12-08/ed-1/?sp=24",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1907-12-08",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "The cutoff's opening, and \"the junction with the old line at San Bruno\"."
+        },
+        {
+          "id": "sf-call-1907-11-30",
+          "title": "The San Francisco Call, November 30, 1907, p. 5 (Southern Pacific advertisement)",
+          "publisher": "The San Francisco Call",
+          "date": "1907-11-30",
+          "type": "primary_document",
+          "url": "https://www.loc.gov/resource/sn85066387/1907-11-30/ed-1/?sp=5",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1907-11-30",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "5",
+          "note": "\"Bay Shore Cutoff to be formally opened and in operation December 8th\""
+        },
+        {
+          "id": "sp-bulletin-1936-01",
+          "title": "Southern Pacific Bulletin, January 1936",
+          "publisher": "Southern Pacific Company",
+          "date": "1936-01",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_002087",
+          "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+          "accessed": "2026-10-14",
+          "source": "sp-bulletin-1936-01",
+          "supports": [
+            "route"
+          ],
+          "pages": "7",
+          "note": "San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\""
+        },
+        {
+          "id": "crc-d20559",
+          "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1928-12-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d20559",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "caltrain-milestones-1980s",
+          "title": "Caltrain milestones: the 1980s",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/milestones-1980s",
+          "accessed": "2026-10-14",
+          "source": "caltrain-milestones-1980s",
+          "supports": [
+            "closed",
+            "operator"
+          ],
+          "note": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "railroad-gazette-1907-03-15",
+          "title": "The Bay Shore cut-off of the Southern Pacific",
+          "publisher": "Railroad Gazette 42(11)",
+          "date": "1907-03-15",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "railroad-gazette-1907-03-15",
+          "supports": [
+            "route"
+          ],
+          "pages": "328",
+          "note": "The cutoff began \"from existing tracks of the Southern Pacific in Seventh street\"."
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "route"
+          ],
+          "note": "The 1899 sheet (surveyed 1894) draws the line from Seventh St by Division St, south through the Mission and diagonally to the Bernal Cut."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-south-1950",
+          "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-south-1950",
+          "supports": [
+            "route"
+          ],
+          "note": "The 1950 sheet draws San Jose Ave in the cut, with the railroad's label beside it."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "crc-d3351",
+          "title": "Railroad Commission of California, Decision No. 3351 (Application No. 1966)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1916-05-20",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D3351_19160520_A1966.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d3351",
+          "supports": [
+            "route"
+          ],
+          "note": "The main line \"enters the City from the northwest near the end of Autumn Street, runs eastward across San Pedro, North First, North Second and North Third streets and then turns southerly and follows Fourth Street\" (OCR)."
+        },
+        {
+          "id": "usgs-san-jose-1943",
+          "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1943",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1943",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_466308_1943_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-jose-1943",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "key-c",
       "name": "Piedmont line",
       "short_name": "C",
@@ -8479,7 +9246,7 @@
         37.79567
       ],
       "fids": [
-        184
+        187
       ],
       "segments": [
         {
@@ -8664,7 +9431,7 @@
         37.86921
       ],
       "fids": [
-        102
+        105
       ],
       "segments": [
         {
@@ -8963,8 +9730,8 @@
         37.41049
       ],
       "fids": [
-        206,
-        207
+        209,
+        210
       ],
       "segments": [
         {
@@ -9035,8 +9802,8 @@
         37.79367
       ],
       "fids": [
-        109,
-        110
+        112,
+        113
       ],
       "segments": [
         {
@@ -9202,18 +9969,16 @@
       "mode_label": "Commuter rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1980-07-01",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "notes": "Today's line runs mostly on the San Francisco & San José Railroad of 1863–64, with the Bayshore Cutoff (1907) north of San Bruno; those dates come with the past era's early railroads.",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 123.73,
+      "notes": "Dated from July 1, 1980, when Caltrans took over the Peninsula Commute Service; the trains before then are the past era's Southern Pacific Peninsula line, on the same track. The track itself is dated stretch by stretch, from the San Francisco & San Jose Railroad of 1863-64, the Bayshore Cutoff of 1907 and San José's line of 1935.",
+      "flags": [],
+      "undated": false,
+      "length_km": 123.76,
       "confidence_km": {
-        "surveyed": 123.73
+        "surveyed": 123.76
       },
       "bbox": [
         -122.41314,
@@ -9229,50 +9994,93 @@
         93,
         94,
         95,
-        96
+        96,
+        97,
+        98,
+        99
       ],
       "segments": [
         {
-          "id": "caltrain-undated-1",
-          "name": "Caltrain, part not yet dated",
+          "id": "caltrain-fourth-king-seventh",
+          "name": "4th & King to Seventh St and 16th St",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Caltrain 4th & King and Seventh Street junction (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ]
+          ],
+          "notes": "The Southern Pacific's approach to its San Francisco terminal, older than the Bayshore Cutoff; when it first carried passengers isn't sourced. The cut is where the old line left the Seventh St tracks for Division St, as the 1950 San Francisco North sheet draws it."
         },
         {
-          "id": "caltrain-undated-3",
-          "name": "Caltrain, part not yet dated",
-          "opened": null,
+          "id": "caltrain-bayshore-cutoff",
+          "name": "Bayshore Cutoff, Seventh St to San Bruno",
+          "opened": "1907-12-08",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Seventh Street junction and San Bruno junction (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ]
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). The San Bruno junction is where the old line meets today's track on the 1950 San Francisco South sheet."
         },
         {
-          "id": "caltrain-undated-2",
-          "name": "Caltrain, part not yet dated",
-          "opened": null,
+          "id": "caltrain-san-bruno-mayfield",
+          "name": "San Bruno to California Avenue (Mayfield)",
+          "opened": "1863-10",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno junction and California Avenue (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). The San Francisco & San Jose Railroad of 1863. The first train, on October 17, 1863, ran only as far as Big Tree Station on San Francisquito Creek."
+        },
+        {
+          "id": "caltrain-mayfield-san-jose",
+          "name": "California Avenue (Mayfield) to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between California Avenue and Polhemus Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). Cut at Polhemus Street, where the old main line into San José left it until 1935 (Southern Pacific Bulletin)."
+        },
+        {
+          "id": "caltrain-santa-cruz-branch",
+          "name": "Polhemus Street to San Carlos Street, by Diridon",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Polhemus Street junction and San Carlos Street junction (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ]
+          ],
+          "notes": "The Santa Cruz branch's older track, which the main line took over on December 31, 1935; when it first carried passengers isn't sourced. The San Carlos St cut is where the 1943 San Jose sheet draws the new line leaving the branch."
+        },
+        {
+          "id": "caltrain-1935-line",
+          "name": "San Carlos Street to Tamien: the line of 1935",
+          "opened": "1935-12-31",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Carlos Street junction and Tamien Caltrain Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Older than today's service, so its date is a past fact and may come from any citable source (decision 13). The new line ran on to the main line at Lick, south of Tamien; that part is in the Gilroy stretch."
         },
         {
           "id": "caltrain-san-jose-gilroy",
@@ -9309,6 +10117,128 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "caltrain-milestones-1980s",
+          "title": "Caltrain milestones: the 1980s",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/milestones-1980s",
+          "accessed": "2026-10-14",
+          "source": "caltrain-milestones-1980s",
+          "supports": [
+            "opened",
+            "operator"
+          ],
+          "note": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\""
+        },
+        {
+          "id": "railroad-gazette-1907-03-15",
+          "title": "The Bay Shore cut-off of the Southern Pacific",
+          "publisher": "Railroad Gazette 42(11)",
+          "date": "1907-03-15",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "railroad-gazette-1907-03-15",
+          "supports": [
+            "route"
+          ],
+          "pages": "328",
+          "note": "The cutoff began \"from existing tracks of the Southern Pacific in Seventh street\"."
+        },
+        {
+          "id": "sf-call-1907-11-30",
+          "title": "The San Francisco Call, November 30, 1907, p. 5 (Southern Pacific advertisement)",
+          "publisher": "The San Francisco Call",
+          "date": "1907-11-30",
+          "type": "primary_document",
+          "url": "https://www.loc.gov/resource/sn85066387/1907-11-30/ed-1/?sp=5",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1907-11-30",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "\"Bay Shore Cutoff to be formally opened and in operation December 8th\""
+        },
+        {
+          "id": "sf-call-1907-12-08",
+          "title": "Guests inspect the new Bay Shore cutoff",
+          "publisher": "The San Francisco Call",
+          "date": "1907-12-08",
+          "type": "primary_document",
+          "url": "https://www.loc.gov/resource/sn85066387/1907-12-08/ed-1/?sp=24",
+          "license": "Public domain (published 1907)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1907-12-08",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "24",
+          "note": "The cutoff's opening day, and \"the junction with the old line at San Bruno\"."
+        },
+        {
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened"
+          ],
+          "note": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\""
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"On the 17th day of October, 1863, the first train passed over the portion of the road finished, from the Mission to Big Tree Station on the San Francisquito Creek.\""
+        },
+        {
+          "id": "crc-d20559",
+          "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1928-12-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d20559",
+          "supports": [
+            "route"
+          ],
+          "note": "The new line follows \"the existing College Park to Santa Cruz Branch\" \"to a point near San Carlos street\"."
+        },
+        {
+          "id": "sp-bulletin-1936-01",
+          "title": "Southern Pacific Bulletin, January 1936",
+          "publisher": "Southern Pacific Company",
+          "date": "1936-01",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_002087",
+          "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+          "accessed": "2026-10-14",
+          "source": "sp-bulletin-1936-01",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "7",
+          "note": "\"proceeds along the route of the Santa Cruz Branch\""
         },
         {
           "id": "caltrain-milestones-1990s",
@@ -9518,12 +10448,12 @@
         37.80862
       ],
       "fids": [
-        121,
-        122,
-        123,
         124,
         125,
-        126
+        126,
+        127,
+        128,
+        129
       ],
       "segments": [
         {
@@ -9651,11 +10581,11 @@
         38.057994
       ],
       "fids": [
-        97,
-        98,
-        99,
         100,
-        101
+        101,
+        102,
+        103,
+        104
       ],
       "segments": [
         {
@@ -9993,8 +10923,8 @@
         37.41132
       ],
       "fids": [
-        208,
-        209
+        211,
+        212
       ],
       "segments": [
         {
@@ -10066,7 +10996,7 @@
         37.79689
       ],
       "fids": [
-        185
+        188
       ],
       "segments": [
         {
@@ -10136,9 +11066,6 @@
         37.79443
       ],
       "fids": [
-        127,
-        128,
-        129,
         130,
         131,
         132,
@@ -10146,7 +11073,10 @@
         134,
         135,
         136,
-        137
+        137,
+        138,
+        139,
+        140
       ],
       "segments": [
         {
@@ -10402,9 +11332,6 @@
         37.79443
       ],
       "fids": [
-        138,
-        139,
-        140,
         141,
         142,
         143,
@@ -10412,7 +11339,10 @@
         145,
         146,
         147,
-        148
+        148,
+        149,
+        150,
+        151
       ],
       "segments": [
         {
@@ -10664,16 +11594,16 @@
         37.79443
       ],
       "fids": [
-        149,
-        150,
-        151,
         152,
         153,
         154,
         155,
         156,
         157,
-        158
+        158,
+        159,
+        160,
+        161
       ],
       "segments": [
         {
@@ -10930,7 +11860,7 @@
         37.94473
       ],
       "fids": [
-        103
+        106
       ],
       "segments": [
         {
@@ -11013,9 +11943,6 @@
         37.79443
       ],
       "fids": [
-        159,
-        160,
-        161,
         162,
         163,
         164,
@@ -11023,7 +11950,10 @@
         166,
         167,
         168,
-        169
+        169,
+        170,
+        171,
+        172
       ],
       "segments": [
         {
@@ -11266,16 +12196,16 @@
         37.79443
       ],
       "fids": [
-        170,
-        171,
-        172,
         173,
         174,
         175,
         176,
         177,
         178,
-        179
+        179,
+        180,
+        181,
+        182
       ],
       "segments": [
         {
@@ -11529,8 +12459,8 @@
         37.79853
       ],
       "fids": [
-        186,
-        187
+        189,
+        190
       ],
       "segments": [
         {
@@ -11697,7 +12627,7 @@
         37.79417
       ],
       "fids": [
-        188
+        191
       ],
       "segments": [
         {
@@ -12012,13 +12942,13 @@
         37.41578
       ],
       "fids": [
-        210,
-        211,
-        212,
         213,
         214,
         215,
-        216
+        216,
+        217,
+        218,
+        219
       ],
       "segments": [
         {
@@ -12180,12 +13110,12 @@
         37.806637
       ],
       "fids": [
-        111,
-        112,
-        113,
         114,
         115,
-        116
+        116,
+        117,
+        118,
+        119
       ],
       "segments": [
         {
@@ -12328,10 +13258,10 @@
         37.805226
       ],
       "fids": [
-        117,
-        118,
-        119,
-        120
+        120,
+        121,
+        122,
+        123
       ],
       "segments": [
         {
@@ -12908,8 +13838,8 @@
         37.90948
       ],
       "fids": [
-        189,
-        190
+        192,
+        193
       ],
       "segments": [
         {
@@ -13006,13 +13936,13 @@
         37.63509
       ],
       "fids": [
-        195,
-        196,
-        197,
         198,
         199,
         200,
-        201
+        201,
+        202,
+        203,
+        204
       ],
       "segments": [
         {
@@ -13096,9 +14026,9 @@
         38.549119
       ],
       "fids": [
-        202,
-        203,
-        204
+        205,
+        206,
+        207
       ],
       "segments": [
         {
@@ -13248,8 +14178,8 @@
         37.85629
       ],
       "fids": [
-        104,
-        105
+        107,
+        108
       ],
       "segments": [
         {
@@ -13332,8 +14262,8 @@
         37.80034
       ],
       "fids": [
-        191,
-        192
+        194,
+        195
       ],
       "segments": [
         {
@@ -13417,10 +14347,10 @@
         37.794812
       ],
       "fids": [
-        180,
-        181,
-        182,
-        183
+        183,
+        184,
+        185,
+        186
       ],
       "segments": [
         {
@@ -13627,8 +14557,8 @@
         37.87273
       ],
       "fids": [
-        106,
-        107
+        109,
+        110
       ],
       "segments": [
         {
@@ -13712,7 +14642,7 @@
         37.81667
       ],
       "fids": [
-        205
+        208
       ],
       "segments": [
         {
@@ -13798,7 +14728,7 @@
         37.87273
       ],
       "fids": [
-        108
+        111
       ],
       "segments": [
         {
@@ -13869,8 +14799,8 @@
         38.10147
       ],
       "fids": [
-        193,
-        194
+        196,
+        197
       ],
       "segments": [
         {

@@ -287,7 +287,9 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
             if kept is not None:
                 BUILT[fid] = kept  # joins use the corrected geometry
             draw({"type": "Feature", "properties": {"id": f"{fid} (as traced)"}, "geometry": geom}, check, fid)
-            draw(f, spec["true_frame"]["sheet"], f"{fid}-corrected")
+            # Over the sheet it was corrected against, or for controls at today's corners, the
+            # fit's own check sheet (a modern one), else its own sheet.
+            draw(f, spec.get("true_frame", {}).get("sheet") or spec.get("check_sheet") or check, f"{fid}-corrected")
         else:
             draw(f, check, fid)
     tmp.unlink(missing_ok=True)

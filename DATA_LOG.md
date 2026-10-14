@@ -41,11 +41,12 @@ has a date to lend (decision 4).
 
 | | |
 |---|---|
-| Status | In use. BART: 24 segments, all dated. Muni: 34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track is older than today's service and not yet dated. SMART: all three stretches. VTA: Tasman East and the Capitol line, plus Mountain View and Winchester stations; the Guadalupe trunk, Tasman West and Vasona are undated. Caltrain: Gilroy service (1992) and three stations; its 1863–64 and 1907 track waits for the past era's early railroads. Line openings for ACE, the Capitol Corridor, the Zephyr, the Gold Runner, the AirTrain and ten ferry routes; BRT lanes on Van Ness, International Blvd and Alum Rock. |
-| Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, its blog, and the Van Ness BRT notice. Others: the CPUC's 2011 safety review of VTA and VTA's timeline; Caltrain's milestones pages; SMART's 2022 release and December 2019 general manager's report; the Golden Gate Ferry timeline; SF Bay Ferry's history; ACE; the Capitol Corridor's timeline; Amtrak's media site and Great American Stations; AC Transit's Tempo release; an SFCTA/TIMMA memo; MTC's news posts. |
-| Cut points | GTFS stations and stops (511). Street corners from Overture roads: Taraval St and 33rd Ave, Tasman Dr at I-880, Capitol Ave at Hostetter Rd and Alum Rock Ave. The Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). |
+| Status | In use. BART: 24 segments, all dated. Muni: 34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track is older than today's service and not yet dated. SMART: all three stretches. VTA: Tasman East and the Capitol line, plus Mountain View and Winchester stations; the Guadalupe trunk, Tasman West and Vasona are undated. Caltrain: dated from July 1, 1980, when Caltrans took over; its track by stretch, from the San Francisco & San Jose Railroad (October 1863 and January 16, 1864), the Bayshore Cutoff (December 8, 1907) and San José's line of December 31, 1935, plus Gilroy service (1992) and three stations. Its approach to 4th & King and the Santa Cruz branch through Diridon are older track not yet dated. Line openings for ACE, the Capitol Corridor, the Zephyr, the Gold Runner, the AirTrain and ten ferry routes; BRT lanes on Van Ness, International Blvd and Alum Rock. |
+| Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, its blog, and the Van Ness BRT notice. Others: the CPUC's 2011 safety review of VTA and VTA's timeline; Caltrain's milestones pages (to 1979, the 1980s and the 1990s); SMART's 2022 release and December 2019 general manager's report; the Golden Gate Ferry timeline; SF Bay Ferry's history; ACE; the Capitol Corridor's timeline; Amtrak's media site and Great American Stations; AC Transit's Tempo release; an SFCTA/TIMMA memo; MTC's news posts. |
+| Cut points | GTFS stations and stops (511). Street corners from Overture roads: Taraval St and 33rd Ave, Tasman Dr at I-880, Capitol Ave at Hostetter Rd and Alum Rock Ave. The Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). Caltrain's junctions with its older lines: Seventh St and 16th St and San Bruno (where the 1950 USGS San Francisco sheets draw the old line meeting today's track), Polhemus Street and San Carlos Street in San José (the 1943 USGS San Jose sheet). |
 | License | Public agency records, cited for facts. Geometry stays GTFS (511's terms). |
-| Gaps | Quotes from BART's scanned PDFs come from their machine-read text; Matthew should check them against the page images (`docs/checks/present.md`). Dates an agency announced beforehand are used and noted (decision of Oct 14). Undated: the Coast Starlight, Harbor Bay, Oakland & Alameda, Triangle and Angel Island–Tiburon ferries; VTA's Guadalupe trunk, Tasman West and Vasona track; Caltrain north of Tamien. |
+| Older track | Where a stretch is older than the service on it today (Caltrain's 1863–1935 track), its date is a past fact and may come from any citable source but Wikipedia: the 1864–65 San Francisco business directory, the San Francisco Call of 1907 and the Southern Pacific Bulletin of 1936, as well as Caltrain's milestones. |
+| Gaps | Quotes from BART's scanned PDFs come from their machine-read text; Matthew should check them against the page images (`docs/checks/present.md`). Dates an agency announced beforehand are used and noted (decision of Oct 14). Undated: the Coast Starlight, Harbor Bay, Oakland & Alameda, Triangle and Angel Island–Tiburon ferries; VTA's Guadalupe trunk, Tasman West and Vasona track; Caltrain's approach to 4th & King and the Santa Cruz branch from Polhemus Street to San Carlos Street. |
 
 ### 511.org regional feed
 
@@ -133,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`). Every past
+Francisco's cable lines (`sf-cable/`) and the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -142,9 +143,11 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 
 | Source | Type | License |
 |---|---|---|
-| California Railroad Commission and CPUC decisions, 1923–1957 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
-| Street Railway Journal (1904, 1906), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
-| The San Francisco Call (1911) and the Oakland Tribune (1904–1924), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
+| California Railroad Commission and CPUC decisions, 1916–1957 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
+| Street Railway Journal (1904, 1906), Railroad Gazette (1907), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
+| The San Francisco Call (1907, 1911) and the Oakland Tribune (1904–1924), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
+| San Francisco directories: the *Business Directory and Mercantile Guide* for 1864–65 and Langley's directory of 1867, from archive.org | primary_document | Public domain (published 1864, 1867) |
+| *Southern Pacific Bulletin*, January 1936 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only |
 | HAER CA-32 (Bay Bridge) and CA-164 (IER Bridge Yard Shop), Library of Congress | official | Public domain (U.S. Government work) |
 | California Highways and Public Works (1939) | official | California public record; cited for facts |
 | Railway Signaling, March 1939 | journal | Unclear (1939); cited for facts |
@@ -161,7 +164,7 @@ The geometry tools are below (decision 12).
 | Status | In use for tracing and checking past geometry (decision 12). Fetched Oct 14, 2026 by `make past`. |
 | Origin | `https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/`, chosen from the HTMC index (`StagedProducts/Maps/Metadata/topomaps_all_legacy.zip`, `topomaps_all.csv`). Each sheet is pinned in `data/usgs-sheets.json` (file, URL, SHA-256, size, CRS) and registered in `data/sources.json` as a `primary_map`. |
 | License | Public domain (U.S. Government work). |
-| Georeferencing | By USGS, to each sheet's neatline, NAD27 polyconic. Shifted to WGS84 with NOAA's NADCON grid (below). Checked against today's streets on Oct 14: the 1:24,000 sheets of 1947–49 fall within a few metres; the 15-minute sheets of 1895–1915 are off by tens of metres and drawn at 1:62,500 (streets about 30 m wide), so traces from them are corrected locally with control points and carry a larger `est_error_m`. |
+| Georeferencing | By USGS, to each sheet's neatline, NAD27 polyconic. Shifted to WGS84 with NOAA's NADCON grid (below). Checked against today's streets on Oct 14: the 1:24,000 sheets of 1947–49 fall within a few metres; the 15-minute sheets of 1895–1915 are off by tens of metres and drawn at 1:62,500 (streets about 30 m wide), so traces from them are corrected locally with control points and carry a larger `est_error_m`. The 1943 San Jose 15-minute sheet falls within about 30 m in downtown San José. The San Mateo sheets (1899, 1915) and the San Jose sheet of 1899 were fetched for the Peninsula line but not traced: the 1950 San Francisco South and 1943 San Jose sheets still draw its old track, and the 1899 San Jose sheet is off by several hundred metres. |
 | Gaps | The 15-minute sheets show railroads on their own right-of-way, not street railways in the street. Reprints (a later imprint year) are skipped unless they are the only scan. |
 
 | Source id | File | m a pixel | SHA-256 (first 12) |
@@ -175,6 +178,10 @@ The geometry tools are below (decision 12).
 | `usgs-san-francisco-1899` | CA_San Francisco_298890_1899_62500_geo.tif | 5.292 | `fed0096205c5` |
 | `usgs-san-francisco-1915` | CA_San Francisco_298897_1915_62500_geo.tif | 5.292 | `2faaad04375c` |
 | `usgs-san-francisco-south-1950` | CA_San Francisco South_300067_1950_24000_geo.tif | 2.032 | `e4c69e7c91ca` |
+| `usgs-san-jose-1899` | CA_San Jose_298900_1899_62500_geo.tif | 5.292 | `589c29aab28b` |
+| `usgs-san-jose-1943` | CA_San Jose_466308_1943_62500_geo.tif | 5.292 | `54f2629b7369` |
+| `usgs-san-mateo-1899` | CA_San Mateo_298921_1899_62500_geo.tif | 5.292 | `b5164e60d1be` |
+| `usgs-san-mateo-1915` | CA_San Mateo_298922_1915_62500_geo.tif | 5.292 | `f648bf5144d5` |
 | `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
@@ -228,9 +235,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 20 | 69 | 8 | 0 | 101.9 | 9.1 | 4 | 47 |
-| present | 44 | 96 | 275 | 1939.2 | 0 | 0 | 12 | 24 |
+| past | 22 | 75 | 8 | 0 | 124.2 | 9.8 | 4 | 53 |
+| present | 44 | 99 | 275 | 1939.3 | 0 | 0 | 9 | 26 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 51, `conflicting_sources` 6, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 356, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 58, `conflicting_sources` 7, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 360, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

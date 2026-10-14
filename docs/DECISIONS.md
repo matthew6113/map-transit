@@ -120,6 +120,12 @@ Choices made so far, newest last within each section. A decision waiting on Matt
   today's service runs over older track whose date isn't sourced yet (the K on the United Railroads'
   Ocean Ave track, the L on Taraval St, the F on Market St), the segment stays `null` and the line's
   `route_from` says when the service began there; display borrows that, lighter (decision 4).
+- **Track older than its service is the past era's** (Phase 2b, early railroads). Caltrain dates from
+  July 1, 1980, when Caltrans took over, but most of its track is the San Francisco & San Jose
+  Railroad's of 1863–64, the Bayshore Cutoff of 1907 and San José's line of 1935. Those dates are
+  past facts, so they may come from any citable source but Wikipedia (CLAUDE.md), here the
+  directories and newspapers of the day; Caltrain's own milestones confirm 1863–64 and 1935. Stations
+  standing on older track borrow their line's date, not the track's.
 - **Official sources only.** Today's network is dated from its agencies' own records, as the future era
   is. For example:
   - BART: its annual reports, news releases, reports to Congress and timeline.

@@ -283,18 +283,31 @@ describe("today's network, dated (data/present/extensions.json)", () => {
   });
 
   it('dates today\'s network from official sources only (a dataset may place a cut point)', () => {
+    // Track older than the service on it (Caltrain's line of 1863, under Caltrain since 1980) is
+    // the past era's: its date may come from any citable source but Wikipedia (CLAUDE.md), and so
+    // may the route of a stretch that carries no date at all.
+    const before = (a: string, b: string) => {
+      const n = Math.min(a.length, b.length);
+      return a.slice(0, n) < b.slice(0, n);
+    };
+    const pastTypes = ['official', 'primary_map', 'primary_document', 'book', 'journal', 'railfan_web', 'dataset'];
     for (const [sys, s] of Object.entries(ext.systems)) {
-      const refs: [string, Ref[]][] = [
-        ...(s.segments ?? []).map((x) => [x.id, x.sources] as [string, Ref[]]),
-        ...Object.entries(s.lines ?? {}).map(([id, x]) => [id, x.sources ?? []] as [string, Ref[]]),
-        ...Object.entries(s.points ?? {}).map(([id, x]) => [`${sys} point ${id}`, x.sources] as [string, Ref[]]),
-        ...Object.entries(s.dates ?? {}).map(([id, x]) => [id, x.sources] as [string, Ref[]]),
+      const service = (line: string) => s.lines?.[line]?.opened;
+      const refs: [string, Ref[], boolean][] = [
+        ...(s.segments ?? []).map((x) => {
+          const started = service(x.line);
+          return [x.id, x.sources, !x.opened || !!(started && before(x.opened, started))] as [string, Ref[], boolean];
+        }),
+        ...Object.entries(s.lines ?? {}).map(([id, x]) => [id, x.sources ?? [], false] as [string, Ref[], boolean]),
+        ...Object.entries(s.points ?? {}).map(([id, x]) => [`${sys} point ${id}`, x.sources, false] as [string, Ref[], boolean]),
+        ...Object.entries(s.dates ?? {}).map(([id, x]) => [id, x.sources, false] as [string, Ref[], boolean]),
       ];
-      for (const [id, rs] of refs) {
+      for (const [id, rs, older] of refs) {
         for (const r of rs) {
           expect(sourceIds, `${id} cites ${r.source}`).toContain(r.source);
           const dates = r.supports.some((x) => x !== 'geometry');
-          expect(dates ? ['official'] : ['official', 'dataset'], `${id} cites ${r.source} (${type.get(r.source)}) for ${r.supports}`).toContain(type.get(r.source));
+          const allowed = older ? pastTypes : dates ? ['official'] : ['official', 'dataset'];
+          expect(allowed, `${id} cites ${r.source} (${type.get(r.source)}) for ${r.supports}`).toContain(type.get(r.source));
         }
       }
     }

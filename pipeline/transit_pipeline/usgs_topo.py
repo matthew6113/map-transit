@@ -92,6 +92,10 @@ SHEETS = [
     Sheet("usgs-san-leandro-1948", "San Leandro", 24000, 1948, "300123", None, "7.5-minute sheet, edition of 1948"),
     Sheet("usgs-san-francisco-north-1950", "San Francisco North", 24000, 1950, "466304", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1950"),
     Sheet("usgs-san-francisco-south-1950", "San Francisco South", 24000, 1950, "300067", None, "7.5-minute sheet, edition of 1950"),
+    Sheet("usgs-san-mateo-1899", "San Mateo", 62500, 1899, "298921", None, "15-minute sheet, edition of 1899"),
+    Sheet("usgs-san-mateo-1915", "San Mateo", 62500, 1915, "298922", None, "15-minute sheet, edition of 1915"),
+    Sheet("usgs-san-jose-1899", "San Jose", 62500, 1899, "298900", None, "15-minute sheet, edition of 1899"),
+    Sheet("usgs-san-jose-1943", "San Jose", 62500, 1943, "466308", None, "15-minute sheet, edition of 1943"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
