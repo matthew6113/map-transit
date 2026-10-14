@@ -120,12 +120,21 @@ Choices made so far, newest last within each section. A decision waiting on Matt
   today's service runs over older track whose date isn't sourced yet (the K on the United Railroads'
   Ocean Ave track, the L on Taraval St, the F on Market St), the segment stays `null` and the line's
   `route_from` says when the service began there; display borrows that, lighter (decision 4).
-- **Official sources only, after the fact.** Today's network is dated from its agencies' own
-  records, as the future era is: BART's annual reports, news releases, reports to Congress and
-  timeline; Muni's 1999 chronology by Robert Callwell, SFMTA's short-range transit plans and pages;
-  VTA and Alameda CTC. A date announced beforehand isn't enough alone (the Central Subway: 2023,
-  not the announced November 2022 weekend service; West Dublin/Pleasanton: 2011, not the announced
-  February 19).
+- **Official sources only.** Today's network is dated from its agencies' own records, as the future era
+  is. For example:
+  - BART: its annual reports, news releases, reports to Congress and timeline.
+  - Muni: its 1999 chronology by Robert Callwell, and SFMTA's short-range transit plans and pages.
+  - The other systems: VTA and the CPUC's safety review, Caltrain's milestones, SMART's releases and
+    board reports, the Golden Gate and SF Bay Ferry histories, ACE, the Capitol Corridor, Amtrak,
+    AC Transit, SFCTA and MTC.
+- **An agency's announced date counts, with a note** (Matthew, Oct 14). Where an agency announced
+  an opening date beforehand and nothing contradicts it, the date is used, and the notes say it was
+  announced:
+  - the Central Subway's weekend service, November 19, 2022;
+  - West Dublin/Pleasanton, February 19, 2011;
+  - Tempo, August 9, 2020.
+  Where a post leaves the day unclear, only the month is given: SMART's Windsor extension, May 2025,
+  and Petaluma North's "grand opening".
 - **Conflicts:** BART's San Francisco line opened November 5, 1973 (November 3 was ceremonies and
   free rides). BART's 2020 timeline gives May 13, 2020 for Berryessa, against VTA's and BART's own
   June 13. The Powell-Mason cable line is dated only to 1888 (Callwell: full service a few days after
@@ -134,6 +143,9 @@ Choices made so far, newest last within each section. A decision waiting on Matt
   older track keeps any part two stretches share, and each stretch is split where the lines of its
   mode part. So BART's colors share their track as one dated segment each, the Muni Metro letters
   share the subway, and the F on Market St stays apart from the subway under it (different modes).
+- **Past-era colors follow the mode of the year** (Matthew, Oct 14). Where past lines use present
+  track (decision 13), the track draws in the mode of the line using it at each year, so Muni's
+  Twin Peaks Tunnel draws as a streetcar before 1980 and as light rail after.
 - **Stations borrow from their track.** A station with no date of its own shows from when the track
   it stands on opened (the earliest, at a junction), drawn as borrowed. Stations that opened apart
   from their track carry their own dates (BART's Embarcadero, 1976; West Dublin/Pleasanton, 2011).

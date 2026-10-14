@@ -262,7 +262,7 @@ describe("today's network, dated (data/present/extensions.json)", () => {
   type Ref = { source: string; supports: string[] };
   type ExtSeg = { id: string; line: string; opened: string | null; sources: Ref[]; notes?: string };
   type ExtLine = { opened?: string; sources?: Ref[]; route_from?: Record<string, { from: string }> };
-  type ExtSystem = { segments?: ExtSeg[]; lines?: Record<string, ExtLine>; points?: Record<string, { opened: string; sources: Ref[] }> };
+  type ExtSystem = { segments?: ExtSeg[]; lines?: Record<string, ExtLine>; points?: Record<string, { opened: string; sources: Ref[] }>; dates?: Record<string, { opened: string; sources: Ref[] }> };
   const path = join(DATA, 'present', 'extensions.json');
   const ext: { systems: Record<string, ExtSystem> } = existsSync(path) ? read(path) : { systems: {} };
   const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
@@ -279,6 +279,7 @@ describe("today's network, dated (data/present/extensions.json)", () => {
         ...(s.segments ?? []).map((x) => [x.id, x.sources] as [string, Ref[]]),
         ...Object.entries(s.lines ?? {}).map(([id, x]) => [id, x.sources ?? []] as [string, Ref[]]),
         ...Object.entries(s.points ?? {}).map(([id, x]) => [`${sys} point ${id}`, x.sources] as [string, Ref[]]),
+        ...Object.entries(s.dates ?? {}).map(([id, x]) => [id, x.sources] as [string, Ref[]]),
       ];
       for (const [id, rs] of refs) {
         for (const r of rs) {
@@ -299,8 +300,8 @@ describe("today's network, dated (data/present/extensions.json)", () => {
       for (const [id, l] of Object.entries(s.lines ?? {})) {
         if (l.opened) expect((l.sources ?? []).some((r) => r.supports.includes('opened')), `${id}: no source supports its opening`).toBe(true);
       }
-      for (const [id, p] of Object.entries(s.points ?? {})) {
-        expect(p.sources.some((r) => r.supports.includes('opened')), `point ${id}: no source supports its opening`).toBe(true);
+      for (const [id, p] of [...Object.entries(s.points ?? {}), ...Object.entries(s.dates ?? {})]) {
+        expect(p.sources.some((r) => r.supports.includes('opened')), `${id}: no source supports its opening`).toBe(true);
       }
     }
   });
@@ -315,6 +316,8 @@ describe("today's network, dated (data/present/extensions.json)", () => {
         seen.add(x.id);
       }
       for (const id of Object.keys(s.lines ?? {})) expect(presentLines.get(id)?.system, `lines.${id}`).toBe(sys);
+      const mine = new Set(present.flatMap((f) => f.lines.filter((l) => l.system === sys).flatMap((l) => l.route.map((r) => r.segment))));
+      for (const id of Object.keys(s.dates ?? {})) expect(mine.has(id), `dates.${id} isn't a segment of ${sys}'s present lines`).toBe(true);
     }
   });
 

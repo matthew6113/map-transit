@@ -6706,16 +6706,15 @@
         {
           "id": "ac-transit-1t-brt-lanes",
           "name": "Tempo, center or median lanes",
-          "opened": null,
+          "opened": "2020-08-09",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt (3 shapes of route 1T), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 28931808, 52495699, 52495700, 53293089, 53293090, 118420269, 118421441, 135259730, 195604786, 415823472, 415823474, 415823477, 415823478, 415826574, 415826575, 415826576, 415826577, 415850009, 415850014, 415850025, 415850035, 415853554, 415853568, 415855610, 415855613, 415855614, 415855615, 415855616, 415855617, 415855623, 415855624, 415855630, 415855631, 415855633, 415855634, 415855636, 415855637, 415855639, 415855640, 415855642, 415855643, 415855644, 416147489, 416147495, 416148895, 416148900, 416148905, 417698755, 417701665, 417701690, 518186974, 618326473, 618458944, 618458945, 618458952, 618458953, 676108645, 683988722, 684007090, 684007091, 684007092, 684007093, 684007094, 684007095, 684007097, 746022966, 746022968, 746022971, 746027377, 746049273, 746049276, 746049278, 746049292, 746049300, 746049304, 746049305, 746049308, 746049309, 746049311, 746049313, 746210038, 746210039, 746253947, 746253950, 746253953, 746253956, 746253957, 746253964, 746253969, 746709083, 761806085, 766105018, 769764785, 770033618, 770080601, 770080741, 770080743, 770081704, 770081705, 770083873, 770088589, 793941961, 797207209, 797207210, 800769162, 801428030, 933296476, 933296480, 933362013, 933362015, 933760043, 933760048, 934183370, 934192096, 934192099, 934228914, 934228915, 934228920, 934276735, 934276736, 934276742, 946486509, 986736932, 1000196287, 1000806414, 1026995591, 1030325062, 1030355385, 1034771073, 1034806900, 1042627675, 1042936643, 1042936645, 1061356686, 1061377318, 1061379549, 1065779657, 1069216911, 1069216913, 1069216917, 1069216919, 1069216920, 1069216922, 1069216925, 1069216926, 1071424400, 1071424402, 1071424405, 1071424406, 1071424408, 1071424409, 1071424410, 1071424412, 1071424413, 1071424414, 1071424417, 1071555013, 1072675018, 1072683086, 1072701901, 1072701904, 1073488046, 1074122880, 1074128603, 1075016064, 1075674785, 1075674791, 1075674793, 1075674797, 1075935972, 1075935974, 1075935976, 1076018969, 1077413017, 1077413018, 1077413019, 1077413020, 1077413021, 1077413024, 1077413025, 1077413026, 1077413027, 1077413028, 1077413029, 1077603673, 1109981755, 1125133758, 1134740783, 1134740784, 1152328704, 1182987707, 1185041061, 1190790203, 1210918018, 1228875190, 1304579604, 1374054334, 1388719756, 1390452115, 1430531957, 1430531958, 1457097807, 1463046773, 1493329088, 1534387319, 1534387321, 1554838086, 1556713491; Overpass data as of 2026-10-13T23:09:31Z.",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ]
+          "flags": [],
+          "notes": "August 9, 2020 is the launch date AC Transit announced two days before."
         }
       ],
       "sources": [
@@ -6746,7 +6745,8 @@
           "accessed": "2026-10-13",
           "source": "brt-actransit-tempo",
           "supports": [
-            "general"
+            "general",
+            "opened"
           ]
         },
         {
@@ -6806,16 +6806,15 @@
         {
           "id": "muni-49-brt-lanes",
           "name": "Van Ness BRT, center or median lanes",
-          "opened": null,
+          "opened": "2022-04-01",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt (4 shapes of route 49), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 619979097, 682793453, 767944815, 1047613716, 1047613717, 1054649979, 1054649980, 1054649983, 1054649985, 1054649986, 1054649987, 1054649988, 1054649989, 1054649990, 1054649991, 1054649992, 1054649993, 1054649994, 1054649995, 1054649996, 1054649997, 1054649998, 1054649999, 1054650000, 1054650001, 1054650002, 1054650003, 1054650004, 1054650005, 1054650006, 1054650007, 1128305794, 1128354344, 1218554444; Overpass data as of 2026-10-13T23:08:33Z.",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ]
+          "flags": [],
+          "notes": "The center-running lanes on Van Ness Ave opened for the 49 and 47 on April 1, 2022."
         }
       ],
       "sources": [
@@ -6862,6 +6861,20 @@
             "geometry",
             "route"
           ]
+        },
+        {
+          "id": "sfmta-van-ness-brt-open",
+          "title": "Van Ness BRT lane now open",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2022-04-01",
+          "type": "official",
+          "url": "https://www.sfmta.com/node/26084",
+          "accessed": "2026-10-14",
+          "source": "sfmta-van-ness-brt-open",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"As of 10 a.m., Friday, April 1, 2022, the Van Ness BRT Bus Rapid Transit Lane has officially begun service.\""
         }
       ]
     },
@@ -6879,14 +6892,13 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2021-07-01",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "SF Bay Ferry's own release gives January 18, 2021, which MTC's later count contradicts.",
+      "flags": [],
+      "undated": false,
       "length_km": 8.86,
       "confidence_km": {
         "surveyed": 8.86
@@ -6898,7 +6910,7 @@
         37.79567
       ],
       "fids": [
-        182
+        184
       ],
       "segments": [
         {
@@ -6906,8 +6918,8 @@
           "name": "Alameda Seaplane, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 4 shapes run by 35 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -6934,6 +6946,20 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "mtc-alameda-seaplane-2025",
+          "title": "Alameda Seaplane Ferry Route celebrates 1 million riders",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-03-07",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/posts/alameda-seaplane-ferry-route-celebrates-1-million-riders",
+          "accessed": "2026-10-14",
+          "source": "mtc-alameda-seaplane-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"since the route's launch on July 1, 2021.\""
         }
       ]
     },
@@ -6951,14 +6977,13 @@
       "mode_label": "Commuter rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1998-10-19",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Over Union Pacific's older freight line; its track dates are for the past era.",
+      "flags": [],
+      "undated": false,
       "length_km": 157.41,
       "confidence_km": {
         "surveyed": 157.41
@@ -6995,8 +7020,8 @@
           "name": "Altamont Corridor Express, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -7023,6 +7048,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "ace-25-years",
+          "title": "ACE 25-year anniversary",
+          "publisher": "Altamont Corridor Express (San Joaquin Regional Rail Commission)",
+          "type": "official",
+          "url": "https://acerail.com/25-year-anniversary/",
+          "accessed": "2026-10-14",
+          "source": "ace-25-years",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"In 1998, on October 19th, ACE commenced passenger rail service, connecting San Jose and Stockton.\""
         }
       ]
     },
@@ -7040,14 +7078,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2021-12-13",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 11.37,
       "confidence_km": {
         "surveyed": 11.37
@@ -7059,7 +7095,7 @@
         37.86921
       ],
       "fids": [
-        100
+        102
       ],
       "segments": [
         {
@@ -7067,8 +7103,8 @@
           "name": "Angel Island–San Francisco, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 4 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -7095,6 +7131,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "golden-gate-ferry-timeline",
+          "title": "Golden Gate Ferry timeline",
+          "publisher": "Golden Gate Bridge, Highway and Transportation District",
+          "type": "official",
+          "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+          "accessed": "2026-10-14",
+          "source": "golden-gate-ferry-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "December 13, 2021: \"Golden Gate Ferry began seven day a week service to Angel Island from the San Francisco Ferry Terminal.\""
         }
       ]
     },
@@ -7345,8 +7394,8 @@
         37.41049
       ],
       "fids": [
-        202,
-        203
+        206,
+        207
       ],
       "segments": [
         {
@@ -7417,8 +7466,8 @@
         37.79367
       ],
       "fids": [
-        107,
-        108
+        109,
+        110
       ],
       "segments": [
         {
@@ -7496,16 +7545,15 @@
       "mode_label": "Intercity rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1983-07",
       "closed": null,
       "status": "active",
       "status_label": "In service",
       "continues_beyond": "Chicago Union Station",
       "flags": [
-        "opened_unsourced",
         "license_unclear"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 206.09,
       "confidence_km": {
         "surveyed": 206.09
@@ -7525,8 +7573,8 @@
           "name": "California Zephyr, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 12 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -7554,6 +7602,20 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "amtrak-media-california-zephyr",
+          "title": "Happy anniversary, California Zephyr",
+          "publisher": "Amtrak",
+          "date": "2024-03",
+          "type": "official",
+          "url": "https://media.amtrak.com/2024/03/happy-anniversary-california-zephyr/",
+          "accessed": "2026-10-14",
+          "source": "amtrak-media-california-zephyr",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Amtrak launched its California Zephyr service in July 1983.\""
         }
       ]
     },
@@ -7575,18 +7637,19 @@
       "closed": null,
       "status": "active",
       "status_label": "In service",
+      "notes": "Today's line runs mostly on the San Francisco & San José Railroad of 1863–64, with the Bayshore Cutoff (1907) north of San Bruno; those dates come with the past era's early railroads.",
       "flags": [
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 123.87,
+      "length_km": 123.73,
       "confidence_km": {
-        "surveyed": 123.87
+        "surveyed": 123.73
       },
       "bbox": [
         -122.41314,
-        37.00351,
-        -121.56615,
+        37.004508,
+        -121.566596,
         37.7762
       ],
       "fids": [
@@ -7595,23 +7658,69 @@
         91,
         92,
         93,
-        94
+        94,
+        95,
+        96
       ],
       "segments": [
         {
-          "id": "caltrain-gtfs",
-          "name": "Caltrain, as run in GTFS",
+          "id": "caltrain-undated-1",
+          "name": "Caltrain, part not yet dated",
           "opened": null,
           "closed": null,
           "borrowed": false,
           "undated": true,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "caltrain-undated-3",
+          "name": "Caltrain, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "caltrain-undated-2",
+          "name": "Caltrain, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "caltrain-san-jose-gilroy",
+          "name": "San José to Gilroy",
+          "opened": null,
+          "closed": null,
+          "from": "1992-07-01",
+          "note": "\"Service is extended to Gilroy\" on July 1, 1992 (Caltrain milestones, 1990s).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Tamien Caltrain Station and Gilroy (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "The Southern Pacific's older line, carrying Caltrain from July 1, 1992; its own dates are for the past era. Cut at Tamien, which opened with the Gilroy service."
         }
       ],
       "sources": [
@@ -7631,6 +7740,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "caltrain-milestones-1990s",
+          "title": "Caltrain milestones: the 1990s",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/milestones-1990s",
+          "accessed": "2026-10-14",
+          "source": "caltrain-milestones-1990s",
+          "supports": [
+            "route"
+          ],
+          "note": "July 1, 1992: \"Service is extended to Gilroy.\""
         }
       ]
     },
@@ -7648,15 +7770,14 @@
       "mode_label": "Intercity rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1991-12-12",
       "closed": null,
       "status": "active",
       "status_label": "In service",
       "flags": [
-        "opened_unsourced",
         "license_unclear"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 275.87,
       "confidence_km": {
         "surveyed": 275.87
@@ -7677,8 +7798,8 @@
           "name": "Capitol Corridor, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -7706,6 +7827,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "capitol-corridor-timeline-1991",
+          "title": "Capitol Corridor timeline: December 1991",
+          "publisher": "Capitol Corridor Joint Powers Authority",
+          "type": "official",
+          "url": "https://www.capitolcorridor.org/time-line/december-1991/",
+          "accessed": "2026-10-14",
+          "source": "capitol-corridor-timeline-1991",
+          "supports": [
+            "opened"
+          ],
+          "note": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
         }
       ]
     },
@@ -7815,12 +7949,12 @@
         37.80862
       ],
       "fids": [
-        119,
-        120,
         121,
         122,
         123,
-        124
+        124,
+        125,
+        126
       ],
       "segments": [
         {
@@ -7927,16 +8061,16 @@
       "mode_label": "Intercity rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1974",
       "closed": null,
       "status": "active",
       "status_label": "In service",
       "continues_beyond": "Bakersfield, CA Amtrak Station",
+      "notes": "As the San Joaquins, renamed the Gold Runner in 2025. Amtrak's own history page with the day is offline.",
       "flags": [
-        "opened_unsourced",
         "license_unclear"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 168.5,
       "confidence_km": {
         "surveyed": 168.5
@@ -7948,11 +8082,11 @@
         38.057994
       ],
       "fids": [
-        95,
-        96,
         97,
         98,
-        99
+        99,
+        100,
+        101
       ],
       "segments": [
         {
@@ -7960,8 +8094,8 @@
           "name": "Gold Runner, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -7989,6 +8123,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "amtrak-stations-turlock-denair",
+          "title": "Turlock-Denair, CA (TRK)",
+          "publisher": "Amtrak (Great American Stations)",
+          "type": "official",
+          "url": "https://greatamericanstations.com/?p=7131",
+          "accessed": "2026-10-14",
+          "source": "amtrak-stations-turlock-denair",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\""
         }
       ]
     },
@@ -8277,8 +8424,8 @@
         37.41132
       ],
       "fids": [
-        204,
-        205
+        208,
+        209
       ],
       "segments": [
         {
@@ -8350,7 +8497,7 @@
         37.79689
       ],
       "fids": [
-        183
+        185
       ],
       "segments": [
         {
@@ -8420,8 +8567,6 @@
         37.79443
       ],
       "fids": [
-        125,
-        126,
         127,
         128,
         129,
@@ -8430,7 +8575,9 @@
         132,
         133,
         134,
-        135
+        135,
+        136,
+        137
       ],
       "segments": [
         {
@@ -8686,8 +8833,6 @@
         37.79443
       ],
       "fids": [
-        136,
-        137,
         138,
         139,
         140,
@@ -8696,7 +8841,9 @@
         143,
         144,
         145,
-        146
+        146,
+        147,
+        148
       ],
       "segments": [
         {
@@ -8948,8 +9095,6 @@
         37.79443
       ],
       "fids": [
-        147,
-        148,
         149,
         150,
         151,
@@ -8957,7 +9102,9 @@
         153,
         154,
         155,
-        156
+        156,
+        157,
+        158
       ],
       "segments": [
         {
@@ -9197,14 +9344,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "1976-12-13",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 20.7,
       "confidence_km": {
         "surveyed": 20.7
@@ -9216,7 +9361,7 @@
         37.94473
       ],
       "fids": [
-        101
+        103
       ],
       "segments": [
         {
@@ -9224,8 +9369,8 @@
           "name": "Larkspur–San Francisco, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 4 shapes run by 94 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -9252,6 +9397,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "golden-gate-ferry-timeline",
+          "title": "Golden Gate Ferry timeline",
+          "publisher": "Golden Gate Bridge, Highway and Transportation District",
+          "type": "official",
+          "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+          "accessed": "2026-10-14",
+          "source": "golden-gate-ferry-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "December 13, 1976: \"Commute service commenced on the Larkspur route.\""
         }
       ]
     },
@@ -9286,8 +9444,6 @@
         37.79443
       ],
       "fids": [
-        157,
-        158,
         159,
         160,
         161,
@@ -9296,7 +9452,9 @@
         164,
         165,
         166,
-        167
+        167,
+        168,
+        169
       ],
       "segments": [
         {
@@ -9539,8 +9697,6 @@
         37.79443
       ],
       "fids": [
-        168,
-        169,
         170,
         171,
         172,
@@ -9548,7 +9704,9 @@
         174,
         175,
         176,
-        177
+        177,
+        178,
+        179
       ],
       "segments": [
         {
@@ -9802,8 +9960,8 @@
         37.79853
       ],
       "fids": [
-        184,
-        185
+        186,
+        187
       ],
       "segments": [
         {
@@ -9953,14 +10111,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2024",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 0.25,
       "confidence_km": {
         "surveyed": 0.25
@@ -9972,7 +10128,7 @@
         37.79417
       ],
       "fids": [
-        186
+        188
       ],
       "segments": [
         {
@@ -9980,8 +10136,8 @@
           "name": "Oakland Alameda Water Shuttle, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 115 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -10008,6 +10164,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sf-bay-ferry-history",
+          "title": "Our history",
+          "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
+          "type": "official",
+          "url": "https://www.sfbayferry.com/our-history/",
+          "accessed": "2026-10-14",
+          "source": "sf-bay-ferry-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\""
         }
       ]
     },
@@ -10263,9 +10432,9 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 28.6,
+      "length_km": 28.55,
       "confidence_km": {
-        "surveyed": 28.6
+        "surveyed": 28.55
       },
       "bbox": [
         -122.0776,
@@ -10274,25 +10443,79 @@
         37.41578
       ],
       "fids": [
-        206,
-        207,
-        208
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
       ],
       "segments": [
         {
-          "id": "vta-orange-gtfs",
-          "name": "Orange line, as run in GTFS",
+          "id": "vta-orange-undated-1",
+          "name": "Orange line, part not yet dated",
           "opened": null,
           "closed": null,
           "borrowed": false,
           "undated": true,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          ]
+        },
+        {
+          "id": "vta-tasman-east-1",
+          "name": "Tasman East, Baypointe to I-880",
+          "opened": "2001-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Baypointe Station and Tasman Dr at I-880 (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Cut at Baypointe, the first station east of North First St; the few hundred metres between them may be older."
+        },
+        {
+          "id": "vta-tasman-east-2",
+          "name": "Tasman East, I-880 to Hostetter Rd",
+          "opened": "2004-06",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Tasman Dr at I-880 and Capitol Ave & Hostetter Rd (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "vta-capitol",
+          "name": "Capitol line, Hostetter Rd to Alum Rock Ave",
+          "opened": "2004-06",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Capitol Ave & Hostetter Rd and Capitol Ave & Alum Rock Ave (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "vta-orange-undated-2",
+          "name": "Orange line, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 12 shapes run by 658 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
         }
       ],
       "sources": [
@@ -10312,6 +10535,47 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Where Tasman Dr comes nearest the Nimitz Freeway (I-880)."
+        },
+        {
+          "id": "cpuc-vta-safety-review-2011",
+          "title": "Triennial on-site safety and security review of the Santa Clara Valley Transportation Authority (2011)",
+          "publisher": "California Public Utilities Commission",
+          "date": "2011",
+          "type": "official",
+          "url": "https://docs.cpuc.ca.gov/published/COMMENT_RESOLUTION/141751.htm",
+          "accessed": "2026-10-14",
+          "source": "cpuc-vta-safety-review-2011",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "note": "\"The first phase, a 1.9-mile extension from North First Street to I-880\", \"opened for revenue service in May 2001\""
+        },
+        {
+          "id": "vta-30-years-timeline",
+          "title": "30 years of VTA: a visual timeline",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "type": "official",
+          "url": "https://www.vta.org/blog/30-years-vta-visual-timeline",
+          "accessed": "2026-10-14",
+          "source": "vta-30-years-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "2001: \"Milpitas light rail station opens\""
         }
       ]
     },
@@ -10347,12 +10611,12 @@
         37.806637
       ],
       "fids": [
-        109,
-        110,
         111,
         112,
         113,
-        114
+        114,
+        115,
+        116
       ],
       "segments": [
         {
@@ -10495,10 +10759,10 @@
         37.805226
       ],
       "fids": [
-        115,
-        116,
         117,
-        118
+        118,
+        119,
+        120
       ],
       "segments": [
         {
@@ -10636,16 +10900,14 @@
         {
           "id": "vta-522-brt-lanes",
           "name": "Alum Rock BRT, center or median lanes",
-          "opened": null,
+          "opened": "2017",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt (4 shapes of route Rapid 522), kept within 15 m of OSM ways with a center or median bus lane (gaps under 120 m closed), simplified to 3 m. OSM ways 500400301, 500400363, 500400364, 711193418, 711193419, 712180900, 712180901, 712180905, 712180906, 1072588040, 1300025636; Overpass data as of 2026-10-13T23:20:36Z.",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ]
+          "flags": []
         }
       ],
       "sources": [
@@ -10692,6 +10954,19 @@
             "geometry",
             "route"
           ]
+        },
+        {
+          "id": "vta-30-years-timeline",
+          "title": "30 years of VTA: a visual timeline",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "type": "official",
+          "url": "https://www.vta.org/blog/30-years-vta-visual-timeline",
+          "accessed": "2026-10-14",
+          "source": "vta-30-years-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "2017: \"Bus Rapid Transit (BRT) opens along Alum Rock Ave.\""
         }
       ]
     },
@@ -11047,14 +11322,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2019-01-10",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 16.44,
       "confidence_km": {
         "surveyed": 16.44
@@ -11066,8 +11339,8 @@
         37.90948
       ],
       "fids": [
-        187,
-        188
+        189,
+        190
       ],
       "segments": [
         {
@@ -11075,8 +11348,8 @@
           "name": "Richmond, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 5 shapes run by 41 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11103,6 +11376,32 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "mtc-richmond-ferry-2019",
+          "title": "Richmond ferry service sets sail",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2019-01-11",
+          "type": "official",
+          "url": "https://es.mtc.ca.gov/node/151841",
+          "accessed": "2026-10-14",
+          "source": "mtc-richmond-ferry-2019",
+          "supports": [
+            "opened"
+          ],
+          "note": "January 10, 2019 \"marked the launch of Richmond ferry service to San Francisco and the opening of the Richmond Ferry Terminal\""
+        },
+        {
+          "id": "sf-bay-ferry-history",
+          "title": "Our history",
+          "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
+          "type": "official",
+          "url": "https://www.sfbayferry.com/our-history/",
+          "accessed": "2026-10-14",
+          "source": "sf-bay-ferry-history",
+          "supports": [
+            "opened"
+          ]
         }
       ]
     },
@@ -11120,14 +11419,13 @@
       "mode_label": "People mover",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "2003",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Extended to Long Term Parking in spring 2021. SFO's own releases (blocked from this build) give the dedication on March 3, 2003.",
+      "flags": [],
+      "undated": false,
       "length_km": 7.21,
       "confidence_km": {
         "surveyed": 7.21
@@ -11139,13 +11437,13 @@
         37.63509
       ],
       "fids": [
-        193,
-        194,
         195,
         196,
         197,
         198,
-        199
+        199,
+        200,
+        201
       ],
       "segments": [
         {
@@ -11153,8 +11451,8 @@
           "name": "SFO AirTrain, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 820 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11181,6 +11479,20 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "mtc-airtrain-extension-2021",
+          "title": "Post-pandemic travel surge synchs with SFO AirTrain extension, parking promotion",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2021-07-12",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/79246",
+          "accessed": "2026-10-14",
+          "source": "mtc-airtrain-extension-2021",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"When the AirTrain opened in 2003, we always envisioned a future project to create this extension to Long-Term Parking.\""
         }
       ]
     },
@@ -11198,42 +11510,65 @@
       "mode_label": "Commuter rail",
       "group": "commuter_rail",
       "era": "present",
-      "opened": null,
+      "opened": "2017-08-25",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 77.25,
+      "flags": [],
+      "undated": false,
+      "length_km": 77.24,
       "confidence_km": {
-        "surveyed": 77.25
+        "surveyed": 77.24
       },
       "bbox": [
-        -122.81852,
+        -122.818519,
         37.94785,
         -122.50751,
-        38.54912
+        38.549119
       ],
       "fids": [
-        200
+        202,
+        203,
+        204
       ],
       "segments": [
         {
-          "id": "smart-gtfs",
-          "name": "SMART, as run in GTFS",
-          "opened": null,
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
+          "opened": "2025-05",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and SMART Windsor (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": [],
+          "notes": "MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "smart-airport-san-rafael",
+          "name": "Sonoma County Airport to San Rafael",
+          "opened": "2017-08-25",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and San Rafael Transit Center (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Over the Northwestern Pacific's right-of-way, rebuilt; its older dates are for the past era."
+        },
+        {
+          "id": "smart-san-rafael-larkspur",
+          "name": "San Rafael to Larkspur",
+          "opened": "2019-12-14",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Larkspur (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
         }
       ],
       "sources": [
@@ -11253,6 +11588,63 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "smart-5th-anniversary-2022",
+          "title": "SMART marks 5th anniversary of startup of passenger service",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "date": "2022-08-24",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/News%20Releases/SMART%20News%20Release_SMART%20marks%205th%20anniverary%20of%20passenger%20service.pdf",
+          "accessed": "2026-10-14",
+          "source": "smart-5th-anniversary-2022",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Since the start of service on August 25, 2017\""
+        },
+        {
+          "id": "mtc-smart-windsor-2025",
+          "title": "SMART's Windsor service starts",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-05-30",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/105680",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-windsor-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+        },
+        {
+          "id": "mtc-smart-riders-2020",
+          "title": "SMART passengers talk about train",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2020-01-31",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/54791",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-riders-2020",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "note": "\"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\""
+        },
+        {
+          "id": "smart-gm-report-2019-12",
+          "title": "General Manager's report, December 2019 (TAM board item 5c)",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "date": "2019-12",
+          "type": "official",
+          "url": "https://www.tam.ca.gov/wp-content/uploads/2020/01/5c-GM-Report-December-2019.pdf",
+          "accessed": "2026-10-14",
+          "source": "smart-gm-report-2019-12",
+          "supports": [
+            "opened"
+          ],
+          "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\""
         }
       ]
     },
@@ -11270,14 +11662,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "1970-08-15",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 11.15,
       "confidence_km": {
         "surveyed": 11.15
@@ -11289,8 +11679,8 @@
         37.85629
       ],
       "fids": [
-        102,
-        103
+        104,
+        105
       ],
       "segments": [
         {
@@ -11298,8 +11688,8 @@
           "name": "Sausalito–San Francisco, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 8 shapes run by 40 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11326,6 +11716,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "golden-gate-ferry-timeline",
+          "title": "Golden Gate Ferry timeline",
+          "publisher": "Golden Gate Bridge, Highway and Transportation District",
+          "type": "official",
+          "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+          "accessed": "2026-10-14",
+          "source": "golden-gate-ferry-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "August 15, 1970: \"Golden Gate Sausalito Ferry service began.\""
         }
       ]
     },
@@ -11343,14 +11746,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2012-06-04",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 22.73,
       "confidence_km": {
         "surveyed": 22.73
@@ -11362,8 +11763,8 @@
         37.80034
       ],
       "fids": [
-        189,
-        190
+        191,
+        192
       ],
       "segments": [
         {
@@ -11371,8 +11772,8 @@
           "name": "South San Francisco, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 4 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11399,6 +11800,20 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "mtc-weta-south-san-francisco-2012",
+          "title": "WETA launches new East Bay – South San Francisco ferry",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2012-06-07",
+          "type": "official",
+          "url": "https://es.mtc.ca.gov/node/1091",
+          "accessed": "2026-10-14",
+          "source": "mtc-weta-south-san-francisco-2012",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The June 4 maiden voyage of the East Bay to South San Francisco ferry service\""
         }
       ]
     },
@@ -11433,10 +11848,10 @@
         37.794812
       ],
       "fids": [
-        178,
-        179,
         180,
-        181
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -11466,15 +11881,17 @@
         {
           "id": "muni-central-subway",
           "name": "Central Subway, 4th & King to Chinatown",
-          "opened": "2023-01-07",
+          "opened": "2022-11-19",
           "closed": null,
+          "from": "2023-01-07",
+          "note": "The T has run through the Central Subway since January 7, 2023 (SFMTA's Central Subway page); special weekend service ran from November 19, 2022.",
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 4th St & King St and Chinatown–Rose Pak (data/present/extensions.json)",
           "structure": "subway",
           "flags": [],
-          "notes": "Runs on 4th St from King St to the portal north of Brannan St. SFMTA announced special weekend service from November 19, 2022; only the January 2023 start is confirmed after the fact."
+          "notes": "Runs on 4th St from King St to the portal north of Brannan St. Special weekend service from November 19, 2022, a date SFMTA announced beforehand; the T has run through it daily since January 7, 2023."
         }
       ],
       "sources": [
@@ -11508,6 +11925,20 @@
             "opened"
           ],
           "pages": "4"
+        },
+        {
+          "id": "sfmta-blog-central-subway-opens",
+          "title": "Central Subway opens November 19 with special weekend service",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2022-11-01",
+          "type": "official",
+          "url": "https://www.sfmta.com/blog/central-subway-opens-november-19-special-weekend-service",
+          "accessed": "2026-10-14",
+          "source": "sfmta-blog-central-subway-opens",
+          "supports": [
+            "opened"
+          ],
+          "note": "Announced November 1, 2022: \"On Saturday, November 19, the Central Subway makes its historic debut with special weekend service\""
         },
         {
           "id": "sfmta-central-subway-project",
@@ -11610,14 +12041,12 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2017-03-06",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "flags": [],
+      "undated": false,
       "length_km": 11.38,
       "confidence_km": {
         "surveyed": 11.38
@@ -11629,8 +12058,8 @@
         37.87273
       ],
       "fids": [
-        104,
-        105
+        106,
+        107
       ],
       "segments": [
         {
@@ -11638,8 +12067,8 @@
           "name": "Tiburon–San Francisco, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 6 shapes run by 18 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11666,6 +12095,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "golden-gate-ferry-timeline",
+          "title": "Golden Gate Ferry timeline",
+          "publisher": "Golden Gate Bridge, Highway and Transportation District",
+          "type": "official",
+          "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+          "accessed": "2026-10-14",
+          "source": "golden-gate-ferry-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "March 6, 2017: the district \"began operating weekday commute ferry service between Tiburon and San Francisco.\""
         }
       ]
     },
@@ -11683,14 +12125,13 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "2022",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "An interim, privately funded service; no official source gives the day.",
+      "flags": [],
+      "undated": false,
       "length_km": 2.84,
       "confidence_km": {
         "surveyed": 2.84
@@ -11702,7 +12143,7 @@
         37.81667
       ],
       "fids": [
-        201
+        205
       ],
       "segments": [
         {
@@ -11710,8 +12151,8 @@
           "name": "Treasure Island–Yerba Buena Island, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 54 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11738,6 +12179,20 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfcta-timma-ti-ferry-2024",
+          "title": "Treasure Island ferry service planning update (TIMMA committee memo)",
+          "publisher": "San Francisco County Transportation Authority (Treasure Island Mobility Management Agency)",
+          "date": "2024-06-07",
+          "type": "official",
+          "url": "https://www.sfcta.org/sites/default/files/2024-06/TIMMA_Committee_TreasureIslandFerryServicePlanningUpdateMEMO_2024-06-11.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfcta-timma-ti-ferry-2024",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"In 2022, Treasure Island Community Development (TICD), the master developer of Treasure Island and Yerba Buena Island, began a privately funded interim ferry service.\""
         }
       ]
     },
@@ -11774,7 +12229,7 @@
         37.87273
       ],
       "fids": [
-        106
+        108
       ],
       "segments": [
         {
@@ -11827,14 +12282,13 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "1986",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Begun by Marine World, then run by the City of Vallejo as Vallejo BayLink, and by WETA from 2012.",
+      "flags": [],
+      "undated": false,
       "length_km": 47.71,
       "confidence_km": {
         "surveyed": 47.71
@@ -11846,8 +12300,8 @@
         38.10147
       ],
       "fids": [
-        191,
-        192
+        193,
+        194
       ],
       "segments": [
         {
@@ -11855,8 +12309,8 @@
           "name": "Vallejo, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 6 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -11883,6 +12337,19 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sf-bay-ferry-history",
+          "title": "Our history",
+          "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
+          "type": "official",
+          "url": "https://www.sfbayferry.com/our-history/",
+          "accessed": "2026-10-14",
+          "source": "sf-bay-ferry-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\""
         }
       ]
     },

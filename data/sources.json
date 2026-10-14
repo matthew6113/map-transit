@@ -1,6 +1,15 @@
 {
   "sources": [
     {
+      "id": "ace-25-years",
+      "title": "ACE 25-year anniversary",
+      "publisher": "Altamont Corridor Express (San Joaquin Regional Rail Commission)",
+      "type": "official",
+      "url": "https://acerail.com/25-year-anniversary/",
+      "accessed": "2026-10-14",
+      "notes": "\"In 1998, on October 19th, ACE commenced passenger rail service, connecting San Jose and Stockton.\""
+    },
+    {
       "id": "alameda-ctc-oakland-airport-connector",
       "title": "BART Oakland Airport Connector now open",
       "publisher": "Alameda County Transportation Commission",
@@ -9,6 +18,25 @@
       "url": "https://www.alamedactc.org/bart-oakland-airport-connector-now-open",
       "accessed": "2026-10-14",
       "notes": "\"began service Saturday, November 22, 2014\": the people mover from Coliseum station to Oakland International Airport."
+    },
+    {
+      "id": "amtrak-media-california-zephyr",
+      "title": "Happy anniversary, California Zephyr",
+      "publisher": "Amtrak",
+      "date": "2024-03",
+      "type": "official",
+      "url": "https://media.amtrak.com/2024/03/happy-anniversary-california-zephyr/",
+      "accessed": "2026-10-14",
+      "notes": "\"Amtrak launched its California Zephyr service in July 1983.\""
+    },
+    {
+      "id": "amtrak-stations-turlock-denair",
+      "title": "Turlock-Denair, CA (TRK)",
+      "publisher": "Amtrak (Great American Stations)",
+      "type": "official",
+      "url": "https://greatamericanstations.com/?p=7131",
+      "accessed": "2026-10-14",
+      "notes": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\". The San Joaquins became the Gold Runner in 2025."
     },
     {
       "id": "bam-bart-silicon-valley-phase-2-geometry",
@@ -996,6 +1024,33 @@
       "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
     },
     {
+      "id": "caltrain-early-milestones",
+      "title": "Caltrain early milestones",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/earlymilestones",
+      "accessed": "2026-10-14",
+      "notes": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" December 1935: \"A new terminal opens on Cahill Street in San Jose, now known as San Jose Diridon Station.\" June 23, 1975: \"Fourth and Townsend streets terminal opens in San Francisco.\""
+    },
+    {
+      "id": "caltrain-milestones-1990s",
+      "title": "Caltrain milestones: the 1990s",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/milestones-1990s",
+      "accessed": "2026-10-14",
+      "notes": "July 1, 1992: \"Tamien station opens in San Jose.\" / \"Service is extended to Gilroy.\" / the Joint Powers Board takes over, \"with Amtrak as contract operator.\""
+    },
+    {
+      "id": "capitol-corridor-timeline-1991",
+      "title": "Capitol Corridor timeline: December 1991",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/time-line/december-1991/",
+      "accessed": "2026-10-14",
+      "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
+    },
+    {
       "id": "chpw-1939-01-terminal-opened",
       "title": "Bay Bridge Terminal … Officially Opened",
       "publisher": "California Highways and Public Works (California Department of Public Works)",
@@ -1076,6 +1131,16 @@
       "type": "official",
       "license": "California public record (Public Utilities Commission); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-vta-safety-review-2011",
+      "title": "Triennial on-site safety and security review of the Santa Clara Valley Transportation Authority (2011)",
+      "publisher": "California Public Utilities Commission",
+      "date": "2011",
+      "type": "official",
+      "url": "https://docs.cpuc.ca.gov/published/COMMENT_RESOLUTION/141751.htm",
+      "accessed": "2026-10-14",
+      "notes": "Tasman East: \"The first phase, a 1.9-mile extension from North First Street to I-880\", \"opened for revenue service in May 2001\"; \"The second phase, a 2.9-mile segment from I-880 to Hostetter Road\", \"opened for revenue service in June 2004\". \"The Capitol light rail line, a 3.5-mile extension of the Tasman light rail line, opened for revenue service in June 2004.\" It \"travels along Capitol Avenue from just south of Hostetter Road to Alum Rock Avenue\". Tasman West (7.6 miles) since 1999; Vasona since 2005; the Guadalupe line since 1991."
     },
     {
       "id": "crc-d12906",
@@ -1293,6 +1358,15 @@
       "notes": "p. 2: \"the Southern Pacific Company electrified 40 miles of its lines radiating from Oakland, Cal., using the 1200-volt overhead-trolley, direct-current system.\""
     },
     {
+      "id": "golden-gate-ferry-timeline",
+      "title": "Golden Gate Ferry timeline",
+      "publisher": "Golden Gate Bridge, Highway and Transportation District",
+      "type": "official",
+      "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+      "accessed": "2026-10-14",
+      "notes": "August 15, 1970: \"Golden Gate Sausalito Ferry service began.\" December 13, 1976: \"Commute service commenced on the Larkspur route.\" March 6, 2017: weekday commute service between Tiburon and San Francisco. December 13, 2021: \"Golden Gate Ferry began seven day a week service to Angel Island from the San Francisco Ferry Terminal.\""
+    },
+    {
       "id": "gtfs-511",
       "title": "511 SF Bay regional GTFS feed (operator RG)",
       "publisher": "Metropolitan Transportation Commission (511.org)",
@@ -1342,6 +1416,76 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "mtc-airtrain-extension-2021",
+      "title": "Post-pandemic travel surge synchs with SFO AirTrain extension, parking promotion",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2021-07-12",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/79246",
+      "accessed": "2026-10-14",
+      "notes": "July 12, 2021: \"When the AirTrain opened in 2003, we always envisioned a future project to create this extension to Long-Term Parking.\" The extension was completed in spring 2021."
+    },
+    {
+      "id": "mtc-alameda-seaplane-2025",
+      "title": "Alameda Seaplane Ferry Route celebrates 1 million riders",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-03-07",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/posts/alameda-seaplane-ferry-route-celebrates-1-million-riders",
+      "accessed": "2026-10-14",
+      "notes": "March 7, 2025: more than 1 million passengers \"since the route's launch on July 1, 2021.\""
+    },
+    {
+      "id": "mtc-richmond-ferry-2019",
+      "title": "Richmond ferry service sets sail",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2019-01-11",
+      "type": "official",
+      "url": "https://es.mtc.ca.gov/node/151841",
+      "accessed": "2026-10-14",
+      "notes": "January 11, 2019: an event on January 10, 2019 \"marked the launch of Richmond ferry service to San Francisco and the opening of the Richmond Ferry Terminal\"."
+    },
+    {
+      "id": "mtc-smart-petaluma-north-2025",
+      "title": "Grand opening of SMART's Petaluma North station set for Friday",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-01-09",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/posts/grand-opening-smarts-petaluma-north-station-set-friday",
+      "accessed": "2026-10-14",
+      "notes": "January 9, 2025: the grand opening of Petaluma North station is \"on Friday\" (January 10, 2025)."
+    },
+    {
+      "id": "mtc-smart-riders-2020",
+      "title": "SMART passengers talk about train",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2020-01-31",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/54791",
+      "accessed": "2026-10-14",
+      "notes": "January 31, 2020: \"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\"."
+    },
+    {
+      "id": "mtc-smart-windsor-2025",
+      "title": "SMART's Windsor service starts",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-05-30",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/105680",
+      "accessed": "2026-10-14",
+      "notes": "May 30, 2025 (a Friday): \"Passenger service to the new Windsor station started over the weekend, the Sonoma-Marin Area Rail Transit (SMART) announced.\" Which weekend isn't clear from the date, so only the month is used."
+    },
+    {
+      "id": "mtc-weta-south-san-francisco-2012",
+      "title": "WETA launches new East Bay – South San Francisco ferry",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2012-06-07",
+      "type": "official",
+      "url": "https://es.mtc.ca.gov/node/1091",
+      "accessed": "2026-10-14",
+      "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
     },
     {
       "id": "oakland-tribune-1904-02-04",
@@ -1447,7 +1591,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -1471,6 +1615,15 @@
       "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
       "accessed": "2026-10-14",
       "notes": "pp. 148–154."
+    },
+    {
+      "id": "sf-bay-ferry-history",
+      "title": "Our history",
+      "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
+      "type": "official",
+      "url": "https://www.sfbayferry.com/our-history/",
+      "accessed": "2026-10-14",
+      "notes": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\" 1989: \"The City of Alameda eventually started the Alameda Oakland Ferry Service\". 2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\". 2019: the Richmond terminal was completed \"and service was launched\"."
     },
     {
       "id": "sf-call-1911-06-02-p8",
@@ -1583,6 +1736,16 @@
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sfcta-timma-ti-ferry-2024",
+      "title": "Treasure Island ferry service planning update (TIMMA committee memo)",
+      "publisher": "San Francisco County Transportation Authority (Treasure Island Mobility Management Agency)",
+      "date": "2024-06-07",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-06/TIMMA_Committee_TreasureIslandFerryServicePlanningUpdateMEMO_2024-06-11.pdf",
+      "accessed": "2026-10-14",
+      "notes": "June 7, 2024: \"In 2022, Treasure Island Community Development (TICD), the master developer of Treasure Island and Yerba Buena Island, began a privately funded interim ferry service.\""
+    },
+    {
       "id": "sfmta-archive-general-information",
       "title": "Muni general information (archive)",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -1590,6 +1753,16 @@
       "url": "https://archives.sfmta.com/cms/rhome/geninfo.htm",
       "accessed": "2026-10-14",
       "notes": "\"An extension of the F line on The Embarcadero to Fisherman's Wharf began service on March 4, 2000.\""
+    },
+    {
+      "id": "sfmta-blog-central-subway-opens",
+      "title": "Central Subway opens November 19 with special weekend service",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2022-11-01",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/central-subway-opens-november-19-special-weekend-service",
+      "accessed": "2026-10-14",
+      "notes": "Published November 1, 2022, before the opening: \"On Saturday, November 19, the Central Subway makes its historic debut with special weekend service\", Saturdays and Sundays; \"New T Third service in Central Subway is planned to start on January 7\"."
     },
     {
       "id": "sfmta-blog-powell-mason-130",
@@ -1667,6 +1840,36 @@
       "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
       "accessed": "2026-10-14",
       "notes": "p. 4: \"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
+    },
+    {
+      "id": "sfmta-van-ness-brt-open",
+      "title": "Van Ness BRT lane now open",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2022-04-01",
+      "type": "official",
+      "url": "https://www.sfmta.com/node/26084",
+      "accessed": "2026-10-14",
+      "notes": "\"As of 10 a.m., Friday, April 1, 2022, the Van Ness BRT Bus Rapid Transit Lane has officially begun service.\""
+    },
+    {
+      "id": "smart-5th-anniversary-2022",
+      "title": "SMART marks 5th anniversary of startup of passenger service",
+      "publisher": "Sonoma-Marin Area Rail Transit District",
+      "date": "2022-08-24",
+      "type": "official",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/News%20Releases/SMART%20News%20Release_SMART%20marks%205th%20anniverary%20of%20passenger%20service.pdf",
+      "accessed": "2026-10-14",
+      "notes": "August 24, 2022: \"Since the start of service on August 25, 2017, SMART has carried more than 2,440,900 passengers\" / \"SMART opened two new stations in December 2019: the Novato Downtown Station and the Larkspur Station\"."
+    },
+    {
+      "id": "smart-gm-report-2019-12",
+      "title": "General Manager's report, December 2019 (TAM board item 5c)",
+      "publisher": "Sonoma-Marin Area Rail Transit District",
+      "date": "2019-12",
+      "type": "official",
+      "url": "https://www.tam.ca.gov/wp-content/uploads/2020/01/5c-GM-Report-December-2019.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Hosted by the Transportation Authority of Marin. The Holiday Express train of Saturday, December 14, 2019 arrived at the Novato Downtown ribbon cutting, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\" The Larkspur ribbon cutting was Friday, December 13."
     },
     {
       "id": "srj-1904-02-13-key-route-1",
@@ -1820,6 +2023,15 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
+    },
+    {
+      "id": "vta-30-years-timeline",
+      "title": "30 years of VTA: a visual timeline",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/blog/30-years-vta-visual-timeline",
+      "accessed": "2026-10-14",
+      "notes": "\"The entire 21-mile light rail line would open for service April 21, 1991.\" 1999: \"Light rail station opens in Mountain View\". 2001: \"Milpitas light rail station opens\". 2005: \"Winchester light rail extension opens, connecting San Jose to downtown Campbell\". 2017: \"Bus Rapid Transit (BRT) opens along Alum Rock Ave.\""
     },
     {
       "id": "vta-bart-silicon-valley",

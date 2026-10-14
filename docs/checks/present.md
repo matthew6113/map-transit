@@ -24,6 +24,15 @@ These quotes come from the machine-read text of scanned PDFs. Check each against
 - `muni-cable-mason-taylor`: Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain.
 - `muni-cable-powell-mason`: Callwell gives March 28, 1888 for the first Powell St service, with full service a few days later; SFMTA's 2018 blog says early March. Only the year is certain. Service stopped for the system's rebuild from September 1982 to June 1984.
 
+## Dates announced beforehand
+
+An agency's own announced date, used with a note (decision of Oct 14). Replace any with a date confirmed after the fact when one turns up.
+
+- `bart station West Dublin / Pleasanton`: 2011-02-19. An infill station between Castro Valley and Dublin/Pleasanton. February 19, 2011 is the opening day BART announced beforehand.
+- `muni-central-subway`: 2022-11-19. Runs on 4th St from King St to the portal north of Brannan St. Special weekend service from November 19, 2022, a date SFMTA announced beforehand; the T has run through it daily since January 7, 2023.
+- `ac-transit-1t-brt-lanes`: 2020-08-09. August 9, 2020 is the launch date AC Transit announced two days before.
+- `smart station SMART Petaluma North`: 2025-01. An infill station; MTC announced its grand opening for Friday, January 10, 2025, which isn't confirmed as the first day of service, so only the month is given.
+
 ## Stretches left undated
 
 Track older than today's service, whose opening isn't sourced yet. The line's own date shows it on the year slider, lighter.
@@ -34,3 +43,4 @@ Track older than today's service, whose opening isn't sourced yet. The line's ow
 - `muni-l-46th-ave-wawona` (Taraval St to Wawona St, on 46th Ave): The L reached Wawona & 46th Ave in 1937; whether the track was new then isn't stated.
 - `muni-duboce-ave` (Duboce Ave, the portal to Church St): Street track older than the subway; its date isn't sourced yet.
 - `muni-f-market-st` (17th & Castro to Market & Drumm, on Market St): Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records.
+- `caltrain-san-jose-gilroy` (San José to Gilroy): The Southern Pacific's older line, carrying Caltrain from July 1, 1992; its own dates are for the past era. Cut at Tamien, which opened with the Gilroy service.

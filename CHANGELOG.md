@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, the rest of today's network dated
+
+- **SMART** by stretch: Sonoma County Airport–San Rafael (August 25, 2017), San Rafael–Larkspur
+  (December 14, 2019), Windsor (May 2025), and two infill stations.
+- **VTA:** Tasman East (May 2001, June 2004) and the Capitol line (June 2004), cut at the road
+  crossings the CPUC names; Mountain View (1999) and Winchester (2005) stations; the Alum Rock BRT
+  lanes (2017).
+- **Caltrain:** Gilroy service from July 1, 1992, over the older Southern Pacific line; the San
+  Francisco terminal (1975), Diridon (1935) and Tamien (1992).
+- **Line openings:** ACE (1998), the Capitol Corridor (1991), the California Zephyr (1983), the Gold
+  Runner as the San Joaquins (1974), the SFO AirTrain (2003), four Golden Gate Ferry routes
+  (1970–2021) and five SF Bay Ferry routes (1986–2024), and the Treasure Island ferry (2022).
+- **BRT lanes:** Van Ness (April 1, 2022) and Tempo (August 9, 2020).
+- Dates an agency announced beforehand now count, with a note (Matthew's decision): the Central
+  Subway opens on November 19, 2022, and West Dublin/Pleasanton on February 19, 2011.
+
 ## 2026-10-14: Phase 2b, today's network dated (BART and Muni)
 
 - **BART** is cut into 24 shared, dated segments, from MacArthur–Fremont (September 11, 1972) to

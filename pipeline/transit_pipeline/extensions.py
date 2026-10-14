@@ -12,13 +12,15 @@ colors that run over the same track share one segment, so it opens once on the y
         "lines": {"bart-orange": {"opened": "1972-09-11", "sources": [...],
                                   "route_from": {"some-segment": {"from": "1974-09-16", "note": "..."}}}},
         "points": {"Embarcadero BART": {"opened": "1976-05-27", "sources": [...]}},
-        "stations": {"Duboce portal": [lon, lat]}}}
+        "stations": {"Duboce portal": [lon, lat]},
+        "dates": {"muni-49-brt-lanes": {"opened": "2022-04-01", "sources": [...]}}}}
 
 A stretch is cut from its line's GTFS geometry along the shortest path between the two stations
 (both ways round a loop, with "both_ways"). Where it runs over track that opened earlier, that part
 is left to the older stretch, so a junction or a wye opens once. Each line of the same mode is then
 rebuilt: the dated stretches that lie along it, in order, plus whatever is left over as an undated
-part. The GTFS segment is dropped once nothing uses it. This runs in build.py, so it needs no feed key
+part. The GTFS segment is dropped once nothing uses it. "dates" dates a whole segment in place, with no
+cut (BRT lanes, a ferry route). This runs in build.py, so it needs no feed key
 and is the same on every machine.
 """
 
@@ -239,6 +241,17 @@ def apply(lines: list[dict], segments: dict[str, dict], points: list[dict],
         sys_points = [p for p in points if p["properties"]["system"] == sys_id]
         stations = {p["properties"]["name"].lower(): to_metres(Point(p["geometry"]["coordinates"])) for p in sys_points}
         stations.update({k.lower(): to_metres(Point(v)) for k, v in sysspec.get("stations", {}).items()})
+        # A whole segment dated as it is: no cut (BRT lanes, a ferry route).
+        mine_segs = {r["segment"] for l in sys_lines for r in l["route"]}
+        for sid, d in sysspec.get("dates", {}).items():
+            if sid not in mine_segs:
+                raise SystemExit(f"[extensions] dates: {sid} isn't a segment of {sys_id}'s present lines")
+            props = segments[sid]["properties"]
+            props["opened"] = d["opened"]
+            props["flags"] = [f for f in props["flags"] if f != "opened_unsourced"] + list(d.get("flags", []))
+            props["sources"] = props["sources"] + d["sources"]
+            if d.get("notes"):
+                props["notes"] = d["notes"]
         geom = {l["id"]: unary_union([_geom(segments[r["segment"]]) for r in l["route"]]) for l in sys_lines}
         base = {l["id"]: segments[l["route"][0]["segment"]]["properties"] for l in sys_lines}
 

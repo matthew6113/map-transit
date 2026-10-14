@@ -46,11 +46,12 @@ def present(sources: dict) -> None:
              "## Quotes from scanned PDFs to check", "",
              "These quotes come from the machine-read text of scanned PDFs. Check each against the page "
              "image, then correct the quote if it differs.", ""]
-    quotes, conflicts, undated = [], [], []
+    quotes, conflicts, undated, announced = [], [], [], []
     for sys_id, sysspec in ext["systems"].items():
         items = [(d["id"], d) for d in sysspec.get("segments", [])]
         items += [(lid, d) for lid, d in sysspec.get("lines", {}).items()]
         items += [(f"{sys_id} station {name}", d) for name, d in sysspec.get("points", {}).items()]
+        items += [(sid, d) for sid, d in sysspec.get("dates", {}).items()]
         for rid, d in items:
             for c in d.get("sources", []):
                 if c["source"] in scanned:
@@ -60,7 +61,12 @@ def present(sources: dict) -> None:
                 conflicts.append(f"- `{rid}`: {d.get('notes', 'see its sources')}")
             if "opened" in d and d["opened"] is None:
                 undated.append(f"- `{rid}` ({d['name']}): {d.get('notes', '')}")
+            if "announced" in d.get("notes", "") or any("nnounced" in c.get("note", "") for c in d.get("sources", [])):
+                announced.append(f"- `{rid}`: {d.get('opened')}. {d.get('notes', '')}".rstrip())
     lines += (quotes or ["None."]) + ["", "## Conflicting sources", ""] + (conflicts or ["None."])
+    lines += ["", "## Dates announced beforehand", "",
+              "An agency's own announced date, used with a note (decision of Oct 14). Replace any with a "
+              "date confirmed after the fact when one turns up.", ""] + (announced or ["None."])
     lines += ["", "## Stretches left undated", "",
               "Track older than today's service, whose opening isn't sourced yet. The line's own date "
               "shows it on the year slider, lighter.", ""] + (undated or ["None."]) + [""]

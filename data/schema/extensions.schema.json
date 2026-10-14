@@ -148,6 +148,16 @@
           "additionalProperties": {
             "$ref": "#/$defs/point"
           }
+        },
+        "dates": {
+          "type": "object",
+          "description": "A whole present segment dated as it is, with no cut (BRT lanes, a ferry route), by segment id.",
+          "propertyNames": {
+            "$ref": "#/$defs/id"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/dated"
+          }
         }
       }
     },
@@ -289,6 +299,28 @@
       "properties": {
         "opened": {
           "$ref": "#/$defs/date"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "dated": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opened",
+        "sources"
+      ],
+      "properties": {
+        "opened": {
+          "$ref": "#/$defs/date"
+        },
+        "flags": {
+          "$ref": "#/$defs/flags"
         },
         "sources": {
           "$ref": "#/$defs/sources"

@@ -214,10 +214,10 @@ today's lines were opened in stages, and `extensions.py` applies it in `make app
 - **`points`**, by station name: `opened` and `sources`, for a station that opened apart from its
   track (BART's Embarcadero, 1976). Other stations borrow the date of the track they stand on, for
   display only (decision 4).
+- **`dates`**, by segment id: a whole present segment dated as it is, with no cut (BRT lanes).
 - **Dates come from official sources only,** as for the future era; a dataset may place a cut point.
-  A date announced before the day isn't enough on its own: the Central Subway's weekend service from
-  November 19, 2022 was announced, and January 7, 2023 is confirmed, so the map says 2023. Tests
-  check both rules and that every null stretch says why.
+  An agency's date announced before the day counts, and the notes say it was announced. Tests check
+  both rules and that every null stretch says why.
 
 ## Modes
 

@@ -33,18 +33,19 @@ How each line's geometry is made:
 
 Opening dates aren't in GTFS. `data/present/extensions.json` adds them by stretch, from official
 sources, and cuts each line into shared, dated segments at build time (docs/SCHEMA.md, "Today's
-network, dated"). BART and Muni are dated (Phase 2b); the other systems are still one undated
-segment per line, `opened_unsourced`, and off the year slider (decision 4).
+network, dated"). Every system now has what official sources give (Phase 2b). What's left is in
+`docs/checks/present.md` and below; it stays `opened_unsourced` and off the year slider unless its line
+has a date to lend (decision 4).
 
 ### Opening dates of today's network (official sources)
 
 | | |
 |---|---|
-| Status | In use: BART (24 segments, all dated) and Muni (34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track are older than today's service and not yet dated). |
-| Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, and its 2018 Powell-Mason blog post. |
-| Cut points | GTFS stations and stops (511). Two corners from Overture: Taraval St and 33rd Ave (roads), and the Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). |
+| Status | In use. BART: 24 segments, all dated. Muni: 34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track is older than today's service and not yet dated. SMART: all three stretches. VTA: Tasman East and the Capitol line, plus Mountain View and Winchester stations; the Guadalupe trunk, Tasman West and Vasona are undated. Caltrain: Gilroy service (1992) and three stations; its 1863–64 and 1907 track waits for the past era's early railroads. Line openings for ACE, the Capitol Corridor, the Zephyr, the Gold Runner, the AirTrain and ten ferry routes; BRT lanes on Van Ness, International Blvd and Alum Rock. |
+| Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, its blog, and the Van Ness BRT notice. Others: the CPUC's 2011 safety review of VTA and VTA's timeline; Caltrain's milestones pages; SMART's 2022 release and December 2019 general manager's report; the Golden Gate Ferry timeline; SF Bay Ferry's history; ACE; the Capitol Corridor's timeline; Amtrak's media site and Great American Stations; AC Transit's Tempo release; an SFCTA/TIMMA memo; MTC's news posts. |
+| Cut points | GTFS stations and stops (511). Street corners from Overture roads: Taraval St and 33rd Ave, Tasman Dr at I-880, Capitol Ave at Hostetter Rd and Alum Rock Ave. The Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). |
 | License | Public agency records, cited for facts. Geometry stays GTFS (511's terms). |
-| Gaps | Quotes from BART's scanned PDFs come from their machine-read text; Matthew should check them against the page images (`docs/checks/`). The exact day the Muni Metro Extension opened in January 1998 isn't in an official source. Caltrain, VTA, ACE, SMART, the Capitol Corridor, the ferries, the AirTrain and BRT are next. |
+| Gaps | Quotes from BART's scanned PDFs come from their machine-read text; Matthew should check them against the page images (`docs/checks/present.md`). Dates an agency announced beforehand are used and noted (decision of Oct 14). Undated: the Coast Starlight, Harbor Bay, Oakland & Alameda, Triangle and Angel Island–Tiburon ferries; VTA's Guadalupe trunk, Tasman West and Vasona track; Caltrain north of Tamien. |
 
 ### 511.org regional feed
 
@@ -186,7 +187,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in two boxes: the East Bay (-122.36, 37.70, -122.15, 37.93) and San Francisco (-122.52, 37.70, -122.355, 37.835, added in Phase 2b). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in three boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835) and Milpitas and north San José (-121.98, 37.33, -121.83, 37.45). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -214,8 +215,8 @@ The geometry tools are below (decision 12).
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
 | past | 10 | 45 | 8 | 0 | 74.3 | 9.1 | 4 | 26 |
-| present | 44 | 87 | 275 | 1939.4 | 0 | 0 | 28 | 8 |
+| present | 44 | 96 | 275 | 1939.2 | 0 | 0 | 12 | 24 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 30, `conflicting_sources` 4, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 373, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 30, `conflicting_sources` 4, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 350, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->
