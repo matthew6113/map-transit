@@ -97,6 +97,22 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       Island sits about 210 m too far south on the 1915 San Francisco sheet), so traces from them are
       corrected against features unchanged on a 1:24,000 sheet, and carry an error of about 50 m.
 
+## Made by Matthew (2026-10-14, Phase 2b planning)
+
+- Phase 2b covers all four streams at once: today's network dates, the early railroads and ferries,
+  the San Francisco streetcars, and the rest of the East Bay. Matthew will allowlist
+  OpenHistoricalMap's Overpass server for its dated railway ways.
+
+13. **Past lines may run over present track.**
+    - Many past services ran on rights-of-way still in use: the SF & San José and Southern Pacific
+      commuter trains on today's Caltrain line, the Central Pacific on the Capitol Corridor's.
+      Drawing them twice would double the strokes.
+    - So a past line's route may name a present segment. The present segment keeps its own dates
+      (when the track opened), borrows from the past lines that used it where those are null, and
+      is drawn once, in the present layer; the past line's hover and highlight follow it.
+    - Today's network is cut into shared, dated segments at build time from
+      `data/present/extensions.json` (`extensions.py`), with dates from official sources only.
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**

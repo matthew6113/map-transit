@@ -11,7 +11,10 @@ named services that use segments over time (docs/SCHEMA.md). The app gets flat f
 
 A segment is cut into pieces where it runs alongside another mode, and each piece carries `off`, its
 slot across the path, so different modes are drawn side by side close in (side_by_side.py, decision
-10). The past era waits for Phase 2, where the slots need to know who ran when; there `off` is 0.
+10); in the past era only lines that ran at the same time count.
+
+Today's network is cut into shared, dated segments first (extensions.py, data/present/extensions.json),
+and past lines may run over present segments, track that is still in use (decision 13).
 - <era>-points.geojson  stations, piers, terminals, carbarns.
 - catalog.json          every line with its resolved sources, for the panel and the list.
 
@@ -32,6 +35,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 
+from . import extensions
 from .common import APP, DATA, MODE_GROUP, ROOT, SOURCES, SYSTEMS, VOCAB, write_geojson, write_json
 from .side_by_side import Paths
 
@@ -129,12 +133,29 @@ def main() -> None:
     catalog = []
     coverage = {}
 
-    for era in ERAS:
-        lines, segments, points = load_era(era)
+    loaded = {era: load_era(era) for era in ERAS}
+    # Today's network, cut into shared, dated segments (data/present/extensions.json).
+    for sys_id, n in extensions.apply(*loaded["present"]).items():
+        print(f"[build] present/{sys_id}: {n['dated']} dated segments, {n['undated_parts']} parts not yet dated")
+    present_segments = loaded["present"][1]
+    # Past lines may run over track that is still in use (decision 13): their route entries can name
+    # present segments, which then borrow dates from the past lines too.
+    cross = [(line, r) for line in loaded["past"][0] for r in line["route"]
+             if r["segment"] not in loaded["past"][1] and r["segment"] in present_segments]
+    present_display: dict = {}
+
+    # The present first, so the past can draw its lines over present track with its display dates.
+    for era in ("present", "past", "future"):
+        lines, segments, points = loaded[era]
+        route_segments = {**present_segments, **segments} if era == "past" else segments
         uses = defaultdict(list)  # segment id -> lines that use it
         spans = defaultdict(list)  # segment id -> (line, route entry): when each line used it
         for line in lines:
             for r in line["route"]:
+                uses[r["segment"]].append(line)
+                spans[r["segment"]].append((line, r))
+        if era == "present":
+            for line, r in cross:
                 uses[r["segment"]].append(line)
                 spans[r["segment"]].append((line, r))
 
@@ -199,10 +220,16 @@ def main() -> None:
         paths = Paths(draw, timed=era == "past")
 
         def slots(parts, group, sid):
+            if sid not in seg_display:  # a present segment under a past line: drawn by the present
+                yield from ((part, 0.0) for part in parts)
+                return
             o, c, _, undated = seg_display[sid]
             span = None if undated else (o, c)
             for part in parts:
                 yield from paths.split(part, group, span)
+
+        def display(sid):
+            return seg_display[sid] if sid in seg_display else present_display[sid]
 
         pieces_out = []
         for f in draw:
@@ -213,12 +240,12 @@ def main() -> None:
 
         fid = 0
         for line in lines:
-            pieces = [parts_of(segments[r["segment"]]["geometry"]) for r in line["route"]]
+            pieces = [parts_of(route_segments[r["segment"]]["geometry"]) for r in line["route"]]
             oriented = orient(pieces)
             fids = []
             for r, parts in zip(line["route"], oriented):
-                seg = segments[r["segment"]]["properties"]
-                o, c, borrowed, undated = seg_display[r["segment"]]
+                seg = route_segments[r["segment"]]["properties"]
+                o, c, borrowed, undated = display(r["segment"])
                 # A line's use of a segment can be narrower than the segment's own life.
                 if r.get("from"):
                     o = max(o or -math.inf, decimal_year(r["from"]))
@@ -238,7 +265,7 @@ def main() -> None:
             lo, lc = line_years(line)
             segs_km = defaultdict(float)
             for r, parts in zip(line["route"], oriented):
-                segs_km[segments[r["segment"]]["properties"]["geometry_confidence"]] += length_km(parts)
+                segs_km[route_segments[r["segment"]]["properties"]["geometry_confidence"]] += length_km(parts)
             catalog.append({
                 "id": line["id"],
                 "name": line["name"],
@@ -265,20 +292,20 @@ def main() -> None:
                 "fids": fids,
                 "segments": [{
                     "id": r["segment"],
-                    "name": segments[r["segment"]]["properties"].get("name", r["segment"]),
-                    "opened": segments[r["segment"]]["properties"]["opened"],
-                    "closed": segments[r["segment"]]["properties"]["closed"],
+                    "name": route_segments[r["segment"]]["properties"].get("name", r["segment"]),
+                    "opened": route_segments[r["segment"]]["properties"]["opened"],
+                    "closed": route_segments[r["segment"]]["properties"]["closed"],
                     # This line's use of the segment, where narrower than the segment's own life.
                     **{k: r[k] for k in ("from", "to", "note") if r.get(k)},
-                    "borrowed": seg_display[r["segment"]][2],
-                    "undated": seg_display[r["segment"]][3],
-                    "confidence": segments[r["segment"]]["properties"]["geometry_confidence"],
-                    "method": segments[r["segment"]]["properties"]["geometry_method"],
-                    "structure": segments[r["segment"]]["properties"].get("structure"),
-                    "flags": segments[r["segment"]]["properties"]["flags"],
-                    **({"notes": segments[r["segment"]]["properties"]["notes"]} if "notes" in segments[r["segment"]]["properties"] else {}),
+                    "borrowed": display(r["segment"])[2],
+                    "undated": display(r["segment"])[3],
+                    "confidence": route_segments[r["segment"]]["properties"]["geometry_confidence"],
+                    "method": route_segments[r["segment"]]["properties"]["geometry_method"],
+                    "structure": route_segments[r["segment"]]["properties"].get("structure"),
+                    "flags": route_segments[r["segment"]]["properties"]["flags"],
+                    **({"notes": route_segments[r["segment"]]["properties"]["notes"]} if "notes" in route_segments[r["segment"]]["properties"] else {}),
                 } for r in line["route"]],
-                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line_sources(line, segments)],
+                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line_sources(line, route_segments)],
             })
 
         by_line = {l["id"]: l for l in lines}
@@ -297,6 +324,8 @@ def main() -> None:
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0,
             }})
 
+        if era == "present":
+            present_display = seg_display
         write_geojson(APP / f"{era}-draw.geojson", draw)
         write_geojson(APP / f"{era}-lines.geojson", line_feats)
         write_geojson(APP / f"{era}-points.geojson", point_feats)
@@ -316,6 +345,7 @@ def main() -> None:
             "flags": dict(sorted(flags.items())),
         }
 
+    coverage = {era: coverage[era] for era in ERAS}
     write_json(APP / "catalog.json", {"lines": sorted(catalog, key=lambda l: (l["era"], l["name"]))})
     write_json(APP / "coverage.json", coverage)
     update_data_log(coverage)

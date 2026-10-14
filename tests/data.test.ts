@@ -141,9 +141,13 @@ describe('provenance', () => {
     }
   });
 
-  it('keeps each line in its folder era, on segments of that era', () => {
+  it('keeps each line in its folder era, on segments of that era (past lines may also use present track, decision 13)', () => {
+    const idsOf = (era: string) => folders.filter((g) => g.era === era).flatMap((g) => g.segments.map((s) => s.properties.id));
+    // Today's network is cut into dated segments at build time (data/present/extensions.json).
+    const ext = existsSync(join(DATA, 'present', 'extensions.json')) ? read(join(DATA, 'present', 'extensions.json')) : { systems: {} };
+    const extIds = Object.values(ext.systems as Record<string, { segments?: { id: string }[] }>).flatMap((s) => (s.segments ?? []).map((x) => x.id));
     for (const f of folders) {
-      const segs = new Set(folders.filter((g) => g.era === f.era).flatMap((g) => g.segments.map((s) => s.properties.id)));
+      const segs = new Set([...idsOf(f.era), ...(f.era === 'past' ? [...idsOf('present'), ...extIds] : [])]);
       for (const l of f.lines) {
         expect(l.era, l.id).toBe(f.era);
         for (const r of l.route) expect(segs, `${l.id} uses ${r.segment}`).toContain(r.segment);
