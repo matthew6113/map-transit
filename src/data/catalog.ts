@@ -38,7 +38,13 @@ export interface CatalogSegment {
   name: string;
   opened: string | null;
   closed: string | null;
+  /** This line's use of the segment, where narrower than the segment's own life. */
+  from?: string;
+  to?: string;
+  note?: string;
   borrowed: boolean;
+  /** No sourced dates of its own or its lines': left off the year slider. */
+  undated: boolean;
   confidence: Confidence;
   method: string;
   structure: string | null;

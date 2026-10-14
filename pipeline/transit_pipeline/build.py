@@ -255,7 +255,10 @@ def main() -> None:
                     "name": segments[r["segment"]]["properties"].get("name", r["segment"]),
                     "opened": segments[r["segment"]]["properties"]["opened"],
                     "closed": segments[r["segment"]]["properties"]["closed"],
+                    # This line's use of the segment, where narrower than the segment's own life.
+                    **{k: r[k] for k in ("from", "to", "note") if r.get(k)},
                     "borrowed": seg_display[r["segment"]][2],
+                    "undated": seg_display[r["segment"]][3],
                     "confidence": segments[r["segment"]]["properties"]["geometry_confidence"],
                     "method": segments[r["segment"]]["properties"]["geometry_method"],
                     "structure": segments[r["segment"]]["properties"].get("structure"),

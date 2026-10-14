@@ -106,8 +106,13 @@ export function LinePanel({ line, onClose }: Props) {
                   {s.structure ? ` · ${s.structure}` : ''}
                   {!future && ` · ${s.opened ? formatDate(s.opened) : 'opening not sourced'} to ${s.closed ? formatDate(s.closed) : line.status === 'active' ? 'today' : 'closing not sourced'}`}
                 </span>
+                {(s.from || s.to) && (
+                  <span class="small">This line used it {s.from ? `from ${formatDate(s.from)}` : ''}{s.from && s.to ? ' ' : ''}{s.to ? `to ${formatDate(s.to)}` : ''}{s.note ? `: ${s.note}` : ''}.</span>
+                )}
+                {!s.from && !s.to && s.note && <span class="small">{s.note}</span>}
                 <span class="small method">{s.method}</span>
                 {s.notes && <span class="small">{s.notes}</span>}
+                {s.flags.length > 0 && <span class="small flags-inline">Still to check: {s.flags.map((f) => FLAGS[f] ?? f).join(' ')}</span>}
               </li>
             ))}
           </ol>

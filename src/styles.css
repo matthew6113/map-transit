@@ -439,6 +439,21 @@ body {
   color: color-mix(in srgb, var(--color-panel-text) 70%, transparent);
 }
 
+.year-slider .undated summary {
+  cursor: pointer;
+}
+
+.year-slider .undated ul {
+  max-height: 9em;
+  overflow-y: auto;
+  margin: 4px 0 0;
+  padding-left: 16px;
+}
+
+.year-slider .undated .muted {
+  color: color-mix(in srgb, var(--color-panel-text) 50%, transparent);
+}
+
 /* ---------------------------------------------------------------- index: legend, filters, list */
 
 .index {

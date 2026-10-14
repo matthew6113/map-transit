@@ -248,6 +248,75 @@ def render(frame: Frame) -> np.ndarray:
     return rgb
 
 
+def snap(frame: Frame, pts: list[tuple[float, float]], search_px: float = 8, step_px: float = 4) -> tuple[list[list[float]], float]:
+    """Centre a roughly traced polyline (crop pixels) on the dark line symbol under it: every
+    step_px along it, the darkness profile across it (out to search_px each side) gives a weighted
+    centre. Returns the centred points (crop pixels) and the mean offset moved, in pixels."""
+    img = render(frame).astype(float)
+    dark = 255 - img.mean(axis=2)
+    rows, cols = dark.shape
+    samples = []  # (centre x, centre y, normal x, normal y, offset or None)
+    for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+        length = math.hypot(x1 - x0, y1 - y0)
+        if length == 0:
+            continue
+        ux, uy = (x1 - x0) / length, (y1 - y0) / length
+        nx, ny = -uy, ux
+        offsets = np.arange(-search_px, search_px + 0.5, 0.5)
+        for t in np.arange(0, length, step_px):
+            cx, cy = x0 + ux * t, y0 + uy * t
+            xs = np.clip(np.round(cx + nx * offsets).astype(int), 0, cols - 1)
+            ys = np.clip(np.round(cy + ny * offsets).astype(int), 0, rows - 1)
+            prof = dark[ys, xs]
+            w = np.clip(prof - np.percentile(prof, 60), 0, None)  # only the darkest part of the profile
+            samples.append((cx, cy, nx, ny, float((w * offsets).sum() / w.sum()) if w.sum() else None))
+    # A moving median of the offsets, so a railroad symbol's ties don't make the centre zigzag.
+    d = np.array([s_[4] if s_[4] is not None else np.nan for s_ in samples])
+    smooth = np.array([np.nanmedian(d[max(0, i - 3): i + 4]) if not np.all(np.isnan(d[max(0, i - 3): i + 4])) else 0.0
+                       for i in range(len(d))])
+    out = [[cx + nx * o, cy + ny * o] for (cx, cy, nx, ny, _), o in zip(samples, smooth)]
+    out.append(list(pts[-1]))
+    return out, float(np.nanmean(np.abs(smooth))) if len(smooth) else 0.0
+
+
+def fit_line(points: list[list[float]]) -> tuple[list[float], list[float], float]:
+    """A straight line through points (total least squares), from the projection of the first to
+    that of the last, and the RMS distance of the points from it (same units)."""
+    a = np.array(points, float)
+    c = a.mean(axis=0)
+    _, _, vt = np.linalg.svd(a - c)
+    d = vt[0]
+    t = (a - c) @ d
+    rms = float(np.sqrt(np.mean(((a - c) - np.outer(t, d)) ** 2) * 2))
+    return list(c + d * t[0]), list(c + d * t[-1]), rms
+
+
+def shift(pairs: list[tuple[tuple[float, float], tuple[float, float], str]]):
+    """The mean shift from where a sheet draws control points to where they are: (lon/lat as the
+    sheet draws it, true lon/lat, label). For a small cluster of controls, where a fitted rotation
+    or scale wouldn't carry. Returns (lon/lat on the sheet -> true lon/lat, report)."""
+    src = np.array([MERC.transform(*a) for a, _, _ in pairs], float)
+    dst = np.array([MERC.transform(*b) for _, b, _ in pairs], float)
+    t = (dst - src).mean(axis=0)
+    cos_lat = math.cos(math.radians(float(np.mean([p[1][1] for p in pairs]))))
+
+    def apply(lon: float, lat: float) -> list[float]:
+        x, y = MERC.transform(lon, lat)
+        lo, la = MERC_INV.transform(x + t[0], y + t[1])
+        return [round(lo, 6), round(la, 6)]
+
+    residuals = [{"label": label, "residual_m": round(float(np.hypot(*(q0 + t - q1))) * cos_lat, 1)}
+                 for q0, q1, (_, _, label) in zip(src, dst, pairs)]
+    report = {
+        "scale_m_per_unit": 1.0,
+        "rotation_deg": 0.0,
+        "shift_m": [round(float(v) * cos_lat, 1) for v in t],
+        "rms_m": round(math.sqrt(sum(r["residual_m"] ** 2 for r in residuals) / len(residuals)), 1),
+        "controls": residuals,
+    }
+    return apply, report
+
+
 def similarity(pairs: list[tuple[tuple[float, float], tuple[float, float], str]]):
     """A least-squares similarity transform (scale, rotation, shift) from where an old sheet draws
     things to where they are: pairs of (lon/lat as the sheet draws it, true lon/lat, label), usually

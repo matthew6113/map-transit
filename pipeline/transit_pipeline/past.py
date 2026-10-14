@@ -52,21 +52,38 @@ def _frame(spec: dict):
 
 
 def _fit(recipe: dict):
-    """The sheet correction for a recipe, or None: (lon/lat -> lon/lat, report)."""
+    """The sheet correction for a recipe, or None: (lon/lat -> lon/lat, report). Controls are either
+    pixels on a crop of the traced sheet matched to pixels on a crop of a better sheet ("px",
+    "true_px", with the fit's "frame" and "true_frame"), or today's street corners with the offset
+    read off `usgs_topo tiles` ("at", "offset_m"). "model" is "similarity" (default) or "shift"."""
     fit = recipe.get("fit")
     if not fit:
         return None
-    from .streets import crossing
-    from .usgs_topo import offset_pairs, similarity
-    controls = []
+    from .usgs_topo import offset_pairs, shift, similarity
+    pairs = []
     for c in fit["controls"]:
-        at = tuple(c["at"]) if isinstance(c["at"], list) else crossing(*c["at"].split("/"))
-        controls.append((c["label"], at, tuple(c["offset_m"])))
-    return similarity(offset_pairs(controls))
+        if "px" in c:
+            pairs.append((tuple(_frame(fit["frame"]).to_lonlat(*c["px"])),
+                          tuple(_frame(fit["true_frame"]).to_lonlat(*c["true_px"])), c["label"]))
+        else:
+            from .streets import crossing
+            at = tuple(c["at"]) if isinstance(c["at"], list) else crossing(*c["at"].split("/"))
+            pairs += offset_pairs([(c["label"], at, tuple(c["offset_m"]))])
+    return (shift if fit.get("model") == "shift" else similarity)(pairs)
+
+
+BUILT: dict[str, list[list[float]]] = {}  # segment id -> its rebuilt coords, for "join" parts
 
 
 def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
     """(lon/lat coords, method, description) for one part of a recipe."""
+    if "join" in part:
+        # Meet another segment exactly at one of its ends (it must come earlier in the file).
+        other = BUILT.get(part["join"])
+        if other is None:
+            raise SystemExit(f"[past] join to {part['join']}, which isn't built yet (order the segments)")
+        end = other[0] if part.get("at", "end") == "start" else other[-1]
+        return [end], "join", f"joined to {part['join']} at its {part.get('at', 'end')}"
     if "streets" in part:
         from .streets import OVERTURE_RELEASE, route
         coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]))
@@ -75,13 +92,26 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
                                              f"{_label(part['to'])} ({length:.0f} m; Overture {OVERTURE_RELEASE})")
     if "trace" in part:
         frame = _frame(part["trace"])
-        coords = [frame.to_lonlat(x, y) for x, y in part["px"]]
+        px = [tuple(p) for p in part["px"]]
+        extra = ""
+        if part.get("snap"):
+            # Centre the hand-read vertices on the line symbol, then keep a straight line or simplify.
+            from .usgs_topo import fit_line, snap
+            dense, moved = snap(frame, px, search_px=part["snap"])
+            if part.get("straight"):
+                a, b, rms = fit_line(dense)
+                px = [tuple(a), tuple(b)]
+                extra = f", centred on the line symbol and fitted straight (RMS {rms * frame.ground:.0f} m)"
+            else:
+                px = [tuple(c) for c in LineString(dense).simplify(1.0).coords]
+                extra = ", centred on the line symbol"
+        coords = [frame.to_lonlat(x, y) for x, y in px]
         how = "geotiff"
         if fit:
             apply, report = fit
             coords = [apply(*c) for c in coords]
             how = "similarity"
-        return round_coords(coords), how, f"traced by eye from {part['trace']['sheet']} ({len(coords)} vertices)"
+        return round_coords(coords), how, f"traced by eye from {part['trace']['sheet']} ({len(part['px'])} points{extra})"
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"
     raise SystemExit(f"[past] a part needs streets, trace or lonlat: {part}")
@@ -98,6 +128,16 @@ def _label(v) -> str:
 def join(parts: list[list[list[float]]], sid: str) -> list[list[float]]:
     """Chain parts end to end, reversing any that run backwards."""
     out = list(parts[0])
+    if len(out) == 1 and len(parts) > 1:
+        # Starts at a join: run the next part away from that point.
+        nxt = parts[1]
+        q = nxt if _d(out[0], nxt[0]) <= _d(out[0], nxt[-1]) else list(reversed(nxt))
+        gap = _d(out[0], q[0])
+        if gap > JOIN_M:
+            print(f"[past] {sid}: the join is {gap:.0f} m from the next part; joined straight")
+        out += q[1:] if gap < 0.5 else q
+        parts = [out] + parts[2:]
+        out = list(parts[0])
     for i, p in enumerate(parts[1:], start=1):
         if i == 1:
             # The first part may also need turning round.
@@ -137,16 +177,18 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     else:
         built = [build_part(p, fit) for p in recipe["parts"]]
         coords = join([b[0] for b in built], props["id"])
+        BUILT[props["id"]] = coords
         geometry = {"type": "LineString", "coordinates": round_coords(coords)}
-        methods = [b[1] for b in built]
+        methods = [b[1] for b in built if b[1] != "join"]
         desc = "; then ".join(b[2] for b in built)
     approximate = recipe.get("approximate") or "approximate" in methods
     check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
     sentence = desc[0].upper() + desc[1:]
     if fit:
         r = fit[1]
-        sentence += (f"; the sheet corrected to today's streets by a similarity fit on {len(r['controls'])} "
-                     f"control points (shift {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
+        kind_ = "shift" if recipe["fit"].get("model") == "shift" else "similarity fit"
+        sentence += (f"; the sheet corrected by a {kind_} on {len(r['controls'])} control points "
+                     f"({recipe['fit'].get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
     if check and "street-centerline" in methods:
         sentence += f"; checked on {check}"
     if recipe.get("note"):
@@ -157,12 +199,13 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         main = "similarity" if fit else ("geotiff" if "geotiff" in methods else "street-centerline")
         geo = {"map": check, "method": main, "est_error_m": recipe["est_error_m"]}
         if fit:
-            geo |= {k: fit[1][k] for k in ("scale_m_per_unit", "rotation_deg", "rms_m", "controls")}
+            geo |= {k: fit[1][k] for k in ("scale_m_per_unit", "rotation_deg", "shift_m", "rms_m", "controls")}
         props["georeference"] = geo
     else:
         props.pop("georeference", None)
     cited = {s["source"] for s in props["sources"]}
-    for sid, needed in ((check, bool(check)), (OVERTURE, "street-centerline" in methods)):
+    against = recipe.get("fit", {}).get("true_frame", {}).get("sheet")
+    for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods)):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})
     if kind != "point" and len(geometry["coordinates"]) >= 2:

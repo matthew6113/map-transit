@@ -276,7 +276,19 @@ export function App() {
   }, [onYear, chooseEra, openLine, closeLine]);
 
   const line = openId ? byId.get(openId) : undefined;
-  const undatedCount = lines.filter((l) => DATASETS.past.includes(l.era) && l.undated).length;
+  const undated = useMemo(() => {
+    const segs = new Map<string, { id: string; name: string; lines: string[] }>();
+    for (const l of lines) {
+      if (!DATASETS.past.includes(l.era)) continue;
+      for (const s of l.segments) {
+        if (!s.undated) continue;
+        const u = segs.get(s.id) ?? { id: s.id, name: s.name, lines: [] };
+        if (!u.lines.includes(l.name)) u.lines.push(l.name);
+        segs.set(s.id, u);
+      }
+    }
+    return [...segs.values()].sort((a, b) => a.name.localeCompare(b.name));
+  }, [lines]);
   const toggleGroup = (g: ModeGroup) =>
     setHiddenGroups((prev) => (prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]));
 
@@ -290,7 +302,7 @@ export function App() {
           <EraSwitcher era={era} onChange={chooseEra} />
           {era === 'past' && (
             <YearSlider year={year} playing={playing} speed={speed} onYear={onYear} onPlaying={setPlaying}
-              onSpeed={setSpeed} undatedCount={undatedCount} />
+              onSpeed={setSpeed} undated={undated} />
           )}
           {era !== 'past' && (
             <label class="ghost-toggle">

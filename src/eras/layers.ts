@@ -236,9 +236,27 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   for (const d of DATASETS[view.era]) {
     const base = [...pastFilter(view), ...groupFilter(view)];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
+    const waterside: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['pier', 'mole', 'ferry_terminal']]];
+    const works: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['carbarn', 'shop', 'yard', 'depot']]];
     layers.push(
       {
+        // Piers, moles and ferry terminals: a second, outer ring, where trains met the boats.
+        id: `transit-${d}-waterside`,
+        type: 'circle',
+        source: `transit-${d}-points`,
+        minzoom: 10,
+        filter: all(waterside, ...base),
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 4.6, 13, 6.6, 16, 9.5],
+          'circle-color': 'rgba(0,0,0,0)',
+          'circle-stroke-color': byGroup(theme, (g) => modeColor(theme, g)),
+          'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 10, 1, 16, 1.6],
+          'circle-stroke-opacity': view.era === 'past' ? VIS : 1,
+        },
+      },
+      {
         // Existing stations are hollow (paper fill, mode ring); new ones are filled (BAM's convention).
+        // Shops, yards and carbarns, where no one boarded, take the label color instead of the mode's.
         id: `transit-${d}-stations`,
         type: 'circle',
         source: `transit-${d}-points`,
@@ -247,7 +265,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 2.2, 13, 3.6, 16, 5.5],
           'circle-color': ['case', isNew, byGroup(theme, (g) => modeColor(theme, g)), c.land],
-          'circle-stroke-color': ['case', isNew, c.land, byGroup(theme, (g) => modeColor(theme, g))],
+          'circle-stroke-color': ['case', isNew, c.land, works, c.labels, byGroup(theme, (g) => modeColor(theme, g))],
           'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 10, 1.1, 16, 2],
           'circle-opacity': view.era === 'past' ? VIS : 1,
           'circle-stroke-opacity': view.era === 'past' ? VIS : 1,

@@ -19,7 +19,8 @@ interface Props {
   onPlaying: (playing: boolean) => void;
   onSpeed: (speed: number) => void;
   /** Lines without sourced dates aren't on the slider (decision 4). */
-  undatedCount: number;
+  /** Segments with no sourced dates, and the lines that use them (SPEC: listed under the slider). */
+  undated: { id: string; name: string; lines: string[] }[];
 }
 
 /**
@@ -27,7 +28,7 @@ interface Props {
  * sweeps from the chosen year to today, and a speed control. With reduced motion, play steps a decade
  * at a time without fades.
  */
-export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, undatedCount }: Props) {
+export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, undated }: Props) {
   const live = useRef({ year, onYear });
   live.current = { year, onYear };
 
@@ -90,8 +91,11 @@ export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, u
           <span key={d} style={{ left: `${((d - FIRST_YEAR) / (LAST_YEAR - FIRST_YEAR)) * 100}%` }}>{d}</span>
         ))}
       </div>
-      {undatedCount > 0 && (
-        <p class="small">{undatedCount} {undatedCount === 1 ? 'line has' : 'lines have'} no sourced dates yet and {undatedCount === 1 ? 'is' : 'are'} left off the slider.</p>
+      {undated.length > 0 && (
+        <details class="undated small">
+          <summary>{undated.length} {undated.length === 1 ? 'segment has' : 'segments have'} no sourced dates yet and {undated.length === 1 ? 'is' : 'are'} left off the slider.</summary>
+          <ul>{undated.map((u) => <li key={u.id}>{u.name} <span class="muted">({u.lines.join(', ')})</span></li>)}</ul>
+        </details>
       )}
     </div>
   );

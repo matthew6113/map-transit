@@ -271,6 +271,15 @@
             },
             "controls": {
               "type": "array"
+            },
+            "shift_m": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "The correction's shift, metres east and north."
             }
           }
         },
