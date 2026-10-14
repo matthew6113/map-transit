@@ -51,6 +51,9 @@ def _frame(spec: dict):
     return Frame(spec["sheet"], tuple(spec["bbox"]), spec.get("zoom", 1.0))
 
 
+FITS: dict[str, dict] = {}  # named sheet corrections: data/past/fits.json and each trace.json's "fits"
+
+
 def _fit(recipe: dict):
     """The sheet correction for a recipe, or None: (lon/lat -> lon/lat, report). Controls are either
     pixels on a crop of the traced sheet matched to pixels on a crop of a better sheet ("px",
@@ -59,6 +62,10 @@ def _fit(recipe: dict):
     fit = recipe.get("fit")
     if not fit:
         return None
+    if isinstance(fit, str):
+        if fit not in FITS:
+            raise SystemExit(f"[past] no fit named {fit} in data/past/fits.json or the group's trace.json")
+        fit = FITS[fit]
     from .usgs_topo import offset_pairs, shift, similarity
     pairs = []
     for c in fit["controls"]:
@@ -73,6 +80,11 @@ def _fit(recipe: dict):
 
 
 BUILT: dict[str, list[list[float]]] = {}  # segment id -> its rebuilt coords, for "join" parts
+
+
+def _fit_spec(recipe: dict) -> dict:
+    fit = recipe.get("fit") or {}
+    return FITS.get(fit, {}) if isinstance(fit, str) else fit
 
 
 def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
@@ -111,7 +123,8 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
             apply, report = fit
             coords = [apply(*c) for c in coords]
             how = "similarity"
-        return round_coords(coords), how, f"traced by eye from {part['trace']['sheet']} ({len(part['px'])} points{extra})"
+        from .usgs_topo import label
+        return round_coords(coords), how, f"traced by eye from {label(part['trace']['sheet'])} ({len(part['px'])} hand-read points{extra})"
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"
     raise SystemExit(f"[past] a part needs streets, trace or lonlat: {part}")
@@ -186,11 +199,13 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     sentence = desc[0].upper() + desc[1:]
     if fit:
         r = fit[1]
-        kind_ = "shift" if recipe["fit"].get("model") == "shift" else "similarity fit"
+        spec = _fit_spec(recipe)
+        kind_ = "shift" if spec.get("model") == "shift" else "similarity fit"
         sentence += (f"; the sheet corrected by a {kind_} on {len(r['controls'])} control points "
-                     f"({recipe['fit'].get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
+                     f"({spec.get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
     if check and "street-centerline" in methods:
-        sentence += f"; checked on {check}"
+        from .usgs_topo import label
+        sentence += f"; checked on {label(check)}"
     if recipe.get("note"):
         sentence += f". {recipe['note']}"
     props["geometry_confidence"] = "approximate" if approximate else "digitized"
@@ -204,7 +219,7 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     else:
         props.pop("georeference", None)
     cited = {s["source"] for s in props["sources"]}
-    against = recipe.get("fit", {}).get("true_frame", {}).get("sheet")
+    against = _fit_spec(recipe).get("true_frame", {}).get("sheet")
     for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods)):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})
@@ -215,24 +230,41 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
 
 
 def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
-    """Each feature drawn over the map it was traced from or checked on."""
-    from .usgs_topo import Frame, crop
+    """Each feature drawn over the map it was traced from or checked on. A corrected trace is drawn
+    twice: uncorrected over its own sheet (does it follow the symbol?) and corrected over the sheet
+    it was corrected against (does it land in the right place?)."""
+    from .usgs_topo import Frame, crop, sheet_resolution
+    out.mkdir(parents=True, exist_ok=True)
     tmp = out / f".{group.name}.geojson"
-    for f, recipe in feats:
-        check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
-        if not check:
-            continue
+
+    def draw(f: dict, sheet: str, name: str) -> None:
         cs = f["geometry"]["coordinates"]
         cs = [cs] if f["geometry"]["type"] == "Point" else cs
         xs, ys = [c[0] for c in cs], [c[1] for c in cs]
         pad = 0.003
         bbox = (min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad)
         span_m = max((bbox[2] - bbox[0]) * 88_000, (bbox[3] - bbox[1]) * 111_000)
-        from .usgs_topo import sheet_resolution
-        zoom = min(2.0, max(0.25, sheet_resolution(check) * 1400 / span_m))
-        out.mkdir(parents=True, exist_ok=True)
+        zoom = min(2.0, max(0.25, sheet_resolution(sheet) * 1400 / span_m))
         tmp.write_text(json.dumps({"type": "FeatureCollection", "features": [f]}))
-        crop(Frame(check, bbox, round(zoom, 2)), out / f"{f['properties']['id']}.png", overlay=[tmp])
+        crop(Frame(sheet, bbox, round(zoom, 2)), out / f"{name}.png", overlay=[tmp])
+
+    for f, recipe in feats:
+        check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
+        if not check:
+            continue
+        fid = f["properties"]["id"]
+        spec = _fit_spec(recipe)
+        if spec:
+            raw = {**recipe, "fit": None}
+            props = json.loads(json.dumps(f["properties"]))
+            kept = BUILT.get(fid)
+            geom = apply_recipe(props, raw, "point" if f["geometry"]["type"] == "Point" else "segment")
+            if kept is not None:
+                BUILT[fid] = kept  # joins use the corrected geometry
+            draw({"type": "Feature", "properties": {"id": f"{fid} (as traced)"}, "geometry": geom}, check, fid)
+            draw(f, spec["true_frame"]["sheet"], f"{fid}-corrected")
+        else:
+            draw(f, check, fid)
     tmp.unlink(missing_ok=True)
 
 
@@ -241,8 +273,12 @@ def main() -> None:
     ap.add_argument("--review", type=Path, help="draw each feature over its map into this folder")
     ap.add_argument("--only", nargs="*", help="only these feature ids")
     a = ap.parse_args()
+    shared = PAST / "fits.json"
+    if shared.exists():
+        FITS.update({k: v for k, v in json.loads(shared.read_text()).items() if not k.startswith("$")})
     for group in sorted(p for p in PAST.glob("*") if (p / "trace.json").exists()):
         recipes = json.loads((group / "trace.json").read_text())
+        FITS.update(recipes.get("fits", {}))
         done = []
         for file, key, kind in (("segments.geojson", "segments", "segment"), ("points.geojson", "points", "point")):
             path = group / file

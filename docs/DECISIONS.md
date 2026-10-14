@@ -72,6 +72,31 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       once the present network has dates (Phase 2b, `present/extensions.json`).
     - Code: `pipeline/transit_pipeline/side_by_side.py` and the `off` property in `data/app/`.
 
+## Made by Matthew (2026-10-14, Phase 2 planning)
+
+11. **Book dates go in now, flagged.**
+    - Most Key System and Red Train dates rest on Demoro's *The Key Route* (1985) and Ford's *Red Trains
+      in the East Bay* (1977). Their page numbers are known only as Wikipedia gives them.
+    - Such dates are entered with the book cited, the page as given, and the flag `page_unverified`;
+      the panel says the page hasn't been checked in the book yet.
+    - A free primary source wins wherever one exists: California Railroad Commission decisions, trade
+      journals, newspapers of the day. Matthew checks the book pages later (the page-check list).
+12. **I trace; Matthew spot-checks.**
+    - A segment that a cited source places on a named street follows that street's centerline today
+      (Overture), checked on the USGS sheet of its period: `street-centerline`.
+    - Private right-of-way (piers and moles, cuts, trestles) is traced by eye from USGS GeoTIFFs,
+      with the hand-read points centred on the line symbol: `geotiff`. Where the sheet is
+      misregistered, the trace is corrected by a fit to control points: `similarity`.
+    - Both are `digitized`, with `georeference` `{map, method, est_error_m}` and, for a fit, its shift,
+      RMS and controls. What can't be confirmed is `approximate` (dashed).
+    - Every geometry is rebuilt from a recipe (`data/past/<group>/trace.json`) by `make past`, so it
+      can be redone and reviewed; `make past-review` draws each feature over its map for the
+      spot-check list.
+    - Measured on Oct 14: the 1:24,000 sheets of 1947–49 match today's streets within a few metres.
+      The 15-minute sheets of 1895–1915 are misplaced by up to a few hundred metres (Yerba Buena
+      Island sits about 210 m too far south on the 1915 San Francisco sheet), so traces from them are
+      corrected against features unchanged on a 1:24,000 sheet, and carry an error of about 50 m.
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**

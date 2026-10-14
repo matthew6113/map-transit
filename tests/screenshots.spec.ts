@@ -6,6 +6,8 @@ import { mkdirSync } from 'node:fs';
 import { test, type Page } from '@playwright/test';
 
 const DIR = process.env.SHOTS_DIR ?? 'docs/screenshots/p0';
+// SHOTS_ONLY=past- takes only the views whose names match (a regular expression).
+const ONLY = new RegExp(process.env.SHOTS_ONLY ?? '');
 
 const VIEWS: { name: string; url: string; width?: number; height?: number }[] = [
   { name: 'present-regional', url: '/?test=1' },
@@ -42,7 +44,7 @@ async function settle(page: Page) {
   await page.waitForTimeout(5500);
 }
 
-for (const v of VIEWS) {
+for (const v of VIEWS.filter((x) => ONLY.test(x.name))) {
   test(`screenshot ${v.name}`, async ({ browser }) => {
     test.setTimeout(300_000);
     mkdirSync(DIR, { recursive: true });

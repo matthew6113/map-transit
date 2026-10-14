@@ -94,6 +94,12 @@ SHEETS = [
 BY_ID = {s.id: s for s in SHEETS}
 
 
+def label(sheet_id: str) -> str:
+    """'USGS San Francisco 1:62,500 (1915)', for method text."""
+    s = BY_ID[sheet_id]
+    return f"USGS {s.quad} 1:{s.scale:,} ({s.edition})"
+
+
 def _proj_grid() -> None:
     """Make NADCON available to PROJ (downloaded once, checked against its pinned hash)."""
     name, url, digest = NADCON

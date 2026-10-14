@@ -1,0 +1,68 @@
+{
+  "$comment": "Geometry recipes for data/past/key-system (decision 12): `make past` rebuilds each geometry from these. Pixels are read off the named crop of a USGS sheet (transit_pipeline.usgs_topo crop SHEET OUT --bbox=... --zoom=...).",
+  "segments": {
+    "key-pier": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.36,
+              37.812,
+              -122.294,
+              37.829
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              1497.6,
+              145.5
+            ],
+            [
+              409.4,
+              433.8
+            ]
+          ],
+          "snap": 8,
+          "straight": true
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.352,
+              37.8125,
+              -122.341,
+              37.8185
+            ],
+            "zoom": 3
+          },
+          "px": [
+            [
+              420,
+              205
+            ],
+            [
+              330,
+              215
+            ],
+            [
+              280,
+              210
+            ],
+            [
+              215,
+              190
+            ]
+          ],
+          "snap": 8
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 50,
+      "note": "The trestle runs straight from the shore, then curves to the ferry terminal"
+    }
+  },
+  "points": {}
+}
