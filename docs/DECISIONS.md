@@ -151,7 +151,10 @@ Choices made so far, newest last within each section. A decision waiting on Matt
   share the subway, and the F on Market St stays apart from the subway under it (different modes).
 - **Past-era colors follow the mode of the year** (Matthew, Oct 14). Where past lines use present
   track (decision 13), the track draws in the mode of the line using it at each year, so Muni's
-  Twin Peaks Tunnel draws as a streetcar before 1980 and as light rail after.
+  Twin Peaks Tunnel draws as a streetcar before 1980 and as light rail after. Today's lines that
+  changed mode themselves carry an `earlier_mode` in `extensions.json`: the N until February 18,
+  1980, the K until June 11, 1980, the L and M until December 17, 1980 and the J until June 17,
+  1981, the days their weekday Metro service began (Callwell).
 - **Stations borrow from their track.** A station with no date of its own shows from when the track
   it stands on opened (the earliest, at a junction), drawn as borrowed. Stations that opened apart
   from their track carry their own dates (BART's Embarcadero, 1976; West Dublin/Pleasanton, 2011).

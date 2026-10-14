@@ -1238,6 +1238,14 @@
                 "opened"
               ],
               "pages": "32"
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "general"
+              ],
+              "pages": "59",
+              "note": "June 17, 1981: \"The J Church line begins weekday Metro service, the last of the streetcar lines to do so.\""
             }
           ],
           "route_from": {
@@ -1257,6 +1265,11 @@
               "from": "1991-08-31",
               "note": "The J reached Balboa Park with its extension from 30th St, from August 31, 1991 (Callwell p. 70)."
             }
+          },
+          "earlier_mode": {
+            "mode": "streetcar",
+            "to": "1981-06-17",
+            "note": "A streetcar line until its weekday Metro service began on June 17, 1981, the last to change. Weekend streetcars (PCCs) ran until September 19, 1982 (Callwell p. 61)."
           }
         },
         "muni-k": {
@@ -1268,6 +1281,14 @@
                 "opened"
               ],
               "pages": "34"
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "general"
+              ],
+              "pages": "58",
+              "note": "December 17, 1980: \"The K, L, and M lines begin full weekday Metro service. The K line had begun weekday LRV service for all three West-of-Twin-Peaks lines from St. Francis Circle to the Embarcadero Station on June 11th of that year, with LRVs, PCCs, and buses providing the service on the three lines west of Twin Peaks, in various configurations, until December.\""
             }
           ],
           "route_from": {
@@ -1283,6 +1304,11 @@
               "from": "1980-06-11",
               "note": "Weekday light rail service in the subway from June 11, 1980 (Callwell p. 58)."
             }
+          },
+          "earlier_mode": {
+            "mode": "streetcar",
+            "to": "1980-06-11",
+            "note": "A streetcar line until it began weekday light rail service on June 11, 1980, the first of the three lines west of Twin Peaks; until December 17 light rail vehicles, streetcars and buses shared their service. Weekend streetcars (PCCs) ran until September 19, 1982 (Callwell p. 61)."
           }
         },
         "muni-l": {
@@ -1294,6 +1320,14 @@
                 "opened"
               ],
               "pages": "35"
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "general"
+              ],
+              "pages": "58",
+              "note": "December 17, 1980: \"The K, L, and M lines begin full weekday Metro service. The K line had begun weekday LRV service for all three West-of-Twin-Peaks lines from St. Francis Circle to the Embarcadero Station on June 11th of that year, with LRVs, PCCs, and buses providing the service on the three lines west of Twin Peaks, in various configurations, until December.\""
             }
           ],
           "route_from": {
@@ -1317,6 +1351,11 @@
               "from": "1937",
               "note": "Extended to Wawona & 46th Ave in 1937 (Callwell p. 35)."
             }
+          },
+          "earlier_mode": {
+            "mode": "streetcar",
+            "to": "1980-12-17",
+            "note": "A streetcar line until full weekday Metro service began on December 17, 1980. Weekend streetcars (PCCs) ran until September 19, 1982 (Callwell p. 61)."
           }
         },
         "muni-m": {
@@ -1328,6 +1367,14 @@
                 "opened"
               ],
               "pages": "36"
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "general"
+              ],
+              "pages": "58",
+              "note": "December 17, 1980: \"The K, L, and M lines begin full weekday Metro service. The K line had begun weekday LRV service for all three West-of-Twin-Peaks lines from St. Francis Circle to the Embarcadero Station on June 11th of that year, with LRVs, PCCs, and buses providing the service on the three lines west of Twin Peaks, in various configurations, until December.\""
             }
           ],
           "route_from": {
@@ -1343,6 +1390,11 @@
               "from": "1980-12-17",
               "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."
             }
+          },
+          "earlier_mode": {
+            "mode": "streetcar",
+            "to": "1980-12-17",
+            "note": "A streetcar line until full weekday Metro service began on December 17, 1980. Weekend streetcars (PCCs) ran until September 19, 1982 (Callwell p. 61)."
           }
         },
         "muni-n": {
@@ -1354,6 +1406,14 @@
                 "opened"
               ],
               "pages": "37"
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "general"
+              ],
+              "pages": "57",
+              "note": "February 18, 1980: \"Weekday Metro service begins on the N Judah line, with the new light rail vehicles operating in the subway beneath Market St.\""
             }
           ],
           "route_from": {
@@ -1361,6 +1421,11 @@
               "from": "1998-08-22",
               "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90)."
             }
+          },
+          "earlier_mode": {
+            "mode": "streetcar",
+            "to": "1980-02-18",
+            "note": "A streetcar line until its weekday Metro service began on February 18, 1980. Weekend streetcars (PCCs) ran until September 19, 1982 (Callwell p. 61)."
           }
         },
         "muni-t": {

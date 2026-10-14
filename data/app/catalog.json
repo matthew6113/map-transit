@@ -12006,6 +12006,7 @@
           "source": "sfmta-callwell-chronology",
           "supports": [
             "opened",
+            "general",
             "route"
           ],
           "pages": "32"
@@ -12268,6 +12269,7 @@
           "source": "sfmta-callwell-chronology",
           "supports": [
             "opened",
+            "general",
             "route"
           ],
           "pages": "34"
@@ -12521,6 +12523,7 @@
           "source": "sfmta-callwell-chronology",
           "supports": [
             "opened",
+            "general",
             "route"
           ],
           "pages": "35"
@@ -12870,7 +12873,8 @@
           "accessed": "2026-10-14",
           "source": "sfmta-callwell-chronology",
           "supports": [
-            "opened"
+            "opened",
+            "general"
           ],
           "pages": "36"
         },
@@ -13129,6 +13133,7 @@
           "source": "sfmta-callwell-chronology",
           "supports": [
             "opened",
+            "general",
             "route"
           ],
           "pages": "37"

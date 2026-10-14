@@ -248,6 +248,14 @@ def main() -> None:
                     lc = decimal_year(r.get("to") or line["closed"])
                     if lo is not None and lc is not None:
                         past_uses.append((lo, lc, line["mode"], line["opened"] or "9999"))
+                # Today's lines that ran in another mode before (Muni's streetcars before Metro).
+                for line, r in spans.get(sid, []):
+                    em = line.get("earlier_mode")
+                    if em and line["era"] == "present":
+                        lo = decimal_year(r.get("from") or line["opened"])
+                        lc = min(decimal_year(em["to"]), decimal_year(r["to"]) if r.get("to") else math.inf)
+                        if lo is not None and lc > lo:
+                            past_uses.append((lo, lc, em["mode"], line["opened"] or "9999"))
             historic, own = mode_spans(o, c, past_uses)
             if historic:
                 past_mode_spans[sid] = (historic, base)

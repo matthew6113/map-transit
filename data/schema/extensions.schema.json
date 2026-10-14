@@ -281,10 +281,47 @@
               }
             }
           }
+        },
+        "earlier_mode": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "mode",
+            "to",
+            "note"
+          ],
+          "description": "The line's mode before today's, until a date: Muni's J, K, L, M and N ran as streetcars until their Metro service began. The past era draws its track in that mode until then.",
+          "properties": {
+            "mode": {
+              "enum": [
+                "rapid_transit",
+                "railroad",
+                "commuter_rail",
+                "intercity_rail",
+                "interurban",
+                "streetcar",
+                "cable",
+                "light_rail",
+                "people_mover",
+                "ferry",
+                "brt",
+                "heritage"
+              ]
+            },
+            "to": {
+              "$ref": "#/$defs/date"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
         }
       },
       "dependentRequired": {
         "opened": [
+          "sources"
+        ],
+        "earlier_mode": [
           "sources"
         ]
       }

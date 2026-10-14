@@ -217,7 +217,9 @@ today's lines were opened in stages, and `extensions.py` applies it in `make app
 - **`dates`**, by segment id: a whole present segment dated as it is, with no cut (BRT lanes).
 - **In the past era, present track draws in the mode of the year.** Where past lines use it
   (decision 13), `build.py` (`mode_spans`) splits its drawing into spans: the past line's mode while
-  it ran (`past-draw`, `span: 1`), today's mode for the rest (`present-draw`).
+  it ran (`past-draw`, `span: 1`), today's mode for the rest (`present-draw`). A present line's
+  **`earlier_mode`** `{mode, to, note}` does the same for a line that changed mode itself: Muni's J,
+  K, L, M and N draw as streetcars until their Metro service began (1980–81, Callwell).
 - **Dates come from official sources only,** as for the future era; a dataset may place a cut point.
   An agency's date announced before the day counts, and the notes say it was announced. Tests check
   both rules and that every null stretch says why.

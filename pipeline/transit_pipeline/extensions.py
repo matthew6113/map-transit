@@ -214,6 +214,8 @@ def _position(seg, line_geom) -> tuple[int, float]:
 
 
 def _line_dates(line: dict, spec_line: dict) -> None:
+    if spec_line.get("earlier_mode"):  # build.py draws its track in that mode until then
+        line["earlier_mode"] = spec_line["earlier_mode"]
     if spec_line.get("opened"):
         line["opened"] = spec_line["opened"]
         line["flags"] = [f for f in line["flags"] if f != "opened_unsourced"]

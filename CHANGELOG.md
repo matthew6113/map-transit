@@ -2,6 +2,13 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, Muni's streetcar years
+
+- Today's J, K, L, M and N now draw as streetcar lines in the past era until their weekday Metro
+  service began: the N on February 18, 1980, the K on June 11, 1980, the L and M on December 17,
+  1980 and the J on June 17, 1981 (Callwell). A new `earlier_mode` on present lines in
+  `extensions.json` does this.
+
 ## 2026-10-14: Phase 2b, Muni's first streetcar lines
 
 - **A Geary–10th Ave** (1912–1932), **B Geary** (1912–1956) and **E Union** (1913–1947), from

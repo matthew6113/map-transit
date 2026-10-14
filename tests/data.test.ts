@@ -449,9 +449,19 @@ describe('app files (data/app/)', () => {
     const past: Span[] = read(join(DATA, 'app', 'past-draw.geojson')).features.filter((f: Span) => f.properties.span);
     const present: Span[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
     const pastLines = folders.filter((f) => f.era === 'past').flatMap((f) => f.lines);
+    // Today's lines that ran in another mode before (Muni's streetcars before Metro) count too.
+    const extPath = join(DATA, 'present', 'extensions.json');
+    const ext: { systems: Record<string, { lines?: Record<string, { earlier_mode?: unknown }> }> } = existsSync(extPath) ? read(extPath) : { systems: {} };
+    const earlier = new Set(Object.values(ext.systems).flatMap((s) => Object.entries(s.lines ?? {}).filter(([, l]) => l.earlier_mode).map(([id]) => id)));
+    const presentUse = new Map<string, Set<string>>();
+    for (const f of read(join(DATA, 'app', 'present-lines.geojson')).features as { properties: { seg: string; line: string } }[]) {
+      if (!presentUse.has(f.properties.seg)) presentUse.set(f.properties.seg, new Set());
+      presentUse.get(f.properties.seg)!.add(f.properties.line);
+    }
     for (const f of past) {
       const p = f.properties;
-      const users = pastLines.filter((l) => l.route.some((r) => r.segment === p.seg));
+      const users = [...pastLines.filter((l) => l.route.some((r) => r.segment === p.seg)).map((l) => l.id),
+                     ...[...(presentUse.get(p.seg) ?? [])].filter((id) => earlier.has(id))];
       expect(users.length, `${p.seg}: drawn in a past mode, but no past line uses it`).toBeGreaterThan(0);
       const own = present.filter((x) => x.properties.seg === p.seg);
       for (const x of own) {
