@@ -10,8 +10,10 @@ Data changes, newest first. Code changes are in the git log.
   sources don't place their routes.
 - **The Southern Pacific's Red Trains / Interurban Electric Railway** (`data/past/sp-east-bay/`):
   the Shattuck Avenue, Ninth Street, Seventh Street, Encinal Avenue and Lincoln Avenue lines, the
-  Oakland and Alameda moles, and four stations. Their opening dates aren't sourced to a primary
-  source yet, so they don't show on the year slider.
+  Oakland and Alameda moles, and four stations. Openings from the San Francisco Call and the
+  Electric Railway Journal (1911): Encinal Avenue June 1, Seventh Street December 1 (to Melrose),
+  Lincoln Avenue December 19 (as announced), Shattuck Avenue December 23. The Ninth Street line's
+  opening (planned for February 3, 1912) isn't confirmed, so it stays off the year slider.
 - **The Bay Bridge railway** (`data/past/bay-bridge/`), 1939–1958: the Transbay Terminal loop, the
   bridge's lower deck, the East Bay approach and the Interurban's lead to 26th Street, and the
   Transbay Terminal.

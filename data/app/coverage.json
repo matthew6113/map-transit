@@ -7,13 +7,13 @@
       "approximate": 9.1,
       "digitized": 74.3
     },
-    "undated_segments": 15,
+    "undated_segments": 4,
     "borrowed_dates": 26,
     "flags": {
       "closed_unsourced": 30,
       "geometry_unverified": 4,
       "needs_manual_digitizing": 7,
-      "opened_unsourced": 34,
+      "opened_unsourced": 30,
       "page_unverified": 1
     }
   },

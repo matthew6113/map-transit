@@ -1980,7 +1980,7 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "The 465-ft tunnel under The Circle is part of this segment; drawn as surface for now."
+          "notes": "The 465-ft tunnel under The Circle is part of this segment; drawn as surface for now. Part of the loop to Thousand Oaks, planned to open February 3, 1912 (San Francisco Call, February 2, 1912); its opening isn't confirmed, so it borrows its lines' dates."
         }
       ],
       "sources": [
@@ -2278,6 +2278,20 @@
           ],
           "pages": "462",
           "note": "\"a tunnel 465 ft. long in North Berkeley, where the line passes under a point from which several streets radiate\""
+        },
+        {
+          "id": "sf-call-1912-02-02-p9",
+          "title": "Two Trial Trains to Be Operated by S. P., The San Francisco Call, 1912-02-02, p. 9",
+          "publisher": "The San Francisco Call",
+          "date": "1912-02-02",
+          "url": "https://www.loc.gov/resource/sn85066387/1912-02-02/ed-1/?sp=9",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1912-02-02-p9",
+          "supports": [
+            "route"
+          ]
         }
       ]
     },
@@ -2302,7 +2316,7 @@
       "mode_label": "Interurban",
       "group": "interurban",
       "era": "past",
-      "opened": null,
+      "opened": "1911-06-01",
       "closed": "1941-01",
       "status": "closed",
       "status_label": "Closed",
@@ -2316,12 +2330,11 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue.",
       "flags": [
-        "opened_unsourced",
         "needs_manual_digitizing"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 30.93,
       "confidence_km": {
         "approximate": 5.93,
@@ -2353,7 +2366,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
           "structure": "mole",
@@ -2472,7 +2485,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Central Avenue centerline from Webster Street to Encinal Avenue (1150 m; Overture 2026-09-23.1); then along today's Encinal Avenue centerline from Central Avenue to High Street (3102 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Central Avenue and Encinal Avenue.",
           "structure": "street",
@@ -2632,6 +2645,21 @@
           "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         },
         {
+          "id": "sf-call-1911-06-02-p8",
+          "title": "Travel Opens on Electric System, The San Francisco Call, 1911-06-02, p. 8",
+          "publisher": "The San Francisco Call",
+          "date": "1911-06-02",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-06-02/ed-1/?sp=8",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-06-02-p8",
+          "supports": [
+            "opened"
+          ],
+          "note": "The \"south side electric line\" opened in part on June 1, 1911, from High Street to the Alameda mole (San Francisco Call, June 3)."
+        },
+        {
           "id": "usgs-san-francisco-1915",
           "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
           "author": "U.S. Geological Survey",
@@ -2781,7 +2809,7 @@
       "mode_label": "Interurban",
       "group": "interurban",
       "era": "past",
-      "opened": null,
+      "opened": "1911-12-19",
       "closed": "1941-01",
       "status": "closed",
       "status_label": "Closed",
@@ -2795,12 +2823,11 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out.",
       "flags": [
-        "opened_unsourced",
         "needs_manual_digitizing"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 30.07,
       "confidence_km": {
         "approximate": 5.93,
@@ -2832,7 +2859,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
           "structure": "mole",
@@ -2951,7 +2978,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Lincoln Avenue centerline from Webster Street to Park Street (3389 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Lincoln Avenue.",
           "structure": "street",
@@ -3094,6 +3121,22 @@
           ],
           "pages": "5–6",
           "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
+          "id": "sf-call-1911-12-19-p9",
+          "title": "New Train Service Will Begin Today, The San Francisco Call, 1911-12-19, p. 9",
+          "publisher": "The San Francisco Call",
+          "date": "1911-12-19",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-12-19/ed-1/?sp=9",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-12-19-p9",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "note": "Announced the day before: electric service on the \"horseshoe route\" from the Oakland pier to the Alameda pier, by way of Lincoln Avenue, beginning the morning of December 19, 1911."
         },
         {
           "id": "usgs-san-francisco-1915",
@@ -3259,7 +3302,7 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: service over the loop by Solano Avenue to Ninth Street was planned to begin on Saturday, February 3, 1912, \"if the trials justify\" (San Francisco Call, February 2, 1912); no report of the day itself has been found. Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked.",
       "flags": [
         "opened_unsourced"
       ],
@@ -3298,7 +3341,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
           "structure": "mole",
@@ -3315,7 +3358,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-oakland-mole at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain.",
           "structure": "surface",
@@ -3402,7 +3445,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-16th-st-26th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points). North by Wood Street to 34th Street.",
           "structure": "surface",
@@ -3417,7 +3460,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-26th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
           "structure": "surface",
@@ -3470,7 +3513,8 @@
             "opened_unsourced",
             "closed_unsourced",
             "geometry_unverified"
-          ]
+          ],
+          "notes": "Part of the loop to Thousand Oaks, planned to open February 3, 1912 (San Francisco Call, February 2, 1912); its opening isn't confirmed, so it borrows its lines' dates."
         },
         {
           "id": "sp-solano-ave-west",
@@ -3485,7 +3529,8 @@
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "Part of the loop to Thousand Oaks, planned to open February 3, 1912 (San Francisco Call, February 2, 1912); its opening isn't confirmed, so it borrows its lines' dates."
         }
       ],
       "sources": [
@@ -3604,6 +3649,21 @@
           ],
           "pages": "5–6",
           "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
+          "id": "sf-call-1912-02-02-p9",
+          "title": "Two Trial Trains to Be Operated by S. P., The San Francisco Call, 1912-02-02, p. 9",
+          "publisher": "The San Francisco Call",
+          "date": "1912-02-02",
+          "url": "https://www.loc.gov/resource/sn85066387/1912-02-02/ed-1/?sp=9",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1912-02-02-p9",
+          "supports": [
+            "general",
+            "route"
+          ]
         },
         {
           "id": "usgs-oakland-west-1949",
@@ -4628,7 +4688,7 @@
       "mode_label": "Interurban",
       "group": "interurban",
       "era": "past",
-      "opened": null,
+      "opened": "1911-12",
       "closed": "1941-03",
       "status": "closed",
       "status_label": "Closed",
@@ -4642,12 +4702,11 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Electric service replaced steam at the end of December 1911 (San Francisco Call, December 31, 1911); the first electric day isn't stated. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears.",
       "flags": [
-        "opened_unsourced",
         "needs_manual_digitizing"
       ],
-      "undated": true,
+      "undated": false,
       "length_km": 26.26,
       "confidence_km": {
         "approximate": 5.93,
@@ -4679,7 +4738,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
           "structure": "mole",
@@ -4796,14 +4855,15 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Bancroft Avenue centerline from 106th Avenue to Dutton Avenue (1020 m; Overture 2026-09-23.1); checked on USGS San Leandro 1:24,000 (1948). In Bancroft Avenue.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "Opened after September 1913 (when the line still ended at Melrose); the year isn't sourced, so it's shown with the line's dates."
         }
       ],
       "sources": [
@@ -4956,6 +5016,52 @@
           "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         },
         {
+          "id": "sf-call-1911-12-02-p17",
+          "title": "S.P. Commences Electric Service, The San Francisco Call, 1911-12-02, p. 17",
+          "publisher": "The San Francisco Call",
+          "date": "1911-12-02",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-12-02/ed-1/?sp=17",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-12-02-p17",
+          "supports": [
+            "opened"
+          ],
+          "note": "The first regular electric trains ran on December 1, 1911 (the issue of December 2 says \"today\"; the dateline is garbled in the OCR), alternating with steam trains."
+        },
+        {
+          "id": "erj-1911-12-16-sp-seventh-st",
+          "title": "News of electric railways: Southern Pacific Company, Oakland",
+          "publisher": "Electric Railway Journal 38",
+          "date": "1911-12-16",
+          "url": "https://archive.org/details/transit-journal-1932_1911-12-16_38_25",
+          "type": "journal",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "erj-1911-12-16-sp-seventh-st",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1262"
+        },
+        {
+          "id": "sf-call-1913-09-06-p7",
+          "title": "Southern Pacific timetable, The San Francisco Call, 1913-09-06, p. 7",
+          "publisher": "The San Francisco Call",
+          "date": "1913-09-06",
+          "url": "https://www.loc.gov/resource/sn85066387/1913-09-06/ed-1/?sp=7",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1913-09-06-p7",
+          "supports": [
+            "route"
+          ],
+          "note": "In September 1913 the electric trains still ended at Melrose."
+        },
+        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -5091,7 +5197,7 @@
       "mode_label": "Interurban",
       "group": "interurban",
       "era": "past",
-      "opened": null,
+      "opened": "1911-12-23",
       "closed": "1941-07",
       "status": "closed",
       "status_label": "Closed",
@@ -5105,11 +5211,9 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked.",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed.",
+      "flags": [],
+      "undated": false,
       "length_km": 25.83,
       "confidence_km": {
         "approximate": 0.63,
@@ -5149,7 +5253,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
           "structure": "mole",
@@ -5166,7 +5270,7 @@
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-oakland-mole at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain.",
           "structure": "surface",
@@ -5253,7 +5357,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-16th-st-26th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points). North by Wood Street to 34th Street.",
           "structure": "surface",
@@ -5268,7 +5372,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-26th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
           "structure": "surface",
@@ -5283,7 +5387,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Stanford Avenue centerline from Hollis Street to Adeline Street (1781 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). The private right of way ran beside the avenue (on its south side, as the 1949 sheet draws it); drawn on the avenue's centerline.",
           "structure": "surface",
@@ -5298,7 +5402,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Adeline Street centerline from Stanford Avenue to Shattuck Avenue (1460 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). Private right of way along Adeline Street; drawn on the street's centerline.",
           "structure": "surface",
@@ -5381,7 +5485,7 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "The 465-ft tunnel under The Circle is part of this segment; drawn as surface for now."
+          "notes": "The 465-ft tunnel under The Circle is part of this segment; drawn as surface for now. Part of the loop to Thousand Oaks, planned to open February 3, 1912 (San Francisco Call, February 2, 1912); its opening isn't confirmed, so it borrows its lines' dates."
         },
         {
           "id": "sp-solano-ave-east",
@@ -5389,14 +5493,15 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Solano Avenue centerline from The Alameda to Colusa Avenue (218 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "Part of the loop to Thousand Oaks, planned to open February 3, 1912 (San Francisco Call, February 2, 1912); its opening isn't confirmed, so it borrows its lines' dates."
         }
       ],
       "sources": [
@@ -5532,6 +5637,35 @@
           ],
           "pages": "5–6",
           "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
+          "id": "sf-call-1911-12-24-p22",
+          "title": "Steam Cars Are Leaving Street, The San Francisco Call, 1911-12-24, p. 22",
+          "publisher": "The San Francisco Call",
+          "date": "1911-12-24",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-12-24/ed-1/?sp=22",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-12-24-p22",
+          "supports": [
+            "opened"
+          ],
+          "note": "Electric service began, at first only between 9 and 4 o'clock, with steam trains removed the following week."
+        },
+        {
+          "id": "sf-call-1912-02-02-p9",
+          "title": "Two Trial Trains to Be Operated by S. P., The San Francisco Call, 1912-02-02, p. 9",
+          "publisher": "The San Francisco Call",
+          "date": "1912-02-02",
+          "url": "https://www.loc.gov/resource/sn85066387/1912-02-02/ed-1/?sp=9",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1912-02-02-p9",
+          "supports": [
+            "route"
+          ]
         },
         {
           "id": "usgs-oakland-west-1949",

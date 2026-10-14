@@ -190,3 +190,23 @@ CRC decisions (California public records, cited for facts):
 for D12906, D16083, D16536, D17028, D17743, D25740; `…/Decisions_D25901_to_D40599/` for D27800,
 D28671, D28672, D29614, D29615, D30015, D33445, D33732, D33891, D34053, D34060, D34389, D34460. File
 names are `D<number>_<yyyymmdd>_<docket>.pdf` (e.g. `D34389_19410703_A23312.pdf`).
+
+## Opening dates, checked in the San Francisco Call (Oct 14, 2026)
+
+Read through the Library of Congress OCR; re-read each on the page image before quoting.
+
+| Line | Date | Source | Note |
+|---|---|---|---|
+| Webster Street | June 29, 1911 | SF Call, June 30, 1911, p. 8: "Electric service on the Webster street road of the Southern Pacific during the entire daily schedule went into effect today" | Not drawn yet |
+| Alameda "south side" (Encinal Avenue) | June 1, 1911, in part | SF Call, June 2, 1911, p. 8; June 3, p. 18 ("from High street to the Alameda mole"); ERJ June 17, 1911, p. 1048 | Matched to Encinal by its High Street terminal |
+| Seventh Street | December 1, 1911, in part | SF Call, Dec 2, 1911, p. 17 (dateline garbled); ERJ Dec 16, 1911, p. 1262 ("placed in operation its Seventh Street line in Oakland from the Oakland Pier to Melrose") | Steam ended Dec 30; still ended at Melrose in Sept 1913 (SF Call, Sept 6, 1913, p. 7); the Dutton Avenue extension is undated, and Wikipedia's July 1912 is contradicted |
+| Lincoln Avenue (horseshoe) | December 19, 1911, announced | SF Call, Dec 19, 1911, p. 9 | No report of the day itself |
+| Shattuck Avenue | December 23, 1911, in part | SF Call, Dec 24, 1911, p. 22 | Full electric service the following week |
+| Ellsworth Street | December 28, 1911 | SF Call, Dec 29, 1911, p. 9 | Not drawn; Wikipedia says Jan 3, 1912 |
+| California Street | January 2, 1912, in part | SF Call, Jan 3, 1912, p. 8 | Not drawn; Wikipedia says Jan 3 |
+| Loop to Thousand Oaks, Ninth Street | planned February 3, 1912 | SF Call, Feb 2, 1912, p. 9 | Not confirmed; Wikipedia's Feb 7 cites the Berkeley Gazette |
+| Eighteenth Street (loop line) | announced for March 21, 1912 | SF Call, March 21, 1912, p. 8 | Not drawn; trial March 11 (SF Call, March 12, p. 10) |
+
+Still for Matthew: the Berkeley Gazette of Jan 4 and Feb 8, 1912; the Oakland Tribune issues Wikipedia
+cites; the last days of the California Street and Ellsworth Street lines in 1933 (CRC D25740, or the
+Oakland Post Enquirer of March 25, 1933, p. 2).

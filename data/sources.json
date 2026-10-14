@@ -1134,6 +1134,17 @@
       "notes": "pp. 1048–1053."
     },
     {
+      "id": "erj-1911-12-16-sp-seventh-st",
+      "title": "News of electric railways: Southern Pacific Company, Oakland",
+      "publisher": "Electric Railway Journal 38",
+      "date": "1911-12-16",
+      "url": "https://archive.org/details/transit-journal-1932_1911-12-16_38_25",
+      "type": "journal",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "p. 1262: \"This company has placed in operation its Seventh Street line in Oakland from the Oakland Pier to Melrose.\""
+    },
+    {
       "id": "erj-1912-01-06-statistics",
       "title": "Electric Railway Statistics for 1911",
       "publisher": "Electric Railway Journal 39(1)",
@@ -1315,6 +1326,17 @@
       "notes": "pp. 148–154."
     },
     {
+      "id": "sf-call-1911-06-02-p8",
+      "title": "Travel Opens on Electric System, The San Francisco Call, 1911-06-02, p. 8",
+      "publisher": "The San Francisco Call",
+      "date": "1911-06-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-06-02/ed-1/?sp=8",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Alameda, June 1: \"Southern Pacific company today Inaugurated passenger travel on a part of It's new south side electric line.\" Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
       "id": "sf-call-1911-06-03-p18",
       "title": "The San Francisco Call, June 3, 1911, p. 18",
       "publisher": "The San Francisco Call",
@@ -1337,6 +1359,28 @@
       "notes": "Read through Chronicling America's OCR."
     },
     {
+      "id": "sf-call-1911-12-02-p17",
+      "title": "S.P. Commences Electric Service, The San Francisco Call, 1911-12-02, p. 17",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-02/ed-1/?sp=17",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Oakland (OCR garbled, the issue is Dec 2): \"The first regular electric trains were run on the Seventh street line of the Southern Pacific company today\", alternating with steam trains. Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-12-19-p9",
+      "title": "New Train Service Will Begin Today, The San Francisco Call, 1911-12-19, p. 9",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-19",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-19/ed-1/?sp=9",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Alameda, Dec 18: \"Beginning to morrow morning the Southern Pacific company will inaugurate its new electric train service on the horseshoe route from the Oakland pier to the Alameda pier\", by way of Lincoln Avenue. Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
       "id": "sf-call-1911-12-23-p17",
       "title": "Electric Train Makes Trial Trip, The San Francisco Call, December 23, 1911, p. 17",
       "publisher": "The San Francisco Call",
@@ -1348,6 +1392,17 @@
       "notes": "Dateline Berkeley, Dec 22: \"The first electric train operated by the Southern Pacific company in Berkeley made a trial trip this afternoon\", from the Oakland mole over the Shattuck Avenue line to the city's northern limits."
     },
     {
+      "id": "sf-call-1911-12-24-p22",
+      "title": "Steam Cars Are Leaving Street, The San Francisco Call, 1911-12-24, p. 22",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-24",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-24/ed-1/?sp=22",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Dec 23: \"An incomplete electric service was begun over the Berkeley lines of the Southern Pacific company when a regular electric train made its first trip from the mole at 9 o'clock.\" Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
       "id": "sf-call-1911-12-31-p22",
       "title": "The San Francisco Call, December 31, 1911, p. 22",
       "publisher": "The San Francisco Call",
@@ -1357,6 +1412,28 @@
       "license": "Public domain (published 1911)",
       "accessed": "2026-10-14",
       "notes": "Dateline Oakland, Dec 30: \"For the last time tonight the old familiar locomotive whistle sounded in Seventh street.\""
+    },
+    {
+      "id": "sf-call-1912-02-02-p9",
+      "title": "Two Trial Trains to Be Operated by S. P., The San Francisco Call, 1912-02-02, p. 9",
+      "publisher": "The San Francisco Call",
+      "date": "1912-02-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1912-02-02/ed-1/?sp=9",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Feb 1: trial trains \"will make the loop, taking Shattuck avenue to Northbrae, thence to Ninth street via Main street and Solano avenue\"; \"if the trials justify the departure, the service of electric trains over the loop will be begun Saturday\" (Feb 3, 1912). Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1913-09-06-p7",
+      "title": "Southern Pacific timetable, The San Francisco Call, 1913-09-06, p. 7",
+      "publisher": "The San Francisco Call",
+      "date": "1913-09-06",
+      "url": "https://www.loc.gov/resource/sn85066387/1913-09-06/ed-1/?sp=7",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
       "id": "srj-1904-02-13-key-route-1",
