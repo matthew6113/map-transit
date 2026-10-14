@@ -64,8 +64,12 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     - The open line's drawing and the stations stay on the true path.
     - Today this applies on Market St, on upper Market (the F with Muni Metro), and on short
       side-by-side stretches at SFO, Millbrae and Mountain View.
-    - The past era is left out for now. Phase 2 has to make the slots time-aware, so that lines that
-      never ran together don't push each other aside.
+    - In the past era the slots are time-aware (Phase 2a): two lines count as alongside only if
+      their display dates overlap, so lines that never ran together don't push each other aside. A
+      line that ever shared the path with another mode keeps its slot for its whole life, and an
+      undated line pushes nothing aside.
+    - Present lines drawn in the past era keep their present-era slots. The two datasets are compared
+      once the present network has dates (Phase 2b, `present/extensions.json`).
     - Code: `pipeline/transit_pipeline/side_by_side.py` and the `off` property in `data/app/`.
 
 ## Architecture (2026-10-13)

@@ -144,7 +144,7 @@ def main() -> None:
             return o, c
 
         def segment_years(seg_props, users):
-            """(open_y, close_y, borrowed, undated) for display."""
+            """(open_y, close_y, borrowed, undated) for display, of a segment or a point."""
             if era == "future":
                 return NOT_YET, OPEN_ENDED, False, False
             o = decimal_year(seg_props["opened"])
@@ -181,16 +181,19 @@ def main() -> None:
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": status,
             }})
 
-        # Different modes on the same path, side by side close in (decision 10).
-        paths = Paths(draw) if era != "past" else None
+        # Different modes on the same path, side by side close in (decision 10); in the past era,
+        # only lines that ran at the same time.
+        paths = Paths(draw, timed=era == "past")
 
-        def slots(parts, group):
+        def slots(parts, group, sid):
+            o, c, _, undated = seg_display[sid]
+            span = None if undated else (o, c)
             for part in parts:
-                yield from (paths.split(part, group) if paths else [(part, 0.0)])
+                yield from paths.split(part, group, span)
 
         pieces_out = []
         for f in draw:
-            for coords, off in slots(parts_of(f["geometry"]), f["properties"]["group"]):
+            for coords, off in slots(parts_of(f["geometry"]), f["properties"]["group"], f["properties"]["seg"]):
                 pieces_out.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords},
                                    "properties": {**f["properties"], "fid": len(pieces_out) + 1, "off": off}})
         draw = pieces_out
@@ -208,7 +211,8 @@ def main() -> None:
                     o = max(o or -math.inf, decimal_year(r["from"]))
                 if r.get("to"):
                     c = min(c if c is not None else math.inf, decimal_year(r["to"]))
-                for coords, off in slots(parts, MODE_GROUP[line["mode"]]):
+                # The segment's own dates, so the line's pieces match the drawn ones.
+                for coords, off in slots(parts, MODE_GROUP[line["mode"]], r["segment"]):
                     fid += 1
                     fids.append(fid)
                     line_feats.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords}, "properties": {
@@ -266,20 +270,15 @@ def main() -> None:
             p = f["properties"]
             users = [by_line[i] for i in p["line_ids"] if i in by_line]
             mode = users[0]["mode"] if users else "railroad"
-            if era == "future":
-                o, c = NOT_YET, OPEN_ENDED
-            else:
-                o, c = decimal_year(p["opened"]), decimal_year(p["closed"])
-                if c is None and not p["closed"] and any(u["status"] == "active" for u in users):
-                    c = OPEN_ENDED
-                if o is None:
-                    o = min((y for y in (decimal_year(u["opened"]) for u in users) if y is not None), default=None)
+            # A point borrows null dates from its lines, as a segment does (decision 4).
+            o, c, borrowed, undated = segment_years(p, users)
             point_feats.append({"type": "Feature", "geometry": f["geometry"], "properties": {
                 "fid": fid, "id": p["id"], "name": p["name"], "kind": p["kind"], "era": era,
                 "group": MODE_GROUP[mode], "status": p.get("status", ""),
                 # Delimited both ends, so the map can match one line with ['in', ',id,', lines].
                 "lines": "," + ",".join(p["line_ids"]) + ",",
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
+                "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0,
             }})
 
         write_geojson(APP / f"{era}-draw.geojson", draw)

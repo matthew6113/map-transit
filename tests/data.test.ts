@@ -83,6 +83,13 @@ describe('schemas', () => {
     expect(validators.registry(systems), JSON.stringify(validators.registry.errors)).toBe(true);
   });
 
+  it('list each source and system once', () => {
+    for (const reg of [sources.sources, systems.systems] as { id: string }[][]) {
+      const ids = reg.map((x) => x.id);
+      expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([]);
+    }
+  });
+
   for (const f of folders) {
     const name = f.dir.slice(DATA.length + 1);
     it(`accept ${name}`, () => {
@@ -173,6 +180,68 @@ describe('provenance', () => {
     }
   });
 
+  it('gives every past line the closed status', () => {
+    for (const f of folders.filter((x) => x.era === 'past')) {
+      for (const l of f.lines) expect(l.status, l.id).toBe('closed');
+    }
+  });
+
+  // Dates as precise as their source ('1941', '1941-06', '1941-06-01', circa '1941~'), compared at
+  // the coarser of the two.
+  const atOrBefore = (a: string, b: string) => {
+    const [x, y] = [a.replace(/~$/, ''), b.replace(/~$/, '')];
+    const n = Math.min(x.length, y.length);
+    return x.slice(0, n) <= y.slice(0, n);
+  };
+
+  it('keeps a line\'s use of a segment within the dates of both', () => {
+    for (const f of folders) {
+      const segs = new Map(folders.filter((g) => g.era === f.era).flatMap((g) => g.segments.map((s) => [s.properties.id, s.properties] as const)));
+      for (const l of f.lines) {
+        for (const r of l.route as { segment: string; from?: string | null; to?: string | null }[]) {
+          const seg = segs.get(r.segment)!;
+          const where = `${l.id} on ${r.segment}`;
+          if (r.from && r.to) expect(atOrBefore(r.from, r.to), `${where}: from ${r.from} is after to ${r.to}`).toBe(true);
+          for (const [opened, what] of [[seg.opened, 'segment'], [l.opened, 'line']] as const) {
+            if (r.from && opened) expect(atOrBefore(opened, r.from), `${where}: from ${r.from} is before the ${what} opened (${opened})`).toBe(true);
+          }
+          for (const [closed, what] of [[seg.closed, 'segment'], [l.closed, 'line']] as const) {
+            if (r.to && closed) expect(atOrBefore(r.to, closed), `${where}: to ${r.to} is after the ${what} closed (${closed})`).toBe(true);
+          }
+        }
+      }
+    }
+  });
+
+  it('flags a page cited second-hand only on a record that cites a book (decision 11)', () => {
+    const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+    for (const { kind, p } of all) {
+      if (!p.flags.includes('page_unverified')) continue;
+      expect(p.sources.some((s) => type.get(s.source) === 'book'), `${kind} ${p.id} is flagged page_unverified but cites no book`).toBe(true);
+    }
+  });
+
+  it('records the map behind every traced past geometry, and cites it (decision 12)', () => {
+    const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+    for (const f of folders.filter((x) => x.era === 'past')) {
+      for (const { properties: p } of [...f.segments, ...f.points]) {
+        if (p.geometry_confidence !== 'digitized') continue;
+        const g = p.georeference as { map?: string; method?: string; est_error_m?: number } | undefined;
+        expect(g?.map && g.method && typeof g.est_error_m === 'number', `${p.id} needs georeference {map, method, est_error_m}`).toBe(true);
+        expect(type.get(g!.map!), `${p.id}: ${g!.map} is not a primary map in sources.json`).toBe('primary_map');
+        expect(p.sources.map((s) => s.source), `${p.id} must cite ${g!.map}`).toContain(g!.map);
+      }
+    }
+  });
+
+  it('tags every David Rumsey scan with its license, so features traced from one can be listed (decision 7)', () => {
+    for (const s of sources.sources as { id: string; title: string; publisher?: string; url?: string; license?: string }[]) {
+      if (/rumsey/i.test(`${s.title} ${s.publisher ?? ''} ${s.url ?? ''}`)) {
+        expect(s.license, s.id).toBe('CC BY-NC-SA 3.0 (David Rumsey Map Collection)');
+      }
+    }
+  });
+
   it('only uses public-domain photos', () => {
     for (const { kind, p } of all) {
       const photo = p.photo as { license: string } | undefined;
@@ -226,7 +295,7 @@ describe('app files (data/app/)', () => {
 
   it('give every stroke a slot, and spread Market St\'s three modes apart (decision 10)', () => {
     type Feat = { properties: { off: number; group: string }; geometry: { coordinates: number[][] } };
-    for (const era of ['present', 'future']) {
+    for (const era of ERAS) {
       for (const kind of ['draw', 'lines']) {
         const fs: Feat[] = read(join(DATA, 'app', `${era}-${kind}.geojson`)).features;
         for (const f of fs) {
@@ -250,6 +319,17 @@ describe('app files (data/app/)', () => {
     expect(slots.get('light_rail')).toEqual(new Set([0]));
     expect(slots.get('heavy_rail')).toEqual(new Set([1]));
     expect(slots.get('streetcar')).toEqual(new Set([1]));
+  });
+
+  it('mark points undated or borrowed as they do segments, so past-era points draw (decision 4)', () => {
+    for (const era of ERAS) {
+      for (const f of read(join(DATA, 'app', `${era}-points.geojson`)).features as { properties: Record<string, number> }[]) {
+        const p = f.properties;
+        expect([0, 1], `${era} point ${p.id} undated`).toContain(p.undated);
+        expect([0, 1], `${era} point ${p.id} borrowed`).toContain(p.borrowed);
+        if (!p.undated) expect(p.open_y >= 0 && p.close_y > p.open_y, `${era} point ${p.id} years`).toBe(true);
+      }
+    }
   });
 
   it('resolve every cited source into the catalog', () => {

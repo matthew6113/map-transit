@@ -31,8 +31,10 @@ flattens them into `data/app/`:
   hovering, selecting and drawing the line during the flight.
 - A segment is cut into pieces where it runs alongside a different mode. Each piece's `off` is its slot
   across the path: 0 alone, else -1, 0 or 1 for three modes, and -0.5 or 0.5 for two. Close in, the
-  map spreads the pieces apart by their slot (decision 10).
-- `<era>-points.geojson`: stations and other points.
+  map spreads the pieces apart by their slot (decision 10). In the past era, only lines whose display
+  dates overlap count as alongside.
+- `<era>-points.geojson`: stations and other points. Like the strokes, each carries its display years
+  (`open_y`, `close_y`) and the `borrowed` and `undated` marks (decision 4).
 - `catalog.json`: every line, with its sources resolved, for the panel and the list.
 
 ## Where files live
@@ -59,8 +61,8 @@ not the file. Past-era files are hand-edited.
 | `sources[]` | At least one entry. Each entry is `{source, supports[], pages?, note?}`: `source` is an id in `sources.json`, and `supports` names the facts it backs: `geometry`, `opened`, `closed`, `route`, `fate`, `status`, `expected_opening`, `operator`, `gauge`, `electrification`, `photo`, `name`, `stations` or `general`. |
 | `geometry_confidence` | One of three values, for segments and points: **`surveyed`** (from OSM, OpenHistoricalMap, GTFS or official GIS), **`digitized`** (traced from a georeferenced map) or **`approximate`** (reconstructed from text descriptions; the map draws these dashed). |
 | `geometry_method` | How the geometry was made, specifically enough to redo it. Examples: `OHM way 200015280`; `USGS 1:62,500 San Francisco 1899, TPS fit, RMS 14 m`; `street-routed along Shattuck Ave per Demoro p. 45`; `GTFS shapes.txt, shape 002A_shp`. |
-| `georeference` | For `digitized` geometry: the map, transform, control points and RMS, in the shape BAM's `Similarity.report()` produces. |
-| `flags[]` | What is still open. `opened_unsourced`, `closed_unsourced`, `expected_opening_unsourced`, `status_unverified`, `geometry_unverified`, `needs_manual_digitizing`, `conflicting_sources`, `license_unclear`. |
+| `georeference` | For `digitized` geometry. In the past era (decision 12) it is `{map, method, est_error_m}`: `map` is the `primary_map` source the geometry was traced from or checked against, which the feature also cites; `method` is `geotiff` (traced by eye from a georeferenced scan), `street-centerline` (a surveyed street centerline between cross streets a source names, checked on the map) or `similarity` (a fitted transform); `est_error_m` is the estimated error in metres. A `similarity` fit adds the transform, control points and RMS, in the shape BAM's `Similarity.report()` produces, as BAM's future lines have. |
+| `flags[]` | What is still open. `opened_unsourced`, `closed_unsourced`, `expected_opening_unsourced`, `status_unverified`, `geometry_unverified`, `needs_manual_digitizing`, `page_unverified` (a book's page cited as another work gives it, not yet checked in the book; decision 11), `conflicting_sources`, `license_unclear`. |
 | `notes` | Free text. |
 
 A `sources.json` entry has `id`, `title`, `type`, and optionally `author`, `publisher`, `date`, `url`,
@@ -95,8 +97,11 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
   - A borrowed date is drawn in a lighter tint and stated in the panel. The data keeps the `null`.
   - If none of its lines has a sourced date, the segment is **undated**. It is left off the year
     slider, listed in the slider's note, and still drawn in the ghost overlay.
+  - A point borrows from its lines the same way.
 - A line's `route[]` entry can narrow its use of a segment with `from` and `to`, as when a line ran
-  over a bridge only from 1939 to 1958.
+  over a bridge only from 1939 to 1958. Both fall within the segment's dates and the line's, which a
+  test checks.
+- Every line in `data/past/` has the status `closed`.
 
 ## `lines.json`
 

@@ -14,6 +14,12 @@ compass frame, so two lines running opposite ways agree on who goes where. MapLi
 the right of its own direction, so a slot computed in the piece's own frame needs no flipping.
 
 A crossing street touches a line for only a few dozen metres, under MIN_SHARED_M, so it never jogs.
+
+In the past era the slots are time-aware: two lines count as alongside only if their display dates
+overlap, so a streetcar torn up in 1935 never pushes aside an interurban laid on its street in 1940.
+A line that ever shared the path with another mode is offset for its whole life, and undated features
+(off the slider) push nothing aside. Present lines, which the past era also draws, keep their
+present-era slots: the two datasets are compared once the present network has dates (Phase 2b).
 """
 
 from __future__ import annotations
@@ -41,22 +47,44 @@ def _lines(g) -> list[LineString]:
 
 
 class Paths:
-    """The geometry of each mode group in one era's dataset, in metres."""
+    """The geometry of each mode group in one era's dataset, in metres. With `timed`, each feature
+    keeps its display dates (open_y, close_y), and only features whose dates overlap are compared."""
 
-    def __init__(self, features: list[dict]):
-        by_group: dict[str, list] = {}
+    def __init__(self, features: list[dict], timed: bool = False):
+        self.timed = timed
+        self.items: list[tuple[str, LineString, tuple[float, float] | None]] = []
         for f in features:
+            p = f["properties"]
+            if timed and p["undated"]:
+                continue
+            span = (p["open_y"], p["close_y"]) if timed else None
             for part in _parts(f["geometry"]):
                 if len(part) >= 2:
-                    by_group.setdefault(f["properties"]["group"], []).append(to_metres(LineString(part)))
-        self.geom = {g: unary_union(v) for g, v in by_group.items()}
-        self.zone = {g: geom.buffer(SHARE_M) for g, geom in self.geom.items()}
+                    self.items.append((p["group"], to_metres(LineString(part)), span))
+        self._layers: dict[tuple[int, ...], tuple[dict, dict]] = {}
 
-    def split(self, part: list[list[float]], group: str) -> list[tuple[list[list[float]], float]]:
-        """One line part (lon/lat) as pieces in order, each with its slot `off`."""
+    def layers(self, span: tuple[float, float] | None) -> tuple[dict, dict]:
+        """The geometry and SHARE_M zone of each mode group alive during `span` (all of them when
+        the era isn't timed)."""
+        alive = tuple(i for i, (_, _, s) in enumerate(self.items) if span is None or s is None or _overlap(span, s))
+        if alive not in self._layers:
+            by_group: dict[str, list] = {}
+            for i in alive:
+                by_group.setdefault(self.items[i][0], []).append(self.items[i][1])
+            geom = {g: unary_union(v) for g, v in by_group.items()}
+            self._layers[alive] = (geom, {g: x.buffer(SHARE_M) for g, x in geom.items()})
+        return self._layers[alive]
+
+    def split(self, part: list[list[float]], group: str,
+              span: tuple[float, float] | None = None) -> list[tuple[list[list[float]], float]]:
+        """One line part (lon/lat) as pieces in order, each with its slot `off`. In a timed era,
+        `span` is the feature's display dates, None when it's undated (and never offset)."""
+        if self.timed and span is None:
+            return [(part, 0.0)]
+        geom, zones = self.layers(span)
         line = to_metres(LineString(part))
         runs: dict[str, list[tuple[float, float]]] = {}
-        for h, zone in self.zone.items():
+        for h, zone in zones.items():
             if h == group or not line.intersects(zone):
                 continue
             spans = []
@@ -96,7 +124,7 @@ class Paths:
         out: list[tuple[list[list[float]], float]] = []
         for a, b, alongside in kept:
             seg = substring(line, a, b)
-            off = self._slot(seg, group, alongside) if alongside else 0.0
+            off = _slot(seg, group, alongside, geom) if alongside else 0.0
             coords = round_coords([list(c) for c in to_degrees(seg).coords])
             if out and out[-1][1] == off:
                 out[-1] = (out[-1][0] + coords[1:], off)  # same slot: one piece
@@ -104,19 +132,25 @@ class Paths:
                 out.append((coords, off))
         return out
 
-    def _slot(self, seg: LineString, group: str, alongside: frozenset) -> float:
-        """This piece's place across the path among the modes alongside, centred on zero, to the right
-        of its own direction of travel."""
-        (x0, y0), (x1, y1) = seg.coords[0], seg.coords[-1]
-        forward = (x1 - x0) * CANON[0] + (y1 - y0) * CANON[1] >= 0
-        pos = {group: 0.0}
-        for h in alongside:
-            d = _side(seg, self.geom[h])
-            if abs(d) < TIE_M:  # stacked: by mode order, left to right along the compass frame
-                d = (ORDER.index(h) - ORDER.index(group)) * 1e-3 * (1 if forward else -1)
-            pos[h] = d
-        ranked = sorted(pos, key=lambda g: pos[g])
-        return ranked.index(group) - (len(ranked) - 1) / 2
+
+def _slot(seg: LineString, group: str, alongside: frozenset, geom: dict) -> float:
+    """This piece's place across the path among the modes alongside, centred on zero, to the right
+    of its own direction of travel."""
+    (x0, y0), (x1, y1) = seg.coords[0], seg.coords[-1]
+    forward = (x1 - x0) * CANON[0] + (y1 - y0) * CANON[1] >= 0
+    pos = {group: 0.0}
+    for h in alongside:
+        d = _side(seg, geom[h])
+        if abs(d) < TIE_M:  # stacked: by mode order, left to right along the compass frame
+            d = (ORDER.index(h) - ORDER.index(group)) * 1e-3 * (1 if forward else -1)
+        pos[h] = d
+    ranked = sorted(pos, key=lambda g: pos[g])
+    return ranked.index(group) - (len(ranked) - 1) / 2
+
+
+def _overlap(a: tuple[float, float], b: tuple[float, float]) -> bool:
+    """Two display spans share some time (a line closing the year another opens doesn't count)."""
+    return a[0] < b[1] and b[0] < a[1]
 
 
 def _side(seg: LineString, other) -> float:
