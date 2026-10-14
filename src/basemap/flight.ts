@@ -33,6 +33,8 @@ const HOLD_AT_MS = query.has('test') && query.has('at') ? Number(query.get('at')
 export const SHEET_BREAKPOINT = 720;
 export const PANEL_WIDTH = 400;
 export const SHEET_FRACTION = 0.5;
+/** The narrowest stretch of map a line is fitted into between the title column and the panel. */
+const MIN_FREE_WIDTH = 420;
 
 export const prefersReducedMotion = () =>
   typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -51,7 +53,11 @@ export function panelPadding(map: MapLibreMap): PaddingOptions {
   if (el.clientWidth < SHEET_BREAKPOINT) {
     return { top: 48, right: 0, bottom: Math.round(el.clientHeight * SHEET_FRACTION), left: 0 };
   }
-  return { top: 0, right: Math.min(PANEL_WIDTH, Math.round(el.clientWidth * 0.45)), bottom: 0, left: 0 };
+  const right = Math.min(PANEL_WIDTH, Math.round(el.clientWidth * 0.45));
+  // The title column (eras, slider, lines) covers the left edge; leave it room while the map stays wide enough.
+  const column = document.querySelector('.title')?.getBoundingClientRect();
+  const left = column ? Math.max(0, Math.round(column.right - el.getBoundingClientRect().left)) : 0;
+  return { top: 0, right, bottom: 0, left: el.clientWidth - right - left >= MIN_FREE_WIDTH ? left : 0 };
 }
 
 /** The camera that fits a line's bounds in the part of the map the panel leaves, at the current pitch. */
