@@ -6,6 +6,9 @@ requires-python = ">=3.11,<3.14"
 dependencies = [
     "shapely>=2.1",
     "pyproj>=3.7",
+    "rasterio>=1.4",
+    "pyarrow>=17",
+    "pillow>=10",
 ]
 
 [tool.uv]

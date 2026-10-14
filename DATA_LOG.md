@@ -119,8 +119,48 @@ What it requires:
 
 ## Past era
 
-No past-era data yet. Phase 2 pilots the Key System and the SP Red Trains / Interurban Electric
-Railway.
+No past-era lines yet. Phase 2 pilots the Key System and the SP Red Trains / Interurban Electric
+Railway. The tools for it are below (decision 12).
+
+### USGS Historical Topographic Map Collection
+
+| | |
+|---|---|
+| Status | In use for tracing and checking past geometry (decision 12). Fetched Oct 14, 2026 by `make past`. |
+| Origin | `https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/`, chosen from the HTMC index (`StagedProducts/Maps/Metadata/topomaps_all_legacy.zip`, `topomaps_all.csv`). Each sheet is pinned in `data/usgs-sheets.json` (file, URL, SHA-256, size, CRS) and registered in `data/sources.json` as a `primary_map`. |
+| License | Public domain (U.S. Government work). |
+| Georeferencing | By USGS, to each sheet's neatline, NAD27 polyconic. Shifted to WGS84 with NOAA's NADCON grid (below). Checked against today's streets on Oct 14: the 1:24,000 sheets of 1947–49 fall within a few metres; the 15-minute sheets of 1895–1915 are off by tens of metres and drawn at 1:62,500 (streets about 30 m wide), so traces from them are corrected locally with control points and carry a larger `est_error_m`. |
+| Gaps | The 15-minute sheets show railroads on their own right-of-way, not street railways in the street. Reprints (a later imprint year) are skipped unless they are the only scan. |
+
+| Source id | File | m a pixel | SHA-256 (first 12) |
+|---|---|---|---|
+| `usgs-concord-1897` | CA_Concord_297157_1897_62500_geo.tif | 5.292 | `b7f81ad3986f` |
+| `usgs-concord-1915` | CA_Concord_297163_1915_62500_geo.tif | 5.292 | `c15e2699616d` |
+| `usgs-concord-1942` | CA_Concord_465521_1942_62500_geo.tif | 5.292 | `bc6ab6bfdabb` |
+| `usgs-oakland-east-1949` | CA_Oakland East_293613_1949_24000_geo.tif | 2.032 | `c458649ad474` |
+| `usgs-oakland-west-1949` | CA_Oakland West_293623_1949_24000_geo.tif | 2.032 | `ce44edbc1b54` |
+| `usgs-richmond-1949` | CA_Richmond_294669_1949_24000_geo.tif | 2.032 | `9112f971428f` |
+| `usgs-san-francisco-1899` | CA_San Francisco_298890_1899_62500_geo.tif | 5.292 | `fed0096205c5` |
+| `usgs-san-francisco-1915` | CA_San Francisco_298897_1915_62500_geo.tif | 5.292 | `2faaad04375c` |
+| `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
+
+### NOAA NADCON grid (NAD27 to WGS84)
+
+| | |
+|---|---|
+| Status | In use, to place the USGS sheets (`usgs_topo.py`). |
+| Origin | `us_noaa_conus.tif` from OSGeo's PROJ-data (`https://raw.githubusercontent.com/OSGeo/PROJ-data/master/us_noaa/us_noaa_conus.tif`; cdn.proj.org is blocked from the cloud container). SHA-256 `44611d823c48e5347500ee6afe40ff33d2b88cf817bf59f705ed4a4c3bd687d7`, pinned in the code. Cached in `data/raw/proj/`. |
+| License | Public domain (NOAA), redistributed by PROJ-data under its open license. |
+| Accuracy | About 5 m (EPSG transformation "NAD27 to WGS 84 (79)"). Without it, PROJ falls back to a 10–20 m approximation, so the step stops instead. |
+
+### Overture Maps roads (street centerlines)
+
+| | |
+|---|---|
+| Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in the East Bay box (-122.36, 37.70, -122.15, 37.93). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
+| Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
 ### OpenHistoricalMap
 
@@ -137,7 +177,7 @@ Railway.
 |---|---|---|
 | OpenStreetMap: `railway=abandoned`, `razed`, `disused`; `abandoned:railway` | Candidate | ODbL. Overpass and Geofabrik are blocked from the cloud container, so this runs in GitHub Actions unless Matthew allowlists `overpass-api.de`. |
 | U.S. DOT NTAD North American Rail Network | Candidate | Public domain. Out-of-service arcs; BAM's `ntad_rail.py` fetches it. |
-| USGS Historical Topographic Map Collection | Candidate | Public domain, already georeferenced, 1890s onward. Source for `digitized` geometry. |
+| USGS Historical Topographic Map Collection | In use | See above. |
 | Library of Congress railroad and Sanborn maps | Candidate | Public domain (pre-1929). |
 | David Rumsey Map Collection and Allmaps georeferences | Candidate, fallback only (decision 7) | The scans are CC BY-NC-SA 3.0 (https://davidrumsey.com/about; https://purl.stanford.edu/xh235dd9059). Non-commercial use only; adaptations take the same license; commercial republication needs permission from rumseymapcenter@stanford.edu. Credit: "David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries." Used only where no USGS or Library of Congress map shows the line, and every feature traced from one is tagged with this license. |
 | Demoro, *The Key Route*; Ford, *Red Trains in the East Bay*; Sappers; Western Railway Museum; Market Street Railway; cable-car-guy.com | Candidate | Dates and text routings. The printed books may need page citations from Matthew. |

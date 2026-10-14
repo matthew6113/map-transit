@@ -897,6 +897,123 @@
       "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
       "accessed": "2026-10-14",
       "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
+    },
+    {
+      "id": "overture-roads-2026-09-23-1",
+      "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "Named road segments in (-122.36, 37.7, -122.15, 37.93), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "usgs-concord-1897",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1897",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1897",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297157_1897_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1897. HTMC scan 297157, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 b7f81ad3986f08aa27ab9d466ab300b539afb62eb35e4844b8fe46a8e1f9d1b0."
+    },
+    {
+      "id": "usgs-concord-1915",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297163_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1915. HTMC scan 297163, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 c15e2699616d0fc7376e1a25a9099ab4f244fc252fe7db1cdd69464dcc2451e5."
+    },
+    {
+      "id": "usgs-concord-1942",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, aerial photographs of 1939, edition of 1942. HTMC scan 465521, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 bc6ab6bfdabbc320d14549e91cd3570f28a9d88b19c9ec43369003412aba8075."
+    },
+    {
+      "id": "usgs-oakland-east-1949",
+      "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, surveyed 1947, edition of 1949. HTMC scan 293613, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 c458649ad474e2042577cb15121be71c6625f35eb23454204350c5484a45287a."
+    },
+    {
+      "id": "usgs-oakland-west-1949",
+      "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
+    },
+    {
+      "id": "usgs-richmond-1949",
+      "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 294669, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 9112f971428fd62d3a9195a87b4a3a5189733cc8c49c1ac983375092cf64d36a."
+    },
+    {
+      "id": "usgs-san-francisco-1899",
+      "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1899. HTMC scan 298890, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 fed0096205c5f846e21d329dcd2c0e168d25ef231489e5646022e2a708424a17."
+    },
+    {
+      "id": "usgs-san-francisco-1915",
+      "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1915. HTMC scan 298897, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 2faaad04375cd1513bc360228eeadcc421ea01d6454669c55310f5efc20254bb."
+    },
+    {
+      "id": "usgs-san-leandro-1948",
+      "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Leandro_300123_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
     }
   ]
 }

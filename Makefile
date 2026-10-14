@@ -2,7 +2,7 @@
 
 PY = uv run --directory pipeline python -m
 
-.PHONY: help tools basemap basemap-refresh future-sync present present-refresh app-data data dev build test e2e screenshots perf
+.PHONY: help tools basemap basemap-refresh future-sync present present-refresh past past-review app-data data dev build test e2e screenshots perf
 
 help:
 	@echo "make basemap          Copy BAM's built basemap into public/generated/ and check it against basemap.lock.json"
@@ -10,8 +10,10 @@ help:
 	@echo "make future-sync      Import BAM's future lines at the pinned commit (data/future/bam/)"
 	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment), BRT lanes from OpenStreetMap"
 	@echo "make present-refresh  The same, downloading every feed again"
+	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json): USGS sheets, today's streets"
+	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/p2a/traces/"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"
-	@echo "make data             future-sync, present and app-data"
+	@echo "make data             future-sync, present, past and app-data"
 	@echo "make dev              Dev server on http://127.0.0.1:5173 (proxies BAM's basemap without make basemap)"
 	@echo "make test             Data rules, schemas and theme contrast (Vitest)"
 	@echo "make e2e              Playwright interaction tests"
@@ -39,10 +41,18 @@ present: tools
 present-refresh: tools
 	$(PY) transit_pipeline.gtfs --refresh
 
+past: tools
+	$(PY) transit_pipeline.usgs_topo fetch
+	$(PY) transit_pipeline.streets register
+	$(PY) transit_pipeline.past
+
+past-review: past
+	$(PY) transit_pipeline.past --review ../docs/screenshots/p2a/traces
+
 app-data: tools
 	$(PY) transit_pipeline.build
 
-data: future-sync present app-data
+data: future-sync present past app-data
 
 dev:
 	npx vite --host 127.0.0.1
