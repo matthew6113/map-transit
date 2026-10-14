@@ -277,12 +277,12 @@ export function App() {
 
   const line = openId ? byId.get(openId) : undefined;
   const undated = useMemo(() => {
-    const segs = new Map<string, { id: string; name: string; lines: string[] }>();
+    const segs = new Map<string, { id: string; name: string; system: string; lines: string[] }>();
     for (const l of lines) {
       if (!DATASETS.past.includes(l.era)) continue;
       for (const s of l.segments) {
         if (!s.undated) continue;
-        const u = segs.get(s.id) ?? { id: s.id, name: s.name, lines: [] };
+        const u = segs.get(s.id) ?? { id: s.id, name: s.name, system: l.system_name, lines: [] };
         if (!u.lines.includes(l.name)) u.lines.push(l.name);
         segs.set(s.id, u);
       }

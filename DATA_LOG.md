@@ -191,6 +191,16 @@ The geometry tools are below (decision 12).
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
+### Overture Maps land and water (ferry courses)
+
+| | |
+|---|---|
+| Status | In use, for past ferry routes whose sources give only their terminals (`water.py`). |
+| Origin | Overture Maps base theme, release 2026-09-23.1: coastline-derived land polygons (subtype `land`) and water polygons (ocean, river, water, canal, lake) in the box -122.66, 37.45, -121.85, 38.33. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-base-2026-09-23-1`. |
+| Method | Rasterized at 40 m. A ferry's line is the shortest path over water between its terminals, costing four times as much within 120 m of land (so it keeps mid-channel), simplified and smoothed. Always `approximate` (dashed): a schematic, not the course steered. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Gaps | Today's shores. Land filled since the 1850s (San Francisco's waterfront, the Oakland and Alameda moles, Treasure Island) is land here, so a terminal on fill is joined straight to the nearest water. |
+
 ### OpenHistoricalMap
 
 | | |

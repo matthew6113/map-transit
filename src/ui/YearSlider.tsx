@@ -20,7 +20,7 @@ interface Props {
   onSpeed: (speed: number) => void;
   /** Lines without sourced dates aren't on the slider (decision 4). */
   /** Segments with no sourced dates, and the lines that use them (SPEC: listed under the slider). */
-  undated: { id: string; name: string; lines: string[] }[];
+  undated: { id: string; name: string; system: string; lines: string[] }[];
 }
 
 /**
@@ -28,6 +28,13 @@ interface Props {
  * sweeps from the chosen year to today, and a speed control. With reduced motion, play steps a decade
  * at a time without fades.
  */
+/** The undated segments by system, the largest group first. */
+function bySystem<T extends { system: string }>(items: T[]): [string, T[]][] {
+  const groups = new Map<string, T[]>();
+  for (const u of items) groups.set(u.system, [...(groups.get(u.system) ?? []), u]);
+  return [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+}
+
 export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, undated }: Props) {
   const live = useRef({ year, onYear });
   live.current = { year, onYear };
@@ -94,7 +101,14 @@ export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, u
       {undated.length > 0 && (
         <details class="undated small">
           <summary>{undated.length} {undated.length === 1 ? 'segment has' : 'segments have'} no sourced dates yet and {undated.length === 1 ? 'is' : 'are'} left off the slider.</summary>
-          <ul>{undated.map((u) => <li key={u.id}>{u.name} <span class="muted">({u.lines.join(', ')})</span></li>)}</ul>
+          <div class="groups">
+            {bySystem(undated).map(([system, items]) => (
+              <section key={system}>
+                <h3>{system} <span class="muted">{items.length}</span></h3>
+                <ul>{items.map((u) => <li key={u.id}>{u.name} <span class="muted">({u.lines.join(', ')})</span></li>)}</ul>
+              </section>
+            ))}
+          </div>
         </details>
       )}
     </div>

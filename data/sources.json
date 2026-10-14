@@ -1575,6 +1575,15 @@
       "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
     },
     {
+      "id": "overture-base-2026-09-23-1",
+      "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/base/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "Land (coastline-derived) and water polygons in (-122.66, 37.45, -121.85, 38.33), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=base/. Today's shores, used to draw past ferry routes as the shortest path over water between their sourced terminals."
+    },
+    {
       "id": "overture-rail-2026-09-23-1",
       "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
       "publisher": "Overture Maps Foundation",
