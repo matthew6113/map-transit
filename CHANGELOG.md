@@ -15,7 +15,7 @@ Data changes, newest first. Code changes are in the git log.
 - **The Bay Bridge railway** (`data/past/bay-bridge/`), 1939–1958: the Transbay Terminal loop, the
   bridge's lower deck, the East Bay approach and the Interurban's lead to 26th Street, and the
   Transbay Terminal.
-- In all, 10 lines, 46 segments (74 km traced from a map or along a street, 9 km approximate) and
+- In all, 10 lines, 45 segments (74 km traced from a map or along a street, 9 km approximate) and
   8 points. Dates come from Railroad Commission and CPUC decisions, the Street Railway Journal,
   Railway Age Gazette, Electric Railway Journal, the San Francisco Call, the Oakland Tribune, HAER
   records and California Highways and Public Works. One book page (Demoro p. 104) is cited
