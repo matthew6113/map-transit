@@ -1060,6 +1060,17 @@
       "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
     },
     {
+      "id": "cfc-1913-04-19",
+      "title": "Commercial & Financial Chronicle 96(2495), April 19, 1913: Oakland, Antioch & Eastern",
+      "publisher": "Commercial & Financial Chronicle",
+      "date": "1913-04-19",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_commercial-and-financial-chronicle_1913-04-19_96_2495",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\" (archive.org full-text search; the page image still needs checking)"
+    },
+    {
       "id": "chpw-1939-01-terminal-opened",
       "title": "Bay Bridge Terminal … Officially Opened",
       "publisher": "California Highways and Public Works (California Department of Public Works)",
@@ -1322,6 +1333,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d34232",
+      "title": "Railroad Commission of California, Decision No. 34232 (Application No. 24127)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-05-27",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34232_19410527_A24127.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes the Sacramento Northern to discontinue \"passenger train service between the City and County of San Francisco and Pittsburg\", \"concurrently with and not before the establishment of augmented schedules by Pacific Greyhound Lines\"; recites Decision No. 33416 (August 20, 1940) on West Pittsburg-Sacramento."
+    },
+    {
       "id": "crc-d34389",
       "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
       "author": "Railroad Commission of the State of California",
@@ -1417,6 +1438,17 @@
       "notes": "p. 2: \"the Southern Pacific Company electrified 40 miles of its lines radiating from Oakland, Cal., using the 1200-volt overhead-trolley, direct-current system.\""
     },
     {
+      "id": "erj-1913-04-19-oakland-antioch-eastern",
+      "title": "Oakland, Antioch & Eastern Railway",
+      "publisher": "Electric Railway Journal 41(16)",
+      "date": "1913-04-19",
+      "type": "journal",
+      "url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 726-728: \"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point, Contra Costa County, a distance of 31 miles.\" \"From the main Oakland depot at Fortieth Street and Shafter Avenue, near the Key Route's Piedmont terminus, the Oakland, Antioch & Eastern line extends up Shafter Avenue and crosses the north arm of Lake Temescal. Thence it winds up Shepherd Canyon on a 3 per cent grade to the Redwood Peak Tunnel, which pierces the Coast Range for a distance of 3458 ft.\" Trains used \"the Key Route tracks upon the 2-mile Key Route pier\"."
+    },
+    {
       "id": "golden-gate-ferry-timeline",
       "title": "Golden Gate Ferry timeline",
       "publisher": "Golden Gate Bridge, Highway and Transportation District",
@@ -1475,6 +1507,17 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "joepg-1912-03-09",
+      "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
+      "publisher": "Journal of Electricity, Power and Gas",
+      "date": "1912-03-09",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_electrical-west_1912-03-09_28_10",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "p. 217: \"From the Key Route junction at Fortieth street and Shafter avenue, the Oakland and Antioch runs for about 1 3/4 miles along Shafter avenue\"; \"That portion between Bay Point and Walnut Creek was put in commercial operation about six months ago.\""
     },
     {
       "id": "langley-sf-directory-1867",
@@ -1701,7 +1744,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -2182,6 +2225,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
     },
     {
+      "id": "usgs-port-chicago-1951",
+      "title": "Port Chicago, Cal., topographic quadrangle, 1:24,000, 1951",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Port%20Chicago_294325_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 294325, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 51be4bd5938ab0bef517ed04ebc48020fb0f27f759f30f58d47af90177c4f570."
+    },
+    {
       "id": "usgs-richmond-1949",
       "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
       "author": "U.S. Geological Survey",
@@ -2314,6 +2369,18 @@
       "notes": "15-minute sheet, aerial photographs of 1939, edition of 1941. HTMC scan 301788, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e8b2a9b5bf73d88c9e3b55c864290de2ad440f8506111d87f43f334047e5f43f."
     },
     {
+      "id": "usgs-walnut-creek-1949",
+      "title": "Walnut Creek, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Walnut%20Creek_301186_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 301186, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 77c7663e774d98ba3c6fa78bc3723fb0ef3dfe05bf78a02f2f1dae15d126e437."
+    },
+    {
       "id": "vta-30-years-timeline",
       "title": "30 years of VTA: a visual timeline",
       "publisher": "Santa Clara Valley Transportation Authority",
@@ -2330,6 +2397,17 @@
       "url": "https://www.vta.org/projects/bart-sv",
       "accessed": "2026-10-14",
       "notes": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\" Phase I runs from Warm Springs through Milpitas to Berryessa/North San José."
+    },
+    {
+      "id": "western-railroader-1945-08",
+      "title": "The Western Railroader 8(10), August 1945",
+      "publisher": "The Western Railroader",
+      "date": "1945-08",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1945-08_8_10",
+      "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
+      "accessed": "2026-10-14",
+      "notes": "A reminiscence: \"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (archive.org full-text search; the page still needs checking)."
     }
   ]
 }

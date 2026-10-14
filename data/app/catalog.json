@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        98,
-        99,
-        100,
-        101
+        113,
+        114,
+        115,
+        116
       ],
       "segments": [
         {
@@ -1882,16 +1882,16 @@
         37.793407
       ],
       "fids": [
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
       ],
       "segments": [
         {
@@ -2769,14 +2769,14 @@
         37.793407
       ],
       "fids": [
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149
       ],
       "segments": [
         {
@@ -3076,8 +3076,8 @@
         37.790421
       ],
       "fids": [
-        73,
-        74
+        88,
+        89
       ],
       "segments": [
         {
@@ -3205,7 +3205,7 @@
         37.760891
       ],
       "fids": [
-        97
+        112
       ],
       "segments": [
         {
@@ -3325,7 +3325,7 @@
         37.794462
       ],
       "fids": [
-        64
+        79
       ],
       "segments": [
         {
@@ -3452,19 +3452,19 @@
         37.806482
       ],
       "fids": [
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
       ],
       "segments": [
         {
@@ -3877,21 +3877,21 @@
         37.80035
       ],
       "fids": [
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141
       ],
       "segments": [
         {
@@ -4294,15 +4294,15 @@
         37.824321
       ],
       "fids": [
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228
       ],
       "segments": [
         {
@@ -4782,14 +4782,14 @@
         37.805981
       ],
       "fids": [
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
       ],
       "segments": [
         {
@@ -5080,7 +5080,7 @@
         37.788015
       ],
       "fids": [
-        91
+        106
       ],
       "segments": [
         {
@@ -5222,16 +5222,16 @@
         37.806482
       ],
       "fids": [
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
       ],
       "segments": [
         {
@@ -5656,7 +5656,7 @@
         37.785808
       ],
       "fids": [
-        80
+        95
       ],
       "segments": [
         {
@@ -5758,7 +5758,7 @@
         37.817801
       ],
       "fids": [
-        57
+        58
       ],
       "segments": [
         {
@@ -5903,15 +5903,15 @@
         37.824321
       ],
       "fids": [
-        214,
-        215,
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237
       ],
       "segments": [
         {
@@ -6379,8 +6379,8 @@
         37.90596
       ],
       "fids": [
-        62,
-        63
+        63,
+        64
       ],
       "segments": [
         {
@@ -6532,19 +6532,19 @@
         37.891351
       ],
       "fids": [
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
       ],
       "segments": [
         {
@@ -7058,11 +7058,11 @@
         37.806637
       ],
       "fids": [
-        75,
-        76,
-        77,
-        78,
-        79
+        90,
+        91,
+        92,
+        93,
+        94
       ],
       "segments": [
         {
@@ -7247,12 +7247,12 @@
         37.7762
       ],
       "fids": [
-        234,
-        235,
-        236,
-        237,
-        238,
-        239
+        249,
+        250,
+        251,
+        252,
+        253,
+        254
       ],
       "segments": [
         {
@@ -7529,17 +7529,17 @@
         37.7762
       ],
       "fids": [
-        223,
-        224,
-        225,
-        226,
-        227,
-        228,
-        229,
-        230,
-        231,
-        232,
-        233
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
       ],
       "segments": [
         {
@@ -8012,7 +8012,8 @@
         23,
         24,
         25,
-        26
+        26,
+        27
       ],
       "segments": [
         {
@@ -8108,13 +8109,25 @@
         },
         {
           "id": "key-40th-st",
-          "name": "Yerba Buena Avenue and 40th Street to Piedmont Avenue",
+          "name": "Yerba Buena Avenue and 40th Street to Shafter Avenue",
           "opened": "1904-06-01",
           "closed": "1958",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
-          "method": "Joined to key-yerba-buena at its end; then along today's Yerba Buena Avenue centerline from -122.27980,37.82960 to 40th Street (260 m; Overture 2026-09-23.1); then along today's 40th Street centerline from Yerba Buena Avenue to Piedmont Avenue (2134 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Yerba Buena Avenue and 40th Street.",
+          "method": "Joined to key-yerba-buena at its end; then along today's Yerba Buena Avenue centerline from -122.27980,37.82960 to 40th Street (260 m; Overture 2026-09-23.1); then along today's 40th Street centerline from Yerba Buena Avenue to -122.25978,37.82846 (1450 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Yerba Buena Avenue and 40th Street.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-40th-st-east",
+          "name": "40th Street, Shafter Avenue to Piedmont Avenue",
+          "opened": "1904-06-01",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-40th-st at its end; then along today's 40th Street centerline from -122.25978,37.82846 to Piedmont Avenue (684 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along 40th Street.",
           "structure": "street",
           "flags": []
         }
@@ -8381,6 +8394,629 @@
       ]
     },
     {
+      "id": "sn-oakland-sacramento",
+      "name": "Sacramento Northern trains, San Francisco to Bay Point and Sacramento",
+      "system": "sacramento-northern",
+      "system_name": "Sacramento Northern Railway",
+      "operators": [
+        {
+          "name": "Oakland, Antioch & Eastern Railway",
+          "from": "1913-04-07",
+          "to": null
+        },
+        {
+          "name": "San Francisco-Sacramento Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Sacramento Northern Railway",
+          "from": null,
+          "to": "1941-06-30"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1913-04-07",
+      "closed": "1941-06-30",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and on by ferry to Sacramento from September 1913. Drawn to Bay Point.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Pacific Greyhound buses in 1941 (CRC Decision No. 34232). Freight trains used the line through the Oakland hills until 1957.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1913-04-07",
+          "to": "1941-06-30"
+        }
+      ],
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, began on September 3, 1913 (Electric Railway Journal); east of Bay Point the line isn't drawn yet.",
+      "flags": [],
+      "undated": false,
+      "length_km": 71.27,
+      "confidence_km": {
+        "approximate": 3.39,
+        "digitized": 67.89
+      },
+      "bbox": [
+        -122.397803,
+        37.784751,
+        -122.019627,
+        38.047172
+      ],
+      "fids": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "segments": [
+        {
+          "id": "key-pier",
+          "name": "Key Route Pier",
+          "opened": "1903-10-26",
+          "closed": "1939-01",
+          "to": "1939-01-15",
+          "note": "Over the Key Route's pier to its ferries until January 15, 1939",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (2 hand-read points, centred on the line symbol and fitted straight (RMS 3 m)); then traced by eye from USGS San Francisco 1:62,500 (1915) (4 hand-read points, centred on the line symbol); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The trestle runs straight from the shore, then curves to the ferry terminal.",
+          "structure": "pier",
+          "flags": [],
+          "notes": "Ferry trains ran to its end until the Bay Bridge opened to trains in January 1939; from then its land end carried the bridge trains. A 1933 fire is relayed via Wikipedia only."
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-bridge-link",
+          "name": "East Bay yards to the old pier line",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points, centred on the line symbol); then joined to key-pier at its start. From the East Bay yards over the bridge approach to the north side of the mole (\"TRANSIT LINES\" on the 1949 sheet), meeting the old pier line.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-trunk-shore",
+          "name": "Pier approach and subway to Poplar Junction",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-pier at its start; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points, centred on the line symbol). From the pier's land end under the Southern Pacific main line (the 1903 subway) to Poplar Junction, along the line the 1949 sheet draws there.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-yerba-buena",
+          "name": "Yerba Buena Avenue to San Pablo Avenue",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-trunk-shore at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points, centred on the line symbol). Along Yerba Buena Avenue to the station at San Pablo Avenue.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-40th-st",
+          "name": "Yerba Buena Avenue and 40th Street to Shafter Avenue",
+          "opened": "1904-06-01",
+          "closed": "1958",
+          "note": "Over the Key Route's tracks on 40th St",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-yerba-buena at its end; then along today's Yerba Buena Avenue centerline from -122.27980,37.82960 to 40th Street (260 m; Overture 2026-09-23.1); then along today's 40th Street centerline from Yerba Buena Avenue to -122.25978,37.82846 (1450 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Yerba Buena Avenue and 40th Street.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "sn-shafter-ave",
+          "name": "Shafter Ave, 40th St to Forest St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Shafter Avenue centerline from -122.25978,37.82846 to -122.25312,37.84313 (1776 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "In Shafter Ave, from the Key Route junction at 40th St. Shafter Ave is about 1.4 miles today, against 1912's \"about 1 3/4 miles\"."
+        },
+        {
+          "id": "sn-rockridge-temescal",
+          "name": "Rockridge to Lake Temescal and Montclair",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-shafter-ave at its end; then traced by eye from USGS Oakland East 1:24,000 (1949) (10 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland East 1:24,000 (1949) (6 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (12 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (11 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "On its own right-of-way past Lake Temescal, traced from the 1949 sheet, where the track still ran for freight."
+        },
+        {
+          "id": "sn-shepherd-canyon",
+          "name": "Shepherd Canyon and the Redwood Peak tunnel",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Joined to sn-rockridge-temescal at its end; then along today's Shepherd Canyon Road centerline from -122.20530,37.82450 to -122.18479,37.83578 (2831 m; Overture 2026-09-23.1); then given point by point; checked on USGS Oakland East 1:24,000 (1949).",
+          "structure": "tunnel",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Up Shepherd Canyon, whose road today follows the old right-of-way, then through the 3,458 ft tunnel under Redwood Peak to Eastport. The canyon is drawn along today's Shepherd Canyon Road and checked on the 1949 sheet; the tunnel is drawn straight between its portals and is approximate."
+        },
+        {
+          "id": "sn-eastport-lafayette",
+          "name": "Eastport to Moraga and Lafayette",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-shepherd-canyon at its end; then traced by eye from USGS Concord 1:62,500 (1942) (17 hand-read points, centred on the line symbol); then traced by eye from USGS Concord 1:62,500 (1942) (13 hand-read points, centred on the line symbol); then traced by eye from USGS Concord 1:62,500 (1942) (21 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Down the San Leandro Creek valley to Valle Vista and Moraga, then by St Mary's College and Burton to Lafayette, traced from the 1942 Concord sheet, which falls within about 50 m of today's streets here. Opened east of Lafayette in 1911, as the Oakland & Antioch's local line (Bay Point to Concord from February 1911, to Walnut Creek by about September, to Lafayette by December 19); those dates aren't confirmed enough to draw yet, so the track shows from the through service of 1913."
+        },
+        {
+          "id": "sn-saranap-concord",
+          "name": "Saranap to Walnut Creek and Concord",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-eastport-lafayette at its end; then traced by eye from USGS Walnut Creek 1:24,000 (1949) (23 hand-read points, centred on the line symbol); then traced by eye from USGS Walnut Creek 1:24,000 (1949) (19 hand-read points); then traced by eye from USGS Walnut Creek 1:24,000 (1949) (12 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Through Saranap, Walnut Creek and Las Juntas to Bancroft, then by Meinert into Concord, traced from the 1949 Walnut Creek sheet. Opened east of Lafayette in 1911, as the Oakland & Antioch's local line (Bay Point to Concord from February 1911, to Walnut Creek by about September, to Lafayette by December 19); those dates aren't confirmed enough to draw yet, so the track shows from the through service of 1913."
+        },
+        {
+          "id": "sn-concord-bay-point",
+          "name": "Concord to Bay Point (Port Chicago)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-saranap-concord at its end; then traced by eye from USGS Port Chicago 1:24,000 (1951) (23 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "North by Clyde to Bay Point, renamed Port Chicago in 1931, traced from the 1951 Port Chicago sheet. Opened east of Lafayette in 1911, as the Oakland & Antioch's local line (Bay Point to Concord from February 1911, to Walnut Creek by about September, to Lafayette by December 19); those dates aren't confirmed enough to draw yet, so the track shows from the through service of 1913."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cfc-1913-04-19",
+          "title": "Commercial & Financial Chronicle 96(2495), April 19, 1913: Oakland, Antioch & Eastern",
+          "publisher": "Commercial & Financial Chronicle",
+          "date": "1913-04-19",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_commercial-and-financial-chronicle_1913-04-19_96_2495",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-14",
+          "source": "cfc-1913-04-19",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\""
+        },
+        {
+          "id": "erj-1913-04-19-oakland-antioch-eastern",
+          "title": "Oakland, Antioch & Eastern Railway",
+          "publisher": "Electric Railway Journal 41(16)",
+          "date": "1913-04-19",
+          "type": "journal",
+          "url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-14",
+          "source": "erj-1913-04-19-oakland-antioch-eastern",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "726-728"
+        },
+        {
+          "id": "joepg-1912-03-09",
+          "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
+          "publisher": "Journal of Electricity, Power and Gas",
+          "date": "1912-03-09",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_electrical-west_1912-03-09_28_10",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "joepg-1912-03-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "217"
+        },
+        {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "id": "crc-d34232",
+          "title": "Railroad Commission of California, Decision No. 34232 (Application No. 24127)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1941-05-27",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34232_19410527_A24127.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d34232",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
+        },
+        {
+          "id": "western-railroader-1945-08",
+          "title": "The Western Railroader 8(10), August 1945",
+          "publisher": "The Western Railroader",
+          "date": "1945-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1945-08_8_10",
+          "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
+          "accessed": "2026-10-14",
+          "source": "western-railroader-1945-08",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"San Francisco–Oakland Terminal, Key Route Pier\"."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "srj-1904-02-13-key-route-1",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+          "publisher": "Street Railway Journal 23(7)",
+          "date": "1904-02-13",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "route",
+            "general",
+            "opened"
+          ],
+          "pages": "247, 249",
+          "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
+        },
+        {
+          "id": "srj-1904-02-20-key-route-2",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+          "publisher": "Street Railway Journal 23(8)",
+          "date": "1904-02-20",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903)."
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "closed",
+            "general"
+          ],
+          "pages": "9",
+          "note": "\"Prior to the opening of the … Bay Bridge to interurban rail traffic, Key System and Interurban's predecessor … provided passenger service across the Bay by ferry boat\"; the bridge opened to rail service on January 15, 1939."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "route",
+            "opened",
+            "closed",
+            "general"
+          ],
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
+        },
+        {
+          "id": "crc-d34389",
+          "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-07-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34389",
+          "supports": [
+            "route"
+          ],
+          "pages": "5",
+          "note": "Key lines ran \"over joint track with the Interurban rail lines over the bridge to the East Bay Yards, thence proceeding over separate facilities from that point into the service area.\""
+        },
+        {
+          "id": "oakland-tribune-1904-02-04",
+          "title": "Oakland Tribune, 1904-02-04: the Piedmont branch along Fortieth Street",
+          "publisher": "Oakland Tribune",
+          "date": "1904-02-04",
+          "url": "https://archive.org/details/oakland-tribune-1904-02-04",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1904-02-04",
+          "supports": [
+            "route"
+          ],
+          "note": "\"complete the Piedmont branch along Fortieth street\""
+        },
+        {
+          "id": "oakland-tribune-1904-05-28",
+          "title": "Oakland Tribune, 1904-05-28: the Piedmont terminal and opening",
+          "publisher": "Oakland Tribune",
+          "date": "1904-05-28",
+          "url": "https://archive.org/details/oakland-tribune-1904-05-28",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1904-05-28",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\""
+        },
+        {
+          "id": "cpuc-d50731",
+          "title": "Public Utilities Commission of the State of California, Decision No. 50731 (Application No. 35880): Key System's C and E lines, night and Sunday buses",
+          "author": "Public Utilities Commission of the State of California",
+          "date": "1954-11-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D50731_19541103_A35880.pdf",
+          "type": "official",
+          "license": "California public record (Public Utilities Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "cpuc-d50731",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "Yerba Buena Avenue runs \"from Adeline Street to 40th Street\"."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1942",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1942",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1942",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-walnut-creek-1949",
+          "title": "Walnut Creek, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Walnut%20Creek_301186_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-walnut-creek-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-port-chicago-1951",
+          "title": "Port Chicago, Cal., topographic quadrangle, 1:24,000, 1951",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1951",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Port%20Chicago_294325_1951_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-port-chicago-1951",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "key-h",
       "name": "Sacramento Street line",
       "short_name": "H",
@@ -8421,7 +9057,6 @@
         37.887944
       ],
       "fids": [
-        45,
         46,
         47,
         48,
@@ -8432,7 +9067,8 @@
         53,
         54,
         55,
-        56
+        56,
+        57
       ],
       "segments": [
         {
@@ -8887,12 +9523,12 @@
         37.795493
       ],
       "fids": [
-        65,
-        66,
-        67,
-        68,
-        69,
-        70
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
       ],
       "segments": [
         {
@@ -9097,10 +9733,10 @@
         37.977386
       ],
       "fids": [
-        58,
         59,
         60,
-        61
+        61,
+        62
       ],
       "segments": [
         {
@@ -9285,15 +9921,15 @@
         37.824321
       ],
       "fids": [
-        196,
-        197,
-        198,
-        199,
-        200,
-        201,
-        202,
-        203,
-        204
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219
       ],
       "segments": [
         {
@@ -9792,23 +10428,23 @@
         37.891481
       ],
       "fids": [
-        166,
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
         181,
-        182
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
       ],
       "segments": [
         {
@@ -10423,8 +11059,8 @@
         37.790312
       ],
       "fids": [
-        71,
-        72
+        86,
+        87
       ],
       "segments": [
         {
@@ -10548,7 +11184,6 @@
         37.82911
       ],
       "fids": [
-        35,
         36,
         37,
         38,
@@ -10557,7 +11192,8 @@
         41,
         42,
         43,
-        44
+        44,
+        45
       ],
       "segments": [
         {
@@ -11011,14 +11647,14 @@
         37.82911
       ],
       "fids": [
-        27,
         28,
         29,
         30,
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
       "segments": [
         {
@@ -11404,11 +12040,11 @@
         37.80035
       ],
       "fids": [
-        92,
-        93,
-        94,
-        95,
-        96
+        107,
+        108,
+        109,
+        110,
+        111
       ],
       "segments": [
         {
@@ -11594,16 +12230,16 @@
         37.79562
       ],
       "fids": [
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
       ],
       "segments": [
         {

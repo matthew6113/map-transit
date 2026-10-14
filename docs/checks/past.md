@@ -30,7 +30,8 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `key-trunk-shore` Pier approach and subway to Poplar Junction | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-trunk-shore.jpg) |
 | `key-yerba-buena` Yerba Buena Avenue to San Pablo Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-yerba-buena.jpg) |
 | `key-bridge-link` East Bay yards to the old pier line | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/key-bridge-link.jpg) |
-| `key-40th-st` Yerba Buena Avenue and 40th Street to Piedmont Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st.jpg) |
+| `key-40th-st` Yerba Buena Avenue and 40th Street to Shafter Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st.jpg) |
+| `key-40th-st-east` 40th Street, Shafter Avenue to Piedmont Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st-east.jpg) |
 | `key-linden-st` San Pablo Avenue to Adeline Street, by Linden Street | approximate |  |  | [review](../screenshots/p2b/traces/key-linden-st.jpg) |
 | `key-adeline-south` Adeline Street to Alcatraz Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-adeline-south.jpg) |
 | `key-adeline-north` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1903 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-adeline-north.jpg) |
@@ -52,6 +53,12 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `nwp-corte-madera-san-anselmo` Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-corte-madera-san-anselmo.jpg) |
 | `nwp-san-anselmo-san-rafael` San Anselmo to San Rafael | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-san-anselmo-san-rafael.jpg) |
 | `nwp-mill-valley-branch` Mill Valley branch, Mill Valley Junction to Mill Valley | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-mill-valley-branch.jpg) |
+| `sn-shafter-ave` Shafter Ave, 40th St to Forest St | street-centerline | usgs-oakland-east-1949 | 20 m | [review](../screenshots/p2b/traces/sn-shafter-ave.jpg) |
+| `sn-rockridge-temescal` Rockridge to Lake Temescal and Montclair | geotiff | usgs-oakland-east-1949 | 25 m | [review](../screenshots/p2b/traces/sn-rockridge-temescal.jpg) |
+| `sn-shepherd-canyon` Shepherd Canyon and the Redwood Peak tunnel | approximate |  |  | [review](../screenshots/p2b/traces/sn-shepherd-canyon.jpg) |
+| `sn-eastport-lafayette` Eastport to Moraga and Lafayette | geotiff | usgs-concord-1942 | 50 m | [review](../screenshots/p2b/traces/sn-eastport-lafayette.jpg) |
+| `sn-saranap-concord` Saranap to Walnut Creek and Concord | geotiff | usgs-walnut-creek-1949 | 30 m | [review](../screenshots/p2b/traces/sn-saranap-concord.jpg) |
+| `sn-concord-bay-point` Concord to Bay Point (Port Chicago) | geotiff | usgs-port-chicago-1951 | 30 m | [review](../screenshots/p2b/traces/sn-concord-bay-point.jpg) |
 | `sf-clay-kearny-leavenworth` Clay St, Kearny St to Leavenworth St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-leavenworth.jpg) |
 | `sf-clay-kearny-drumm` Clay St, Drumm St to Kearny St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-drumm.jpg) |
 | `sf-clay-leavenworth-larkin` Clay St, Leavenworth St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-leavenworth-larkin.jpg) |

@@ -153,6 +153,12 @@
       "name": "Northwestern Pacific Railroad",
       "short_name": "Northwestern Pacific",
       "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
+    },
+    {
+      "id": "sacramento-northern",
+      "name": "Sacramento Northern Railway",
+      "short_name": "Sacramento Northern",
+      "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
     }
   ]
 }

@@ -2,6 +2,16 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, the Sacramento Northern to Bay Point
+
+- **The Oakland, Antioch & Eastern / Sacramento Northern** (`data/past/sacramento-northern/`):
+  through trains from the Key Route pier (from 1939 the Bay Bridge) by 40th St, Shafter Ave, Lake
+  Temescal, Montclair, Shepherd Canyon and the Redwood Peak tunnel to Moraga, Lafayette, Walnut Creek,
+  Concord and Bay Point, April 7, 1913 to June 30, 1941. Traced from the 1942–1951 USGS sheets, while
+  the track still carried freight; the canyon and tunnel are approximate. East of Bay Point (to
+  Sacramento, by ferry) isn't drawn yet.
+- The Key System's 40th St segment is split at Shafter Ave, where the two met.
+
 ## 2026-10-14: Phase 2b, Muni's C, D, F and H
 
 - **C Geary–California** (1915), **D Van Ness–Union** (1914–1950), **F Stockton** (1914–1951) and

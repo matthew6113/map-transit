@@ -222,7 +222,10 @@
             "40th Street"
           ],
           "from": "Yerba Buena Avenue",
-          "to": "Piedmont Avenue",
+          "to": [
+            -122.259778,
+            37.828463
+          ],
           "bridge_m": 250
         }
       ],
@@ -465,6 +468,28 @@
           ]
         }
       ]
+    },
+    "key-40th-st-east": {
+      "parts": [
+        {
+          "join": "key-40th-st",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "40th Street"
+          ],
+          "from": [
+            -122.259778,
+            37.828463
+          ],
+          "to": "Piedmont Avenue",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along 40th Street"
     }
   },
   "points": {

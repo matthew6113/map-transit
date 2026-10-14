@@ -1,0 +1,142 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The Sacramento Northern from Oakland to Bay Point (Phase 2b.D). Research: docs/research/east-bay-electric.md, section 2.",
+  "lines": [
+    {
+      "id": "sn-oakland-sacramento",
+      "name": "Sacramento Northern trains, San Francisco to Bay Point and Sacramento",
+      "system": "sacramento-northern",
+      "operators": [
+        {
+          "name": "Oakland, Antioch & Eastern Railway",
+          "from": "1913-04-07",
+          "to": null
+        },
+        {
+          "name": "San Francisco-Sacramento Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Sacramento Northern Railway",
+          "from": null,
+          "to": "1941-06-30"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1913-04-07",
+          "to": "1941-06-30"
+        }
+      ],
+      "era": "past",
+      "opened": "1913-04-07",
+      "closed": "1941-06-30",
+      "status": "closed",
+      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and on by ferry to Sacramento from September 1913. Drawn to Bay Point.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Pacific Greyhound buses in 1941 (CRC Decision No. 34232). Freight trains used the line through the Oakland hills until 1957.",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Over the Key Route's pier to its ferries until January 15, 1939"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-yerba-buena"
+        },
+        {
+          "segment": "key-40th-st",
+          "note": "Over the Key Route's tracks on 40th St"
+        },
+        {
+          "segment": "sn-shafter-ave"
+        },
+        {
+          "segment": "sn-rockridge-temescal"
+        },
+        {
+          "segment": "sn-shepherd-canyon"
+        },
+        {
+          "segment": "sn-eastport-lafayette"
+        },
+        {
+          "segment": "sn-saranap-concord"
+        },
+        {
+          "segment": "sn-concord-bay-point"
+        }
+      ],
+      "sources": [
+        {
+          "source": "cfc-1913-04-19",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\""
+        },
+        {
+          "source": "erj-1913-04-19-oakland-antioch-eastern",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "726-728"
+        },
+        {
+          "source": "joepg-1912-03-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "217"
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "crc-d34232",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
+        },
+        {
+          "source": "western-railroader-1945-08",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
+        }
+      ],
+      "flags": [],
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, began on September 3, 1913 (Electric Railway Journal); east of Bay Point the line isn't drawn yet."
+    }
+  ]
+}

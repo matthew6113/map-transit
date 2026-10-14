@@ -124,6 +124,8 @@ Three kinds of source carry most of the new findings:
 
 ## 2. Sacramento Northern
 
+Drawn so far: Oakland to Bay Point (`data/past/sacramento-northern/`), 1913-04-07 to 1941-06-30.
+
 Succession: the Oakland & Antioch built Bay Point–Oakland; the Oakland, Antioch & Eastern built Bay
 Point–Sacramento; then the San Francisco–Sacramento RR and the Sacramento Northern.
 

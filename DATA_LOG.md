@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), and the Northwestern Pacific's electric lines in Marin (`nwp-marin/`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -144,8 +144,9 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Source | Type | License |
 |---|---|---|
 | California Railroad Commission and CPUC decisions, 1916–1957 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
-| Street Railway Journal (1904, 1906; including the North Shore Railroad's third-rail line, January 2, 1904), Railroad Gazette (1907), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
+| Street Railway Journal (1904, 1906; including the North Shore Railroad's third-rail line, January 2, 1904), Railroad Gazette (1907), the Journal of Electricity, Power and Gas (1912), the Commercial & Financial Chronicle (1913), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
 | The San Francisco Call (1907, 1911) and the Oakland Tribune (1904–1924), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
+| *The Western Railroader*, August 1945 (railfan periodical), from archive.org | journal | Copyright status unknown; cited for facts only (one date, the Sacramento Northern's last day) |
 | San Francisco directories: the *Business Directory and Mercantile Guide* for 1864–65 and Langley's directory of 1867, from archive.org | primary_document | Public domain (published 1864, 1867) |
 | *Southern Pacific Bulletin*, January 1936 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only |
 | HAER CA-32 (Bay Bridge) and CA-164 (IER Bridge Yard Shop), Library of Congress | official | Public domain (U.S. Government work) |
@@ -185,6 +186,8 @@ The geometry tools are below (decision 12).
 | `usgs-san-mateo-1899` | CA_San Mateo_298921_1899_62500_geo.tif | 5.292 | `b5164e60d1be` |
 | `usgs-san-mateo-1915` | CA_San Mateo_298922_1915_62500_geo.tif | 5.292 | `f648bf5144d5` |
 | `usgs-tamalpais-1941` | CA_Tamalpais_301788_1941_62500_geo.tif | 5.292 | `e8b2a9b5bf73` |
+| `usgs-walnut-creek-1949` | CA_Walnut Creek_301186_1949_24000_geo.tif | 2.032 | `77c7663e774d` |
+| `usgs-port-chicago-1951` | CA_Port Chicago_294325_1951_24000_geo.tif | 2.032 | `51be4bd5938a` |
 | `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
@@ -201,7 +204,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), and southern Marin (-122.60, 37.845, -122.45, 38.02), where they check the USGS sheets' registration. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -238,9 +241,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 33 | 127 | 10 | 0 | 187.0 | 22.5 | 8 | 97 |
+| past | 34 | 134 | 10 | 0 | 235.0 | 25.9 | 8 | 103 |
 | present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 104, `conflicting_sources` 12, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 399, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 110, `conflicting_sources` 12, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 405, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->
