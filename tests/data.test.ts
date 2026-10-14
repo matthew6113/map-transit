@@ -422,6 +422,23 @@ describe('app files (data/app/)', () => {
     }
   });
 
+  it("draw present track in the past era in the mode of the year, without overlaps (Matthew, Oct 14)", () => {
+    type Span = { properties: { seg: string; group: string; open_y: number; close_y: number; span?: number } };
+    const past: Span[] = read(join(DATA, 'app', 'past-draw.geojson')).features.filter((f: Span) => f.properties.span);
+    const present: Span[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
+    const pastLines = folders.filter((f) => f.era === 'past').flatMap((f) => f.lines);
+    for (const f of past) {
+      const p = f.properties;
+      const users = pastLines.filter((l) => l.route.some((r) => r.segment === p.seg));
+      expect(users.length, `${p.seg}: drawn in a past mode, but no past line uses it`).toBeGreaterThan(0);
+      const own = present.filter((x) => x.properties.seg === p.seg);
+      for (const x of own) {
+        const overlap = Math.min(p.close_y, x.properties.close_y) - Math.max(p.open_y, x.properties.open_y);
+        expect(overlap, `${p.seg}: ${p.group} ${p.open_y}-${p.close_y} overlaps today's mode ${x.properties.open_y}-${x.properties.close_y}`).toBeLessThanOrEqual(0.001);
+      }
+    }
+  });
+
   it('resolve every cited source into the catalog', () => {
     for (const l of catalog.lines) {
       for (const s of l.sources) expect(s.title, `${l.id}: ${s.source}`).toBeTruthy();

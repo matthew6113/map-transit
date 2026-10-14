@@ -215,6 +215,9 @@ today's lines were opened in stages, and `extensions.py` applies it in `make app
   track (BART's Embarcadero, 1976). Other stations borrow the date of the track they stand on, for
   display only (decision 4).
 - **`dates`**, by segment id: a whole present segment dated as it is, with no cut (BRT lanes).
+- **In the past era, present track draws in the mode of the year.** Where past lines use it
+  (decision 13), `build.py` (`mode_spans`) splits its drawing into spans: the past line's mode while
+  it ran (`past-draw`, `span: 1`), today's mode for the rest (`present-draw`).
 - **Dates come from official sources only,** as for the future era; a dataset may place a cut point.
   An agency's date announced before the day counts, and the notes say it was announced. Tests check
   both rules and that every null stretch says why.

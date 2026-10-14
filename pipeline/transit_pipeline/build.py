@@ -113,6 +113,25 @@ def bbox(parts_list) -> list[float]:
     return [round(min(xs), 6), round(min(ys), 6), round(max(xs), 6), round(max(ys), 6)]
 
 
+def mode_spans(o_p: float | None, c_p: float | None, past_uses: list[tuple[float, float, str, str]]):
+    """A present segment's life split by the mode drawn: (spans of past lines' modes, spans of its own
+    mode). Where past lines used it (decision 13), the track draws in the mode of the line running
+    then, the earliest-opened if several; otherwise in today's mode (Matthew, Oct 14)."""
+    if o_p is None or c_p is None or not past_uses:
+        return [], [(o_p, c_p)]
+    uses = [(max(o, o_p), min(c, c_p), mode, key) for o, c, mode, key in past_uses if min(c, c_p) > max(o, o_p)]
+    cuts = sorted({o_p, c_p, *(x for o, c, _, _ in uses for x in (o, c))})
+    spans: list[list] = []  # [start, end, mode or None for today's]
+    for a, b in zip(cuts, cuts[1:]):
+        active = [u for u in uses if u[0] <= a and u[1] >= b]
+        mode = min(active, key=lambda u: u[3])[2] if active else None
+        if spans and spans[-1][2] == mode and spans[-1][1] == a:
+            spans[-1][1] = b
+        else:
+            spans.append([a, b, mode])
+    return [(a, b, m) for a, b, m in spans if m], [(a, b) for a, b, m in spans if not m]
+
+
 def load_era(era: str):
     lines, segments, points = [], {}, []
     for folder in sorted(p for p in (DATA / era).glob("*") if p.is_dir()):
@@ -149,6 +168,8 @@ def main() -> None:
     cross = [(line, r) for line in loaded["past"][0] for r in line["route"]
              if r["segment"] not in loaded["past"][1] and r["segment"] in present_segments]
     present_display: dict = {}
+    # Present track that past lines used, drawn in their modes for those years: sid -> (spans, feature).
+    past_mode_spans: dict = {}
 
     # The present first, so the past can draw its lines over present track with its display dates.
     for era in ("present", "past", "future"):
@@ -213,33 +234,59 @@ def main() -> None:
             seg_display[sid] = (o, c, borrowed, undated)
             mode = users[0]["mode"] if users else "railroad"
             status = max((u["status"] for u in users), key=lambda s: list(statuses).index(s), default="closed")
-            draw.append({"type": "Feature", "geometry": f["geometry"], "properties": {
+            base = {"type": "Feature", "geometry": f["geometry"], "properties": {
                 "fid": fid, "seg": sid, "era": era, "mode": mode, "group": MODE_GROUP[mode],
                 "conf": p["geometry_confidence"], "structure": p.get("structure") or "",
                 "shared": 1 if p.get("shares_existing_track") else 0,
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": status,
-            }})
+            }}
+            past_uses = []
+            if era == "present":
+                for line, r in (x for x in cross if x[1]["segment"] == sid):
+                    lo = decimal_year(r.get("from") or line["opened"])
+                    lc = decimal_year(r.get("to") or line["closed"])
+                    if lo is not None and lc is not None:
+                        past_uses.append((lo, lc, line["mode"], line["opened"] or "9999"))
+            historic, own = mode_spans(o, c, past_uses)
+            if historic:
+                past_mode_spans[sid] = (historic, base)
+            for a, b in own:  # today's mode, for the years no past line drew it
+                draw.append({**base, "properties": {**base["properties"],
+                    **({"open_y": round(a, 3), "close_y": round(b, 3)} if historic else {})}})
+        if era == "past":
+            # Present track in the mode of the past line using it, for those years (decision 13).
+            for sid, (historic, base) in sorted(past_mode_spans.items()):
+                for a, b, m in historic:
+                    draw.append({**base, "properties": {**base["properties"], "era": "past", "mode": m, "group": MODE_GROUP[m],
+                                                         "open_y": round(a, 3), "close_y": round(b, 3), "undated": 0,
+                                                         "status": "closed", "span": 1}})
 
         # Different modes on the same path, side by side close in (decision 10); in the past era,
         # only lines that ran at the same time.
         paths = Paths(draw, timed=era == "past")
 
-        def slots(parts, group, sid):
-            if sid not in seg_display:  # a present segment under a past line: drawn by the present
+        def slots(parts, group, sid, span=None):
+            if span is None and sid not in seg_display:  # a present segment under a past line: drawn by the present
                 yield from ((part, 0.0) for part in parts)
                 return
-            o, c, _, undated = seg_display[sid]
-            span = None if undated else (o, c)
+            if span is None:
+                o, c, _, undated = seg_display[sid]
+                span = None if undated else (o, c)
             for part in parts:
                 yield from paths.split(part, group, span)
 
         def display(sid):
             return seg_display[sid] if sid in seg_display else present_display[sid]
 
+        def sid_split(sid):
+            return sid in past_mode_spans
+
         pieces_out = []
         for f in draw:
-            for coords, off in slots(parts_of(f["geometry"]), f["properties"]["group"], f["properties"]["seg"]):
+            fp = f["properties"]
+            own = (fp["open_y"], fp["close_y"]) if fp.get("span") or (era == "present" and sid_split(fp["seg"])) else None
+            for coords, off in slots(parts_of(f["geometry"]), fp["group"], fp["seg"], own):
                 pieces_out.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords},
                                    "properties": {**f["properties"], "fid": len(pieces_out) + 1, "off": off}})
         draw = pieces_out
