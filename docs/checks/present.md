@@ -21,6 +21,7 @@ These quotes come from the machine-read text of scanned PDFs. Check each against
 ## Conflicting sources
 
 - `muni-cable-powell-st`: Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given.
+- `muni-cable-jackson-powell-mason`: The block both Powell lines of 1888 turned through, westbound on Jackson St and eastbound on Washington St; the Powell-Hyde line uses it today. Only the year is certain (see the Powell-Mason line).
 - `muni-cable-mason-taylor`: Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain.
 - `muni-cable-powell-mason`: Callwell gives March 28, 1888 for the first Powell St service, with full service a few days later; SFMTA's 2018 blog says early March. Only the year is certain. Service stopped for the system's rebuild from September 1982 to June 1984.
 

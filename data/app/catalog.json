@@ -2296,6 +2296,383 @@
       ]
     },
     {
+      "id": "sf-california-st-west",
+      "name": "California Street cable line, west of Van Ness Ave",
+      "system": "california-street-cable-railroad",
+      "system_name": "California Street Cable Railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1878-04-10",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-05-16"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1878-04-10",
+      "closed": "1954-05-16",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The western end of the California Street line, from Van Ness Ave to Fillmore St (1878) and Presidio Ave (1879). The rest of the line still runs.",
+      "fate": "abandoned",
+      "fate_note": "Cut back to Van Ness Ave after May 16, 1954; the line from Van Ness Ave to Market St still runs as the California Street cable car.",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "No service from August 1951 to January 13, 1952, between Cal Cable's end and Muni's start (Callwell p. 47).",
+      "flags": [],
+      "undated": false,
+      "length_km": 2.18,
+      "confidence_km": {
+        "digitized": 2.18
+      },
+      "bbox": [
+        -122.446812,
+        37.787271,
+        -122.422367,
+        37.790421
+      ],
+      "fids": [
+        65,
+        66
+      ],
+      "segments": [
+        {
+          "id": "sf-california-van-ness-fillmore",
+          "name": "California St, Van Ness Ave to Fillmore St",
+          "opened": "1878-04-10",
+          "closed": "1954-05-16",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's California Street centerline from Van Ness Avenue to Fillmore Street (1026 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "sf-california-fillmore-presidio",
+          "name": "California St, Fillmore St to Presidio Ave",
+          "opened": "1879",
+          "closed": "1954-05-16",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's California Street centerline from Fillmore Street to Presidio Avenue (1155 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed",
+            "operator"
+          ],
+          "pages": "8",
+          "note": "\"First day of service on the California Street Cable Railroad (Cal Cable) … on California between Kearny and Fillmore.\" / \"The line was extended to Presidio Ave. the next year and to Market St. in 1890.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-castro-st-cable",
+      "name": "Castro Street cable line",
+      "system": "market-street-cable-railway",
+      "system_name": "Market Street Cable Railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1888",
+          "to": null
+        },
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1941-04-05"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1888",
+      "closed": "1941-04-05",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they also ran on Market St to the Ferry Building.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by the No. 24 bus on April 6, 1941 (Callwell p. 41).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 1.42,
+      "confidence_km": {
+        "digitized": 1.42
+      },
+      "bbox": [
+        -122.435014,
+        37.748095,
+        -122.433802,
+        37.760891
+      ],
+      "fids": [
+        86
+      ],
+      "segments": [
+        {
+          "id": "sf-castro-18th-26th",
+          "name": "Castro St, 18th St to 26th St",
+          "opened": "1888",
+          "closed": "1941-04-05",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Castro Street centerline from 18th Street to 26th Street (1424 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ],
+          "pages": "81",
+          "note": "The 8 Market traced back \"to a streetcar line that had started in 1906 and a cable car line that had begun service in 1888.\""
+        },
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "general"
+          ],
+          "note": "\"Cable cars operated on a portion of Castro Street until 1944.\" Callwell's 1941 is taken."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-clay-st-hill",
+      "name": "Clay Street Hill Railroad",
+      "system": "clay-street-hill-railroad",
+      "system_name": "Clay Street Hill Railroad",
+      "operators": [
+        {
+          "name": "Clay Street Hill Railroad",
+          "from": "1873-09-01",
+          "to": null
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1873-09-01",
+      "closed": "1892",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The world's first cable railway, up Clay St from Kearny St to Leavenworth St.",
+      "fate_note": "Bought by the Ferries & Cliff House Railway and made part of its Sacramento-Clay line in 1892 (Callwell p. 13).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "A railfan chronology gives 1891 for the change to the Sacramento-Clay line; Callwell gives 1892.",
+      "flags": [],
+      "undated": false,
+      "length_km": 1.01,
+      "confidence_km": {
+        "digitized": 1.01
+      },
+      "bbox": [
+        -122.416133,
+        37.79302,
+        -122.404793,
+        37.794462
+      ],
+      "fids": [
+        56
+      ],
+      "segments": [
+        {
+          "id": "sf-clay-kearny-leavenworth",
+          "name": "Clay St, Kearny St to Leavenworth St",
+          "opened": "1873-09-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Clay Street centerline from Kearny Street to Leavenworth Street (1011 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed",
+            "fate"
+          ],
+          "pages": "7",
+          "note": "\"The Clay Street Hill Railroad starts cable car service on Clay from Leavenworth to Kearny.\""
+        },
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-encinal-avenue",
       "name": "Encinal Avenue line",
       "system": "southern-pacific",
@@ -2347,15 +2724,15 @@
         37.824321
       ],
       "fids": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
       ],
       "segments": [
         {
@@ -2789,6 +3166,257 @@
       ]
     },
     {
+      "id": "sf-geary-st-cable",
+      "name": "Geary Street cable line",
+      "system": "geary-street-park-ocean-railroad",
+      "system_name": "Geary Street, Park & Ocean Railroad",
+      "operators": [
+        {
+          "name": "Geary Street, Park & Ocean Railroad",
+          "from": "1880",
+          "to": "1912-05-05"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1880",
+      "closed": "1912-05-05",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars on Geary St from Market St to Presidio Ave, and later on to Golden Gate Park.",
+      "fate": "replaced_by_rail",
+      "fate_note": "Muni's first streetcar line opened on Geary St in December 1912 (Callwell p. 29).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "By 1896 it ran on from Presidio Ave on Geary (then Point Lobos Ave) and 5th Ave to Fulton St (Callwell p. 17); not drawn until that extension's date is sourced.",
+      "flags": [],
+      "undated": false,
+      "length_km": 3.83,
+      "confidence_km": {
+        "digitized": 3.83
+      },
+      "bbox": [
+        -122.445833,
+        37.782473,
+        -122.403113,
+        37.788015
+      ],
+      "fids": [
+        83
+      ],
+      "segments": [
+        {
+          "id": "sf-geary-market-presidio",
+          "name": "Geary St, Market St to Presidio Ave",
+          "opened": "1880",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to Presidio Avenue (3833 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Geary St meets Market St at Kearny St. The line ran on west by 1896, on Geary (then Point Lobos Ave) and 5th Ave to Fulton St (Callwell p. 17); that extension's date isn't sourced yet, so it isn't drawn."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Geary Street, Park & Ocean Railroad (1880)\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "\"a cable line was constructed along Geary Street from Kearny to Central (Presidio) Avenue\" (OCR)"
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "general"
+          ],
+          "pages": "28",
+          "note": "\"Last day of operation of the GSP&O cable line, as the company is forced to end service despite its objections.\" (May 5, 1912)"
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-jones-st-shuttle",
+      "name": "Jones Street shuttle",
+      "system": "california-street-cable-railroad",
+      "system_name": "California Street Cable Railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1891-02-09",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-02-06"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1891-02-09",
+      "closed": "1954-02-06",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A shuttle on Jones St from Market St to O'Farrell St.",
+      "fate": "abandoned",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "flags": [],
+      "undated": false,
+      "length_km": 0.55,
+      "confidence_km": {
+        "digitized": 0.55
+      },
+      "bbox": [
+        -122.412992,
+        37.780945,
+        -122.411954,
+        37.785808
+      ],
+      "fids": [
+        72
+      ],
+      "segments": [
+        {
+          "id": "sf-jones-market-ofarrell",
+          "name": "Jones St, Market St to O'Farrell St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Jones Street centerline from Market Street to O'Farrell Street (549 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed"
+          ],
+          "pages": "13",
+          "note": "\"Cal Cable's O'Farrell, Jones and Hyde line and Jones Street Shuttle begin service\"; \"The shuttle operated on Jones between O'Farrell and Market.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-lincoln-avenue",
       "name": "Lincoln Avenue line",
       "system": "southern-pacific",
@@ -2840,15 +3468,15 @@
         37.824321
       ],
       "fids": [
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
       ],
       "segments": [
         {
@@ -3318,19 +3946,19 @@
         37.891351
       ],
       "fids": [
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
       ],
       "segments": [
         {
@@ -3789,6 +4417,196 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
           "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-ofarrell-jones-hyde",
+      "name": "O'Farrell, Jones and Hyde line",
+      "system": "california-street-cable-railroad",
+      "system_name": "California Street Cable Railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1891-02-09",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-05-16"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1891-02-09",
+      "closed": "1954-05-16",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "From O'Farrell St and Market St on O'Farrell, Jones, Pine and Hyde Sts to Beach St: the last new cable line built in the city.",
+      "fate": "abandoned",
+      "fate_note": "Ended May 16, 1954. Its Hyde St end became part of the Powell-Hyde line in 1957.",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "flags": [],
+      "undated": false,
+      "length_km": 3.42,
+      "confidence_km": {
+        "digitized": 2.07,
+        "surveyed": 1.35
+      },
+      "bbox": [
+        -122.420565,
+        37.785808,
+        -122.404606,
+        37.806637
+      ],
+      "fids": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "segments": [
+        {
+          "id": "sf-ofarrell-market-jones",
+          "name": "O'Farrell St, Market St to Jones St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's O'Farrell Street centerline from Market Street to Jones Street (749 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-jones-ofarrell-pine",
+          "name": "Jones St, O'Farrell St to Pine St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Jones Street centerline from O'Farrell Street to Pine Street (523 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-pine-jones-hyde",
+          "name": "Pine St, Jones St to Hyde St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Pine Street centerline from Jones Street to Hyde Street (293 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-hyde-pine-jackson",
+          "name": "Hyde St, Pine St to Jackson St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Hyde Street centerline from Pine Street to Jackson Street (508 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Hyde St north of Washington St is still in use, by the Powell-Hyde line."
+        },
+        {
+          "id": "muni-cable-hyde-st",
+          "name": "Hyde St cable, Jackson St to Beach St",
+          "opened": "1891-02-09",
+          "closed": null,
+          "note": "Today's Powell-Hyde line on Hyde St",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Hyde St & Jackson St and Hyde St & Beach St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed",
+            "operator",
+            "fate"
+          ],
+          "pages": "13",
+          "note": "\"The O'Farrell, Jones and Hyde line started at O'Farrell & Market and ran on O'Farrell, Jones, Pine, and Hyde to Beach St.\" (first day February 9, 1891)"
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
           "supports": [
             "geometry"
           ]
@@ -4668,6 +5486,216 @@
       ]
     },
     {
+      "id": "sf-sacramento-clay",
+      "name": "Sacramento-Clay cable line",
+      "system": "ferries-cliff-house-railway",
+      "system_name": "Ferries & Cliff House Railway",
+      "operators": [
+        {
+          "name": "Ferries & Cliff House Railway",
+          "from": "1892",
+          "to": null
+        },
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1942-02-14"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1892",
+      "closed": "1942-02-14",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Out from The Embarcadero on Sacramento St to Fillmore St, back on Sacramento, Larkin and Clay Sts; drawn as it ran after 1906.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by the No. 55 bus on February 15, 1942 (Callwell p. 43).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Its route before 1906 isn't sourced yet.",
+      "flags": [],
+      "undated": false,
+      "length_km": 5.45,
+      "confidence_km": {
+        "digitized": 5.45
+      },
+      "bbox": [
+        -122.434043,
+        37.789838,
+        -122.396597,
+        37.795493
+      ],
+      "fids": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "segments": [
+        {
+          "id": "sf-sacramento-drumm-larkin",
+          "name": "Sacramento St, Drumm St to Larkin St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sacramento Street centerline from Drumm Street to Larkin Street (2019 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Drawn from Drumm St, where Sacramento St ends today; the line ran on to The Embarcadero."
+        },
+        {
+          "id": "sf-sacramento-larkin-fillmore",
+          "name": "Sacramento St, Larkin St to Fillmore St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sacramento Street centerline from Larkin Street to Fillmore Street (1320 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-larkin-clay-sacramento",
+          "name": "Larkin St, Clay St to Sacramento St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Larkin Street centerline from Clay Street to Sacramento Street (99 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-clay-leavenworth-larkin",
+          "name": "Clay St, Leavenworth St to Larkin St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Clay Street centerline from Leavenworth Street to Larkin Street (293 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-clay-kearny-leavenworth",
+          "name": "Clay St, Kearny St to Leavenworth St",
+          "opened": "1873-09-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Clay Street centerline from Kearny Street to Leavenworth Street (1011 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-clay-kearny-drumm",
+          "name": "Clay St, Drumm St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Clay Street centerline from Drumm Street to Kearny Street (716 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Drawn from Drumm St, where Clay St ends today; the line ran on to The Embarcadero."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ],
+          "pages": "13",
+          "note": "The Clay St. Hill line became \"the Sacramento-Clay line in 1892\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Clay Street Hill Railroad began public service on September 1, 1873.\""
+        }
+      ]
+    },
+    {
       "id": "sp-seventh-street",
       "name": "Seventh Street line",
       "system": "southern-pacific",
@@ -4719,15 +5747,15 @@
         37.824321
       ],
       "fids": [
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
       ],
       "segments": [
         {
@@ -5226,23 +6254,23 @@
         37.891481
       ],
       "fids": [
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
       ],
       "segments": [
         {
@@ -5810,6 +6838,135 @@
           ],
           "pages": "2",
           "note": "\"Beyond Northbrae the rail line followed unpaved private right of way through the tunnel to The Alameda, a distance of less than one-half mile.\""
+        }
+      ]
+    },
+    {
+      "id": "sf-sutter-st-cable",
+      "name": "Sutter Street cable line",
+      "system": "sutter-street-railroad",
+      "system_name": "Sutter Street Railroad",
+      "operators": [
+        {
+          "name": "Sutter Street Railroad",
+          "from": "1877-01-27",
+          "to": null
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1877-01-27",
+      "closed": "1906",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars on Sutter St from Market St, to Larkin St from 1877 and to Presidio Ave from 1879.",
+      "fate_note": "Converted to an electric streetcar line by the United Railroads a few weeks after the 1906 earthquake (Callwell p. 21).",
+      "gauge_mm": 1524,
+      "gauge_label": "5 ft",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "flags": [],
+      "undated": false,
+      "length_km": 4.11,
+      "confidence_km": {
+        "digitized": 4.11
+      },
+      "bbox": [
+        -122.446256,
+        37.784445,
+        -122.400097,
+        37.790312
+      ],
+      "fids": [
+        63,
+        64
+      ],
+      "segments": [
+        {
+          "id": "sf-sutter-market-larkin",
+          "name": "Sutter St, Market St to Larkin St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sutter Street centerline from Market Street to Larkin Street (1640 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Horsecar track before the cable of 1877; when the horsecars began isn't sourced yet."
+        },
+        {
+          "id": "sf-sutter-larkin-presidio",
+          "name": "Sutter St, Larkin St to Presidio Ave",
+          "opened": "1879",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sutter Street centerline from Larkin Street to Presidio Avenue (2476 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed",
+            "fate",
+            "gauge"
+          ],
+          "pages": "8",
+          "note": "\"The Sutter Street Railroad converts from horsecar to cable operation on Sutter from Market to Larkin.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
         }
       ]
     },
@@ -6649,6 +7806,418 @@
             "route"
           ],
           "note": "\"the Twenty-second street Key Route line at Poplar Junction\""
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-union-st-cable",
+      "name": "Union Street cable line",
+      "system": "presidio-ferries-railroad",
+      "system_name": "Presidio & Ferries Railroad",
+      "operators": [
+        {
+          "name": "Presidio & Ferries Railroad",
+          "from": "1882",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1882",
+      "closed": "1906",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars from Columbus Ave and Washington St on Columbus Ave and Union St to Steiner St.",
+      "fate_note": "Converted to an electric streetcar line after the 1906 earthquake (Callwell p. 22); bought by the city in 1913 and run as Muni's E line until 1947.",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 3.21,
+      "confidence_km": {
+        "digitized": 3.21
+      },
+      "bbox": [
+        -122.437152,
+        37.795535,
+        -122.403327,
+        37.80035
+      ],
+      "fids": [
+        84,
+        85
+      ],
+      "segments": [
+        {
+          "id": "sf-columbus-washington-union",
+          "name": "Columbus Ave, Washington St to Union St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Columbus Avenue centerline from Washington Street to Union Street (808 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-union-columbus-steiner",
+          "name": "Union St, Columbus Ave to Steiner St",
+          "opened": "1882",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Columbus Avenue to Steiner Street (2402 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Presidio & Ferries Railroad (1882)\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "The line \"ran along Union Street to Steiner\" (OCR)."
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "closed",
+            "fate"
+          ],
+          "pages": "22",
+          "note": "Its horsecar line \"had operated to The Embarcadero from the end of its cable line at Columbus Ave. & Washington St.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-washington-jackson",
+      "name": "Washington-Jackson cable line",
+      "system": "ferries-cliff-house-railway",
+      "system_name": "Ferries & Cliff House Railway",
+      "operators": [
+        {
+          "name": "Ferries & Cliff House Railway",
+          "from": "1888-04-05",
+          "to": null
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1944-09-29",
+          "to": "1956-09-01"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1888-04-05",
+      "closed": "1956-09-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Up Powell St from Market St, west on Jackson St and back on Washington St: to Presidio Ave and California St until 1906, then to Steiner St.",
+      "fate": "abandoned",
+      "fate_note": "Ended September 1, 1956. Its Powell St, Jackson St and Washington St tracks east of Hyde St are part of today's Powell-Hyde line.",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Callwell puts full service on the Powell lines \"a few days\" after March 28, 1888; SFMTA's blog gives April 5. The city took over the Market Street Railway, its last private owner, on September 29, 1944 (Callwell p. 44).",
+      "flags": [],
+      "undated": false,
+      "length_km": 7.54,
+      "confidence_km": {
+        "digitized": 4.73,
+        "surveyed": 2.81
+      },
+      "bbox": [
+        -122.447526,
+        37.784696,
+        -122.407708,
+        37.79562
+      ],
+      "fids": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "segments": [
+        {
+          "id": "muni-cable-powell-st",
+          "name": "Powell St cable, Market St to Jackson St",
+          "opened": "1888-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Market St and Powell St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
+        },
+        {
+          "id": "muni-cable-jackson-powell-mason",
+          "name": "Jackson and Washington Sts cable, Powell St to Mason St",
+          "opened": "1888",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Mason St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "The block both Powell lines of 1888 turned through, westbound on Jackson St and eastbound on Washington St; the Powell-Hyde line uses it today. Only the year is certain (see the Powell-Mason line)."
+        },
+        {
+          "id": "muni-cable-washington-jackson",
+          "name": "Washington and Jackson Sts cable, Powell St to Hyde St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Hyde St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [],
+          "notes": "Westbound on Jackson St, eastbound on Washington St. The block of Hyde St between them belongs to the 1891 Hyde St line but is drawn with this stretch."
+        },
+        {
+          "id": "sf-jackson-hyde-steiner",
+          "name": "Jackson St, Hyde St to Steiner St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Jackson Street centerline from Hyde Street to Steiner Street (1614 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-steiner-jackson-washington",
+          "name": "Steiner St, Jackson St to Washington St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Steiner Street centerline from Jackson Street to Washington Street (98 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-washington-steiner-hyde",
+          "name": "Washington St, Steiner St to Hyde St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Washington Street centerline from Steiner Street to Hyde Street (1613 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sf-jackson-steiner-presidio",
+          "name": "Jackson St, Steiner St to Presidio Ave",
+          "opened": "1888-04-05",
+          "closed": null,
+          "to": "1906",
+          "note": "Cut back to Steiner St after the 1906 earthquake (Callwell p. 22)",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Jackson Street centerline from Steiner Street to Presidio Avenue (1008 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "After 1906 a streetcar line on Sutter, Fillmore, Jackson and Presidio Ave took over this end of the route (Callwell p. 22)."
+        },
+        {
+          "id": "sf-presidio-jackson-california",
+          "name": "Presidio Ave, Jackson St to California St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "to": "1906",
+          "note": "Cut back to Steiner St after the 1906 earthquake (Callwell p. 22)",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Presidio Avenue centerline from Jackson Street to California Street (400 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "After 1906 a streetcar line on Sutter, Fillmore, Jackson and Presidio Ave took over this end of the route (Callwell p. 22)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "closed",
+            "operator",
+            "opened"
+          ],
+          "pages": "12",
+          "note": "The Washington-Jackson line \"operated on Powell from Market, but turned westward on Jackson to Presidio Ave. and then down the hill to California St. On the return trip, the line operated on Presidio, Jackson, Steiner, Washington, and Powell.\""
+        },
+        {
+          "id": "sfmta-blog-powell-mason-130",
+          "title": "130 years and counting on the Powell/Mason cable car line",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2018-04-05",
+          "type": "official",
+          "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
+          "accessed": "2026-10-14",
+          "source": "sfmta-blog-powell-mason-130",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"One month later on April 5th, the East-West running Washington and Jackson Line … opened.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -10632,19 +12201,19 @@
           "flags": []
         },
         {
-          "id": "muni-cable-mason-taylor-1",
-          "name": "Powell-Mason cable, Jackson St to Bay St, part 1 of 2",
+          "id": "muni-cable-jackson-powell-mason",
+          "name": "Jackson and Washington Sts cable, Powell St to Mason St",
           "opened": "1888",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Mason St & Jackson St (data/present/extensions.json)",
           "structure": "street",
           "flags": [
             "conflicting_sources"
           ],
-          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
+          "notes": "The block both Powell lines of 1888 turned through, westbound on Jackson St and eastbound on Washington St; the Powell-Hyde line uses it today. Only the year is certain (see the Powell-Mason line)."
         },
         {
           "id": "muni-cable-washington-jackson",
@@ -10721,7 +12290,7 @@
           "supports": [
             "opened"
           ],
-          "note": "\"The full Powell-Mason Line opened in early March 1888\""
+          "note": "\"The full Powell-Mason Line opened in early March 1888\"; the Washington and Jackson line on April 5th."
         }
       ]
     },
@@ -10781,29 +12350,29 @@
           "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
         },
         {
-          "id": "muni-cable-mason-taylor-1",
-          "name": "Powell-Mason cable, Jackson St to Bay St, part 1 of 2",
+          "id": "muni-cable-jackson-powell-mason",
+          "name": "Jackson and Washington Sts cable, Powell St to Mason St",
           "opened": "1888",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Mason St & Jackson St (data/present/extensions.json)",
           "structure": "street",
           "flags": [
             "conflicting_sources"
           ],
-          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
+          "notes": "The block both Powell lines of 1888 turned through, westbound on Jackson St and eastbound on Washington St; the Powell-Hyde line uses it today. Only the year is certain (see the Powell-Mason line)."
         },
         {
-          "id": "muni-cable-mason-taylor-2",
-          "name": "Powell-Mason cable, Jackson St to Bay St, part 2 of 2",
+          "id": "muni-cable-mason-taylor",
+          "name": "Powell-Mason cable, Mason St to Bay St",
           "opened": "1888",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Mason St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
           "structure": "street",
           "flags": [
             "conflicting_sources"

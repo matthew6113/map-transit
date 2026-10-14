@@ -132,7 +132,8 @@ What it requires:
 ## Past era
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
-and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Every past
+and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
+Francisco's cable lines (`sf-cable/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -148,6 +149,8 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | California Highways and Public Works (1939) | official | California public record; cited for facts |
 | Railway Signaling, March 1939 | journal | Unclear (1939); cited for facts |
 | Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
+| Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), and SFMTA's cable car history page | official | Public agency publications; cited for facts |
+| *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
 
 The geometry tools are below (decision 12).
 
@@ -171,6 +174,7 @@ The geometry tools are below (decision 12).
 | `usgs-richmond-1949` | CA_Richmond_294669_1949_24000_geo.tif | 2.032 | `9112f971428f` |
 | `usgs-san-francisco-1899` | CA_San Francisco_298890_1899_62500_geo.tif | 5.292 | `fed0096205c5` |
 | `usgs-san-francisco-1915` | CA_San Francisco_298897_1915_62500_geo.tif | 5.292 | `2faaad04375c` |
+| `usgs-san-francisco-south-1950` | CA_San Francisco South_300067_1950_24000_geo.tif | 2.032 | `e4c69e7c91ca` |
 | `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
@@ -224,9 +228,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 10 | 45 | 8 | 0 | 74.3 | 9.1 | 4 | 26 |
+| past | 20 | 69 | 8 | 0 | 101.9 | 9.1 | 4 | 47 |
 | present | 44 | 96 | 275 | 1939.2 | 0 | 0 | 12 | 24 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 30, `conflicting_sources` 4, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 350, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 51, `conflicting_sources` 6, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 356, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

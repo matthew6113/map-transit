@@ -1745,6 +1745,16 @@
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sf-public-transit-history-1948",
+      "title": "History of public transit in San Francisco, 1850–1948",
+      "publisher": "City and County of San Francisco",
+      "date": "1948-06",
+      "type": "official",
+      "url": "https://archive.org/details/historyofpublict1947sanf",
+      "accessed": "2026-10-14",
+      "notes": "Bound after the city's 1947 cordon count. Read through archive.org's OCR text, which is poor; quotes need checking against the page images. p. 14: the Sutter Street hill cable \"between Sansome and Larkin Streets\"; p. 15: \"a cable line was constructed along Geary Street from Kearny to Central (Presidio) Avenue\", and the Presidio and Ferries line \"ran along Union Street to Steiner\"."
+    },
+    {
       "id": "sfcta-timma-ti-ferry-2024",
       "title": "Treasure Island ferry service planning update (TIMMA committee memo)",
       "publisher": "San Francisco County Transportation Authority (Treasure Island Mobility Management Agency)",
@@ -2020,6 +2030,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1950. HTMC scan 466304, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3241ae304a5619935b87c9668b257872919c0954e3ed1db06fbafffd6507bf28."
+    },
+    {
+      "id": "usgs-san-francisco-south-1950",
+      "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1950",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, edition of 1950. HTMC scan 300067, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 e4c69e7c91cac13b21c6a576f655c7f6f30e52fec3a22ec2b1cf2bb232855109."
     },
     {
       "id": "usgs-san-leandro-1948",

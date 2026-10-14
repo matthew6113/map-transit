@@ -91,6 +91,7 @@ SHEETS = [
     Sheet("usgs-richmond-1949", "Richmond", 24000, 1949, "294669", None, "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949"),
     Sheet("usgs-san-leandro-1948", "San Leandro", 24000, 1948, "300123", None, "7.5-minute sheet, edition of 1948"),
     Sheet("usgs-san-francisco-north-1950", "San Francisco North", 24000, 1950, "466304", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1950"),
+    Sheet("usgs-san-francisco-south-1950", "San Francisco South", 24000, 1950, "300067", None, "7.5-minute sheet, edition of 1950"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
@@ -460,7 +461,7 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
         from .streets import roads as all_roads
         area = to_metres(box(w, s, e, n))
         longest: dict[str, tuple[float, list]] = {}
-        for _, name, g in all_roads():
+        for _, name, g, _ in all_roads():
             if not g.intersects(area):
                 continue
             pts = [ov_px(*c) for c in to_degrees(g).coords]

@@ -37,9 +37,32 @@
       "short_name": "High-speed rail"
     },
     {
+      "id": "california-street-cable-railroad",
+      "name": "California Street Cable Railroad",
+      "short_name": "Cal Cable",
+      "notes": "Leland Stanford's company, 1878; bought by the city in 1952."
+    },
+    {
       "id": "caltrain",
       "name": "Caltrain",
       "short_name": "Caltrain"
+    },
+    {
+      "id": "clay-street-hill-railroad",
+      "name": "Clay Street Hill Railroad",
+      "short_name": "Clay St Hill RR",
+      "notes": "Andrew Hallidie's first cable railway, 1873."
+    },
+    {
+      "id": "ferries-cliff-house-railway",
+      "name": "Ferries & Cliff House Railway",
+      "short_name": "Ferries & Cliff House",
+      "notes": "Also called the Powell Street Railway (Callwell p. 12)."
+    },
+    {
+      "id": "geary-street-park-ocean-railroad",
+      "name": "Geary Street, Park & Ocean Railroad",
+      "short_name": "GSP&O"
     },
     {
       "id": "gold-runner",
@@ -64,9 +87,19 @@
       "notes": "The Key Route trains and ferries, from 1903, under several corporate names; each line lists its operators by date."
     },
     {
+      "id": "market-street-cable-railway",
+      "name": "Market Street Cable Railway",
+      "short_name": "Market St Cable"
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"
+    },
+    {
+      "id": "presidio-ferries-railroad",
+      "name": "Presidio & Ferries Railroad",
+      "short_name": "Presidio & Ferries"
     },
     {
       "id": "san-francisco-bay-ferry",
@@ -88,6 +121,11 @@
       "name": "Southern Pacific Company",
       "short_name": "Southern Pacific",
       "notes": "Here, its East Bay electric lines (the Red Trains), electrified from 1911."
+    },
+    {
+      "id": "sutter-street-railroad",
+      "name": "Sutter Street Railroad",
+      "short_name": "Sutter St RR"
     },
     {
       "id": "treasure-island-ferry",

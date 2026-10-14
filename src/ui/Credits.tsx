@@ -23,7 +23,8 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Past lines traced from
       the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
       Historical Topographic Map Collection</a> (public domain) and along today's street centerlines from Overture Maps
-      (ODbL), with dates from California Railroad Commission decisions, period journals and newspapers. Sources for every
+      (ODbL), with dates from California Railroad Commission decisions, period journals and newspapers, and Muni's own
+      chronology. Sources for every
       line are in its panel.
     </>
   );

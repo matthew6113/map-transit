@@ -5,7 +5,8 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
 
     {"segments": {"<segment id>": {
         "parts": [                                   # joined in order
-          {"streets": ["Shattuck Avenue"], "from": "Dwight Way", "to": "Vine Street"},
+          {"streets": ["Shattuck Avenue"], "from": "Dwight Way", "to": "Vine Street"},  # "area": "sf" to
+                                                     # keep to one box of streets.AREAS
           {"trace": {"sheet": "usgs-san-francisco-1915", "bbox": [W, S, E, N], "zoom": 2},
            "px": [[x, y], ...]},                     # vertices read off that crop
           {"lonlat": [[lon, lat], ...]},             # given outright (approximate only)
@@ -101,7 +102,8 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
         return [end], "join", f"joined to {part['join']} at its {part.get('at', 'end')}"
     if "streets" in part:
         from .streets import OVERTURE_RELEASE, route
-        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]), part.get("bridge_m", 0.0))
+        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]), part.get("bridge_m", 0.0),
+                               part.get("area"))
         names = " and ".join(part["streets"])
         gap = f", across gaps of up to {part['bridge_m']:.0f} m where the street is cut today" if part.get("bridge_m") else ""
         return coords, "street-centerline", (f"along today's {names} centerline from {_label(part['from'])} to "

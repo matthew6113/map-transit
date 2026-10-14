@@ -2,6 +2,8 @@
 
 PY = uv run --directory pipeline python -m
 
+PHASE ?= p2b
+
 .PHONY: help tools basemap basemap-refresh future-sync present present-refresh past past-review checklists app-data data dev build test e2e screenshots perf
 
 help:
@@ -11,7 +13,7 @@ help:
 	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment), BRT lanes from OpenStreetMap"
 	@echo "make present-refresh  The same, downloading every feed again"
 	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json): USGS sheets, today's streets"
-	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/p2a/traces/"
+	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/$$PHASE/traces/ (PHASE=p2b)"
 	@echo "make checklists       Matthew's review lists: docs/checks/present.md (scanned-PDF quotes, conflicts) and past.md (book pages, traced geometry)"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"
 	@echo "make data             future-sync, present, past and app-data"
@@ -45,10 +47,11 @@ present-refresh: tools
 past: tools
 	$(PY) transit_pipeline.usgs_topo fetch
 	$(PY) transit_pipeline.streets register
+	$(PY) transit_pipeline.water register
 	$(PY) transit_pipeline.past
 
 past-review: past
-	$(PY) transit_pipeline.past --review ../docs/screenshots/p2a/traces
+	$(PY) transit_pipeline.past --review ../docs/screenshots/$(PHASE)/traces
 	$(PY) transit_pipeline.checklists
 
 checklists: tools

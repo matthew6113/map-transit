@@ -203,8 +203,17 @@ describe('provenance', () => {
   };
 
   it('keeps a line\'s use of a segment within the dates of both', () => {
+    // Past lines may also run over present track (decision 13), including stretches cut at build time.
+    const extPath = join(DATA, 'present', 'extensions.json');
+    const ext = existsSync(extPath) ? read(extPath) : { systems: {} };
+    const extSegs = Object.values(ext.systems as Record<string, { segments?: { id: string; opened: string | null; closed?: string | null }[] }>)
+      .flatMap((x) => (x.segments ?? []).map((d) => [d.id, { opened: d.opened, closed: d.closed ?? null }] as const));
     for (const f of folders) {
-      const segs = new Map(folders.filter((g) => g.era === f.era).flatMap((g) => g.segments.map((s) => [s.properties.id, s.properties] as const)));
+      const eras = f.era === 'past' ? ['past', 'present'] : [f.era];
+      const segs = new Map<string, { opened: string | null; closed: string | null }>([
+        ...(f.era === 'past' ? extSegs : []),
+        ...folders.filter((g) => eras.includes(g.era)).flatMap((g) => g.segments.map((s) => [s.properties.id, s.properties] as const)),
+      ]);
       for (const l of f.lines) {
         for (const r of l.route as { segment: string; from?: string | null; to?: string | null }[]) {
           const seg = segs.get(r.segment)!;

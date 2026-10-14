@@ -22,7 +22,7 @@ from .common import DATA, ROOT, SOURCES
 OUT = ROOT / "docs" / "checks" / "past.md"
 OUT_PRESENT = ROOT / "docs" / "checks" / "present.md"
 EXTENSIONS = DATA / "present" / "extensions.json"
-REVIEW = ROOT / "docs" / "screenshots" / "p2a" / "traces"
+REVIEWS = [ROOT / "docs" / "screenshots" / p / "traces" for p in ("p2a", "p2b")]  # make past-review, by phase
 
 
 def records():
@@ -119,8 +119,10 @@ def main() -> None:
         if kind == "line" or p.get("geometry_confidence") == "surveyed":
             continue
         g = p.get("georeference") or {}
-        imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (REVIEW / (p['id'] + '-corrected.jpg')).exists() else 'review'}](../screenshots/p2a/traces/{n.name})"
-                for n in sorted(REVIEW.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]
+        imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (d / (p['id'] + '-corrected.jpg')).exists() else 'review'}]"
+                f"(../screenshots/{d.parent.name}/traces/{n.name})"
+                for d in [next((d for d in reversed(REVIEWS) if (d / f"{p['id']}.jpg").exists()), REVIEWS[0])]
+                for n in sorted(d.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]  # the latest phase's
         lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', p.get('geometry_confidence'))} | "
                      f"{g.get('map', '')} | {str(g['est_error_m']) + ' m' if 'est_error_m' in g else ''} | {' '.join(imgs)} |")
         traced += 1

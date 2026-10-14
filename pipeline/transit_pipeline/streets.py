@@ -80,32 +80,33 @@ def _area(name: str) -> Path:
 
 
 @cache
-def roads() -> list[tuple[str, str, LineString]]:
-    """(id, normalized name, geometry in metres) for every named road in the boxes."""
+def roads() -> list[tuple[str, str, LineString, str]]:
+    """(id, normalized name, geometry in metres, box) for every named road in the boxes."""
     out, seen = [], set()
     for area in AREAS:
         for r in pq.read_table(_area(area)).to_pylist():
             name = (r["names"] or {}).get("primary")
             if name and r["id"] not in seen:  # the boxes overlap a little
                 seen.add(r["id"])
-                out.append((r["id"], norm(name), to_metres(shapely.from_wkb(r["geometry"]))))
+                out.append((r["id"], norm(name), to_metres(shapely.from_wkb(r["geometry"])), area))
     return out
 
 
-def street(names: list[str]):
+def street(names: list[str], area: str | None = None):
+    """Today's roads with these names, in one box (Oakland has a Market St too) or in all."""
     want = {norm(n) for n in names}
-    found = [g for _, n, g in roads() if n in want]
+    found = [g for _, n, g, a in roads() if n in want and (area is None or a == area)]
     if not found:
-        raise SystemExit(f"[streets] no road named {names} in Overture's boxes ({', '.join(AREAS)})")
+        raise SystemExit(f"[streets] no road named {names} in Overture's {area or ', '.join(AREAS)} box")
     return unary_union(found)
 
 
-def corner(route, cross: str | tuple[float, float]) -> Point:
+def corner(route, cross: str | tuple[float, float], area: str | None = None) -> Point:
     """Where the route meets a cross street (the middle of the crossing points, for a divided
     road), or a lon/lat point snapped onto the route."""
     if isinstance(cross, tuple):
         return nearest_points(route, to_metres(Point(cross)))[0]
-    other = street([cross])
+    other = street([cross], area)
     hit = route.intersection(other)
     pts = [p for p in getattr(hit, "geoms", [hit]) if isinstance(p, Point)]
     if pts:
@@ -117,20 +118,20 @@ def corner(route, cross: str | tuple[float, float]) -> Point:
     return a
 
 
-def crossing(a: str, b: str) -> tuple[float, float]:
+def crossing(a: str, b: str, area: str | None = None) -> tuple[float, float]:
     """Where two of today's streets cross (the middle of the crossing points, for divided roads), as
     lon/lat."""
-    p = corner(street([a]), b)
+    p = corner(street([a], area), b, area)
     q = to_degrees(p)
     return (round(q.x, 6), round(q.y, 6))
 
 
 def route(names: list[str], start: str | tuple[float, float], end: str | tuple[float, float],
-          bridge_m: float = 0.0) -> tuple[list[list[float]], float]:
+          bridge_m: float = 0.0, area: str | None = None) -> tuple[list[list[float]], float]:
     """The centerline along the named streets from one corner to another, as lon/lat, and its length
     in metres. Divided roads come out along one carriageway; the test is the USGS check."""
-    net = street(names)
-    a, b = corner(net, start), corner(net, end)
+    net = street(names, area)
+    a, b = corner(net, start, area), corner(net, end, area)
     noded = unary_union([*_lines(net), *_cut_lines(net, [a, b])])
     graph: dict[tuple, list[tuple[tuple, float, LineString]]] = {}
 
@@ -229,6 +230,7 @@ def main() -> None:
     c = sub.add_parser("cross", help="where two of today's streets cross, as lon/lat")
     c.add_argument("a")
     c.add_argument("b")
+    c.add_argument("--area", choices=list(AREAS))
     sub.add_parser("register", help="cache the roads and record the dataset in data/sources.json")
     a = ap.parse_args()
     if a.cmd == "register":
@@ -236,10 +238,10 @@ def main() -> None:
         register()
         return
     if a.cmd == "cross":
-        print(crossing(a.a, a.b))
+        print(crossing(a.a, a.b, a.area))
         return
     if a.cmd == "names":
-        print("\n".join(sorted({n for _, n, _ in roads() if re.search(a.pattern, n)})))
+        print("\n".join(sorted({n for _, n, _, _ in roads() if re.search(a.pattern, n)})))
         return
     def place(v: str):
         m = re.fullmatch(r"\s*(-?\d+\.?\d*)\s*,\s*(-?\d+\.?\d*)\s*", v)

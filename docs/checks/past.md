@@ -43,6 +43,30 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2a/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2a/traces/key-pier-terminal.jpg) |
 | `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2a/traces/key-san-pablo.jpg) |
 | `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2a/traces/key-piedmont-terminal.jpg) |
+| `sf-clay-kearny-leavenworth` Clay St, Kearny St to Leavenworth St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-leavenworth.jpg) |
+| `sf-clay-kearny-drumm` Clay St, Drumm St to Kearny St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-drumm.jpg) |
+| `sf-clay-leavenworth-larkin` Clay St, Leavenworth St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-leavenworth-larkin.jpg) |
+| `sf-larkin-clay-sacramento` Larkin St, Clay St to Sacramento St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-larkin-clay-sacramento.jpg) |
+| `sf-sacramento-drumm-larkin` Sacramento St, Drumm St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-drumm-larkin.jpg) |
+| `sf-sacramento-larkin-fillmore` Sacramento St, Larkin St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-larkin-fillmore.jpg) |
+| `sf-sutter-market-larkin` Sutter St, Market St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-market-larkin.jpg) |
+| `sf-sutter-larkin-presidio` Sutter St, Larkin St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-larkin-presidio.jpg) |
+| `sf-california-van-ness-fillmore` California St, Van Ness Ave to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-van-ness-fillmore.jpg) |
+| `sf-california-fillmore-presidio` California St, Fillmore St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-fillmore-presidio.jpg) |
+| `sf-ofarrell-market-jones` O'Farrell St, Market St to Jones St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-ofarrell-market-jones.jpg) |
+| `sf-jones-ofarrell-pine` Jones St, O'Farrell St to Pine St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jones-ofarrell-pine.jpg) |
+| `sf-pine-jones-hyde` Pine St, Jones St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-pine-jones-hyde.jpg) |
+| `sf-hyde-pine-jackson` Hyde St, Pine St to Jackson St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-hyde-pine-jackson.jpg) |
+| `sf-jones-market-ofarrell` Jones St, Market St to O'Farrell St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jones-market-ofarrell.jpg) |
+| `sf-jackson-hyde-steiner` Jackson St, Hyde St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-hyde-steiner.jpg) |
+| `sf-steiner-jackson-washington` Steiner St, Jackson St to Washington St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-steiner-jackson-washington.jpg) |
+| `sf-washington-steiner-hyde` Washington St, Steiner St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-washington-steiner-hyde.jpg) |
+| `sf-jackson-steiner-presidio` Jackson St, Steiner St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-steiner-presidio.jpg) |
+| `sf-presidio-jackson-california` Presidio Ave, Jackson St to California St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-presidio-jackson-california.jpg) |
+| `sf-geary-market-presidio` Geary St, Market St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-geary-market-presidio.jpg) |
+| `sf-columbus-washington-union` Columbus Ave, Washington St to Union St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-columbus-washington-union.jpg) |
+| `sf-union-columbus-steiner` Union St, Columbus Ave to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-union-columbus-steiner.jpg) |
+| `sf-castro-18th-26th` Castro St, 18th St to 26th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-castro-18th-26th.jpg) |
 | `sp-oakland-mole` Oakland Mole | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/sp-oakland-mole.jpg) |
 | `sp-alameda-mole` Alameda Mole | similarity | usgs-san-francisco-1915 | 60 m | [corrected](../screenshots/p2a/traces/sp-alameda-mole-corrected.jpg) [as traced](../screenshots/p2a/traces/sp-alameda-mole.jpg) |
 | `sp-mole-16th-st` Oakland Mole to Sixteenth Street Station | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/sp-mole-16th-st.jpg) |
@@ -74,5 +98,5 @@ Each traced feature, with how it was made. The review images (`make past-review`
 
 ## Conflicting sources
 
-None yet.
-
+- line `sf-union-st-cable` (Union Street cable line): SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.
+- line `sf-castro-st-cable` (Castro Street cable line): Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.

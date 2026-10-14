@@ -2,6 +2,17 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, San Francisco's cable lines
+
+- **Ten cable lines that left no present line** (`data/past/sf-cable/`), 1873–1956: the Clay
+  Street Hill Railroad, Sutter St, the California St line west of Van Ness, O'Farrell–Jones–Hyde, the
+  Jones St shuttle, Washington–Jackson, Sacramento–Clay, Geary St, Union St and Castro St. 24
+  street segments, drawn along today's centerlines and checked on the 1950 USGS sheet.
+- Dates from Muni's 1999 chronology (Callwell) and SFMTA; routes from Callwell and the city's 1948
+  transit history. Washington–Jackson and O'Farrell–Jones–Hyde run over today's Powell, Jackson,
+  Washington and Hyde St track (decision 13).
+- Research and open questions: `docs/research/sf-street-railways.md`.
+
 ## 2026-10-14: Phase 2b, the rest of today's network dated
 
 - **SMART** by stretch: Sonoma County Airport–San Rafael (August 25, 2017), San Rafael–Larkspur

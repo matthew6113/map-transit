@@ -249,7 +249,8 @@
         "Powell St & Jackson St": [-122.40974, 37.79514],
         "Hyde St & Jackson St": [-122.41819, 37.79454],
         "Hyde St & Beach St": [-122.42054, 37.80664],
-        "Taylor St & Bay St": [-122.41519, 37.80523]
+        "Taylor St & Bay St": [-122.41519, 37.80523],
+        "Mason St & Jackson St": [-122.41167, 37.7956]
       },
       "segments": [
         {
@@ -523,10 +524,26 @@
           "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
         },
         {
-          "id": "muni-cable-mason-taylor",
-          "name": "Powell-Mason cable, Jackson St to Bay St",
+          "id": "muni-cable-jackson-powell-mason",
+          "name": "Jackson and Washington Sts cable, Powell St to Mason St",
           "line": "muni-cable-powell-mason",
           "from": "Powell St & Jackson St",
+          "to": "Mason St & Jackson St",
+          "opened": "1888",
+          "structure": "street",
+          "both_ways": true,
+          "flags": ["conflicting_sources"],
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "12", "note": "\"Full service on the Powell lines — the Powell-Mason and Washington-Jackson lines — began a few days later.\" (after March 28, 1888)"},
+            {"source": "sfmta-blog-powell-mason-130", "supports": ["opened"], "note": "\"The full Powell-Mason Line opened in early March 1888\"; the Washington and Jackson line on April 5th."}
+          ],
+          "notes": "The block both Powell lines of 1888 turned through, westbound on Jackson St and eastbound on Washington St; the Powell-Hyde line uses it today. Only the year is certain (see the Powell-Mason line)."
+        },
+        {
+          "id": "muni-cable-mason-taylor",
+          "name": "Powell-Mason cable, Mason St to Bay St",
+          "line": "muni-cable-powell-mason",
+          "from": "Mason St & Jackson St",
           "to": "Taylor St & Bay St",
           "opened": "1888",
           "structure": "street",
