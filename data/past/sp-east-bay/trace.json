@@ -1,0 +1,863 @@
+{
+  "$comment": "Geometry recipes for data/past/sp-east-bay (decision 12): `make past` rebuilds each geometry from these. Pixels are read off the named crop of a USGS sheet (transit_pipeline.usgs_topo crop SHEET OUT --bbox=... --zoom=...).",
+  "segments": {
+    "sp-oakland-mole": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.336,
+              37.803,
+              -122.3,
+              37.814
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              205,
+              215
+            ],
+            [
+              380,
+              213
+            ],
+            [
+              540,
+              215
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.322,
+              37.805,
+              -122.3,
+              37.8115
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              120,
+              211
+            ],
+            [
+              300,
+              218
+            ],
+            [
+              500,
+              228
+            ],
+            [
+              700,
+              243
+            ],
+            [
+              880,
+              255
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 20,
+      "note": "The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's"
+    },
+    "sp-alameda-mole": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.336,
+              37.79,
+              -122.312,
+              37.7985
+            ],
+            "zoom": 2.6
+          },
+          "px": [
+            [
+              185,
+              210
+            ],
+            [
+              300,
+              240
+            ],
+            [
+              400,
+              265
+            ],
+            [
+              500,
+              288
+            ],
+            [
+              600,
+              317
+            ],
+            [
+              700,
+              345
+            ],
+            [
+              800,
+              371
+            ],
+            [
+              900,
+              397
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.314,
+              37.785,
+              -122.288,
+              37.7935
+            ],
+            "zoom": 2.6
+          },
+          "px": [
+            [
+              100,
+              178
+            ],
+            [
+              200,
+              205
+            ],
+            [
+              300,
+              228
+            ],
+            [
+              400,
+              250
+            ],
+            [
+              480,
+              262
+            ],
+            [
+              600,
+              265
+            ],
+            [
+              700,
+              265
+            ],
+            [
+              840,
+              265
+            ]
+          ]
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 60,
+      "note": "The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915"
+    },
+    "sp-mole-16th-st": {
+      "parts": [
+        {
+          "join": "sp-oakland-mole",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.322,
+              37.805,
+              -122.3,
+              37.8115
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              1000,
+              145
+            ],
+            [
+              1100,
+              85
+            ],
+            [
+              1200,
+              30
+            ],
+            [
+              1265,
+              0
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              0,
+              1060
+            ],
+            [
+              100,
+              960
+            ],
+            [
+              170,
+              870
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 25,
+      "note": "The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain"
+    },
+    "sp-16th-st-26th-st": {
+      "parts": [
+        {
+          "join": "sp-mole-16th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              260,
+              700
+            ],
+            [
+              330,
+              540
+            ],
+            [
+              336,
+              526
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 30,
+      "note": "Northeast from Sixteenth Street Station to the junction near the foot of 26th Street"
+    },
+    "sp-26th-st-34th-st": {
+      "parts": [
+        {
+          "join": "sp-16th-st-26th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              370,
+              450
+            ],
+            [
+              385,
+              404
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 40,
+      "note": "North by Wood Street to 34th Street"
+    },
+    "sp-wood-st": {
+      "parts": [
+        {
+          "join": "sp-26th-st-34th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              390,
+              250
+            ],
+            [
+              395,
+              82
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.2955,
+              37.8305,
+              -122.2805,
+              37.8425
+            ],
+            "zoom": 1.5
+          },
+          "px": [
+            [
+              305,
+              986
+            ],
+            [
+              305,
+              700
+            ],
+            [
+              300,
+              520
+            ],
+            [
+              310,
+              450
+            ],
+            [
+              350,
+              385
+            ],
+            [
+              400,
+              345
+            ],
+            [
+              440,
+              330
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue)"
+    },
+    "sp-stanford-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Stanford Avenue"
+          ],
+          "from": "Hollis Street",
+          "to": "Adeline Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "The private right of way ran beside the avenue (on its south side, as the 1949 sheet draws it); drawn on the avenue's centerline"
+    },
+    "sp-adeline-st": {
+      "parts": [
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "Stanford Avenue",
+          "to": "Shattuck Avenue"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Private right of way along Adeline Street; drawn on the street's centerline"
+    },
+    "sp-shattuck-ave-south": {
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Adeline Street",
+          "to": "Bancroft Way"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 10,
+      "note": "Paved-in right of way in Shattuck Avenue"
+    },
+    "sp-shattuck-ave-north": {
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Bancroft Way",
+          "to": "Vine Street"
+        }
+      ],
+      "check": "usgs-san-francisco-1915",
+      "est_error_m": 10,
+      "note": "In the paved street"
+    },
+    "sp-shattuck-sutter-link": {
+      "parts": [
+        {
+          "join": "sp-shattuck-ave-north",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Henry Street"
+          ],
+          "from": "Shattuck Avenue",
+          "to": "Sutter Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 60,
+      "approximate": true,
+      "note": "The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed"
+    },
+    "sp-sutter-st": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Henry Street",
+          "to": "Hopkins Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Sutter Street"
+    },
+    "sp-northbrae-tunnel": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Hopkins Street",
+          "to": "Solano Avenue"
+        },
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "Sutter Street",
+          "to": "The Alameda"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 20,
+      "note": "Private right of way from Northbrae Station through the Northbrae Tunnel, which carries Solano Avenue today, to The Alameda"
+    },
+    "sp-solano-ave-east": {
+      "parts": [
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "The Alameda",
+          "to": "Colusa Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Solano Avenue"
+    },
+    "sp-ninth-st-emeryville": {
+      "parts": [
+        {
+          "join": "sp-wood-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.296,
+              37.837,
+              -122.282,
+              37.857
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              300,
+              900
+            ],
+            [
+              288,
+              780
+            ],
+            [
+              278,
+              650
+            ],
+            [
+              282,
+              520
+            ],
+            [
+              300,
+              410
+            ],
+            [
+              310,
+              340
+            ],
+            [
+              300,
+              260
+            ],
+            [
+              273,
+              168
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 25,
+      "note": "North from Ninth Street junction through Emeryville to Heinz Avenue, read by hand where the 1949 sheet draws the track among others"
+    },
+    "sp-ninth-st": {
+      "parts": [
+        {
+          "streets": [
+            "Ninth Street"
+          ],
+          "from": "Heinz Avenue",
+          "to": "Harrison Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 10,
+      "note": "In Ninth Street"
+    },
+    "sp-solano-ave-west": {
+      "parts": [
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "Colusa Avenue",
+          "to": "San Pablo Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Solano Avenue, across San Pablo Avenue"
+    },
+    "sp-albany-row": {
+      "parts": [
+        {
+          "join": "sp-ninth-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.305,
+              37.877,
+              -122.296,
+              37.89
+            ],
+            "zoom": 3.0
+          },
+          "px": [
+            [
+              240,
+              635
+            ],
+            [
+              235,
+              620
+            ],
+            [
+              215,
+              560
+            ],
+            [
+              200,
+              520
+            ],
+            [
+              180,
+              460
+            ],
+            [
+              160,
+              400
+            ],
+            [
+              140,
+              330
+            ],
+            [
+              120,
+              255
+            ]
+          ]
+        },
+        {
+          "join": "sp-solano-ave-west",
+          "at": "end"
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 100,
+      "note": "The 1915 sheet draws a railroad here, west of San Pablo Avenue, but places it only roughly; its north end stops short of Solano Avenue on the sheet, and the last stretch to Solano Avenue is joined straight"
+    },
+    "sp-seventh-st": {
+      "parts": [
+        {
+          "join": "sp-oakland-mole",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "7th Street"
+          ],
+          "from": [
+            -122.308446,
+            37.808397
+          ],
+          "to": "Fallon Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 10,
+      "note": "In Seventh Street"
+    },
+    "sp-fallon-melrose": {
+      "parts": [
+        {
+          "join": "sp-seventh-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.268,
+              37.778,
+              -122.25,
+              37.8
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              290,
+              385
+            ],
+            [
+              400,
+              410
+            ],
+            [
+              500,
+              432
+            ],
+            [
+              623,
+              455
+            ]
+          ],
+          "snap": 6
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-east-1949",
+            "bbox": [
+              -122.25,
+              37.762,
+              -122.195,
+              37.792
+            ],
+            "zoom": 0.55
+          },
+          "px": [
+            [
+              0,
+              95
+            ],
+            [
+              100,
+              150
+            ],
+            [
+              190,
+              210
+            ],
+            [
+              300,
+              320
+            ],
+            [
+              420,
+              410
+            ],
+            [
+              545,
+              490
+            ],
+            [
+              650,
+              540
+            ],
+            [
+              760,
+              600
+            ],
+            [
+              870,
+              665
+            ],
+            [
+              960,
+              720
+            ]
+          ],
+          "snap": 6
+        }
+      ],
+      "est_error_m": 100,
+      "approximate": true,
+      "note": "Along the Southern Pacific's right of way as the 1949 sheet draws it, from the estuary shore past Fruitvale station toward Melrose. The sources name the ends (Fallon Street, Melrose Station) but not the track between, the link from Seventh Street at Fallon Street to the shore tracks is joined straight, and where Melrose Station stood isn't sourced, so this is dashed"
+    },
+    "sp-bancroft-ave-san-leandro": {
+      "parts": [
+        {
+          "streets": [
+            "Bancroft Avenue"
+          ],
+          "from": "106th Avenue",
+          "to": "Dutton Avenue"
+        }
+      ],
+      "check": "usgs-san-leandro-1948",
+      "est_error_m": 15,
+      "note": "In Bancroft Avenue"
+    },
+    "sp-lincoln-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Avenue"
+          ],
+          "from": "Webster Street",
+          "to": "Park Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Lincoln Avenue"
+    },
+    "sp-central-encinal": {
+      "parts": [
+        {
+          "streets": [
+            "Central Avenue"
+          ],
+          "from": "Webster Street",
+          "to": "Encinal Avenue"
+        },
+        {
+          "streets": [
+            "Encinal Avenue"
+          ],
+          "from": "Central Avenue",
+          "to": "High Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Central Avenue and Encinal Avenue"
+    },
+    "sp-monterey-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Monterey Avenue"
+          ],
+          "from": "Hopkins Street",
+          "to": "Colusa Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Monterey Avenue"
+    }
+  },
+  "points": {
+    "sp-oakland-pier": {
+      "trace": {
+        "sheet": "usgs-oakland-west-1949",
+        "bbox": [
+          -122.336,
+          37.803,
+          -122.3,
+          37.814
+        ],
+        "zoom": 0.8
+      },
+      "px": [
+        205,
+        215
+      ],
+      "est_error_m": 30,
+      "note": "The west end of the mole's tracks, at the ferry slips"
+    },
+    "sp-sixteenth-street": {
+      "at": "16th Street/Wood Street",
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 30
+    },
+    "sp-northbrae": {
+      "at": "Sutter Street/Hopkins Street",
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15
+    },
+    "sp-thousand-oaks": {
+      "at": "Solano Avenue/Colusa Avenue",
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15
+    }
+  }
+}

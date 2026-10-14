@@ -1,0 +1,411 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://matthew6113.github.io/map-transit/schema/line.schema.json",
+  "title": "Lines file (data/<era>/<group>/lines.json)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lines"
+  ],
+  "properties": {
+    "$comment": {
+      "type": "string"
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/line"
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?~?$",
+      "description": "YYYY, YYYY-MM or YYYY-MM-DD; a trailing ~ only when the source itself says circa."
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "supports"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "An id in data/sources.json."
+        },
+        "supports": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "geometry",
+              "opened",
+              "closed",
+              "route",
+              "fate",
+              "status",
+              "expected_opening",
+              "operator",
+              "gauge",
+              "electrification",
+              "photo",
+              "name",
+              "stations",
+              "general"
+            ]
+          }
+        },
+        "pages": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "system",
+        "mode",
+        "era",
+        "opened",
+        "closed",
+        "status",
+        "route",
+        "sources",
+        "flags"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "short_name": {
+          "type": "string"
+        },
+        "system": {
+          "$ref": "#/$defs/id"
+        },
+        "operators": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "from": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              },
+              "to": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "mode": {
+          "enum": [
+            "rapid_transit",
+            "railroad",
+            "commuter_rail",
+            "intercity_rail",
+            "interurban",
+            "streetcar",
+            "cable",
+            "light_rail",
+            "people_mover",
+            "ferry",
+            "brt",
+            "heritage"
+          ]
+        },
+        "traction": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "horse",
+                  "steam",
+                  "cable",
+                  "electric_overhead",
+                  "electric_third_rail",
+                  "diesel",
+                  "battery",
+                  "diesel_electric",
+                  "gas_electric"
+                ]
+              },
+              "from": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              },
+              "to": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "gauge_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "gauge_label": {
+          "type": "string"
+        },
+        "era": {
+          "enum": [
+            "past",
+            "present",
+            "future",
+            "ideal"
+          ]
+        },
+        "opened": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ]
+        },
+        "closed": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "closed",
+            "active",
+            "planned",
+            "environmental",
+            "funded",
+            "under_construction",
+            "opening"
+          ]
+        },
+        "status_as_of": {
+          "$ref": "#/$defs/date"
+        },
+        "expected_opening": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "description": "As the agency states it (e.g. '2033' or 'late 2027'), with a source that supports expected_opening."
+        },
+        "last_verified": {
+          "$ref": "#/$defs/date"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "fate": {
+          "enum": [
+            "abandoned",
+            "converted_to_bus",
+            "absorbed_into_bart",
+            "absorbed_into_muni",
+            "rail_trail",
+            "paved_over",
+            "still_freight",
+            "heritage_railway",
+            "replaced_by_rail"
+          ]
+        },
+        "fate_note": {
+          "type": "string"
+        },
+        "successor": {
+          "type": "string"
+        },
+        "continues_beyond": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Where a line clipped at the map's pan limits goes on to, from its terminals in the source (e.g. 'Chicago Union Station')."
+        },
+        "route": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "segment"
+            ],
+            "properties": {
+              "segment": {
+                "$ref": "#/$defs/id"
+              },
+              "from": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              },
+              "to": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/date"
+                  }
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "photo": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "commons_file",
+            "author",
+            "license",
+            "source_url"
+          ],
+          "properties": {
+            "commons_file": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "license": {
+              "enum": [
+                "public-domain",
+                "PD-US-expired",
+                "CC0"
+              ]
+            },
+            "source_url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "url"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "flags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "opened_unsourced",
+              "closed_unsourced",
+              "expected_opening_unsourced",
+              "status_unverified",
+              "geometry_unverified",
+              "needs_manual_digitizing",
+              "page_unverified",
+              "conflicting_sources",
+              "license_unclear"
+            ]
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

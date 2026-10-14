@@ -1,0 +1,59 @@
+{
+  "feeds": [
+    {
+      "id": "511",
+      "title": "511 SF Bay regional GTFS feed (operator RG)",
+      "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+      "sha256": "7b3665119162f9efa99f111043b67d5f436ead0f56f83b256a8c9c05288018e6",
+      "fetched": "2026-10-14",
+      "feed_version": "",
+      "feed_start_date": "",
+      "feed_end_date": "",
+      "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+      "agencies": [
+        "ac-transit (BRT)",
+        "ace",
+        "angel-island-tiburon-ferry",
+        "bart",
+        "caltrain",
+        "golden-gate-ferry",
+        "muni",
+        "muni (BRT)",
+        "san-francisco-bay-ferry",
+        "sfo-airtrain",
+        "smart",
+        "treasure-island-ferry",
+        "vta",
+        "vta (BRT)"
+      ]
+    },
+    {
+      "id": "amtrak",
+      "title": "Amtrak GTFS feed",
+      "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+      "sha256": "d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa",
+      "fetched": "2026-10-14",
+      "feed_version": "20261013",
+      "feed_start_date": "20261014",
+      "feed_end_date": "20261020",
+      "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+      "agencies": [
+        "amtrak"
+      ]
+    },
+    {
+      "id": "gold-runner",
+      "title": "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295)",
+      "url": "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+      "sha256": "9964232c8aad74f9e1ef069445d6561ef02f2e779507181d54b8c14731d51baf",
+      "fetched": "2026-10-14",
+      "feed_version": "UTC: 26-Nov-2025 18:19",
+      "feed_start_date": "20251126",
+      "feed_end_date": "20260630",
+      "license": "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+      "agencies": [
+        "gold-runner"
+      ]
+    }
+  ]
+}

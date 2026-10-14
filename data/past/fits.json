@@ -1,0 +1,15 @@
+{
+  "$comment": "Named corrections for misregistered USGS sheets, used by data/past/*/trace.json (decision 12; transit_pipeline.past). Each matches points the sheet draws (px on a crop of it) to the same points on a better sheet (true_px on a crop of that). Hand-read on Oct 14, 2026.",
+  "sf1915-bay": {
+    "model": "shift",
+    "against": "Yerba Buena Island on the 1949 Oakland West sheet",
+    "frame": {"sheet": "usgs-san-francisco-1915", "bbox": [-122.377, 37.802, -122.356, 37.816], "zoom": 2},
+    "true_frame": {"sheet": "usgs-oakland-west-1949", "bbox": [-122.377, 37.804, -122.356, 37.818], "zoom": 0.8},
+    "controls": [
+      {"label": "Yerba Buena Island, west point", "px": [110, 270], "true_px": [140, 300]},
+      {"label": "Yerba Buena Island, lighthouse point", "px": [445, 445], "true_px": [510, 467]},
+      {"label": "Yerba Buena Island, east point", "px": [578, 145], "true_px": [618, 140]}
+    ],
+    "checks": "For the bay shore of West Oakland and Emeryville. Checked two ways: the corrected Key Route Pier lines up with today's Key System ROW in Emeryville (same 15° bearing, its end about 45 m off), and the corrected Oakland Mole ferry terminal falls within about 20 m of the 1949 sheet's."
+  }
+}

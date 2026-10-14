@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Points file (data/<era>/<group>/points.geojson): stations, piers, terminals, carbarns",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "features"
+  ],
+  "properties": {
+    "type": {
+      "const": "FeatureCollection"
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/feature"
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?~?$",
+      "description": "YYYY, YYYY-MM or YYYY-MM-DD; a trailing ~ only when the source itself says circa."
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "supports"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "An id in data/sources.json."
+        },
+        "supports": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "geometry",
+              "opened",
+              "closed",
+              "route",
+              "fate",
+              "status",
+              "expected_opening",
+              "operator",
+              "gauge",
+              "electrification",
+              "photo",
+              "name",
+              "stations",
+              "general"
+            ]
+          }
+        },
+        "pages": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "feature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ],
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "$ref": "#/$defs/props"
+        },
+        "geometry": {
+          "type": "object",
+          "required": [
+            "type",
+            "coordinates"
+          ],
+          "properties": {
+            "type": {
+              "const": "Point"
+            },
+            "coordinates": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 3
+            }
+          }
+        }
+      }
+    },
+    "props": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "name",
+        "system",
+        "line_ids",
+        "opened",
+        "closed",
+        "geometry_confidence",
+        "geometry_method",
+        "sources",
+        "flags"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "station",
+            "pier",
+            "mole",
+            "ferry_terminal",
+            "carbarn",
+            "shop",
+            "yard",
+            "depot"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "system": {
+          "$ref": "#/$defs/id"
+        },
+        "line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "opened": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ]
+        },
+        "closed": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "existing",
+            "new",
+            "rebuilt"
+          ],
+          "description": "Future projects: whether the station exists today."
+        },
+        "fate": {
+          "enum": [
+            "abandoned",
+            "converted_to_bus",
+            "absorbed_into_bart",
+            "absorbed_into_muni",
+            "rail_trail",
+            "paved_over",
+            "still_freight",
+            "heritage_railway",
+            "replaced_by_rail"
+          ]
+        },
+        "photo": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "commons_file",
+            "author",
+            "license",
+            "source_url"
+          ],
+          "properties": {
+            "commons_file": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "license": {
+              "enum": [
+                "public-domain",
+                "PD-US-expired",
+                "CC0"
+              ]
+            },
+            "source_url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "geometry_confidence": {
+          "enum": [
+            "surveyed",
+            "digitized",
+            "approximate"
+          ]
+        },
+        "geometry_method": {
+          "type": "string",
+          "minLength": 3
+        },
+        "georeference": {
+          "type": "object",
+          "description": "How digitized geometry was placed. Past-era tracing (decision 12) gives the map it was checked or traced on, the method and an estimated error; BAM's similarity fits add scale, rotation, RMS and control points.",
+          "properties": {
+            "map": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+              "description": "The source id of the map traced from or checked against."
+            },
+            "method": {
+              "type": "string",
+              "enum": [
+                "geotiff",
+                "street-centerline",
+                "similarity"
+              ]
+            },
+            "est_error_m": {
+              "type": "number",
+              "minimum": 0
+            },
+            "scale_m_per_unit": {
+              "type": "number"
+            },
+            "rotation_deg": {
+              "type": "number"
+            },
+            "rms_m": {
+              "type": "number",
+              "minimum": 0
+            },
+            "controls": {
+              "type": "array"
+            },
+            "shift_m": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "The correction's shift, metres east and north."
+            }
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "flags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "opened_unsourced",
+              "closed_unsourced",
+              "expected_opening_unsourced",
+              "status_unverified",
+              "geometry_unverified",
+              "needs_manual_digitizing",
+              "page_unverified",
+              "conflicting_sources",
+              "license_unclear"
+            ]
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

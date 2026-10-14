@@ -1,0 +1,1592 @@
+{
+  "sources": [
+    {
+      "id": "bam-bart-silicon-valley-phase-2-geometry",
+      "title": "VTA GIS alignment",
+      "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
+      "type": "official",
+      "license": "VTA public GIS service (gis.vta.org, ArcGIS Enterprise hosted feature services shared publicly); no license or terms of use stated on the service or its portal item.",
+      "notes": "Alignment as drawn in BAM (data/lines/bart-silicon-valley-phase-2.geojson at 9600699). Alignment from VTA's published GIS layer of the project's tracks (dated 2022 in its name), drawn as the centreline between the two tracks. 6.5 miles as drawn including the tail track west of Santa Clara (6.2 miles from Berryessa/North San José to the Santa Clara station; VTA and FTA describe about 6 miles); the tunnel section is 5.0 miles (FTA: about five). Station points are VTA's published station sites, not platform outlines. The design may shift as VTA re-baselines the project; Newhall Yard and the portals are not drawn."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-record",
+      "title": "Bay Area megaprojects: BART Silicon Valley Phase II (project record, verified 2026-10-07)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-07",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-1",
+      "title": "vta.org: phase-ii",
+      "url": "https://www.vta.org/projects/bart-sv/phase-ii",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-10",
+      "title": "vta.org: ceqa_addendum.pdf",
+      "url": "https://www.vta.org/sites/default/files/2024-07/ceqa_addendum.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-11",
+      "title": "vta.org: VolumeIII_AppendixB_ProjectPlansandProfiles_feb20_2018.pdf",
+      "url": "https://www.vta.org/sites/default/files/2022-04/VolumeIII_AppendixB_ProjectPlansandProfiles_feb20_2018.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-12",
+      "title": "santaclaravta.iqm2.com: FileOpen.aspx",
+      "url": "https://santaclaravta.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=3034&Inline=True",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-13",
+      "title": "santaclaravta.iqm2.com: FileOpen.aspx",
+      "url": "https://santaclaravta.iqm2.com/Citizens/FileOpen.aspx?Type=15&ID=3133&Inline=True",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-14",
+      "title": "ceqanet.lci.ca.gov: 2002022004",
+      "url": "https://ceqanet.lci.ca.gov/2002022004",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-15",
+      "title": "santaclara.courts.ca.gov: vtas-management-and-oversight-bart-silicon-valley-phase-ii.pdf",
+      "url": "https://santaclara.courts.ca.gov/system/files/civil/vtas-management-and-oversight-bart-silicon-valley-phase-ii.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-16",
+      "title": "gtfs.vta.org: gtfs_vta.zip",
+      "url": "https://gtfs.vta.org/gtfs_vta.zip",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-17",
+      "title": "gis.vta.org: 22",
+      "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-18",
+      "title": "gis.vta.org: 0",
+      "url": "https://gis.vta.org/gis/rest/services/Hosted/BSV_Phase_II_Stations/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-19",
+      "title": "gis.vta.org: 11",
+      "url": "https://gis.vta.org/gis/rest/services/Hosted/BSV_Phase_II_Construction/FeatureServer/11",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-2",
+      "title": "vta.org: planning-and-environmental",
+      "url": "https://www.vta.org/projects/bart-sv/phase-ii/planning-and-environmental",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-3",
+      "title": "vtabart.org: 2026-07-CA-BSVII-OP25-ProjectMonitoringReport_08-28-2026-091626-v1.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/09/2026-07-CA-BSVII-OP25-ProjectMonitoringReport_08-28-2026-091626-v1.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-4",
+      "title": "vtabart.org: 2026-03-CA-BSVII-OP25-ProjectMonitoringReport-051926-v1-1.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/05/2026-03-CA-BSVII-OP25-ProjectMonitoringReport-051926-v1-1.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-5",
+      "title": "vtabart.org: BSVII_Executive-Monthly-Report_July_2026.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/09/BSVII_Executive-Monthly-Report_July_2026.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-6",
+      "title": "vtabart.org: 2026_BSVII_October_ConstructionMonthlyUpdate-FINAL.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/09/2026_BSVII_October_ConstructionMonthlyUpdate-FINAL.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-7",
+      "title": "vtabart.org: VTABSV_FactSheet_Overview-Benefits-051226_v1-3.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/08/VTABSV_FactSheet_Overview-Benefits-051226_v1-3.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-8",
+      "title": "vtabart.org: VTABSV_FactSheet_2025_Diridon_01062026.pdf",
+      "url": "https://vtabart.org/wp-content/uploads/2026/08/VTABSV_FactSheet_2025_Diridon_01062026.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-bart-silicon-valley-phase-2-src-9",
+      "title": "vta.org: 2026-02_BSVII_Diridon_Parking_Addendum.pdf",
+      "url": "https://www.vta.org/sites/default/files/2026-03/2026-02_BSVII_Diridon_Parking_Addendum.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's bart-silicon-valley-phase-2 record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-geometry",
+      "title": "U.S. DOT/BTS National Transportation Atlas (rail network); Caltrain GTFS stations",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "dataset",
+      "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Stations: Peninsula Corridor Joint Powers Board developer licence: non-exclusive, limited and revocable rights to use, reproduce and redistribute the data (https://www.caltrain.com/developer-resources).",
+      "notes": "Alignment as drawn in BAM (data/lines/cahsr-sf-sj.geojson at 9600699). Approximate alignment (shared Caltrain corridor): the federal rail network's centreline for Caltrain's existing tracks, 46.8 miles from Fourth and King to San José Diridon. High-speed trains would share these tracks (Final EIR/EIS Alternative A, about 49 miles to West Alma Avenue); the line is not the Authority's engineered alignment and shows one centreline for a two-to-four-track corridor. It is split at Scott Boulevard, the ROD's south limit for this section (ROD point, 'approximate'). Stations are Caltrain's GTFS station points."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-record",
+      "title": "Bay Area megaprojects: California High-Speed Rail: San Francisco to San Jose (project record, verified 2026-10-07)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-07",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-1",
+      "title": "hsr.ca.gov: san-francisco-to-san-jose",
+      "url": "https://hsr.ca.gov/high-speed-rail-in-california/project-sections/san-francisco-to-san-jose/",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-10",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-11",
+      "title": "caltrain.com: developer-resources",
+      "url": "https://www.caltrain.com/developer-resources",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-2",
+      "title": "hsr.ca.gov: northern-california",
+      "url": "https://hsr.ca.gov/project-overview/project-sections/northern-california/",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-3",
+      "title": "hsr.ca.gov: Final_EIRS_FJ_V1-03_Fact_Sheet.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2022/05/Final_EIRS_FJ_V1-03_Fact_Sheet.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-4",
+      "title": "hsr.ca.gov: FJ-CEQA-Approval-Resolution-final-A11Y.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2022/08/FJ-CEQA-Approval-Resolution-final-A11Y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-5",
+      "title": "hsr.ca.gov: 22-19_FJ_CEQA_Approval_Resolution_Exhibit_A_Map.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2022/08/22-19_FJ_CEQA_Approval_Resolution_Exhibit_A_Map.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-6",
+      "title": "hsr.ca.gov: FJ-Final-ROD-Combined-A11Y.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2022/10/FJ-Final-ROD-Combined-A11Y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-7",
+      "title": "hsr.ca.gov: 2026-Final-Business-Plan-060126-A11Y.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2026/06/2026-Final-Business-Plan-060126-A11Y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-8",
+      "title": "hsr.ca.gov: Northern-California-At-a-Glance-Factsheet-A11Y.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2026/09/Northern-California-At-a-Glance-Factsheet-A11Y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-cahsr-sf-sj-src-9",
+      "title": "hsr.ca.gov: Final_EIRS_FJ_V3-04_Alternative-A_Book_A1.pdf",
+      "url": "https://hsr.ca.gov/wp-content/uploads/2022/05/Final_EIRS_FJ_V3-04_Alternative-A_Book_A1.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's cahsr-sf-sj record."
+    },
+    {
+      "id": "bam-smart-cloverdale-geometry",
+      "title": "U.S. DOT/BTS National Transportation Atlas (rail network); County of Sonoma and SMART GIS",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "dataset",
+      "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Cut points: County of Sonoma street centrelines (Streets_Public): CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. Stations: County of Sonoma parcels: CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. SMART station points: SMART's layer on the County of Sonoma GIS server (copyright 'SMART'; no licence stated).",
+      "notes": "Alignment as drawn in BAM (data/lines/smart-cloverdale.geojson at 9600699). Approximate alignment: the federal rail network's centreline for SMART's existing, out-of-service track, 13.5 miles as drawn, cut from where the County of Sonoma's Lytton Springs Road centreline crosses the line to where its E 1st Street centreline in Cloverdale crosses it (the Strategic Plan's limits). One centreline, not SMART's engineered alignment. SMART Cloverdale extension stations: Geyserville; Cloverdale (site to be determined)."
+    },
+    {
+      "id": "bam-smart-cloverdale-record",
+      "title": "Bay Area megaprojects: SMART Cloverdale extension (project record, verified 2026-10-08)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-08",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-1",
+      "title": "sonomamarintrain.org: geyserville",
+      "url": "https://www.sonomamarintrain.org/geyserville",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-10",
+      "title": "ceqanet.lci.ca.gov: 2002112033",
+      "url": "https://ceqanet.lci.ca.gov/Project/2002112033",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-11",
+      "title": "cloverdale.net: Draft-Specific-Plan---Revised-92926",
+      "url": "https://www.cloverdale.net/DocumentCenter/View/7035/Draft-Specific-Plan---Revised-92926",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-12",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-13",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/CRAPublic/ParcelsPublicShapeFile/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-14",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Stations/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-15",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/BASEPublic/Streets_Public/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-16",
+      "title": "ceqanet.lci.ca.gov: 2026080751",
+      "url": "https://ceqanet.lci.ca.gov/2026080751",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-17",
+      "title": "sonomamarintrain.org: 02-15-2023--Item8--BOD.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/02-15-2023--Item8--BOD.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-2",
+      "title": "sonomamarintrain.org: stations",
+      "url": "https://www.sonomamarintrain.org/stations",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-3",
+      "title": "sonomamarintrain.org: healdsburgextension",
+      "url": "https://www.sonomamarintrain.org/healdsburgextension",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-4",
+      "title": "sonomamarintrain.org: SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-5",
+      "title": "sonomamarintrain.org: 09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-6",
+      "title": "sonomamarintrain.org: SMART_StrategicPlan_FY25-30.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Document%20Library/SMART_StrategicPlan_FY25-30.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-7",
+      "title": "planbayarea.org: Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+      "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-8",
+      "title": "dot.ca.gov: us101northcmcpamendmentseptember2026.pdf",
+      "url": "https://dot.ca.gov/-/media/dot-media/district-4/documents/d4-transportation-planning-local-assistance/system-regional-planning/cmcp/us101northcmcpamendmentseptember2026.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-cloverdale-src-9",
+      "title": "dot.ca.gov: 2025-ca-state-rail-annual-report-web-a11y.pdf",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/california-state-rail-plan/2025-ca-state-rail-annual-report-web-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-cloverdale record."
+    },
+    {
+      "id": "bam-smart-healdsburg-geometry",
+      "title": "U.S. DOT/BTS National Transportation Atlas (rail network); County of Sonoma and SMART GIS",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "dataset",
+      "license": "Line: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text). Cut points: County of Sonoma street centrelines (Streets_Public): CC BY-SA 3.0 US (layer licence), credit 'County of Sonoma'. Stations: BTS National Transit Map stops: Creative Commons Attribution 3.0 United States (service copyright text). SMART station points: SMART's layer on the County of Sonoma GIS server (copyright 'SMART'; no licence stated).",
+      "notes": "Alignment as drawn in BAM (data/lines/smart-healdsburg.geojson at 9600699). Approximate alignment: the federal rail network's centreline for SMART's existing, out-of-service track, 8.9 miles as drawn, cut from the Windsor station (National Transit Map stop 4251896) projected onto the line, to where the County of Sonoma's Lytton Springs Road centreline crosses it (the addendum's milepost 72.00). One centreline, not SMART's engineered alignment. SMART Healdsburg extension stations: Windsor; Healdsburg (site under review)."
+    },
+    {
+      "id": "bam-smart-healdsburg-record",
+      "title": "Bay Area megaprojects: SMART Healdsburg extension (project record, verified 2026-10-08)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-08",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-1",
+      "title": "sonomamarintrain.org: healdsburgextension",
+      "url": "https://www.sonomamarintrain.org/healdsburgextension",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-10",
+      "title": "ceqanet.lci.ca.gov: 2002112033",
+      "url": "https://ceqanet.lci.ca.gov/Project/2002112033",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-11",
+      "title": "ceqanet.lci.ca.gov: 46",
+      "url": "https://ceqanet.lci.ca.gov/2002112033/46",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-12",
+      "title": "ceqanet.lci.ca.gov: xgdCcY",
+      "url": "https://ceqanet.lci.ca.gov/2002112033/46/Attachment/xgdCcY",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-13",
+      "title": "ceqanet.lci.ca.gov: 47",
+      "url": "https://ceqanet.lci.ca.gov/2002112033/47",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-14",
+      "title": "catc.ca.gov: 1-smart-ba-healdsburg.pdf",
+      "url": "https://catc.ca.gov/-/media/ctc-media/documents/programs/baseline-agreements/2025-12/1-smart-ba-healdsburg.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-15",
+      "title": "catc.ca.gov: 159-2-8a13-a11y.pdf",
+      "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-06/159-2-8a13-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-16",
+      "title": "dot.ca.gov: 2025-ca-state-rail-annual-report-web-a11y.pdf",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/california-state-rail-plan/2025-ca-state-rail-annual-report-web-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-17",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-18",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_National_Transit_Map_Stops/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-19",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Rail_Tracks/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-2",
+      "title": "sonomamarintrain.org: healdsburgstationlocation",
+      "url": "https://www.sonomamarintrain.org/healdsburgstationlocation",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-20",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/SMARTPublic/SMART_Stations/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-21",
+      "title": "socogis.sonomacounty.ca.gov: 0",
+      "url": "https://socogis.sonomacounty.ca.gov/map/rest/services/BASEPublic/Streets_Public/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-22",
+      "title": "catc.ca.gov: 35-2-2c3-a11y.pdf",
+      "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-01/35-2-2c3-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-23",
+      "title": "catc.ca.gov: 03-1-2-a11y.pdf",
+      "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-08/03-1-2-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-24",
+      "title": "catc.ca.gov: 99-2-6s8-a11y.pdf",
+      "url": "https://catc.ca.gov/-/media/ctc-media/documents/ctc-meetings/2026/2026-10/99-2-6s8-a11y.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-25",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_Railroad_Grade_Crossings/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-3",
+      "title": "sonomamarintrain.org: stations",
+      "url": "https://www.sonomamarintrain.org/stations",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-4",
+      "title": "sonomamarintrain.org: 9.16.26%20Consideration%20of%20Healdsburg%20Station%20Location.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/9.16.26%20Consideration%20of%20Healdsburg%20Station%20Location.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-5",
+      "title": "sonomamarintrain.org: 09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-6",
+      "title": "sonomamarintrain.org: SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/SMART%208.19.2026%20Complete%20Agenda%20Package.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-7",
+      "title": "sonomamarintrain.org: SMART%20Board%20of%20Directors%20Packet%2009.17.2025.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Board/COC%20Documents/SMART%20Board%20of%20Directors%20Packet%2009.17.2025.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-8",
+      "title": "sonomamarintrain.org: 02%20-%20Minutes%2012.172025.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/02%20-%20Minutes%2012.172025.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-smart-healdsburg-src-9",
+      "title": "sonomamarintrain.org: 8%20-%20%20FY%2025%20Annual%20Report.pdf",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/8%20-%20%20FY%2025%20Annual%20Report.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's smart-healdsburg record."
+    },
+    {
+      "id": "bam-the-portal-geometry",
+      "title": "TJPA, The Portal Monthly Status Report (Sept 2026), Figure 1",
+      "url": "https://www.tjpa.org/media/40591?inline=",
+      "type": "official",
+      "license": "Traced facts from a public TJPA report (the PDF is not redistributed). Georeference: Open Data Commons Public Domain Dedication and License (PDDL) 1.0; City and County of San Francisco. Trackwork: Public domain: 'a work of the United States government as defined in 17 U.S.C. § 101 ... available for unrestricted public use' (service copyright text).",
+      "notes": "Alignment as drawn in BAM (data/lines/the-portal.geojson at 9600699). Approximate alignment traced from TJPA's map of the current (2026) design: 1.76 miles from the tunnel's west end to the east end of the train box, which includes the below-grade approach at the west end (U-wall and tunnel stub box), so it is longer than TJPA's '1.3-mile tunnel'; plus 0.39 miles of trackwork on existing tracks to 16th Street (2.15 miles in all; TJPA: 'total project length is 2.2 miles'). Georeferenced on 35 street intersections (DataSF centrelines), RMS 1.18 m; the map draws the line about 37 m wide, so the centreline is good to several metres. Stations are the centres of the station shapes in the map."
+    },
+    {
+      "id": "bam-the-portal-record",
+      "title": "Bay Area megaprojects: The Portal (Downtown Rail Extension) (project record, verified 2026-10-07)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-07",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-the-portal-src-1",
+      "title": "tjpa.org: portaldtx",
+      "url": "https://www.tjpa.org/portaldtx",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-10",
+      "title": "tjpa.org: download",
+      "url": "https://www.tjpa.org/media/40582/download?inline",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-11",
+      "title": "tjpa.org: The%20Portal%20Project%20Implementation%20MOU%201-30-25.pdf",
+      "url": "https://www.tjpa.org/files/2026-06/The%20Portal%20Project%20Implementation%20MOU%201-30-25.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-12",
+      "title": "tjpa.org: Vol-1-TJPA-Final-SEIS-EIR_11-18.pdf",
+      "url": "https://www.tjpa.org/uploads/2015/12/Vol-1-TJPA-Final-SEIS-EIR_11-18.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-13",
+      "title": "sfcta.org: SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
+      "url": "https://www.sfcta.org/sites/default/files/2026-01/SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-14",
+      "title": "ceqanet.lci.ca.gov: 1995063004",
+      "url": "https://ceqanet.lci.ca.gov/1995063004",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-15",
+      "title": "ceqanet.lci.ca.gov: 16",
+      "url": "https://ceqanet.lci.ca.gov/1995063004/16",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-16",
+      "title": "ceqanet.lci.ca.gov: 17",
+      "url": "https://ceqanet.lci.ca.gov/1995063004/17",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-17",
+      "title": "data.sf.gov: 3psu-pn9h",
+      "url": "https://data.sf.gov/d/3psu-pn9h",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-18",
+      "title": "services.arcgis.com: 0",
+      "url": "https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-2",
+      "title": "tjpa.org: about-portal",
+      "url": "https://www.tjpa.org/portaldtx/about-portal",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-3",
+      "title": "tjpa.org: frequently-asked-questions",
+      "url": "https://www.tjpa.org/portaldtx/frequently-asked-questions",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-4",
+      "title": "tjpa.org: environmental-review",
+      "url": "https://www.tjpa.org/portaldtx/environmental-review",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-5",
+      "title": "tjpa.org: project-schedule",
+      "url": "https://www.tjpa.org/portaldtx/project-schedule",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-6",
+      "title": "tjpa.org: 40591",
+      "url": "https://www.tjpa.org/media/40591?inline=",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-7",
+      "title": "tjpa.org: download",
+      "url": "https://www.tjpa.org/media/40552/download?inline",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-8",
+      "title": "tjpa.org: download",
+      "url": "https://www.tjpa.org/media/40136/download?inline",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-the-portal-src-9",
+      "title": "tjpa.org: download",
+      "url": "https://www.tjpa.org/media/40503/download",
+      "type": "official",
+      "notes": "Cited by BAM's the-portal record."
+    },
+    {
+      "id": "bam-valley-link-geometry",
+      "title": "Valley Link Board packet (June 10, 2026), Figure 4, and Draft SEIR (2024) figures",
+      "url": "https://www.valleylinkrail.com/_files/ugd/8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+      "type": "official",
+      "license": "Traced facts from public documents of the Tri-Valley-San Joaquin Valley Regional Rail Authority (PDFs not redistributed). Georeference: OpenStreetMap contributors (ODbL 1.0), via Overture Maps. Station checks: BART GTFS (bart.gov developer terms); Caltrans California Transit Stops (public, no license stated).",
+      "notes": "Alignment as drawn in BAM (data/lines/valley-link.geojson at 9600699). Approximate alignment traced from the Authority's figures: 11.4 miles as drawn (the Authority: 'approximately 11 miles'). Figure 4 of the June 2026 report gives the current Phase 1A route from First Street to Vasco Road; the I-580 median and the stations come from the 2024 Draft SEIR, whose median alignment the 2026 report keeps. The figures are fitted to OpenStreetMap with RMS 1.3-3.0 m, and the lines are drawn tens of metres wide, so the centreline is good to about 10-20 m, not to the track. The 82-m join from the Dublin/Pleasanton platform into the median is not drawn in the figures and is a straight line. Phase 1B (Southfront Road to Mountain House, unfunded) is not drawn."
+    },
+    {
+      "id": "bam-valley-link-record",
+      "title": "Bay Area megaprojects: Valley Link (project record, verified 2026-10-07)",
+      "author": "Matthew Huguet",
+      "url": "https://github.com/matthew6113/BAM/blob/9600699ae10affa5787c1a73374c34a5fa8e4b41/data/projects.json",
+      "type": "dataset",
+      "date": "2026-10-07",
+      "notes": "BAM records facts from official sources only (public agencies, adopted plans, hearing records, GIS)."
+    },
+    {
+      "id": "bam-valley-link-src-1",
+      "title": "valleylinkrail.com: valleylink-project",
+      "url": "https://www.valleylinkrail.com/valleylink-project",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-10",
+      "title": "ceqanet.lci.ca.gov: 9",
+      "url": "https://ceqanet.lci.ca.gov/2018092027/9",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-11",
+      "title": "ceqanet.lci.ca.gov: 6",
+      "url": "https://ceqanet.lci.ca.gov/2018092027/6",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-12",
+      "title": "ceqanet.lci.ca.gov: ZPbOAG",
+      "url": "https://ceqanet.lci.ca.gov/2018092027/6/Attachment/ZPbOAG",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-13",
+      "title": "bart.gov: google_transit.zip",
+      "url": "https://www.bart.gov/dev/schedules/google_transit.zip",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-14",
+      "title": "caltrans-gis.dot.ca.gov: 0",
+      "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHrailroad/CA_Transit_Stops/FeatureServer/0",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-2",
+      "title": "valleylinkrail.com: environmental-ceqa",
+      "url": "https://www.valleylinkrail.com/environmental-ceqa",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-3",
+      "title": "getvalleylinked.com",
+      "url": "https://www.getvalleylinked.com/",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-4",
+      "title": "valleylinkrail.com: 95df9a_d5454624d39d4a078b0aa7b18dddc57c.pdf",
+      "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_d5454624d39d4a078b0aa7b18dddc57c.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-5",
+      "title": "valleylinkrail.com: 95df9a_1336405d248b467fb082db9ecc4416ae.pdf",
+      "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_1336405d248b467fb082db9ecc4416ae.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-6",
+      "title": "valleylinkrail.com: 8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+      "url": "https://www.valleylinkrail.com/_files/ugd/8f09e7_9cca9a978bb14766a336566c3710ef3a.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-7",
+      "title": "valleylinkrail.com: 95df9a_af705a6cc23f44438b8f9b29cb18bec9.pdf",
+      "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_af705a6cc23f44438b8f9b29cb18bec9.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-8",
+      "title": "valleylinkrail.com: 95df9a_0f161a7a5be14083a255266808a38859.pdf",
+      "url": "https://www.valleylinkrail.com/_files/ugd/95df9a_0f161a7a5be14083a255266808a38859.pdf",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "bam-valley-link-src-9",
+      "title": "ceqanet.lci.ca.gov: 2018092027",
+      "url": "https://ceqanet.lci.ca.gov/Project/2018092027",
+      "type": "official",
+      "notes": "Cited by BAM's valley-link record."
+    },
+    {
+      "id": "brt-actransit-tempo",
+      "title": "AC Transit press release on Tempo's launch",
+      "publisher": "AC Transit",
+      "date": "2020-08-07",
+      "type": "official",
+      "url": "https://www.actransit.org/node/688",
+      "accessed": "2026-10-13",
+      "notes": "Tempo runs from Uptown Oakland to San Leandro BART along International Blvd and East 14th St, on a 'nearly 10-mile network of dedicated and painted bus-only lanes'. It doesn't say where the center lanes start and end, so OSM's lane tags do (decision 9)."
+    },
+    {
+      "id": "brt-sfmta-van-ness",
+      "title": "Van Ness Improvement Project",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/van-ness-improvement-project",
+      "accessed": "2026-10-13",
+      "notes": "Center-running bus lanes on Van Ness Ave from Mission St to Lombard St; BRT service began in April 2022."
+    },
+    {
+      "id": "brt-vta-rapid-522",
+      "title": "Route 522: Rapid 522, Palo Alto TC to Eastridge (schedule)",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
+      "accessed": "2026-10-13",
+      "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
+    },
+    {
+      "id": "chpw-1939-01-terminal-opened",
+      "title": "Bay Bridge Terminal … Officially Opened",
+      "publisher": "California Highways and Public Works (California Department of Public Works)",
+      "date": "1939-01",
+      "url": "https://libraryarchives.metro.net/DPGTL/californiahighways/chpw_1939_jan.pdf",
+      "type": "official",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "p. 16."
+    },
+    {
+      "id": "chpw-1939-02-terminal-dedicated",
+      "title": "Bay Bridge Terminal Dedicated",
+      "publisher": "California Highways and Public Works (California Department of Public Works)",
+      "date": "1939-02",
+      "url": "https://libraryarchives.metro.net/DPGTL/californiahighways/chpw_1939_feb.pdf",
+      "type": "official",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "pp. 6–8, 28."
+    },
+    {
+      "id": "cpuc-d44289",
+      "title": "Public Utilities Commission of the State of California, Decision No. 44289 (Application No. 31128): Key System's A (12th Street) line east of Oak Street",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1950-06-07",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D44289_19500607_A31128.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d49307",
+      "title": "Public Utilities Commission of the State of California, Decision No. 49307 (Application No. 33920): Key System's A and B lines",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1953-11-10",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D49307_19531110_A33920.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d50731",
+      "title": "Public Utilities Commission of the State of California, Decision No. 50731 (Application No. 35880): Key System's C and E lines, night and Sunday buses",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1954-11-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D50731_19541103_A35880.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d54242",
+      "title": "Public Utilities Commission of the State of California, Decision No. 54242 (Application No. 36656): Key System transbay service (interim)",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1956-12-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54242_19561211_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d54669",
+      "title": "Public Utilities Commission of the State of California, Decision No. 54669 (Application No. 36656): Key System, discontinuance of transbay rail service",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1957-03-12",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54669_19570312_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d56016",
+      "title": "Public Utilities Commission of the State of California, Decision No. 56016 (Application No. 36656): Key System transbay rail service, time to act on D54669",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1957-12-30",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D56016_19571230_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d12906",
+      "title": "Railroad Commission of the State of California, Decision No. 12906 (Case No. 1911): Southern Pacific service over the Harrison Street bridge, Oakland–Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1923-12-07",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D12906_19231207_C1911.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d17743",
+      "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1926-12-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17743_19261211_C1536.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d25740",
+      "title": "Railroad Commission of the State of California, Decision No. 25740 (Application No. 18640): abandonment of Southern Pacific's California Street, Ellsworth Street and Eighteenth Street lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1933-03-16",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D25740_19330316_A18640.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d27800",
+      "title": "Railroad Commission of the State of California, Decision No. 27800 (Case No. 3908): Oakland v. Southern Pacific, the Eighteenth Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1935-03-04",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27800_19350304_C3908.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d28671",
+      "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+      "author": "Railroad Commission of the State of California",
+      "date": "1936-03-23",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29614",
+      "title": "Railroad Commission of the State of California, Decision No. 29614 (Application No. 21048): bridge railway grade separations, Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-03-22",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29614_19370322_A21048.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29615",
+      "title": "Railroad Commission of the State of California, Decision No. 29615 (Application No. 21049): bridge railway crossings near 26th Street, Oakland",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-03-22",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29615_19370322_A21049.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d30015",
+      "title": "Railroad Commission of the State of California, Decision No. 30015 (Application No. 21219): Southern Pacific 'Off-Line' bridge connecting tracks, Oakland and Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1937-08-09",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30015_19370809_A21219.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33445",
+      "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+      "author": "Railroad Commission of the State of California",
+      "date": "1940-08-24",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33732",
+      "title": "Railroad Commission of the State of California, Decision No. 33732 (Application No. 23312): Interurban Electric Railway: the Alameda lines and their substitute service",
+      "author": "Railroad Commission of the State of California",
+      "date": "1940-12-17",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33732_19401217_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33891",
+      "title": "Railroad Commission of the State of California, Decision No. 33891 (Application No. 23312): Interurban Electric Railway: the Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-02-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33891_19410211_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34053",
+      "title": "Railroad Commission of the State of California, Decision No. 34053 (Application No. 23909): Key System crossings of the former Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-03-25",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34053_19410325_A23909.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34060",
+      "title": "Railroad Commission of the State of California, Decision No. 34060 (Application No. 23312): Interurban Electric Railway: substitute service for the Seventh Street line",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-04-01",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34060_19410401_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34389",
+      "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-07-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34460",
+      "title": "Railroad Commission of the State of California, Decision No. 34460 (Application No. 23312): Key System substitute service for the Shattuck Avenue and Ninth Street lines",
+      "author": "Railroad Commission of the State of California",
+      "date": "1941-08-01",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34460_19410801_A23312.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission of the State of California); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34999",
+      "title": "Railroad Commission of the State of California, Decision No. 34999 (Case No. 4478): Key System service to Northbrae and The Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1942-02-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34999_19420203_C4478.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d35900",
+      "title": "Railroad Commission of the State of California, Decision No. 35900 (Case No. 4478): Key System's F line through the Northbrae Tunnel to The Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1942-10-27",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35900_19421027_C4478.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "demoro-key-route-1985",
+      "title": "The Key Route: Transbay Commuting by Train and Ferry (Parts 1 and 2)",
+      "author": "Harre W. Demoro",
+      "publisher": "Interurban Press",
+      "date": "1985",
+      "url": "https://archive.org/details/keyroutetransbay0000demo",
+      "type": "book",
+      "license": "Copyrighted; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Pages are cited as Wikipedia gives them until checked in the book (decision 11). archive.org's copy is borrow-only."
+    },
+    {
+      "id": "erj-1911-06-17-sp-oakland",
+      "title": "Southern Pacific Electrification at Oakland, Cal.: Rolling Stock and Repair Shops",
+      "publisher": "Electric Railway Journal 37(24)",
+      "date": "1911-06-17",
+      "url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24",
+      "type": "journal",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 1048–1053."
+    },
+    {
+      "id": "erj-1911-12-16-sp-seventh-st",
+      "title": "News of electric railways: Southern Pacific Company, Oakland",
+      "publisher": "Electric Railway Journal 38",
+      "date": "1911-12-16",
+      "url": "https://archive.org/details/transit-journal-1932_1911-12-16_38_25",
+      "type": "journal",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "p. 1262: \"This company has placed in operation its Seventh Street line in Oakland from the Oakland Pier to Melrose.\""
+    },
+    {
+      "id": "erj-1912-01-06-statistics",
+      "title": "Electric Railway Statistics for 1911",
+      "publisher": "Electric Railway Journal 39(1)",
+      "date": "1912-01-06",
+      "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+      "type": "journal",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "p. 2: \"the Southern Pacific Company electrified 40 miles of its lines radiating from Oakland, Cal., using the 1200-volt overhead-trolley, direct-current system.\""
+    },
+    {
+      "id": "gtfs-511",
+      "title": "511 SF Bay regional GTFS feed (operator RG)",
+      "publisher": "Metropolitan Transportation Commission (511.org)",
+      "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+      "type": "dataset",
+      "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+      "accessed": "2026-10-14",
+      "notes": "feed_info gives no dates; file SHA-256 7b3665119162f9efa99f111043b67d5f436ead0f56f83b256a8c9c05288018e6."
+    },
+    {
+      "id": "gtfs-amtrak",
+      "title": "Amtrak GTFS feed, version 20261013",
+      "publisher": "Amtrak",
+      "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+      "type": "dataset",
+      "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+      "accessed": "2026-10-14",
+      "notes": "feed_info dates 20261014 to 20261020; file SHA-256 d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa."
+    },
+    {
+      "id": "gtfs-gold-runner",
+      "title": "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295), version UTC: 26-Nov-2025 18:19",
+      "publisher": "Trillium Solutions for Amtrak San Joaquins",
+      "url": "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+      "type": "dataset",
+      "license": "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+      "accessed": "2026-10-14",
+      "notes": "feed_info dates 20251126 to 20260630; file SHA-256 9964232c8aad74f9e1ef069445d6561ef02f2e779507181d54b8c14731d51baf."
+    },
+    {
+      "id": "haer-ca-164",
+      "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+      "author": "J. W. Snyder, Caltrans",
+      "publisher": "National Park Service, Historic American Engineering Record",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+      "type": "official",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "haer-ca-32",
+      "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+      "author": "Historic American Engineering Record; JRP Historical Consulting",
+      "publisher": "National Park Service, Historic American Engineering Record",
+      "date": "1999-05-01",
+      "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+      "type": "official",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "oakland-tribune-1904-02-04",
+      "title": "Oakland Tribune, 1904-02-04: the Piedmont branch along Fortieth Street",
+      "publisher": "Oakland Tribune",
+      "date": "1904-02-04",
+      "url": "https://archive.org/details/oakland-tribune-1904-02-04",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1904-05-28",
+      "title": "Oakland Tribune, 1904-05-28: the Piedmont terminal and opening",
+      "publisher": "Oakland Tribune",
+      "date": "1904-05-28",
+      "url": "https://archive.org/details/oakland-tribune-1904-05-28",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1904-06-01",
+      "title": "Oakland Tribune, 1904-06-01: the Key Route's ferry service to Piedmont begins",
+      "publisher": "Oakland Tribune",
+      "date": "1904-06-01",
+      "url": "https://archive.org/details/oakland-tribune-1904-06-01",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1911-06-12",
+      "title": "Oakland Tribune, 1911-06-12: through service on the Poplar Street and Twelfth Street route",
+      "publisher": "Oakland Tribune",
+      "date": "1911-06-12",
+      "url": "https://archive.org/details/oakland-tribune-1911-06-12",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 0–1 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1911-11-13",
+      "title": "Oakland Tribune, 1911-11-13: the Sacramento Street, Northbrae and Albany lines",
+      "publisher": "Oakland Tribune",
+      "date": "1911-11-13",
+      "url": "https://archive.org/details/oakland-tribune-1911-11-13",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 12 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1911-11-15",
+      "title": "Oakland Tribune, 1911-11-15: the Sacramento Street, Northbrae and Albany lines open",
+      "publisher": "Oakland Tribune",
+      "date": "1911-11-15",
+      "url": "https://archive.org/details/oakland-tribune-1911-11-15",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 12 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1924-11-03",
+      "title": "Oakland Tribune, 1924-11-03: the Piedmont extension to Manor station",
+      "publisher": "Oakland Tribune",
+      "date": "1924-11-03",
+      "url": "https://archive.org/details/oakland-tribune-1924-11-03",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 16 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "osm-overpass-brt",
+      "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
+      "publisher": "OpenStreetMap contributors",
+      "url": "https://overpass-api.de/api/interpreter",
+      "type": "dataset",
+      "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
+      "accessed": "2026-10-14",
+      "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
+    },
+    {
+      "id": "overture-roads-2026-09-23-1",
+      "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "Named road segments in (-122.36, 37.7, -122.15, 37.93), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "rag-1912-09-13-guppy",
+      "title": "Electrification of Oakland Suburban Lines",
+      "author": "R. T. Guppy",
+      "publisher": "Railway Age Gazette 53(11)",
+      "date": "1912-09-13",
+      "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+      "type": "journal",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 460–463. Read from archive.org's OCR text."
+    },
+    {
+      "id": "railway-signaling-1939-03-bay-bridge",
+      "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+      "publisher": "Railway Signaling (Simmons-Boardman)",
+      "date": "1939-03",
+      "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+      "type": "journal",
+      "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "pp. 148–154."
+    },
+    {
+      "id": "sf-call-1911-06-02-p8",
+      "title": "Travel Opens on Electric System, The San Francisco Call, 1911-06-02, p. 8",
+      "publisher": "The San Francisco Call",
+      "date": "1911-06-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-06-02/ed-1/?sp=8",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Alameda, June 1: \"Southern Pacific company today Inaugurated passenger travel on a part of It's new south side electric line.\" Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-06-03-p18",
+      "title": "The San Francisco Call, June 3, 1911, p. 18",
+      "publisher": "The San Francisco Call",
+      "date": "1911-06-03",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-06-03/ed-1/?sp=18",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Read through Chronicling America's OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-07-01-p14",
+      "title": "The San Francisco Call, July 1, 1911, p. 14",
+      "publisher": "The San Francisco Call",
+      "date": "1911-07-01",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-07-01/ed-1/?sp=14",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Read through Chronicling America's OCR."
+    },
+    {
+      "id": "sf-call-1911-12-02-p17",
+      "title": "S.P. Commences Electric Service, The San Francisco Call, 1911-12-02, p. 17",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-02/ed-1/?sp=17",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Oakland (OCR garbled, the issue is Dec 2): \"The first regular electric trains were run on the Seventh street line of the Southern Pacific company today\", alternating with steam trains. Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-12-19-p9",
+      "title": "New Train Service Will Begin Today, The San Francisco Call, 1911-12-19, p. 9",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-19",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-19/ed-1/?sp=9",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Alameda, Dec 18: \"Beginning to morrow morning the Southern Pacific company will inaugurate its new electric train service on the horseshoe route from the Oakland pier to the Alameda pier\", by way of Lincoln Avenue. Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-12-23-p17",
+      "title": "Electric Train Makes Trial Trip, The San Francisco Call, December 23, 1911, p. 17",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-23",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-23/ed-1/?sp=17",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Dec 22: \"The first electric train operated by the Southern Pacific company in Berkeley made a trial trip this afternoon\", from the Oakland mole over the Shattuck Avenue line to the city's northern limits."
+    },
+    {
+      "id": "sf-call-1911-12-24-p22",
+      "title": "Steam Cars Are Leaving Street, The San Francisco Call, 1911-12-24, p. 22",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-24",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-24/ed-1/?sp=22",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Dec 23: \"An incomplete electric service was begun over the Berkeley lines of the Southern Pacific company when a regular electric train made its first trip from the mole at 9 o'clock.\" Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1911-12-31-p22",
+      "title": "The San Francisco Call, December 31, 1911, p. 22",
+      "publisher": "The San Francisco Call",
+      "date": "1911-12-31",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-12-31/ed-1/?sp=22",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Oakland, Dec 30: \"For the last time tonight the old familiar locomotive whistle sounded in Seventh street.\""
+    },
+    {
+      "id": "sf-call-1912-02-02-p9",
+      "title": "Two Trial Trains to Be Operated by S. P., The San Francisco Call, 1912-02-02, p. 9",
+      "publisher": "The San Francisco Call",
+      "date": "1912-02-02",
+      "url": "https://www.loc.gov/resource/sn85066387/1912-02-02/ed-1/?sp=9",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Berkeley, Feb 1: trial trains \"will make the loop, taking Shattuck avenue to Northbrae, thence to Ninth street via Main street and Solano avenue\"; \"if the trials justify the departure, the service of electric trains over the loop will be begun Saturday\" (Feb 3, 1912). Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1913-09-06-p7",
+      "title": "Southern Pacific timetable, The San Francisco Call, 1913-09-06, p. 7",
+      "publisher": "The San Francisco Call",
+      "date": "1913-09-06",
+      "url": "https://www.loc.gov/resource/sn85066387/1913-09-06/ed-1/?sp=7",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "srj-1904-02-13-key-route-1",
+      "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+      "publisher": "Street Railway Journal 23(7)",
+      "date": "1904-02-13",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "type": "journal",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 246–253. Read from archive.org's OCR text."
+    },
+    {
+      "id": "srj-1904-02-20-key-route-2",
+      "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+      "publisher": "Street Railway Journal 23(8)",
+      "date": "1904-02-20",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "type": "journal",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 276–284."
+    },
+    {
+      "id": "srj-1906-06-02-22nd-st",
+      "title": "The Twenty-Second Street branch of the Key Route",
+      "publisher": "Street Railway Journal 27(22)",
+      "date": "1906-06-02",
+      "url": "https://archive.org/details/streetrailwayjo271906newy",
+      "type": "journal",
+      "license": "Public domain (published 1906)",
+      "accessed": "2026-10-14",
+      "notes": "p. 848 (inferred from the next page's header)."
+    },
+    {
+      "id": "usgs-concord-1897",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1897",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1897",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297157_1897_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1897. HTMC scan 297157, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 b7f81ad3986f08aa27ab9d466ab300b539afb62eb35e4844b8fe46a8e1f9d1b0."
+    },
+    {
+      "id": "usgs-concord-1915",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297163_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1915. HTMC scan 297163, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 c15e2699616d0fc7376e1a25a9099ab4f244fc252fe7db1cdd69464dcc2451e5."
+    },
+    {
+      "id": "usgs-concord-1942",
+      "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, aerial photographs of 1939, edition of 1942. HTMC scan 465521, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 bc6ab6bfdabbc320d14549e91cd3570f28a9d88b19c9ec43369003412aba8075."
+    },
+    {
+      "id": "usgs-oakland-east-1949",
+      "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, surveyed 1947, edition of 1949. HTMC scan 293613, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 c458649ad474e2042577cb15121be71c6625f35eb23454204350c5484a45287a."
+    },
+    {
+      "id": "usgs-oakland-west-1949",
+      "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
+    },
+    {
+      "id": "usgs-richmond-1949",
+      "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 294669, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 9112f971428fd62d3a9195a87b4a3a5189733cc8c49c1ac983375092cf64d36a."
+    },
+    {
+      "id": "usgs-san-francisco-1899",
+      "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1899. HTMC scan 298890, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 fed0096205c5f846e21d329dcd2c0e168d25ef231489e5646022e2a708424a17."
+    },
+    {
+      "id": "usgs-san-francisco-1915",
+      "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, surveyed 1894, edition of 1915. HTMC scan 298897, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 2faaad04375cd1513bc360228eeadcc421ea01d6454669c55310f5efc20254bb."
+    },
+    {
+      "id": "usgs-san-francisco-north-1950",
+      "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1950",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1950. HTMC scan 466304, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3241ae304a5619935b87c9668b257872919c0954e3ed1db06fbafffd6507bf28."
+    },
+    {
+      "id": "usgs-san-leandro-1948",
+      "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Leandro_300123_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
+    }
+  ]
+}

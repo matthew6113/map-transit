@@ -1,0 +1,51 @@
+{
+  "past": {
+    "lines": 10,
+    "segments": 45,
+    "points": 8,
+    "km_by_confidence": {
+      "approximate": 9.1,
+      "digitized": 74.3
+    },
+    "undated_segments": 4,
+    "borrowed_dates": 26,
+    "flags": {
+      "closed_unsourced": 30,
+      "geometry_unverified": 4,
+      "needs_manual_digitizing": 7,
+      "opened_unsourced": 30,
+      "page_unverified": 1
+    }
+  },
+  "present": {
+    "lines": 44,
+    "segments": 44,
+    "points": 275,
+    "km_by_confidence": {
+      "surveyed": 2167.4
+    },
+    "undated_segments": 44,
+    "borrowed_dates": 0,
+    "flags": {
+      "license_unclear": 35,
+      "opened_unsourced": 363
+    }
+  },
+  "future": {
+    "lines": 6,
+    "segments": 14,
+    "points": 17,
+    "km_by_confidence": {
+      "approximate": 111.0,
+      "digitized": 21.7,
+      "surveyed": 10.5
+    },
+    "undated_segments": 0,
+    "borrowed_dates": 0,
+    "flags": {
+      "expected_opening_unsourced": 6,
+      "license_unclear": 15,
+      "status_unverified": 6
+    }
+  }
+}

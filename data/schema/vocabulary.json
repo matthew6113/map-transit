@@ -1,0 +1,60 @@
+{
+  "$comment": "Shared vocabulary for the transit map. The JSON Schemas, the pipeline (transit_pipeline/vocab.py) and the app (src/data/vocab.ts) all read this file. docs/SCHEMA.md explains each term.",
+  "modes": {
+    "rapid_transit": { "group": "heavy_rail", "label": "Rapid transit" },
+    "railroad": { "group": "heavy_rail", "label": "Railroad" },
+    "commuter_rail": { "group": "commuter_rail", "label": "Commuter rail" },
+    "intercity_rail": { "group": "commuter_rail", "label": "Intercity rail" },
+    "interurban": { "group": "interurban", "label": "Interurban" },
+    "streetcar": { "group": "streetcar", "label": "Streetcar" },
+    "cable": { "group": "cable", "label": "Cable car" },
+    "light_rail": { "group": "light_rail", "label": "Light rail" },
+    "people_mover": { "group": "light_rail", "label": "People mover" },
+    "ferry": { "group": "ferry", "label": "Ferry" },
+    "brt": { "group": "brt", "label": "Bus rapid transit" },
+    "heritage": { "group": "heritage", "label": "Heritage railway" }
+  },
+  "groups": {
+    "heavy_rail": { "label": "Heavy rail", "defaultOn": true },
+    "commuter_rail": { "label": "Commuter rail", "defaultOn": true },
+    "interurban": { "label": "Interurban", "defaultOn": true },
+    "streetcar": { "label": "Streetcar", "defaultOn": true },
+    "cable": { "label": "Cable", "defaultOn": true },
+    "light_rail": { "label": "Light rail", "defaultOn": true },
+    "ferry": { "label": "Ferry", "defaultOn": true },
+    "brt": { "label": "BRT", "defaultOn": true },
+    "heritage": { "label": "Heritage", "defaultOn": false }
+  },
+  "eras": ["past", "present", "future", "ideal"],
+  "statuses": {
+    "closed": { "label": "Closed", "era": "past" },
+    "active": { "label": "In service", "era": "present" },
+    "planned": { "label": "Planned", "era": "future", "meaning": "In an adopted plan or under study; no environmental clearance yet." },
+    "environmental": { "label": "Environmental review", "era": "future", "meaning": "In environmental review, or cleared but without construction funding." },
+    "funded": { "label": "Funded", "era": "future", "meaning": "Environmentally cleared with construction funding committed; construction not started." },
+    "under_construction": { "label": "Under construction", "era": "future", "meaning": "Construction, including early works, under way." },
+    "opening": { "label": "Opening", "era": "future", "meaning": "Built and in testing, or an opening date announced by the agency." }
+  },
+  "geometry_confidence": {
+    "surveyed": "From OpenStreetMap, OpenHistoricalMap, GTFS or official GIS.",
+    "digitized": "Traced from a georeferenced map.",
+    "approximate": "Reconstructed from text descriptions. Drawn dashed."
+  },
+  "structures": ["street", "surface", "elevated", "subway", "tunnel", "cut", "bridge", "trestle", "mole", "pier", "ferry"],
+  "fates": ["abandoned", "converted_to_bus", "absorbed_into_bart", "absorbed_into_muni", "rail_trail", "paved_over", "still_freight", "heritage_railway", "replaced_by_rail"],
+  "traction": ["horse", "steam", "cable", "electric_overhead", "electric_third_rail", "diesel", "battery", "diesel_electric", "gas_electric"],
+  "point_kinds": ["station", "pier", "mole", "ferry_terminal", "carbarn", "shop", "yard", "depot"],
+  "flags": {
+    "opened_unsourced": "No source found for the opening date; it is left null.",
+    "closed_unsourced": "No source found for the closing date; it is left null.",
+    "expected_opening_unsourced": "The agency's expected opening isn't recorded yet.",
+    "status_unverified": "Status not yet re-verified against official sources for this map.",
+    "geometry_unverified": "Geometry not yet checked against a second source.",
+    "needs_manual_digitizing": "Needs tracing by hand from a historic map.",
+    "page_unverified": "A book page is cited as another work gives it, and hasn't been checked in the book yet.",
+    "conflicting_sources": "Sources disagree; see notes.",
+    "license_unclear": "The source states no license; see DATA_LOG.md."
+  },
+  "supports": ["geometry", "opened", "closed", "route", "fate", "status", "expected_opening", "operator", "gauge", "electrification", "photo", "name", "stations", "general"],
+  "source_types": ["official", "primary_map", "primary_document", "book", "journal", "railfan_web", "wiki", "dataset"]
+}

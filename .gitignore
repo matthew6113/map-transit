@@ -9,3 +9,4 @@ pipeline/.venv/
 __pycache__/
 test-results/
 playwright-report/
+tests/fixtures/synthetic-*.geojson

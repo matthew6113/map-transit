@@ -1,0 +1,108 @@
+{
+  "systems": [
+    {
+      "id": "ac-transit",
+      "name": "Alameda-Contra Costa Transit District",
+      "short_name": "AC Transit"
+    },
+    {
+      "id": "ace",
+      "name": "Altamont Corridor Express",
+      "short_name": "ACE"
+    },
+    {
+      "id": "amtrak",
+      "name": "Amtrak",
+      "short_name": "Amtrak"
+    },
+    {
+      "id": "angel-island-tiburon-ferry",
+      "name": "Angel Island Tiburon Ferry",
+      "short_name": "Angel Island Tiburon Ferry"
+    },
+    {
+      "id": "bart",
+      "name": "Bay Area Rapid Transit",
+      "short_name": "BART"
+    },
+    {
+      "id": "bay-bridge-railway",
+      "name": "Bay Bridge Railway",
+      "short_name": "Bridge Railway",
+      "notes": "The state-owned railway on the Bay Bridge's lower deck, with the Transbay Terminal loop and the East Bay yards, 1939–1958. The Key System, the Interurban Electric Railway and the Sacramento Northern ran their trains over it."
+    },
+    {
+      "id": "cahsr",
+      "name": "California High-Speed Rail",
+      "short_name": "High-speed rail"
+    },
+    {
+      "id": "caltrain",
+      "name": "Caltrain",
+      "short_name": "Caltrain"
+    },
+    {
+      "id": "gold-runner",
+      "name": "Gold Runner (formerly the San Joaquins)",
+      "short_name": "Gold Runner"
+    },
+    {
+      "id": "golden-gate-ferry",
+      "name": "Golden Gate Ferry",
+      "short_name": "Golden Gate Ferry"
+    },
+    {
+      "id": "ier",
+      "name": "Interurban Electric Railway",
+      "short_name": "IER",
+      "notes": "The Southern Pacific subsidiary that ran the East Bay electric lines in their last years."
+    },
+    {
+      "id": "key-system",
+      "name": "Key System",
+      "short_name": "Key System",
+      "notes": "The Key Route trains and ferries, from 1903, under several corporate names; each line lists its operators by date."
+    },
+    {
+      "id": "muni",
+      "name": "San Francisco Municipal Railway",
+      "short_name": "Muni"
+    },
+    {
+      "id": "san-francisco-bay-ferry",
+      "name": "San Francisco Bay Ferry",
+      "short_name": "San Francisco Bay Ferry"
+    },
+    {
+      "id": "sfo-airtrain",
+      "name": "SFO AirTrain",
+      "short_name": "AirTrain"
+    },
+    {
+      "id": "smart",
+      "name": "Sonoma-Marin Area Rail Transit",
+      "short_name": "SMART"
+    },
+    {
+      "id": "southern-pacific",
+      "name": "Southern Pacific Company",
+      "short_name": "Southern Pacific",
+      "notes": "Here, its East Bay electric lines (the Red Trains), electrified from 1911."
+    },
+    {
+      "id": "treasure-island-ferry",
+      "name": "Treasure Island Ferry",
+      "short_name": "Treasure Island Ferry"
+    },
+    {
+      "id": "valley-link",
+      "name": "Valley Link",
+      "short_name": "Valley Link"
+    },
+    {
+      "id": "vta",
+      "name": "Santa Clara Valley Transportation Authority",
+      "short_name": "VTA"
+    }
+  ]
+}
