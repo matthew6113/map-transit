@@ -31,9 +31,20 @@ How each line's geometry is made:
 - It's simplified to 3 m and clipped at the map's pan limits.
 - A line that runs past those limits records where it goes on to (`continues_beyond`).
 
-Opening dates aren't in GTFS. Every present line and station is `opened_unsourced` (null) and stays
-off the year slider until Phase 2 sources dates by extension (decision 4). Each line is still one
-segment, so lines that share track overlap.
+Opening dates aren't in GTFS. `data/present/extensions.json` adds them by stretch, from official
+sources, and cuts each line into shared, dated segments at build time (docs/SCHEMA.md, "Today's
+network, dated"). BART and Muni are dated (Phase 2b); the other systems are still one undated
+segment per line, `opened_unsourced`, and off the year slider (decision 4).
+
+### Opening dates of today's network (official sources)
+
+| | |
+|---|---|
+| Status | In use: BART (24 segments, all dated) and Muni (34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track are older than today's service and not yet dated). |
+| Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, and its 2018 Powell-Mason blog post. |
+| Cut points | GTFS stations and stops (511). Two corners from Overture: Taraval St and 33rd Ave (roads), and the Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). |
+| License | Public agency records, cited for facts. Geometry stays GTFS (511's terms). |
+| Gaps | Quotes from BART's scanned PDFs come from their machine-read text; Matthew should check them against the page images (`docs/checks/`). The exact day the Muni Metro Extension opened in January 1998 isn't in an official source. Caltrain, VTA, ACE, SMART, the Capitol Corridor, the ferries, the AirTrain and BRT are next. |
 
 ### 511.org regional feed
 
@@ -175,7 +186,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in the East Bay box (-122.36, 37.70, -122.15, 37.93). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in two boxes: the East Bay (-122.36, 37.70, -122.15, 37.93) and San Francisco (-122.52, 37.70, -122.355, 37.835, added in Phase 2b). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -203,8 +214,8 @@ The geometry tools are below (decision 12).
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
 | past | 10 | 45 | 8 | 0 | 74.3 | 9.1 | 4 | 26 |
-| present | 44 | 44 | 275 | 2167.4 | 0 | 0 | 44 | 0 |
+| present | 44 | 87 | 275 | 1939.4 | 0 | 0 | 28 | 8 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 30, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 393, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 30, `conflicting_sources` 4, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 373, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

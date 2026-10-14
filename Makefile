@@ -12,7 +12,7 @@ help:
 	@echo "make present-refresh  The same, downloading every feed again"
 	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json): USGS sheets, today's streets"
 	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/p2a/traces/"
-	@echo "make checklists       Matthew's review lists for the past era (book pages, traced geometry, conflicts): docs/checks/past.md"
+	@echo "make checklists       Matthew's review lists: docs/checks/present.md (scanned-PDF quotes, conflicts) and past.md (book pages, traced geometry)"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"
 	@echo "make data             future-sync, present, past and app-data"
 	@echo "make dev              Dev server on http://127.0.0.1:5173 (proxies BAM's basemap without make basemap)"

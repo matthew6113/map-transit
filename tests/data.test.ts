@@ -18,6 +18,7 @@ import lineSchema from '../data/schema/line.schema.json';
 import segmentSchema from '../data/schema/segment.schema.json';
 import pointSchema from '../data/schema/point.schema.json';
 import sourceSchema from '../data/schema/source.schema.json';
+import extSchema from '../data/schema/extensions.schema.json';
 import region from '../src/basemap/region.json';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -31,6 +32,7 @@ const validators = {
   segments: ajv.compile(segmentSchema),
   points: ajv.compile(pointSchema),
   registry: ajv.compile(sourceSchema),
+  extensions: ajv.compile(extSchema),
 };
 
 type Props = Record<string, unknown> & { id: string; flags: string[]; sources: { source: string }[] };
@@ -72,6 +74,8 @@ describe('schemas', () => {
     expect(segmentSchema.$defs.props.properties.structure.anyOf[1].enum).toEqual(vocab.structures);
     expect(pointSchema.$defs.props.properties.kind.enum).toEqual(vocab.point_kinds);
     expect(sourceSchema.$defs.source.properties.type.enum).toEqual(vocab.source_types);
+    expect(extSchema.$defs.segment.properties.structure.enum).toEqual(vocab.structures);
+    expect(extSchema.$defs.flags.items.enum).toEqual(Object.keys(vocab.flags));
   });
 
   it('every mode belongs to a filter group', () => {
@@ -250,6 +254,85 @@ describe('provenance', () => {
     for (const { kind, p } of all) {
       const photo = p.photo as { license: string } | undefined;
       if (photo) expect(['public-domain', 'PD-US-expired', 'CC0'], `${kind} ${p.id}`).toContain(photo.license);
+    }
+  });
+});
+
+describe("today's network, dated (data/present/extensions.json)", () => {
+  type Ref = { source: string; supports: string[] };
+  type ExtSeg = { id: string; line: string; opened: string | null; sources: Ref[]; notes?: string };
+  type ExtLine = { opened?: string; sources?: Ref[]; route_from?: Record<string, { from: string }> };
+  type ExtSystem = { segments?: ExtSeg[]; lines?: Record<string, ExtLine>; points?: Record<string, { opened: string; sources: Ref[] }> };
+  const path = join(DATA, 'present', 'extensions.json');
+  const ext: { systems: Record<string, ExtSystem> } = existsSync(path) ? read(path) : { systems: {} };
+  const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+  const present = folders.filter((f) => f.era === 'present');
+  const presentLines = new Map(present.flatMap((f) => f.lines.map((l) => [l.id, l] as const)));
+
+  it('matches its schema', () => {
+    expect(validators.extensions(ext), ajv.errorsText(validators.extensions.errors, { separator: '\n' })).toBe(true);
+  });
+
+  it('dates today\'s network from official sources only (a dataset may place a cut point)', () => {
+    for (const [sys, s] of Object.entries(ext.systems)) {
+      const refs: [string, Ref[]][] = [
+        ...(s.segments ?? []).map((x) => [x.id, x.sources] as [string, Ref[]]),
+        ...Object.entries(s.lines ?? {}).map(([id, x]) => [id, x.sources ?? []] as [string, Ref[]]),
+        ...Object.entries(s.points ?? {}).map(([id, x]) => [`${sys} point ${id}`, x.sources] as [string, Ref[]]),
+      ];
+      for (const [id, rs] of refs) {
+        for (const r of rs) {
+          expect(sourceIds, `${id} cites ${r.source}`).toContain(r.source);
+          const dates = r.supports.some((x) => x !== 'geometry');
+          expect(dates ? ['official'] : ['official', 'dataset'], `${id} cites ${r.source} (${type.get(r.source)}) for ${r.supports}`).toContain(type.get(r.source));
+        }
+      }
+    }
+  });
+
+  it('cites a source for every date, and says why a stretch has none', () => {
+    for (const s of Object.values(ext.systems)) {
+      for (const x of s.segments ?? []) {
+        if (x.opened) expect(x.sources.some((r) => r.supports.includes('opened')), `${x.id}: no source supports its opening`).toBe(true);
+        else expect(x.notes, `${x.id}: opened is null; say why in notes`).toBeTruthy();
+      }
+      for (const [id, l] of Object.entries(s.lines ?? {})) {
+        if (l.opened) expect((l.sources ?? []).some((r) => r.supports.includes('opened')), `${id}: no source supports its opening`).toBe(true);
+      }
+      for (const [id, p] of Object.entries(s.points ?? {})) {
+        expect(p.sources.some((r) => r.supports.includes('opened')), `point ${id}: no source supports its opening`).toBe(true);
+      }
+    }
+  });
+
+  it('cuts stretches from present lines of the same system, under new ids', () => {
+    const presentSegs = new Set(present.flatMap((f) => f.segments.map((x) => x.properties.id)));
+    const seen = new Set<string>();
+    for (const [sys, s] of Object.entries(ext.systems)) {
+      for (const x of s.segments ?? []) {
+        expect(presentLines.get(x.line)?.system, `${x.id} is cut from ${x.line}`).toBe(sys);
+        expect(seen.has(x.id) || presentSegs.has(x.id), `${x.id} is used twice`).toBe(false);
+        seen.add(x.id);
+      }
+      for (const id of Object.keys(s.lines ?? {})) expect(presentLines.get(id)?.system, `lines.${id}`).toBe(sys);
+    }
+  });
+
+  it("keeps a line's later start on a stretch after the stretch and the line opened", () => {
+    const atOrBefore = (a: string, b: string) => {
+      const n = Math.min(a.length, b.length);
+      return a.slice(0, n) <= b.slice(0, n);
+    };
+    for (const s of Object.values(ext.systems)) {
+      const segs = new Map((s.segments ?? []).map((x) => [x.id, x]));
+      for (const [id, l] of Object.entries(s.lines ?? {})) {
+        for (const [sid, r] of Object.entries(l.route_from ?? {})) {
+          const seg = segs.get(sid);
+          expect(seg, `${id} route_from names ${sid}, which isn't a stretch of this system`).toBeTruthy();
+          if (seg?.opened) expect(atOrBefore(seg.opened, r.from), `${id} on ${sid}: ${r.from} is before the stretch opened`).toBe(true);
+          if (l.opened) expect(atOrBefore(l.opened, r.from), `${id} on ${sid}: ${r.from} is before the line opened`).toBe(true);
+        }
+      }
     }
   });
 });

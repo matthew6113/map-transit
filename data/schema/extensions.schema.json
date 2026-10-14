@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Today's network, dated (data/present/extensions.json)",
+  "description": "Hand-edited. pipeline/transit_pipeline/extensions.py cuts each stretch out of its present line's GTFS geometry between two stations at build time (docs/SCHEMA.md, 'Today's network, dated').",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "systems"
+  ],
+  "properties": {
+    "$comment": {
+      "type": "string"
+    },
+    "systems": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/id"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/system"
+      }
+    }
+  },
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?~?$",
+      "description": "YYYY, YYYY-MM or YYYY-MM-DD; a trailing ~ only when the source itself says circa."
+    },
+    "sourceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "supports"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "An id in data/sources.json."
+        },
+        "supports": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "geometry",
+              "opened",
+              "closed",
+              "route",
+              "fate",
+              "status",
+              "expected_opening",
+              "operator",
+              "gauge",
+              "electrification",
+              "photo",
+              "name",
+              "stations",
+              "general"
+            ]
+          }
+        },
+        "pages": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "lonlat": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sourceRef"
+      }
+    },
+    "flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "opened_unsourced",
+          "closed_unsourced",
+          "expected_opening_unsourced",
+          "status_unverified",
+          "geometry_unverified",
+          "needs_manual_digitizing",
+          "page_unverified",
+          "conflicting_sources",
+          "license_unclear"
+        ]
+      }
+    },
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "stations": {
+          "type": "object",
+          "description": "Cut points that aren't stations in the system's points, by name: [lon, lat].",
+          "additionalProperties": {
+            "$ref": "#/$defs/lonlat"
+          }
+        },
+        "segments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/segment"
+          }
+        },
+        "lines": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "#/$defs/id"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/line"
+          }
+        },
+        "points": {
+          "type": "object",
+          "description": "Opening dates of stations, by name, where they differ from the track's.",
+          "additionalProperties": {
+            "$ref": "#/$defs/point"
+          }
+        }
+      }
+    },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "line",
+        "from",
+        "to",
+        "opened",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "line": {
+          "$ref": "#/$defs/id",
+          "description": "The present line whose GTFS geometry the stretch is cut from."
+        },
+        "from": {
+          "type": "string",
+          "description": "A station: a point of the system, or a name in 'stations'."
+        },
+        "to": {
+          "type": "string"
+        },
+        "opened": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ],
+          "description": "When the track first carried passengers; null where it's older than today's service and unsourced."
+        },
+        "closed": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/date"
+            }
+          ]
+        },
+        "structure": {
+          "enum": [
+            "street",
+            "surface",
+            "elevated",
+            "subway",
+            "tunnel",
+            "cut",
+            "bridge",
+            "trestle",
+            "mole",
+            "pier",
+            "ferry"
+          ]
+        },
+        "both_ways": {
+          "type": "boolean",
+          "description": "Also take the way back: round a loop, or a pair of one-way streets."
+        },
+        "flags": {
+          "$ref": "#/$defs/flags"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "line": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "opened": {
+          "$ref": "#/$defs/date"
+        },
+        "flags": {
+          "$ref": "#/$defs/flags"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "route_from": {
+          "type": "object",
+          "description": "When the line began to use a stretch, where later than the stretch and the line.",
+          "propertyNames": {
+            "$ref": "#/$defs/id"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "from",
+              "note"
+            ],
+            "properties": {
+              "from": {
+                "$ref": "#/$defs/date"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "dependentRequired": {
+        "opened": [
+          "sources"
+        ]
+      }
+    },
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opened",
+        "sources"
+      ],
+      "properties": {
+        "opened": {
+          "$ref": "#/$defs/date"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

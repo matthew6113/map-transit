@@ -1,0 +1,692 @@
+{
+  "$comment": "Today's network, dated (Phase 2b.B). Hand-edited; applied at build time by pipeline/transit_pipeline/extensions.py, which cuts each stretch out of its line's GTFS geometry between two stations. A segment's 'opened' is when the track first carried passengers, from official sources only; where the track is older than today's service and its date isn't sourced, 'opened' stays null and the line's 'route_from' says when it began to use it. Schema: data/schema/extensions.schema.json.",
+  "systems": {
+    "bart": {
+      "segments": [
+        {
+          "id": "bart-macarthur-fremont",
+          "name": "MacArthur to Fremont",
+          "line": "bart-orange",
+          "from": "MacArthur BART",
+          "to": "Fremont",
+          "opened": "1972-09-11",
+          "sources": [
+            {"source": "bart-history-rescued", "supports": ["opened"], "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""},
+            {"source": "bart-timeline-2020", "supports": ["opened"], "note": "\"BART opens with Fremont to Oakland service including 28 miles of tracks and 12 stations.\""}
+          ]
+        },
+        {
+          "id": "bart-macarthur-richmond",
+          "name": "MacArthur to Richmond",
+          "line": "bart-orange",
+          "from": "MacArthur BART",
+          "to": "Richmond BART/Amtrak",
+          "opened": "1973-01-29",
+          "sources": [
+            {"source": "bart-news-releases-1973", "supports": ["opened"], "pages": "33", "note": "\"Monday, January 29, at 11 a.m., the Bay Area Rapid Transit District will begin passenger service between Oakland and Richmond\" / \"The Richmond line extends eleven miles north of the present terminus at the MacArthur station\""}
+          ]
+        },
+        {
+          "id": "bart-macarthur-concord",
+          "name": "MacArthur to Concord",
+          "line": "bart-yellow",
+          "from": "MacArthur BART",
+          "to": "Concord",
+          "opened": "1973-05-21",
+          "sources": [
+            {"source": "bart-news-releases-1973", "supports": ["opened"], "pages": "64, 134", "note": "\"Regular passenger service between Concord and Oakland … commences on Monday, May 21\" / \"stretches 17 miles from Oakland's MacArthur station, mostly along the Highway 24 median east to Concord\""}
+          ]
+        },
+        {
+          "id": "bart-montgomery-daly-city",
+          "name": "Montgomery Street to Daly City",
+          "line": "bart-blue",
+          "from": "Montgomery BART",
+          "to": "Daly City BART",
+          "opened": "1973-11-05",
+          "sources": [
+            {"source": "bart-annual-report-1973-74", "supports": ["opened"], "pages": "4", "note": "\"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\""},
+            {"source": "bart-news-releases-1973", "supports": ["opened"], "pages": "159", "note": "\"Regular passenger service will begin on Monday November 5 at 6:00 A.M.\" November 3 was ceremonies and free rides."}
+          ],
+          "notes": "Ran as a shuttle on its own until the Transbay Tube opened (BART annual report 1974–75, p. 9)."
+        },
+        {
+          "id": "bart-transbay",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube",
+          "line": "bart-blue",
+          "from": "Lake Merritt",
+          "to": "Montgomery BART",
+          "opened": "1974-09-16",
+          "structure": "tunnel",
+          "sources": [
+            {"source": "bart-annual-report-1973-74", "supports": ["opened"], "pages": "4", "note": "\"Through transbay service between Daly City and Concord and between Daly City and Fremont began September 16, 1974.\""},
+            {"source": "bart-news-releases-1974", "supports": ["opened"], "pages": "141", "note": "\"7½ miles, from the Oakland Wye through the transbay tube to San Francisco, remaining to be open\""}
+          ],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-oakland-wye-north",
+          "name": "Oakland Wye, 12th Street to West Oakland",
+          "line": "bart-red",
+          "from": "12th St Oakland City Center BART",
+          "to": "West Oakland",
+          "opened": "1974-09-16",
+          "sources": [
+            {"source": "bart-annual-report-1974-75", "supports": ["opened"], "pages": "9", "note": "\"All 71 miles of rapid transit line were in regular passenger service on September 16, 1974\""},
+            {"source": "bart-annual-report-1973-74", "supports": ["opened"], "pages": "4", "note": "Through service from Concord to Daly City began September 16, 1974: Concord trains reach the tube by this leg of the wye."}
+          ]
+        },
+        {
+          "id": "bart-concord-north-concord",
+          "name": "Concord to North Concord/Martinez",
+          "line": "bart-yellow",
+          "from": "Concord",
+          "to": "North Concord / Martinez",
+          "opened": "1995-12-16",
+          "sources": [
+            {"source": "bart-timeline-2020", "supports": ["opened"], "note": "\"First day of revenue service at North Concord/ Martinez Station.\""},
+            {"source": "bart-report-to-congress-1997", "supports": ["opened"], "pages": "5"}
+          ]
+        },
+        {
+          "id": "bart-daly-city-colma",
+          "name": "Daly City to Colma",
+          "line": "bart-red",
+          "from": "Daly City BART",
+          "to": "Colma",
+          "opened": "1996-02-24",
+          "sources": [
+            {"source": "bart-timeline-2020", "supports": ["opened"], "note": "\"Colma Station and SamTrans Transit Center open with a community celebration.\""},
+            {"source": "bart-report-to-congress-1997", "supports": ["opened"], "pages": "5", "note": "\"opened its doors to the public in February 1996.\""}
+          ]
+        },
+        {
+          "id": "bart-north-concord-pittsburg-bay-point",
+          "name": "North Concord/Martinez to Pittsburg/Bay Point",
+          "line": "bart-yellow",
+          "from": "North Concord / Martinez",
+          "to": "Pittsburg / Bay Point",
+          "opened": "1996-12-07",
+          "sources": [
+            {"source": "bart-report-to-congress-1997", "supports": ["opened"], "pages": "26", "note": "\"the December 7, 1996 opening of the new Pittsburg/Bay Point Station: completion of the 8-mile, two-station Pittsburg/Antioch Extension\""},
+            {"source": "bart-timeline-2020", "supports": ["opened"]}
+          ]
+        },
+        {
+          "id": "bart-bay-fair-dublin-pleasanton",
+          "name": "Bay Fair to Dublin/Pleasanton",
+          "line": "bart-blue",
+          "from": "Bay Fair",
+          "to": "Dublin / Pleasanton BART",
+          "opened": "1997-05-10",
+          "sources": [
+            {"source": "bart-timeline-2020", "supports": ["opened"], "note": "\"The Dublin/Pleasanton line opens. A community celebration is held at both the Castro Valley and Dublin/Pleasanton stations\""},
+            {"source": "bart-report-to-congress-1997", "supports": ["opened"], "pages": "26", "note": "\"where the new line intersects with the main line, at the Bay Fair Station\""}
+          ],
+          "notes": "West Dublin/Pleasanton station was added on the line in 2011."
+        },
+        {
+          "id": "bart-colma-san-bruno",
+          "name": "Colma to San Bruno",
+          "line": "bart-red",
+          "from": "Colma",
+          "to": "San Bruno",
+          "opened": "2003-06-22",
+          "sources": [
+            {"source": "bart-annual-report-2003", "supports": ["opened"], "pages": "8", "note": "\"The San Francisco International Airport Extension started its revenue operations on June 22, 2003.\""}
+          ]
+        },
+        {
+          "id": "bart-san-bruno-sfo",
+          "name": "San Bruno to SFO",
+          "line": "bart-yellow",
+          "from": "San Bruno",
+          "to": "SFO",
+          "opened": "2003-06-22",
+          "sources": [
+            {"source": "bart-annual-report-2003", "supports": ["opened"], "pages": "8"},
+            {"source": "bart-sfo-extension-2003", "supports": ["opened", "route"], "pages": "1", "note": "\"An additional 1.2 miles of track have been constructed off the main line to serve the airport from both the north and south.\""}
+          ]
+        },
+        {
+          "id": "bart-san-bruno-millbrae",
+          "name": "San Bruno to Millbrae",
+          "line": "bart-yellow",
+          "from": "San Bruno",
+          "to": "Millbrae BART",
+          "opened": "2003-06-22",
+          "sources": [
+            {"source": "bart-annual-report-2003", "supports": ["opened"], "pages": "8"}
+          ]
+        },
+        {
+          "id": "bart-sfo-millbrae",
+          "name": "SFO to Millbrae",
+          "line": "bart-red",
+          "from": "SFO",
+          "to": "Millbrae BART",
+          "opened": "2003-06-22",
+          "sources": [
+            {"source": "bart-annual-report-2003", "supports": ["opened"], "pages": "8"},
+            {"source": "bart-sfo-extension-2003", "supports": ["opened", "route"], "pages": "1"}
+          ]
+        },
+        {
+          "id": "bart-oakland-airport-connector",
+          "name": "Coliseum to Oakland Airport",
+          "line": "bart-oakland-airport",
+          "from": "Oakland Coliseum BART",
+          "to": "OAK",
+          "opened": "2014-11-22",
+          "structure": "elevated",
+          "sources": [
+            {"source": "alameda-ctc-oakland-airport-connector", "supports": ["opened"], "note": "\"began service Saturday, November 22, 2014\""},
+            {"source": "bart-timeline-2020", "supports": ["opened"], "note": "\"First day of service for BART to OAK.\""}
+          ]
+        },
+        {
+          "id": "bart-fremont-warm-springs",
+          "name": "Fremont to Warm Springs/South Fremont",
+          "line": "bart-orange",
+          "from": "Fremont",
+          "to": "Warm Springs South Fremont BART",
+          "opened": "2017-03-25",
+          "sources": [
+            {"source": "bart-warm-springs-opening", "supports": ["opened"], "note": "\"Service began Saturday, March 25th with the first train departing at 5:48 am.\""}
+          ]
+        },
+        {
+          "id": "bart-pittsburg-bay-point-antioch",
+          "name": "Pittsburg/Bay Point to Antioch (eBART)",
+          "line": "bart-yellow",
+          "from": "Pittsburg / Bay Point",
+          "to": "Antioch",
+          "opened": "2018-05-26",
+          "sources": [
+            {"source": "bart-ecc-faq", "supports": ["opened"], "note": "\"Revenue service began on Saturday, May 26, 2018.\""}
+          ],
+          "notes": "Diesel trains from a transfer platform just east of Pittsburg/Bay Point."
+        },
+        {
+          "id": "bart-warm-springs-berryessa",
+          "name": "Warm Springs to Berryessa/North San José",
+          "line": "bart-orange",
+          "from": "Warm Springs South Fremont BART",
+          "to": "Berryessa / North San Jose",
+          "opened": "2020-06-13",
+          "sources": [
+            {"source": "vta-bart-silicon-valley", "supports": ["opened"], "note": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\""}
+          ],
+          "notes": "BART's August 2020 timeline gives May 13, 2020, which VTA's page and BART's May 2020 announcement contradict."
+        }
+      ],
+      "points": {
+        "Embarcadero BART": {
+          "opened": "1976-05-27",
+          "sources": [
+            {"source": "bart-chronology-1947-1991", "supports": ["opened"], "pages": "8", "note": "\"Embarcadero Station officially opened for revenue service\""},
+            {"source": "bart-news-releases-1974", "supports": ["opened"], "pages": "141", "note": "\"the Embarcadero Station will be bypassed until completed.\""}
+          ],
+          "notes": "Trains ran through without stopping from September 1974."
+        },
+        "West Dublin / Pleasanton": {
+          "opened": "2011",
+          "sources": [
+            {"source": "bart-west-dublin-pleasanton", "supports": ["opened"], "note": "Announced before the opening as \"Opening day: February 19, 2011.\" BART's facts page gives 2011."}
+          ],
+          "notes": "An infill station between Castro Valley and Dublin/Pleasanton. BART announced February 19, 2011; no official source confirms the day after the fact."
+        }
+      }
+    },
+    "muni": {
+      "stations": {
+        "Church St & Market St": [-122.42893, 37.76751],
+        "Church St & 30th St": [-122.42646, 37.74222],
+        "Duboce portal": [-122.427189, 37.769568],
+        "Duboce Ave & Church St": [-122.4294, 37.76941],
+        "Judah St & La Playa St": [-122.50818, 37.7603],
+        "St. Francis Circle": [-122.47145, 37.73483],
+        "Balboa Park": [-122.44742, 37.72181],
+        "San Jose Ave & Geneva Ave": [-122.4472, 37.7201],
+        "Broad St & Plymouth Ave": [-122.45593, 37.71322],
+        "Taraval St & 33rd Ave": [-122.490709, 37.742395],
+        "Taraval St & 46th Ave": [-122.50449, 37.74182],
+        "Wawona St & 46th Ave": [-122.50435, 37.73613],
+        "the end of the N's track on King St": [-122.39776, 37.77318],
+        "4th St & King St": [-122.39386, 37.77628],
+        "Sunnydale": [-122.40504, 37.70894],
+        "17th St & Castro St": [-122.43498, 37.76258],
+        "Market St & Drumm St": [-122.39618, 37.79347],
+        "Beach St & Stockton St": [-122.41081, 37.80784],
+        "California St & Drumm St": [-122.39637, 37.79368],
+        "California St & Kearny St": [-122.40425, 37.79259],
+        "California St & Van Ness Ave": [-122.42224, 37.79041],
+        "Powell St & Market St": [-122.40768, 37.7847],
+        "Powell St & Jackson St": [-122.40974, 37.79514],
+        "Hyde St & Jackson St": [-122.41819, 37.79454],
+        "Hyde St & Beach St": [-122.42054, 37.80664],
+        "Taylor St & Bay St": [-122.41519, 37.80523]
+      },
+      "segments": [
+        {
+          "id": "muni-church-st",
+          "name": "Church St, Market St to 30th St",
+          "line": "muni-j",
+          "from": "Church St & Market St",
+          "to": "Church St & 30th St",
+          "opened": "1917-08-11",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "32", "note": "\"The first day of service on the J Church line, from 30th & Church to Van Ness Ave. & Market.\" Track between 30th and 16th Sts. was finished in 1916."},
+            {"source": "sfmta-muni-history", "supports": ["opened"], "note": "\"The J Church streetcar line begins service on August 11, 1917\""}
+          ]
+        },
+        {
+          "id": "muni-twin-peaks-tunnel",
+          "name": "Twin Peaks Tunnel, Castro to West Portal",
+          "line": "muni-k",
+          "from": "Castro",
+          "to": "West Portal",
+          "opened": "1918-02-03",
+          "structure": "tunnel",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "34", "note": "\"First streetcar service through the Twin Peaks Tunnel, with K-line service from St. Francis Circle to Van Ness Ave. & Pine.\""},
+            {"source": "sfmta-muni-history", "supports": ["opened"], "note": "\"The Twin Peaks Tunnel opens in February 1918.\""}
+          ],
+          "notes": "The tunnel's east portal was at Market & Castro, where the Market St subway joined it in 1980."
+        },
+        {
+          "id": "muni-west-portal-st-francis-circle",
+          "name": "West Portal to St. Francis Circle",
+          "line": "muni-k",
+          "from": "West Portal",
+          "to": "St. Francis Circle",
+          "opened": "1918-02-03",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "34", "note": "K-line service from St. Francis Circle through the tunnel began February 3, 1918."}
+          ]
+        },
+        {
+          "id": "muni-k-ocean-ave",
+          "name": "St. Francis Circle to Balboa Park, on Ocean Ave",
+          "line": "muni-k",
+          "from": "St. Francis Circle",
+          "to": "Balboa Park",
+          "opened": null,
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "35", "note": "\"The Ocean Avenue Agreement was approved at the same time, allowing Muni to share the URR's tracks on Ocean Ave. The K line began service on Ocean Ave. on February 21, 1919.\""}
+          ],
+          "notes": "United Railroads' track, older than the K; when the URR laid it is for the San Francisco streetcar records. No official date found for the K reaching Balboa Park."
+        },
+        {
+          "id": "muni-l-west-portal-33rd-ave",
+          "name": "West Portal to 33rd Ave, on Taraval St",
+          "line": "muni-l",
+          "from": "West Portal",
+          "to": "Taraval St & 33rd Ave",
+          "opened": null,
+          "structure": "street",
+          "sources": [
+            {"source": "overture-roads-2026-09-23-1", "supports": ["geometry"], "note": "The corner of Taraval St and 33rd Ave, where today's streets cross."},
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "35", "note": "\"The L Taraval streetcar line begins service as a shuttle between West Portal and 33rd Ave.\" / the Taraval Street Agreement allowed \"Muni to share the URR's tracks on Taraval between 20th and 33rd Aves.\""}
+          ],
+          "notes": "Partly United Railroads' track (20th to 33rd Aves), older than the L. The 33rd Ave corner is today's street crossing (Overture roads, data/sources.json overture-roads-2026-09-23-1)."
+        },
+        {
+          "id": "muni-l-33rd-46th-ave",
+          "name": "33rd Ave to 46th Ave, on Taraval St",
+          "line": "muni-l",
+          "from": "Taraval St & 33rd Ave",
+          "to": "Taraval St & 46th Ave",
+          "opened": null,
+          "structure": "street",
+          "sources": [
+            {"source": "overture-roads-2026-09-23-1", "supports": ["geometry"], "note": "The corner of Taraval St and 33rd Ave, where today's streets cross."},
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "35", "note": "\"(Service was extended to 48th Ave. and downtown in 1923, …)\""}
+          ],
+          "notes": "The L reached 48th Ave in 1923; whether the track was new then isn't stated."
+        },
+        {
+          "id": "muni-l-46th-ave-wawona",
+          "name": "Taraval St to Wawona St, on 46th Ave",
+          "line": "muni-l",
+          "from": "Taraval St & 46th Ave",
+          "to": "Wawona St & 46th Ave",
+          "opened": null,
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "35", "note": "\"…and to Wawona & 46th Ave., near the Fleishhacker zoo and outdoor swimming pool, in 1937.\""}
+          ],
+          "notes": "The L reached Wawona & 46th Ave in 1937; whether the track was new then isn't stated."
+        },
+        {
+          "id": "muni-m-st-francis-circle-broad-st",
+          "name": "St. Francis Circle to Broad St & Plymouth Ave",
+          "line": "muni-m",
+          "from": "St. Francis Circle",
+          "to": "Broad St & Plymouth Ave",
+          "opened": "1925-10-06",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "36", "note": "\"The M Ocean View streetcar line begins service as a shuttle between Broad St. & Plymouth Ave. and St. Francis Circle.\""}
+          ]
+        },
+        {
+          "id": "muni-n-duboce-ocean-beach",
+          "name": "Duboce Ave and Church St to Ocean Beach, through the Sunset Tunnel",
+          "line": "muni-n",
+          "from": "Duboce Ave & Church St",
+          "to": "Judah St & La Playa St",
+          "opened": "1928-10-21",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "37", "note": "\"N Judah service begins from the Ferry Building to the beach (and through the 4,232 ft. Sunset Tunnel).\""}
+          ]
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "line": "muni-n",
+          "from": "Embarcadero",
+          "to": "Van Ness",
+          "opened": "1980-02-18",
+          "structure": "subway",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "57", "note": "\"Weekday Metro service begins on the N Judah line, with the new light rail vehicles operating in the subway beneath Market St. (From February 11th through the 15th, there had been a free weekday shuttle service … in the subway between the Embarcadero and Van Ness Ave. stations.)\""}
+          ]
+        },
+        {
+          "id": "muni-duboce-tunnel",
+          "name": "Van Ness to the Duboce portal",
+          "line": "muni-n",
+          "from": "Van Ness",
+          "to": "Duboce portal",
+          "opened": "1980-02-18",
+          "structure": "subway",
+          "sources": [
+            {"source": "overture-rail-2026-09-23-1", "supports": ["geometry"], "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."},
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "57", "note": "The N Judah began weekday Metro service in the subway on February 18, 1980."}
+          ],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-duboce-ave",
+          "name": "Duboce Ave, the portal to Church St",
+          "line": "muni-n",
+          "from": "Duboce portal",
+          "to": "Duboce Ave & Church St",
+          "opened": null,
+          "structure": "street",
+          "sources": [
+            {"source": "overture-rail-2026-09-23-1", "supports": ["geometry"], "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."},
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "37", "note": "The N ran from the Ferry Building on Market St and Duboce Ave from 1928."}
+          ],
+          "notes": "Street track older than the subway; its date isn't sourced yet."
+        },
+        {
+          "id": "muni-market-st-subway-west",
+          "name": "Market St subway, Van Ness to Castro",
+          "line": "muni-k",
+          "from": "Van Ness",
+          "to": "Castro",
+          "opened": "1980-06-11",
+          "structure": "subway",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "58", "note": "\"The K line had begun weekday LRV service for all three West-of-Twin-Peaks lines from St. Francis Circle to the Embarcadero Station on June 11th of that year\""}
+          ]
+        },
+        {
+          "id": "muni-m-broad-st-geneva",
+          "name": "Broad St & Plymouth Ave to Geneva & San José Aves",
+          "line": "muni-m",
+          "from": "Broad St & Plymouth Ave",
+          "to": "San Jose Ave & Geneva Ave",
+          "opened": "1980-08-30",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "58", "note": "\"PCC streetcar service is extended on the M line from Broad St. & Plymouth Ave. to the Geneva car house at Geneva & San José Aves., after tracks had been laid the short distance on Broad and San José.\""}
+          ]
+        },
+        {
+          "id": "muni-j-san-jose-ave",
+          "name": "30th St & Church St to Balboa Park",
+          "line": "muni-j",
+          "from": "Church St & 30th St",
+          "to": "Balboa Park",
+          "opened": "1991-08-31",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "70, 74", "note": "\"J Church and N Judah streetcars begin 'pull-in' and 'pull-out' service to and from the Green Division at Geneva & San José Aves. on the newly extended J line\" (August 31, 1991) / \"The J Church line begins full-time service between the Balboa Park BART Station and Muni's Embarcadero Station.\" (June 19, 1993)"}
+          ],
+          "notes": "Trips to and from the car house from August 31, 1991; full-time J service from June 19, 1993."
+        },
+        {
+          "id": "muni-metro-extension",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King",
+          "line": "muni-n",
+          "from": "Embarcadero",
+          "to": "the end of the N's track on King St",
+          "opened": "1998-01",
+          "sources": [
+            {"source": "sfmta-srtp-2006", "supports": ["opened"], "pages": "89–90", "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""}
+          ],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-third-street",
+          "name": "4th & King to Sunnydale, on Third St",
+          "line": "muni-t",
+          "from": "4th St & King St",
+          "to": "Sunnydale",
+          "opened": "2007-04-07",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-srtp-2008-third-street", "supports": ["opened"], "pages": "4", "note": "\"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""}
+          ]
+        },
+        {
+          "id": "muni-central-subway",
+          "name": "Central Subway, 4th & King to Chinatown",
+          "line": "muni-t",
+          "from": "4th St & King St",
+          "to": "Chinatown–Rose Pak",
+          "opened": "2023-01-07",
+          "structure": "subway",
+          "sources": [
+            {"source": "sfmta-central-subway-project", "supports": ["opened"], "note": "\"The new T Third line from Chinatown Rose-Pak to Sunnydale started on January 7, 2023.\""}
+          ],
+          "notes": "Runs on 4th St from King St to the portal north of Brannan St. SFMTA announced special weekend service from November 19, 2022; only the January 2023 start is confirmed after the fact."
+        },
+        {
+          "id": "muni-f-market-st",
+          "name": "17th & Castro to Market & Drumm, on Market St",
+          "line": "muni-f",
+          "from": "17th St & Castro St",
+          "to": "Market St & Drumm St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["route"], "pages": "80", "note": "\"The opening of the F Market historic streetcar line on Market St. between 17th & Castro and the Transbay Terminal is celebrated\" (September 1, 1995)."}
+          ],
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+        },
+        {
+          "id": "muni-f-embarcadero",
+          "name": "Market & Drumm to Fisherman's Wharf, on The Embarcadero",
+          "line": "muni-f",
+          "from": "Market St & Drumm St",
+          "to": "Beach St & Stockton St",
+          "opened": "2000-03-04",
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {"source": "sfmta-historic-streetcars", "supports": ["opened"], "note": "\"An extension of the F line on The Embarcadero to Fisherman's Wharf began service on March 4, 2000.\""},
+            {"source": "sfmta-archive-general-information", "supports": ["opened"]}
+          ],
+          "notes": "Cut at Market & Drumm, the F's last stop on Market St; the block to Steuart St goes with the extension. Includes the loop at the wharf, on Jefferson, Jones and Beach Sts."
+        },
+        {
+          "id": "muni-cable-california-st-west",
+          "name": "California St cable, Kearny St to Van Ness Ave",
+          "line": "muni-cable-california-street",
+          "from": "California St & Kearny St",
+          "to": "California St & Van Ness Ave",
+          "opened": "1878-04-10",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "8", "note": "\"First day of service on the California Street Cable Railroad (Cal Cable), built by Leland Stanford and his associates, on California between Kearny and Fillmore.\""}
+          ],
+          "notes": "The line ran on to Fillmore, and later to Presidio Ave; it was cut back to Van Ness on May 16, 1954."
+        },
+        {
+          "id": "muni-cable-california-st-east",
+          "name": "California St cable, Market St to Kearny St",
+          "line": "muni-cable-california-street",
+          "from": "California St & Drumm St",
+          "to": "California St & Kearny St",
+          "opened": "1890",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "8", "note": "\"The line was extended to Presidio Ave. the next year and to Market St. in 1890.\""}
+          ]
+        },
+        {
+          "id": "muni-cable-powell-st",
+          "name": "Powell St cable, Market St to Jackson St",
+          "line": "muni-cable-powell-mason",
+          "from": "Powell St & Market St",
+          "to": "Powell St & Jackson St",
+          "opened": "1888-03",
+          "structure": "street",
+          "flags": ["conflicting_sources"],
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "12", "note": "\"Mar. 28, 1888: First day of operation of Ferries & Cliff House Railway (F&CHRy) cable service on Powell St.\""},
+            {"source": "sfmta-blog-powell-mason-130", "supports": ["opened"], "note": "\"The full Powell-Mason Line opened in early March 1888, after a short trial run in February\""}
+          ],
+          "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
+        },
+        {
+          "id": "muni-cable-mason-taylor",
+          "name": "Powell-Mason cable, Jackson St to Bay St",
+          "line": "muni-cable-powell-mason",
+          "from": "Powell St & Jackson St",
+          "to": "Taylor St & Bay St",
+          "opened": "1888",
+          "structure": "street",
+          "both_ways": true,
+          "flags": ["conflicting_sources"],
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "12", "note": "\"Full service on the Powell lines — the Powell-Mason and Washington-Jackson lines — began a few days later.\" (after March 28, 1888)"},
+            {"source": "sfmta-blog-powell-mason-130", "supports": ["opened"], "note": "\"The full Powell-Mason Line opened in early March 1888\""}
+          ],
+          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
+        },
+        {
+          "id": "muni-cable-washington-jackson",
+          "name": "Washington and Jackson Sts cable, Powell St to Hyde St",
+          "line": "muni-cable-powell-hyde",
+          "from": "Powell St & Jackson St",
+          "to": "Hyde St & Jackson St",
+          "opened": "1888-04-05",
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {"source": "sfmta-blog-powell-mason-130", "supports": ["opened"], "note": "\"One month later on April 5th, the East-West running Washington and Jackson Line (which partly survives today as a segment of the Powell-Hyde Line) opened.\""},
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "12", "note": "Full Washington-Jackson service \"began a few days later\" than March 28, 1888."}
+          ],
+          "notes": "Westbound on Jackson St, eastbound on Washington St. The block of Hyde St between them belongs to the 1891 Hyde St line but is drawn with this stretch."
+        },
+        {
+          "id": "muni-cable-hyde-st",
+          "name": "Hyde St cable, Jackson St to Beach St",
+          "line": "muni-cable-powell-hyde",
+          "from": "Hyde St & Jackson St",
+          "to": "Hyde St & Beach St",
+          "opened": "1891-02-09",
+          "structure": "street",
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "13", "note": "\"Cal Cable's O'Farrell, Jones and Hyde line … begin service\" (February 9, 1891): \"The O'Farrell, Jones and Hyde line started at O'Farrell & Market and ran on O'Farrell, Jones, Pine, and Hyde to Beach St.\""}
+          ]
+        }
+      ],
+      "lines": {
+        "muni-j": {
+          "opened": "1917-08-11",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "32"}],
+          "route_from": {
+            "muni-market-st-subway": {"from": "1981-06-17", "note": "Weekday Metro service in the subway from June 17, 1981 (Callwell p. 59)."},
+            "muni-duboce-tunnel": {"from": "1981-06-17", "note": "Weekday Metro service from June 17, 1981 (Callwell p. 59)."},
+            "muni-duboce-ave": {"from": "1981-06-17", "note": "Weekday Metro service from June 17, 1981 (Callwell p. 59)."},
+            "muni-k-ocean-ave": {"from": "1991-08-31", "note": "The J reached Balboa Park with its extension from 30th St, from August 31, 1991 (Callwell p. 70)."}
+          }
+        },
+        "muni-k": {
+          "opened": "1918-02-03",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "34"}],
+          "route_from": {
+            "muni-market-st-subway": {"from": "1980-06-11", "note": "Weekday light rail service in the subway from June 11, 1980 (Callwell p. 58)."},
+            "muni-k-ocean-ave": {"from": "1919-02-21", "note": "On Ocean Ave from February 21, 1919, over the URR's tracks (Callwell p. 35)."},
+            "muni-duboce-tunnel": {"from": "1980-06-11", "note": "Weekday light rail service in the subway from June 11, 1980 (Callwell p. 58)."}
+          }
+        },
+        "muni-l": {
+          "opened": "1919-04-12",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "35"}],
+          "route_from": {
+            "muni-market-st-subway": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."},
+            "muni-market-st-subway-west": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."},
+            "muni-duboce-tunnel": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."},
+            "muni-l-33rd-46th-ave": {"from": "1923", "note": "Extended to 48th Ave in 1923 (Callwell p. 35)."},
+            "muni-l-46th-ave-wawona": {"from": "1937", "note": "Extended to Wawona & 46th Ave in 1937 (Callwell p. 35)."}
+          }
+        },
+        "muni-m": {
+          "opened": "1925-10-06",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "36"}],
+          "route_from": {
+            "muni-market-st-subway": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."},
+            "muni-market-st-subway-west": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."},
+            "muni-duboce-tunnel": {"from": "1980-12-17", "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58)."}
+          }
+        },
+        "muni-n": {
+          "opened": "1928-10-21",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "37"}],
+          "route_from": {
+            "muni-metro-extension": {"from": "1998-08-22", "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90)."}
+          }
+        },
+        "muni-t": {
+          "opened": "2007-04-07",
+          "sources": [{"source": "sfmta-srtp-2008-third-street", "supports": ["opened"], "pages": "4"}]
+        },
+        "muni-f": {
+          "opened": "1995-09-01",
+          "sources": [
+            {"source": "sfmta-historic-streetcars", "supports": ["opened"], "note": "\"September 1, 1995, was the first day of service for the F Market historic streetcar line\""},
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "80"}
+          ]
+        },
+        "muni-cable-california-street": {
+          "opened": "1878-04-10",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "8"}],
+          "notes": "Service stopped for the system's rebuild from September 1982 to June 1984 (Callwell pp. 61, 63)."
+        },
+        "muni-cable-powell-mason": {
+          "opened": "1888",
+          "flags": ["conflicting_sources"],
+          "sources": [
+            {"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "12"},
+            {"source": "sfmta-blog-powell-mason-130", "supports": ["opened"]}
+          ],
+          "notes": "Callwell gives March 28, 1888 for the first Powell St service, with full service a few days later; SFMTA's 2018 blog says early March. Only the year is certain. Service stopped for the system's rebuild from September 1982 to June 1984."
+        },
+        "muni-cable-powell-hyde": {
+          "opened": "1957-04-07",
+          "sources": [{"source": "sfmta-callwell-chronology", "supports": ["opened"], "pages": "49", "note": "\"First day of service on the new Powell-Hyde line, made up of sections of the old Washington-Jackson and O'Farrell, Jones and Hyde lines.\""}],
+          "notes": "Service stopped for the system's rebuild from September 1982 to June 1984."
+        }
+      }
+    }
+  }
+}

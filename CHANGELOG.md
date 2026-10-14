@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, today's network dated (BART and Muni)
+
+- **BART** is cut into 24 shared, dated segments, from MacArthur–Fremont (September 11, 1972) to
+  Warm Springs–Berryessa (June 13, 2020), so it grows in on the year slider. BART's colors share
+  their track as one stroke each. Embarcadero (1976) and West Dublin/Pleasanton (2011) carry their
+  own dates; other stations take their track's.
+- **Muni** is cut into 34 segments: the J (1917), the Twin Peaks Tunnel (1918), the M (1925), the N
+  and Sunset Tunnel (1928), the Market St subway (1980), the J's and M's extensions (1980, 1991), the
+  Muni Metro Extension (1998), the T (2007), the Central Subway (2023), the F's Embarcadero extension
+  (2000), and the cable car lines (1878–1891). Line openings for the J, K, L, M, N, T, F and the
+  three cable car lines.
+- Dates come from the agencies' own records only: BART's reports, releases and timeline, and Muni's
+  1999 chronology and SFMTA's plans and pages (`data/present/extensions.json`, with quotes).
+- Not yet dated: the track under the K on Ocean Ave, the L on Taraval St and the F on Market St,
+  which is older than today's service; and the other present systems.
+
 ## 2026-10-14: Phase 2a, the past-era pilot
 
 - **The Key System** (`data/past/key-system/`): the 1903 pier, its approach and subway, and lines

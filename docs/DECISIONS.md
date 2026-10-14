@@ -113,6 +113,31 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     - Today's network is cut into shared, dated segments at build time from
       `data/present/extensions.json` (`extensions.py`), with dates from official sources only.
 
+## Today's network, dated (2026-10-14, Phase 2b)
+
+- **A present segment's date is its track's.** `opened` is when the track first carried passengers,
+  so the past era shows it from then and past lines over it (decision 13) aren't cut short. Where
+  today's service runs over older track whose date isn't sourced yet (the K on the United Railroads'
+  Ocean Ave track, the L on Taraval St, the F on Market St), the segment stays `null` and the line's
+  `route_from` says when the service began there; display borrows that, lighter (decision 4).
+- **Official sources only, after the fact.** Today's network is dated from its agencies' own
+  records, as the future era is: BART's annual reports, news releases, reports to Congress and
+  timeline; Muni's 1999 chronology by Robert Callwell, SFMTA's short-range transit plans and pages;
+  VTA and Alameda CTC. A date announced beforehand isn't enough alone (the Central Subway: 2023,
+  not the announced November 2022 weekend service; West Dublin/Pleasanton: 2011, not the announced
+  February 19).
+- **Conflicts:** BART's San Francisco line opened November 5, 1973 (November 3 was ceremonies and
+  free rides). BART's 2020 timeline gives May 13, 2020 for Berryessa, against VTA's and BART's own
+  June 13. The Powell-Mason cable line is dated only to 1888 (Callwell: full service a few days after
+  March 28; SFMTA's blog: early March) and flagged.
+- **One stretch, one stroke.** A stretch is cut from one line's GTFS geometry between two stations,
+  older track keeps any part two stretches share, and each stretch is split where the lines of its
+  mode part. So BART's colors share their track as one dated segment each, the Muni Metro letters
+  share the subway, and the F on Market St stays apart from the subway under it (different modes).
+- **Stations borrow from their track.** A station with no date of its own shows from when the track
+  it stands on opened (the earliest, at a junction), drawn as borrowed. Stations that opened apart
+  from their track carry their own dates (BART's Embarcadero, 1976; West Dublin/Pleasanton, 2011).
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**
@@ -354,9 +379,9 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 
 - **The app opens on the present era.** The past era opens at 1925, the interurbans' heyday, and
   `?year=` overrides that.
-- **The past slider runs 1850 to today and includes the present network.** BART grows in as its
-  segments get sourced dates (Phase 2, `present/extensions.json`). Until then BART's lines are
-  undated and off the slider, which the slider's note says.
+- **The past slider runs 1850 to today and includes the present network.** BART and Muni grow in
+  from their sourced dates (Phase 2b, `present/extensions.json`). Systems not yet dated are off the
+  slider, which the slider's note says.
 - **The "Whole Bay" frame** is the core of the rail network, from San Rafael and Richmond to San José
   and Livermore. BAM's frame fits its project sites.
 - **Freight-only rail stays as BAM's faint dashed context.** BAM's context lines for transit rail and

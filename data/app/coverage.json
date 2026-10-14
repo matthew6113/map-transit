@@ -19,16 +19,17 @@
   },
   "present": {
     "lines": 44,
-    "segments": 44,
+    "segments": 87,
     "points": 275,
     "km_by_confidence": {
-      "surveyed": 2167.4
+      "surveyed": 1939.4
     },
-    "undated_segments": 44,
-    "borrowed_dates": 0,
+    "undated_segments": 28,
+    "borrowed_dates": 8,
     "flags": {
+      "conflicting_sources": 4,
       "license_unclear": 35,
-      "opened_unsourced": 363
+      "opened_unsourced": 343
     }
   },
   "future": {

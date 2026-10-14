@@ -6699,8 +6699,8 @@
         37.789032
       ],
       "fids": [
-        60,
-        61
+        86,
+        87
       ],
       "segments": [
         {
@@ -6800,7 +6800,7 @@
         37.801379
       ],
       "fids": [
-        59
+        85
       ],
       "segments": [
         {
@@ -6898,7 +6898,7 @@
         37.79567
       ],
       "fids": [
-        109
+        182
       ],
       "segments": [
         {
@@ -7059,7 +7059,7 @@
         37.86921
       ],
       "fids": [
-        74
+        100
       ],
       "segments": [
         {
@@ -7120,36 +7120,89 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 62.62,
+      "length_km": 62.66,
       "confidence_km": {
-        "surveyed": 62.62
+        "surveyed": 62.66
       },
       "bbox": [
-        -122.4689,
+        -122.468874,
         37.68859,
-        -121.89924,
+        -121.89936,
         37.80994
       ],
       "fids": [
         24,
         25,
-        26
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "segments": [
         {
-          "id": "bart-blue-gtfs",
-          "name": "Blue line, as run in GTFS",
-          "opened": null,
+          "id": "bart-montgomery-daly-city",
+          "name": "Montgomery Street to Daly City",
+          "opened": "1973-11-05",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Montgomery BART and Daly City BART (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": [],
+          "notes": "Ran as a shuttle on its own until the Transbay Tube opened (BART annual report 1974–75, p. 9)."
+        },
+        {
+          "id": "bart-transbay-2",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 2 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-transbay-1",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 1 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-macarthur-fremont-3",
+          "name": "MacArthur to Fremont, part 3 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-bay-fair-dublin-pleasanton",
+          "name": "Bay Fair to Dublin/Pleasanton",
+          "opened": "1997-05-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Bay Fair and Dublin / Pleasanton BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "West Dublin/Pleasanton station was added on the line in 2011."
         }
       ],
       "sources": [
@@ -7169,6 +7222,93 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "bart-annual-report-1973-74",
+          "title": "BART annual report 1973–74",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1973-74",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4",
+          "note": "\"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\""
+        },
+        {
+          "id": "bart-news-releases-1973",
+          "title": "BART news releases, 1973",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1973",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1973",
+          "supports": [
+            "opened"
+          ],
+          "pages": "159",
+          "note": "\"Regular passenger service will begin on Monday November 5 at 6:00 A.M.\" November 3 was ceremonies and free rides."
+        },
+        {
+          "id": "bart-news-releases-1974",
+          "title": "BART news releases, 1974",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1974",
+          "supports": [
+            "opened"
+          ],
+          "pages": "141",
+          "note": "\"7½ miles, from the Oakland Wye through the transbay tube to San Francisco, remaining to be open\""
+        },
+        {
+          "id": "bart-history-rescued",
+          "title": "A History of BART: The Project is Rescued",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/about/history/history3",
+          "accessed": "2026-10-14",
+          "source": "bart-history-rescued",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"BART opens with Fremont to Oakland service including 28 miles of tracks and 12 stations.\""
+        },
+        {
+          "id": "bart-report-to-congress-1997",
+          "title": "BART report to Congress, 1997",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1997",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1997%20BART%20Report%20to%20Congress.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-report-to-congress-1997",
+          "supports": [
+            "opened"
+          ],
+          "pages": "26",
+          "note": "\"where the new line intersects with the main line, at the Bay Fair Station\""
         }
       ]
     },
@@ -7205,8 +7345,8 @@
         37.41049
       ],
       "fids": [
-        129,
-        130
+        202,
+        203
       ],
       "segments": [
         {
@@ -7259,42 +7399,52 @@
       "mode_label": "Cable car",
       "group": "cable",
       "era": "present",
-      "opened": null,
+      "opened": "1878-04-10",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Service stopped for the system's rebuild from September 1982 to June 1984 (Callwell pp. 61, 63).",
+      "flags": [],
+      "undated": false,
       "length_km": 2.3,
       "confidence_km": {
         "surveyed": 2.3
       },
       "bbox": [
-        -122.42224,
+        -122.422236,
         37.79039,
         -122.3964,
         37.79367
       ],
       "fids": [
-        81
+        107,
+        108
       ],
       "segments": [
         {
-          "id": "muni-cable-california-street-gtfs",
-          "name": "California Street cable car, as run in GTFS",
-          "opened": null,
+          "id": "muni-cable-california-st-west",
+          "name": "California St cable, Kearny St to Van Ness Ave",
+          "opened": "1878-04-10",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 4 shapes run by 584 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "method": "GTFS shapes.txt: 4 shapes run by 584 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between California St & Kearny St and California St & Van Ness Ave (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [],
+          "notes": "The line ran on to Fillmore, and later to Presidio Ave; it was cut back to Van Ness on May 16, 1954."
+        },
+        {
+          "id": "muni-cable-california-st-east",
+          "name": "California St cable, Market St to Kearny St",
+          "opened": "1890",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 584 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between California St & Drumm St and California St & Kearny St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
         }
       ],
       "sources": [
@@ -7314,6 +7464,21 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "8"
         }
       ]
     },
@@ -7425,12 +7590,12 @@
         37.7762
       ],
       "fids": [
-        63,
-        64,
-        65,
-        66,
-        67,
-        68
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
       ],
       "segments": [
         {
@@ -7633,17 +7798,15 @@
       "mode_label": "Streetcar",
       "group": "streetcar",
       "era": "present",
-      "opened": null,
+      "opened": "1995-09-01",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 9.22,
+      "flags": [],
+      "undated": false,
+      "length_km": 9.12,
       "confidence_km": {
-        "surveyed": 9.22
+        "surveyed": 9.12
       },
       "bbox": [
         -122.4352,
@@ -7652,28 +7815,41 @@
         37.80862
       ],
       "fids": [
-        85,
-        86,
-        87,
-        88,
-        89,
-        90
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
       ],
       "segments": [
         {
-          "id": "muni-f-gtfs",
-          "name": "F Market & Wharves, as run in GTFS",
+          "id": "muni-f-market-st",
+          "name": "17th & Castro to Market & Drumm, on Market St",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 17th St & Castro St and Market St & Drumm St (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+        },
+        {
+          "id": "muni-f-embarcadero",
+          "name": "Market & Drumm to Fisherman's Wharf, on The Embarcadero",
+          "opened": "2000-03-04",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Beach St & Stockton St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [],
+          "notes": "Cut at Market & Drumm, the F's last stop on Market St; the block to Steuart St goes with the extension. Includes the loop at the wharf, on Jefferson, Jones and Beach Sts."
         }
       ],
       "sources": [
@@ -7692,6 +7868,47 @@
             "stations",
             "name",
             "operator"
+          ]
+        },
+        {
+          "id": "sfmta-historic-streetcars",
+          "title": "Historic streetcars",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/historic-streetcars",
+          "accessed": "2026-10-14",
+          "source": "sfmta-historic-streetcars",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"September 1, 1995, was the first day of service for the F Market historic streetcar line\""
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "80"
+        },
+        {
+          "id": "sfmta-archive-general-information",
+          "title": "Muni general information (archive)",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/geninfo.htm",
+          "accessed": "2026-10-14",
+          "source": "sfmta-archive-general-information",
+          "supports": [
+            "opened"
           ]
         }
       ]
@@ -7731,11 +7948,11 @@
         38.057994
       ],
       "fids": [
-        69,
-        70,
-        71,
-        72,
-        73
+        95,
+        96,
+        97,
+        98,
+        99
       ],
       "segments": [
         {
@@ -7797,36 +8014,115 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 85.46,
+      "length_km": 85.49,
       "confidence_km": {
-        "surveyed": 85.46
+        "surveyed": 85.49
       },
       "bbox": [
-        -122.4689,
+        -122.468874,
         37.36848,
         -121.87471,
         37.80994
       ],
       "fids": [
-        27,
-        28,
-        29
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
       ],
       "segments": [
         {
-          "id": "bart-green-gtfs",
-          "name": "Green line, as run in GTFS",
-          "opened": null,
+          "id": "bart-warm-springs-berryessa",
+          "name": "Warm Springs to Berryessa/North San José",
+          "opened": "2020-06-13",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 3 shapes run by 259 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Warm Springs South Fremont BART and Berryessa / North San Jose (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": [],
+          "notes": "BART's August 2020 timeline gives May 13, 2020, which VTA's page and BART's May 2020 announcement contradict."
+        },
+        {
+          "id": "bart-fremont-warm-springs",
+          "name": "Fremont to Warm Springs/South Fremont",
+          "opened": "2017-03-25",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Fremont and Warm Springs South Fremont BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-4",
+          "name": "MacArthur to Fremont, part 4 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-3",
+          "name": "MacArthur to Fremont, part 3 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-transbay-1",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 1 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-transbay-2",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 2 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-montgomery-daly-city",
+          "name": "Montgomery Street to Daly City",
+          "opened": "1973-11-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Montgomery BART and Daly City BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Ran as a shuttle on its own until the Transbay Tube opened (BART annual report 1974–75, p. 9)."
         }
       ],
       "sources": [
@@ -7846,6 +8142,105 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "vta-bart-silicon-valley",
+          "title": "VTA's BART Silicon Valley Extension Program",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "type": "official",
+          "url": "https://www.vta.org/projects/bart-sv",
+          "accessed": "2026-10-14",
+          "source": "vta-bart-silicon-valley",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\""
+        },
+        {
+          "id": "bart-warm-springs-opening",
+          "title": "Warm Springs / South Fremont Station Opening Celebration",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2017-03-24",
+          "type": "official",
+          "url": "https://www.bart.gov/node/25146",
+          "accessed": "2026-10-14",
+          "source": "bart-warm-springs-opening",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Service began Saturday, March 25th with the first train departing at 5:48 am.\""
+        },
+        {
+          "id": "bart-history-rescued",
+          "title": "A History of BART: The Project is Rescued",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/about/history/history3",
+          "accessed": "2026-10-14",
+          "source": "bart-history-rescued",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"BART opens with Fremont to Oakland service including 28 miles of tracks and 12 stations.\""
+        },
+        {
+          "id": "bart-annual-report-1973-74",
+          "title": "BART annual report 1973–74",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1973-74",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4",
+          "note": "\"Through transbay service between Daly City and Concord and between Daly City and Fremont began September 16, 1974.\""
+        },
+        {
+          "id": "bart-news-releases-1974",
+          "title": "BART news releases, 1974",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1974",
+          "supports": [
+            "opened"
+          ],
+          "pages": "141",
+          "note": "\"7½ miles, from the Oakland Wye through the transbay tube to San Francisco, remaining to be open\""
+        },
+        {
+          "id": "bart-news-releases-1973",
+          "title": "BART news releases, 1973",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1973",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1973",
+          "supports": [
+            "opened"
+          ],
+          "pages": "159",
+          "note": "\"Regular passenger service will begin on Monday November 5 at 6:00 A.M.\" November 3 was ceremonies and free rides."
         }
       ]
     },
@@ -7882,8 +8277,8 @@
         37.41132
       ],
       "fids": [
-        131,
-        132
+        204,
+        205
       ],
       "segments": [
         {
@@ -7955,7 +8350,7 @@
         37.79689
       ],
       "fids": [
-        110
+        183
       ],
       "segments": [
         {
@@ -8008,45 +8403,178 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1917-08-11",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 11.4,
+      "flags": [],
+      "undated": false,
+      "length_km": 11.37,
       "confidence_km": {
-        "surveyed": 11.4
+        "surveyed": 11.37
       },
       "bbox": [
         -122.44737,
-        37.72122,
-        -122.39171,
-        37.79442
+        37.72129,
+        -122.391511,
+        37.79443
       ],
       "fids": [
-        91,
-        92,
-        93,
-        94
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
       ],
       "segments": [
         {
-          "id": "muni-j-gtfs",
-          "name": "J Church, as run in GTFS",
-          "opened": null,
+          "id": "muni-metro-extension-1",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 1 of 4",
+          "opened": "1998-01",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
           "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1981-06-17",
+          "note": "Weekday Metro service in the subway from June 17, 1981 (Callwell p. 59).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and Van Ness (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-duboce-tunnel-1",
+          "name": "Van Ness to Duboce portal",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1981-06-17",
+          "note": "Weekday Metro service from June 17, 1981 (Callwell p. 59).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-duboce-tunnel-2",
+          "name": "Van Ness to the Duboce portal, part 2 of 2",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1981-06-17",
+          "note": "Weekday Metro service from June 17, 1981 (Callwell p. 59).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-duboce-ave",
+          "name": "Duboce Ave, the portal to Church St",
+          "opened": null,
+          "closed": null,
+          "from": "1981-06-17",
+          "note": "Weekday Metro service from June 17, 1981 (Callwell p. 59).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Duboce portal and Duboce Ave & Church St (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "Street track older than the subway; its date isn't sourced yet."
+        },
+        {
+          "id": "muni-j-undated-1",
+          "name": "J Church, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "muni-church-st",
+          "name": "Church St, Market St to 30th St",
+          "opened": "1917-08-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Church St & Market St and Church St & 30th St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-j-san-jose-ave-1",
+          "name": "30th St & Church St to Balboa Park, part 1 of 2",
+          "opened": "1991-08-31",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Church St & 30th St and Balboa Park (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Trips to and from the car house from August 31, 1991; full-time J service from June 19, 1993."
+        },
+        {
+          "id": "muni-j-san-jose-ave-2",
+          "name": "30th St & Church St to Balboa Park, part 2 of 2",
+          "opened": "1991-08-31",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Church St & 30th St and Balboa Park (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Trips to and from the car house from August 31, 1991; full-time J service from June 19, 1993."
+        },
+        {
+          "id": "muni-k-ocean-ave-2",
+          "name": "St. Francis Circle to Balboa Park, on Ocean Ave, part 2 of 2",
+          "opened": null,
+          "closed": null,
+          "from": "1991-08-31",
+          "note": "The J reached Balboa Park with its extension from 30th St, from August 31, 1991 (Callwell p. 70).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between St. Francis Circle and Balboa Park (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "United Railroads' track, older than the K; when the URR laid it is for the San Francisco streetcar records. No official date found for the K reaching Balboa Park."
         }
       ],
       "sources": [
@@ -8066,6 +8594,64 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "32"
+        },
+        {
+          "id": "sfmta-srtp-2006",
+          "title": "Short Range Transit Plan, fiscal years 2006–2025",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2005-12-06",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2006",
+          "supports": [
+            "opened"
+          ],
+          "pages": "89–90",
+          "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "accessed": "2026-10-14",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."
+        },
+        {
+          "id": "sfmta-muni-history",
+          "title": "Muni history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-muni-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The J Church streetcar line begins service on August 11, 1917\""
         }
       ]
     },
@@ -8083,44 +8669,174 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1918-02-03",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 13.44,
+      "flags": [],
+      "undated": false,
+      "length_km": 13.48,
       "confidence_km": {
-        "surveyed": 13.44
+        "surveyed": 13.48
       },
       "bbox": [
-        -122.47181,
+        -122.47185,
         37.72129,
-        -122.38952,
-        37.79442
+        -122.389429,
+        37.79443
       ],
       "fids": [
-        95,
-        96,
-        97
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
       ],
       "segments": [
         {
-          "id": "muni-k-gtfs",
-          "name": "K Ingleside, as run in GTFS",
+          "id": "muni-k-ocean-ave-2",
+          "name": "St. Francis Circle to Balboa Park, on Ocean Ave, part 2 of 2",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "from": "1919-02-21",
+          "note": "On Ocean Ave from February 21, 1919, over the URR's tracks (Callwell p. 35).",
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between St. Francis Circle and Balboa Park (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "United Railroads' track, older than the K; when the URR laid it is for the San Francisco streetcar records. No official date found for the K reaching Balboa Park."
+        },
+        {
+          "id": "muni-j-san-jose-ave-2",
+          "name": "30th St & Church St to Balboa Park, part 2 of 2",
+          "opened": "1991-08-31",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 620 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Church St & 30th St and Balboa Park (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Trips to and from the car house from August 31, 1991; full-time J service from June 19, 1993."
+        },
+        {
+          "id": "muni-k-ocean-ave-1",
+          "name": "St. Francis Circle to Balboa Park",
+          "opened": null,
+          "closed": null,
+          "from": "1919-02-21",
+          "note": "On Ocean Ave from February 21, 1919, over the URR's tracks (Callwell p. 35).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between St. Francis Circle and Balboa Park (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "United Railroads' track, older than the K; when the URR laid it is for the San Francisco streetcar records. No official date found for the K reaching Balboa Park."
+        },
+        {
+          "id": "muni-west-portal-st-francis-circle",
+          "name": "West Portal to St. Francis Circle",
+          "opened": "1918-02-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Portal and St. Francis Circle (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-twin-peaks-tunnel",
+          "name": "Twin Peaks Tunnel, Castro to West Portal",
+          "opened": "1918-02-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Castro and West Portal (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "The tunnel's east portal was at Market & Castro, where the Market St subway joined it in 1980."
+        },
+        {
+          "id": "muni-market-st-subway-west",
+          "name": "Market St subway, Van Ness to Castro",
+          "opened": "1980-06-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Castro (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-duboce-tunnel-1",
+          "name": "Van Ness to Duboce portal",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-06-11",
+          "note": "Weekday light rail service in the subway from June 11, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-06-11",
+          "note": "Weekday light rail service in the subway from June 11, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and Van Ness (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-metro-extension-1",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 1 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-2",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 2 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
         }
       ],
       "sources": [
@@ -8140,6 +8856,64 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "34"
+        },
+        {
+          "id": "sfmta-muni-history",
+          "title": "Muni history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-muni-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The Twin Peaks Tunnel opens in February 1918.\""
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "accessed": "2026-10-14",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."
+        },
+        {
+          "id": "sfmta-srtp-2006",
+          "title": "Short Range Transit Plan, fiscal years 2006–2025",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2005-12-06",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2006",
+          "supports": [
+            "opened"
+          ],
+          "pages": "89–90",
+          "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""
         }
       ]
     },
@@ -8157,44 +8931,165 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1919-04-12",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 13.6,
+      "flags": [],
+      "undated": false,
+      "length_km": 13.55,
       "confidence_km": {
-        "surveyed": 13.6
+        "surveyed": 13.55
       },
       "bbox": [
-        -122.50463,
-        37.73618,
-        -122.38961,
-        37.79442
+        -122.504616,
+        37.736184,
+        -122.389429,
+        37.79443
       ],
       "fids": [
-        98,
-        99,
-        100
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
       ],
       "segments": [
         {
-          "id": "muni-l-gtfs",
-          "name": "L Taraval, as run in GTFS",
+          "id": "muni-l-46th-ave-wawona",
+          "name": "Taraval St to Wawona St, on 46th Ave",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "from": "1937",
+          "note": "Extended to Wawona & 46th Ave in 1937 (Callwell p. 35).",
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 752 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
+          "method": "GTFS shapes.txt: 6 shapes run by 752 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Taraval St & 46th Ave and Wawona St & 46th Ave (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "The L reached Wawona & 46th Ave in 1937; whether the track was new then isn't stated."
+        },
+        {
+          "id": "muni-l-33rd-46th-ave",
+          "name": "33rd Ave to 46th Ave, on Taraval St",
+          "opened": null,
+          "closed": null,
+          "from": "1923",
+          "note": "Extended to 48th Ave in 1923 (Callwell p. 35).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 752 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Taraval St & 33rd Ave and Taraval St & 46th Ave (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The L reached 48th Ave in 1923; whether the track was new then isn't stated."
+        },
+        {
+          "id": "muni-l-west-portal-33rd-ave",
+          "name": "West Portal to 33rd Ave, on Taraval St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 752 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Portal and Taraval St & 33rd Ave (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Partly United Railroads' track (20th to 33rd Aves), older than the L. The 33rd Ave corner is today's street crossing (Overture roads, data/sources.json overture-roads-2026-09-23-1)."
+        },
+        {
+          "id": "muni-twin-peaks-tunnel",
+          "name": "Twin Peaks Tunnel, Castro to West Portal",
+          "opened": "1918-02-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Castro and West Portal (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "The tunnel's east portal was at Market & Castro, where the Market St subway joined it in 1980."
+        },
+        {
+          "id": "muni-market-st-subway-west",
+          "name": "Market St subway, Van Ness to Castro",
+          "opened": "1980-06-11",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Castro (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-duboce-tunnel-1",
+          "name": "Van Ness to Duboce portal",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and Van Ness (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-metro-extension-1",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 1 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-2",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 2 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
         }
       ],
       "sources": [
@@ -8214,6 +9109,77 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "35"
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The corner of Taraval St and 33rd Ave, where today's streets cross."
+        },
+        {
+          "id": "sfmta-muni-history",
+          "title": "Muni history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-muni-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The Twin Peaks Tunnel opens in February 1918.\""
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "accessed": "2026-10-14",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."
+        },
+        {
+          "id": "sfmta-srtp-2006",
+          "title": "Short Range Transit Plan, fiscal years 2006–2025",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2005-12-06",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2006",
+          "supports": [
+            "opened"
+          ],
+          "pages": "89–90",
+          "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""
         }
       ]
     },
@@ -8250,7 +9216,7 @@
         37.94473
       ],
       "fids": [
-        75
+        101
       ],
       "segments": [
         {
@@ -8303,17 +9269,15 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1925-10-06",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 17.17,
+      "flags": [],
+      "undated": false,
+      "length_km": 17.06,
       "confidence_km": {
-        "surveyed": 17.17
+        "surveyed": 17.06
       },
       "bbox": [
         -122.47524,
@@ -8322,25 +9286,149 @@
         37.79443
       ],
       "fids": [
-        101,
-        102,
-        103
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
       ],
       "segments": [
         {
-          "id": "muni-m-gtfs",
-          "name": "M Ocean View, as run in GTFS",
-          "opened": null,
+          "id": "muni-m-broad-st-geneva",
+          "name": "Broad St & Plymouth Ave to Geneva & San José Aves",
+          "opened": "1980-08-30",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 11 shapes run by 732 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 11 shapes run by 732 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Broad St & Plymouth Ave and San Jose Ave & Geneva Ave (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-m-st-francis-circle-broad-st",
+          "name": "St. Francis Circle to Broad St & Plymouth Ave",
+          "opened": "1925-10-06",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 732 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between St. Francis Circle and Broad St & Plymouth Ave (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": []
+        },
+        {
+          "id": "muni-west-portal-st-francis-circle",
+          "name": "West Portal to St. Francis Circle",
+          "opened": "1918-02-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Portal and St. Francis Circle (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-twin-peaks-tunnel",
+          "name": "Twin Peaks Tunnel, Castro to West Portal",
+          "opened": "1918-02-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Castro and West Portal (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "The tunnel's east portal was at Market & Castro, where the Market St subway joined it in 1980."
+        },
+        {
+          "id": "muni-market-st-subway-west",
+          "name": "Market St subway, Van Ness to Castro",
+          "opened": "1980-06-11",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 678 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Castro (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-duboce-tunnel-1",
+          "name": "Van Ness to Duboce portal",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "opened": "1980-02-18",
+          "closed": null,
+          "from": "1980-12-17",
+          "note": "Full weekday Metro service from December 17, 1980 (Callwell p. 58).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and Van Ness (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-metro-extension-1",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 1 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-2",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 2 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-3",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 3 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
         }
       ],
       "sources": [
@@ -8360,6 +9448,63 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "36"
+        },
+        {
+          "id": "sfmta-muni-history",
+          "title": "Muni history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-muni-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The Twin Peaks Tunnel opens in February 1918.\""
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "accessed": "2026-10-14",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."
+        },
+        {
+          "id": "sfmta-srtp-2006",
+          "title": "Short Range Transit Plan, fiscal years 2006–2025",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2005-12-06",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2006",
+          "supports": [
+            "opened"
+          ],
+          "pages": "89–90",
+          "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""
         }
       ]
     },
@@ -8377,45 +9522,171 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "1928-10-21",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 17.38,
+      "flags": [],
+      "undated": false,
+      "length_km": 17.29,
       "confidence_km": {
-        "surveyed": 17.38
+        "surveyed": 17.29
       },
       "bbox": [
-        -122.50853,
-        37.75284,
-        -122.38682,
+        -122.508182,
+        37.752615,
+        -122.387749,
         37.79443
       ],
       "fids": [
-        104,
-        105,
-        106,
-        107
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
       ],
       "segments": [
         {
-          "id": "muni-n-gtfs",
-          "name": "N Judah, as run in GTFS",
-          "opened": null,
+          "id": "muni-third-street-1",
+          "name": "4th & King to Sunnydale, on Third St, part 1 of 2",
+          "opened": "2007-04-07",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 4th St & King St and Sunnydale (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-metro-extension-3",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 3 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "from": "1998-08-22",
+          "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
           "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-2",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 2 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "from": "1998-08-22",
+          "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-metro-extension-1",
+          "name": "Muni Metro Extension, Embarcadero to 4th & King, part 1 of 4",
+          "opened": "1998-01",
+          "closed": null,
+          "from": "1998-08-22",
+          "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
+        },
+        {
+          "id": "muni-market-st-subway",
+          "name": "Market St subway, Embarcadero to Van Ness",
+          "opened": "1980-02-18",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and Van Ness (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "muni-duboce-tunnel-1",
+          "name": "Van Ness to Duboce portal",
+          "opened": "1980-02-18",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-duboce-tunnel-2",
+          "name": "Van Ness to the Duboce portal, part 2 of 2",
+          "opened": "1980-02-18",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Van Ness and Duboce portal (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "The portal is where today's tracks leave the tunnel on Duboce Ave (OpenStreetMap's tunnel tags, through Overture's rail segments)."
+        },
+        {
+          "id": "muni-duboce-ave",
+          "name": "Duboce Ave, the portal to Church St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Duboce portal and Duboce Ave & Church St (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "Street track older than the subway; its date isn't sourced yet."
+        },
+        {
+          "id": "muni-n-duboce-ocean-beach",
+          "name": "Duboce Ave and Church St to Ocean Beach, through the Sunset Tunnel",
+          "opened": "1928-10-21",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Duboce Ave & Church St and Judah St & La Playa St (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "muni-metro-extension-4",
+          "name": "4th St & King St to the end of the N's track on King St",
+          "opened": "1998-01",
+          "closed": null,
+          "from": "1998-08-22",
+          "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 11 shapes run by 816 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Embarcadero and the end of the N's track on King St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The E shuttle ran from January 1998; the N took over on August 22, 1998. The exact day in January isn't in an official source. Drawn to the end of the N's track on King St past 4th St (where its GTFS shape ends), taken to be part of the extension."
         }
       ],
       "sources": [
@@ -8435,6 +9706,66 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "37"
+        },
+        {
+          "id": "sfmta-srtp-2008-third-street",
+          "title": "Short Range Transit Plan FY2008, chapter 3: Third Street light rail",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2008-01",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2008-third-street",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4",
+          "note": "\"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
+        },
+        {
+          "id": "sfmta-srtp-2006",
+          "title": "Short Range Transit Plan, fiscal years 2006–2025",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2005-12-06",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2006",
+          "supports": [
+            "opened"
+          ],
+          "pages": "89–90",
+          "note": "\"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot.\""
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "accessed": "2026-10-14",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The Duboce portal: where the tunnel flags of Overture's two light rail tracks on Duboce Ave end."
         }
       ]
     },
@@ -8471,8 +9802,8 @@
         37.79853
       ],
       "fids": [
-        111,
-        112
+        184,
+        185
       ],
       "segments": [
         {
@@ -8533,34 +9864,31 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 5.14,
+      "length_km": 5.13,
       "confidence_km": {
-        "surveyed": 5.14
+        "surveyed": 5.13
       },
       "bbox": [
-        -122.21223,
-        37.71325,
+        -122.212217,
+        37.713264,
         -122.19578,
         37.75358
       ],
       "fids": [
-        30
+        40
       ],
       "segments": [
         {
-          "id": "bart-oakland-airport-gtfs",
-          "name": "Oakland Airport line, as run in GTFS",
-          "opened": null,
+          "id": "bart-oakland-airport-connector",
+          "name": "Coliseum to Oakland Airport",
+          "opened": "2014-11-22",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 1032 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "method": "GTFS shapes.txt: 2 shapes run by 1032 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Oakland Coliseum BART and OAK (data/present/extensions.json)",
+          "structure": "elevated",
+          "flags": []
         }
       ],
       "sources": [
@@ -8580,6 +9908,34 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "alameda-ctc-oakland-airport-connector",
+          "title": "BART Oakland Airport Connector now open",
+          "publisher": "Alameda County Transportation Commission",
+          "date": "2014-11",
+          "type": "official",
+          "url": "https://www.alamedactc.org/bart-oakland-airport-connector-now-open",
+          "accessed": "2026-10-14",
+          "source": "alameda-ctc-oakland-airport-connector",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"began service Saturday, November 22, 2014\""
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"First day of service for BART to OAK.\""
         }
       ]
     },
@@ -8616,7 +9972,7 @@
         37.79417
       ],
       "fids": [
-        113
+        186
       ],
       "segments": [
         {
@@ -8688,23 +10044,112 @@
         37.93674
       ],
       "fids": [
-        31
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
       ],
       "segments": [
         {
-          "id": "bart-orange-gtfs",
-          "name": "Orange line, as run in GTFS",
-          "opened": null,
+          "id": "bart-warm-springs-berryessa",
+          "name": "Warm Springs to Berryessa/North San José",
+          "opened": "2020-06-13",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Warm Springs South Fremont BART and Berryessa / North San Jose (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": [],
+          "notes": "BART's August 2020 timeline gives May 13, 2020, which VTA's page and BART's May 2020 announcement contradict."
+        },
+        {
+          "id": "bart-fremont-warm-springs",
+          "name": "Fremont to Warm Springs/South Fremont",
+          "opened": "2017-03-25",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Fremont and Warm Springs South Fremont BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-4",
+          "name": "MacArthur to Fremont, part 4 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-3",
+          "name": "MacArthur to Fremont, part 3 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-2",
+          "name": "MacArthur to Fremont, part 2 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-1",
+          "name": "MacArthur to Fremont, part 1 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-richmond-1",
+          "name": "MacArthur to Richmond, part 1 of 2",
+          "opened": "1973-01-29",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Richmond BART/Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-richmond-2",
+          "name": "MacArthur to Richmond, part 2 of 2",
+          "opened": "1973-01-29",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Richmond BART/Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
         }
       ],
       "sources": [
@@ -8724,6 +10169,75 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "vta-bart-silicon-valley",
+          "title": "VTA's BART Silicon Valley Extension Program",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "type": "official",
+          "url": "https://www.vta.org/projects/bart-sv",
+          "accessed": "2026-10-14",
+          "source": "vta-bart-silicon-valley",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\""
+        },
+        {
+          "id": "bart-warm-springs-opening",
+          "title": "Warm Springs / South Fremont Station Opening Celebration",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2017-03-24",
+          "type": "official",
+          "url": "https://www.bart.gov/node/25146",
+          "accessed": "2026-10-14",
+          "source": "bart-warm-springs-opening",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Service began Saturday, March 25th with the first train departing at 5:48 am.\""
+        },
+        {
+          "id": "bart-history-rescued",
+          "title": "A History of BART: The Project is Rescued",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/about/history/history3",
+          "accessed": "2026-10-14",
+          "source": "bart-history-rescued",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"BART opens with Fremont to Oakland service including 28 miles of tracks and 12 stations.\""
+        },
+        {
+          "id": "bart-news-releases-1973",
+          "title": "BART news releases, 1973",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1973",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1973",
+          "supports": [
+            "opened"
+          ],
+          "pages": "33",
+          "note": "\"Monday, January 29, at 11 a.m., the Bay Area Rapid Transit District will begin passenger service between Oakland and Richmond\" / \"The Richmond line extends eleven miles north of the present terminus at the MacArthur station\""
         }
       ]
     },
@@ -8760,9 +10274,9 @@
         37.41578
       ],
       "fids": [
-        133,
-        134,
-        135
+        206,
+        207,
+        208
       ],
       "segments": [
         {
@@ -8815,43 +10329,86 @@
       "mode_label": "Cable car",
       "group": "cable",
       "era": "present",
-      "opened": null,
+      "opened": "1957-04-07",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 4.17,
+      "notes": "Service stopped for the system's rebuild from September 1982 to June 1984.",
+      "flags": [],
+      "undated": false,
+      "length_km": 4.16,
       "confidence_km": {
-        "surveyed": 4.17
+        "surveyed": 4.16
       },
       "bbox": [
-        -122.42057,
-        37.78441,
-        -122.40765,
-        37.80666
+        -122.420565,
+        37.784696,
+        -122.407708,
+        37.806637
       ],
       "fids": [
-        82,
-        83
+        109,
+        110,
+        111,
+        112,
+        113,
+        114
       ],
       "segments": [
         {
-          "id": "muni-cable-powell-hyde-gtfs",
-          "name": "Powell-Hyde cable car, as run in GTFS",
-          "opened": null,
+          "id": "muni-cable-hyde-st",
+          "name": "Hyde St cable, Jackson St to Beach St",
+          "opened": "1891-02-09",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
+          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Hyde St & Jackson St and Hyde St & Beach St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-cable-mason-taylor-1",
+          "name": "Powell-Mason cable, Jackson St to Bay St, part 1 of 2",
+          "opened": "1888",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
-            "opened_unsourced"
+            "conflicting_sources"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
+        },
+        {
+          "id": "muni-cable-washington-jackson",
+          "name": "Washington and Jackson Sts cable, Powell St to Hyde St",
+          "opened": "1888-04-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 900 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Hyde St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [],
+          "notes": "Westbound on Jackson St, eastbound on Washington St. The block of Hyde St between them belongs to the 1891 Hyde St line but is drawn with this stretch."
+        },
+        {
+          "id": "muni-cable-powell-st",
+          "name": "Powell St cable, Market St to Jackson St",
+          "opened": "1888-03",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Market St and Powell St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
         }
       ],
       "sources": [
@@ -8871,6 +10428,36 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "49",
+          "note": "\"First day of service on the new Powell-Hyde line, made up of sections of the old Washington-Jackson and O'Farrell, Jones and Hyde lines.\""
+        },
+        {
+          "id": "sfmta-blog-powell-mason-130",
+          "title": "130 years and counting on the Powell/Mason cable car line",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2018-04-05",
+          "type": "official",
+          "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
+          "accessed": "2026-10-14",
+          "source": "sfmta-blog-powell-mason-130",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The full Powell-Mason Line opened in early March 1888\""
         }
       ]
     },
@@ -8888,42 +10475,76 @@
       "mode_label": "Cable car",
       "group": "cable",
       "era": "present",
-      "opened": null,
+      "opened": "1888",
       "closed": null,
       "status": "active",
       "status_label": "In service",
+      "notes": "Callwell gives March 28, 1888 for the first Powell St service, with full service a few days later; SFMTA's 2018 blog says early March. Only the year is certain. Service stopped for the system's rebuild from September 1982 to June 1984.",
       "flags": [
-        "opened_unsourced"
+        "conflicting_sources"
       ],
-      "undated": true,
-      "length_km": 2.59,
+      "undated": false,
+      "length_km": 2.55,
       "confidence_km": {
-        "surveyed": 2.59
+        "surveyed": 2.55
       },
       "bbox": [
-        -122.41525,
-        37.78441,
-        -122.40765,
-        37.80536
+        -122.415223,
+        37.784696,
+        -122.407708,
+        37.805226
       ],
       "fids": [
-        84
+        115,
+        116,
+        117,
+        118
       ],
       "segments": [
         {
-          "id": "muni-cable-powell-mason-gtfs",
-          "name": "Powell-Mason cable car, as run in GTFS",
-          "opened": null,
+          "id": "muni-cable-powell-st",
+          "name": "Powell St cable, Market St to Jackson St",
+          "opened": "1888-03",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Market St and Powell St & Jackson St (data/present/extensions.json)",
+          "structure": "street",
           "flags": [
-            "opened_unsourced"
+            "conflicting_sources"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "Callwell gives March 28, 1888; SFMTA's 2018 blog says early March 1888. Both agree on the month, so the month is given."
+        },
+        {
+          "id": "muni-cable-mason-taylor-1",
+          "name": "Powell-Mason cable, Jackson St to Bay St, part 1 of 2",
+          "opened": "1888",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
+        },
+        {
+          "id": "muni-cable-mason-taylor-2",
+          "name": "Powell-Mason cable, Jackson St to Bay St, part 2 of 2",
+          "opened": "1888",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 744 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Powell St & Jackson St and Taylor St & Bay St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Callwell puts full Powell-Mason service a few days after March 28, 1888; SFMTA's 2018 blog says early March. Only the year is certain."
         }
       ],
       "sources": [
@@ -8942,6 +10563,34 @@
             "stations",
             "name",
             "operator"
+          ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "12"
+        },
+        {
+          "id": "sfmta-blog-powell-mason-130",
+          "title": "130 years and counting on the Powell/Mason cable car line",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2018-04-05",
+          "type": "official",
+          "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
+          "accessed": "2026-10-14",
+          "source": "sfmta-blog-powell-mason-130",
+          "supports": [
+            "opened"
           ]
         }
       ]
@@ -8981,7 +10630,7 @@
         37.361934
       ],
       "fids": [
-        62
+        88
       ],
       "segments": [
         {
@@ -9068,46 +10717,168 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 59.88,
+      "length_km": 59.44,
       "confidence_km": {
-        "surveyed": 59.88
+        "surveyed": 59.44
       },
       "bbox": [
         -122.47109,
         37.60027,
-        -122.26627,
+        -122.26626,
         37.93674
       ],
       "fids": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
       ],
       "segments": [
         {
-          "id": "bart-red-gtfs",
-          "name": "Red line, as run in GTFS",
-          "opened": null,
+          "id": "bart-san-bruno-sfo",
+          "name": "San Bruno to SFO",
+          "opened": "2003-06-22",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno and SFO (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": []
+        },
+        {
+          "id": "bart-colma-san-bruno",
+          "name": "Colma to San Bruno",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Colma and San Bruno (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-daly-city-colma",
+          "name": "Daly City to Colma",
+          "opened": "1996-02-24",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Daly City BART and Colma (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-montgomery-daly-city",
+          "name": "Montgomery Street to Daly City",
+          "opened": "1973-11-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Montgomery BART and Daly City BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Ran as a shuttle on its own until the Transbay Tube opened (BART annual report 1974–75, p. 9)."
+        },
+        {
+          "id": "bart-transbay-2",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 2 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-oakland-wye-north",
+          "name": "Oakland Wye, 12th Street to West Oakland",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 12th St Oakland City Center BART and West Oakland (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-1",
+          "name": "MacArthur to Fremont, part 1 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-richmond-1",
+          "name": "MacArthur to Richmond, part 1 of 2",
+          "opened": "1973-01-29",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Richmond BART/Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-richmond-2",
+          "name": "MacArthur to Richmond, part 2 of 2",
+          "opened": "1973-01-29",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Richmond BART/Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-san-bruno-millbrae-2",
+          "name": "San Bruno to Millbrae, part 2 of 2",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno and Millbrae BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-sfo-millbrae",
+          "name": "SFO to Millbrae",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SFO and Millbrae BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
         }
       ],
       "sources": [
@@ -9127,6 +10898,138 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "bart-annual-report-2003",
+          "title": "BART annual report 2003",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2003",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%202003%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-2003",
+          "supports": [
+            "opened"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "bart-sfo-extension-2003",
+          "title": "Making the Bay Connection: BART–SFO Extension",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2003",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/2002-2003%20Making%20the%20Bay%20Connection%20BART%20SFO%20Project.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-sfo-extension-2003",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1",
+          "note": "\"An additional 1.2 miles of track have been constructed off the main line to serve the airport from both the north and south.\""
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Colma Station and SamTrans Transit Center open with a community celebration.\""
+        },
+        {
+          "id": "bart-report-to-congress-1997",
+          "title": "BART report to Congress, 1997",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1997",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1997%20BART%20Report%20to%20Congress.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-report-to-congress-1997",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "\"opened its doors to the public in February 1996.\""
+        },
+        {
+          "id": "bart-annual-report-1973-74",
+          "title": "BART annual report 1973–74",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1973-74",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4",
+          "note": "\"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\""
+        },
+        {
+          "id": "bart-news-releases-1973",
+          "title": "BART news releases, 1973",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1973",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1973",
+          "supports": [
+            "opened"
+          ],
+          "pages": "159",
+          "note": "\"Regular passenger service will begin on Monday November 5 at 6:00 A.M.\" November 3 was ceremonies and free rides."
+        },
+        {
+          "id": "bart-news-releases-1974",
+          "title": "BART news releases, 1974",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1974",
+          "supports": [
+            "opened"
+          ],
+          "pages": "141",
+          "note": "\"7½ miles, from the Oakland Wye through the transbay tube to San Francisco, remaining to be open\""
+        },
+        {
+          "id": "bart-annual-report-1974-75",
+          "title": "BART annual report 1974–75",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1975",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201974-1975%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1974-75",
+          "supports": [
+            "opened"
+          ],
+          "pages": "9",
+          "note": "\"All 71 miles of rapid transit line were in regular passenger service on September 16, 1974\""
+        },
+        {
+          "id": "bart-history-rescued",
+          "title": "A History of BART: The Project is Rescued",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/about/history/history3",
+          "accessed": "2026-10-14",
+          "source": "bart-history-rescued",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""
         }
       ]
     },
@@ -9163,8 +11066,8 @@
         37.90948
       ],
       "fids": [
-        114,
-        115
+        187,
+        188
       ],
       "segments": [
         {
@@ -9236,13 +11139,13 @@
         37.63509
       ],
       "fids": [
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
       ],
       "segments": [
         {
@@ -9314,7 +11217,7 @@
         38.54912
       ],
       "fids": [
-        127
+        200
       ],
       "segments": [
         {
@@ -9386,8 +11289,8 @@
         37.85629
       ],
       "fids": [
-        76,
-        77
+        102,
+        103
       ],
       "segments": [
         {
@@ -9459,8 +11362,8 @@
         37.80034
       ],
       "fids": [
-        116,
-        117
+        189,
+        190
       ],
       "segments": [
         {
@@ -9513,42 +11416,65 @@
       "mode_label": "Light rail",
       "group": "light_rail",
       "era": "present",
-      "opened": null,
+      "opened": "2007-04-07",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
-      "length_km": 10.65,
+      "flags": [],
+      "undated": false,
+      "length_km": 10.61,
       "confidence_km": {
-        "surveyed": 10.65
+        "surveyed": 10.61
       },
       "bbox": [
-        -122.40809,
-        37.70886,
+        -122.408064,
+        37.708951,
         -122.38714,
-        37.79494
+        37.794812
       ],
       "fids": [
-        108
+        178,
+        179,
+        180,
+        181
       ],
       "segments": [
         {
-          "id": "muni-t-gtfs",
-          "name": "T Third, as run in GTFS",
-          "opened": null,
+          "id": "muni-third-street-2",
+          "name": "4th & King to Sunnydale, on Third St, part 2 of 2",
+          "opened": "2007-04-07",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
-          "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 4th St & King St and Sunnydale (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-third-street-1",
+          "name": "4th & King to Sunnydale, on Third St, part 1 of 2",
+          "opened": "2007-04-07",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 4th St & King St and Sunnydale (data/present/extensions.json)",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "muni-central-subway",
+          "name": "Central Subway, 4th & King to Chinatown",
+          "opened": "2023-01-07",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 822 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 4th St & King St and Chinatown–Rose Pak (data/present/extensions.json)",
+          "structure": "subway",
+          "flags": [],
+          "notes": "Runs on 4th St from King St to the portal north of Brannan St. SFMTA announced special weekend service from November 19, 2022; only the January 2023 start is confirmed after the fact."
         }
       ],
       "sources": [
@@ -9568,6 +11494,33 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "sfmta-srtp-2008-third-street",
+          "title": "Short Range Transit Plan FY2008, chapter 3: Third Street light rail",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2008-01",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-srtp-2008-third-street",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4"
+        },
+        {
+          "id": "sfmta-central-subway-project",
+          "title": "Central Subway Project",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/projects/central-subway-project",
+          "accessed": "2026-10-14",
+          "source": "sfmta-central-subway-project",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The new T Third line from Chinatown Rose-Pak to Sunnydale started on January 7, 2023.\""
         }
       ]
     },
@@ -9676,8 +11629,8 @@
         37.87273
       ],
       "fids": [
-        78,
-        79
+        104,
+        105
       ],
       "segments": [
         {
@@ -9749,7 +11702,7 @@
         37.81667
       ],
       "fids": [
-        128
+        201
       ],
       "segments": [
         {
@@ -9821,7 +11774,7 @@
         37.87273
       ],
       "fids": [
-        80
+        106
       ],
       "segments": [
         {
@@ -9893,8 +11846,8 @@
         38.10147
       ],
       "fids": [
-        118,
-        119
+        191,
+        192
       ],
       "segments": [
         {
@@ -9955,47 +11908,221 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 100.34,
+      "length_km": 99.88,
       "confidence_km": {
-        "surveyed": 100.34
+        "surveyed": 99.88
       },
       "bbox": [
-        -122.4711,
+        -122.47109,
         37.60027,
         -121.78043,
         38.02385
       ],
       "fids": [
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
       ],
       "segments": [
         {
-          "id": "bart-yellow-gtfs",
-          "name": "Yellow line, as run in GTFS",
-          "opened": null,
+          "id": "bart-san-bruno-millbrae-1",
+          "name": "San Bruno to Millbrae, part 1 of 2",
+          "opened": "2003-06-22",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno and Millbrae BART (data/present/extensions.json)",
           "structure": null,
-          "flags": [
-            "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "flags": []
+        },
+        {
+          "id": "bart-sfo-millbrae",
+          "name": "SFO to Millbrae",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SFO and Millbrae BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-san-bruno-millbrae-2",
+          "name": "San Bruno to Millbrae, part 2 of 2",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno and Millbrae BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-san-bruno-sfo",
+          "name": "San Bruno to SFO",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Bruno and SFO (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-colma-san-bruno",
+          "name": "Colma to San Bruno",
+          "opened": "2003-06-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Colma and San Bruno (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-daly-city-colma",
+          "name": "Daly City to Colma",
+          "opened": "1996-02-24",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Daly City BART and Colma (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-montgomery-daly-city",
+          "name": "Montgomery Street to Daly City",
+          "opened": "1973-11-05",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Montgomery BART and Daly City BART (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Ran as a shuttle on its own until the Transbay Tube opened (BART annual report 1974–75, p. 9)."
+        },
+        {
+          "id": "bart-transbay-2",
+          "name": "Oakland Wye to Montgomery Street, through the Transbay Tube, part 2 of 2",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 542 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Lake Merritt and Montgomery BART (data/present/extensions.json)",
+          "structure": "tunnel",
+          "flags": [],
+          "notes": "Cut from Lake Merritt; the stretch from Lake Merritt to the wye opened in 1972 and stays with MacArthur to Fremont. Embarcadero station opened later, on May 27, 1976."
+        },
+        {
+          "id": "bart-oakland-wye-north",
+          "name": "Oakland Wye, 12th Street to West Oakland",
+          "opened": "1974-09-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 402 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 12th St Oakland City Center BART and West Oakland (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-fremont-1",
+          "name": "MacArthur to Fremont, part 1 of 4",
+          "opened": "1972-09-11",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-richmond-1",
+          "name": "MacArthur to Richmond, part 1 of 2",
+          "opened": "1973-01-29",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 4 shapes run by 769 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Richmond BART/Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-macarthur-concord",
+          "name": "MacArthur to Concord",
+          "opened": "1973-05-21",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between MacArthur BART and Concord (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-concord-north-concord",
+          "name": "Concord to North Concord/Martinez",
+          "opened": "1995-12-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Concord and North Concord / Martinez (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-north-concord-pittsburg-bay-point",
+          "name": "North Concord/Martinez to Pittsburg/Bay Point",
+          "opened": "1996-12-07",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between North Concord / Martinez and Pittsburg / Bay Point (data/present/extensions.json)",
+          "structure": null,
+          "flags": []
+        },
+        {
+          "id": "bart-pittsburg-bay-point-antioch",
+          "name": "Pittsburg/Bay Point to Antioch (eBART)",
+          "opened": "2018-05-26",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 9 shapes run by 757 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Pittsburg / Bay Point and Antioch (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Diesel trains from a transfer platform just east of Pittsburg/Bay Point."
         }
       ],
       "sources": [
@@ -10015,6 +12142,150 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "id": "bart-annual-report-2003",
+          "title": "BART annual report 2003",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2003",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%202003%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-2003",
+          "supports": [
+            "opened"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "bart-sfo-extension-2003",
+          "title": "Making the Bay Connection: BART–SFO Extension",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2003",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/2002-2003%20Making%20the%20Bay%20Connection%20BART%20SFO%20Project.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-sfo-extension-2003",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "bart-timeline-2020",
+          "title": "BART Historical Timeline",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "2020-08",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-timeline-2020",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Colma Station and SamTrans Transit Center open with a community celebration.\""
+        },
+        {
+          "id": "bart-report-to-congress-1997",
+          "title": "BART report to Congress, 1997",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1997",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1997%20BART%20Report%20to%20Congress.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-report-to-congress-1997",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "\"opened its doors to the public in February 1996.\""
+        },
+        {
+          "id": "bart-annual-report-1973-74",
+          "title": "BART annual report 1973–74",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1973-74",
+          "supports": [
+            "opened"
+          ],
+          "pages": "4",
+          "note": "\"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\""
+        },
+        {
+          "id": "bart-news-releases-1973",
+          "title": "BART news releases, 1973",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1973",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1973",
+          "supports": [
+            "opened"
+          ],
+          "pages": "159",
+          "note": "\"Regular passenger service will begin on Monday November 5 at 6:00 A.M.\" November 3 was ceremonies and free rides."
+        },
+        {
+          "id": "bart-news-releases-1974",
+          "title": "BART news releases, 1974",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1974",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-news-releases-1974",
+          "supports": [
+            "opened"
+          ],
+          "pages": "141",
+          "note": "\"7½ miles, from the Oakland Wye through the transbay tube to San Francisco, remaining to be open\""
+        },
+        {
+          "id": "bart-annual-report-1974-75",
+          "title": "BART annual report 1974–75",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "date": "1975",
+          "type": "official",
+          "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201974-1975%20Annual%20Report.pdf",
+          "accessed": "2026-10-14",
+          "source": "bart-annual-report-1974-75",
+          "supports": [
+            "opened"
+          ],
+          "pages": "9",
+          "note": "\"All 71 miles of rapid transit line were in regular passenger service on September 16, 1974\""
+        },
+        {
+          "id": "bart-history-rescued",
+          "title": "A History of BART: The Project is Rescued",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/about/history/history3",
+          "accessed": "2026-10-14",
+          "source": "bart-history-rescued",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\""
+        },
+        {
+          "id": "bart-ecc-faq",
+          "title": "East Contra Costa BART Extension FAQ",
+          "publisher": "San Francisco Bay Area Rapid Transit District",
+          "type": "official",
+          "url": "https://www.bart.gov/node/28021",
+          "accessed": "2026-10-14",
+          "source": "bart-ecc-faq",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Revenue service began on Saturday, May 26, 2018.\""
         }
       ]
     }

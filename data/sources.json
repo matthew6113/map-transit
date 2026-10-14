@@ -1,6 +1,16 @@
 {
   "sources": [
     {
+      "id": "alameda-ctc-oakland-airport-connector",
+      "title": "BART Oakland Airport Connector now open",
+      "publisher": "Alameda County Transportation Commission",
+      "date": "2014-11",
+      "type": "official",
+      "url": "https://www.alamedactc.org/bart-oakland-airport-connector-now-open",
+      "accessed": "2026-10-14",
+      "notes": "\"began service Saturday, November 22, 2014\": the people mover from Coliseum station to Oakland International Airport."
+    },
+    {
       "id": "bam-bart-silicon-valley-phase-2-geometry",
       "title": "VTA GIS alignment",
       "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
@@ -831,6 +841,133 @@
       "notes": "Cited by BAM's valley-link record."
     },
     {
+      "id": "bart-annual-report-1973-74",
+      "title": "BART annual report 1973–74",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1974",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 4: \"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\" / \"Through transbay service between Daly City and Concord and between Daly City and Fremont began September 16, 1974.\""
+    },
+    {
+      "id": "bart-annual-report-1974-75",
+      "title": "BART annual report 1974–75",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1975",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201974-1975%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 9: \"All 71 miles of rapid transit line were in regular passenger service on September 16, 1974\"; before that, a shuttle ran between Montgomery Street and Daly City."
+    },
+    {
+      "id": "bart-annual-report-2003",
+      "title": "BART annual report 2003",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2003",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%202003%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 8: \"The San Francisco International Airport Extension started its revenue operations on June 22, 2003.\""
+    },
+    {
+      "id": "bart-chronology-1947-1991",
+      "title": "BART chronology, 1947–1991",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1947-1991%20BART%20Chronology.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 8: Embarcadero Station \"officially opened for revenue service\" on May 27, 1976."
+    },
+    {
+      "id": "bart-ecc-faq",
+      "title": "East Contra Costa BART Extension FAQ",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/node/28021",
+      "accessed": "2026-10-14",
+      "notes": "\"Revenue service began on Saturday, May 26, 2018.\" The line has two stations and meets the rest of BART at \"a Transfer Platform just east of the Pittsburg Bay Point Station.\""
+    },
+    {
+      "id": "bart-history-rescued",
+      "title": "A History of BART: The Project is Rescued",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/about/history/history3",
+      "accessed": "2026-10-14",
+      "notes": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\" (1972)"
+    },
+    {
+      "id": "bart-news-releases-1973",
+      "title": "BART news releases, 1973",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1973",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+      "accessed": "2026-10-14",
+      "notes": "A scanned PDF in BART's 50-years archive; PDF pages cited. p. 33: Richmond service from January 29; pp. 64 and 134: Concord service from May 21; p. 159: San Francisco regular service from Monday, November 5 (November 3 was ceremonies and free rides; p. 171 says service was 'initiated' November 3)."
+    },
+    {
+      "id": "bart-news-releases-1974",
+      "title": "BART news releases, 1974",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1974",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+      "accessed": "2026-10-14",
+      "notes": "A scanned PDF; p. 141: 7½ miles 'from the Oakland Wye through the transbay tube to San Francisco' remaining to open; only Oakland West and Embarcadero stations still to open, and Embarcadero to be bypassed until completed."
+    },
+    {
+      "id": "bart-report-to-congress-1997",
+      "title": "BART report to Congress, 1997",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1997",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1997%20BART%20Report%20to%20Congress.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 5: North Concord/Martinez (December 1995) and Colma (\"opened its doors to the public in February 1996\"); p. 26: \"the December 7, 1996 opening of the new Pittsburg/Bay Point Station\" and the Dublin/Pleasanton line, which meets the main line at Bay Fair."
+    },
+    {
+      "id": "bart-sfo-extension-2003",
+      "title": "Making the Bay Connection: BART–SFO Extension",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2003",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/2002-2003%20Making%20the%20Bay%20Connection%20BART%20SFO%20Project.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 1: \"An additional 1.2 miles of track have been constructed off the main line to serve the airport from both the north and south.\" The track layout of the wye comes from GTFS, not from this text."
+    },
+    {
+      "id": "bart-timeline-2020",
+      "title": "BART Historical Timeline",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2020-08",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+      "accessed": "2026-10-14",
+      "notes": "August 2020. A scanned PDF; quotes are from its machine-read text. It gives May 13, 2020 for Milpitas and Berryessa, which is wrong: VTA and BART's own May 2020 announcement give June 13, 2020."
+    },
+    {
+      "id": "bart-warm-springs-opening",
+      "title": "Warm Springs / South Fremont Station Opening Celebration",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2017-03-24",
+      "type": "official",
+      "url": "https://www.bart.gov/node/25146",
+      "accessed": "2026-10-14",
+      "notes": "\"Service began Saturday, March 25th with the first train departing at 5:48 am.\" The page is dated March 24, 2017; the extension runs 5.4 miles from Fremont."
+    },
+    {
+      "id": "bart-west-dublin-pleasanton",
+      "title": "West Dublin/Pleasanton station",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2011-01",
+      "type": "official",
+      "url": "https://bart.gov/node/12784",
+      "accessed": "2026-10-14",
+      "notes": "An article from before the opening (January 2011): \"Opening day: February 19, 2011.\" BART's facts page (https://www.bart.gov/about/history/facts) gives 2011 after the fact."
+    },
+    {
       "id": "brt-actransit-tempo",
       "title": "AC Transit press release on Tempo's launch",
       "publisher": "AC Transit",
@@ -1294,13 +1431,23 @@
       "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
     },
     {
+      "id": "overture-rail-2026-09-23-1",
+      "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "accessed": "2026-10-14",
+      "notes": "Rail segments read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/ (subtype rail). Used for one point: Muni's Duboce portal, where the is_tunnel flags of the two light rail tracks on Duboce Ave end (segments 28645d0a-2e68-4de3-82be-07af13eade31 and 03b66fb9-1ce4-48c6-bd2b-e7abe00a2e5d), at -122.42719, 37.76957."
+    },
+    {
       "id": "overture-roads-2026-09-23-1",
       "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
       "publisher": "Overture Maps Foundation",
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in (-122.36, 37.7, -122.15, 37.93), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -1434,6 +1581,92 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-14",
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sfmta-archive-general-information",
+      "title": "Muni general information (archive)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rhome/geninfo.htm",
+      "accessed": "2026-10-14",
+      "notes": "\"An extension of the F line on The Embarcadero to Fisherman's Wharf began service on March 4, 2000.\""
+    },
+    {
+      "id": "sfmta-blog-powell-mason-130",
+      "title": "130 years and counting on the Powell/Mason cable car line",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2018-04-05",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
+      "accessed": "2026-10-14",
+      "notes": "April 5, 2018: \"The full Powell-Mason Line opened in early March 1888, after a short trial run in February\"; \"One month later on April 5th, the East-West running Washington and Jackson Line (which partly survives today as a segment of the Powell-Hyde Line) opened.\" Callwell gives March 28, 1888 for the first Powell St service."
+    },
+    {
+      "id": "sfmta-cable-car-history",
+      "title": "Cable car history",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+      "accessed": "2026-10-14",
+      "notes": "The Clay Street Hill Railroad began public service on September 1, 1873; the system was rebuilt from September 1982 to June 1984."
+    },
+    {
+      "id": "sfmta-callwell-chronology",
+      "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+      "author": "Robert Callwell",
+      "publisher": "San Francisco Municipal Railway, Communications Department",
+      "date": "1999-09",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Muni's own chronology, September 1999, hosted on SFMTA's archive. Cited by the PDF's page numbers. Gives opening days of the streetcar and Metro lines, the Twin Peaks and Sunset tunnels, the Market Street subway, the cable car lines, and the F line (1995)."
+    },
+    {
+      "id": "sfmta-central-subway-project",
+      "title": "Central Subway Project",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/central-subway-project",
+      "accessed": "2026-10-14",
+      "notes": "\"The new T Third line from Chinatown Rose-Pak to Sunnydale started on January 7, 2023.\" The T no longer runs on King St, the Embarcadero or Market St. Special weekend service from November 19, 2022 appears only in an announcement made before it."
+    },
+    {
+      "id": "sfmta-historic-streetcars",
+      "title": "Historic streetcars",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/historic-streetcars",
+      "accessed": "2026-10-14",
+      "notes": "\"September 1, 1995, was the first day of service for the F Market historic streetcar line\"; the extension along The Embarcadero to Fisherman's Wharf began March 4, 2000."
+    },
+    {
+      "id": "sfmta-muni-history",
+      "title": "Muni history",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+      "accessed": "2026-10-14",
+      "notes": "SFMTA's history page: J Church began August 11, 1917; the Twin Peaks Tunnel opened February 1918; the E ran 4th & King to the wharves from August 2015."
+    },
+    {
+      "id": "sfmta-srtp-2006",
+      "title": "Short Range Transit Plan, fiscal years 2006–2025",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2005-12-06",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+      "accessed": "2026-10-14",
+      "notes": "December 6, 2005. pp. 89–90: \"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot. Muni extended POP on August 22, 1998 to include… the entire N-Judah line, which replaced the E-Embarcadero shuttle.\" The exact day in January 1998 isn't in an official source."
+    },
+    {
+      "id": "sfmta-srtp-2008-third-street",
+      "title": "Short Range Transit Plan FY2008, chapter 3: Third Street light rail",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2008-01",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 4: \"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
     },
     {
       "id": "srj-1904-02-13-key-route-1",
@@ -1587,6 +1820,15 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
+    },
+    {
+      "id": "vta-bart-silicon-valley",
+      "title": "VTA's BART Silicon Valley Extension Program",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/projects/bart-sv",
+      "accessed": "2026-10-14",
+      "notes": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\" Phase I runs from Warm Springs through Milpitas to Berryessa/North San José."
     }
   ]
 }

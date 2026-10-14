@@ -135,9 +135,15 @@ def main() -> None:
 
     loaded = {era: load_era(era) for era in ERAS}
     # Today's network, cut into shared, dated segments (data/present/extensions.json).
-    for sys_id, n in extensions.apply(*loaded["present"]).items():
+    ext_summary, on_track, pieces_of = extensions.apply(*loaded["present"])
+    for sys_id, n in ext_summary.items():
         print(f"[build] present/{sys_id}: {n['dated']} dated segments, {n['undated_parts']} parts not yet dated")
     present_segments = loaded["present"][1]
+    # A past line that names a stretch of today's network runs over every piece it was split into.
+    for line in loaded["past"][0]:
+        line["route"] = [{**r, "segment": pid} for r in line["route"]
+                         for pid in (pieces_of[r["segment"]] if r["segment"] in pieces_of and r["segment"] not in present_segments
+                                     else [r["segment"]])]
     # Past lines may run over track that is still in use (decision 13): their route entries can name
     # present segments, which then borrow dates from the past lines too.
     cross = [(line, r) for line in loaded["past"][0] for r in line["route"]
@@ -313,8 +319,14 @@ def main() -> None:
             p = f["properties"]
             users = [by_line[i] for i in p["line_ids"] if i in by_line]
             mode = users[0]["mode"] if users else "railroad"
-            # A point borrows null dates from its lines, as a segment does (decision 4).
+            # A point borrows null dates from its lines, as a segment does (decision 4); a station of
+            # today's network first from the dated track it stands on (extensions.py), which is
+            # nearer the mark than its line's first day.
             o, c, borrowed, undated = segment_years(p, users)
+            track = [seg_display[s][0] for s in on_track.get(p["id"], []) if seg_display[s][0] is not None]
+            if era == "present" and p["opened"] is None and track:
+                o, borrowed = min(track), True
+                undated = c is None
             point_feats.append({"type": "Feature", "geometry": f["geometry"], "properties": {
                 "fid": fid, "id": p["id"], "name": p["name"], "kind": p["kind"], "era": era,
                 "group": MODE_GROUP[mode], "status": p.get("status", ""),

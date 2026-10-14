@@ -40,6 +40,14 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-sf-loop', url: '/?era=past&year=1945&test=1#map=15.6/37.7880/-122.3950/0/0' },
   { name: 'past-line-key-f', url: '/l/key-f?era=past&year=1945&test=1&at=99' },
   { name: 'past-line-sp-shattuck', url: '/l/sp-shattuck-avenue?era=past&year=1935&test=1&at=99' },
+  // Phase 2b: today's network grows in on the slider (BART, Muni).
+  { name: 'past-bay-1973', url: '/?era=past&year=1973&test=1#map=10.2/37.7600/-122.2400/0/0' },
+  { name: 'past-bay-1975', url: '/?era=past&year=1975&test=1#map=10.2/37.7600/-122.2400/0/0' },
+  { name: 'past-bay-2005', url: '/?era=past&year=2005&test=1#map=10.2/37.7000/-122.2400/0/0' },
+  { name: 'past-sf-1890', url: '/?era=past&year=1890&test=1#map=14.2/37.7960/-122.4130/0/0' },
+  { name: 'past-sf-1930', url: '/?era=past&year=1930&test=1#map=12.4/37.7500/-122.4500/0/0' },
+  { name: 'past-sf-1985', url: '/?era=past&year=1985&test=1#map=12.4/37.7500/-122.4500/0/0' },
+  { name: 'past-line-bart-yellow', url: '/l/bart-yellow?era=past&year=1990&test=1&at=99' },
 ];
 
 async function settle(page: Page) {
