@@ -257,6 +257,347 @@
         "opened_unsourced"
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked. The connection from the bridge (1939–41) is still to be drawn."
+    },
+    {
+      "id": "sp-seventh-street",
+      "name": "Seventh Street line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1941-03",
+      "status": "closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier along Seventh Street, through East Oakland and Melrose, to Dutton Avenue in San Leandro; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced from March 22, 1941 by Key System buses and an extension of its A trains, which from April 1941 ran over this line's tracks from East 14th Street to Havenscourt.",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-seventh-st"
+        },
+        {
+          "segment": "sp-fallon-melrose"
+        },
+        {
+          "segment": "sp-bancroft-ave-san-leandro"
+        }
+      ],
+      "sources": [
+        {
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "source": "crc-d17743",
+          "supports": [
+            "route"
+          ],
+          "pages": "2, 7",
+          "note": "\"an electric railway from Oakland Mole via Seventh Street, private right-of-way, Bond Street, Beck Street, Blanche Street and Bancroft Avenue to Dutton Avenue in San Leandro\"; local service \"on Seventh Street from Pine Street as far as Fallon Street\" and \"its right-of-way from Fallon Street to Melrose Station\" (p. 7)."
+        },
+        {
+          "source": "crc-d33891",
+          "supports": [
+            "closed"
+          ],
+          "pages": "5",
+          "note": "The IER would not continue the line \"beyond March 1st, 1941\"."
+        },
+        {
+          "source": "crc-d34060",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "2–4, 11",
+          "note": "Substitute service began \"on March 22, 1941\"."
+        },
+        {
+          "source": "sf-call-1911-12-31-p22",
+          "supports": [
+            "electrification"
+          ],
+          "note": "Steam trains ran on Seventh Street for the last time on the night of December 30, 1911."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Electric service replaced steam at the end of December 1911 (San Francisco Call, December 31, 1911); the first electric day isn't stated. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge."
+    },
+    {
+      "id": "sp-encinal-avenue",
+      "name": "Encinal Avenue line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1941-01",
+      "status": "closed",
+      "summary": "The Southern Pacific's electric Red Trains across Alameda along Central Avenue and Encinal Avenue, to the Alameda Mole and its ferries; from 1939 over the Fruitvale Bridge and the Bay Bridge to San Francisco.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses from January 18, 1941.",
+      "route": [
+        {
+          "segment": "sp-alameda-mole",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-central-encinal"
+        }
+      ],
+      "sources": [
+        {
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "source": "crc-d33732",
+          "supports": [
+            "route"
+          ],
+          "pages": "7–9",
+          "note": "The two Alameda lines \"operate generally over parallel tracks throughout the entire residential portion of the city\"; the substitute buses followed \"the same streets now traversed by the rail lines east of Webster Street\" (p. 9): Lincoln Avenue; Central Avenue and Encinal Avenue."
+        },
+        {
+          "source": "crc-d33891",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "4",
+          "note": "Key System buses \"placed in effect January 18, 1941\"."
+        },
+        {
+          "source": "erj-1911-06-17-sp-oakland",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "1048",
+          "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
+        },
+        {
+          "source": "sf-call-1911-06-03-p18",
+          "supports": [
+            "general"
+          ],
+          "note": "\"new electric trains from High street to the Alameda mole\", from Thursday, June 1, 1911."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street."
+    },
+    {
+      "id": "sp-lincoln-avenue",
+      "name": "Lincoln Avenue line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1941-01",
+      "status": "closed",
+      "summary": "The Southern Pacific's electric Red Trains across Alameda along Lincoln Avenue, to the Alameda Mole and its ferries; from 1939 over the Fruitvale Bridge and the Bay Bridge to San Francisco.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses from January 18, 1941.",
+      "route": [
+        {
+          "segment": "sp-alameda-mole",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-lincoln-ave"
+        }
+      ],
+      "sources": [
+        {
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "source": "crc-d33732",
+          "supports": [
+            "route"
+          ],
+          "pages": "7–9",
+          "note": "The two Alameda lines \"operate generally over parallel tracks throughout the entire residential portion of the city\"; the substitute buses followed \"the same streets now traversed by the rail lines east of Webster Street\" (p. 9): Lincoln Avenue; Central Avenue and Encinal Avenue."
+        },
+        {
+          "source": "crc-d33891",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "4",
+          "note": "Key System buses \"placed in effect January 18, 1941\"."
+        },
+        {
+          "source": "erj-1911-06-17-sp-oakland",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "1048",
+          "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street."
     }
   ]
 }

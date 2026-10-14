@@ -614,6 +614,173 @@
       "fit": "sf1915-bay",
       "est_error_m": 100,
       "note": "The 1915 sheet draws a railroad here, west of San Pablo Avenue, but places it only roughly; its north end stops short of Solano Avenue on the sheet, and the last stretch to Solano Avenue is joined straight"
+    },
+    "sp-seventh-st": {
+      "parts": [
+        {
+          "join": "sp-oakland-mole",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "7th Street"
+          ],
+          "from": [
+            -122.308446,
+            37.808397
+          ],
+          "to": "Fallon Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 10,
+      "note": "In Seventh Street"
+    },
+    "sp-fallon-melrose": {
+      "parts": [
+        {
+          "join": "sp-seventh-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.268,
+              37.778,
+              -122.25,
+              37.8
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              290,
+              385
+            ],
+            [
+              400,
+              410
+            ],
+            [
+              500,
+              432
+            ],
+            [
+              623,
+              455
+            ]
+          ],
+          "snap": 6
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-east-1949",
+            "bbox": [
+              -122.25,
+              37.762,
+              -122.195,
+              37.792
+            ],
+            "zoom": 0.55
+          },
+          "px": [
+            [
+              0,
+              95
+            ],
+            [
+              100,
+              150
+            ],
+            [
+              190,
+              210
+            ],
+            [
+              300,
+              320
+            ],
+            [
+              420,
+              410
+            ],
+            [
+              545,
+              490
+            ],
+            [
+              650,
+              540
+            ],
+            [
+              760,
+              600
+            ],
+            [
+              870,
+              665
+            ],
+            [
+              960,
+              720
+            ]
+          ],
+          "snap": 6
+        }
+      ],
+      "est_error_m": 100,
+      "approximate": true,
+      "note": "Along the Southern Pacific's right of way as the 1949 sheet draws it, from the estuary shore past Fruitvale station toward Melrose. The sources name the ends (Fallon Street, Melrose Station) but not the track between, the link from Seventh Street at Fallon Street to the shore tracks is joined straight, and where Melrose Station stood isn't sourced, so this is dashed"
+    },
+    "sp-bancroft-ave-san-leandro": {
+      "parts": [
+        {
+          "streets": [
+            "Bancroft Avenue"
+          ],
+          "from": "106th Avenue",
+          "to": "Dutton Avenue"
+        }
+      ],
+      "check": "usgs-san-leandro-1948",
+      "est_error_m": 15,
+      "note": "In Bancroft Avenue"
+    },
+    "sp-lincoln-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Avenue"
+          ],
+          "from": "Webster Street",
+          "to": "Park Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Lincoln Avenue"
+    },
+    "sp-central-encinal": {
+      "parts": [
+        {
+          "streets": [
+            "Central Avenue"
+          ],
+          "from": "Webster Street",
+          "to": "Encinal Avenue"
+        },
+        {
+          "streets": [
+            "Encinal Avenue"
+          ],
+          "from": "Central Avenue",
+          "to": "High Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Central Avenue and Encinal Avenue"
     }
   },
   "points": {

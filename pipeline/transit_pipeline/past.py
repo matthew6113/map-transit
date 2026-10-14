@@ -80,6 +80,7 @@ def _fit(recipe: dict):
 
 
 BUILT: dict[str, list[list[float]]] = {}  # segment id -> its rebuilt coords, for "join" parts
+SAVED: dict[str, list[list[float]]] = {}  # segment id -> its coords as last built, for --only
 
 
 def _fit_spec(recipe: dict) -> dict:
@@ -90,8 +91,9 @@ def _fit_spec(recipe: dict) -> dict:
 def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
     """(lon/lat coords, method, description) for one part of a recipe."""
     if "join" in part:
-        # Meet another segment exactly at one of its ends (it must come earlier in the file).
-        other = BUILT.get(part["join"])
+        # Meet another segment exactly at one of its ends (it must come earlier in the file, or be
+        # unchanged since the last build, when only some features are rebuilt).
+        other = BUILT.get(part["join"]) or SAVED.get(part["join"])
         if other is None:
             raise SystemExit(f"[past] join to {part['join']}, which isn't built yet (order the segments)")
         end = other[0] if part.get("at", "end") == "start" else other[-1]
@@ -286,6 +288,8 @@ def main() -> None:
                 continue
             data = json.loads(path.read_text())
             known = {f["properties"]["id"] for f in data["features"]}
+            SAVED.update({f["properties"]["id"]: f["geometry"]["coordinates"] for f in data["features"]
+                          if f.get("geometry") and f["geometry"]["type"] == "LineString"})
             for rid in recipes.get(key, {}):
                 if rid not in known:
                     raise SystemExit(f"[past] {group.name}/trace.json has a recipe for {rid}, which isn't in {file}")

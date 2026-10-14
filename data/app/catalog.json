@@ -1684,6 +1684,519 @@
       ]
     },
     {
+      "id": "sp-encinal-avenue",
+      "name": "Encinal Avenue line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": null,
+      "closed": "1941-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's electric Red Trains across Alameda along Central Avenue and Encinal Avenue, to the Alameda Mole and its ferries; from 1939 over the Fruitvale Bridge and the Bay Bridge to San Francisco.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses from January 18, 1941.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street.",
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "undated": true,
+      "length_km": 7.6,
+      "confidence_km": {
+        "digitized": 7.6
+      },
+      "bbox": [
+        -122.330874,
+        37.756229,
+        -122.234149,
+        37.796576
+      ],
+      "fids": [
+        25,
+        26
+      ],
+      "segments": [
+        {
+          "id": "sp-alameda-mole",
+          "name": "Alameda Mole",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-central-encinal",
+          "name": "Central Avenue and Encinal Avenue, Alameda",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Central Avenue centerline from Webster Street to Encinal Avenue (1150 m; Overture 2026-09-23.1); then along today's Encinal Avenue centerline from Central Avenue to High Street (3102 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Central Avenue and Encinal Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "rag-1912-09-13-guppy",
+          "title": "Electrification of Oakland Suburban Lines",
+          "author": "R. T. Guppy",
+          "publisher": "Railway Age Gazette 53(11)",
+          "date": "1912-09-13",
+          "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "id": "erj-1912-01-06-statistics",
+          "title": "Electric Railway Statistics for 1911",
+          "publisher": "Electric Railway Journal 39(1)",
+          "date": "1912-01-06",
+          "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "crc-d28671",
+          "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+          "author": "Railroad Commission of the State of California",
+          "date": "1936-03-23",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "id": "crc-d33732",
+          "title": "Railroad Commission of the State of California, Decision No. 33732 (Application No. 23312): Interurban Electric Railway: the Alameda lines and their substitute service",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-12-17",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33732_19401217_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33732",
+          "supports": [
+            "route"
+          ],
+          "pages": "7–9",
+          "note": "The two Alameda lines \"operate generally over parallel tracks throughout the entire residential portion of the city\"; the substitute buses followed \"the same streets now traversed by the rail lines east of Webster Street\" (p. 9): Lincoln Avenue; Central Avenue and Encinal Avenue."
+        },
+        {
+          "id": "crc-d33891",
+          "title": "Railroad Commission of the State of California, Decision No. 33891 (Application No. 23312): Interurban Electric Railway: the Seventh Street line",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-02-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33891_19410211_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33891",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "4",
+          "note": "Key System buses \"placed in effect January 18, 1941\"."
+        },
+        {
+          "id": "erj-1911-06-17-sp-oakland",
+          "title": "Southern Pacific Electrification at Oakland, Cal.: Rolling Stock and Repair Shops",
+          "publisher": "Electric Railway Journal 37(24)",
+          "date": "1911-06-17",
+          "url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24",
+          "type": "journal",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "erj-1911-06-17-sp-oakland",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "1048",
+          "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
+        },
+        {
+          "id": "sf-call-1911-06-03-p18",
+          "title": "The San Francisco Call, June 3, 1911, p. 18",
+          "publisher": "The San Francisco Call",
+          "date": "1911-06-03",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-06-03/ed-1/?sp=18",
+          "type": "primary_document",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-06-03-p18",
+          "supports": [
+            "general"
+          ],
+          "note": "\"new electric trains from High street to the Alameda mole\", from Thursday, June 1, 1911."
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-lincoln-avenue",
+      "name": "Lincoln Avenue line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": null,
+      "closed": "1941-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's electric Red Trains across Alameda along Lincoln Avenue, to the Alameda Mole and its ferries; from 1939 over the Fruitvale Bridge and the Bay Bridge to San Francisco.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses from January 18, 1941.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street.",
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "undated": true,
+      "length_km": 6.74,
+      "confidence_km": {
+        "digitized": 6.74
+      },
+      "bbox": [
+        -122.330874,
+        37.766631,
+        -122.240803,
+        37.796576
+      ],
+      "fids": [
+        27,
+        28
+      ],
+      "segments": [
+        {
+          "id": "sp-alameda-mole",
+          "name": "Alameda Mole",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-lincoln-ave",
+          "name": "Lincoln Avenue, Alameda",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Lincoln Avenue centerline from Webster Street to Park Street (3389 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Lincoln Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "rag-1912-09-13-guppy",
+          "title": "Electrification of Oakland Suburban Lines",
+          "author": "R. T. Guppy",
+          "publisher": "Railway Age Gazette 53(11)",
+          "date": "1912-09-13",
+          "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "id": "erj-1912-01-06-statistics",
+          "title": "Electric Railway Statistics for 1911",
+          "publisher": "Electric Railway Journal 39(1)",
+          "date": "1912-01-06",
+          "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "crc-d28671",
+          "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+          "author": "Railroad Commission of the State of California",
+          "date": "1936-03-23",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "id": "crc-d33732",
+          "title": "Railroad Commission of the State of California, Decision No. 33732 (Application No. 23312): Interurban Electric Railway: the Alameda lines and their substitute service",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-12-17",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33732_19401217_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33732",
+          "supports": [
+            "route"
+          ],
+          "pages": "7–9",
+          "note": "The two Alameda lines \"operate generally over parallel tracks throughout the entire residential portion of the city\"; the substitute buses followed \"the same streets now traversed by the rail lines east of Webster Street\" (p. 9): Lincoln Avenue; Central Avenue and Encinal Avenue."
+        },
+        {
+          "id": "crc-d33891",
+          "title": "Railroad Commission of the State of California, Decision No. 33891 (Application No. 23312): Interurban Electric Railway: the Seventh Street line",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-02-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33891_19410211_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33891",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "4",
+          "note": "Key System buses \"placed in effect January 18, 1941\"."
+        },
+        {
+          "id": "erj-1911-06-17-sp-oakland",
+          "title": "Southern Pacific Electrification at Oakland, Cal.: Rolling Stock and Repair Shops",
+          "publisher": "Electric Railway Journal 37(24)",
+          "date": "1911-06-17",
+          "url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24",
+          "type": "journal",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "erj-1911-06-17-sp-oakland",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "1048",
+          "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-ninth-street",
       "name": "Ninth Street line",
       "system": "southern-pacific",
@@ -2058,6 +2571,322 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
           "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-seventh-street",
+      "name": "Seventh Street line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": null,
+      "closed": "1941-03",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier along Seventh Street, through East Oakland and Melrose, to Dutton Avenue in San Leandro; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced from March 22, 1941 by Key System buses and an extension of its A trains, which from April 1941 ran over this line's tracks from East 14th Street to Havenscourt.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Electric service replaced steam at the end of December 1911 (San Francisco Call, December 31, 1911); the first electric day isn't stated. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge.",
+      "flags": [
+        "opened_unsourced",
+        "needs_manual_digitizing"
+      ],
+      "undated": true,
+      "length_km": 12.98,
+      "confidence_km": {
+        "approximate": 5.93,
+        "digitized": 7.05
+      },
+      "bbox": [
+        -122.33008,
+        37.733615,
+        -122.151014,
+        37.80914
+      ],
+      "fids": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "segments": [
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-seventh-st",
+          "name": "Seventh Street, Oakland",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-oakland-mole at its end; then along today's 7th Street centerline from -122.30845,37.80840 to Fallon Street (4126 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Seventh Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-fallon-melrose",
+          "name": "Fallon Street to Melrose",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "approximate",
+          "method": "Joined to sp-seventh-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland East 1:24,000 (1949) (10 hand-read points, centred on the line symbol). Along the Southern Pacific's right of way as the 1949 sheet draws it, from the estuary shore past Fruitvale station toward Melrose. The sources name the ends (Fallon Street, Melrose Station) but not the track between, the link from Seventh Street at Fallon Street to the shore tracks is joined straight, and where Melrose Station stood isn't sourced, so this is dashed.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced",
+            "geometry_unverified"
+          ]
+        },
+        {
+          "id": "sp-bancroft-ave-san-leandro",
+          "name": "Bancroft Avenue, 106th Avenue to Dutton Avenue",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Bancroft Avenue centerline from 106th Avenue to Dutton Avenue (1020 m; Overture 2026-09-23.1); checked on USGS San Leandro 1:24,000 (1948). In Bancroft Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "rag-1912-09-13-guppy",
+          "title": "Electrification of Oakland Suburban Lines",
+          "author": "R. T. Guppy",
+          "publisher": "Railway Age Gazette 53(11)",
+          "date": "1912-09-13",
+          "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification",
+            "route"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "id": "erj-1912-01-06-statistics",
+          "title": "Electric Railway Statistics for 1911",
+          "publisher": "Electric Railway Journal 39(1)",
+          "date": "1912-01-06",
+          "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "crc-d28671",
+          "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+          "author": "Railroad Commission of the State of California",
+          "date": "1936-03-23",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "id": "crc-d17743",
+          "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
+          "author": "Railroad Commission of the State of California",
+          "date": "1926-12-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17743_19261211_C1536.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d17743",
+          "supports": [
+            "route"
+          ],
+          "pages": "2, 7",
+          "note": "\"an electric railway from Oakland Mole via Seventh Street, private right-of-way, Bond Street, Beck Street, Blanche Street and Bancroft Avenue to Dutton Avenue in San Leandro\"; local service \"on Seventh Street from Pine Street as far as Fallon Street\" and \"its right-of-way from Fallon Street to Melrose Station\" (p. 7)."
+        },
+        {
+          "id": "crc-d33891",
+          "title": "Railroad Commission of the State of California, Decision No. 33891 (Application No. 23312): Interurban Electric Railway: the Seventh Street line",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-02-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33891_19410211_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33891",
+          "supports": [
+            "closed"
+          ],
+          "pages": "5",
+          "note": "The IER would not continue the line \"beyond March 1st, 1941\"."
+        },
+        {
+          "id": "crc-d34060",
+          "title": "Railroad Commission of the State of California, Decision No. 34060 (Application No. 23312): Interurban Electric Railway: substitute service for the Seventh Street line",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-04-01",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34060_19410401_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34060",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "2–4, 11",
+          "note": "Substitute service began \"on March 22, 1941\"."
+        },
+        {
+          "id": "sf-call-1911-12-31-p22",
+          "title": "The San Francisco Call, December 31, 1911, p. 22",
+          "publisher": "The San Francisco Call",
+          "date": "1911-12-31",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-12-31/ed-1/?sp=22",
+          "type": "primary_document",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-12-31-p22",
+          "supports": [
+            "electrification"
+          ],
+          "note": "Steam trains ran on Seventh Street for the last time on the night of December 30, 1911."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"Oakland Mole\"."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-leandro-1948",
+          "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Leandro_300123_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-leandro-1948",
           "supports": [
             "geometry"
           ]
