@@ -1717,30 +1717,58 @@
       "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet.",
       "flags": [],
       "undated": false,
-      "length_km": 6.68,
+      "length_km": 12.53,
       "confidence_km": {
-        "digitized": 6.68
+        "digitized": 12.53
       },
       "bbox": [
-        -122.468581,
+        -122.501909,
         37.773306,
         -122.403113,
         37.788015
       ],
       "fids": [
-        97,
-        98
+        98,
+        99,
+        100,
+        101
       ],
       "segments": [
         {
-          "id": "muni-geary-market-10th",
-          "name": "Geary St and Blvd, Market St to 10th Ave",
+          "id": "muni-geary-market-van-ness",
+          "name": "Geary St, Market St to Van Ness Ave",
           "opened": "1912-12-28",
           "closed": "1956-12-29",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to 10th Avenue (5847 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to Van Ness Avenue (1630 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-van-ness-2nd",
+          "name": "Geary Blvd, Van Ness Ave to 2nd Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Van Ness Avenue to 2nd Avenue (3444 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-2nd-10th",
+          "name": "Geary Blvd, 2nd Ave to 10th Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from 2nd Avenue to 10th Avenue (6637 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
           "flags": [],
           "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
@@ -1842,9 +1870,9 @@
         "conflicting_sources"
       ],
       "undated": false,
-      "length_km": 11.06,
+      "length_km": 16.92,
       "confidence_km": {
-        "digitized": 10.16,
+        "digitized": 16.02,
         "surveyed": 0.9
       },
       "bbox": [
@@ -1854,14 +1882,16 @@
         37.793407
       ],
       "fids": [
-        99,
-        100,
-        101,
         102,
         103,
         104,
         105,
-        106
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
       ],
       "segments": [
         {
@@ -1900,15 +1930,43 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
         },
         {
-          "id": "muni-geary-market-10th",
-          "name": "Geary St and Blvd, Market St to 10th Ave",
+          "id": "muni-geary-market-van-ness",
+          "name": "Geary St, Market St to Van Ness Ave",
           "opened": "1912-12-28",
           "closed": "1956-12-29",
           "from": "1913-06-25",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to 10th Avenue (5847 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to Van Ness Avenue (1630 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-van-ness-2nd",
+          "name": "Geary Blvd, Van Ness Ave to 2nd Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "from": "1913-06-25",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Van Ness Avenue to 2nd Avenue (3444 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-2nd-10th",
+          "name": "Geary Blvd, 2nd Ave to 10th Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "from": "1913-06-25",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from 2nd Avenue to 10th Avenue (6637 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
           "flags": [],
           "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
@@ -2664,6 +2722,312 @@
       ]
     },
     {
+      "id": "muni-c-california",
+      "name": "C Geary–California",
+      "short_name": "C",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1915-02-19",
+          "to": null
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1915-02-19",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "From the Ferry Building out Market and Geary Sts, then by 2nd Ave and Cornwall St along California St to 33rd Ave at Lincoln Park.",
+      "fate": "converted_to_bus",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but the change itself isn't recorded in the sources reached, so its end is left open.",
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "undated": true,
+      "length_km": 9.32,
+      "confidence_km": {
+        "digitized": 8.41,
+        "surveyed": 0.9
+      },
+      "bbox": [
+        -122.493466,
+        37.781223,
+        -122.396101,
+        37.793407
+      ],
+      "fids": [
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "to": "1949-03-21",
+          "note": "To the Ferry Building until March 21, 1949",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-geary-market-van-ness",
+          "name": "Geary St, Market St to Van Ness Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to Van Ness Avenue (1630 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-geary-van-ness-2nd",
+          "name": "Geary Blvd, Van Ness Ave to 2nd Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Van Ness Avenue to 2nd Avenue (3444 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-2nd-ave-geary-cornwall",
+          "name": "2nd Ave, Geary Blvd to Cornwall St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's 2nd Avenue centerline from Geary Boulevard to Cornwall Street (421 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-cornwall-2nd-california",
+          "name": "Cornwall St, 2nd Ave to California St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Cornwall Street centerline from 2nd Avenue to California Street (531 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-california-cornwall-13th",
+          "name": "California St, Cornwall St to 13th Ave (Funston Ave)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's California Street centerline from -122.46627,37.78478 to Funston Avenue (511 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "13th Ave is today's Funston Ave."
+        },
+        {
+          "id": "muni-california-13th-33rd",
+          "name": "California St, 13th Ave (Funston Ave) to 33rd Ave",
+          "opened": null,
+          "closed": null,
+          "from": "1915-03-28",
+          "note": "To 33rd Ave from March 28, 1915",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's California Street centerline from Funston Avenue to -122.49347,37.78350 (1887 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Drawn to where California St ends today, by 32nd Ave; the line ran on to 33rd Ave, at Lincoln Park. 13th Ave is today's Funston Ave."
+        }
+      ],
+      "sources": [
+        {
+          "id": "muni-financial-reports",
+          "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+          "publisher": "City and County of San Francisco",
+          "type": "official",
+          "url": "https://archive.org/details/financialreport1912sanf_0",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"February 19, 1915. California Street line in operation to Thirteenth avenue.\" \"March 28, 1915. California Street line in operation to Thirty-third avenue.\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "(Line \"C\") \"from the Ferries to 33rd Avenue and California Street via Geary, Second Avenue, Cornwall and California Streets\""
+        },
+        {
+          "id": "oshaughnessy-1929",
+          "title": "Report on the street railway transportation requirements of San Francisco",
+          "author": "M. M. O'Shaughnessy",
+          "publisher": "City and County of San Francisco, Bureau of Engineering",
+          "date": "1929-05",
+          "type": "official",
+          "url": "https://archive.org/details/reportonstreetr1929osha_1",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "C: \"From Ferry Loop via Market Street, Geary St., 2nd Ave., Cornwall St. and California St. to 33rd Ave.\""
+        },
+        {
+          "id": "sf-puc-report-1948",
+          "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1948-49",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "date": "1949",
+          "type": "official",
+          "url": "https://archive.org/details/reportofsanfranc1948sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "general"
+          ],
+          "pages": "165",
+          "note": "Planned: \"March 5, 1950 … Letter \\\"C\\\" California line—Street car to motor coach.\""
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "opened",
+            "closed"
+          ],
+          "pages": "46",
+          "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-california-st-west",
       "name": "California Street cable line, west of Van Ness Ave",
       "system": "california-street-cable-railroad",
@@ -2841,7 +3205,7 @@
         37.760891
       ],
       "fids": [
-        96
+        97
       ],
       "segments": [
         {
@@ -3041,6 +3405,434 @@
       ]
     },
     {
+      "id": "muni-d-van-ness",
+      "name": "D Van Ness–Union",
+      "short_name": "D",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-08-15",
+          "to": "1950-03-19"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1914-08-15",
+      "closed": "1950-03-19",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Up Van Ness Ave to the Panama-Pacific Exposition from 1914, soon from the Ferry Building by Market and Geary Sts; from 1919 by Union, Steiner and Greenwich Sts to the Presidio.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches took over on March 19, 1950, as line 45 (PUC annual report 1949-50, p. 43).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "O'Shaughnessy gives August 5, 1914 for its first day; Muni's reports give August 15. Its run via Geary St to the Ferries is dated only to 1915 (the city's 1948 transit history), which also puts it on Union St then, against the 1917 route table's Fillmore and Chestnut Sts. Between May 4, 1918 and July 22, 1919 its streets north of Union St aren't known, so that end isn't drawn for those months. Its right-of-way into the Presidio isn't drawn.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 11.97,
+      "confidence_km": {
+        "digitized": 11.07,
+        "surveyed": 0.9
+      },
+      "bbox": [
+        -122.447177,
+        37.77519,
+        -122.396101,
+        37.806482
+      ],
+      "fids": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "from": "1915",
+          "to": "1941-01-01",
+          "note": "To the Ferry Building, from 1915 until the Bridge Terminal took over on January 1, 1941",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "from": "1915",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-geary-market-van-ness",
+          "name": "Geary St, Market St to Van Ness Ave",
+          "opened": "1912-12-28",
+          "closed": "1956-12-29",
+          "from": "1915",
+          "note": "By Geary St to the Ferries from 1915",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Geary Street and Geary Boulevard centerline from Market Street to Van Ness Avenue (1630 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "Muni's own track, laid in 1911-12 after the Geary Street, Park & Ocean cable line on the same street."
+        },
+        {
+          "id": "muni-van-ness-market-geary",
+          "name": "Van Ness Ave, Market St to Geary St",
+          "opened": null,
+          "closed": null,
+          "to": "1915",
+          "note": "From Market St up Van Ness Ave at first",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Market Street to Geary Street (1182 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-geary-vallejo",
+          "name": "Van Ness Ave, Geary St to Vallejo St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Geary Street to Vallejo Street (3442 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-vallejo-union",
+          "name": "Van Ness Ave, Vallejo St to Union St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Vallejo Street to Union Street (209 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-union-chestnut",
+          "name": "Van Ness Ave, Union St to Chestnut St",
+          "opened": null,
+          "closed": null,
+          "to": "1918-05-04",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Union Street to Chestnut Street (1364 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-chestnut-van-ness-fillmore",
+          "name": "Chestnut St, Van Ness Ave to Fillmore St",
+          "opened": null,
+          "closed": null,
+          "to": "1918-05-04",
+          "note": "To Fillmore and Chestnut Sts until May 4, 1918",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Chestnut Street centerline from Van Ness Avenue to Fillmore Street (1027 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-union-van-ness-franklin",
+          "name": "Union St, Van Ness Ave to Franklin St",
+          "opened": "1919-07-22",
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Van Ness Avenue to Franklin Street (146 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "New track of 1919, on the block of Union St where the Presidio & Ferries' cable cars had run until 1906."
+        },
+        {
+          "id": "sf-union-franklin-steiner",
+          "name": "Union St, Franklin St to Steiner St",
+          "opened": "1882",
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Franklin Street to Steiner Street (1026 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-steiner-union-greenwich",
+          "name": "Steiner St, Union St to Greenwich St",
+          "opened": null,
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Steiner Street centerline from Union Street to Greenwich Street (210 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-greenwich-steiner-baker",
+          "name": "Greenwich St, Steiner St to Baker St",
+          "opened": null,
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Greenwich Street centerline from Steiner Street to Baker Street (737 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-e-greenwich",
+          "name": "Greenwich St, Baker St to Lyon St",
+          "opened": null,
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Greenwich Street centerline from Baker Street to Lyon Street (123 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet. The line ran on into The Presidio on its own right-of-way, which isn't drawn."
+        }
+      ],
+      "sources": [
+        {
+          "id": "muni-financial-reports",
+          "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+          "publisher": "City and County of San Francisco",
+          "type": "official",
+          "url": "https://archive.org/details/financialreport1912sanf_0",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"August 15, 1914. Van Ness Avenue line from Market street in operation to Exposition grounds.\""
+        },
+        {
+          "id": "oshaughnessy-1929",
+          "title": "Report on the street railway transportation requirements of San Francisco",
+          "author": "M. M. O'Shaughnessy",
+          "publisher": "City and County of San Francisco, Bureau of Engineering",
+          "date": "1929-05",
+          "type": "official",
+          "url": "https://archive.org/details/reportonstreetr1929osha_1",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "14",
+          "note": "Gives August 5, 1914 for the Van Ness Ave line."
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "36-37",
+          "note": "Van Ness Ave \"was converted to transit use with operation from Market Street to the Exposition site along Chestnut Street\"; in 1915 \"D\" ran from the Ferries to the Presidio \"via Geary, Van Ness and Union\"."
+        },
+        {
+          "id": "sf-puc-report-1948",
+          "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1948-49",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "date": "1949",
+          "type": "official",
+          "url": "https://archive.org/details/reportofsanfranc1948sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "274",
+          "note": "January 1, 1941: the D's eastern terminal moved to the Bridge Terminal."
+        },
+        {
+          "id": "sf-puc-annual-report-1949",
+          "title": "Annual report of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportsanf1949sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "43",
+          "note": "\"On March 19, 1950 … street car lines \\\"D\\\" (Van Ness-Union) and \\\"H\\\" (Van Ness-Potrero) switched to motor coach operation\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "opened",
+            "closed",
+            "operator"
+          ],
+          "pages": "46",
+          "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "sfmta-cable-car-history",
+          "title": "Cable car history",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+          "accessed": "2026-10-14",
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Presidio & Ferries Railroad (1882)\""
+        }
+      ]
+    },
+    {
       "id": "muni-e-union",
       "name": "E Union",
       "short_name": "E",
@@ -3071,12 +3863,12 @@
           "to": null
         }
       ],
-      "notes": "Drawn as Callwell describes it at the city's purchase in 1913; it was rebuilt to city standards while in service, and later changes aren't sourced yet. Its right-of-way in The Presidio isn't drawn.",
+      "notes": "Drawn as Callwell describes it at the city's purchase in 1913, and from July 22, 1919 by Van Ness Ave instead of Franklin St (Muni's report for 1919-20; O'Shaughnessy, 1929). A branch to Stockton and Ellis Sts from January 24, 1916 isn't drawn, nor its right-of-way in The Presidio.",
       "flags": [],
       "undated": false,
-      "length_km": 6.27,
+      "length_km": 6.62,
       "confidence_km": {
-        "digitized": 6.27
+        "digitized": 6.62
       },
       "bbox": [
         -122.447177,
@@ -3085,18 +3877,21 @@
         37.80035
       ],
       "fids": [
-        107,
-        108,
-        109,
-        110,
-        111,
         112,
         113,
         114,
         115,
         116,
         117,
-        118
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
       ],
       "segments": [
         {
@@ -3192,14 +3987,31 @@
           "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
         },
         {
-          "id": "muni-e-vallejo",
-          "name": "Vallejo St, Larkin St to Franklin St",
+          "id": "muni-e-vallejo-larkin-van-ness",
+          "name": "Vallejo St, Larkin St to Van Ness Ave",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Vallejo Street centerline from Larkin Street to Franklin Street (441 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "method": "Along today's Vallejo Street centerline from Larkin Street to Van Ness Avenue (294 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-e-vallejo-van-ness-franklin",
+          "name": "Vallejo St, Van Ness Ave to Franklin St",
+          "opened": null,
+          "closed": null,
+          "to": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Vallejo Street centerline from Van Ness Avenue to Franklin Street (147 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -3212,6 +4024,7 @@
           "name": "Franklin St, Vallejo St to Union St",
           "opened": null,
           "closed": null,
+          "to": "1919-07-22",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -3222,6 +4035,39 @@
             "closed_unsourced"
           ],
           "notes": "Streetcar track of the Presidio & Ferries, built after the 1906 earthquake; when it opened isn't sourced yet."
+        },
+        {
+          "id": "muni-van-ness-vallejo-union",
+          "name": "Van Ness Ave, Vallejo St to Union St",
+          "opened": null,
+          "closed": null,
+          "from": "1919-07-22",
+          "note": "By Van Ness Ave from July 22, 1919",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Vallejo Street to Union Street (209 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-union-van-ness-franklin",
+          "name": "Union St, Van Ness Ave to Franklin St",
+          "opened": "1919-07-22",
+          "closed": null,
+          "from": "1919-07-22",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from Van Ness Avenue to Franklin Street (146 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "New track of 1919, on the block of Union St where the Presidio & Ferries' cable cars had run until 1906."
         },
         {
           "id": "sf-union-franklin-steiner",
@@ -3305,6 +4151,39 @@
           ],
           "pages": "31",
           "note": "December 11, 1913: the city buys the Presidio & Ferries RR and \"begins Muni streetcar service on the company's line\", then running \"from the Ferry Building, on The Embarcadero, Jackson (westbound) and Washington (eastbound), Columbus Ave., Union, Larkin, Vallejo, Franklin, then back to Union, Baker, Greenwich, and a right of way in The Presidio.\" It \"was named the E line in February 1915.\""
+        },
+        {
+          "id": "muni-financial-reports",
+          "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+          "publisher": "City and County of San Francisco",
+          "type": "official",
+          "url": "https://archive.org/details/financialreport1912sanf_0",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n135",
+          "note": "July 22, 1919: \"Changed and shortened route of Van Ness avenue line (\\\"D\\\") and Union street line (\\\"E\\\")\", with new track \"On Union Street between Franklin Street and Van Ness Avenue\"."
+        },
+        {
+          "id": "oshaughnessy-1929",
+          "title": "Report on the street railway transportation requirements of San Francisco",
+          "author": "M. M. O'Shaughnessy",
+          "publisher": "City and County of San Francisco, Bureau of Engineering",
+          "date": "1929-05",
+          "type": "official",
+          "url": "https://archive.org/details/reportonstreetr1929osha_1",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "E in 1929: The Embarcadero, Washington, Columbus, Union, Larkin, Vallejo, Van Ness, Union, Baker, Greenwich and a private right-of-way to the Presidio Loop, returning by Jackson St."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -3415,15 +4294,15 @@
         37.824321
       ],
       "fids": [
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
       ],
       "segments": [
         {
@@ -3857,6 +4736,307 @@
       ]
     },
     {
+      "id": "muni-f-stockton",
+      "name": "F Stockton",
+      "short_name": "F",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-12-29",
+          "to": "1951-01-21"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1914-12-29",
+      "closed": "1951-01-21",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "From Market St through the Stockton Street Tunnel, by Columbus Ave and North Point St to the Marina at Chestnut and Scott Sts.",
+      "fate": "converted_to_bus",
+      "fate_note": "Trolley coaches (line 30) took over on January 21, 1951 (PUC annual report 1950-51, p. 39).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 5.04,
+      "confidence_km": {
+        "digitized": 5.04
+      },
+      "bbox": [
+        -122.441196,
+        37.785774,
+        -122.406246,
+        37.805981
+      ],
+      "fids": [
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
+      ],
+      "segments": [
+        {
+          "id": "muni-stockton-market-bush",
+          "name": "Stockton St, Market St to Bush St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Stockton Street centerline from Ellis Street to Bush Street (517 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-stockton-tunnel",
+          "name": "Stockton Street Tunnel, Bush St to Sacramento St",
+          "opened": "1914-12-29",
+          "closed": "1951-01",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Stockton Tunnel centerline from -122.40715,37.79028 to -122.40774,37.79319 (326 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "tunnel",
+          "flags": []
+        },
+        {
+          "id": "muni-stockton-sacramento-columbus",
+          "name": "Stockton St, Sacramento St to Columbus Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Stockton Street centerline from Sacramento Street to Columbus Avenue (727 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-columbus-stockton-north-point",
+          "name": "Columbus Ave, Stockton St to North Point St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Columbus Avenue centerline from Stockton Street to North Point Street (1088 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-north-point-columbus-van-ness",
+          "name": "North Point St, Columbus Ave to Van Ness Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's North Point Street centerline from Columbus Avenue to Van Ness Avenue (618 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-chestnut-north-point",
+          "name": "Van Ness Ave, Chestnut St to North Point St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Chestnut Street to North Point Street (310 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-chestnut-van-ness-fillmore",
+          "name": "Chestnut St, Van Ness Ave to Fillmore St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Chestnut Street centerline from Van Ness Avenue to Fillmore Street (1027 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-chestnut-fillmore-scott",
+          "name": "Chestnut St, Fillmore St to Scott St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Chestnut Street centerline from Fillmore Street to Scott Street (440 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "31",
+          "note": "December 28, 1914: \"Completion of the 911 ft. Stockton St. Tunnel, constructed for streetcar and other traffic, with Muni streetcar service starting the next day.\" \"(Streetcars operated through the tunnel until January 1951.)\""
+        },
+        {
+          "id": "muni-financial-reports",
+          "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+          "publisher": "City and County of San Francisco",
+          "type": "official",
+          "url": "https://archive.org/details/financialreport1912sanf_0",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"December 29, 1914. Stockton Street, Columbus Avenue and North Point line in operation through tunnel.\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "\"from Market and Ellis Streets to Chestnut and Scott Streets via Stockton Street and tunnel, Columbus Avenue, North Point Street, Van Ness Avenue, and Chestnut Street.\""
+        },
+        {
+          "id": "oshaughnessy-1929",
+          "title": "Report on the street railway transportation requirements of San Francisco",
+          "author": "M. M. O'Shaughnessy",
+          "publisher": "City and County of San Francisco, Bureau of Engineering",
+          "date": "1929-05",
+          "type": "official",
+          "url": "https://archive.org/details/reportonstreetr1929osha_1",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "F: \"From Market St. and Ellis St. via Stockton St., Columbus Ave., North Point St., Van Ness Ave. and Chestnut St. to Scott. St.\""
+        },
+        {
+          "id": "sf-puc-report-1947",
+          "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1947-48",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "date": "1948",
+          "type": "official",
+          "url": "https://archive.org/details/reportofsanfranc1947sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "route"
+          ],
+          "pages": "166, 171",
+          "note": "September 8, 1947: \"Line extended to Southern Pacific Depot\" on weekdays and Saturdays."
+        },
+        {
+          "id": "sf-puc-annual-report-1949",
+          "title": "Annual report of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportsanf1949sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "39",
+          "note": "\"January 21, 1951, No. 30—Trolley coach line substituted for streetcars on the old \\\"F\\\" line\""
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-geary-st-cable",
       "name": "Geary Street cable line",
       "system": "geary-street-park-ocean-railroad",
@@ -3964,6 +5144,338 @@
           ],
           "pages": "28",
           "note": "\"Last day of operation of the GSP&O cable line, as the company is forced to end service despite its objections.\" (May 5, 1912)"
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "muni-h-potrero",
+      "name": "H Van Ness–Potrero",
+      "short_name": "H",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-09-07",
+          "to": "1950-03-19"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1914-09-07",
+      "closed": "1950-03-19",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "From Potrero Ave and Army St by Division and 11th Sts and up Van Ness Ave to Fort Mason, through which it reached the Marina.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches took over on March 19, 1950, as line 47 (PUC annual report 1949-50, p. 43).",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Muni's report for 1914-15 gives August 15, 1914 for its first day; its later reports give September 7. That it ran up Van Ness Ave from the Fort Mason loop's first day, December 29, 1914, is inferred: the city's 1948 transit history gives the route for 1915. Its extension south of Army St (1946-49) isn't drawn.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 10.51,
+      "confidence_km": {
+        "approximate": 0.63,
+        "digitized": 9.87
+      },
+      "bbox": [
+        -122.431876,
+        37.749857,
+        -122.405645,
+        37.806482
+      ],
+      "fids": [
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "segments": [
+        {
+          "id": "muni-potrero-army-25th",
+          "name": "Potrero Ave, Army St (Cesar Chavez St) to 25th St",
+          "opened": "1917-01-19",
+          "closed": null,
+          "from": "1917-01-19",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Potrero Avenue centerline from -122.40565,37.74986 to 25th Street (204 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Drawn from where Potrero Ave ends today, 85 m short of Cesar Chavez St (then Army St)."
+        },
+        {
+          "id": "muni-potrero-25th-division",
+          "name": "Potrero Ave, 25th St to Division St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Potrero Avenue centerline from 25th Street to Division Street (1964 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Shared with the Ocean Shore Railroad's electric trains until 1920 (Callwell p. 33)."
+        },
+        {
+          "id": "muni-division-potrero-11th",
+          "name": "Division St, Potrero Ave to 11th St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Division Street centerline from Potrero Avenue to 11th Street (264 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-11th-division-market",
+          "name": "11th St, Division St to Market St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 11th Street centerline from Division Street to Market Street (967 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-market-geary",
+          "name": "Van Ness Ave, Market St to Geary St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "note": "Up Van Ness Ave to Fort Mason from December 29, 1914",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Market Street to Geary Street (1182 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-geary-vallejo",
+          "name": "Van Ness Ave, Geary St to Vallejo St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Geary Street to Vallejo Street (3442 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-vallejo-union",
+          "name": "Van Ness Ave, Vallejo St to Union St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Vallejo Street to Union Street (209 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-union-chestnut",
+          "name": "Van Ness Ave, Union St to Chestnut St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Union Street to Chestnut Street (1364 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-van-ness-chestnut-north-point",
+          "name": "Van Ness Ave, Chestnut St to North Point St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Van Ness Avenue centerline from Chestnut Street to North Point Street (310 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "muni-h-fort-mason",
+          "name": "Through Fort Mason, Van Ness Ave to Laguna St",
+          "opened": null,
+          "closed": null,
+          "from": "1914-12-29",
+          "to": "1948-01-15",
+          "note": "Through Fort Mason until January 15, 1948",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Given point by point.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "\"Private Right of Way through Fort Mason\" (O'Shaughnessy): its course isn't given, so it is drawn straight from Van Ness Ave to Laguna St and is approximate."
+        }
+      ],
+      "sources": [
+        {
+          "id": "muni-financial-reports",
+          "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+          "publisher": "City and County of San Francisco",
+          "type": "official",
+          "url": "https://archive.org/details/financialreport1912sanf_0",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"September 7, 1914. Potrero Avenue line in operation, Eleventh and Market streets to Twenty-fifth street and Potrero avenue.\" \"December 29, 1914. Fort Mason Loop commenced operation.\""
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "\"H\"—25th and Potrero to Fort Mason via Van Ness."
+        },
+        {
+          "id": "oshaughnessy-1929",
+          "title": "Report on the street railway transportation requirements of San Francisco",
+          "author": "M. M. O'Shaughnessy",
+          "publisher": "City and County of San Francisco, Bureau of Engineering",
+          "date": "1929-05",
+          "type": "official",
+          "url": "https://archive.org/details/reportonstreetr1929osha_1",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "353",
+          "note": "H: \"From Army St. via Potrero Ave., Division St., 11th St., Van Ness Ave., Private Right of Way through Fort Mason to Laguna and Beach Sts.\""
+        },
+        {
+          "id": "sf-puc-report-1947",
+          "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1947-48",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "date": "1948",
+          "type": "official",
+          "url": "https://archive.org/details/reportofsanfranc1947sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "route"
+          ],
+          "pages": "172",
+          "note": "January 15, 1948: \"Service to U. S. Docks discontinued by request of the military authorities. Inner terminal established at Bay and Van Ness.\""
+        },
+        {
+          "id": "sf-puc-annual-report-1949",
+          "title": "Annual report of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53",
+          "publisher": "City and County of San Francisco, Public Utilities Commission",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportsanf1949sanf",
+          "license": "Public record; cited for facts",
+          "accessed": "2026-10-14",
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "43",
+          "note": "\"On March 19, 1950 … street car lines \\\"D\\\" (Van Ness-Union) and \\\"H\\\" (Van Ness-Potrero) switched to motor coach operation\""
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -4391,15 +5903,15 @@
         37.824321
       ],
       "fids": [
-        167,
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
       ],
       "segments": [
         {
@@ -5020,19 +6532,19 @@
         37.891351
       ],
       "fids": [
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
       ],
       "segments": [
         {
@@ -5735,12 +7247,12 @@
         37.7762
       ],
       "fids": [
-        187,
-        188,
-        189,
-        190,
-        191,
-        192
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
       ],
       "segments": [
         {
@@ -6017,17 +7529,17 @@
         37.7762
       ],
       "fids": [
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233
       ],
       "segments": [
         {
@@ -7773,15 +9285,15 @@
         37.824321
       ],
       "fids": [
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
       ],
       "segments": [
         {
@@ -8280,23 +9792,23 @@
         37.891481
       ],
       "fids": [
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131,
-        132,
-        133,
-        134,
-        135
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
       ],
       "segments": [
         {
@@ -9895,7 +11407,8 @@
         92,
         93,
         94,
-        95
+        95,
+        96
       ],
       "segments": [
         {

@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, Muni's C, D, F and H
+
+- **C Geary–California** (1915), **D Van Ness–Union** (1914–1950), **F Stockton** (1914–1951) and
+  **H Van Ness–Potrero** (1914–1950), on the streets of O'Shaughnessy's 1929 report, with their route
+  changes dated from Muni's and the PUC's reports. The Stockton Street Tunnel is its own segment
+  (1914–1951). The C's end isn't sourced yet (only a planned date in 1950).
+- The E now turns by Vallejo St and Van Ness Ave from July 22, 1919; Geary is split at Van Ness Ave
+  and 2nd Ave where the D and C leave it.
+
 ## 2026-10-14: Phase 2b, Marin's electric lines
 
 - **The Northwestern Pacific's third-rail lines** (`data/past/nwp-marin/`), built by the North Shore

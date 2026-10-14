@@ -155,6 +155,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
 | Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), and SFMTA's cable car history page | official | Public agency publications; cited for facts |
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
+| Muni's financial reports (1912–1930), O'Shaughnessy's *Report on the street railway transportation requirements of San Francisco* (1929) and the San Francisco PUC's reports (1947–1953), from archive.org | official | Public records; cited for facts, read on the page images |
 
 The geometry tools are below (decision 12).
 
@@ -237,9 +238,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 29 | 100 | 10 | 0 | 162.1 | 21.9 | 4 | 73 |
+| past | 33 | 127 | 10 | 0 | 187.0 | 22.5 | 8 | 97 |
 | present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 79, `conflicting_sources` 8, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 377, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 104, `conflicting_sources` 12, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 399, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

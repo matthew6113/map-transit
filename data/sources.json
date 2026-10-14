@@ -1558,6 +1558,16 @@
       "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
     },
     {
+      "id": "muni-financial-reports",
+      "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+      "publisher": "City and County of San Francisco",
+      "type": "official",
+      "url": "https://archive.org/details/financialreport1912sanf_0",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Bound annual reports, each with a chronology and a table of routes. Cited by scan leaf: n47 (1914-15), n75, n80 and n81 (1916-18), n95 (1917-18), n135 (1919-20). Quotes read on the page images."
+    },
+    {
       "id": "nps-hyde-street-pier",
       "title": "Hyde Street Pier",
       "publisher": "National Park Service, San Francisco Maritime National Historical Park",
@@ -1642,6 +1652,18 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-14",
       "notes": "archive.org scan leaf 16 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oshaughnessy-1929",
+      "title": "Report on the street railway transportation requirements of San Francisco",
+      "author": "M. M. O'Shaughnessy",
+      "publisher": "City and County of San Francisco, Bureau of Engineering",
+      "date": "1929-05",
+      "type": "official",
+      "url": "https://archive.org/details/reportonstreetr1929osha_1",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "The routes of every Muni and Market Street Railway line in 1929, pp. 343-354; the history of Muni's first lines, p. 14. Quotes read on the page images."
     },
     {
       "id": "osm-overpass-brt",
@@ -1875,6 +1897,38 @@
       "url": "https://archive.org/details/historyofpublict1947sanf",
       "accessed": "2026-10-14",
       "notes": "Bound after the city's 1947 cordon count. Read through archive.org's OCR text, which is poor; quotes need checking against the page images. p. 14: the Sutter Street hill cable \"between Sansome and Larkin Streets\"; p. 15: \"a cable line was constructed along Geary Street from Kearny to Central (Presidio) Avenue\", and the Presidio and Ferries line \"ran along Union Street to Steiner\"."
+    },
+    {
+      "id": "sf-puc-annual-report-1949",
+      "title": "Annual report of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportsanf1949sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Streetcar conversions: the D and H on March 19, 1950 (1949-50, p. 43) and the F on January 21, 1951 (1950-51, p. 39). Quotes read on the page images."
+    },
+    {
+      "id": "sf-puc-report-1947",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1947-48",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1948",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1947sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Muni's service changes by date, pp. 166-173. Quotes read on the page images."
+    },
+    {
+      "id": "sf-puc-report-1948",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1948-49",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1949",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1948sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Muni's chronology since 1912, pp. 271-277, and planned conversions, p. 165. Quotes read on the page images."
     },
     {
       "id": "sfcta-timma-ti-ferry-2024",

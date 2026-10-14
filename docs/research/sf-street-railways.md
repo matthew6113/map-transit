@@ -85,7 +85,7 @@ These run on Market St, so today's F track on Market St must first be cut at the
 
 ### Muni's own streetcar lines, 1912–1982
 
-Drawn so far (`data/past/sf-muni/`): A, B and E, from Callwell alone. C, D, F and H wait for routes.
+Drawn so far (`data/past/sf-muni/`): A, B and E from Callwell; C, D, F and H from the reports below.
 
 Dates mostly from CW, MFR and WR.
 
@@ -202,3 +202,39 @@ Ave and Old San José Road.
 7. **One line or one per traction era?** The cable lines here are drawn per traction era: the
    Sutter St cable line ends in 1906, and the electric line that followed is a separate record.
    Should a route like Haight St be one line whose `traction[]` changes in 1906 instead?
+
+## Muni's C, D, F and H: routes and dates (added Oct 14, 2026)
+
+From a second research pass. **[img]** marks a quote read on the page image. Sources:
+- **FR**: Muni's financial reports, 1912–1930 (`financialreport1912sanf_0`), cited by scan leaf.
+- **OSh**: O'Shaughnessy, 1929 (`reportonstreetr1929osha_1`): the 1929 routes, pp. 352–353.
+- **TTC**: *History of public transit in San Francisco 1850–1948* (`historyofpublict1947sanf`).
+- **PUC47, PUC48**: the PUC's reports for 1947–48 and 1948–49; **PUCAR**: its annual reports from 1949–50.
+
+| Line | Opened | Ended | 1929 route (OSh) [img] |
+|---|---|---|---|
+| C | 1915-02-19 to 13th Ave, 1915-03-28 to 33rd Ave (FR n80, PUC48 p. 271); FR n47 has 33rd Ave on Feb 19 | Not found; planned for 1950-03-05 (PUC48 p. 165) | Ferry Loop, Market, Geary, 2nd Ave, Cornwall, California to 33rd Ave |
+| D | 1914-08-15 (FR n47, n80); OSh p. 14 gives Aug 5 | Motor coaches from 1950-03-19 (PUCAR 1949–50 p. 43) | Ferry Loop, Market, Geary, Van Ness, Union, Steiner, Greenwich, private right-of-way to the Presidio Loop |
+| F | 1914-12-29 (FR n80, PUC48, Callwell); FR n47 gives Dec 28 | Trolley coaches from 1951-01-21 (PUCAR 1950–51 p. 39) | Market and Ellis, Stockton, Columbus, North Point, Van Ness, Chestnut to Scott |
+| H | 1914-09-07, Eleventh and Market to 25th and Potrero (FR n80); FR n47 gives Aug 15 | Motor coaches from 1950-03-19 (PUCAR p. 43) | Army St, Potrero, Division, 11th, Van Ness, private right-of-way through Fort Mason to Laguna and Beach |
+
+**Route changes:**
+- D: 1914 from Market St up Van Ness to the Exposition by Chestnut St (TTC pp. 36–37); 1917 "Fillmore and
+  Chestnut to Ferries via Van Ness Avenue and Geary" (FR n75); May 4, 1918 Greenwich St added, Scott St
+  between Greenwich and Chestnut taken up (FR n95); July 22, 1919 "Changed and shortened route of Van Ness
+  avenue line ("D") and Union street line ("E")", new track on Union St between Franklin St and Van Ness
+  Ave (FR n135); Bridge Terminal from January 1, 1941 (PUC48 p. 274).
+- E: a branch "Presidio to Market, Fourth and Ellis via Union and Stockton" from January 24, 1916 (FR
+  n75); the 1919 change above; in 1929 by Vallejo, Van Ness and Union (OSh p. 352); streetcars ended
+  June 9, 1947 (PUC48 p. 276, OCR), Callwell's last day being June 8.
+- F: extended to the Southern Pacific depot on September 8, 1947 (PUC47 pp. 166, 171), "August 1947"
+  per TTC p. 55.
+- H: extended to Army St on January 19, 1917 (FR n81); Fort Mason Loop from December 29, 1914 (FR n80);
+  south of Army St from December 5, 1946 (PUC47 p. 166; TTC says 1947, to Wilde Ave); Fort Mason service
+  ended January 15, 1948 (PUC47 p. 172); cut back to Army St July 3, 1949 (PUC48 p. 277).
+- A: discontinued December 5, 1932 (PUC48 p. 273).
+- 1915 exposition lines: I (33rd Ave to the Exposition, Sundays and holidays) and J (Columbus Ave,
+  Ferries to the Exposition, to June 1, 1916).
+
+**For Matthew:** FR leaf n136 is a full-page 1920 map, "Municipal Railway Lines of San Francisco, Cal.",
+public domain, worth georeferencing by hand for the 1920 geometry.
