@@ -1332,6 +1332,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d34457",
+      "title": "Railroad Commission of California, Decision No. 34457 (Application No. 24059)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-07-29",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34457_19410729_A24059.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The Northwestern Pacific's pooling arrangement with Pacific Greyhound \"was canceled March 1, 1941 at which time applicant also discontinued all service on its interurban electric line between Sausalito and San Rafael and on its ferry route between Sausalito and\" San Francisco (OCR)."
+    },
+    {
       "id": "crc-d34460",
       "title": "Railroad Commission of the State of California, Decision No. 34460 (Application No. 23312): Key System substitute service for the Shattuck Avenue and Ninth Street lines",
       "author": "Railroad Commission of the State of California",
@@ -1669,7 +1679,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -2014,6 +2024,17 @@
       "notes": "p. 7 (read on the page image): San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\" \"All traffic has ceased over the old line.\" \"The new route leaves the old line at Polhemus Street on the north side of the city and proceeds along the route of the Santa Cruz Branch … to the new station built on the site of the old South Pacific Coast depot. Thence … to a connection with the main line at Lick.\""
     },
     {
+      "id": "srj-1904-01-02-north-shore",
+      "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+      "publisher": "Street Railway Journal",
+      "date": "1904-01-02",
+      "type": "journal",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 4-7 (archive.org OCR): \"This is the first third-rail road to be constructed and put into operation in California\"; \"The Mill Valley branch of the new system was placed in operation on Aug. 21,\" and \"the main line to San Rafael was opened on Oct. 17\" (1903); \"The track of the North Shore Railroad, between Sausalito and San Rafael, is 11.95 miles in length,\" \"the Mill Valley branch is 1.74 miles long\"; \"The Mill Valley line ... branches off at Mill Valley Junction\"; \"The narrow-gage main line to Cazadero leaves the suburban electric line at San Anselmo\"; a tunnel \"between Alto and Corte Madera\", \"2194 ft. between portals\". The page images still need checking."
+    },
+    {
       "id": "srj-1904-02-13-key-route-1",
       "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
       "publisher": "Street Railway Journal 23(7)",
@@ -2225,6 +2246,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, edition of 1915. HTMC scan 298922, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 f648bf5144d507111594c6c2314ec90b0a8ec7d13100b81d7056088fcbab6774."
+    },
+    {
+      "id": "usgs-tamalpais-1941",
+      "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1941",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, aerial photographs of 1939, edition of 1941. HTMC scan 301788, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e8b2a9b5bf73d88c9e3b55c864290de2ad440f8506111d87f43f334047e5f43f."
     },
     {
       "id": "vta-30-years-timeline",

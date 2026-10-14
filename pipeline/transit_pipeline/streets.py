@@ -41,6 +41,7 @@ AREAS = {
     "eastbay": (-122.36, 37.70, -122.15, 37.93),  # Richmond to San Leandro, the bay shore to the hills
     "sf": (-122.52, 37.70, -122.355, 37.835),  # San Francisco, to the county line
     "southbay": (-121.98, 37.33, -121.83, 37.45),  # Milpitas and north San José (VTA's Tasman and Capitol lines)
+    "marin": (-122.60, 37.845, -122.45, 38.02),  # Sausalito to San Rafael (the Northwestern Pacific's electric lines)
 }
 CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"

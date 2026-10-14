@@ -147,6 +147,12 @@
       "name": "Golden Gate Ferries",
       "short_name": "Golden Gate Ferries",
       "notes": "The auto ferries from Hyde Street, 1922–1938: Golden Gate Ferries, Ltd., then from 1929 Southern Pacific-Golden Gate Ferries, Ltd. Not today's Golden Gate Ferry."
+    },
+    {
+      "id": "northwestern-pacific",
+      "name": "Northwestern Pacific Railroad",
+      "short_name": "Northwestern Pacific",
+      "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
     }
   ]
 }

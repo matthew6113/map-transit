@@ -1,0 +1,133 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The Northwestern Pacific's electric lines in Marin (Phase 2b.D). Research: docs/research/east-bay-electric.md, section 4.",
+  "lines": [
+    {
+      "id": "nwp-sausalito-san-rafael",
+      "name": "Sausalito–San Rafael electric line",
+      "system": "northwestern-pacific",
+      "operators": [
+        {
+          "name": "North Shore Railroad",
+          "from": "1903",
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1941-03-01"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_third_rail",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1903-10-17",
+      "closed": "1941-03-01",
+      "status": "closed",
+      "summary": "Third-rail electric trains from the ferry at Sausalito by Mill Valley Junction, the Alto tunnel, Corte Madera, Larkspur, Ross and San Anselmo to San Rafael: the first third-rail line in California.",
+      "fate": "converted_to_bus",
+      "fate_note": "Service ended on March 1, 1941, along with the railroad's ferry, when its pooling arrangement with Pacific Greyhound was canceled (CRC Decision No. 34457).",
+      "route": [
+        {
+          "segment": "nwp-sausalito-almonte"
+        },
+        {
+          "segment": "nwp-almonte-corte-madera"
+        },
+        {
+          "segment": "nwp-corte-madera-san-anselmo"
+        },
+        {
+          "segment": "nwp-san-anselmo-san-rafael"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "opened",
+            "route",
+            "electrification"
+          ],
+          "pages": "4-7",
+          "note": "\"the main line to San Rafael was opened on Oct. 17\" (1903), \"the first third-rail road to be constructed and put into operation in California\"."
+        },
+        {
+          "source": "crc-d34457",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"... discontinued all service on its interurban electric line between Sausalito and San Rafael\" on March 1, 1941."
+        }
+      ],
+      "flags": [],
+      "notes": "Run by the North Shore Railroad, which became part of the Northwestern Pacific; the date of the change isn't sourced here. Other routes (by Greenbrae, and on to Manor) aren't drawn."
+    },
+    {
+      "id": "nwp-mill-valley",
+      "name": "Mill Valley electric line",
+      "system": "northwestern-pacific",
+      "operators": [
+        {
+          "name": "North Shore Railroad",
+          "from": "1903",
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1941-03-01"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_third_rail",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1903-08-21",
+      "closed": "1941-03-01",
+      "status": "closed",
+      "summary": "Third-rail electric trains from the ferry at Sausalito to Mill Valley, by the branch from Mill Valley Junction: the first of the North Shore's electric services.",
+      "fate": "converted_to_bus",
+      "fate_note": "Service ended on March 1, 1941, with the rest of the electric lines (CRC Decision No. 34457).",
+      "route": [
+        {
+          "segment": "nwp-sausalito-almonte"
+        },
+        {
+          "segment": "nwp-mill-valley-branch"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "opened",
+            "route",
+            "electrification"
+          ],
+          "pages": "4-7",
+          "note": "\"The Mill Valley branch of the new system was placed in operation on Aug. 21\" (1903)."
+        },
+        {
+          "source": "crc-d34457",
+          "supports": [
+            "closed"
+          ],
+          "note": "Decision No. 34457 names the line \"between Sausalito and San Rafael\"; that the Mill Valley trains ended with it is inferred, not stated."
+        }
+      ],
+      "flags": [],
+      "notes": "Run by the North Shore Railroad, then the Northwestern Pacific. Decision No. 34457 names only the Sausalito-San Rafael line; the Mill Valley branch is taken to have ended with it."
+    }
+  ]
+}

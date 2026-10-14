@@ -47,6 +47,11 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2b/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2b/traces/key-pier-terminal.jpg) |
 | `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2b/traces/key-san-pablo.jpg) |
 | `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2b/traces/key-piedmont-terminal.jpg) |
+| `nwp-sausalito-almonte` Sausalito to Mill Valley Junction (Almonte) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/nwp-sausalito-almonte.jpg) |
+| `nwp-almonte-corte-madera` Mill Valley Junction to Corte Madera, by Alto and the tunnel | geotiff | usgs-tamalpais-1941 | 40 m | [review](../screenshots/p2b/traces/nwp-almonte-corte-madera.jpg) |
+| `nwp-corte-madera-san-anselmo` Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-corte-madera-san-anselmo.jpg) |
+| `nwp-san-anselmo-san-rafael` San Anselmo to San Rafael | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-san-anselmo-san-rafael.jpg) |
+| `nwp-mill-valley-branch` Mill Valley branch, Mill Valley Junction to Mill Valley | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-mill-valley-branch.jpg) |
 | `sf-clay-kearny-leavenworth` Clay St, Kearny St to Leavenworth St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-leavenworth.jpg) |
 | `sf-clay-kearny-drumm` Clay St, Drumm St to Kearny St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-drumm.jpg) |
 | `sf-clay-leavenworth-larkin` Clay St, Leavenworth St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-leavenworth-larkin.jpg) |

@@ -209,6 +209,9 @@ Point–Sacramento; then the San Francisco–Sacramento RR and the Sacramento No
 
 ## 4. North Bay
 
+Drawn so far: the NWP's electric lines in Marin (`data/past/nwp-marin/`), from the Street Railway
+Journal and D34457 above, traced from the 1941 USGS Tamalpais sheet.
+
 - **NWP electric lines in Marin** (North Shore Railroad until 1907), third rail: *Street Railway
   Journal* 23(1), Jan 2, 1904, pp. 4–7: Mill Valley branch "placed in operation on Aug. 21" (1903),
   main line to San Rafael "opened on Oct. 17" (1903); Sausalito–San Rafael 11.95 miles. **Closed:**

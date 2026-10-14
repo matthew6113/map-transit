@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, Marin's electric lines
+
+- **The Northwestern Pacific's third-rail lines** (`data/past/nwp-marin/`), built by the North Shore
+  Railroad: Sausalito–San Rafael by Mill Valley Junction, the Alto tunnel, Corte Madera, Larkspur,
+  Ross and San Anselmo (October 17, 1903), and the Mill Valley branch (August 21, 1903), to March
+  1, 1941 (Street Railway Journal, 1904; CRC Decision No. 34457). Traced from the 1941 USGS
+  Tamalpais sheet, drawn while the line ran, and the 1950 sheet along Sausalito's waterfront.
+- The Sausalito ferry terminal now belongs to the railroad and lists its lines.
+
 ## 2026-10-14: Phase 2b, the first historic ferries
 
 - **The Key Route ferry** from its pier to the Ferry Building, 1903–1939, and **the Hyde

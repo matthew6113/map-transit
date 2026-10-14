@@ -1728,8 +1728,8 @@
         37.788015
       ],
       "fids": [
-        91,
-        92
+        97,
+        98
       ],
       "segments": [
         {
@@ -1854,14 +1854,14 @@
         37.793407
       ],
       "fids": [
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
         99,
-        100
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
       ],
       "segments": [
         {
@@ -2712,8 +2712,8 @@
         37.790421
       ],
       "fids": [
-        67,
-        68
+        73,
+        74
       ],
       "segments": [
         {
@@ -2841,7 +2841,7 @@
         37.760891
       ],
       "fids": [
-        90
+        96
       ],
       "segments": [
         {
@@ -2961,7 +2961,7 @@
         37.794462
       ],
       "fids": [
-        58
+        64
       ],
       "segments": [
         {
@@ -3085,18 +3085,18 @@
         37.80035
       ],
       "fids": [
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
         107,
         108,
         109,
         110,
         111,
-        112
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118
       ],
       "segments": [
         {
@@ -3415,15 +3415,15 @@
         37.824321
       ],
       "fids": [
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
         158,
         159,
-        160
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
       ],
       "segments": [
         {
@@ -3900,7 +3900,7 @@
         37.788015
       ],
       "fids": [
-        85
+        91
       ],
       "segments": [
         {
@@ -4144,7 +4144,7 @@
         37.785808
       ],
       "fids": [
-        74
+        80
       ],
       "segments": [
         {
@@ -4391,15 +4391,15 @@
         37.824321
       ],
       "fids": [
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
         167,
         168,
-        169
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
       ],
       "segments": [
         {
@@ -4819,6 +4819,157 @@
       ]
     },
     {
+      "id": "nwp-mill-valley",
+      "name": "Mill Valley electric line",
+      "system": "northwestern-pacific",
+      "system_name": "Northwestern Pacific Railroad",
+      "operators": [
+        {
+          "name": "North Shore Railroad",
+          "from": "1903",
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1941-03-01"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1903-08-21",
+      "closed": "1941-03-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Third-rail electric trains from the ferry at Sausalito to Mill Valley, by the branch from Mill Valley Junction: the first of the North Shore's electric services.",
+      "fate": "converted_to_bus",
+      "fate_note": "Service ended on March 1, 1941, with the rest of the electric lines (CRC Decision No. 34457).",
+      "traction": [
+        {
+          "type": "electric_third_rail",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Run by the North Shore Railroad, then the Northwestern Pacific. Decision No. 34457 names only the Sausalito-San Rafael line; the Mill Valley branch is taken to have ended with it.",
+      "flags": [],
+      "undated": false,
+      "length_km": 8.65,
+      "confidence_km": {
+        "digitized": 8.65
+      },
+      "bbox": [
+        -122.54759,
+        37.856117,
+        -122.478137,
+        37.90596
+      ],
+      "fids": [
+        62,
+        63
+      ],
+      "segments": [
+        {
+          "id": "nwp-sausalito-almonte",
+          "name": "Sausalito to Mill Valley Junction (Almonte)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (11 hand-read points); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Along Sausalito's waterfront, traced from the 1950 sheet where the track still ran, then from the 1941 sheet by Waldo and Manzanita. Between them, where the 1941 sheet ends and the 1950 sheet draws the Marinship yard of 1942, the line is joined straight for about 800 m. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        },
+        {
+          "id": "nwp-mill-valley-branch",
+          "name": "Mill Valley branch, Mill Valley Junction to Mill Valley",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-sausalito-almonte at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (16 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "srj-1904-01-02-north-shore",
+          "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+          "publisher": "Street Railway Journal",
+          "date": "1904-01-02",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "opened",
+            "route",
+            "electrification"
+          ],
+          "pages": "4-7",
+          "note": "\"The Mill Valley branch of the new system was placed in operation on Aug. 21\" (1903)."
+        },
+        {
+          "id": "crc-d34457",
+          "title": "Railroad Commission of California, Decision No. 34457 (Application No. 24059)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1941-07-29",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34457_19410729_A24059.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d34457",
+          "supports": [
+            "closed"
+          ],
+          "note": "Decision No. 34457 names the line \"between Sausalito and San Rafael\"; that the Mill Valley trains ended with it is inferred, not stated."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-ninth-street",
       "name": "Ninth Street line",
       "system": "southern-pacific",
@@ -4869,19 +5020,19 @@
         37.891351
       ],
       "fids": [
-        130,
-        131,
-        132,
-        133,
-        134,
-        135,
         136,
         137,
         138,
         139,
         140,
         141,
-        142
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148
       ],
       "segments": [
         {
@@ -5395,11 +5546,11 @@
         37.806637
       ],
       "fids": [
-        69,
-        70,
-        71,
-        72,
-        73
+        75,
+        76,
+        77,
+        78,
+        79
       ],
       "segments": [
         {
@@ -5584,12 +5735,12 @@
         37.7762
       ],
       "fids": [
-        181,
-        182,
-        183,
-        184,
-        185,
-        186
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
       ],
       "segments": [
         {
@@ -5866,17 +6017,17 @@
         37.7762
       ],
       "fids": [
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
         176,
         177,
         178,
         179,
-        180
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
       ],
       "segments": [
         {
@@ -7224,12 +7375,12 @@
         37.795493
       ],
       "fids": [
-        59,
-        60,
-        61,
-        62,
-        63,
-        64
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "segments": [
         {
@@ -7386,6 +7537,191 @@
       ]
     },
     {
+      "id": "nwp-sausalito-san-rafael",
+      "name": "Sausalito–San Rafael electric line",
+      "system": "northwestern-pacific",
+      "system_name": "Northwestern Pacific Railroad",
+      "operators": [
+        {
+          "name": "North Shore Railroad",
+          "from": "1903",
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1941-03-01"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1903-10-17",
+      "closed": "1941-03-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Third-rail electric trains from the ferry at Sausalito by Mill Valley Junction, the Alto tunnel, Corte Madera, Larkspur, Ross and San Anselmo to San Rafael: the first third-rail line in California.",
+      "fate": "converted_to_bus",
+      "fate_note": "Service ended on March 1, 1941, along with the railroad's ferry, when its pooling arrangement with Pacific Greyhound was canceled (CRC Decision No. 34457).",
+      "traction": [
+        {
+          "type": "electric_third_rail",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Run by the North Shore Railroad, which became part of the Northwestern Pacific; the date of the change isn't sourced here. Other routes (by Greenbrae, and on to Manor) aren't drawn.",
+      "flags": [],
+      "undated": false,
+      "length_km": 20.59,
+      "confidence_km": {
+        "digitized": 20.59
+      },
+      "bbox": [
+        -122.562102,
+        37.856117,
+        -122.478137,
+        37.977386
+      ],
+      "fids": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "segments": [
+        {
+          "id": "nwp-sausalito-almonte",
+          "name": "Sausalito to Mill Valley Junction (Almonte)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (11 hand-read points); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Along Sausalito's waterfront, traced from the 1950 sheet where the track still ran, then from the 1941 sheet by Waldo and Manzanita. Between them, where the 1941 sheet ends and the 1950 sheet draws the Marinship yard of 1942, the line is joined straight for about 800 m. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        },
+        {
+          "id": "nwp-almonte-corte-madera",
+          "name": "Mill Valley Junction to Corte Madera, by Alto and the tunnel",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-sausalito-almonte at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (20 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        },
+        {
+          "id": "nwp-corte-madera-san-anselmo",
+          "name": "Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-almonte-corte-madera at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (12 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (15 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        },
+        {
+          "id": "nwp-san-anselmo-san-rafael",
+          "name": "San Anselmo to San Rafael",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-corte-madera-san-anselmo at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Drawn to where the line meets the main line south of San Rafael's depot. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "srj-1904-01-02-north-shore",
+          "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+          "publisher": "Street Railway Journal",
+          "date": "1904-01-02",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "opened",
+            "route",
+            "electrification"
+          ],
+          "pages": "4-7",
+          "note": "\"the main line to San Rafael was opened on Oct. 17\" (1903), \"the first third-rail road to be constructed and put into operation in California\"."
+        },
+        {
+          "id": "crc-d34457",
+          "title": "Railroad Commission of California, Decision No. 34457 (Application No. 24059)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1941-07-29",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34457_19410729_A24059.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d34457",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"... discontinued all service on its interurban electric line between Sausalito and San Rafael\" on March 1, 1941."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-seventh-street",
       "name": "Seventh Street line",
       "system": "southern-pacific",
@@ -7437,15 +7773,15 @@
         37.824321
       ],
       "fids": [
-        143,
-        144,
-        145,
-        146,
-        147,
-        148,
         149,
         150,
-        151
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
       ],
       "segments": [
         {
@@ -7944,12 +8280,6 @@
         37.891481
       ],
       "fids": [
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
         119,
         120,
         121,
@@ -7960,7 +8290,13 @@
         126,
         127,
         128,
-        129
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
       ],
       "segments": [
         {
@@ -8575,8 +8911,8 @@
         37.790312
       ],
       "fids": [
-        65,
-        66
+        71,
+        72
       ],
       "segments": [
         {
@@ -9556,10 +9892,10 @@
         37.80035
       ],
       "fids": [
-        86,
-        87,
-        88,
-        89
+        92,
+        93,
+        94,
+        95
       ],
       "segments": [
         {
@@ -9745,16 +10081,16 @@
         37.79562
       ],
       "fids": [
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
         81,
         82,
         83,
-        84
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
       ],
       "segments": [
         {
