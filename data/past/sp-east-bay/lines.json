@@ -44,9 +44,28 @@
           "note": "Until the trains moved to the Bay Bridge"
         },
         {
-          "segment": "sp-16th-st-34th-st",
+          "segment": "sp-16th-st-26th-st",
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "ier-bridge-lead",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-26th-st-34th-st"
         },
         {
           "segment": "sp-wood-st"
@@ -133,12 +152,20 @@
             "general"
           ],
           "note": "The first electric train ran over the Shattuck Avenue line on a trial trip on December 22, 1911."
+        },
+        {
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked. The connection from the bridge to the old Berkeley main line (1939–41) is still to be drawn."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked."
     },
     {
       "id": "sp-ninth-street",
@@ -183,9 +210,28 @@
           "note": "Until the trains moved to the Bay Bridge"
         },
         {
-          "segment": "sp-16th-st-34th-st",
+          "segment": "sp-16th-st-26th-st",
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "ier-bridge-lead",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-26th-st-34th-st"
         },
         {
           "segment": "sp-wood-st"
@@ -251,12 +297,20 @@
             "closed"
           ],
           "pages": "4–5"
+        },
+        {
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked. The connection from the bridge (1939–41) is still to be drawn."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked."
     },
     {
       "id": "sp-seventh-street",
@@ -294,6 +348,27 @@
           "segment": "sp-oakland-mole",
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "ier-bridge-lead",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-16th-st-26th-st",
+          "from": "1939-01-15",
+          "note": "From the 26th Street junction south toward 22nd Street"
         },
         {
           "segment": "sp-seventh-st"
@@ -370,6 +445,14 @@
             "electrification"
           ],
           "note": "Steam trains ran on Seventh Street for the last time on the night of December 30, 1911."
+        },
+        {
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         }
       ],
       "flags": [
@@ -414,6 +497,35 @@
           "segment": "sp-alameda-mole",
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "ier-bridge-lead",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-16th-st-26th-st",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-seventh-st",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-fallon-melrose",
+          "from": "1939-01-15",
+          "note": "To Fruitvale Junction, then the Fruitvale Bridge"
         },
         {
           "segment": "sp-central-encinal"
@@ -484,6 +596,14 @@
             "general"
           ],
           "note": "\"new electric trains from High street to the Alameda mole\", from Thursday, June 1, 1911."
+        },
+        {
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         }
       ],
       "flags": [
@@ -528,6 +648,35 @@
           "segment": "sp-alameda-mole",
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "ier-bridge-lead",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-16th-st-26th-st",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-seventh-st",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "sp-fallon-melrose",
+          "from": "1939-01-15",
+          "note": "To Fruitvale Junction, then the Fruitvale Bridge"
         },
         {
           "segment": "sp-lincoln-ave"
@@ -591,6 +740,14 @@
           ],
           "pages": "1048",
           "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
+        },
+        {
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
         }
       ],
       "flags": [

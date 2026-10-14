@@ -1,0 +1,382 @@
+{
+  "$comment": "Geometry recipes for data/past/bay-bridge (decision 12): `make past` rebuilds each geometry from these. Pixels are read off the named crop of a USGS sheet.",
+  "segments": {
+    "bbr-sf-loop": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.3995,
+              37.784,
+              -122.3895,
+              37.7915
+            ],
+            "zoom": 2.2
+          },
+          "px": [
+            [
+              580,
+              812
+            ],
+            [
+              480,
+              790
+            ],
+            [
+              380,
+              722
+            ],
+            [
+              280,
+              622
+            ],
+            [
+              200,
+              522
+            ],
+            [
+              162,
+              432
+            ],
+            [
+              170,
+              372
+            ],
+            [
+              210,
+              332
+            ],
+            [
+              300,
+              245
+            ],
+            [
+              395,
+              160
+            ],
+            [
+              420,
+              122
+            ],
+            [
+              480,
+              104
+            ],
+            [
+              540,
+              128
+            ],
+            [
+              570,
+              190
+            ],
+            [
+              574,
+              250
+            ],
+            [
+              520,
+              315
+            ],
+            [
+              430,
+              415
+            ],
+            [
+              345,
+              500
+            ],
+            [
+              330,
+              560
+            ],
+            [
+              360,
+              640
+            ],
+            [
+              430,
+              708
+            ],
+            [
+              520,
+              770
+            ],
+            [
+              580,
+              805
+            ]
+          ],
+          "snap": 4
+        }
+      ],
+      "est_error_m": 10,
+      "note": "The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end"
+    },
+    "bbr-bridge": {
+      "parts": [
+        {
+          "join": "bbr-sf-loop",
+          "at": "start"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.392,
+              37.783,
+              -122.375,
+              37.806
+            ],
+            "zoom": 0.7
+          },
+          "px": [
+            [
+              20,
+              775
+            ],
+            [
+              470,
+              245
+            ]
+          ],
+          "snap": 6,
+          "straight": true
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.376,
+              37.797,
+              -122.355,
+              37.816
+            ],
+            "zoom": 0.9
+          },
+          "px": [
+            [
+              40,
+              745
+            ],
+            [
+              100,
+              680
+            ],
+            [
+              235,
+              515
+            ],
+            [
+              370,
+              350
+            ],
+            [
+              440,
+              265
+            ],
+            [
+              520,
+              170
+            ],
+            [
+              600,
+              105
+            ],
+            [
+              700,
+              70
+            ]
+          ],
+          "snap": 6
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.376,
+              37.806,
+              -122.326,
+              37.826
+            ],
+            "zoom": 0.55
+          },
+          "px": [
+            [
+              428,
+              343
+            ],
+            [
+              500,
+              302
+            ],
+            [
+              640,
+              252
+            ],
+            [
+              785,
+              205
+            ],
+            [
+              950,
+              172
+            ],
+            [
+              1100,
+              140
+            ]
+          ],
+          "snap": 5
+        }
+      ],
+      "est_error_m": 15,
+      "note": "From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck"
+    },
+    "bbr-east-approach": {
+      "parts": [
+        {
+          "join": "bbr-bridge",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.332,
+              37.817,
+              -122.292,
+              37.83
+            ],
+            "zoom": 0.9
+          },
+          "px": [
+            [
+              90,
+              435
+            ],
+            [
+              250,
+              410
+            ],
+            [
+              480,
+              378
+            ],
+            [
+              700,
+              335
+            ],
+            [
+              900,
+              300
+            ],
+            [
+              1000,
+              280
+            ]
+          ],
+          "snap": 5
+        }
+      ],
+      "est_error_m": 15,
+      "note": "Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided"
+    },
+    "ier-bridge-lead": {
+      "parts": [
+        {
+          "join": "bbr-east-approach",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.332,
+              37.817,
+              -122.292,
+              37.83
+            ],
+            "zoom": 0.9
+          },
+          "px": [
+            [
+              1100,
+              285
+            ],
+            [
+              1169,
+              293
+            ]
+          ]
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.302,
+              37.816,
+              -122.288,
+              37.828
+            ],
+            "zoom": 1.4
+          },
+          "px": [
+            [
+              0,
+              292
+            ],
+            [
+              150,
+              310
+            ],
+            [
+              300,
+              340
+            ],
+            [
+              430,
+              380
+            ],
+            [
+              500,
+              400
+            ],
+            [
+              550,
+              415
+            ],
+            [
+              575,
+              430
+            ]
+          ],
+          "snap": 5
+        }
+      ],
+      "est_error_m": 25,
+      "note": "The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line"
+    }
+  },
+  "points": {
+    "transbay-terminal": {
+      "trace": {
+        "sheet": "usgs-san-francisco-north-1950",
+        "bbox": [
+          -122.3995,
+          37.784,
+          -122.3895,
+          37.7915
+        ],
+        "zoom": 2.2
+      },
+      "px": [
+        300,
+        245
+      ],
+      "est_error_m": 15,
+      "note": "The middle of the station building on the 1950 sheet (\"Key System Terminal\")"
+    }
+  }
+}

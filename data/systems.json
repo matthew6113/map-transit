@@ -26,6 +26,12 @@
       "short_name": "BART"
     },
     {
+      "id": "bay-bridge-railway",
+      "name": "Bay Bridge Railway",
+      "short_name": "Bridge Railway",
+      "notes": "The state-owned railway on the Bay Bridge's lower deck, with the Transbay Terminal loop and the East Bay yards, 1939–1958. The Key System, the Interurban Electric Railway and the Sacramento Northern ran their trains over it."
+    },
+    {
       "id": "cahsr",
       "name": "California High-Speed Rail",
       "short_name": "High-speed rail"

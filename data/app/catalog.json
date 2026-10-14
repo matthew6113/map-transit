@@ -1724,19 +1724,27 @@
         "needs_manual_digitizing"
       ],
       "undated": true,
-      "length_km": 7.6,
+      "length_km": 30.93,
       "confidence_km": {
-        "digitized": 7.6
+        "approximate": 5.93,
+        "digitized": 25.01
       },
       "bbox": [
-        -122.330874,
+        -122.397803,
         37.756229,
-        -122.234149,
-        37.796576
+        -122.20969,
+        37.824321
       ],
       "fids": [
-        25,
-        26
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
       ],
       "segments": [
         {
@@ -1754,6 +1762,110 @@
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
+          ]
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "ier-bridge-lead",
+          "name": "Interurban lead to 26th Street",
+          "opened": "1939-01-15",
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-16th-st-26th-st",
+          "name": "Sixteenth Street Station to 26th Street",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). Northeast from Sixteenth Street Station to the junction near the foot of 26th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-seventh-st",
+          "name": "Seventh Street, Oakland",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-oakland-mole at its end; then along today's 7th Street centerline from -122.30845,37.80840 to Fallon Street (4126 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Seventh Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-fallon-melrose",
+          "name": "Fallon Street to Melrose",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "note": "To Fruitvale Junction, then the Fruitvale Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "approximate",
+          "method": "Joined to sp-seventh-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland East 1:24,000 (1949) (10 hand-read points, centred on the line symbol). Along the Southern Pacific's right of way as the 1949 sheet draws it, from the estuary shore past Fruitvale station toward Melrose. The sources name the ends (Fallon Street, Melrose Station) but not the track between, the link from Seventh Street at Fallon Street to the shore tracks is joined straight, and where Melrose Station stood isn't sourced, so this is dashed.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced",
+            "geometry_unverified"
           ]
         },
         {
@@ -1786,7 +1898,8 @@
           "source": "rag-1912-09-13-guppy",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "route"
           ],
           "pages": "460–463"
         },
@@ -1904,6 +2017,23 @@
           "note": "\"new electric trains from High street to the Alameda mole\", from Thursday, June 1, 1911."
         },
         {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
           "id": "usgs-san-francisco-1915",
           "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
           "author": "U.S. Geological Survey",
@@ -1934,6 +2064,76 @@
           ]
         },
         {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "route",
+            "opened",
+            "closed",
+            "general"
+          ],
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
+        },
+        {
+          "id": "crc-d17743",
+          "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
+          "author": "Railroad Commission of the State of California",
+          "date": "1926-12-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17743_19261211_C1536.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d17743",
+          "supports": [
+            "route"
+          ],
+          "pages": "2, 7",
+          "note": "\"an electric railway from Oakland Mole via Seventh Street, private right-of-way, Bond Street, Beck Street, Blanche Street and Bancroft Avenue to Dutton Avenue in San Leandro\"; local service \"on Seventh Street from Pine Street as far as Fallon Street\" and \"its right-of-way from Fallon Street to Melrose Station\" (p. 7)."
+        },
+        {
           "id": "overture-roads-2026-09-23-1",
           "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
           "publisher": "Overture Maps Foundation",
@@ -1941,6 +2141,21 @@
           "type": "dataset",
           "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
           "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
           "supports": [
             "geometry"
           ]
@@ -1988,19 +2203,27 @@
         "needs_manual_digitizing"
       ],
       "undated": true,
-      "length_km": 6.74,
+      "length_km": 30.07,
       "confidence_km": {
-        "digitized": 6.74
+        "approximate": 5.93,
+        "digitized": 24.15
       },
       "bbox": [
-        -122.330874,
+        -122.397803,
         37.766631,
-        -122.240803,
-        37.796576
+        -122.20969,
+        37.824321
       ],
       "fids": [
-        27,
-        28
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
       ],
       "segments": [
         {
@@ -2018,6 +2241,110 @@
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
+          ]
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "ier-bridge-lead",
+          "name": "Interurban lead to 26th Street",
+          "opened": "1939-01-15",
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-16th-st-26th-st",
+          "name": "Sixteenth Street Station to 26th Street",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). Northeast from Sixteenth Street Station to the junction near the foot of 26th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-seventh-st",
+          "name": "Seventh Street, Oakland",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-oakland-mole at its end; then along today's 7th Street centerline from -122.30845,37.80840 to Fallon Street (4126 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Seventh Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-fallon-melrose",
+          "name": "Fallon Street to Melrose",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "note": "To Fruitvale Junction, then the Fruitvale Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "approximate",
+          "method": "Joined to sp-seventh-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland East 1:24,000 (1949) (10 hand-read points, centred on the line symbol). Along the Southern Pacific's right of way as the 1949 sheet draws it, from the estuary shore past Fruitvale station toward Melrose. The sources name the ends (Fallon Street, Melrose Station) but not the track between, the link from Seventh Street at Fallon Street to the shore tracks is joined straight, and where Melrose Station stood isn't sourced, so this is dashed.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced",
+            "geometry_unverified"
           ]
         },
         {
@@ -2050,7 +2377,8 @@
           "source": "rag-1912-09-13-guppy",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "route"
           ],
           "pages": "460–463"
         },
@@ -2153,6 +2481,23 @@
           "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
         },
         {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
           "id": "usgs-san-francisco-1915",
           "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
           "author": "U.S. Geological Survey",
@@ -2183,6 +2528,76 @@
           ]
         },
         {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "route",
+            "opened",
+            "closed",
+            "general"
+          ],
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
+        },
+        {
+          "id": "crc-d17743",
+          "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
+          "author": "Railroad Commission of the State of California",
+          "date": "1926-12-11",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17743_19261211_C1536.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d17743",
+          "supports": [
+            "route"
+          ],
+          "pages": "2, 7",
+          "note": "\"an electric railway from Oakland Mole via Seventh Street, private right-of-way, Bond Street, Beck Street, Blanche Street and Bancroft Avenue to Dutton Avenue in San Leandro\"; local service \"on Seventh Street from Pine Street as far as Fallon Street\" and \"its right-of-way from Fallon Street to Melrose Station\" (p. 7)."
+        },
+        {
           "id": "overture-roads-2026-09-23-1",
           "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
           "publisher": "Overture Maps Foundation",
@@ -2190,6 +2605,21 @@
           "type": "dataset",
           "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
           "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
           "supports": [
             "geometry"
           ]
@@ -2231,30 +2661,35 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked. The connection from the bridge (1939–41) is still to be drawn.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked.",
       "flags": [
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 13.71,
+      "length_km": 26.23,
       "confidence_km": {
-        "digitized": 13.71
+        "digitized": 26.23
       },
       "bbox": [
-        -122.33008,
-        37.808397,
+        -122.397803,
+        37.784751,
         -122.279565,
         37.891351
       ],
       "fids": [
-        13,
-        14,
-        15,
-        16,
-        17,
         18,
         19,
-        20
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
       ],
       "segments": [
         {
@@ -2293,8 +2728,8 @@
           "notes": "The Southern Pacific's main line, shared with its steam trains; its own dates aren't recorded here."
         },
         {
-          "id": "sp-16th-st-34th-st",
-          "name": "Sixteenth Street Station to 34th Street",
+          "id": "sp-16th-st-26th-st",
+          "name": "Sixteenth Street Station to 26th Street",
           "opened": null,
           "closed": null,
           "to": "1939-01-15",
@@ -2302,7 +2737,76 @@
           "borrowed": true,
           "undated": true,
           "confidence": "digitized",
-          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points). Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street.",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). Northeast from Sixteenth Street Station to the junction near the foot of 26th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "ier-bridge-lead",
+          "name": "Interurban lead to 26th Street",
+          "opened": "1939-01-15",
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-26th-st-34th-st",
+          "name": "26th Street to 34th Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-16th-st-26th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points). North by Wood Street to 34th Street.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -2317,7 +2821,7 @@
           "borrowed": true,
           "undated": true,
           "confidence": "digitized",
-          "method": "Joined to sp-16th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
+          "method": "Joined to sp-26th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -2487,6 +2991,23 @@
           "pages": "4–5"
         },
         {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -2504,19 +3025,58 @@
           "note": "The sheet labels it \"Oakland Mole\"."
         },
         {
-          "id": "haer-ca-164",
-          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
-          "author": "J. W. Snyder, Caltrans",
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
           "publisher": "National Park Service, Historic American Engineering Record",
-          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
           "type": "official",
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
-          "source": "haer-ca-164",
+          "source": "haer-ca-32",
           "supports": [
-            "route"
+            "route",
+            "opened",
+            "closed",
+            "general"
           ],
-          "note": "From 1939, Berkeley trains from the bridge joined the old Berkeley main line at 32nd Street."
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
         },
         {
           "id": "crc-d29615",
@@ -2618,22 +3178,27 @@
         "needs_manual_digitizing"
       ],
       "undated": true,
-      "length_km": 12.98,
+      "length_km": 26.26,
       "confidence_km": {
         "approximate": 5.93,
-        "digitized": 7.05
+        "digitized": 20.34
       },
       "bbox": [
-        -122.33008,
+        -122.397803,
         37.733615,
         -122.151014,
-        37.80914
+        37.824321
       ],
       "fids": [
-        21,
-        22,
-        23,
-        24
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
       ],
       "segments": [
         {
@@ -2648,6 +3213,77 @@
           "confidence": "digitized",
           "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
           "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "ier-bridge-lead",
+          "name": "Interurban lead to 26th Street",
+          "opened": "1939-01-15",
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-16th-st-26th-st",
+          "name": "Sixteenth Street Station to 26th Street",
+          "opened": null,
+          "closed": null,
+          "from": "1939-01-15",
+          "note": "From the 26th Street junction south toward 22nd Street",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). Northeast from Sixteenth Street Station to the junction near the foot of 26th Street.",
+          "structure": "surface",
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
@@ -2833,6 +3469,23 @@
           "note": "Steam trains ran on Seventh Street for the last time on the night of December 30, 1911."
         },
         {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -2848,6 +3501,60 @@
             "name"
           ],
           "note": "The sheet labels it \"Oakland Mole\"."
+        },
+        {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "route",
+            "opened",
+            "closed",
+            "general"
+          ],
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -2928,19 +3635,19 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked. The connection from the bridge to the old Berkeley main line (1939–41) is still to be drawn.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked.",
       "flags": [
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 13.32,
+      "length_km": 25.83,
       "confidence_km": {
         "approximate": 0.63,
-        "digitized": 12.69
+        "digitized": 25.21
       },
       "bbox": [
-        -122.33008,
-        37.808397,
+        -122.397803,
+        37.784751,
         -122.267071,
         37.891481
       ],
@@ -2956,7 +3663,12 @@
         9,
         10,
         11,
-        12
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
       ],
       "segments": [
         {
@@ -2995,8 +3707,8 @@
           "notes": "The Southern Pacific's main line, shared with its steam trains; its own dates aren't recorded here."
         },
         {
-          "id": "sp-16th-st-34th-st",
-          "name": "Sixteenth Street Station to 34th Street",
+          "id": "sp-16th-st-26th-st",
+          "name": "Sixteenth Street Station to 26th Street",
           "opened": null,
           "closed": null,
           "to": "1939-01-15",
@@ -3004,7 +3716,76 @@
           "borrowed": true,
           "undated": true,
           "confidence": "digitized",
-          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points). Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street.",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). Northeast from Sixteenth Street Station to the junction near the foot of 26th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "ier-bridge-lead",
+          "name": "Interurban lead to 26th Street",
+          "opened": "1939-01-15",
+          "closed": null,
+          "from": "1939-01-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). The Interurban's double-track lead from the bridge yards east to the Y at 26th Street, where it met the old Southern Pacific main line.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-26th-st-34th-st",
+          "name": "26th Street to 34th Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-16th-st-26th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points). North by Wood Street to 34th Street.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -3019,7 +3800,7 @@
           "borrowed": true,
           "undated": true,
           "confidence": "digitized",
-          "method": "Joined to sp-16th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
+          "method": "Joined to sp-26th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -3266,6 +4047,23 @@
           "note": "The first electric train ran over the Shattuck Avenue line on a trial trip on December 22, 1911."
         },
         {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5–6",
+          "note": "From 1939, Seventh Street and Alameda trains joined the old Berkeley main line at 22nd Street, and Berkeley trains at 32nd Street."
+        },
+        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -3283,19 +4081,58 @@
           "note": "The sheet labels it \"Oakland Mole\"."
         },
         {
-          "id": "haer-ca-164",
-          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
-          "author": "J. W. Snyder, Caltrans",
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
           "publisher": "National Park Service, Historic American Engineering Record",
-          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
           "type": "official",
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
-          "source": "haer-ca-164",
+          "source": "haer-ca-32",
           "supports": [
-            "route"
+            "route",
+            "opened",
+            "closed",
+            "general"
           ],
-          "note": "From 1939, Berkeley trains from the bridge joined the old Berkeley main line at 32nd Street."
+          "pages": "14–15, 31, 212, 215, 231",
+          "note": "\"an elevated concrete and steel structure that looped some two-thirds of a mile\" (p. 31); \"The last trains crossed the Bay Bridge in 1958\" (p. 215)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
         },
         {
           "id": "crc-d29615",

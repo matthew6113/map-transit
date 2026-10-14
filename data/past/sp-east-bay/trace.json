@@ -232,7 +232,7 @@
       "est_error_m": 25,
       "note": "The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain"
     },
-    "sp-16th-st-34th-st": {
+    "sp-16th-st-26th-st": {
       "parts": [
         {
           "join": "sp-mole-16th-st",
@@ -259,6 +259,34 @@
               540
             ],
             [
+              336,
+              526
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 30,
+      "note": "Northeast from Sixteenth Street Station to the junction near the foot of 26th Street"
+    },
+    "sp-26th-st-34th-st": {
+      "parts": [
+        {
+          "join": "sp-16th-st-26th-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.3,
+              37.812,
+              -122.286,
+              37.832
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
               370,
               450
             ],
@@ -269,13 +297,13 @@
           ]
         }
       ],
-      "est_error_m": 20,
-      "note": "Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street"
+      "est_error_m": 40,
+      "note": "North by Wood Street to 34th Street"
     },
     "sp-wood-st": {
       "parts": [
         {
-          "join": "sp-16th-st-34th-st",
+          "join": "sp-26th-st-34th-st",
           "at": "end"
         },
         {
