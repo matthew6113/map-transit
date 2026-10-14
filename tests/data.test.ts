@@ -224,6 +224,34 @@ describe('app files (data/app/)', () => {
     expect(have).toEqual(want);
   });
 
+  it('give every stroke a slot, and spread Market St\'s three modes apart (decision 10)', () => {
+    type Feat = { properties: { off: number; group: string }; geometry: { coordinates: number[][] } };
+    for (const era of ['present', 'future']) {
+      for (const kind of ['draw', 'lines']) {
+        const fs: Feat[] = read(join(DATA, 'app', `${era}-${kind}.geojson`)).features;
+        for (const f of fs) {
+          expect(Number.isInteger(f.properties.off * 2) && Math.abs(f.properties.off) <= 3, `${era}-${kind} off ${f.properties.off}`).toBe(true);
+        }
+      }
+    }
+    // Market St at Powell: BART, Muni Metro and the F, each in its own slot.
+    const inBox = ([x, y]: number[]) => x > -122.412 && x < -122.403 && y > 37.781 && y < 37.788;
+    const atPowell = (f: Feat) => f.geometry.coordinates.slice(1).some((b, i) => {
+      const a = f.geometry.coordinates[i];
+      return Array.from({ length: 21 }, (_, k) => [a[0] + ((b[0] - a[0]) * k) / 20, a[1] + ((b[1] - a[1]) * k) / 20]).some(inBox);
+    });
+    const draw: Feat[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
+    const slots = new Map<string, Set<number>>();
+    for (const f of draw.filter(atPowell)) {
+      if (!['heavy_rail', 'light_rail', 'streetcar'].includes(f.properties.group)) continue;
+      slots.set(f.properties.group, (slots.get(f.properties.group) ?? new Set()).add(Math.abs(f.properties.off)));
+    }
+    expect([...slots.keys()].sort()).toEqual(['heavy_rail', 'light_rail', 'streetcar']);
+    expect(slots.get('light_rail')).toEqual(new Set([0]));
+    expect(slots.get('heavy_rail')).toEqual(new Set([1]));
+    expect(slots.get('streetcar')).toEqual(new Set([1]));
+  });
+
   it('resolve every cited source into the catalog', () => {
     for (const l of catalog.lines) {
       for (const s of l.sources) expect(s.title, `${l.id}: ${s.source}`).toBeTruthy();

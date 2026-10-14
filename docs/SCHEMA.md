@@ -26,9 +26,12 @@ There are two kinds of "what happened to it":
 The app doesn't read these files directly. `make app-data` (`pipeline/transit_pipeline/build.py`)
 flattens them into `data/app/`:
 
-- `<era>-draw.geojson`: one feature per segment. These are the visible strokes.
-- `<era>-lines.geojson`: one feature per line × segment use, oriented in route order. These are used
-  for hovering, selecting and drawing the line during the flight.
+- `<era>-draw.geojson`: one feature per segment piece. These are the visible strokes.
+- `<era>-lines.geojson`: one feature per line × segment piece, in route order. These are used for
+  hovering, selecting and drawing the line during the flight.
+- A segment is cut into pieces where it runs alongside a different mode. Each piece's `off` is its slot
+  across the path: 0 alone, else -1, 0 or 1 for three modes, and -0.5 or 0.5 for two. Close in, the
+  map spreads the pieces apart by their slot (decision 10).
 - `<era>-points.geojson`: stations and other points.
 - `catalog.json`: every line, with its sources resolved, for the panel and the list.
 

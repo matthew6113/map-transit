@@ -54,6 +54,11 @@
       "fadeInYears": 1,
       "fadeOutYears": 2
     },
+    "sideBySide": {
+      "note": "Different modes on the same path spread apart close in (decision 10): px per slot at each zoom.",
+      "zooms": [12.5, 13.5, 15, 17],
+      "px": [0, 3.5, 7, 14]
+    },
     "status": {
       "note": "Future status as solidity, not hue (decision 2). Placeholder: Phase 3 shows options.",
       "planned": 0.5,

@@ -10,7 +10,9 @@
  *
  * Encodings (docs/DECISIONS.md): hue and width are mode; a dash is approximate geometry; a hollow
  * tube is a tunnel or subway; a lighter tint is a date borrowed from the line; future status is
- * solidity; the ghost overlay is faint and uncased.
+ * solidity; the ghost overlay is faint and uncased. Close in, different modes on the same path spread
+ * apart by their slot, `off` (decision 10); the open line's drawing and the stations stay on the true
+ * path.
  *
  * The year is not in the style at all. In the past era, every layer's opacity reads a feature-state
  * `vis`, which src/timeline/visibility.ts sets only on the features crossing the year: a filter or a
@@ -62,6 +64,13 @@ function width(theme: Theme, z6: number, z10: number, z15: number, extra = 0): E
     10, byGroup(theme, (g) => w(g, z10)),
     15, byGroup(theme, (g) => w(g, z15)),
   ];
+}
+
+/** Different modes on the same path, side by side close in: each piece's slot times the spacing. */
+function offset(theme: Theme): ExpressionSpecification {
+  const { zooms, px } = theme.transit.sideBySide;
+  return ['interpolate', ['linear'], ['zoom'],
+    ...zooms.flatMap((z, i) => [z, ['*', ['coalesce', ['get', 'off'], 0], px[i]]])] as unknown as ExpressionSpecification;
 }
 
 /** The mode color, or a lighter tint (toward the paper) where the dates were borrowed from the line. */
@@ -132,6 +141,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
     });
   }
 
+  const off = offset(theme);
   for (const d of DATASETS[view.era]) {
     const base = [...pastFilter(view), ...groupFilter(view)];
     const src = `transit-${d}-draw`;
@@ -143,7 +153,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(...base),
         layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': c.land, 'line-width': width(theme, 2.8, 4.8, 11), 'line-opacity': opacity(theme, d, view.era) },
+        paint: { 'line-color': c.land, 'line-width': width(theme, 2.8, 4.8, 11), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
       },
       {
         id: `transit-${d}-solid`,
@@ -151,7 +161,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], ['!', TUBE], ...base),
         layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.5, 2.6, 6.5), 'line-opacity': opacity(theme, d, view.era) },
+        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.5, 2.6, 6.5), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
       },
       {
         // Tunnels and subways: a hollow tube (BAM's convention).
@@ -160,7 +170,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], TUBE, ...base),
         layout: { 'line-join': 'round', 'line-cap': 'butt' },
-        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.9, 3.3, 9), 'line-opacity': opacity(theme, d, view.era) },
+        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.9, 3.3, 9), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
       },
       {
         id: `transit-${d}-tube-hollow`,
@@ -168,7 +178,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], TUBE, ...base),
         layout: { 'line-join': 'round', 'line-cap': 'butt' },
-        paint: { 'line-color': c.land, 'line-width': width(theme, 0.6, 1.3, 4.5), 'line-opacity': opacity(theme, d, view.era) },
+        paint: { 'line-color': c.land, 'line-width': width(theme, 0.6, 1.3, 4.5), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
       },
       {
         // Approximate geometry (reconstructed from text) is dashed, whatever its structure.
@@ -182,6 +192,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
           'line-width': width(theme, 1.5, 2.6, 6.5),
           'line-opacity': opacity(theme, d, view.era),
           'line-dasharray': [2, 1.6],
+          'line-offset': off,
         },
       },
       {
@@ -194,6 +205,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         paint: {
           'line-color': byGroup(theme, (g) => modeColor(theme, g)),
           'line-width': width(theme, 3, 5, 11),
+          'line-offset': off,
           'line-opacity': ['*', view.era === 'past' ? VIS : 1, ['case',
             ['boolean', ['feature-state', 'selected'], false], 1,
             ['boolean', ['feature-state', 'hover'], false], 0.9,
@@ -269,7 +281,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
       type: 'line',
       source: `transit-${d}-lines`,
       filter: all(...pastFilter(view), ...groupFilter(view)),
-      paint: { 'line-color': '#000000', 'line-opacity': 0, 'line-width': 16 },
+      paint: { 'line-color': '#000000', 'line-opacity': 0, 'line-width': 16, 'line-offset': offset(theme) },
     });
   }
   return layers;

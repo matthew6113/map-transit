@@ -3,10 +3,15 @@
 The authoring data is two-level: segments are physical rights-of-way with their own dates; lines are
 named services that use segments over time (docs/SCHEMA.md). The app gets flat files per era:
 
-- <era>-draw.geojson    one feature per segment: the visible strokes. Overlapping lines share one
-                        stroke, so translucent fades and the ghost overlay never double up.
-- <era>-lines.geojson   one feature per line x segment use, oriented in route order: hit-testing,
-                        hover and selection highlights, and the selected line drawing itself.
+- <era>-draw.geojson    one feature per segment piece: the visible strokes. Overlapping lines of one
+                        mode share one stroke, so translucent fades and the ghost overlay never
+                        double up.
+- <era>-lines.geojson   one feature per line x segment piece, in route order: hit-testing, hover and
+                        selection highlights, and the selected line drawing itself.
+
+A segment is cut into pieces where it runs alongside another mode, and each piece carries `off`, its
+slot across the path, so different modes are drawn side by side close in (side_by_side.py, decision
+10). The past era waits for Phase 2, where the slots need to know who ran when; there `off` is 0.
 - <era>-points.geojson  stations, piers, terminals, carbarns.
 - catalog.json          every line with its resolved sources, for the panel and the list.
 
@@ -28,6 +33,7 @@ from datetime import date
 from pathlib import Path
 
 from .common import APP, DATA, MODE_GROUP, ROOT, SOURCES, SYSTEMS, VOCAB, write_geojson, write_json
+from .side_by_side import Paths
 
 ERAS = ("past", "present", "future")
 OPEN_ENDED = 9999.0  # still running (or not yet open): no closing year
@@ -175,14 +181,26 @@ def main() -> None:
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": status,
             }})
 
+        # Different modes on the same path, side by side close in (decision 10).
+        paths = Paths(draw) if era != "past" else None
+
+        def slots(parts, group):
+            for part in parts:
+                yield from (paths.split(part, group) if paths else [(part, 0.0)])
+
+        pieces_out = []
+        for f in draw:
+            for coords, off in slots(parts_of(f["geometry"]), f["properties"]["group"]):
+                pieces_out.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords},
+                                   "properties": {**f["properties"], "fid": len(pieces_out) + 1, "off": off}})
+        draw = pieces_out
+
         fid = 0
         for line in lines:
             pieces = [parts_of(segments[r["segment"]]["geometry"]) for r in line["route"]]
             oriented = orient(pieces)
             fids = []
             for r, parts in zip(line["route"], oriented):
-                fid += 1
-                fids.append(fid)
                 seg = segments[r["segment"]]["properties"]
                 o, c, borrowed, undated = seg_display[r["segment"]]
                 # A line's use of a segment can be narrower than the segment's own life.
@@ -190,13 +208,16 @@ def main() -> None:
                     o = max(o or -math.inf, decimal_year(r["from"]))
                 if r.get("to"):
                     c = min(c if c is not None else math.inf, decimal_year(r["to"]))
-                geom = {"type": "LineString", "coordinates": parts[0]} if len(parts) == 1 else {"type": "MultiLineString", "coordinates": parts}
-                line_feats.append({"type": "Feature", "geometry": geom, "properties": {
-                    "fid": fid, "line": line["id"], "seg": r["segment"], "era": era, "name": line["name"],
-                    "mode": line["mode"], "group": MODE_GROUP[line["mode"]], "conf": seg["geometry_confidence"],
-                    "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
-                    "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": line["status"],
-                }})
+                for coords, off in slots(parts, MODE_GROUP[line["mode"]]):
+                    fid += 1
+                    fids.append(fid)
+                    line_feats.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords}, "properties": {
+                        "fid": fid, "line": line["id"], "seg": r["segment"], "era": era, "name": line["name"],
+                        "mode": line["mode"], "group": MODE_GROUP[line["mode"]], "conf": seg["geometry_confidence"],
+                        "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
+                        "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": line["status"],
+                        "off": off,
+                    }})
             lo, lc = line_years(line)
             segs_km = defaultdict(float)
             for r, parts in zip(line["route"], oriented):

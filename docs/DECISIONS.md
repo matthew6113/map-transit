@@ -50,6 +50,24 @@ Choices made so far, newest last within each section. A decision waiting on Matt
      flagged `conflicting_sources`.
    - The method is in "Present-era data" below.
 
+## Made by Matthew (2026-10-14, Phase 1 review)
+
+10. **Different modes on the same path are drawn side by side, close in.**
+    - The case is Market St: BART and Muni Metro run in stacked subways with the F on the street
+      above, so one stroke hid the other two.
+    - From zoom 13, lines of different modes that run within 12 m of each other for at least 150 m
+      are drawn a few pixels apart. That's 3.5 px a slot at z13.5, 7 at z15 and 14 at z17.
+    - One mode's shared track stays one stroke, as decision 2 says: BART's colors, the Muni Metro
+      letters, Caltrain with the Capitol Corridor.
+    - The slots keep the real order across the path. Stacked tunnels within 4 m are ordered by mode.
+    - A crossing street touches a line for less than 150 m, so it never jogs.
+    - The open line's drawing and the stations stay on the true path.
+    - Today this applies on Market St, on upper Market (the F with Muni Metro), and on short
+      side-by-side stretches at SFO, Millbrae and Mountain View.
+    - The past era is left out for now. Phase 2 has to make the slots time-aware, so that lines that
+      never ran together don't push each other aside.
+    - Code: `pipeline/transit_pipeline/side_by_side.py` and the `off` property in `data/app/`.
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**
@@ -125,6 +143,7 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
 | Lighter tint | Display dates borrowed from the line |
 | Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). |
 | Faint, uncased | Ghost overlay |
+| Lines a few pixels apart, close in | Different modes on the same path (decision 10) |
 
 - **Known merge conflict.** In BAM a dash means *proposed*; here it means *approximate*, as
   Matthew's brief asks. When the maps merge, BAM's proposed treatment should move to its own
