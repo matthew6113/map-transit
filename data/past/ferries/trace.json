@@ -1,0 +1,57 @@
+{
+  "$comment": "Recipes for the geometry (pipeline/transit_pipeline/past.py): courses over water between terminals traced off the 1950 USGS sheets.",
+  "segments": {
+    "ggf-hyde-sausalito-course": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.42076,
+              37.80985
+            ],
+            [
+              -122.47737,
+              37.85646
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "points": {
+    "ferry-hyde-street-pier": {
+      "trace": {
+        "sheet": "usgs-san-francisco-north-1950",
+        "bbox": [
+          -122.427,
+          37.804,
+          -122.417,
+          37.812
+        ],
+        "zoom": 2
+      },
+      "px": [
+        540,
+        235
+      ],
+      "est_error_m": 30
+    },
+    "ferry-sausalito-nwp": {
+      "trace": {
+        "sheet": "usgs-san-francisco-north-1950",
+        "bbox": [
+          -122.484,
+          37.85,
+          -122.47,
+          37.862
+        ],
+        "zoom": 1.5
+      },
+      "px": [
+        430,
+        455
+      ],
+      "est_error_m": 30
+    }
+  }
+}

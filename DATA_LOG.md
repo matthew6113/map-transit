@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`) and the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -149,6 +149,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | San Francisco directories: the *Business Directory and Mercantile Guide* for 1864–65 and Langley's directory of 1867, from archive.org | primary_document | Public domain (published 1864, 1867) |
 | *Southern Pacific Bulletin*, January 1936 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only |
 | HAER CA-32 (Bay Bridge) and CA-164 (IER Bridge Yard Shop), Library of Congress | official | Public domain (U.S. Government work) |
+| National Park Service, San Francisco Maritime National Historical Park: Hyde Street Pier history | official | Public domain (U.S. Government work) |
 | California Highways and Public Works (1939) | official | California public record; cited for facts |
 | Railway Signaling, March 1939 | journal | Unclear (1939); cited for facts |
 | Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
@@ -235,9 +236,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 25 | 93 | 8 | 0 | 138.7 | 9.8 | 4 | 68 |
+| past | 27 | 95 | 10 | 0 | 138.7 | 21.9 | 4 | 68 |
 | present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 73, `conflicting_sources` 8, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 371, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 74, `conflicting_sources` 8, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 372, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

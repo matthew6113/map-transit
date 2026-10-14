@@ -449,6 +449,22 @@
       "check": "usgs-richmond-1949",
       "est_error_m": 40,
       "note": "Private right of way and Hopkins Street to El Dorado Avenue; drawn along today's Hopkins Street"
+    },
+    "key-ferry": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.39341,
+              37.79553
+            ],
+            [
+              -122.347544,
+              37.817801
+            ]
+          ]
+        }
+      ]
     }
   },
   "points": {

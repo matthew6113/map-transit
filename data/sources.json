@@ -1252,6 +1252,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d31113",
+      "title": "Railroad Commission of California, Decision No. 31113 (Application No. 22066)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1938-07-19",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D31113_19380719_A22066.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Southern Pacific Golden Gate Ferries asks to abandon its ferries \"Between San Francisco (Hyde Street Terminal) and Sausalito\" and between the foot of Market St and Tiburon. Under Decision No. 20925 (April 1, 1929) the Northwestern Pacific's auto ferry rights between San Francisco and Sausalito passed to the ferry company, which was to use \"the terminal properties of the Northwestern Pacific Railroad Company at Sausalito and Tiburon\" (OCR)."
+    },
+    {
       "id": "crc-d33445",
       "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
       "author": "Railroad Commission of the State of California",
@@ -1536,6 +1546,15 @@
       "url": "https://es.mtc.ca.gov/node/1091",
       "accessed": "2026-10-14",
       "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
+    },
+    {
+      "id": "nps-hyde-street-pier",
+      "title": "Hyde Street Pier",
+      "publisher": "National Park Service, San Francisco Maritime National Historical Park",
+      "type": "official",
+      "url": "https://www.nps.gov/safr/learn/historyculture/hyde-street-pier.htm",
+      "accessed": "2026-10-14",
+      "notes": "\"Constructed by the Golden Gate Ferries, Ltd., the pier began as a single-slip ferry landing.\" \"The first ferry run departed Hyde Street Pier on May 28, 1922.\" \"The first ferry on the Berkeley run departed on June 16, 1927.\" In 1928 the company merged with the Southern Pacific to form Southern Pacific-Golden Gate Ferries, Ltd. The slips that had served the Sausalito run were removed in 1934 and replaced by one slip farther north. \"The last ferry departed Hyde Street Pier on July 25, 1938.\""
     },
     {
       "id": "oakland-tribune-1904-02-04",

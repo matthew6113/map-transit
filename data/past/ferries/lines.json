@@ -1,0 +1,55 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Historic ferries (Phase 2b.D): routes drawn over water between their sourced terminals (transit_pipeline.water).",
+  "lines": [
+    {
+      "id": "ggf-hyde-sausalito",
+      "name": "Hyde Street–Sausalito auto ferry",
+      "system": "golden-gate-ferries",
+      "operators": [
+        {
+          "name": "Golden Gate Ferries, Ltd.",
+          "from": "1922-05-28",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": "1938-07-25"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1922-05-28",
+      "closed": "1938-07-25",
+      "status": "closed",
+      "summary": "Auto ferries from Hyde Street Pier to Sausalito, the first of the Golden Gate ferries, until the bridges opened.",
+      "fate": "abandoned",
+      "fate_note": "The last ferry left Hyde Street Pier on July 25, 1938, after the Bay Bridge (1936) and the Golden Gate Bridge (1937) opened (NPS).",
+      "route": [
+        {
+          "segment": "ggf-hyde-sausalito-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "nps-hyde-street-pier",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ]
+        },
+        {
+          "source": "crc-d31113",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "note": "The Southern Pacific's ferry company took over the Northwestern Pacific's auto ferry rights on May 1, 1929, and asked in 1938 to abandon the Hyde Street–Sausalito run."
+        }
+      ],
+      "flags": [],
+      "notes": "NPS dates the merger with the Southern Pacific to 1928; the Railroad Commission's decision has the combined company taking over on May 1, 1929."
+    }
+  ]
+}

@@ -141,6 +141,12 @@
       "id": "vta",
       "name": "Santa Clara Valley Transportation Authority",
       "short_name": "VTA"
+    },
+    {
+      "id": "golden-gate-ferries",
+      "name": "Golden Gate Ferries",
+      "short_name": "Golden Gate Ferries",
+      "notes": "The auto ferries from Hyde Street, 1922–1938: Golden Gate Ferries, Ltd., then from 1929 Southern Pacific-Golden Gate Ferries, Ltd. Not today's Golden Gate Ferry."
     }
   ]
 }

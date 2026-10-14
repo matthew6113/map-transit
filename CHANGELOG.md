@@ -2,6 +2,13 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2b, the first historic ferries
+
+- **The Key Route ferry** from its pier to the Ferry Building, 1903–1939, and **the Hyde
+  Street–Sausalito auto ferry**, 1922–1938 (`data/past/ferries/`), with its terminals traced off
+  the 1950 USGS sheet. Courses are drawn over water between the terminals and dashed: the sources
+  give the terminals, not the course.
+
 ## 2026-10-14: Phase 2b, Muni's streetcar years
 
 - Today's J, K, L, M and N now draw as streetcar lines in the past era until their weekday Metro

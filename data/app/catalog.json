@@ -1728,8 +1728,8 @@
         37.788015
       ],
       "fids": [
-        89,
-        90
+        91,
+        92
       ],
       "segments": [
         {
@@ -1854,14 +1854,14 @@
         37.793407
       ],
       "fids": [
-        91,
-        92,
         93,
         94,
         95,
         96,
         97,
-        98
+        98,
+        99,
+        100
       ],
       "segments": [
         {
@@ -2091,7 +2091,6 @@
         37.891454
       ],
       "fids": [
-        1,
         2,
         3,
         4,
@@ -2107,7 +2106,8 @@
         14,
         15,
         16,
-        17
+        17,
+        18
       ],
       "segments": [
         {
@@ -2712,8 +2712,8 @@
         37.790421
       ],
       "fids": [
-        65,
-        66
+        67,
+        68
       ],
       "segments": [
         {
@@ -2841,7 +2841,7 @@
         37.760891
       ],
       "fids": [
-        88
+        90
       ],
       "segments": [
         {
@@ -2961,7 +2961,7 @@
         37.794462
       ],
       "fids": [
-        56
+        58
       ],
       "segments": [
         {
@@ -3085,8 +3085,6 @@
         37.80035
       ],
       "fids": [
-        99,
-        100,
         101,
         102,
         103,
@@ -3096,7 +3094,9 @@
         107,
         108,
         109,
-        110
+        110,
+        111,
+        112
       ],
       "segments": [
         {
@@ -3415,15 +3415,15 @@
         37.824321
       ],
       "fids": [
-        150,
-        151,
         152,
         153,
         154,
         155,
         156,
         157,
-        158
+        158,
+        159,
+        160
       ],
       "segments": [
         {
@@ -3900,7 +3900,7 @@
         37.788015
       ],
       "fids": [
-        83
+        85
       ],
       "segments": [
         {
@@ -3995,6 +3995,109 @@
       ]
     },
     {
+      "id": "ggf-hyde-sausalito",
+      "name": "Hyde Street–Sausalito auto ferry",
+      "system": "golden-gate-ferries",
+      "system_name": "Golden Gate Ferries",
+      "operators": [
+        {
+          "name": "Golden Gate Ferries, Ltd.",
+          "from": "1922-05-28",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": "1938-07-25"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1922-05-28",
+      "closed": "1938-07-25",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Auto ferries from Hyde Street Pier to Sausalito, the first of the Golden Gate ferries, until the bridges opened.",
+      "fate": "abandoned",
+      "fate_note": "The last ferry left Hyde Street Pier on July 25, 1938, after the Bay Bridge (1936) and the Golden Gate Bridge (1937) opened (NPS).",
+      "notes": "NPS dates the merger with the Southern Pacific to 1928; the Railroad Commission's decision has the combined company taking over on May 1, 1929.",
+      "flags": [],
+      "undated": false,
+      "length_km": 7.17,
+      "confidence_km": {
+        "approximate": 7.17
+      },
+      "bbox": [
+        -122.47737,
+        37.80985,
+        -122.42076,
+        37.85646
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "ggf-hyde-sausalito-course",
+          "name": "Ferry, Hyde Street to Sausalito",
+          "opened": "1922-05-28",
+          "closed": "1938-07-25",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.42076,37.80985 to -122.47737,37.85646 (7189 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [],
+          "notes": "The course isn't recorded: drawn as the shortest way over water between the terminals."
+        }
+      ],
+      "sources": [
+        {
+          "id": "nps-hyde-street-pier",
+          "title": "Hyde Street Pier",
+          "publisher": "National Park Service, San Francisco Maritime National Historical Park",
+          "type": "official",
+          "url": "https://www.nps.gov/safr/learn/historyculture/hyde-street-pier.htm",
+          "accessed": "2026-10-14",
+          "source": "nps-hyde-street-pier",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ]
+        },
+        {
+          "id": "crc-d31113",
+          "title": "Railroad Commission of California, Decision No. 31113 (Application No. 22066)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1938-07-19",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D31113_19380719_A22066.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d31113",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "note": "The Southern Pacific's ferry company took over the Northwestern Pacific's auto ferry rights on May 1, 1929, and asked in 1938 to abandon the Hyde Street–Sausalito run."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-jones-st-shuttle",
       "name": "Jones Street shuttle",
       "system": "california-street-cable-railroad",
@@ -4041,7 +4144,7 @@
         37.785808
       ],
       "fids": [
-        72
+        74
       ],
       "segments": [
         {
@@ -4108,6 +4211,135 @@
       ]
     },
     {
+      "id": "key-ferry",
+      "name": "Key Route ferry",
+      "system": "key-system",
+      "system_name": "Key System",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": "1903-10-26",
+          "to": "1939-01-15"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1903-10-26",
+      "closed": "1939-01-15",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Key Route's ferries from the end of its pier to the Ferry Building in San Francisco, meeting every train.",
+      "fate": "abandoned",
+      "fate_note": "Ended when the Key System's trains began running over the Bay Bridge on January 15, 1939.",
+      "flags": [],
+      "undated": false,
+      "length_km": 4.93,
+      "confidence_km": {
+        "approximate": 4.93
+      },
+      "bbox": [
+        -122.39341,
+        37.79553,
+        -122.347544,
+        37.817801
+      ],
+      "fids": [
+        57
+      ],
+      "segments": [
+        {
+          "id": "key-ferry",
+          "name": "Ferry, Key Route pier to the Ferry Building",
+          "opened": "1903-10-26",
+          "closed": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.39341,37.79553 to -122.34754,37.81780 (4936 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [],
+          "notes": "The course isn't recorded: drawn as the shortest way over water between the terminals, round Yerba Buena Island."
+        }
+      ],
+      "sources": [
+        {
+          "id": "srj-1904-02-20-key-route-2",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+          "publisher": "Street Railway Journal 23(8)",
+          "date": "1904-02-20",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903): trains to the pier, and ferries on to San Francisco."
+        },
+        {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "closed"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939, replacing the ferries."
+        },
+        {
+          "id": "srj-1904-02-13-key-route-1",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+          "publisher": "Street Railway Journal 23(7)",
+          "date": "1904-02-13",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ],
+          "note": "The San Francisco end: the Ferry Building's ferry terminal as 511's GTFS places it today."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-lincoln-avenue",
       "name": "Lincoln Avenue line",
       "system": "southern-pacific",
@@ -4159,15 +4391,15 @@
         37.824321
       ],
       "fids": [
-        159,
-        160,
         161,
         162,
         163,
         164,
         165,
         166,
-        167
+        167,
+        168,
+        169
       ],
       "segments": [
         {
@@ -4637,8 +4869,6 @@
         37.891351
       ],
       "fids": [
-        128,
-        129,
         130,
         131,
         132,
@@ -4649,7 +4879,9 @@
         137,
         138,
         139,
-        140
+        140,
+        141,
+        142
       ],
       "segments": [
         {
@@ -5163,11 +5395,11 @@
         37.806637
       ],
       "fids": [
-        67,
-        68,
         69,
         70,
-        71
+        71,
+        72,
+        73
       ],
       "segments": [
         {
@@ -5352,12 +5584,12 @@
         37.7762
       ],
       "fids": [
-        179,
-        180,
         181,
         182,
         183,
-        184
+        184,
+        185,
+        186
       ],
       "segments": [
         {
@@ -5634,8 +5866,6 @@
         37.7762
       ],
       "fids": [
-        168,
-        169,
         170,
         171,
         172,
@@ -5644,7 +5874,9 @@
         175,
         176,
         177,
-        178
+        178,
+        179,
+        180
       ],
       "segments": [
         {
@@ -6110,14 +6342,14 @@
         37.830986
       ],
       "fids": [
-        18,
         19,
         20,
         21,
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
       "segments": [
         {
@@ -6526,7 +6758,6 @@
         37.887944
       ],
       "fids": [
-        44,
         45,
         46,
         47,
@@ -6537,7 +6768,8 @@
         52,
         53,
         54,
-        55
+        55,
+        56
       ],
       "segments": [
         {
@@ -6992,12 +7224,12 @@
         37.795493
       ],
       "fids": [
-        57,
-        58,
         59,
         60,
         61,
-        62
+        62,
+        63,
+        64
       ],
       "segments": [
         {
@@ -7205,15 +7437,15 @@
         37.824321
       ],
       "fids": [
-        141,
-        142,
         143,
         144,
         145,
         146,
         147,
         148,
-        149
+        149,
+        150,
+        151
       ],
       "segments": [
         {
@@ -7712,8 +7944,6 @@
         37.891481
       ],
       "fids": [
-        111,
-        112,
         113,
         114,
         115,
@@ -7728,7 +7958,9 @@
         124,
         125,
         126,
-        127
+        127,
+        128,
+        129
       ],
       "segments": [
         {
@@ -8343,8 +8575,8 @@
         37.790312
       ],
       "fids": [
-        63,
-        64
+        65,
+        66
       ],
       "segments": [
         {
@@ -8468,7 +8700,6 @@
         37.82911
       ],
       "fids": [
-        34,
         35,
         36,
         37,
@@ -8477,7 +8708,8 @@
         40,
         41,
         42,
-        43
+        43,
+        44
       ],
       "segments": [
         {
@@ -8931,14 +9163,14 @@
         37.82911
       ],
       "fids": [
-        26,
         27,
         28,
         29,
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
       "segments": [
         {
@@ -9324,10 +9556,10 @@
         37.80035
       ],
       "fids": [
-        84,
-        85,
         86,
-        87
+        87,
+        88,
+        89
       ],
       "segments": [
         {
@@ -9513,8 +9745,6 @@
         37.79562
       ],
       "fids": [
-        73,
-        74,
         75,
         76,
         77,
@@ -9522,7 +9752,9 @@
         79,
         80,
         81,
-        82
+        82,
+        83,
+        84
       ],
       "segments": [
         {
