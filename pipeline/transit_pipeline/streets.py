@@ -41,6 +41,7 @@ BBOX = (-122.36, 37.70, -122.15, 37.93)
 CACHE = RAW / "overture" / OVERTURE_RELEASE / "eastbay-roads.parquet"
 SOURCE_ID = "overture-roads-2026-09-23-1"
 SNAP_M = 30.0  # a cross street that stops short of the route still names the corner
+BRIDGE_M = 30.0  # dead ends this close to another node of the same streets are joined
 
 SUFFIX = {"avenue": "ave", "street": "st", "boulevard": "blvd", "road": "rd", "drive": "dr", "place": "pl",
           "court": "ct", "lane": "ln", "terrace": "ter", "highway": "hwy", "parkway": "pkwy", "way": "way",
@@ -128,6 +129,15 @@ def route(names: list[str], start: str | tuple[float, float], end: str | tuple[f
         u, v = key(piece.coords[0]), key(piece.coords[-1])
         graph.setdefault(u, []).append((v, piece.length, piece))
         graph.setdefault(v, []).append((u, piece.length, piece))
+    # A divided road's carriageways, and a street interrupted by an unnamed link, leave dead ends a few
+    # metres from the rest: bridge each dead end to the nearest node within BRIDGE_M.
+    nodes = list(graph)
+    for u in [n for n in nodes if len(graph[n]) == 1]:
+        best = min((Point(u).distance(Point(v)), v) for v in nodes if v != u and v not in {w for w, _, _ in graph[u]})
+        if best[0] <= BRIDGE_M:
+            link = LineString([u, best[1]])
+            graph[u].append((best[1], link.length, link))
+            graph[best[1]].append((u, link.length, link))
     src = min(graph, key=lambda k: Point(k).distance(a))
     dst = min(graph, key=lambda k: Point(k).distance(b))
     dist, prev = {src: 0.0}, {}

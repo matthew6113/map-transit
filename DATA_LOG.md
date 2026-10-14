@@ -185,9 +185,9 @@ Railway. The tools for it are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 0 | 10 | 0 | 0 | 19.2 | 0 | 10 | 0 |
+| past | 2 | 18 | 4 | 0 | 28.1 | 0.6 | 18 | 16 |
 | present | 44 | 44 | 275 | 2167.4 | 0 | 0 | 44 | 0 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 10, `expected_opening_unsourced` 6, `license_unclear` 50, `opened_unsourced` 373, `status_unverified` 6.
+Open flags: `closed_unsourced` 22, `expected_opening_unsourced` 6, `geometry_unverified` 1, `license_unclear` 50, `opened_unsourced` 387, `status_unverified` 6.
 <!-- coverage:end -->

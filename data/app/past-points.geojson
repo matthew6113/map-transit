@@ -1,3 +1,6 @@
 {"type": "FeatureCollection", "features": [
-
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.33008,37.809095]},"properties":{"fid":1,"id":"sp-oakland-pier","name":"Oakland Pier","kind":"ferry_terminal","era":"past","group":"interurban","status":"","lines":",sp-shattuck-avenue,sp-ninth-street,","open_y":-1,"close_y":1941.5,"borrowed":1,"undated":1}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.296723,37.814647]},"properties":{"fid":2,"id":"sp-sixteenth-street","name":"Sixteenth Street Station","kind":"station","era":"past","group":"interurban","status":"","lines":",sp-shattuck-avenue,sp-ninth-street,","open_y":-1,"close_y":1941.5,"borrowed":1,"undated":1}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.272384,37.888488]},"properties":{"fid":3,"id":"sp-northbrae","name":"Northbrae","kind":"station","era":"past","group":"interurban","status":"","lines":",sp-shattuck-avenue,","open_y":-1,"close_y":1941.5,"borrowed":1,"undated":1}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.279565,37.891351]},"properties":{"fid":4,"id":"sp-thousand-oaks","name":"Thousand Oaks","kind":"station","era":"past","group":"interurban","status":"","lines":",sp-shattuck-avenue,sp-ninth-street,","open_y":-1,"close_y":1941.5,"borrowed":1,"undated":1}}
 ]}

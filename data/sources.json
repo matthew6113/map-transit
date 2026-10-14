@@ -881,11 +881,61 @@
       "notes": "pp. 6–8, 28."
     },
     {
+      "id": "cpuc-d44289",
+      "title": "Public Utilities Commission of the State of California, Decision No. 44289 (Application No. 31128): Key System's A (12th Street) line east of Oak Street",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1950-06-07",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D44289_19500607_A31128.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d49307",
+      "title": "Public Utilities Commission of the State of California, Decision No. 49307 (Application No. 33920): Key System's A and B lines",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1953-11-10",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D49307_19531110_A33920.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d50731",
+      "title": "Public Utilities Commission of the State of California, Decision No. 50731 (Application No. 35880): Key System's C and E lines, night and Sunday buses",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1954-11-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D50731_19541103_A35880.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d54242",
+      "title": "Public Utilities Commission of the State of California, Decision No. 54242 (Application No. 36656): Key System transbay service (interim)",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1956-12-11",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54242_19561211_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
       "id": "cpuc-d54669",
       "title": "Public Utilities Commission of the State of California, Decision No. 54669 (Application No. 36656): Key System, discontinuance of transbay rail service",
       "author": "Public Utilities Commission of the State of California",
       "date": "1957-03-12",
       "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54669_19570312_A36656.pdf",
+      "type": "official",
+      "license": "California public record (Public Utilities Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d56016",
+      "title": "Public Utilities Commission of the State of California, Decision No. 56016 (Application No. 36656): Key System transbay rail service, time to act on D54669",
+      "author": "Public Utilities Commission of the State of California",
+      "date": "1957-12-30",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D56016_19571230_A36656.pdf",
       "type": "official",
       "license": "California public record (Public Utilities Commission); cited for facts",
       "accessed": "2026-10-14"
@@ -1041,6 +1091,26 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d34999",
+      "title": "Railroad Commission of the State of California, Decision No. 34999 (Case No. 4478): Key System service to Northbrae and The Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1942-02-03",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34999_19420203_C4478.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d35900",
+      "title": "Railroad Commission of the State of California, Decision No. 35900 (Case No. 4478): Key System's F line through the Northbrae Tunnel to The Alameda",
+      "author": "Railroad Commission of the State of California",
+      "date": "1942-10-27",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35900_19421027_C4478.pdf",
+      "type": "official",
+      "license": "California public record (Railroad Commission); cited for facts",
+      "accessed": "2026-10-14"
+    },
+    {
       "id": "erj-1911-06-17-sp-oakland",
       "title": "Southern Pacific Electrification at Oakland, Cal.: Rolling Stock and Repair Shops",
       "publisher": "Electric Railway Journal 37(24)",
@@ -1112,6 +1182,83 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "oakland-tribune-1904-02-04",
+      "title": "Oakland Tribune, 1904-02-04: the Piedmont branch along Fortieth Street",
+      "publisher": "Oakland Tribune",
+      "date": "1904-02-04",
+      "url": "https://archive.org/details/oakland-tribune-1904-02-04",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1904-05-28",
+      "title": "Oakland Tribune, 1904-05-28: the Piedmont terminal and opening",
+      "publisher": "Oakland Tribune",
+      "date": "1904-05-28",
+      "url": "https://archive.org/details/oakland-tribune-1904-05-28",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1904-06-01",
+      "title": "Oakland Tribune, 1904-06-01: the Key Route's ferry service to Piedmont begins",
+      "publisher": "Oakland Tribune",
+      "date": "1904-06-01",
+      "url": "https://archive.org/details/oakland-tribune-1904-06-01",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "Read through archive.org's full-text search."
+    },
+    {
+      "id": "oakland-tribune-1911-06-12",
+      "title": "Oakland Tribune, 1911-06-12: through service on the Poplar Street and Twelfth Street route",
+      "publisher": "Oakland Tribune",
+      "date": "1911-06-12",
+      "url": "https://archive.org/details/oakland-tribune-1911-06-12",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 0–1 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1911-11-13",
+      "title": "Oakland Tribune, 1911-11-13: the Sacramento Street, Northbrae and Albany lines",
+      "publisher": "Oakland Tribune",
+      "date": "1911-11-13",
+      "url": "https://archive.org/details/oakland-tribune-1911-11-13",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 12 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1911-11-15",
+      "title": "Oakland Tribune, 1911-11-15: the Sacramento Street, Northbrae and Albany lines open",
+      "publisher": "Oakland Tribune",
+      "date": "1911-11-15",
+      "url": "https://archive.org/details/oakland-tribune-1911-11-15",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 12 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1924-11-03",
+      "title": "Oakland Tribune, 1924-11-03: the Piedmont extension to Manor station",
+      "publisher": "Oakland Tribune",
+      "date": "1924-11-03",
+      "url": "https://archive.org/details/oakland-tribune-1924-11-03",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 16 (counted from 0); the printed page is unverified."
     },
     {
       "id": "osm-overpass-brt",
@@ -1198,6 +1345,39 @@
       "license": "Public domain (published 1911)",
       "accessed": "2026-10-14",
       "notes": "Dateline Oakland, Dec 30: \"For the last time tonight the old familiar locomotive whistle sounded in Seventh street.\""
+    },
+    {
+      "id": "srj-1904-02-13-key-route-1",
+      "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+      "publisher": "Street Railway Journal 23(7)",
+      "date": "1904-02-13",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "type": "journal",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 246–253. Read from archive.org's OCR text."
+    },
+    {
+      "id": "srj-1904-02-20-key-route-2",
+      "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+      "publisher": "Street Railway Journal 23(8)",
+      "date": "1904-02-20",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "type": "journal",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 276–284."
+    },
+    {
+      "id": "srj-1906-06-02-22nd-st",
+      "title": "The Twenty-Second Street branch of the Key Route",
+      "publisher": "Street Railway Journal 27(22)",
+      "date": "1906-06-02",
+      "url": "https://archive.org/details/streetrailwayjo271906newy",
+      "type": "journal",
+      "license": "Public domain (published 1906)",
+      "accessed": "2026-10-14",
+      "notes": "p. 848 (inferred from the next page's header)."
     },
     {
       "id": "usgs-concord-1897",

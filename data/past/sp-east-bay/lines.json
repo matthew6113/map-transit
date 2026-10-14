@@ -1,0 +1,262 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Work in progress: the Phase 2a pilot.",
+  "lines": [
+    {
+      "id": "sp-shattuck-avenue",
+      "name": "Shattuck Avenue line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1941-07",
+      "status": "closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier to North Berkeley, up Adeline Street and Shattuck Avenue and through the Northbrae Tunnel to Thousand Oaks; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses on July 26, 1941; from August 6, 1941 Key System's F trains ran over its tracks from Dwight Way to Northbrae.",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-mole-16th-st",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-16th-st-34th-st",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-wood-st"
+        },
+        {
+          "segment": "sp-stanford-ave"
+        },
+        {
+          "segment": "sp-adeline-st"
+        },
+        {
+          "segment": "sp-shattuck-ave-south"
+        },
+        {
+          "segment": "sp-shattuck-ave-north"
+        },
+        {
+          "segment": "sp-shattuck-sutter-link"
+        },
+        {
+          "segment": "sp-sutter-st"
+        },
+        {
+          "segment": "sp-northbrae-tunnel"
+        },
+        {
+          "segment": "sp-solano-ave-east"
+        }
+      ],
+      "sources": [
+        {
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "4–5",
+          "note": "The IER \"will not continue the operation of its Berkeley lines after August 1, 1941\" (p. 4)."
+        },
+        {
+          "source": "crc-d34460",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1",
+          "note": "Key System's substitute routes were \"established on July 26, 1941 … in lieu of the operations theretofore provided by the Shattuck Avenue and Ninth Street rail lines\"."
+        },
+        {
+          "source": "sf-call-1911-12-23-p17",
+          "supports": [
+            "general"
+          ],
+          "note": "The first electric train ran over the Shattuck Avenue line on a trial trip on December 22, 1911."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked. The connection from the bridge to the old Berkeley main line (1939–41) is still to be drawn."
+    },
+    {
+      "id": "sp-ninth-street",
+      "name": "Ninth Street line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1941-07",
+      "status": "closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier through Emeryville and along Ninth Street in West Berkeley to Albany and Thousand Oaks; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses on July 26, 1941.",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-mole-16th-st",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-16th-st-34th-st",
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge"
+        },
+        {
+          "segment": "sp-wood-st"
+        },
+        {
+          "segment": "sp-ninth-st-emeryville"
+        },
+        {
+          "segment": "sp-ninth-st"
+        },
+        {
+          "segment": "sp-albany-row"
+        },
+        {
+          "segment": "sp-solano-ave-west"
+        }
+      ],
+      "sources": [
+        {
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "source": "crc-d34460",
+          "supports": [
+            "route",
+            "closed",
+            "fate"
+          ],
+          "pages": "1, 3"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "closed"
+          ],
+          "pages": "4–5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked. The connection from the bridge (1939–41) is still to be drawn."
+    }
+  ]
+}

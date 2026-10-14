@@ -1684,6 +1684,866 @@
       ]
     },
     {
+      "id": "sp-ninth-street",
+      "name": "Ninth Street line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": null,
+      "closed": "1941-07",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier through Emeryville and along Ninth Street in West Berkeley to Albany and Thousand Oaks; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses on July 26, 1941.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked. The connection from the bridge (1939–41) is still to be drawn.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 13.71,
+      "confidence_km": {
+        "digitized": 13.71
+      },
+      "bbox": [
+        -122.33008,
+        37.808397,
+        -122.279565,
+        37.891351
+      ],
+      "fids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "segments": [
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-mole-16th-st",
+          "name": "Oakland Mole to Sixteenth Street Station",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-oakland-mole at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The Southern Pacific's main line, shared with its steam trains; its own dates aren't recorded here."
+        },
+        {
+          "id": "sp-16th-st-34th-st",
+          "name": "Sixteenth Street Station to 34th Street",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points). Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-wood-st",
+          "name": "Wood Street, 34th Street to Ninth Street junction",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-16th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-ninth-st-emeryville",
+          "name": "Ninth Street junction to Heinz Avenue, Emeryville",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-wood-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points). North from Ninth Street junction through Emeryville to Heinz Avenue, read by hand where the 1949 sheet draws the track among others.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-ninth-st",
+          "name": "Ninth Street, Heinz Avenue to Harrison Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Ninth Street centerline from Heinz Avenue to Harrison Street (3198 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Ninth Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-albany-row",
+          "name": "Albany, Solano Avenue to Harrison Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-ninth-st at its end; then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then joined to sp-solano-ave-west at its end; the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The 1915 sheet draws a railroad here, west of San Pablo Avenue, but places it only roughly; its north end stops short of Solano Avenue on the sheet, and the last stretch to Solano Avenue is joined straight.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced",
+            "geometry_unverified"
+          ]
+        },
+        {
+          "id": "sp-solano-ave-west",
+          "name": "Solano Avenue, Thousand Oaks Station to San Pablo Avenue",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Solano Avenue centerline from Colusa Avenue to San Pablo Avenue (1710 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue, across San Pablo Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "rag-1912-09-13-guppy",
+          "title": "Electrification of Oakland Suburban Lines",
+          "author": "R. T. Guppy",
+          "publisher": "Railway Age Gazette 53(11)",
+          "date": "1912-09-13",
+          "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification",
+            "route"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "id": "erj-1912-01-06-statistics",
+          "title": "Electric Railway Statistics for 1911",
+          "publisher": "Electric Railway Journal 39(1)",
+          "date": "1912-01-06",
+          "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "crc-d28671",
+          "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+          "author": "Railroad Commission of the State of California",
+          "date": "1936-03-23",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "id": "crc-d34460",
+          "title": "Railroad Commission of the State of California, Decision No. 34460 (Application No. 23312): Key System substitute service for the Shattuck Avenue and Ninth Street lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-08-01",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34460_19410801_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34460",
+          "supports": [
+            "route",
+            "closed",
+            "fate"
+          ],
+          "pages": "1, 3"
+        },
+        {
+          "id": "crc-d34389",
+          "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-07-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34389",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "4–5"
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"Oakland Mole\"."
+        },
+        {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "note": "From 1939, Berkeley trains from the bridge joined the old Berkeley main line at 32nd Street."
+        },
+        {
+          "id": "crc-d29615",
+          "title": "Railroad Commission of the State of California, Decision No. 29615 (Application No. 21049): bridge railway crossings near 26th Street, Oakland",
+          "author": "Railroad Commission of the State of California",
+          "date": "1937-03-22",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29615_19370322_A21049.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d29615",
+          "supports": [
+            "route"
+          ],
+          "note": "\"relocation of existing railway tracks in Wood Street, north of 34th Street\""
+        },
+        {
+          "id": "usgs-richmond-1949",
+          "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-richmond-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sp-shattuck-avenue",
+      "name": "Shattuck Avenue line",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Interurban Electric Railway",
+          "from": null,
+          "to": "1941-07"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": null,
+      "closed": "1941-07",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's electric Red Trains from its Oakland ferry pier to North Berkeley, up Adeline Street and Shattuck Avenue and through the Northbrae Tunnel to Thousand Oaks; over the Bay Bridge to San Francisco from 1939.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by Key System buses on July 26, 1941; from August 6, 1941 Key System's F trains ran over its tracks from Dwight Way to Northbrae.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial trip ran on December 22, 1911 (San Francisco Call, December 23, 1911); Wikipedia gives December 23, 1911 for regular service, citing the Oakland Tribune, not yet checked. The connection from the bridge to the old Berkeley main line (1939–41) is still to be drawn.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "undated": true,
+      "length_km": 13.32,
+      "confidence_km": {
+        "approximate": 0.63,
+        "digitized": 12.69
+      },
+      "bbox": [
+        -122.33008,
+        37.808397,
+        -122.267071,
+        37.891481
+      ],
+      "fids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "segments": [
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-mole-16th-st",
+          "name": "Oakland Mole to Sixteenth Street Station",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-oakland-mole at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points). The Southern Pacific main line from the mole through the West Oakland yard to Sixteenth Street Station, as the 1949 sheet draws it; the yard's many tracks make the line's exact track uncertain.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The Southern Pacific's main line, shared with its steam trains; its own dates aren't recorded here."
+        },
+        {
+          "id": "sp-16th-st-34th-st",
+          "name": "Sixteenth Street Station to 34th Street",
+          "opened": null,
+          "closed": null,
+          "to": "1939-01-15",
+          "note": "Until the trains moved to the Bay Bridge",
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-mole-16th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points). Northeast from Sixteenth Street Station, then north at Wood Street to 34th Street.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-wood-st",
+          "name": "Wood Street, 34th Street to Ninth Street junction",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Joined to sp-16th-st-34th-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points). North along the tracks by Wood Street from 34th Street, curving northeast to the junction at Stanford Avenue and Hollis Street (Ninth Street junction), where the 1949 sheet shows the track splitting north (Ninth Street line) and northeast (Stanford Avenue).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-stanford-ave",
+          "name": "Stanford Avenue",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Stanford Avenue centerline from Hollis Street to Adeline Street (1781 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). The private right of way ran beside the avenue (on its south side, as the 1949 sheet draws it); drawn on the avenue's centerline.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-adeline-st",
+          "name": "Adeline Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Adeline Street centerline from Stanford Avenue to Shattuck Avenue (1460 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). Private right of way along Adeline Street; drawn on the street's centerline.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-shattuck-ave-south",
+          "name": "Shattuck Avenue, Adeline Street to Bancroft Way",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Shattuck Avenue centerline from Adeline Street to Bancroft Way (875 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). Paved-in right of way in Shattuck Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-shattuck-ave-north",
+          "name": "Shattuck Avenue, Bancroft Way to Vine Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Shattuck Avenue centerline from Bancroft Way to Vine Street (1416 m; Overture 2026-09-23.1); checked on USGS San Francisco 1:62,500 (1915). In the paved street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-shattuck-sutter-link",
+          "name": "Shattuck Avenue to Sutter Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "approximate",
+          "method": "Joined to sp-shattuck-ave-north at its end; then along today's Henry Street centerline from Shattuck Avenue to Sutter Street (342 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-sutter-st",
+          "name": "Sutter Street to Northbrae Station",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Sutter Street centerline from Henry Street to Hopkins Street (361 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Sutter Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-northbrae-tunnel",
+          "name": "Northbrae Station through the Northbrae Tunnel to The Alameda",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Sutter Street centerline from Hopkins Street to Solano Avenue (71 m; Overture 2026-09-23.1); then along today's Solano Avenue centerline from Sutter Street to The Alameda (552 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). Private right of way from Northbrae Station through the Northbrae Tunnel, which carries Solano Avenue today, to The Alameda.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The 465-ft tunnel under The Circle is part of this segment; drawn as surface for now."
+        },
+        {
+          "id": "sp-solano-ave-east",
+          "name": "Solano Avenue, The Alameda to Thousand Oaks Station",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": true,
+          "confidence": "digitized",
+          "method": "Along today's Solano Avenue centerline from The Alameda to Colusa Avenue (218 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "rag-1912-09-13-guppy",
+          "title": "Electrification of Oakland Suburban Lines",
+          "author": "R. T. Guppy",
+          "publisher": "Railway Age Gazette 53(11)",
+          "date": "1912-09-13",
+          "url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "rag-1912-09-13-guppy",
+          "supports": [
+            "general",
+            "electrification",
+            "route"
+          ],
+          "pages": "460–463"
+        },
+        {
+          "id": "erj-1912-01-06-statistics",
+          "title": "Electric Railway Statistics for 1911",
+          "publisher": "Electric Railway Journal 39(1)",
+          "date": "1912-01-06",
+          "url": "https://archive.org/details/transit-journal-1932_1912-01-06_39_1",
+          "type": "journal",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "erj-1912-01-06-statistics",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "crc-d28671",
+          "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
+          "author": "Railroad Commission of the State of California",
+          "date": "1936-03-23",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28671_19360323_A19703.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d28671",
+          "supports": [
+            "operator",
+            "name"
+          ],
+          "pages": "5, 14",
+          "note": "\"From Oakland Pier there radiate three electric rail lines … SEVENTH STREET LINE, BERKELEY LINE, and NINTH STREET LINE.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "general"
+          ],
+          "pages": "7, 9",
+          "note": "Bridge rail service from January 15, 1939; \"Except for bridge connecting tracks the rail lines serving the East Bay area were unchanged when ferry boat operation was discontinued.\""
+        },
+        {
+          "id": "crc-d34389",
+          "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-07-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34389",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "4–5",
+          "note": "The IER \"will not continue the operation of its Berkeley lines after August 1, 1941\" (p. 4)."
+        },
+        {
+          "id": "crc-d34460",
+          "title": "Railroad Commission of the State of California, Decision No. 34460 (Application No. 23312): Key System substitute service for the Shattuck Avenue and Ninth Street lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-08-01",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34460_19410801_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34460",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "1",
+          "note": "Key System's substitute routes were \"established on July 26, 1941 … in lieu of the operations theretofore provided by the Shattuck Avenue and Ninth Street rail lines\"."
+        },
+        {
+          "id": "sf-call-1911-12-23-p17",
+          "title": "Electric Train Makes Trial Trip, The San Francisco Call, December 23, 1911, p. 17",
+          "publisher": "The San Francisco Call",
+          "date": "1911-12-23",
+          "url": "https://www.loc.gov/resource/sn85066387/1911-12-23/ed-1/?sp=17",
+          "type": "primary_document",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-14",
+          "source": "sf-call-1911-12-23-p17",
+          "supports": [
+            "general"
+          ],
+          "note": "The first electric train ran over the Shattuck Avenue line on a trial trip on December 22, 1911."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"Oakland Mole\"."
+        },
+        {
+          "id": "haer-ca-164",
+          "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
+          "author": "J. W. Snyder, Caltrans",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca2000/ca2002/data/ca2002data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-164",
+          "supports": [
+            "route"
+          ],
+          "note": "From 1939, Berkeley trains from the bridge joined the old Berkeley main line at 32nd Street."
+        },
+        {
+          "id": "crc-d29615",
+          "title": "Railroad Commission of the State of California, Decision No. 29615 (Application No. 21049): bridge railway crossings near 26th Street, Oakland",
+          "author": "Railroad Commission of the State of California",
+          "date": "1937-03-22",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29615_19370322_A21049.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d29615",
+          "supports": [
+            "route"
+          ],
+          "note": "\"relocation of existing railway tracks in Wood Street, north of 34th Street\""
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-richmond-1949",
+          "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-richmond-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "crc-d34999",
+          "title": "Railroad Commission of the State of California, Decision No. 34999 (Case No. 4478): Key System service to Northbrae and The Alameda",
+          "author": "Railroad Commission of the State of California",
+          "date": "1942-02-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34999_19420203_C4478.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34999",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "\"Beyond Northbrae the rail line followed unpaved private right of way through the tunnel to The Alameda, a distance of less than one-half mile.\""
+        }
+      ]
+    },
+    {
       "id": "ac-transit-1t",
       "name": "1T International–E. 14th",
       "short_name": "1T",

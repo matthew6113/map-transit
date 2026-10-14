@@ -401,7 +401,254 @@
       "check": "usgs-san-francisco-1915",
       "est_error_m": 10,
       "note": "In the paved street"
+    },
+    "sp-shattuck-sutter-link": {
+      "parts": [
+        {
+          "join": "sp-shattuck-ave-north",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Henry Street"
+          ],
+          "from": "Shattuck Avenue",
+          "to": "Sutter Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 60,
+      "approximate": true,
+      "note": "The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed"
+    },
+    "sp-sutter-st": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Henry Street",
+          "to": "Hopkins Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Sutter Street"
+    },
+    "sp-northbrae-tunnel": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Hopkins Street",
+          "to": "Solano Avenue"
+        },
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "Sutter Street",
+          "to": "The Alameda"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 20,
+      "note": "Private right of way from Northbrae Station through the Northbrae Tunnel, which carries Solano Avenue today, to The Alameda"
+    },
+    "sp-solano-ave-east": {
+      "parts": [
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "The Alameda",
+          "to": "Colusa Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Solano Avenue"
+    },
+    "sp-ninth-st-emeryville": {
+      "parts": [
+        {
+          "join": "sp-wood-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.296,
+              37.837,
+              -122.282,
+              37.857
+            ],
+            "zoom": 1.0
+          },
+          "px": [
+            [
+              300,
+              900
+            ],
+            [
+              288,
+              780
+            ],
+            [
+              278,
+              650
+            ],
+            [
+              282,
+              520
+            ],
+            [
+              300,
+              410
+            ],
+            [
+              310,
+              340
+            ],
+            [
+              300,
+              260
+            ],
+            [
+              273,
+              168
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 25,
+      "note": "North from Ninth Street junction through Emeryville to Heinz Avenue, read by hand where the 1949 sheet draws the track among others"
+    },
+    "sp-ninth-st": {
+      "parts": [
+        {
+          "streets": [
+            "Ninth Street"
+          ],
+          "from": "Heinz Avenue",
+          "to": "Harrison Street"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 10,
+      "note": "In Ninth Street"
+    },
+    "sp-solano-ave-west": {
+      "parts": [
+        {
+          "streets": [
+            "Solano Avenue"
+          ],
+          "from": "Colusa Avenue",
+          "to": "San Pablo Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Solano Avenue, across San Pablo Avenue"
+    },
+    "sp-albany-row": {
+      "parts": [
+        {
+          "join": "sp-ninth-st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.305,
+              37.877,
+              -122.296,
+              37.89
+            ],
+            "zoom": 3.0
+          },
+          "px": [
+            [
+              240,
+              635
+            ],
+            [
+              235,
+              620
+            ],
+            [
+              215,
+              560
+            ],
+            [
+              200,
+              520
+            ],
+            [
+              180,
+              460
+            ],
+            [
+              160,
+              400
+            ],
+            [
+              140,
+              330
+            ],
+            [
+              120,
+              255
+            ]
+          ]
+        },
+        {
+          "join": "sp-solano-ave-west",
+          "at": "end"
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 100,
+      "note": "The 1915 sheet draws a railroad here, west of San Pablo Avenue, but places it only roughly; its north end stops short of Solano Avenue on the sheet, and the last stretch to Solano Avenue is joined straight"
     }
   },
-  "points": {}
+  "points": {
+    "sp-oakland-pier": {
+      "trace": {
+        "sheet": "usgs-oakland-west-1949",
+        "bbox": [
+          -122.336,
+          37.803,
+          -122.3,
+          37.814
+        ],
+        "zoom": 0.8
+      },
+      "px": [
+        205,
+        215
+      ],
+      "est_error_m": 30,
+      "note": "The west end of the mole's tracks, at the ferry slips"
+    },
+    "sp-sixteenth-street": {
+      "at": "16th Street/Wood Street",
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 30
+    },
+    "sp-northbrae": {
+      "at": "Sutter Street/Hopkins Street",
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15
+    },
+    "sp-thousand-oaks": {
+      "at": "Solano Avenue/Colusa Avenue",
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15
+    }
+  }
 }
