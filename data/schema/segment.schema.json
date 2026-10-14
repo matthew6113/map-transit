@@ -247,7 +247,40 @@
           "minLength": 3
         },
         "georeference": {
-          "type": "object"
+          "type": "object",
+          "description": "How digitized geometry was placed. Past-era tracing (decision 12) gives the map it was checked or traced on, the method and an estimated error; BAM's similarity fits add scale, rotation, RMS and control points.",
+          "properties": {
+            "map": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+              "description": "The source id of the map traced from or checked against."
+            },
+            "method": {
+              "type": "string",
+              "enum": [
+                "geotiff",
+                "street-centerline",
+                "similarity"
+              ]
+            },
+            "est_error_m": {
+              "type": "number",
+              "minimum": 0
+            },
+            "scale_m_per_unit": {
+              "type": "number"
+            },
+            "rotation_deg": {
+              "type": "number"
+            },
+            "rms_m": {
+              "type": "number",
+              "minimum": 0
+            },
+            "controls": {
+              "type": "array"
+            }
+          }
         },
         "sources": {
           "type": "array",
@@ -267,6 +300,7 @@
               "status_unverified",
               "geometry_unverified",
               "needs_manual_digitizing",
+              "page_unverified",
               "conflicting_sources",
               "license_unclear"
             ]

@@ -51,6 +51,7 @@
     "status_unverified": "Status not yet re-verified against official sources for this map.",
     "geometry_unverified": "Geometry not yet checked against a second source.",
     "needs_manual_digitizing": "Needs tracing by hand from a historic map.",
+    "page_unverified": "A book's page is cited second-hand (as another work gives it) and not yet checked in the book (decision 11).",
     "conflicting_sources": "Sources disagree; see notes.",
     "license_unclear": "The source states no license; see DATA_LOG.md."
   },

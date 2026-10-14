@@ -396,6 +396,7 @@
               "status_unverified",
               "geometry_unverified",
               "needs_manual_digitizing",
+              "page_unverified",
               "conflicting_sources",
               "license_unclear"
             ]

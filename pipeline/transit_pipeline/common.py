@@ -97,7 +97,10 @@ def ensure_systems(entries: list[dict]) -> None:
     """Add systems (id, name, short_name) to data/systems.json, keeping every existing entry."""
     data = json.loads(SYSTEMS.read_text()) if SYSTEMS.exists() else {"systems": []}
     have = {s["id"] for s in data["systems"]}
-    data["systems"] += [e for e in entries if e["id"] not in have]
+    for e in entries:  # one entry per id, however often a step names it
+        if e["id"] not in have:
+            data["systems"].append(e)
+            have.add(e["id"])
     data["systems"].sort(key=lambda e: e["id"])
     write_json(SYSTEMS, data)
 
