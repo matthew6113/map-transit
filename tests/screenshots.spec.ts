@@ -30,6 +30,16 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'present-brt-van-ness', url: '/l/muni-49?test=1&at=99' },
   { name: 'present-brt-tempo', url: '/l/ac-transit-1t?test=1&at=99' },
   { name: 'present-brt-alum-rock', url: '/l/vta-522?test=1&at=99' },
+  // Phase 2a: the past-era pilot (Key System, SP Red Trains / IER, the Bay Bridge railway).
+  { name: 'past-1905', url: '/?era=past&year=1905&test=1#map=12.2/37.8300/-122.2900/0/0' },
+  { name: 'past-1912', url: '/?era=past&year=1912&test=1#map=11.8/37.8200/-122.2700/0/0' },
+  { name: 'past-east-bay-1925', url: '/?era=past&year=1925&test=1#map=11.8/37.8200/-122.2700/0/0' },
+  { name: 'past-1940', url: '/?era=past&year=1940&test=1#map=11.6/37.8100/-122.3200/0/0' },
+  { name: 'past-1950', url: '/?era=past&year=1950&test=1#map=11.8/37.8200/-122.2900/0/0' },
+  { name: 'past-key-pier', url: '/?era=past&year=1925&test=1#map=13.4/37.8210/-122.3200/0/0' },
+  { name: 'past-sf-loop', url: '/?era=past&year=1945&test=1#map=15.6/37.7880/-122.3950/0/0' },
+  { name: 'past-line-key-f', url: '/l/key-f?era=past&year=1945&test=1&at=99' },
+  { name: 'past-line-sp-shattuck', url: '/l/sp-shattuck-avenue?era=past&year=1935&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

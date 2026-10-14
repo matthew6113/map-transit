@@ -2,6 +2,25 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 2a, the past-era pilot
+
+- **The Key System** (`data/past/key-system/`): the 1903 pier, its approach and subway, and lines
+  A (12th Street), B (22nd Street), C (Piedmont), F (Berkeley) and H (Sacramento Street), with the
+  pier terminal and two stations. The E (Claremont) and G (Westbrae) lines aren't drawn yet: the
+  sources don't place their routes.
+- **The Southern Pacific's Red Trains / Interurban Electric Railway** (`data/past/sp-east-bay/`):
+  the Shattuck Avenue, Ninth Street, Seventh Street, Encinal Avenue and Lincoln Avenue lines, the
+  Oakland and Alameda moles, and four stations. Their opening dates aren't sourced to a primary
+  source yet, so they don't show on the year slider.
+- **The Bay Bridge railway** (`data/past/bay-bridge/`), 1939–1958: the Transbay Terminal loop, the
+  bridge's lower deck, the East Bay approach and the Interurban's lead to 26th Street, and the
+  Transbay Terminal.
+- In all, 10 lines, 46 segments (74 km traced from a map or along a street, 9 km approximate) and
+  8 points. Dates come from Railroad Commission and CPUC decisions, the Street Railway Journal,
+  Railway Age Gazette, Electric Railway Journal, the San Francisco Call, the Oakland Tribune, HAER
+  records and California Highways and Public Works. One book page (Demoro p. 104) is cited
+  second-hand and flagged.
+
 ## 2026-10-14: Phase 1 close-out
 
 - **The Gold Runner,** from its own GTFS feed (Amtrak San Joaquins, via the Mobility Database's

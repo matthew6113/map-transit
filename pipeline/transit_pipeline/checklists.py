@@ -74,7 +74,8 @@ def main() -> None:
         if kind == "line" or p.get("geometry_confidence") == "surveyed":
             continue
         g = p.get("georeference") or {}
-        imgs = [f"[{n.stem}](../screenshots/p2a/traces/{n.name})" for n in sorted(REVIEW.glob(f"{p['id']}*.png"))]
+        imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (REVIEW / (p['id'] + '-corrected.jpg')).exists() else 'review'}](../screenshots/p2a/traces/{n.name})"
+                for n in sorted(REVIEW.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]
         lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', p.get('geometry_confidence'))} | "
                      f"{g.get('map', '')} | {str(g['est_error_m']) + ' m' if 'est_error_m' in g else ''} | {' '.join(imgs)} |")
         traced += 1

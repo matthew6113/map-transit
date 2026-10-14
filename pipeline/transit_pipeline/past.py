@@ -247,9 +247,10 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
         pad = 0.003
         bbox = (min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad)
         span_m = max((bbox[2] - bbox[0]) * 88_000, (bbox[3] - bbox[1]) * 111_000)
-        zoom = min(2.0, max(0.25, sheet_resolution(sheet) * 1400 / span_m))
+        zoom = min(2.0, max(0.2, sheet_resolution(sheet) * 1000 / span_m))
         tmp.write_text(json.dumps({"type": "FeatureCollection", "features": [f]}))
-        crop(Frame(sheet, bbox, round(zoom, 2)), out / f"{name}.png", overlay=[tmp])
+        crop(Frame(sheet, bbox, round(zoom, 2)), out / f"{name}.jpg", overlay=[tmp])
+        (out / f"{name}.json").unlink(missing_ok=True)  # the crop's frame, not needed for review
 
     for f, recipe in feats:
         check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)

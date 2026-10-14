@@ -492,7 +492,10 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
             draw.text((x + 6, y + 2), label, fill=(200, 90, 0, 255), font=font)
     img = Image.alpha_composite(img, layer).convert("RGB")
     out.parent.mkdir(parents=True, exist_ok=True)
-    img.save(out, optimize=True)
+    if out.suffix.lower() in (".jpg", ".jpeg"):
+        img.save(out, quality=82, optimize=True)  # review images, small enough to commit
+    else:
+        img.save(out, optimize=True)
     out.with_suffix(".json").write_text(json.dumps({"sheet": frame.sheet, "bbox": list(frame.bbox), "zoom": frame.zoom}) + "\n")
     print(f"[usgs] {out.name}: {cols}x{rows} px, {frame.ground:.3f} m a pixel, grid every {spacing} deg")
 

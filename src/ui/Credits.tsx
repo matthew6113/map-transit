@@ -18,8 +18,11 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; BRT lanes from{' '}
       <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL). Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
-      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Sources for every line
-      are in its panel.
+      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Past lines traced from
+      the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
+      Historical Topographic Map Collection</a> (public domain) and along today's street centerlines from Overture Maps
+      (ODbL), with dates from California Railroad Commission decisions, period journals and newspapers. Sources for every
+      line are in its panel.
     </>
   );
 }

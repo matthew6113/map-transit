@@ -119,8 +119,25 @@ What it requires:
 
 ## Past era
 
-No past-era lines yet. Phase 2 pilots the Key System and the SP Red Trains / Interurban Electric
-Railway. The tools for it are below (decision 12).
+The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
+and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Every past
+record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
+and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
+(`make checklists`).
+
+### Past-era sources (cited for facts)
+
+| Source | Type | License |
+|---|---|---|
+| California Railroad Commission and CPUC decisions, 1923–1957 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
+| Street Railway Journal (1904, 1906), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
+| The San Francisco Call (1911) and the Oakland Tribune (1904–1924), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
+| HAER CA-32 (Bay Bridge) and CA-164 (IER Bridge Yard Shop), Library of Congress | official | Public domain (U.S. Government work) |
+| California Highways and Public Works (1939) | official | California public record; cited for facts |
+| Railway Signaling, March 1939 | journal | Unclear (1939); cited for facts |
+| Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
+
+The geometry tools are below (decision 12).
 
 ### USGS Historical Topographic Map Collection
 
