@@ -1730,7 +1730,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "route",
@@ -1760,7 +1760,7 @@
           "url": "https://overpass-api.de/api/interpreter",
           "type": "dataset",
           "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "osm-overpass-brt",
           "supports": [
             "geometry",
@@ -1829,7 +1829,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "route",
@@ -1859,7 +1859,7 @@
           "url": "https://overpass-api.de/api/interpreter",
           "type": "dataset",
           "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "osm-overpass-brt",
           "supports": [
             "geometry",
@@ -1901,7 +1901,7 @@
         37.79567
       ],
       "fids": [
-        104
+        109
       ],
       "segments": [
         {
@@ -1927,7 +1927,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2015,7 +2015,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2060,7 +2060,7 @@
         37.86921
       ],
       "fids": [
-        69
+        74
       ],
       "segments": [
         {
@@ -2086,7 +2086,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2159,7 +2159,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2204,8 +2204,8 @@
         37.41049
       ],
       "fids": [
-        124,
-        125
+        129,
+        130
       ],
       "segments": [
         {
@@ -2231,7 +2231,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2276,7 +2276,7 @@
         37.79367
       ],
       "fids": [
-        76
+        81
       ],
       "segments": [
         {
@@ -2302,7 +2302,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2376,7 +2376,7 @@
           "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
           "type": "dataset",
           "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-amtrak",
           "supports": [
             "geometry",
@@ -2452,7 +2452,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2526,7 +2526,7 @@
           "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
           "type": "dataset",
           "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-amtrak",
           "supports": [
             "geometry",
@@ -2600,7 +2600,7 @@
           "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
           "type": "dataset",
           "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-amtrak",
           "supports": [
             "geometry",
@@ -2645,12 +2645,12 @@
         37.80862
       ],
       "fids": [
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
       ],
       "segments": [
         {
@@ -2676,8 +2676,86 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
+          "supports": [
+            "geometry",
+            "route",
+            "stations",
+            "name",
+            "operator"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold-runner",
+      "name": "Gold Runner",
+      "system": "gold-runner",
+      "system_name": "Gold Runner (formerly the San Joaquins)",
+      "operators": [
+        {
+          "name": "Amtrak San Joaquins"
+        }
+      ],
+      "mode": "intercity_rail",
+      "mode_label": "Intercity rail",
+      "group": "commuter_rail",
+      "era": "present",
+      "opened": null,
+      "closed": null,
+      "status": "active",
+      "status_label": "In service",
+      "continues_beyond": "Bakersfield, CA Amtrak Station",
+      "flags": [
+        "opened_unsourced",
+        "license_unclear"
+      ],
+      "undated": true,
+      "length_km": 168.5,
+      "confidence_km": {
+        "surveyed": 168.5
+      },
+      "bbox": [
+        -122.360181,
+        37.793439,
+        -121.0,
+        38.057994
+      ],
+      "fids": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "segments": [
+        {
+          "id": "gold-runner-gtfs",
+          "name": "Gold Runner, as run in GTFS",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "license_unclear"
+          ],
+          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gtfs-gold-runner",
+          "title": "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295), version UTC: 26-Nov-2025 18:19",
+          "publisher": "Trillium Solutions for Amtrak San Joaquins",
+          "url": "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+          "type": "dataset",
+          "license": "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-gold-runner",
           "supports": [
             "geometry",
             "route",
@@ -2749,7 +2827,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2794,8 +2872,8 @@
         37.41132
       ],
       "fids": [
-        126,
-        127
+        131,
+        132
       ],
       "segments": [
         {
@@ -2821,7 +2899,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2866,7 +2944,7 @@
         37.79689
       ],
       "fids": [
-        105
+        110
       ],
       "segments": [
         {
@@ -2892,7 +2970,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -2937,10 +3015,10 @@
         37.79442
       ],
       "fids": [
-        86,
-        87,
-        88,
-        89
+        91,
+        92,
+        93,
+        94
       ],
       "segments": [
         {
@@ -2966,7 +3044,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3011,9 +3089,9 @@
         37.79442
       ],
       "fids": [
-        90,
-        91,
-        92
+        95,
+        96,
+        97
       ],
       "segments": [
         {
@@ -3039,7 +3117,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3084,9 +3162,9 @@
         37.79442
       ],
       "fids": [
-        93,
-        94,
-        95
+        98,
+        99,
+        100
       ],
       "segments": [
         {
@@ -3112,7 +3190,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3157,7 +3235,7 @@
         37.94473
       ],
       "fids": [
-        70
+        75
       ],
       "segments": [
         {
@@ -3183,7 +3261,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3228,9 +3306,9 @@
         37.79443
       ],
       "fids": [
-        96,
-        97,
-        98
+        101,
+        102,
+        103
       ],
       "segments": [
         {
@@ -3256,7 +3334,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3301,10 +3379,10 @@
         37.79443
       ],
       "fids": [
-        99,
-        100,
-        101,
-        102
+        104,
+        105,
+        106,
+        107
       ],
       "segments": [
         {
@@ -3330,7 +3408,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3375,8 +3453,8 @@
         37.79853
       ],
       "fids": [
-        106,
-        107
+        111,
+        112
       ],
       "segments": [
         {
@@ -3402,7 +3480,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3473,7 +3551,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3518,7 +3596,7 @@
         37.79417
       ],
       "fids": [
-        108
+        113
       ],
       "segments": [
         {
@@ -3544,7 +3622,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3615,7 +3693,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3660,9 +3738,9 @@
         37.41578
       ],
       "fids": [
-        128,
-        129,
-        130
+        133,
+        134,
+        135
       ],
       "segments": [
         {
@@ -3688,7 +3766,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3733,8 +3811,8 @@
         37.80666
       ],
       "fids": [
-        77,
-        78
+        82,
+        83
       ],
       "segments": [
         {
@@ -3760,7 +3838,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3805,7 +3883,7 @@
         37.80536
       ],
       "fids": [
-        79
+        84
       ],
       "segments": [
         {
@@ -3831,7 +3909,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -3903,7 +3981,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "route",
@@ -3933,7 +4011,7 @@
           "url": "https://overpass-api.de/api/interpreter",
           "type": "dataset",
           "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "osm-overpass-brt",
           "supports": [
             "geometry",
@@ -4013,7 +4091,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4058,8 +4136,8 @@
         37.90948
       ],
       "fids": [
-        109,
-        110
+        114,
+        115
       ],
       "segments": [
         {
@@ -4085,7 +4163,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4130,13 +4208,13 @@
         37.63509
       ],
       "fids": [
-        115,
-        116,
-        117,
-        118,
-        119,
         120,
-        121
+        121,
+        122,
+        123,
+        124,
+        125,
+        126
       ],
       "segments": [
         {
@@ -4162,7 +4240,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4207,7 +4285,7 @@
         38.54912
       ],
       "fids": [
-        122
+        127
       ],
       "segments": [
         {
@@ -4233,7 +4311,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4278,8 +4356,8 @@
         37.85629
       ],
       "fids": [
-        71,
-        72
+        76,
+        77
       ],
       "segments": [
         {
@@ -4305,7 +4383,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4350,8 +4428,8 @@
         37.80034
       ],
       "fids": [
-        111,
-        112
+        116,
+        117
       ],
       "segments": [
         {
@@ -4377,7 +4455,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4422,7 +4500,7 @@
         37.79494
       ],
       "fids": [
-        103
+        108
       ],
       "segments": [
         {
@@ -4448,7 +4526,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4519,7 +4597,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4564,8 +4642,8 @@
         37.87273
       ],
       "fids": [
-        73,
-        74
+        78,
+        79
       ],
       "segments": [
         {
@@ -4591,7 +4669,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4636,7 +4714,7 @@
         37.81667
       ],
       "fids": [
-        123
+        128
       ],
       "segments": [
         {
@@ -4662,7 +4740,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4707,7 +4785,7 @@
         37.87273
       ],
       "fids": [
-        75
+        80
       ],
       "segments": [
         {
@@ -4733,7 +4811,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4778,8 +4856,8 @@
         38.10147
       ],
       "fids": [
-        113,
-        114
+        118,
+        119
       ],
       "segments": [
         {
@@ -4805,7 +4883,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",
@@ -4889,7 +4967,7 @@
           "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
           "type": "dataset",
           "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-          "accessed": "2026-10-13",
+          "accessed": "2026-10-14",
           "source": "gtfs-511",
           "supports": [
             "geometry",

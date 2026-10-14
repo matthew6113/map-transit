@@ -2,6 +2,13 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-14: Phase 1 close-out
+
+- **The Gold Runner,** from its own GTFS feed (Amtrak San Joaquins, via the Mobility Database's
+  mirror): one line and 9 stations, continuing beyond the map to Bakersfield. The feed is the
+  Nov 26, 2025 version, which has expired; it's flagged `license_unclear`.
+- The present era is now 44 lines and 275 stations.
+
 ## 2026-10-13: Phase 1, with the 511 key
 
 - **511's regional feed** (SHA-256 `7b366511…`, fetched Oct 13): BART, Muni (J, K, L, M, N and T;

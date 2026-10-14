@@ -205,6 +205,8 @@ Milliseconds from a year step to a settled map, 12 steps each:
 - **One source per train.** Amtrak-run trains (Capitol Corridor, Zephyr, Coast Starlight) come from
   Amtrak's national feed, and are skipped in 511's feed so nothing is drawn twice. Every other agency
   comes from 511, the SFO AirTrain included. BART's own feed is used only when there's no 511 key.
+  The Gold Runner is in neither feed: it comes from its own (Amtrak San Joaquins, via the Mobility
+  Database's mirror, since the producer's host is blocked).
 - **Grouping routes into lines** follows a table per agency in `gtfs.py`:
   - BART by color.
   - Muni Metro by letter; F and E as streetcars; each cable line.
@@ -279,8 +281,10 @@ source names. Searching official pages found that only Van Ness names its limits
 | Tempo (AC Transit 1T) | 9.3 km on 208 OSM ways, 21 stations | No published limits to check |
 | Alum Rock (VTA Rapid 522) | 2.2 km on 11 OSM ways; the Alum Rock & King and Alum Rock & Jackson stations, the two VTA names | Ends 70 m from N 34th St and 173 m from Muirfield Dr |
 
-- One way along Tempo is listed for review and isn't drawn: 11th St, way 1056371791, in the downtown
-  couplet. Its tags (`lanes:bus=1`, `bus:lanes=yes|yes|yes`) don't say where the bus lane is.
+- One way along Tempo was listed for review: 11th St, way 1056371791, in the downtown couplet. Its
+  tags (`lanes:bus=1`, `bus:lanes=yes|yes|yes`) don't say where the bus lane is.
+  - Settled Oct 14: it stays undrawn. 11th St is a one-way street of the couplet, so any bus lane
+    on it is at a curb, not the center or median that decision 3 draws.
 
 Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 

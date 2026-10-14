@@ -43,7 +43,7 @@ segment, so lines that share track overlap.
 | Origin | `https://api.511.org/transit/datafeeds?operator_id=RG` (with `api_key`), fetched Oct 13, 2026: 57 MB, SHA-256 `7b3665119162…` (in full in `data/present/feeds.json`). Its `feed_info` gives no version or dates. Rate limit 60 requests per hour. |
 | License | The 511 Data Disseminator Agreement (https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf, last modified May 2019). See below. |
 | Used for | BART (6 lines, 50 stations), Muni (J, K, L, M, N, T, the F and three cable car lines; 13 subway stations), Caltrain, VTA light rail (Blue, Green, Orange), SMART, ACE, the SFO AirTrain (11 stations), 14 ferry routes from Golden Gate Ferry, San Francisco Bay Ferry, Angel Island–Tiburon Ferry and Treasure Island Ferry (decision 5), and the routes of the three BRT corridors (decision 3). Amtrak-run trains, the Capitol Corridor included, come from Amtrak's feed instead. |
-| Gaps | The Gold Runner isn't in 511's feed (nor Amtrak's). Muni's E line isn't in the current feed. VTA's special-event services are left out. |
+| Gaps | The Gold Runner isn't in 511's feed (nor Amtrak's); it comes from its own feed (below). Muni's E line isn't in the current feed. VTA's special-event services are left out. |
 | **Action for Matthew** | Within 30 days of the site's launch, email developerresources@511.org a link or screenshots of the map (section 2.g). |
 
 What the agreement allows: use, copying, storing, distribution, derivative works and public display
@@ -65,7 +65,17 @@ What it requires:
 | Origin | `https://content.amtrak.com/content/gtfs/GTFS.zip`, fetched Oct 13, 2026: feed version 20261013, valid Oct 14–20, 2026. SHA-256 in `data/present/feeds.json`. |
 | License | None stated in the feed, and none found on Amtrak's site, so every Amtrak feature is flagged `license_unclear`. **Open item for Matthew.** |
 | Used for | Capitol Corridor (San José to Auburn), California Zephyr ("continues beyond the map to Chicago Union Station") and Coast Starlight (to Los Angeles and Seattle): 3 lines and 18 stations. Thruway buses are left out. |
-| Gaps | **The Gold Runner (the San Joaquins, renamed Nov 3, 2025) isn't in Amtrak's national feed, nor in 511's.** It needs its own source. |
+| Gaps | The Gold Runner (the San Joaquins, renamed Nov 3, 2025) isn't in Amtrak's national feed, nor in 511's. It comes from its own feed (below). |
+
+### Gold Runner (Amtrak San Joaquins) GTFS feed
+
+| | |
+|---|---|
+| Status | In use since Oct 14, 2026. |
+| Origin | The feed Trillium Solutions publishes for Amtrak San Joaquins, read from the Mobility Database's mirror (feed `mdb-2295`, `storage.googleapis.com/.../us-california-amtrak-san-joaquins-gtfs-2295.zip`), fetched Oct 14, 2026: 122 KB, SHA-256 `9964232c8aad…` (in full in `data/present/feeds.json`). The producer's own URL (`data.trilliumtransit.com/gtfs/sanjoaquins-ca-us/`) is blocked from the build environment. |
+| Version | `feed_info`: "UTC: 26-Nov-2025 18:19", valid Nov 26, 2025 to **June 30, 2026, so it has expired.** The service still runs, and the track it draws hasn't changed, so the geometry and stations stand. Refresh it from the producer once `data.trilliumtransit.com` is reachable. |
+| License | **None stated** (`feed_license` is empty), and no terms were found from the agency, so its features are flagged `license_unclear`, like Amtrak's. **Open item for Matthew.** |
+| Used for | The Gold Runner: one line (`intercity_rail`), Oakland Jack London Square to Stockton and Sacramento inside the map ("continues beyond the map to Bakersfield"), and 9 stations. Thruway buses are left out. |
 
 ### BART GTFS feed
 
@@ -136,8 +146,8 @@ Railway.
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
 | past | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| present | 43 | 43 | 266 | 1998.9 | 0 | 0 | 43 | 0 |
+| present | 44 | 44 | 275 | 2167.4 | 0 | 0 | 44 | 0 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `expected_opening_unsourced` 6, `license_unclear` 39, `opened_unsourced` 352, `status_unverified` 6.
+Open flags: `expected_opening_unsourced` 6, `license_unclear` 50, `opened_unsourced` 363, `status_unverified` 6.
 <!-- coverage:end -->

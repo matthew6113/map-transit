@@ -865,7 +865,7 @@
       "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
       "type": "dataset",
       "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
-      "accessed": "2026-10-13",
+      "accessed": "2026-10-14",
       "notes": "feed_info gives no dates; file SHA-256 7b3665119162f9efa99f111043b67d5f436ead0f56f83b256a8c9c05288018e6."
     },
     {
@@ -875,8 +875,18 @@
       "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
       "type": "dataset",
       "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
-      "accessed": "2026-10-13",
+      "accessed": "2026-10-14",
       "notes": "feed_info dates 20261014 to 20261020; file SHA-256 d1ed5c25894dd7641fa1131dfb2d454d4a0550a2908e2294e56b76f8848cbbfa."
+    },
+    {
+      "id": "gtfs-gold-runner",
+      "title": "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295), version UTC: 26-Nov-2025 18:19",
+      "publisher": "Trillium Solutions for Amtrak San Joaquins",
+      "url": "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+      "type": "dataset",
+      "license": "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+      "accessed": "2026-10-14",
+      "notes": "feed_info dates 20251126 to 20260630; file SHA-256 9964232c8aad74f9e1ef069445d6561ef02f2e779507181d54b8c14731d51baf."
     },
     {
       "id": "osm-overpass-brt",
@@ -885,7 +895,7 @@
       "url": "https://overpass-api.de/api/interpreter",
       "type": "dataset",
       "license": "Open Database License (ODbL) 1.0: https://www.openstreetmap.org/copyright",
-      "accessed": "2026-10-13",
+      "accessed": "2026-10-14",
       "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
     }
   ]

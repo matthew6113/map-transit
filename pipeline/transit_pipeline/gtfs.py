@@ -114,6 +114,16 @@ FEEDS = {
         "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
         license_unclear=True,
     ),
+    # The Gold Runner (the San Joaquins) is in neither 511's feed nor Amtrak's. Its own feed, published
+    # by Trillium for Amtrak San Joaquins, is read from the Mobility Database's mirror (feed mdb-2295):
+    # the producer's host, data.trilliumtransit.com, isn't reachable from the build environment.
+    "gold-runner": Feed(
+        "gold-runner", "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295)",
+        "Trillium Solutions for Amtrak San Joaquins",
+        "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+        "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+        license_unclear=True,
+    ),
     "bart": Feed(
         "bart", "Bay Area Rapid Transit GTFS feed", "Bay Area Rapid Transit",
         "https://www.bart.gov/dev/schedules/google_transit.zip",
@@ -217,7 +227,7 @@ AGENCIES = [
            single(("smart", "SMART", "commuter_rail"))),
     Agency("ace", ("ace", "Altamont Corridor Express", "ACE"), "511", r"Altamont|\bACE\b",
            single(("ace", "Altamont Corridor Express", "commuter_rail"))),
-    Agency("gold-runner", ("gold-runner", "Gold Runner (formerly the San Joaquins)", "Gold Runner"), "511", r"Gold Runner|San Joaquin",
+    Agency("gold-runner", ("gold-runner", "Gold Runner (formerly the San Joaquins)", "Gold Runner"), "gold-runner", r"Gold Runner|San Joaquins",
            single(("gold-runner", "Gold Runner", "intercity_rail"))),
     Agency("sfo-airtrain", ("sfo-airtrain", "SFO AirTrain", "AirTrain"), "511", r"^SFO Airport$",
            single(("sfo-airtrain", "SFO AirTrain", "people_mover"))),

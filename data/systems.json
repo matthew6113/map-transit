@@ -36,6 +36,11 @@
       "short_name": "Caltrain"
     },
     {
+      "id": "gold-runner",
+      "name": "Gold Runner (formerly the San Joaquins)",
+      "short_name": "Gold Runner"
+    },
+    {
       "id": "golden-gate-ferry",
       "name": "Golden Gate Ferry",
       "short_name": "Golden Gate Ferry"
