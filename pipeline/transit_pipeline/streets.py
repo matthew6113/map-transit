@@ -114,7 +114,8 @@ def crossing(a: str, b: str) -> tuple[float, float]:
     return (round(q.x, 6), round(q.y, 6))
 
 
-def route(names: list[str], start: str | tuple[float, float], end: str | tuple[float, float]) -> tuple[list[list[float]], float]:
+def route(names: list[str], start: str | tuple[float, float], end: str | tuple[float, float],
+          bridge_m: float = 0.0) -> tuple[list[list[float]], float]:
     """The centerline along the named streets from one corner to another, as lon/lat, and its length
     in metres. Divided roads come out along one carriageway; the test is the USGS check."""
     net = street(names)
@@ -132,9 +133,10 @@ def route(names: list[str], start: str | tuple[float, float], end: str | tuple[f
     # A divided road's carriageways, and a street interrupted by an unnamed link, leave dead ends a few
     # metres from the rest: bridge each dead end to the nearest node within BRIDGE_M.
     nodes = list(graph)
+    reach = max(BRIDGE_M, bridge_m)  # a recipe may allow longer gaps, where a freeway cut the street
     for u in [n for n in nodes if len(graph[n]) == 1]:
         best = min((Point(u).distance(Point(v)), v) for v in nodes if v != u and v not in {w for w, _, _ in graph[u]})
-        if best[0] <= BRIDGE_M:
+        if best[0] <= reach:
             link = LineString([u, best[1]])
             graph[u].append((best[1], link.length, link))
             graph[best[1]].append((u, link.length, link))

@@ -809,6 +809,20 @@
       "check": "usgs-oakland-west-1949",
       "est_error_m": 15,
       "note": "In Central Avenue and Encinal Avenue"
+    },
+    "sp-monterey-ave": {
+      "parts": [
+        {
+          "streets": [
+            "Monterey Avenue"
+          ],
+          "from": "Hopkins Street",
+          "to": "Colusa Avenue"
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Monterey Avenue"
     }
   },
   "points": {

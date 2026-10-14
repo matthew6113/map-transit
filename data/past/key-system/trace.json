@@ -62,7 +62,429 @@
       "fit": "sf1915-bay",
       "est_error_m": 50,
       "note": "The trestle runs straight from the shore, then curves to the ferry terminal"
+    },
+    "key-trunk-shore": {
+      "parts": [
+        {
+          "join": "key-pier",
+          "at": "start"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.332,
+              37.817,
+              -122.292,
+              37.83
+            ],
+            "zoom": 0.9
+          },
+          "px": [
+            [
+              1300,
+              182
+            ],
+            [
+              1420,
+              158
+            ],
+            [
+              1550,
+              140
+            ]
+          ],
+          "snap": 5
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.302,
+              37.822,
+              -122.272,
+              37.836
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              340,
+              387
+            ],
+            [
+              380,
+              372
+            ],
+            [
+              480,
+              342
+            ],
+            [
+              600,
+              302
+            ]
+          ],
+          "snap": 5
+        }
+      ],
+      "est_error_m": 20,
+      "note": "From the pier's land end under the Southern Pacific main line (the 1903 subway) to Poplar Junction, along the line the 1949 sheet draws there"
+    },
+    "key-yerba-buena": {
+      "parts": [
+        {
+          "join": "key-trunk-shore",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.302,
+              37.822,
+              -122.272,
+              37.836
+            ],
+            "zoom": 0.8
+          },
+          "px": [
+            [
+              700,
+              272
+            ],
+            [
+              770,
+              252
+            ]
+          ],
+          "snap": 5
+        }
+      ],
+      "est_error_m": 20,
+      "note": "Along Yerba Buena Avenue to the station at San Pablo Avenue"
+    },
+    "key-bridge-link": {
+      "parts": [
+        {
+          "join": "bbr-east-approach",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.332,
+              37.817,
+              -122.292,
+              37.83
+            ],
+            "zoom": 0.9
+          },
+          "px": [
+            [
+              1100,
+              225
+            ],
+            [
+              1200,
+              200
+            ]
+          ],
+          "snap": 5
+        },
+        {
+          "join": "key-pier",
+          "at": "start"
+        }
+      ],
+      "est_error_m": 25,
+      "note": "From the East Bay yards over the bridge approach to the north side of the mole (\"TRANSIT LINES\" on the 1949 sheet), meeting the old pier line"
+    },
+    "key-40th-st": {
+      "parts": [
+        {
+          "join": "key-yerba-buena",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Yerba Buena Avenue"
+          ],
+          "from": [
+            -122.2798,
+            37.8296
+          ],
+          "to": "40th Street"
+        },
+        {
+          "streets": [
+            "40th Street"
+          ],
+          "from": "Yerba Buena Avenue",
+          "to": "Piedmont Avenue",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along Yerba Buena Avenue and 40th Street"
+    },
+    "key-linden-st": {
+      "parts": [
+        {
+          "join": "key-yerba-buena",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Linden Street"
+          ],
+          "from": [
+            -122.279,
+            37.831
+          ],
+          "to": [
+            -122.2753,
+            37.8355
+          ],
+          "bridge_m": 250
+        },
+        {
+          "lonlat": [
+            [
+              -122.2745,
+              37.8385
+            ]
+          ]
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 80,
+      "approximate": true,
+      "note": "\"Nearly north\" from San Pablo Avenue, crossing Temescal Creek on Linden Street; drawn along today's Linden Street and joined straight to Adeline Street, which the sources don't place exactly"
+    },
+    "key-adeline-south": {
+      "parts": [
+        {
+          "join": "key-linden-st",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": [
+            -122.2745,
+            37.8385
+          ],
+          "to": "Alcatraz Avenue",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along Adeline Street to Alcatraz Avenue"
+    },
+    "key-adeline-north": {
+      "parts": [
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "Alcatraz Avenue",
+          "to": "Shattuck Avenue"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "Beside the Southern Pacific's tracks on Adeline Street"
+    },
+    "key-shattuck-center": {
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Adeline Street",
+          "to": "Center Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "Beside the Southern Pacific's tracks on Shattuck Avenue"
+    },
+    "key-adeline-1941": {
+      "parts": [
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "Alcatraz Avenue",
+          "to": "Shattuck Avenue"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "A single track built in 1941 beside the Interurban's, in the unpaved middle of Adeline Street"
+    },
+    "key-poplar-north": {
+      "parts": [
+        {
+          "join": "key-trunk-shore",
+          "at": "end"
+        },
+        {
+          "lonlat": [
+            [
+              -122.2847,
+              37.8291
+            ],
+            [
+              -122.284689,
+              37.82298
+            ]
+          ]
+        },
+        {
+          "streets": [
+            "Poplar Street"
+          ],
+          "from": [
+            -122.284689,
+            37.82298
+          ],
+          "to": "West Grand Avenue"
+        }
+      ],
+      "est_error_m": 60,
+      "approximate": true,
+      "note": "South from Poplar Junction on Poplar Street; the street's north end is gone today, so the first 700 m are joined straight"
+    },
+    "key-west-grand": {
+      "parts": [
+        {
+          "streets": [
+            "West Grand Avenue"
+          ],
+          "from": "Poplar Street",
+          "to": "Broadway"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "Along 22nd Street, today's West Grand Avenue, to Broadway"
+    },
+    "key-poplar-south": {
+      "parts": [
+        {
+          "streets": [
+            "Poplar Street"
+          ],
+          "from": "West Grand Avenue",
+          "to": "12th Street",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along Poplar Street"
+    },
+    "key-12th-st": {
+      "parts": [
+        {
+          "streets": [
+            "12th Street"
+          ],
+          "from": "Poplar Street",
+          "to": "Broadway",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along 12th Street to Broadway"
+    },
+    "key-12th-st-oak": {
+      "parts": [
+        {
+          "streets": [
+            "12th Street"
+          ],
+          "from": "Broadway",
+          "to": "Oak Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "Along 12th Street from Broadway to Oak Street"
+    },
+    "key-sacramento-st": {
+      "parts": [
+        {
+          "streets": [
+            "Sacramento Street"
+          ],
+          "from": "Alcatraz Avenue",
+          "to": "Hopkins Street"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "In the median of Sacramento Street"
+    },
+    "key-hopkins-st": {
+      "parts": [
+        {
+          "streets": [
+            "Hopkins Street"
+          ],
+          "from": "Sacramento Street",
+          "to": [
+            -122.2742,
+            37.8884
+          ]
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 40,
+      "note": "Private right of way and Hopkins Street to El Dorado Avenue; drawn along today's Hopkins Street"
     }
   },
-  "points": {}
+  "points": {
+    "key-pier-terminal": {
+      "trace": {
+        "sheet": "usgs-san-francisco-1915",
+        "bbox": [
+          -122.352,
+          37.8125,
+          -122.341,
+          37.8185
+        ],
+        "zoom": 3
+      },
+      "px": [
+        180,
+        165
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 50,
+      "note": "The ferry terminal building at the pier's west end"
+    },
+    "key-san-pablo": {
+      "lonlat": [
+        -122.2798,
+        37.8296
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 30,
+      "note": "Where the 1949 sheet marks \"Sta\" at San Pablo Avenue"
+    },
+    "key-piedmont-terminal": {
+      "at": "40th Street/Piedmont Avenue",
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 60,
+      "note": "\"on Piedmont avenue, between Fortieth and Forty-first streets\": drawn at today's corner of 40th Street and Piedmont Avenue"
+    }
+  }
 }

@@ -1,0 +1,683 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Work in progress: the Phase 2a pilot.",
+  "lines": [
+    {
+      "id": "key-f",
+      "name": "Berkeley line",
+      "short_name": "F",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1903-10-26",
+      "closed": "1958",
+      "status": "closed",
+      "summary": "The Key Route's first line, from its pier to downtown Berkeley by Adeline Street and Shattuck Avenue; cut back to Alcatraz Avenue in 1933, then from 1941 over the Southern Pacific's old tracks to Northbrae and, from 1942, through the Northbrae Tunnel to The Alameda.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Ferry trains, until the Bay Bridge opened to trains"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-yerba-buena"
+        },
+        {
+          "segment": "key-linden-st"
+        },
+        {
+          "segment": "key-adeline-south"
+        },
+        {
+          "segment": "key-adeline-north",
+          "to": "1933"
+        },
+        {
+          "segment": "key-shattuck-center",
+          "to": "1933"
+        },
+        {
+          "segment": "key-adeline-1941",
+          "from": "1941-07-26"
+        },
+        {
+          "segment": "sp-shattuck-ave-south",
+          "from": "1941-07-26",
+          "note": "Over East Bay Transit's tracks to Dwight Way, then the Interurban's"
+        },
+        {
+          "segment": "sp-shattuck-ave-north",
+          "from": "1941-07-26",
+          "note": "To University Avenue from July 26, 1941; beyond it from August 6, 1941"
+        },
+        {
+          "segment": "sp-shattuck-sutter-link",
+          "from": "1941-08-06"
+        },
+        {
+          "segment": "sp-sutter-st",
+          "from": "1941-08-06"
+        },
+        {
+          "segment": "sp-northbrae-tunnel",
+          "from": "1942-12",
+          "note": "Ordered by the Railroad Commission on October 27, 1942 (D35900); December 6, 1942 per Demoro"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "name",
+            "route"
+          ],
+          "pages": "5–6, 13, 16",
+          "note": "Lines named by letter in 1941: \"Adeline Street\" (F), \"Sacramento Street Rail Line \\\"H\\\"\", \"Westbrae Shuttle Rail Line \\\"G\\\"\"."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903)."
+        },
+        {
+          "source": "crc-d25740",
+          "supports": [
+            "route"
+          ],
+          "pages": "8, 10",
+          "note": "Authority to discontinue the line \"along Adeline Street and Shattuck Avenue between the intersection of Adeline Street and Alcatraz Avenue and the end of the line at University Avenue\" (March 16, 1933)."
+        },
+        {
+          "source": "crc-d34460",
+          "supports": [
+            "route"
+          ],
+          "pages": "1, 5, 12"
+        },
+        {
+          "source": "crc-d35900",
+          "supports": [
+            "route"
+          ],
+          "pages": "2–3, 7",
+          "note": "To Northbrae Station: \"This service was initiated August 6, 1941.\" Ordered through the Northbrae tunnel to The Alameda \"within thirty (30) days from the date hereof\" (October 27, 1942)."
+        },
+        {
+          "source": "demoro-key-route-1985",
+          "supports": [
+            "route"
+          ],
+          "pages": "104",
+          "note": "Through the Northbrae Tunnel to The Alameda from December 6, 1942 (page as Wikipedia gives it)."
+        },
+        {
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        }
+      ],
+      "flags": [
+        "page_unverified"
+      ],
+      "notes": "Letters were given to the lines in 1939. By 1933 the line ran to University Avenue, not Center Street; when it was extended isn't sourced, and that last stretch isn't drawn. The day of the 1933 cutback isn't sourced. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+    },
+    {
+      "id": "key-c",
+      "name": "Piedmont line",
+      "short_name": "C",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1904-06-01",
+      "closed": "1958",
+      "status": "closed",
+      "summary": "From the Key Route pier along Yerba Buena Avenue and 40th Street to Piedmont Avenue; extended into Piedmont in 1924.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Ferry trains, until the Bay Bridge opened to trains"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-yerba-buena"
+        },
+        {
+          "segment": "key-40th-st"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "name",
+            "route"
+          ],
+          "pages": "5–6, 13, 16",
+          "note": "Lines named by letter in 1941: \"Adeline Street\" (F), \"Sacramento Street Rail Line \\\"H\\\"\", \"Westbrae Shuttle Rail Line \\\"G\\\"\"."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "oakland-tribune-1904-05-28",
+          "supports": [
+            "opened",
+            "route"
+          ]
+        },
+        {
+          "source": "oakland-tribune-1904-06-01",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"this morning. The event was the reception of the Key route system\"."
+        },
+        {
+          "source": "oakland-tribune-1924-11-03",
+          "supports": [
+            "general"
+          ],
+          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\"."
+        },
+        {
+          "source": "cpuc-d50731",
+          "supports": [
+            "route"
+          ],
+          "pages": "1",
+          "note": "In 1954 the C line ran \"between Oakland Avenue near Fairview Avenue in the City of Piedmont and the San Francisco-Oakland Bay Bridge terminal\", 10.55 miles."
+        },
+        {
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        }
+      ],
+      "flags": [
+        "needs_manual_digitizing"
+      ],
+      "notes": "Not yet drawn: the 1924 extension beyond Piedmont Avenue to Oakland Avenue in Piedmont, whose streets come only from secondary sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+    },
+    {
+      "id": "key-b",
+      "name": "Twenty-second Street line",
+      "short_name": "B",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1906-05-16",
+      "closed": "1958",
+      "status": "closed",
+      "summary": "From Poplar Junction down Poplar Street and along 22nd Street (today's West Grand Avenue) to Broadway; extended along Lakeshore Avenue to Trestle Glen around 1919–20.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Ferry trains, until the Bay Bridge opened to trains"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-poplar-north"
+        },
+        {
+          "segment": "key-west-grand"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "name",
+            "route"
+          ],
+          "pages": "5–6, 13, 16",
+          "note": "Lines named by letter in 1941: \"Adeline Street\" (F), \"Sacramento Street Rail Line \\\"H\\\"\", \"Westbrae Shuttle Rail Line \\\"G\\\"\"."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "srj-1906-06-02-22nd-st",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "848"
+        },
+        {
+          "source": "cpuc-d49307",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "In 1953 the B line ran to Underhills Station, about 0.8 mile beyond Wesley Station (Trestle Glen Road and Lakeshore Avenue)."
+        },
+        {
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        }
+      ],
+      "flags": [
+        "needs_manual_digitizing"
+      ],
+      "notes": "Not yet drawn: the line east of Broadway to Lakeshore and Trestle Glen, whose streets and dates come only from secondary sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+    },
+    {
+      "id": "key-a",
+      "name": "Twelfth Street line",
+      "short_name": "A",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1911-06-11",
+      "closed": "1958",
+      "status": "closed",
+      "summary": "From Poplar Junction down Poplar Street and along 12th Street into downtown Oakland; later out to East Oakland, cut back to 12th and Oak Streets in 1950.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Ferry trains, until the Bay Bridge opened to trains"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-poplar-north"
+        },
+        {
+          "segment": "key-poplar-south"
+        },
+        {
+          "segment": "key-12th-st"
+        },
+        {
+          "segment": "key-12th-st-oak"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "name",
+            "route"
+          ],
+          "pages": "5–6, 13, 16",
+          "note": "Lines named by letter in 1941: \"Adeline Street\" (F), \"Sacramento Street Rail Line \\\"H\\\"\", \"Westbrae Shuttle Rail Line \\\"G\\\"\"."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "oakland-tribune-1911-06-12",
+          "supports": [
+            "opened",
+            "route"
+          ]
+        },
+        {
+          "source": "crc-d34060",
+          "supports": [
+            "route"
+          ],
+          "pages": "3–4, 11",
+          "note": "Extended on March 22, 1941 along East 14th Street to 105th Avenue, then over the Interurban's former Seventh Street line tracks to Havenscourt."
+        },
+        {
+          "source": "cpuc-d44289",
+          "supports": [
+            "route"
+          ],
+          "pages": "3, 9–10",
+          "note": "Authorized on June 7, 1950 to end rail service east of 12th and Oak Streets."
+        },
+        {
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        }
+      ],
+      "flags": [
+        "needs_manual_digitizing"
+      ],
+      "notes": "Not yet drawn: the line east of Oak Street to First Avenue and East 14th Street, and its 1941–50 extension to Havenscourt. The day of the 1950 cutback (October 29) is given only by later sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+    },
+    {
+      "id": "key-h",
+      "name": "Sacramento Street line",
+      "short_name": "H",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1911-11-15",
+      "closed": "1941-07-26",
+      "status": "closed",
+      "summary": "From 54th and Adeline Streets along Sacramento Street through West Berkeley, then along Hopkins Street to Northbrae; from 1933 on the Southern Pacific's Monterey Avenue tracks to Colusa Avenue.",
+      "fate": "converted_to_bus",
+      "fate_note": "Converted to buses on July 26, 1941.",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Ferry trains, until the Bay Bridge opened to trains"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-yerba-buena"
+        },
+        {
+          "segment": "key-linden-st"
+        },
+        {
+          "segment": "key-adeline-south",
+          "note": "To 54th Street"
+        },
+        {
+          "segment": "key-sacramento-st"
+        },
+        {
+          "segment": "key-hopkins-st",
+          "to": "1933"
+        },
+        {
+          "segment": "sp-monterey-ave",
+          "from": "1933"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "246–253"
+        },
+        {
+          "source": "crc-d34389",
+          "supports": [
+            "name",
+            "route"
+          ],
+          "pages": "5–6, 13, 16",
+          "note": "Lines named by letter in 1941: \"Adeline Street\" (F), \"Sacramento Street Rail Line \\\"H\\\"\", \"Westbrae Shuttle Rail Line \\\"G\\\"\"."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939."
+        },
+        {
+          "source": "oakland-tribune-1911-11-13",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "source": "oakland-tribune-1911-11-15",
+          "supports": [
+            "opened"
+          ],
+          "note": "Stations: \"Alcatraz, Ashby, Dwight way, University, Rose, The Alameda, Northbrae and Albany.\""
+        },
+        {
+          "source": "crc-d25740",
+          "supports": [
+            "route"
+          ],
+          "pages": "4, 6, 10"
+        },
+        {
+          "source": "crc-d34460",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10"
+        }
+      ],
+      "flags": [
+        "needs_manual_digitizing"
+      ],
+      "notes": "Not yet drawn: the link from 54th and Adeline Streets to Sacramento Street, which the sources don't place. The day it moved to Monterey Avenue in 1933 isn't sourced."
+    }
+  ]
+}

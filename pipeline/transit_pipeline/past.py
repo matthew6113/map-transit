@@ -100,10 +100,11 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
         return [end], "join", f"joined to {part['join']} at its {part.get('at', 'end')}"
     if "streets" in part:
         from .streets import OVERTURE_RELEASE, route
-        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]))
+        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]), part.get("bridge_m", 0.0))
         names = " and ".join(part["streets"])
+        gap = f", across gaps of up to {part['bridge_m']:.0f} m where the street is cut today" if part.get("bridge_m") else ""
         return coords, "street-centerline", (f"along today's {names} centerline from {_label(part['from'])} to "
-                                             f"{_label(part['to'])} ({length:.0f} m; Overture {OVERTURE_RELEASE})")
+                                             f"{_label(part['to'])} ({length:.0f} m; Overture {OVERTURE_RELEASE}{gap})")
     if "trace" in part:
         frame = _frame(part["trace"])
         px = [tuple(p) for p in part["px"]]

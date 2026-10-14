@@ -132,9 +132,11 @@ def main() -> None:
     for era in ERAS:
         lines, segments, points = load_era(era)
         uses = defaultdict(list)  # segment id -> lines that use it
+        spans = defaultdict(list)  # segment id -> (line, route entry): when each line used it
         for line in lines:
             for r in line["route"]:
                 uses[r["segment"]].append(line)
+                spans[r["segment"]].append((line, r))
 
         def line_years(line):
             if era == "future":
@@ -143,8 +145,18 @@ def main() -> None:
             c = decimal_year(line["closed"]) if line["closed"] else (OPEN_ENDED if line["status"] == "active" else None)
             return o, c
 
-        def segment_years(seg_props, users):
-            """(open_y, close_y, borrowed, undated) for display, of a segment or a point."""
+        def use_years(line, r=None):
+            """A line's years on one segment: its own, narrowed by the route entry's from/to."""
+            o, c = line_years(line)
+            if r and r.get("from"):
+                o = max(o if o is not None else -math.inf, decimal_year(r["from"]))
+            if r and r.get("to"):
+                c = min(c if c is not None else math.inf, decimal_year(r["to"]))
+            return o, c
+
+        def segment_years(seg_props, users, used=None):
+            """(open_y, close_y, borrowed, undated) for display, of a segment or a point. A segment
+            borrows from its lines' use of it (route from/to), a point from its lines."""
             if era == "future":
                 return NOT_YET, OPEN_ENDED, False, False
             o = decimal_year(seg_props["opened"])
@@ -153,12 +165,13 @@ def main() -> None:
             if c is None and active and not seg_props["closed"]:
                 c = OPEN_ENDED
             borrowed = False
+            years = [use_years(u, r) for u, r in used] if used else [use_years(u) for u in users]
             if o is None:
-                cands = [y for y in (line_years(u)[0] for u in users) if y is not None]
+                cands = [y[0] for y in years if y[0] is not None and y[0] != -math.inf]
                 if cands:
                     o, borrowed = min(cands), True
             if c is None:
-                cands = [y for y in (line_years(u)[1] for u in users) if y is not None]
+                cands = [y[1] for y in years if y[1] is not None and y[1] != math.inf]
                 if cands:
                     c, borrowed = max(cands), True
             undated = o is None or c is None
@@ -169,7 +182,7 @@ def main() -> None:
         for fid, (sid, f) in enumerate(sorted(segments.items()), start=1):
             p = f["properties"]
             users = uses.get(sid, [])
-            o, c, borrowed, undated = segment_years(p, users)
+            o, c, borrowed, undated = segment_years(p, users, spans.get(sid))
             seg_display[sid] = (o, c, borrowed, undated)
             mode = users[0]["mode"] if users else "railroad"
             status = max((u["status"] for u in users), key=lambda s: list(statuses).index(s), default="closed")
