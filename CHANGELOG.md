@@ -2,6 +2,16 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, sources reachable again
+
+- **The Sacramento Northern's end beyond West Pittsburg** now cites Railroad Commission Decision No.
+  33416 (August 20, 1940), which let the trains stop on five days' notice; the 1913 Electric Railway
+  Journal quotes for the first through train (July 2) and the formal opening (September 3) are
+  checked in the journal's text.
+- **The Webster Street line reaches Alameda Pier:** across the estuary by the bridge the 1915 USGS
+  sheet draws (corrected by the sheet's fit, about 80 m), then along the railroad on Alameda's north
+  shore, which the 1949 sheet still draws, to the mole.
+
 ## 2026-10-15: Phase 2c, the Fillmore Hill counterbalance
 
 - **The Fillmore Hill counterbalance** on Fillmore St from Broadway to Green St, 1895 to April 5,

@@ -95,19 +95,19 @@
           "segment": "sn-west-pittsburg-mallard",
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)"
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
         },
         {
           "segment": "sn-mallard-chipps-ferry",
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)"
+          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
         },
         {
           "segment": "sn-chipps-county-line",
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)"
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
         }
       ],
       "sources": [
@@ -148,7 +148,7 @@
             "fate",
             "route"
           ],
-          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941); recites Decision No. 33416 (August 20, 1940) on West Pittsburg to Sacramento."
+          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
         },
         {
           "source": "western-railroader-1945-08",
@@ -163,7 +163,7 @@
             "route"
           ],
           "pages": "78",
-          "note": "First through train to Sacramento, July 2, 1913."
+          "note": "The first through train from Sacramento to Oakland ran on July 2, 1913."
         },
         {
           "source": "erj-1913-09-13-oakland-antioch-eastern",
@@ -171,8 +171,8 @@
             "route",
             "opened"
           ],
-          "pages": "435",
-          "note": "Formal opening to Sacramento, with its schedule, September 3, 1913."
+          "pages": "434-435",
+          "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
         },
         {
           "source": "crc-d33009",
@@ -181,10 +181,19 @@
             "closed"
           ],
           "note": "Passenger trains north of West Pittsburg may stop \"on July 30, 1940, unless sooner expressly permitted\"."
+        },
+        {
+          "source": "crc-d33416",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "2-3",
+          "note": "Authorizes the Sacramento Northern \"to abandon its passenger train service between West Pittsburg and Sacramento\" on five days' notice (August 20, 1940)."
         }
       ],
       "flags": [],
-      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940; after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
       "continues_beyond": "Sacramento, and on to Chico"
     }
   ]

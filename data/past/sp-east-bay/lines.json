@@ -937,6 +937,16 @@
         },
         {
           "segment": "sp-webster-2nd-1st"
+        },
+        {
+          "segment": "sp-harrison-st-bridge"
+        },
+        {
+          "segment": "sp-alameda-north-shore"
+        },
+        {
+          "segment": "sp-alameda-mole",
+          "note": "To Alameda Pier and its ferries"
         }
       ],
       "sources": [
@@ -978,10 +988,8 @@
           "note": "Southern Pacific \"may cease the operation … on or after December 27th, 1923\"."
         }
       ],
-      "flags": [
-        "needs_manual_digitizing"
-      ],
-      "notes": "Drawn only in Oakland, as far as First Street. Its crossing of the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), Webster Junction and its run through Alameda to the pier need a period map to trace. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked."
+      "flags": [],
+      "notes": "Across the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), then, as the 1915 USGS sheet draws the railroad, west along Alameda's north shore to the mole and Alameda Pier; where Webster Junction stood isn't placed. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked."
     }
   ]
 }

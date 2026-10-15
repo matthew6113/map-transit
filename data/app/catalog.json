@@ -8897,12 +8897,12 @@
         37.7762
       ],
       "fids": [
-        296,
-        297,
-        298,
         299,
         300,
-        301
+        301,
+        302,
+        303,
+        304
       ],
       "segments": [
         {
@@ -9179,9 +9179,6 @@
         37.7762
       ],
       "fids": [
-        285,
-        286,
-        287,
         288,
         289,
         290,
@@ -9189,7 +9186,10 @@
         292,
         293,
         294,
-        295
+        295,
+        296,
+        297,
+        298
       ],
       "segments": [
         {
@@ -10084,7 +10084,7 @@
           "to": "1941-06-30"
         }
       ],
-      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940; after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
       "flags": [],
       "undated": false,
       "length_km": 130.54,
@@ -10344,7 +10344,7 @@
           "closed": null,
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)",
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -10363,7 +10363,7 @@
           "closed": null,
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -10382,7 +10382,7 @@
           "closed": null,
           "from": "1913-09-03",
           "to": "1940-08",
-          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)",
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -10474,7 +10474,7 @@
             "fate",
             "route"
           ],
-          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941); recites Decision No. 33416 (August 20, 1940) on West Pittsburg to Sacramento."
+          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
         },
         {
           "id": "western-railroader-1945-08",
@@ -10493,36 +10493,36 @@
         },
         {
           "id": "erj-1913-07-12-oakland-antioch-eastern",
-          "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+          "title": "First Through Train Over Oakland, Antioch & Eastern Railway",
           "publisher": "Electric Railway Journal 42(2)",
           "date": "1913-07-12",
           "type": "journal",
           "url": "https://archive.org/details/transit-journal-1932_1913-07-12_42_2",
           "license": "Public domain (published 1913)",
-          "accessed": "2026-10-14",
+          "accessed": "2026-10-15",
           "source": "erj-1913-07-12-oakland-antioch-eastern",
           "supports": [
             "route"
           ],
           "pages": "78",
-          "note": "First through train to Sacramento, July 2, 1913."
+          "note": "The first through train from Sacramento to Oakland ran on July 2, 1913."
         },
         {
           "id": "erj-1913-09-13-oakland-antioch-eastern",
-          "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+          "title": "Formal Opening of Oakland, Antioch & Eastern Railway",
           "publisher": "Electric Railway Journal 42(11)",
           "date": "1913-09-13",
           "type": "journal",
           "url": "https://archive.org/details/transit-journal-1932_1913-09-13_42_11",
           "license": "Public domain (published 1913)",
-          "accessed": "2026-10-14",
+          "accessed": "2026-10-15",
           "source": "erj-1913-09-13-oakland-antioch-eastern",
           "supports": [
             "route",
             "opened"
           ],
-          "pages": "435",
-          "note": "Formal opening to Sacramento, with its schedule, September 3, 1913."
+          "pages": "434-435",
+          "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
         },
         {
           "id": "crc-d33009",
@@ -10538,6 +10538,23 @@
             "closed"
           ],
           "note": "Passenger trains north of West Pittsburg may stop \"on July 30, 1940, unless sooner expressly permitted\"."
+        },
+        {
+          "id": "crc-d33416",
+          "title": "Railroad Commission of California, Decision No. 33416 (Application No. 19954 and others): interim opinion and order",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1940-08-20",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33416_19400820_A19954.pdf",
+          "license": "California public record (Railroad Commission); cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d33416",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "2-3",
+          "note": "Authorizes the Sacramento Northern \"to abandon its passenger train service between West Pittsburg and Sacramento\" on five days' notice (August 20, 1940)."
         },
         {
           "id": "usgs-san-francisco-1915",
@@ -14466,25 +14483,26 @@
           "to": "1923-12-27"
         }
       ],
-      "notes": "Drawn only in Oakland, as far as First Street. Its crossing of the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), Webster Junction and its run through Alameda to the pier need a period map to trace. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked.",
-      "flags": [
-        "needs_manual_digitizing"
-      ],
+      "notes": "Across the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), then, as the 1915 USGS sheet draws the railroad, west along Alameda's north shore to the mole and Alameda Pier; where Webster Junction stood isn't placed. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked.",
+      "flags": [],
       "undated": false,
-      "length_km": 1.23,
+      "length_km": 6.73,
       "confidence_km": {
-        "digitized": 1.23
+        "digitized": 6.73
       },
       "bbox": [
-        -122.274412,
-        37.794376,
+        -122.330874,
+        37.789954,
         -122.2688,
         37.803847
       ],
       "fids": [
         282,
         283,
-        284
+        284,
+        285,
+        286,
+        287
       ],
       "segments": [
         {
@@ -14534,6 +14552,54 @@
             "closed_unsourced"
           ],
           "notes": "Single track to First Street in 1914, toward the Harrison Street swing bridge."
+        },
+        {
+          "id": "sp-harrison-st-bridge",
+          "name": "Harrison Street swing bridge across the estuary",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sp-webster-2nd-1st at its end; then traced by eye from USGS San Francisco 1:62,500 (1915) (5 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad bridge the 1915 sheet draws across the estuary at the foot of Oakland's street grid; it was gone by 1949.",
+          "structure": "bridge",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The sources name the Harrison Street swing bridge; it is traced where the 1915 USGS sheet draws the railroad bridge at the foot of Oakland's street grid, corrected by the sheet's fit near Yerba Buena Island (as the pilot's Alameda Mole), so it carries an error of about 80 m. The Posey Tube replaced the crossing by 1949."
+        },
+        {
+          "id": "sp-alameda-north-shore",
+          "name": "Alameda's north shore, the bridge to the mole line",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sp-harrison-st-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (9 hand-read points); then joined to sp-alameda-mole at its end. The railroad along Alameda's north shore, which the 1949 sheet still draws, west to the mole line.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The sources name the bridge and the pier, not the track between; it is drawn along the railroad on Alameda's north shore, which both the 1915 and 1949 USGS sheets draw from the bridge west toward the mole."
+        },
+        {
+          "id": "sp-alameda-mole",
+          "name": "Alameda Mole",
+          "opened": null,
+          "closed": null,
+          "note": "To Alameda Pier and its ferries",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
         }
       ],
       "sources": [
@@ -14656,6 +14722,21 @@
           ],
           "pages": "10",
           "note": "In 1933, \"along Eighteenth, Twentieth, Twenty-first and Webster Streets, between Sixteenth Street Station and Second and Webster Streets\" (2.9 miles, p. 4)."
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
         }
       ]
     },

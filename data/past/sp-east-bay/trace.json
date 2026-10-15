@@ -961,6 +961,116 @@
       "check": "usgs-oakland-west-1949",
       "est_error_m": 20,
       "note": "In Webster Street, to 1st Street, today's Embarcadero West"
+    },
+    "sp-harrison-st-bridge": {
+      "parts": [
+        {
+          "join": "sp-webster-2nd-1st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.286,
+              37.786,
+              -122.268,
+              37.798
+            ],
+            "zoom": 3.2
+          },
+          "px": [
+            [
+              485,
+              395
+            ],
+            [
+              470,
+              450
+            ],
+            [
+              458,
+              510
+            ],
+            [
+              448,
+              570
+            ],
+            [
+              442,
+              620
+            ]
+          ]
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 80,
+      "note": "The railroad bridge the 1915 sheet draws across the estuary at the foot of Oakland's street grid; it was gone by 1949"
+    },
+    "sp-alameda-north-shore": {
+      "parts": [
+        {
+          "join": "sp-harrison-st-bridge",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.296,
+              37.786,
+              -122.272,
+              37.794
+            ],
+            "zoom": 1.8
+          },
+          "px": [
+            [
+              1495,
+              385
+            ],
+            [
+              1300,
+              382
+            ],
+            [
+              1100,
+              380
+            ],
+            [
+              900,
+              380
+            ],
+            [
+              700,
+              381
+            ],
+            [
+              600,
+              383
+            ],
+            [
+              450,
+              388
+            ],
+            [
+              300,
+              393
+            ],
+            [
+              178,
+              399
+            ]
+          ]
+        },
+        {
+          "join": "sp-alameda-mole",
+          "at": "end"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 30,
+      "note": "The railroad along Alameda's north shore, which the 1949 sheet still draws, west to the mole line"
     }
   },
   "points": {
