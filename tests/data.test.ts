@@ -376,15 +376,38 @@ describe('geometry', () => {
     }
   });
 
-  it('marks lines clipped at the map edge with where they continue to, and only those', () => {
+  // Past lines that leave the region stop at the nine counties' boundary instead (decision 16).
+  const bayArea = read(join(DATA, 'bay-area.geojson')).features[0].geometry;
+  const boundary: number[][][] = (bayArea.type === 'Polygon' ? [bayArea.coordinates] : bayArea.coordinates).flat();
+  const toBoundary = ([x, y]: number[]) => {
+    let best = Infinity;
+    for (const ring of boundary) {
+      for (let i = 1; i < ring.length; i++) {
+        const [ax, ay] = ring[i - 1];
+        const [bx, by] = ring[i];
+        const dx = bx - ax;
+        const dy = by - ay;
+        const t = Math.max(0, Math.min(1, ((x - ax) * dx + (y - ay) * dy) / (dx * dx + dy * dy || 1)));
+        best = Math.min(best, Math.hypot(x - (ax + t * dx), y - (ay + t * dy)));
+      }
+    }
+    return best;
+  };
+
+  it('marks lines clipped at the map edge (or, in the past era, the Bay Area\'s county line) with where they continue to', () => {
     const near = (x: number, y: number) =>
       Math.min(Math.abs(x - x0), Math.abs(x - x1), Math.abs(y - y0), Math.abs(y - y1)) < 0.002;
+    const allSegs = new Map(folders.flatMap((f) => f.segments.map((s) => [s.properties.id, s] as const)));
     for (const f of folders) {
-      const segs = new Map(f.segments.map((s) => [s.properties.id, s]));
       for (const l of f.lines) {
         if (!(l as { continues_beyond?: string }).continues_beyond) continue;
-        const touches = l.route.some((r) => coordsOf(segs.get(r.segment)!.geometry.coordinates).some(([x, y]) => near(x, y)));
-        expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge`).toBe(true);
+        const geoms = l.route.map((r) => allSegs.get(r.segment)?.geometry).filter((g) => !!g);
+        // The ends of every part, for the county line (all vertices would be slow there).
+        const ends = geoms.flatMap((g) => (g!.type === 'LineString' ? [g!.coordinates as number[][]] : (g!.coordinates as number[][][])))
+          .flatMap((part) => (part.length ? [part[0], part[part.length - 1]] : []));
+        const touches = geoms.some((g) => coordsOf(g!.coordinates).some(([x, y]) => near(x, y)))
+          || (f.era === 'past' && ends.some((c) => toBoundary(c) < 0.0005));
+        expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge or the county line`).toBe(true);
       }
     }
   });

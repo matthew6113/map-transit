@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -189,6 +189,10 @@ The geometry tools are below (decision 12).
 | `usgs-walnut-creek-1949` | CA_Walnut Creek_301186_1949_24000_geo.tif | 2.032 | `77c7663e774d` |
 | `usgs-port-chicago-1951` | CA_Port Chicago_294325_1951_24000_geo.tif | 2.032 | `51be4bd5938a` |
 | `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
+| `usgs-honker-bay-1918` | CA_Honker Bay_296168_1918_31680_geo.tif | 2.682 | `63a8636eacb3` |
+| `usgs-honker-bay-1953` | CA_Honker Bay_291408_1953_24000_geo.tif | 2.032 | `2aebec44aa88` |
+| `usgs-birds-landing-1953` | CA_Birds Landing_288442_1953_24000_geo.tif | 2.032 | `b1354c7dac09` |
+| `usgs-dozier-1952` | CA_Dozier_290036_1952_24000_geo.tif | 2.032 | `88b9ba333b31` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -222,10 +226,23 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | Candidate (Phase 2). |
-| Origin | `https://overpass-api.openhistoricalmap.org/` |
-| License | CC0, public domain. |
-| Coverage | An Overpass count over BAM's bbox on Oct 13, 2026 found 1,061 railway ways, 1,059 with `start_date` and 552 with `end_date`. Operators include Sacramento Northern (152 ways), Southern Pacific, South Pacific Coast (with a dated branch chronology, 1876–1998), North Pacific Coast, SF & North Pacific, the San José horsecar lines and United Railroads. There are dated Muni A–H route relations. **There is nothing yet for the Key System or the Interurban Electric Railway.** |
+| Status | In use since Oct 15, 2026 (Phase 2c), the first rung of the geometry ladder. |
+| Origin | `https://overpass-api.openhistoricalmap.org/api/interpreter` (Overpass), read by `python -m transit_pipeline.ohm fetch`: every way tagged `railway`, every ferry route and the route relations in the pan limits, as of `timestamp_osm_base` 2026-10-15T00:15:59Z (1,064 ways, 61 relations). Cached in `data/raw/ohm/region.json`; source id `ohm-2026-10-15`. |
+| License | CC0 1.0 (public domain dedication). Every segment drawn from it names its OHM way ids in its geometry method and its source note. |
+| How it's used | Geometry only (`surveyed`): a trace recipe's `ohm` part chains the ways it names (`ohm route` finds them). OHM's dates are crowd-sourced, so they are pointers; dates come from the cited histories, and where they disagree, the primary source wins and the record is flagged `conflicting_sources`. Each segment is checked on a USGS sheet of its period (review images in `docs/screenshots/p2c/traces/`). |
+| Overrides | `data/past/ohm.json` (hand-kept): OHM operators mapped to this map's systems and modes, the ways that duplicate segments traced here, and the ways skipped. `python -m transit_pipeline.ohm survey` writes `docs/checks/ohm.md`: every way as drawn, a duplicate (with its distance from ours), today's track, outside the nine counties, skipped or unused. |
+| Cross-check | Where OHM and this map traced the same track, the medians agree within 1–12 m for Muni's Geary, Van Ness and Chestnut St lines, 15–31 m for the Sacramento Northern in the Oakland hills and the NWP in Marin, and 19–57 m elsewhere (`docs/checks/ohm.md`). |
+| Drawn from it | The Sacramento Northern from West Pittsburg to Mallard, and from Chipps Island to the Yolo County line (`data/past/ohm-sacramento-northern/`). |
+| Gaps | OHM has nothing yet for the Key System or the Interurban Electric Railway. Many of its ways were traced by its mappers from the 15-minute USGS sheets of 1895–1915, which are off by tens to hundreds of metres; those are checked or corrected before use. Its San Mateo interurban relation (2800853) follows the 1892 route in San Francisco, not the later one. |
+
+### Overture Maps divisions (the Bay Area's boundary)
+
+| | |
+|---|---|
+| Status | In use since Oct 15, 2026, for decision 16. |
+| Origin | Overture Maps divisions theme (`division_area`, county), release 2026-09-23.1: the land and territorial-water areas of the nine counties in `src/basemap/region.json`, joined and simplified to about 10 m into `data/bay-area.geojson` by `python -m transit_pipeline.counties register`. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-divisions-2026-09-23-1`. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Used for | Cutting past lines that leave the region at the county line (`"clip": "county"` in a trace recipe), and the test that a line marked `continues_beyond` reaches the map's edge or, in the past era, that line. |
 
 ### Other candidates
 
@@ -241,9 +258,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 36 | 136 | 11 | 0 | 235.0 | 76.5 | 9 | 104 |
+| past | 36 | 140 | 11 | 52.1 | 242.1 | 76.5 | 9 | 108 |
 | present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 113, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 406, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 117, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 410, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

@@ -27,6 +27,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
+from pathlib import Path
 
 from shapely.geometry import LineString
 
@@ -69,10 +70,12 @@ def street_query(bbox: tuple[float, float, float, float], pattern: str) -> str:
     return f'[out:json][timeout:60];way["highway"]["name"~"{pattern}"]{_area(bbox)};out tags geom;'
 
 
-def _fetch(name: str, bbox: tuple[float, float, float, float], q: str, refresh: bool) -> dict:
-    """An Overpass response, cached as data/raw/osm/<name>.json and reused while the cached query is
-    the same and its bbox covers this one."""
-    path = CACHE / f"{name}.json"
+def _fetch(name: str, bbox: tuple[float, float, float, float], q: str, refresh: bool,
+           endpoint: str = OVERPASS, cache: Path = CACHE) -> dict:
+    """An Overpass response, cached as <cache>/<name>.json (data/raw/osm/ by default) and reused while
+    the cached query is the same and its bbox covers this one. OpenHistoricalMap's Overpass server
+    (ohm.py) is the same API at another endpoint."""
+    path = cache / f"{name}.json"
     if path.exists() and not refresh:
         cached = json.loads(path.read_text())
         cw, cs, ce, cn = cached["bbox"]
@@ -81,7 +84,7 @@ def _fetch(name: str, bbox: tuple[float, float, float, float], q: str, refresh: 
         if same and cw <= w and cs <= s and ce >= e and cn >= n:
             return cached["response"]
     body = urllib.parse.urlencode({"data": q}).encode()
-    req = urllib.request.Request(OVERPASS, data=body, headers={"User-Agent": USER_AGENT})
+    req = urllib.request.Request(endpoint, data=body, headers={"User-Agent": USER_AGENT})
     for attempt in range(RETRIES):
         try:
             with urllib.request.urlopen(req, timeout=180) as r:
@@ -90,7 +93,7 @@ def _fetch(name: str, bbox: tuple[float, float, float, float], q: str, refresh: 
         except OSError as e:
             busy = not isinstance(e, urllib.error.HTTPError) or e.code in (429, 502, 503, 504)
             if not busy or attempt == RETRIES - 1:
-                raise OverpassUnavailable(f"{OVERPASS} unreachable ({e.__class__.__name__}: {e})") from e
+                raise OverpassUnavailable(f"{endpoint} unreachable ({e.__class__.__name__}: {e})") from e
             time.sleep(15 * (attempt + 1))  # Overpass is a shared server: back off and try again
     write_json(path, {"bbox": list(bbox), "query": q, "response": response})
     return response

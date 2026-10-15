@@ -1323,6 +1323,16 @@
       "notes": "Southern Pacific Golden Gate Ferries asks to abandon its ferries \"Between San Francisco (Hyde Street Terminal) and Sausalito\" and between the foot of Market St and Tiburon. Under Decision No. 20925 (April 1, 1929) the Northwestern Pacific's auto ferry rights between San Francisco and Sausalito passed to the ferry company, which was to use \"the terminal properties of the Northwestern Pacific Railroad Company at Sausalito and Tiburon\" (OCR)."
     },
     {
+      "id": "crc-d33009",
+      "title": "Railroad Commission of California, Decision No. 33009 (Application No. 23175)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1940-04-16",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33009_19400416_A23175.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes the Sacramento Northern to discontinue its passenger trains north of West Pittsburg (the main line to Chico, and the Woodland and Colusa branches) \"on July 30, 1940, unless sooner expressly permitted\" (read Oct 14, docs/research/east-bay-electric.md, section 2)."
+    },
+    {
       "id": "crc-d33445",
       "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
       "author": "Railroad Commission of the State of California",
@@ -1497,6 +1507,28 @@
       "license": "Public domain (published 1913)",
       "accessed": "2026-10-14",
       "notes": "pp. 726-728: \"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point, Contra Costa County, a distance of 31 miles.\" \"From the main Oakland depot at Fortieth Street and Shafter Avenue, near the Key Route's Piedmont terminus, the Oakland, Antioch & Eastern line extends up Shafter Avenue and crosses the north arm of Lake Temescal. Thence it winds up Shepherd Canyon on a 3 per cent grade to the Redwood Peak Tunnel, which pierces the Coast Range for a distance of 3458 ft.\" Trains used \"the Key Route tracks upon the 2-mile Key Route pier\"."
+    },
+    {
+      "id": "erj-1913-07-12-oakland-antioch-eastern",
+      "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+      "publisher": "Electric Railway Journal 42(2)",
+      "date": "1913-07-12",
+      "type": "journal",
+      "url": "https://archive.org/details/transit-journal-1932_1913-07-12_42_2",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "p. 78: the first through train between Oakland and Sacramento ran on July 2, 1913 (read Oct 14 through archive.org's OCR, docs/research/east-bay-electric.md; the quote is to be re-read on the page)."
+    },
+    {
+      "id": "erj-1913-09-13-oakland-antioch-eastern",
+      "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+      "publisher": "Electric Railway Journal 42(11)",
+      "date": "1913-09-13",
+      "type": "journal",
+      "url": "https://archive.org/details/transit-journal-1932_1913-09-13_42_11",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "p. 435: the line to Sacramento formally opened, with its schedule, on September 3, 1913 (read Oct 14 through archive.org's OCR, docs/research/east-bay-electric.md; the quote is to be re-read on the page)."
     },
     {
       "id": "golden-gate-ferry-timeline",
@@ -1747,6 +1779,16 @@
       "notes": "archive.org scan leaf 16 (counted from 0); the printed page is unverified."
     },
     {
+      "id": "ohm-2026-10-15",
+      "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+      "publisher": "OpenHistoricalMap contributors",
+      "url": "https://www.openhistoricalmap.org/",
+      "type": "dataset",
+      "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+      "accessed": "2026-10-15",
+      "notes": "Read from https://overpass-api.openhistoricalmap.org/api/interpreter (Overpass; timestamp_osm_base 2026-10-15T00:15:59Z): every way tagged railway, every ferry route and the route relations in the pan limits, cached in data/raw/ohm/region.json. Used for geometry only; each segment drawn from it names its way ids, and OHM's dates are pointers."
+    },
+    {
       "id": "oshaughnessy-1929",
       "title": "Report on the street railway transportation requirements of San Francisco",
       "author": "M. M. O'Shaughnessy",
@@ -1776,6 +1818,15 @@
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
       "notes": "Land (coastline-derived) and water polygons in (-122.66, 37.45, -121.85, 38.33), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=base/. Today's shores, used to draw past ferry routes as the shortest path over water between their sourced terminals."
+    },
+    {
+      "id": "overture-divisions-2026-09-23-1",
+      "title": "Overture Maps Foundation, divisions theme (county areas), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/divisions/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "County areas (land and territorial water) for Alameda County, Contra Costa County, Marin County, Napa County, San Francisco, San Mateo County, Santa Clara County, Solano County, Sonoma County, read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=divisions/type=division_area/ and joined into data/bay-area.geojson, the boundary where past lines leaving the region stop (decision 16)."
     },
     {
       "id": "overture-rail-2026-09-23-1",
@@ -2215,6 +2266,18 @@
       "notes": "p. 848 (inferred from the next page's header)."
     },
     {
+      "id": "usgs-birds-landing-1953",
+      "title": "Birds Landing, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Birds%20Landing_288442_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
+    },
+    {
       "id": "usgs-concord-1897",
       "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1897",
       "author": "U.S. Geological Survey",
@@ -2249,6 +2312,42 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, aerial photographs of 1939, edition of 1942. HTMC scan 465521, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 bc6ab6bfdabbc320d14549e91cd3570f28a9d88b19c9ec43369003412aba8075."
+    },
+    {
+      "id": "usgs-dozier-1952",
+      "title": "Dozier, Cal., topographic quadrangle, 1:24,000, 1952, printed 1953",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1952",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Dozier_290036_1952_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1952. HTMC scan 290036, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 88b9ba333b31fd1165fd0e93ddbd3031929c668a99df587471e76077ab2d6b94."
+    },
+    {
+      "id": "usgs-honker-bay-1918",
+      "title": "Honker Bay, Cal., topographic quadrangle, 1:31,680, 1918",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1918",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Honker%20Bay_296168_1918_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "1:31,680 sheet, edition of 1918. HTMC scan 296168, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 63a8636eacb34e07c902a5c542ff51faf3a000e796572f44560acc4597f70820."
+    },
+    {
+      "id": "usgs-honker-bay-1953",
+      "title": "Honker Bay, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Honker%20Bay_291408_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 291408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2aebec44aa8844ebadfd5458cc3e7965182c8111facbe73afec8fc5d0fff80ea."
     },
     {
       "id": "usgs-oakland-east-1949",

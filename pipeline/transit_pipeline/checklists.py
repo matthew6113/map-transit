@@ -3,12 +3,14 @@
 Writes docs/checks/present.md: the quotes from scanned PDFs that date today's network, to check
 against the page images; its conflicts; and the stretches left undated, with why.
 
-Writes docs/checks/past.md with three lists:
+Writes docs/checks/past.md with these lists:
 - Page checks (decision 11): every book citation on a record flagged `page_unverified`, with the page
   as given and the facts it supports, so each can be looked up in the book.
-- Spot checks (decision 12): every traced past feature, with its method, map, estimated error and the
-  review images from `make past-review`.
+- Spot checks (decision 12): every traced past feature, and every one drawn from OpenHistoricalMap,
+  with its method, map, estimated error and the review images from `make past-review`.
 - Conflicts: every record flagged `conflicting_sources`, with its notes.
+- Dates "on or about" (decision 17): every end dated by the month of the order or event that brought
+  it, for a newspaper check of the last day.
 """
 
 from __future__ import annotations
@@ -22,7 +24,7 @@ from .common import DATA, ROOT, SOURCES
 OUT = ROOT / "docs" / "checks" / "past.md"
 OUT_PRESENT = ROOT / "docs" / "checks" / "present.md"
 EXTENSIONS = DATA / "present" / "extensions.json"
-REVIEWS = [ROOT / "docs" / "screenshots" / p / "traces" for p in ("p2a", "p2b")]  # make past-review, by phase
+REVIEWS = [ROOT / "docs" / "screenshots" / p / "traces" for p in ("p2a", "p2b", "p2c")]  # make past-review, by phase
 
 
 def records():
@@ -110,20 +112,21 @@ def main() -> None:
         lines += sorted(set(pages[sid])) + [""]
 
     lines += ["## Traced geometry to spot-check (decision 12)", "",
-              "Each traced feature, with how it was made. The review images (`make past-review`) draw it "
-              "over its map; a corrected trace is drawn twice, as traced over its own sheet and corrected "
-              "over the sheet it was corrected against.", "",
+              "Each traced feature, and each drawn from OpenHistoricalMap, with how it was made. The review "
+              "images (`make past-review`) draw it over its map; a corrected trace is drawn twice, as traced "
+              "over its own sheet and corrected over the sheet it was corrected against.", "",
               "| Feature | Method | Map | Est. error | Review |", "|---|---|---|---|---|"]
     traced = 0
     for kind, folder, p in recs:
-        if kind == "line" or p.get("geometry_confidence") == "surveyed":
+        ohm = "OpenHistoricalMap" in p.get("geometry_method", "")
+        if kind == "line" or (p.get("geometry_confidence") == "surveyed" and not ohm):
             continue
         g = p.get("georeference") or {}
         imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (d / (p['id'] + '-corrected.jpg')).exists() else 'review'}]"
                 f"(../screenshots/{d.parent.name}/traces/{n.name})"
                 for d in [next((d for d in reversed(REVIEWS) if (d / f"{p['id']}.jpg").exists()), REVIEWS[0])]
                 for n in sorted(d.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]  # the latest phase's
-        lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', p.get('geometry_confidence'))} | "
+        lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', 'OpenHistoricalMap' if ohm else p.get('geometry_confidence'))} | "
                      f"{g.get('map', '')} | {str(g['est_error_m']) + ' m' if 'est_error_m' in g else ''} | {' '.join(imgs)} |")
         traced += 1
     if not traced:
@@ -137,6 +140,21 @@ def main() -> None:
     for kind, p in conflicts:
         lines.append(f"- {kind} `{p['id']}` ({p.get('name', '')}): {p.get('notes', 'see its sources')}")
     lines.append("")
+
+    lines += ["## Dates \"on or about\" (decision 17)", "",
+              "Each end dated by the month of the order or event that brought it, because no source gives the "
+              "last day. A newspaper of the time would settle it.", ""]
+    about = []
+    for kind, _, p in recs:
+        if kind != "line":
+            continue
+        for r in p.get("route", []):
+            if "on or about" in (r.get("note") or ""):
+                about.append(f"- line `{p['id']}` ({p['name']}) on `{r['segment']}`, to {r.get('to')}: {r['note']}")
+        for c in p.get("sources", []):
+            if "on or about" in (c.get("note") or "") and "closed" in c.get("supports", []):
+                about.append(f"- line `{p['id']}` ({p['name']}), closed {p.get('closed')}: {c['note']}")
+    lines += (about or ["None yet."]) + [""]
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines))

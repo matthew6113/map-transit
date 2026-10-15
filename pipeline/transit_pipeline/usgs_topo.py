@@ -99,6 +99,10 @@ SHEETS = [
     Sheet("usgs-tamalpais-1941", "Tamalpais", 62500, 1941, "301788", None, "15-minute sheet, aerial photographs of 1939, edition of 1941"),
     Sheet("usgs-walnut-creek-1949", "Walnut Creek", 24000, 1949, "301186", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
     Sheet("usgs-port-chicago-1951", "Port Chicago", 24000, 1951, "294325", 1951, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-honker-bay-1918", "Honker Bay", 31680, 1918, "296168", None, "1:31,680 sheet, edition of 1918"),
+    Sheet("usgs-honker-bay-1953", "Honker Bay", 24000, 1953, "291408", 1955, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-birds-landing-1953", "Birds Landing", 24000, 1953, "288442", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-dozier-1952", "Dozier", 24000, 1952, "290036", 1953, "7.5-minute sheet, aerial photographs of 1949, edition of 1952"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

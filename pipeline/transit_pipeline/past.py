@@ -9,9 +9,14 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
                                                      # keep to one box of streets.AREAS
           {"trace": {"sheet": "usgs-san-francisco-1915", "bbox": [W, S, E, N], "zoom": 2},
            "px": [[x, y], ...]},                     # vertices read off that crop
+          {"ohm": [way id, ...], "from": [lon, lat], "to": [lon, lat]},
+                                                     # OpenHistoricalMap ways, chained and cut
+                                                     # (ohm.py; `ohm route` finds the ways)
           {"lonlat": [[lon, lat], ...]},             # given outright (approximate only)
           {"water": [[lon, lat], "Street A/Street B"]} # a ferry: the shortest path over water
         ],                                           # between its terminals (approximate)
+        "clip": "county",                            # optional: cut where it leaves the Bay Area
+                                                     # (decision 16; counties.py)
         "fit": {"sheet": "usgs-san-francisco-1915",  # optional: correct a traced sheet's
                 "controls": [{"label": "...",         # misregistration (usgs_topo.similarity)
                               "at": "Street A/Street B" or [lon, lat],
@@ -25,7 +30,9 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
                               or {"lonlat": [lon, lat]}, plus check, fit, est_error_m, note}}
 
 Street parts follow today's centerlines (streets.py, Overture). Traced parts are read off USGS
-sheets (usgs_topo.py). The step writes each feature's geometry, geometry_confidence,
+sheets (usgs_topo.py). OHM parts are OpenHistoricalMap's ways, the first rung of the ladder: a
+feature drawn only from them is `surveyed`, one that mixes them with traced or street parts is
+`digitized`, and any approximate part makes it `approximate`. The step writes each feature's geometry, geometry_confidence,
 geometry_method and georeference, and adds its map and Overture to its sources. With --review DIR it
 also draws each feature over its map, for the spot-check list.
 
@@ -37,6 +44,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+from collections import defaultdict
 from pathlib import Path
 
 from shapely.geometry import LineString
@@ -131,6 +139,18 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
             how = "similarity"
         from .usgs_topo import label
         return round_coords(coords), how, f"traced by eye from {label(part['trace']['sheet'])} ({len(part['px'])} hand-read points{extra})"
+    if "ohm" in part:
+        from . import ohm
+        coords = ohm.chain(part["ohm"])
+        desc = ohm.describe(part["ohm"])
+        if part.get("from") or part.get("to"):
+            coords = ohm.cut(coords, part.get("from"), part.get("to"))
+            desc += ", cut " + " and ".join(f"{k} {_label(part[k])}" for k in ("from", "to") if part.get(k))
+        if fit:  # ways an OHM mapper traced off a misregistered sheet carry its error too
+            apply, _ = fit
+            coords = [list(apply(*c)) for c in coords]
+            return round_coords(coords), "similarity", desc + ", corrected with the sheet's fit"
+        return round_coords(coords), "ohm", desc
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"
     if "water" in part:
@@ -212,11 +232,16 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     else:
         built = [build_part(p, fit) for p in recipe["parts"]]
         coords = join([b[0] for b in built], props["id"])
+        desc = "; then ".join(b[2] for b in built)
+        if recipe.get("clip") == "county":
+            from .counties import clip
+            coords, cut = clip(coords)
+            desc += f"; cut where it leaves the Bay Area's nine counties ({cut / 1000:.1f} km beyond left out, decision 16)"
         BUILT[props["id"]] = coords
         geometry = {"type": "LineString", "coordinates": round_coords(coords)}
         methods = [b[1] for b in built if b[1] != "join"]
-        desc = "; then ".join(b[2] for b in built)
     approximate = recipe.get("approximate") or "approximate" in methods or "water" in methods
+    surveyed = not approximate and bool(methods) and all(m == "ohm" for m in methods)
     check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
     sentence = desc[0].upper() + desc[1:]
     if fit:
@@ -225,14 +250,14 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         kind_ = "shift" if spec.get("model") == "shift" else "similarity fit"
         sentence += (f"; the sheet corrected by a {kind_} on {len(r['controls'])} control points "
                      f"({spec.get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
-    if check and "street-centerline" in methods:
+    if check and ("street-centerline" in methods or "ohm" in methods):
         from .usgs_topo import label
         sentence += f"; checked on {label(check)}"
     if recipe.get("note"):
         sentence += f". {recipe['note']}"
-    props["geometry_confidence"] = "approximate" if approximate else "digitized"
+    props["geometry_confidence"] = "approximate" if approximate else "surveyed" if surveyed else "digitized"
     props["geometry_method"] = sentence.rstrip(".") + "."
-    if check and not approximate:
+    if check and not approximate and not surveyed:
         main = "similarity" if fit else ("geotiff" if "geotiff" in methods else "street-centerline")
         geo = {"map": check, "method": main, "est_error_m": recipe["est_error_m"]}
         if fit:
@@ -243,10 +268,17 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     cited = {s["source"] for s in props["sources"]}
     against = _fit_spec(recipe).get("true_frame", {}).get("sheet")
     from .water import SOURCE_ID as OVERTURE_BASE
+    from .counties import SOURCE_ID as COUNTIES
     for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
-                        (OVERTURE_BASE, "water" in methods)):
+                        (OVERTURE_BASE, "water" in methods), (COUNTIES, recipe.get("clip") == "county")):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})
+    if "ohm" in methods:
+        from . import ohm
+        ids = [w for p in recipe["parts"] for w in p.get("ohm", [])]
+        note = "Ways " + ", ".join(str(w) for w in ids)
+        props["sources"] = [s for s in props["sources"] if not s["source"].startswith("ohm-")]
+        props["sources"].append({"source": ohm.source_id(), "supports": ["geometry"], "note": note})
     if kind != "point" and len(geometry["coordinates"]) >= 2:
         props_len = to_metres(LineString(geometry["coordinates"])).length
         print(f"[past] {props['id']}: {props_len:.0f} m, {props['geometry_confidence']}")
@@ -295,6 +327,29 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
     tmp.unlink(missing_ok=True)
 
 
+def _order(items: list[tuple[str, str, dict]]) -> list[tuple[str, str, dict]]:
+    """(group, id, recipe) in file order, except that a recipe joining another segment comes after
+    it, wherever that segment lives (an OHM segment may join a traced one in another folder)."""
+    by_id = {sid: (g, sid, r) for g, sid, r in items}
+    done, out = set(), []
+
+    def visit(item, stack=()):
+        g, sid, r = item
+        if sid in done:
+            return
+        if sid in stack:
+            raise SystemExit(f"[past] joins go round in a circle at {sid}")
+        for part in r.get("parts", []):
+            if "join" in part and part["join"] in by_id:
+                visit(by_id[part["join"]], stack + (sid,))
+        done.add(sid)
+        out.append(item)
+
+    for item in items:
+        visit(item)
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--review", type=Path, help="draw each feature over its map into this folder")
@@ -303,15 +358,17 @@ def main() -> None:
     shared = PAST / "fits.json"
     if shared.exists():
         FITS.update({k: v for k, v in json.loads(shared.read_text()).items() if not k.startswith("$")})
-    for group in sorted(p for p in PAST.glob("*") if (p / "trace.json").exists()):
+    groups = sorted(p for p in PAST.glob("*") if (p / "trace.json").exists())
+    files, features, items = {}, {}, []
+    for group in groups:
         recipes = json.loads((group / "trace.json").read_text())
         FITS.update(recipes.get("fits", {}))
-        done = []
         for file, key, kind in (("segments.geojson", "segments", "segment"), ("points.geojson", "points", "point")):
             path = group / file
             if not path.exists():
                 continue
             data = json.loads(path.read_text())
+            files[path] = data
             known = {f["properties"]["id"] for f in data["features"]}
             SAVED.update({f["properties"]["id"]: f["geometry"]["coordinates"] for f in data["features"]
                           if f.get("geometry") and f["geometry"]["type"] == "LineString"})
@@ -320,13 +377,22 @@ def main() -> None:
                     raise SystemExit(f"[past] {group.name}/trace.json has a recipe for {rid}, which isn't in {file}")
             for f in data["features"]:
                 pid = f["properties"]["id"]
-                if pid in recipes.get(key, {}) and (not a.only or pid in a.only):
-                    f["geometry"] = apply_recipe(f["properties"], recipes[key][pid], kind)
-                    done.append((f, recipes[key][pid]))
-            write_geojson(path, data["features"], comment=data.get("$comment"))
+                if pid in recipes.get(key, {}):
+                    features[(group, pid)] = (f, kind)
+                    items.append((group, pid, recipes[key][pid]))
+    done = defaultdict(list)
+    for group, pid, recipe in _order(items):
+        if a.only and pid not in a.only:
+            continue
+        f, kind = features[(group, pid)]
+        f["geometry"] = apply_recipe(f["properties"], recipe, kind)
+        done[group].append((f, recipe))
+    for path, data in files.items():
+        write_geojson(path, data["features"], comment=data.get("$comment"))
+    for group in groups:
         if a.review:
-            review(group, a.review, done)
-        print(f"[past] {group.name}: {len(done)} geometries rebuilt")
+            review(group, a.review, done[group])
+        print(f"[past] {group.name}: {len(done[group])} geometries rebuilt")
 
 
 if __name__ == "__main__":

@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        115,
-        116,
-        117,
-        118
+        118,
+        119,
+        120,
+        121
       ],
       "segments": [
         {
@@ -1882,16 +1882,16 @@
         37.793407
       ],
       "fids": [
-        119,
-        120,
-        121,
         122,
         123,
         124,
         125,
         126,
         127,
-        128
+        128,
+        129,
+        130,
+        131
       ],
       "segments": [
         {
@@ -2769,14 +2769,14 @@
         37.793407
       ],
       "fids": [
-        144,
-        145,
-        146,
         147,
         148,
         149,
         150,
-        151
+        151,
+        152,
+        153,
+        154
       ],
       "segments": [
         {
@@ -3076,8 +3076,8 @@
         37.790421
       ],
       "fids": [
-        90,
-        91
+        94,
+        95
       ],
       "segments": [
         {
@@ -3205,7 +3205,7 @@
         37.760891
       ],
       "fids": [
-        114
+        117
       ],
       "segments": [
         {
@@ -3325,7 +3325,7 @@
         37.794462
       ],
       "fids": [
-        81
+        85
       ],
       "segments": [
         {
@@ -3452,9 +3452,6 @@
         37.806482
       ],
       "fids": [
-        152,
-        153,
-        154,
         155,
         156,
         157,
@@ -3464,7 +3461,10 @@
         161,
         162,
         163,
-        164
+        164,
+        165,
+        166,
+        167
       ],
       "segments": [
         {
@@ -3877,9 +3877,6 @@
         37.80035
       ],
       "fids": [
-        129,
-        130,
-        131,
         132,
         133,
         134,
@@ -3891,7 +3888,10 @@
         140,
         141,
         142,
-        143
+        143,
+        144,
+        145,
+        146
       ],
       "segments": [
         {
@@ -4294,15 +4294,15 @@
         37.824321
       ],
       "fids": [
-        222,
-        223,
-        224,
         225,
         226,
         227,
         228,
         229,
-        230
+        230,
+        231,
+        232,
+        233
       ],
       "segments": [
         {
@@ -4782,14 +4782,14 @@
         37.805981
       ],
       "fids": [
-        165,
-        166,
-        167,
         168,
         169,
         170,
         171,
-        172
+        172,
+        173,
+        174,
+        175
       ],
       "segments": [
         {
@@ -5080,7 +5080,7 @@
         37.788015
       ],
       "fids": [
-        108
+        112
       ],
       "segments": [
         {
@@ -5222,16 +5222,16 @@
         37.806482
       ],
       "fids": [
-        173,
-        174,
-        175,
         176,
         177,
         178,
         179,
         180,
         181,
-        182
+        182,
+        183,
+        184,
+        185
       ],
       "segments": [
         {
@@ -5775,7 +5775,7 @@
         37.785808
       ],
       "fids": [
-        97
+        101
       ],
       "segments": [
         {
@@ -6022,15 +6022,15 @@
         37.824321
       ],
       "fids": [
-        231,
-        232,
-        233,
         234,
         235,
         236,
         237,
         238,
-        239
+        239,
+        240,
+        241,
+        242
       ],
       "segments": [
         {
@@ -6651,9 +6651,6 @@
         37.891351
       ],
       "fids": [
-        200,
-        201,
-        202,
         203,
         204,
         205,
@@ -6663,7 +6660,10 @@
         209,
         210,
         211,
-        212
+        212,
+        213,
+        214,
+        215
       ],
       "segments": [
         {
@@ -7177,11 +7177,11 @@
         37.806637
       ],
       "fids": [
-        92,
-        93,
-        94,
-        95,
-        96
+        96,
+        97,
+        98,
+        99,
+        100
       ],
       "segments": [
         {
@@ -7366,12 +7366,12 @@
         37.7762
       ],
       "fids": [
-        251,
-        252,
-        253,
         254,
         255,
-        256
+        256,
+        257,
+        258,
+        259
       ],
       "segments": [
         {
@@ -7648,9 +7648,6 @@
         37.7762
       ],
       "fids": [
-        240,
-        241,
-        242,
         243,
         244,
         245,
@@ -7658,7 +7655,10 @@
         247,
         248,
         249,
-        250
+        250,
+        251,
+        252,
+        253
       ],
       "segments": [
         {
@@ -8542,9 +8542,10 @@
       "closed": "1941-06-30",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and on by ferry to Sacramento from September 1913. Drawn to Bay Point.",
+      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and from September 1913 on by West Pittsburg, the train ferry from Mallard to Chipps Island, Montezuma and Rio Vista Junction to Sacramento, until 1940. Drawn to the Yolo County line, where it leaves the Bay Area (decision 16).",
       "fate": "converted_to_bus",
       "fate_note": "Replaced by Pacific Greyhound buses in 1941 (CRC Decision No. 34232). Freight trains used the line through the Oakland hills until 1957.",
+      "continues_beyond": "Sacramento, and on to Chico",
       "traction": [
         {
           "type": "electric_overhead",
@@ -8552,19 +8553,20 @@
           "to": "1941-06-30"
         }
       ],
-      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, began on September 3, 1913 (Electric Railway Journal); east of Bay Point the line isn't drawn yet.",
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940; after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
       "flags": [],
       "undated": false,
-      "length_km": 71.27,
+      "length_km": 130.54,
       "confidence_km": {
         "approximate": 3.39,
-        "digitized": 67.89
+        "digitized": 75.02,
+        "surveyed": 52.14
       },
       "bbox": [
         -122.397803,
         37.784751,
-        -122.019627,
-        38.047172
+        -121.693701,
+        38.42361
       ],
       "fids": [
         67,
@@ -8580,7 +8582,11 @@
         77,
         78,
         79,
-        80
+        80,
+        81,
+        82,
+        83,
+        84
       ],
       "segments": [
         {
@@ -8782,6 +8788,80 @@
             "closed_unsourced"
           ],
           "notes": "North by Clyde to Bay Point, renamed Port Chicago in 1931, traced from the 1951 Port Chicago sheet. Opened east of Lafayette in 1911, as the Oakland & Antioch's local line (Bay Point to Concord from February 1911, to Walnut Creek by about September, to Lafayette by December 19); those dates aren't confirmed enough to draw yet, so the track shows from the through service of 1913."
+        },
+        {
+          "id": "sn-bay-point-west-pittsburg",
+          "name": "Bay Point to West Pittsburg",
+          "opened": null,
+          "closed": null,
+          "from": "1913-09-03",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-concord-bay-point at its end; then traced by eye from USGS Port Chicago 1:24,000 (1951) (11 hand-read points, centred on the line symbol); then traced by eye from USGS Honker Bay 1:24,000 (1953) (15 hand-read points, centred on the line symbol); then traced by eye from USGS Honker Bay 1:24,000 (1953) (7 hand-read points); then traced by eye from USGS Honker Bay 1:24,000 (1953) (3 hand-read points); then traced by eye from USGS Honker Bay 1:24,000 (1953) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Honker Bay 1:24,000 (1953) (3 hand-read points). The southernmost of three parallel lines (the Southern Pacific, the Santa Fe and this), labelled Sacramento Northern on the sheet, where the track still carried freight.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "East from Bay Point (Port Chicago from 1931) beside the Southern Pacific and the Santa Fe to West Pittsburg, where the line to Mallard and the ferry left the Pittsburg branch. Traced from the 1953 Honker Bay and 1951 Port Chicago sheets."
+        },
+        {
+          "id": "sn-west-pittsburg-mallard",
+          "name": "West Pittsburg to Mallard",
+          "opened": null,
+          "closed": null,
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to sn-bay-point-west-pittsburg at its end; then OpenHistoricalMap ways 199932059, 199932054, 199932053, 199932051, 199932057, 199932050, 199932049, 199932048 (CC0, as of 2026-10-15); checked on USGS Honker Bay 1:24,000 (1953).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "North from the Pittsburg branch at West Pittsburg to the ferry slip at Mallard, on Suisun Bay."
+        },
+        {
+          "id": "sn-mallard-chipps-ferry",
+          "name": "Train ferry, Mallard to Chipps Island",
+          "opened": null,
+          "closed": null,
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Honker Bay 1:24,000 (1953) (2 hand-read points). The train ferry's course as the 1953 sheet draws it (FERRY), straight between the slips at Mallard and on Chipps Island.",
+          "structure": "ferry",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The ferry carried the trains across Suisun Bay between the slips at Mallard and on Chipps Island."
+        },
+        {
+          "id": "sn-chipps-county-line",
+          "name": "Chipps Island to the Yolo County line",
+          "opened": null,
+          "closed": null,
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission let them stop on July 30, 1940 (Decision No. 33009), and its Decision No. 33416 of August 20, 1940 followed; the last day isn't sourced (decision 17)",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 199932143, 199932142, 199932144, 199932145, 199932146, 199932147, 199932148, 199932149, 199932150, 199932152, 199932151, 199932153, 199932154, 199932155, 199932156, 199932157, 199932158, 199932159, 199932160, 199932161, 199932162, 199932163, 199932164, 199932171, 199932165, 199932167, 199932168, 199932170, 199932169, 199932173, 199932174, 199932175, 199932176, 199932177, 199932178, 199932181, 199932180, 199932183, 199932182, 199932213, 199932229, 199932232, 199932230, 199932273, 199932275, 199932276, 199932278, 199932277, 199932281, 199932283, 199932282, 199932280, 199932279, 199932285, 199932284, 199932287, 199932288, 199932289, 199932286, 199932291, 199932290, 199932295, 199932294, 199932293, 199932292, 199932297, 199932298, 199932299, 199932296, 199932308 (CC0, as of 2026-10-15); cut where it leaves the Bay Area's nine counties (0.5 km beyond left out, decision 16); checked on USGS Birds Landing 1:24,000 (1953).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "From the ferry slip on Chipps Island north across the Montezuma Hills by Montezuma and Rio Vista Junction, then northeast past Dozier toward the Yolo Bypass and Sacramento. Drawn to the Yolo County line, where it leaves the Bay Area (decision 16)."
         }
       ],
       "sources": [
@@ -8860,9 +8940,10 @@
           "source": "crc-d34232",
           "supports": [
             "closed",
-            "fate"
+            "fate",
+            "route"
           ],
-          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
+          "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941); recites Decision No. 33416 (August 20, 1940) on West Pittsburg to Sacramento."
         },
         {
           "id": "western-railroader-1945-08",
@@ -8878,6 +8959,54 @@
             "closed"
           ],
           "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
+        },
+        {
+          "id": "erj-1913-07-12-oakland-antioch-eastern",
+          "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+          "publisher": "Electric Railway Journal 42(2)",
+          "date": "1913-07-12",
+          "type": "journal",
+          "url": "https://archive.org/details/transit-journal-1932_1913-07-12_42_2",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-14",
+          "source": "erj-1913-07-12-oakland-antioch-eastern",
+          "supports": [
+            "route"
+          ],
+          "pages": "78",
+          "note": "First through train to Sacramento, July 2, 1913."
+        },
+        {
+          "id": "erj-1913-09-13-oakland-antioch-eastern",
+          "title": "News of electric railways: Oakland, Antioch & Eastern Railway",
+          "publisher": "Electric Railway Journal 42(11)",
+          "date": "1913-09-13",
+          "type": "journal",
+          "url": "https://archive.org/details/transit-journal-1932_1913-09-13_42_11",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-14",
+          "source": "erj-1913-09-13-oakland-antioch-eastern",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "435",
+          "note": "Formal opening to Sacramento, with its schedule, September 3, 1913."
+        },
+        {
+          "id": "crc-d33009",
+          "title": "Railroad Commission of California, Decision No. 33009 (Application No. 23175)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1940-04-16",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33009_19400416_A23175.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d33009",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "note": "Passenger trains north of West Pittsburg may stop \"on July 30, 1940, unless sooner expressly permitted\"."
         },
         {
           "id": "usgs-san-francisco-1915",
@@ -9129,6 +9258,81 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
           "source": "usgs-port-chicago-1951",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-honker-bay-1953",
+          "title": "Honker Bay, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Honker%20Bay_291408_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-honker-bay-1953",
+          "supports": [
+            "geometry",
+            "route"
+          ],
+          "note": "Labelled Sacramento Northern"
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 199932059, 199932054, 199932053, 199932051, 199932057, 199932050, 199932049, 199932048"
+        },
+        {
+          "id": "usgs-birds-landing-1953",
+          "title": "Birds Landing, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Birds%20Landing_288442_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-birds-landing-1953",
+          "supports": [
+            "geometry",
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-dozier-1952",
+          "title": "Dozier, Cal., topographic quadrangle, 1:24,000, 1952, printed 1953",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1952",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Dozier_290036_1952_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-dozier-1952",
+          "supports": [
+            "geometry",
+            "route"
+          ]
+        },
+        {
+          "id": "overture-divisions-2026-09-23-1",
+          "title": "Overture Maps Foundation, divisions theme (county areas), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/divisions/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-divisions-2026-09-23-1",
           "supports": [
             "geometry"
           ]
@@ -9642,12 +9846,12 @@
         37.795493
       ],
       "fids": [
-        82,
-        83,
-        84,
-        85,
         86,
-        87
+        87,
+        88,
+        89,
+        90,
+        91
       ],
       "segments": [
         {
@@ -10172,15 +10376,15 @@
         37.824321
       ],
       "fids": [
-        213,
-        214,
-        215,
         216,
         217,
         218,
         219,
         220,
-        221
+        221,
+        222,
+        223,
+        224
       ],
       "segments": [
         {
@@ -10679,9 +10883,6 @@
         37.891481
       ],
       "fids": [
-        183,
-        184,
-        185,
         186,
         187,
         188,
@@ -10695,7 +10896,10 @@
         196,
         197,
         198,
-        199
+        199,
+        200,
+        201,
+        202
       ],
       "segments": [
         {
@@ -11310,8 +11514,8 @@
         37.790312
       ],
       "fids": [
-        88,
-        89
+        92,
+        93
       ],
       "segments": [
         {
@@ -12291,11 +12495,10 @@
         37.80035
       ],
       "fids": [
-        109,
-        110,
-        111,
-        112,
-        113
+        113,
+        114,
+        115,
+        116
       ],
       "segments": [
         {
@@ -12481,16 +12684,16 @@
         37.79562
       ],
       "fids": [
-        98,
-        99,
-        100,
-        101,
         102,
         103,
         104,
         105,
         106,
-        107
+        107,
+        108,
+        109,
+        110,
+        111
       ],
       "segments": [
         {

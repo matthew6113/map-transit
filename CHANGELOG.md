@@ -2,6 +2,18 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the Sacramento Northern to the county line, from OpenHistoricalMap
+
+- **OpenHistoricalMap is in use** (`pipeline/transit_pipeline/ohm.py`, `data/past/ohm.json`), for
+  geometry only; `docs/checks/ohm.md` lists every OHM way in the area and what became of it.
+- **The Sacramento Northern east of Bay Point:** by West Pittsburg, the train ferry from Mallard to
+  Chipps Island, Montezuma and Rio Vista Junction to the Yolo County line, where it leaves the Bay
+  Area (decision 16), from September 3, 1913 (Electric Railway Journal) to on or about August 1940
+  (Railroad Commission Decisions 33009 and 33416; decision 17). Bay Point to West Pittsburg is traced
+  from the 1953 Honker Bay sheet; the rest is OHM's, checked on the 1952–53 sheets.
+- **A segment used by different modes in turn draws in the mode of each year,** such as Union St's
+  cable track, then the E's streetcars.
+
 ## 2026-10-15: Phase 2c, the line list follows the year
 
 - **The past era's line list follows the slider** (decision 14): the lines running in the chosen year

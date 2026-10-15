@@ -241,6 +241,25 @@ def main() -> None:
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": status,
             }}
+            # A past segment that lines of different modes used in turn (an interurban, then freight
+            # trains; cable, then electric cars) draws in the mode of each year: the earliest-opened
+            # line running then, else the line that ran just before (decision 15).
+            if era == "past" and not undated and len({u["mode"] for u in users}) > 1:
+                turns = []
+                for line, r in spans.get(sid, []):
+                    lo, lc = use_years(line, r)
+                    lo = o if lo is None or lo == -math.inf else max(lo, o)
+                    lc = c if lc is None or lc == math.inf else min(lc, c)
+                    turns.append((lo, lc, line["mode"], line["opened"] or "9999"))
+                historic, own = mode_spans(o, c, turns)
+                for a, b in own:
+                    before = [m for x, y, m in historic if y <= a]
+                    after = [m for x, y, m in historic if x >= b]
+                    historic.append((a, b, before[-1] if before else after[0] if after else mode))
+                for a, b, m in sorted(historic):
+                    draw.append({**base, "properties": {**base["properties"], "mode": m, "group": MODE_GROUP[m],
+                                                         "open_y": round(a, 3), "close_y": round(b, 3), "span": 1}})
+                continue
             past_uses = []
             if era == "present":
                 for line, r in (x for x in cross if x[1]["segment"] == sid):
