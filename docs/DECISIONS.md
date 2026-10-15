@@ -158,6 +158,9 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       over-claims. A stretch in only some of the dates starts at the first that shows it and ends at
       the last. The panel says "Running by February 1, 1909; until at least May 1929", and names
       the sources.
+    - Where the last day is sourced (the San Francisco PUC's reports of 1945–49 give most of the
+      Market Street Railway lines' last streetcar days), the route at the last running date is drawn
+      on to it. The route may have changed in between; the panel gives the dates the route rests on.
     - The alternative is to keep these lines undated: drawn only in the ghost overlay, listed in the
       slider's note. `RUNNING_DATES = False` in `build.py` does that.
 

@@ -30,8 +30,8 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 - **McAllister and Hayes cable lines:** opening dates rest on railfan pages; read Callwell pp. 10–13
   and the Daily Alta of 1883 and 1886.
 - **United Railroads and Market Street Railway numbered lines:** 26 drawn from Manley's 1909 list
-  and O'Shaughnessy's 1929 one (decision 20). Still to do: each line's last day (the Railroad
-  Commission's 1929–44 decisions and the city's after 1944); the lines whose 1909 routes use renamed
+  and O'Shaughnessy's 1929 one (decision 20). 17 have their last day from the SF PUC's reports of
+  1945–49. Still to do: the other lines' last days (the Railroad Commission's 1929–44 decisions); the lines whose 1909 routes use renamed
   streets (2, 5, 16, 22–25, 30, 35, and the 1909 parts of 20, 23 and 24), once a source pairs the old
   names with the new; No. 28 and No. 29 (Rincon Hill's and Bayshore's streets have changed); the
   private rights-of-way to the beach.

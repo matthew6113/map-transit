@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, San Francisco streetcars' last days
+
+- **17 of the 26 Market Street Railway lines now have their last streetcar day**, from the San
+  Francisco Public Utilities Commission's reports of 1945–49, which list Muni's changes to the
+  lines it took over in 1944: from No. 19 (September 1945) to Nos. 1, 2 and 3 (July 2, 1949). Where
+  the reports' date column has to be lined up with its entries in the scan's text, the end is given
+  to the month. Each line's 1929 route is drawn on to its last day (decision 20).
+- The East Bay's No. 18 turns onto Walavista Ave at its western junction with Lakeshore Ave.
+
 ## 2026-10-15: Phase 2c, the East Bay's streetcars
 
 - **18 local streetcar lines of Oakland, Berkeley, Alameda and Richmond**, street by street as the

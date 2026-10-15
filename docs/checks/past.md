@@ -283,29 +283,29 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `eb-cemetery` Cemetery line | 1937-10-11 (crc-d30213, p. 1, 3) | opening and closing |
 | `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening and closing |
 | `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
-| `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
-| `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
-| `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
-| `msry-6` No. 6 Haight Street and Masonic Avenue | 1909-02-01 (manley-1909, p. 11-12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
-| `msry-7` No. 7 Haight Street and Ocean | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
-| `msry-8` No. 8 Market Street | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
-| `msry-9` No. 9 Valencia Street | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening |
+| `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening |
+| `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-6` No. 6 Haight Street and Masonic Avenue | 1909-02-01 (manley-1909, p. 11-12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-7` No. 7 Haight Street and Ocean | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-8` No. 8 Market Street | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-9` No. 9 Valencia Street | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 345) | opening |
 | `msry-10` No. 10 Guerrero Street and Sunnyside | 1909-02-01 (manley-1909, p. 20); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
-| `msry-11` No. 11 Mission and 24th Streets | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
-| `msry-12` No. 12 Mission Street and Ingleside | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
-| `msry-14` No. 14 Mission Street and Daly City | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-11` No. 11 Mission and 24th Streets | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-12` No. 12 Mission Street and Ingleside | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-14` No. 14 Mission Street and Daly City | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 345) | opening |
 | `msry-15` No. 15 Kearny Street and North Beach | 1909-02-01 (manley-1909, p. 17); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
-| `msry-17` No. 17 Haight Street and Ingleside | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-17` No. 17 Haight Street and Ingleside | 1929-05 (oshaughnessy-1929, p. 346) | opening |
 | `msry-18` No. 18 Mission Street and Daly City | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
-| `msry-19` No. 19 Ninth and Polk Streets | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
-| `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
-| `msry-21` No. 21 Hayes Street | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
-| `msry-27` No. 27 Bryant Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 347) | opening and closing |
+| `msry-19` No. 19 Ninth and Polk Streets | 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-21` No. 21 Hayes Street | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-27` No. 27 Bryant Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 347) | opening |
 | `msry-32` No. 32 Hayes and Oak Streets | 1929-05 (oshaughnessy-1929, p. 348-349) | opening and closing |
 | `msry-33` No. 33 Eighteenth Street and Park | 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
 | `msry-34` No. 34 Sixth and Sansome Streets | 1909-02-01 (manley-1909, p. 19); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
-| `msry-36` No. 36 Folsom Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
-| `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot | 1929-05 (oshaughnessy-1929, p. 349-350) | opening and closing |
+| `msry-36` No. 36 Folsom Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening |
+| `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot | 1929-05 (oshaughnessy-1929, p. 349-350) | opening |
 | `msry-42` No. 42 First and Fifth Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
 | `msry-tenth-and-post` Tenth and Post Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
 | `msry-divisadero-extension` Divisadero Street extension | 1909-02-01 (manley-1909, p. 29); 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |

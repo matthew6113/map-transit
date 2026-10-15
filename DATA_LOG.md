@@ -263,5 +263,5 @@ The geometry tools are below (decision 12).
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 408, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 705, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 391, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 705, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

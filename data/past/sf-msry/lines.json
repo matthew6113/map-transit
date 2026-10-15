@@ -12,6 +12,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -22,7 +25,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-07-02",
       "running": [
         {
           "date": "1909-02-01",
@@ -37,6 +40,8 @@
       ],
       "status": "closed",
       "summary": "In 1909 the line started at Market and Sutter Sts; by 1929 it ran from the Ferry and went on out Clement St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from July 3, 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -54,11 +59,20 @@
             "electrification"
           ],
           "pages": "343"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "192",
+          "note": "\"7/ 2/49 No. 1 — Last day of street car operation.\" Motor coaches from July 3, 1949."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -119,6 +133,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -129,7 +146,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-07-02",
       "running": [
         {
           "date": "1909-02-01",
@@ -144,6 +161,8 @@
       ],
       "status": "closed",
       "summary": "Out Sutter St, Fillmore St and Jackson St to Presidio Ave. Manley's report of 1909 says it \"has just resumed service\".",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from July 3, 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -161,11 +180,20 @@
             "electrification"
           ],
           "pages": "343"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "192",
+          "note": "\"7/ 2/49 No. 3 — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -214,6 +242,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -224,7 +255,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-07-31",
       "running": [
         {
           "date": "1909-02-01",
@@ -239,6 +270,8 @@
       ],
       "status": "closed",
       "summary": "Out Eddy St and back on Turk St, then Divisadero St, Sacramento St and Lake St to a loop in the Richmond district (Manley spells it Devisadero).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from August 1, 1948.",
       "sources": [
         {
           "source": "manley-1909",
@@ -256,11 +289,20 @@
             "electrification"
           ],
           "pages": "344"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "189",
+          "note": "\"7/31/48 No. 4 — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -347,6 +389,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -357,7 +402,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-07-03",
       "running": [
         {
           "date": "1909-02-01",
@@ -372,6 +417,8 @@
       ],
       "status": "closed",
       "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St); Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from July 4, 1948; trolley coaches from 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -389,11 +436,20 @@
             "electrification"
           ],
           "pages": "344"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "189",
+          "note": "\"7/ 3/48 No. 6 — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -560,6 +616,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -570,7 +629,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-07-03",
       "running": [
         {
           "date": "1909-02-01",
@@ -585,6 +644,8 @@
       ],
       "status": "closed",
       "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then a private right of way (not drawn: its course isn't given) to the beach at Balboa St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -602,11 +663,20 @@
             "electrification"
           ],
           "pages": "344"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "189",
+          "note": "\"7/ 3/48 No. 7 — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -658,6 +728,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -668,7 +741,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-07-01",
       "running": [
         {
           "date": "1909-02-01",
@@ -683,6 +756,8 @@
       ],
       "status": "closed",
       "summary": "Out Market St to Castro St and 18th St. Manley (p. 28) says the Castro St cable line acted \"as an extension of the Market Street line No. 8, which stops at 18th and Castro\".",
+      "fate": "converted_to_bus",
+      "fate_note": "Trolley coaches from July 3, 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -700,11 +775,20 @@
             "electrification"
           ],
           "pages": "344"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "192",
+          "note": "\"7/ 1/49 No. 8 — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -750,6 +834,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -760,7 +847,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-01",
       "running": [
         {
           "date": "1909-02-01",
@@ -775,6 +862,8 @@
       ],
       "status": "closed",
       "summary": "Out Market St, Valencia St and Mission St to 29th St and Noe St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from January 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -792,11 +881,20 @@
             "electrification"
           ],
           "pages": "345"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "190",
+          "note": "\"No. 9 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -961,6 +1059,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -971,7 +1072,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-01",
       "running": [
         {
           "date": "1909-02-01",
@@ -986,6 +1087,8 @@
       ],
       "status": "closed",
       "summary": "Out Mission St, 22nd St, Chattanooga St and 24th St to Hoffman Ave; by 1929 back by Dolores St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from January 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1003,11 +1106,20 @@
             "electrification"
           ],
           "pages": "345"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "190",
+          "note": "\"No. 11 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1059,6 +1171,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1069,7 +1184,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-10",
       "running": [
         {
           "date": "1909-02-01",
@@ -1084,6 +1199,7 @@
       ],
       "status": "closed",
       "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ingleside\", by 1929 on by Sloat Blvd to the Great Highway.",
+      "fate": "converted_to_bus",
       "sources": [
         {
           "source": "manley-1909",
@@ -1101,11 +1217,20 @@
             "electrification"
           ],
           "pages": "345"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "190",
+          "note": "\"No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1165,6 +1290,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1175,7 +1303,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-01",
       "running": [
         {
           "date": "1909-02-01",
@@ -1190,6 +1318,8 @@
       ],
       "status": "closed",
       "summary": "Out Mission St to Daly City; in 1909 the \"Cemeteries\" line ran on through Colma to the cemeteries (its end isn't given).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from January 1949, with express service from Richland Ave and Mission St to Fifth St.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1207,11 +1337,20 @@
             "electrification"
           ],
           "pages": "345"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "190",
+          "note": "\"No. 14 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1338,6 +1477,9 @@
       "operators": [
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1348,7 +1490,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1945-12",
       "running": [
         {
           "date": "1929-05",
@@ -1358,6 +1500,7 @@
       ],
       "status": "closed",
       "summary": "Out Haight St, Frederick St, Lincoln Way, 20th Ave, Wawona St and 19th Ave to Sloat Blvd. There was no No. 17 in February 1909 (Manley p. 34).",
+      "fate": "converted_to_bus",
       "sources": [
         {
           "source": "oshaughnessy-1929",
@@ -1367,11 +1510,20 @@
             "electrification"
           ],
           "pages": "346"
+        },
+        {
+          "source": "sf-puc-report-1945",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "279",
+          "note": "\"12/23/45 No. 17— Discontinued.\" The last day isn't given."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1493,6 +1645,9 @@
       "operators": [
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1503,7 +1658,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1945-09",
       "running": [
         {
           "date": "1929-05",
@@ -1513,6 +1668,8 @@
       ],
       "status": "closed",
       "summary": "From Brannan St by 9th St, Larkin St, Post St and Polk St to North Point St. In February 1909 No. 19 was the Bryant and Polk line; Manley adds that it had since been replaced by a Ninth and Polk line, \"designated No. 19\" (p. 16).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from September 24, 1945.",
       "sources": [
         {
           "source": "oshaughnessy-1929",
@@ -1522,11 +1679,20 @@
             "electrification"
           ],
           "pages": "346"
+        },
+        {
+          "source": "sf-puc-report-1945",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "279",
+          "note": "\"9/23/45 No. 19 — Street car service discontinued.\" Motor coaches on the No. 19 from the next day. The last day isn't given."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1560,6 +1726,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1570,7 +1739,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1947-09",
       "running": [
         {
           "date": "1909-02-01",
@@ -1585,6 +1754,8 @@
       ],
       "status": "closed",
       "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 alternate cars went on out H St (not drawn yet: that it is today's Lincoln Way isn't sourced here).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from late September 1947.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1602,11 +1773,20 @@
             "electrification"
           ],
           "pages": "346"
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "171",
+          "note": "\"No. 20 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the page's 16 dates line up with its 16 entries, which puts this one on September 27, 1947, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1673,6 +1853,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1683,7 +1866,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-06-05",
       "running": [
         {
           "date": "1909-02-01",
@@ -1698,6 +1881,8 @@
       ],
       "status": "closed",
       "summary": "Out Hayes St to Stanyan St and Fulton St. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St; by 1929 it ran from the Ferry out Market St and Hayes St, and on by Fulton St and 8th Ave to Clement St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from June 7, 1948; trolley coaches from July 3, 1949.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1715,11 +1900,20 @@
             "electrification"
           ],
           "pages": "346"
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "175",
+          "note": "\"6/ 7/48 No. 21 — Motor coach service substituted for street car service. Last day of street car operation June 5, 1948.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1862,6 +2056,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -1872,7 +2069,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-08-13",
       "running": [
         {
           "date": "1909-02-01",
@@ -1887,6 +2084,8 @@
       ],
       "status": "closed",
       "summary": "From Market St by 2nd St and Bryant St to 26th St and Mission St, back by Brannan St. In 1909 the unnumbered Bryant line ran on the same streets, back by 10th St; by 1929 back by 8th St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from August 1948.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1904,11 +2103,20 @@
             "electrification"
           ],
           "pages": "347"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "189",
+          "note": "\"8/13/48 No. 27 M.C. — Last day of street car operation.\""
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -2230,6 +2438,9 @@
         },
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -2240,7 +2451,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1945-10",
       "running": [
         {
           "date": "1909-02-01",
@@ -2255,6 +2466,8 @@
       ],
       "status": "closed",
       "summary": "Out Folsom St to Precita Ave. Manley's unnumbered Folsom line (1909) ran \"Out Folsom from the Ferry to 26th and Precita Avenue\"; by 1929 it reached Folsom St by Howard St and Steuart St, and went on to York St. The map starts it at Spear St: Steuart St no longer reaches Folsom St, and the 1909 route from the Ferry isn't given street by street.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from October 28, 1945.",
       "sources": [
         {
           "source": "manley-1909",
@@ -2272,11 +2485,20 @@
             "electrification"
           ],
           "pages": "349"
+        },
+        {
+          "source": "sf-puc-report-1945",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "279",
+          "note": "\"10/28/45 No. 36 — Line changed from street car to motor coach operation.\" The last day isn't given."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -2304,6 +2526,9 @@
       "operators": [
         {
           "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
         }
       ],
       "mode": "streetcar",
@@ -2314,7 +2539,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1949-01",
       "running": [
         {
           "date": "1929-05",
@@ -2324,6 +2549,8 @@
       ],
       "status": "closed",
       "summary": "Weekday rush hours, timed to the Southern Pacific's peninsula trains: from Market St by 2nd St and Brannan St to the station at 3rd and Townsend Sts.",
+      "fate": "replaced_by_rail",
+      "fate_note": "Replaced by Muni's F line.",
       "sources": [
         {
           "source": "oshaughnessy-1929",
@@ -2333,11 +2560,20 @@
             "electrification"
           ],
           "pages": "349-350"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "190",
+          "note": "\"No. 41 — Discontinued. Service by \\\"F\\\" line.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {

@@ -80,8 +80,12 @@ export function LinePanel({ line, onClose }: Props) {
         </dl>
         {running && (
           <p class="small">
-            {!line.opened && !line.closed ? 'Its opening and closing aren\'t sourced' : !line.opened ? 'Its opening isn\'t sourced' : 'Its closing isn\'t sourced'}, so the map
-            shows it only for the years a source shows it running, in a lighter tint:{' '}
+            {!line.opened && !line.closed
+              ? 'Its opening and closing aren\'t sourced, so the map shows it only for the years a source shows it running'
+              : !line.opened
+                ? 'Its opening isn\'t sourced, so the map shows it from the first date a source shows it running'
+                : 'Its closing isn\'t sourced, so the map shows it until the last date a source shows it running'}, in a
+            lighter tint:{' '}
             {running.map((r, i) => {
               const s = line.sources.find((x) => x.source === r.source);
               const who = s ? (s.author ?? s.publisher ?? s.title).split(',')[0] : r.source;
