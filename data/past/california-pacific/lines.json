@@ -1,0 +1,192 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The California Pacific's Napa Valley line and its Vallejo ferry. Research: docs/research/sources-2c/railroads.md, section 3.",
+  "lines": [
+    {
+      "id": "calp-vallejo-calistoga",
+      "name": "California Pacific trains, Vallejo to Calistoga",
+      "short_name": "Napa Valley line",
+      "system": "california-pacific",
+      "operators": [
+        {
+          "name": "California Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1929-06"
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1929-06",
+      "status": "closed",
+      "running": [
+        {
+          "date": "1880",
+          "source": "poors-1880",
+          "pages": "973",
+          "note": "\"Branches: Napa Junction to Calistoga 34.65\" miles."
+        },
+        {
+          "date": "1889",
+          "source": "ca-brc-reports-9-12",
+          "pages": "18",
+          "note": "\"Napa Junction to Calistoga 34.48\" miles, in the California Pacific's mileage."
+        },
+        {
+          "date": "1900",
+          "source": "poors-1900",
+          "pages": "616-617",
+          "note": "\"Napa Junc. to Calistoga\", in the Southern Pacific's mileage."
+        }
+      ],
+      "summary": "Trains from the ferry at South Vallejo by Napa Junction, Napa, Yountville and St. Helena to Calistoga; by 1929, one round trip a day.",
+      "fate": "converted_to_bus",
+      "fate_note": "Discontinued on or about June 1929, with the ferry from Vallejo Junction, in favour of the Southern Pacific's own motor coaches (CRC Decision No. 21194).",
+      "route": [
+        {
+          "segment": "calp-south-vallejo-napa-junction"
+        },
+        {
+          "segment": "calp-napa-junction-yountville"
+        },
+        {
+          "segment": "calp-yountville"
+        },
+        {
+          "segment": "calp-yountville-st-helena"
+        },
+        {
+          "segment": "calp-st-helena-calistoga"
+        }
+      ],
+      "sources": [
+        {
+          "source": "napa-lake-history-1881",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "76-80",
+          "note": "The Napa Valley Railroad's first train from Soscol to Napa, July 11, 1865; completed to Calistoga in October 1868."
+        },
+        {
+          "source": "poors-1880",
+          "supports": [
+            "route"
+          ],
+          "pages": "973"
+        },
+        {
+          "source": "ca-brc-reports-9-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "18"
+        },
+        {
+          "source": "poors-1900",
+          "supports": [
+            "route"
+          ],
+          "pages": "616-617"
+        },
+        {
+          "source": "crc-d21194",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1, 9",
+          "note": "Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "The Napa Valley Railroad ran from steamers at Soscol to Napa from July 11, 1865, and reached Calistoga in October 1868 (Napa County history); the California Pacific, which bought it in 1869, joined it at Napa Junction from Vallejo in 1868-69, at \"sundry dates\" its own return gives no details of. So when trains first ran from Vallejo to Calistoga isn't sourced: the map draws them from 1880, the first date a source shows the line (decision 20), in the lighter tint. Soscol and the line of 1865 into Napa by Main Street aren't drawn."
+    },
+    {
+      "id": "calp-vallejo-junction-ferry",
+      "name": "Vallejo Junction–South Vallejo ferry",
+      "short_name": "Vallejo Junction ferry",
+      "system": "california-pacific",
+      "operators": [
+        {
+          "name": "California Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1929-06"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1929-06",
+      "status": "closed",
+      "running": [
+        {
+          "date": "1889",
+          "source": "ca-brc-reports-9-12",
+          "pages": "18",
+          "note": "\"a ferry line from Vallejo to Vallejo Junction, connecting there with the Northern Railway for San Francisco\"."
+        },
+        {
+          "date": "1900",
+          "source": "poors-1900",
+          "pages": "616-617",
+          "note": "\"Ferry—Vallejo Jc. to Vallejo\", in the Southern Pacific's mileage."
+        }
+      ],
+      "summary": "The ferry across the Carquinez Strait between South Vallejo and the Northern Railway at Vallejo Junction, where passengers changed for Oakland and San Francisco.",
+      "fate": "converted_to_bus",
+      "fate_note": "Discontinued on or about June 1929, with the trains to Calistoga and Suisun, for motor coaches between Crockett and Vallejo (CRC Decision No. 21194).",
+      "route": [
+        {
+          "segment": "calp-vallejo-ferry"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-reports-9-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "18"
+        },
+        {
+          "source": "poors-1900",
+          "supports": [
+            "route"
+          ],
+          "pages": "616-617"
+        },
+        {
+          "source": "crc-d21194",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1, 9",
+          "note": "Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "When it began isn't sourced: Vallejo Junction is on the Northern Railway's line of 1878, so the ferry is drawn from 1889, the first date a source shows it (decision 20)."
+    }
+  ]
+}

@@ -37,6 +37,12 @@
       "short_name": "High-speed rail"
     },
     {
+      "id": "california-pacific",
+      "name": "California Pacific Railroad",
+      "short_name": "California Pacific",
+      "notes": "From the ferry at South Vallejo to Sacramento (1868-69), with the Napa Valley Railroad (1865-68) as its branch from Napa Junction to Calistoga; part of the Central Pacific's system from 1871 and leased to it from 1876."
+    },
+    {
       "id": "california-street-cable-railroad",
       "name": "California Street Cable Railroad",
       "short_name": "Cal Cable",

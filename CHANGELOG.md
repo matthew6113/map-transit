@@ -2,6 +2,21 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The Napa Valley line
+
+- **California Pacific trains, Vallejo to Calistoga** (`california-pacific/`): from the wharf at
+  South Vallejo by Napa Junction, Napa, Yountville and St. Helena to Calistoga. When trains first
+  ran from Vallejo isn't sourced (the railroad reported "sundry dates" in 1868–69), so it is drawn
+  from 1880, the first date a source shows it (decision 20), to its end on or about June 1929 (CRC
+  Decision 21194). The Napa Valley Railroad's own first train, Soscol to Napa on July 11, 1865, and
+  its completion to Calistoga in October 1868 are in its notes.
+- **The Vallejo Junction–South Vallejo ferry**, drawn from 1889 to on or about June 1929.
+- Geometry along today's track where it's still in place (`rails.py`, Overture's rail, new), traced
+  from the 1951 sheets through Yountville, where today's track was moved, and from OpenHistoricalMap
+  beyond St. Helena.
+- Eight USGS sheets added (Mare Island 1916, Cuttings Wharf, Napa, Yountville, Rutherford and
+  Cordelia 1951, St. Helena and Calistoga 1945).
+
 ## 2026-10-15: The South Pacific Coast
 
 - **South Pacific Coast, Alameda to Santa Cruz** (`south-pacific-coast/`): from the Alameda mole

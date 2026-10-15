@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. The San Mateo interurban (No. 40) joins `sf-msry/`, its streets in San Francisco and San Mateo cut by `street_routes`, with its private right of way from Daly City to San Mateo from OpenHistoricalMap in `sf-san-mateo/`. The San Francisco & North Pacific and the Northwestern Pacific's trains to Eureka are in `sf-north-pacific/`, on SMART's track where it runs (decision 13) and on OpenHistoricalMap's ways beyond it. The Central Pacific's trains to Sacramento by the Benicia train ferry (1879–1930) and by Niles Canyon and the Altamont Pass (1869–1941), and to San José by Milpitas (1869–1940), are in `central-pacific/`; the South Pacific Coast from Alameda to the Santa Cruz County line is in `south-pacific-coast/`, over the Capitol Corridor's track, which is now dated by stretch from the Northern Railway's openings (1876–79) and the Martinez–Benicia bridge (1930). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. The San Mateo interurban (No. 40) joins `sf-msry/`, its streets in San Francisco and San Mateo cut by `street_routes`, with its private right of way from Daly City to San Mateo from OpenHistoricalMap in `sf-san-mateo/`. The San Francisco & North Pacific and the Northwestern Pacific's trains to Eureka are in `sf-north-pacific/`, on SMART's track where it runs (decision 13) and on OpenHistoricalMap's ways beyond it. The Central Pacific's trains to Sacramento by the Benicia train ferry (1879–1930) and by Niles Canyon and the Altamont Pass (1869–1941), and to San José by Milpitas (1869–1940), are in `central-pacific/`; the South Pacific Coast from Alameda to the Santa Cruz County line is in `south-pacific-coast/`; the California Pacific's Napa Valley line and its Vallejo Junction ferry are in `california-pacific/`, over the Capitol Corridor's track, which is now dated by stretch from the Northern Railway's openings (1876–79) and the Martinez–Benicia bridge (1930). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -158,6 +158,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
 | Halley's *Centennial Year Book of Alameda County* (1876) and the *History of Alameda County* (M. W. Wood, 1883), from archive.org's OCR text | book | Public domain (published 1876, 1883). Their quotes need checking against the page images. |
 | *Southern Pacific Bulletin*, November–December 1930 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only (decision 19) |
+| Palmer's *History of Napa and Lake Counties* (1881) and *Poor's Manual* of 1880, from archive.org's OCR text | book | Public domain (published 1880–81). Their quotes need checking against the page images. |
 | Munro-Fraser's histories of Marin and Sonoma Counties (Alley, Bowen, 1880), the Board of Railroad Commissioners' tenth annual report (1889) and first biennial report (1894) and *Poor's Manual of Railroads* (1885, 1887, 1900), from archive.org's OCR text | book, official | Public domain (published 1880–1900). Their quotes need checking against the page images. |
 | HABS CA-1888 (Southern Pacific Mole & Pier), Library of Congress catalog record | official | Public domain (U.S. Government work) |
 | *California Highways and Public Works*, September–October 1956 | official | California public record; cited for facts |
@@ -222,6 +223,14 @@ The geometry tools are below (decision 12).
 | `usgs-milpitas-1953` | CA_Milpitas_292969_1953_24000_geo.tif | 2.032 | `733e5adf7332` |
 | `usgs-los-gatos-1919` | CA_Los Gatos_298061_1919_62500_geo.tif | 5.292 | `d7dfaf400d1a` |
 | `usgs-san-jose-west-1953` | CA_San Jose West_300105_1953_24000_geo.tif | 2.032 | `797624721dd4` |
+| `usgs-mare-island-1916` | CA_Mare Island_298113_1916_62500_geo.tif | 5.292 | `576cf0a203ea` |
+| `usgs-cuttings-wharf-1951` | CA_Cuttings Wharf_289712_1951_24000_geo.tif | 2.032 | `2d36e11c075a` |
+| `usgs-napa-1951` | CA_Napa_293422_1951_24000_geo.tif | 2.032 | `bef57728fcc7` |
+| `usgs-yountville-1951` | CA_Yountville_301469_1951_24000_geo.tif | 2.032 | `c9428b96a808` |
+| `usgs-rutherford-1951` | CA_Rutherford_294860_1951_24000_geo.tif | 2.032 | `4606f3e1899a` |
+| `usgs-st-helena-1945` | CA_St Helena_298977_1945_62500_geo.tif | 5.292 | `a5919128217d` |
+| `usgs-calistoga-1945` | CA_Calistoga_296981_1945_62500_geo.tif | 5.292 | `3b437a92a9e9` |
+| `usgs-cordelia-1951` | CA_Cordelia_289511_1951_24000_geo.tif | 2.032 | `5e91acd236b3` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -250,6 +259,16 @@ The geometry tools are below (decision 12).
 | Method | Rasterized at 40 m. A ferry's line is the shortest path over water between its terminals, costing four times as much within 120 m of land (so it keeps mid-channel), simplified and smoothed. Always `approximate` (dashed): a schematic, not the course steered. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
 | Gaps | Today's shores. Land filled since the 1850s (San Francisco's waterfront, the Oakland and Alameda moles, Treasure Island) is land here, so a terminal on fill is joined straight to the nearest water. |
+
+### Overture Maps rail (today's track)
+
+| | |
+|---|---|
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line. |
+| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the box `napa` (-122.62, 38.06, -122.03, 38.60). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
+| Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Gaps | Today's track only: realignments since the line's years must be found on the sheets. |
 
 ### OpenHistoricalMap
 
@@ -287,9 +306,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 103 | 430 | 11 | 396.6 | 460.6 | 107.8 | 8 | 387 |
+| past | 105 | 436 | 11 | 459.2 | 465.0 | 110.4 | 8 | 393 |
 | present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 424, `conflicting_sources` 16, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 728, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 429, `conflicting_sources` 16, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 736, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

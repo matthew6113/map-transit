@@ -27,6 +27,7 @@ running.
 | San Francisco & North Pacific, Northwestern Pacific | Trains from Donahue and from Tiburon to Cloverdale, the Guerneville branch, and the NWP's trains to Eureka | The Railroad Commissioners' tenth report and *Poor's Manual* (openings by stretch, 1870–85); CPUC Decision 57488 (1958); running dates for the rest (decision 20) | SMART's track (dated by stretch); OpenHistoricalMap's ways beyond it |
 | Central Pacific | Oakland to Sacramento by Niles and the Altamont Pass (1869–1941) and by the Benicia train ferry (1879–1930); to San José by Milpitas (1869–1940) | The Railroad Commissioners' reports (the Northern Railway's openings, 1876–79); *SP Bulletin* (the 1930 bridge) | The Capitol Corridor's track, dated by stretch; the ferry over water; Niles Canyon, the Altamont Pass, Milpitas and Benicia's waterfront from OpenHistoricalMap, checked on the 1952–53 sheets |
 | South Pacific Coast | Alameda by Newark and San José to the Santa Cruz County line | The railroad's return in the Commissioners' report of 1894 (1878–80); running in 1900 (*Poor's*), decision 20 | The Capitol Corridor's and Caltrain's track; OpenHistoricalMap, checked on the sheets of 1899–1953 |
+| California Pacific (Napa Valley line) | Vallejo by Napa to Calistoga, and the Vallejo Junction ferry | Running in 1880 (*Poor's*), 1889 and 1900; end on or about June 1929 (CRC D21194) | Today's track (Overture); traced through Yountville on the 1951 sheets; OpenHistoricalMap beyond St. Helena |
 
 ## Not drawn yet, and what each needs
 
@@ -100,6 +101,7 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   **Martinez–Benicia** (1913 to September 15, 1962, CRC D22535, *CH&PW* 1962): dated; their slips need
   a map (the 1898 Karquinez or 1916 Mare Island sheet).
 - **Mare Island, the Petaluma steamers:** dates are web pointers only.
+- **California Pacific, Vallejo to Sacramento:** its trains by Napa Junction, Cordelia and Suisun (to 1929) aren't drawn: where its line met the Northern Railway's near Suisun needs a map.
 - **North Pacific Coast:** drawn to Sheridan, past Monte Rio. Still to do: Sheridan to Duncans Mills
   and up Austin Creek to Cazadero (1886), on no sheet of its years (a map to georeference by hand, such
   as the NPC's own map of about 1900 at Calisphere); its tunnels; the Mill Valley branch; the San

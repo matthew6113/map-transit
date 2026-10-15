@@ -132,6 +132,15 @@ SHEETS = [
     # The South Pacific Coast from San Jose over the mountains toward Santa Cruz.
     Sheet("usgs-los-gatos-1919", "Los Gatos", 62500, 1919, "298061", 1942, "15-minute sheet, surveyed 1916, edition of 1919"),
     Sheet("usgs-san-jose-west-1953", "San Jose West", 24000, 1953, "300105", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    # The Napa Valley line and the California Pacific, from Vallejo to Calistoga and Suisun.
+    Sheet("usgs-mare-island-1916", "Mare Island", 62500, 1916, "298113", None, "15-minute sheet, edition of 1916"),
+    Sheet("usgs-cuttings-wharf-1951", "Cuttings Wharf", 24000, 1951, "289712", None, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-napa-1951", "Napa", 24000, 1951, "293422", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-yountville-1951", "Yountville", 24000, 1951, "301469", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-rutherford-1951", "Rutherford", 24000, 1951, "294860", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-st-helena-1945", "St Helena", 62500, 1945, "298977", None, "15-minute sheet, edition of 1945"),
+    Sheet("usgs-calistoga-1945", "Calistoga", 62500, 1945, "296981", None, "15-minute sheet, edition of 1945"),
+    Sheet("usgs-cordelia-1951", "Cordelia", 24000, 1951, "289511", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

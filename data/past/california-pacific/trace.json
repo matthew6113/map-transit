@@ -1,0 +1,225 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the California Pacific's Napa Valley line on today's track where it's still in place (rails.py), traced through Yountville, and from OpenHistoricalMap beyond St. Helena.",
+ "segments": {
+  "calp-south-vallejo-napa-junction": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.2447,
+       38.0814
+      ],
+      [
+       -122.2505,
+       38.186
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-karquines-1898",
+    "usgs-mare-island-1916",
+    "usgs-cuttings-wharf-1951"
+   ],
+   "note": "Today's track from the end of rail at South Vallejo, near the old wharf on the 1898 Karquines sheet, to Napa Junction"
+  },
+  "calp-napa-junction-yountville": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.2505,
+       38.186
+      ],
+      [
+       -122.357686,
+       38.396936
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-cuttings-wharf-1951",
+    "usgs-napa-1951",
+    "usgs-yountville-1951"
+   ],
+   "note": "Today's track, which the 1951 sheets show the railroad on, to where it leaves the old line south of Yountville"
+  },
+  "calp-yountville": {
+   "parts": [
+    {
+     "trace": {
+      "sheet": "usgs-yountville-1951",
+      "bbox": [
+       -122.4,
+       38.37,
+       -122.33,
+       38.43
+      ],
+      "zoom": 0.6
+     },
+     "px": [
+      [
+       1090,
+       1087
+      ],
+      [
+       1054,
+       1045
+      ],
+      [
+       1019,
+       986
+      ],
+      [
+       994,
+       941
+      ],
+      [
+       947,
+       887
+      ],
+      [
+       909,
+       834
+      ],
+      [
+       880,
+       789
+      ],
+      [
+       849,
+       761
+      ],
+      [
+       810,
+       732
+      ],
+      [
+       761,
+       704
+      ],
+      [
+       711,
+       680
+      ],
+      [
+       662,
+       659
+      ]
+     ]
+    },
+    {
+     "trace": {
+      "sheet": "usgs-rutherford-1951",
+      "bbox": [
+       -122.43,
+       38.4,
+       -122.37,
+       38.46
+      ],
+      "zoom": 0.6
+     },
+     "px": [
+      [
+       1388,
+       1602
+      ],
+      [
+       1320,
+       1585
+      ],
+      [
+       1250,
+       1575
+      ],
+      [
+       1200,
+       1530
+      ],
+      [
+       1155,
+       1470
+      ],
+      [
+       1110,
+       1400
+      ],
+      [
+       1070,
+       1330
+      ],
+      [
+       1030,
+       1250
+      ],
+      [
+       995,
+       1175
+      ]
+     ]
+    }
+   ],
+   "est_error_m": 15,
+   "note": "Where today's track leaves the line of 1951, which ran through the town and along the highway north of it, read off the Yountville and Rutherford sheets"
+  },
+  "calp-yountville-st-helena": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.391358,
+       38.424259
+      ],
+      [
+       -122.464,
+       38.501
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-yountville-1951",
+    "usgs-rutherford-1951",
+    "usgs-st-helena-1945"
+   ],
+   "note": "Today's track from where it rejoins the old line north of Yountville to St. Helena"
+  },
+  "calp-st-helena-calistoga": {
+   "parts": [
+    {
+     "ohm": [
+      200466319,
+      200466320
+     ]
+    }
+   ],
+   "check": [
+    "usgs-st-helena-1945",
+    "usgs-calistoga-1945"
+   ],
+   "note": "OpenHistoricalMap's ways, traced from the 1945 St. Helena and Calistoga sheets"
+  },
+  "calp-vallejo-ferry": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.2465,
+       38.0792
+      ],
+      [
+       -122.245,
+       38.0562
+      ]
+     ]
+    }
+   ],
+   "check": "usgs-karquines-1898",
+   "note": "The wharves read off the 1898 Karquines sheet"
+  }
+ }
+}

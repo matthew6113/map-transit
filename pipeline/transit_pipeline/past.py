@@ -12,6 +12,9 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
           {"ohm": [way id, ...], "from": [lon, lat], "to": [lon, lat]},
                                                      # OpenHistoricalMap ways, chained and cut
                                                      # (ohm.py; `ohm route` finds the ways)
+          {"rail": [[lon, lat], [lon, lat]], "area": "napa"},
+                                                     # today's track between two points, where
+                                                     # it's still in place (rails.py, Overture)
           {"lonlat": [[lon, lat], ...]},             # given outright (approximate only)
           {"water": [[lon, lat], "Street A/Street B"]} # a ferry: the shortest path over water
         ],                                           # between its terminals (approximate)
@@ -152,6 +155,13 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
             coords = [list(apply(*c)) for c in coords]
             return round_coords(coords), "similarity", desc + ", corrected with the sheet's fit"
         return round_coords(coords), "ohm", desc
+    if "rail" in part:
+        from .rails import route as along_rail
+        from .streets import OVERTURE_RELEASE
+        a, b = (_lonlat(x) for x in part["rail"])
+        coords, length = along_rail(a, b, part["area"])
+        return coords, "rail", (f"along today's track from {_label(part['rail'][0])} to {_label(part['rail'][1])} "
+                                f"({length:.0f} m; Overture {OVERTURE_RELEASE} rail)")
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"
     if "water" in part:
@@ -242,7 +252,7 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         geometry = {"type": "LineString", "coordinates": round_coords(coords)}
         methods = [b[1] for b in built if b[1] != "join"]
     approximate = recipe.get("approximate") or "approximate" in methods or "water" in methods
-    surveyed = not approximate and bool(methods) and all(m == "ohm" for m in methods)
+    surveyed = not approximate and bool(methods) and all(m in ("ohm", "rail") for m in methods)
     checks = _checks(recipe)
     check = checks[0] if checks else None
     sentence = desc[0].upper() + desc[1:]
@@ -252,7 +262,7 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         kind_ = "shift" if spec.get("model") == "shift" else "similarity fit"
         sentence += (f"; the sheet corrected by a {kind_} on {len(r['controls'])} control points "
                      f"({spec.get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
-    if check and ("street-centerline" in methods or "ohm" in methods):
+    if check and ("street-centerline" in methods or "ohm" in methods or "rail" in methods):
         from .usgs_topo import label
         names = [label(c) for c in checks]
         sentence += "; checked on " + (names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1])
@@ -272,7 +282,8 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     against = _fit_spec(recipe).get("true_frame", {}).get("sheet")
     from .water import SOURCE_ID as OVERTURE_BASE
     from .counties import SOURCE_ID as COUNTIES
-    for sid, needed in (*((c, True) for c in checks), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
+    from .rails import SOURCE_ID as RAIL
+    for sid, needed in ((RAIL, "rail" in methods), *((c, True) for c in checks), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
                         (OVERTURE_BASE, "water" in methods), (COUNTIES, recipe.get("clip") == "county")):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})

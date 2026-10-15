@@ -48,6 +48,7 @@ past: tools
 	$(PY) transit_pipeline.usgs_topo fetch
 	$(PY) transit_pipeline.streets register
 	$(PY) transit_pipeline.water register
+	$(PY) transit_pipeline.rails register
 	$(PY) transit_pipeline.counties register
 	$(PY) transit_pipeline.ohm fetch
 	$(PY) transit_pipeline.street_routes

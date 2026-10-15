@@ -1048,6 +1048,18 @@
       "notes": "The railroads' returns, with each stretch's date \"opened for public use\" on its own line; the Northern Railway's is on p. 46 of its return (\"From Shell Mound to Martinez January 9, 1878. From Benicia to Suisun December 28, 1879\"; its West Oakland date reads \"August 17, 1886\" in the OCR, where the tenth report has August 16, 1876). A Google scan; read in archive.org's OCR text."
     },
     {
+      "id": "ca-brc-reports-9-12",
+      "title": "Annual Reports of the Board of Railroad Commissioners of the State of California, 9th-12th (c. 1888-1892), bound together",
+      "author": "Board of Railroad Commissioners of the State of California",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1889",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa05unkngoog",
+      "license": "Public domain (State of California publications)",
+      "accessed": "2026-10-15",
+      "notes": "The tenth report's history of each railroad, pp. 9-19; p. 18: \"In connection with its railroad the California Pacific operates a ferry line from Vallejo to Vallejo Junction, connecting there with the Northern Railway for San Francisco\", and its mileage \"Napa Junction to Calistoga 34.48\". A Google scan; read in archive.org's OCR text."
+    },
+    {
       "id": "caltrain-early-milestones",
       "title": "Caltrain early milestones",
       "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
@@ -1279,6 +1291,16 @@
       "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
       "accessed": "2026-10-14",
       "notes": "San Jose's relocation: the main line runs \"over tracks laid in Fourth Street, from Julian Street to the southerly end of Fourth Street at Reed Street\"; the new line \"will depart from the existing main line at Polhemus Street and follow the alignment of the existing College Park to Santa Cruz Branch … to a point near San Carlos street. Southerly from San Carlos street an entirely new line is to be constructed on private right-of-way, joining the existing main line near Lick Station\" (OCR)."
+    },
+    {
+      "id": "crc-d21194",
+      "title": "Railroad Commission of California, Decision No. 21194 (Applications Nos. 14085, 14086, 14758, 14760, 14898)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1929-06-10",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D21194_19290610_A14085.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Southern Pacific's ferry between Vallejo Junction and Vallejo (seven round trips a day), its one round trip (trains 154 and 157) between Vallejo and Calistoga and its two between Vallejo and Suisun-Fairfield, discontinued in favour of Southern Pacific Motor Transport's coaches; the order effective twenty days from its date. The date is the one in the file's name; the OCR of the signed date is unreadable."
     },
     {
       "id": "crc-d22212",
@@ -2120,6 +2142,18 @@
       "notes": "Bound annual reports, each with a chronology and a table of routes. Cited by scan leaf: n47 (1914-15), n75, n80 and n81 (1916-18), n95 (1917-18), n135 (1919-20). Quotes read on the page images."
     },
     {
+      "id": "napa-lake-history-1881",
+      "title": "History of Napa and Lake Counties, California",
+      "author": "Lyman L. Palmer",
+      "publisher": "Slocum, Bowen & Co., San Francisco",
+      "date": "1881",
+      "type": "book",
+      "url": "https://archive.org/details/historyofnapalak00palm",
+      "license": "Public domain (published 1881)",
+      "accessed": "2026-10-15",
+      "notes": "The Napa Valley Railroad: graded and laid from Soscol to Napa City by January 10, 1865; \"on the 11th of that month [July 1865] the first train passed over the track\" (pp. 76-77); \"In October, 1868, the road was completed to Calistoga\" (about p. 80); the change to the route through East Napa on January 4, 1877. Read in archive.org's OCR text; pages as its running heads give them, where the OCR keeps them."
+    },
+    {
       "id": "nps-hyde-street-pier",
       "title": "Hyde Street Pier",
       "publisher": "National Park Service, San Francisco Maritime National Historical Park",
@@ -2295,8 +2329,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "accessed": "2026-10-14",
-      "notes": "Rail segments read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/ (subtype rail). Used for one point: Muni's Duboce portal, where the is_tunnel flags of the two light rail tracks on Duboce Ave end (segments 28645d0a-2e68-4de3-82be-07af13eade31 and 03b66fb9-1ce4-48c6-bd2b-e7abe00a2e5d), at -122.42719, 37.76957."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",
@@ -2306,6 +2339,18 @@
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
       "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "poors-1880",
+      "title": "Poor's Manual of the Railroads of the United States, 1880 (vol. 13)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1880",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofr1880newyuoft",
+      "license": "Public domain (published 1880)",
+      "accessed": "2026-10-15",
+      "notes": "The California Pacific Railroad, p. 973: \"Line of Road.— South Vallejo, Cal., to Sacramento, Cal 61.18 miles. Branches: Napa Junction to Calistoga 34.65 … Steam Ferry, South Vallejo to San Francisco 26.25 miles.\" Read in archive.org's OCR text."
     },
     {
       "id": "poors-1885",
@@ -2877,6 +2922,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
     },
     {
+      "id": "usgs-calistoga-1945",
+      "title": "Calistoga, Cal., topographic quadrangle, 1:62,500, 1945",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1945",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Calistoga_296981_1945_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, edition of 1945. HTMC scan 296981, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 3b437a92a9e9880d5368cf75f67bc00f144afd3ba69eb9a31d21e6536da5d80f."
+    },
+    {
       "id": "usgs-cazadero-1945",
       "title": "Cazadero, Cal., topographic quadrangle, 1:31,680, 1945",
       "author": "U.S. Geological Survey",
@@ -2935,6 +2992,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, aerial photographs of 1939, edition of 1942. HTMC scan 465521, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 bc6ab6bfdabbc320d14549e91cd3570f28a9d88b19c9ec43369003412aba8075."
+    },
+    {
+      "id": "usgs-cordelia-1951",
+      "title": "Cordelia, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cordelia_289511_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 289511, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 5e91acd236b3d30d83a20e1f8771c2db1e64b0fff2ebe143d685897eef18820e."
+    },
+    {
+      "id": "usgs-cuttings-wharf-1951",
+      "title": "Cuttings Wharf, Cal., topographic quadrangle, 1:24,000, 1951",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cuttings%20Wharf_289712_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 289712, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2d36e11c075a20f0396128eda7ae6698602e9f2d71ae3277bb97def84a2741ef."
     },
     {
       "id": "usgs-dozier-1952",
@@ -3045,6 +3126,18 @@
       "notes": "15-minute sheet, surveyed 1916, edition of 1919. HTMC scan 298061, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 d7dfaf400d1addd8d5653538950ce283822e4ca38e4b7bf887cfade0e3152e90."
     },
     {
+      "id": "usgs-mare-island-1916",
+      "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1916",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1916",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_298113_1916_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, edition of 1916. HTMC scan 298113, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 576cf0a203eaa62400b270d4a72e3273d2136842a1d3c4952d04e5ef5c62f9bb."
+    },
+    {
       "id": "usgs-midway-1953",
       "title": "Midway, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
       "author": "U.S. Geological Survey",
@@ -3079,6 +3172,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 293071, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3dcb383b93fbb3227a91e1d07de3fe1f63f415100149103d203db20cf21b1059."
+    },
+    {
+      "id": "usgs-napa-1951",
+      "title": "Napa, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Napa_293422_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 293422, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 bef57728fcc76432ebf1870c988e6d642636bcf8f1e7912fe4c184249773c4a1."
     },
     {
       "id": "usgs-niles-1953",
@@ -3163,6 +3268,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 294669, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 9112f971428fd62d3a9195a87b4a3a5189733cc8c49c1ac983375092cf64d36a."
+    },
+    {
+      "id": "usgs-rutherford-1951",
+      "title": "Rutherford, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Rutherford_294860_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 294860, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 4606f3e1899ab42c9dbf4fd1ae87e00282f155f0cf7ee3edf8256c7783dc81b5."
     },
     {
       "id": "usgs-san-francisco-1899",
@@ -3333,6 +3450,18 @@
       "notes": "1:48,000 advance sheet, surveyed 1935. HTMC scan 301575, GeoTIFF georeferenced by USGS (NAD27 polyconic), 4.064 m a pixel. SHA-256 fe6029fb913f211a06639d8bab969bd67171e60b1b4ca31a1946f10e582ae7f8."
     },
     {
+      "id": "usgs-st-helena-1945",
+      "title": "St Helena, Cal., topographic quadrangle, 1:62,500, 1945",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1945",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_St%20Helena_298977_1945_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, edition of 1945. HTMC scan 298977, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 a5919128217de722f518c709f39ef9d773942a5f67e1f9d19a1ea39d47a7ae38."
+    },
+    {
       "id": "usgs-tamalpais-1897",
       "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
       "author": "U.S. Geological Survey",
@@ -3367,6 +3496,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 301186, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 77c7663e774d98ba3c6fa78bc3723fb0ef3dfe05bf78a02f2f1dae15d126e437."
+    },
+    {
+      "id": "usgs-yountville-1951",
+      "title": "Yountville, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Yountville_301469_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 301469, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 c9428b96a8081f210c499fa0ec458e84676b79b14ed84c36c0b929f8565fdda9."
     },
     {
       "id": "vta-30-years-timeline",
