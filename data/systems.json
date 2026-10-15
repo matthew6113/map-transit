@@ -152,6 +152,12 @@
       "short_name": "SF Market St RR"
     },
     {
+      "id": "sf-north-pacific",
+      "name": "San Francisco and North Pacific Railroad",
+      "short_name": "San Francisco & North Pacific",
+      "notes": "Peter Donahue's railroad from the steamer landing at Donahue by Petaluma to Santa Rosa (1870) and Cloverdale (1872), with a branch from San Rafael (1879) and a line to the ferry at Point Tiburon (1885); part of the Northwestern Pacific from 1907. SMART runs on much of its track."
+    },
+    {
       "id": "sfo-airtrain",
       "name": "SFO AirTrain",
       "short_name": "AirTrain"

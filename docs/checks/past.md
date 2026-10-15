@@ -161,6 +161,12 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `muni-potrero-25th-division` Potrero Ave, 25th St to Division St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-potrero-25th-division.jpg) |
 | `muni-division-potrero-11th` Division St, Potrero Ave to 11th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-division-potrero-11th.jpg) |
 | `muni-11th-division-market` 11th St, Division St to Market St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-11th-division-market.jpg) |
+| `sfnp-tiburon-larkspur` Tiburon to Larkspur, by Reed and Greenbrae | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-tiburon-larkspur-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-tiburon-larkspur-2.jpg) |
+| `sfnp-windsor-grants` Windsor to Grant's | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-windsor-grants.jpg) |
+| `sfnp-grants-healdsburg` Grant's to Healdsburg | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-grants-healdsburg.jpg) |
+| `sfnp-healdsburg-cloverdale` Healdsburg to Cloverdale, by Geyserville and Asti | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-2.jpg) [sheet 3](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-3.jpg) |
+| `sfnp-cloverdale-county-line` Cloverdale to the Mendocino County line | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-cloverdale-county-line.jpg) |
+| `sfnp-guerneville-branch` Fulton to Guerneville, the Guerneville branch | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-guerneville-branch-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-guerneville-branch-2.jpg) |
 | `sm-daly-city-san-mateo` Daly City to San Mateo, by Colma, the cemeteries, San Bruno, Millbrae and Burlingame | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sm-daly-city-san-mateo-1.jpg) [sheet 2](../screenshots/p2c/traces/sm-daly-city-san-mateo-2.jpg) [sheet 3](../screenshots/p2c/traces/sm-daly-city-san-mateo-3.jpg) |
 | `sp-oakland-mole` Oakland Mole | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/sp-oakland-mole.jpg) |
 | `sp-alameda-mole` Alameda Mole | similarity | usgs-san-francisco-1915 | 60 m | [corrected](../screenshots/p2a/traces/sp-alameda-mole-corrected.jpg) [as traced](../screenshots/p2a/traces/sp-alameda-mole.jpg) |
@@ -262,6 +268,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 - line `muni-d-van-ness` (D Van Ness–Union): O'Shaughnessy gives August 5, 1914 for its first day; Muni's reports give August 15. Its run via Geary St to the Ferries is dated only to 1915 (the city's 1948 transit history), which also puts it on Union St then, against the 1917 route table's Fillmore and Chestnut Sts. Between May 4, 1918 and July 22, 1919 its streets north of Union St aren't known, so that end isn't drawn for those months. Its right-of-way into the Presidio isn't drawn.
 - line `muni-f-stockton` (F Stockton): Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn.
 - line `muni-h-potrero` (H Van Ness–Potrero): Muni's report for 1914-15 gives August 15, 1914 for its first day; its later reports give September 7. That it ran up Van Ness Ave from the Fort Mason loop's first day, December 29, 1914, is inferred: the city's 1948 transit history gives the route for 1915. Its extension south of Army St (1946-49) isn't drawn.
+- line `sfnp-donahue` (San Francisco & North Pacific, from Donahue to Cloverdale): The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 1870, when a passenger car was put on to Santa Rosa. Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running).
 - line `sp-peninsula` (Peninsula trains, San Francisco to San José): The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.
 
 ## Dates "on or about" (decision 17)
@@ -273,6 +280,7 @@ Each end dated by the month of the order or event that brought it, because no so
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-west-pittsburg-mallard`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
+- line `nwp-main-line` (Northwestern Pacific trains to Eureka, from San Rafael), closed 1958-11: "is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points"; "The effective date of this order shall be twenty days after the date hereof." Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17).
 
 ## Drawn for its running dates (decision 20)
 
@@ -300,7 +308,7 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
 | `sp-creek-route` Creek Route ferry (Broadway, Oakland) | 1876-07-01 (halley-1876, p. 435); 1936-12 (crc-d29338, p. 1) | opening |
 | `sp-alameda-pier-ferry` Alameda ferry (Alameda Pier) | 1878-06-01 (wood-1883, p. 833) | opening |
-| `npc-san-rafael-branch` North Pacific Coast San Rafael branch | 1875-01-08 (marin-history-1880, p. 412); 1885 (poors-1885, p. 869-870); 1900 (poors-1900, p. 606) | opening and closing |
+| `npc-san-rafael-branch` North Pacific Coast San Rafael branch | 1875-01-08 (marin-history-1880, p. 412); 1885 (poors-1885, p. 870); 1900 (poors-1900, p. 606) | opening and closing |
 | `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening |
@@ -328,3 +336,7 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `msry-tenth-and-post` Tenth and Post Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
 | `msry-divisadero-extension` Divisadero Street extension | 1909-02-01 (manley-1909, p. 29); 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
 | `msry-40` No. 40 San Mateo | 1903-10-31 (srj-1903-10-31-san-mateo, p. 798-803); 1909-02-01 (manley-1909, p. 26); 1929-05 (oshaughnessy-1929, p. 349) | opening |
+| `sfnp-donahue` San Francisco & North Pacific, from Donahue to Cloverdale | 1885 (poors-1885, p. 874) | closing |
+| `sfnp-tiburon` San Francisco & North Pacific, from San Rafael and Tiburon to Cloverdale | 1887 (poors-1887, p. 873); 1889-11 (ca-brc-report-10, p. 17) | closing |
+| `nwp-main-line` Northwestern Pacific trains to Eureka, from San Rafael | 1935-05-20 (crc-d27973, p. 3); 1941-09-10 (crc-d34571, p. 1); 1958-10-21 (cpuc-d57488, p. 2) | opening |
+| `sfnp-guerneville` San Francisco & North Pacific, Guerneville branch | 1887 (poors-1887, p. 873); 1935-05-20 (crc-d27973, p. 3) | closing |

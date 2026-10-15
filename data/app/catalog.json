@@ -5943,15 +5943,15 @@
         37.81612
       ],
       "fids": [
-        784,
-        785,
-        786,
-        787,
-        788,
-        789,
-        790,
-        791,
-        792
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816
       ],
       "segments": [
         {
@@ -6285,15 +6285,15 @@
         37.824321
       ],
       "fids": [
-        766,
-        767,
-        768,
-        769,
-        770,
-        771,
-        772,
-        773,
-        774
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798
       ],
       "segments": [
         {
@@ -8521,15 +8521,15 @@
         37.824321
       ],
       "fids": [
-        775,
-        776,
-        777,
-        778,
-        779,
-        780,
-        781,
-        782,
-        783
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807
       ],
       "segments": [
         {
@@ -9562,6 +9562,7 @@
         {
           "id": "ca-brc-report-10",
           "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
           "publisher": "State Printing Office, Sacramento",
           "date": "1889",
           "type": "official",
@@ -9674,19 +9675,19 @@
         37.891351
       ],
       "fids": [
-        744,
-        745,
-        746,
-        747,
-        748,
-        749,
-        750,
-        751,
-        752,
-        753,
-        754,
-        755,
-        756
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780
       ],
       "segments": [
         {
@@ -25265,7 +25266,7 @@
         {
           "date": "1885",
           "source": "poors-1885",
-          "pages": "869-870",
+          "pages": "870",
           "note": "\"San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles.\""
         },
         {
@@ -25338,7 +25339,7 @@
           "supports": [
             "route"
           ],
-          "pages": "869-870"
+          "pages": "870"
         },
         {
           "id": "poors-1900",
@@ -25607,6 +25608,7 @@
         {
           "id": "ca-brc-report-10",
           "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
           "publisher": "State Printing Office, Sacramento",
           "date": "1889",
           "type": "official",
@@ -25670,8 +25672,8 @@
             "route",
             "gauge"
           ],
-          "pages": "869-870",
-          "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge. The OCR loses the running heads here, so the page is 869 or 870."
+          "pages": "870",
+          "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge."
         },
         {
           "id": "poors-1900",
@@ -25870,6 +25872,399 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-15",
           "source": "usgs-duncans-mills-1945",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nwp-main-line",
+      "name": "Northwestern Pacific trains to Eureka, from San Rafael",
+      "short_name": "NWP to Eureka",
+      "system": "northwestern-pacific",
+      "system_name": "Northwestern Pacific Railroad",
+      "operators": [
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": "1958-11",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Northwestern Pacific's trains north from San Rafael by Petaluma, Santa Rosa and Healdsburg to Cloverdale, and on to Willits and Eureka.",
+      "fate": "abandoned",
+      "fate_note": "The Public Utilities Commission let the railroad discontinue Trains Nos. 3 and 4 between San Rafael and Willits on October 21, 1958, effective twenty days later; the last train isn't dated in the order, so the line closes on or about November 1958 (decision 17).",
+      "continues_beyond": "Willits and Eureka",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        },
+        {
+          "type": "diesel",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "When these trains began isn't sourced; the map draws them from 1935, the first date a source shows them (decision 20). In 1941 they started at Sausalito and ran by San Rafael (not drawn here); by 1958 they started at San Rafael, with a bus from San Francisco. North of Cloverdale the line runs on beyond the Bay Area.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1935-05-20",
+          "source": "crc-d27973",
+          "pages": "3",
+          "note": "\"there will still remain in service two trains in each direction between San Francisco and Eureka, as well as trains on the Guerneville Branch.\""
+        },
+        {
+          "date": "1941-09-10",
+          "source": "crc-d34571",
+          "pages": "1",
+          "note": "Its trains \"between Sausalito and Eureka by way of San Rafael\"."
+        },
+        {
+          "date": "1958-10-21",
+          "source": "cpuc-d57488",
+          "pages": "2",
+          "note": "\"Train No. 4 operates northbound from San Rafael to Eureka three days a week\"."
+        }
+      ],
+      "undated": false,
+      "length_km": 115.55,
+      "confidence_km": {
+        "surveyed": 115.55
+      },
+      "bbox": [
+        -123.030697,
+        37.97118,
+        -122.51921,
+        38.852585
+      ],
+      "fids": [
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748
+      ],
+      "segments": [
+        {
+          "id": "smart-san-rafael-petaluma",
+          "name": "San Rafael to Petaluma",
+          "opened": "1879-06-02",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Petaluma Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's Petaluma branch of 1879, from San Rafael; SMART has run on it since 2017. The branch met the line from Donahue at a junction near Petaluma (Poor's Manual, 1887), so the last stretch into Petaluma may be older. Through Petaluma, OpenHistoricalMap's tracing of the 1914 sheet runs up to 140 m from today's track."
+        },
+        {
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "opened": "1870-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Petaluma Downtown and SMART Santa Rosa Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Santa Rosa Downtown and SMART Sonoma County Airport (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and SMART Windsor (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "sfnp-windsor-grants",
+          "name": "Windsor to Grant's",
+          "opened": "1871-04-10",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "On the San Francisco & North Pacific's line north of Santa Rosa; still in place (out of service north of Windsor), on the line SMART plans to reach Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-grants-healdsburg",
+          "name": "Grant's to Healdsburg",
+          "opened": "1871-07-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Into Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-healdsburg-cloverdale",
+          "name": "Healdsburg to Cloverdale, by Geyserville and Asti",
+          "opened": "1872-04-15",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "To Cloverdale, the line's end until it went on to Ukiah. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-cloverdale-county-line",
+          "name": "Cloverdale to the Mendocino County line",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200458180, 200458181, 200458182, 200458183, 200458184, 200458185, 200458186, 200458187, 200458188, 200458189 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Hopland CA 1938 topographic map; cut where it leaves the Bay Area's nine counties (21.1 km beyond left out, decision 16); checked on USGS Cloverdale 1:24,000 (1960). OpenHistoricalMap's ways north from Cloverdale.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "On toward Ukiah, Willits and Eureka; cut at the county line (decision 16). When it opened and last carried passengers isn't sourced here, so it shows with its line's dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d27973",
+          "title": "Railroad Commission of California, Decision No. 27973 (Application No. 19844)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1935-05-20",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27973_19350520_A19844.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d27973",
+          "supports": [
+            "route"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "crc-d34571",
+          "title": "Railroad Commission of California, Decision No. 34571 (Application No. 24370)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1941-09-10",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34571_19410910_A24370.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d34571",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "cpuc-d57488",
+          "title": "Public Utilities Commission of California, Decision No. 57488 (Application No. 39660)",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1958-10-21",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D57488_19581021_A39660.pdf",
+          "accessed": "2026-10-15",
+          "source": "cpuc-d57488",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "2, 12-13",
+          "note": "\"is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points\"; \"The effective date of this order shall be twenty days after the date hereof.\" Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17)."
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "16",
+          "note": "\"the Petaluma branch June 2, 1879\"."
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "opened"
+          ],
+          "pages": "873-875",
+          "note": "\"the Petaluma Branch June 2, 1879\"."
+        },
+        {
+          "id": "sonoma-history-1880",
+          "title": "History of Sonoma County",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofsonomac00alle",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened"
+          ],
+          "pages": "301-302",
+          "note": "\"the road to Santa Rosa was completed in October, and a passenger car at once put on the route\" (p. 301); the inaugural excursion from San Francisco to Santa Rosa ran \"on the last day of the year 1870\" (p. 302)."
+        },
+        {
+          "id": "mtc-smart-windsor-2025",
+          "title": "SMART's Windsor service starts",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-05-30",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/105680",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-windsor-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+        },
+        {
+          "id": "usgs-healdsburg-1940",
+          "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1940",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Healdsburg_297672_1940_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-healdsburg-1940",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200458177"
+        },
+        {
+          "id": "usgs-asti-1959",
+          "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1959",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Asti_288086_1959_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-asti-1959",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cloverdale-1960",
+          "title": "Cloverdale, Cal., topographic quadrangle, 1:24,000, 1960, printed 1962",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1960",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cloverdale_289371_1960_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cloverdale-1960",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-divisions-2026-09-23-1",
+          "title": "Overture Maps Foundation, divisions theme (county areas), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/divisions/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-divisions-2026-09-23-1",
           "supports": [
             "geometry"
           ]
@@ -26243,14 +26638,14 @@
         37.7762
       ],
       "fids": [
-        812,
-        813,
-        814,
-        815,
-        816,
-        817,
-        818,
-        819
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843
       ],
       "segments": [
         {
@@ -26527,19 +26922,19 @@
         37.7762
       ],
       "fids": [
-        799,
-        800,
-        801,
-        802,
-        803,
-        804,
-        805,
-        806,
-        807,
-        808,
-        809,
-        810,
-        811
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "segments": [
         {
@@ -29252,6 +29647,868 @@
       ]
     },
     {
+      "id": "sfnp-guerneville",
+      "name": "San Francisco & North Pacific, Guerneville branch",
+      "short_name": "Guerneville branch",
+      "system": "sf-north-pacific",
+      "system_name": "San Francisco and North Pacific Railroad",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1876-05-29",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The branch from Fulton, on the main line north of Santa Rosa, to Guerneville on the Russian River.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "When its trains ended isn't sourced: the map draws it to 1935, the last date a source shows them (decision 20). Its later extension toward Monte Rio isn't drawn.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1887",
+          "source": "poors-1887",
+          "pages": "873",
+          "note": "\"Fulton, Cal., to Guerneville, Cal 16.00\" miles."
+        },
+        {
+          "date": "1935-05-20",
+          "source": "crc-d27973",
+          "pages": "3",
+          "note": "\"… as well as trains on the Guerneville Branch.\""
+        }
+      ],
+      "undated": false,
+      "length_km": 24.78,
+      "confidence_km": {
+        "surveyed": 24.78
+      },
+      "bbox": [
+        -123.000734,
+        38.48178,
+        -122.771473,
+        38.519886
+      ],
+      "fids": [
+        749
+      ],
+      "segments": [
+        {
+          "id": "sfnp-guerneville-branch",
+          "name": "Fulton to Guerneville, the Guerneville branch",
+          "opened": "1876-05-29",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 202387871 (CC0, as of 2026-10-15); checked on USGS Sebastopol 1:48,000 (1935) and USGS Healdsburg 1:62,500 (1940). OpenHistoricalMap's way of the Guerneville branch, from Fulton to Guerneville.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "West from the main line at Fulton, down the Mark West and Russian River valleys to Guerneville. When it last carried passengers isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "16"
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "opened"
+          ],
+          "pages": "874"
+        },
+        {
+          "id": "poors-1887",
+          "title": "Poor's Manual of the Railroads of the United States, 1887 (vol. 20)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1887",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai20newyuoft",
+          "license": "Public domain (published 1887)",
+          "accessed": "2026-10-15",
+          "source": "poors-1887",
+          "supports": [
+            "route"
+          ],
+          "pages": "873"
+        },
+        {
+          "id": "crc-d27973",
+          "title": "Railroad Commission of California, Decision No. 27973 (Application No. 19844)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1935-05-20",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27973_19350520_A19844.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d27973",
+          "supports": [
+            "route"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "usgs-sebastopol-1935",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:48,000, 1935",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1935",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_301575_1935_48000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1935",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-healdsburg-1940",
+          "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1940",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Healdsburg_297672_1940_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-healdsburg-1940",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 202387871"
+        }
+      ]
+    },
+    {
+      "id": "sfnp-donahue",
+      "name": "San Francisco & North Pacific, from Donahue to Cloverdale",
+      "short_name": "SF&NP from Donahue",
+      "system": "sf-north-pacific",
+      "system_name": "San Francisco and North Pacific Railroad",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1870-10",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains from the steamer landing at Donahue, on the Petaluma River, by Petaluma to Santa Rosa (1870), Healdsburg (1871) and Cloverdale (1872).",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 1870, when a passenger car was put on to Santa Rosa. Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running).",
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "running": [
+        {
+          "date": "1885",
+          "source": "poors-1885",
+          "pages": "874",
+          "note": "\"Line of Road.— Donahue, Cal., to Cloverdale, Cal 56.00 miles\", with the steamer \"Between Donahue and San Francisco (34 miles)\"."
+        }
+      ],
+      "undated": false,
+      "length_km": 75.53,
+      "confidence_km": {
+        "surveyed": 75.53
+      },
+      "bbox": [
+        -123.013923,
+        38.237264,
+        -122.634817,
+        38.809809
+      ],
+      "fids": [
+        726,
+        727,
+        728,
+        729,
+        730,
+        731
+      ],
+      "segments": [
+        {
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "opened": "1870-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Petaluma Downtown and SMART Santa Rosa Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Santa Rosa Downtown and SMART Sonoma County Airport (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and SMART Windsor (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "sfnp-windsor-grants",
+          "name": "Windsor to Grant's",
+          "opened": "1871-04-10",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "On the San Francisco & North Pacific's line north of Santa Rosa; still in place (out of service north of Windsor), on the line SMART plans to reach Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-grants-healdsburg",
+          "name": "Grant's to Healdsburg",
+          "opened": "1871-07-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Into Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-healdsburg-cloverdale",
+          "name": "Healdsburg to Cloverdale, by Geyserville and Asti",
+          "opened": "1872-04-15",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "To Cloverdale, the line's end until it went on to Ukiah. When it last carried passengers isn't sourced here."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sonoma-history-1880",
+          "title": "History of Sonoma County",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofsonomac00alle",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "301-302"
+        },
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "16"
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "874"
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "mtc-smart-windsor-2025",
+          "title": "SMART's Windsor service starts",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-05-30",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/105680",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-windsor-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+        },
+        {
+          "id": "usgs-healdsburg-1940",
+          "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1940",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Healdsburg_297672_1940_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-healdsburg-1940",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200458177"
+        },
+        {
+          "id": "usgs-asti-1959",
+          "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1959",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Asti_288086_1959_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-asti-1959",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cloverdale-1960",
+          "title": "Cloverdale, Cal., topographic quadrangle, 1:24,000, 1960, printed 1962",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1960",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cloverdale_289371_1960_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cloverdale-1960",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sfnp-tiburon",
+      "name": "San Francisco & North Pacific, from San Rafael and Tiburon to Cloverdale",
+      "short_name": "SF&NP from Tiburon",
+      "system": "sf-north-pacific",
+      "system_name": "San Francisco and North Pacific Railroad",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1879-06-02",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains from San Rafael (1879) and from the ferry at Point Tiburon (1885) by Petaluma and Santa Rosa to Cloverdale.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Opens with the Petaluma branch from San Rafael (June 2, 1879); the line on to Tiburon opens May 1, 1885. When these trains ended isn't sourced: the map draws them to November 1889, the last date a source shows them running (decision 20). The Northwestern Pacific's trains of the 1930s-50s are a line of their own.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1887",
+          "source": "poors-1887",
+          "pages": "873",
+          "note": "\"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles.\""
+        },
+        {
+          "date": "1889-11",
+          "source": "ca-brc-report-10",
+          "pages": "17",
+          "note": "\"Passengers and freight are transferred between San Francisco and Point Tiburon by the company's steamers 'Tiburon' and 'James M. Donahue'\" (the report is written as of November 1, 1889, p. 16)."
+        }
+      ],
+      "undated": false,
+      "length_km": 124.26,
+      "confidence_km": {
+        "surveyed": 124.26
+      },
+      "bbox": [
+        -123.013923,
+        37.872228,
+        -122.452157,
+        38.809809
+      ],
+      "fids": [
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740
+      ],
+      "segments": [
+        {
+          "id": "sfnp-tiburon-larkspur",
+          "name": "Tiburon to Larkspur, by Reed and Greenbrae",
+          "opened": "1885-05-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200221497, 200221499, 200221500, 200221501, 200221498, 200221503, 200221504, 200221505, 202387718, 200221506, 200221502 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS San Francisco 1895 topographic map; USGS Tamalpais CA 1897 topographic map, cut to -122.51249,37.94781; checked on USGS San Quentin 1:24,000 (1948) and USGS San Rafael 1:24,000 (1954). Cut at SMART's Larkspur station, where the line joins today's track. OpenHistoricalMap's ways were traced from the 1895 and 1897 15-minute sheets; the 1948 and 1954 sheets show the track while it still carried freight.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The line to the ferry at Point Tiburon; on into San Rafael it ran on today's SMART track through the Cal Park Hill tunnel. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "smart-san-rafael-larkspur",
+          "name": "San Rafael to Larkspur",
+          "opened": "1885-05-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Larkspur (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The line from San Rafael to Tiburon of 1885, through the Cal Park Hill tunnel, which the San Francisco & North Pacific leased as part of its main line (the Commissioners' report, p. 16); OpenHistoricalMap's tracing of the 1897 sheet places it within about 30 m of today's track. SMART's trains reached Larkspur on December 14, 2019."
+        },
+        {
+          "id": "smart-san-rafael-petaluma",
+          "name": "San Rafael to Petaluma",
+          "opened": "1879-06-02",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Petaluma Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's Petaluma branch of 1879, from San Rafael; SMART has run on it since 2017. The branch met the line from Donahue at a junction near Petaluma (Poor's Manual, 1887), so the last stretch into Petaluma may be older. Through Petaluma, OpenHistoricalMap's tracing of the 1914 sheet runs up to 140 m from today's track."
+        },
+        {
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "opened": "1870-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Petaluma Downtown and SMART Santa Rosa Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Santa Rosa Downtown and SMART Sonoma County Airport (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
+          "opened": "1871-03-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and SMART Windsor (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "sfnp-windsor-grants",
+          "name": "Windsor to Grant's",
+          "opened": "1871-04-10",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "On the San Francisco & North Pacific's line north of Santa Rosa; still in place (out of service north of Windsor), on the line SMART plans to reach Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-grants-healdsburg",
+          "name": "Grant's to Healdsburg",
+          "opened": "1871-07-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Into Healdsburg. When it last carried passengers isn't sourced here."
+        },
+        {
+          "id": "sfnp-healdsburg-cloverdale",
+          "name": "Healdsburg to Cloverdale, by Geyserville and Asti",
+          "opened": "1872-04-15",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "To Cloverdale, the line's end until it went on to Ukiah. When it last carried passengers isn't sourced here."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "16-17, 121"
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "874",
+          "note": "\"San Rafael, Cal., to Junction (Petaluma), Cal 20.50\" miles."
+        },
+        {
+          "id": "poors-1887",
+          "title": "Poor's Manual of the Railroads of the United States, 1887 (vol. 20)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1887",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai20newyuoft",
+          "license": "Public domain (published 1887)",
+          "accessed": "2026-10-15",
+          "source": "poors-1887",
+          "supports": [
+            "route"
+          ],
+          "pages": "873"
+        },
+        {
+          "id": "usgs-san-quentin-1948",
+          "title": "San Quentin, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Quentin_300194_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-san-quentin-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-rafael-1954",
+          "title": "San Rafael, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Rafael_300201_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-san-rafael-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221497, 200221499, 200221500, 200221501, 200221498, 200221503, 200221504, 200221505, 202387718, 200221506, 200221502"
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "sonoma-history-1880",
+          "title": "History of Sonoma County",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofsonomac00alle",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened"
+          ],
+          "pages": "301-302",
+          "note": "\"the road to Santa Rosa was completed in October, and a passenger car at once put on the route\" (p. 301); the inaugural excursion from San Francisco to Santa Rosa ran \"on the last day of the year 1870\" (p. 302)."
+        },
+        {
+          "id": "mtc-smart-windsor-2025",
+          "title": "SMART's Windsor service starts",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-05-30",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/105680",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-windsor-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+        },
+        {
+          "id": "usgs-healdsburg-1940",
+          "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1940",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Healdsburg_297672_1940_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-healdsburg-1940",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-asti-1959",
+          "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1959",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Asti_288086_1959_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-asti-1959",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cloverdale-1960",
+          "title": "Cloverdale, Cal., topographic quadrangle, 1:24,000, 1960, printed 1962",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1960",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cloverdale_289371_1960_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cloverdale-1960",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "vallejo-ferry",
       "name": "San Francisco–Vallejo ferry",
       "system": "vallejo-ferry",
@@ -29536,6 +30793,7 @@
         {
           "id": "ca-brc-report-10",
           "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
           "publisher": "State Printing Office, Sacramento",
           "date": "1889",
           "type": "official",
@@ -29649,15 +30907,15 @@
         37.824321
       ],
       "fids": [
-        757,
-        758,
-        759,
-        760,
-        761,
-        762,
-        763,
-        764,
-        765
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789
       ],
       "segments": [
         {
@@ -30156,24 +31414,24 @@
         37.891481
       ],
       "fids": [
-        726,
-        727,
-        728,
-        729,
-        730,
-        731,
-        732,
-        733,
-        734,
-        735,
-        736,
-        737,
-        738,
-        739,
-        740,
-        741,
-        742,
-        743
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767
       ],
       "segments": [
         {
@@ -32508,12 +33766,12 @@
         37.803847
       ],
       "fids": [
-        793,
-        794,
-        795,
-        796,
-        797,
-        798
+        817,
+        818,
+        819,
+        820,
+        821,
+        822
       ],
       "segments": [
         {
@@ -33481,8 +34739,8 @@
         37.41049
       ],
       "fids": [
-        220,
-        221
+        222,
+        223
       ],
       "segments": [
         {
@@ -34802,8 +36060,8 @@
         37.41132
       ],
       "fids": [
-        222,
-        223
+        224,
+        225
       ],
       "segments": [
         {
@@ -36926,13 +38184,13 @@
         37.41578
       ],
       "fids": [
-        224,
-        225,
         226,
         227,
         228,
         229,
-        230
+        230,
+        231,
+        232
       ],
       "segments": [
         {
@@ -37997,6 +39255,7 @@
       "closed": null,
       "status": "active",
       "status_label": "In service",
+      "notes": "SMART began on August 25, 2017 between the Sonoma County Airport and San Rafael. Its track is older: the San Francisco & North Pacific's of 1870-79 and the line to Tiburon of 1885, dated here stretch by stretch for the past era, as Caltrain's is.",
       "flags": [],
       "undated": false,
       "length_km": 77.24,
@@ -38012,46 +39271,79 @@
       "fids": [
         216,
         217,
-        218
+        218,
+        219,
+        220
       ],
       "segments": [
         {
           "id": "smart-airport-windsor",
           "name": "Sonoma County Airport to Windsor",
-          "opened": "2025-05",
+          "opened": "1871-03-01",
           "closed": null,
+          "from": "2025-05",
+          "note": "MTC, May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\"; only the month is given.",
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and SMART Windsor (data/present/extensions.json)",
           "structure": null,
           "flags": [],
-          "notes": "MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
         },
         {
-          "id": "smart-airport-san-rafael",
-          "name": "Sonoma County Airport to San Rafael",
-          "opened": "2017-08-25",
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "opened": "1871-03-01",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Sonoma County Airport and San Rafael Transit Center (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Santa Rosa Downtown and SMART Sonoma County Airport (data/present/extensions.json)",
           "structure": null,
           "flags": [],
-          "notes": "Over the Northwestern Pacific's right-of-way, rebuilt; its older dates are for the past era."
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "opened": "1870-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between SMART Petaluma Downtown and SMART Santa Rosa Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-san-rafael-petaluma",
+          "name": "San Rafael to Petaluma",
+          "opened": "1879-06-02",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Petaluma Downtown (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & North Pacific's Petaluma branch of 1879, from San Rafael; SMART has run on it since 2017. The branch met the line from Donahue at a junction near Petaluma (Poor's Manual, 1887), so the last stretch into Petaluma may be older. Through Petaluma, OpenHistoricalMap's tracing of the 1914 sheet runs up to 140 m from today's track."
         },
         {
           "id": "smart-san-rafael-larkspur",
           "name": "San Rafael to Larkspur",
-          "opened": "2019-12-14",
+          "opened": "1885-05-01",
           "closed": null,
+          "from": "2019-12-14",
+          "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations\" (SMART's general manager's report, December 2019).",
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 2 shapes run by 72 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Rafael Transit Center and SMART Larkspur (data/present/extensions.json)",
           "structure": null,
-          "flags": []
+          "flags": [],
+          "notes": "The line from San Rafael to Tiburon of 1885, through the Cal Park Hill tunnel, which the San Francisco & North Pacific leased as part of its main line (the Commissioners' report, p. 16); OpenHistoricalMap's tracing of the 1897 sheet places it within about 30 m of today's track. SMART's trains reached Larkspur on December 14, 2019."
         }
       ],
       "sources": [
@@ -38087,20 +39379,6 @@
           "note": "\"Since the start of service on August 25, 2017\""
         },
         {
-          "id": "mtc-smart-windsor-2025",
-          "title": "SMART's Windsor service starts",
-          "publisher": "Metropolitan Transportation Commission",
-          "date": "2025-05-30",
-          "type": "official",
-          "url": "https://blog.bayareametro.gov/node/105680",
-          "accessed": "2026-10-14",
-          "source": "mtc-smart-windsor-2025",
-          "supports": [
-            "opened"
-          ],
-          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
-        },
-        {
           "id": "mtc-smart-riders-2020",
           "title": "SMART passengers talk about train",
           "publisher": "Metropolitan Transportation Commission",
@@ -38116,18 +39394,69 @@
           "note": "\"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\""
         },
         {
-          "id": "smart-gm-report-2019-12",
-          "title": "General Manager's report, December 2019 (TAM board item 5c)",
-          "publisher": "Sonoma-Marin Area Rail Transit District",
-          "date": "2019-12",
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
           "type": "official",
-          "url": "https://www.tam.ca.gov/wp-content/uploads/2020/01/5c-GM-Report-December-2019.pdf",
-          "accessed": "2026-10-14",
-          "source": "smart-gm-report-2019-12",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
           "supports": [
             "opened"
           ],
-          "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\""
+          "pages": "16",
+          "note": "\"to Windsor (9 miles), March 1, 1871\"."
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "opened"
+          ],
+          "pages": "873-875",
+          "note": "\"to Windsor (9 miles) March 1, 1871\"."
+        },
+        {
+          "id": "mtc-smart-windsor-2025",
+          "title": "SMART's Windsor service starts",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2025-05-30",
+          "type": "official",
+          "url": "https://blog.bayareametro.gov/node/105680",
+          "accessed": "2026-10-14",
+          "source": "mtc-smart-windsor-2025",
+          "supports": [
+            "opened"
+          ],
+          "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+        },
+        {
+          "id": "sonoma-history-1880",
+          "title": "History of Sonoma County",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofsonomac00alle",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened"
+          ],
+          "pages": "301-302",
+          "note": "\"the road to Santa Rosa was completed in October, and a passenger car at once put on the route\" (p. 301); the inaugural excursion from San Francisco to Santa Rosa ran \"on the last day of the year 1870\" (p. 302)."
         }
       ]
     },
@@ -38626,7 +39955,7 @@
         37.81667
       ],
       "fids": [
-        219
+        221
       ],
       "segments": [
         {

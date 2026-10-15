@@ -2042,11 +2042,150 @@
     "smart": {
       "segments": [
         {
-          "id": "smart-airport-san-rafael",
-          "name": "Sonoma County Airport to San Rafael",
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "line": "smart",
+          "from": "SMART Petaluma Downtown",
+          "to": "SMART Santa Rosa Downtown",
+          "opened": "1870-10",
+          "sources": [
+            {
+              "source": "sonoma-history-1880",
+              "supports": [
+                "opened"
+              ],
+              "pages": "301-302",
+              "note": "\"the road to Santa Rosa was completed in October, and a passenger car at once put on the route\" (p. 301); the inaugural excursion from San Francisco to Santa Rosa ran \"on the last day of the year 1870\" (p. 302)."
+            },
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "The railroad's own date, \"Road opened from Donahue to Santa Rosa (23 miles), January 1, 1870\", which comes before the line was built (August to October 1870, Sonoma County history); the map takes October 1870."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "The same January 1, 1870, as the company reported it."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "line": "smart",
+          "from": "SMART Santa Rosa Downtown",
+          "to": "SMART Sonoma County Airport",
+          "opened": "1871-03-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"to Windsor (9 miles), March 1, 1871\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"to Windsor (9 miles) March 1, 1871\"."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
           "line": "smart",
           "from": "SMART Sonoma County Airport",
-          "to": "San Rafael Transit Center",
+          "to": "SMART Windsor",
+          "opened": "1871-03-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"to Windsor (9 miles), March 1, 1871\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"to Windsor (9 miles) March 1, 1871\"."
+            },
+            {
+              "source": "mtc-smart-windsor-2025",
+              "supports": [
+                "opened"
+              ],
+              "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "smart-san-rafael-petaluma",
+          "name": "San Rafael to Petaluma",
+          "line": "smart",
+          "from": "San Rafael Transit Center",
+          "to": "SMART Petaluma Downtown",
+          "opened": "1879-06-02",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"the Petaluma branch June 2, 1879\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"the Petaluma Branch June 2, 1879\"."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's Petaluma branch of 1879, from San Rafael; SMART has run on it since 2017. The branch met the line from Donahue at a junction near Petaluma (Poor's Manual, 1887), so the last stretch into Petaluma may be older. Through Petaluma, OpenHistoricalMap's tracing of the 1914 sheet runs up to 140 m from today's track."
+        },
+        {
+          "id": "smart-san-rafael-larkspur",
+          "name": "San Rafael to Larkspur",
+          "line": "smart",
+          "from": "San Rafael Transit Center",
+          "to": "SMART Larkspur",
+          "opened": "1885-05-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "121",
+              "note": "\"From San Rafael to Tiburon … May 1, 1885\", opened for public use. The table's dates are printed in a column apart from its stretches and read here in order, nine dates for nine stretches; the OCR loses the running head, so the page is the research notes'."
+            }
+          ],
+          "notes": "The line from San Rafael to Tiburon of 1885, through the Cal Park Hill tunnel, which the San Francisco & North Pacific leased as part of its main line (the Commissioners' report, p. 16); OpenHistoricalMap's tracing of the 1897 sheet places it within about 30 m of today's track. SMART's trains reached Larkspur on December 14, 2019."
+        }
+      ],
+      "lines": {
+        "smart": {
           "opened": "2017-08-25",
           "sources": [
             {
@@ -2065,63 +2204,17 @@
               "note": "\"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\""
             }
           ],
-          "notes": "Over the Northwestern Pacific's right-of-way, rebuilt; its older dates are for the past era."
-        },
-        {
-          "id": "smart-san-rafael-larkspur",
-          "name": "San Rafael to Larkspur",
-          "line": "smart",
-          "from": "San Rafael Transit Center",
-          "to": "SMART Larkspur",
-          "opened": "2019-12-14",
-          "sources": [
-            {
-              "source": "smart-gm-report-2019-12",
-              "supports": [
-                "opened"
-              ],
-              "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\""
+          "notes": "SMART began on August 25, 2017 between the Sonoma County Airport and San Rafael. Its track is older: the San Francisco & North Pacific's of 1870-79 and the line to Tiburon of 1885, dated here stretch by stretch for the past era, as Caltrain's is.",
+          "route_from": {
+            "smart-san-rafael-larkspur": {
+              "from": "2019-12-14",
+              "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations\" (SMART's general manager's report, December 2019)."
             },
-            {
-              "source": "smart-5th-anniversary-2022",
-              "supports": [
-                "opened"
-              ],
-              "note": "\"SMART opened two new stations in December 2019: the Novato Downtown Station and the Larkspur Station\""
+            "smart-airport-windsor": {
+              "from": "2025-05",
+              "note": "MTC, May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\"; only the month is given."
             }
-          ]
-        },
-        {
-          "id": "smart-airport-windsor",
-          "name": "Sonoma County Airport to Windsor",
-          "line": "smart",
-          "from": "SMART Sonoma County Airport",
-          "to": "SMART Windsor",
-          "opened": "2025-05",
-          "sources": [
-            {
-              "source": "mtc-smart-windsor-2025",
-              "supports": [
-                "opened"
-              ],
-              "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
-            }
-          ],
-          "notes": "MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
-        }
-      ],
-      "lines": {
-        "smart": {
-          "opened": "2017-08-25",
-          "sources": [
-            {
-              "source": "smart-5th-anniversary-2022",
-              "supports": [
-                "opened"
-              ],
-              "note": "\"Since the start of service on August 25, 2017\""
-            }
-          ]
+          }
         }
       },
       "points": {

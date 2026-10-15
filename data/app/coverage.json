@@ -1,27 +1,27 @@
 {
   "past": {
-    "lines": 95,
-    "segments": 413,
+    "lines": 99,
+    "segments": 419,
     "points": 11,
     "km_by_confidence": {
       "approximate": 106.0,
       "digitized": 460.6,
-      "surveyed": 172.9
+      "surveyed": 250.1
     },
     "undated_segments": 8,
-    "borrowed_dates": 374,
+    "borrowed_dates": 380,
     "flags": {
-      "closed_unsourced": 407,
-      "conflicting_sources": 9,
+      "closed_unsourced": 416,
+      "conflicting_sources": 10,
       "geometry_unverified": 6,
       "needs_manual_digitizing": 7,
-      "opened_unsourced": 392,
+      "opened_unsourced": 394,
       "page_unverified": 1
     }
   },
   "present": {
     "lines": 44,
-    "segments": 110,
+    "segments": 112,
     "points": 275,
     "km_by_confidence": {
       "surveyed": 1939.3

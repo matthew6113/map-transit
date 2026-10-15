@@ -3,7 +3,7 @@ import type { LineRecord } from '../data/catalog';
 import { GROUPS, STATUSES, type Era } from '../data/vocab';
 import { DATASETS } from '../eras/layers';
 import { MODE_GROUPS, type ModeGroup } from '../theme/theme';
-import { formatYears, modeVar, trackFrom } from './format';
+import { formatRunning, formatYears, modeVar, trackFrom } from './format';
 
 interface Props {
   era: Era;
@@ -86,7 +86,9 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
                       <span class="where">
                         {l.system_name} · {l.mode_label}
                         {' · '}
-                        {l.era === 'future' ? STATUSES[l.status].label : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
+                        {l.era === 'future' ? STATUSES[l.status].label
+                          : l.status === 'closed' && l.running?.length ? formatRunning(l.opened, l.closed, l.running)
+                          : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
                       </span>
                     </button>
                   </li>

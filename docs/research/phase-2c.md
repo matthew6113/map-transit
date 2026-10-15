@@ -24,6 +24,7 @@ running.
 | Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 | North Pacific Coast | Sausalito to the Russian River at Monte Rio (decision 21), and its San Rafael branch | The Railroad Commissioners' tenth report (openings by stretch, 1875–77); CRC Decisions 22672 and 34457 (1930, 1933); the San Rafael branch for its running dates (decision 20) | The electric lines' track to San Anselmo, then OpenHistoricalMap's ways, checked on the sheets of 1897–1945 |
 | San Mateo interurban (No. 40) | 5th and Market by Mission St and its private right of way to Burlingame and San Mateo | Running in 1903 (*Street Railway Journal*), 1909 (Manley) and 1929 (O'Shaughnessy); last day January 15, 1949 (SF PUC 1948–49) | Today's centerlines; OpenHistoricalMap's right of way, checked on the 1949–50 sheets |
+| San Francisco & North Pacific, Northwestern Pacific | Trains from Donahue and from Tiburon to Cloverdale, the Guerneville branch, and the NWP's trains to Eureka | The Railroad Commissioners' tenth report and *Poor's Manual* (openings by stretch, 1870–85); CPUC Decision 57488 (1958); running dates for the rest (decision 20) | SMART's track (dated by stretch); OpenHistoricalMap's ways beyond it |
 
 ## Not drawn yet, and what each needs
 
@@ -102,6 +103,9 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   as the NPC's own map of about 1900 at Calisphere); its tunnels; the Mill Valley branch; the San
   Rafael & San Quentin (1870, leased 1875) and the San Quentin ferry, which OHM has from the 1895–97
   sheets.
+- **San Francisco & North Pacific, still to do:** Donahue to Petaluma (no map of it traced), the
+  Sonoma Valley line and the Marin & Napa branch to Sears Point (1888), the Sebastopol branch, the
+  line beyond Cloverdale, and the trains' later years (1889-1935) and ends.
 - **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &
   Calistoga:** dated only by search extracts so far.
 

@@ -104,8 +104,8 @@
       "route",
       "gauge"
      ],
-     "pages": "869-870",
-     "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge. The OCR loses the running heads here, so the page is 869 or 870."
+     "pages": "870",
+     "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge."
     },
     {
      "source": "poors-1900",
@@ -190,7 +190,7 @@
     {
      "date": "1885",
      "source": "poors-1885",
-     "pages": "869-870",
+     "pages": "870",
      "note": "\"San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles.\""
     },
     {
@@ -213,7 +213,7 @@
      "supports": [
       "route"
      ],
-     "pages": "869-870"
+     "pages": "870"
     },
     {
      "source": "poors-1900",

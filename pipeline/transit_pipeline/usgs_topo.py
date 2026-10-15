@@ -113,6 +113,12 @@ SHEETS = [
     # The San Mateo interurban, while it still ran (to 1949).
     Sheet("usgs-montara-mountain-1949", "Montara Mountain", 24000, 1949, "293071", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
     Sheet("usgs-san-mateo-1949", "San Mateo", 24000, 1949, "300158", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
+    # The San Francisco & North Pacific: its Tiburon line, Guerneville branch and the line to Cloverdale.
+    Sheet("usgs-san-quentin-1948", "San Quentin", 24000, 1948, "300194", None, "7.5-minute sheet, aerial photographs of 1947, edition of 1948"),
+    Sheet("usgs-san-rafael-1954", "San Rafael", 24000, 1954, "300201", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-healdsburg-1940", "Healdsburg", 62500, 1940, "297672", None, "15-minute sheet, surveyed 1933, edition of 1940"),
+    Sheet("usgs-asti-1959", "Asti", 24000, 1959, "288086", 1961, "7.5-minute sheet, aerial photographs of 1957, edition of 1959"),
+    Sheet("usgs-cloverdale-1960", "Cloverdale", 24000, 1960, "289371", 1962, "7.5-minute sheet, aerial photographs of 1957, edition of 1960"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

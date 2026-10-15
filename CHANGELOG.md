@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The San Francisco & North Pacific
+
+- **SMART's track is dated** stretch by stretch from the railroad's own openings, as Caltrain's is:
+  Petaluma–Santa Rosa October 1870, Santa Rosa–Windsor March 1, 1871, San Rafael–Petaluma June 2,
+  1879 and San Rafael–Larkspur (the line to Tiburon, by the Cal Park Hill tunnel) May 1, 1885.
+  SMART's own service keeps its dates (2017; Larkspur 2019; Windsor 2025).
+- **Four lines** (`sf-north-pacific/`): the San Francisco & North Pacific's trains from the steamer
+  at Donahue (1870, drawn to 1885), from San Rafael and Tiburon (1879, drawn to 1889), the
+  Guerneville branch (1876, drawn to 1935), and the Northwestern Pacific's trains to Eureka (drawn
+  from 1935 to its last train, on or about November 1958, CPUC Decision 57488), out to the
+  Mendocino County line. Openings by stretch from the Railroad Commissioners' tenth report and
+  *Poor's Manual*; Windsor to Cloverdale and the Tiburon line from OpenHistoricalMap's ways.
+- The line list says "Running by …" for lines drawn by decision 20, as their panels do.
+- Five USGS sheets added: San Quentin 1948, San Rafael 1954, Healdsburg 1940, Asti 1959 and
+  Cloverdale 1960.
+
 ## 2026-10-15: The San Mateo interurban (No. 40)
 
 - **No. 40 San Mateo** (`msry-40`): from 5th and Market out Mission St, then by its private right of

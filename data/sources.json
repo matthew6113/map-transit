@@ -1026,6 +1026,7 @@
     {
       "id": "ca-brc-report-10",
       "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+      "author": "Board of Railroad Commissioners of the State of California",
       "publisher": "State Printing Office, Sacramento",
       "date": "1889",
       "type": "official",
@@ -1206,6 +1207,16 @@
       "type": "official",
       "license": "California public record (Public Utilities Commission); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "cpuc-d57488",
+      "title": "Public Utilities Commission of California, Decision No. 57488 (Application No. 39660)",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1958-10-21",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D57488_19581021_A39660.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Northwestern Pacific's Trains Nos. 3 and 4, thrice weekly between San Rafael and Eureka since June 2, 1956 (p. 2); discontinuance authorized between San Rafael and Willits (p. 12), the order effective twenty days after its date (p. 13). Text extracted with pypdf, since pdftotext reads only its first page."
     },
     {
       "id": "cpuc-vta-safety-review-2011",
@@ -1394,6 +1405,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d27973",
+      "title": "Railroad Commission of California, Decision No. 27973 (Application No. 19844)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1935-05-20",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27973_19350520_A19844.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Northwestern Pacific's local passenger trains replaced by Pacific Greyhound's stages; p. 3: \"there will still remain in service two trains in each direction between San Francisco and Eureka, as well as trains on the Guerneville Branch\" (OCR, read loosely)."
     },
     {
       "id": "crc-d28206",
@@ -2267,6 +2288,18 @@
       "notes": "The North Pacific Coast Railroad, p. 870: \"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles. San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles. Leased : San Rafael and San Quentin RR.\" Read in archive.org's OCR text."
     },
     {
+      "id": "poors-1887",
+      "title": "Poor's Manual of the Railroads of the United States, 1887 (vol. 20)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1887",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai20newyuoft",
+      "license": "Public domain (published 1887)",
+      "accessed": "2026-10-15",
+      "notes": "The San Francisco and North Pacific Railroad, p. 873: \"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles\", with branches from Fulton to Guerneville and from Donahue to Junction (Petaluma). Read in archive.org's OCR text."
+    },
+    {
       "id": "poors-1900",
       "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
       "author": "Henry V. Poor",
@@ -2753,6 +2786,18 @@
       "notes": "p. 848 (inferred from the next page's header)."
     },
     {
+      "id": "usgs-asti-1959",
+      "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1959",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Asti_288086_1959_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1957, edition of 1959. HTMC scan 288086, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 627539aa3ad57828027bfb15042353c71760ec1df456d46c333bdc92e5232b9e."
+    },
+    {
       "id": "usgs-birds-landing-1953",
       "title": "Birds Landing, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
       "author": "U.S. Geological Survey",
@@ -2775,6 +2820,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "1:31,680 sheet, surveyed 1943, edition of 1945. HTMC scan 302658, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 da9f6fa9d8d729bc64175e7675e6e91698dba77f8dc85fa56641a80838cd29c7."
+    },
+    {
+      "id": "usgs-cloverdale-1960",
+      "title": "Cloverdale, Cal., topographic quadrangle, 1:24,000, 1960, printed 1962",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1960",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cloverdale_289371_1960_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1957, edition of 1960. HTMC scan 289371, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 c59f618c99ba3b868594e6aec99176895854f0e985ed00ceceb6499995256101."
     },
     {
       "id": "usgs-concord-1897",
@@ -2835,6 +2892,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "1:31,680 sheet, edition of 1945. HTMC scan 296063, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 c781bde4be859726515c50187f77b02dce3aad4ab26112adff78112d2e57d42e."
+    },
+    {
+      "id": "usgs-healdsburg-1940",
+      "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1940",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Healdsburg_297672_1940_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1933, edition of 1940. HTMC scan 297672, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 a80bddd854fd3816b5e5f25b4d0b64987773893bf2b524a7a599f07b72153977."
     },
     {
       "id": "usgs-honker-bay-1918",
@@ -3063,6 +3132,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 300158, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 0deb7839d4411f862ff7b106ed3f93aa400c12168a151a1e37caf55df087cd7a."
+    },
+    {
+      "id": "usgs-san-quentin-1948",
+      "title": "San Quentin, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Quentin_300194_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1947, edition of 1948. HTMC scan 300194, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 96d5efa56ec673da90c39f5a82bf0f548444ceccbb16bef81d78f3f968cfbead."
+    },
+    {
+      "id": "usgs-san-rafael-1954",
+      "title": "San Rafael, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Rafael_300201_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 300201, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 12d0fec9d0f3697ca12f80fbf5cc99ea2291a362415b3b93494594deb9476dc1."
     },
     {
       "id": "usgs-sebastopol-1935",
