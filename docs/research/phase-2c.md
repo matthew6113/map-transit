@@ -125,11 +125,24 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
 
 - **Decided at the checkpoint:** decision 20 is approved, and the North Pacific Coast is drawn as its
   own line over the track it shared with the electric lines (decision 21).
-- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which this
-  environment's network policy blocks; allowing it would let the checks below be done here.
-- **Page images:** every archive.org quote of this phase is from the OCR text; the page images can't
-  be opened from this environment. `docs/checks/past.md` lists the records; the SF PUC report's
-  date column, lined up by order for six lines, most needs a look.
+- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which Matthew
+  allowed after the checkpoint. Items whose files sit only on `*.ca.archive.org` or
+  `*.eu.archive.org` still can't be opened; `archive.org/metadata/<id>` names an item's servers.
+- **Page images:** every archive.org citation taken from OCR text (about 720, in 53 items) was
+  re-read on the page images on October 15. Most held; the corrections are in `CHANGELOG.md`. Still
+  open from that pass:
+  - The 12th St and Poplar St track of the Key Route's A line is dated June 11, 1911 (through
+    trains), but the Tribune says cars had run it separately "for more than a year", and its 1912
+    history says "In 1909, the Twelfth street line was opened" (`conflicting_sources`).
+  - No. 9's last day is printed "1/15/59" in the 1948-49 report, among the January 1949 entries;
+    the map reads it as January 15, 1949.
+  - Ends of lines the reports name but the map doesn't draw: No. 7's 1929 run on Lincoln Way, a
+    private right of way and La Playa; No. 20's 1909 run out H St; No. 36's start from the Ferry by
+    Howard and Steuart Sts. No. 12's 1929 link from Ocean Ave to Sloat Blvd follows today's K track,
+    which O'Shaughnessy doesn't name.
+  - The city's 1948 transit history dates the Presidio and Ferries cable line "18?0", the third
+    digit overtyped (it reads most like 1880); the record has 1882 from another source.
+  - Demoro's *The Key Route* p. 104 is borrow-only on archive.org.
 - **Maps to georeference by hand** (or approve a fitted trace): Land's End on the 1899 or 1915 San
   Francisco sheet; the Westbrae shuttle and the Webster St bridge on the 1915 sheet.
 - **Books and newspapers:** as listed per system in `leads-2c/`, and the earlier notes' lists.

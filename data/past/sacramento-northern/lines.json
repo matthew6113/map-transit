@@ -116,15 +116,16 @@
           "supports": [
             "opened"
           ],
+          "pages": "1157",
           "note": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\""
         },
         {
           "source": "erj-1913-04-19-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "726-728"
+          "pages": "726-728",
+          "note": "\"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point\" (p. 726)."
         },
         {
           "source": "joepg-1912-03-09",
@@ -155,6 +156,7 @@
           "supports": [
             "closed"
           ],
+          "pages": "3",
           "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
         },
         {
@@ -168,10 +170,9 @@
         {
           "source": "erj-1913-09-13-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "434-435",
+          "pages": "435",
           "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
         },
         {

@@ -2061,21 +2061,6 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "usgs-oakland-east-1949",
           "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -2148,21 +2133,6 @@
           "pages": "2, 4-5"
         },
         {
-          "id": "crc-d23279",
-          "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-01-13",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23279_19310113_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d23279",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d26059",
           "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
           "publisher": "Railroad Commission of the State of California",
@@ -2176,6 +2146,21 @@
             "route"
           ],
           "pages": "2-3"
+        },
+        {
+          "id": "crc-d23279",
+          "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-01-13",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23279_19310113_A17062.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d23279",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "usgs-oakland-west-1949",
@@ -2222,36 +2207,6 @@
           ],
           "pages": "1",
           "note": "The No. 2 to run \"on Washington Street from a southerly terminus between Sixth and Seventh Streets to the intersection of Washington Street and San Pablo Avenue\"."
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         }
       ]
     },
@@ -2300,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        682,
-        683,
         684,
-        685
+        685,
+        686,
+        687
       ],
       "segments": [
         {
@@ -2571,8 +2526,6 @@
         37.793407
       ],
       "fids": [
-        686,
-        687,
         688,
         689,
         690,
@@ -2581,7 +2534,9 @@
         693,
         694,
         695,
-        696
+        696,
+        697,
+        698
       ],
       "segments": [
         {
@@ -3143,8 +3098,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
           "pages": "246–253"
         },
@@ -3423,7 +3377,7 @@
           "supports": [
             "route"
           ],
-          "pages": "462",
+          "pages": "463",
           "note": "\"a tunnel 465 ft. long in North Berkeley, where the line passes under a point from which several streets radiate\""
         },
         {
@@ -3490,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        712,
-        713,
         714,
         715,
         716,
         717,
         718,
         719,
-        720
+        720,
+        721,
+        722
       ],
       "segments": [
         {
@@ -3974,7 +3928,7 @@
           "supports": [
             "route"
           ],
-          "pages": "18"
+          "pages": "9 (tenth report)"
         },
         {
           "id": "poors-1900",
@@ -4647,7 +4601,7 @@
         {
           "id": "cp-niles-san-jose",
           "name": "Niles to San José, by Warm Springs and Milpitas",
-          "opened": "1869-09",
+          "opened": "1869-09-15",
           "closed": "1940-02",
           "borrowed": false,
           "undated": false,
@@ -5448,7 +5402,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46"
+          "pages": "45"
         },
         {
           "id": "sp-bulletin-1930-11",
@@ -5515,7 +5469,7 @@
             "route"
           ],
           "pages": "462",
-          "note": "Before 1939 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station."
+          "note": "In 1912 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station; the Peninsular Railway's cars came up to them \"by means of an incline on a 7½ per cent. grade\"."
         },
         {
           "id": "gtfs-amtrak",
@@ -5800,7 +5754,8 @@
           "supports": [
             "opened"
           ],
-          "note": "\"In 1908 the Claremont line was opened\" (a retrospective)."
+          "note": "\"In 1908 the Claremont line was opened\" (a retrospective).",
+          "pages": "10"
         },
         {
           "id": "oakland-tribune-1905-06-17",
@@ -5816,7 +5771,8 @@
             "general",
             "route"
           ],
-          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\"."
+          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\".",
+          "pages": "16"
         },
         {
           "id": "oakland-tribune-1905-11-10",
@@ -5832,7 +5788,8 @@
             "general",
             "route"
           ],
-          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\""
+          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\"",
+          "pages": "4"
         },
         {
           "id": "cpuc-d50731",
@@ -5931,8 +5888,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "route",
-            "general",
-            "opened"
+            "general"
           ],
           "pages": "247, 249",
           "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
@@ -6356,8 +6312,6 @@
         37.806482
       ],
       "fids": [
-        721,
-        722,
         723,
         724,
         725,
@@ -6369,7 +6323,9 @@
         731,
         732,
         733,
-        734
+        734,
+        735,
+        736
       ],
       "segments": [
         {
@@ -6809,7 +6765,7 @@
         37.791639
       ],
       "fids": [
-        661
+        663
       ],
       "segments": [
         {
@@ -6939,8 +6895,6 @@
         37.80035
       ],
       "fids": [
-        697,
-        698,
         699,
         700,
         701,
@@ -6953,7 +6907,9 @@
         708,
         709,
         710,
-        711
+        711,
+        712,
+        713
       ],
       "segments": [
         {
@@ -7348,15 +7304,15 @@
         37.81612
       ],
       "fids": [
-        850,
-        851,
         852,
         853,
         854,
         855,
         856,
         857,
-        858
+        858,
+        859,
+        860
       ],
       "segments": [
         {
@@ -7606,7 +7562,7 @@
             "route"
           ],
           "pages": "462",
-          "note": "Before 1939 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station."
+          "note": "In 1912 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station; the Peninsular Railway's cars came up to them \"by means of an incline on a 7½ per cent. grade\"."
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -7633,8 +7589,8 @@
           "supports": [
             "route"
           ],
-          "pages": "29-34",
-          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\"; trains \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"."
+          "pages": "30, 32",
+          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32)."
         }
       ]
     },
@@ -7690,15 +7646,15 @@
         37.824321
       ],
       "fids": [
-        832,
-        833,
         834,
         835,
         836,
         837,
         838,
         839,
-        840
+        840,
+        841,
+        842
       ],
       "segments": [
         {
@@ -8195,14 +8151,14 @@
         37.805981
       ],
       "fids": [
-        735,
-        736,
         737,
         738,
         739,
         740,
         741,
-        742
+        742,
+        743,
+        744
       ],
       "segments": [
         {
@@ -8744,8 +8700,6 @@
         37.806482
       ],
       "fids": [
-        743,
-        744,
         745,
         746,
         747,
@@ -8753,7 +8707,9 @@
         749,
         750,
         751,
-        752
+        752,
+        753,
+        754
       ],
       "segments": [
         {
@@ -9943,15 +9899,15 @@
         37.824321
       ],
       "fids": [
-        841,
-        842,
         843,
         844,
         845,
         846,
         847,
         848,
-        849
+        849,
+        850,
+        851
       ],
       "segments": [
         {
@@ -11225,8 +11181,6 @@
         37.891351
       ],
       "fids": [
-        808,
-        809,
         810,
         811,
         812,
@@ -11239,7 +11193,9 @@
         819,
         820,
         821,
-        822
+        822,
+        823,
+        824
       ],
       "segments": [
         {
@@ -12088,21 +12044,6 @@
           ]
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -12118,19 +12059,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -12148,19 +12089,19 @@
           "pages": "1"
         },
         {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
+          "id": "crc-d26059",
+          "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
           "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
+          "date": "1933-06-12",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26059_19330612_A18915.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "crc-d38738",
+          "source": "crc-d26059",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2-3"
         },
         {
           "id": "crc-d23279",
@@ -12176,21 +12117,6 @@
             "route"
           ],
           "pages": "2"
-        },
-        {
-          "id": "crc-d26059",
-          "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1933-06-12",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26059_19330612_A18915.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d26059",
-          "supports": [
-            "route"
-          ],
-          "pages": "2-3"
         },
         {
           "id": "usgs-oakland-west-1949",
@@ -12602,7 +12528,7 @@
       "closed": null,
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Mission St, 14th St and Guerrero St; by 1929 on by San Jose Ave, 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street.",
+      "summary": "Out Mission St, 14th St, Guerrero St and San Jose Ave; by 1929 on by 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street, so in 1909 it is drawn to 30th St.",
       "traction": [
         {
           "type": "electric_overhead"
@@ -12752,9 +12678,7 @@
           "name": "San Jose Ave, 30th St to Guerrero St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): the Guerrero line ran \"to San Jose Avenue and Ocean View\", and the Glen Park line \"to Chenery Street and San Jose Ave.\"",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -12906,21 +12830,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -13262,21 +13171,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d35948",
-          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-11-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d35948",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -13304,36 +13198,6 @@
           ]
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -13347,6 +13211,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "crc-d35948",
+          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1942-11-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d35948",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "cpuc-d41306",
@@ -13387,7 +13266,7 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Mission St, 22nd St, Chattanooga St and 24th St to Hoffman Ave; by 1929 back by Dolores St.",
@@ -13642,7 +13521,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 11 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 11 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -13670,21 +13549,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
@@ -14368,36 +14232,6 @@
           "pages": "2, 4-5"
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -14422,21 +14256,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -14516,6 +14335,21 @@
             "route"
           ],
           "pages": "9"
+        },
+        {
+          "id": "crc-d38738",
+          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1946-03-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d38738",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
         }
       ]
     },
@@ -14947,11 +14781,10 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": "1948-10",
+      "closed": "1948-10-31",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ingleside\", by 1929 on by Sloat Blvd to the Great Highway.",
-      "fate": "converted_to_bus",
+      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ocean Avenue to Ingleside\" (drawn to San Jose Ave, since where the cars stopped isn't given), by 1929 on by Sloat Blvd to the Great Highway.",
       "traction": [
         {
           "type": "electric_overhead"
@@ -15133,9 +14966,7 @@
           "name": "Ocean Ave, Onondaga Ave to San Jose Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): \"to Onondaga Avenue to Ocean Avenue to Ingleside\"",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -15253,11 +15084,10 @@
           "source": "sf-puc-report-1948",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"10/31/48 No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -15285,21 +15115,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -15822,21 +15637,6 @@
           "pages": "2-3"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -15852,19 +15652,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -15876,21 +15676,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -15920,7 +15705,7 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Mission St to Daly City; in 1909 the \"Cemeteries\" line ran on through Colma to the cemeteries (its end isn't given).",
@@ -16150,7 +15935,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 14 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 14 — Last day of street car operation.\" Motor coaches from January 16, 1949. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -16178,21 +15963,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -16624,21 +16394,6 @@
           "pages": "2-3"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -16654,19 +16409,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -16678,21 +16433,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -17151,7 +16891,6 @@
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Haight St, Frederick St, Lincoln Way, 20th Ave, Wawona St and 19th Ave to Sloat Blvd. There was no No. 17 in February 1909 (Manley p. 34).",
-      "fate": "converted_to_bus",
       "traction": [
         {
           "type": "electric_overhead"
@@ -17444,7 +17183,6 @@
           "source": "sf-puc-report-1945",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "279",
@@ -17521,22 +17259,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "manley-1909",
-          "title": "Report on the operation of the street railroad lines of San Francisco: a report to the Committee on Street Railroads of the Merchants' Association of San Francisco",
-          "author": "Warren Manley, Inspector",
-          "publisher": "Merchants' Association of San Francisco",
-          "date": "1909-02-01",
-          "type": "primary_document",
-          "url": "https://archive.org/details/reportonoperatio00manlrich",
-          "license": "Public domain (published 1909)",
-          "accessed": "2026-10-15",
-          "source": "manley-1909",
-          "supports": [
-            "route"
-          ],
-          "pages": "12"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -17743,21 +17465,6 @@
             "electrification"
           ],
           "pages": "346"
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "manley-1909",
@@ -18050,36 +17757,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         },
         {
           "id": "crc-d38428",
@@ -18848,21 +18525,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -18878,19 +18540,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -18902,21 +18564,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -18951,6 +18598,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "cpuc-d41652",
+          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1948-05-25",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "cpuc-d41652",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
         }
       ]
     },
@@ -18976,10 +18638,10 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": "1947-09",
+      "closed": "1947-09-27",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 alternate cars went on out H St (not drawn yet: that it is today's Lincoln Way isn't sourced here).",
+      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 the cars went on \"to Stanyan to H to 19th\", and every other car \"out H to Ocean Boulevard, thence west to B Street\" (Manley p. 18; not drawn yet: that H St is today's Lincoln Way isn't sourced here).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from late September 1947.",
       "traction": [
@@ -19003,9 +18665,9 @@
         }
       ],
       "undated": false,
-      "length_km": 11.03,
+      "length_km": 11.13,
       "confidence_km": {
-        "digitized": 11.03
+        "digitized": 11.13
       },
       "bbox": [
         -122.454029,
@@ -19029,7 +18691,8 @@
         560,
         561,
         562,
-        563
+        563,
+        564
       ],
       "segments": [
         {
@@ -19275,6 +18938,23 @@
           "notes": "Track in Page Street, as the route descriptions give it, for 6, 20, 32."
         },
         {
+          "id": "sf-msry-divisadero-st-oak-st-page-st",
+          "name": "Divisadero St, Oak St to Page St",
+          "opened": null,
+          "closed": null,
+          "note": "Inbound, on the northbound side of today's divided street",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Divisadero Street centerline from Oak Street to -122.43721,37.77221 (106 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Divisadero Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Divisadero Street, as the route descriptions give it, for 20."
+        },
+        {
           "id": "sf-msry-ellis-st-divisadero-st-hyde-st",
           "name": "Ellis St, Divisadero St to Hyde St",
           "opened": null,
@@ -19344,7 +19024,7 @@
             "operator"
           ],
           "pages": "171",
-          "note": "\"No. 20 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the page's 16 dates line up with its 16 entries, which puts this one on September 27, 1947, so it is given to the month. Check the day on the page image."
+          "note": "\"9/27/47 No. 20 — Last day of street car operation.\" Motor coaches from September 29, 1947. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -19400,7 +19080,7 @@
       "closed": "1948-06-05",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Hayes St to Stanyan St and Fulton St. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St; by 1929 it ran from the Ferry out Market St and Hayes St, and on by Fulton St and 8th Ave to Clement St.",
+      "summary": "Out Hayes St to Stanyan St, and out Fulton St to 8th Ave. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St, and Fulton St from 8th Ave was its \"extension\" (Manley p. 29); by 1929 it ran from the Ferry out Market St and Hayes St, and on by 8th Ave to Clement St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from June 7, 1948; trolley coaches from July 3, 1949.",
       "traction": [
@@ -19437,7 +19117,6 @@
         37.793407
       ],
       "fids": [
-        564,
         565,
         566,
         567,
@@ -19458,7 +19137,8 @@
         582,
         583,
         584,
-        585
+        585,
+        586
       ],
       "segments": [
         {
@@ -19816,9 +19496,7 @@
           "name": "Fulton St, 6th Ave to Stanyan St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -19835,9 +19513,7 @@
           "name": "Fulton St, 6th Ave to 8th Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -19885,7 +19561,7 @@
             "route",
             "name"
           ],
-          "pages": "18"
+          "pages": "18, 29"
         },
         {
           "id": "oshaughnessy-1929",
@@ -20286,7 +19962,6 @@
         37.789284
       ],
       "fids": [
-        586,
         587,
         588,
         589,
@@ -20295,7 +19970,9 @@
         592,
         593,
         594,
-        595
+        595,
+        596,
+        597
       ],
       "segments": [
         {
@@ -20403,15 +20080,35 @@
           "notes": "Track in 10th Street, as the route descriptions give it, for 27."
         },
         {
-          "id": "sf-msry-brannan-st-10th-st-5th-st",
-          "name": "Brannan St, 10th St to 5th St",
+          "id": "sf-msry-brannan-st-10th-st-8th-st",
+          "name": "Brannan St, 10th St to 8th St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Brannan Street centerline from -122.40790,37.76924 to 5th Street (1144 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
+          "method": "Along today's Brannan Street centerline from -122.40790,37.76924 to 8th Street (316 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Brannan Street, as the route descriptions give it, for 27."
+        },
+        {
+          "id": "sf-msry-brannan-st-5th-st-8th-st",
+          "name": "Brannan St, 5th St to 8th St",
+          "opened": null,
+          "closed": null,
+          "note": "Inbound",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Brannan Street centerline from 5th Street to 8th Street (829 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -20424,7 +20121,7 @@
           "name": "Brannan St, 3rd St to 5th St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -20441,7 +20138,7 @@
           "name": "Brannan St, 2nd St to 3rd St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -21096,8 +20793,6 @@
         37.793407
       ],
       "fids": [
-        596,
-        597,
         598,
         599,
         600,
@@ -21113,7 +20808,9 @@
         610,
         611,
         612,
-        613
+        613,
+        614,
+        615
       ],
       "segments": [
         {
@@ -21545,8 +21242,6 @@
         37.782556
       ],
       "fids": [
-        614,
-        615,
         616,
         617,
         618,
@@ -21555,7 +21250,9 @@
         621,
         622,
         623,
-        624
+        624,
+        625,
+        626
       ],
       "segments": [
         {
@@ -21856,12 +21553,12 @@
         37.805042
       ],
       "fids": [
-        625,
-        626,
         627,
         628,
         629,
-        630
+        630,
+        631,
+        632
       ],
       "segments": [
         {
@@ -22086,10 +21783,10 @@
         37.79009
       ],
       "fids": [
-        631,
-        632,
         633,
-        634
+        634,
+        635,
+        636
       ],
       "segments": [
         {
@@ -22600,10 +22297,7 @@
           "name": "6th Ave, Clement St to Fulton St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
-          "note": "Back toward Lake St",
+          "note": "Back toward Lake St. Manley (1909): \"to Fulton to 6th Ave. and return\", the loop No. 24 ran the other way (\"Lake to 6th to Fulton to 8th to Clement to 6th\", p. 16)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -22808,7 +22502,7 @@
       "status": "closed",
       "status_label": "Closed",
       "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
-      "fate": "converted_to_bus",
+      "fate": "abandoned",
       "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
       "traction": [
         {
@@ -22823,7 +22517,7 @@
         {
           "date": "1903-10-31",
           "source": "srj-1903-10-31-san-mateo",
-          "pages": "798-803",
+          "pages": "802",
           "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
         },
         {
@@ -22851,8 +22545,6 @@
         37.784013
       ],
       "fids": [
-        662,
-        663,
         664,
         665,
         666,
@@ -22870,7 +22562,9 @@
         678,
         679,
         680,
-        681
+        681,
+        682,
+        683
       ],
       "segments": [
         {
@@ -23197,7 +22891,7 @@
           "supports": [
             "route"
           ],
-          "pages": "798-803"
+          "pages": "798-802"
         },
         {
           "id": "manley-1909",
@@ -23394,11 +23088,11 @@
         37.789284
       ],
       "fids": [
-        635,
-        636,
         637,
         638,
-        639
+        639,
+        640,
+        641
       ],
       "segments": [
         {
@@ -23517,7 +23211,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 41 — Discontinued. Service by \\\"F\\\" line.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 41 — Discontinued. Service by \"F\" line.\" The last day isn't given. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "manley-1909",
@@ -23612,8 +23306,6 @@
         37.793216
       ],
       "fids": [
-        640,
-        641,
         642,
         643,
         644,
@@ -23623,7 +23315,9 @@
         648,
         649,
         650,
-        651
+        651,
+        652,
+        653
       ],
       "segments": [
         {
@@ -23880,21 +23574,6 @@
             "route"
           ],
           "pages": "22"
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
@@ -24353,21 +24032,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d35948",
-          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-11-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d35948",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -24395,36 +24059,6 @@
           ]
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -24438,6 +24072,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "crc-d35948",
+          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1942-11-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d35948",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "cpuc-d41306",
@@ -24481,7 +24130,7 @@
       "closed": "1948-07-03",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St); Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
+      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St), then by Masonic Ave, Frederick St, Clayton St, Carl St and Stanyan St \"to Parnassas Ave. to Affiliated Colleges\"; Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from 1949.",
       "traction": [
@@ -24553,9 +24202,6 @@
           "name": "Market St, Drumm St to 1st St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24571,9 +24217,6 @@
           "name": "Market St, 1st St to Sutter St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24589,9 +24232,6 @@
           "name": "Market St, Sutter St to Kearny St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24607,9 +24247,6 @@
           "name": "Market St, Kearny St to Powell St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24625,9 +24262,6 @@
           "name": "Market St, Powell St to McAllister St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24643,9 +24277,6 @@
           "name": "Market St, McAllister St to Hayes St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -25002,9 +24633,7 @@
           "name": "Parnassus Ave, Judah St to Stanyan St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): \"to Stanyan to Parnassas Ave. to Affiliated Colleges\", without the cross street where the cars stopped; drawn to Judah St, as in 1929",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -25208,7 +24837,7 @@
       "closed": "1948-07-03",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then a private right of way (not drawn: its course isn't given) to the beach at Balboa St.",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "traction": [
@@ -26164,36 +25793,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d24963",
-          "title": "Railroad Commission of California, Decision No. 24963: East Bay Street Railways: second supplemental order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1932-06-30",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24963_19320630_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -26219,36 +25818,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         },
         {
           "id": "crc-d38428",
@@ -26296,15 +25865,15 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24963",
+          "title": "Railroad Commission of California, Decision No. 24963: East Bay Street Railways: second supplemental order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-06-30",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24963_19320630_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24963",
           "supports": [
             "route"
           ],
@@ -26394,7 +25963,7 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Market St, Valencia St and Mission St to 29th St and Noe St.",
@@ -26682,7 +26251,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 9 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/59 No. 9 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The year is misprinted: the entry stands among those of January 1949, in the report for 1948–49, on the same day as Nos. 11 and 14. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "gtfs-511",
@@ -26756,21 +26325,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
@@ -27205,9 +26759,11 @@
           "accessed": "2026-10-15",
           "source": "sonoma-history-1880",
           "supports": [
+            "general",
             "opened"
           ],
-          "pages": "201"
+          "pages": "201",
+          "note": "The first passenger train reached Occidental (Howard's) \"October 16, 1876\"."
         },
         {
           "id": "poors-1885",
@@ -27503,14 +27059,14 @@
         38.852585
       ],
       "fids": [
-        768,
-        769,
         770,
         771,
         772,
         773,
         774,
-        775
+        775,
+        776,
+        777
       ],
       "segments": [
         {
@@ -27716,7 +27272,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "873-875",
+          "pages": "874",
           "note": "\"the Petaluma Branch June 2, 1879\"."
         },
         {
@@ -28190,14 +27746,14 @@
         37.7762
       ],
       "fids": [
-        879,
-        880,
         881,
         882,
         883,
         884,
         885,
-        886
+        886,
+        887,
+        888
       ],
       "segments": [
         {
@@ -28474,8 +28030,6 @@
         37.7762
       ],
       "fids": [
-        865,
-        866,
         867,
         868,
         869,
@@ -28487,7 +28041,9 @@
         875,
         876,
         877,
-        878
+        878,
+        879,
+        880
       ],
       "segments": [
         {
@@ -29093,8 +28649,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
           "pages": "246–253"
         },
@@ -29146,7 +28701,8 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "3"
         },
         {
           "id": "oakland-tribune-1904-06-01",
@@ -29161,7 +28717,8 @@
           "supports": [
             "opened"
           ],
-          "note": "\"this morning. The event was the reception of the Key route system\"."
+          "note": "\"this morning. The event was the reception of the Key route system\".",
+          "pages": "1"
         },
         {
           "id": "oakland-tribune-1924-11-03",
@@ -29176,7 +28733,8 @@
           "supports": [
             "general"
           ],
-          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\"."
+          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\".",
+          "pages": "17"
         },
         {
           "id": "cpuc-d50731",
@@ -29325,7 +28883,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"complete the Piedmont branch along Fortieth street\""
+          "note": "\"complete the Piedmont branch along Fortieth street\"",
+          "pages": "5"
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -29547,7 +29106,7 @@
             "fate",
             "route"
           ],
-          "pages": "11, 13"
+          "pages": "12, 13"
         },
         {
           "id": "ohm-2026-10-15",
@@ -29931,6 +29490,7 @@
           "supports": [
             "opened"
           ],
+          "pages": "1157",
           "note": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\""
         },
         {
@@ -29944,10 +29504,10 @@
           "accessed": "2026-10-14",
           "source": "erj-1913-04-19-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "726-728"
+          "pages": "726-728",
+          "note": "\"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point\" (p. 726)."
         },
         {
           "id": "joepg-1912-03-09",
@@ -30011,6 +29571,7 @@
           "supports": [
             "closed"
           ],
+          "pages": "3",
           "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
         },
         {
@@ -30040,10 +29601,9 @@
           "accessed": "2026-10-15",
           "source": "erj-1913-09-13-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "434-435",
+          "pages": "435",
           "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
         },
         {
@@ -30122,8 +29682,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "route",
-            "general",
-            "opened"
+            "general"
           ],
           "pages": "247, 249",
           "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
@@ -30226,7 +29785,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"complete the Piedmont branch along Fortieth street\""
+          "note": "\"complete the Piedmont branch along Fortieth street\"",
+          "pages": "5"
         },
         {
           "id": "oakland-tribune-1904-05-28",
@@ -30242,7 +29802,8 @@
             "route",
             "opened"
           ],
-          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\""
+          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\"",
+          "pages": "3"
         },
         {
           "id": "cpuc-d50731",
@@ -30650,10 +30211,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -30702,7 +30263,8 @@
           "source": "oakland-tribune-1911-11-13",
           "supports": [
             "route"
-          ]
+          ],
+          "pages": "13"
         },
         {
           "id": "oakland-tribune-1911-11-15",
@@ -31263,7 +30825,7 @@
         38.519886
       ],
       "fids": [
-        776
+        778
       ],
       "segments": [
         {
@@ -31445,12 +31007,12 @@
         38.809809
       ],
       "fids": [
-        753,
-        754,
         755,
         756,
         757,
-        758
+        758,
+        759,
+        760
       ],
       "segments": [
         {
@@ -31737,15 +31299,15 @@
         38.809809
       ],
       "fids": [
-        759,
-        760,
         761,
         762,
         763,
         764,
         765,
         766,
-        767
+        767,
+        768,
+        769
       ],
       "segments": [
         {
@@ -32460,15 +32022,15 @@
         37.824321
       ],
       "fids": [
-        823,
-        824,
         825,
         826,
         827,
         828,
         829,
         830,
-        831
+        831,
+        832,
+        833
       ],
       "segments": [
         {
@@ -32967,8 +32529,6 @@
         37.891481
       ],
       "fids": [
-        788,
-        789,
         790,
         791,
         792,
@@ -32986,7 +32546,9 @@
         804,
         805,
         806,
-        807
+        807,
+        808,
+        809
       ],
       "segments": [
         {
@@ -33617,8 +33179,6 @@
         37.796576
       ],
       "fids": [
-        777,
-        778,
         779,
         780,
         781,
@@ -33627,7 +33187,9 @@
         784,
         785,
         786,
-        787
+        787,
+        788,
+        789
       ],
       "segments": [
         {
@@ -33784,7 +33346,7 @@
         {
           "id": "spc-wrights-county-line",
           "name": "Wrights into the summit tunnel, to the Santa Cruz County line",
-          "opened": "1880-05",
+          "opened": "1880-05-15",
           "closed": null,
           "from": "1880-05",
           "borrowed": true,
@@ -33793,8 +33355,7 @@
           "method": "OpenHistoricalMap ways 200444381, 200444380, 200444379, 200444378, 200444377, 200444376 (CC0, as of 2026-10-15), cut from -121.94827,37.13924; cut where it leaves the Bay Area's nine counties (2.2 km beyond left out, decision 16); checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, Wrights Tunnel among them.",
           "structure": "tunnel",
           "flags": [
-            "closed_unsourced",
-            "conflicting_sources"
+            "closed_unsourced"
           ],
           "notes": "Into the tunnel under the summit, toward Felton and Santa Cruz; cut at the county line (decision 16)."
         }
@@ -34304,15 +33865,15 @@
         37.789106
       ],
       "fids": [
-        652,
-        653,
         654,
         655,
         656,
         657,
         658,
         659,
-        660
+        660,
+        661,
+        662
       ],
       "segments": [
         {
@@ -34680,7 +34241,10 @@
           "confidence": "digitized",
           "method": "Along today's Poplar Street centerline from West Grand Avenue to 12th Street (893 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Poplar Street.",
           "structure": "street",
-          "flags": []
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Dated from the through trains of June 11, 1911 (\"through train service was established yesterday\"), but the same article says \"Two cars operating separately have been giving service for more than a year\" over Twelfth Street via Poplar Junction, and the Tribune's history of October 25, 1912 says \"In 1909, the Twelfth street line was opened\": the track may date from 1909."
         },
         {
           "id": "key-12th-st",
@@ -34692,7 +34256,10 @@
           "confidence": "digitized",
           "method": "Along today's 12th Street centerline from Poplar Street to Broadway (1737 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along 12th Street to Broadway.",
           "structure": "street",
-          "flags": []
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Dated from the through trains of June 11, 1911 (\"through train service was established yesterday\"), but the same article says \"Two cars operating separately have been giving service for more than a year\" over Twelfth Street via Poplar Junction, and the Tribune's history of October 25, 1912 says \"In 1909, the Twelfth street line was opened\": the track may date from 1909."
         },
         {
           "id": "key-12th-st-oak",
@@ -34722,10 +34289,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -34775,7 +34342,8 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "1"
         },
         {
           "id": "crc-d34060",
@@ -34971,6 +34539,22 @@
           ]
         },
         {
+          "id": "oakland-tribune-1912-10-25",
+          "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
+          "publisher": "Oakland Tribune",
+          "date": "1912-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1912-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1912-10-25",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"In 1909, the Twelfth street line was opened.\" and \"In 1911, the Twelfth street line was extended\"."
+        },
+        {
           "id": "cpuc-d54242",
           "title": "Public Utilities Commission of the State of California, Decision No. 54242 (Application No. 36656): Key System transbay service (interim)",
           "author": "Public Utilities Commission of the State of California",
@@ -35157,10 +34741,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -35360,7 +34944,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"the Twenty-second street Key Route line at Poplar Junction\""
+          "note": "\"the Twenty-second street Key Route line at Poplar Junction\"",
+          "pages": "2"
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -35653,7 +35238,7 @@
           "supports": [
             "route"
           ],
-          "pages": "18"
+          "pages": "9 (tenth report)"
         },
         {
           "id": "poors-1900",
@@ -36031,12 +35616,12 @@
         37.803847
       ],
       "fids": [
-        859,
-        860,
         861,
         862,
         863,
-        864
+        864,
+        865,
+        866
       ],
       "segments": [
         {
@@ -36196,8 +35781,8 @@
           "supports": [
             "route"
           ],
-          "pages": "29-34",
-          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\"; trains \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"."
+          "pages": "30, 32",
+          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32)."
         },
         {
           "id": "crc-d12906",
@@ -37347,7 +36932,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46",
+          "pages": "45",
           "note": "\"From Shell Mound to Martinez January 9, 1878.\""
         },
         {
@@ -38012,7 +37597,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46",
+          "pages": "45",
           "note": "\"From Benicia to Suisun December 28, 1879.\""
         },
         {
@@ -42428,7 +42013,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "873-875",
+          "pages": "874",
           "note": "\"to Windsor (9 miles) March 1, 1871\"."
         },
         {

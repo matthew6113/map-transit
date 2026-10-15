@@ -2,6 +2,71 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Railroad reports and journals, re-read on the page images
+
+- **Dates:** the railroad commissioners' report of 1894 prints "To San José … September 15, 1869"
+  and "From Wrights to Felton … May 15, 1880"; the OCR had the 16th, so both stretches were given
+  only to the month. They now open on the 15th.
+- **Key Route, 1903:** the opening of October 26, 1903 is in Part II of the *Street Railway
+  Journal*'s article (p. 283), not Part I, which gives no date. The pier, trunk, Adeline St and
+  Shattuck Ave segments now cite Part II. Part I no longer backs the routes of the A, B and H lines,
+  which it doesn't describe.
+- **Sacramento Northern, 1913:** *Electric Railway Journal* says only that service was "expected
+  to inaugurate" on April 7, and its September article dates the formal opening to September 3. So
+  April 7 rests on the *Commercial and Financial Chronicle* (p. 1157), which says it "was
+  inaugurated on April 7".
+- **The Webster St line:** the 1930s timetable puts it on single track only "In case of
+  emergency"; it was double track.
+- **Pages corrected:**
+  - the Northern Railway's return (p. 45);
+  - the California Pacific's history and mileage (tenth report, p. 9);
+  - Poor's San Francisco & North Pacific entry (p. 874);
+  - the *Railway Age Gazette*'s SP electrification article (pp. 460–463);
+  - *California Highways and Public Works*, 1956 (p. 12);
+  - the San Mateo article of 1903 (pp. 798–802).
+- **Quotes corrected:** "about 1½ miles along Shafter avenue" (not 1¾); "40 miles of its suburban
+  lines"; the San Francisco & North Pacific's purchase of the Tiburon line was filed December 19,
+  1888. The Sonoma County history's p. 201 gives the NPC's arrival at Occidental, not its 1875
+  opening.
+
+## 2026-10-15: SF's 1929-49 reports and the Oakland Tribune, re-read on the page images
+
+- O'Shaughnessy's routes of 1929: No. 6 ran from the Ferry by Market St in 1929 too; No. 20 came back
+  up Divisadero St from Page St to Oak St (a block was missing); No. 27's 1929 return turned into
+  Brannan St at 8th St, so Brannan St from 10th St to 8th St is drawn for 1909 only. No. 7's summary
+  quotes its 1929 end ("Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop"), still
+  not drawn past Frederick St.
+- Fates: the PUC's reports say No. 40 "was abandoned" (not converted to bus), and No. 17's
+  "Discontinued" and No. 12's "Last day of street car operation" don't say what replaced them, so
+  their fates are left out.
+- Report notes corrected: the 1945-46 list runs pp. 279-280; the 1947-48 one pp. 171-175; the
+  1948-49 chronology starts in 1902.
+- The Oakland Tribune's articles all read as quoted; their printed pages are now cited. The Tribune
+  of June 12, 1911 dates through trains on 12th St from June 11, 1911, but says separate cars had
+  served it "for more than a year", and its history of October 25, 1912 says "In 1909, the Twelfth
+  street line was opened": the 12th St and Poplar St track is flagged `conflicting_sources`.
+
+## 2026-10-15: Manley's 1909 report, re-read on the page images
+
+- Every route and quote taken from Manley's report of 1909 was read again on its page images. Five
+  1909 routes went further than drawn: No. 4 came back up 6th Ave to close its Richmond loop (the
+  loop No. 24 ran the other way, p. 16); No. 6 ran on along Parnassus Ave "to Affiliated Colleges";
+  No. 10 ran on along San Jose Ave; No. 12 along Ocean Ave; and No. 21 out Fulton St to 8th Ave
+  (p. 29). No. 20's summary now says that all its cars ran "to H to 19th", and every other car on
+  to Ocean Boulevard.
+- Street segments cited every report a line was in, even for a stretch in only one report's
+  route: 28 cited a Manley page that doesn't name them. A segment now cites only the reports whose
+  routes include it (`street_routes.py`). This also dropped East Bay orders from 30 segments whose
+  streets those orders don't name.
+
+## 2026-10-15: Six SF last days, read on the page images
+
+- The San Francisco PUC's reports of 1947–48 (p. 171) and 1948–49 (p. 190), read on their page
+  images now that archive.org's image hosts are reachable, give the last day of street car operation
+  for six lines that were given to the month: No. 20, September 27, 1947; No. 12, October 31, 1948;
+  Nos. 9, 11 and 14, January 15, 1949 (No. 9's year is misprinted "59"). No. 41's entry of January
+  15, 1949 says "Discontinued" without naming the last day, so it stays January 1949.
+
 ## 2026-10-15: The Martinez–Benicia ferry
 
 - **Martinez–Benicia ferry** (1913 to its last trip, September 15, 1962, the day the bridge opened):

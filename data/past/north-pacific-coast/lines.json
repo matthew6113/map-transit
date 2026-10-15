@@ -94,9 +94,10 @@
     {
      "source": "sonoma-history-1880",
      "supports": [
-      "opened"
+      "general"
      ],
-     "pages": "201"
+     "pages": "201",
+     "note": "The first passenger train reached Occidental (Howard's) \"October 16, 1876\"."
     },
     {
      "source": "poors-1885",

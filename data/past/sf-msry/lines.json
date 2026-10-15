@@ -356,10 +356,7 @@
         },
         {
           "segment": "sf-msry-6th-ave-clement-st-fulton-st",
-          "running": [
-            "1929-05"
-          ],
-          "note": "Back toward Lake St"
+          "note": "Back toward Lake St. Manley (1909): \"to Fulton to 6th Ave. and return\", the loop No. 24 ran the other way (\"Lake to 6th to Fulton to 8th to Clement to 6th\", p. 16)"
         },
         {
           "segment": "sf-msry-divisadero-st-eddy-st-turk-st",
@@ -416,7 +413,7 @@
         }
       ],
       "status": "closed",
-      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St); Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
+      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St), then by Masonic Ave, Frederick St, Clayton St, Carl St and Stanyan St \"to Parnassas Ave. to Affiliated Colleges\"; Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from 1949.",
       "sources": [
@@ -453,40 +450,22 @@
       ],
       "route": [
         {
-          "segment": "muni-f-market-drumm-1st",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-drumm-1st"
         },
         {
-          "segment": "muni-f-market-1st-sutter",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-1st-sutter"
         },
         {
-          "segment": "muni-f-market-sutter-kearny",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-sutter-kearny"
         },
         {
-          "segment": "muni-f-market-kearny-powell",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-kearny-powell"
         },
         {
-          "segment": "muni-f-market-powell-mcallister",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-powell-mcallister"
         },
         {
-          "segment": "muni-f-market-mcallister-hayes",
-          "running": [
-            "1909-02-01"
-          ]
+          "segment": "muni-f-market-mcallister-hayes"
         },
         {
           "segment": "sf-msry-hayes-market-link",
@@ -587,9 +566,7 @@
         },
         {
           "segment": "sf-msry-parnassus-ave-judah-st-stanyan-st",
-          "running": [
-            "1929-05"
-          ]
+          "note": "Manley (1909): \"to Stanyan to Parnassas Ave. to Affiliated Colleges\", without the cross street where the cars stopped; drawn to Judah St, as in 1929"
         },
         {
           "segment": "sf-msry-judah-st-9th-ave-parnassus-ave",
@@ -643,7 +620,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then a private right of way (not drawn: its course isn't given) to the beach at Balboa St.",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "sources": [
@@ -847,7 +824,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -890,7 +867,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 9 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/59 No. 9 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The year is misprinted: the entry stands among those of January 1949, in the report for 1948–49, on the same day as Nos. 11 and 14. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -970,7 +947,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Mission St, 14th St and Guerrero St; by 1929 on by San Jose Ave, 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street.",
+      "summary": "Out Mission St, 14th St, Guerrero St and San Jose Ave; by 1929 on by 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street, so in 1909 it is drawn to 30th St.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1016,9 +993,7 @@
         },
         {
           "segment": "sf-msry-san-jose-ave-30th-st-guerrero-st",
-          "running": [
-            "1929-05"
-          ]
+          "note": "Manley (1909): the Guerrero line ran \"to San Jose Avenue and Ocean View\", and the Glen Park line \"to Chenery Street and San Jose Ave.\""
         },
         {
           "segment": "muni-j-30th-st",
@@ -1072,7 +1047,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -1115,7 +1090,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 11 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 11 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1184,7 +1159,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1948-10",
+      "closed": "1948-10-31",
       "running": [
         {
           "date": "1909-02-01",
@@ -1198,8 +1173,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ingleside\", by 1929 on by Sloat Blvd to the Great Highway.",
-      "fate": "converted_to_bus",
+      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ocean Avenue to Ingleside\" (drawn to San Jose Ave, since where the cars stopped isn't given), by 1929 on by Sloat Blvd to the Great Highway.",
       "sources": [
         {
           "source": "manley-1909",
@@ -1222,11 +1196,10 @@
           "source": "sf-puc-report-1948",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"10/31/48 No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1260,9 +1233,7 @@
         },
         {
           "segment": "sf-msry-ocean-ave-onondaga-ave-san-jose-ave",
-          "running": [
-            "1929-05"
-          ]
+          "note": "Manley (1909): \"to Onondaga Avenue to Ocean Avenue to Ingleside\""
         },
         {
           "segment": "muni-k-ocean-ave",
@@ -1303,7 +1274,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -1346,7 +1317,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 14 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 14 — Last day of street car operation.\" Motor coaches from January 16, 1949. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1500,7 +1471,6 @@
       ],
       "status": "closed",
       "summary": "Out Haight St, Frederick St, Lincoln Way, 20th Ave, Wawona St and 19th Ave to Sloat Blvd. There was no No. 17 in February 1909 (Manley p. 34).",
-      "fate": "converted_to_bus",
       "sources": [
         {
           "source": "oshaughnessy-1929",
@@ -1515,7 +1485,6 @@
           "source": "sf-puc-report-1945",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "279",
@@ -1739,7 +1708,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1947-09",
+      "closed": "1947-09-27",
       "running": [
         {
           "date": "1909-02-01",
@@ -1753,7 +1722,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 alternate cars went on out H St (not drawn yet: that it is today's Lincoln Way isn't sourced here).",
+      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 the cars went on \"to Stanyan to H to 19th\", and every other car \"out H to Ocean Boulevard, thence west to B Street\" (Manley p. 18; not drawn yet: that H St is today's Lincoln Way isn't sourced here).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from late September 1947.",
       "sources": [
@@ -1782,7 +1751,7 @@
             "operator"
           ],
           "pages": "171",
-          "note": "\"No. 20 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the page's 16 dates line up with its 16 entries, which puts this one on September 27, 1947, so it is given to the month. Check the day on the page image."
+          "note": "\"9/27/47 No. 20 — Last day of street car operation.\" Motor coaches from September 29, 1947. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1837,6 +1806,10 @@
           "note": "Inbound"
         },
         {
+          "segment": "sf-msry-divisadero-st-oak-st-page-st",
+          "note": "Inbound, on the northbound side of today's divided street"
+        },
+        {
           "segment": "sf-msry-ellis-st-divisadero-st-hyde-st",
           "note": "Inbound"
         }
@@ -1880,7 +1853,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Hayes St to Stanyan St and Fulton St. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St; by 1929 it ran from the Ferry out Market St and Hayes St, and on by Fulton St and 8th Ave to Clement St.",
+      "summary": "Out Hayes St to Stanyan St, and out Fulton St to 8th Ave. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St, and Fulton St from 8th Ave was its \"extension\" (Manley p. 29); by 1929 it ran from the Ferry out Market St and Hayes St, and on by 8th Ave to Clement St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from June 7, 1948; trolley coaches from July 3, 1949.",
       "sources": [
@@ -1890,7 +1863,7 @@
             "route",
             "name"
           ],
-          "pages": "18"
+          "pages": "18, 29"
         },
         {
           "source": "oshaughnessy-1929",
@@ -2027,15 +2000,11 @@
         },
         {
           "segment": "sf-msry-fulton-st-6th-ave-stanyan-st",
-          "running": [
-            "1929-05"
-          ]
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)"
         },
         {
           "segment": "sf-msry-fulton-st-6th-ave-8th-ave",
-          "running": [
-            "1929-05"
-          ]
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)"
         },
         {
           "segment": "sf-msry-8th-ave-clement-st-fulton-st",
@@ -2146,16 +2115,23 @@
           "note": "Inbound"
         },
         {
-          "segment": "sf-msry-brannan-st-10th-st-5th-st",
-          "note": "Inbound; from 8th St in 1929"
+          "segment": "sf-msry-brannan-st-10th-st-8th-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-brannan-st-5th-st-8th-st",
+          "note": "Inbound"
         },
         {
           "segment": "sf-msry-brannan-st-3rd-st-5th-st",
-          "note": "Inbound; from 8th St in 1929"
+          "note": "Inbound"
         },
         {
           "segment": "sf-msry-brannan-st-2nd-st-3rd-st",
-          "note": "Inbound; from 8th St in 1929"
+          "note": "Inbound"
         },
         {
           "segment": "sf-msry-2nd-st-brannan-st-bryant-st",
@@ -2569,7 +2545,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 41 — Discontinued. Service by \\\"F\\\" line.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 41 — Discontinued. Service by \"F\" line.\" The last day isn't given. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -2842,7 +2818,7 @@
         {
           "date": "1903-10-31",
           "source": "srj-1903-10-31-san-mateo",
-          "pages": "798-803",
+          "pages": "802",
           "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
         },
         {
@@ -2859,7 +2835,7 @@
       ],
       "status": "closed",
       "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
-      "fate": "converted_to_bus",
+      "fate": "abandoned",
       "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
       "sources": [
         {
@@ -2867,7 +2843,7 @@
           "supports": [
             "route"
           ],
-          "pages": "798-803"
+          "pages": "798-802"
         },
         {
           "source": "manley-1909",

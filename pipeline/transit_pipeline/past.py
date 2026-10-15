@@ -353,11 +353,18 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
         else:
             draw(f, check, fid)
     # Street segments cut from route lists (street_routes.py): one image per line and sheet, its
-    # streets together, rather than one per piece.
-    routed = {f["properties"]["id"]: (f, r) for f, r in feats if r.get("routes")}
-    if routed and (group / "routes.json").exists():
+    # streets together, rather than one per piece. A line with a piece rebuilt is drawn whole (from
+    # the group's files, already written), so that --only doesn't leave a partial image.
+    rebuilt = {f["properties"]["id"] for f, r in feats if r.get("routes")}
+    if rebuilt and (group / "routes.json").exists():
+        recipes = json.loads((group / "trace.json").read_text())["segments"]
+        routed = {f["properties"]["id"]: (f, recipes[f["properties"]["id"]])
+                  for f in json.loads((group / "segments.geojson").read_text())["features"]
+                  if recipes.get(f["properties"]["id"], {}).get("routes")}
         for lid in json.loads((group / "routes.json").read_text())["lines"]:
             line = next(l for l in json.loads((group / "lines.json").read_text())["lines"] if l["id"] == lid)
+            if not any(e["segment"] in rebuilt for e in line["route"]):
+                continue
             by_sheet = defaultdict(list)
             for e in line["route"]:
                 if e["segment"] in routed:
