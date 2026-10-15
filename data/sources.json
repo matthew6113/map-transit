@@ -1024,6 +1024,17 @@
       "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
     },
     {
+      "id": "ca-brc-report-10",
+      "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1889",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa54commgoog",
+      "license": "Public domain (State of California publication of 1889)",
+      "accessed": "2026-10-15",
+      "notes": "Each railroad's return gives the dates its stretches were \"opened for public use\"; the North Pacific Coast's is on p. 154 (Sausalito to Tomales, January 11, 1875; Tomales to Howards, October 16, 1876; Howards to Tyrone, April 2, 1877; Tyrone to Duncans, May 15, 1877), and the report's brief histories (p. 18) add \"Duncans to Cazadero April 11, 1886\". A Google scan; read in archive.org's OCR text."
+    },
+    {
       "id": "caltrain-early-milestones",
       "title": "Caltrain early milestones",
       "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
@@ -1257,6 +1268,16 @@
       "notes": "Lets the Southern Pacific \"abandon its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\". Recites Decision No. 20459 (November 15, 1928), which let the trains be discontinued for highway work \"between San Jose Avenue and Randall Street\", and that \"during the year ending October 31, 1928, no passengers whatever were carried\" southbound (OCR)."
     },
     {
+      "id": "crc-d22672",
+      "title": "Railroad Commission of California, Decision No. 22672 (Application No. 15517)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-07-14",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22672_19300714_A15517.pdf",
+      "accessed": "2026-10-15",
+      "notes": "p. 5: the Interstate Commerce Commission \"authorized the abandonment of the narrow gauge line of the Northwestern Pacific Railroad company between Point Reyes and Monte Rio, and operation thereof ceased on April 3, 1930\" (OCR, read loosely)."
+    },
+    {
       "id": "crc-d23279",
       "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
       "publisher": "Railroad Commission of the State of California",
@@ -1310,6 +1331,16 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "The No. 15 line rerouted \"east along Eighth Street to Broadway\" from Washington St. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
+    },
+    {
+      "id": "crc-d25533",
+      "title": "Railroad Commission of California, Decision No. 25533 (Application No. 18587)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1933-01-09",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D25533_19330109_A18587.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Northwestern Pacific's application to discontinue passenger and mixed train service between Manor and Point Reyes, Marin County, coincident with Pacific Greyhound's stage service (OCR)."
     },
     {
       "id": "crc-d25740",
@@ -1618,6 +1649,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34571",
+      "title": "Railroad Commission of California, Decision No. 34571 (Application No. 24370)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-09-10",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34571_19410910_A24370.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Northwestern Pacific's trains \"between Sausalito and Eureka by way of San Rafael\" (p. 1); the order lets it \"discontinue all regular passenger service between San Rafael and Sausalito\", effective ten days from its date (p. 3) (OCR)."
     },
     {
       "id": "crc-d34999",
@@ -1934,6 +1975,18 @@
       "notes": "An inspector's report on every street railroad line in the city, each with its route (\"ROUTE—\"), cars and headway; p. 8 is a \"Table showing number of each of the street car lines on February 1, 1909\". Pages are the report's printed numbers, at the foot of each page. Read in archive.org's OCR text (its page images can't be opened from this environment), so quotes are to be re-read on the page images."
     },
     {
+      "id": "marin-history-1880",
+      "title": "History of Marin County, California",
+      "author": "J. P. Munro-Fraser",
+      "publisher": "Alley, Bowen & Co., San Francisco",
+      "date": "1880",
+      "type": "book",
+      "url": "https://archive.org/details/historyofmarinco00munr",
+      "license": "Public domain (published 1880)",
+      "accessed": "2026-10-15",
+      "notes": "The North Pacific Coast Railroad, pp. 147-148 (\"The road was first opened January, 1875\"; finished to the Russian River \"in the winter of 1876-7\"), p. 333 (its formal opening, January 7, 1875, \"from Saucelito to Tomales\") and p. 412 (the first shipment \"via San Rafael\", January 8, 1875). Pages are the printed page numbers in the running heads. Read in archive.org's OCR text; quotes are to be re-read on the page images."
+    },
+    {
       "id": "mtc-airtrain-extension-2021",
       "title": "Post-pandemic travel surge synchs with SFO AirTrain extension, parking promotion",
       "publisher": "Metropolitan Transportation Commission",
@@ -2200,6 +2253,30 @@
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
       "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "poors-1885",
+      "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1885",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+      "license": "Public domain (published 1885)",
+      "accessed": "2026-10-15",
+      "notes": "The North Pacific Coast Railroad, p. 870: \"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles. San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles. Leased : San Rafael and San Quentin RR.\" Read in archive.org's OCR text."
+    },
+    {
+      "id": "poors-1900",
+      "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1900",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualrail00poorgoog",
+      "license": "Public domain (published 1900)",
+      "accessed": "2026-10-15",
+      "notes": "The North Pacific Coast Railroad, p. 606: \"Main Line — San Francisco to Cazadero, Cal. (ferry, 6 m.; RR., 80.75 m.)\", with its San Rafael and Mill Valley branches and the leased San Rafael & San Quentin. archive.org's metadata gives the year as 1895 or 1901; the volume number and its reports to June 30, 1900 make it the 1900 manual. A Google scan, read in archive.org's OCR text."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -2598,6 +2675,18 @@
       "notes": "Hosted by the Transportation Authority of Marin. The Holiday Express train of Saturday, December 14, 2019 arrived at the Novato Downtown ribbon cutting, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\" The Larkspur ribbon cutting was Friday, December 13."
     },
     {
+      "id": "sonoma-history-1880",
+      "title": "History of Sonoma County",
+      "author": "J. P. Munro-Fraser",
+      "publisher": "Alley, Bowen & Co., San Francisco",
+      "date": "1880",
+      "type": "book",
+      "url": "https://archive.org/details/historyofsonomac00alle",
+      "license": "Public domain (published 1880)",
+      "accessed": "2026-10-15",
+      "notes": "Occidental (Howard's), p. 201: \"the railroad reached this point, and the first passenger train arrived here October 16, 1876.\" Pages are the printed page numbers in the running heads. Read in archive.org's OCR text."
+    },
+    {
       "id": "sp-bulletin-1936-01",
       "title": "Southern Pacific Bulletin, January 1936",
       "publisher": "Southern Pacific Company",
@@ -2665,6 +2754,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
     },
     {
+      "id": "usgs-cazadero-1945",
+      "title": "Cazadero, Cal., topographic quadrangle, 1:31,680, 1945",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1945",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cazadero_302658_1945_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "1:31,680 sheet, surveyed 1943, edition of 1945. HTMC scan 302658, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 da9f6fa9d8d729bc64175e7675e6e91698dba77f8dc85fa56641a80838cd29c7."
+    },
+    {
       "id": "usgs-concord-1897",
       "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1897",
       "author": "U.S. Geological Survey",
@@ -2713,6 +2814,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1952. HTMC scan 290036, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 88b9ba333b31fd1165fd0e93ddbd3031929c668a99df587471e76077ab2d6b94."
     },
     {
+      "id": "usgs-duncans-mills-1945",
+      "title": "Duncans Mills, Cal., topographic quadrangle, 1:31,680, 1945",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1945",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Duncans%20Mills_296063_1945_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "1:31,680 sheet, edition of 1945. HTMC scan 296063, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 c781bde4be859726515c50187f77b02dce3aad4ab26112adff78112d2e57d42e."
+    },
+    {
       "id": "usgs-honker-bay-1918",
       "title": "Honker Bay, Cal., topographic quadrangle, 1:31,680, 1918",
       "author": "U.S. Geological Survey",
@@ -2759,6 +2872,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
+    },
+    {
+      "id": "usgs-petaluma-1914",
+      "title": "Petaluma, Cal., topographic quadrangle, 1:62,500, 1914",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1914",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_298523_1914_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1912, edition of 1914. HTMC scan 298523, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 8527e7c2264c34995419017f91bf8e2d6179d047569235c8342ba49fffa92d75."
+    },
+    {
+      "id": "usgs-point-reyes-1916",
+      "title": "Point Reyes, Cal., topographic quadrangle, 1:48,000, 1916",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1916",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Point%20Reyes_466171_1916_48000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "1:48,000 advance sheet, surveyed 1916. HTMC scan 466171, GeoTIFF georeferenced by USGS (NAD27 polyconic), 4.064 m a pixel. SHA-256 fe63937cf3f34c62e67b443b39c27f7a44215ff0112ee64b871ca8d02315a0c2."
     },
     {
       "id": "usgs-port-chicago-1951",
@@ -2891,6 +3028,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, edition of 1915. HTMC scan 298922, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 f648bf5144d507111594c6c2314ec90b0a8ec7d13100b81d7056088fcbab6774."
+    },
+    {
+      "id": "usgs-sebastopol-1935",
+      "title": "Sebastopol, Cal., topographic quadrangle, 1:48,000, 1935",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1935",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_301575_1935_48000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "1:48,000 advance sheet, surveyed 1935. HTMC scan 301575, GeoTIFF georeferenced by USGS (NAD27 polyconic), 4.064 m a pixel. SHA-256 fe6029fb913f211a06639d8bab969bd67171e60b1b4ca31a1946f10e582ae7f8."
+    },
+    {
+      "id": "usgs-tamalpais-1897",
+      "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1897",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1895, edition of 1897. HTMC scan 298980, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 b1004563c2020726b5794ad3d6ecc0137b76b8036792b67f2ac0a439abcb8f41."
     },
     {
       "id": "usgs-tamalpais-1941",

@@ -2300,10 +2300,10 @@
         37.788015
       ],
       "fids": [
-        624,
-        625,
-        626,
-        627
+        635,
+        636,
+        637,
+        638
       ],
       "segments": [
         {
@@ -2571,17 +2571,17 @@
         37.793407
       ],
       "fids": [
-        628,
-        629,
-        630,
-        631,
-        632,
-        633,
-        634,
-        635,
-        636,
-        637,
-        638
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649
       ],
       "segments": [
         {
@@ -3490,15 +3490,15 @@
         37.793407
       ],
       "fids": [
-        654,
-        655,
-        656,
-        657,
-        658,
-        659,
-        660,
-        661,
-        662
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673
       ],
       "segments": [
         {
@@ -3813,8 +3813,8 @@
         37.790421
       ],
       "fids": [
-        283,
-        284
+        294,
+        295
       ],
       "segments": [
         {
@@ -3943,10 +3943,10 @@
         37.772502
       ],
       "fids": [
-        307,
-        308,
-        309,
-        310
+        318,
+        319,
+        320,
+        321
       ],
       "segments": [
         {
@@ -4687,7 +4687,7 @@
         37.794462
       ],
       "fids": [
-        273
+        284
       ],
       "segments": [
         {
@@ -4951,20 +4951,20 @@
         37.806482
       ],
       "fids": [
-        663,
-        664,
-        665,
-        666,
-        667,
-        668,
-        669,
-        670,
-        671,
-        672,
-        673,
         674,
         675,
-        676
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687
       ],
       "segments": [
         {
@@ -5404,7 +5404,7 @@
         37.791639
       ],
       "fids": [
-        623
+        634
       ],
       "segments": [
         {
@@ -5534,21 +5534,21 @@
         37.80035
       ],
       "fids": [
-        639,
-        640,
-        641,
-        642,
-        643,
-        644,
-        645,
-        646,
-        647,
-        648,
-        649,
         650,
         651,
         652,
-        653
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664
       ],
       "segments": [
         {
@@ -5943,15 +5943,15 @@
         37.81612
       ],
       "fids": [
-        753,
-        754,
-        755,
-        756,
-        757,
-        758,
-        759,
-        760,
-        761
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772
       ],
       "segments": [
         {
@@ -6285,15 +6285,15 @@
         37.824321
       ],
       "fids": [
-        735,
-        736,
-        737,
-        738,
-        739,
-        740,
-        741,
-        742,
-        743
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754
       ],
       "segments": [
         {
@@ -6773,14 +6773,14 @@
         37.805981
       ],
       "fids": [
-        677,
-        678,
-        679,
-        680,
-        681,
-        682,
-        683,
-        684
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695
       ],
       "segments": [
         {
@@ -7071,7 +7071,7 @@
         37.796162
       ],
       "fids": [
-        335
+        346
       ],
       "segments": [
         {
@@ -7180,7 +7180,7 @@
         37.788015
       ],
       "fids": [
-        302
+        313
       ],
       "segments": [
         {
@@ -7322,16 +7322,16 @@
         37.806482
       ],
       "fids": [
-        685,
-        686,
-        687,
-        688,
-        689,
-        690,
-        691,
-        692,
-        693,
-        694
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705
       ],
       "segments": [
         {
@@ -7651,14 +7651,14 @@
         37.793407
       ],
       "fids": [
-        327,
-        328,
-        329,
-        330,
-        331,
-        332,
-        333,
-        334
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345
       ],
       "segments": [
         {
@@ -8126,7 +8126,7 @@
         37.785808
       ],
       "fids": [
-        290
+        301
       ],
       "segments": [
         {
@@ -8521,15 +8521,15 @@
         37.824321
       ],
       "fids": [
-        744,
-        745,
-        746,
-        747,
-        748,
-        749,
-        750,
-        751,
-        752
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763
       ],
       "segments": [
         {
@@ -8993,16 +8993,16 @@
         37.793407
       ],
       "fids": [
-        317,
-        318,
-        319,
-        320,
-        321,
-        322,
-        323,
-        324,
-        325,
-        326
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
       ],
       "segments": [
         {
@@ -9277,12 +9277,12 @@
         37.787654
       ],
       "fids": [
-        311,
-        312,
-        313,
-        314,
-        315,
-        316
+        322,
+        323,
+        324,
+        325,
+        326,
+        327
       ],
       "segments": [
         {
@@ -9490,14 +9490,14 @@
         37.90596
       ],
       "fids": [
-        253,
-        254
+        264,
+        265
       ],
       "segments": [
         {
           "id": "nwp-sausalito-almonte",
           "name": "Sausalito to Mill Valley Junction (Almonte)",
-          "opened": null,
+          "opened": "1875-01-11",
           "closed": null,
           "borrowed": true,
           "undated": false,
@@ -9505,10 +9505,9 @@
           "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (11 hand-read points); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points).",
           "structure": "surface",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Along Sausalito's waterfront, traced from the 1950 sheet where the track still ran, then from the 1941 sheet by Waldo and Manzanita. Between them, where the 1941 sheet ends and the 1950 sheet draws the Marinship yard of 1942, the line is joined straight for about 800 m. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
         },
         {
           "id": "nwp-mill-valley-branch",
@@ -9561,6 +9560,22 @@
           "note": "Decision No. 34457 names the line \"between Sausalito and San Rafael\"; that the Mill Valley trains ended with it is inferred, not stated."
         },
         {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "154",
+          "note": "The North Pacific Coast's \"From Sausalito to Tomales … Jan. 11, 1875\", opened for public use."
+        },
+        {
           "id": "usgs-san-francisco-north-1950",
           "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
           "author": "U.S. Geological Survey",
@@ -9574,6 +9589,22 @@
           "supports": [
             "geometry"
           ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "route"
+          ],
+          "note": "Labelled North Pacific Coast R.R."
         },
         {
           "id": "usgs-tamalpais-1941",
@@ -9643,19 +9674,19 @@
         37.891351
       ],
       "fids": [
-        713,
-        714,
-        715,
-        716,
-        717,
-        718,
-        719,
-        720,
-        721,
-        722,
-        723,
         724,
-        725
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736
       ],
       "segments": [
         {
@@ -10701,16 +10732,16 @@
         37.793407
       ],
       "fids": [
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342,
-        343,
-        344,
-        345
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
       ],
       "segments": [
         {
@@ -11053,17 +11084,17 @@
         37.79492
       ],
       "fids": [
-        435,
-        436,
-        437,
-        438,
-        439,
-        440,
-        441,
-        442,
-        443,
-        444,
-        445
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456
       ],
       "segments": [
         {
@@ -11826,15 +11857,15 @@
         37.79492
       ],
       "fids": [
-        446,
-        447,
-        448,
-        449,
-        450,
-        451,
-        452,
-        453,
-        454
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465
       ],
       "segments": [
         {
@@ -13371,18 +13402,18 @@
         37.79492
       ],
       "fids": [
-        455,
-        456,
-        457,
-        458,
-        459,
-        460,
-        461,
-        462,
-        463,
-        464,
-        465,
-        466
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477
       ],
       "segments": [
         {
@@ -14329,14 +14360,14 @@
         37.79492
       ],
       "fids": [
-        467,
-        468,
-        469,
-        470,
-        471,
-        472,
-        473,
-        474
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485
       ],
       "segments": [
         {
@@ -15112,14 +15143,14 @@
         37.808586
       ],
       "fids": [
-        475,
-        476,
-        477,
-        478,
-        479,
-        480,
-        481,
-        482
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493
       ],
       "segments": [
         {
@@ -15536,20 +15567,20 @@
         37.793407
       ],
       "fids": [
-        483,
-        484,
-        485,
-        486,
-        487,
-        488,
-        489,
-        490,
-        491,
-        492,
-        493,
         494,
         495,
-        496
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507
       ],
       "segments": [
         {
@@ -15959,13 +15990,13 @@
         37.784013
       ],
       "fids": [
-        497,
-        498,
-        499,
-        500,
-        501,
-        502,
-        503
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514
       ],
       "segments": [
         {
@@ -16596,12 +16627,12 @@
         37.805289
       ],
       "fids": [
-        504,
-        505,
-        506,
-        507,
-        508,
-        509
+        515,
+        516,
+        517,
+        518,
+        519,
+        520
       ],
       "segments": [
         {
@@ -17355,22 +17386,22 @@
         37.785729
       ],
       "fids": [
-        510,
-        511,
-        512,
-        513,
-        514,
-        515,
-        516,
-        517,
-        518,
-        519,
-        520,
         521,
         522,
         523,
         524,
-        525
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536
       ],
       "segments": [
         {
@@ -17778,17 +17809,6 @@
         37.793407
       ],
       "fids": [
-        526,
-        527,
-        528,
-        529,
-        530,
-        531,
-        532,
-        533,
-        534,
-        535,
-        536,
         537,
         538,
         539,
@@ -17799,7 +17819,18 @@
         544,
         545,
         546,
-        547
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
       ],
       "segments": [
         {
@@ -18627,16 +18658,16 @@
         37.789284
       ],
       "fids": [
-        548,
-        549,
-        550,
-        551,
-        552,
-        553,
-        554,
-        555,
-        556,
-        557
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568
       ],
       "segments": [
         {
@@ -19120,14 +19151,14 @@
         37.793407
       ],
       "fids": [
-        346,
-        347,
-        348,
-        349,
-        350,
-        351,
-        352,
-        353
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
       ],
       "segments": [
         {
@@ -19437,24 +19468,24 @@
         37.793407
       ],
       "fids": [
-        558,
-        559,
-        560,
-        561,
-        562,
-        563,
-        564,
-        565,
-        566,
-        567,
-        568,
         569,
         570,
         571,
         572,
         573,
         574,
-        575
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586
       ],
       "segments": [
         {
@@ -19886,17 +19917,17 @@
         37.782556
       ],
       "fids": [
-        576,
-        577,
-        578,
-        579,
-        580,
-        581,
-        582,
-        583,
-        584,
-        585,
-        586
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597
       ],
       "segments": [
         {
@@ -20197,12 +20228,12 @@
         37.805042
       ],
       "fids": [
-        587,
-        588,
-        589,
-        590,
-        591,
-        592
+        598,
+        599,
+        600,
+        601,
+        602,
+        603
       ],
       "segments": [
         {
@@ -20427,10 +20458,10 @@
         37.79009
       ],
       "fids": [
-        593,
-        594,
-        595,
-        596
+        604,
+        605,
+        606,
+        607
       ],
       "segments": [
         {
@@ -20661,17 +20692,6 @@
         37.793407
       ],
       "fids": [
-        354,
-        355,
-        356,
-        357,
-        358,
-        359,
-        360,
-        361,
-        362,
-        363,
-        364,
         365,
         366,
         367,
@@ -20680,7 +20700,18 @@
         370,
         371,
         372,
-        373
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384
       ],
       "segments": [
         {
@@ -21175,11 +21206,11 @@
         37.789284
       ],
       "fids": [
-        597,
-        598,
-        599,
-        600,
-        601
+        608,
+        609,
+        610,
+        611,
+        612
       ],
       "segments": [
         {
@@ -21393,18 +21424,18 @@
         37.793216
       ],
       "fids": [
-        602,
-        603,
-        604,
-        605,
-        606,
-        607,
-        608,
-        609,
-        610,
-        611,
-        612,
-        613
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624
       ],
       "segments": [
         {
@@ -22284,17 +22315,6 @@
         37.793407
       ],
       "fids": [
-        374,
-        375,
-        376,
-        377,
-        378,
-        379,
-        380,
-        381,
-        382,
-        383,
-        384,
         385,
         386,
         387,
@@ -22311,7 +22331,18 @@
         398,
         399,
         400,
-        401
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412
       ],
       "segments": [
         {
@@ -23010,16 +23041,16 @@
         37.793407
       ],
       "fids": [
-        402,
-        403,
-        404,
-        405,
-        406,
-        407,
-        408,
-        409,
-        410,
-        411
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422
       ],
       "segments": [
         {
@@ -23370,17 +23401,17 @@
         37.793407
       ],
       "fids": [
-        412,
-        413,
-        414,
-        415,
-        416,
-        417,
-        418,
-        419,
-        420,
-        421,
-        422
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433
       ],
       "segments": [
         {
@@ -24199,18 +24230,18 @@
         37.793407
       ],
       "fids": [
-        423,
-        424,
-        425,
-        426,
-        427,
-        428,
-        429,
-        430,
-        431,
-        432,
-        433,
-        434
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445
       ],
       "segments": [
         {
@@ -24526,6 +24557,661 @@
       ]
     },
     {
+      "id": "npc-san-rafael-branch",
+      "name": "North Pacific Coast San Rafael branch",
+      "short_name": "San Rafael branch",
+      "system": "north-pacific-coast",
+      "system_name": "North Pacific Coast Railroad",
+      "operators": [
+        {
+          "name": "North Pacific Coast Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The North Pacific Coast's two-mile branch from its main line at the Junction (San Anselmo) to San Rafael, where its passengers took the San Rafael & San Quentin to the ferry.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "When the branch opened and when its steam trains gave way to the North Shore's electric line (1903) aren't sourced; it is drawn for the years the sources show it (decision 20). The track is the one the electric line used.",
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1875-01-08",
+          "source": "marin-history-1880",
+          "pages": "412",
+          "note": "\"The first shipment made over the road to San Francisco via San Rafael was on January 8, 1875\"."
+        },
+        {
+          "date": "1885",
+          "source": "poors-1885",
+          "pages": "869-870",
+          "note": "\"San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles.\""
+        },
+        {
+          "date": "1900",
+          "source": "poors-1900",
+          "pages": "606",
+          "note": "\"San Rafael Branch … Junction, Cal., to San Rafael, Cal 2.00 m.\""
+        }
+      ],
+      "undated": false,
+      "length_km": 3.41,
+      "confidence_km": {
+        "digitized": 3.41
+      },
+      "bbox": [
+        -122.562102,
+        37.968652,
+        -122.525905,
+        37.977386
+      ],
+      "fids": [
+        259
+      ],
+      "segments": [
+        {
+          "id": "nwp-san-anselmo-san-rafael",
+          "name": "San Anselmo to San Rafael",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-corte-madera-san-anselmo at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Drawn to where the line meets the main line south of San Rafael's depot. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+        }
+      ],
+      "sources": [
+        {
+          "id": "marin-history-1880",
+          "title": "History of Marin County, California",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofmarinco00munr",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "marin-history-1880",
+          "supports": [
+            "route"
+          ],
+          "pages": "412"
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "route"
+          ],
+          "pages": "869-870"
+        },
+        {
+          "id": "poors-1900",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1900",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualrail00poorgoog",
+          "license": "Public domain (published 1900)",
+          "accessed": "2026-10-15",
+          "source": "poors-1900",
+          "supports": [
+            "route"
+          ],
+          "pages": "606"
+        },
+        {
+          "id": "srj-1904-01-02-north-shore",
+          "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+          "publisher": "Street Railway Journal",
+          "date": "1904-01-02",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "route"
+          ],
+          "pages": "4-7",
+          "note": "The line \"terminates at San Rafael\"; the narrow gauge to Cazadero left it at San Anselmo."
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "npc-main-line",
+      "name": "North Pacific Coast, Sausalito to the Russian River",
+      "short_name": "North Pacific Coast",
+      "system": "north-pacific-coast",
+      "system_name": "North Pacific Coast Railroad",
+      "operators": [
+        {
+          "name": "North Pacific Coast Railroad",
+          "from": "1875-01-11",
+          "to": null
+        },
+        {
+          "name": "North Shore Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1933-08-01"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1875-01-11",
+      "closed": "1933-08-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A narrow-gauge railroad from the ferry at Sausalito over White's Hill to Point Reyes, around Tomales Bay to Tomales, and through the redwoods to the Russian River at Duncans Mills (1877), later Cazadero (1886).",
+      "fate": "abandoned",
+      "fate_note": "Trains between Point Reyes and Monte Rio ended on April 3, 1930 (CRC Decision No. 22672), and between Manor and Point Reyes on August 1, 1933, replaced by Pacific Greyhound's stages (Decision No. 34457).",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Drawn as its own line over the track it shared with the North Shore's electric trains from 1903 (decision 21). How far the trains to Point Reyes ran over the electrified track in later years isn't sourced; the map draws the line from Sausalito, as the North Pacific Coast built it, until its last trains in 1933. Not drawn: Sheridan to Duncans Mills and Cazadero, which no sheet of the line's years shows (a map to georeference by hand), and the tunnels at White's Hill and into Sonoma County. When the North Shore and then the Northwestern Pacific took it over isn't sourced here.",
+      "flags": [],
+      "undated": false,
+      "length_km": 113.74,
+      "confidence_km": {
+        "digitized": 17.18,
+        "surveyed": 96.56
+      },
+      "bbox": [
+        -123.012077,
+        37.856117,
+        -122.478137,
+        38.464226
+      ],
+      "fids": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "segments": [
+        {
+          "id": "nwp-sausalito-almonte",
+          "name": "Sausalito to Mill Valley Junction (Almonte)",
+          "opened": "1875-01-11",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (11 hand-read points); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "nwp-almonte-corte-madera",
+          "name": "Mill Valley Junction to Corte Madera, by Alto and the tunnel",
+          "opened": "1875-01-11",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-sausalito-almonte at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (20 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "nwp-corte-madera-san-anselmo",
+          "name": "Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross",
+          "opened": "1875-01-11",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to nwp-almonte-corte-madera at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (12 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (15 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "npc-san-anselmo-manor",
+          "name": "San Anselmo to Manor, by Fairfax",
+          "opened": "1875-01-11",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to nwp-corte-madera-san-anselmo at its end; then OpenHistoricalMap way 200221492 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.56210,37.97739 and to -122.59200,37.99200; checked on USGS Tamalpais 1:62,500 (1897) and USGS Tamalpais 1:62,500 (1941). Cut at San Anselmo and at Manor as the 1941 sheet labels them. OpenHistoricalMap's way here was traced from the 1897 15-minute sheet: on the 1941 sheet it runs 40-60 m north-east of the track, and a straight join of 97 m meets the electric line's track at San Anselmo. It needs a fit (decision 12) or a trace from a better map.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced",
+            "geometry_unverified"
+          ],
+          "notes": "On the North Pacific Coast's main line from Sausalito. The electric line ran on to Manor in later years (not drawn), so when this track last carried passengers isn't sourced."
+        },
+        {
+          "id": "npc-manor-point-reyes",
+          "name": "Manor to Point Reyes, by White's Hill, San Geronimo, Lagunitas and Camp Taylor",
+          "opened": "1875-01-11",
+          "closed": "1933-08-01",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200221492, 202387716, 202387717, 202387713 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.59200,37.99200 and to -122.80600,38.06800; checked on USGS Tamalpais 1:62,500 (1897), USGS Petaluma 1:62,500 (1914) and USGS Point Reyes 1:48,000 (1916). Cut at Manor (1941 sheet) and at Point Reyes Station (1916 sheet). From Manor to White's Hill (about 2 km) OpenHistoricalMap's way was traced from the 1897 15-minute sheet and is likely tens of metres off, as it is from San Anselmo to Manor; beyond, its ways follow the railroad on the 1914 and 1916 sheets.",
+          "structure": "surface",
+          "flags": [
+            "geometry_unverified"
+          ],
+          "notes": "Over White's Hill by a tunnel (Marin County history, pp. 147-148); the tunnel isn't marked separately here."
+        },
+        {
+          "id": "npc-point-reyes-tomales",
+          "name": "Point Reyes to Tomales, along Tomales Bay",
+          "opened": "1875-01-11",
+          "closed": "1930-04-03",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-15), cut from -122.80600,38.06800 and to -122.90400,38.24750; checked on USGS Point Reyes 1:48,000 (1916). Cut at Point Reyes Station and at Tomales as the 1916 sheet labels them.",
+          "structure": "surface",
+          "flags": [],
+          "notes": "Along the east shore of Tomales Bay, by Marshall."
+        },
+        {
+          "id": "npc-tomales-occidental",
+          "name": "Tomales to Occidental (Howard's), by Valley Ford and Freestone",
+          "opened": "1876-10-16",
+          "closed": "1930-04-03",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-15), cut from -122.90400,38.24750 and to -122.94300,38.40500; checked on USGS Point Reyes 1:48,000 (1916) and USGS Sebastopol 1:48,000 (1935). Cut at Tomales (1916 sheet) and at Occidental (1935 sheet); the 1935 sheet, surveyed after the line closed, shows the towns it ran through but not its track.",
+          "structure": "surface",
+          "flags": [],
+          "notes": "Howard's station is today's Occidental (Sonoma County history, p. 201). Into Sonoma County by a tunnel (Marin County history, p. 148), not marked separately here."
+        },
+        {
+          "id": "npc-occidental-tyrone",
+          "name": "Occidental to Tyrone, by Camp Meeker",
+          "opened": "1877-04-02",
+          "closed": "1930-04-03",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 202387713, 202387714, 202387715 (CC0, as of 2026-10-15), cut from -122.94300,38.40500 and to -123.00200,38.44800; checked on USGS Sebastopol 1:48,000 (1935) and USGS Duncans Mills 1:31,680 (1945). Cut at Occidental (1935 sheet) and at Tyrone (1945 sheet).",
+          "structure": "surface",
+          "flags": [],
+          "notes": "Down Dutch Bill Creek toward the Russian River."
+        },
+        {
+          "id": "npc-tyrone-monte-rio",
+          "name": "Tyrone to Monte Rio",
+          "opened": "1877-05-15",
+          "closed": "1930-04-03",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-15), cut from -123.00200,38.44800 and to -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Tyrone and at Monte Rio as the 1945 sheet labels them.",
+          "structure": "surface",
+          "flags": [],
+          "notes": "Part of the stretch to Duncans Mills, opened May 15, 1877."
+        },
+        {
+          "id": "npc-monte-rio-sheridan",
+          "name": "Monte Rio to Sheridan, along the Russian River",
+          "opened": "1877-05-15",
+          "closed": null,
+          "to": "1930-04-03",
+          "note": "Drawn to April 3, 1930, when the narrow gauge to Monte Rio ceased: the line's trains could reach this stretch only over it. When they last ran beyond Monte Rio isn't sourced.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-15), cut from -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Monte Rio as the 1945 sheet labels it.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "On toward Duncans Mills. OpenHistoricalMap's ways end here, near Sheridan; the rest of the line, to Duncans Mills (1877) and up Austin Creek to Cazadero (1886), isn't on any sheet of its years and isn't drawn. When this stretch last carried passengers isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "18, 154",
+          "note": "Opened for public use from Sausalito to Tomales on January 11, 1875, Tomales to Howards October 16, 1876, Howards to Tyrone April 2, 1877, Tyrone to Duncans May 15, 1877 (p. 154), and \"Duncans to Cazadero April 11, 1886\" (p. 18)."
+        },
+        {
+          "id": "marin-history-1880",
+          "title": "History of Marin County, California",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofmarinco00munr",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "marin-history-1880",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "147-148, 333",
+          "note": "\"The formal opening of the North Pacific Coast Railroad took place on Thursday, January 7, 1875 … from Saucelito to Tomales\" (p. 333); the route by Fairfax, White Hill and San Geronimo creek (pp. 147-148)."
+        },
+        {
+          "id": "sonoma-history-1880",
+          "title": "History of Sonoma County",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofsonomac00alle",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened"
+          ],
+          "pages": "201"
+        },
+        {
+          "id": "poors-1885",
+          "title": "Poor's Manual of the Railroads of the United States, 1885 (vol. 18)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1885",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai18newyuoft",
+          "license": "Public domain (published 1885)",
+          "accessed": "2026-10-15",
+          "source": "poors-1885",
+          "supports": [
+            "route",
+            "gauge"
+          ],
+          "pages": "869-870",
+          "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge. The OCR loses the running heads here, so the page is 869 or 870."
+        },
+        {
+          "id": "poors-1900",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1900",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualrail00poorgoog",
+          "license": "Public domain (published 1900)",
+          "accessed": "2026-10-15",
+          "source": "poors-1900",
+          "supports": [
+            "route"
+          ],
+          "pages": "606",
+          "note": "\"Main Line — San Francisco to Cazadero, Cal. (ferry, 6 m.; RR., 80.75 m.)\"."
+        },
+        {
+          "id": "crc-d22672",
+          "title": "Railroad Commission of California, Decision No. 22672 (Application No. 15517)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1930-07-14",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22672_19300714_A15517.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d22672",
+          "supports": [
+            "closed"
+          ],
+          "pages": "5",
+          "note": "The narrow gauge \"between Point Reyes and Monte Rio\": \"operation thereof ceased on April 3, 1930\"."
+        },
+        {
+          "id": "crc-d34457",
+          "title": "Railroad Commission of California, Decision No. 34457 (Application No. 24059)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1941-07-29",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34457_19410729_A24059.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d34457",
+          "supports": [
+            "closed"
+          ],
+          "pages": "2",
+          "note": "\"Prior to August 1, 1933 service … [was] performed by steam train. On that date … applicant discontinued operations between Point Reyes and Manor.\""
+        },
+        {
+          "id": "crc-d25533",
+          "title": "Railroad Commission of California, Decision No. 25533 (Application No. 18587)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1933-01-09",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D25533_19330109_A18587.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d25533",
+          "supports": [
+            "closed"
+          ],
+          "note": "The order of January 9, 1933 authorizing the end of passenger and mixed trains between Manor and Point Reyes, once Pacific Greyhound's stages ran."
+        },
+        {
+          "id": "srj-1904-01-02-north-shore",
+          "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+          "publisher": "Street Railway Journal",
+          "date": "1904-01-02",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "operator",
+            "route"
+          ],
+          "pages": "4-7",
+          "note": "The North Shore Railroad's track between Sausalito and San Rafael, electrified in 1903."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "route",
+            "geometry"
+          ],
+          "note": "Labelled North Pacific Coast R.R."
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221492"
+        },
+        {
+          "id": "usgs-petaluma-1914",
+          "title": "Petaluma, Cal., topographic quadrangle, 1:62,500, 1914",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1914",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_298523_1914_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-petaluma-1914",
+          "supports": [
+            "route"
+          ],
+          "note": "Labelled Northwestern Pacific, San Francisco and Cazadero line"
+        },
+        {
+          "id": "usgs-point-reyes-1916",
+          "title": "Point Reyes, Cal., topographic quadrangle, 1:48,000, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Point%20Reyes_466171_1916_48000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-point-reyes-1916",
+          "supports": [
+            "geometry",
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-sebastopol-1935",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:48,000, 1935",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1935",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_301575_1935_48000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1935",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-duncans-mills-1945",
+          "title": "Duncans Mills, Cal., topographic quadrangle, 1:31,680, 1945",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1945",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Duncans%20Mills_296063_1945_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-duncans-mills-1945",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-ofarrell-jones-hyde",
       "name": "O'Farrell, Jones and Hyde line",
       "system": "california-street-cable-railroad",
@@ -24574,11 +25260,11 @@
         37.806637
       ],
       "fids": [
-        285,
-        286,
-        287,
-        288,
-        289
+        296,
+        297,
+        298,
+        299,
+        300
       ],
       "segments": [
         {
@@ -24892,12 +25578,12 @@
         37.7762
       ],
       "fids": [
-        779,
-        780,
-        781,
-        782,
-        783,
-        784
+        790,
+        791,
+        792,
+        793,
+        794,
+        795
       ],
       "segments": [
         {
@@ -25174,17 +25860,17 @@
         37.7762
       ],
       "fids": [
-        768,
-        769,
-        770,
-        771,
-        772,
-        773,
-        774,
-        775,
-        776,
-        777,
-        778
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789
       ],
       "segments": [
         {
@@ -26319,24 +27005,24 @@
         38.42361
       ],
       "fids": [
-        255,
-        256,
-        257,
-        258,
-        259,
-        260,
-        261,
-        262,
-        263,
-        264,
-        265,
         266,
         267,
         268,
         269,
         270,
         271,
-        272
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283
       ],
       "segments": [
         {
@@ -27627,12 +28313,12 @@
         37.795493
       ],
       "fids": [
-        274,
-        275,
-        276,
-        277,
-        278,
-        279
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
       ],
       "segments": [
         {
@@ -28077,16 +28763,16 @@
         37.977386
       ],
       "fids": [
-        249,
-        250,
-        251,
-        252
+        260,
+        261,
+        262,
+        263
       ],
       "segments": [
         {
           "id": "nwp-sausalito-almonte",
           "name": "Sausalito to Mill Valley Junction (Almonte)",
-          "opened": null,
+          "opened": "1875-01-11",
           "closed": null,
           "borrowed": true,
           "undated": false,
@@ -28094,15 +28780,14 @@
           "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (9 hand-read points); then traced by eye from USGS San Francisco North 1:24,000 (1950) (11 hand-read points); then traced by eye from USGS Tamalpais 1:62,500 (1941) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points).",
           "structure": "surface",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Along Sausalito's waterfront, traced from the 1950 sheet where the track still ran, then from the 1941 sheet by Waldo and Manzanita. Between them, where the 1941 sheet ends and the 1950 sheet draws the Marinship yard of 1942, the line is joined straight for about 800 m. The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
         },
         {
           "id": "nwp-almonte-corte-madera",
           "name": "Mill Valley Junction to Corte Madera, by Alto and the tunnel",
-          "opened": null,
+          "opened": "1875-01-11",
           "closed": null,
           "borrowed": true,
           "undated": false,
@@ -28110,15 +28795,14 @@
           "method": "Joined to nwp-sausalito-almonte at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (20 hand-read points, centred on the line symbol).",
           "structure": "surface",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
         },
         {
           "id": "nwp-corte-madera-san-anselmo",
           "name": "Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross",
-          "opened": null,
+          "opened": "1875-01-11",
           "closed": null,
           "borrowed": true,
           "undated": false,
@@ -28126,10 +28810,9 @@
           "method": "Joined to nwp-almonte-corte-madera at its end; then traced by eye from USGS Tamalpais 1:62,500 (1941) (12 hand-read points, centred on the line symbol); then traced by eye from USGS Tamalpais 1:62,500 (1941) (15 hand-read points, centred on the line symbol).",
           "structure": "surface",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "The North Pacific Coast's narrow-gauge line ran here before the electric line; when this track first carried passengers isn't sourced, so it shows with its lines' dates."
+          "notes": "The North Pacific Coast's narrow-gauge main line from Sausalito, opened in 1875; the North Shore's electric trains ran over it from 1903, and both lines are drawn on it (decision 21). When it last carried passengers isn't sourced."
         },
         {
           "id": "nwp-san-anselmo-san-rafael",
@@ -28182,6 +28865,22 @@
           "note": "\"... discontinued all service on its interurban electric line between Sausalito and San Rafael\" on March 1, 1941."
         },
         {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "154",
+          "note": "The North Pacific Coast's \"From Sausalito to Tomales … Jan. 11, 1875\", opened for public use."
+        },
+        {
           "id": "usgs-san-francisco-north-1950",
           "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
           "author": "U.S. Geological Survey",
@@ -28195,6 +28894,22 @@
           "supports": [
             "geometry"
           ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "route"
+          ],
+          "note": "Labelled North Pacific Coast R.R."
         },
         {
           "id": "usgs-tamalpais-1941",
@@ -28265,15 +28980,15 @@
         37.824321
       ],
       "fids": [
-        726,
-        727,
-        728,
-        729,
-        730,
-        731,
-        732,
-        733,
-        734
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745
       ],
       "segments": [
         {
@@ -28772,24 +29487,24 @@
         37.891481
       ],
       "fids": [
-        695,
-        696,
-        697,
-        698,
-        699,
-        700,
-        701,
-        702,
-        703,
-        704,
-        705,
         706,
         707,
         708,
         709,
         710,
         711,
-        712
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723
       ],
       "segments": [
         {
@@ -29404,9 +30119,9 @@
         37.790312
       ],
       "fids": [
-        280,
-        281,
-        282
+        291,
+        292,
+        293
       ],
       "segments": [
         {
@@ -29552,15 +30267,15 @@
         37.789106
       ],
       "fids": [
-        614,
-        615,
-        616,
-        617,
-        618,
-        619,
-        620,
-        621,
-        622
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633
       ],
       "segments": [
         {
@@ -30669,10 +31384,10 @@
         37.80035
       ],
       "fids": [
-        303,
-        304,
-        305,
-        306
+        314,
+        315,
+        316,
+        317
       ],
       "segments": [
         {
@@ -30858,17 +31573,17 @@
         37.79562
       ],
       "fids": [
-        291,
-        292,
-        293,
-        294,
-        295,
-        296,
-        297,
-        298,
-        299,
-        300,
-        301
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312
       ],
       "segments": [
         {
@@ -31124,12 +31839,12 @@
         37.803847
       ],
       "fids": [
-        762,
-        763,
-        764,
-        765,
-        766,
-        767
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
       ],
       "segments": [
         {

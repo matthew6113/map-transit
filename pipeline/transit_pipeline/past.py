@@ -21,7 +21,8 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
                 "controls": [{"label": "...",         # misregistration (usgs_topo.similarity)
                               "at": "Street A/Street B" or [lon, lat],
                               "offset_m": [east, north]}]},
-        "check": "usgs-oakland-west-1949",           # the map a street-routed part was checked on
+        "check": "usgs-oakland-west-1949",           # the map a street-routed part was checked on;
+                                                     # a list where a long OHM feature crosses sheets
         "est_error_m": 15,
         "approximate": false,                        # true: drawn dashed
         "note": "how the source places it"          # appended to geometry_method
@@ -242,7 +243,8 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         methods = [b[1] for b in built if b[1] != "join"]
     approximate = recipe.get("approximate") or "approximate" in methods or "water" in methods
     surveyed = not approximate and bool(methods) and all(m == "ohm" for m in methods)
-    check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
+    checks = _checks(recipe)
+    check = checks[0] if checks else None
     sentence = desc[0].upper() + desc[1:]
     if fit:
         r = fit[1]
@@ -252,7 +254,8 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
                      f"({spec.get('against', 'today')}; {r['shift_m'][0]:+.0f} m E, {r['shift_m'][1]:+.0f} m N, RMS {r['rms_m']} m)")
     if check and ("street-centerline" in methods or "ohm" in methods):
         from .usgs_topo import label
-        sentence += f"; checked on {label(check)}"
+        names = [label(c) for c in checks]
+        sentence += "; checked on " + (names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1])
     if recipe.get("note"):
         sentence += f". {recipe['note']}"
     props["geometry_confidence"] = "approximate" if approximate else "surveyed" if surveyed else "digitized"
@@ -269,7 +272,7 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     against = _fit_spec(recipe).get("true_frame", {}).get("sheet")
     from .water import SOURCE_ID as OVERTURE_BASE
     from .counties import SOURCE_ID as COUNTIES
-    for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
+    for sid, needed in (*((c, True) for c in checks), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
                         (OVERTURE_BASE, "water" in methods), (COUNTIES, recipe.get("clip") == "county")):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})
@@ -285,6 +288,12 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
     return geometry
 
 
+def _checks(recipe: dict) -> list[str]:
+    """The sheets a feature was traced from or checked on, first the one it was traced from."""
+    check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
+    return check if isinstance(check, list) else [check] if check else []
+
+
 def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
     """Each feature drawn over the map it was traced from or checked on. A corrected trace is drawn
     twice: uncorrected over its own sheet (does it follow the symbol?) and corrected over the sheet
@@ -293,9 +302,11 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
     out.mkdir(parents=True, exist_ok=True)
     tmp = out / f".{group.name}.geojson"
 
-    def draw(f: dict, sheet: str, name: str) -> None:
+    def draw(f: dict, sheet: str, name: str, within: tuple[float, float, float, float] | None = None) -> None:
         cs = f["geometry"]["coordinates"]
         cs = [cs] if f["geometry"]["type"] == "Point" else [c for part in cs for c in part] if f["geometry"]["type"] == "MultiLineString" else cs
+        if within:  # only the stretch on this sheet
+            cs = [c for c in cs if within[0] <= c[0] <= within[2] and within[1] <= c[1] <= within[3]] or cs
         xs, ys = [c[0] for c in cs], [c[1] for c in cs]
         pad = 0.003
         bbox = (min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad)
@@ -306,10 +317,16 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
         (out / f"{name}.json").unlink(missing_ok=True)  # the crop's frame, not needed for review
 
     for f, recipe in feats:
-        check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
-        if not check or recipe.get("routes"):
+        checks = _checks(recipe)
+        if not checks or recipe.get("routes"):
             continue
         fid = f["properties"]["id"]
+        if len(checks) > 1:  # a long feature over several sheets: one image a sheet
+            from .usgs_topo import sheet_bounds
+            for n, sheet in enumerate(checks, 1):
+                draw(f, sheet, f"{fid}-{n}", within=sheet_bounds(sheet))
+            continue
+        check = checks[0]
         spec = _fit_spec(recipe)
         if spec:
             raw = {**recipe, "fit": None}

@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The North Pacific Coast (decision 21)
+
+- **Decision 20 approved** at the checkpoint: the 46 lines drawn for their running dates stay.
+- **The North Pacific Coast** (`north-pacific-coast/`): its own line from Sausalito over the electric
+  lines' track to San Anselmo (decision 21), then by Fairfax, White's Hill, San Geronimo and Camp
+  Taylor to Point Reyes, around Tomales Bay to Tomales, and by Occidental and Camp Meeker to the
+  Russian River at Monte Rio. Each stretch opens on the day the Railroad Commissioners' tenth report
+  gives (January 11, 1875 to May 15, 1877); Point Reyes to Monte Rio ends April 3, 1930 (CRC Decision
+  22672) and Manor to Point Reyes August 1, 1933 (Decision 34457). Geometry from OpenHistoricalMap's
+  ways, checked on the USGS sheets of 1897, 1914 and 1916 (and of 1935 and 1945, after it closed).
+  Not drawn: Sheridan to Duncans Mills and Cazadero, which no sheet of its years shows.
+- **Its San Rafael branch,** drawn for the years Marin County's history (1875) and Poor's Manual
+  (1885, 1900) show it (decision 20).
+- The Sausalito–San Anselmo track now opens in 1875, with the North Pacific Coast.
+- Six USGS sheets added: Tamalpais 1897, Petaluma 1914, Point Reyes 1916, Sebastopol 1935, Duncans
+  Mills 1945 and Cazadero 1945.
+
 ## 2026-10-15: Phase 2c checkpoint
 
 - The research passes' readings of the sources are saved in `docs/research/sources-2c/`, and

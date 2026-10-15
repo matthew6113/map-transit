@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -157,6 +157,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), and SFMTA's cable car history page | official | Public agency publications; cited for facts |
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
 | Halley's *Centennial Year Book of Alameda County* (1876) and the *History of Alameda County* (M. W. Wood, 1883), from archive.org's OCR text | book | Public domain (published 1876, 1883). Their quotes need checking against the page images. |
+| Munro-Fraser's histories of Marin and Sonoma Counties (Alley, Bowen, 1880), the Board of Railroad Commissioners' tenth annual report (1889) and *Poor's Manual of Railroads* (1885, 1900), from archive.org's OCR text | book, official | Public domain (published 1880–1900). Their quotes need checking against the page images. |
 | HABS CA-1888 (Southern Pacific Mole & Pier), Library of Congress catalog record | official | Public domain (U.S. Government work) |
 | *California Highways and Public Works*, September–October 1956 | official | California public record; cited for facts |
 | Warren Manley, *Report on the operation of the street railroad lines of San Francisco* (Merchants' Association, February 1, 1909), from archive.org's OCR text | primary_document | Public domain (published 1909). Its quotes need checking against the page images, which this environment can't open. |
@@ -197,6 +198,12 @@ The geometry tools are below (decision 12).
 | `usgs-honker-bay-1953` | CA_Honker Bay_291408_1953_24000_geo.tif | 2.032 | `2aebec44aa88` |
 | `usgs-birds-landing-1953` | CA_Birds Landing_288442_1953_24000_geo.tif | 2.032 | `b1354c7dac09` |
 | `usgs-dozier-1952` | CA_Dozier_290036_1952_24000_geo.tif | 2.032 | `88b9ba333b31` |
+| `usgs-tamalpais-1897` | CA_Tamalpais_298980_1897_62500_geo.tif | 5.292 | `b1004563c202` |
+| `usgs-petaluma-1914` | CA_Petaluma_298523_1914_62500_geo.tif | 5.292 | `8527e7c2264c` |
+| `usgs-point-reyes-1916` | CA_Point Reyes_466171_1916_48000_geo.tif | 4.064 | `fe63937cf3f3` |
+| `usgs-sebastopol-1935` | CA_Sebastopol_301575_1935_48000_geo.tif | 4.064 | `fe6029fb913f` |
+| `usgs-duncans-mills-1945` | CA_Duncans Mills_296063_1945_31680_geo.tif | 2.682 | `c781bde4be85` |
+| `usgs-cazadero-1945` | CA_Cazadero_302658_1945_31680_geo.tif | 2.682 | `da9f6fa9d8d7` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -262,9 +269,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 92 | 397 | 11 | 56.9 | 457.3 | 106.0 | 8 | 363 |
+| past | 94 | 404 | 11 | 153.4 | 457.3 | 106.0 | 8 | 365 |
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 396, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 712, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 399, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 710, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

@@ -114,6 +114,12 @@
       "short_name": "Muni"
     },
     {
+      "id": "north-pacific-coast",
+      "name": "North Pacific Coast Railroad",
+      "short_name": "North Pacific Coast",
+      "notes": "A narrow-gauge railroad from the ferry at Sausalito by San Anselmo, White's Hill, Point Reyes and Tomales to the Russian River (1875-77) and Cazadero (1886). Its successors, the North Shore Railroad and the Northwestern Pacific, electrified the Sausalito-San Anselmo end in 1903 and ran the rest by steam until 1930-33."
+    },
+    {
       "id": "northwestern-pacific",
       "name": "Northwestern Pacific Railroad",
       "short_name": "Northwestern Pacific",

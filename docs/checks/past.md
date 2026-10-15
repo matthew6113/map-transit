@@ -61,6 +61,13 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2a/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2a/traces/key-pier-terminal.jpg) |
 | `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2a/traces/key-san-pablo.jpg) |
 | `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2a/traces/key-piedmont-terminal.jpg) |
+| `npc-san-anselmo-manor` San Anselmo to Manor, by Fairfax | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-san-anselmo-manor-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-san-anselmo-manor-2.jpg) |
+| `npc-manor-point-reyes` Manor to Point Reyes, by White's Hill, San Geronimo, Lagunitas and Camp Taylor | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-manor-point-reyes-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-manor-point-reyes-2.jpg) [sheet 3](../screenshots/p2c/traces/npc-manor-point-reyes-3.jpg) |
+| `npc-point-reyes-tomales` Point Reyes to Tomales, along Tomales Bay | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-point-reyes-tomales.jpg) |
+| `npc-tomales-occidental` Tomales to Occidental (Howard's), by Valley Ford and Freestone | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-tomales-occidental-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-tomales-occidental-2.jpg) |
+| `npc-occidental-tyrone` Occidental to Tyrone, by Camp Meeker | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-occidental-tyrone-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-occidental-tyrone-2.jpg) |
+| `npc-tyrone-monte-rio` Tyrone to Monte Rio | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-tyrone-monte-rio.jpg) |
+| `npc-monte-rio-sheridan` Monte Rio to Sheridan, along the Russian River | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-monte-rio-sheridan.jpg) |
 | `nwp-sausalito-almonte` Sausalito to Mill Valley Junction (Almonte) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/nwp-sausalito-almonte.jpg) |
 | `nwp-almonte-corte-madera` Mill Valley Junction to Corte Madera, by Alto and the tunnel | geotiff | usgs-tamalpais-1941 | 40 m | [review](../screenshots/p2b/traces/nwp-almonte-corte-madera.jpg) |
 | `nwp-corte-madera-san-anselmo` Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-corte-madera-san-anselmo.jpg) |
@@ -291,6 +298,7 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
 | `sp-creek-route` Creek Route ferry (Broadway, Oakland) | 1876-07-01 (halley-1876, p. 435); 1936-12 (crc-d29338, p. 1) | opening |
 | `sp-alameda-pier-ferry` Alameda ferry (Alameda Pier) | 1878-06-01 (wood-1883, p. 833) | opening |
+| `npc-san-rafael-branch` North Pacific Coast San Rafael branch | 1875-01-08 (marin-history-1880, p. 412); 1885 (poors-1885, p. 869-870); 1900 (poors-1900, p. 606) | opening and closing |
 | `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening |

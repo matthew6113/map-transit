@@ -18,6 +18,7 @@ Writes docs/checks/past.md with these lists:
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -126,10 +127,13 @@ def main() -> None:
         if kind == "line" or (p.get("geometry_confidence") == "surveyed" and not ohm) or p["id"] in routed:
             continue
         g = p.get("georeference") or {}
-        imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (d / (p['id'] + '-corrected.jpg')).exists() else 'review'}]"
-                f"(../screenshots/{d.parent.name}/traces/{n.name})"
-                for d in [next((d for d in reversed(REVIEWS) if (d / f"{p['id']}.jpg").exists()), REVIEWS[0])]
-                for n in sorted(d.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]  # the latest phase's
+        # Its images in the latest phase that has them: one, or one a sheet (`<id>-1` ...) for a
+        # long feature checked on several.
+        ours = lambda n: n.stem in (p['id'], p['id'] + '-corrected') or re.fullmatch(re.escape(p['id']) + r"-\d", n.stem)
+        d = next((d for d in reversed(REVIEWS) if any(ours(n) for n in d.glob(f"{p['id']}*.jpg"))), REVIEWS[0])
+        mine = [n for n in sorted(d.glob(f"{p['id']}*.jpg")) if ours(n)]
+        imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (d / (p['id'] + '-corrected.jpg')).exists() else 'review' if len(mine) == 1 else 'sheet ' + n.stem.rsplit('-', 1)[1]}]"
+                f"(../screenshots/{d.parent.name}/traces/{n.name})" for n in mine]
         lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', 'OpenHistoricalMap' if ohm else p.get('geometry_confidence'))} | "
                      f"{g.get('map', '')} | {str(g['est_error_m']) + ' m' if 'est_error_m' in g else ''} | {' '.join(imgs)} |")
         traced += 1

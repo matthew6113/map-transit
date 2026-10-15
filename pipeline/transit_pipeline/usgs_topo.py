@@ -103,6 +103,13 @@ SHEETS = [
     Sheet("usgs-honker-bay-1953", "Honker Bay", 24000, 1953, "291408", 1955, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
     Sheet("usgs-birds-landing-1953", "Birds Landing", 24000, 1953, "288442", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
     Sheet("usgs-dozier-1952", "Dozier", 24000, 1952, "290036", 1953, "7.5-minute sheet, aerial photographs of 1949, edition of 1952"),
+    # The North Pacific Coast's route, on the sheets of its years.
+    Sheet("usgs-tamalpais-1897", "Tamalpais", 62500, 1897, "298980", None, "15-minute sheet, surveyed 1895, edition of 1897"),
+    Sheet("usgs-petaluma-1914", "Petaluma", 62500, 1914, "298523", None, "15-minute sheet, surveyed 1912, edition of 1914"),
+    Sheet("usgs-point-reyes-1916", "Point Reyes", 48000, 1916, "466171", None, "1:48,000 advance sheet, surveyed 1916"),
+    Sheet("usgs-sebastopol-1935", "Sebastopol", 48000, 1935, "301575", None, "1:48,000 advance sheet, surveyed 1935"),
+    Sheet("usgs-duncans-mills-1945", "Duncans Mills", 31680, 1945, "296063", None, "1:31,680 sheet, edition of 1945"),
+    Sheet("usgs-cazadero-1945", "Cazadero", 31680, 1945, "302658", None, "1:31,680 sheet, surveyed 1943, edition of 1945"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
@@ -235,6 +242,16 @@ class Frame:
 def sheet_resolution(sheet_id: str) -> float:
     with rasterio.open(sheet_path(BY_ID[sheet_id])) as d:
         return d.res[0]
+
+
+@cache
+def sheet_bounds(sheet_id: str) -> tuple[float, float, float, float]:
+    """The scan's extent in lon/lat, collar included."""
+    with rasterio.open(sheet_path(BY_ID[sheet_id])) as d:
+        b = d.bounds
+        lon, lat = pyproj.Transformer.from_crs(d.crs, "EPSG:4326", always_xy=True).transform(
+            [b.left, b.right, b.left, b.right], [b.bottom, b.bottom, b.top, b.top])
+    return min(lon), min(lat), max(lon), max(lat)
 
 
 def render(frame: Frame) -> np.ndarray:

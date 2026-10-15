@@ -22,6 +22,7 @@ running.
 | East Bay streetcars (Oakland Traction's successors) | 18 lines in Oakland, Berkeley, Alameda and Richmond, street by street | The Railroad Commission's and CPUC's orders of 1931–48, each line drawn for the years its orders show it running (decision 20) | Today's centerlines (`street_routes.py`); Washington St under City Center dashed |
 | Ferries | The Oakland Pier, Alameda Pier and Creek Route ferries; the SF & Alameda ferry (1864–73); Richmond–San Rafael | Halley (1876), the 1883 county history, HABS CA-1888, CRC Decisions 2624, 29338, 29999, 33445, *California Highways and Public Works* (1956) | Over water between terminals (approximate); Richmond–San Rafael from OpenHistoricalMap |
 | Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
+| North Pacific Coast | Sausalito to the Russian River at Monte Rio (decision 21), and its San Rafael branch | The Railroad Commissioners' tenth report (openings by stretch, 1875–77); CRC Decisions 22672 and 34457 (1930, 1933); the San Rafael branch for its running dates (decision 20) | The electric lines' track to San Anselmo, then OpenHistoricalMap's ways, checked on the sheets of 1897–1945 |
 
 ## Not drawn yet, and what each needs
 
@@ -94,9 +95,11 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   **Martinez–Benicia** (1913 to September 15, 1962, CRC D22535, *CH&PW* 1962): dated; their slips need
   a map (the 1898 Karquinez or 1916 Mare Island sheet).
 - **Mare Island, the Petaluma steamers:** dates are web pointers only.
-- **North Pacific Coast:** its openings by stretch (1875–86) and ends (1930, 1933) are sourced, and OHM
-  has its course from San Anselmo to Duncans Mills; its trains are drawn as their own line over the
-  Sausalito–San Anselmo track (decision 21).
+- **North Pacific Coast:** drawn to Sheridan, past Monte Rio. Still to do: Sheridan to Duncans Mills
+  and up Austin Creek to Cazadero (1886), on no sheet of its years (a map to georeference by hand, such
+  as the NPC's own map of about 1900 at Calisphere); its tunnels; the Mill Valley branch; the San
+  Rafael & San Quentin (1870, leased 1875) and the San Quentin ferry, which OHM has from the 1895–97
+  sheets.
 - **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &
   Calistoga:** dated only by search extracts so far.
 

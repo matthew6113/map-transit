@@ -88,6 +88,9 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-oakland-streetcars-1935', url: '/?era=past&year=1935&test=1#map=12.4/37.8150/-122.2400/0/0' },
   { name: 'past-oakland-streetcars-1947', url: '/?era=past&year=1947&test=1#map=12.4/37.8150/-122.2400/0/0' },
   { name: 'past-line-eb-11', url: '/l/eb-11-oakland-ave?era=past&year=1942&test=1&at=99' },
+  { name: 'past-marin-1900', url: '/?era=past&year=1900&test=1#map=9.6/38.1600/-122.7500/0/0' },
+  { name: 'past-marin-1931', url: '/?era=past&year=1931&test=1#map=9.6/38.1600/-122.7500/0/0' },
+  { name: 'past-line-npc', url: '/l/npc-main-line?era=past&year=1900&test=1&at=99' },
 ];
 
 async function settle(page: Page) {
