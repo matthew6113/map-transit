@@ -141,6 +141,7 @@ SHEETS = [
     Sheet("usgs-st-helena-1945", "St Helena", 62500, 1945, "298977", None, "15-minute sheet, edition of 1945"),
     Sheet("usgs-calistoga-1945", "Calistoga", 62500, 1945, "296981", None, "15-minute sheet, edition of 1945"),
     Sheet("usgs-cordelia-1951", "Cordelia", 24000, 1951, "289511", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-fairfield-south-1949", "Fairfield South", 24000, 1949, "290434", 1959, "7.5-minute sheet, aerial photographs of 1948, edition of 1949"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

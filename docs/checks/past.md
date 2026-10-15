@@ -294,6 +294,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 Each end dated by the month of the order or event that brought it, because no source gives the last day. A newspaper of the time would settle it.
 
 - line `calp-vallejo-calistoga` (California Pacific trains, Vallejo to Calistoga), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
+- line `calp-vallejo-suisun` (California Pacific trains, Vallejo to Suisun and Sacramento), closed 1929-06: "Trains Nos. 166-167, 168-169, 170-171 and 172-173, operated between Vallejo and Suisun-Fairfield", discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
 - line `calp-vallejo-junction-ferry` (Vallejo Junction–South Vallejo ferry), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
 - line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass), closed 1941-01: Authorized "to discontinue all regular passenger train service between Tracy and Elmhurst, via Niles" and trains 231 and 232 "between Tracy and Oakland Pier, via Niles", by its order of January 3, 1941, effective twenty days later: on or about January 1941 (decision 17).
 - line `cp-niles-san-jose-trains` (Central Pacific trains to San José by Niles and Milpitas), closed 1940-02: "III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas", by its order of February 13, 1940, effective ten days later: on or about February 1940 (decision 17).
@@ -310,8 +311,9 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 
 | Line | Running on | Still to find |
 |---|---|---|
-| `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
-| `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
+| `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
+| `calp-vallejo-suisun` California Pacific trains, Vallejo to Suisun and Sacramento | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1929-06 (crc-d21194, p. 7) | opening |
+| `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
 | `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
 | `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
 | `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |

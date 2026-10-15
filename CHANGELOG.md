@@ -2,6 +2,18 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The California Pacific to Suisun
+
+- **California Pacific trains, Vallejo to Suisun and Sacramento** (`calp-vallejo-suisun`): from the
+  ferry at South Vallejo by Napa Junction, through Jameson Canyon and by Cordelia, Thomasson and
+  Subeet to Suisun-Fairfield, and on to Sacramento over the Capitol Corridor's track. Drawn from
+  1880, the first date a source shows the line (decision 20), to its end on or about June 1929 (CRC
+  Decision 21194, which names its stations); the stretch beyond Suisun is shown for 1880 and 1889
+  only, since by 1929 the trains turned at Suisun-Fairfield.
+- Geometry along today's track (`rails.py`), split at the fork north of Napa Junction so the two
+  California Pacific lines share it; checked on the 1951 Cordelia and the 1949 Fairfield South
+  sheets (new).
+
 ## 2026-10-15: Railroad reports and journals, re-read on the page images
 
 - **Dates:** the railroad commissioners' report of 1894 prints "To San José … September 15, 1869"

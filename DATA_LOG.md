@@ -231,6 +231,7 @@ The geometry tools are below (decision 12).
 | `usgs-st-helena-1945` | CA_St Helena_298977_1945_62500_geo.tif | 5.292 | `a5919128217d` |
 | `usgs-calistoga-1945` | CA_Calistoga_296981_1945_62500_geo.tif | 5.292 | `3b437a92a9e9` |
 | `usgs-cordelia-1951` | CA_Cordelia_289511_1951_24000_geo.tif | 2.032 | `5e91acd236b3` |
+| `usgs-fairfield-south-1949` | CA_Fairfield South_290434_1949_24000_geo.tif | 2.032 | `4174b070619e` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -306,9 +307,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 106 | 439 | 11 | 459.2 | 467.2 | 110.4 | 8 | 395 |
+| past | 107 | 441 | 11 | 480.7 | 467.2 | 110.4 | 8 | 397 |
 | present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 431, `conflicting_sources` 17, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 738, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 433, `conflicting_sources` 17, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

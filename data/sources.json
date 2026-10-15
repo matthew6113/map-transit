@@ -3063,6 +3063,18 @@
       "notes": "1:31,680 sheet, edition of 1945. HTMC scan 296063, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 c781bde4be859726515c50187f77b02dce3aad4ab26112adff78112d2e57d42e."
     },
     {
+      "id": "usgs-fairfield-south-1949",
+      "title": "Fairfield South, Cal., topographic quadrangle, 1:24,000, 1949, printed 1959",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Fairfield%20South_290434_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1949. HTMC scan 290434, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 4174b070619ed81e58fc9fe9be2463e850e5a5c8433f287d1f37609daaf0b8b7."
+    },
+    {
       "id": "usgs-healdsburg-1940",
       "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
       "author": "U.S. Geological Survey",

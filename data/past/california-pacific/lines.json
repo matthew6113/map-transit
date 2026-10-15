@@ -40,7 +40,7 @@
         {
           "date": "1889",
           "source": "ca-brc-reports-9-12",
-          "pages": "18",
+          "pages": "9 (tenth report)",
           "note": "\"Napa Junction to Calistoga 34.48\" miles, in the California Pacific's mileage."
         },
         {
@@ -56,6 +56,9 @@
       "route": [
         {
           "segment": "calp-south-vallejo-napa-junction"
+        },
+        {
+          "segment": "calp-napa-junction-fork"
         },
         {
           "segment": "calp-napa-junction-yountville"
@@ -116,6 +119,108 @@
       "notes": "The Napa Valley Railroad ran from steamers at Soscol to Napa from July 11, 1865, and reached Calistoga in October 1868 (Napa County history); the California Pacific, which bought it in 1869, joined it at Napa Junction from Vallejo in 1868-69, at \"sundry dates\" its own return gives no details of. So when trains first ran from Vallejo to Calistoga isn't sourced: the map draws them from 1880, the first date a source shows the line (decision 20), in the lighter tint. Soscol and the line of 1865 into Napa by Main Street aren't drawn."
     },
     {
+      "id": "calp-vallejo-suisun",
+      "name": "California Pacific trains, Vallejo to Suisun and Sacramento",
+      "short_name": "Vallejo–Suisun line",
+      "system": "california-pacific",
+      "operators": [
+        {
+          "name": "California Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1929-06"
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1929-06",
+      "status": "closed",
+      "running": [
+        {
+          "date": "1880",
+          "source": "poors-1880",
+          "pages": "973",
+          "note": "\"Line of Road.— South Vallejo, Cal., to Sacramento, Cal 61.18 miles.\""
+        },
+        {
+          "date": "1889",
+          "source": "ca-brc-reports-9-12",
+          "pages": "9 (tenth report)",
+          "note": "\"Vallejo to Sacramento 60.39\" miles, in the California Pacific's mileage."
+        },
+        {
+          "date": "1929-06",
+          "source": "crc-d21194",
+          "pages": "7",
+          "note": "Trains Nos. 166 to 173 \"operated between Vallejo and Suisun-Fairfield\"."
+        }
+      ],
+      "summary": "Trains from the ferry at South Vallejo by Napa Junction, Jameson Canyon and Cordelia to Suisun, on the California Pacific's line to Sacramento; by 1929 they ran only as far as Suisun-Fairfield.",
+      "fate": "converted_to_bus",
+      "fate_note": "Discontinued on or about June 1929, with the trains to Calistoga and the Vallejo Junction ferry, for the Southern Pacific's own motor coaches (CRC Decision No. 21194).",
+      "route": [
+        {
+          "segment": "calp-south-vallejo-napa-junction"
+        },
+        {
+          "segment": "calp-napa-junction-fork"
+        },
+        {
+          "segment": "calp-suisun-fork-suisun"
+        },
+        {
+          "segment": "cc-suisun-davis",
+          "running": [
+            "1880",
+            "1889"
+          ],
+          "note": "On to Sacramento in 1880 and 1889; by 1929 the trains turned at Suisun-Fairfield"
+        }
+      ],
+      "continues_beyond": "Sacramento",
+      "sources": [
+        {
+          "source": "poors-1880",
+          "supports": [
+            "route"
+          ],
+          "pages": "973"
+        },
+        {
+          "source": "ca-brc-reports-9-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "9 (tenth report)"
+        },
+        {
+          "source": "crc-d21194",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "1, 7, 9",
+          "note": "\"Trains Nos. 166-167, 168-169, 170-171 and 172-173, operated between Vallejo and Suisun-Fairfield\", discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "The California Pacific opened its road from Vallejo to Sacramento in 1868-70, at \"sundry dates\" its own return gives no details of, so the map draws its trains from 1880, the first date a source shows the line (decision 20), in the lighter tint. West of Suisun it is drawn on today's track, checked on the 1949-51 sheets; from Suisun to Davis on the Capitol Corridor's. When the trains stopped running on to Sacramento isn't sourced: that stretch is shown for 1880 and 1889 only."
+    },
+    {
       "id": "calp-vallejo-junction-ferry",
       "name": "Vallejo Junction–South Vallejo ferry",
       "short_name": "Vallejo Junction ferry",
@@ -141,7 +246,7 @@
         {
           "date": "1889",
           "source": "ca-brc-reports-9-12",
-          "pages": "18",
+          "pages": "9 (tenth report)",
           "note": "\"a ferry line from Vallejo to Vallejo Junction, connecting there with the Northern Railway for San Francisco\"."
         },
         {
