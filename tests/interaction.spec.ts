@@ -124,6 +124,22 @@ test('year slider works from the keyboard and lands in the URL', async ({ page }
   await page.getByRole('button', { name: 'Pause' }).click();
 });
 
+test('the past era lists the lines running in the slider year first, the rest dimmed (decision 14)', async ({ page }) => {
+  await page.goto('/?era=past&year=1910&test=1');
+  await ready(page);
+  const running = page.locator('.line-group.running');
+  const other = page.locator('.line-group.other');
+  await expect(running.locator('.line-group-head')).toContainText('Running in 1910');
+  await expect(running).toContainText('Peninsula trains');
+  await expect(running).not.toContainText('Yellow line');
+  await expect(other).toContainText('Yellow line');
+  // The groups follow the slider.
+  const slider = page.getByRole('slider', { name: 'Year' });
+  await slider.fill('1990');
+  await expect(running.locator('.line-group-head')).toContainText('Running in 1990');
+  await expect(running).toContainText('Yellow line');
+});
+
 test('reduced motion: a line opens without a flight', async ({ browser }) => {
   const context = await browser.newContext({ reducedMotion: 'reduce' });
   const page = await context.newPage();

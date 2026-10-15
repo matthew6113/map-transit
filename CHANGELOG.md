@@ -2,6 +2,13 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the line list follows the year
+
+- **The past era's line list follows the slider** (decision 14): the lines running in the chosen year
+  come first, the rest follow, dimmed.
+- **A line's pieces keep to its own dates.** In the past era a line is hovered and listed only while
+  it ran, even where its track is older: Caltrain runs on track of 1863, but from 1980.
+
 ## 2026-10-14: Phase 2b, the Sacramento Northern to Bay Point
 
 - **The Oakland, Antioch & Eastern / Sacramento Northern** (`data/past/sacramento-northern/`):

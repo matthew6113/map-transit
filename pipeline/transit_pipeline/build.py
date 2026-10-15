@@ -307,11 +307,18 @@ def main() -> None:
             for r, parts in zip(line["route"], oriented):
                 seg = route_segments[r["segment"]]["properties"]
                 o, c, borrowed, undated = display(r["segment"])
-                # A line's use of a segment can be narrower than the segment's own life.
+                # A line's use of a segment can be narrower than the segment's own life: its route
+                # entry's from/to, and the line's own sourced dates (Caltrain runs on track of 1863,
+                # but only from 1980).
                 if r.get("from"):
                     o = max(o or -math.inf, decimal_year(r["from"]))
                 if r.get("to"):
                     c = min(c if c is not None else math.inf, decimal_year(r["to"]))
+                lo, lc = line_years(line)
+                if lo is not None and o is not None and not undated:
+                    o = max(o, lo)
+                if lc is not None and c is not None and not undated:
+                    c = min(c, lc)
                 # The segment's own dates, so the line's pieces match the drawn ones.
                 for coords, off in slots(parts, MODE_GROUP[line["mode"]], r["segment"]):
                     fid += 1

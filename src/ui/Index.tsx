@@ -8,6 +8,8 @@ import { formatYears, modeVar, trackFrom } from './format';
 interface Props {
   era: Era;
   lines: LineRecord[];
+  /** Past era: the lines on the map in the slider's year, and that year (decision 14). */
+  running?: { year: number; ids: Set<string> };
   hiddenGroups: ModeGroup[];
   onToggleGroup: (group: ModeGroup) => void;
   openId: string | null;
@@ -20,7 +22,7 @@ interface Props {
  * The legend is the filter: each mode chip turns its lines on and off on the map and in the list.
  * The list is the screen-reader equivalent of the canvas.
  */
-export function Index({ era, lines, hiddenGroups, onToggleGroup, openId, onOpen, onExpand }: Props) {
+export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand }: Props) {
   const [open, setOpen] = useState(() => typeof matchMedia === 'function' && !matchMedia('(max-width: 719px)').matches);
   const [query, setQuery] = useState('');
   const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era)), [lines, era]);
@@ -34,6 +36,14 @@ export function Index({ era, lines, hiddenGroups, onToggleGroup, openId, onOpen,
     .filter((l) => !hiddenGroups.includes(l.group))
     .filter((l) => !q || `${l.name} ${l.system_name} ${l.mode_label}`.toLowerCase().includes(q))
     .sort((a, b) => MODE_GROUPS.indexOf(a.group) - MODE_GROUPS.indexOf(b.group) || a.name.localeCompare(b.name));
+  // In the past era the list follows the slider: the lines running that year first, the rest dimmed
+  // below them (decision 14). Search still finds every line.
+  const groups = running
+    ? [
+        { key: 'running', head: `Running in ${running.year}`, items: shown.filter((l) => running.ids.has(l.id)) },
+        { key: 'other', head: `Not running in ${running.year}`, items: shown.filter((l) => !running.ids.has(l.id)) },
+      ].filter((g) => g.items.length)
+    : [{ key: 'all', head: '', items: shown }];
 
   return (
     <section class="index" aria-label="Lines and legend">
@@ -64,21 +74,26 @@ export function Index({ era, lines, hiddenGroups, onToggleGroup, openId, onOpen,
             <input type="search" placeholder="Find a line" value={query}
               onInput={(e) => setQuery((e.currentTarget as HTMLInputElement).value)} />
           </label>
-          <ul class="line-list">
-            {shown.map((l) => (
-              <li key={l.id}>
-                <button type="button" aria-current={l.id === openId ? 'true' : undefined}
-                  onClick={(e) => onOpen(l.id, e.currentTarget)}>
-                  <span class="name"><i style={{ background: modeVar(l.group) }} />{l.name}</span>
-                  <span class="where">
-                    {l.system_name} · {l.mode_label}
-                    {' · '}
-                    {l.era === 'future' ? STATUSES[l.status].label : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
-                  </span>
-                </button>
-              </li>
-            ))}
-          </ul>
+          {groups.map((g) => (
+            <div key={g.key} class={`line-group ${g.key}`}>
+              {g.head && <h3 class="line-group-head">{g.head} <span class="n">{g.items.length}</span></h3>}
+              <ul class="line-list">
+                {g.items.map((l) => (
+                  <li key={l.id}>
+                    <button type="button" aria-current={l.id === openId ? 'true' : undefined}
+                      onClick={(e) => onOpen(l.id, e.currentTarget)}>
+                      <span class="name"><i style={{ background: modeVar(l.group) }} />{l.name}</span>
+                      <span class="where">
+                        {l.system_name} · {l.mode_label}
+                        {' · '}
+                        {l.era === 'future' ? STATUSES[l.status].label : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
           {shown.length === 0 && <p class="empty">{inEra.length ? 'No lines match.' : emptyNote(era)}</p>}
         </div>
       )}
