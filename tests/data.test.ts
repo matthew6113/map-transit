@@ -419,15 +419,33 @@ describe('geometry', () => {
     const near = (x: number, y: number) =>
       Math.min(Math.abs(x - x0), Math.abs(x - x1), Math.abs(y - y0), Math.abs(y - y1)) < 0.002;
     const allSegs = new Map(folders.flatMap((f) => f.segments.map((s) => [s.properties.id, s] as const)));
+    // Stretches of today's network are cut at build time (extensions.py), and may be split where
+    // their lines part (`<id>-1`); a past line over one may run on beyond the county line on it.
+    type Drawn = { properties: { seg: string }; geometry: { type: string; coordinates: unknown } };
+    const today: Drawn[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
+    const stretch = (sid: string) => today.filter((x) => x.properties.seg === sid || new RegExp(`^${sid}-\\d+$`).test(x.properties.seg));
+    const inside = ([x, y]: number[]) => {
+      let odd = false;
+      for (const ring of boundary) {
+        for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+          const [xi, yi] = ring[i];
+          const [xj, yj] = ring[j];
+          if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) odd = !odd;
+        }
+      }
+      return odd;
+    };
     for (const f of folders) {
       for (const l of f.lines) {
         if (!(l as { continues_beyond?: string }).continues_beyond) continue;
+        const onToday = l.route.flatMap((r) => (allSegs.has(r.segment) ? [] : stretch(r.segment).map((x) => x.geometry)));
+        const beyond = f.era === 'past' && onToday.some((g) => coordsOf(g.coordinates).some((c) => !inside(c)));
         const geoms = l.route.map((r) => allSegs.get(r.segment)?.geometry).filter((g) => !!g);
         // The ends of every part, for the county line (all vertices would be slow there).
         const ends = geoms.flatMap((g) => (g!.type === 'LineString' ? [g!.coordinates as number[][]] : (g!.coordinates as number[][][])))
           .flatMap((part) => (part.length ? [part[0], part[part.length - 1]] : []));
         const touches = geoms.some((g) => coordsOf(g!.coordinates).some(([x, y]) => near(x, y)))
-          || (f.era === 'past' && ends.some((c) => toBoundary(c) < 0.0005));
+          || (f.era === 'past' && ends.some((c) => toBoundary(c) < 0.0005)) || beyond;
         expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge or the county line`).toBe(true);
       }
     }
@@ -524,7 +542,9 @@ describe('app files (data/app/)', () => {
     }
     for (const f of past) {
       const p = f.properties;
-      const users = [...pastLines.filter((l) => l.route.some((r) => r.segment === p.seg)).map((l) => l.id),
+      // A stretch of today's network may be split where its lines part (`<id>-1`, `<id>-2`).
+      const names = (sid: string) => p.seg === sid || new RegExp(`^${sid}-\\d+$`).test(p.seg);
+      const users = [...pastLines.filter((l) => l.route.some((r) => names(r.segment))).map((l) => l.id),
                      ...[...(presentUse.get(p.seg) ?? [])].filter((id) => earlier.has(id))];
       expect(users.length, `${p.seg}: drawn in a past mode, but no past line uses it`).toBeGreaterThan(0);
       const own = present.filter((x) => x.properties.seg === p.seg);

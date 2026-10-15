@@ -48,6 +48,12 @@
       "short_name": "Caltrain"
     },
     {
+      "id": "central-pacific",
+      "name": "Central Pacific Railroad",
+      "short_name": "Central Pacific",
+      "notes": "The Pacific Railroad's western end: the 1869 line into Oakland, and its Northern Railway along the bay shore to Martinez (1876-78) and by the Benicia train ferry to Suisun (1879). Leased to the Southern Pacific Company from 1885."
+    },
+    {
       "id": "clay-street-hill-railroad",
       "name": "Clay Street Hill Railroad",
       "short_name": "Clay St Hill RR",

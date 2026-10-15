@@ -23,6 +23,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `bbr-east-approach` East Bay approach and yards | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/bbr-east-approach.jpg) |
 | `ier-bridge-lead` Interurban lead to 26th Street | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/ier-bridge-lead.jpg) |
 | `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2a/traces/transbay-terminal.jpg) |
+| `cp-port-costa-benicia-ferry` Port Costa to Benicia, the train ferry | approximate |  |  | [review](../screenshots/p2c/traces/cp-port-costa-benicia-ferry.jpg) |
+| `cp-benicia-waterfront` Benicia, the ferry slip to the line near Army Point | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-benicia-waterfront-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-benicia-waterfront-2.jpg) |
 | `eb-washington-12th-13th-link` Washington St, where it stops today to 13th St | approximate |  |  |  |
 | `eb-washington-13th-san-pablo-link` Washington St, 13th St to San Pablo Ave | approximate |  |  |  |
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |

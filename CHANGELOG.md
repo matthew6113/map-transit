@@ -2,6 +2,21 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The Central Pacific by the Benicia ferry
+
+- **The Capitol Corridor's track is dated** by stretch: West Oakland to Shell Mound August 16, 1876,
+  Shell Mound to Martinez January 9, 1878, Benicia to Suisun December 28, 1879 (the Northern
+  Railway, from the Railroad Commissioners' reports), and the Martinez–Benicia bridge October 15,
+  1930 (*Southern Pacific Bulletin*). Suisun to Davis, the California Pacific's of 1868–69, stays
+  undated: the company itself reported only "sundry dates".
+- **Central Pacific trains, Oakland to Sacramento by the Benicia ferry** (`central-pacific/`): from
+  the Oakland Mole along the bay shore to Port Costa, across the Carquinez Strait on the train ferry
+  (drawn over water between the slips of the 1898 Karquines sheet) and by Benicia's waterfront to
+  Suisun, December 28, 1879 to October 15, 1930, when the bridge replaced the ferry.
+- Two USGS sheets added: Karquines 1898 and Benicia 1952.
+- `npm test` follows a past line onto present track split where today's lines part (`<id>-1`), and
+  accepts a line that runs on beyond the county line over today's track.
+
 ## 2026-10-15: The San Francisco & North Pacific
 
 - **SMART's track is dated** stretch by stretch from the railroad's own openings, as Caltrain's is:

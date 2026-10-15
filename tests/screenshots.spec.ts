@@ -96,6 +96,8 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-north-bay-1940', url: '/?era=past&year=1940&test=1#map=9.2/38.2500/-122.7000/0/0' },
   { name: 'past-line-sfnp-tiburon', url: '/l/sfnp-tiburon?era=past&year=1888&test=1&at=99' },
   { name: 'present-smart', url: '/?era=present&test=1#map=9.6/38.2000/-122.6500/0/0' },
+  { name: 'past-line-cp-benicia', url: '/l/cp-oakland-sacramento-benicia?era=past&year=1900&test=1&at=99' },
+  { name: 'past-carquinez-1900', url: '/?era=past&year=1900&test=1#map=12.6/38.0450/-122.1550/0/0' },
 ];
 
 async function settle(page: Page) {

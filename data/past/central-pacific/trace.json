@@ -1,0 +1,41 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Central Pacific's lines off today's track.",
+ "segments": {
+  "cp-port-costa-benicia-ferry": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.1837,
+       38.046
+      ],
+      [
+       -122.164852,
+       38.044654
+      ]
+     ]
+    }
+   ],
+   "check": "usgs-karquines-1898",
+   "note": "Port Costa's slip read off the 1898 Karquines sheet; Benicia's at the end of the waterfront track"
+  },
+  "cp-benicia-waterfront": {
+   "parts": [
+    {
+     "ohm": [
+      200464960
+     ],
+     "to": [
+      -122.128005,
+      38.047605
+     ]
+    }
+   ],
+   "check": [
+    "usgs-karquines-1898",
+    "usgs-benicia-1952"
+   ],
+   "note": "Cut where it meets today's track near Army Point. OpenHistoricalMap's way was traced from the 1902 Napa sheet (1:125,000); on the 1952 sheet it lies along the waterfront track"
+  }
+ }
+}

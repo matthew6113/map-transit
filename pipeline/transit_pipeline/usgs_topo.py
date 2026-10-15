@@ -119,6 +119,9 @@ SHEETS = [
     Sheet("usgs-healdsburg-1940", "Healdsburg", 62500, 1940, "297672", None, "15-minute sheet, surveyed 1933, edition of 1940"),
     Sheet("usgs-asti-1959", "Asti", 24000, 1959, "288086", 1961, "7.5-minute sheet, aerial photographs of 1957, edition of 1959"),
     Sheet("usgs-cloverdale-1960", "Cloverdale", 24000, 1960, "289371", 1962, "7.5-minute sheet, aerial photographs of 1957, edition of 1960"),
+    # The Carquinez Strait: the Port Costa-Benicia train ferry (1879-1930) and the bridge that replaced it.
+    Sheet("usgs-karquines-1898", "Karquines", 62500, 1898, "297860", None, "15-minute sheet, surveyed 1896, edition of 1898"),
+    Sheet("usgs-benicia-1952", "Benicia", 24000, 1952, "288320", None, "7.5-minute sheet, edition of 1952"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

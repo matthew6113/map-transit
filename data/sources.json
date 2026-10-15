@@ -1036,6 +1036,18 @@
       "notes": "Each railroad's return gives the dates its stretches were \"opened for public use\"; the North Pacific Coast's is on p. 154 (Sausalito to Tomales, January 11, 1875; Tomales to Howards, October 16, 1876; Howards to Tyrone, April 2, 1877; Tyrone to Duncans, May 15, 1877), and the report's brief histories (p. 18) add \"Duncans to Cazadero April 11, 1886\". A Google scan; read in archive.org's OCR text."
     },
     {
+      "id": "ca-brc-report-1894",
+      "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+      "author": "Board of Railroad Commissioners of the State of California",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1894",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa00caligoog",
+      "license": "Public domain (State of California publication of 1894)",
+      "accessed": "2026-10-15",
+      "notes": "The railroads' returns, with each stretch's date \"opened for public use\" on its own line; the Northern Railway's is on p. 46 of its return (\"From Shell Mound to Martinez January 9, 1878. From Benicia to Suisun December 28, 1879\"; its West Oakland date reads \"August 17, 1886\" in the OCR, where the tenth report has August 16, 1876). A Google scan; read in archive.org's OCR text."
+    },
+    {
       "id": "caltrain-early-milestones",
       "title": "Caltrain early milestones",
       "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
@@ -2720,6 +2732,17 @@
       "notes": "Occidental (Howard's), p. 201: \"the railroad reached this point, and the first passenger train arrived here October 16, 1876.\" Pages are the printed page numbers in the running heads. Read in archive.org's OCR text."
     },
     {
+      "id": "sp-bulletin-1930-11",
+      "title": "Southern Pacific Bulletin, vol. 18, no. 11-12 (November-December 1930)",
+      "publisher": "Southern Pacific Company",
+      "date": "1930-11",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_002071",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "The Martinez-Benicia bridge \"was opened to regular train service on October 15\" (p. 3), and \"will take the place of the train ferry service which has handled freight and passenger trains across Carquinez Straits since 1879\"; \"in December, 1879, there was completed the more direct low-level route through Port Costa and across Carquinez Straits to Benicia and Suisun\" (p. 5). California State Railroad Museum scan; read in its OCR text, pages as the research notes give them."
+    },
+    {
       "id": "sp-bulletin-1936-01",
       "title": "Southern Pacific Bulletin, January 1936",
       "publisher": "Southern Pacific Company",
@@ -2796,6 +2819,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1957, edition of 1959. HTMC scan 288086, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 627539aa3ad57828027bfb15042353c71760ec1df456d46c333bdc92e5232b9e."
+    },
+    {
+      "id": "usgs-benicia-1952",
+      "title": "Benicia, Cal., topographic quadrangle, 1:24,000, 1952",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1952",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Benicia_288320_1952_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, edition of 1952. HTMC scan 288320, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 fc85d0208b2715e7110e3580813935c1bd722d94c11909496dcfb4b4142418d2."
     },
     {
       "id": "usgs-birds-landing-1953",
@@ -2928,6 +2963,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 291408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2aebec44aa8844ebadfd5458cc3e7965182c8111facbe73afec8fc5d0fff80ea."
+    },
+    {
+      "id": "usgs-karquines-1898",
+      "title": "Karquines, Cal., topographic quadrangle, 1:62,500, 1898",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1898",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Karquines_297860_1898_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1896, edition of 1898. HTMC scan 297860, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 85c0c3d48a804be9e9e8b7842bb68836a81333c2741966755b6ff64eb4f6a96d."
     },
     {
       "id": "usgs-montara-mountain-1949",

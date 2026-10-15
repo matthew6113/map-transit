@@ -1862,7 +1862,165 @@
             }
           ]
         }
-      }
+      },
+      "stations": {
+        "Sixteenth Street, West Oakland": [
+          -122.297821,
+          37.817497
+        ],
+        "Shell Mound": [
+          -122.2912,
+          37.8346
+        ],
+        "Port Costa": [
+          -122.182689,
+          38.046931
+        ],
+        "Benicia junction": [
+          -122.128005,
+          38.047605
+        ]
+      },
+      "segments": [
+        {
+          "id": "cc-west-oakland-shell-mound",
+          "name": "West Oakland to Shell Mound",
+          "line": "capitol-corridor",
+          "from": "Sixteenth Street, West Oakland",
+          "to": "Shell Mound",
+          "opened": "1876-08-16",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "The Northern Railway: \"From West Oakland to Shell Mound the road was opened August 16, 1876\"."
+            }
+          ],
+          "notes": "The Northern Railway's line north from West Oakland, opened in 1876; the Capitol Corridor's trains have run on it since 1991. Cut at today's track nearest the old Sixteenth Street station and at Shell Mound as the 1899 San Francisco sheet labels it (south of today's Emeryville station). The first biennial report's OCR reads \"August 17, 1886\", a misreading."
+        },
+        {
+          "id": "cc-shell-mound-port-costa",
+          "name": "Shell Mound to Port Costa, by Berkeley, Richmond and Pinole",
+          "line": "capitol-corridor",
+          "from": "Shell Mound",
+          "to": "Port Costa",
+          "opened": "1878-01-09",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Martinez, January 9, 1878\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Shell Mound to Martinez January 9, 1878.\""
+            }
+          ],
+          "notes": "The Northern Railway's line along the bay shore to Martinez, opened in 1878. Cut at Port Costa, where trains for Sacramento took the train ferry to Benicia from 1879 to 1930; the slip as the 1898 Karquines sheet places it, on today's track."
+        },
+        {
+          "id": "cc-port-costa-martinez",
+          "name": "Port Costa to Martinez",
+          "line": "capitol-corridor",
+          "from": "Port Costa",
+          "to": "Martinez",
+          "opened": "1878-01-09",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Martinez, January 9, 1878\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Shell Mound to Martinez January 9, 1878.\""
+            }
+          ],
+          "notes": "The Northern Railway's line to Martinez, opened in 1878."
+        },
+        {
+          "id": "cc-martinez-benicia",
+          "name": "Martinez to Benicia, over the Martinez-Benicia bridge",
+          "line": "capitol-corridor",
+          "from": "Martinez",
+          "to": "Benicia junction",
+          "opened": "1930-10-15",
+          "sources": [
+            {
+              "source": "sp-bulletin-1930-11",
+              "supports": [
+                "opened"
+              ],
+              "pages": "3",
+              "note": "\"The Martinez-Benicia bridge was opened to regular train service on October 15\" (1930)."
+            }
+          ],
+          "notes": "The Southern Pacific's bridge across Suisun Bay, which replaced the train ferry from Port Costa. The first stretch east of Martinez is the older line toward Tracy (1878), dated here with the bridge. Cut where the bridge line meets the line of 1879 from Benicia's waterfront, near Army Point."
+        },
+        {
+          "id": "cc-benicia-suisun",
+          "name": "Benicia to Suisun-Fairfield, by Cordelia",
+          "line": "capitol-corridor",
+          "from": "Benicia junction",
+          "to": "Suisun-Fairfield",
+          "opened": "1879-12-28",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Suisun, December 28, 1879, joining there the California Pacific Railroad\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Benicia to Suisun December 28, 1879.\""
+            }
+          ],
+          "notes": "The Northern Railway's line from the Benicia ferry slip to Suisun, opened in 1879; today's track joins it near Army Point."
+        },
+        {
+          "id": "cc-suisun-davis",
+          "name": "Suisun-Fairfield to Davis, by Dixon",
+          "line": "capitol-corridor",
+          "from": "Suisun-Fairfield",
+          "to": "Davis",
+          "opened": null,
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "The Northern Railway joined \"the California Pacific Railroad\" at Suisun, \"forming a short line from San Francisco to Sacramento\"."
+            }
+          ],
+          "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
+        }
+      ]
     },
     "gold-runner": {
       "lines": {

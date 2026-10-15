@@ -1,0 +1,105 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The Central Pacific and its Northern Railway. Research: docs/research/sources-2c/railroads.md, section 2.",
+  "lines": [
+    {
+      "id": "cp-oakland-sacramento-benicia",
+      "name": "Central Pacific trains, Oakland to Sacramento by the Benicia ferry",
+      "short_name": "By the Benicia ferry",
+      "system": "central-pacific",
+      "operators": [
+        {
+          "name": "Central Pacific Railroad",
+          "from": "1879-12-28",
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1930-10-15"
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1879-12-28",
+      "closed": "1930-10-15",
+      "status": "closed",
+      "summary": "The low-level route to Sacramento: from the ferry at Oakland along the bay shore by Berkeley and Richmond to Port Costa, across the Carquinez Strait on the train ferry to Benicia, and on by Suisun and Davis.",
+      "fate": "replaced_by_rail",
+      "fate_note": "Replaced on October 15, 1930 by the Martinez-Benicia bridge, a mile and a half east (Southern Pacific Bulletin, November-December 1930).",
+      "continues_beyond": "Sacramento",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "from": "1881-02",
+          "note": "The Oakland Mole and its depot, opened in February 1881 (Wood, 1883, p. 631); before it, the Long Wharf, not drawn."
+        },
+        {
+          "segment": "sp-mole-16th-st",
+          "from": "1881-02"
+        },
+        {
+          "segment": "cc-west-oakland-shell-mound"
+        },
+        {
+          "segment": "cc-shell-mound-port-costa"
+        },
+        {
+          "segment": "cp-port-costa-benicia-ferry"
+        },
+        {
+          "segment": "cp-benicia-waterfront"
+        },
+        {
+          "segment": "cc-benicia-suisun"
+        },
+        {
+          "segment": "cc-suisun-davis"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "10",
+          "note": "\"From West Oakland to Shell Mound the road was opened August 16, 1876; to Martinez, January 9, 1878; to Suisun, December 28, 1879, joining there the California Pacific Railroad, and forming a short line from San Francisco to Sacramento, in connection with the ferry system of the Central Pacific Railroad.\""
+        },
+        {
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "46"
+        },
+        {
+          "source": "sp-bulletin-1930-11",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "3",
+          "note": "The bridge \"was opened to regular train service on October 15\"; \"in December, 1879, there was completed the more direct low-level route through Port Costa and across Carquinez Straits to Benicia and Suisun\" (p. 5)."
+        },
+        {
+          "source": "wood-1883",
+          "supports": [
+            "route"
+          ],
+          "pages": "631",
+          "note": "The Oakland Mole's depot \"was opened with a grand ball in February, 1881\"."
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn from the Oakland Mole; between the Mole's track at Sixteenth Street and today's line there is a short gap. The trains over the bridge after 1930 aren't drawn yet: no source read here shows them running to Sacramento. Its operator's change to the Southern Pacific (a lease of 1885) isn't dated from a source read here."
+    }
+  ]
+}
