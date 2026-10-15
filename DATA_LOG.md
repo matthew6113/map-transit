@@ -259,7 +259,7 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 87 | 392 | 11 | 52.1 | 457.8 | 77.5 | 8 | 358 |
+| past | 87 | 392 | 11 | 52.1 | 457.3 | 77.5 | 8 | 358 |
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
