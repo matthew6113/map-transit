@@ -422,6 +422,20 @@
       ],
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15
+    },
+    "sf-fillmore-broadway-green": {
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Broadway",
+          "to": "Green Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
     }
   }
 }

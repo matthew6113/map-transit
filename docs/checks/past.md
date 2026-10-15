@@ -99,6 +99,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sf-valencia-16th-mission` Valencia St, 16th St to Mission St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-valencia-16th-mission.jpg) |
 | `sf-haight-market-stanyan` Haight St, Market St to Stanyan St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-haight-market-stanyan.jpg) |
 | `sf-castro-market-18th` Castro St, Market St to 18th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-castro-market-18th.jpg) |
+| `sf-fillmore-broadway-green` Fillmore St, Broadway to Green St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-fillmore-broadway-green.jpg) |
 | `muni-geary-market-van-ness` Geary St, Market St to Van Ness Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-market-van-ness.jpg) |
 | `muni-geary-van-ness-2nd` Geary Blvd, Van Ness Ave to 2nd Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-van-ness-2nd.jpg) |
 | `muni-geary-2nd-10th` Geary Blvd, 2nd Ave to 10th Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-2nd-10th.jpg) |

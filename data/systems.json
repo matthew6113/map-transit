@@ -98,6 +98,11 @@
       "short_name": "Market St Cable"
     },
     {
+      "id": "market-street-railway",
+      "name": "Market Street Railway and United Railroads",
+      "short_name": "Market St Ry / URR"
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"

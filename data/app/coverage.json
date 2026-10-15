@@ -1,11 +1,11 @@
 {
   "past": {
-    "lines": 42,
-    "segments": 156,
+    "lines": 43,
+    "segments": 157,
     "points": 11,
     "km_by_confidence": {
       "approximate": 76.9,
-      "digitized": 257.4,
+      "digitized": 257.7,
       "surveyed": 52.1
     },
     "undated_segments": 8,

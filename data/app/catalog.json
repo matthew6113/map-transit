@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        147,
         148,
         149,
-        150
+        150,
+        151
       ],
       "segments": [
         {
@@ -1882,7 +1882,6 @@
         37.793407
       ],
       "fids": [
-        151,
         152,
         153,
         154,
@@ -1891,7 +1890,8 @@
         157,
         158,
         159,
-        160
+        160,
+        161
       ],
       "segments": [
         {
@@ -2782,14 +2782,14 @@
         37.793407
       ],
       "fids": [
-        176,
         177,
         178,
         179,
         180,
         181,
         182,
-        183
+        183,
+        184
       ],
       "segments": [
         {
@@ -3975,7 +3975,6 @@
         37.806482
       ],
       "fids": [
-        184,
         185,
         186,
         187,
@@ -3987,7 +3986,8 @@
         193,
         194,
         195,
-        196
+        196,
+        197
       ],
       "segments": [
         {
@@ -4400,7 +4400,6 @@
         37.80035
       ],
       "fids": [
-        161,
         162,
         163,
         164,
@@ -4414,7 +4413,8 @@
         172,
         173,
         174,
-        175
+        175,
+        176
       ],
       "segments": [
         {
@@ -4809,7 +4809,6 @@
         37.81612
       ],
       "fids": [
-        272,
         273,
         274,
         275,
@@ -4817,7 +4816,8 @@
         277,
         278,
         279,
-        280
+        280,
+        281
       ],
       "segments": [
         {
@@ -5151,7 +5151,6 @@
         37.824321
       ],
       "fids": [
-        254,
         255,
         256,
         257,
@@ -5159,7 +5158,8 @@
         259,
         260,
         261,
-        262
+        262,
+        263
       ],
       "segments": [
         {
@@ -5639,14 +5639,14 @@
         37.805981
       ],
       "fids": [
-        197,
         198,
         199,
         200,
         201,
         202,
         203,
-        204
+        204,
+        205
       ],
       "segments": [
         {
@@ -5894,6 +5894,115 @@
       ]
     },
     {
+      "id": "sf-fillmore-counterbalance",
+      "name": "Fillmore Hill counterbalance",
+      "system": "market-street-railway",
+      "system_name": "Market Street Railway and United Railroads",
+      "operators": [
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1941-04-05"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1895",
+      "closed": "1941-04-05",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Streetcars worked up and down Fillmore St's steepest blocks, from Broadway to Green St, by a counterbalance.",
+      "fate": "converted_to_bus",
+      "fate_note": "Ended on April 5, 1941, the same day as the Castro St cable line (Callwell p. 41).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1895",
+          "to": "1941-04-05"
+        }
+      ],
+      "notes": "Drawn as a cable line: the cars were worked by a counterbalance on this block. Who ran it before the Market Street Railway isn't sourced here.",
+      "flags": [],
+      "undated": false,
+      "length_km": 0.21,
+      "confidence_km": {
+        "digitized": 0.21
+      },
+      "bbox": [
+        -122.43532,
+        37.794281,
+        -122.434939,
+        37.796162
+      ],
+      "fids": [
+        147
+      ],
+      "segments": [
+        {
+          "id": "sf-fillmore-broadway-green",
+          "name": "Fillmore St, Broadway to Green St",
+          "opened": "1895",
+          "closed": "1941-04-05",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Fillmore Street centerline from Broadway to Green Street (211 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [],
+          "notes": "The steepest block of the Fillmore St line, worked by a counterbalance."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed"
+          ],
+          "pages": "86",
+          "note": "The counterbalance on Fillmore St. between Broadway and Green St., from 1895."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-geary-st-cable",
       "name": "Geary Street cable line",
       "system": "geary-street-park-ocean-railroad",
@@ -6079,7 +6188,6 @@
         37.806482
       ],
       "fids": [
-        205,
         206,
         207,
         208,
@@ -6088,7 +6196,8 @@
         211,
         212,
         213,
-        214
+        214,
+        215
       ],
       "segments": [
         {
@@ -7066,7 +7175,6 @@
         37.824321
       ],
       "fids": [
-        263,
         264,
         265,
         266,
@@ -7074,7 +7182,8 @@
         268,
         269,
         270,
-        271
+        271,
+        272
       ],
       "segments": [
         {
@@ -8073,7 +8182,6 @@
         37.891351
       ],
       "fids": [
-        232,
         233,
         234,
         235,
@@ -8085,7 +8193,8 @@
         241,
         242,
         243,
-        244
+        244,
+        245
       ],
       "segments": [
         {
@@ -8788,12 +8897,12 @@
         37.7762
       ],
       "fids": [
-        295,
         296,
         297,
         298,
         299,
-        300
+        300,
+        301
       ],
       "segments": [
         {
@@ -9070,7 +9179,6 @@
         37.7762
       ],
       "fids": [
-        284,
         285,
         286,
         287,
@@ -9080,7 +9188,8 @@
         291,
         292,
         293,
-        294
+        294,
+        295
       ],
       "segments": [
         {
@@ -11812,7 +11921,6 @@
         37.824321
       ],
       "fids": [
-        245,
         246,
         247,
         248,
@@ -11820,7 +11928,8 @@
         250,
         251,
         252,
-        253
+        253,
+        254
       ],
       "segments": [
         {
@@ -12319,7 +12428,6 @@
         37.891481
       ],
       "fids": [
-        215,
         216,
         217,
         218,
@@ -12335,7 +12443,8 @@
         228,
         229,
         230,
-        231
+        231,
+        232
       ],
       "segments": [
         {
@@ -14373,9 +14482,9 @@
         37.803847
       ],
       "fids": [
-        281,
         282,
-        283
+        283,
+        284
       ],
       "segments": [
         {

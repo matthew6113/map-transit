@@ -941,6 +941,59 @@
       ],
       "flags": [],
       "notes": "Dated to 1906, the year the earthquake ended Market St's cable lines; the last day isn't given."
+    },
+    {
+      "id": "sf-fillmore-counterbalance",
+      "name": "Fillmore Hill counterbalance",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1941-04-05"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1895",
+          "to": "1941-04-05"
+        }
+      ],
+      "era": "past",
+      "opened": "1895",
+      "closed": "1941-04-05",
+      "status": "closed",
+      "summary": "Streetcars worked up and down Fillmore St's steepest blocks, from Broadway to Green St, by a counterbalance.",
+      "fate": "converted_to_bus",
+      "fate_note": "Ended on April 5, 1941, the same day as the Castro St cable line (Callwell p. 41).",
+      "route": [
+        {
+          "segment": "sf-fillmore-broadway-green"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "86",
+          "note": "The counterbalance on Fillmore St. between Broadway and Green St., from 1895."
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "41",
+          "note": "April 5, 1941: the last day of the Fillmore St. counterbalance."
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as a cable line: the cars were worked by a counterbalance on this block. Who ran it before the Market Street Railway isn't sourced here."
     }
   ]
 }

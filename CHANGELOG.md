@@ -2,6 +2,11 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the Fillmore Hill counterbalance
+
+- **The Fillmore Hill counterbalance** on Fillmore St from Broadway to Green St, 1895 to April 5,
+  1941 (Callwell pp. 41, 86), drawn as a cable line.
+
 ## 2026-10-15: Phase 2c, the SP's Oakland street lines
 
 - **The Eighteenth Street line** (March 21, 1912, as announced, to March 26, 1933): from the

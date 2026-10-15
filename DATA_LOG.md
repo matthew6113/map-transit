@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy and first cable lines to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -258,7 +258,7 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 42 | 156 | 11 | 52.1 | 257.4 | 76.9 | 8 | 123 |
+| past | 43 | 157 | 11 | 52.1 | 257.7 | 76.9 | 8 | 123 |
 | present | 44 | 103 | 275 | 1939.3 | 0 | 0 | 9 | 30 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
