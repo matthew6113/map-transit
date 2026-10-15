@@ -171,7 +171,7 @@ def main() -> None:
                 about.append(f"- line `{p['id']}` ({p['name']}), closed {p.get('closed')}: {c['note']}")
     lines += (about or ["None yet."]) + [""]
 
-    lines += ["## Drawn for its running dates (decision 20, open for review)", "",
+    lines += ["## Drawn for its running dates (decision 20)", "",
               "Each line whose opening or closing isn't sourced, drawn only for the years a source shows it "
               "running. Its first and last days are still to find; until then it appears late and leaves early.", "",
               "| Line | Running on | Still to find |", "|---|---|---|"]

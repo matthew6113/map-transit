@@ -5,7 +5,7 @@ no source page could be opened, and the five research passes left reading plans 
 the network allowed archive.org, files.cpuc.ca.gov and www.loc.gov, a second round of passes read the
 sources themselves (`sources-2c/`), and the San Francisco and East Bay streetcars and five ferries
 were drawn from them. Many streetcar lines' openings and some of their ends aren't sourced, so
-decision 20 (proposed, open for Matthew's review) draws a line for the years a source shows it
+decision 20 (approved at the checkpoint) draws a line for the years a source shows it
 running.
 
 ## Drawn in Phase 2c
@@ -21,7 +21,7 @@ running.
 | Golden Gate Ferries | The Hyde St–Berkeley ferry closes on or about August 1937 | CRC Decision 29999 (decision 17) | (already drawn) |
 | East Bay streetcars (Oakland Traction's successors) | 18 lines in Oakland, Berkeley, Alameda and Richmond, street by street | The Railroad Commission's and CPUC's orders of 1931–48, each line drawn for the years its orders show it running (decision 20) | Today's centerlines (`street_routes.py`); Washington St under City Center dashed |
 | Ferries | The Oakland Pier, Alameda Pier and Creek Route ferries; the SF & Alameda ferry (1864–73); Richmond–San Rafael | Halley (1876), the 1883 county history, HABS CA-1888, CRC Decisions 2624, 29338, 29999, 33445, *California Highways and Public Works* (1956) | Over water between terminals (approximate); Richmond–San Rafael from OpenHistoricalMap |
-| Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20, proposed) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
+| Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 
 ## Not drawn yet, and what each needs
 
@@ -95,8 +95,8 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   a map (the 1898 Karquinez or 1916 Mare Island sheet).
 - **Mare Island, the Petaluma steamers:** dates are web pointers only.
 - **North Pacific Coast:** its openings by stretch (1875–86) and ends (1930, 1933) are sourced, and OHM
-  has its course from San Anselmo to Duncans Mills; it waits on how to draw its trains over the
-  Sausalito–San Anselmo track, which the map shows as the 1903 electric line's.
+  has its course from San Anselmo to Duncans Mills; its trains are drawn as their own line over the
+  Sausalito–San Anselmo track (decision 21).
 - **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &
   Calistoga:** dated only by search extracts so far.
 
@@ -110,9 +110,10 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
 
 ## For Matthew
 
-- **Decision 20 (proposed):** draw a line whose opening or closing isn't sourced for the years a
-  source shows it running, in the lighter tint (`docs/DECISIONS.md`). 46 lines rest on it; the
-  alternative leaves them undated (ghost overlay only).
+- **Decided at the checkpoint:** decision 20 is approved, and the North Pacific Coast is drawn as its
+  own line over the track it shared with the electric lines (decision 21).
+- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which this
+  environment's network policy blocks; allowing it would let the checks below be done here.
 - **Page images:** every archive.org quote of this phase is from the OCR text; the page images can't
   be opened from this environment. `docs/checks/past.md` lists the records; the SF PUC report's
   date column, lined up by order for six lines, most needs a look.

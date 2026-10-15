@@ -55,7 +55,7 @@ def line_sources(line: dict, segments: dict) -> list[dict]:
         m["supports"] += [x for x in ref.get("supports", []) if x not in m["supports"]]
     return list(merged.values())
 
-# Decision 20 (open for Matthew's review): draw a line whose opening or closing isn't sourced for
+# Decision 20: draw a line whose opening or closing isn't sourced for
 # the years a source shows it running (its `running` dates). False leaves such lines undated.
 RUNNING_DATES = True
 

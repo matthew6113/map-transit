@@ -265,7 +265,7 @@ Each end dated by the month of the order or event that brought it, because no so
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 
-## Drawn for its running dates (decision 20, open for review)
+## Drawn for its running dates (decision 20)
 
 Each line whose opening or closing isn't sourced, drawn only for the years a source shows it running. Its first and last days are still to find; until then it appears late and leaves early.
 

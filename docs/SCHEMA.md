@@ -104,7 +104,7 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
   test checks.
 - A past line whose opening or closing isn't sourced can list in `running[]` the dates a cited source
   shows it in service (`{date, source, pages, note}`): a route list, a timetable, an order describing
-  it. The map draws it for those years, lighter (decision 20, open for review); `opened` and `closed`
+  it. The map draws it for those years, lighter (decision 20); `opened` and `closed`
   stay null with their flags. A route entry's `running` names the dates that show that stretch,
   where it isn't in all of them.
 - Every line in `data/past/` has the status `closed`.

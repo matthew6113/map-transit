@@ -140,10 +140,10 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     a short quote, and each `sources.json` entry says "copyright status unknown; cited for facts
     only".
 
-## Proposed in Phase 2c (2026-10-15, open for Matthew's review)
+## Made by Matthew (2026-10-15, Phase 2c review)
 
 20. **A line a source shows running, but whose opening or closing isn't sourced, is drawn for the
-    years it's shown.** (open for Matthew's review)
+    years it's shown.** Matthew approved it at the Phase 2c checkpoint.
     - The case: San Francisco's numbered streetcar lines are listed street by street in Manley's
       inspection report of February 1, 1909 and O'Shaughnessy's city report of May 1929, and
       Oakland's in the Railroad Commission's abandonment orders of 1944–48. Few of their openings are
@@ -163,6 +163,13 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       on to it. The route may have changed in between; the panel gives the dates the route rests on.
     - The alternative is to keep these lines undated: drawn only in the ghost overlay, listed in the
       slider's note. `RUNNING_DATES = False` in `build.py` does that.
+21. **The North Pacific Coast is its own line over the track it shared with the 1903 electric
+    lines.** Its trains ran from Sausalito by San Anselmo from 1875; the North Shore electrified that
+    track in 1903, and the map already drew it as the electric lines'. The NPC (with its successors'
+    steam trains, under the North Shore and the Northwestern Pacific) is a line of its own whose
+    route runs over the same segments, and the shared segments take the track's dates, as today's
+    track does under decision 13. The other option, drawing the NPC only from San Anselmo north with
+    a note, was not taken.
 
 ## Today's network, dated (2026-10-14, Phase 2b)
 
