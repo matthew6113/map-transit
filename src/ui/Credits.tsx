@@ -16,12 +16,15 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. Today's lines from GTFS feeds:{' '}
       <a href="https://511.org/open-data/transit">511.org</a> (MTC),{' '}
       <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; BRT lanes from{' '}
-      <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL). Future
+      <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL); their opening dates from the
+      records of BART, SFMTA, VTA, Caltrain, SMART, the ferry operators, ACE, the Capitol Corridor, Amtrak, AC Transit,
+      MTC, SFCTA, Alameda CTC and the CPUC. Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
       County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Past lines traced from
       the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
       Historical Topographic Map Collection</a> (public domain) and along today's street centerlines from Overture Maps
-      (ODbL), with dates from California Railroad Commission decisions, period journals and newspapers. Sources for every
+      (ODbL), with dates from California Railroad Commission decisions, period journals, newspapers and city
+      directories, and Muni's own chronology. Sources for every
       line are in its panel.
     </>
   );

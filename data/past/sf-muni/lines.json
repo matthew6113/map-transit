@@ -1,0 +1,844 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Muni's first streetcar lines (Phase 2b.D): A, B and E from Callwell's chronology (Muni, 1999); C, D, F and H from Muni's and the PUC's reports and O'Shaughnessy's 1929 routes. Research: docs/research/sf-street-railways.md.",
+  "lines": [
+    {
+      "id": "muni-a-geary-10th",
+      "name": "A Geary–10th Avenue",
+      "short_name": "A",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1932-12"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1932-12",
+      "status": "closed",
+      "summary": "Muni's first line: from Kearny St and Market St out Geary St and up 10th Ave to Golden Gate Park.",
+      "fate": "abandoned",
+      "fate_note": "Its 10th Ave service was abandoned in December 1932, after the Market Street Railway's 31 Balboa line opened alongside (Callwell p. 39).",
+      "route": [
+        {
+          "segment": "muni-geary-market-van-ness"
+        },
+        {
+          "segment": "muni-geary-van-ness-2nd"
+        },
+        {
+          "segment": "muni-geary-2nd-10th"
+        },
+        {
+          "segment": "muni-10th-geary-fulton"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "39",
+          "note": "\"The A-line service on 10th Ave. was abandoned in December 1932 because of the competition from the 31 line.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet."
+    },
+    {
+      "id": "muni-b-geary",
+      "name": "B Geary",
+      "short_name": "B",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1912-12-28",
+          "to": "1956-12-29"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1912-12-28",
+      "closed": "1956-12-29",
+      "status": "closed",
+      "summary": "A shuttle on Geary from 10th to 33rd Aves on Muni's first day, then from June 25, 1913 the Ferry Building to Ocean Beach, out Market and Geary and by 33rd Ave, Balboa St, 45th Ave and Cabrillo St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses replaced the B after December 29, 1956, leaving only the J, K, L, M and N streetcar lines (Callwell p. 48).",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "from": "1913-06-25",
+          "to": "1949-03-21",
+          "note": "On Market St's outside tracks to the Ferry Building until March 21, 1949"
+        },
+        {
+          "segment": "muni-f-market-1st-kearny",
+          "from": "1913-06-25",
+          "note": "On Market St's outside tracks"
+        },
+        {
+          "segment": "muni-geary-market-van-ness",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-geary-van-ness-2nd",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-geary-2nd-10th",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-geary-10th-33rd"
+        },
+        {
+          "segment": "muni-33rd-geary-balboa",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-balboa-33rd-45th",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-45th-balboa-cabrillo",
+          "from": "1913-06-25"
+        },
+        {
+          "segment": "muni-cabrillo-45th-la-playa",
+          "from": "1913-06-25"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "29",
+          "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "30",
+          "note": "\"The Geary line began service from the Ferry Building to the beach on June 25th\" (1913); \"the city opted to extend its line on 33rd Ave., Balboa, 45th Ave., and Cabrillo to Ocean Beach.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "48",
+          "note": "December 29, 1956: \"Last day of the B streetcar line on Geary\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "46",
+          "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "29",
+          "note": "April 22, 1913: the Lower Market Street Agreement \"allowed for the joint use of the outside Market St. tracks (and the outside loop on state-owned land at the Ferry Building) by Muni and URR streetcar lines\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Muni's own reports give June 24 or 25, 1913 for the run to the beach; Callwell gives June 25. From March 22, 1949 it turned at the Transbay Terminal by 1st and Fremont Sts (Callwell p. 46); that loop isn't drawn, nor the Ferry Building loop. Whether it kept the 33rd Ave, Balboa St and 45th Ave route to the end isn't sourced yet."
+    },
+    {
+      "id": "muni-e-union",
+      "name": "E Union",
+      "short_name": "E",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1913-12-11",
+          "to": "1947-06-08"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1913-12-11",
+      "closed": "1947-06-08",
+      "status": "closed",
+      "summary": "The Presidio & Ferries' streetcar line, bought by the city in 1913: from the Ferry Building by Jackson and Washington Sts, Columbus Ave and Union St to Cow Hollow and The Presidio. Named the E in 1915.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by trolley and motor buses after June 8, 1947 (Callwell p. 45).",
+      "route": [
+        {
+          "segment": "muni-e-embarcadero"
+        },
+        {
+          "segment": "muni-e-washington"
+        },
+        {
+          "segment": "muni-e-jackson"
+        },
+        {
+          "segment": "sf-columbus-washington-union"
+        },
+        {
+          "segment": "sf-union-columbus-larkin"
+        },
+        {
+          "segment": "muni-e-larkin"
+        },
+        {
+          "segment": "muni-e-vallejo-larkin-van-ness"
+        },
+        {
+          "segment": "muni-e-vallejo-van-ness-franklin",
+          "to": "1919-07-22"
+        },
+        {
+          "segment": "muni-e-franklin",
+          "to": "1919-07-22"
+        },
+        {
+          "segment": "muni-van-ness-vallejo-union",
+          "from": "1919-07-22",
+          "note": "By Van Ness Ave from July 22, 1919"
+        },
+        {
+          "segment": "muni-union-van-ness-franklin",
+          "from": "1919-07-22"
+        },
+        {
+          "segment": "sf-union-franklin-steiner"
+        },
+        {
+          "segment": "muni-e-union-steiner-baker"
+        },
+        {
+          "segment": "muni-e-baker"
+        },
+        {
+          "segment": "muni-e-greenwich"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "pages": "31",
+          "note": "December 11, 1913: the city buys the Presidio & Ferries RR and \"begins Muni streetcar service on the company's line\", then running \"from the Ferry Building, on The Embarcadero, Jackson (westbound) and Washington (eastbound), Columbus Ave., Union, Larkin, Vallejo, Franklin, then back to Union, Baker, Greenwich, and a right of way in The Presidio.\" It \"was named the E line in February 1915.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "45",
+          "note": "June 8, 1947: \"Last day of streetcar service on the E line, with trolley and motor buses\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n135",
+          "note": "July 22, 1919: \"Changed and shortened route of Van Ness avenue line (\\\"D\\\") and Union street line (\\\"E\\\")\", with new track \"On Union Street between Franklin Street and Van Ness Avenue\"."
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "E in 1929: The Embarcadero, Washington, Columbus, Union, Larkin, Vallejo, Van Ness, Union, Baker, Greenwich and a private right-of-way to the Presidio Loop, returning by Jackson St."
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as Callwell describes it at the city's purchase in 1913, and from July 22, 1919 by Van Ness Ave instead of Franklin St (Muni's report for 1919-20; O'Shaughnessy, 1929). A branch to Stockton and Ellis Sts from January 24, 1916 isn't drawn, nor its right-of-way in The Presidio."
+    },
+    {
+      "id": "muni-c-california",
+      "name": "C Geary–California",
+      "short_name": "C",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1915-02-19",
+          "to": null
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1915-02-19",
+      "closed": null,
+      "status": "closed",
+      "summary": "From the Ferry Building out Market and Geary Sts, then by 2nd Ave and Cornwall St along California St to 33rd Ave at Lincoln Park.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "to": "1949-03-21",
+          "note": "To the Ferry Building until March 21, 1949"
+        },
+        {
+          "segment": "muni-f-market-1st-kearny"
+        },
+        {
+          "segment": "muni-geary-market-van-ness"
+        },
+        {
+          "segment": "muni-geary-van-ness-2nd"
+        },
+        {
+          "segment": "muni-2nd-ave-geary-cornwall"
+        },
+        {
+          "segment": "muni-cornwall-2nd-california"
+        },
+        {
+          "segment": "muni-california-cornwall-13th"
+        },
+        {
+          "segment": "muni-california-13th-33rd",
+          "from": "1915-03-28",
+          "note": "To 33rd Ave from March 28, 1915"
+        }
+      ],
+      "sources": [
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"February 19, 1915. California Street line in operation to Thirteenth avenue.\" \"March 28, 1915. California Street line in operation to Thirty-third avenue.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened"
+          ],
+          "pages": "scan n47",
+          "note": "\"August 15, 1914, Van Ness Avenue (D) and Potrero Avenue (H) went into operation\"; \"December 28, 1914, Stockton Street Line (F) went into operation\"; \"February 19th, California Street to 33rd Avenue (C).\""
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "(Line \"C\") \"from the Ferries to 33rd Avenue and California Street via Geary, Second Avenue, Cornwall and California Streets\""
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "C: \"From Ferry Loop via Market Street, Geary St., 2nd Ave., Cornwall St. and California St. to 33rd Ave.\""
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "general"
+          ],
+          "pages": "165",
+          "note": "Planned: \"March 5, 1950 … Letter \\\"C\\\" California line—Street car to motor coach.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "46",
+          "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        }
+      ],
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but the change itself isn't recorded in the sources reached, so its end is left open."
+    },
+    {
+      "id": "muni-d-van-ness",
+      "name": "D Van Ness–Union",
+      "short_name": "D",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-08-15",
+          "to": "1950-03-19"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1914-08-15",
+      "closed": "1950-03-19",
+      "status": "closed",
+      "summary": "Up Van Ness Ave to the Panama-Pacific Exposition from 1914, soon from the Ferry Building by Market and Geary Sts; from 1919 by Union, Steiner and Greenwich Sts to the Presidio.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches took over on March 19, 1950, as line 45 (PUC annual report 1949-50, p. 43).",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "from": "1915",
+          "to": "1941-01-01",
+          "note": "To the Ferry Building, from 1915 until the Bridge Terminal took over on January 1, 1941"
+        },
+        {
+          "segment": "muni-f-market-1st-kearny",
+          "from": "1915"
+        },
+        {
+          "segment": "muni-geary-market-van-ness",
+          "from": "1915",
+          "note": "By Geary St to the Ferries from 1915"
+        },
+        {
+          "segment": "muni-van-ness-market-geary",
+          "to": "1915",
+          "note": "From Market St up Van Ness Ave at first"
+        },
+        {
+          "segment": "muni-van-ness-geary-vallejo"
+        },
+        {
+          "segment": "muni-van-ness-vallejo-union"
+        },
+        {
+          "segment": "muni-van-ness-union-chestnut",
+          "to": "1918-05-04"
+        },
+        {
+          "segment": "muni-chestnut-van-ness-fillmore",
+          "to": "1918-05-04",
+          "note": "To Fillmore and Chestnut Sts until May 4, 1918"
+        },
+        {
+          "segment": "muni-union-van-ness-franklin",
+          "from": "1919-07-22"
+        },
+        {
+          "segment": "sf-union-franklin-steiner",
+          "from": "1919-07-22"
+        },
+        {
+          "segment": "muni-steiner-union-greenwich",
+          "from": "1919-07-22"
+        },
+        {
+          "segment": "muni-greenwich-steiner-baker",
+          "from": "1919-07-22"
+        },
+        {
+          "segment": "muni-e-greenwich",
+          "from": "1919-07-22"
+        }
+      ],
+      "sources": [
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"August 15, 1914. Van Ness Avenue line from Market street in operation to Exposition grounds.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened"
+          ],
+          "pages": "scan n47",
+          "note": "\"August 15, 1914, Van Ness Avenue (D) and Potrero Avenue (H) went into operation\"; \"December 28, 1914, Stockton Street Line (F) went into operation\"; \"February 19th, California Street to 33rd Avenue (C).\""
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "general"
+          ],
+          "pages": "14",
+          "note": "Gives August 5, 1914 for the Van Ness Ave line."
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "36-37",
+          "note": "Van Ness Ave \"was converted to transit use with operation from Market Street to the Exposition site along Chestnut Street\"; in 1915 \"D\" ran from the Ferries to the Presidio \"via Geary, Van Ness and Union\"."
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "route"
+          ],
+          "pages": "scan n75",
+          "note": "June 1917: \"Fillmore and Chestnut to Ferries via Van Ness Avenue and Geary.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "route"
+          ],
+          "pages": "scan n95",
+          "note": "May 4, 1918: Greenwich St between Baker and Scott Sts added to the D, and \"Scott Street Between Greenwich and Chestnut Streets (Taken Up)\"; the route became \"Presidio to Ferries via Van Ness Avenue and Geary Street.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n135",
+          "note": "July 22, 1919: \"Changed and shortened route of Van Ness avenue line (\\\"D\\\") and Union street line (\\\"E\\\")\", with new track \"On Union Street between Franklin Street and Van Ness Avenue\"."
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "D: \"From Ferry Loop via Market Street, Geary St., Van Ness Avenue, Union Street, Steiner St., Greenwich St. and Private Right of Way to Presidio Loop.\""
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "274",
+          "note": "January 1, 1941: the D's eastern terminal moved to the Bridge Terminal."
+        },
+        {
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "43",
+          "note": "\"On March 19, 1950 … street car lines \\\"D\\\" (Van Ness-Union) and \\\"H\\\" (Van Ness-Potrero) switched to motor coach operation\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "O'Shaughnessy gives August 5, 1914 for its first day; Muni's reports give August 15. Its run via Geary St to the Ferries is dated only to 1915 (the city's 1948 transit history), which also puts it on Union St then, against the 1917 route table's Fillmore and Chestnut Sts. Between May 4, 1918 and July 22, 1919 its streets north of Union St aren't known, so that end isn't drawn for those months. Its right-of-way into the Presidio isn't drawn."
+    },
+    {
+      "id": "muni-f-stockton",
+      "name": "F Stockton",
+      "short_name": "F",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-12-29",
+          "to": "1951-01-21"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1914-12-29",
+      "closed": "1951-01-21",
+      "status": "closed",
+      "summary": "From Market St through the Stockton Street Tunnel, by Columbus Ave and North Point St to the Marina at Chestnut and Scott Sts.",
+      "fate": "converted_to_bus",
+      "fate_note": "Trolley coaches (line 30) took over on January 21, 1951 (PUC annual report 1950-51, p. 39).",
+      "route": [
+        {
+          "segment": "muni-stockton-market-bush"
+        },
+        {
+          "segment": "muni-stockton-tunnel"
+        },
+        {
+          "segment": "muni-stockton-sacramento-columbus"
+        },
+        {
+          "segment": "muni-columbus-stockton-north-point"
+        },
+        {
+          "segment": "muni-north-point-columbus-van-ness"
+        },
+        {
+          "segment": "muni-van-ness-chestnut-north-point"
+        },
+        {
+          "segment": "muni-chestnut-van-ness-fillmore"
+        },
+        {
+          "segment": "muni-chestnut-fillmore-scott"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "31",
+          "note": "December 28, 1914: \"Completion of the 911 ft. Stockton St. Tunnel, constructed for streetcar and other traffic, with Muni streetcar service starting the next day.\" \"(Streetcars operated through the tunnel until January 1951.)\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"December 29, 1914. Stockton Street, Columbus Avenue and North Point line in operation through tunnel.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened"
+          ],
+          "pages": "scan n47",
+          "note": "\"August 15, 1914, Van Ness Avenue (D) and Potrero Avenue (H) went into operation\"; \"December 28, 1914, Stockton Street Line (F) went into operation\"; \"February 19th, California Street to 33rd Avenue (C).\""
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "\"from Market and Ellis Streets to Chestnut and Scott Streets via Stockton Street and tunnel, Columbus Avenue, North Point Street, Van Ness Avenue, and Chestnut Street.\""
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "352",
+          "note": "F: \"From Market St. and Ellis St. via Stockton St., Columbus Ave., North Point St., Van Ness Ave. and Chestnut St. to Scott. St.\""
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "route"
+          ],
+          "pages": "166, 171",
+          "note": "September 8, 1947: \"Line extended to Southern Pacific Depot\" on weekdays and Saturdays."
+        },
+        {
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "39",
+          "note": "\"January 21, 1951, No. 30—Trolley coach line substituted for streetcars on the old \\\"F\\\" line\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn."
+    },
+    {
+      "id": "muni-h-potrero",
+      "name": "H Van Ness–Potrero",
+      "short_name": "H",
+      "system": "muni",
+      "operators": [
+        {
+          "name": "Municipal Railway of San Francisco",
+          "from": "1914-09-07",
+          "to": "1950-03-19"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1914-09-07",
+      "closed": "1950-03-19",
+      "status": "closed",
+      "summary": "From Potrero Ave and Army St by Division and 11th Sts and up Van Ness Ave to Fort Mason, through which it reached the Marina.",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches took over on March 19, 1950, as line 47 (PUC annual report 1949-50, p. 43).",
+      "route": [
+        {
+          "segment": "muni-potrero-army-25th",
+          "from": "1917-01-19"
+        },
+        {
+          "segment": "muni-potrero-25th-division"
+        },
+        {
+          "segment": "muni-division-potrero-11th"
+        },
+        {
+          "segment": "muni-11th-division-market"
+        },
+        {
+          "segment": "muni-van-ness-market-geary",
+          "from": "1914-12-29",
+          "note": "Up Van Ness Ave to Fort Mason from December 29, 1914"
+        },
+        {
+          "segment": "muni-van-ness-geary-vallejo",
+          "from": "1914-12-29"
+        },
+        {
+          "segment": "muni-van-ness-vallejo-union",
+          "from": "1914-12-29"
+        },
+        {
+          "segment": "muni-van-ness-union-chestnut",
+          "from": "1914-12-29"
+        },
+        {
+          "segment": "muni-van-ness-chestnut-north-point",
+          "from": "1914-12-29"
+        },
+        {
+          "segment": "muni-h-fort-mason",
+          "from": "1914-12-29",
+          "to": "1948-01-15",
+          "note": "Through Fort Mason until January 15, 1948"
+        }
+      ],
+      "sources": [
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "scan n80",
+          "note": "\"September 7, 1914. Potrero Avenue line in operation, Eleventh and Market streets to Twenty-fifth street and Potrero avenue.\" \"December 29, 1914. Fort Mason Loop commenced operation.\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "opened"
+          ],
+          "pages": "scan n47",
+          "note": "\"August 15, 1914, Van Ness Avenue (D) and Potrero Avenue (H) went into operation\"; \"December 28, 1914, Stockton Street Line (F) went into operation\"; \"February 19th, California Street to 33rd Avenue (C).\""
+        },
+        {
+          "source": "muni-financial-reports",
+          "supports": [
+            "route"
+          ],
+          "pages": "scan n81",
+          "note": "Extended from 25th Street to Army Street, \"Placed in operation January 19, 1917.\""
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "37",
+          "note": "\"H\"—25th and Potrero to Fort Mason via Van Ness."
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route"
+          ],
+          "pages": "353",
+          "note": "H: \"From Army St. via Potrero Ave., Division St., 11th St., Van Ness Ave., Private Right of Way through Fort Mason to Laguna and Beach Sts.\""
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "route"
+          ],
+          "pages": "172",
+          "note": "January 15, 1948: \"Service to U. S. Docks discontinued by request of the military authorities. Inner terminal established at Bay and Van Ness.\""
+        },
+        {
+          "source": "sf-puc-annual-report-1949",
+          "supports": [
+            "closed"
+          ],
+          "pages": "43",
+          "note": "\"On March 19, 1950 … street car lines \\\"D\\\" (Van Ness-Union) and \\\"H\\\" (Van Ness-Potrero) switched to motor coach operation\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Muni's report for 1914-15 gives August 15, 1914 for its first day; its later reports give September 7. That it ran up Van Ness Ave from the Fort Mason loop's first day, December 29, 1914, is inferred: the city's 1948 transit history gives the route for 1915. Its extension south of Army St (1946-49) isn't drawn."
+    }
+  ]
+}

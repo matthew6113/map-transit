@@ -1,0 +1,370 @@
+{
+  "$comment": "Recipes for the geometry (pipeline/transit_pipeline/past.py): today's street centerlines, checked on the USGS San Francisco North sheet of 1950, which matches today's streets within a few metres (the 15-minute sheets of the 1890s are misplaced by up to a few hundred).",
+  "segments": {
+    "sf-clay-kearny-leavenworth": {
+      "parts": [
+        {
+          "streets": [
+            "Clay Street"
+          ],
+          "from": "Kearny Street",
+          "to": "Leavenworth Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-clay-kearny-drumm": {
+      "parts": [
+        {
+          "streets": [
+            "Clay Street"
+          ],
+          "from": "Drumm Street",
+          "to": "Kearny Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-clay-leavenworth-larkin": {
+      "parts": [
+        {
+          "streets": [
+            "Clay Street"
+          ],
+          "from": "Leavenworth Street",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-larkin-clay-sacramento": {
+      "parts": [
+        {
+          "streets": [
+            "Larkin Street"
+          ],
+          "from": "Clay Street",
+          "to": "Sacramento Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-sacramento-drumm-larkin": {
+      "parts": [
+        {
+          "streets": [
+            "Sacramento Street"
+          ],
+          "from": "Drumm Street",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-sacramento-larkin-fillmore": {
+      "parts": [
+        {
+          "streets": [
+            "Sacramento Street"
+          ],
+          "from": "Larkin Street",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-sutter-market-larkin": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Market Street",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-sutter-larkin-presidio": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Larkin Street",
+          "to": "Presidio Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-california-van-ness-fillmore": {
+      "parts": [
+        {
+          "streets": [
+            "California Street"
+          ],
+          "from": "Van Ness Avenue",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-california-fillmore-presidio": {
+      "parts": [
+        {
+          "streets": [
+            "California Street"
+          ],
+          "from": "Fillmore Street",
+          "to": "Presidio Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-ofarrell-market-jones": {
+      "parts": [
+        {
+          "streets": [
+            "O'Farrell Street"
+          ],
+          "from": "Market Street",
+          "to": "Jones Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-jones-ofarrell-pine": {
+      "parts": [
+        {
+          "streets": [
+            "Jones Street"
+          ],
+          "from": "O'Farrell Street",
+          "to": "Pine Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-pine-jones-hyde": {
+      "parts": [
+        {
+          "streets": [
+            "Pine Street"
+          ],
+          "from": "Jones Street",
+          "to": "Hyde Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-hyde-pine-jackson": {
+      "parts": [
+        {
+          "streets": [
+            "Hyde Street"
+          ],
+          "from": "Pine Street",
+          "to": "Jackson Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-jones-market-ofarrell": {
+      "parts": [
+        {
+          "streets": [
+            "Jones Street"
+          ],
+          "from": "Market Street",
+          "to": "O'Farrell Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-jackson-hyde-steiner": {
+      "parts": [
+        {
+          "streets": [
+            "Jackson Street"
+          ],
+          "from": "Hyde Street",
+          "to": "Steiner Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-steiner-jackson-washington": {
+      "parts": [
+        {
+          "streets": [
+            "Steiner Street"
+          ],
+          "from": "Jackson Street",
+          "to": "Washington Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-washington-steiner-hyde": {
+      "parts": [
+        {
+          "streets": [
+            "Washington Street"
+          ],
+          "from": "Steiner Street",
+          "to": "Hyde Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-jackson-steiner-presidio": {
+      "parts": [
+        {
+          "streets": [
+            "Jackson Street"
+          ],
+          "from": "Steiner Street",
+          "to": "Presidio Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-presidio-jackson-california": {
+      "parts": [
+        {
+          "streets": [
+            "Presidio Avenue"
+          ],
+          "from": "Jackson Street",
+          "to": "California Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-geary-market-presidio": {
+      "parts": [
+        {
+          "streets": [
+            "Geary Street",
+            "Geary Boulevard"
+          ],
+          "from": "Market Street",
+          "to": "Presidio Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-columbus-washington-union": {
+      "parts": [
+        {
+          "streets": [
+            "Columbus Avenue"
+          ],
+          "from": "Washington Street",
+          "to": "Union Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-union-columbus-larkin": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Columbus Avenue",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-union-larkin-franklin": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Larkin Street",
+          "to": "Franklin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-union-franklin-steiner": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Franklin Street",
+          "to": "Steiner Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-castro-18th-26th": {
+      "parts": [
+        {
+          "streets": [
+            "Castro Street"
+          ],
+          "from": "18th Street",
+          "to": "26th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    }
+  }
+}

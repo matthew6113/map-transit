@@ -17,10 +17,19 @@ export function formatLength(km: number): string {
   return `${r(mi)} mi (${r(km)} km)`;
 }
 
-/** "1903 to 1958", "Since 1972", "Opened date not sourced" ... */
-export function formatYears(opened: string | null, closed: string | null, status: string): string {
+/** The earliest sourced opening among a line's segments: when its track first carried passengers. */
+export function trackFrom(segments: { opened: string | null }[]): string | null {
+  const dated = segments.map((s) => s.opened).filter((d): d is string => !!d).sort();
+  return dated[0] ?? null;
+}
+
+/** "1903 to 1958", "Since 1972", "Track from 1972" (the service's own start isn't sourced) ... */
+export function formatYears(opened: string | null, closed: string | null, status: string, track?: string | null): string {
   if (status !== 'closed' && status !== 'active') return '';
-  if (status === 'active') return opened ? `Since ${formatDate(opened)}` : 'Opening date not yet sourced';
+  if (status === 'active') {
+    if (opened) return `Since ${formatDate(opened)}`;
+    return track ? `Track from ${track.replace('~', '').slice(0, 4)}` : 'Opening date not yet sourced';
+  }
   return `${opened ? formatDate(opened) : 'opening not sourced'} to ${closed ? formatDate(closed) : 'closing not sourced'}`;
 }
 

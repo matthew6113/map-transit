@@ -18,6 +18,7 @@ import lineSchema from '../data/schema/line.schema.json';
 import segmentSchema from '../data/schema/segment.schema.json';
 import pointSchema from '../data/schema/point.schema.json';
 import sourceSchema from '../data/schema/source.schema.json';
+import extSchema from '../data/schema/extensions.schema.json';
 import region from '../src/basemap/region.json';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -31,6 +32,7 @@ const validators = {
   segments: ajv.compile(segmentSchema),
   points: ajv.compile(pointSchema),
   registry: ajv.compile(sourceSchema),
+  extensions: ajv.compile(extSchema),
 };
 
 type Props = Record<string, unknown> & { id: string; flags: string[]; sources: { source: string }[] };
@@ -72,6 +74,8 @@ describe('schemas', () => {
     expect(segmentSchema.$defs.props.properties.structure.anyOf[1].enum).toEqual(vocab.structures);
     expect(pointSchema.$defs.props.properties.kind.enum).toEqual(vocab.point_kinds);
     expect(sourceSchema.$defs.source.properties.type.enum).toEqual(vocab.source_types);
+    expect(extSchema.$defs.segment.properties.structure.enum).toEqual(vocab.structures);
+    expect(extSchema.$defs.flags.items.enum).toEqual(Object.keys(vocab.flags));
   });
 
   it('every mode belongs to a filter group', () => {
@@ -141,9 +145,13 @@ describe('provenance', () => {
     }
   });
 
-  it('keeps each line in its folder era, on segments of that era', () => {
+  it('keeps each line in its folder era, on segments of that era (past lines may also use present track, decision 13)', () => {
+    const idsOf = (era: string) => folders.filter((g) => g.era === era).flatMap((g) => g.segments.map((s) => s.properties.id));
+    // Today's network is cut into dated segments at build time (data/present/extensions.json).
+    const ext = existsSync(join(DATA, 'present', 'extensions.json')) ? read(join(DATA, 'present', 'extensions.json')) : { systems: {} };
+    const extIds = Object.values(ext.systems as Record<string, { segments?: { id: string }[] }>).flatMap((s) => (s.segments ?? []).map((x) => x.id));
     for (const f of folders) {
-      const segs = new Set(folders.filter((g) => g.era === f.era).flatMap((g) => g.segments.map((s) => s.properties.id)));
+      const segs = new Set([...idsOf(f.era), ...(f.era === 'past' ? [...idsOf('present'), ...extIds] : [])]);
       for (const l of f.lines) {
         expect(l.era, l.id).toBe(f.era);
         for (const r of l.route) expect(segs, `${l.id} uses ${r.segment}`).toContain(r.segment);
@@ -195,8 +203,17 @@ describe('provenance', () => {
   };
 
   it('keeps a line\'s use of a segment within the dates of both', () => {
+    // Past lines may also run over present track (decision 13), including stretches cut at build time.
+    const extPath = join(DATA, 'present', 'extensions.json');
+    const ext = existsSync(extPath) ? read(extPath) : { systems: {} };
+    const extSegs = Object.values(ext.systems as Record<string, { segments?: { id: string; opened: string | null; closed?: string | null }[] }>)
+      .flatMap((x) => (x.segments ?? []).map((d) => [d.id, { opened: d.opened, closed: d.closed ?? null }] as const));
     for (const f of folders) {
-      const segs = new Map(folders.filter((g) => g.era === f.era).flatMap((g) => g.segments.map((s) => [s.properties.id, s.properties] as const)));
+      const eras = f.era === 'past' ? ['past', 'present'] : [f.era];
+      const segs = new Map<string, { opened: string | null; closed: string | null }>([
+        ...(f.era === 'past' ? extSegs : []),
+        ...folders.filter((g) => eras.includes(g.era)).flatMap((g) => g.segments.map((s) => [s.properties.id, s.properties] as const)),
+      ]);
       for (const l of f.lines) {
         for (const r of l.route as { segment: string; from?: string | null; to?: string | null }[]) {
           const seg = segs.get(r.segment)!;
@@ -246,6 +263,101 @@ describe('provenance', () => {
     for (const { kind, p } of all) {
       const photo = p.photo as { license: string } | undefined;
       if (photo) expect(['public-domain', 'PD-US-expired', 'CC0'], `${kind} ${p.id}`).toContain(photo.license);
+    }
+  });
+});
+
+describe("today's network, dated (data/present/extensions.json)", () => {
+  type Ref = { source: string; supports: string[] };
+  type ExtSeg = { id: string; line: string; opened: string | null; sources: Ref[]; notes?: string };
+  type ExtLine = { opened?: string; sources?: Ref[]; route_from?: Record<string, { from: string }> };
+  type ExtSystem = { segments?: ExtSeg[]; lines?: Record<string, ExtLine>; points?: Record<string, { opened: string; sources: Ref[] }>; dates?: Record<string, { opened: string; sources: Ref[] }> };
+  const path = join(DATA, 'present', 'extensions.json');
+  const ext: { systems: Record<string, ExtSystem> } = existsSync(path) ? read(path) : { systems: {} };
+  const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+  const present = folders.filter((f) => f.era === 'present');
+  const presentLines = new Map(present.flatMap((f) => f.lines.map((l) => [l.id, l] as const)));
+
+  it('matches its schema', () => {
+    expect(validators.extensions(ext), ajv.errorsText(validators.extensions.errors, { separator: '\n' })).toBe(true);
+  });
+
+  it('dates today\'s network from official sources only (a dataset may place a cut point)', () => {
+    // Track older than the service on it (Caltrain's line of 1863, under Caltrain since 1980) is
+    // the past era's: its date may come from any citable source but Wikipedia (CLAUDE.md), and so
+    // may the route of a stretch that carries no date at all.
+    const before = (a: string, b: string) => {
+      const n = Math.min(a.length, b.length);
+      return a.slice(0, n) < b.slice(0, n);
+    };
+    const pastTypes = ['official', 'primary_map', 'primary_document', 'book', 'journal', 'railfan_web', 'dataset'];
+    for (const [sys, s] of Object.entries(ext.systems)) {
+      const service = (line: string) => s.lines?.[line]?.opened;
+      const refs: [string, Ref[], boolean][] = [
+        ...(s.segments ?? []).map((x) => {
+          const started = service(x.line);
+          return [x.id, x.sources, !x.opened || !!(started && before(x.opened, started))] as [string, Ref[], boolean];
+        }),
+        ...Object.entries(s.lines ?? {}).map(([id, x]) => [id, x.sources ?? [], false] as [string, Ref[], boolean]),
+        ...Object.entries(s.points ?? {}).map(([id, x]) => [`${sys} point ${id}`, x.sources, false] as [string, Ref[], boolean]),
+        ...Object.entries(s.dates ?? {}).map(([id, x]) => [id, x.sources, false] as [string, Ref[], boolean]),
+      ];
+      for (const [id, rs, older] of refs) {
+        for (const r of rs) {
+          expect(sourceIds, `${id} cites ${r.source}`).toContain(r.source);
+          const dates = r.supports.some((x) => x !== 'geometry');
+          const allowed = older ? pastTypes : dates ? ['official'] : ['official', 'dataset'];
+          expect(allowed, `${id} cites ${r.source} (${type.get(r.source)}) for ${r.supports}`).toContain(type.get(r.source));
+        }
+      }
+    }
+  });
+
+  it('cites a source for every date, and says why a stretch has none', () => {
+    for (const s of Object.values(ext.systems)) {
+      for (const x of s.segments ?? []) {
+        if (x.opened) expect(x.sources.some((r) => r.supports.includes('opened')), `${x.id}: no source supports its opening`).toBe(true);
+        else expect(x.notes, `${x.id}: opened is null; say why in notes`).toBeTruthy();
+      }
+      for (const [id, l] of Object.entries(s.lines ?? {})) {
+        if (l.opened) expect((l.sources ?? []).some((r) => r.supports.includes('opened')), `${id}: no source supports its opening`).toBe(true);
+      }
+      for (const [id, p] of [...Object.entries(s.points ?? {}), ...Object.entries(s.dates ?? {})]) {
+        expect(p.sources.some((r) => r.supports.includes('opened')), `${id}: no source supports its opening`).toBe(true);
+      }
+    }
+  });
+
+  it('cuts stretches from present lines of the same system, under new ids', () => {
+    const presentSegs = new Set(present.flatMap((f) => f.segments.map((x) => x.properties.id)));
+    const seen = new Set<string>();
+    for (const [sys, s] of Object.entries(ext.systems)) {
+      for (const x of s.segments ?? []) {
+        expect(presentLines.get(x.line)?.system, `${x.id} is cut from ${x.line}`).toBe(sys);
+        expect(seen.has(x.id) || presentSegs.has(x.id), `${x.id} is used twice`).toBe(false);
+        seen.add(x.id);
+      }
+      for (const id of Object.keys(s.lines ?? {})) expect(presentLines.get(id)?.system, `lines.${id}`).toBe(sys);
+      const mine = new Set(present.flatMap((f) => f.lines.filter((l) => l.system === sys).flatMap((l) => l.route.map((r) => r.segment))));
+      for (const id of Object.keys(s.dates ?? {})) expect(mine.has(id), `dates.${id} isn't a segment of ${sys}'s present lines`).toBe(true);
+    }
+  });
+
+  it("keeps a line's later start on a stretch after the stretch and the line opened", () => {
+    const atOrBefore = (a: string, b: string) => {
+      const n = Math.min(a.length, b.length);
+      return a.slice(0, n) <= b.slice(0, n);
+    };
+    for (const s of Object.values(ext.systems)) {
+      const segs = new Map((s.segments ?? []).map((x) => [x.id, x]));
+      for (const [id, l] of Object.entries(s.lines ?? {})) {
+        for (const [sid, r] of Object.entries(l.route_from ?? {})) {
+          const seg = segs.get(sid);
+          expect(seg, `${id} route_from names ${sid}, which isn't a stretch of this system`).toBeTruthy();
+          if (seg?.opened) expect(atOrBefore(seg.opened, r.from), `${id} on ${sid}: ${r.from} is before the stretch opened`).toBe(true);
+          if (l.opened) expect(atOrBefore(l.opened, r.from), `${id} on ${sid}: ${r.from} is before the line opened`).toBe(true);
+        }
+      }
     }
   });
 });
@@ -328,6 +440,33 @@ describe('app files (data/app/)', () => {
         expect([0, 1], `${era} point ${p.id} undated`).toContain(p.undated);
         expect([0, 1], `${era} point ${p.id} borrowed`).toContain(p.borrowed);
         if (!p.undated) expect(p.open_y >= 0 && p.close_y > p.open_y, `${era} point ${p.id} years`).toBe(true);
+      }
+    }
+  });
+
+  it("draw present track in the past era in the mode of the year, without overlaps (Matthew, Oct 14)", () => {
+    type Span = { properties: { seg: string; group: string; open_y: number; close_y: number; span?: number } };
+    const past: Span[] = read(join(DATA, 'app', 'past-draw.geojson')).features.filter((f: Span) => f.properties.span);
+    const present: Span[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
+    const pastLines = folders.filter((f) => f.era === 'past').flatMap((f) => f.lines);
+    // Today's lines that ran in another mode before (Muni's streetcars before Metro) count too.
+    const extPath = join(DATA, 'present', 'extensions.json');
+    const ext: { systems: Record<string, { lines?: Record<string, { earlier_mode?: unknown }> }> } = existsSync(extPath) ? read(extPath) : { systems: {} };
+    const earlier = new Set(Object.values(ext.systems).flatMap((s) => Object.entries(s.lines ?? {}).filter(([, l]) => l.earlier_mode).map(([id]) => id)));
+    const presentUse = new Map<string, Set<string>>();
+    for (const f of read(join(DATA, 'app', 'present-lines.geojson')).features as { properties: { seg: string; line: string } }[]) {
+      if (!presentUse.has(f.properties.seg)) presentUse.set(f.properties.seg, new Set());
+      presentUse.get(f.properties.seg)!.add(f.properties.line);
+    }
+    for (const f of past) {
+      const p = f.properties;
+      const users = [...pastLines.filter((l) => l.route.some((r) => r.segment === p.seg)).map((l) => l.id),
+                     ...[...(presentUse.get(p.seg) ?? [])].filter((id) => earlier.has(id))];
+      expect(users.length, `${p.seg}: drawn in a past mode, but no past line uses it`).toBeGreaterThan(0);
+      const own = present.filter((x) => x.properties.seg === p.seg);
+      for (const x of own) {
+        const overlap = Math.min(p.close_y, x.properties.close_y) - Math.max(p.open_y, x.properties.open_y);
+        expect(overlap, `${p.seg}: ${p.group} ${p.open_y}-${p.close_y} overlaps today's mode ${x.properties.open_y}-${x.properties.close_y}`).toBeLessThanOrEqual(0.001);
       }
     }
   });

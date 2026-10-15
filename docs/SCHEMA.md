@@ -97,7 +97,8 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
   - A borrowed date is drawn in a lighter tint and stated in the panel. The data keeps the `null`.
   - If none of its lines has a sourced date, the segment is **undated**. It is left off the year
     slider, listed in the slider's note, and still drawn in the ghost overlay.
-  - A point borrows from its lines the same way.
+  - A point borrows from its lines the same way. A station of today's network borrows first from
+    the dated track it stands on (`present/extensions.json`), then from its lines.
 - A line's `route[]` entry can narrow its use of a segment with `from` and `to`, as when a line ran
   over a bridge only from 1939 to 1958. Both fall within the segment's dates and the line's, which a
   test checks.
@@ -183,6 +184,50 @@ Points, with these properties:
 - `status`: future projects only; existing, new or rebuilt.
 - `fate`, `photo`
 - The provenance fields.
+
+## Today's network, dated (`present/extensions.json`)
+
+GTFS has no opening dates, and it gives each present line as one segment, so lines that share track
+overlap. `data/present/extensions.json` (schema: `data/schema/extensions.schema.json`) says where
+today's lines were opened in stages, and `extensions.py` applies it in `make app-data`:
+
+- **`segments[]`**, the stretches: `{id, name, line, from, to, opened, sources}`, plus `closed`,
+  `structure`, `flags`, `notes` and `both_ways`.
+  - Each stretch is cut from its `line`'s GTFS geometry, along the shortest path between two
+    stations: a point of the system, or a name in `stations` (`[lon, lat]`, for a street corner or a
+    tunnel portal, each with a source). `both_ways` also takes the way back, round a loop or a pair
+    of one-way streets.
+  - Oldest first: where a stretch runs over track that opened earlier, that part stays with the
+    older stretch, so a junction or a wye opens once.
+  - Each stretch is then split where the lines of its mode part, so every piece is used whole: the
+    Blue line runs over only part of MacArthur to Fremont. Pieces take ids `<id>-1`, `<id>-2` and
+    so on, named for the stations at their ends where both are within 150 m. A past line that names
+    the stretch (decision 13) runs over all its pieces.
+  - Each line's route is rebuilt from the pieces along it, in order. What's left over becomes
+    `<line>-undated-<n>`, "part not yet dated".
+- **`opened` is when the track first carried passengers.** Where today's service runs over older
+  track whose date isn't sourced (the United Railroads' track on Ocean Ave and Taraval St, Market
+  St's street track under the F), it stays `null`, with a note saying why.
+- **`lines`**, by line id: `opened` (when the service began), `sources`, `flags`, `notes`, and
+  `route_from` `{segment: {from, note}}`, where the line began to use a stretch later than both
+  opened (the J into the Market St subway in 1981).
+- **`points`**, by station name: `opened` and `sources`, for a station that opened apart from its
+  track (BART's Embarcadero, 1976). Other stations borrow the date of the track they stand on, for
+  display only (decision 4).
+- **`dates`**, by segment id: a whole present segment dated as it is, with no cut (BRT lanes).
+- **In the past era, present track draws in the mode of the year.** Where past lines use it
+  (decision 13), `build.py` (`mode_spans`) splits its drawing into spans: the past line's mode while
+  it ran (`past-draw`, `span: 1`), today's mode for the rest (`present-draw`). A present line's
+  **`earlier_mode`** `{mode, to, note}` does the same for a line that changed mode itself: Muni's J,
+  K, L, M and N draw as streetcars until their Metro service began (1980–81, Callwell).
+- **Dates come from official sources only,** as for the future era; a dataset may place a cut point.
+  An agency's date announced before the day counts, and the notes say it was announced. Tests check
+  both rules and that every null stretch says why.
+- **Track older than the service on it is a past fact.** Where a stretch opened before its line's
+  own `opened` (Caltrain's 1863–64 track, under Caltrain from 1980), its date may come from any
+  citable source but Wikipedia, as in the past era; so may the route of a stretch with no date.
+- **A station borrows its track's date only if the track is no older than its lines' service,**
+  so Caltrain's stations show from 1980, not 1863.
 
 ## Modes
 

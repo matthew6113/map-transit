@@ -1,6 +1,44 @@
 {
   "sources": [
     {
+      "id": "ace-25-years",
+      "title": "ACE 25-year anniversary",
+      "publisher": "Altamont Corridor Express (San Joaquin Regional Rail Commission)",
+      "type": "official",
+      "url": "https://acerail.com/25-year-anniversary/",
+      "accessed": "2026-10-14",
+      "notes": "\"In 1998, on October 19th, ACE commenced passenger rail service, connecting San Jose and Stockton.\""
+    },
+    {
+      "id": "alameda-ctc-oakland-airport-connector",
+      "title": "BART Oakland Airport Connector now open",
+      "publisher": "Alameda County Transportation Commission",
+      "date": "2014-11",
+      "type": "official",
+      "url": "https://www.alamedactc.org/bart-oakland-airport-connector-now-open",
+      "accessed": "2026-10-14",
+      "notes": "\"began service Saturday, November 22, 2014\": the people mover from Coliseum station to Oakland International Airport."
+    },
+    {
+      "id": "amtrak-media-california-zephyr",
+      "title": "Happy anniversary, California Zephyr",
+      "publisher": "Amtrak",
+      "date": "2024-03",
+      "type": "official",
+      "url": "https://media.amtrak.com/2024/03/happy-anniversary-california-zephyr/",
+      "accessed": "2026-10-14",
+      "notes": "\"Amtrak launched its California Zephyr service in July 1983.\""
+    },
+    {
+      "id": "amtrak-stations-turlock-denair",
+      "title": "Turlock-Denair, CA (TRK)",
+      "publisher": "Amtrak (Great American Stations)",
+      "type": "official",
+      "url": "https://greatamericanstations.com/?p=7131",
+      "accessed": "2026-10-14",
+      "notes": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\". The San Joaquins became the Gold Runner in 2025."
+    },
+    {
       "id": "bam-bart-silicon-valley-phase-2-geometry",
       "title": "VTA GIS alignment",
       "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
@@ -831,6 +869,133 @@
       "notes": "Cited by BAM's valley-link record."
     },
     {
+      "id": "bart-annual-report-1973-74",
+      "title": "BART annual report 1973–74",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1974",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201973-1974%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 4: \"San Francisco local service between Daly City and Montgomery Street began November 5, 1973.\" / \"Through transbay service between Daly City and Concord and between Daly City and Fremont began September 16, 1974.\""
+    },
+    {
+      "id": "bart-annual-report-1974-75",
+      "title": "BART annual report 1974–75",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1975",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%201974-1975%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 9: \"All 71 miles of rapid transit line were in regular passenger service on September 16, 1974\"; before that, a shuttle ran between Montgomery Street and Daly City."
+    },
+    {
+      "id": "bart-annual-report-2003",
+      "title": "BART annual report 2003",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2003",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/BART%202003%20Annual%20Report.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 8: \"The San Francisco International Airport Extension started its revenue operations on June 22, 2003.\""
+    },
+    {
+      "id": "bart-chronology-1947-1991",
+      "title": "BART chronology, 1947–1991",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1947-1991%20BART%20Chronology.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 8: Embarcadero Station \"officially opened for revenue service\" on May 27, 1976."
+    },
+    {
+      "id": "bart-ecc-faq",
+      "title": "East Contra Costa BART Extension FAQ",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/node/28021",
+      "accessed": "2026-10-14",
+      "notes": "\"Revenue service began on Saturday, May 26, 2018.\" The line has two stations and meets the rest of BART at \"a Transfer Platform just east of the Pittsburg Bay Point Station.\""
+    },
+    {
+      "id": "bart-history-rescued",
+      "title": "A History of BART: The Project is Rescued",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "type": "official",
+      "url": "https://www.bart.gov/about/history/history3",
+      "accessed": "2026-10-14",
+      "notes": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\" (1972)"
+    },
+    {
+      "id": "bart-news-releases-1973",
+      "title": "BART news releases, 1973",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1973",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1973%20News%20Releases.pdf",
+      "accessed": "2026-10-14",
+      "notes": "A scanned PDF in BART's 50-years archive; PDF pages cited. p. 33: Richmond service from January 29; pp. 64 and 134: Concord service from May 21; p. 159: San Francisco regular service from Monday, November 5 (November 3 was ceremonies and free rides; p. 171 says service was 'initiated' November 3)."
+    },
+    {
+      "id": "bart-news-releases-1974",
+      "title": "BART news releases, 1974",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1974",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1974%20News%20Releases.pdf",
+      "accessed": "2026-10-14",
+      "notes": "A scanned PDF; p. 141: 7½ miles 'from the Oakland Wye through the transbay tube to San Francisco' remaining to open; only Oakland West and Embarcadero stations still to open, and Embarcadero to be bypassed until completed."
+    },
+    {
+      "id": "bart-report-to-congress-1997",
+      "title": "BART report to Congress, 1997",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "1997",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/1997%20BART%20Report%20to%20Congress.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 5: North Concord/Martinez (December 1995) and Colma (\"opened its doors to the public in February 1996\"); p. 26: \"the December 7, 1996 opening of the new Pittsburg/Bay Point Station\" and the Dublin/Pleasanton line, which meets the main line at Bay Fair."
+    },
+    {
+      "id": "bart-sfo-extension-2003",
+      "title": "Making the Bay Connection: BART–SFO Extension",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2003",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/50-years/2002-2003%20Making%20the%20Bay%20Connection%20BART%20SFO%20Project.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 1: \"An additional 1.2 miles of track have been constructed off the main line to serve the airport from both the north and south.\" The track layout of the wye comes from GTFS, not from this text."
+    },
+    {
+      "id": "bart-timeline-2020",
+      "title": "BART Historical Timeline",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2020-08",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/BARTtimeline_0820%20FINAL.pdf",
+      "accessed": "2026-10-14",
+      "notes": "August 2020. A scanned PDF; quotes are from its machine-read text. It gives May 13, 2020 for Milpitas and Berryessa, which is wrong: VTA and BART's own May 2020 announcement give June 13, 2020."
+    },
+    {
+      "id": "bart-warm-springs-opening",
+      "title": "Warm Springs / South Fremont Station Opening Celebration",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2017-03-24",
+      "type": "official",
+      "url": "https://www.bart.gov/node/25146",
+      "accessed": "2026-10-14",
+      "notes": "\"Service began Saturday, March 25th with the first train departing at 5:48 am.\" The page is dated March 24, 2017; the extension runs 5.4 miles from Fremont."
+    },
+    {
+      "id": "bart-west-dublin-pleasanton",
+      "title": "West Dublin/Pleasanton station",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2011-01",
+      "type": "official",
+      "url": "https://bart.gov/node/12784",
+      "accessed": "2026-10-14",
+      "notes": "An article from before the opening (January 2011): \"Opening day: February 19, 2011.\" BART's facts page (https://www.bart.gov/about/history/facts) gives 2011 after the fact."
+    },
+    {
       "id": "brt-actransit-tempo",
       "title": "AC Transit press release on Tempo's launch",
       "publisher": "AC Transit",
@@ -857,6 +1022,53 @@
       "url": "https://www.vta.org/sites/default/files/route_schedule_pdfs/current/route_522/route_522_schedule.pdf",
       "accessed": "2026-10-13",
       "notes": "Directions: on Alum Rock Ave buses 'Merge Left into Bus Only lane', stop at the 'median BRT stops at Alum Rock & Jackson and Alum Rock & King', and 'Merge Right into regular traffic lane after 34th' (westbound) or 'after Muirfield' (eastbound)."
+    },
+    {
+      "id": "caltrain-early-milestones",
+      "title": "Caltrain early milestones",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/earlymilestones",
+      "accessed": "2026-10-14",
+      "notes": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" December 1935: \"A new terminal opens on Cahill Street in San Jose, now known as San Jose Diridon Station.\" June 23, 1975: \"Fourth and Townsend streets terminal opens in San Francisco.\""
+    },
+    {
+      "id": "caltrain-milestones-1980s",
+      "title": "Caltrain milestones: the 1980s",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/milestones-1980s",
+      "accessed": "2026-10-14",
+      "notes": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\" 1987: \"Peninsula Corridor Study Joint Powers Board is formed.\""
+    },
+    {
+      "id": "caltrain-milestones-1990s",
+      "title": "Caltrain milestones: the 1990s",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/milestones-1990s",
+      "accessed": "2026-10-14",
+      "notes": "July 1, 1992: \"Tamien station opens in San Jose.\" / \"Service is extended to Gilroy.\" / the Joint Powers Board takes over, \"with Amtrak as contract operator.\""
+    },
+    {
+      "id": "capitol-corridor-timeline-1991",
+      "title": "Capitol Corridor timeline: December 1991",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/time-line/december-1991/",
+      "accessed": "2026-10-14",
+      "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
+    },
+    {
+      "id": "cfc-1913-04-19",
+      "title": "Commercial & Financial Chronicle 96(2495), April 19, 1913: Oakland, Antioch & Eastern",
+      "publisher": "Commercial & Financial Chronicle",
+      "date": "1913-04-19",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_commercial-and-financial-chronicle_1913-04-19_96_2495",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\" (archive.org full-text search; the page image still needs checking)"
     },
     {
       "id": "chpw-1939-01-terminal-opened",
@@ -941,6 +1153,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "cpuc-vta-safety-review-2011",
+      "title": "Triennial on-site safety and security review of the Santa Clara Valley Transportation Authority (2011)",
+      "publisher": "California Public Utilities Commission",
+      "date": "2011",
+      "type": "official",
+      "url": "https://docs.cpuc.ca.gov/published/COMMENT_RESOLUTION/141751.htm",
+      "accessed": "2026-10-14",
+      "notes": "Tasman East: \"The first phase, a 1.9-mile extension from North First Street to I-880\", \"opened for revenue service in May 2001\"; \"The second phase, a 2.9-mile segment from I-880 to Hostetter Road\", \"opened for revenue service in June 2004\". \"The Capitol light rail line, a 3.5-mile extension of the Tasman light rail line, opened for revenue service in June 2004.\" It \"travels along Capitol Avenue from just south of Hostetter Road to Alum Rock Avenue\". Tasman West (7.6 miles) since 1999; Vasona since 2005; the Guadalupe line since 1991."
+    },
+    {
       "id": "crc-d12906",
       "title": "Railroad Commission of the State of California, Decision No. 12906 (Case No. 1911): Southern Pacific service over the Harrison Street bridge, Oakland–Alameda",
       "author": "Railroad Commission of the State of California",
@@ -951,6 +1173,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d17097",
+      "title": "Railroad Commission of California, Decision No. 17097 (Application No. 12661)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1926-07-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D17097_19260707_A12661.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Certificate for the Golden Gate Ferry Co.'s auto ferry between San Francisco (Hyde Street) and Berkeley, from a pier at the foot of University Avenue (OCR)."
+    },
+    {
       "id": "crc-d17743",
       "title": "Railroad Commission of the State of California, Decision No. 17743 (Case No. 1536): Southern Pacific electric interurban service in Oakland",
       "author": "Railroad Commission of the State of California",
@@ -959,6 +1191,26 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d20559",
+      "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1928-12-05",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
+      "accessed": "2026-10-14",
+      "notes": "San Jose's relocation: the main line runs \"over tracks laid in Fourth Street, from Julian Street to the southerly end of Fourth Street at Reed Street\"; the new line \"will depart from the existing main line at Polhemus Street and follow the alignment of the existing College Park to Santa Cruz Branch … to a point near San Carlos street. Southerly from San Carlos street an entirely new line is to be constructed on private right-of-way, joining the existing main line near Lick Station\" (OCR)."
+    },
+    {
+      "id": "crc-d22212",
+      "title": "Railroad Commission of California, Decision No. 22212 (Application No. 16292)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-03-18",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22212_19300318_A16292.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Lets the Southern Pacific \"abandon its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\". Recites Decision No. 20459 (November 15, 1928), which let the trains be discontinued for highway work \"between San Jose Avenue and Randall Street\", and that \"during the year ending October 31, 1928, no passengers whatever were carried\" southbound (OCR)."
     },
     {
       "id": "crc-d25740",
@@ -991,6 +1243,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d29464",
+      "title": "Railroad Commission of California, Decision No. 29464 (Application No. 20742)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-01-18",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29464_19370118_A20742.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Southern Pacific Golden Gate Ferries' routes in January 1937, among them San Francisco, Hyde Street - Berkeley and - Sausalito, and Clay Street - Vallejo. The San Francisco-Vallejo ferry was inaugurated by Z. J. and C. N. Hatch in 1895, passed to the Monticello Steamship Co. in 1904, to the Golden Gate Ferry Co. on April 29, 1927, and to Southern Pacific Golden Gate Ferries on May 1, 1929 (OCR)."
+    },
+    {
       "id": "crc-d29614",
       "title": "Railroad Commission of the State of California, Decision No. 29614 (Application No. 21048): bridge railway grade separations, Oakland",
       "author": "Railroad Commission of the State of California",
@@ -1011,6 +1273,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d29999",
+      "title": "Railroad Commission of California, Decision No. 29999 (Application No. 21237)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-08-09",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29999_19370809_A21237.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes Southern Pacific Golden Gate Ferries to abandon the Ferry Building-Oakland (Broadway) and Richmond auto ferries and to \"suspend the operation of the San Francisco-Berkeley\" route for six months (OCR)."
+    },
+    {
       "id": "crc-d30015",
       "title": "Railroad Commission of the State of California, Decision No. 30015 (Application No. 21219): Southern Pacific 'Off-Line' bridge connecting tracks, Oakland and Alameda",
       "author": "Railroad Commission of the State of California",
@@ -1021,6 +1293,36 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d30086",
+      "title": "Railroad Commission of California, Decision No. 30086 (Application No. 20742)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-09-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30086_19370907_A20742.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes the abandonment of the ferry between San Francisco (\"Pier at Foot of Clay Street\") and Vallejo, a service \"continuously in operation since 1896\" (OCR)."
+    },
+    {
+      "id": "crc-d30121",
+      "title": "Railroad Commission of California, Decision No. 30121 (Application No. 20779)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-09-13",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30121_19370913_A20779.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The ferry company, under the Commission's order to abandon its San Francisco-Vallejo route, \"abandoned its service with the close of business September 12th\" (1937; OCR)."
+    },
+    {
+      "id": "crc-d31113",
+      "title": "Railroad Commission of California, Decision No. 31113 (Application No. 22066)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1938-07-19",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D31113_19380719_A22066.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Southern Pacific Golden Gate Ferries asks to abandon its ferries \"Between San Francisco (Hyde Street Terminal) and Sausalito\" and between the foot of Market St and Tiburon. Under Decision No. 20925 (April 1, 1929) the Northwestern Pacific's auto ferry rights between San Francisco and Sausalito passed to the ferry company, which was to use \"the terminal properties of the Northwestern Pacific Railroad Company at Sausalito and Tiburon\" (OCR)."
+    },
+    {
       "id": "crc-d33445",
       "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
       "author": "Railroad Commission of the State of California",
@@ -1029,6 +1331,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d3351",
+      "title": "Railroad Commission of California, Decision No. 3351 (Application No. 1966)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1916-05-20",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D3351_19160520_A1966.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The Southern Pacific's main line in San Jose \"enters the City from the northwest near the end of Autumn Street, runs eastward across San Pedro, North First, North Second and North Third streets and then turns southerly and follows Fourth Street\" (OCR)."
     },
     {
       "id": "crc-d33732",
@@ -1071,6 +1383,16 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d34232",
+      "title": "Railroad Commission of California, Decision No. 34232 (Application No. 24127)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-05-27",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34232_19410527_A24127.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Authorizes the Sacramento Northern to discontinue \"passenger train service between the City and County of San Francisco and Pittsburg\", \"concurrently with and not before the establishment of augmented schedules by Pacific Greyhound Lines\"; recites Decision No. 33416 (August 20, 1940) on West Pittsburg-Sacramento."
+    },
+    {
       "id": "crc-d34389",
       "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
       "author": "Railroad Commission of the State of California",
@@ -1079,6 +1401,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d34457",
+      "title": "Railroad Commission of California, Decision No. 34457 (Application No. 24059)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-07-29",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34457_19410729_A24059.pdf",
+      "accessed": "2026-10-14",
+      "notes": "The Northwestern Pacific's pooling arrangement with Pacific Greyhound \"was canceled March 1, 1941 at which time applicant also discontinued all service on its interurban electric line between Sausalito and San Rafael and on its ferry route between Sausalito and\" San Francisco (OCR)."
     },
     {
       "id": "crc-d34460",
@@ -1156,6 +1488,26 @@
       "notes": "p. 2: \"the Southern Pacific Company electrified 40 miles of its lines radiating from Oakland, Cal., using the 1200-volt overhead-trolley, direct-current system.\""
     },
     {
+      "id": "erj-1913-04-19-oakland-antioch-eastern",
+      "title": "Oakland, Antioch & Eastern Railway",
+      "publisher": "Electric Railway Journal 41(16)",
+      "date": "1913-04-19",
+      "type": "journal",
+      "url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 726-728: \"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point, Contra Costa County, a distance of 31 miles.\" \"From the main Oakland depot at Fortieth Street and Shafter Avenue, near the Key Route's Piedmont terminus, the Oakland, Antioch & Eastern line extends up Shafter Avenue and crosses the north arm of Lake Temescal. Thence it winds up Shepherd Canyon on a 3 per cent grade to the Redwood Peak Tunnel, which pierces the Coast Range for a distance of 3458 ft.\" Trains used \"the Key Route tracks upon the 2-mile Key Route pier\"."
+    },
+    {
+      "id": "golden-gate-ferry-timeline",
+      "title": "Golden Gate Ferry timeline",
+      "publisher": "Golden Gate Bridge, Highway and Transportation District",
+      "type": "official",
+      "url": "https://www.goldengate.org/ferry/history-research/timeline/",
+      "accessed": "2026-10-14",
+      "notes": "August 15, 1970: \"Golden Gate Sausalito Ferry service began.\" December 13, 1976: \"Commute service commenced on the Larkspur route.\" March 6, 2017: weekday commute service between Tiburon and San Francisco. December 13, 2021: \"Golden Gate Ferry began seven day a week service to Angel Island from the San Francisco Ferry Terminal.\""
+    },
+    {
       "id": "gtfs-511",
       "title": "511 SF Bay regional GTFS feed (operator RG)",
       "publisher": "Metropolitan Transportation Commission (511.org)",
@@ -1205,6 +1557,117 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "joepg-1912-03-09",
+      "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
+      "publisher": "Journal of Electricity, Power and Gas",
+      "date": "1912-03-09",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_electrical-west_1912-03-09_28_10",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "p. 217: \"From the Key Route junction at Fortieth street and Shafter avenue, the Oakland and Antioch runs for about 1 3/4 miles along Shafter avenue\"; \"That portion between Bay Point and Walnut Creek was put in commercial operation about six months ago.\""
+    },
+    {
+      "id": "langley-sf-directory-1867",
+      "title": "The San Francisco Directory for the year commencing September, 1867",
+      "author": "Henry G. Langley",
+      "date": "1867",
+      "type": "primary_document",
+      "url": "https://archive.org/details/sanfranciscodire1867lang",
+      "license": "Public domain (published 1867)",
+      "accessed": "2026-10-14",
+      "notes": "p. 37, \"General Review\" (scan n140): the first train of October 17, 1863 ran \"from the Mission Dolores to Big Tree Station\"; \"The principal depot at present is at the corner of Valencia and Market Streets.\""
+    },
+    {
+      "id": "mtc-airtrain-extension-2021",
+      "title": "Post-pandemic travel surge synchs with SFO AirTrain extension, parking promotion",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2021-07-12",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/79246",
+      "accessed": "2026-10-14",
+      "notes": "July 12, 2021: \"When the AirTrain opened in 2003, we always envisioned a future project to create this extension to Long-Term Parking.\" The extension was completed in spring 2021."
+    },
+    {
+      "id": "mtc-alameda-seaplane-2025",
+      "title": "Alameda Seaplane Ferry Route celebrates 1 million riders",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-03-07",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/posts/alameda-seaplane-ferry-route-celebrates-1-million-riders",
+      "accessed": "2026-10-14",
+      "notes": "March 7, 2025: more than 1 million passengers \"since the route's launch on July 1, 2021.\""
+    },
+    {
+      "id": "mtc-richmond-ferry-2019",
+      "title": "Richmond ferry service sets sail",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2019-01-11",
+      "type": "official",
+      "url": "https://es.mtc.ca.gov/node/151841",
+      "accessed": "2026-10-14",
+      "notes": "January 11, 2019: an event on January 10, 2019 \"marked the launch of Richmond ferry service to San Francisco and the opening of the Richmond Ferry Terminal\"."
+    },
+    {
+      "id": "mtc-smart-petaluma-north-2025",
+      "title": "Grand opening of SMART's Petaluma North station set for Friday",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-01-09",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/posts/grand-opening-smarts-petaluma-north-station-set-friday",
+      "accessed": "2026-10-14",
+      "notes": "January 9, 2025: the grand opening of Petaluma North station is \"on Friday\" (January 10, 2025)."
+    },
+    {
+      "id": "mtc-smart-riders-2020",
+      "title": "SMART passengers talk about train",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2020-01-31",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/54791",
+      "accessed": "2026-10-14",
+      "notes": "January 31, 2020: \"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\"."
+    },
+    {
+      "id": "mtc-smart-windsor-2025",
+      "title": "SMART's Windsor service starts",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2025-05-30",
+      "type": "official",
+      "url": "https://blog.bayareametro.gov/node/105680",
+      "accessed": "2026-10-14",
+      "notes": "May 30, 2025 (a Friday): \"Passenger service to the new Windsor station started over the weekend, the Sonoma-Marin Area Rail Transit (SMART) announced.\" Which weekend isn't clear from the date, so only the month is used."
+    },
+    {
+      "id": "mtc-weta-south-san-francisco-2012",
+      "title": "WETA launches new East Bay – South San Francisco ferry",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2012-06-07",
+      "type": "official",
+      "url": "https://es.mtc.ca.gov/node/1091",
+      "accessed": "2026-10-14",
+      "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
+    },
+    {
+      "id": "muni-financial-reports",
+      "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
+      "publisher": "City and County of San Francisco",
+      "type": "official",
+      "url": "https://archive.org/details/financialreport1912sanf_0",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Bound annual reports, each with a chronology and a table of routes. Cited by scan leaf: n47 (1914-15), n75, n80 and n81 (1916-18), n95 (1917-18), n135 (1919-20). Quotes read on the page images."
+    },
+    {
+      "id": "nps-hyde-street-pier",
+      "title": "Hyde Street Pier",
+      "publisher": "National Park Service, San Francisco Maritime National Historical Park",
+      "type": "official",
+      "url": "https://www.nps.gov/safr/learn/historyculture/hyde-street-pier.htm",
+      "accessed": "2026-10-14",
+      "notes": "\"Constructed by the Golden Gate Ferries, Ltd., the pier began as a single-slip ferry landing.\" \"The first ferry run departed Hyde Street Pier on May 28, 1922.\" \"The first ferry on the Berkeley run departed on June 16, 1927.\" In 1928 the company merged with the Southern Pacific to form Southern Pacific-Golden Gate Ferries, Ltd. The slips that had served the Sausalito run were removed in 1934 and replaced by one slip farther north. \"The last ferry departed Hyde Street Pier on July 25, 1938.\""
     },
     {
       "id": "oakland-tribune-1904-02-04",
@@ -1284,6 +1747,18 @@
       "notes": "archive.org scan leaf 16 (counted from 0); the printed page is unverified."
     },
     {
+      "id": "oshaughnessy-1929",
+      "title": "Report on the street railway transportation requirements of San Francisco",
+      "author": "M. M. O'Shaughnessy",
+      "publisher": "City and County of San Francisco, Bureau of Engineering",
+      "date": "1929-05",
+      "type": "official",
+      "url": "https://archive.org/details/reportonstreetr1929osha_1",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "The routes of every Muni and Market Street Railway line in 1929, pp. 343-354; the history of Muni's first lines, p. 14. Quotes read on the page images."
+    },
+    {
       "id": "osm-overpass-brt",
       "title": "OpenStreetMap bus-lane and busway tags along the BRT routes, via Overpass",
       "publisher": "OpenStreetMap contributors",
@@ -1294,13 +1769,32 @@
       "notes": "Overpass data as of 2026-10-13T23:08:33Z, 2026-10-13T23:09:31Z, 2026-10-13T23:20:36Z. The queries are cached with their responses in data/raw/osm/."
     },
     {
+      "id": "overture-base-2026-09-23-1",
+      "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/base/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "notes": "Land (coastline-derived) and water polygons in (-122.66, 37.45, -121.85, 38.33), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=base/. Today's shores, used to draw past ferry routes as the shortest path over water between their sourced terminals."
+    },
+    {
+      "id": "overture-rail-2026-09-23-1",
+      "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+      "publisher": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/guides/transportation/",
+      "type": "dataset",
+      "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+      "accessed": "2026-10-14",
+      "notes": "Rail segments read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/ (subtype rail). Used for one point: Muni's Duboce portal, where the is_tunnel flags of the two light rail tracks on Duboce Ave end (segments 28645d0a-2e68-4de3-82be-07af13eade31 and 03b66fb9-1ce4-48c6-bd2b-e7abe00a2e5d), at -122.42719, 37.76957."
+    },
+    {
       "id": "overture-roads-2026-09-23-1",
       "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
       "publisher": "Overture Maps Foundation",
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in (-122.36, 37.7, -122.15, 37.93), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "rag-1912-09-13-guppy",
@@ -1315,6 +1809,17 @@
       "notes": "pp. 460–463. Read from archive.org's OCR text."
     },
     {
+      "id": "railroad-gazette-1907-03-15",
+      "title": "The Bay Shore cut-off of the Southern Pacific",
+      "publisher": "Railroad Gazette 42(11)",
+      "date": "1907-03-15",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 328-331 (OCR): the cutoff runs \"from existing tracks of the Southern Pacific in Seventh street, San Francisco\" \"to junction with the original line at San Bruno, is 9.84 miles\"; five tunnels; \"to be ready for service in the fall\"."
+    },
+    {
       "id": "railway-signaling-1939-03-bay-bridge",
       "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
       "publisher": "Railway Signaling (Simmons-Boardman)",
@@ -1324,6 +1829,47 @@
       "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
       "accessed": "2026-10-14",
       "notes": "pp. 148–154."
+    },
+    {
+      "id": "sf-bay-ferry-history",
+      "title": "Our history",
+      "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
+      "type": "official",
+      "url": "https://www.sfbayferry.com/our-history/",
+      "accessed": "2026-10-14",
+      "notes": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\" 1989: \"The City of Alameda eventually started the Alameda Oakland Ferry Service\". 2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\". 2019: the Richmond terminal was completed \"and service was launched\"."
+    },
+    {
+      "id": "sf-business-directory-1864",
+      "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+      "date": "1864",
+      "type": "primary_document",
+      "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+      "license": "Public domain (published 1864)",
+      "accessed": "2026-10-14",
+      "notes": "p. 283, the San Francisco and San Jose Railroad (read on the page image, scan n306): \"On the 17th day of October, 1863, the first train passed over the portion of the road finished, from the Mission to Big Tree Station on the San Francisquito Creek. On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place. And later, on the 14th of February following, the San Francisco end of the road was extended to the corner of Fourth and Brannan streets\". p. 282: the timetable, \"leaving the Depot on Brannan Street, bet. Third and Fourth\"."
+    },
+    {
+      "id": "sf-call-1907-11-30",
+      "title": "The San Francisco Call, November 30, 1907, p. 5 (Southern Pacific advertisement)",
+      "publisher": "The San Francisco Call",
+      "date": "1907-11-30",
+      "type": "primary_document",
+      "url": "https://www.loc.gov/resource/sn85066387/1907-11-30/ed-1/?sp=5",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "Chronicling America. \"Bay Shore Cutoff to be formally opened and in operation December 8th\" (OCR; to be read on the page image)."
+    },
+    {
+      "id": "sf-call-1907-12-08",
+      "title": "Guests inspect the new Bay Shore cutoff",
+      "publisher": "The San Francisco Call",
+      "date": "1907-12-08",
+      "type": "primary_document",
+      "url": "https://www.loc.gov/resource/sn85066387/1907-12-08/ed-1/?sp=24",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-14",
+      "notes": "p. 24, Chronicling America (OCR; to be read on the page image): \"total length operated from Third and Townsend streets to San Bruno is 11.04 miles\", \"2.65 miles shorter than by way of Ocean View\", \"the junction with the old line at San Bruno\"."
     },
     {
       "id": "sf-call-1911-06-02-p8",
@@ -1436,6 +1982,206 @@
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sf-public-transit-history-1948",
+      "title": "History of public transit in San Francisco, 1850–1948",
+      "publisher": "City and County of San Francisco",
+      "date": "1948-06",
+      "type": "official",
+      "url": "https://archive.org/details/historyofpublict1947sanf",
+      "accessed": "2026-10-14",
+      "notes": "Bound after the city's 1947 cordon count. Read through archive.org's OCR text, which is poor; quotes need checking against the page images. p. 14: the Sutter Street hill cable \"between Sansome and Larkin Streets\"; p. 15: \"a cable line was constructed along Geary Street from Kearny to Central (Presidio) Avenue\", and the Presidio and Ferries line \"ran along Union Street to Steiner\"."
+    },
+    {
+      "id": "sf-puc-annual-report-1949",
+      "title": "Annual report of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportsanf1949sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Streetcar conversions: the D and H on March 19, 1950 (1949-50, p. 43) and the F on January 21, 1951 (1950-51, p. 39). Quotes read on the page images."
+    },
+    {
+      "id": "sf-puc-report-1947",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1947-48",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1948",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1947sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Muni's service changes by date, pp. 166-173. Quotes read on the page images."
+    },
+    {
+      "id": "sf-puc-report-1948",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1948-49",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1949",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1948sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-14",
+      "notes": "Muni's chronology since 1912, pp. 271-277, and planned conversions, p. 165. Quotes read on the page images."
+    },
+    {
+      "id": "sfcta-timma-ti-ferry-2024",
+      "title": "Treasure Island ferry service planning update (TIMMA committee memo)",
+      "publisher": "San Francisco County Transportation Authority (Treasure Island Mobility Management Agency)",
+      "date": "2024-06-07",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-06/TIMMA_Committee_TreasureIslandFerryServicePlanningUpdateMEMO_2024-06-11.pdf",
+      "accessed": "2026-10-14",
+      "notes": "June 7, 2024: \"In 2022, Treasure Island Community Development (TICD), the master developer of Treasure Island and Yerba Buena Island, began a privately funded interim ferry service.\""
+    },
+    {
+      "id": "sfmta-archive-general-information",
+      "title": "Muni general information (archive)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rhome/geninfo.htm",
+      "accessed": "2026-10-14",
+      "notes": "\"An extension of the F line on The Embarcadero to Fisherman's Wharf began service on March 4, 2000.\""
+    },
+    {
+      "id": "sfmta-blog-central-subway-opens",
+      "title": "Central Subway opens November 19 with special weekend service",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2022-11-01",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/central-subway-opens-november-19-special-weekend-service",
+      "accessed": "2026-10-14",
+      "notes": "Published November 1, 2022, before the opening: \"On Saturday, November 19, the Central Subway makes its historic debut with special weekend service\", Saturdays and Sundays; \"New T Third service in Central Subway is planned to start on January 7\"."
+    },
+    {
+      "id": "sfmta-blog-powell-mason-130",
+      "title": "130 years and counting on the Powell/Mason cable car line",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2018-04-05",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
+      "accessed": "2026-10-14",
+      "notes": "April 5, 2018: \"The full Powell-Mason Line opened in early March 1888, after a short trial run in February\"; \"One month later on April 5th, the East-West running Washington and Jackson Line (which partly survives today as a segment of the Powell-Hyde Line) opened.\" Callwell gives March 28, 1888 for the first Powell St service."
+    },
+    {
+      "id": "sfmta-cable-car-history",
+      "title": "Cable car history",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/cable-cars/cable-car-history",
+      "accessed": "2026-10-14",
+      "notes": "The Clay Street Hill Railroad began public service on September 1, 1873; the system was rebuilt from September 1982 to June 1984."
+    },
+    {
+      "id": "sfmta-callwell-chronology",
+      "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+      "author": "Robert Callwell",
+      "publisher": "San Francisco Municipal Railway, Communications Department",
+      "date": "1999-09",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Muni's own chronology, September 1999, hosted on SFMTA's archive. Cited by the PDF's page numbers. Gives opening days of the streetcar and Metro lines, the Twin Peaks and Sunset tunnels, the Market Street subway, the cable car lines, and the F line (1995)."
+    },
+    {
+      "id": "sfmta-central-subway-project",
+      "title": "Central Subway Project",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/central-subway-project",
+      "accessed": "2026-10-14",
+      "notes": "\"The new T Third line from Chinatown Rose-Pak to Sunnydale started on January 7, 2023.\" The T no longer runs on King St, the Embarcadero or Market St. Special weekend service from November 19, 2022 appears only in an announcement made before it."
+    },
+    {
+      "id": "sfmta-historic-streetcars",
+      "title": "Historic streetcars",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/historic-streetcars",
+      "accessed": "2026-10-14",
+      "notes": "\"September 1, 1995, was the first day of service for the F Market historic streetcar line\"; the extension along The Embarcadero to Fisherman's Wharf began March 4, 2000."
+    },
+    {
+      "id": "sfmta-muni-history",
+      "title": "Muni history",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/getting-around/muni/muni-history",
+      "accessed": "2026-10-14",
+      "notes": "SFMTA's history page: J Church began August 11, 1917; the Twin Peaks Tunnel opened February 1918; the E ran 4th & King to the wharves from August 2015."
+    },
+    {
+      "id": "sfmta-srtp-2006",
+      "title": "Short Range Transit Plan, fiscal years 2006–2025",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2005-12-06",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rsrtp/documents/ShortRangeTransitPlanFy20062025-Web.pdf",
+      "accessed": "2026-10-14",
+      "notes": "December 6, 2005. pp. 89–90: \"POP was expanded in January 1998 to the temporary E-Embarcadero shuttle line that operated between the Embarcadero Station and the Caltrain Depot. Muni extended POP on August 22, 1998 to include… the entire N-Judah line, which replaced the E-Embarcadero shuttle.\" The exact day in January 1998 isn't in an official source."
+    },
+    {
+      "id": "sfmta-srtp-2008-third-street",
+      "title": "Short Range Transit Plan FY2008, chapter 3: Third Street light rail",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2008-01",
+      "type": "official",
+      "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
+      "accessed": "2026-10-14",
+      "notes": "p. 4: \"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
+    },
+    {
+      "id": "sfmta-van-ness-brt-open",
+      "title": "Van Ness BRT lane now open",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2022-04-01",
+      "type": "official",
+      "url": "https://www.sfmta.com/node/26084",
+      "accessed": "2026-10-14",
+      "notes": "\"As of 10 a.m., Friday, April 1, 2022, the Van Ness BRT Bus Rapid Transit Lane has officially begun service.\""
+    },
+    {
+      "id": "smart-5th-anniversary-2022",
+      "title": "SMART marks 5th anniversary of startup of passenger service",
+      "publisher": "Sonoma-Marin Area Rail Transit District",
+      "date": "2022-08-24",
+      "type": "official",
+      "url": "https://www.sonomamarintrain.org/sites/default/files/News%20Releases/SMART%20News%20Release_SMART%20marks%205th%20anniverary%20of%20passenger%20service.pdf",
+      "accessed": "2026-10-14",
+      "notes": "August 24, 2022: \"Since the start of service on August 25, 2017, SMART has carried more than 2,440,900 passengers\" / \"SMART opened two new stations in December 2019: the Novato Downtown Station and the Larkspur Station\"."
+    },
+    {
+      "id": "smart-gm-report-2019-12",
+      "title": "General Manager's report, December 2019 (TAM board item 5c)",
+      "publisher": "Sonoma-Marin Area Rail Transit District",
+      "date": "2019-12",
+      "type": "official",
+      "url": "https://www.tam.ca.gov/wp-content/uploads/2020/01/5c-GM-Report-December-2019.pdf",
+      "accessed": "2026-10-14",
+      "notes": "Hosted by the Transportation Authority of Marin. The Holiday Express train of Saturday, December 14, 2019 arrived at the Novato Downtown ribbon cutting, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\" The Larkspur ribbon cutting was Friday, December 13."
+    },
+    {
+      "id": "sp-bulletin-1936-01",
+      "title": "Southern Pacific Bulletin, January 1936",
+      "publisher": "Southern Pacific Company",
+      "date": "1936-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_002087",
+      "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+      "accessed": "2026-10-14",
+      "notes": "p. 7 (read on the page image): San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\" \"All traffic has ceased over the old line.\" \"The new route leaves the old line at Polhemus Street on the north side of the city and proceeds along the route of the Santa Cruz Branch … to the new station built on the site of the old South Pacific Coast depot. Thence … to a connection with the main line at Lick.\""
+    },
+    {
+      "id": "srj-1904-01-02-north-shore",
+      "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+      "publisher": "Street Railway Journal",
+      "date": "1904-01-02",
+      "type": "journal",
+      "url": "https://archive.org/details/streetrailwayjo231904newy",
+      "license": "Public domain (published 1904)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 4-7 (archive.org OCR): \"This is the first third-rail road to be constructed and put into operation in California\"; \"The Mill Valley branch of the new system was placed in operation on Aug. 21,\" and \"the main line to San Rafael was opened on Oct. 17\" (1903); \"The track of the North Shore Railroad, between Sausalito and San Rafael, is 11.95 miles in length,\" \"the Mill Valley branch is 1.74 miles long\"; \"The Mill Valley line ... branches off at Mill Valley Junction\"; \"The narrow-gage main line to Cazadero leaves the suburban electric line at San Anselmo\"; a tunnel \"between Alto and Corte Madera\", \"2194 ft. between portals\". The page images still need checking."
+    },
+    {
       "id": "srj-1904-02-13-key-route-1",
       "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
       "publisher": "Street Railway Journal 23(7)",
@@ -1529,6 +2275,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
     },
     {
+      "id": "usgs-port-chicago-1951",
+      "title": "Port Chicago, Cal., topographic quadrangle, 1:24,000, 1951",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1951",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Port%20Chicago_294325_1951_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 294325, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 51be4bd5938ab0bef517ed04ebc48020fb0f27f759f30f58d47af90177c4f570."
+    },
+    {
       "id": "usgs-richmond-1949",
       "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
       "author": "U.S. Geological Survey",
@@ -1577,6 +2335,42 @@
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1950. HTMC scan 466304, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3241ae304a5619935b87c9668b257872919c0954e3ed1db06fbafffd6507bf28."
     },
     {
+      "id": "usgs-san-francisco-south-1950",
+      "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1950",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, edition of 1950. HTMC scan 300067, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 e4c69e7c91cac13b21c6a576f655c7f6f30e52fec3a22ec2b1cf2bb232855109."
+    },
+    {
+      "id": "usgs-san-jose-1899",
+      "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_298900_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1899. HTMC scan 298900, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 589c29aab28bff9c6f89cbf33bed1daad8b626460ef102ef5c89ebc2f4bf6e38."
+    },
+    {
+      "id": "usgs-san-jose-1943",
+      "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1943",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1943",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_466308_1943_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1943. HTMC scan 466308, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 54f2629b73699450c0fb8bde6565086fac4099489250165ae19e727c93ed3d3c."
+    },
+    {
       "id": "usgs-san-leandro-1948",
       "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
       "author": "U.S. Geological Survey",
@@ -1587,6 +2381,83 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, edition of 1948. HTMC scan 300123, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 736d4e9ccd8703502cb8bc627d1b78b5bd677108c590a1a441e6418bff85486b."
+    },
+    {
+      "id": "usgs-san-mateo-1899",
+      "title": "San Mateo, Cal., topographic quadrangle, 1:62,500, 1899",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1899",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_298921_1899_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1899. HTMC scan 298921, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 b5164e60d1be21e324b09a119c89bc27530dbd0e156fe7c47c0ee20714bb65c7."
+    },
+    {
+      "id": "usgs-san-mateo-1915",
+      "title": "San Mateo, Cal., topographic quadrangle, 1:62,500, 1915",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_298922_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, edition of 1915. HTMC scan 298922, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 f648bf5144d507111594c6c2314ec90b0a8ec7d13100b81d7056088fcbab6774."
+    },
+    {
+      "id": "usgs-tamalpais-1941",
+      "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1941",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "15-minute sheet, aerial photographs of 1939, edition of 1941. HTMC scan 301788, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e8b2a9b5bf73d88c9e3b55c864290de2ad440f8506111d87f43f334047e5f43f."
+    },
+    {
+      "id": "usgs-walnut-creek-1949",
+      "title": "Walnut Creek, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Walnut%20Creek_301186_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-14",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 301186, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 77c7663e774d98ba3c6fa78bc3723fb0ef3dfe05bf78a02f2f1dae15d126e437."
+    },
+    {
+      "id": "vta-30-years-timeline",
+      "title": "30 years of VTA: a visual timeline",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/blog/30-years-vta-visual-timeline",
+      "accessed": "2026-10-14",
+      "notes": "\"The entire 21-mile light rail line would open for service April 21, 1991.\" 1999: \"Light rail station opens in Mountain View\". 2001: \"Milpitas light rail station opens\". 2005: \"Winchester light rail extension opens, connecting San Jose to downtown Campbell\". 2017: \"Bus Rapid Transit (BRT) opens along Alum Rock Ave.\""
+    },
+    {
+      "id": "vta-bart-silicon-valley",
+      "title": "VTA's BART Silicon Valley Extension Program",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "type": "official",
+      "url": "https://www.vta.org/projects/bart-sv",
+      "accessed": "2026-10-14",
+      "notes": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\" Phase I runs from Warm Springs through Milpitas to Berryessa/North San José."
+    },
+    {
+      "id": "western-railroader-1945-08",
+      "title": "The Western Railroader 8(10), August 1945",
+      "publisher": "The Western Railroader",
+      "date": "1945-08",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1945-08_8_10",
+      "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
+      "accessed": "2026-10-14",
+      "notes": "A reminiscence: \"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (archive.org full-text search; the page still needs checking)."
     }
   ]
 }

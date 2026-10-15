@@ -227,6 +227,9 @@
         },
         {
           "segment": "key-40th-st"
+        },
+        {
+          "segment": "key-40th-st-east"
         }
       ],
       "sources": [
@@ -678,6 +681,57 @@
         "needs_manual_digitizing"
       ],
       "notes": "Not yet drawn: the link from 54th and Adeline Streets to Sacramento Street, which the sources don't place. The day it moved to Monterey Avenue in 1933 isn't sourced."
+    },
+    {
+      "id": "key-ferry",
+      "name": "Key Route ferry",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": "1903-10-26",
+          "to": "1939-01-15"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1903-10-26",
+      "closed": "1939-01-15",
+      "status": "closed",
+      "summary": "The Key Route's ferries from the end of its pier to the Ferry Building in San Francisco, meeting every train.",
+      "fate": "abandoned",
+      "fate_note": "Ended when the Key System's trains began running over the Bay Bridge on January 15, 1939.",
+      "route": [
+        {
+          "segment": "key-ferry"
+        }
+      ],
+      "sources": [
+        {
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903): trains to the pier, and ferries on to San Francisco."
+        },
+        {
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "closed"
+          ],
+          "pages": "150, 154",
+          "note": "Train service over the bridge from January 15, 1939, replacing the ferries."
+        },
+        {
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "route"
+          ],
+          "pages": "246–253"
+        }
+      ],
+      "flags": []
     }
   ]
 }

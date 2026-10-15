@@ -5,11 +5,13 @@ data/past/<group>/trace.json so that every traced line can be redone and checked
 
     {"segments": {"<segment id>": {
         "parts": [                                   # joined in order
-          {"streets": ["Shattuck Avenue"], "from": "Dwight Way", "to": "Vine Street"},
+          {"streets": ["Shattuck Avenue"], "from": "Dwight Way", "to": "Vine Street"},  # "area": "sf" to
+                                                     # keep to one box of streets.AREAS
           {"trace": {"sheet": "usgs-san-francisco-1915", "bbox": [W, S, E, N], "zoom": 2},
            "px": [[x, y], ...]},                     # vertices read off that crop
-          {"lonlat": [[lon, lat], ...]}              # given outright (approximate only)
-        ],
+          {"lonlat": [[lon, lat], ...]},             # given outright (approximate only)
+          {"water": [[lon, lat], "Street A/Street B"]} # a ferry: the shortest path over water
+        ],                                           # between its terminals (approximate)
         "fit": {"sheet": "usgs-san-francisco-1915",  # optional: correct a traced sheet's
                 "controls": [{"label": "...",         # misregistration (usgs_topo.similarity)
                               "at": "Street A/Street B" or [lon, lat],
@@ -100,7 +102,8 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
         return [end], "join", f"joined to {part['join']} at its {part.get('at', 'end')}"
     if "streets" in part:
         from .streets import OVERTURE_RELEASE, route
-        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]), part.get("bridge_m", 0.0))
+        coords, length = route(part["streets"], _place(part["from"]), _place(part["to"]), part.get("bridge_m", 0.0),
+                               part.get("area"))
         names = " and ".join(part["streets"])
         gap = f", across gaps of up to {part['bridge_m']:.0f} m where the street is cut today" if part.get("bridge_m") else ""
         return coords, "street-centerline", (f"along today's {names} centerline from {_label(part['from'])} to "
@@ -130,11 +133,27 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
         return round_coords(coords), how, f"traced by eye from {label(part['trace']['sheet'])} ({len(part['px'])} hand-read points{extra})"
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"
+    if "water" in part:
+        from .water import route as over_water
+        from .streets import OVERTURE_RELEASE
+        a, b = (_lonlat(x) for x in part["water"])
+        coords, length = over_water(a, b)
+        return coords, "water", (f"the shortest path over today's water from {_label(part['water'][0])} to "
+                                 f"{_label(part['water'][1])} ({length:.0f} m; Overture {OVERTURE_RELEASE} land and water), "
+                                 "kept off the shore: the sources give the terminals, not the course")
     raise SystemExit(f"[past] a part needs streets, trace or lonlat: {part}")
 
 
 def _place(v):
     return tuple(v) if isinstance(v, list) else v
+
+
+def _lonlat(v) -> tuple[float, float]:
+    """[lon, lat], or today's corner "Street A/Street B"."""
+    if isinstance(v, list):
+        return tuple(v)
+    from .streets import crossing
+    return crossing(*v.split("/"))
 
 
 def _label(v) -> str:
@@ -197,7 +216,7 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         geometry = {"type": "LineString", "coordinates": round_coords(coords)}
         methods = [b[1] for b in built if b[1] != "join"]
         desc = "; then ".join(b[2] for b in built)
-    approximate = recipe.get("approximate") or "approximate" in methods
+    approximate = recipe.get("approximate") or "approximate" in methods or "water" in methods
     check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
     sentence = desc[0].upper() + desc[1:]
     if fit:
@@ -223,7 +242,9 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         props.pop("georeference", None)
     cited = {s["source"] for s in props["sources"]}
     against = _fit_spec(recipe).get("true_frame", {}).get("sheet")
-    for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods)):
+    from .water import SOURCE_ID as OVERTURE_BASE
+    for sid, needed in ((check, bool(check)), (against, bool(against)), (OVERTURE, "street-centerline" in methods),
+                        (OVERTURE_BASE, "water" in methods)):
         if needed and sid not in cited:
             props["sources"].append({"source": sid, "supports": ["geometry"]})
     if kind != "point" and len(geometry["coordinates"]) >= 2:
@@ -266,7 +287,9 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
             if kept is not None:
                 BUILT[fid] = kept  # joins use the corrected geometry
             draw({"type": "Feature", "properties": {"id": f"{fid} (as traced)"}, "geometry": geom}, check, fid)
-            draw(f, spec["true_frame"]["sheet"], f"{fid}-corrected")
+            # Over the sheet it was corrected against, or for controls at today's corners, the
+            # fit's own check sheet (a modern one), else its own sheet.
+            draw(f, spec.get("true_frame", {}).get("sheet") or spec.get("check_sheet") or check, f"{fid}-corrected")
         else:
             draw(f, check, fid)
     tmp.unlink(missing_ok=True)

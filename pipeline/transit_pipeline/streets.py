@@ -6,11 +6,12 @@ that street's surveyed centerline between those cross streets, then checked agai
 its period (usgs_topo.py). Today's centerlines stand in for the old ones, so a street that has moved
 since (a freeway cut, a widening) must be traced from the map instead.
 
-Overture's roads are OpenStreetMap data (ODbL). Read anonymously from S3 for the East Bay box and
+Overture's roads are OpenStreetMap data (ODbL). Read anonymously from S3 for each box in AREAS and
 cached in data/raw/overture/.
 
     uv run --directory pipeline python -m transit_pipeline.streets route "Shattuck Avenue" \\
         --from "Dwight Way" --to "Vine Street" [--out F.geojson]
+    uv run --directory pipeline python -m transit_pipeline.streets cross "Taraval Street" "33rd Avenue"
 """
 
 from __future__ import annotations
@@ -36,9 +37,14 @@ from .gtfs import to_degrees, to_metres
 
 OVERTURE_RELEASE = "2026-09-23.1"  # the same release as BAM's basemap
 BUCKET = "overturemaps-us-west-2"
-# Richmond to San Leandro, the bay shore to the hills: where the pilot's lines ran.
-BBOX = (-122.36, 37.70, -122.15, 37.93)
-CACHE = RAW / "overture" / OVERTURE_RELEASE / "eastbay-roads.parquet"
+AREAS = {
+    "eastbay": (-122.36, 37.70, -122.15, 37.93),  # Richmond to San Leandro, the bay shore to the hills
+    "sf": (-122.52, 37.70, -122.355, 37.835),  # San Francisco, to the county line
+    "southbay": (-121.98, 37.33, -121.83, 37.45),  # Milpitas and north San José (VTA's Tasman and Capitol lines)
+    "marin": (-122.60, 37.845, -122.45, 38.02),  # Sausalito to San Rafael (the Northwestern Pacific's electric lines)
+    "contracosta": (-122.22, 37.82, -121.88, 38.05),  # Moraga to Bay Point (the Sacramento Northern)
+}
+CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"
 SNAP_M = 30.0  # a cross street that stops short of the route still names the corner
 BRIDGE_M = 30.0  # dead ends this close to another node of the same streets are joined
@@ -61,40 +67,48 @@ def _filesystem() -> pafs.S3FileSystem:
     return pafs.S3FileSystem(anonymous=True, region="us-west-2")
 
 
-@cache
-def roads() -> list[tuple[str, str, LineString]]:
-    """(id, normalized name, geometry in metres) for every named road in the box."""
-    if not CACHE.exists():
-        x0, y0, x1, y1 = BBOX
+def _area(name: str) -> Path:
+    cache = CACHE_DIR / f"{name}-roads.parquet"
+    if not cache.exists():
+        x0, y0, x1, y1 = AREAS[name]
         dataset = ds.dataset(f"{BUCKET}/release/{OVERTURE_RELEASE}/theme=transportation/type=segment/",
                              filesystem=_filesystem(), format="parquet")
         filt = ((pc.field("bbox", "xmin") < x1) & (pc.field("bbox", "xmax") > x0)
                 & (pc.field("bbox", "ymin") < y1) & (pc.field("bbox", "ymax") > y0) & (pc.field("subtype") == "road"))
         table = dataset.to_table(columns=["id", "geometry", "class", "names"], filter=filt)
-        CACHE.parent.mkdir(parents=True, exist_ok=True)
-        pq.write_table(table, CACHE, compression="zstd")
-    out = []
-    for r in pq.read_table(CACHE).to_pylist():
-        name = (r["names"] or {}).get("primary")
-        if name:
-            out.append((r["id"], norm(name), to_metres(shapely.from_wkb(r["geometry"]))))
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        pq.write_table(table, cache, compression="zstd")
+    return cache
+
+
+@cache
+def roads() -> list[tuple[str, str, LineString, str]]:
+    """(id, normalized name, geometry in metres, box) for every named road in the boxes."""
+    out, seen = [], set()
+    for area in AREAS:
+        for r in pq.read_table(_area(area)).to_pylist():
+            name = (r["names"] or {}).get("primary")
+            if name and r["id"] not in seen:  # the boxes overlap a little
+                seen.add(r["id"])
+                out.append((r["id"], norm(name), to_metres(shapely.from_wkb(r["geometry"])), area))
     return out
 
 
-def street(names: list[str]):
+def street(names: list[str], area: str | None = None):
+    """Today's roads with these names, in one box (Oakland has a Market St too) or in all."""
     want = {norm(n) for n in names}
-    found = [g for _, n, g in roads() if n in want]
+    found = [g for _, n, g, a in roads() if n in want and (area is None or a == area)]
     if not found:
-        raise SystemExit(f"[streets] no road named {names} in Overture's East Bay box")
+        raise SystemExit(f"[streets] no road named {names} in Overture's {area or ', '.join(AREAS)} box")
     return unary_union(found)
 
 
-def corner(route, cross: str | tuple[float, float]) -> Point:
+def corner(route, cross: str | tuple[float, float], area: str | None = None) -> Point:
     """Where the route meets a cross street (the middle of the crossing points, for a divided
     road), or a lon/lat point snapped onto the route."""
     if isinstance(cross, tuple):
         return nearest_points(route, to_metres(Point(cross)))[0]
-    other = street([cross])
+    other = street([cross], area)
     hit = route.intersection(other)
     pts = [p for p in getattr(hit, "geoms", [hit]) if isinstance(p, Point)]
     if pts:
@@ -106,20 +120,20 @@ def corner(route, cross: str | tuple[float, float]) -> Point:
     return a
 
 
-def crossing(a: str, b: str) -> tuple[float, float]:
+def crossing(a: str, b: str, area: str | None = None) -> tuple[float, float]:
     """Where two of today's streets cross (the middle of the crossing points, for divided roads), as
     lon/lat."""
-    p = corner(street([a]), b)
+    p = corner(street([a], area), b, area)
     q = to_degrees(p)
     return (round(q.x, 6), round(q.y, 6))
 
 
 def route(names: list[str], start: str | tuple[float, float], end: str | tuple[float, float],
-          bridge_m: float = 0.0) -> tuple[list[list[float]], float]:
+          bridge_m: float = 0.0, area: str | None = None) -> tuple[list[list[float]], float]:
     """The centerline along the named streets from one corner to another, as lon/lat, and its length
     in metres. Divided roads come out along one carriageway; the test is the USGS check."""
-    net = street(names)
-    a, b = corner(net, start), corner(net, end)
+    net = street(names, area)
+    a, b = corner(net, start, area), corner(net, end, area)
     noded = unary_union([*_lines(net), *_cut_lines(net, [a, b])])
     graph: dict[tuple, list[tuple[tuple, float, LineString]]] = {}
 
@@ -201,7 +215,7 @@ def register() -> None:
         "url": "https://docs.overturemaps.org/guides/transportation/",
         "type": "dataset",
         "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-        "notes": f"Named road segments in {BBOX}, read from s3://{BUCKET}/release/{OVERTURE_RELEASE}/theme=transportation/type=segment/. "
+        "notes": f"Named road segments in the boxes {', '.join(f'{k} {v}' for k, v in AREAS.items())}, read from s3://{BUCKET}/release/{OVERTURE_RELEASE}/theme=transportation/type=segment/. "
                  "Today's centerlines, used where a source places a past line on a named street (decision 12).",
     }])
 
@@ -215,14 +229,21 @@ def main() -> None:
     r.add_argument("--to", dest="end", required=True, help="a cross street, or LON,LAT")
     r.add_argument("--out", type=Path)
     sub.add_parser("names").add_argument("pattern")
+    c = sub.add_parser("cross", help="where two of today's streets cross, as lon/lat")
+    c.add_argument("a")
+    c.add_argument("b")
+    c.add_argument("--area", choices=list(AREAS))
     sub.add_parser("register", help="cache the roads and record the dataset in data/sources.json")
     a = ap.parse_args()
     if a.cmd == "register":
-        print(f"[streets] {len(roads())} named road segments in the East Bay box")
+        print(f"[streets] {len(roads())} named road segments in {', '.join(AREAS)}")
         register()
         return
+    if a.cmd == "cross":
+        print(crossing(a.a, a.b, a.area))
+        return
     if a.cmd == "names":
-        print("\n".join(sorted({n for _, n, _ in roads() if re.search(a.pattern, n)})))
+        print("\n".join(sorted({n for _, n, _, _ in roads() if re.search(a.pattern, n)})))
         return
     def place(v: str):
         m = re.fullmatch(r"\s*(-?\d+\.?\d*)\s*,\s*(-?\d+\.?\d*)\s*", v)

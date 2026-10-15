@@ -1,0 +1,228 @@
+{
+  "$comment": "The San Francisco & San Jose Railroad and the Southern Pacific's Peninsula trains (Phase 2b.D). Today's Caltrain track is named by its present segments (decision 13).",
+  "lines": [
+    {
+      "id": "sp-peninsula",
+      "name": "Peninsula trains, San Francisco to San José",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "San Francisco & San Jose Railroad",
+          "from": "1863-10",
+          "to": "1870"
+        },
+        {
+          "name": "Southern Pacific",
+          "from": "1870",
+          "to": "1980-06-30"
+        }
+      ],
+      "mode": "commuter_rail",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1863-10",
+          "to": null
+        },
+        {
+          "type": "diesel_electric",
+          "from": null,
+          "to": "1980-06-30"
+        }
+      ],
+      "era": "past",
+      "opened": "1863-10",
+      "closed": "1980-06-30",
+      "status": "closed",
+      "summary": "Trains between San Francisco and San José: the San Francisco & San Jose Railroad's from 1863, the Southern Pacific's from 1870. They left the city through the Mission, the Bernal Cut and Ocean View until the Bayshore Cutoff opened in 1907, and reached San José's Cahill Street station from the end of 1935. Caltrain runs on the same track.",
+      "fate_note": "On July 1, 1980 Caltrans took over the Peninsula Commute Service, with the Southern Pacific still running the trains; it became today's Caltrain (Caltrain milestones).",
+      "route": [
+        {
+          "segment": "caltrain-fourth-king-seventh",
+          "from": "1864-02-14",
+          "note": "From February 14, 1864, when trains first ran from Fourth and Brannan Sts"
+        },
+        {
+          "segment": "sp-pen-division",
+          "from": "1864-02-14",
+          "to": "1907-12-08"
+        },
+        {
+          "segment": "sp-pen-mission",
+          "to": "1907-12-08"
+        },
+        {
+          "segment": "sp-pen-mission-link",
+          "to": "1907-12-08"
+        },
+        {
+          "segment": "sp-pen-bernal-cut",
+          "to": "1907-12-08"
+        },
+        {
+          "segment": "sp-pen-ocean-view",
+          "to": "1907-12-08"
+        },
+        {
+          "segment": "caltrain-bayshore-cutoff",
+          "from": "1907-12-08",
+          "note": "Through trains moved to the Bayshore Cutoff on December 8, 1907"
+        },
+        {
+          "segment": "caltrain-san-bruno-mayfield"
+        },
+        {
+          "segment": "caltrain-mayfield-san-jose",
+          "from": "1864-01-16"
+        },
+        {
+          "segment": "sp-pen-san-jose",
+          "from": "1864-01-16",
+          "to": "1935-12-31"
+        },
+        {
+          "segment": "caltrain-santa-cruz-branch",
+          "from": "1935-12-31",
+          "note": "Over the Santa Cruz branch to the new Cahill Street station from December 31, 1935"
+        }
+      ],
+      "sources": [
+        {
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "note": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" 1870: absorbed into Southern Pacific. December 1935: the Cahill Street terminal."
+        },
+        {
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "283",
+          "note": "First train October 17, 1863, from the Mission to Big Tree Station; to San Jose January 16, 1864; to Fourth and Brannan Sts February 14, 1864."
+        },
+        {
+          "source": "langley-sf-directory-1867",
+          "supports": [
+            "general"
+          ],
+          "pages": "37",
+          "note": "\"The principal depot at present is at the corner of Valencia and Market Streets.\""
+        },
+        {
+          "source": "sf-call-1907-12-08",
+          "supports": [
+            "route"
+          ],
+          "note": "The cutoff's opening, and \"the junction with the old line at San Bruno\"."
+        },
+        {
+          "source": "sf-call-1907-11-30",
+          "supports": [
+            "route"
+          ],
+          "pages": "5",
+          "note": "\"Bay Shore Cutoff to be formally opened and in operation December 8th\""
+        },
+        {
+          "source": "sp-bulletin-1936-01",
+          "supports": [
+            "route"
+          ],
+          "pages": "7",
+          "note": "San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\""
+        },
+        {
+          "source": "crc-d20559",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "source": "caltrain-milestones-1980s",
+          "supports": [
+            "closed",
+            "operator"
+          ],
+          "note": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935."
+    },
+    {
+      "id": "sp-ocean-view",
+      "name": "Ocean View line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific",
+          "from": "1907-12-08",
+          "to": null
+        }
+      ],
+      "mode": "commuter_rail",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1907-12-08",
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1907-12-08",
+      "closed": null,
+      "status": "closed",
+      "summary": "Local trains on the old line through the Mission, the Bernal Cut and Ocean View to San Bruno, after through trains moved to the Bayshore Cutoff in 1907.",
+      "fate": "abandoned",
+      "fate_note": "The Railroad Commission let the Southern Pacific suspend the trains for highway work in November 1928 (Decision No. 20459) and abandon them in March 1930 (Decision No. 22212).",
+      "route": [
+        {
+          "segment": "caltrain-fourth-king-seventh"
+        },
+        {
+          "segment": "sp-pen-division"
+        },
+        {
+          "segment": "sp-pen-mission"
+        },
+        {
+          "segment": "sp-pen-mission-link"
+        },
+        {
+          "segment": "sp-pen-bernal-cut"
+        },
+        {
+          "segment": "sp-pen-ocean-view"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sf-call-1907-12-08",
+          "supports": [
+            "opened"
+          ],
+          "note": "The cutoff opened December 8, 1907, \"2.65 miles shorter than by way of Ocean View\"."
+        },
+        {
+          "source": "crc-d22212",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "note": "\"its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\""
+        }
+      ],
+      "flags": [
+        "closed_unsourced"
+      ],
+      "notes": "When the last train ran isn't sourced: Decision No. 20459 (November 15, 1928) let the trains stop for highway work between San Jose Ave and Randall St, and in the year to October 31, 1928 they carried no southbound passengers at all; Decision No. 22212 (March 18, 1930) let them be abandoned. The track stayed in freight use (it is on the 1950 sheet)."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). Historic ferries (Phase 2b.D): routes drawn over water between their sourced terminals (transit_pipeline.water).",
+  "lines": [
+    {
+      "id": "ggf-hyde-sausalito",
+      "name": "Hyde Street–Sausalito auto ferry",
+      "system": "golden-gate-ferries",
+      "operators": [
+        {
+          "name": "Golden Gate Ferries, Ltd.",
+          "from": "1922-05-28",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": "1938-07-25"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1922-05-28",
+      "closed": "1938-07-25",
+      "status": "closed",
+      "summary": "Auto ferries from Hyde Street Pier to Sausalito, the first of the Golden Gate ferries, until the bridges opened.",
+      "fate": "abandoned",
+      "fate_note": "The last ferry left Hyde Street Pier on July 25, 1938, after the Bay Bridge (1936) and the Golden Gate Bridge (1937) opened (NPS).",
+      "route": [
+        {
+          "segment": "ggf-hyde-sausalito-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "nps-hyde-street-pier",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ]
+        },
+        {
+          "source": "crc-d31113",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "note": "The Southern Pacific's ferry company took over the Northwestern Pacific's auto ferry rights on May 1, 1929, and asked in 1938 to abandon the Hyde Street–Sausalito run."
+        }
+      ],
+      "flags": [],
+      "notes": "NPS dates the merger with the Southern Pacific to 1928; the Railroad Commission's decision has the combined company taking over on May 1, 1929."
+    },
+    {
+      "id": "ggf-hyde-berkeley",
+      "name": "Hyde Street–Berkeley auto ferry",
+      "system": "golden-gate-ferries",
+      "operators": [
+        {
+          "name": "Golden Gate Ferry Co.",
+          "from": "1927-06-16",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": null
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1927-06-16",
+      "closed": null,
+      "status": "closed",
+      "summary": "Auto ferries from Hyde Street Pier to the end of a long pier from the foot of University Ave in Berkeley.",
+      "fate": "abandoned",
+      "route": [
+        {
+          "segment": "ggf-hyde-berkeley-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "nps-hyde-street-pier",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"The first ferry on the Berkeley run departed on June 16, 1927.\""
+        },
+        {
+          "source": "crc-d17097",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "source": "crc-d29999",
+          "supports": [
+            "general"
+          ],
+          "note": "Authorized in August 1937 to suspend the San Francisco-Berkeley route for six months."
+        }
+      ],
+      "flags": [
+        "closed_unsourced"
+      ],
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999); when it last ran isn't sourced, so it is left off the year slider."
+    },
+    {
+      "id": "vallejo-ferry",
+      "name": "San Francisco–Vallejo ferry",
+      "system": "vallejo-ferry",
+      "operators": [
+        {
+          "name": "Z. J. and C. N. Hatch",
+          "from": "1895",
+          "to": "1904"
+        },
+        {
+          "name": "Monticello Steamship Co.",
+          "from": "1904",
+          "to": "1927-04-29"
+        },
+        {
+          "name": "Golden Gate Ferry Co.",
+          "from": "1927-04-29",
+          "to": "1929-05-01"
+        },
+        {
+          "name": "Southern Pacific-Golden Gate Ferries, Ltd.",
+          "from": "1929-05-01",
+          "to": "1937-09-12"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1895",
+      "closed": "1937-09-12",
+      "status": "closed",
+      "summary": "Steamers from the foot of Clay St in San Francisco up the bay and San Pablo Bay to Vallejo, by Mare Island.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned with the close of business on September 12, 1937, after the bridges opened (CRC Decision No. 30121).",
+      "route": [
+        {
+          "segment": "vallejo-ferry-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d29464",
+          "supports": [
+            "opened",
+            "operator"
+          ],
+          "note": "Inaugurated by Z. J. and C. N. Hatch in 1895; the Monticello Steamship Co. from 1904."
+        },
+        {
+          "source": "crc-d30086",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "\"continuously in operation since 1896\"; the San Francisco landing is the \"Pier at Foot of Clay Street\"."
+        },
+        {
+          "source": "crc-d30121",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"abandoned its service with the close of business September 12th\" (1937)."
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start."
+    }
+  ]
+}

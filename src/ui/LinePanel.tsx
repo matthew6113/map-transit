@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'preact/hooks';
 import type { LineRecord, ResolvedSource } from '../data/catalog';
 import { CONFIDENCE, FLAGS, STATUSES } from '../data/vocab';
-import { formatDate, formatLength, formatYears, modeVar } from './format';
+import { formatDate, formatLength, formatYears, modeVar, trackFrom } from './format';
 
 interface Props {
   line: LineRecord;
@@ -34,7 +34,7 @@ export function LinePanel({ line, onClose }: Props) {
   }, [line.id]);
 
   const future = line.era === 'future';
-  const years = formatYears(line.opened, line.closed, line.status);
+  const years = formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
   const gauge = line.gauge_label ?? (line.gauge_mm ? `${line.gauge_mm} mm` : undefined);
   const traction = line.traction?.map((t) => `${t.type.replace(/_/g, ' ')}${t.from ? ` from ${formatDate(t.from)}` : ''}${t.to ? ` to ${formatDate(t.to)}` : ''}`).join('; ');
   const borrowed = line.segments.some((s) => s.borrowed);

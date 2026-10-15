@@ -1,0 +1,746 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). San Francisco's cable lines that left no present line (Phase 2b.D); dates from Callwell's chronology (Muni, 1999) and SFMTA, routes as the sources give them. Research: docs/research/sf-street-railways.md.",
+  "lines": [
+    {
+      "id": "sf-clay-st-hill",
+      "name": "Clay Street Hill Railroad",
+      "system": "clay-street-hill-railroad",
+      "operators": [
+        {
+          "name": "Clay Street Hill Railroad",
+          "from": "1873-09-01",
+          "to": null
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1873-09-01",
+      "closed": "1892",
+      "status": "closed",
+      "summary": "The world's first cable railway, up Clay St from Kearny St to Leavenworth St.",
+      "fate_note": "Bought by the Ferries & Cliff House Railway and made part of its Sacramento-Clay line in 1892 (Callwell p. 13).",
+      "route": [
+        {
+          "segment": "sf-clay-kearny-leavenworth"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "7",
+          "note": "\"The Clay Street Hill Railroad starts cable car service on Clay from Leavenworth to Kearny.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "13",
+          "note": "\"… the conversion of the Clay St. Hill line, which had been purchased by the F&CHRy, into the Sacramento-Clay line in 1892\""
+        },
+        {
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ]
+        }
+      ],
+      "flags": [],
+      "notes": "A railfan chronology gives 1891 for the change to the Sacramento-Clay line; Callwell gives 1892."
+    },
+    {
+      "id": "sf-sacramento-clay",
+      "name": "Sacramento-Clay cable line",
+      "system": "ferries-cliff-house-railway",
+      "operators": [
+        {
+          "name": "Ferries & Cliff House Railway",
+          "from": "1892",
+          "to": null
+        },
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1942-02-14"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1892",
+      "closed": "1942-02-14",
+      "status": "closed",
+      "summary": "Out from The Embarcadero on Sacramento St to Fillmore St, back on Sacramento, Larkin and Clay Sts; drawn as it ran after 1906.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by the No. 55 bus on February 15, 1942 (Callwell p. 43).",
+      "route": [
+        {
+          "segment": "sf-sacramento-drumm-larkin"
+        },
+        {
+          "segment": "sf-sacramento-larkin-fillmore"
+        },
+        {
+          "segment": "sf-larkin-clay-sacramento"
+        },
+        {
+          "segment": "sf-clay-leavenworth-larkin"
+        },
+        {
+          "segment": "sf-clay-kearny-leavenworth"
+        },
+        {
+          "segment": "sf-clay-kearny-drumm"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "13",
+          "note": "The Clay St. Hill line became \"the Sacramento-Clay line in 1892\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "43",
+          "note": "\"… this is the last day of service on the MSRy's Sacramento-Clay cable car line, with the No. 55 bus line beginning service the next day.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "43",
+          "note": "After 1906 the Sacramento-Clay line \"had run from The Embarcadero, on Sacramento St. to Fillmore, returning on Sacramento, Larkin, and Clay Sts.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Its route before 1906 isn't sourced yet."
+    },
+    {
+      "id": "sf-sutter-st-cable",
+      "name": "Sutter Street cable line",
+      "system": "sutter-street-railroad",
+      "operators": [
+        {
+          "name": "Sutter Street Railroad",
+          "from": "1877-01-27",
+          "to": null
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1877-01-27",
+      "closed": "1906",
+      "status": "closed",
+      "summary": "Cable cars on Sutter St from Market St, to Larkin St from 1877 and to Presidio Ave from 1879.",
+      "fate_note": "Converted to an electric streetcar line by the United Railroads a few weeks after the 1906 earthquake (Callwell p. 21).",
+      "route": [
+        {
+          "segment": "sf-sutter-market-larkin"
+        },
+        {
+          "segment": "sf-sutter-larkin-presidio"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "8",
+          "note": "\"The Sutter Street Railroad converts from horsecar to cable operation on Sutter from Market to Larkin.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "8",
+          "note": "\"… an extension to Presidio Ave. (then called Central Ave.) in 1879\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "21",
+          "note": "\"It took a few weeks longer for the URR to convert the former Sutter St. Co.'s lines to streetcar service, because those cable car tracks had a five-foot gauge.\" (after May 3, 1906)"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "gauge"
+          ],
+          "pages": "21",
+          "note": "\"… those cable car tracks had a five-foot gauge.\""
+        }
+      ],
+      "flags": [],
+      "gauge_mm": 1524,
+      "gauge_label": "5 ft"
+    },
+    {
+      "id": "sf-california-st-west",
+      "name": "California Street cable line, west of Van Ness Ave",
+      "system": "california-street-cable-railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1878-04-10",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-05-16"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1878-04-10",
+      "closed": "1954-05-16",
+      "status": "closed",
+      "summary": "The western end of the California Street line, from Van Ness Ave to Fillmore St (1878) and Presidio Ave (1879). The rest of the line still runs.",
+      "fate": "abandoned",
+      "fate_note": "Cut back to Van Ness Ave after May 16, 1954; the line from Van Ness Ave to Market St still runs as the California Street cable car.",
+      "route": [
+        {
+          "segment": "sf-california-van-ness-fillmore"
+        },
+        {
+          "segment": "sf-california-fillmore-presidio"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "8",
+          "note": "\"First day of service on the California Street Cable Railroad (Cal Cable) … on California between Kearny and Fillmore.\" / \"The line was extended to Presidio Ave. the next year and to Market St. in 1890.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "47",
+          "note": "May 16, 1954: \"Last day of cable car service … on the O'Farrell, Jones and Hyde line, and on California St. between Van Ness and Presidio Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "operator"
+          ],
+          "pages": "47",
+          "note": "July 31, 1951: \"Last day of service of Cal Cable\"; January 1952: \"On January 13th, Muni began operations on the California St. line\""
+        }
+      ],
+      "flags": [],
+      "notes": "No service from August 1951 to January 13, 1952, between Cal Cable's end and Muni's start (Callwell p. 47)."
+    },
+    {
+      "id": "sf-ofarrell-jones-hyde",
+      "name": "O'Farrell, Jones and Hyde line",
+      "system": "california-street-cable-railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1891-02-09",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-05-16"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1891-02-09",
+      "closed": "1954-05-16",
+      "status": "closed",
+      "summary": "From O'Farrell St and Market St on O'Farrell, Jones, Pine and Hyde Sts to Beach St: the last new cable line built in the city.",
+      "fate": "abandoned",
+      "fate_note": "Ended May 16, 1954. Its Hyde St end became part of the Powell-Hyde line in 1957.",
+      "route": [
+        {
+          "segment": "sf-ofarrell-market-jones"
+        },
+        {
+          "segment": "sf-jones-ofarrell-pine"
+        },
+        {
+          "segment": "sf-pine-jones-hyde"
+        },
+        {
+          "segment": "sf-hyde-pine-jackson"
+        },
+        {
+          "segment": "muni-cable-hyde-st",
+          "note": "Today's Powell-Hyde line on Hyde St"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "13",
+          "note": "\"The O'Farrell, Jones and Hyde line started at O'Farrell & Market and ran on O'Farrell, Jones, Pine, and Hyde to Beach St.\" (first day February 9, 1891)"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "47",
+          "note": "May 16, 1954: \"Last day of cable car service … on the O'Farrell, Jones and Hyde line, and on California St. between Van Ness and Presidio Aves.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "operator"
+          ],
+          "pages": "47",
+          "note": "Muni began operating \"the O'Farrell, Jones and Hyde line\" on January 13, 1952"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "fate"
+          ],
+          "pages": "49",
+          "note": "The Powell-Hyde line of 1957 was \"made up of sections of the old Washington-Jackson and O'Farrell, Jones and Hyde lines\""
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "sf-jones-st-shuttle",
+      "name": "Jones Street shuttle",
+      "system": "california-street-cable-railroad",
+      "operators": [
+        {
+          "name": "California Street Cable Railroad",
+          "from": "1891-02-09",
+          "to": "1951-07-31"
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1952-01-13",
+          "to": "1954-02-06"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1891-02-09",
+      "closed": "1954-02-06",
+      "status": "closed",
+      "summary": "A shuttle on Jones St from Market St to O'Farrell St.",
+      "fate": "abandoned",
+      "route": [
+        {
+          "segment": "sf-jones-market-ofarrell"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "13",
+          "note": "\"Cal Cable's O'Farrell, Jones and Hyde line and Jones Street Shuttle begin service\"; \"The shuttle operated on Jones between O'Farrell and Market.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "47",
+          "note": "\"(The Jones St. Shuttle's last day of service had been on February 6th of that year.)\""
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "sf-washington-jackson",
+      "name": "Washington-Jackson cable line",
+      "system": "ferries-cliff-house-railway",
+      "operators": [
+        {
+          "name": "Ferries & Cliff House Railway",
+          "from": "1888-04-05",
+          "to": null
+        },
+        {
+          "name": "Municipal Railway",
+          "from": "1944-09-29",
+          "to": "1956-09-01"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1888-04-05",
+      "closed": "1956-09-01",
+      "status": "closed",
+      "summary": "Up Powell St from Market St, west on Jackson St and back on Washington St: to Presidio Ave and California St until 1906, then to Steiner St.",
+      "fate": "abandoned",
+      "fate_note": "Ended September 1, 1956. Its Powell St, Jackson St and Washington St tracks east of Hyde St are part of today's Powell-Hyde line.",
+      "route": [
+        {
+          "segment": "muni-cable-powell-st"
+        },
+        {
+          "segment": "muni-cable-jackson-powell-mason"
+        },
+        {
+          "segment": "muni-cable-washington-jackson"
+        },
+        {
+          "segment": "sf-jackson-hyde-steiner"
+        },
+        {
+          "segment": "sf-steiner-jackson-washington"
+        },
+        {
+          "segment": "sf-washington-steiner-hyde"
+        },
+        {
+          "segment": "sf-jackson-steiner-presidio",
+          "to": "1906",
+          "note": "Cut back to Steiner St after the 1906 earthquake (Callwell p. 22)"
+        },
+        {
+          "segment": "sf-presidio-jackson-california",
+          "to": "1906",
+          "note": "Cut back to Steiner St after the 1906 earthquake (Callwell p. 22)"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "The Washington-Jackson line \"operated on Powell from Market, but turned westward on Jackson to Presidio Ave. and then down the hill to California St. On the return trip, the line operated on Presidio, Jackson, Steiner, Washington, and Powell.\""
+        },
+        {
+          "source": "sfmta-blog-powell-mason-130",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"One month later on April 5th, the East-West running Washington and Jackson Line … opened.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "22",
+          "note": "\"(The Washington-Jackson line was cut back to Steiner St., with a new streetcar line on Sutter, Fillmore, Jackson, and Presidio Ave. to California St. taking over service on the outer portion of the route.)\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "48",
+          "note": "\"Last day of service on the Washington-Jackson cable car line.\" (September 1, 1956)"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "operator"
+          ],
+          "pages": "44",
+          "note": "The city took over the Market Street Railway on September 29, 1944."
+        }
+      ],
+      "flags": [],
+      "notes": "Callwell puts full service on the Powell lines \"a few days\" after March 28, 1888; SFMTA's blog gives April 5. The city took over the Market Street Railway, its last private owner, on September 29, 1944 (Callwell p. 44)."
+    },
+    {
+      "id": "sf-geary-st-cable",
+      "name": "Geary Street cable line",
+      "system": "geary-street-park-ocean-railroad",
+      "operators": [
+        {
+          "name": "Geary Street, Park & Ocean Railroad",
+          "from": "1880",
+          "to": "1912-05-05"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1880",
+      "closed": "1912-05-05",
+      "status": "closed",
+      "summary": "Cable cars on Geary St from Market St to Presidio Ave, and later on to Golden Gate Park.",
+      "fate": "replaced_by_rail",
+      "fate_note": "Muni's first streetcar line opened on Geary St in December 1912 (Callwell p. 29).",
+      "route": [
+        {
+          "segment": "sf-geary-market-presidio"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Geary Street, Park & Ocean Railroad (1880)\""
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "\"a cable line was constructed along Geary Street from Kearny to Central (Presidio) Avenue\" (OCR)"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "28",
+          "note": "\"Last day of operation of the GSP&O cable line, as the company is forced to end service despite its objections.\" (May 5, 1912)"
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "general"
+          ],
+          "pages": "22",
+          "note": "June 22, 1906: \"The GSP&O resumes service, the first cable car line to do so.\""
+        }
+      ],
+      "flags": [],
+      "notes": "By 1896 it ran on from Presidio Ave on Geary (then Point Lobos Ave) and 5th Ave to Fulton St (Callwell p. 17); not drawn until that extension's date is sourced."
+    },
+    {
+      "id": "sf-union-st-cable",
+      "name": "Union Street cable line",
+      "system": "presidio-ferries-railroad",
+      "operators": [
+        {
+          "name": "Presidio & Ferries Railroad",
+          "from": "1882",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1882",
+      "closed": "1906",
+      "status": "closed",
+      "summary": "Cable cars from Columbus Ave and Washington St on Columbus Ave and Union St to Steiner St.",
+      "fate_note": "Converted to an electric streetcar line after the 1906 earthquake (Callwell p. 22); bought by the city in 1913 and run as Muni's E line until 1947.",
+      "route": [
+        {
+          "segment": "sf-columbus-washington-union"
+        },
+        {
+          "segment": "sf-union-columbus-larkin"
+        },
+        {
+          "segment": "sf-union-larkin-franklin"
+        },
+        {
+          "segment": "sf-union-franklin-steiner"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Presidio & Ferries Railroad (1882)\""
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "The line \"ran along Union Street to Steiner\" (OCR)."
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route"
+          ],
+          "pages": "22",
+          "note": "Its horsecar line \"had operated to The Embarcadero from the end of its cable line at Columbus Ave. & Washington St.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "22",
+          "note": "September 14, 1906: \"The Presidio & Ferries RR receives a permit from the city to convert its steam, cable, and horse railway lines to streetcar service.\""
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake."
+    },
+    {
+      "id": "sf-castro-st-cable",
+      "name": "Castro Street cable line",
+      "system": "market-street-cable-railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1888",
+          "to": null
+        },
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1941-04-05"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1888",
+      "closed": "1941-04-05",
+      "status": "closed",
+      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they also ran on Market St to the Ferry Building.",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by the No. 24 bus on April 6, 1941 (Callwell p. 41).",
+      "route": [
+        {
+          "segment": "sf-castro-18th-26th"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "81",
+          "note": "The 8 Market traced back \"to a streetcar line that had started in 1906 and a cable car line that had begun service in 1888.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "41",
+          "note": "April 5, 1941: \"Last day of operations on the MSRy's Castro St. cable car line, on Castro between 18th and 26th Sts.\""
+        },
+        {
+          "source": "sfmta-cable-car-history",
+          "supports": [
+            "general"
+          ],
+          "note": "\"Cable cars operated on a portion of Castro Street until 1944.\" Callwell's 1941 is taken."
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines."
+    }
+  ]
+}

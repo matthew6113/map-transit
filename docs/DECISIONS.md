@@ -97,6 +97,68 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       Island sits about 210 m too far south on the 1915 San Francisco sheet), so traces from them are
       corrected against features unchanged on a 1:24,000 sheet, and carry an error of about 50 m.
 
+## Made by Matthew (2026-10-14, Phase 2b planning)
+
+- Phase 2b covers all four streams at once: today's network dates, the early railroads and ferries,
+  the San Francisco streetcars, and the rest of the East Bay. Matthew will allowlist
+  OpenHistoricalMap's Overpass server for its dated railway ways.
+
+13. **Past lines may run over present track.**
+    - Many past services ran on rights-of-way still in use: the SF & San José and Southern Pacific
+      commuter trains on today's Caltrain line, the Central Pacific on the Capitol Corridor's.
+      Drawing them twice would double the strokes.
+    - So a past line's route may name a present segment. The present segment keeps its own dates
+      (when the track opened), borrows from the past lines that used it where those are null, and
+      is drawn once, in the present layer; the past line's hover and highlight follow it.
+    - Today's network is cut into shared, dated segments at build time from
+      `data/present/extensions.json` (`extensions.py`), with dates from official sources only.
+
+## Today's network, dated (2026-10-14, Phase 2b)
+
+- **A present segment's date is its track's.** `opened` is when the track first carried passengers,
+  so the past era shows it from then and past lines over it (decision 13) aren't cut short. Where
+  today's service runs over older track whose date isn't sourced yet (the K on the United Railroads'
+  Ocean Ave track, the L on Taraval St, the F on Market St), the segment stays `null` and the line's
+  `route_from` says when the service began there; display borrows that, lighter (decision 4).
+- **Track older than its service is the past era's** (Phase 2b, early railroads). Caltrain dates from
+  July 1, 1980, when Caltrans took over, but most of its track is the San Francisco & San Jose
+  Railroad's of 1863–64, the Bayshore Cutoff of 1907 and San José's line of 1935. Those dates are
+  past facts, so they may come from any citable source but Wikipedia (CLAUDE.md), here the
+  directories and newspapers of the day; Caltrain's own milestones confirm 1863–64 and 1935. Stations
+  standing on older track borrow their line's date, not the track's.
+- **Official sources only.** Today's network is dated from its agencies' own records, as the future era
+  is. For example:
+  - BART: its annual reports, news releases, reports to Congress and timeline.
+  - Muni: its 1999 chronology by Robert Callwell, and SFMTA's short-range transit plans and pages.
+  - The other systems: VTA and the CPUC's safety review, Caltrain's milestones, SMART's releases and
+    board reports, the Golden Gate and SF Bay Ferry histories, ACE, the Capitol Corridor, Amtrak,
+    AC Transit, SFCTA and MTC.
+- **An agency's announced date counts, with a note** (Matthew, Oct 14). Where an agency announced
+  an opening date beforehand and nothing contradicts it, the date is used, and the notes say it was
+  announced:
+  - the Central Subway's weekend service, November 19, 2022;
+  - West Dublin/Pleasanton, February 19, 2011;
+  - Tempo, August 9, 2020.
+  Where a post leaves the day unclear, only the month is given: SMART's Windsor extension, May 2025,
+  and Petaluma North's "grand opening".
+- **Conflicts:** BART's San Francisco line opened November 5, 1973 (November 3 was ceremonies and
+  free rides). BART's 2020 timeline gives May 13, 2020 for Berryessa, against VTA's and BART's own
+  June 13. The Powell-Mason cable line is dated only to 1888 (Callwell: full service a few days after
+  March 28; SFMTA's blog: early March) and flagged.
+- **One stretch, one stroke.** A stretch is cut from one line's GTFS geometry between two stations,
+  older track keeps any part two stretches share, and each stretch is split where the lines of its
+  mode part. So BART's colors share their track as one dated segment each, the Muni Metro letters
+  share the subway, and the F on Market St stays apart from the subway under it (different modes).
+- **Past-era colors follow the mode of the year** (Matthew, Oct 14). Where past lines use present
+  track (decision 13), the track draws in the mode of the line using it at each year, so Muni's
+  Twin Peaks Tunnel draws as a streetcar before 1980 and as light rail after. Today's lines that
+  changed mode themselves carry an `earlier_mode` in `extensions.json`: the N until February 18,
+  1980, the K until June 11, 1980, the L and M until December 17, 1980 and the J until June 17,
+  1981, the days their weekday Metro service began (Callwell).
+- **Stations borrow from their track.** A station with no date of its own shows from when the track
+  it stands on opened (the earliest, at a junction), drawn as borrowed. Stations that opened apart
+  from their track carry their own dates (BART's Embarcadero, 1976; West Dublin/Pleasanton, 2011).
+
 ## Architecture (2026-10-13)
 
 - **BAM's basemap is served same-origin, from a pinned snapshot (refines decision 1).**
@@ -338,9 +400,9 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 
 - **The app opens on the present era.** The past era opens at 1925, the interurbans' heyday, and
   `?year=` overrides that.
-- **The past slider runs 1850 to today and includes the present network.** BART grows in as its
-  segments get sourced dates (Phase 2, `present/extensions.json`). Until then BART's lines are
-  undated and off the slider, which the slider's note says.
+- **The past slider runs 1850 to today and includes the present network.** BART and Muni grow in
+  from their sourced dates (Phase 2b, `present/extensions.json`). Systems not yet dated are off the
+  slider, which the slider's note says.
 - **The "Whole Bay" frame** is the core of the rail network, from San Rafael and Richmond to San José
   and Livermore. BAM's frame fits its project sites.
 - **Freight-only rail stays as BAM's faint dashed context.** BAM's context lines for transit rail and

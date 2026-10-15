@@ -1,0 +1,106 @@
+{
+  "$comment": "Recipes for the geometry (pipeline/transit_pipeline/past.py): courses over water between terminals traced off the 1950 USGS sheets.",
+  "segments": {
+    "ggf-hyde-sausalito-course": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.42076,
+              37.80985
+            ],
+            [
+              -122.47737,
+              37.85646
+            ]
+          ]
+        }
+      ]
+    },
+    "ggf-hyde-berkeley-course": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.42076,
+              37.80985
+            ],
+            [
+              -122.360382,
+              37.840424
+            ]
+          ]
+        }
+      ]
+    },
+    "vallejo-ferry-course": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.395,
+              37.7958
+            ],
+            [
+              -122.26299,
+              38.09994
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "points": {
+    "ferry-hyde-street-pier": {
+      "trace": {
+        "sheet": "usgs-san-francisco-north-1950",
+        "bbox": [
+          -122.427,
+          37.804,
+          -122.417,
+          37.812
+        ],
+        "zoom": 2
+      },
+      "px": [
+        540,
+        235
+      ],
+      "est_error_m": 30
+    },
+    "ferry-sausalito-nwp": {
+      "trace": {
+        "sheet": "usgs-san-francisco-north-1950",
+        "bbox": [
+          -122.484,
+          37.85,
+          -122.47,
+          37.862
+        ],
+        "zoom": 1.5
+      },
+      "px": [
+        430,
+        455
+      ],
+      "est_error_m": 30
+    },
+    "ferry-berkeley-pier": {
+      "trace": {
+        "sheet": "usgs-oakland-west-1949",
+        "bbox": [
+          -122.39,
+          37.835,
+          -122.34,
+          37.86
+        ],
+        "zoom": 0.8
+      },
+      "px": [
+        1025,
+        858
+      ],
+      "est_error_m": 30
+    }
+  }
+}

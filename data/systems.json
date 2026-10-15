@@ -37,9 +37,32 @@
       "short_name": "High-speed rail"
     },
     {
+      "id": "california-street-cable-railroad",
+      "name": "California Street Cable Railroad",
+      "short_name": "Cal Cable",
+      "notes": "Leland Stanford's company, 1878; bought by the city in 1952."
+    },
+    {
       "id": "caltrain",
       "name": "Caltrain",
       "short_name": "Caltrain"
+    },
+    {
+      "id": "clay-street-hill-railroad",
+      "name": "Clay Street Hill Railroad",
+      "short_name": "Clay St Hill RR",
+      "notes": "Andrew Hallidie's first cable railway, 1873."
+    },
+    {
+      "id": "ferries-cliff-house-railway",
+      "name": "Ferries & Cliff House Railway",
+      "short_name": "Ferries & Cliff House",
+      "notes": "Also called the Powell Street Railway (Callwell p. 12)."
+    },
+    {
+      "id": "geary-street-park-ocean-railroad",
+      "name": "Geary Street, Park & Ocean Railroad",
+      "short_name": "GSP&O"
     },
     {
       "id": "gold-runner",
@@ -64,9 +87,19 @@
       "notes": "The Key Route trains and ferries, from 1903, under several corporate names; each line lists its operators by date."
     },
     {
+      "id": "market-street-cable-railway",
+      "name": "Market Street Cable Railway",
+      "short_name": "Market St Cable"
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"
+    },
+    {
+      "id": "presidio-ferries-railroad",
+      "name": "Presidio & Ferries Railroad",
+      "short_name": "Presidio & Ferries"
     },
     {
       "id": "san-francisco-bay-ferry",
@@ -90,6 +123,11 @@
       "notes": "Here, its East Bay electric lines (the Red Trains), electrified from 1911."
     },
     {
+      "id": "sutter-street-railroad",
+      "name": "Sutter Street Railroad",
+      "short_name": "Sutter St RR"
+    },
+    {
       "id": "treasure-island-ferry",
       "name": "Treasure Island Ferry",
       "short_name": "Treasure Island Ferry"
@@ -103,6 +141,30 @@
       "id": "vta",
       "name": "Santa Clara Valley Transportation Authority",
       "short_name": "VTA"
+    },
+    {
+      "id": "golden-gate-ferries",
+      "name": "Golden Gate Ferries",
+      "short_name": "Golden Gate Ferries",
+      "notes": "The auto ferries from Hyde Street, 1922–1938: Golden Gate Ferries, Ltd., then from 1929 Southern Pacific-Golden Gate Ferries, Ltd. Not today's Golden Gate Ferry."
+    },
+    {
+      "id": "northwestern-pacific",
+      "name": "Northwestern Pacific Railroad",
+      "short_name": "Northwestern Pacific",
+      "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
+    },
+    {
+      "id": "sacramento-northern",
+      "name": "Sacramento Northern Railway",
+      "short_name": "Sacramento Northern",
+      "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
+    },
+    {
+      "id": "vallejo-ferry",
+      "name": "San Francisco-Vallejo ferry",
+      "short_name": "Vallejo ferry",
+      "notes": "The Hatch brothers' ferry of 1895, the Monticello Steamship Co.'s from 1904, then the Golden Gate Ferry Co.'s and from 1929 Southern Pacific Golden Gate Ferries'."
     }
   ]
 }

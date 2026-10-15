@@ -443,10 +443,20 @@ body {
   cursor: pointer;
 }
 
-.year-slider .undated ul {
-  max-height: 9em;
+.year-slider .undated .groups {
+  max-height: 12em;
   overflow-y: auto;
-  margin: 4px 0 0;
+  margin-top: 4px;
+}
+
+.year-slider .undated h3 {
+  margin: 6px 0 0;
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.year-slider .undated ul {
+  margin: 2px 0 0;
   padding-left: 16px;
 }
 

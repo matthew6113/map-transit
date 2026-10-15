@@ -1,0 +1,632 @@
+{
+  "$comment": "Recipes for the geometry (pipeline/transit_pipeline/past.py): today's street centerlines, checked on the USGS San Francisco North sheet of 1950.",
+  "segments": {
+    "muni-geary-market-van-ness": {
+      "parts": [
+        {
+          "streets": [
+            "Geary Street",
+            "Geary Boulevard"
+          ],
+          "from": "Market Street",
+          "to": "Van Ness Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-geary-van-ness-2nd": {
+      "parts": [
+        {
+          "streets": [
+            "Geary Street",
+            "Geary Boulevard"
+          ],
+          "from": "Van Ness Avenue",
+          "to": "2nd Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-geary-2nd-10th": {
+      "parts": [
+        {
+          "streets": [
+            "Geary Street",
+            "Geary Boulevard"
+          ],
+          "from": "2nd Avenue",
+          "to": "10th Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-10th-geary-fulton": {
+      "parts": [
+        {
+          "streets": [
+            "10th Avenue"
+          ],
+          "from": "Geary Boulevard",
+          "to": "Fulton Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-geary-10th-33rd": {
+      "parts": [
+        {
+          "streets": [
+            "Geary Boulevard"
+          ],
+          "from": "10th Avenue",
+          "to": "33rd Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-33rd-geary-balboa": {
+      "parts": [
+        {
+          "streets": [
+            "33rd Avenue"
+          ],
+          "from": "Geary Boulevard",
+          "to": "Balboa Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-balboa-33rd-45th": {
+      "parts": [
+        {
+          "streets": [
+            "Balboa Street"
+          ],
+          "from": "33rd Avenue",
+          "to": "45th Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-45th-balboa-cabrillo": {
+      "parts": [
+        {
+          "streets": [
+            "45th Avenue"
+          ],
+          "from": "Balboa Street",
+          "to": "Cabrillo Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-cabrillo-45th-la-playa": {
+      "parts": [
+        {
+          "streets": [
+            "Cabrillo Street"
+          ],
+          "from": "45th Avenue",
+          "to": "La Playa Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-embarcadero": {
+      "parts": [
+        {
+          "streets": [
+            "The Embarcadero"
+          ],
+          "from": "Market Street",
+          "to": "Washington Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-washington": {
+      "parts": [
+        {
+          "streets": [
+            "Washington Street"
+          ],
+          "from": "The Embarcadero",
+          "to": "Columbus Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-jackson": {
+      "parts": [
+        {
+          "streets": [
+            "Jackson Street"
+          ],
+          "from": "Drumm Street",
+          "to": "Columbus Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-larkin": {
+      "parts": [
+        {
+          "streets": [
+            "Larkin Street"
+          ],
+          "from": "Union Street",
+          "to": "Vallejo Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-vallejo-larkin-van-ness": {
+      "parts": [
+        {
+          "streets": [
+            "Vallejo Street"
+          ],
+          "from": "Larkin Street",
+          "to": "Van Ness Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-vallejo-van-ness-franklin": {
+      "parts": [
+        {
+          "streets": [
+            "Vallejo Street"
+          ],
+          "from": "Van Ness Avenue",
+          "to": "Franklin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-franklin": {
+      "parts": [
+        {
+          "streets": [
+            "Franklin Street"
+          ],
+          "from": "Vallejo Street",
+          "to": "Union Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-union-steiner-baker": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Steiner Street",
+          "to": "Baker Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-baker": {
+      "parts": [
+        {
+          "streets": [
+            "Baker Street"
+          ],
+          "from": "Union Street",
+          "to": "Greenwich Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-e-greenwich": {
+      "parts": [
+        {
+          "streets": [
+            "Greenwich Street"
+          ],
+          "from": "Baker Street",
+          "to": "Lyon Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-2nd-ave-geary-cornwall": {
+      "parts": [
+        {
+          "streets": [
+            "2nd Avenue"
+          ],
+          "from": "Geary Boulevard",
+          "to": "Cornwall Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-cornwall-2nd-california": {
+      "parts": [
+        {
+          "streets": [
+            "Cornwall Street"
+          ],
+          "from": "2nd Avenue",
+          "to": "California Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-california-cornwall-13th": {
+      "parts": [
+        {
+          "streets": [
+            "California Street"
+          ],
+          "from": [
+            -122.466275,
+            37.784777
+          ],
+          "to": "Funston Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-california-13th-33rd": {
+      "parts": [
+        {
+          "streets": [
+            "California Street"
+          ],
+          "from": "Funston Avenue",
+          "to": [
+            -122.493466,
+            37.783504
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-van-ness-market-geary": {
+      "parts": [
+        {
+          "streets": [
+            "Van Ness Avenue"
+          ],
+          "from": "Market Street",
+          "to": "Geary Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-van-ness-geary-vallejo": {
+      "parts": [
+        {
+          "streets": [
+            "Van Ness Avenue"
+          ],
+          "from": "Geary Street",
+          "to": "Vallejo Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-van-ness-vallejo-union": {
+      "parts": [
+        {
+          "streets": [
+            "Van Ness Avenue"
+          ],
+          "from": "Vallejo Street",
+          "to": "Union Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-van-ness-union-chestnut": {
+      "parts": [
+        {
+          "streets": [
+            "Van Ness Avenue"
+          ],
+          "from": "Union Street",
+          "to": "Chestnut Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-van-ness-chestnut-north-point": {
+      "parts": [
+        {
+          "streets": [
+            "Van Ness Avenue"
+          ],
+          "from": "Chestnut Street",
+          "to": "North Point Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-h-fort-mason": {
+      "parts": [
+        {
+          "lonlat": [
+            [
+              -122.425219,
+              37.805082
+            ],
+            [
+              -122.4285,
+              37.8057
+            ],
+            [
+              -122.431876,
+              37.804249
+            ]
+          ]
+        }
+      ],
+      "approximate": true
+    },
+    "muni-union-van-ness-franklin": {
+      "parts": [
+        {
+          "streets": [
+            "Union Street"
+          ],
+          "from": "Van Ness Avenue",
+          "to": "Franklin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-steiner-union-greenwich": {
+      "parts": [
+        {
+          "streets": [
+            "Steiner Street"
+          ],
+          "from": "Union Street",
+          "to": "Greenwich Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-greenwich-steiner-baker": {
+      "parts": [
+        {
+          "streets": [
+            "Greenwich Street"
+          ],
+          "from": "Steiner Street",
+          "to": "Baker Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-chestnut-van-ness-fillmore": {
+      "parts": [
+        {
+          "streets": [
+            "Chestnut Street"
+          ],
+          "from": "Van Ness Avenue",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-chestnut-fillmore-scott": {
+      "parts": [
+        {
+          "streets": [
+            "Chestnut Street"
+          ],
+          "from": "Fillmore Street",
+          "to": "Scott Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-stockton-market-bush": {
+      "parts": [
+        {
+          "streets": [
+            "Stockton Street"
+          ],
+          "from": "Ellis Street",
+          "to": "Bush Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-stockton-tunnel": {
+      "parts": [
+        {
+          "streets": [
+            "Stockton Tunnel"
+          ],
+          "from": [
+            -122.40715,
+            37.79028
+          ],
+          "to": [
+            -122.40774,
+            37.79319
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-stockton-sacramento-columbus": {
+      "parts": [
+        {
+          "streets": [
+            "Stockton Street"
+          ],
+          "from": "Sacramento Street",
+          "to": "Columbus Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-columbus-stockton-north-point": {
+      "parts": [
+        {
+          "streets": [
+            "Columbus Avenue"
+          ],
+          "from": "Stockton Street",
+          "to": "North Point Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-north-point-columbus-van-ness": {
+      "parts": [
+        {
+          "streets": [
+            "North Point Street"
+          ],
+          "from": "Columbus Avenue",
+          "to": "Van Ness Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-potrero-army-25th": {
+      "parts": [
+        {
+          "streets": [
+            "Potrero Avenue"
+          ],
+          "from": [
+            -122.405645,
+            37.749857
+          ],
+          "to": "25th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-potrero-25th-division": {
+      "parts": [
+        {
+          "streets": [
+            "Potrero Avenue"
+          ],
+          "from": "25th Street",
+          "to": "Division Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-division-potrero-11th": {
+      "parts": [
+        {
+          "streets": [
+            "Division Street"
+          ],
+          "from": "Potrero Avenue",
+          "to": "11th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "muni-11th-division-market": {
+      "parts": [
+        {
+          "streets": [
+            "11th Street"
+          ],
+          "from": "Division Street",
+          "to": "Market Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    }
+  }
+}
