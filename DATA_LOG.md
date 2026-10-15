@@ -232,6 +232,10 @@ The geometry tools are below (decision 12).
 | `usgs-calistoga-1945` | CA_Calistoga_296981_1945_62500_geo.tif | 5.292 | `3b437a92a9e9` |
 | `usgs-cordelia-1951` | CA_Cordelia_289511_1951_24000_geo.tif | 2.032 | `5e91acd236b3` |
 | `usgs-fairfield-south-1949` | CA_Fairfield South_290434_1949_24000_geo.tif | 2.032 | `4174b070619e` |
+| `usgs-las-trampas-ridge-1947` | CA_Las Trampas Ridge_292167_1947_24000_geo.tif | 2.032 | `12f165eada70` |
+| `usgs-diablo-1953` | CA_Diablo_289931_1953_24000_geo.tif | 2.032 | `cc0c424ed2d6` |
+| `usgs-mt-diablo-1898` | CA_Mt Diablo_298277_1898_62500_geo.tif | 5.292 | `131ad0f00447` |
+| `usgs-vine-hill-1959` | CA_Vine Hill_301163_1959_24000_geo.tif | 2.032 | `382dfe8a0bf5` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -307,9 +311,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 107 | 441 | 11 | 480.7 | 467.2 | 110.4 | 8 | 397 |
+| past | 108 | 444 | 11 | 506.3 | 473.9 | 110.4 | 8 | 400 |
 | present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 433, `conflicting_sources` 17, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 436, `conflicting_sources` 17, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

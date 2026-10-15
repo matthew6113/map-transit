@@ -2,6 +2,18 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The San Ramon branch
+
+- **Southern Pacific, San Ramon branch** (`sp-san-ramon/`): from Avon, on today's line from
+  Martinez to Tracy, by Concord, Walnut Creek and Danville to San Ramon. Opened for public use June
+  7, 1891 (the Railroad Commissioners' report of 1894, p. 24); its mixed trains, by then two days a
+  week, were abandoned on or about February 1934 (CRC Decision 26834, decision 17).
+- Geometry from OpenHistoricalMap from Galindo south, within about 10 m of the railroad on the
+  1947–53 sheets; from Avon to Galindo, where OpenHistoricalMap's way (from the 1896 sheet) is up to
+  150 m off, traced from the 1959 Vine Hill and 1949 Walnut Creek sheets. Its end at San Ramon is
+  where the 1898 Mt Diablo sheet ends the track. Four USGS sheets added (Las Trampas Ridge 1947,
+  Diablo 1953, Mt Diablo 1898, Vine Hill 1959).
+
 ## 2026-10-15: The California Pacific to Suisun
 
 - **California Pacific trains, Vallejo to Suisun and Sacramento** (`calp-vallejo-suisun`): from the

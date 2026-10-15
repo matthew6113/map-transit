@@ -34023,6 +34023,260 @@
       ]
     },
     {
+      "id": "sp-san-ramon-branch",
+      "name": "Southern Pacific, San Ramon branch",
+      "short_name": "San Ramon branch",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1891-06-07",
+      "closed": "1934-02",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains from Avon, on the line from Martinez to Tracy, by Concord, Walnut Creek and Danville to San Ramon; by 1934, mixed trains two days a week.",
+      "fate": "abandoned",
+      "fate_note": "The mixed trains, Nos. 444 and 445, were abandoned under the Railroad Commission's order of February 26, 1934 (Decision No. 26834); the branch went on carrying freight \"as necessity demands\".",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Opened for public use June 7, 1891 (the Railroad Commissioners' report of 1894). Its end is the month of the order that let the Southern Pacific abandon the branch's mixed trains, which required ten days' notice to the public, so the last trains ran in March 1934 at the earliest; the last run isn't dated. The branch was later extended south of San Ramon; that stretch isn't drawn, since the order names only Avon to San Ramon.",
+      "flags": [],
+      "undated": false,
+      "length_km": 32.26,
+      "confidence_km": {
+        "digitized": 6.65,
+        "surveyed": 25.61
+      },
+      "bbox": [
+        -122.075774,
+        37.777359,
+        -121.964207,
+        38.032436
+      ],
+      "fids": [
+        894,
+        895,
+        896
+      ],
+      "segments": [
+        {
+          "id": "sp-sr-avon-galindo",
+          "name": "Avon to Galindo, north of Concord",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Vine Hill 1:24,000 (1959) (16 hand-read points, centred on the line symbol); then traced by eye from USGS Vine Hill 1:24,000 (1959) (13 hand-read points, centred on the line symbol); then traced by eye from USGS Walnut Creek 1:24,000 (1949) (18 hand-read points, centred on the line symbol); then joined to sp-sr-galindo-danville at its start. Traced from the 1959 Vine Hill sheet, which today's track at Avon checks, and the 1949 Walnut Creek sheet: OpenHistoricalMap's way here, from the 1896 Carquinez Strait sheet, is up to 150 m off.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The branch left the line from Martinez to Tracy at Avon."
+        },
+        {
+          "id": "sp-sr-galindo-danville",
+          "name": "Galindo to Danville, by Concord and Walnut Creek",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200221523 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map, cut from -122.04211,37.98064; checked on USGS Walnut Creek 1:24,000 (1949) and USGS Las Trampas Ridge 1:24,000 (1947). OpenHistoricalMap's way, traced from the 1897 Concord sheet, from where it meets the railroad on the 1949 sheet; within about 10 m of it on the 1947-49 sheets.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "South through Concord and Walnut Creek, beside the Sacramento Northern's line for part of the way."
+        },
+        {
+          "id": "sp-sr-danville-san-ramon",
+          "name": "Danville to San Ramon",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200223279 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Mt Diablo CA 1896 topographic map; checked on USGS Diablo 1:24,000 (1953) and USGS Mt Diablo 1:62,500 (1898). OpenHistoricalMap's way, traced from the 1896 Mt Diablo sheet, to the end of the track on the 1898 sheet.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its end of 1891 at San Ramon, where the 1898 sheet ends the track; it was later extended south (not drawn)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "24",
+          "note": "\"Branch from Avon to San Ramon … June 7, 1891\", opened for public use (the Southern Pacific Railroad Company's return)."
+        },
+        {
+          "id": "crc-d26834",
+          "title": "Railroad Commission of California, Decision No. 26834 (Application No. 19269)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1934-02-26",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26834_19340226_A19269.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d26834",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "1-2",
+          "note": "Authorized \"to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch\", effective on the date of the order, February 26, 1934, on ten days' notice to the public: on or about February 1934 (decision 17). The trains ran \"on two days a week; namely, Tuesdays and Fridays\"."
+        },
+        {
+          "id": "usgs-karquines-1898",
+          "title": "Karquines, Cal., topographic quadrangle, 1:62,500, 1898",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1898",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Karquines_297860_1898_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-karquines-1898",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221524"
+        },
+        {
+          "id": "usgs-vine-hill-1959",
+          "title": "Vine Hill, Cal., topographic quadrangle, 1:24,000, 1959, printed 1981",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1959",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Vine%20Hill_301163_1959_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-vine-hill-1959",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-walnut-creek-1949",
+          "title": "Walnut Creek, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Walnut%20Creek_301186_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-walnut-creek-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1942",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1942",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1942",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-las-trampas-ridge-1947",
+          "title": "Las Trampas Ridge, Cal., topographic quadrangle, 1:24,000, 1947, printed 1956",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1947",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Las%20Trampas%20Ridge_292167_1947_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-las-trampas-ridge-1947",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-diablo-1953",
+          "title": "Diablo, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Diablo_289931_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-diablo-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-mt-diablo-1898",
+          "title": "Mt Diablo, Cal., topographic quadrangle, 1:62,500, 1898, printed 1901",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1898",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mt%20Diablo_298277_1898_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-mt-diablo-1898",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-sutter-st-cable",
       "name": "Sutter Street cable line",
       "system": "sutter-street-railroad",
