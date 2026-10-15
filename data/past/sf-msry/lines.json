@@ -2812,6 +2812,200 @@
           "segment": "sf-msry-divisadero-st-jackson-st-sacramento-st"
         }
       ]
+    },
+    {
+      "id": "msry-40",
+      "name": "No. 40 San Mateo",
+      "short_name": "40",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1949-01-15",
+      "running": [
+        {
+          "date": "1903-10-31",
+          "source": "srj-1903-10-31-san-mateo",
+          "pages": "798-803",
+          "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
+        },
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "26",
+          "note": "\"5th and Market via 5th to Mission to Colma to Cemeteries to San Mateo.\""
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
+      "sources": [
+        {
+          "source": "srj-1903-10-31-san-mateo",
+          "supports": [
+            "route"
+          ],
+          "pages": "798-803"
+        },
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "26"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349",
+          "note": "\"Line No. 40 - San Mateo From Market St. via 5th St., Mission St., through Daly City and Colma, then Private Right of Way through San Bruno, Lomita Park and Millbrae to Burlingame, then via San Mateo Drive, Baldwin Avenue, \"B\" Street and 3rd Ave. to Main Street - San Mateo.\""
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "164, 277",
+          "note": "\"On January 16, 1949, the No. 40 San Mateo street car line was abandoned, the last day of operation being January 15, 1949.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Its opening to San Mateo isn't sourced; the map draws it from October 31, 1903, when the Street Railway Journal describes the cars running (decision 20). In 1903 it reached the city by the San Francisco & San Mateo's streets of 1892, which aren't drawn yet, so until 1909 it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
+      "route": [
+        {
+          "segment": "sf-msry-5th-st-market-st-mission-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-22nd-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-onondaga-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sm-daly-city-san-mateo"
+        },
+        {
+          "segment": "sf-msry-n-san-mateo-dr-baldwin-ave-peninsula-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "O'Shaughnessy's San Mateo Drive"
+        },
+        {
+          "segment": "sf-msry-baldwin-ave-n-san-mateo-dr-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-s-b-st-baldwin-ave-e-3rd-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-e-3rd-ave-main-st-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-main-st-2nd-ave-e-3rd-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Back by Main St, 2nd Ave, B St, Baldwin Ave, Ellsworth Ave and Poplar Ave"
+        },
+        {
+          "segment": "sf-msry-2nd-ave-main-st-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-n-ellsworth-ave-baldwin-ave-e-poplar-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-e-poplar-ave-n-ellsworth-ave-n-san-mateo-dr",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
     }
   ]
 }

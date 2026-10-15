@@ -2698,6 +2698,17 @@
       "notes": "p. 7 (read on the page image): San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\" \"All traffic has ceased over the old line.\" \"The new route leaves the old line at Polhemus Street on the north side of the city and proceeds along the route of the Santa Cruz Branch … to the new station built on the site of the old South Pacific Coast depot. Thence … to a connection with the main line at Lick.\""
     },
     {
+      "id": "srj-1903-10-31-san-mateo",
+      "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
+      "publisher": "Street Railway Journal",
+      "date": "1903-10-31",
+      "type": "journal",
+      "url": "https://archive.org/details/streetrailwayjo221903newy",
+      "license": "Public domain (published 1903)",
+      "accessed": "2026-10-15",
+      "notes": "pp. 798-803 (archive.org OCR): \"A private right of way was secured from Holy Cross to Burlingame, through the outskirts of Baden, San Bruno and Millbrae. From Burlingame to San Mateo franchises were secured to run on the streets\"; \"The cars at the present time are operated every half-hour from 5:30 a. m. to 8:00 p. m.\" The OCR loses the running heads of pp. 800-801 and 803."
+    },
+    {
       "id": "srj-1904-01-02-north-shore",
       "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
       "publisher": "Street Railway Journal",
@@ -2848,6 +2859,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 291408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2aebec44aa8844ebadfd5458cc3e7965182c8111facbe73afec8fc5d0fff80ea."
+    },
+    {
+      "id": "usgs-montara-mountain-1949",
+      "title": "Montara Mountain, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Montara%20Mountain_293071_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 293071, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3dcb383b93fbb3227a91e1d07de3fe1f63f415100149103d203db20cf21b1059."
     },
     {
       "id": "usgs-oakland-east-1949",
@@ -3028,6 +3051,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, edition of 1915. HTMC scan 298922, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 f648bf5144d507111594c6c2314ec90b0a8ec7d13100b81d7056088fcbab6774."
+    },
+    {
+      "id": "usgs-san-mateo-1949",
+      "title": "San Mateo, Cal., topographic quadrangle, 1:24,000, 1949",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_300158_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 300158, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 0deb7839d4411f862ff7b106ed3f93aa400c12168a151a1e37caf55df087cd7a."
     },
     {
       "id": "usgs-sebastopol-1935",

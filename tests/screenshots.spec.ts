@@ -91,6 +91,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-marin-1900', url: '/?era=past&year=1900&test=1#map=9.6/38.1600/-122.7500/0/0' },
   { name: 'past-marin-1931', url: '/?era=past&year=1931&test=1#map=9.6/38.1600/-122.7500/0/0' },
   { name: 'past-line-npc', url: '/l/npc-main-line?era=past&year=1900&test=1&at=99' },
+  { name: 'past-line-msry-40', url: '/l/msry-40?era=past&year=1930&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

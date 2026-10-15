@@ -23,6 +23,7 @@ running.
 | Ferries | The Oakland Pier, Alameda Pier and Creek Route ferries; the SF & Alameda ferry (1864–73); Richmond–San Rafael | Halley (1876), the 1883 county history, HABS CA-1888, CRC Decisions 2624, 29338, 29999, 33445, *California Highways and Public Works* (1956) | Over water between terminals (approximate); Richmond–San Rafael from OpenHistoricalMap |
 | Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 | North Pacific Coast | Sausalito to the Russian River at Monte Rio (decision 21), and its San Rafael branch | The Railroad Commissioners' tenth report (openings by stretch, 1875–77); CRC Decisions 22672 and 34457 (1930, 1933); the San Rafael branch for its running dates (decision 20) | The electric lines' track to San Anselmo, then OpenHistoricalMap's ways, checked on the sheets of 1897–1945 |
+| San Mateo interurban (No. 40) | 5th and Market by Mission St and its private right of way to Burlingame and San Mateo | Running in 1903 (*Street Railway Journal*), 1909 (Manley) and 1929 (O'Shaughnessy); last day January 15, 1949 (SF PUC 1948–49) | Today's centerlines; OpenHistoricalMap's right of way, checked on the 1949–50 sheets |
 
 ## Not drawn yet, and what each needs
 
@@ -50,9 +51,10 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
   1894 pole permit give its route, the *Street Railway Journal* its February 1, 1896 opening; the Park
   & Ocean's franchises its route, the SF PUC's 1948 report its last streetcar day (July 3, 1948, as
   the No. 7). Their private rights-of-way to Sutro Baths and along the beach need tracing.
-- **San Mateo interurban (No. 40):** opened April 26, 1892 (*Street Railway Journal*), last day
-  January 15, 1949 (SF PUC report 1948–49); the 1903 extension's opening isn't sourced. The private
-  right-of-way to Burlingame is on the 1915 and 1939 San Mateo sheets and in OHM.
+- **San Francisco & San Mateo (1892):** No. 40 is drawn from 1903; its forerunner's route of 1892
+  (Steuart, Harrison, 14th, Guerrero, San Jose Ave, 30th and Chenery Sts, a trestle over Diamond
+  Ravine and the old San Jose road) isn't, and needs the trestle traced from the 1899 sheet. When
+  No. 40 moved from those streets to Mission St isn't sourced.
 - **Muni's exposition lines I and J:** their streets aren't sourced; read Muni's 1915–16 reports.
 - **Ocean Shore Railroad** (October 1907 to August 15, 1920, Callwell p. 35): OHM has its coast line,
   but traced from the 1915 San Mateo 15-minute sheet, so it needs a fit before use.

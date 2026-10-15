@@ -45,6 +45,7 @@ AREAS = {
     "marin": (-122.60, 37.845, -122.45, 38.02),  # Sausalito to San Rafael (the Northwestern Pacific's electric lines)
     "contracosta": (-122.22, 37.82, -121.88, 38.05),  # Moraga to Bay Point (the Sacramento Northern)
     "richmond": (-122.40, 37.90, -122.28, 37.98),  # Albany to Richmond and San Pablo (the East Shore & Suburban)
+    "sanmateo": (-122.36, 37.555, -122.31, 37.59),  # Burlingame and San Mateo (the San Mateo interurban, No. 40)
 }
 CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"

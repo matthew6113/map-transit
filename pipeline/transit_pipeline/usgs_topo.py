@@ -110,6 +110,9 @@ SHEETS = [
     Sheet("usgs-sebastopol-1935", "Sebastopol", 48000, 1935, "301575", None, "1:48,000 advance sheet, surveyed 1935"),
     Sheet("usgs-duncans-mills-1945", "Duncans Mills", 31680, 1945, "296063", None, "1:31,680 sheet, edition of 1945"),
     Sheet("usgs-cazadero-1945", "Cazadero", 31680, 1945, "302658", None, "1:31,680 sheet, surveyed 1943, edition of 1945"),
+    # The San Mateo interurban, while it still ran (to 1949).
+    Sheet("usgs-montara-mountain-1949", "Montara Mountain", 24000, 1949, "293071", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
+    Sheet("usgs-san-mateo-1949", "San Mateo", 24000, 1949, "300158", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

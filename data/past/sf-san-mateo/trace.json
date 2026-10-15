@@ -1,0 +1,22 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the San Mateo interurban from OpenHistoricalMap's ways (ohm.py), checked on the USGS 1:24,000 sheets of 1949-50, from aerial photographs of 1946, while it still ran.",
+ "segments": {
+  "sm-daly-city-san-mateo": {
+   "parts": [
+    {
+     "ohm": [
+      200016967,
+      200012964,
+      202195641
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-francisco-south-1950",
+    "usgs-montara-mountain-1949",
+    "usgs-san-mateo-1949"
+   ],
+   "note": "OpenHistoricalMap's main way was traced from the 1939 San Mateo 15-minute sheet; on the 1949-50 sheets it runs within about 20 m of the track"
+  }
+ }
+}

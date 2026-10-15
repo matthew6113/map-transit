@@ -15,6 +15,12 @@
       37.69,
       -122.35,
       37.75
+    ],
+    "usgs-san-mateo-1949": [
+      -122.375,
+      37.5,
+      -122.25,
+      37.625
     ]
   },
   "lines": {
@@ -1268,6 +1274,103 @@
         "street": "Divisadero Street",
         "from": "Sacramento Street",
         "to": "Jackson Street"
+      }
+    ],
+    "msry-40": [
+      {
+        "street": "5th Street",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "running": [
+          "1909-02-01",
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Mission Street",
+        "from": "5th Street",
+        "to": "San Jose Avenue",
+        "running": [
+          "1909-02-01",
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "sm-daly-city-san-mateo"
+      },
+      {
+        "street": "North San Mateo Drive",
+        "from": "Peninsula Avenue",
+        "to": "Baldwin Avenue",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ],
+        "note": "O'Shaughnessy's San Mateo Drive"
+      },
+      {
+        "street": "Baldwin Avenue",
+        "from": "North San Mateo Drive",
+        "to": "South B Street",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "South B Street",
+        "from": "Baldwin Avenue",
+        "to": "East 3rd Avenue",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "East 3rd Avenue",
+        "from": "South B Street",
+        "to": "Main Street",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Main Street",
+        "from": "East 3rd Avenue",
+        "to": "2nd Avenue",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Back by Main St, 2nd Ave, B St, Baldwin Ave, Ellsworth Ave and Poplar Ave"
+      },
+      {
+        "street": "2nd Avenue",
+        "from": "Main Street",
+        "to": "South B Street",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "North Ellsworth Avenue",
+        "from": "Baldwin Avenue",
+        "to": "East Poplar Avenue",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "East Poplar Avenue",
+        "from": "North Ellsworth Avenue",
+        "to": "North San Mateo Drive",
+        "area": "sanmateo",
+        "running": [
+          "1929-05"
+        ]
       }
     ]
   }

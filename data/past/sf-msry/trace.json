@@ -248,6 +248,22 @@
       "est_error_m": 15,
       "note": "In 29th Street"
     },
+    "sf-msry-2nd-ave-main-st-s-b-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "2nd Avenue"
+          ],
+          "from": "Main Street",
+          "to": "South B Street",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In 2nd Avenue"
+    },
     "sf-msry-2nd-st-brannan-st-bryant-st": {
       "routes": true,
       "parts": [
@@ -551,6 +567,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Ashbury Street"
+    },
+    "sf-msry-baldwin-ave-n-san-mateo-dr-s-b-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Baldwin Avenue"
+          ],
+          "from": "North San Mateo Drive",
+          "to": "South B Street",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In Baldwin Avenue"
     },
     "sf-msry-battery-st-california-st-market-st": {
       "routes": true,
@@ -941,6 +973,38 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Dolores Street"
+    },
+    "sf-msry-e-3rd-ave-main-st-s-b-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 3rd Avenue"
+          ],
+          "from": "Main Street",
+          "to": "South B Street",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In East 3rd Avenue"
+    },
+    "sf-msry-e-poplar-ave-n-ellsworth-ave-n-san-mateo-dr": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East Poplar Avenue"
+          ],
+          "from": "North Ellsworth Avenue",
+          "to": "North San Mateo Drive",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In East Poplar Avenue"
     },
     "sf-msry-eddy-st-cyril-magnin-st-divisadero-st": {
       "routes": true,
@@ -1465,6 +1529,22 @@
       "est_error_m": 15,
       "note": "In Lincoln Way"
     },
+    "sf-msry-main-st-2nd-ave-e-3rd-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Main Street"
+          ],
+          "from": "2nd Avenue",
+          "to": "East 3rd Avenue",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In Main Street"
+    },
     "sf-msry-market-st-18th-st-caselli-ave": {
       "routes": true,
       "parts": [
@@ -1672,6 +1752,38 @@
       "check": "usgs-san-francisco-south-1950",
       "est_error_m": 15,
       "note": "In Monterey Boulevard"
+    },
+    "sf-msry-n-ellsworth-ave-baldwin-ave-e-poplar-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "North Ellsworth Avenue"
+          ],
+          "from": "Baldwin Avenue",
+          "to": "East Poplar Avenue",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In North Ellsworth Avenue"
+    },
+    "sf-msry-n-san-mateo-dr-baldwin-ave-peninsula-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "North San Mateo Drive"
+          ],
+          "from": "Baldwin Avenue",
+          "to": "Peninsula Avenue",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In North San Mateo Drive"
     },
     "sf-msry-oak-st-divisadero-st-fillmore-st": {
       "routes": true,
@@ -1993,6 +2105,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Presidio Avenue"
+    },
+    "sf-msry-s-b-st-baldwin-ave-e-3rd-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "South B Street"
+          ],
+          "from": "Baldwin Avenue",
+          "to": "East 3rd Avenue",
+          "area": "sanmateo"
+        }
+      ],
+      "check": "usgs-san-mateo-1949",
+      "est_error_m": 15,
+      "note": "In South B Street"
     },
     "sf-msry-sacramento-st-arguello-blvd-divisadero-st": {
       "routes": true,

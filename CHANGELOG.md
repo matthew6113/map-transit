@@ -2,6 +2,17 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The San Mateo interurban (No. 40)
+
+- **No. 40 San Mateo** (`msry-40`): from 5th and Market out Mission St, then by its private right of
+  way through Colma, San Bruno and Millbrae to Burlingame, and O'Shaughnessy's loop through the
+  streets of San Mateo. Its opening to San Mateo isn't sourced, so it is drawn from October 31, 1903,
+  when the *Street Railway Journal* describes its cars running (decision 20), and in San Francisco
+  from Manley's route of 1909; the last day is January 15, 1949 (the San Francisco PUC's report).
+- The right of way (`sf-san-mateo/`) is OpenHistoricalMap's, checked on the 1:24,000 sheets of
+  1949–50 (Montara Mountain and San Mateo added), made from aerial photographs of 1946, while the line
+  still ran.
+
 ## 2026-10-15: The North Pacific Coast (decision 21)
 
 - **Decision 20 approved** at the checkpoint: the 46 lines drawn for their running dates stay.

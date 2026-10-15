@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. The San Mateo interurban (No. 40) joins `sf-msry/`, its streets in San Francisco and San Mateo cut by `street_routes`, with its private right of way from Daly City to San Mateo from OpenHistoricalMap in `sf-san-mateo/`. Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -204,6 +204,8 @@ The geometry tools are below (decision 12).
 | `usgs-sebastopol-1935` | CA_Sebastopol_301575_1935_48000_geo.tif | 4.064 | `fe6029fb913f` |
 | `usgs-duncans-mills-1945` | CA_Duncans Mills_296063_1945_31680_geo.tif | 2.682 | `c781bde4be85` |
 | `usgs-cazadero-1945` | CA_Cazadero_302658_1945_31680_geo.tif | 2.682 | `da9f6fa9d8d7` |
+| `usgs-montara-mountain-1949` | CA_Montara Mountain_293071_1949_24000_geo.tif | 2.032 | `3dcb383b93fb` |
+| `usgs-san-mateo-1949` | CA_San Mateo_300158_1949_24000_geo.tif | 2.032 | `0deb7839d441` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -269,9 +271,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 94 | 404 | 11 | 153.4 | 457.3 | 106.0 | 8 | 365 |
+| past | 95 | 413 | 11 | 172.9 | 460.6 | 106.0 | 8 | 374 |
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 399, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 710, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 407, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 720, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->
