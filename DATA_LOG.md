@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -156,6 +156,9 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
 | Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), and SFMTA's cable car history page | official | Public agency publications; cited for facts |
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
+| Halley's *Centennial Year Book of Alameda County* (1876) and the *History of Alameda County* (M. W. Wood, 1883), from archive.org's OCR text | book | Public domain (published 1876, 1883). Their quotes need checking against the page images. |
+| HABS CA-1888 (Southern Pacific Mole & Pier), Library of Congress catalog record | official | Public domain (U.S. Government work) |
+| *California Highways and Public Works*, September–October 1956 | official | California public record; cited for facts |
 | Warren Manley, *Report on the operation of the street railroad lines of San Francisco* (Merchants' Association, February 1, 1909), from archive.org's OCR text | primary_document | Public domain (published 1909). Its quotes need checking against the page images, which this environment can't open. |
 | Muni's financial reports (1912–1930), O'Shaughnessy's *Report on the street railway transportation requirements of San Francisco* (1929) and the San Francisco PUC's reports (1947–1953), from archive.org | official | Public records; cited for facts, read on the page images |
 
@@ -259,9 +262,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 87 | 392 | 11 | 52.1 | 457.3 | 77.5 | 8 | 358 |
+| past | 92 | 397 | 11 | 56.9 | 457.3 | 106.0 | 8 | 363 |
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 391, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 705, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 396, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 712, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

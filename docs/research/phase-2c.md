@@ -18,6 +18,7 @@ this session left reading plans in `leads-2c/`; nothing in them is citable yet.
 | Southern Pacific | The Eighteenth Street line (1912–1933) and the Webster Street line in Oakland (1911–1923) | SF Call 1911, 1912; CRC Decisions 12906, 17743, 25740, 27800; the SP's 1914 employee timetable | Today's centerlines; the unsourced 18th–20th St link dashed |
 | Golden Gate Ferries | The Hyde St–Berkeley ferry closes on or about August 1937 | CRC Decision 29999 (decision 17) | (already drawn) |
 | East Bay streetcars (Oakland Traction's successors) | 18 lines in Oakland, Berkeley, Alameda and Richmond, street by street | The Railroad Commission's and CPUC's orders of 1931–48, each line drawn for the years its orders show it running (decision 20) | Today's centerlines (`street_routes.py`); Washington St under City Center dashed |
+| Ferries | The Oakland Pier, Alameda Pier and Creek Route ferries; the SF & Alameda ferry (1864–73); Richmond–San Rafael | Halley (1876), the 1883 county history, HABS CA-1888, CRC Decisions 2624, 29338, 29999, 33445, *California Highways and Public Works* (1956) | Over water between terminals (approximate); Richmond–San Rafael from OpenHistoricalMap |
 | Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); ends unsourced, so drawn for those years only (decision 20, proposed) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 
 ## Not drawn yet, and what each needs
@@ -82,10 +83,9 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 
 ### Ferries and the North Bay
 
-- **The Creek Route** (re-opened July 1, 1876, Halley p. 435; closed on or about August 1937, CRC
-  D29999): waits only on registering Halley's archive.org item.
-- **Benicia–Port Costa and Martinez–Benicia:** opening years from the county histories; their ends
-  came with the bridges of 1930 and 1962, which decision 17 would date by month.
+- **Benicia–Port Costa** (December 1879 to October 15, 1930, *SP Bulletin* 1930) and
+  **Martinez–Benicia** (1913 to September 15, 1962, CRC D22535, *CH&PW* 1962): dated; their slips need
+  a map (the 1898 Karquinez or 1916 Mare Island sheet).
 - **Richmond–San Rafael, Mare Island, the Petaluma steamers:** dates are web pointers only; OHM has
   the Richmond–San Rafael course.
 - **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &

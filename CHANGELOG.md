@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, five bay ferries
+
+- **The Oakland Pier ferry** (September 2, 1863 to July 30, 1958; drawn to Oakland Pier from its
+  opening on January 22, 1882: Halley, the 1883 county history, HABS CA-1888).
+- **The Creek Route** up the Oakland Estuary to the foot of Broadway (re-opened July 1, 1876 to on or
+  about August 1937; CRC Decisions 29338 and 29999).
+- **The Alameda Pier ferry** (running by June 1, 1878, when the South Pacific Coast's trains met it;
+  to January 1939, when the Bay Bridge trains began) and the **San Francisco & Alameda Railroad's
+  ferry** (August 1864 to September 1873).
+- **The Richmond–San Rafael ferry** (May 1915 to September 1, 1956), on OpenHistoricalMap's course.
+- Benicia–Port Costa and Martinez–Benicia are sourced (December 1879 to October 15, 1930; 1913 to
+  September 15, 1962) but wait on a map that places their slips.
+
 ## 2026-10-15: Phase 2c, San Francisco streetcars' last days
 
 - **17 of the 26 Market Street Railway lines now have their last streetcar day**, from the San

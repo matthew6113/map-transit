@@ -2300,10 +2300,10 @@
         37.788015
       ],
       "fids": [
-        619,
-        620,
-        621,
-        622
+        624,
+        625,
+        626,
+        627
       ],
       "segments": [
         {
@@ -2407,6 +2407,123 @@
       ]
     },
     {
+      "id": "sp-alameda-pier-ferry",
+      "name": "Alameda ferry (Alameda Pier)",
+      "short_name": "Alameda Pier ferry",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "South Pacific Coast Railroad"
+        },
+        {
+          "name": "Southern Pacific"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1939-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The ferry from San Francisco to Alameda Point, where the South Pacific Coast's narrow-gauge trains to Los Gatos met it by June 1878, and later the Southern Pacific's Alameda Mole.",
+      "fate": "abandoned",
+      "fate_note": "Replaced by the Bay Bridge trains from January 15, 1939.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1878-06-01",
+          "source": "wood-1883",
+          "pages": "833"
+        }
+      ],
+      "undated": false,
+      "length_km": 5.72,
+      "confidence_km": {
+        "approximate": 5.72
+      },
+      "bbox": [
+        -122.394249,
+        37.79492,
+        -122.330874,
+        37.797871
+      ],
+      "fids": [
+        174
+      ],
+      "segments": [
+        {
+          "id": "sp-alameda-pier-course",
+          "name": "Ferry, the Ferry Building to Alameda Pier",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from The Embarcadero/Market Street to -122.33087,37.79658 (5725 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the foot of Market St to the end of the Alameda Mole, as traced from the 1915 USGS sheet."
+        }
+      ],
+      "sources": [
+        {
+          "id": "wood-1883",
+          "title": "History of Alameda County, California",
+          "publisher": "M. W. Wood, Oakland",
+          "date": "1883",
+          "type": "book",
+          "url": "https://archive.org/details/historyofalamed00munr",
+          "license": "Public domain (published 1883)",
+          "accessed": "2026-10-15",
+          "source": "wood-1883",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "833",
+          "note": "\"On June 1, 1878, the cars began to run regularly between Alameda and Los Gatos, Santa Clara County, connecting with the ferry between Alameda Point and San Francisco.\""
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "9",
+          "note": "\"It was not until January 15, 1939, that the bridge was opened to rail service\"; the rail lines were unchanged \"when ferry boat operation was discontinued\". Given to the month: the decision doesn't date the last boat."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "muni-b-geary",
       "name": "B Geary",
       "short_name": "B",
@@ -2454,17 +2571,17 @@
         37.793407
       ],
       "fids": [
-        623,
-        624,
-        625,
-        626,
-        627,
         628,
         629,
         630,
         631,
         632,
-        633
+        633,
+        634,
+        635,
+        636,
+        637,
+        638
       ],
       "segments": [
         {
@@ -2739,11 +2856,6 @@
         37.891454
       ],
       "fids": [
-        172,
-        173,
-        174,
-        175,
-        176,
         177,
         178,
         179,
@@ -2757,7 +2869,12 @@
         187,
         188,
         189,
-        190
+        190,
+        191,
+        192,
+        193,
+        194,
+        195
       ],
       "segments": [
         {
@@ -3373,15 +3490,15 @@
         37.793407
       ],
       "fids": [
-        649,
-        650,
-        651,
-        652,
-        653,
         654,
         655,
         656,
-        657
+        657,
+        658,
+        659,
+        660,
+        661,
+        662
       ],
       "segments": [
         {
@@ -3696,8 +3813,8 @@
         37.790421
       ],
       "fids": [
-        278,
-        279
+        283,
+        284
       ],
       "segments": [
         {
@@ -3826,10 +3943,10 @@
         37.772502
       ],
       "fids": [
-        302,
-        303,
-        304,
-        305
+        307,
+        308,
+        309,
+        310
       ],
       "segments": [
         {
@@ -4105,17 +4222,17 @@
         37.859007
       ],
       "fids": [
-        233,
-        234,
-        235,
-        236,
-        237,
         238,
         239,
         240,
         241,
         242,
-        243
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
       ],
       "segments": [
         {
@@ -4570,7 +4687,7 @@
         37.794462
       ],
       "fids": [
-        268
+        273
       ],
       "segments": [
         {
@@ -4650,6 +4767,143 @@
       ]
     },
     {
+      "id": "sp-creek-route",
+      "name": "Creek Route ferry (Broadway, Oakland)",
+      "short_name": "Creek Route",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Central Pacific Railroad"
+        },
+        {
+          "name": "Southern Pacific Golden Gate Ferries, Ltd."
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1937-08",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Up the Oakland Estuary (San Antonio Creek) from San Francisco to a slip at the foot of Broadway. Re-opened on July 1, 1876, with the Central Pacific's rebuilt steamer Capitol, when the new wharf at the foot of Broadway was finished; when it first ran isn't sourced here.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned under the Railroad Commission's order of August 9, 1937, once the company cancelled its schedules, on five days' notice within thirty days: on or about August 1937 (decision 17).",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1876-07-01",
+          "source": "halley-1876",
+          "pages": "435"
+        },
+        {
+          "date": "1936-12",
+          "source": "crc-d29338",
+          "pages": "1"
+        }
+      ],
+      "undated": false,
+      "length_km": 10.52,
+      "confidence_km": {
+        "approximate": 10.52
+      },
+      "bbox": [
+        -122.392609,
+        37.792218,
+        -122.276851,
+        37.798581
+      ],
+      "fids": [
+        172
+      ],
+      "segments": [
+        {
+          "id": "sp-creek-route-course",
+          "name": "Ferry, foot of Mission St to the foot of Broadway, Oakland (the Creek Route)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from The Embarcadero/Mission Street to -122.27685,37.79539 (10530 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the vehicle slips near the foot of Mission St to the estuary at the foot of Broadway, up the Oakland Estuary (San Antonio Creek). Decision 29338 (1936) gives both ends; where the boats landed in San Francisco in 1876 isn't stated."
+        }
+      ],
+      "sources": [
+        {
+          "id": "halley-1876",
+          "title": "The Centennial Year Book of Alameda County, California",
+          "author": "William Halley",
+          "publisher": "William Halley, Oakland",
+          "date": "1876",
+          "type": "book",
+          "url": "https://archive.org/details/centennialyearbo00hall",
+          "license": "Public domain (published 1876)",
+          "accessed": "2026-10-15",
+          "source": "halley-1876",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "435",
+          "note": "\"the Creek route was re-opened to freight and passengers on the 1st of July, when the rebuilt steamer Capitol, belonging to the Central Pacific Railroad Company, commenced to make regular trips between Oakland and San Francisco\""
+        },
+        {
+          "id": "crc-d29338",
+          "title": "Railroad Commission of California, Decision No. 29338: Southern Pacific Golden Gate Ferries, fares on the Creek Route (Application No. 20753)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1936-12",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29338_19361207_A20753.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d29338",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "crc-d29999",
+          "title": "Railroad Commission of California, Decision No. 29999 (Application No. 21237)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-08-09",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29999_19370809_A21237.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d29999",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "65-67",
+          "note": "Abandonment authorized on cancelling the schedules, within 30 days of the order of August 9, 1937, on not less than 5 days' notice: on or about August 1937 (decision 17); the last run fell between about August 14 and September 8, 1937."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "muni-d-van-ness",
       "name": "D Van Ness–Union",
       "short_name": "D",
@@ -4697,11 +4951,6 @@
         37.806482
       ],
       "fids": [
-        658,
-        659,
-        660,
-        661,
-        662,
         663,
         664,
         665,
@@ -4710,7 +4959,12 @@
         668,
         669,
         670,
-        671
+        671,
+        672,
+        673,
+        674,
+        675,
+        676
       ],
       "segments": [
         {
@@ -5150,7 +5404,7 @@
         37.791639
       ],
       "fids": [
-        618
+        623
       ],
       "segments": [
         {
@@ -5280,11 +5534,6 @@
         37.80035
       ],
       "fids": [
-        634,
-        635,
-        636,
-        637,
-        638,
         639,
         640,
         641,
@@ -5294,7 +5543,12 @@
         645,
         646,
         647,
-        648
+        648,
+        649,
+        650,
+        651,
+        652,
+        653
       ],
       "segments": [
         {
@@ -5689,15 +5943,15 @@
         37.81612
       ],
       "fids": [
-        748,
-        749,
-        750,
-        751,
-        752,
         753,
         754,
         755,
-        756
+        756,
+        757,
+        758,
+        759,
+        760,
+        761
       ],
       "segments": [
         {
@@ -6031,15 +6285,15 @@
         37.824321
       ],
       "fids": [
-        730,
-        731,
-        732,
-        733,
-        734,
         735,
         736,
         737,
-        738
+        738,
+        739,
+        740,
+        741,
+        742,
+        743
       ],
       "segments": [
         {
@@ -6519,14 +6773,14 @@
         37.805981
       ],
       "fids": [
-        672,
-        673,
-        674,
-        675,
-        676,
         677,
         678,
-        679
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
       ],
       "segments": [
         {
@@ -6817,7 +7071,7 @@
         37.796162
       ],
       "fids": [
-        330
+        335
       ],
       "segments": [
         {
@@ -6926,7 +7180,7 @@
         37.788015
       ],
       "fids": [
-        297
+        302
       ],
       "segments": [
         {
@@ -7068,16 +7322,16 @@
         37.806482
       ],
       "fids": [
-        680,
-        681,
-        682,
-        683,
-        684,
         685,
         686,
         687,
         688,
-        689
+        689,
+        690,
+        691,
+        692,
+        693,
+        694
       ],
       "segments": [
         {
@@ -7397,14 +7651,14 @@
         37.793407
       ],
       "fids": [
-        322,
-        323,
-        324,
-        325,
-        326,
         327,
         328,
-        329
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
       ],
       "segments": [
         {
@@ -7872,7 +8126,7 @@
         37.785808
       ],
       "fids": [
-        285
+        290
       ],
       "segments": [
         {
@@ -8122,7 +8376,7 @@
         37.817801
       ],
       "fids": [
-        232
+        237
       ],
       "segments": [
         {
@@ -8267,15 +8521,15 @@
         37.824321
       ],
       "fids": [
-        739,
-        740,
-        741,
-        742,
-        743,
         744,
         745,
         746,
-        747
+        747,
+        748,
+        749,
+        750,
+        751,
+        752
       ],
       "segments": [
         {
@@ -8739,16 +8993,16 @@
         37.793407
       ],
       "fids": [
-        312,
-        313,
-        314,
-        315,
-        316,
         317,
         318,
         319,
         320,
-        321
+        321,
+        322,
+        323,
+        324,
+        325,
+        326
       ],
       "segments": [
         {
@@ -9023,12 +9277,12 @@
         37.787654
       ],
       "fids": [
-        306,
-        307,
-        308,
-        309,
-        310,
-        311
+        311,
+        312,
+        313,
+        314,
+        315,
+        316
       ],
       "segments": [
         {
@@ -9236,8 +9490,8 @@
         37.90596
       ],
       "fids": [
-        248,
-        249
+        253,
+        254
       ],
       "segments": [
         {
@@ -9389,11 +9643,6 @@
         37.891351
       ],
       "fids": [
-        708,
-        709,
-        710,
-        711,
-        712,
         713,
         714,
         715,
@@ -9401,7 +9650,12 @@
         717,
         718,
         719,
-        720
+        720,
+        721,
+        722,
+        723,
+        724,
+        725
       ],
       "segments": [
         {
@@ -10447,16 +10701,16 @@
         37.793407
       ],
       "fids": [
-        331,
-        332,
-        333,
-        334,
-        335,
         336,
         337,
         338,
         339,
-        340
+        340,
+        341,
+        342,
+        343,
+        344,
+        345
       ],
       "segments": [
         {
@@ -10799,17 +11053,17 @@
         37.79492
       ],
       "fids": [
-        430,
-        431,
-        432,
-        433,
-        434,
         435,
         436,
         437,
         438,
         439,
-        440
+        440,
+        441,
+        442,
+        443,
+        444,
+        445
       ],
       "segments": [
         {
@@ -11572,15 +11826,15 @@
         37.79492
       ],
       "fids": [
-        441,
-        442,
-        443,
-        444,
-        445,
         446,
         447,
         448,
-        449
+        449,
+        450,
+        451,
+        452,
+        453,
+        454
       ],
       "segments": [
         {
@@ -13117,18 +13371,18 @@
         37.79492
       ],
       "fids": [
-        450,
-        451,
-        452,
-        453,
-        454,
         455,
         456,
         457,
         458,
         459,
         460,
-        461
+        461,
+        462,
+        463,
+        464,
+        465,
+        466
       ],
       "segments": [
         {
@@ -14075,14 +14329,14 @@
         37.79492
       ],
       "fids": [
-        462,
-        463,
-        464,
-        465,
-        466,
         467,
         468,
-        469
+        469,
+        470,
+        471,
+        472,
+        473,
+        474
       ],
       "segments": [
         {
@@ -14858,14 +15112,14 @@
         37.808586
       ],
       "fids": [
-        470,
-        471,
-        472,
-        473,
-        474,
         475,
         476,
-        477
+        477,
+        478,
+        479,
+        480,
+        481,
+        482
       ],
       "segments": [
         {
@@ -15282,11 +15536,6 @@
         37.793407
       ],
       "fids": [
-        478,
-        479,
-        480,
-        481,
-        482,
         483,
         484,
         485,
@@ -15295,7 +15544,12 @@
         488,
         489,
         490,
-        491
+        491,
+        492,
+        493,
+        494,
+        495,
+        496
       ],
       "segments": [
         {
@@ -15705,13 +15959,13 @@
         37.784013
       ],
       "fids": [
-        492,
-        493,
-        494,
-        495,
-        496,
         497,
-        498
+        498,
+        499,
+        500,
+        501,
+        502,
+        503
       ],
       "segments": [
         {
@@ -16342,12 +16596,12 @@
         37.805289
       ],
       "fids": [
-        499,
-        500,
-        501,
-        502,
-        503,
-        504
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
       ],
       "segments": [
         {
@@ -17101,11 +17355,6 @@
         37.785729
       ],
       "fids": [
-        505,
-        506,
-        507,
-        508,
-        509,
         510,
         511,
         512,
@@ -17116,7 +17365,12 @@
         517,
         518,
         519,
-        520
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
       ],
       "segments": [
         {
@@ -17524,11 +17778,6 @@
         37.793407
       ],
       "fids": [
-        521,
-        522,
-        523,
-        524,
-        525,
         526,
         527,
         528,
@@ -17545,7 +17794,12 @@
         539,
         540,
         541,
-        542
+        542,
+        543,
+        544,
+        545,
+        546,
+        547
       ],
       "segments": [
         {
@@ -18373,16 +18627,16 @@
         37.789284
       ],
       "fids": [
-        543,
-        544,
-        545,
-        546,
-        547,
         548,
         549,
         550,
         551,
-        552
+        552,
+        553,
+        554,
+        555,
+        556,
+        557
       ],
       "segments": [
         {
@@ -18866,14 +19120,14 @@
         37.793407
       ],
       "fids": [
-        341,
-        342,
-        343,
-        344,
-        345,
         346,
         347,
-        348
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
       ],
       "segments": [
         {
@@ -19183,11 +19437,6 @@
         37.793407
       ],
       "fids": [
-        553,
-        554,
-        555,
-        556,
-        557,
         558,
         559,
         560,
@@ -19200,7 +19449,12 @@
         567,
         568,
         569,
-        570
+        570,
+        571,
+        572,
+        573,
+        574,
+        575
       ],
       "segments": [
         {
@@ -19632,17 +19886,17 @@
         37.782556
       ],
       "fids": [
-        571,
-        572,
-        573,
-        574,
-        575,
         576,
         577,
         578,
         579,
         580,
-        581
+        581,
+        582,
+        583,
+        584,
+        585,
+        586
       ],
       "segments": [
         {
@@ -19943,12 +20197,12 @@
         37.805042
       ],
       "fids": [
-        582,
-        583,
-        584,
-        585,
-        586,
-        587
+        587,
+        588,
+        589,
+        590,
+        591,
+        592
       ],
       "segments": [
         {
@@ -20173,10 +20427,10 @@
         37.79009
       ],
       "fids": [
-        588,
-        589,
-        590,
-        591
+        593,
+        594,
+        595,
+        596
       ],
       "segments": [
         {
@@ -20407,11 +20661,6 @@
         37.793407
       ],
       "fids": [
-        349,
-        350,
-        351,
-        352,
-        353,
         354,
         355,
         356,
@@ -20426,7 +20675,12 @@
         365,
         366,
         367,
-        368
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
       ],
       "segments": [
         {
@@ -20921,11 +21175,11 @@
         37.789284
       ],
       "fids": [
-        592,
-        593,
-        594,
-        595,
-        596
+        597,
+        598,
+        599,
+        600,
+        601
       ],
       "segments": [
         {
@@ -21139,18 +21393,18 @@
         37.793216
       ],
       "fids": [
-        597,
-        598,
-        599,
-        600,
-        601,
         602,
         603,
         604,
         605,
         606,
         607,
-        608
+        608,
+        609,
+        610,
+        611,
+        612,
+        613
       ],
       "segments": [
         {
@@ -22030,11 +22284,6 @@
         37.793407
       ],
       "fids": [
-        369,
-        370,
-        371,
-        372,
-        373,
         374,
         375,
         376,
@@ -22057,7 +22306,12 @@
         393,
         394,
         395,
-        396
+        396,
+        397,
+        398,
+        399,
+        400,
+        401
       ],
       "segments": [
         {
@@ -22756,16 +23010,16 @@
         37.793407
       ],
       "fids": [
-        397,
-        398,
-        399,
-        400,
-        401,
         402,
         403,
         404,
         405,
-        406
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
       ],
       "segments": [
         {
@@ -23116,17 +23370,17 @@
         37.793407
       ],
       "fids": [
-        407,
-        408,
-        409,
-        410,
-        411,
         412,
         413,
         414,
         415,
         416,
-        417
+        417,
+        418,
+        419,
+        420,
+        421,
+        422
       ],
       "segments": [
         {
@@ -23945,18 +24199,18 @@
         37.793407
       ],
       "fids": [
-        418,
-        419,
-        420,
-        421,
-        422,
         423,
         424,
         425,
         426,
         427,
         428,
-        429
+        429,
+        430,
+        431,
+        432,
+        433,
+        434
       ],
       "segments": [
         {
@@ -24320,11 +24574,11 @@
         37.806637
       ],
       "fids": [
-        280,
-        281,
-        282,
-        283,
-        284
+        285,
+        286,
+        287,
+        288,
+        289
       ],
       "segments": [
         {
@@ -24462,6 +24716,135 @@
       ]
     },
     {
+      "id": "sp-oakland-pier-ferry",
+      "name": "Oakland ferry (Oakland Pier)",
+      "short_name": "Oakland Pier ferry",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "San Francisco & Oakland Railroad",
+          "to": "1870"
+        },
+        {
+          "name": "Central Pacific Railroad",
+          "from": "1870"
+        },
+        {
+          "name": "Southern Pacific"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1863-09-02",
+      "closed": "1958-07-30",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The railroad ferry from San Francisco to the Oakland trains: from 1863 to the end of the Oakland wharf, from January 16, 1871 to the Long Wharf, and from January 22, 1882 to Oakland Pier, at the end of the Mole. Only the last landing is drawn; the earlier ones aren't placed in the sources read.",
+      "fate": "abandoned",
+      "fate_note": "The Interstate Commerce Commission let the Southern Pacific and Western Pacific give up the ferries once their buses ran over the Bay Bridge (Finance Docket 19960, May 14, 1958); the last boat ran July 30, 1958.",
+      "flags": [],
+      "undated": false,
+      "length_km": 6.58,
+      "confidence_km": {
+        "approximate": 6.58
+      },
+      "bbox": [
+        -122.394249,
+        37.79492,
+        -122.330043,
+        37.812316
+      ],
+      "fids": [
+        173
+      ],
+      "segments": [
+        {
+          "id": "sp-oakland-pier-course",
+          "name": "Ferry, the Ferry Building to Oakland Pier",
+          "opened": null,
+          "closed": null,
+          "from": "1882-01-22",
+          "note": "To Oakland Pier from its opening; to the Long Wharf from 1871 and the old wharf from 1863, not drawn",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from The Embarcadero/Market Street to -122.33008,37.80909 (6594 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the foot of Market St to the end of the Oakland Mole, as traced from the 1949 USGS sheet."
+        }
+      ],
+      "sources": [
+        {
+          "id": "halley-1876",
+          "title": "The Centennial Year Book of Alameda County, California",
+          "author": "William Halley",
+          "publisher": "William Halley, Oakland",
+          "date": "1876",
+          "type": "book",
+          "url": "https://archive.org/details/centennialyearbo00hall",
+          "license": "Public domain (published 1876)",
+          "accessed": "2026-10-15",
+          "source": "halley-1876",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "177",
+          "note": "\"The first trip made by the cars on the Oakland and San Francisco Ferry Railroad was made on the 2d day of September, 1863. At that date the road was completed from the end of the wharf to Broadway\"; \"The Market Street wharf was then, as now, the place of landing on the San Francisco side.\""
+        },
+        {
+          "id": "wood-1883",
+          "title": "History of Alameda County, California",
+          "publisher": "M. W. Wood, Oakland",
+          "date": "1883",
+          "type": "book",
+          "url": "https://archive.org/details/historyofalamed00munr",
+          "license": "Public domain (published 1883)",
+          "accessed": "2026-10-15",
+          "source": "wood-1883",
+          "supports": [
+            "route"
+          ],
+          "pages": "629-631"
+        },
+        {
+          "id": "habs-ca-1888",
+          "title": "Southern Pacific Mole & Pier, Seventh Street, Oakland (HABS CA-1888)",
+          "publisher": "Historic American Buildings Survey, Library of Congress",
+          "date": "1960s",
+          "type": "official",
+          "url": "https://www.loc.gov/item/ca0018/",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "habs-ca-1888",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "note": "The Long Wharf \"opened to traffic January 16, 1871\"; the Mole and Pier \"opened to traffic January 22, 1882\"; \"all ferry service was discontinued on July 30, 1958.\""
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-ocean-view",
       "name": "Ocean View line",
       "system": "southern-pacific",
@@ -24509,12 +24892,12 @@
         37.7762
       ],
       "fids": [
-        774,
-        775,
-        776,
-        777,
-        778,
-        779
+        779,
+        780,
+        781,
+        782,
+        783,
+        784
       ],
       "segments": [
         {
@@ -24791,17 +25174,17 @@
         37.7762
       ],
       "fids": [
-        763,
-        764,
-        765,
-        766,
-        767,
         768,
         769,
         770,
         771,
         772,
-        773
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
       ],
       "segments": [
         {
@@ -25267,15 +25650,15 @@
         37.830986
       ],
       "fids": [
-        191,
-        192,
-        193,
-        194,
-        195,
         196,
         197,
         198,
-        199
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
       ],
       "segments": [
         {
@@ -25770,6 +26153,116 @@
       ]
     },
     {
+      "id": "richmond-san-rafael-ferry",
+      "name": "Richmond–San Rafael ferry",
+      "short_name": "Richmond–San Rafael",
+      "system": "richmond-san-rafael-ferry",
+      "system_name": "Richmond and San Rafael Ferry and Transportation Co.",
+      "operators": [
+        {
+          "name": "Charles Van Damme"
+        },
+        {
+          "name": "Richmond and San Rafael Ferry and Transportation Co."
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1915-05",
+      "closed": "1956-09-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "An auto and passenger ferry from Castro Point, Richmond, to Point San Quentin, near San Rafael, 3.76 miles and about 25 minutes (1924).",
+      "fate": "abandoned",
+      "fate_note": "Its last run followed the Richmond-San Rafael Bridge's opening at 12:01 a.m. on September 1, 1956.",
+      "flags": [],
+      "undated": false,
+      "length_km": 4.72,
+      "confidence_km": {
+        "surveyed": 4.72
+      },
+      "bbox": [
+        -122.469912,
+        37.936126,
+        -122.416612,
+        37.941617
+      ],
+      "fids": [
+        176
+      ],
+      "segments": [
+        {
+          "id": "richmond-san-rafael-course",
+          "name": "Ferry, Castro Point (Richmond) to Point San Quentin",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200456948 (CC0, as of 2026-10-15), which OHM's mappers drew from California Highways and Public Works, September-October 1956. California Department of Public Works. pp. 12-17. The ferry's course as OpenHistoricalMap draws it.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "OpenHistoricalMap's course of the ferry, which cites California Highways and Public Works of September-October 1956."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d2624",
+          "title": "Railroad Commission of California, Decision No. 2624: Richmond and San Rafael Ferry and Transportation Co. (Application No. 1755)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-07-23",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_7",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d2624",
+          "supports": [
+            "opened",
+            "operator",
+            "route"
+          ],
+          "pages": "694-695",
+          "note": "\"during the month of May, 1915, the first month in which this line was operated\"."
+        },
+        {
+          "id": "chpw-1956-09",
+          "title": "California Highways and Public Works, vol. 35, nos. 9-10 (September-October 1956): the Richmond-San Rafael Bridge",
+          "publisher": "California Department of Public Works",
+          "date": "1956-10",
+          "type": "official",
+          "url": "https://archive.org/details/californiahighwa195657calirich",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "chpw-1956-09",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "11, 13"
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200456948"
+        }
+      ]
+    },
+    {
       "id": "sn-oakland-sacramento",
       "name": "Sacramento Northern trains, San Francisco to Bay Point and Sacramento",
       "system": "sacramento-northern",
@@ -25826,11 +26319,6 @@
         38.42361
       ],
       "fids": [
-        250,
-        251,
-        252,
-        253,
-        254,
         255,
         256,
         257,
@@ -25843,7 +26331,12 @@
         264,
         265,
         266,
-        267
+        267,
+        268,
+        269,
+        270,
+        271,
+        272
       ],
       "segments": [
         {
@@ -26654,11 +27147,6 @@
         37.887944
       ],
       "fids": [
-        219,
-        220,
-        221,
-        222,
-        223,
         224,
         225,
         226,
@@ -26666,7 +27154,12 @@
         228,
         229,
         230,
-        231
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
       ],
       "segments": [
         {
@@ -27134,12 +27627,12 @@
         37.795493
       ],
       "fids": [
-        269,
-        270,
-        271,
-        272,
-        273,
-        274
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
       ],
       "segments": [
         {
@@ -27292,6 +27785,114 @@
             "opened"
           ],
           "note": "\"Clay Street Hill Railroad began public service on September 1, 1873.\""
+        }
+      ]
+    },
+    {
+      "id": "sf-alameda-ferry",
+      "name": "San Francisco & Alameda ferry",
+      "short_name": "SF & Alameda ferry",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "San Francisco & Alameda Railroad"
+        },
+        {
+          "name": "Central Pacific Railroad"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1864-08",
+      "closed": "1873-09",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The San Francisco & Alameda Railroad's ferry to its wharf at Alameda Point, where its trains left for High St (August 1864), San Leandro (1865) and Haywards. Drawn to the later Alameda Pier: where the 1864 wharf stood isn't placed in the sources read.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned when the Central Pacific's trains and boats began running half-hourly by Oakland on September 29, 1873.",
+      "flags": [],
+      "undated": false,
+      "length_km": 5.72,
+      "confidence_km": {
+        "approximate": 5.72
+      },
+      "bbox": [
+        -122.394249,
+        37.79492,
+        -122.330874,
+        37.797871
+      ],
+      "fids": [
+        175
+      ],
+      "segments": [
+        {
+          "id": "sf-alameda-ferry-course",
+          "name": "Ferry, San Francisco to Alameda Point (1864-73)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from The Embarcadero/Market Street to -122.33087,37.79658 (5725 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": null,
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The course isn't recorded, nor where the San Francisco & Alameda Railroad's 1864 wharf at Alameda Point stood: drawn as the shortest way over water from the foot of Market St to the end of the later Alameda Mole, as a stand-in."
+        }
+      ],
+      "sources": [
+        {
+          "id": "halley-1876",
+          "title": "The Centennial Year Book of Alameda County, California",
+          "author": "William Halley",
+          "publisher": "William Halley, Oakland",
+          "date": "1876",
+          "type": "book",
+          "url": "https://archive.org/details/centennialyearbo00hall",
+          "license": "Public domain (published 1876)",
+          "accessed": "2026-10-15",
+          "source": "halley-1876",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "190",
+          "note": "\"landed at the company's wharf, at Alameda Point\"; \"On the 25th of August the cars were run on the road as far as High Street\" (1864). Given to the month: the ferry's own first day isn't stated."
+        },
+        {
+          "id": "wood-1883",
+          "title": "History of Alameda County, California",
+          "publisher": "M. W. Wood, Oakland",
+          "date": "1883",
+          "type": "book",
+          "url": "https://archive.org/details/historyofalamed00munr",
+          "license": "Public domain (published 1883)",
+          "accessed": "2026-10-15",
+          "source": "wood-1883",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "630",
+          "note": "\"the Alameda ferry was abandoned ... boats and trains commenced making half-hourly trips on September 29, 1873\". Given to the month."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
         }
       ]
     },
@@ -27476,10 +28077,10 @@
         37.977386
       ],
       "fids": [
-        244,
-        245,
-        246,
-        247
+        249,
+        250,
+        251,
+        252
       ],
       "segments": [
         {
@@ -27664,15 +28265,15 @@
         37.824321
       ],
       "fids": [
-        721,
-        722,
-        723,
-        724,
-        725,
         726,
         727,
         728,
-        729
+        729,
+        730,
+        731,
+        732,
+        733,
+        734
       ],
       "segments": [
         {
@@ -28171,11 +28772,6 @@
         37.891481
       ],
       "fids": [
-        690,
-        691,
-        692,
-        693,
-        694,
         695,
         696,
         697,
@@ -28188,7 +28784,12 @@
         704,
         705,
         706,
-        707
+        707,
+        708,
+        709,
+        710,
+        711,
+        712
       ],
       "segments": [
         {
@@ -28803,9 +29404,9 @@
         37.790312
       ],
       "fids": [
-        275,
-        276,
-        277
+        280,
+        281,
+        282
       ],
       "segments": [
         {
@@ -28951,15 +29552,15 @@
         37.789106
       ],
       "fids": [
-        609,
-        610,
-        611,
-        612,
-        613,
         614,
         615,
         616,
-        617
+        617,
+        618,
+        619,
+        620,
+        621,
+        622
       ],
       "segments": [
         {
@@ -29211,17 +29812,17 @@
         37.82911
       ],
       "fids": [
-        208,
-        209,
-        210,
-        211,
-        212,
         213,
         214,
         215,
         216,
         217,
-        218
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
       ],
       "segments": [
         {
@@ -29675,14 +30276,14 @@
         37.82911
       ],
       "fids": [
-        200,
-        201,
-        202,
-        203,
-        204,
         205,
         206,
-        207
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
       ],
       "segments": [
         {
@@ -30068,10 +30669,10 @@
         37.80035
       ],
       "fids": [
-        298,
-        299,
-        300,
-        301
+        303,
+        304,
+        305,
+        306
       ],
       "segments": [
         {
@@ -30257,17 +30858,17 @@
         37.79562
       ],
       "fids": [
-        286,
-        287,
-        288,
-        289,
-        290,
         291,
         292,
         293,
         294,
         295,
-        296
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
       ],
       "segments": [
         {
@@ -30523,12 +31124,12 @@
         37.803847
       ],
       "fids": [
-        757,
-        758,
-        759,
-        760,
-        761,
-        762
+        762,
+        763,
+        764,
+        765,
+        766,
+        767
       ],
       "segments": [
         {

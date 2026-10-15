@@ -125,6 +125,11 @@
       "short_name": "Presidio & Ferries"
     },
     {
+      "id": "richmond-san-rafael-ferry",
+      "name": "Richmond and San Rafael Ferry and Transportation Co.",
+      "short_name": "Richmond-San Rafael ferry"
+    },
+    {
       "id": "sacramento-northern",
       "name": "Sacramento Northern Railway",
       "short_name": "Sacramento Northern",

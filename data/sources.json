@@ -1093,6 +1093,17 @@
       "notes": "pp. 6–8, 28."
     },
     {
+      "id": "chpw-1956-09",
+      "title": "California Highways and Public Works, vol. 35, nos. 9-10 (September-October 1956): the Richmond-San Rafael Bridge",
+      "publisher": "California Department of Public Works",
+      "date": "1956-10",
+      "type": "official",
+      "url": "https://archive.org/details/californiahighwa195657calirich",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 11: the bridge \"was formally dedicated on August 31, 1956, and opened to traffic at 12.01 on the morning of September 1, 1956\"; p. 13: the ferry \"on its last run following midnight opening to traffic of the new bridge\". Read in archive.org's OCR text."
+    },
+    {
       "id": "cpuc-d40055",
       "title": "Public Utilities Commission of California, Decision No. 40055: Key System: the No. 84 Emeryville bus terminal (Application No. 19502, 103rd supplemental)",
       "publisher": "Public Utilities Commission of the State of California",
@@ -1322,6 +1333,17 @@
       "notes": "p. 1: the county closed the Park Street bridge to cars over ten tons on May 2, 1933, so the No. 9 stopped; order (A)-(C), pp. 2-3, gives the three routes. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d2624",
+      "title": "Railroad Commission of California, Decision No. 2624: Richmond and San Rafael Ferry and Transportation Co. (Application No. 1755)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1915-07-23",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_7",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "Decisions of the Railroad Commission, vol. 7, pp. 694-695: \"during the month of May, 1915, the first month in which this line was operated, approximately 1,400 automobiles and 10,000 passengers were transported\". Read in archive.org's OCR text."
+    },
+    {
       "id": "crc-d26438",
       "title": "Railroad Commission of California, Decision No. 26438: East Bay Street Railways: abandonment of the Richmond line (Application No. 19129)",
       "publisher": "Railroad Commission of the State of California",
@@ -1362,6 +1384,17 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29338",
+      "title": "Railroad Commission of California, Decision No. 29338: Southern Pacific Golden Gate Ferries, fares on the Creek Route (Application No. 20753)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1936-12",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29338_19361207_A20753.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: the route \"commonly known as the Creek Route, operated from the vehicle slips near the foot of Mission Street, San Francisco, to a slip owned by applicant on Oakland Estuary near the foot of Broadway in the City of Oakland\"; one boat, seven round trips daily. Read on the scanned pages."
     },
     {
       "id": "crc-d29464",
@@ -1823,6 +1856,17 @@
       "notes": "feed_info dates 20251126 to 20260630; file SHA-256 9964232c8aad74f9e1ef069445d6561ef02f2e779507181d54b8c14731d51baf."
     },
     {
+      "id": "habs-ca-1888",
+      "title": "Southern Pacific Mole & Pier, Seventh Street, Oakland (HABS CA-1888)",
+      "publisher": "Historic American Buildings Survey, Library of Congress",
+      "date": "1960s",
+      "type": "official",
+      "url": "https://www.loc.gov/item/ca0018/",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "The catalog record's significance statement: the Long Wharf \"opened to traffic January 16, 1871\"; the Mole and Pier \"opened to traffic January 22, 1882\"; \"Ferry commuter service was discontinued January 1939, and all ferry service was discontinued on July 30, 1958.\" Read in the catalog record (loc.gov JSON); the survey's data pages couldn't be opened from this environment."
+    },
+    {
       "id": "haer-ca-164",
       "title": "Interurban Electric Railway Bridge Yard Shop (HAER CA-164)",
       "author": "J. W. Snyder, Caltrans",
@@ -1842,6 +1886,18 @@
       "type": "official",
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "halley-1876",
+      "title": "The Centennial Year Book of Alameda County, California",
+      "author": "William Halley",
+      "publisher": "William Halley, Oakland",
+      "date": "1876",
+      "type": "book",
+      "url": "https://archive.org/details/centennialyearbo00hall",
+      "license": "Public domain (published 1876)",
+      "accessed": "2026-10-15",
+      "notes": "A year-by-year chronicle of Alameda County to 1876, with the openings of its railroads and ferries. Pages are the printed page numbers in the running heads. Read in archive.org's OCR text; quotes are to be re-read on the page images."
     },
     {
       "id": "joepg-1912-03-09",
@@ -2888,6 +2944,17 @@
       "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
       "accessed": "2026-10-14",
       "notes": "A reminiscence: \"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (archive.org full-text search; the page still needs checking)."
+    },
+    {
+      "id": "wood-1883",
+      "title": "History of Alameda County, California",
+      "publisher": "M. W. Wood, Oakland",
+      "date": "1883",
+      "type": "book",
+      "url": "https://archive.org/details/historyofalamed00munr",
+      "license": "Public domain (published 1883)",
+      "accessed": "2026-10-15",
+      "notes": "Compiled by J. P. Munro-Fraser. The Central Pacific's wharves, the Long Wharf and the Oakland Mole (pp. 629-631), and the South Pacific Coast Railroad (p. 833). Read in archive.org's OCR text; quotes are to be re-read on the page images."
     }
   ]
 }

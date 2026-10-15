@@ -28,6 +28,11 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |
 | `ggf-hyde-berkeley-course` Ferry, Hyde Street to the Berkeley pier | approximate |  |  |  |
 | `vallejo-ferry-course` Ferry, Clay Street to Vallejo | approximate |  |  |  |
+| `sp-creek-route-course` Ferry, foot of Mission St to the foot of Broadway, Oakland (the Creek Route) | approximate |  |  |  |
+| `sp-oakland-pier-course` Ferry, the Ferry Building to Oakland Pier | approximate |  |  |  |
+| `sp-alameda-pier-course` Ferry, the Ferry Building to Alameda Pier | approximate |  |  |  |
+| `richmond-san-rafael-course` Ferry, Castro Point (Richmond) to Point San Quentin | OpenHistoricalMap |  |  |  |
+| `sf-alameda-ferry-course` Ferry, San Francisco to Alameda Point (1864-73) | approximate |  |  |  |
 | `ferry-hyde-street-pier` Hyde Street Pier | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-hyde-street-pier.jpg) |
 | `ferry-sausalito-nwp` Sausalito ferry terminal (Northwestern Pacific) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-sausalito-nwp.jpg) |
 | `ferry-berkeley-pier` Berkeley ferry pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/ferry-berkeley-pier.jpg) |
@@ -255,6 +260,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 Each end dated by the month of the order or event that brought it, because no source gives the last day. A newspaper of the time would settle it.
 
 - line `ggf-hyde-berkeley` (Hyde Street–Berkeley auto ferry), closed 1937-08: Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17).
+- line `sp-creek-route` (Creek Route ferry (Broadway, Oakland)), closed 1937-08: Abandonment authorized on cancelling the schedules, within 30 days of the order of August 9, 1937, on not less than 5 days' notice: on or about August 1937 (decision 17); the last run fell between about August 14 and September 8, 1937.
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-west-pittsburg-mallard`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
@@ -283,6 +289,8 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `eb-cemetery` Cemetery line | 1937-10-11 (crc-d30213, p. 1, 3) | opening and closing |
 | `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening and closing |
 | `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
+| `sp-creek-route` Creek Route ferry (Broadway, Oakland) | 1876-07-01 (halley-1876, p. 435); 1936-12 (crc-d29338, p. 1) | opening |
+| `sp-alameda-pier-ferry` Alameda ferry (Alameda Pier) | 1878-06-01 (wood-1883, p. 833) | opening |
 | `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening |
 | `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening |

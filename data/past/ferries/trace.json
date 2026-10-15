@@ -48,6 +48,68 @@
           ]
         }
       ]
+    },
+    "sp-creek-route-course": {
+      "parts": [
+        {
+          "water": [
+            "The Embarcadero/Mission Street",
+            [
+              -122.276851,
+              37.795388
+            ]
+          ]
+        }
+      ]
+    },
+    "sp-oakland-pier-course": {
+      "parts": [
+        {
+          "water": [
+            "The Embarcadero/Market Street",
+            [
+              -122.33008,
+              37.809095
+            ]
+          ]
+        }
+      ]
+    },
+    "sp-alameda-pier-course": {
+      "parts": [
+        {
+          "water": [
+            "The Embarcadero/Market Street",
+            [
+              -122.330874,
+              37.796576
+            ]
+          ]
+        }
+      ]
+    },
+    "richmond-san-rafael-course": {
+      "parts": [
+        {
+          "ohm": [
+            200456948
+          ]
+        }
+      ],
+      "note": "The ferry's course as OpenHistoricalMap draws it"
+    },
+    "sf-alameda-ferry-course": {
+      "parts": [
+        {
+          "water": [
+            "The Embarcadero/Market Street",
+            [
+              -122.330874,
+              37.796576
+            ]
+          ]
+        }
+      ]
     }
   },
   "points": {
