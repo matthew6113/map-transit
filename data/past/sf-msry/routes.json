@@ -172,10 +172,7 @@
         "street": "6th Avenue",
         "from": "Clement Street",
         "to": "Fulton Street",
-        "running": [
-          "1929-05"
-        ],
-        "note": "Back toward Lake St"
+        "note": "Back toward Lake St. Manley (1909): \"to Fulton to 6th Ave. and return\", the loop No. 24 ran the other way (\"Lake to 6th to Fulton to 8th to Clement to 6th\", p. 16)"
       },
       {
         "street": "Divisadero Street",
@@ -341,9 +338,7 @@
         "street": "Parnassus Avenue",
         "from": "Stanyan Street",
         "to": "Judah Street",
-        "running": [
-          "1929-05"
-        ]
+        "note": "Manley (1909): \"to Stanyan to Parnassas Ave. to Affiliated Colleges\", without the cross street where the cars stopped; drawn to Judah St, as in 1929"
       },
       {
         "street": "Judah Street",
@@ -504,9 +499,7 @@
         "street": "San Jose Avenue",
         "from": "Guerrero Street",
         "to": "30th Street",
-        "running": [
-          "1929-05"
-        ]
+        "note": "Manley (1909): the Guerrero line ran \"to San Jose Avenue and Ocean View\", and the Glen Park line \"to Chenery Street and San Jose Ave.\""
       },
       {
         "segment": "muni-j-30th-st",
@@ -608,9 +601,7 @@
         "street": "Ocean Avenue",
         "from": "Onondaga Avenue",
         "to": "San Jose Avenue",
-        "running": [
-          "1929-05"
-        ]
+        "note": "Manley (1909): \"to Onondaga Avenue to Ocean Avenue to Ingleside\""
       },
       {
         "segment": "muni-k-ocean-ave",
@@ -929,9 +920,7 @@
         "street": "Fulton Street",
         "from": "Stanyan Street",
         "to": "8th Avenue",
-        "running": [
-          "1929-05"
-        ]
+        "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)"
       },
       {
         "street": "8th Avenue",

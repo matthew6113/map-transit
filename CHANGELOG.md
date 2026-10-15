@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Manley's 1909 report, re-read on the page images
+
+- Every route and quote taken from Manley's report of 1909 was read again on its page images. Five
+  1909 routes went further than drawn: No. 4 came back up 6th Ave to close its Richmond loop (the
+  loop No. 24 ran the other way, p. 16); No. 6 ran on along Parnassus Ave "to Affiliated Colleges";
+  No. 10 ran on along San Jose Ave; No. 12 along Ocean Ave; and No. 21 out Fulton St to 8th Ave
+  (p. 29). No. 20's summary now says that all its cars ran "to H to 19th", and every other car on
+  to Ocean Boulevard.
+- Street segments cited every report a line was in, even for a stretch in only one report's
+  route: 28 cited a Manley page that doesn't name them. A segment now cites only the reports whose
+  routes include it (`street_routes.py`). This also dropped East Bay orders from 30 segments whose
+  streets those orders don't name.
+
 ## 2026-10-15: Six SF last days, read on the page images
 
 - The San Francisco PUC's reports of 1947–48 (p. 171) and 1948–49 (p. 190), read on their page

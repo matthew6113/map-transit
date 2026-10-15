@@ -23,7 +23,8 @@ routes.json:
 It writes the street segments it makes into the group's segments.geojson and trace.json (marked
 `"routes": true` there, so a rerun replaces them), and each listed line's `route` into lines.json;
 the rest of lines.json is hand-kept. A new segment cites the sources of the lines on it that support
-`route`, with their pages.
+`route`, with their pages; where a line's run on it has `running`, only the sources of those
+`running` dates.
 
     uv run --directory pipeline python -m transit_pipeline.street_routes [GROUP ...]
 """
@@ -195,7 +196,7 @@ def build(group: Path) -> None:
                     sid = f"{cfg['prefix']}-{slug(r['street'])}-{slug(x)}-{slug(y)}"
                     if sid not in made:
                         made[sid] = {"street": r["street"], "names": names(r), "a": x, "b": y, "pa": places[x], "pb": places[y], "coords": piece,
-                                     "lines": [], "bridge": bridge.get(st, 0.0), "area": area(r)}
+                                     "lines": [], "uses": [], "bridge": bridge.get(st, 0.0), "area": area(r)}
                         for other, g in present:
                             shared = pm.intersection(g).length
                             if shared > PRESENT_M:
@@ -210,6 +211,7 @@ def build(group: Path) -> None:
                         problems.append(f"{sid}: two different stretches of {r['street']} between {a} and {b}")
                     if lid not in made[sid]["lines"]:
                         made[sid]["lines"].append(lid)
+                    made[sid]["uses"].append((lid, tuple(r.get("running", ()))))
                 out.append({"segment": sid, **extra})
         lines[lid]["route"] = out
 
@@ -231,8 +233,13 @@ def build(group: Path) -> None:
     for sid, m in sorted(made.items()):
         users = [lines[i] for i in m["lines"]]
         cites, seen = [], set()
-        for u in users:
+        for lid, running in m["uses"]:
+            u = lines[lid]
+            # A stretch in only some reports' routes cites only those reports.
+            shown = {e["source"] for e in u.get("running", []) if e["date"] in running}
             for s in u["sources"]:
+                if running and s["source"] not in shown:
+                    continue
                 if "route" in s["supports"] and (s["source"], s.get("pages")) not in seen:
                     seen.add((s["source"], s.get("pages")))
                     cites.append({"source": s["source"], "supports": ["route"], **({"pages": s["pages"]} if s.get("pages") else {})})

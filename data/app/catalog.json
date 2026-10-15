@@ -2061,21 +2061,6 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "usgs-oakland-east-1949",
           "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -2148,21 +2133,6 @@
           "pages": "2, 4-5"
         },
         {
-          "id": "crc-d23279",
-          "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-01-13",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23279_19310113_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d23279",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d26059",
           "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
           "publisher": "Railroad Commission of the State of California",
@@ -2176,6 +2146,21 @@
             "route"
           ],
           "pages": "2-3"
+        },
+        {
+          "id": "crc-d23279",
+          "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-01-13",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23279_19310113_A17062.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d23279",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "usgs-oakland-west-1949",
@@ -2222,36 +2207,6 @@
           ],
           "pages": "1",
           "note": "The No. 2 to run \"on Washington Street from a southerly terminus between Sixth and Seventh Streets to the intersection of Washington Street and San Pablo Avenue\"."
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         }
       ]
     },
@@ -12088,21 +12043,6 @@
           ]
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -12118,19 +12058,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -12148,19 +12088,19 @@
           "pages": "1"
         },
         {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
+          "id": "crc-d26059",
+          "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
           "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
+          "date": "1933-06-12",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26059_19330612_A18915.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "crc-d38738",
+          "source": "crc-d26059",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2-3"
         },
         {
           "id": "crc-d23279",
@@ -12176,21 +12116,6 @@
             "route"
           ],
           "pages": "2"
-        },
-        {
-          "id": "crc-d26059",
-          "title": "Railroad Commission of California, Decision No. 26059: East Bay Street Railways: abandonment of lines No. 17 (8th Avenue), No. 23 (23rd Avenue) and No. 9 (East Alameda) (Application No. 18915)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1933-06-12",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26059_19330612_A18915.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d26059",
-          "supports": [
-            "route"
-          ],
-          "pages": "2-3"
         },
         {
           "id": "usgs-oakland-west-1949",
@@ -12602,7 +12527,7 @@
       "closed": null,
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Mission St, 14th St and Guerrero St; by 1929 on by San Jose Ave, 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street.",
+      "summary": "Out Mission St, 14th St, Guerrero St and San Jose Ave; by 1929 on by 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street, so in 1909 it is drawn to 30th St.",
       "traction": [
         {
           "type": "electric_overhead"
@@ -12752,9 +12677,7 @@
           "name": "San Jose Ave, 30th St to Guerrero St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): the Guerrero line ran \"to San Jose Avenue and Ocean View\", and the Glen Park line \"to Chenery Street and San Jose Ave.\"",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -12906,21 +12829,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -13262,21 +13170,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d35948",
-          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-11-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d35948",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -13304,36 +13197,6 @@
           ]
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -13347,6 +13210,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "crc-d35948",
+          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1942-11-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d35948",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "cpuc-d41306",
@@ -13670,21 +13548,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
@@ -14368,36 +14231,6 @@
           "pages": "2, 4-5"
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -14422,21 +14255,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -14516,6 +14334,21 @@
             "route"
           ],
           "pages": "9"
+        },
+        {
+          "id": "crc-d38738",
+          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1946-03-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d38738",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
         }
       ]
     },
@@ -14950,7 +14783,7 @@
       "closed": "1948-10-31",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ingleside\", by 1929 on by Sloat Blvd to the Great Highway.",
+      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ocean Avenue to Ingleside\" (drawn to San Jose Ave, since where the cars stopped isn't given), by 1929 on by Sloat Blvd to the Great Highway.",
       "fate": "converted_to_bus",
       "traction": [
         {
@@ -15133,9 +14966,7 @@
           "name": "Ocean Ave, Onondaga Ave to San Jose Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): \"to Onondaga Avenue to Ocean Avenue to Ingleside\"",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -15285,21 +15116,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -15822,21 +15638,6 @@
           "pages": "2-3"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -15852,19 +15653,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -15876,21 +15677,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -16178,21 +15964,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "usgs-san-francisco-south-1950",
@@ -16624,21 +16395,6 @@
           "pages": "2-3"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -16654,19 +16410,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -16678,21 +16434,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -17523,22 +17264,6 @@
           ]
         },
         {
-          "id": "manley-1909",
-          "title": "Report on the operation of the street railroad lines of San Francisco: a report to the Committee on Street Railroads of the Merchants' Association of San Francisco",
-          "author": "Warren Manley, Inspector",
-          "publisher": "Merchants' Association of San Francisco",
-          "date": "1909-02-01",
-          "type": "primary_document",
-          "url": "https://archive.org/details/reportonoperatio00manlrich",
-          "license": "Public domain (published 1909)",
-          "accessed": "2026-10-15",
-          "source": "manley-1909",
-          "supports": [
-            "route"
-          ],
-          "pages": "12"
-        },
-        {
           "id": "usgs-san-francisco-south-1950",
           "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
           "author": "U.S. Geological Survey",
@@ -17743,21 +17468,6 @@
             "electrification"
           ],
           "pages": "346"
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         },
         {
           "id": "manley-1909",
@@ -18050,36 +17760,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         },
         {
           "id": "crc-d38428",
@@ -18848,21 +18528,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d24224",
-          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1931-11-16",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24224",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "crc-d35948",
           "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -18878,19 +18543,19 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24224",
+          "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24224_19311116_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24224",
           "supports": [
             "route"
           ],
-          "pages": "1"
+          "pages": "2"
         },
         {
           "id": "crc-d24963",
@@ -18902,21 +18567,6 @@
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
           "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
           "supports": [
             "route"
           ],
@@ -18951,6 +18601,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "cpuc-d41652",
+          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1948-05-25",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "cpuc-d41652",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
         }
       ]
     },
@@ -18979,7 +18644,7 @@
       "closed": "1947-09-27",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 alternate cars went on out H St (not drawn yet: that it is today's Lincoln Way isn't sourced here).",
+      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 the cars went on \"to Stanyan to H to 19th\", and every other car \"out H to Ocean Boulevard, thence west to B Street\" (Manley p. 18; not drawn yet: that H St is today's Lincoln Way isn't sourced here).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from late September 1947.",
       "traction": [
@@ -19400,7 +19065,7 @@
       "closed": "1948-06-05",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Hayes St to Stanyan St and Fulton St. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St; by 1929 it ran from the Ferry out Market St and Hayes St, and on by Fulton St and 8th Ave to Clement St.",
+      "summary": "Out Hayes St to Stanyan St, and out Fulton St to 8th Ave. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St, and Fulton St from 8th Ave was its \"extension\" (Manley p. 29); by 1929 it ran from the Ferry out Market St and Hayes St, and on by 8th Ave to Clement St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from June 7, 1948; trolley coaches from July 3, 1949.",
       "traction": [
@@ -19816,9 +19481,7 @@
           "name": "Fulton St, 6th Ave to Stanyan St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -19835,9 +19498,7 @@
           "name": "Fulton St, 6th Ave to 8th Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909) gives the route \"to Stanyan to Fulton\", and Fulton St \"from 8th Avenue\" as \"the extension of the Geary, Turk and Eddy, McAllister, and Hayes Street lines\" (p. 29)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -19885,7 +19546,7 @@
             "route",
             "name"
           ],
-          "pages": "18"
+          "pages": "18, 29"
         },
         {
           "id": "oshaughnessy-1929",
@@ -22600,10 +22261,7 @@
           "name": "6th Ave, Clement St to Fulton St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
-          "note": "Back toward Lake St",
+          "note": "Back toward Lake St. Manley (1909): \"to Fulton to 6th Ave. and return\", the loop No. 24 ran the other way (\"Lake to 6th to Fulton to 8th to Clement to 6th\", p. 16)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -23880,21 +23538,6 @@
             "route"
           ],
           "pages": "22"
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
@@ -24353,21 +23996,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d35948",
-          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-11-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d35948",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -24395,36 +24023,6 @@
           ]
         },
         {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "crc-d38428",
           "title": "Railroad Commission of California, Decision No. 38428: Key System: rerouting of the No. 2 line downtown (Application No. 19502, 85th supplemental)",
           "publisher": "Railroad Commission of the State of California",
@@ -24438,6 +24036,21 @@
             "route"
           ],
           "pages": "1-2"
+        },
+        {
+          "id": "crc-d35948",
+          "title": "Railroad Commission of California, Decision No. 35948: Key System: rerouting of line No. 11, Oakland-38th Avenue (Application No. 19502, 55th supplemental)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1942-11-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D35948_19421105_A19502.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d35948",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
         },
         {
           "id": "cpuc-d41306",
@@ -24481,7 +24094,7 @@
       "closed": "1948-07-03",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St); Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
+      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St), then by Masonic Ave, Frederick St, Clayton St, Carl St and Stanyan St \"to Parnassas Ave. to Affiliated Colleges\"; Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from 1949.",
       "traction": [
@@ -25002,9 +24615,7 @@
           "name": "Parnassus Ave, Judah St to Stanyan St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "note": "Manley (1909): \"to Stanyan to Parnassas Ave. to Affiliated Colleges\", without the cross street where the cars stopped; drawn to Judah St, as in 1929",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -26164,36 +25775,6 @@
           "pages": "2"
         },
         {
-          "id": "crc-d24963",
-          "title": "Railroad Commission of California, Decision No. 24963: East Bay Street Railways: second supplemental order (Application No. 17062)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1932-06-30",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24963_19320630_A17062.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d24963",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
-          "id": "crc-d38738",
-          "title": "Railroad Commission of California, Decision No. 38738: Key System: abandonment of the No. 16 38th Avenue line (Application No. 19502, 87th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1946-03-05",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D38738_19460305_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d38738",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
-        },
-        {
           "id": "usgs-oakland-west-1949",
           "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
           "author": "U.S. Geological Survey",
@@ -26219,36 +25800,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "crc-d36025",
-          "title": "Railroad Commission of California, Decision No. 36025: Key System: motor coach service on San Pablo Avenue (Application No. 19502, 54th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1942-12-15",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36025_19421215_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d36025",
-          "supports": [
-            "route"
-          ],
-          "pages": "2"
-        },
-        {
-          "id": "crc-d37339",
-          "title": "Railroad Commission of California, Decision No. 37339: Key System: San Pablo Avenue service (Application No. 19502, 75th supplemental)",
-          "publisher": "Railroad Commission of the State of California",
-          "date": "1944-09-21",
-          "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D37339_19440921_A19502.pdf",
-          "license": "California public record; cited for facts",
-          "accessed": "2026-10-15",
-          "source": "crc-d37339",
-          "supports": [
-            "route"
-          ],
-          "pages": "1"
         },
         {
           "id": "crc-d38428",
@@ -26296,15 +25847,15 @@
           "pages": "2"
         },
         {
-          "id": "cpuc-d41652",
-          "title": "Public Utilities Commission of California, Decision No. 41652: Key System Transit Lines: motor coaches for lines No. 10, 11 and 12 (Application No. 29172)",
-          "publisher": "Public Utilities Commission of the State of California",
-          "date": "1948-05-25",
+          "id": "crc-d24963",
+          "title": "Railroad Commission of California, Decision No. 24963: East Bay Street Railways: second supplemental order (Application No. 17062)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-06-30",
           "type": "official",
-          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D41652_19480525_A29172.pdf",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24963_19320630_A17062.pdf",
           "license": "California public record; cited for facts",
           "accessed": "2026-10-15",
-          "source": "cpuc-d41652",
+          "source": "crc-d24963",
           "supports": [
             "route"
           ],
@@ -26756,21 +26307,6 @@
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "id": "srj-1903-10-31-san-mateo",
-          "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
-          "publisher": "Street Railway Journal",
-          "date": "1903-10-31",
-          "type": "journal",
-          "url": "https://archive.org/details/streetrailwayjo221903newy",
-          "license": "Public domain (published 1903)",
-          "accessed": "2026-10-15",
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-803"
         }
       ]
     },
