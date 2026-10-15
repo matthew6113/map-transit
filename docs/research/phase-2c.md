@@ -89,8 +89,9 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 
 `docs/checks/ohm.md` lists, by operator, the ways not yet drawn. The largest: the Southern Pacific
 (212 km), the San Francisco & North Pacific (72 km), the North Pacific Coast (91 km), the Sacramento
-Northern's Pittsburg branch and Travis spur, the United Railroads' San Mateo line (20 km), and 665 km
-of unnamed ways, most of them traced by OHM's mappers from the 15-minute sheets of 1895–1915.
+Northern's Pittsburg branch and a branch of about 1950 in Solano County, the United Railroads' San
+Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's mappers from the
+15-minute sheets of 1895–1915.
 
 ## For Matthew
 
