@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the Key System's E
+
+- **E Claremont line** (1908 to 1958): from the trunk up Adeline St, then 55th St, Vicente St and
+  56th St to Claremont Ave, and up Claremont Ave to the Claremont Hotel, on the streets the 1954
+  Commission decision names (CPUC Decision No. 50731) and the 1949 USGS sheet draws. Opened as
+  the Claremont line in 1908 (the Oakland Tribune's retrospective of 1912); its 55th St branch
+  ran to Telegraph Ave from 1905–07, on a first day not yet sourced.
+- The Adeline St segment is split at 55th St, where the E left it.
+
 ## 2026-10-15: Phase 2c, Market St's first lines
 
 - **The Market Street steam dummy** (1860-07-15 to 1867-03-06), from 3rd St out Market St and

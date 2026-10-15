@@ -1735,6 +1735,28 @@
       "notes": "Read through archive.org's full-text search."
     },
     {
+      "id": "oakland-tribune-1905-06-17",
+      "title": "Oakland Tribune, 1905-06-17: the Key Route's Fifty-fifth Street branch",
+      "publisher": "Oakland Tribune",
+      "date": "1905-06-17",
+      "url": "https://archive.org/details/oakland-tribune-1905-06-17",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 15 (counted from 0); the printed page is unverified. Read Oct 14 through archive.org's full-text search (docs/research/east-bay-electric.md); \"service just about to be started on the Fifty-fifth street branch of the Key route, which, for the present, will run from the ferry to Telegraph avenue, on Fifty-fifth street\". The quote is to be re-read on the page image."
+    },
+    {
+      "id": "oakland-tribune-1905-11-10",
+      "title": "Oakland Tribune, 1905-11-10: the Fifty-fifth Street line to be extended to Claremont",
+      "publisher": "Oakland Tribune",
+      "date": "1905-11-10",
+      "url": "https://archive.org/details/oakland-tribune-1905-11-10",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 3 (counted from 0); the printed page is unverified. Read Oct 14 through archive.org's full-text search (docs/research/east-bay-electric.md); \"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\" The quote is to be re-read on the page image."
+    },
+    {
       "id": "oakland-tribune-1911-06-12",
       "title": "Oakland Tribune, 1911-06-12: through service on the Poplar Street and Twelfth Street route",
       "publisher": "Oakland Tribune",
@@ -1766,6 +1788,17 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-14",
       "notes": "archive.org scan leaf 12 (counted from 0); the printed page is unverified."
+    },
+    {
+      "id": "oakland-tribune-1912-10-25",
+      "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
+      "publisher": "Oakland Tribune",
+      "date": "1912-10-25",
+      "url": "https://archive.org/details/oakland-tribune-1912-10-25",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-14",
+      "notes": "archive.org scan leaf 9 (counted from 0); the printed page is unverified. Read Oct 14 through archive.org's full-text search (docs/research/east-bay-electric.md); \"In 1908 the Claremont line was opened\". The quote is to be re-read on the page image."
     },
     {
       "id": "oakland-tribune-1924-11-03",

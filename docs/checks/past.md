@@ -36,7 +36,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `key-40th-st` Yerba Buena Avenue and 40th Street to Shafter Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st.jpg) |
 | `key-40th-st-east` 40th Street, Shafter Avenue to Piedmont Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st-east.jpg) |
 | `key-linden-st` San Pablo Avenue to Adeline Street, by Linden Street | approximate |  |  | [review](../screenshots/p2a/traces/key-linden-st.jpg) |
-| `key-adeline-south` Adeline Street to Alcatraz Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-adeline-south.jpg) |
+| `key-adeline-55th` Adeline Street, to 55th Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-adeline-55th.jpg) |
+| `key-adeline-south` Adeline Street, 55th Street to Alcatraz Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-adeline-south.jpg) |
 | `key-adeline-north` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1903 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-adeline-north.jpg) |
 | `key-shattuck-center` Shattuck Avenue to Center Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-shattuck-center.jpg) |
 | `key-adeline-1941` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1941 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-adeline-1941.jpg) |
@@ -48,6 +49,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `key-sacramento-st` Sacramento Street to Hopkins Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-sacramento-st.jpg) |
 | `key-hopkins-st` Hopkins Street to Northbrae (El Dorado Avenue) | street-centerline | usgs-richmond-1949 | 40 m | [review](../screenshots/p2a/traces/key-hopkins-st.jpg) |
 | `key-ferry` Ferry, Key Route pier to the Ferry Building | approximate |  |  |  |
+| `key-55th-56th-st` 55th, Vicente and 56th Streets, Adeline Street to Claremont Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-55th-56th-st.jpg) |
+| `key-claremont-ave` Claremont Avenue, 56th Street to the Claremont Hotel | street-centerline | usgs-oakland-east-1949 | 20 m | [review](../screenshots/p2c/traces/key-claremont-ave.jpg) |
 | `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2a/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2a/traces/key-pier-terminal.jpg) |
 | `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2a/traces/key-san-pablo.jpg) |
 | `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2a/traces/key-piedmont-terminal.jpg) |

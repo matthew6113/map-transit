@@ -24,7 +24,7 @@
         {
           "segment": "key-pier",
           "to": "1939-01-15",
-          "note": "Ferry trains, until the Bay Bridge opened to trains"
+          "note": "Over the Key Route pier to its ferries until January 15, 1939"
         },
         {
           "segment": "bbr-sf-loop",
@@ -50,6 +50,9 @@
         },
         {
           "segment": "key-linden-st"
+        },
+        {
+          "segment": "key-adeline-55th"
         },
         {
           "segment": "key-adeline-south"
@@ -607,6 +610,10 @@
           "segment": "key-linden-st"
         },
         {
+          "note": "To 54th Street",
+          "segment": "key-adeline-55th"
+        },
+        {
           "segment": "key-adeline-south",
           "note": "To 54th Street"
         },
@@ -732,6 +739,119 @@
         }
       ],
       "flags": []
+    },
+    {
+      "id": "key-e",
+      "name": "Claremont line",
+      "short_name": "E",
+      "system": "key-system",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "era": "past",
+      "opened": "1908",
+      "closed": "1958",
+      "status": "closed",
+      "summary": "From the Key Route pier, and from 1939 the Bay Bridge, along Yerba Buena Avenue and Adeline Street, then 55th Street and Claremont Avenue to the Claremont Hotel on the Berkeley line.",
+      "fate": "converted_to_bus",
+      "route": [
+        {
+          "segment": "key-pier",
+          "to": "1939-01-15",
+          "note": "Over the Key Route pier to its ferries until January 15, 1939"
+        },
+        {
+          "segment": "bbr-sf-loop",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-bridge",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "bbr-east-approach",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-bridge-link",
+          "from": "1939-01-15"
+        },
+        {
+          "segment": "key-trunk-shore"
+        },
+        {
+          "segment": "key-yerba-buena"
+        },
+        {
+          "segment": "key-linden-st"
+        },
+        {
+          "segment": "key-adeline-55th"
+        },
+        {
+          "segment": "key-55th-56th-st"
+        },
+        {
+          "segment": "key-claremont-ave"
+        }
+      ],
+      "sources": [
+        {
+          "source": "oakland-tribune-1912-10-25",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"In 1908 the Claremont line was opened\" (a retrospective)."
+        },
+        {
+          "source": "oakland-tribune-1905-06-17",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\"."
+        },
+        {
+          "source": "oakland-tribune-1905-11-10",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\""
+        },
+        {
+          "source": "cpuc-d50731",
+          "supports": [
+            "route"
+          ],
+          "pages": "1",
+          "note": "In 1954 the E ran \"between the grounds of the Hotel Claremont at Domingo Avenue in the City of Berkeley and the said bridge terminal a distance of 11.14 miles\"; its night and Sunday buses ran \"closely paralleling the rail routes\": \"55th Street from Market Street to Vicente Street. … Vicente Street from 55th Street to 56th Street. … 56th Street from Vicente Street to Claremont Avenue. … Claremont Avenue from 56th Street to Russell Street.\""
+        },
+        {
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Opened as the Claremont line in 1908 (the Oakland Tribune's retrospective of 1912); before that a branch ran from the ferry to Telegraph Avenue on 55th Street, from 1905 to 1907 (its first day isn't sourced). Night and Sunday service went to buses from November 7, 1954 (CPUC Decision No. 50731). The last trains ran in 1958 (HAER)."
     }
   ]
 }

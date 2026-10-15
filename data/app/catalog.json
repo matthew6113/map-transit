@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        134,
-        135,
-        136,
-        137
+        147,
+        148,
+        149,
+        150
       ],
       "segments": [
         {
@@ -1882,16 +1882,16 @@
         37.793407
       ],
       "fids": [
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
       ],
       "segments": [
         {
@@ -2165,7 +2165,8 @@
         17,
         18,
         19,
-        20
+        20,
+        21
       ],
       "segments": [
         {
@@ -2174,7 +2175,7 @@
           "opened": "1903-10-26",
           "closed": "1939-01",
           "to": "1939-01-15",
-          "note": "Ferry trains, until the Bay Bridge opened to trains",
+          "note": "Over the Key Route pier to its ferries until January 15, 1939",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
@@ -2274,14 +2275,26 @@
           ]
         },
         {
-          "id": "key-adeline-south",
-          "name": "Adeline Street to Alcatraz Avenue",
+          "id": "key-adeline-55th",
+          "name": "Adeline Street, to 55th Street",
           "opened": "1903-10-26",
           "closed": "1958",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
-          "method": "Joined to key-linden-st at its end; then along today's Adeline Street centerline from -122.27450,37.83850 to Alcatraz Avenue (1194 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street to Alcatraz Avenue.",
+          "method": "Joined to key-linden-st at its end; then along today's Adeline Street centerline from -122.27450,37.83850 to 55th Street (61 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street to 55th Street, where the Claremont line left it.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-adeline-south",
+          "name": "Adeline Street, 55th Street to Alcatraz Avenue",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-adeline-55th at its end; then along today's Adeline Street centerline from 55th Street to Alcatraz Avenue (1133 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street from 55th Street to Alcatraz Avenue.",
           "structure": "street",
           "flags": []
         },
@@ -2769,14 +2782,14 @@
         37.793407
       ],
       "fids": [
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-        169,
-        170
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -3076,8 +3089,8 @@
         37.790421
       ],
       "fids": [
-        94,
-        95
+        107,
+        108
       ],
       "segments": [
         {
@@ -3206,10 +3219,10 @@
         37.772502
       ],
       "fids": [
-        117,
-        118,
-        119,
-        120
+        130,
+        131,
+        132,
+        133
       ],
       "segments": [
         {
@@ -3333,6 +3346,466 @@
       ]
     },
     {
+      "id": "key-e",
+      "name": "Claremont line",
+      "short_name": "E",
+      "system": "key-system",
+      "system_name": "Key System",
+      "operators": [
+        {
+          "name": "Key System (the San Francisco, Oakland & San Jose Railway and its successors)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1908",
+      "closed": "1958",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "From the Key Route pier, and from 1939 the Bay Bridge, along Yerba Buena Avenue and Adeline Street, then 55th Street and Claremont Avenue to the Claremont Hotel on the Berkeley line.",
+      "fate": "converted_to_bus",
+      "notes": "Opened as the Claremont line in 1908 (the Oakland Tribune's retrospective of 1912); before that a branch ran from the ferry to Telegraph Avenue on 55th Street, from 1905 to 1907 (its first day isn't sourced). Night and Sunday service went to buses from November 7, 1954 (CPUC Decision No. 50731). The last trains ran in 1958 (HAER).",
+      "flags": [],
+      "undated": false,
+      "length_km": 23.25,
+      "confidence_km": {
+        "approximate": 1.13,
+        "digitized": 22.12
+      },
+      "bbox": [
+        -122.397803,
+        37.784751,
+        -122.244587,
+        37.859007
+      ],
+      "fids": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "segments": [
+        {
+          "id": "key-pier",
+          "name": "Key Route Pier",
+          "opened": "1903-10-26",
+          "closed": "1939-01",
+          "to": "1939-01-15",
+          "note": "Over the Key Route pier to its ferries until January 15, 1939",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (2 hand-read points, centred on the line symbol and fitted straight (RMS 3 m)); then traced by eye from USGS San Francisco 1:62,500 (1915) (4 hand-read points, centred on the line symbol); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The trestle runs straight from the shore, then curves to the ferry terminal.",
+          "structure": "pier",
+          "flags": [],
+          "notes": "Ferry trains ran to its end until the Bay Bridge opened to trains in January 1939; from then its land end carried the bridge trains. A 1933 fire is relayed via Wikipedia only."
+        },
+        {
+          "id": "bbr-sf-loop",
+          "name": "Transbay Terminal loop, San Francisco",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (23 hand-read points, centred on the line symbol). The loop as the 1950 sheet draws it (\"KEY SYSTEM\"): from the approach, north along the west side to the terminal's west end, through the six-track station facing Mission Street, around the east end and back south. Trains ran counter-clockwise, arriving at the station's east end.",
+          "structure": "elevated",
+          "flags": []
+        },
+        {
+          "id": "bbr-bridge",
+          "name": "San Francisco–Oakland Bay Bridge, lower deck",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-sf-loop at its start; then traced by eye from USGS San Francisco North 1:24,000 (1950) (2 hand-read points, centred on the line symbol and fitted straight (RMS 2 m)); then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). From Rincon Hill across the bridge's lower deck, through the Yerba Buena Island tunnel, to where the tracks left the bridge on its south side at the Oakland end. The 1946-50 sheets draw the bridge, not the tracks on it; the tracks were on the south half of the lower deck.",
+          "structure": "bridge",
+          "flags": []
+        },
+        {
+          "id": "bbr-east-approach",
+          "name": "East Bay approach and yards",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-bridge at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (6 hand-read points, centred on the line symbol). Along the south side of the bridge approach (\"KEY SYSTEM\" on the 1949 sheet) past the toll plaza to the East Bay yards, where the Key System's and the Interurban's tracks divided.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-bridge-link",
+          "name": "East Bay yards to the old pier line",
+          "opened": "1939-01-15",
+          "closed": "1958",
+          "from": "1939-01-15",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to bbr-east-approach at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points, centred on the line symbol); then joined to key-pier at its start. From the East Bay yards over the bridge approach to the north side of the mole (\"TRANSIT LINES\" on the 1949 sheet), meeting the old pier line.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-trunk-shore",
+          "name": "Pier approach and subway to Poplar Junction",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-pier at its start; then traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland West 1:24,000 (1949) (4 hand-read points, centred on the line symbol). From the pier's land end under the Southern Pacific main line (the 1903 subway) to Poplar Junction, along the line the 1949 sheet draws there.",
+          "structure": "surface",
+          "flags": []
+        },
+        {
+          "id": "key-yerba-buena",
+          "name": "Yerba Buena Avenue to San Pablo Avenue",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-trunk-shore at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points, centred on the line symbol). Along Yerba Buena Avenue to the station at San Pablo Avenue.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-linden-st",
+          "name": "San Pablo Avenue to Adeline Street, by Linden Street",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Joined to key-yerba-buena at its end; then along today's Linden Street centerline from -122.27900,37.83100 to -122.27530,37.83550 (509 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); then given point by point; checked on USGS Oakland West 1:24,000 (1949). \"Nearly north\" from San Pablo Avenue, crossing Temescal Creek on Linden Street; drawn along today's Linden Street and joined straight to Adeline Street, which the sources don't place exactly.",
+          "structure": "street",
+          "flags": [
+            "geometry_unverified"
+          ]
+        },
+        {
+          "id": "key-adeline-55th",
+          "name": "Adeline Street, to 55th Street",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-linden-st at its end; then along today's Adeline Street centerline from -122.27450,37.83850 to 55th Street (61 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street to 55th Street, where the Claremont line left it.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-55th-56th-st",
+          "name": "55th, Vicente and 56th Streets, Adeline Street to Claremont Avenue",
+          "opened": null,
+          "closed": "1958",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-adeline-55th at its end; then along today's 55th Street centerline from Adeline Street to Telegraph Avenue (1182 m; Overture 2026-09-23.1); then traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points); checked on USGS Oakland West 1:24,000 (1949). 55th Street is drawn along today's centerline to Telegraph Avenue; beyond it, where the freeway cut the streets since, by 55th Street, Vicente Street and 56th Street to Claremont Avenue as the 1949 sheet draws them.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The 55th Street branch ran from the ferry to Telegraph Avenue before the Claremont line was built (from 1905 to 1907: its first day isn't sourced). The block from Adeline Street to Market Street, where the 1954 buses began, is drawn on 55th Street too."
+        },
+        {
+          "id": "key-claremont-ave",
+          "name": "Claremont Avenue, 56th Street to the Claremont Hotel",
+          "opened": "1908",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-55th-56th-st at its end; then along today's Claremont Avenue centerline from -122.25935,37.84101 to Domingo Avenue (2385 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949). Along Claremont Avenue to the grounds of the Claremont Hotel at Domingo Avenue.",
+          "structure": "street",
+          "flags": [],
+          "notes": "Up Claremont Avenue into Berkeley, to the grounds of the Claremont Hotel at Domingo Avenue."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1912-10-25",
+          "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
+          "publisher": "Oakland Tribune",
+          "date": "1912-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1912-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1912-10-25",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"In 1908 the Claremont line was opened\" (a retrospective)."
+        },
+        {
+          "id": "oakland-tribune-1905-06-17",
+          "title": "Oakland Tribune, 1905-06-17: the Key Route's Fifty-fifth Street branch",
+          "publisher": "Oakland Tribune",
+          "date": "1905-06-17",
+          "url": "https://archive.org/details/oakland-tribune-1905-06-17",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1905-06-17",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\"."
+        },
+        {
+          "id": "oakland-tribune-1905-11-10",
+          "title": "Oakland Tribune, 1905-11-10: the Fifty-fifth Street line to be extended to Claremont",
+          "publisher": "Oakland Tribune",
+          "date": "1905-11-10",
+          "url": "https://archive.org/details/oakland-tribune-1905-11-10",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1905-11-10",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\""
+        },
+        {
+          "id": "cpuc-d50731",
+          "title": "Public Utilities Commission of the State of California, Decision No. 50731 (Application No. 35880): Key System's C and E lines, night and Sunday buses",
+          "author": "Public Utilities Commission of the State of California",
+          "date": "1954-11-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D50731_19541103_A35880.pdf",
+          "type": "official",
+          "license": "California public record (Public Utilities Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "cpuc-d50731",
+          "supports": [
+            "route"
+          ],
+          "pages": "1",
+          "note": "In 1954 the E ran \"between the grounds of the Hotel Claremont at Domingo Avenue in the City of Berkeley and the said bridge terminal a distance of 11.14 miles\"; its night and Sunday buses ran \"closely paralleling the rail routes\": \"55th Street from Market Street to Vicente Street. … Vicente Street from 55th Street to 56th Street. … 56th Street from Vicente Street to Claremont Avenue. … Claremont Avenue from 56th Street to Russell Street.\""
+        },
+        {
+          "id": "cpuc-d54669",
+          "title": "Public Utilities Commission of the State of California, Decision No. 54669 (Application No. 36656): Key System, discontinuance of transbay rail service",
+          "author": "Public Utilities Commission of the State of California",
+          "date": "1957-03-12",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D54669_19570312_A36656.pdf",
+          "type": "official",
+          "license": "California public record (Public Utilities Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "cpuc-d54669",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "Authorized \"to discontinue transbay rail service and to substitute motor coach service therefor, on its presently existing \\\"A\\\", \\\"B\\\", \\\"C\\\", \\\"E\\\" and \\\"F\\\" rail lines\" (March 12, 1957)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "closed",
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"San Francisco–Oakland Terminal, Key Route Pier\"."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "srj-1904-02-13-key-route-1",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+          "publisher": "Street Railway Journal 23(7)",
+          "date": "1904-02-13",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "route",
+            "general",
+            "opened"
+          ],
+          "pages": "247, 249",
+          "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
+        },
+        {
+          "id": "srj-1904-02-20-key-route-2",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+          "publisher": "Street Railway Journal 23(8)",
+          "date": "1904-02-20",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903)."
+        },
+        {
+          "id": "crc-d33445",
+          "title": "Railroad Commission of the State of California, Decision No. 33445 (Application No. 23312): Interurban Electric Railway: abandonment of its rail lines, conditions",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-08-24",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33445_19400824_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33445",
+          "supports": [
+            "closed",
+            "general"
+          ],
+          "pages": "9",
+          "note": "\"Prior to the opening of the … Bay Bridge to interurban rail traffic, Key System and Interurban's predecessor … provided passenger service across the Bay by ferry boat\"; the bridge opened to rail service on January 15, 1939."
+        },
+        {
+          "id": "railway-signaling-1939-03-bay-bridge",
+          "title": "San Francisco-Oakland Bay Bridge Signaling and Interlocking",
+          "publisher": "Railway Signaling (Simmons-Boardman)",
+          "date": "1939-03",
+          "url": "https://www.ekeving.se/ext/US/rt/BayBridge_RS_1939-3.pdf",
+          "type": "journal",
+          "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "railway-signaling-1939-03-bay-bridge",
+          "supports": [
+            "route",
+            "opened",
+            "general"
+          ],
+          "pages": "148–154",
+          "note": "\"the tracks form a large loop with a six-track, double-end station on the north side of the loop. This station faces Mission street … All trains normally run counter-clockwise in this loop\" (p. 150)."
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry",
+            "name"
+          ]
+        },
+        {
+          "id": "crc-d34389",
+          "title": "Railroad Commission of the State of California, Decision No. 34389 (Application No. 23312): Interurban Electric Railway: the Berkeley lines",
+          "author": "Railroad Commission of the State of California",
+          "date": "1941-07-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D34389_19410703_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d34389",
+          "supports": [
+            "route"
+          ],
+          "pages": "5",
+          "note": "Key lines ran \"over joint track with the Interurban rail lines over the bridge to the East Bay Yards, thence proceeding over separate facilities from that point into the service area.\""
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-clay-st-hill",
       "name": "Clay Street Hill Railroad",
       "system": "clay-street-hill-railroad",
@@ -3375,7 +3848,7 @@
         37.794462
       ],
       "fids": [
-        85
+        98
       ],
       "segments": [
         {
@@ -3502,19 +3975,19 @@
         37.806482
       ],
       "fids": [
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
       ],
       "segments": [
         {
@@ -3927,21 +4400,21 @@
         37.80035
       ],
       "fids": [
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
         161,
-        162
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
       ],
       "segments": [
         {
@@ -4344,15 +4817,15 @@
         37.824321
       ],
       "fids": [
-        241,
-        242,
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
       ],
       "segments": [
         {
@@ -4832,14 +5305,14 @@
         37.805981
       ],
       "fids": [
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
       ],
       "segments": [
         {
@@ -5130,7 +5603,7 @@
         37.788015
       ],
       "fids": [
-        112
+        125
       ],
       "segments": [
         {
@@ -5272,16 +5745,16 @@
         37.806482
       ],
       "fids": [
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
       ],
       "segments": [
         {
@@ -5601,10 +6074,10 @@
         37.793407
       ],
       "fids": [
-        130,
-        131,
-        132,
-        133
+        143,
+        144,
+        145,
+        146
       ],
       "segments": [
         {
@@ -6012,7 +6485,7 @@
         37.785808
       ],
       "fids": [
-        101
+        114
       ],
       "segments": [
         {
@@ -6114,7 +6587,7 @@
         37.817801
       ],
       "fids": [
-        60
+        62
       ],
       "segments": [
         {
@@ -6259,15 +6732,15 @@
         37.824321
       ],
       "fids": [
-        250,
-        251,
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271
       ],
       "segments": [
         {
@@ -6731,12 +7204,12 @@
         37.793407
       ],
       "fids": [
-        124,
-        125,
-        126,
-        127,
-        128,
-        129
+        137,
+        138,
+        139,
+        140,
+        141,
+        142
       ],
       "segments": [
         {
@@ -6951,9 +7424,9 @@
         37.787654
       ],
       "fids": [
-        121,
-        122,
-        123
+        134,
+        135,
+        136
       ],
       "segments": [
         {
@@ -7113,8 +7586,8 @@
         37.90596
       ],
       "fids": [
-        65,
-        66
+        78,
+        79
       ],
       "segments": [
         {
@@ -7266,19 +7739,19 @@
         37.891351
       ],
       "fids": [
-        219,
-        220,
-        221,
-        222,
-        223,
-        224,
-        225,
-        226,
-        227,
-        228,
-        229,
-        230,
-        231
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
       ],
       "segments": [
         {
@@ -7792,11 +8265,11 @@
         37.806637
       ],
       "fids": [
-        96,
-        97,
-        98,
-        99,
-        100
+        109,
+        110,
+        111,
+        112,
+        113
       ],
       "segments": [
         {
@@ -7981,12 +8454,12 @@
         37.7762
       ],
       "fids": [
-        270,
-        271,
-        272,
-        273,
-        274,
-        275
+        283,
+        284,
+        285,
+        286,
+        287,
+        288
       ],
       "segments": [
         {
@@ -8263,17 +8736,17 @@
         37.7762
       ],
       "fids": [
-        259,
-        260,
-        261,
-        262,
-        263,
-        264,
-        265,
-        266,
-        267,
-        268,
-        269
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282
       ],
       "segments": [
         {
@@ -8739,7 +9212,6 @@
         37.830986
       ],
       "fids": [
-        21,
         22,
         23,
         24,
@@ -8747,7 +9219,8 @@
         26,
         27,
         28,
-        29
+        29,
+        30
       ],
       "segments": [
         {
@@ -9184,24 +9657,24 @@
         38.42361
       ],
       "fids": [
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
         80,
         81,
         82,
         83,
-        84
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
       ],
       "segments": [
         {
@@ -9995,7 +10468,6 @@
         37.887944
       ],
       "fids": [
-        48,
         49,
         50,
         51,
@@ -10006,7 +10478,9 @@
         56,
         57,
         58,
-        59
+        59,
+        60,
+        61
       ],
       "segments": [
         {
@@ -10115,15 +10589,28 @@
           ]
         },
         {
-          "id": "key-adeline-south",
-          "name": "Adeline Street to Alcatraz Avenue",
+          "id": "key-adeline-55th",
+          "name": "Adeline Street, to 55th Street",
           "opened": "1903-10-26",
           "closed": "1958",
           "note": "To 54th Street",
           "borrowed": false,
           "undated": false,
           "confidence": "digitized",
-          "method": "Joined to key-linden-st at its end; then along today's Adeline Street centerline from -122.27450,37.83850 to Alcatraz Avenue (1194 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street to Alcatraz Avenue.",
+          "method": "Joined to key-linden-st at its end; then along today's Adeline Street centerline from -122.27450,37.83850 to 55th Street (61 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street to 55th Street, where the Claremont line left it.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-adeline-south",
+          "name": "Adeline Street, 55th Street to Alcatraz Avenue",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "note": "To 54th Street",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-adeline-55th at its end; then along today's Adeline Street centerline from 55th Street to Alcatraz Avenue (1133 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Adeline Street from 55th Street to Alcatraz Avenue.",
           "structure": "street",
           "flags": []
         },
@@ -10461,12 +10948,12 @@
         37.795493
       ],
       "fids": [
-        86,
-        87,
-        88,
-        89,
-        90,
-        91
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
       ],
       "segments": [
         {
@@ -10803,10 +11290,10 @@
         37.977386
       ],
       "fids": [
-        61,
-        62,
-        63,
-        64
+        74,
+        75,
+        76,
+        77
       ],
       "segments": [
         {
@@ -10991,15 +11478,15 @@
         37.824321
       ],
       "fids": [
-        232,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253
       ],
       "segments": [
         {
@@ -11498,23 +11985,23 @@
         37.891481
       ],
       "fids": [
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
         215,
         216,
         217,
-        218
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
       ],
       "segments": [
         {
@@ -12129,8 +12616,8 @@
         37.790312
       ],
       "fids": [
-        92,
-        93
+        105,
+        106
       ],
       "segments": [
         {
@@ -12254,7 +12741,6 @@
         37.82911
       ],
       "fids": [
-        38,
         39,
         40,
         41,
@@ -12263,7 +12749,8 @@
         44,
         45,
         46,
-        47
+        47,
+        48
       ],
       "segments": [
         {
@@ -12717,14 +13204,14 @@
         37.82911
       ],
       "fids": [
-        30,
         31,
         32,
         33,
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
       "segments": [
         {
@@ -13110,10 +13597,10 @@
         37.80035
       ],
       "fids": [
-        113,
-        114,
-        115,
-        116
+        126,
+        127,
+        128,
+        129
       ],
       "segments": [
         {
@@ -13299,16 +13786,16 @@
         37.79562
       ],
       "fids": [
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
       ],
       "segments": [
         {

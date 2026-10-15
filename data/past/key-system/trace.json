@@ -267,7 +267,7 @@
       "approximate": true,
       "note": "\"Nearly north\" from San Pablo Avenue, crossing Temescal Creek on Linden Street; drawn along today's Linden Street and joined straight to Adeline Street, which the sources don't place exactly"
     },
-    "key-adeline-south": {
+    "key-adeline-55th": {
       "parts": [
         {
           "join": "key-linden-st",
@@ -281,13 +281,32 @@
             -122.2745,
             37.8385
           ],
+          "to": "55th Street",
+          "bridge_m": 250
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "Along Adeline Street to 55th Street, where the Claremont line left it"
+    },
+    "key-adeline-south": {
+      "parts": [
+        {
+          "join": "key-adeline-55th",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "55th Street",
           "to": "Alcatraz Avenue",
           "bridge_m": 250
         }
       ],
       "check": "usgs-oakland-west-1949",
       "est_error_m": 20,
-      "note": "Along Adeline Street to Alcatraz Avenue"
+      "note": "Along Adeline Street from 55th Street to Alcatraz Avenue"
     },
     "key-adeline-north": {
       "parts": [
@@ -490,6 +509,89 @@
       "check": "usgs-oakland-west-1949",
       "est_error_m": 20,
       "note": "Along 40th Street"
+    },
+    "key-55th-56th-st": {
+      "parts": [
+        {
+          "join": "key-adeline-55th",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "55th Street"
+          ],
+          "from": "Adeline Street",
+          "to": "Telegraph Avenue",
+          "area": "eastbay"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.2655,
+              37.8375,
+              -122.2535,
+              37.8445
+            ],
+            "zoom": 2.2
+          },
+          "px": [
+            [
+              350,
+              508
+            ],
+            [
+              470,
+              512
+            ],
+            [
+              478,
+              470
+            ],
+            [
+              484,
+              430
+            ],
+            [
+              490,
+              400
+            ],
+            [
+              540,
+              408
+            ],
+            [
+              585,
+              420
+            ]
+          ]
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "55th Street is drawn along today's centerline to Telegraph Avenue; beyond it, where the freeway cut the streets since, by 55th Street, Vicente Street and 56th Street to Claremont Avenue as the 1949 sheet draws them"
+    },
+    "key-claremont-ave": {
+      "parts": [
+        {
+          "join": "key-55th-56th-st",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "Claremont Avenue"
+          ],
+          "from": [
+            -122.25935,
+            37.84101
+          ],
+          "to": "Domingo Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 20,
+      "note": "Along Claremont Avenue to the grounds of the Claremont Hotel at Domingo Avenue"
     }
   },
   "points": {
