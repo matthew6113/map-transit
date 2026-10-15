@@ -46,7 +46,6 @@ AREAS = {
     "contracosta": (-122.22, 37.82, -121.88, 38.05),  # Moraga to Bay Point (the Sacramento Northern)
     "richmond": (-122.40, 37.90, -122.28, 37.98),  # Albany to Richmond and San Pablo (the East Shore & Suburban)
     "sanmateo": (-122.36, 37.555, -122.31, 37.59),  # Burlingame and San Mateo (the San Mateo interurban, No. 40)
-    "sanramon": (-122.07, 37.76, -121.94, 38.01),  # Concord to San Ramon (the Southern Pacific's San Ramon branch)
 }
 CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"

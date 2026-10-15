@@ -98,6 +98,16 @@ California Pacific and Napa Valley, the North Pacific Coast and SF & North Pacif
 OHM), Santa Fe at Point Richmond, the South Pacific Coast and California & Nevada, and the SP's San
 Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 
+- **SF & Oakland and SF & Alameda:** Halley's dates, read on the page images: the SF & Oakland's
+  "first trip … on the 2d day of September, 1863", "from the end of the wharf to Broadway" (p. 177),
+  and "On the 1st of April [1865] the Oakland Railroad was extended to Larue's Wharf, in Brooklyn"
+  (p. 200); the SF & Alameda's trial trip from the Point to Alameda on Saturday, August 13, 1864,
+  cars "as far as High Street" on the 25th of August (p. 190), track to San Leandro "finished on
+  the first day of March" 1865 (p. 197), and "on the 25th of August the line was completed" to
+  Haywards (p. 198). Not drawn: neither Halley nor Wood (1883) names the streets they ran on (7th
+  St in Oakland; Railroad, now Lincoln, Ave in Alameda; the way to San Leandro and Haywards), so
+  their routes need a period source or a map of the 1860s-70s.
+
 ### Ferries and the North Bay
 
 - **Benicia–Port Costa** (the train ferry, 1879–1930) and **Martinez–Benicia** (1913–1962): drawn,
