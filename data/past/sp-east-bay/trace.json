@@ -440,7 +440,10 @@
           "streets": [
             "Henry Street"
           ],
-          "from": "Shattuck Avenue",
+          "from": [
+            -122.270722,
+            37.882554
+          ],
           "to": "Sutter Street"
         }
       ],
@@ -575,7 +578,8 @@
             "Solano Avenue"
           ],
           "from": "Colusa Avenue",
-          "to": "San Pablo Avenue"
+          "to": "San Pablo Avenue",
+          "area": "eastbay"
         }
       ],
       "check": "usgs-richmond-1949",

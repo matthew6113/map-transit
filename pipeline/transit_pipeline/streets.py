@@ -50,6 +50,7 @@ CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"
 SNAP_M = 30.0  # a cross street that stops short of the route still names the corner
 BRIDGE_M = 30.0  # dead ends this close to another node of the same streets are joined
+SPREAD_M = 250.0  # a divided road crosses in points closer than this; further apart, it's two corners
 
 SUFFIX = {"avenue": "ave", "street": "st", "boulevard": "blvd", "road": "rd", "drive": "dr", "place": "pl",
           "court": "ct", "lane": "ln", "terrace": "ter", "highway": "hwy", "parkway": "pkwy", "way": "way",
@@ -116,6 +117,9 @@ def corner(route, cross: str | tuple[float, float], area: str | None = None) -> 
     hit = route.intersection(other)
     pts = [p for p in getattr(hit, "geoms", [hit]) if isinstance(p, Point)]
     if pts:
+        if max(p.distance(q) for p in pts for q in pts) > SPREAD_M:
+            raise SystemExit(f"[streets] {cross} crosses the route in places {SPREAD_M:.0f} m or more apart; name a box (area) "
+                             "or give the corner as lon/lat")
         c = unary_union(pts).centroid
         return nearest_points(route, c)[0]
     a, b = nearest_points(route, other)

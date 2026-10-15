@@ -863,11 +863,19 @@
           37.808462
         ],
         "from_name": "Grand Avenue",
-        "to": "Walavista Avenue"
+        "to": [
+          -122.238191,
+          37.815008
+        ],
+        "to_name": "Walavista Avenue"
       },
       {
         "street": "Walavista Avenue",
-        "from": "Lakeshore Avenue",
+        "from": [
+          -122.238191,
+          37.815008
+        ],
+        "from_name": "Lakeshore Avenue",
         "to": "Carlston Avenue",
         "note": "Walla Vista Ave in the order"
       }

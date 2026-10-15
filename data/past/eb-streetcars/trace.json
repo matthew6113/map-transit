@@ -1105,7 +1105,10 @@
             -122.249058,
             37.808462
           ],
-          "to": "Walavista Avenue",
+          "to": [
+            -122.238191,
+            37.815008
+          ],
           "area": "eastbay"
         }
       ],
@@ -1488,7 +1491,10 @@
             "Walavista Avenue"
           ],
           "from": "Carlston Avenue",
-          "to": "Lakeshore Avenue",
+          "to": [
+            -122.238191,
+            37.815008
+          ],
           "area": "eastbay"
         }
       ],

@@ -2971,7 +2971,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "approximate",
-          "method": "Joined to sp-shattuck-ave-north at its end; then along today's Henry Street centerline from Shattuck Avenue to Sutter Street (342 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed.",
+          "method": "Joined to sp-shattuck-ave-north at its end; then along today's Henry Street centerline from -122.27072,37.88255 to Sutter Street (342 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed.",
           "structure": null,
           "flags": [
             "opened_unsourced",
@@ -9378,9 +9378,9 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 26.77,
+      "length_km": 26.23,
       "confidence_km": {
-        "digitized": 26.77
+        "digitized": 26.23
       },
       "bbox": [
         -122.397803,
@@ -9595,7 +9595,7 @@
           "borrowed": true,
           "undated": true,
           "confidence": "digitized",
-          "method": "Along today's Solano Avenue centerline from Colusa Avenue to San Pablo Avenue (2277 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue, across San Pablo Avenue.",
+          "method": "Along today's Solano Avenue centerline from Colusa Avenue to San Pablo Avenue (1710 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue, across San Pablo Avenue.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -15843,7 +15843,7 @@
         -122.271623,
         37.800302,
         -122.212085,
-        37.815944
+        37.815099
       ],
       "fids": [
         154,
@@ -15960,7 +15960,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Lakeshore Avenue centerline from -122.24906,37.80846 to Walavista Avenue (1427 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949). In Lakeshore Avenue.",
+          "method": "Along today's Lakeshore Avenue centerline from -122.24906,37.80846 to -122.23819,37.81501 (1224 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949). In Lakeshore Avenue.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -15977,7 +15977,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Walavista Avenue centerline from Carlston Avenue to Lakeshore Avenue (422 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949). In Walavista Avenue.",
+          "method": "Along today's Walavista Avenue centerline from Carlston Avenue to -122.23819,37.81501 (628 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949). In Walavista Avenue.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -28023,7 +28023,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "approximate",
-          "method": "Joined to sp-shattuck-ave-north at its end; then along today's Henry Street centerline from Shattuck Avenue to Sutter Street (342 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed.",
+          "method": "Joined to sp-shattuck-ave-north at its end; then along today's Henry Street centerline from -122.27072,37.88255 to Sutter Street (342 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). The sources call this \"connecting private right of way\" without placing it; drawn along Henry Street, which the 1941 substitute bus used, as a stand-in, and dashed.",
           "structure": null,
           "flags": [
             "opened_unsourced",
