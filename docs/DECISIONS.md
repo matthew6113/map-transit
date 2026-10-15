@@ -113,6 +113,33 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     - Today's network is cut into shared, dated segments at build time from
       `data/present/extensions.json` (`extensions.py`), with dates from official sources only.
 
+## Made by Matthew (2026-10-15, Phase 2c planning)
+
+14. **The past era's line list follows the year slider.** The lines running in the chosen year come
+    first; every other line follows, dimmed. Search still finds any line.
+15. **Freight-only railroads are drawn, as `railroad`:** the Alameda Belt Line, the Oakland Terminal
+    Railway and the like, for the years they carried freight. Passenger track that went on carrying
+    freight counts too: its segment stays until the freight ended (the Sacramento Northern from
+    Shafter Ave to Lafayette, 1941–57), drawn in the railroad mode for those years.
+16. **The Sacramento Northern stops at the Bay Area's boundary,** the county line of the nine
+    counties (`src/basemap/region.json`), not at the pan limits: east of Bay Point it is drawn
+    through Solano County to the Yolo County line, and `continues_beyond` says where it went on to.
+    A past line cut there reaches a county line rather than the map's edge, and the test accepts
+    either.
+17. **A ferry whose last run isn't dated closes in the month of the order that authorized its
+    end,** noted "on or about" (the Creek Route, Hyde St–Berkeley, Benicia–Port Costa,
+    Martinez–Benicia). The order is cited for `closed`, its note says the date is the order's month
+    and not the last run, and `make checklists` lists these ends for a newspaper check. This narrows
+    the rule that a date is never filled in: the month is the order's, which is sourced.
+18. **The 1864 Britton & Co. railroad map of San Francisco may be traced** (David Rumsey 4779.000,
+    CC BY-NC-SA 3.0), under decision 7: each feature traced from it cites the Rumsey source with its
+    license, so it can be listed and swapped out.
+19. **Sources whose copyright is unknown are cited for facts only** (Matthew asked for the
+    recommendation): the California State Railroad Museum's timetable scans, the *Orinda Sun* and
+    *The Western Railroader*. Dates, routes and station names are facts; nothing is reproduced beyond
+    a short quote, and each `sources.json` entry says "copyright status unknown; cited for facts
+    only".
+
 ## Today's network, dated (2026-10-14, Phase 2b)
 
 - **A present segment's date is its track's.** `opened` is when the track first carried passengers,
