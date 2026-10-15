@@ -1453,6 +1453,17 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "cscrm-2021-02-000612",
+      "title": "Southern Pacific Company, employee timetable No. 2, November 1, 1914",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1914-11-01",
+      "url": "https://archive.org/details/cscrm_2021_02_000612",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-14",
+      "notes": "pp. 29-34: \"OAKLAND (14th and Franklin)—Via Webster Street\"; \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"; towers at First and Webster and Third and Webster; the Harrison Street drawbridge; Webster Junction tower in Alameda (read Oct 14, docs/research/east-bay-electric.md)."
+    },
+    {
       "id": "demoro-key-route-1985",
       "title": "The Key Route: Transbay Commuting by Train and Ferry (Parts 1 and 2)",
       "author": "Harre W. Demoro",
@@ -1978,6 +1989,17 @@
       "notes": "Read through Chronicling America's OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sf-call-1911-06-30-p8",
+      "title": "The San Francisco Call, June 30, 1911, p. 8",
+      "publisher": "The San Francisco Call",
+      "date": "1911-06-30",
+      "url": "https://www.loc.gov/resource/sn85066387/1911-06-30/ed-1/?sp=8",
+      "type": "primary_document",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-14",
+      "notes": "Dateline Alameda, June 29: \"Electric service on the Webster street road of the Southern Pacific during the entire daily schedule went into effect today\" (read Oct 14 through the Library of Congress OCR, docs/research/sp-east-bay.md; re-read on the page image before quoting)."
+    },
+    {
       "id": "sf-call-1911-07-01-p14",
       "title": "The San Francisco Call, July 1, 1911, p. 14",
       "publisher": "The San Francisco Call",
@@ -2053,6 +2075,17 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-14",
       "notes": "Dateline Berkeley, Feb 1: trial trains \"will make the loop, taking Shattuck avenue to Northbrae, thence to Ninth street via Main street and Solano avenue\"; \"if the trials justify the departure, the service of electric trains over the loop will be begun Saturday\" (Feb 3, 1912). Read through the Library of Congress OCR; re-read on the page image before quoting."
+    },
+    {
+      "id": "sf-call-1912-03-21-p8",
+      "title": "The San Francisco Call, March 21, 1912, p. 8",
+      "publisher": "The San Francisco Call",
+      "date": "1912-03-21",
+      "url": "https://www.loc.gov/resource/sn85066387/1912-03-21/ed-1/?sp=8",
+      "type": "primary_document",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-14",
+      "notes": "The Southern Pacific's Eighteenth Street loop line announced for March 21, 1912; a trial ran on March 11 (the Call, March 12, p. 10). Read Oct 14 through the Library of Congress OCR (docs/research/sp-east-bay.md); re-read on the page image before quoting."
     },
     {
       "id": "sf-call-1913-09-06-p7",

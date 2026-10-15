@@ -166,6 +166,15 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-lincoln-ave` Lincoln Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/sp-lincoln-ave.jpg) |
 | `sp-central-encinal` Central Avenue and Encinal Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/sp-central-encinal.jpg) |
 | `sp-monterey-ave` Monterey Avenue, Hopkins Street to Colusa Avenue | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-monterey-ave.jpg) |
+| `sp-18th-st` 18th Street, Sixteenth Street Station to San Pablo Avenue | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-18th-st.jpg) |
+| `sp-18th-20th-link` San Pablo Avenue, 18th Street to 20th Street | approximate |  |  |  |
+| `sp-20th-st` 20th Street, San Pablo Avenue to Franklin Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-20th-st.jpg) |
+| `sp-20th-franklin-webster` 20th Street, Franklin Street to Webster Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-20th-franklin-webster.jpg) |
+| `sp-franklin-20th-14th` Franklin Street, 20th Street to 14th Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-franklin-20th-14th.jpg) |
+| `sp-webster-20th-14th` Webster Street, 20th Street to 14th Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-webster-20th-14th.jpg) |
+| `sp-14th-franklin-webster` 14th Street, Franklin Street to Webster Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-14th-franklin-webster.jpg) |
+| `sp-webster-14th-2nd` Webster Street, 14th Street to 2nd Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-webster-14th-2nd.jpg) |
+| `sp-webster-2nd-1st` Webster Street, 2nd Street to 1st Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/sp-webster-2nd-1st.jpg) |
 | `sp-oakland-pier` Oakland Pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-oakland-pier.jpg) |
 | `sp-sixteenth-street` Sixteenth Street Station | street-centerline | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-sixteenth-street.jpg) |
 | `sp-northbrae` Northbrae | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-northbrae.jpg) |

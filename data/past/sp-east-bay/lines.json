@@ -806,6 +806,182 @@
         "needs_manual_digitizing"
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out."
+    },
+    {
+      "id": "sp-eighteenth-street",
+      "name": "Eighteenth Street line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1912-03-21",
+          "to": "1933-03-26"
+        }
+      ],
+      "era": "past",
+      "opened": "1912-03-21",
+      "closed": "1933-03-26",
+      "status": "closed",
+      "summary": "A Southern Pacific electric loop line from the Oakland Mole by Sixteenth Street Station, 18th Street and 20th Street to 14th and Franklin Streets; from 1926 down Webster Street to 2nd Street.",
+      "fate": "abandoned",
+      "route": [
+        {
+          "segment": "sp-oakland-mole"
+        },
+        {
+          "segment": "sp-mole-16th-st"
+        },
+        {
+          "segment": "sp-18th-st"
+        },
+        {
+          "segment": "sp-18th-20th-link"
+        },
+        {
+          "segment": "sp-20th-st"
+        },
+        {
+          "segment": "sp-franklin-20th-14th",
+          "to": "1926",
+          "note": "To 14th and Franklin Streets until 1926"
+        },
+        {
+          "segment": "sp-20th-franklin-webster",
+          "from": "1926"
+        },
+        {
+          "segment": "sp-webster-20th-14th",
+          "from": "1926"
+        },
+        {
+          "segment": "sp-webster-14th-2nd",
+          "from": "1926",
+          "note": "Down Webster Street to 2nd Street from 1926"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sf-call-1912-03-21-p8",
+          "supports": [
+            "opened"
+          ],
+          "note": "Service announced for March 21, 1912 (a trial ran March 11)."
+        },
+        {
+          "source": "crc-d17743",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "About 1921-26 the Eighteenth Street line ran \"from Oakland Mole to 14th and Franklin Street via Sixteenth Street Station, 18th Street, 20th Street and Franklin Street. Westbound … over 21st Street and Jones Street instead of over Twentieth Street.\""
+        },
+        {
+          "source": "crc-d25740",
+          "supports": [
+            "route"
+          ],
+          "pages": "10",
+          "note": "In 1933, \"along Eighteenth, Twentieth, Twenty-first and Webster Streets, between Sixteenth Street Station and Second and Webster Streets\" (2.9 miles, p. 4)."
+        },
+        {
+          "source": "crc-d27800",
+          "supports": [
+            "closed"
+          ],
+          "pages": "4",
+          "note": "Abandoned \"On the 26th day of March, 1933\"."
+        }
+      ],
+      "flags": [],
+      "notes": "Opened on the day the San Francisco Call announced, March 21, 1912; no report of the day itself was found. Westbound trains used 21st Street and \"Jones Street\", which isn't a street in Oakland today, instead of 20th Street; that loop isn't drawn. It moved from Franklin Street to Webster Street in 1926 (CRC Decisions 14618, 16083 and 17028); the day isn't sourced, so the change is dated to the year."
+    },
+    {
+      "id": "sp-webster-street",
+      "name": "Webster Street line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1911-06-29",
+          "to": "1923-12-27"
+        }
+      ],
+      "era": "past",
+      "opened": "1911-06-29",
+      "closed": "1923-12-27",
+      "status": "closed",
+      "summary": "Southern Pacific electric trains from 14th and Franklin Streets in Oakland down Webster Street and over the Harrison Street swing bridge to Alameda and the Alameda Mole.",
+      "fate": "abandoned",
+      "route": [
+        {
+          "segment": "sp-14th-franklin-webster"
+        },
+        {
+          "segment": "sp-webster-14th-2nd"
+        },
+        {
+          "segment": "sp-webster-2nd-1st"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sf-call-1911-06-30-p8",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"Electric service on the Webster street road of the Southern Pacific during the entire daily schedule went into effect today\" (June 29)."
+        },
+        {
+          "source": "sf-call-1911-07-01-p14",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "source": "crc-d17743",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "2",
+          "note": "The Webster Street line ran \"from 14th and Franklin Street to Alameda Pier via Webster Street and the Harrison Street Swing Bridge\"; it was \"discontinued on December 27th, 1923\"."
+        },
+        {
+          "source": "cscrm-2021-02-000612",
+          "supports": [
+            "route"
+          ],
+          "pages": "29-34",
+          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\"; trains \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"."
+        },
+        {
+          "source": "crc-d12906",
+          "supports": [
+            "closed"
+          ],
+          "note": "Southern Pacific \"may cease the operation … on or after December 27th, 1923\"."
+        }
+      ],
+      "flags": [
+        "needs_manual_digitizing"
+      ],
+      "notes": "Drawn only in Oakland, as far as First Street. Its crossing of the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), Webster Junction and its run through Alameda to the pier need a period map to trace. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked."
     }
   ]
 }

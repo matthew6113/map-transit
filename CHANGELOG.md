@@ -2,6 +2,16 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the SP's Oakland street lines
+
+- **The Eighteenth Street line** (March 21, 1912, as announced, to March 26, 1933): from the
+  Oakland Mole by Sixteenth Street Station, 18th St and 20th St to 14th and Franklin Sts, and from
+  1926 down Webster St to 2nd St (CRC Decisions 17743, 25740 and 27800). The link from 18th St to
+  20th St isn't sourced, so it is drawn along San Pablo Ave and dashed.
+- **The Webster Street line** (June 29, 1911 to December 27, 1923), drawn in Oakland from 14th and
+  Franklin Sts down Webster St to 1st St (CRC Decision 17743; the SP's 1914 employee timetable).
+  Its crossing of the estuary and its run through Alameda aren't drawn yet.
+
 ## 2026-10-15: Phase 2c, the Key System's E
 
 - **E Claremont line** (1908 to 1958): from the trunk up Adeline St, then 55th St, Vicente St and
