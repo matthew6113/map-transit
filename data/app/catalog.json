@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        682,
-        683,
         684,
-        685
+        685,
+        686,
+        687
       ],
       "segments": [
         {
@@ -2526,8 +2526,6 @@
         37.793407
       ],
       "fids": [
-        686,
-        687,
         688,
         689,
         690,
@@ -2536,7 +2534,9 @@
         693,
         694,
         695,
-        696
+        696,
+        697,
+        698
       ],
       "segments": [
         {
@@ -3445,15 +3445,15 @@
         37.793407
       ],
       "fids": [
-        712,
-        713,
         714,
         715,
         716,
         717,
         718,
         719,
-        720
+        720,
+        721,
+        722
       ],
       "segments": [
         {
@@ -5755,7 +5755,8 @@
           "supports": [
             "opened"
           ],
-          "note": "\"In 1908 the Claremont line was opened\" (a retrospective)."
+          "note": "\"In 1908 the Claremont line was opened\" (a retrospective).",
+          "pages": "10"
         },
         {
           "id": "oakland-tribune-1905-06-17",
@@ -5771,7 +5772,8 @@
             "general",
             "route"
           ],
-          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\"."
+          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\".",
+          "pages": "16"
         },
         {
           "id": "oakland-tribune-1905-11-10",
@@ -5787,7 +5789,8 @@
             "general",
             "route"
           ],
-          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\""
+          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\"",
+          "pages": "4"
         },
         {
           "id": "cpuc-d50731",
@@ -6311,8 +6314,6 @@
         37.806482
       ],
       "fids": [
-        721,
-        722,
         723,
         724,
         725,
@@ -6324,7 +6325,9 @@
         731,
         732,
         733,
-        734
+        734,
+        735,
+        736
       ],
       "segments": [
         {
@@ -6764,7 +6767,7 @@
         37.791639
       ],
       "fids": [
-        661
+        663
       ],
       "segments": [
         {
@@ -6894,8 +6897,6 @@
         37.80035
       ],
       "fids": [
-        697,
-        698,
         699,
         700,
         701,
@@ -6908,7 +6909,9 @@
         708,
         709,
         710,
-        711
+        711,
+        712,
+        713
       ],
       "segments": [
         {
@@ -7303,15 +7306,15 @@
         37.81612
       ],
       "fids": [
-        850,
-        851,
         852,
         853,
         854,
         855,
         856,
         857,
-        858
+        858,
+        859,
+        860
       ],
       "segments": [
         {
@@ -7645,15 +7648,15 @@
         37.824321
       ],
       "fids": [
-        832,
-        833,
         834,
         835,
         836,
         837,
         838,
         839,
-        840
+        840,
+        841,
+        842
       ],
       "segments": [
         {
@@ -8150,14 +8153,14 @@
         37.805981
       ],
       "fids": [
-        735,
-        736,
         737,
         738,
         739,
         740,
         741,
-        742
+        742,
+        743,
+        744
       ],
       "segments": [
         {
@@ -8699,8 +8702,6 @@
         37.806482
       ],
       "fids": [
-        743,
-        744,
         745,
         746,
         747,
@@ -8708,7 +8709,9 @@
         749,
         750,
         751,
-        752
+        752,
+        753,
+        754
       ],
       "segments": [
         {
@@ -9898,15 +9901,15 @@
         37.824321
       ],
       "fids": [
-        841,
-        842,
         843,
         844,
         845,
         846,
         847,
         848,
-        849
+        849,
+        850,
+        851
       ],
       "segments": [
         {
@@ -11180,8 +11183,6 @@
         37.891351
       ],
       "fids": [
-        808,
-        809,
         810,
         811,
         812,
@@ -11194,7 +11195,9 @@
         819,
         820,
         821,
-        822
+        822,
+        823,
+        824
       ],
       "segments": [
         {
@@ -13520,7 +13523,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"1/15/49 No. 11 — Last day of street car operation.\" Motor coaches from January 17, 1949. The report prints its dates in a column apart from the entries; this one was read on the page image."
+          "note": "\"1/15/49 No. 11 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -14784,7 +14787,6 @@
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ocean Avenue to Ingleside\" (drawn to San Jose Ave, since where the cars stopped isn't given), by 1929 on by Sloat Blvd to the Great Highway.",
-      "fate": "converted_to_bus",
       "traction": [
         {
           "type": "electric_overhead"
@@ -15084,7 +15086,6 @@
           "source": "sf-puc-report-1948",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "190",
@@ -16892,7 +16893,6 @@
       "status": "closed",
       "status_label": "Closed",
       "summary": "Out Haight St, Frederick St, Lincoln Way, 20th Ave, Wawona St and 19th Ave to Sloat Blvd. There was no No. 17 in February 1909 (Manley p. 34).",
-      "fate": "converted_to_bus",
       "traction": [
         {
           "type": "electric_overhead"
@@ -17185,7 +17185,6 @@
           "source": "sf-puc-report-1945",
           "supports": [
             "closed",
-            "fate",
             "operator"
           ],
           "pages": "279",
@@ -18668,9 +18667,9 @@
         }
       ],
       "undated": false,
-      "length_km": 11.03,
+      "length_km": 11.13,
       "confidence_km": {
-        "digitized": 11.03
+        "digitized": 11.13
       },
       "bbox": [
         -122.454029,
@@ -18694,7 +18693,8 @@
         560,
         561,
         562,
-        563
+        563,
+        564
       ],
       "segments": [
         {
@@ -18940,6 +18940,23 @@
           "notes": "Track in Page Street, as the route descriptions give it, for 6, 20, 32."
         },
         {
+          "id": "sf-msry-divisadero-st-oak-st-page-st",
+          "name": "Divisadero St, Oak St to Page St",
+          "opened": null,
+          "closed": null,
+          "note": "Inbound, on the northbound side of today's divided street",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Divisadero Street centerline from Oak Street to -122.43721,37.77221 (106 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Divisadero Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Divisadero Street, as the route descriptions give it, for 20."
+        },
+        {
           "id": "sf-msry-ellis-st-divisadero-st-hyde-st",
           "name": "Ellis St, Divisadero St to Hyde St",
           "opened": null,
@@ -19102,7 +19119,6 @@
         37.793407
       ],
       "fids": [
-        564,
         565,
         566,
         567,
@@ -19123,7 +19139,8 @@
         582,
         583,
         584,
-        585
+        585,
+        586
       ],
       "segments": [
         {
@@ -19947,7 +19964,6 @@
         37.789284
       ],
       "fids": [
-        586,
         587,
         588,
         589,
@@ -19956,7 +19972,9 @@
         592,
         593,
         594,
-        595
+        595,
+        596,
+        597
       ],
       "segments": [
         {
@@ -20064,15 +20082,35 @@
           "notes": "Track in 10th Street, as the route descriptions give it, for 27."
         },
         {
-          "id": "sf-msry-brannan-st-10th-st-5th-st",
-          "name": "Brannan St, 10th St to 5th St",
+          "id": "sf-msry-brannan-st-10th-st-8th-st",
+          "name": "Brannan St, 10th St to 8th St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Brannan Street centerline from -122.40790,37.76924 to 5th Street (1144 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
+          "method": "Along today's Brannan Street centerline from -122.40790,37.76924 to 8th Street (316 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Brannan Street, as the route descriptions give it, for 27."
+        },
+        {
+          "id": "sf-msry-brannan-st-5th-st-8th-st",
+          "name": "Brannan St, 5th St to 8th St",
+          "opened": null,
+          "closed": null,
+          "note": "Inbound",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Brannan Street centerline from 5th Street to 8th Street (829 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Brannan Street.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -20085,7 +20123,7 @@
           "name": "Brannan St, 3rd St to 5th St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -20102,7 +20140,7 @@
           "name": "Brannan St, 2nd St to 3rd St",
           "opened": null,
           "closed": null,
-          "note": "Inbound; from 8th St in 1929",
+          "note": "Inbound",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -20757,8 +20795,6 @@
         37.793407
       ],
       "fids": [
-        596,
-        597,
         598,
         599,
         600,
@@ -20774,7 +20810,9 @@
         610,
         611,
         612,
-        613
+        613,
+        614,
+        615
       ],
       "segments": [
         {
@@ -21206,8 +21244,6 @@
         37.782556
       ],
       "fids": [
-        614,
-        615,
         616,
         617,
         618,
@@ -21216,7 +21252,9 @@
         621,
         622,
         623,
-        624
+        624,
+        625,
+        626
       ],
       "segments": [
         {
@@ -21517,12 +21555,12 @@
         37.805042
       ],
       "fids": [
-        625,
-        626,
         627,
         628,
         629,
-        630
+        630,
+        631,
+        632
       ],
       "segments": [
         {
@@ -21747,10 +21785,10 @@
         37.79009
       ],
       "fids": [
-        631,
-        632,
         633,
-        634
+        634,
+        635,
+        636
       ],
       "segments": [
         {
@@ -22466,7 +22504,7 @@
       "status": "closed",
       "status_label": "Closed",
       "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
-      "fate": "converted_to_bus",
+      "fate": "abandoned",
       "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
       "traction": [
         {
@@ -22509,8 +22547,6 @@
         37.784013
       ],
       "fids": [
-        662,
-        663,
         664,
         665,
         666,
@@ -22528,7 +22564,9 @@
         678,
         679,
         680,
-        681
+        681,
+        682,
+        683
       ],
       "segments": [
         {
@@ -23052,11 +23090,11 @@
         37.789284
       ],
       "fids": [
-        635,
-        636,
         637,
         638,
-        639
+        639,
+        640,
+        641
       ],
       "segments": [
         {
@@ -23270,8 +23308,6 @@
         37.793216
       ],
       "fids": [
-        640,
-        641,
         642,
         643,
         644,
@@ -23281,7 +23317,9 @@
         648,
         649,
         650,
-        651
+        651,
+        652,
+        653
       ],
       "segments": [
         {
@@ -24166,9 +24204,6 @@
           "name": "Market St, Drumm St to 1st St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24184,9 +24219,6 @@
           "name": "Market St, 1st St to Sutter St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24202,9 +24234,6 @@
           "name": "Market St, Sutter St to Kearny St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24220,9 +24249,6 @@
           "name": "Market St, Kearny St to Powell St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24238,9 +24264,6 @@
           "name": "Market St, Powell St to McAllister St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24256,9 +24279,6 @@
           "name": "Market St, McAllister St to Hayes St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01"
-          ],
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
@@ -24819,7 +24839,7 @@
       "closed": "1948-07-03",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then a private right of way (not drawn: its course isn't given) to the beach at Balboa St.",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "traction": [
@@ -26233,7 +26253,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"1/15/59 No. 9 — Last day of street car operation.\" Motor coaches from January 17, 1949. The year is misprinted: the entry stands among those of January 1949, in the report for 1948–49, on the same day as Nos. 11 and 14. The report prints its dates in a column apart from the entries; this one was read on the page image."
+          "note": "\"1/15/59 No. 9 — Last day of street car operation.\" Motor coaches from January 17, 1949, by the table; pp. 164 and 277 date the conversion January 16. The year is misprinted: the entry stands among those of January 1949, in the report for 1948–49, on the same day as Nos. 11 and 14. The report prints its dates in a column apart from the entries; this one was read on the page image."
         },
         {
           "id": "gtfs-511",
@@ -27039,14 +27059,14 @@
         38.852585
       ],
       "fids": [
-        768,
-        769,
         770,
         771,
         772,
         773,
         774,
-        775
+        775,
+        776,
+        777
       ],
       "segments": [
         {
@@ -27726,14 +27746,14 @@
         37.7762
       ],
       "fids": [
-        879,
-        880,
         881,
         882,
         883,
         884,
         885,
-        886
+        886,
+        887,
+        888
       ],
       "segments": [
         {
@@ -28010,8 +28030,6 @@
         37.7762
       ],
       "fids": [
-        865,
-        866,
         867,
         868,
         869,
@@ -28023,7 +28041,9 @@
         875,
         876,
         877,
-        878
+        878,
+        879,
+        880
       ],
       "segments": [
         {
@@ -28682,7 +28702,8 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "3"
         },
         {
           "id": "oakland-tribune-1904-06-01",
@@ -28697,7 +28718,8 @@
           "supports": [
             "opened"
           ],
-          "note": "\"this morning. The event was the reception of the Key route system\"."
+          "note": "\"this morning. The event was the reception of the Key route system\".",
+          "pages": "1"
         },
         {
           "id": "oakland-tribune-1924-11-03",
@@ -28712,7 +28734,8 @@
           "supports": [
             "general"
           ],
-          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\"."
+          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\".",
+          "pages": "17"
         },
         {
           "id": "cpuc-d50731",
@@ -28861,7 +28884,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"complete the Piedmont branch along Fortieth street\""
+          "note": "\"complete the Piedmont branch along Fortieth street\"",
+          "pages": "5"
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -29762,7 +29786,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"complete the Piedmont branch along Fortieth street\""
+          "note": "\"complete the Piedmont branch along Fortieth street\"",
+          "pages": "5"
         },
         {
           "id": "oakland-tribune-1904-05-28",
@@ -29778,7 +29803,8 @@
             "route",
             "opened"
           ],
-          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\""
+          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\"",
+          "pages": "3"
         },
         {
           "id": "cpuc-d50731",
@@ -30238,7 +30264,8 @@
           "source": "oakland-tribune-1911-11-13",
           "supports": [
             "route"
-          ]
+          ],
+          "pages": "13"
         },
         {
           "id": "oakland-tribune-1911-11-15",
@@ -30799,7 +30826,7 @@
         38.519886
       ],
       "fids": [
-        776
+        778
       ],
       "segments": [
         {
@@ -30981,12 +31008,12 @@
         38.809809
       ],
       "fids": [
-        753,
-        754,
         755,
         756,
         757,
-        758
+        758,
+        759,
+        760
       ],
       "segments": [
         {
@@ -31273,15 +31300,15 @@
         38.809809
       ],
       "fids": [
-        759,
-        760,
         761,
         762,
         763,
         764,
         765,
         766,
-        767
+        767,
+        768,
+        769
       ],
       "segments": [
         {
@@ -31996,15 +32023,15 @@
         37.824321
       ],
       "fids": [
-        823,
-        824,
         825,
         826,
         827,
         828,
         829,
         830,
-        831
+        831,
+        832,
+        833
       ],
       "segments": [
         {
@@ -32503,8 +32530,6 @@
         37.891481
       ],
       "fids": [
-        788,
-        789,
         790,
         791,
         792,
@@ -32522,7 +32547,9 @@
         804,
         805,
         806,
-        807
+        807,
+        808,
+        809
       ],
       "segments": [
         {
@@ -33153,8 +33180,6 @@
         37.796576
       ],
       "fids": [
-        777,
-        778,
         779,
         780,
         781,
@@ -33163,7 +33188,9 @@
         784,
         785,
         786,
-        787
+        787,
+        788,
+        789
       ],
       "segments": [
         {
@@ -33840,15 +33867,15 @@
         37.789106
       ],
       "fids": [
-        652,
-        653,
         654,
         655,
         656,
         657,
         658,
         659,
-        660
+        660,
+        661,
+        662
       ],
       "segments": [
         {
@@ -34216,7 +34243,10 @@
           "confidence": "digitized",
           "method": "Along today's Poplar Street centerline from West Grand Avenue to 12th Street (893 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Poplar Street.",
           "structure": "street",
-          "flags": []
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Dated from the through trains of June 11, 1911 (\"through train service was established yesterday\"), but the same article says \"Two cars operating separately have been giving service for more than a year\" over Twelfth Street via Poplar Junction, and the Tribune's history of October 25, 1912 says \"In 1909, the Twelfth street line was opened\": the track may date from 1909."
         },
         {
           "id": "key-12th-st",
@@ -34228,7 +34258,10 @@
           "confidence": "digitized",
           "method": "Along today's 12th Street centerline from Poplar Street to Broadway (1737 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along 12th Street to Broadway.",
           "structure": "street",
-          "flags": []
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Dated from the through trains of June 11, 1911 (\"through train service was established yesterday\"), but the same article says \"Two cars operating separately have been giving service for more than a year\" over Twelfth Street via Poplar Junction, and the Tribune's history of October 25, 1912 says \"In 1909, the Twelfth street line was opened\": the track may date from 1909."
         },
         {
           "id": "key-12th-st-oak",
@@ -34311,7 +34344,8 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "1"
         },
         {
           "id": "crc-d34060",
@@ -34505,6 +34539,22 @@
           "supports": [
             "geometry"
           ]
+        },
+        {
+          "id": "oakland-tribune-1912-10-25",
+          "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
+          "publisher": "Oakland Tribune",
+          "date": "1912-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1912-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1912-10-25",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"In 1909, the Twelfth street line was opened.\" and \"In 1911, the Twelfth street line was extended\"."
         },
         {
           "id": "cpuc-d54242",
@@ -34896,7 +34946,8 @@
           "supports": [
             "route"
           ],
-          "note": "\"the Twenty-second street Key Route line at Poplar Junction\""
+          "note": "\"the Twenty-second street Key Route line at Poplar Junction\"",
+          "pages": "2"
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -35567,12 +35618,12 @@
         37.803847
       ],
       "fids": [
-        859,
-        860,
         861,
         862,
         863,
-        864
+        864,
+        865,
+        866
       ],
       "segments": [
         {

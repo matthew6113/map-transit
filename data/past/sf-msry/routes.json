@@ -198,40 +198,22 @@
     ],
     "msry-6": [
       {
-        "segment": "muni-f-market-drumm-1st",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-drumm-1st"
       },
       {
-        "segment": "muni-f-market-1st-sutter",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-1st-sutter"
       },
       {
-        "segment": "muni-f-market-sutter-kearny",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-sutter-kearny"
       },
       {
-        "segment": "muni-f-market-kearny-powell",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-kearny-powell"
       },
       {
-        "segment": "muni-f-market-powell-mcallister",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-powell-mcallister"
       },
       {
-        "segment": "muni-f-market-mcallister-hayes",
-        "running": [
-          "1909-02-01"
-        ]
+        "segment": "muni-f-market-mcallister-hayes"
       },
       {
         "segment": "sf-msry-hayes-market-link",
@@ -801,6 +783,16 @@
         "note": "Inbound"
       },
       {
+        "street": "Divisadero Street",
+        "from": [
+          -122.437207,
+          37.772213
+        ],
+        "from_name": "Page Street",
+        "to": "Oak Street",
+        "note": "Inbound, on the northbound side of today's divided street"
+      },
+      {
         "street": "Ellis Street",
         "from": "Hyde Street",
         "to": "Divisadero Street",
@@ -976,8 +968,17 @@
           37.769241
         ],
         "from_name": "10th Street",
+        "to": "8th Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Brannan Street",
+        "from": "8th Street",
         "to": "2nd Street",
-        "note": "Inbound; from 8th St in 1929"
+        "note": "Inbound"
       },
       {
         "street": "2nd Street",

@@ -600,7 +600,7 @@
       "est_error_m": 15,
       "note": "In Battery Street"
     },
-    "sf-msry-brannan-st-10th-st-5th-st": {
+    "sf-msry-brannan-st-10th-st-8th-st": {
       "routes": true,
       "parts": [
         {
@@ -611,7 +611,7 @@
             -122.407902,
             37.769241
           ],
-          "to": "5th Street",
+          "to": "8th Street",
           "area": "sf"
         }
       ],
@@ -644,6 +644,22 @@
           ],
           "from": "3rd Street",
           "to": "5th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Brannan Street"
+    },
+    "sf-msry-brannan-st-5th-st-8th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Brannan Street"
+          ],
+          "from": "5th Street",
+          "to": "8th Street",
           "area": "sf"
         }
       ],
@@ -935,6 +951,25 @@
           ],
           "from": "Jackson Street",
           "to": "Sacramento Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Divisadero Street"
+    },
+    "sf-msry-divisadero-st-oak-st-page-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Divisadero Street"
+          ],
+          "from": "Oak Street",
+          "to": [
+            -122.437207,
+            37.772213
+          ],
           "area": "sf"
         }
       ],

@@ -266,21 +266,24 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "3"
         },
         {
           "source": "oakland-tribune-1904-06-01",
           "supports": [
             "opened"
           ],
-          "note": "\"this morning. The event was the reception of the Key route system\"."
+          "note": "\"this morning. The event was the reception of the Key route system\".",
+          "pages": "1"
         },
         {
           "source": "oakland-tribune-1924-11-03",
           "supports": [
             "general"
           ],
-          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\"."
+          "note": "\"first opportunity today to use the new extension of the Key System Piedmont electric train … over the present car tracks to Manor station\".",
+          "pages": "17"
         },
         {
           "source": "cpuc-d50731",
@@ -517,7 +520,8 @@
           "supports": [
             "opened",
             "route"
-          ]
+          ],
+          "pages": "1"
         },
         {
           "source": "crc-d34060",
@@ -659,7 +663,8 @@
           "source": "oakland-tribune-1911-11-13",
           "supports": [
             "route"
-          ]
+          ],
+          "pages": "13"
         },
         {
           "source": "oakland-tribune-1911-11-15",
@@ -806,7 +811,8 @@
           "supports": [
             "opened"
           ],
-          "note": "\"In 1908 the Claremont line was opened\" (a retrospective)."
+          "note": "\"In 1908 the Claremont line was opened\" (a retrospective).",
+          "pages": "10"
         },
         {
           "source": "oakland-tribune-1905-06-17",
@@ -814,7 +820,8 @@
             "general",
             "route"
           ],
-          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\"."
+          "note": "The Fifty-fifth street branch was about to run \"from the ferry to Telegraph avenue, on Fifty-fifth street\".",
+          "pages": "16"
         },
         {
           "source": "oakland-tribune-1905-11-10",
@@ -822,7 +829,8 @@
             "general",
             "route"
           ],
-          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\""
+          "note": "\"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\"",
+          "pages": "4"
         },
         {
           "source": "cpuc-d50731",

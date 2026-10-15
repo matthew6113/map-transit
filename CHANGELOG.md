@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: SF's 1929-49 reports and the Oakland Tribune, re-read on the page images
+
+- O'Shaughnessy's routes of 1929: No. 6 ran from the Ferry by Market St in 1929 too; No. 20 came back
+  up Divisadero St from Page St to Oak St (a block was missing); No. 27's 1929 return turned into
+  Brannan St at 8th St, so Brannan St from 10th St to 8th St is drawn for 1909 only. No. 7's summary
+  quotes its 1929 end ("Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop"), still
+  not drawn past Frederick St.
+- Fates: the PUC's reports say No. 40 "was abandoned" (not converted to bus), and No. 17's
+  "Discontinued" and No. 12's "Last day of street car operation" don't say what replaced them, so
+  their fates are left out.
+- Report notes corrected: the 1945-46 list runs pp. 279-280; the 1947-48 one pp. 171-175; the
+  1948-49 chronology starts in 1902.
+- The Oakland Tribune's articles all read as quoted; their printed pages are now cited. The Tribune
+  of June 12, 1911 dates through trains on 12th St from June 11, 1911, but says separate cars had
+  served it "for more than a year", and its history of October 25, 1912 says "In 1909, the Twelfth
+  street line was opened": the 12th St and Poplar St track is flagged `conflicting_sources`.
+
 ## 2026-10-15: Manley's 1909 report, re-read on the page images
 
 - Every route and quote taken from Manley's report of 1909 was read again on its page images. Five
