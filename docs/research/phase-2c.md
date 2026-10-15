@@ -1,0 +1,135 @@
+# Research: Phase 2c, what was drawn and what each system needs next
+
+Oct 15, 2026. Phase 2c set out to draw every system on the coverage list in `docs/SPEC.md`. At first
+no source page could be opened, and the five research passes left reading plans in `leads-2c/`. Once
+the network allowed archive.org, files.cpuc.ca.gov and www.loc.gov, a second round of passes read the
+sources themselves (`sources-2c/`), and the San Francisco and East Bay streetcars and five ferries
+were drawn from them. Many streetcar lines' openings and some of their ends aren't sourced, so
+decision 20 (approved at the checkpoint) draws a line for the years a source shows it
+running.
+
+## Drawn in Phase 2c
+
+| System | What | Dates from | Geometry from |
+|---|---|---|---|
+| Sacramento Northern | Bay Point by West Pittsburg, the Mallard–Chipps Island train ferry, Montezuma and Rio Vista Junction to the Yolo County line (decision 16) | ERJ, Jul 12 and Sep 13, 1913; CRC Decisions 33009, 33416 (recited in 34232); on or about August 1940 (decision 17) | OpenHistoricalMap ways, checked on the 1952–53 USGS sheets; Bay Point–West Pittsburg traced from the 1953 Honker Bay sheet |
+| SF Market Street Railroad | The steam dummy, 1860–1867, 3rd St out Market St and Valencia St to 16th St | Callwell pp. 4–6 | Today's F track on Market St (decision 13) and Valencia St's centerline |
+| Market Street Cable Railway | The Market St trunk and Valencia St line (1883–1906), the Haight St line (1883–1906), the Castro line's run on Market St (1888–1906) | Callwell pp. 10, 21, 81; the city's 1948 transit history p. 16 | Today's F track, cut at Haight and Valencia Sts, and today's centerlines |
+| Market Street Railway | The Fillmore Hill counterbalance, 1895–1941 | Callwell pp. 41, 86 | Fillmore St's centerline |
+| Key System | E Claremont line, 1908–1958 | Oakland Tribune 1905 and 1912; CPUC Decisions 50731, 54669; HAER | Today's centerlines on the streets D50731 names, and the 1949 sheet where the freeway cut them |
+| Southern Pacific | The Eighteenth Street line (1912–1933) and the Webster Street line in Oakland (1911–1923) | SF Call 1911, 1912; CRC Decisions 12906, 17743, 25740, 27800; the SP's 1914 employee timetable | Today's centerlines; the unsourced 18th–20th St link dashed |
+| Golden Gate Ferries | The Hyde St–Berkeley ferry closes on or about August 1937 | CRC Decision 29999 (decision 17) | (already drawn) |
+| East Bay streetcars (Oakland Traction's successors) | 18 lines in Oakland, Berkeley, Alameda and Richmond, street by street | The Railroad Commission's and CPUC's orders of 1931–48, each line drawn for the years its orders show it running (decision 20) | Today's centerlines (`street_routes.py`); Washington St under City Center dashed |
+| Ferries | The Oakland Pier, Alameda Pier and Creek Route ferries; the SF & Alameda ferry (1864–73); Richmond–San Rafael | Halley (1876), the 1883 county history, HABS CA-1888, CRC Decisions 2624, 29338, 29999, 33445, *California Highways and Public Works* (1956) | Over water between terminals (approximate); Richmond–San Rafael from OpenHistoricalMap |
+| Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); 17 lines' last streetcar days from the SF PUC's reports of 1945–49; openings unsourced, so drawn from the first running date (decision 20) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
+| North Pacific Coast | Sausalito to the Russian River at Monte Rio (decision 21), and its San Rafael branch | The Railroad Commissioners' tenth report (openings by stretch, 1875–77); CRC Decisions 22672 and 34457 (1930, 1933); the San Rafael branch for its running dates (decision 20) | The electric lines' track to San Anselmo, then OpenHistoricalMap's ways, checked on the sheets of 1897–1945 |
+| San Mateo interurban (No. 40) | 5th and Market by Mission St and its private right of way to Burlingame and San Mateo | Running in 1903 (*Street Railway Journal*), 1909 (Manley) and 1929 (O'Shaughnessy); last day January 15, 1949 (SF PUC 1948–49) | Today's centerlines; OpenHistoricalMap's right of way, checked on the 1949–50 sheets |
+| San Francisco & North Pacific, Northwestern Pacific | Trains from Donahue and from Tiburon to Cloverdale, the Guerneville branch, and the NWP's trains to Eureka | The Railroad Commissioners' tenth report and *Poor's Manual* (openings by stretch, 1870–85); CPUC Decision 57488 (1958); running dates for the rest (decision 20) | SMART's track (dated by stretch); OpenHistoricalMap's ways beyond it |
+| Central Pacific | Oakland to Sacramento by Niles and the Altamont Pass (1869–1941) and by the Benicia train ferry (1879–1930); to San José by Milpitas (1869–1940) | The Railroad Commissioners' reports (the Northern Railway's openings, 1876–79); *SP Bulletin* (the 1930 bridge) | The Capitol Corridor's track, dated by stretch; the ferry over water; Niles Canyon, the Altamont Pass, Milpitas and Benicia's waterfront from OpenHistoricalMap, checked on the 1952–53 sheets |
+| South Pacific Coast | Alameda by Newark and San José to the Santa Cruz County line | The railroad's return in the Commissioners' report of 1894 (1878–80); running in 1900 (*Poor's*), decision 20 | The Capitol Corridor's and Caltrain's track; OpenHistoricalMap, checked on the sheets of 1899–1953 |
+| California Pacific (Napa Valley line) | Vallejo by Napa to Calistoga, and the Vallejo Junction ferry | Running in 1880 (*Poor's*), 1889 and 1900; end on or about June 1929 (CRC D21194) | Today's track (Overture); traced through Yountville on the 1951 sheets; OpenHistoricalMap beyond St. Helena |
+| Martinez–Benicia ferry | Auto ferry across the Carquinez Strait, 1913–1962 | CRC D22535 (1930); *CH&PW* 1962 | The 1952 Benicia sheet's course |
+
+## Not drawn yet, and what each needs
+
+"Read" means read the source itself, as the plans in `leads-2c/` list. "Trace" means hand-reading a
+map; "fit" means correcting a misregistered 15-minute sheet against control points (decision 12).
+
+### San Francisco
+
+- **McAllister and Hayes cable lines:** opening dates rest on railfan pages; read Callwell pp. 10–13
+  and the Daily Alta of 1883 and 1886.
+- **United Railroads and Market Street Railway numbered lines:** 26 drawn from Manley's 1909 list
+  and O'Shaughnessy's 1929 one (decision 20). 17 have their last day from the SF PUC's reports of
+  1945–49. Still to do: the other lines' last days (the Railroad Commission's 1929–44 decisions); the lines whose 1909 routes use renamed
+  streets (2, 5, 16, 22–25, 30, 35, and the 1909 parts of 20, 23 and 24), once a source pairs the old
+  names with the new: the Board of Supervisors renamed "many streets" by Ordinances Nos. 988, 989 and
+  1029 in December 1909 (*Municipal Reports* 1909–10, p. 640, archive.org `sanfranciscomuni59sanfrich`,
+  which lists the old names only, Point Lobos Ave from Presidio Ave to 48th Ave among them), so the
+  ordinances' text is the source to find; No. 28 and No. 29 (Rincon Hill's and Bayshore's streets have changed); the
+  private rights-of-way to the beach.
+- **Ferries & Cliff House line around Land's End** (1888–1925, Callwell pp. 12, 36): its dates and
+  route are sourced, but the 1915 San Francisco sheet is off by up to about 150 m there and no
+  1:24,000 sheet shows the line (it was gone by 1950). Needs a fit on the 1899 or 1915 sheet, or a
+  map Matthew georeferences by hand.
+- **Sutro Railroad, Park & Ocean:** now sourced (`sources-2c/sf-a.md`): the Sutro's franchise and
+  1894 pole permit give its route, the *Street Railway Journal* its February 1, 1896 opening; the Park
+  & Ocean's franchises its route, the SF PUC's 1948 report its last streetcar day (July 3, 1948, as
+  the No. 7). Their private rights-of-way to Sutro Baths and along the beach need tracing.
+- **San Francisco & San Mateo (1892):** No. 40 is drawn from 1903; its forerunner's route of 1892
+  (Steuart, Harrison, 14th, Guerrero, San Jose Ave, 30th and Chenery Sts, a trestle over Diamond
+  Ravine and the old San Jose road) isn't, and needs the trestle traced from the 1899 sheet. When
+  No. 40 moved from those streets to Mission St isn't sourced.
+- **Muni's exposition lines I and J:** their streets aren't sourced; read Muni's 1915–16 reports.
+- **Ocean Shore Railroad** (October 1907 to August 15, 1920, Callwell p. 35): OHM has its coast line,
+  but traced from the 1915 San Mateo 15-minute sheet, so it needs a fit before use.
+
+### East Bay
+
+- **Oakland Traction / Key System streetcars:** 18 lines drawn from the Commission's orders of
+  1931–48 (D40742 turned out to be a bus order). Still to do: each line's opening (franchises, the
+  Tribune) and last day; lines 3, 4, 5, 7 (both the Oakland and the Berkeley 7), 26, 28 and Leona,
+  whose orders don't give their whole route or whose streets are gone; the private rights-of-way
+  (Piedmont, Leona, the Richmond ferry), to trace from the 1949 sheets.
+- **East Shore & Suburban:** the Richmond line's 1933 route is sourced (CRC D26438) and its end
+  (November 6, 1933), but not when the through line opened; the Tribune's 1904 opening names only "the
+  connecting link between the old and the new towns of Richmond".
+- **Key System G (Westbrae shuttle):** dated, but its private right-of-way was gone by 1949 and the
+  1915 sheet needs a fit; trace it once fitted.
+- **SP Fruitvale (horseshoe) line:** its opening is unsourced.
+- **Sacramento Northern freight, Oakland to Lafayette, 1941–57 (decision 15):** the *Western
+  Railroader* of August 1956 and the *Orinda Sun* of March 1, 1957 hold it, but the *Orinda Sun*'s
+  archive.org item (`caorihs_000462` or `_000468`) has to be confirmed. The Pittsburg branch's opening
+  is unsourced.
+- **Alameda Belt Line, Oakland Terminal Railway:** dates rest on court opinions and federal rulings
+  found only by search (`leads-2c/ferries-northbay.md`, section 7).
+
+### Early railroads
+
+The county histories that date them (Halley 1876, Wood 1883, the Contra Costa, Marin, Sonoma, Napa
+and Solano histories of 1879–82) are now identified on archive.org and their pages confirmed
+(`sources-2c/railroads.md`), with the Railroad Commissioners' reports of 1888–94, which give each
+stretch's day "opened for public use"; Halley and Wood are in `sources.json`. Most of these railroads also run under today's
+Capitol Corridor, ACE, Caltrain and SMART track, which would be dated by stretch as Caltrain's was
+(decision 13): Central Pacific and the 1862 Western Pacific, the SF & Oakland and SF & Alameda, the
+California Pacific and Napa Valley, the North Pacific Coast and SF & North Pacific (both partly in
+OHM), Santa Fe at Point Richmond, the South Pacific Coast and California & Nevada, and the SP's San
+Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
+
+### Ferries and the North Bay
+
+- **Benicia–Port Costa** (the train ferry, 1879–1930) and **Martinez–Benicia** (1913–1962): drawn,
+  from the 1898 Karquines and 1952 Benicia sheets.
+- **Mare Island, the Petaluma steamers:** dates are web pointers only.
+- **California Pacific, Vallejo to Sacramento:** its trains by Napa Junction, Cordelia and Suisun (to 1929) aren't drawn: where its line met the Northern Railway's near Suisun needs a map.
+- **North Pacific Coast:** drawn to Sheridan, past Monte Rio. Still to do: Sheridan to Duncans Mills
+  and up Austin Creek to Cazadero (1886), on no sheet of its years (a map to georeference by hand, such
+  as the NPC's own map of about 1900 at Calisphere); its tunnels; the Mill Valley branch; the San
+  Rafael & San Quentin (1870, leased 1875) and the San Quentin ferry, which OHM has from the 1895–97
+  sheets.
+- **San Francisco & North Pacific, still to do:** Donahue to Petaluma (no map of it traced), the
+  Sonoma Valley line and the Marin & Napa branch to Sears Point (1888), the Sebastopol branch, the
+  line beyond Cloverdale, and the trains' later years (1889-1935) and ends.
+- **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &
+  Calistoga:** dated only by search extracts so far.
+
+## OpenHistoricalMap still to use
+
+`docs/checks/ohm.md` lists, by operator, the ways not yet drawn. The largest: the Southern Pacific
+(212 km), the San Francisco & North Pacific (72 km), the North Pacific Coast (91 km), the Sacramento
+Northern's Pittsburg branch and a branch of about 1950 in Solano County, the United Railroads' San
+Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's mappers from the
+15-minute sheets of 1895–1915.
+
+## For Matthew
+
+- **Decided at the checkpoint:** decision 20 is approved, and the North Pacific Coast is drawn as its
+  own line over the track it shared with the electric lines (decision 21).
+- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which this
+  environment's network policy blocks; allowing it would let the checks below be done here.
+- **Page images:** every archive.org quote of this phase is from the OCR text; the page images can't
+  be opened from this environment. `docs/checks/past.md` lists the records; the SF PUC report's
+  date column, lined up by order for six lines, most needs a look.
+- **Maps to georeference by hand** (or approve a fitted trace): Land's End on the 1899 or 1915 San
+  Francisco sheet; the Westbrae shuttle and the Webster St bridge on the 1915 sheet.
+- **Books and newspapers:** as listed per system in `leads-2c/`, and the earlier notes' lists.

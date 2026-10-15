@@ -1,0 +1,381 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The San Francisco & North Pacific and the Northwestern Pacific's main-line trains. Research: docs/research/sources-2c/railroads.md, section 1.",
+  "lines": [
+    {
+      "id": "sfnp-donahue",
+      "name": "San Francisco & North Pacific, from Donahue to Cloverdale",
+      "short_name": "SF&NP from Donahue",
+      "system": "sf-north-pacific",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1870-10",
+      "closed": null,
+      "status": "closed",
+      "running": [
+        {
+          "date": "1885",
+          "source": "poors-1885",
+          "pages": "874",
+          "note": "\"Line of Road.— Donahue, Cal., to Cloverdale, Cal 56.00 miles\", with the steamer \"Between Donahue and San Francisco (34 miles)\"."
+        }
+      ],
+      "summary": "Trains from the steamer landing at Donahue, on the Petaluma River, by Petaluma to Santa Rosa (1870), Healdsburg (1871) and Cloverdale (1872).",
+      "route": [
+        {
+          "segment": "smart-petaluma-santa-rosa"
+        },
+        {
+          "segment": "smart-santa-rosa-airport"
+        },
+        {
+          "segment": "smart-airport-windsor"
+        },
+        {
+          "segment": "sfnp-windsor-grants"
+        },
+        {
+          "segment": "sfnp-grants-healdsburg"
+        },
+        {
+          "segment": "sfnp-healdsburg-cloverdale"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sonoma-history-1880",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "301-302"
+        },
+        {
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "16"
+        },
+        {
+          "source": "poors-1885",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "874"
+        }
+      ],
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "notes": "The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 1870, when a passenger car was put on to Santa Rosa. Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running)."
+    },
+    {
+      "id": "sfnp-tiburon",
+      "name": "San Francisco & North Pacific, from San Rafael and Tiburon to Cloverdale",
+      "short_name": "SF&NP from Tiburon",
+      "system": "sf-north-pacific",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1879-06-02",
+      "closed": null,
+      "status": "closed",
+      "running": [
+        {
+          "date": "1887",
+          "source": "poors-1887",
+          "pages": "873",
+          "note": "\"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles.\""
+        },
+        {
+          "date": "1889-11",
+          "source": "ca-brc-report-10",
+          "pages": "17",
+          "note": "\"Passengers and freight are transferred between San Francisco and Point Tiburon by the company's steamers 'Tiburon' and 'James M. Donahue'\" (the report is written as of November 1, 1889, p. 16)."
+        }
+      ],
+      "summary": "Trains from San Rafael (1879) and from the ferry at Point Tiburon (1885) by Petaluma and Santa Rosa to Cloverdale.",
+      "route": [
+        {
+          "segment": "sfnp-tiburon-larkspur"
+        },
+        {
+          "segment": "smart-san-rafael-larkspur"
+        },
+        {
+          "segment": "smart-san-rafael-petaluma"
+        },
+        {
+          "segment": "smart-petaluma-santa-rosa"
+        },
+        {
+          "segment": "smart-santa-rosa-airport"
+        },
+        {
+          "segment": "smart-airport-windsor"
+        },
+        {
+          "segment": "sfnp-windsor-grants"
+        },
+        {
+          "segment": "sfnp-grants-healdsburg"
+        },
+        {
+          "segment": "sfnp-healdsburg-cloverdale"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "16-17, 121"
+        },
+        {
+          "source": "poors-1885",
+          "supports": [
+            "route"
+          ],
+          "pages": "874",
+          "note": "\"San Rafael, Cal., to Junction (Petaluma), Cal 20.50\" miles."
+        },
+        {
+          "source": "poors-1887",
+          "supports": [
+            "route"
+          ],
+          "pages": "873"
+        }
+      ],
+      "flags": [
+        "closed_unsourced"
+      ],
+      "notes": "Opens with the Petaluma branch from San Rafael (June 2, 1879); the line on to Tiburon opens May 1, 1885. When these trains ended isn't sourced: the map draws them to November 1889, the last date a source shows them running (decision 20). The Northwestern Pacific's trains of the 1930s-50s are a line of their own."
+    },
+    {
+      "id": "nwp-main-line",
+      "name": "Northwestern Pacific trains to Eureka, from San Rafael",
+      "short_name": "NWP to Eureka",
+      "system": "northwestern-pacific",
+      "operators": [
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        },
+        {
+          "type": "diesel",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1958-11",
+      "status": "closed",
+      "running": [
+        {
+          "date": "1935-05-20",
+          "source": "crc-d27973",
+          "pages": "3",
+          "note": "\"there will still remain in service two trains in each direction between San Francisco and Eureka, as well as trains on the Guerneville Branch.\""
+        },
+        {
+          "date": "1941-09-10",
+          "source": "crc-d34571",
+          "pages": "1",
+          "note": "Its trains \"between Sausalito and Eureka by way of San Rafael\"."
+        },
+        {
+          "date": "1958-10-21",
+          "source": "cpuc-d57488",
+          "pages": "2",
+          "note": "\"Train No. 4 operates northbound from San Rafael to Eureka three days a week\"."
+        }
+      ],
+      "summary": "The Northwestern Pacific's trains north from San Rafael by Petaluma, Santa Rosa and Healdsburg to Cloverdale, and on to Willits and Eureka.",
+      "fate": "abandoned",
+      "fate_note": "The Public Utilities Commission let the railroad discontinue Trains Nos. 3 and 4 between San Rafael and Willits on October 21, 1958, effective twenty days later; the last train isn't dated in the order, so the line closes on or about November 1958 (decision 17).",
+      "continues_beyond": "Willits and Eureka",
+      "route": [
+        {
+          "segment": "smart-san-rafael-petaluma"
+        },
+        {
+          "segment": "smart-petaluma-santa-rosa"
+        },
+        {
+          "segment": "smart-santa-rosa-airport"
+        },
+        {
+          "segment": "smart-airport-windsor"
+        },
+        {
+          "segment": "sfnp-windsor-grants"
+        },
+        {
+          "segment": "sfnp-grants-healdsburg"
+        },
+        {
+          "segment": "sfnp-healdsburg-cloverdale"
+        },
+        {
+          "segment": "sfnp-cloverdale-county-line"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d27973",
+          "supports": [
+            "route"
+          ],
+          "pages": "3"
+        },
+        {
+          "source": "crc-d34571",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "cpuc-d57488",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "2, 12-13",
+          "note": "\"is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points\"; \"The effective date of this order shall be twenty days after the date hereof.\" Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17)."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "When these trains began isn't sourced; the map draws them from 1935, the first date a source shows them (decision 20). In 1941 they started at Sausalito and ran by San Rafael (not drawn here); by 1958 they started at San Rafael, with a bus from San Francisco. North of Cloverdale the line runs on beyond the Bay Area."
+    },
+    {
+      "id": "sfnp-guerneville",
+      "name": "San Francisco & North Pacific, Guerneville branch",
+      "short_name": "Guerneville branch",
+      "system": "sf-north-pacific",
+      "operators": [
+        {
+          "name": "San Francisco and North Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1876-05-29",
+      "closed": null,
+      "status": "closed",
+      "running": [
+        {
+          "date": "1887",
+          "source": "poors-1887",
+          "pages": "873",
+          "note": "\"Fulton, Cal., to Guerneville, Cal 16.00\" miles."
+        },
+        {
+          "date": "1935-05-20",
+          "source": "crc-d27973",
+          "pages": "3",
+          "note": "\"… as well as trains on the Guerneville Branch.\""
+        }
+      ],
+      "summary": "The branch from Fulton, on the main line north of Santa Rosa, to Guerneville on the Russian River.",
+      "route": [
+        {
+          "segment": "sfnp-guerneville-branch"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "16"
+        },
+        {
+          "source": "poors-1885",
+          "supports": [
+            "opened"
+          ],
+          "pages": "874"
+        },
+        {
+          "source": "poors-1887",
+          "supports": [
+            "route"
+          ],
+          "pages": "873"
+        },
+        {
+          "source": "crc-d27973",
+          "supports": [
+            "route"
+          ],
+          "pages": "3"
+        }
+      ],
+      "flags": [
+        "closed_unsourced"
+      ],
+      "notes": "When its trains ended isn't sourced: the map draws it to 1935, the last date a source shows them (decision 20). Its later extension toward Monte Rio isn't drawn."
+    }
+  ]
+}

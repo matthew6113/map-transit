@@ -440,7 +440,10 @@
           "streets": [
             "Henry Street"
           ],
-          "from": "Shattuck Avenue",
+          "from": [
+            -122.270722,
+            37.882554
+          ],
           "to": "Sutter Street"
         }
       ],
@@ -575,7 +578,8 @@
             "Solano Avenue"
           ],
           "from": "Colusa Avenue",
-          "to": "San Pablo Avenue"
+          "to": "San Pablo Avenue",
+          "area": "eastbay"
         }
       ],
       "check": "usgs-richmond-1949",
@@ -823,6 +827,254 @@
       "check": "usgs-richmond-1949",
       "est_error_m": 15,
       "note": "In Monterey Avenue"
+    },
+    "sp-18th-st": {
+      "parts": [
+        {
+          "join": "sp-mole-16th-st",
+          "at": "end"
+        },
+        {
+          "streets": [
+            "18th Street"
+          ],
+          "from": "Wood Street",
+          "to": "San Pablo Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 18th Street"
+    },
+    "sp-18th-20th-link": {
+      "parts": [
+        {
+          "streets": [
+            "San Pablo Avenue"
+          ],
+          "from": "18th Street",
+          "to": "Thomas L Berkley Way",
+          "area": "eastbay"
+        }
+      ],
+      "approximate": true,
+      "note": "The sources name 18th Street and 20th Street but not how the line got from one to the other; drawn along San Pablo Avenue, where they come nearest"
+    },
+    "sp-20th-st": {
+      "parts": [
+        {
+          "streets": [
+            "Thomas L Berkley Way"
+          ],
+          "from": "San Pablo Avenue",
+          "to": "Franklin Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 20th Street, today's Thomas L Berkley Way"
+    },
+    "sp-20th-franklin-webster": {
+      "parts": [
+        {
+          "streets": [
+            "Thomas L Berkley Way"
+          ],
+          "from": "Franklin Street",
+          "to": "Webster Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 20th Street, today's Thomas L Berkley Way"
+    },
+    "sp-franklin-20th-14th": {
+      "parts": [
+        {
+          "streets": [
+            "Franklin Street"
+          ],
+          "from": "Thomas L Berkley Way",
+          "to": "14th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Franklin Street"
+    },
+    "sp-webster-20th-14th": {
+      "parts": [
+        {
+          "streets": [
+            "Webster Street"
+          ],
+          "from": "Thomas L Berkley Way",
+          "to": "14th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Webster Street"
+    },
+    "sp-14th-franklin-webster": {
+      "parts": [
+        {
+          "streets": [
+            "14th Street"
+          ],
+          "from": "Franklin Street",
+          "to": "Webster Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 14th Street"
+    },
+    "sp-webster-14th-2nd": {
+      "parts": [
+        {
+          "streets": [
+            "Webster Street"
+          ],
+          "from": "14th Street",
+          "to": "2nd Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Webster Street"
+    },
+    "sp-webster-2nd-1st": {
+      "parts": [
+        {
+          "streets": [
+            "Webster Street"
+          ],
+          "from": "2nd Street",
+          "to": "Embarcadero West",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 20,
+      "note": "In Webster Street, to 1st Street, today's Embarcadero West"
+    },
+    "sp-harrison-st-bridge": {
+      "parts": [
+        {
+          "join": "sp-webster-2nd-1st",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-1915",
+            "bbox": [
+              -122.286,
+              37.786,
+              -122.268,
+              37.798
+            ],
+            "zoom": 3.2
+          },
+          "px": [
+            [
+              485,
+              395
+            ],
+            [
+              470,
+              450
+            ],
+            [
+              458,
+              510
+            ],
+            [
+              448,
+              570
+            ],
+            [
+              442,
+              620
+            ]
+          ]
+        }
+      ],
+      "fit": "sf1915-bay",
+      "est_error_m": 80,
+      "note": "The railroad bridge the 1915 sheet draws across the estuary at the foot of Oakland's street grid; it was gone by 1949"
+    },
+    "sp-alameda-north-shore": {
+      "parts": [
+        {
+          "join": "sp-harrison-st-bridge",
+          "at": "end"
+        },
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.296,
+              37.786,
+              -122.272,
+              37.794
+            ],
+            "zoom": 1.8
+          },
+          "px": [
+            [
+              1495,
+              385
+            ],
+            [
+              1300,
+              382
+            ],
+            [
+              1100,
+              380
+            ],
+            [
+              900,
+              380
+            ],
+            [
+              700,
+              381
+            ],
+            [
+              600,
+              383
+            ],
+            [
+              450,
+              388
+            ],
+            [
+              300,
+              393
+            ],
+            [
+              178,
+              399
+            ]
+          ]
+        },
+        {
+          "join": "sp-alameda-mole",
+          "at": "end"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 30,
+      "note": "The railroad along Alameda's north shore, which the 1949 sheet still draws, west to the mole line"
     }
   },
   "points": {

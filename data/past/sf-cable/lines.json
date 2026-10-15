@@ -171,7 +171,10 @@
           "segment": "sf-sutter-market-larkin"
         },
         {
-          "segment": "sf-sutter-larkin-presidio"
+          "segment": "sf-sutter-larkin-fillmore"
+        },
+        {
+          "segment": "sf-sutter-fillmore-presidio"
         }
       ],
       "sources": [
@@ -467,7 +470,10 @@
           "segment": "muni-cable-washington-jackson"
         },
         {
-          "segment": "sf-jackson-hyde-steiner"
+          "segment": "sf-jackson-hyde-fillmore"
+        },
+        {
+          "segment": "sf-jackson-fillmore-steiner"
         },
         {
           "segment": "sf-steiner-jackson-washington"
@@ -703,10 +709,19 @@
       "opened": "1888",
       "closed": "1941-04-05",
       "status": "closed",
-      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they also ran on Market St to the Ferry Building.",
+      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they came along Market St from Valencia St.",
       "fate": "converted_to_bus",
       "fate_note": "Replaced by the No. 24 bus on April 6, 1941 (Callwell p. 41).",
       "route": [
+        {
+          "segment": "muni-f-market-st",
+          "to": "1906",
+          "note": "On Market St from Valencia St until 1906"
+        },
+        {
+          "segment": "sf-castro-market-18th",
+          "to": "1906"
+        },
         {
           "segment": "sf-castro-18th-26th"
         }
@@ -740,7 +755,287 @@
       "flags": [
         "conflicting_sources"
       ],
-      "notes": "Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines."
+      "notes": "Until 1906 it ran on Market St from Valencia St to Castro St (Callwell p. 81), drawn over today's F track there."
+    },
+    {
+      "id": "sf-market-st-steam-dummy",
+      "name": "Market Street steam dummy",
+      "system": "sf-market-street-railroad",
+      "operators": [
+        {
+          "name": "San Francisco Market Street Railroad",
+          "from": "1860-07-15",
+          "to": "1867-03-06"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1860-07-15",
+          "to": "1867-03-06"
+        }
+      ],
+      "era": "past",
+      "opened": "1860-07-15",
+      "closed": "1867-03-06",
+      "status": "closed",
+      "summary": "San Francisco's first street railroad: steam dummies from 3rd St out Market St and Valencia St to 16th St.",
+      "route": [
+        {
+          "segment": "muni-f-market-kearny-powell",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-haight-valencia"
+        },
+        {
+          "segment": "sf-valencia-market-16th"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "opened",
+            "closed"
+          ],
+          "pages": "4-6",
+          "note": "The San Francisco Market Street Railroad's steam dummy, \"from 3rd & Market Sts., on Market and Valencia to 16th St.\", July 15, 1860 to March 6, 1867."
+        }
+      ],
+      "flags": [],
+      "notes": "Callwell dates the steam dummy from July 15, 1860 to March 6, 1867; what replaced it isn't drawn."
+    },
+    {
+      "id": "sf-market-valencia-cable",
+      "name": "Market Street cable line, by Valencia St",
+      "system": "market-street-cable-railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1883-08-22",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1883-08-22",
+          "to": "1906"
+        }
+      ],
+      "era": "past",
+      "opened": "1883-08-22",
+      "closed": "1906",
+      "status": "closed",
+      "summary": "Cable cars from the ferries up Market St and out Valencia St to Mission St, the trunk of the Market Street Cable Railway.",
+      "fate": "abandoned",
+      "fate_note": "The cable lines on Market St ended with the earthquake and fire of 1906; electric streetcars ran \"on Market to Castro and on Market and Valencia to 28th St.\" within days of May 3, 1906 (Callwell p. 21).",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "note": "To the ferries at the foot of Market St"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "muni-f-market-haight-valencia"
+        },
+        {
+          "segment": "sf-valencia-market-16th"
+        },
+        {
+          "segment": "sf-valencia-16th-mission"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "10",
+          "note": "August 22, 1883: \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\""
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "21",
+          "note": "Within days of May 3, 1906, streetcars ran \"on Market to Castro and on Market and Valencia to 28th St.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Dated to 1906, the year the earthquake ended Market St's cable lines (Callwell p. 21); the last day isn't given."
+    },
+    {
+      "id": "sf-haight-st-cable",
+      "name": "Haight Street cable line",
+      "system": "market-street-cable-railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1883-09",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1883-09",
+          "to": "1906"
+        }
+      ],
+      "era": "past",
+      "opened": "1883-09",
+      "closed": "1906",
+      "status": "closed",
+      "summary": "Cable cars from the ferries up Market St and out Haight St to Stanyan St, at Golden Gate Park.",
+      "fate": "abandoned",
+      "fate_note": "Ended with the earthquake and fire of 1906 (Callwell p. 21).",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "note": "To the ferries at the foot of Market St"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "sf-haight-market-stanyan"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened"
+          ],
+          "pages": "10",
+          "note": "The Haight St line opened in September 1883."
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "16",
+          "note": "From Market St to Stanyan St (OCR)."
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "21",
+          "note": "The cable lines on Market St ended in 1906."
+        }
+      ],
+      "flags": [],
+      "notes": "Dated to 1906, the year the earthquake ended Market St's cable lines; the last day isn't given."
+    },
+    {
+      "id": "sf-fillmore-counterbalance",
+      "name": "Fillmore Hill counterbalance",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway",
+          "from": null,
+          "to": "1941-04-05"
+        }
+      ],
+      "mode": "cable",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1895",
+          "to": "1941-04-05"
+        }
+      ],
+      "era": "past",
+      "opened": "1895",
+      "closed": "1941-04-05",
+      "status": "closed",
+      "summary": "Streetcars worked up and down Fillmore St's steepest blocks, from Broadway to Green St, by a counterbalance.",
+      "fate": "converted_to_bus",
+      "fate_note": "Ended on April 5, 1941, the same day as the Castro St cable line (Callwell p. 41).",
+      "route": [
+        {
+          "segment": "sf-fillmore-broadway-green"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "86",
+          "note": "The counterbalance on Fillmore St. between Broadway and Green St., from 1895."
+        },
+        {
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "closed"
+          ],
+          "pages": "41",
+          "note": "April 5, 1941: the last day of the Fillmore St. counterbalance."
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn as a cable line: the cars were worked by a counterbalance on this block. Who ran it before the Market Street Railway isn't sourced here."
     }
   ]
 }

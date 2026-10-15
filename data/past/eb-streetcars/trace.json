@@ -1,0 +1,1573 @@
+{
+  "$comment": "Geometry recipes for data/past/eb-streetcars (decision 12). Entries with \"routes\": true are written by transit_pipeline.street_routes from routes.json; the rest are hand-kept.",
+  "segments": {
+    "eb-washington-12th-13th-link": {
+      "parts": [
+        {
+          "lonlat": [
+            [
+              -122.274153,
+              37.80205
+            ],
+            [
+              -122.272854,
+              37.804116
+            ]
+          ]
+        }
+      ],
+      "approximate": true,
+      "note": "Straight along Washington St's line, which is straight from 8th St to where it stops today; the old street's course isn't traced"
+    },
+    "eb-washington-13th-san-pablo-link": {
+      "parts": [
+        {
+          "lonlat": [
+            [
+              -122.272854,
+              37.804116
+            ],
+            [
+              -122.271832,
+              37.8059
+            ]
+          ]
+        }
+      ],
+      "approximate": true,
+      "note": "Straight along Washington St's line, which is straight from 8th St to where it stops today; the old street's course isn't traced"
+    },
+    "eb-11th-ave-e-24th-st-e-28th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "11th Avenue"
+          ],
+          "from": "East 24th Street",
+          "to": "East 28th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 11th Avenue"
+    },
+    "eb-12th-st-1st-ave-oak-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "12th Street",
+            "East 12th Street"
+          ],
+          "from": "1st Avenue",
+          "to": "Oak Street",
+          "area": "eastbay",
+          "bridge_m": 400
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 12th Street"
+    },
+    "eb-12th-st-broadway-jefferson-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "12th Street",
+            "East 12th Street"
+          ],
+          "from": "Broadway",
+          "to": "Jefferson Street",
+          "area": "eastbay",
+          "bridge_m": 400
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 12th Street"
+    },
+    "eb-12th-st-broadway-oak-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "12th Street",
+            "East 12th Street"
+          ],
+          "from": "Broadway",
+          "to": "Oak Street",
+          "area": "eastbay",
+          "bridge_m": 400
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 12th Street"
+    },
+    "eb-13th-st-jefferson-st-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "13th Street"
+          ],
+          "from": "Jefferson Street",
+          "to": [
+            -122.272854,
+            37.804116
+          ],
+          "area": "eastbay",
+          "bridge_m": 300
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 13th Street"
+    },
+    "eb-13th-st-oak-st-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "13th Street"
+          ],
+          "from": "Oak Street",
+          "to": [
+            -122.272854,
+            37.804116
+          ],
+          "area": "eastbay",
+          "bridge_m": 300
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 13th Street"
+    },
+    "eb-14th-ave-e-18th-st-e-21st-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "14th Avenue"
+          ],
+          "from": "East 18th Street",
+          "to": "East 21st Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 14th Avenue"
+    },
+    "eb-14th-ave-e-21st-st-macarthur-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "14th Avenue"
+          ],
+          "from": "East 21st Street",
+          "to": "MacArthur Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 14th Avenue"
+    },
+    "eb-14th-st-franklin-st-market-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "14th Street"
+          ],
+          "from": "Franklin Street",
+          "to": "Market Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 14th Street"
+    },
+    "eb-14th-st-franklin-st-webster-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "14th Street"
+          ],
+          "from": "Franklin Street",
+          "to": "Webster Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 14th Street"
+    },
+    "eb-16th-st-market-st-wood-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "16th Street"
+          ],
+          "from": "Market Street",
+          "to": "Wood Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 16th Street"
+    },
+    "eb-1st-ave-e-12th-st-international-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "1st Avenue"
+          ],
+          "from": "East 12th Street",
+          "to": "International Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 1st Avenue"
+    },
+    "eb-1st-ave-international-blvd-the-rightofway": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "1st Avenue"
+          ],
+          "from": "International Boulevard",
+          "to": [
+            -122.255893,
+            37.799616
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 1st Avenue"
+    },
+    "eb-23rd-ave-e-27th-st-international-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "23rd Avenue"
+          ],
+          "from": "East 27th Street",
+          "to": "International Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 23rd Avenue"
+    },
+    "eb-23rd-st-macdonald-ave-market-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "23rd Street"
+          ],
+          "from": "Macdonald Avenue",
+          "to": "Market Avenue",
+          "area": [
+            "eastbay",
+            "richmond"
+          ]
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In 23rd Street"
+    },
+    "eb-24th-st-adeline-st-market-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "24th Street"
+          ],
+          "from": "Adeline Street",
+          "to": "Market Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 24th Street"
+    },
+    "eb-24th-st-broadway-harrison-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "24th Street"
+          ],
+          "from": "Broadway",
+          "to": "Harrison Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 24th Street"
+    },
+    "eb-25th-ave-e-21st-st-e-24th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "25th Avenue"
+          ],
+          "from": "East 21st Street",
+          "to": "East 24th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 25th Avenue"
+    },
+    "eb-26th-ave-e-24th-st-e-27th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "26th Avenue"
+          ],
+          "from": "East 24th Street",
+          "to": "East 27th Street",
+          "area": "eastbay",
+          "bridge_m": 300
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 26th Avenue"
+    },
+    "eb-32nd-st-adeline-st-hollis-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "32nd Street"
+          ],
+          "from": "Adeline Street",
+          "to": "Hollis Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 32nd Street"
+    },
+    "eb-38th-ave-international-blvd-macarthur-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "38th Avenue"
+          ],
+          "from": "International Boulevard",
+          "to": "MacArthur Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 38th Avenue"
+    },
+    "eb-7th-st-broadway-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "7th Street"
+          ],
+          "from": "Broadway",
+          "to": "Washington Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 7th Street"
+    },
+    "eb-7th-st-pine-st-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "7th Street"
+          ],
+          "from": [
+            -122.303733,
+            37.807714
+          ],
+          "to": "Washington Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 7th Street"
+    },
+    "eb-8th-ave-e-18th-st-e-24th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "8th Avenue"
+          ],
+          "from": "East 18th Street",
+          "to": "East 24th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In 8th Avenue"
+    },
+    "eb-8th-st-broadway-franklin-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "8th Street"
+          ],
+          "from": "Broadway",
+          "to": "Franklin Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 8th Street"
+    },
+    "eb-8th-st-broadway-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "8th Street"
+          ],
+          "from": "Broadway",
+          "to": "Washington Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 8th Street"
+    },
+    "eb-8th-st-clay-st-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "8th Street"
+          ],
+          "from": "Clay Street",
+          "to": "Washington Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 8th Street"
+    },
+    "eb-9th-st-broadway-franklin-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "9th Street"
+          ],
+          "from": "Broadway",
+          "to": "Franklin Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In 9th Street"
+    },
+    "eb-adeline-st-24th-st-32nd-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Adeline Street"
+          ],
+          "from": "24th Street",
+          "to": "32nd Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Adeline Street"
+    },
+    "eb-alcatraz-ave-adeline-st-college-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Alcatraz Avenue"
+          ],
+          "from": "Adeline Street",
+          "to": "College Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Alcatraz Avenue"
+    },
+    "eb-bancroft-way-college-ave-telegraph-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bancroft Way"
+          ],
+          "from": "College Avenue",
+          "to": "Telegraph Avenue",
+          "area": "eastbay",
+          "bridge_m": 200
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Bancroft Way"
+    },
+    "eb-bancroft-way-fulton-st-shattuck-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bancroft Way"
+          ],
+          "from": "Fulton Street",
+          "to": "Shattuck Avenue",
+          "area": "eastbay",
+          "bridge_m": 200
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Bancroft Way"
+    },
+    "eb-bancroft-way-fulton-st-telegraph-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bancroft Way"
+          ],
+          "from": "Fulton Street",
+          "to": "Telegraph Avenue",
+          "area": "eastbay",
+          "bridge_m": 200
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Bancroft Way"
+    },
+    "eb-broadway-13th-st-14th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "13th Street",
+          "to": "14th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-13th-st-9th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "13th Street",
+          "to": "9th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-14th-st-grand-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "14th Street",
+          "to": "Grand Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-24th-st-grand-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "24th Street",
+          "to": "Grand Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-24th-st-piedmont-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "24th Street",
+          "to": "Piedmont Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-7th-st-8th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "7th Street",
+          "to": "8th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-8th-st-9th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "8th Street",
+          "to": "9th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-broadway-college-ave-piedmont-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "College Avenue",
+          "to": "Piedmont Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "eb-college-ave-alcatraz-ave-bancroft-way": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "College Avenue"
+          ],
+          "from": "Alcatraz Avenue",
+          "to": "Bancroft Way",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In College Avenue"
+    },
+    "eb-college-ave-alcatraz-ave-broadway": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "College Avenue"
+          ],
+          "from": "Alcatraz Avenue",
+          "to": "Broadway",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In College Avenue"
+    },
+    "eb-dwight-way-college-ave-sixth-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Dwight Way"
+          ],
+          "from": "College Avenue",
+          "to": "Sixth Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Dwight Way"
+    },
+    "eb-e-18th-st-14th-ave-3rd-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 18th Street"
+          ],
+          "from": "14th Avenue",
+          "to": "3rd Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In East 18th Street"
+    },
+    "eb-e-21st-st-14th-ave-25th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 21st Street"
+          ],
+          "from": "14th Avenue",
+          "to": "25th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In East 21st Street"
+    },
+    "eb-e-24th-st-11th-ave-8th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 24th Street"
+          ],
+          "from": "11th Avenue",
+          "to": "8th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In East 24th Street"
+    },
+    "eb-e-24th-st-25th-ave-26th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 24th Street"
+          ],
+          "from": "25th Avenue",
+          "to": "26th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In East 24th Street"
+    },
+    "eb-e-27th-st-26th-ave-fruitvale-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 27th Street"
+          ],
+          "from": "26th Avenue",
+          "to": "Fruitvale Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In East 27th Street"
+    },
+    "eb-e-28th-st-11th-ave-13th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "East 28th Street"
+          ],
+          "from": "11th Avenue",
+          "to": "13th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In East 28th Street"
+    },
+    "eb-fairview-ave-grand-ave-oakland-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fairview Avenue"
+          ],
+          "from": "Grand Avenue",
+          "to": "Oakland Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Fairview Avenue"
+    },
+    "eb-franklin-st-8th-st-9th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Franklin Street"
+          ],
+          "from": "8th Street",
+          "to": "9th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Franklin Street"
+    },
+    "eb-fulton-st-bancroft-way-kittredge-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fulton Street"
+          ],
+          "from": "Bancroft Way",
+          "to": "Kittredge Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Fulton Street"
+    },
+    "eb-grand-ave-broadway-webster-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Grand Avenue"
+          ],
+          "from": "Broadway",
+          "to": "Webster Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Grand Avenue"
+    },
+    "eb-grand-ave-fairview-ave-lakeshore-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Grand Avenue"
+          ],
+          "from": "Fairview Avenue",
+          "to": [
+            -122.249963,
+            37.809142
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Grand Avenue"
+    },
+    "eb-grand-ave-lakeshore-ave-webster-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Grand Avenue"
+          ],
+          "from": [
+            -122.249963,
+            37.809142
+          ],
+          "to": "Webster Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Grand Avenue"
+    },
+    "eb-harrison-st-24th-st-oakland-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Harrison Street"
+          ],
+          "from": "24th Street",
+          "to": "Oakland Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Harrison Street"
+    },
+    "eb-hollis-st-32nd-st-yerba-buena-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Hollis Street"
+          ],
+          "from": "32nd Street",
+          "to": "Yerba Buena Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Hollis Street"
+    },
+    "eb-international-blvd-103rd-ave-105th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "International Boulevard"
+          ],
+          "from": "103rd Avenue",
+          "to": "105th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-san-leandro-1948",
+      "est_error_m": 15,
+      "note": "In International Boulevard"
+    },
+    "eb-international-blvd-103rd-ave-38th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "International Boulevard"
+          ],
+          "from": "103rd Avenue",
+          "to": "38th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In International Boulevard"
+    },
+    "eb-international-blvd-1st-ave-5th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "International Boulevard"
+          ],
+          "from": "1st Avenue",
+          "to": "5th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In International Boulevard"
+    },
+    "eb-international-blvd-23rd-ave-38th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "International Boulevard"
+          ],
+          "from": "23rd Avenue",
+          "to": "38th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In International Boulevard"
+    },
+    "eb-international-blvd-23rd-ave-5th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "International Boulevard"
+          ],
+          "from": "23rd Avenue",
+          "to": "5th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In International Boulevard"
+    },
+    "eb-jefferson-st-12th-st-13th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Jefferson Street"
+          ],
+          "from": "12th Street",
+          "to": "13th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Jefferson Street"
+    },
+    "eb-lakeshore-ave-grand-ave-walavista-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Lakeshore Avenue"
+          ],
+          "from": [
+            -122.249058,
+            37.808462
+          ],
+          "to": [
+            -122.238191,
+            37.815008
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Lakeshore Avenue"
+    },
+    "eb-leimert-blvd-oakmore-rd-park-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Leimert Boulevard"
+          ],
+          "from": "Oakmore Road",
+          "to": "Park Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Leimert Boulevard"
+    },
+    "eb-linda-ave-oakland-ave-piedmont-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Linda Avenue"
+          ],
+          "from": "Oakland Avenue",
+          "to": "Piedmont Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Linda Avenue"
+    },
+    "eb-macarthur-blvd-14th-ave-35th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "MacArthur Boulevard"
+          ],
+          "from": "14th Avenue",
+          "to": "35th Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In MacArthur Boulevard"
+    },
+    "eb-macdonald-ave-23rd-st-san-pablo-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Macdonald Avenue"
+          ],
+          "from": "23rd Street",
+          "to": "San Pablo Avenue",
+          "area": [
+            "eastbay",
+            "richmond"
+          ]
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Macdonald Avenue"
+    },
+    "eb-market-ave-23rd-st-church-ln": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Market Avenue"
+          ],
+          "from": "23rd Street",
+          "to": "Church Lane",
+          "area": [
+            "eastbay",
+            "richmond"
+          ]
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In Market Avenue"
+    },
+    "eb-market-st-14th-st-16th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Market Street"
+          ],
+          "from": "14th Street",
+          "to": "16th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Market Street"
+    },
+    "eb-market-st-16th-st-24th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Market Street"
+          ],
+          "from": "16th Street",
+          "to": "24th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Market Street"
+    },
+    "eb-oak-st-12th-st-13th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Oak Street"
+          ],
+          "from": "12th Street",
+          "to": "13th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Oak Street"
+    },
+    "eb-oakland-ave-harrison-st-linda-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Oakland Avenue"
+          ],
+          "from": "Harrison Street",
+          "to": "Linda Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Oakland Avenue"
+    },
+    "eb-oxford-st-kittredge-st-university-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Oxford Street"
+          ],
+          "from": "Kittredge Street",
+          "to": "University Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Oxford Street"
+    },
+    "eb-park-blvd-e-20th-st-leimert-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Park Boulevard"
+          ],
+          "from": "East 20th Street",
+          "to": "Leimert Boulevard",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Park Boulevard"
+    },
+    "eb-park-st-blanding-ave-san-jose-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Park Street"
+          ],
+          "from": "Blanding Avenue",
+          "to": "San Jose Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Park Street"
+    },
+    "eb-piedmont-ave-41st-st-linda-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Piedmont Avenue"
+          ],
+          "from": "41st Street",
+          "to": "Linda Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Piedmont Avenue"
+    },
+    "eb-piedmont-ave-41st-st-rio-vista-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Piedmont Avenue"
+          ],
+          "from": "41st Street",
+          "to": "Rio Vista Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Piedmont Avenue"
+    },
+    "eb-piedmont-ave-broadway-rio-vista-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Piedmont Avenue"
+          ],
+          "from": "Broadway",
+          "to": "Rio Vista Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Piedmont Avenue"
+    },
+    "eb-piedmont-ave-mountain-view-cemetery-pleasant-valley-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Piedmont Avenue"
+          ],
+          "from": [
+            -122.245095,
+            37.831971
+          ],
+          "to": "Pleasant Valley Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Piedmont Avenue"
+    },
+    "eb-san-pablo-ave-ashby-ave-potrero-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "San Pablo Avenue"
+          ],
+          "from": "Ashby Avenue",
+          "to": "Potrero Avenue",
+          "area": [
+            "eastbay",
+            "richmond"
+          ]
+        }
+      ],
+      "check": "usgs-richmond-1949",
+      "est_error_m": 15,
+      "note": "In San Pablo Avenue"
+    },
+    "eb-san-pablo-ave-ashby-ave-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "San Pablo Avenue"
+          ],
+          "from": "Ashby Avenue",
+          "to": [
+            -122.271832,
+            37.8059
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In San Pablo Avenue"
+    },
+    "eb-shattuck-ave-bancroft-way-center-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Bancroft Way",
+          "to": "Center Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Shattuck Avenue"
+    },
+    "eb-shattuck-ave-center-st-university-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Shattuck Avenue"
+          ],
+          "from": "Center Street",
+          "to": "University Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Shattuck Avenue"
+    },
+    "eb-sixth-st-dwight-way-university-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Sixth Street"
+          ],
+          "from": "Dwight Way",
+          "to": "University Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Sixth Street"
+    },
+    "eb-university-ave-oxford-st-shattuck-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "University Avenue"
+          ],
+          "from": "Oxford Street",
+          "to": "Shattuck Avenue",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In University Avenue"
+    },
+    "eb-walavista-ave-carlston-ave-lakeshore-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Walavista Avenue"
+          ],
+          "from": "Carlston Avenue",
+          "to": [
+            -122.238191,
+            37.815008
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-east-1949",
+      "est_error_m": 15,
+      "note": "In Walavista Avenue"
+    },
+    "eb-washington-st-7th-st-8th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Washington Street"
+          ],
+          "from": "7th Street",
+          "to": "8th Street",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Washington Street"
+    },
+    "eb-washington-st-8th-st-city-center": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Washington Street"
+          ],
+          "from": "8th Street",
+          "to": [
+            -122.274153,
+            37.80205
+          ],
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Washington Street"
+    },
+    "eb-webster-st-14th-st-thomas-l-berkley-way": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Webster Street"
+          ],
+          "from": "14th Street",
+          "to": "Thomas L Berkley Way",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Webster Street"
+    },
+    "eb-webster-st-grand-ave-thomas-l-berkley-way": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Webster Street"
+          ],
+          "from": "Grand Avenue",
+          "to": "Thomas L Berkley Way",
+          "area": "eastbay"
+        }
+      ],
+      "check": "usgs-oakland-west-1949",
+      "est_error_m": 15,
+      "note": "In Webster Street"
+    }
+  }
+}

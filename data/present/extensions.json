@@ -563,6 +563,38 @@
         "Market St & Kearny St": [
           -122.403436,
           37.787676
+        ],
+        "Market St & Haight St": [
+          -122.421895,
+          37.773223
+        ],
+        "Market St & Valencia St": [
+          -122.422589,
+          37.772476
+        ],
+        "Market St & Sutter St": [
+          -122.400097,
+          37.790312
+        ],
+        "Market St & McAllister St": [
+          -122.411717,
+          37.781205
+        ],
+        "Market St & Hayes St": [
+          -122.416592,
+          37.777363
+        ],
+        "Carl St & Cole St": [
+          -122.449976,
+          37.765806
+        ],
+        "Carl St & Stanyan St": [
+          -122.452777,
+          37.76545
+        ],
+        "San Jose Ave & 30th St": [
+          -122.423295,
+          37.7423
         ]
       },
       "segments": [
@@ -751,10 +783,56 @@
           ]
         },
         {
-          "id": "muni-n-duboce-ocean-beach",
-          "name": "Duboce Ave and Church St to Ocean Beach, through the Sunset Tunnel",
+          "id": "muni-n-duboce-carl-cole",
+          "name": "Duboce Ave and Church St to Carl St and Cole St, through the Sunset Tunnel",
           "line": "muni-n",
           "from": "Duboce Ave & Church St",
+          "to": "Carl St & Cole St",
+          "opened": "1928-10-21",
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "opened"
+              ],
+              "pages": "37",
+              "note": "\"N Judah service begins from the Ferry Building to the beach (and through the 4,232 ft. Sunset Tunnel).\""
+            }
+          ]
+        },
+        {
+          "id": "muni-n-carl-cole-stanyan",
+          "name": "Carl St, Cole St to Stanyan St",
+          "line": "muni-n",
+          "from": "Carl St & Cole St",
+          "to": "Carl St & Stanyan St",
+          "opened": null,
+          "sources": [
+            {
+              "source": "manley-1909",
+              "supports": [
+                "route"
+              ],
+              "pages": "12",
+              "note": "The United Railroads' Masonic line ran \"to Clayton to Carl to Stanyan\" in 1909."
+            },
+            {
+              "source": "oshaughnessy-1929",
+              "supports": [
+                "route"
+              ],
+              "pages": "344",
+              "note": "Line No. 6 \"via ... Clayton St., Carl St., Stanyan St.\" in 1929."
+            }
+          ],
+          "structure": "street",
+          "notes": "Street track older than the N (1928): the United Railroads' Masonic line ran on Carl St from Clayton St to Stanyan St by 1909. When it first carried passengers isn't sourced yet. Cut at Cole St, the Sunset Tunnel's west portal, and at Stanyan St, where the old line turned off."
+        },
+        {
+          "id": "muni-n-carl-stanyan-ocean-beach",
+          "name": "Carl St and Stanyan St to Ocean Beach",
+          "line": "muni-n",
+          "from": "Carl St & Stanyan St",
           "to": "Judah St & La Playa St",
           "opened": "1928-10-21",
           "sources": [
@@ -880,10 +958,30 @@
           ]
         },
         {
-          "id": "muni-j-san-jose-ave",
-          "name": "30th St & Church St to Balboa Park",
+          "id": "muni-j-30th-st",
+          "name": "30th St, Church St to San Jose Ave",
           "line": "muni-j",
           "from": "Church St & 30th St",
+          "to": "San Jose Ave & 30th St",
+          "opened": null,
+          "sources": [
+            {
+              "source": "oshaughnessy-1929",
+              "supports": [
+                "route"
+              ],
+              "pages": "345",
+              "note": "Line No. 10 \"via ... San Jose Ave., 30th St., Chenery St.\" in 1929."
+            }
+          ],
+          "notes": "Street track older than the J's extension (1991): the Market Street Railway's No. 10 ran on 30th St from San Jose Ave to Chenery St, a block short of Church St, in 1929. When it first carried passengers isn't sourced yet.",
+          "structure": "street"
+        },
+        {
+          "id": "muni-j-san-jose-ave",
+          "name": "San Jose Ave and 30th St to Balboa Park",
+          "line": "muni-j",
+          "from": "San Jose Ave & 30th St",
           "to": "Balboa Park",
           "opened": "1991-08-31",
           "sources": [
@@ -983,10 +1081,30 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
         },
         {
-          "id": "muni-f-market-1st-kearny",
-          "name": "Market St, 1st St to Kearny St",
+          "id": "muni-f-market-1st-sutter",
+          "name": "Market St, 1st St to Sutter St",
           "line": "muni-f",
           "from": "Market St & 1st St",
+          "to": "Market St & Sutter St",
+          "opened": null,
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "29",
+              "note": "Muni's A line ran \"from Kearny & Market, on Geary\" from December 28, 1912."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Sutter St, where the Sutter St lines left Market St (Manley 1909, O'Shaughnessy 1929)."
+        },
+        {
+          "id": "muni-f-market-sutter-kearny",
+          "name": "Market St, Sutter St to Kearny St",
+          "line": "muni-f",
+          "from": "Market St & Sutter St",
           "to": "Market St & Kearny St",
           "opened": null,
           "both_ways": true,
@@ -1003,11 +1121,148 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
         },
         {
+          "id": "muni-f-market-kearny-powell",
+          "name": "Market St, Kearny St to Powell St",
+          "line": "muni-f",
+          "from": "Market St & Kearny St",
+          "to": "Powell St & Market St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Powell St, where Eddy St met Market St (the Turk and Eddy line, Manley 1909). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "muni-f-market-powell-mcallister",
+          "name": "Market St, Powell St to McAllister St",
+          "line": "muni-f",
+          "from": "Powell St & Market St",
+          "to": "Market St & McAllister St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at McAllister St, where the McAllister line left Market St (Manley 1909)."
+        },
+        {
+          "id": "muni-f-market-mcallister-hayes",
+          "name": "Market St, McAllister St to Hayes St",
+          "line": "muni-f",
+          "from": "Market St & McAllister St",
+          "to": "Market St & Hayes St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut where Hayes St met Market St (today it stops about 46 m short), where the Hayes St lines left Market St (Manley 1909)."
+        },
+        {
+          "id": "muni-f-market-hayes-haight",
+          "name": "Market St, Hayes St to Haight St",
+          "line": "muni-f",
+          "from": "Market St & Hayes St",
+          "to": "Market St & Haight St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883)."
+        },
+        {
+          "id": "muni-f-market-haight-valencia",
+          "name": "Market St, Haight St to Valencia St",
+          "line": "muni-f",
+          "from": "Market St & Haight St",
+          "to": "Market St & Valencia St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Valencia St, where the steam dummy (1860) and the Valencia St cable line (1883) left Market St."
+        },
+        {
           "id": "muni-f-market-st",
-          "name": "17th & Castro to Market & Drumm, on Market St",
+          "name": "Market St, 17th & Castro to Valencia St",
           "line": "muni-f",
           "from": "17th St & Castro St",
-          "to": "Market St & Drumm St",
+          "to": "Market St & Valencia St",
           "opened": null,
           "structure": "street",
           "both_ways": true,
@@ -1019,9 +1274,17 @@
               ],
               "pages": "80",
               "note": "\"The opening of the F Market historic streetcar line on Market St. between 17th & Castro and the Transbay Terminal is celebrated\" (September 1, 1995)."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "81",
+              "note": "The Castro St cable line, 1888; until 1906 it ran on Market St from Valencia St."
             }
           ],
-          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records. The F's Market St track east of Valencia St is cut into the stretches above."
         },
         {
           "id": "muni-f-embarcadero",
@@ -1264,6 +1527,10 @@
             "muni-k-ocean-ave": {
               "from": "1991-08-31",
               "note": "The J reached Balboa Park with its extension from 30th St, from August 31, 1991 (Callwell p. 70)."
+            },
+            "muni-j-30th-st": {
+              "from": "1991-08-31",
+              "note": "The J's extension to Balboa Park, from August 31, 1991 (Callwell p. 70)."
             }
           },
           "earlier_mode": {
@@ -1420,6 +1687,10 @@
             "muni-metro-extension": {
               "from": "1998-08-22",
               "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90)."
+            },
+            "muni-n-carl-cole-stanyan": {
+              "from": "1928-10-21",
+              "note": "The N from its opening on October 21, 1928 (Callwell p. 37), on street track the United Railroads used by 1909."
             }
           },
           "earlier_mode": {
@@ -1591,7 +1862,303 @@
             }
           ]
         }
-      }
+      },
+      "stations": {
+        "Sixteenth Street, West Oakland": [
+          -122.297821,
+          37.817497
+        ],
+        "Shell Mound": [
+          -122.2912,
+          37.8346
+        ],
+        "Port Costa": [
+          -122.182689,
+          38.046931
+        ],
+        "Benicia junction": [
+          -122.128005,
+          38.047605
+        ],
+        "Melrose": [
+          -122.213173,
+          37.765118
+        ],
+        "San Leandro": [
+          -122.164257,
+          37.72262
+        ],
+        "Niles": [
+          -121.977096,
+          37.577468
+        ],
+        "Newark junction": [
+          -122.032535,
+          37.525056
+        ],
+        "San José, the line's end": [
+          -121.903237,
+          37.331308
+        ]
+      },
+      "segments": [
+        {
+          "id": "cc-west-oakland-shell-mound",
+          "name": "West Oakland to Shell Mound",
+          "line": "capitol-corridor",
+          "from": "Sixteenth Street, West Oakland",
+          "to": "Shell Mound",
+          "opened": "1876-08-16",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "The Northern Railway: \"From West Oakland to Shell Mound the road was opened August 16, 1876\"."
+            }
+          ],
+          "notes": "The Northern Railway's line north from West Oakland, opened in 1876; the Capitol Corridor's trains have run on it since 1991. Cut at today's track nearest the old Sixteenth Street station and at Shell Mound as the 1899 San Francisco sheet labels it (south of today's Emeryville station). The first biennial report's OCR reads \"August 17, 1886\", a misreading."
+        },
+        {
+          "id": "cc-shell-mound-port-costa",
+          "name": "Shell Mound to Port Costa, by Berkeley, Richmond and Pinole",
+          "line": "capitol-corridor",
+          "from": "Shell Mound",
+          "to": "Port Costa",
+          "opened": "1878-01-09",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Martinez, January 9, 1878\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Shell Mound to Martinez January 9, 1878.\""
+            }
+          ],
+          "notes": "The Northern Railway's line along the bay shore to Martinez, opened in 1878. Cut at Port Costa, where trains for Sacramento took the train ferry to Benicia from 1879 to 1930; the slip as the 1898 Karquines sheet places it, on today's track."
+        },
+        {
+          "id": "cc-port-costa-martinez",
+          "name": "Port Costa to Martinez",
+          "line": "capitol-corridor",
+          "from": "Port Costa",
+          "to": "Martinez",
+          "opened": "1878-01-09",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Martinez, January 9, 1878\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Shell Mound to Martinez January 9, 1878.\""
+            }
+          ],
+          "notes": "The Northern Railway's line to Martinez, opened in 1878."
+        },
+        {
+          "id": "cc-martinez-benicia",
+          "name": "Martinez to Benicia, over the Martinez-Benicia bridge",
+          "line": "capitol-corridor",
+          "from": "Martinez",
+          "to": "Benicia junction",
+          "opened": "1930-10-15",
+          "sources": [
+            {
+              "source": "sp-bulletin-1930-11",
+              "supports": [
+                "opened"
+              ],
+              "pages": "3",
+              "note": "\"The Martinez-Benicia bridge was opened to regular train service on October 15\" (1930)."
+            }
+          ],
+          "notes": "The Southern Pacific's bridge across Suisun Bay, which replaced the train ferry from Port Costa. The first stretch east of Martinez is the older line toward Tracy (1878), dated here with the bridge. Cut where the bridge line meets the line of 1879 from Benicia's waterfront, near Army Point."
+        },
+        {
+          "id": "cc-benicia-suisun",
+          "name": "Benicia to Suisun-Fairfield, by Cordelia",
+          "line": "capitol-corridor",
+          "from": "Benicia junction",
+          "to": "Suisun-Fairfield",
+          "opened": "1879-12-28",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "10",
+              "note": "\"to Suisun, December 28, 1879, joining there the California Pacific Railroad\"."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "46",
+              "note": "\"From Benicia to Suisun December 28, 1879.\""
+            }
+          ],
+          "notes": "The Northern Railway's line from the Benicia ferry slip to Suisun, opened in 1879; today's track joins it near Army Point."
+        },
+        {
+          "id": "cc-suisun-davis",
+          "name": "Suisun-Fairfield to Davis, by Dixon",
+          "line": "capitol-corridor",
+          "from": "Suisun-Fairfield",
+          "to": "Davis",
+          "opened": null,
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "The Northern Railway joined \"the California Pacific Railroad\" at Suisun, \"forming a short line from San Francisco to Sacramento\"."
+            }
+          ],
+          "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
+        },
+        {
+          "id": "cc-melrose-san-leandro",
+          "name": "Melrose to San Leandro, by Elmhurst",
+          "line": "capitol-corridor",
+          "from": "Melrose",
+          "to": "San Leandro",
+          "opened": "1869-11-08",
+          "sources": [
+            {
+              "source": "halley-1876",
+              "supports": [
+                "opened"
+              ],
+              "pages": "280-281",
+              "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "31",
+              "note": "The Central Pacific's return: \"To San Francisco … About December 1, 1869.\""
+            }
+          ],
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+        },
+        {
+          "id": "cc-san-leandro-niles",
+          "name": "San Leandro to Niles, by Hayward",
+          "line": "capitol-corridor",
+          "from": "San Leandro",
+          "to": "Niles",
+          "opened": "1869-09-08",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "31",
+              "note": "\"To Alameda Wharf September 8, 1869\", by this line and the San Francisco & Alameda from San Leandro."
+            },
+            {
+              "source": "halley-1876",
+              "supports": [
+                "opened"
+              ],
+              "pages": "279",
+              "note": "\"the arrival there [at San Leandro] of the first train of the Western Pacific Railroad, through from Sacramento, on Monday evening, September 6th\"."
+            }
+          ],
+          "notes": "The Western Pacific's line of 1869 from Niles, opened for public use September 8, 1869 (its first train reached San Leandro on the 6th); OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Niles, where the old line went on east into Niles Canyon."
+        },
+        {
+          "id": "cc-centerville-newark",
+          "name": "Centerville (Fremont) to Newark",
+          "line": "capitol-corridor",
+          "from": "Fremont",
+          "to": "Newark junction",
+          "opened": "1882-02-18",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "The South Pacific Coast's return: \"From Newark to Centreville February 18, 1882.\""
+            }
+          ],
+          "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "line": "capitol-corridor",
+          "from": "Newark junction",
+          "to": "Santa Clara Amtrak",
+          "opened": "1878-06-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "\"From Alameda Point to Los Gatos June 1, 1878\", through Newark and Santa Clara."
+            }
+          ],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "line": "capitol-corridor",
+          "from": "Santa Clara Amtrak",
+          "to": "San José, the line's end",
+          "opened": "1864-01-16",
+          "sources": [
+            {
+              "source": "caltrain-early-milestones",
+              "supports": [
+                "opened"
+              ],
+              "note": "January 16, 1864: \"The line is completed to San Jose.\""
+            },
+            {
+              "source": "sf-business-directory-1864",
+              "supports": [
+                "opened"
+              ],
+              "pages": "283",
+              "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+            }
+          ],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
+        }
+      ]
     },
     "gold-runner": {
       "lines": {
@@ -1771,11 +2338,150 @@
     "smart": {
       "segments": [
         {
-          "id": "smart-airport-san-rafael",
-          "name": "Sonoma County Airport to San Rafael",
+          "id": "smart-petaluma-santa-rosa",
+          "name": "Petaluma to Santa Rosa",
+          "line": "smart",
+          "from": "SMART Petaluma Downtown",
+          "to": "SMART Santa Rosa Downtown",
+          "opened": "1870-10",
+          "sources": [
+            {
+              "source": "sonoma-history-1880",
+              "supports": [
+                "opened"
+              ],
+              "pages": "301-302",
+              "note": "\"the road to Santa Rosa was completed in October, and a passenger car at once put on the route\" (p. 301); the inaugural excursion from San Francisco to Santa Rosa ran \"on the last day of the year 1870\" (p. 302)."
+            },
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "The railroad's own date, \"Road opened from Donahue to Santa Rosa (23 miles), January 1, 1870\", which comes before the line was built (August to October 1870, Sonoma County history); the map takes October 1870."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "The same January 1, 1870, as the company reported it."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line of 1870; SMART has run on it since 2017. The company's own returns date it January 1, 1870, before its building in the autumn of 1870 as the county history tells it, so the map takes the history's October 1870."
+        },
+        {
+          "id": "smart-santa-rosa-airport",
+          "name": "Santa Rosa to Sonoma County Airport",
+          "line": "smart",
+          "from": "SMART Santa Rosa Downtown",
+          "to": "SMART Sonoma County Airport",
+          "opened": "1871-03-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"to Windsor (9 miles), March 1, 1871\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"to Windsor (9 miles) March 1, 1871\"."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line from Santa Rosa to Windsor, opened in 1871; SMART has run on it since 2017."
+        },
+        {
+          "id": "smart-airport-windsor",
+          "name": "Sonoma County Airport to Windsor",
           "line": "smart",
           "from": "SMART Sonoma County Airport",
-          "to": "San Rafael Transit Center",
+          "to": "SMART Windsor",
+          "opened": "1871-03-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"to Windsor (9 miles), March 1, 1871\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"to Windsor (9 miles) March 1, 1871\"."
+            },
+            {
+              "source": "mtc-smart-windsor-2025",
+              "supports": [
+                "opened"
+              ],
+              "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's line to Windsor, opened in 1871. SMART's trains reached Windsor in May 2025: MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
+        },
+        {
+          "id": "smart-san-rafael-petaluma",
+          "name": "San Rafael to Petaluma",
+          "line": "smart",
+          "from": "San Rafael Transit Center",
+          "to": "SMART Petaluma Downtown",
+          "opened": "1879-06-02",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "16",
+              "note": "\"the Petaluma branch June 2, 1879\"."
+            },
+            {
+              "source": "poors-1885",
+              "supports": [
+                "opened"
+              ],
+              "pages": "873-875",
+              "note": "\"the Petaluma Branch June 2, 1879\"."
+            }
+          ],
+          "notes": "The San Francisco & North Pacific's Petaluma branch of 1879, from San Rafael; SMART has run on it since 2017. The branch met the line from Donahue at a junction near Petaluma (Poor's Manual, 1887), so the last stretch into Petaluma may be older. Through Petaluma, OpenHistoricalMap's tracing of the 1914 sheet runs up to 140 m from today's track."
+        },
+        {
+          "id": "smart-san-rafael-larkspur",
+          "name": "San Rafael to Larkspur",
+          "line": "smart",
+          "from": "San Rafael Transit Center",
+          "to": "SMART Larkspur",
+          "opened": "1885-05-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-10",
+              "supports": [
+                "opened"
+              ],
+              "pages": "121",
+              "note": "\"From San Rafael to Tiburon … May 1, 1885\", opened for public use. The table's dates are printed in a column apart from its stretches and read here in order, nine dates for nine stretches; the OCR loses the running head, so the page is the research notes'."
+            }
+          ],
+          "notes": "The line from San Rafael to Tiburon of 1885, through the Cal Park Hill tunnel, which the San Francisco & North Pacific leased as part of its main line (the Commissioners' report, p. 16); OpenHistoricalMap's tracing of the 1897 sheet places it within about 30 m of today's track. SMART's trains reached Larkspur on December 14, 2019."
+        }
+      ],
+      "lines": {
+        "smart": {
           "opened": "2017-08-25",
           "sources": [
             {
@@ -1794,63 +2500,17 @@
               "note": "\"SMART service began from the Santa Rosa Airport to downtown San Rafael in August 2017\""
             }
           ],
-          "notes": "Over the Northwestern Pacific's right-of-way, rebuilt; its older dates are for the past era."
-        },
-        {
-          "id": "smart-san-rafael-larkspur",
-          "name": "San Rafael to Larkspur",
-          "line": "smart",
-          "from": "San Rafael Transit Center",
-          "to": "SMART Larkspur",
-          "opened": "2019-12-14",
-          "sources": [
-            {
-              "source": "smart-gm-report-2019-12",
-              "supports": [
-                "opened"
-              ],
-              "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations.\""
+          "notes": "SMART began on August 25, 2017 between the Sonoma County Airport and San Rafael. Its track is older: the San Francisco & North Pacific's of 1870-79 and the line to Tiburon of 1885, dated here stretch by stretch for the past era, as Caltrain's is.",
+          "route_from": {
+            "smart-san-rafael-larkspur": {
+              "from": "2019-12-14",
+              "note": "The Holiday Express of Saturday, December 14, 2019, \"marking the official start of passenger service to the new Novato Downtown and Larkspur stations\" (SMART's general manager's report, December 2019)."
             },
-            {
-              "source": "smart-5th-anniversary-2022",
-              "supports": [
-                "opened"
-              ],
-              "note": "\"SMART opened two new stations in December 2019: the Novato Downtown Station and the Larkspur Station\""
+            "smart-airport-windsor": {
+              "from": "2025-05",
+              "note": "MTC, May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\"; only the month is given."
             }
-          ]
-        },
-        {
-          "id": "smart-airport-windsor",
-          "name": "Sonoma County Airport to Windsor",
-          "line": "smart",
-          "from": "SMART Sonoma County Airport",
-          "to": "SMART Windsor",
-          "opened": "2025-05",
-          "sources": [
-            {
-              "source": "mtc-smart-windsor-2025",
-              "supports": [
-                "opened"
-              ],
-              "note": "May 30, 2025: \"Passenger service to the new Windsor station started over the weekend\""
-            }
-          ],
-          "notes": "MTC's post is dated Friday, May 30, 2025, so which weekend it means isn't clear; only the month is given."
-        }
-      ],
-      "lines": {
-        "smart": {
-          "opened": "2017-08-25",
-          "sources": [
-            {
-              "source": "smart-5th-anniversary-2022",
-              "supports": [
-                "opened"
-              ],
-              "note": "\"Since the start of service on August 25, 2017\""
-            }
-          ]
+          }
         }
       },
       "points": {

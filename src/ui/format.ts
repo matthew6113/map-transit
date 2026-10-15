@@ -33,4 +33,15 @@ export function formatYears(opened: string | null, closed: string | null, status
   return `${opened ? formatDate(opened) : 'opening not sourced'} to ${closed ? formatDate(closed) : 'closing not sourced'}`;
 }
 
+/**
+ * A closed line whose opening or closing isn't sourced, drawn for the dates a source shows it
+ * running (decision 20): "Running by February 1, 1909; until at least May 1929".
+ */
+export function formatRunning(opened: string | null, closed: string | null, running: { date: string }[]): string {
+  const dates = running.map((r) => r.date).sort();
+  const first = opened ? formatDate(opened) : `Running by ${formatDate(dates[0])}`;
+  const last = closed ? `to ${formatDate(closed)}` : `until at least ${formatDate(dates[dates.length - 1])}`;
+  return `${first}; ${last}`;
+}
+
 export const modeVar = (group: string) => `var(--mode-${group.replace(/_/g, '-')})`;

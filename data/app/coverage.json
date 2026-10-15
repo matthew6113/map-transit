@@ -1,36 +1,37 @@
 {
   "past": {
-    "lines": 36,
-    "segments": 136,
+    "lines": 106,
+    "segments": 437,
     "points": 11,
     "km_by_confidence": {
-      "approximate": 76.5,
-      "digitized": 235.0
+      "approximate": 110.4,
+      "digitized": 467.1,
+      "surveyed": 459.2
     },
-    "undated_segments": 9,
-    "borrowed_dates": 104,
+    "undated_segments": 8,
+    "borrowed_dates": 393,
     "flags": {
-      "closed_unsourced": 113,
-      "conflicting_sources": 9,
-      "geometry_unverified": 4,
+      "closed_unsourced": 429,
+      "conflicting_sources": 12,
+      "geometry_unverified": 6,
       "needs_manual_digitizing": 7,
-      "opened_unsourced": 86,
+      "opened_unsourced": 401,
       "page_unverified": 1
     }
   },
   "present": {
     "lines": 44,
-    "segments": 101,
+    "segments": 131,
     "points": 275,
     "km_by_confidence": {
-      "surveyed": 1939.3
+      "surveyed": 1676.9
     },
-    "undated_segments": 9,
-    "borrowed_dates": 28,
+    "undated_segments": 12,
+    "borrowed_dates": 40,
     "flags": {
       "conflicting_sources": 4,
-      "license_unclear": 35,
-      "opened_unsourced": 320
+      "license_unclear": 32,
+      "opened_unsourced": 335
     }
   },
   "future": {

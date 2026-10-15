@@ -62,6 +62,44 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-sn', url: '/l/sn-oakland-sacramento?era=past&year=1925&test=1&at=99' },
   { name: 'past-line-nwp-san-rafael', url: '/l/nwp-sausalito-san-rafael?era=past&year=1925&test=1&at=99' },
   { name: 'past-line-muni-h', url: '/l/muni-h-potrero?era=past&year=1930&test=1&at=99' },
+  // Checkpoint 2c (with the region views above, re-taken): the Sacramento Northern to the county
+  // line, San Francisco and Oakland close in, and the new lines' panels.
+  { name: 'past-region-wide-1925', url: '/?era=past&year=1925&test=1#map=8.7/37.9800/-122.1500/0/0' },
+  { name: 'past-mallard-1925', url: '/?era=past&year=1925&test=1#map=13.2/38.0450/-121.9300/0/0' },
+  { name: 'past-sf-1865', url: '/?era=past&year=1865&test=1#map=13.6/37.7750/-122.4150/0/0' },
+  { name: 'past-sf-market-1890', url: '/?era=past&year=1890&test=1#map=13.4/37.7740/-122.4300/0/0' },
+  { name: 'past-oakland-1915', url: '/?era=past&year=1915&test=1#map=13.8/37.8150/-122.2700/0/0' },
+  { name: 'past-oakland-1930', url: '/?era=past&year=1930&test=1#map=13.0/37.8250/-122.2650/0/0' },
+  { name: 'past-line-sf-steam-dummy', url: '/l/sf-market-st-steam-dummy?era=past&year=1865&test=1&at=99' },
+  { name: 'past-line-sf-market-valencia-cable', url: '/l/sf-market-valencia-cable?era=past&year=1890&test=1&at=99' },
+  { name: 'past-line-key-e', url: '/l/key-e?era=past&year=1930&test=1&at=99' },
+  { name: 'past-line-sp-eighteenth-street', url: '/l/sp-eighteenth-street?era=past&year=1920&test=1&at=99' },
+  // The Market Street Railway's numbered lines, drawn for the years Manley (1909) and O'Shaughnessy
+  // (1929) show them running (decision 20).
+  { name: 'past-sf-streetcars-1910', url: '/?era=past&year=1910&test=1#map=12.7/37.7720/-122.4380/0/0' },
+  { name: 'past-sf-streetcars-1929', url: '/?era=past&year=1929&test=1#map=12.7/37.7720/-122.4380/0/0' },
+  { name: 'past-sf-downtown-1929', url: '/?era=past&year=1929&test=1#map=14.4/37.7850/-122.4080/0/0' },
+  { name: 'past-line-msry-21', url: '/l/msry-21?era=past&year=1929&test=1&at=99' },
+  { name: 'past-line-msry-6', url: '/l/msry-6?era=past&year=1910&test=1&at=99' },
+  // The East Bay's streetcars, from the Railroad Commission's orders of 1931-48 (decision 20).
+  { name: 'past-sf-streetcars-1940', url: '/?era=past&year=1940&test=1#map=12.7/37.7720/-122.4380/0/0' },
+  { name: 'past-bay-ferries-1900', url: '/?era=past&year=1900&test=1#map=11.2/37.8300/-122.3300/0/0' },
+  { name: 'past-bay-ferries-1925', url: '/?era=past&year=1925&test=1#map=10.6/37.8600/-122.3600/0/0' },
+  { name: 'past-oakland-streetcars-1935', url: '/?era=past&year=1935&test=1#map=12.4/37.8150/-122.2400/0/0' },
+  { name: 'past-oakland-streetcars-1947', url: '/?era=past&year=1947&test=1#map=12.4/37.8150/-122.2400/0/0' },
+  { name: 'past-line-eb-11', url: '/l/eb-11-oakland-ave?era=past&year=1942&test=1&at=99' },
+  { name: 'past-marin-1900', url: '/?era=past&year=1900&test=1#map=9.6/38.1600/-122.7500/0/0' },
+  { name: 'past-marin-1931', url: '/?era=past&year=1931&test=1#map=9.6/38.1600/-122.7500/0/0' },
+  { name: 'past-line-npc', url: '/l/npc-main-line?era=past&year=1900&test=1&at=99' },
+  { name: 'past-line-msry-40', url: '/l/msry-40?era=past&year=1930&test=1&at=99' },
+  { name: 'past-north-bay-1880', url: '/?era=past&year=1880&test=1#map=9.2/38.2500/-122.7000/0/0' },
+  { name: 'past-north-bay-1940', url: '/?era=past&year=1940&test=1#map=9.2/38.2500/-122.7000/0/0' },
+  { name: 'past-line-sfnp-tiburon', url: '/l/sfnp-tiburon?era=past&year=1888&test=1&at=99' },
+  { name: 'present-smart', url: '/?era=present&test=1#map=9.6/38.2000/-122.6500/0/0' },
+  { name: 'past-line-cp-benicia', url: '/l/cp-oakland-sacramento-benicia?era=past&year=1900&test=1&at=99' },
+  { name: 'past-carquinez-1900', url: '/?era=past&year=1900&test=1#map=12.6/38.0450/-122.1550/0/0' },
+  { name: 'past-line-spc', url: '/l/spc-alameda-santa-cruz?era=past&year=1895&test=1&at=99' },
+  { name: 'past-line-napa', url: '/l/calp-vallejo-calistoga?era=past&year=1900&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

@@ -37,6 +37,12 @@
       "short_name": "High-speed rail"
     },
     {
+      "id": "california-pacific",
+      "name": "California Pacific Railroad",
+      "short_name": "California Pacific",
+      "notes": "From the ferry at South Vallejo to Sacramento (1868-69), with the Napa Valley Railroad (1865-68) as its branch from Napa Junction to Calistoga; part of the Central Pacific's system from 1871 and leased to it from 1876."
+    },
+    {
       "id": "california-street-cable-railroad",
       "name": "California Street Cable Railroad",
       "short_name": "Cal Cable",
@@ -48,10 +54,22 @@
       "short_name": "Caltrain"
     },
     {
+      "id": "central-pacific",
+      "name": "Central Pacific Railroad",
+      "short_name": "Central Pacific",
+      "notes": "The Pacific Railroad's western end: the 1869 line into Oakland, and its Northern Railway along the bay shore to Martinez (1876-78) and by the Benicia train ferry to Suisun (1879). Leased to the Southern Pacific Company from 1885."
+    },
+    {
       "id": "clay-street-hill-railroad",
       "name": "Clay Street Hill Railroad",
       "short_name": "Clay St Hill RR",
       "notes": "Andrew Hallidie's first cable railway, 1873."
+    },
+    {
+      "id": "east-bay-streetcars",
+      "name": "East Bay streetcars (Oakland Traction and its successors)",
+      "short_name": "East Bay streetcars",
+      "notes": "The local streetcar lines of Oakland, Berkeley, Alameda and Richmond, run by the Oakland Traction Company, then East Bay Street Railways (from 1930), East Bay Transit (from 1936) and Key System (from the 1940s), until the last cars of 1948. Each line lists the operator its orders name."
     },
     {
       "id": "ferries-cliff-house-railway",
@@ -68,6 +86,12 @@
       "id": "gold-runner",
       "name": "Gold Runner (formerly the San Joaquins)",
       "short_name": "Gold Runner"
+    },
+    {
+      "id": "golden-gate-ferries",
+      "name": "Golden Gate Ferries",
+      "short_name": "Golden Gate Ferries",
+      "notes": "The auto ferries from Hyde Street, 1922–1938: Golden Gate Ferries, Ltd., then from 1929 Southern Pacific-Golden Gate Ferries, Ltd. Not today's Golden Gate Ferry."
     },
     {
       "id": "golden-gate-ferry",
@@ -92,9 +116,32 @@
       "short_name": "Market St Cable"
     },
     {
+      "id": "market-street-railway",
+      "name": "Market Street Railway and United Railroads",
+      "short_name": "Market St Ry / URR"
+    },
+    {
+      "id": "martinez-benicia-ferry",
+      "name": "Martinez–Benicia ferry",
+      "short_name": "Martinez–Benicia ferry",
+      "notes": "Auto ferries across the Carquinez Strait, 1913-1962."
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"
+    },
+    {
+      "id": "north-pacific-coast",
+      "name": "North Pacific Coast Railroad",
+      "short_name": "North Pacific Coast",
+      "notes": "A narrow-gauge railroad from the ferry at Sausalito by San Anselmo, White's Hill, Point Reyes and Tomales to the Russian River (1875-77) and Cazadero (1886). Its successors, the North Shore Railroad and the Northwestern Pacific, electrified the Sausalito-San Anselmo end in 1903 and ran the rest by steam until 1930-33."
+    },
+    {
+      "id": "northwestern-pacific",
+      "name": "Northwestern Pacific Railroad",
+      "short_name": "Northwestern Pacific",
+      "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
     },
     {
       "id": "presidio-ferries-railroad",
@@ -102,9 +149,31 @@
       "short_name": "Presidio & Ferries"
     },
     {
+      "id": "richmond-san-rafael-ferry",
+      "name": "Richmond and San Rafael Ferry and Transportation Co.",
+      "short_name": "Richmond-San Rafael ferry"
+    },
+    {
+      "id": "sacramento-northern",
+      "name": "Sacramento Northern Railway",
+      "short_name": "Sacramento Northern",
+      "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
+    },
+    {
       "id": "san-francisco-bay-ferry",
       "name": "San Francisco Bay Ferry",
       "short_name": "San Francisco Bay Ferry"
+    },
+    {
+      "id": "sf-market-street-railroad",
+      "name": "San Francisco Market Street Railroad",
+      "short_name": "SF Market St RR"
+    },
+    {
+      "id": "sf-north-pacific",
+      "name": "San Francisco and North Pacific Railroad",
+      "short_name": "San Francisco & North Pacific",
+      "notes": "Peter Donahue's railroad from the steamer landing at Donahue by Petaluma to Santa Rosa (1870) and Cloverdale (1872), with a branch from San Rafael (1879) and a line to the ferry at Point Tiburon (1885); part of the Northwestern Pacific from 1907. SMART runs on much of its track."
     },
     {
       "id": "sfo-airtrain",
@@ -115,6 +184,12 @@
       "id": "smart",
       "name": "Sonoma-Marin Area Rail Transit",
       "short_name": "SMART"
+    },
+    {
+      "id": "south-pacific-coast",
+      "name": "South Pacific Coast Railway",
+      "short_name": "South Pacific Coast",
+      "notes": "A narrow-gauge railroad from Alameda by Newark and San José to Los Gatos (1878) and over the Santa Cruz Mountains to Santa Cruz (1880), leased to the Southern Pacific from 1887."
     },
     {
       "id": "southern-pacific",
@@ -133,6 +208,12 @@
       "short_name": "Treasure Island Ferry"
     },
     {
+      "id": "vallejo-ferry",
+      "name": "San Francisco-Vallejo ferry",
+      "short_name": "Vallejo ferry",
+      "notes": "The Hatch brothers' ferry of 1895, the Monticello Steamship Co.'s from 1904, then the Golden Gate Ferry Co.'s and from 1929 Southern Pacific Golden Gate Ferries'."
+    },
+    {
       "id": "valley-link",
       "name": "Valley Link",
       "short_name": "Valley Link"
@@ -141,30 +222,6 @@
       "id": "vta",
       "name": "Santa Clara Valley Transportation Authority",
       "short_name": "VTA"
-    },
-    {
-      "id": "golden-gate-ferries",
-      "name": "Golden Gate Ferries",
-      "short_name": "Golden Gate Ferries",
-      "notes": "The auto ferries from Hyde Street, 1922–1938: Golden Gate Ferries, Ltd., then from 1929 Southern Pacific-Golden Gate Ferries, Ltd. Not today's Golden Gate Ferry."
-    },
-    {
-      "id": "northwestern-pacific",
-      "name": "Northwestern Pacific Railroad",
-      "short_name": "Northwestern Pacific",
-      "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
-    },
-    {
-      "id": "sacramento-northern",
-      "name": "Sacramento Northern Railway",
-      "short_name": "Sacramento Northern",
-      "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
-    },
-    {
-      "id": "vallejo-ferry",
-      "name": "San Francisco-Vallejo ferry",
-      "short_name": "Vallejo ferry",
-      "notes": "The Hatch brothers' ferry of 1895, the Monticello Steamship Co.'s from 1904, then the Golden Gate Ferry Co.'s and from 1929 Southern Pacific Golden Gate Ferries'."
     }
   ]
 }

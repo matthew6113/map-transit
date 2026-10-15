@@ -99,7 +99,12 @@
           "note": "On Market St's outside tracks to the Ferry Building until March 21, 1949"
         },
         {
-          "segment": "muni-f-market-1st-kearny",
+          "segment": "muni-f-market-1st-sutter",
+          "from": "1913-06-25",
+          "note": "On Market St's outside tracks"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny",
           "from": "1913-06-25",
           "note": "On Market St's outside tracks"
         },
@@ -336,7 +341,10 @@
           "note": "To the Ferry Building until March 21, 1949"
         },
         {
-          "segment": "muni-f-market-1st-kearny"
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
         },
         {
           "segment": "muni-geary-market-van-ness"
@@ -451,7 +459,11 @@
           "note": "To the Ferry Building, from 1915 until the Bridge Terminal took over on January 1, 1941"
         },
         {
-          "segment": "muni-f-market-1st-kearny",
+          "segment": "muni-f-market-1st-sutter",
+          "from": "1915"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny",
           "from": "1915"
         },
         {

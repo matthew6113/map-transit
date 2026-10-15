@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'preact/hooks';
 import type { LineRecord, ResolvedSource } from '../data/catalog';
 import { CONFIDENCE, FLAGS, STATUSES } from '../data/vocab';
-import { formatDate, formatLength, formatYears, modeVar, trackFrom } from './format';
+import { formatDate, formatLength, formatRunning, formatYears, modeVar, trackFrom } from './format';
 
 interface Props {
   line: LineRecord;
@@ -34,7 +34,9 @@ export function LinePanel({ line, onClose }: Props) {
   }, [line.id]);
 
   const future = line.era === 'future';
-  const years = formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
+  const running = line.status === 'closed' && line.running?.length ? line.running : null;
+  const years = running ? formatRunning(line.opened, line.closed, running)
+    : formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
   const gauge = line.gauge_label ?? (line.gauge_mm ? `${line.gauge_mm} mm` : undefined);
   const traction = line.traction?.map((t) => `${t.type.replace(/_/g, ' ')}${t.from ? ` from ${formatDate(t.from)}` : ''}${t.to ? ` to ${formatDate(t.to)}` : ''}`).join('; ');
   const borrowed = line.segments.some((s) => s.borrowed);
@@ -76,6 +78,21 @@ export function LinePanel({ line, onClose }: Props) {
           {traction && <div><dt>Power</dt><dd>{traction}</dd></div>}
           <div><dt>Length as drawn</dt><dd>{formatLength(line.length_km)}</dd></div>
         </dl>
+        {running && (
+          <p class="small">
+            {!line.opened && !line.closed
+              ? 'Its opening and closing aren\'t sourced, so the map shows it only for the years a source shows it running'
+              : !line.opened
+                ? 'Its opening isn\'t sourced, so the map shows it from the first date a source shows it running'
+                : 'Its closing isn\'t sourced, so the map shows it until the last date a source shows it running'}, in a
+            lighter tint:{' '}
+            {running.map((r, i) => {
+              const s = line.sources.find((x) => x.source === r.source);
+              const who = s ? (s.author ?? s.publisher ?? s.title).split(',')[0] : r.source;
+              return <span key={r.date}>{i ? '; ' : ''}{formatDate(r.date)} ({who}{r.pages ? `, p. ${r.pages}` : ''})</span>;
+            })}.
+          </p>
+        )}
         {line.continues_beyond && <p class="small">Continues beyond the map to {line.continues_beyond}.</p>}
       </section>
 
@@ -109,7 +126,10 @@ export function LinePanel({ line, onClose }: Props) {
                 {(s.from || s.to) && (
                   <span class="small">This line used it {s.from ? `from ${formatDate(s.from)}` : ''}{s.from && s.to ? ' ' : ''}{s.to ? `to ${formatDate(s.to)}` : ''}{s.note ? `: ${s.note}` : ''}.</span>
                 )}
-                {!s.from && !s.to && s.note && <span class="small">{s.note}</span>}
+                {!s.from && !s.to && s.running && (
+                  <span class="small">Shown in this line's route on {s.running.map(formatDate).join(' and ')} only{s.note ? `: ${s.note}` : ''}.</span>
+                )}
+                {!s.from && !s.to && !s.running && s.note && <span class="small">{s.note}</span>}
                 <span class="small method">{s.method}</span>
                 {s.notes && <span class="small">{s.notes}</span>}
                 {s.flags.length > 0 && <span class="small flags-inline">Still to check: {s.flags.map((f) => FLAGS[f] ?? f).join(' ')}</span>}

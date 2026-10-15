@@ -1,0 +1,156 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the North Pacific Coast from OpenHistoricalMap's ways (ohm.py), checked on the USGS sheets of its years (1897-1916) and on later ones where it had closed (1935, 1945).",
+ "segments": {
+  "npc-san-anselmo-manor": {
+   "parts": [
+    {
+     "join": "nwp-corte-madera-san-anselmo",
+     "at": "end"
+    },
+    {
+     "ohm": [
+      200221492
+     ],
+     "from": [
+      -122.562102,
+      37.977386
+     ],
+     "to": [
+      -122.592,
+      37.992
+     ]
+    }
+   ],
+   "check": [
+    "usgs-tamalpais-1897",
+    "usgs-tamalpais-1941"
+   ],
+   "note": "Cut at San Anselmo and at Manor as the 1941 sheet labels them. OpenHistoricalMap's way here was traced from the 1897 15-minute sheet: on the 1941 sheet it runs 40-60 m north-east of the track, and a straight join of 97 m meets the electric line's track at San Anselmo. It needs a fit (decision 12) or a trace from a better map"
+  },
+  "npc-manor-point-reyes": {
+   "parts": [
+    {
+     "ohm": [
+      200221492,
+      202387716,
+      202387717,
+      202387713
+     ],
+     "from": [
+      -122.592,
+      37.992
+     ],
+     "to": [
+      -122.806,
+      38.068
+     ]
+    }
+   ],
+   "check": [
+    "usgs-tamalpais-1897",
+    "usgs-petaluma-1914",
+    "usgs-point-reyes-1916"
+   ],
+   "note": "Cut at Manor (1941 sheet) and at Point Reyes Station (1916 sheet). From Manor to White's Hill (about 2 km) OpenHistoricalMap's way was traced from the 1897 15-minute sheet and is likely tens of metres off, as it is from San Anselmo to Manor; beyond, its ways follow the railroad on the 1914 and 1916 sheets"
+  },
+  "npc-point-reyes-tomales": {
+   "parts": [
+    {
+     "ohm": [
+      202387713
+     ],
+     "from": [
+      -122.806,
+      38.068
+     ],
+     "to": [
+      -122.904,
+      38.2475
+     ]
+    }
+   ],
+   "check": "usgs-point-reyes-1916",
+   "note": "Cut at Point Reyes Station and at Tomales as the 1916 sheet labels them"
+  },
+  "npc-tomales-occidental": {
+   "parts": [
+    {
+     "ohm": [
+      202387713
+     ],
+     "from": [
+      -122.904,
+      38.2475
+     ],
+     "to": [
+      -122.943,
+      38.405
+     ]
+    }
+   ],
+   "check": [
+    "usgs-point-reyes-1916",
+    "usgs-sebastopol-1935"
+   ],
+   "note": "Cut at Tomales (1916 sheet) and at Occidental (1935 sheet); the 1935 sheet, surveyed after the line closed, shows the towns it ran through but not its track"
+  },
+  "npc-occidental-tyrone": {
+   "parts": [
+    {
+     "ohm": [
+      202387713,
+      202387714,
+      202387715
+     ],
+     "from": [
+      -122.943,
+      38.405
+     ],
+     "to": [
+      -123.002,
+      38.448
+     ]
+    }
+   ],
+   "check": [
+    "usgs-sebastopol-1935",
+    "usgs-duncans-mills-1945"
+   ],
+   "note": "Cut at Occidental (1935 sheet) and at Tyrone (1945 sheet)"
+  },
+  "npc-tyrone-monte-rio": {
+   "parts": [
+    {
+     "ohm": [
+      202387715
+     ],
+     "from": [
+      -123.002,
+      38.448
+     ],
+     "to": [
+      -123.01,
+      38.4642
+     ]
+    }
+   ],
+   "check": "usgs-duncans-mills-1945",
+   "note": "Cut at Tyrone and at Monte Rio as the 1945 sheet labels them"
+  },
+  "npc-monte-rio-sheridan": {
+   "parts": [
+    {
+     "ohm": [
+      202387715
+     ],
+     "from": [
+      -123.01,
+      38.4642
+     ]
+    }
+   ],
+   "check": "usgs-duncans-mills-1945",
+   "note": "Cut at Monte Rio as the 1945 sheet labels it"
+  }
+ }
+}

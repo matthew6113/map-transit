@@ -1,0 +1,92 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Central Pacific's lines off today's track.",
+ "segments": {
+  "cp-port-costa-benicia-ferry": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.1837,
+       38.046
+      ],
+      [
+       -122.164852,
+       38.044654
+      ]
+     ]
+    }
+   ],
+   "check": "usgs-karquines-1898",
+   "note": "Port Costa's slip read off the 1898 Karquines sheet; Benicia's at the end of the waterfront track"
+  },
+  "cp-benicia-waterfront": {
+   "parts": [
+    {
+     "ohm": [
+      200464960
+     ],
+     "to": [
+      -122.128005,
+      38.047605
+     ]
+    }
+   ],
+   "check": [
+    "usgs-karquines-1898",
+    "usgs-benicia-1952"
+   ],
+   "note": "Cut where it meets today's track near Army Point. OpenHistoricalMap's way was traced from the 1902 Napa sheet (1:125,000); on the 1952 sheet it lies along the waterfront track"
+  },
+  "cp-niles-livermore": {
+   "parts": [
+    {
+     "ohm": [
+      200468434,
+      198748671,
+      200468292,
+      200451847
+     ]
+    }
+   ],
+   "check": [
+    "usgs-niles-1953",
+    "usgs-la-costa-valley-1953",
+    "usgs-livermore-1953"
+   ],
+   "note": "OpenHistoricalMap's ways, traced from the 1906 Pleasanton sheet; checked on the 1953 sheets, from photographs of 1948-49, while the track was still there"
+  },
+  "cp-livermore-altamont": {
+   "parts": [
+    {
+     "ohm": [
+      198692748,
+      199905080
+     ]
+    }
+   ],
+   "clip": "county",
+   "check": [
+    "usgs-livermore-1953",
+    "usgs-altamont-1953",
+    "usgs-midway-1953"
+   ],
+   "note": "OpenHistoricalMap's way, traced from the 1907 Tesla sheet; checked on the 1953 sheets"
+  },
+  "cp-niles-san-jose": {
+   "parts": [
+    {
+     "ohm": [
+      200451850,
+      200468435
+     ]
+    }
+   ],
+   "check": [
+    "usgs-niles-1953",
+    "usgs-milpitas-1953",
+    "usgs-san-jose-1943"
+   ],
+   "note": "OpenHistoricalMap's ways, traced from the 1906 Pleasanton and 1897 San Jose sheets"
+  }
+ }
+}

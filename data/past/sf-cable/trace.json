@@ -99,13 +99,27 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15
     },
-    "sf-sutter-larkin-presidio": {
+    "sf-sutter-larkin-fillmore": {
       "parts": [
         {
           "streets": [
             "Sutter Street"
           ],
           "from": "Larkin Street",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-sutter-fillmore-presidio": {
+      "parts": [
+        {
+          "streets": [
+            "Sutter Street"
+          ],
+          "from": "Fillmore Street",
           "to": "Presidio Avenue",
           "area": "sf"
         }
@@ -211,13 +225,27 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15
     },
-    "sf-jackson-hyde-steiner": {
+    "sf-jackson-hyde-fillmore": {
       "parts": [
         {
           "streets": [
             "Jackson Street"
           ],
           "from": "Hyde Street",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-jackson-fillmore-steiner": {
+      "parts": [
+        {
+          "streets": [
+            "Jackson Street"
+          ],
+          "from": "Fillmore Street",
           "to": "Steiner Street",
           "area": "sf"
         }
@@ -360,6 +388,77 @@
           ],
           "from": "18th Street",
           "to": "26th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-valencia-market-16th": {
+      "parts": [
+        {
+          "streets": [
+            "Valencia Street"
+          ],
+          "from": "Market Street",
+          "to": "16th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-valencia-16th-mission": {
+      "parts": [
+        {
+          "streets": [
+            "Valencia Street"
+          ],
+          "from": "16th Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "The North sheet covers it as far south as Cesar Chavez St; the last few blocks are on the South sheet"
+    },
+    "sf-haight-market-stanyan": {
+      "parts": [
+        {
+          "streets": [
+            "Haight Street"
+          ],
+          "from": "Market Street",
+          "to": "Stanyan Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-castro-market-18th": {
+      "parts": [
+        {
+          "streets": [
+            "Castro Street"
+          ],
+          "from": "Market Street",
+          "to": "18th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15
+    },
+    "sf-fillmore-broadway-green": {
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Broadway",
+          "to": "Green Street",
           "area": "sf"
         }
       ],

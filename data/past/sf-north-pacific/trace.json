@@ -1,0 +1,127 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the San Francisco & North Pacific off today's SMART track, from OpenHistoricalMap's ways (ohm.py), checked on the USGS sheets.",
+ "segments": {
+  "sfnp-tiburon-larkspur": {
+   "parts": [
+    {
+     "ohm": [
+      200221497,
+      200221499,
+      200221500,
+      200221501,
+      200221498,
+      200221503,
+      200221504,
+      200221505,
+      202387718,
+      200221506,
+      200221502
+     ],
+     "to": [
+      -122.51249,
+      37.94781
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-quentin-1948",
+    "usgs-san-rafael-1954"
+   ],
+   "note": "Cut at SMART's Larkspur station, where the line joins today's track. OpenHistoricalMap's ways were traced from the 1895 and 1897 15-minute sheets; the 1948 and 1954 sheets show the track while it still carried freight"
+  },
+  "sfnp-windsor-grants": {
+   "parts": [
+    {
+     "ohm": [
+      200458177
+     ],
+     "from": [
+      -122.81848,
+      38.54914
+     ],
+     "to": [
+      -122.844,
+      38.5908
+     ]
+    }
+   ],
+   "check": "usgs-healdsburg-1940",
+   "note": "Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension)"
+  },
+  "sfnp-grants-healdsburg": {
+   "parts": [
+    {
+     "ohm": [
+      200458177
+     ],
+     "from": [
+      -122.844,
+      38.5908
+     ],
+     "to": [
+      -122.8717,
+      38.6098
+     ]
+    }
+   ],
+   "check": "usgs-healdsburg-1940",
+   "note": "Cut at Grant and at Healdsburg as the 1940 sheet labels them"
+  },
+  "sfnp-healdsburg-cloverdale": {
+   "parts": [
+    {
+     "ohm": [
+      200458177,
+      200458178,
+      200458179
+     ],
+     "from": [
+      -122.8717,
+      38.6098
+     ]
+    }
+   ],
+   "check": [
+    "usgs-healdsburg-1940",
+    "usgs-asti-1959",
+    "usgs-cloverdale-1960"
+   ],
+   "note": "Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m)"
+  },
+  "sfnp-cloverdale-county-line": {
+   "parts": [
+    {
+     "ohm": [
+      200458180,
+      200458181,
+      200458182,
+      200458183,
+      200458184,
+      200458185,
+      200458186,
+      200458187,
+      200458188,
+      200458189
+     ]
+    }
+   ],
+   "clip": "county",
+   "check": "usgs-cloverdale-1960",
+   "note": "OpenHistoricalMap's ways north from Cloverdale"
+  },
+  "sfnp-guerneville-branch": {
+   "parts": [
+    {
+     "ohm": [
+      202387871
+     ]
+    }
+   ],
+   "check": [
+    "usgs-sebastopol-1935",
+    "usgs-healdsburg-1940"
+   ],
+   "note": "OpenHistoricalMap's way of the Guerneville branch, from Fulton to Guerneville"
+  }
+ }
+}

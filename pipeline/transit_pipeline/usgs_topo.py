@@ -99,6 +99,48 @@ SHEETS = [
     Sheet("usgs-tamalpais-1941", "Tamalpais", 62500, 1941, "301788", None, "15-minute sheet, aerial photographs of 1939, edition of 1941"),
     Sheet("usgs-walnut-creek-1949", "Walnut Creek", 24000, 1949, "301186", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
     Sheet("usgs-port-chicago-1951", "Port Chicago", 24000, 1951, "294325", 1951, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-honker-bay-1918", "Honker Bay", 31680, 1918, "296168", None, "1:31,680 sheet, edition of 1918"),
+    Sheet("usgs-honker-bay-1953", "Honker Bay", 24000, 1953, "291408", 1955, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-birds-landing-1953", "Birds Landing", 24000, 1953, "288442", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-dozier-1952", "Dozier", 24000, 1952, "290036", 1953, "7.5-minute sheet, aerial photographs of 1949, edition of 1952"),
+    # The North Pacific Coast's route, on the sheets of its years.
+    Sheet("usgs-tamalpais-1897", "Tamalpais", 62500, 1897, "298980", None, "15-minute sheet, surveyed 1895, edition of 1897"),
+    Sheet("usgs-petaluma-1914", "Petaluma", 62500, 1914, "298523", None, "15-minute sheet, surveyed 1912, edition of 1914"),
+    Sheet("usgs-point-reyes-1916", "Point Reyes", 48000, 1916, "466171", None, "1:48,000 advance sheet, surveyed 1916"),
+    Sheet("usgs-sebastopol-1935", "Sebastopol", 48000, 1935, "301575", None, "1:48,000 advance sheet, surveyed 1935"),
+    Sheet("usgs-duncans-mills-1945", "Duncans Mills", 31680, 1945, "296063", None, "1:31,680 sheet, edition of 1945"),
+    Sheet("usgs-cazadero-1945", "Cazadero", 31680, 1945, "302658", None, "1:31,680 sheet, surveyed 1943, edition of 1945"),
+    # The San Mateo interurban, while it still ran (to 1949).
+    Sheet("usgs-montara-mountain-1949", "Montara Mountain", 24000, 1949, "293071", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
+    Sheet("usgs-san-mateo-1949", "San Mateo", 24000, 1949, "300158", None, "7.5-minute sheet, aerial photographs of 1946, edition of 1949"),
+    # The San Francisco & North Pacific: its Tiburon line, Guerneville branch and the line to Cloverdale.
+    Sheet("usgs-san-quentin-1948", "San Quentin", 24000, 1948, "300194", None, "7.5-minute sheet, aerial photographs of 1947, edition of 1948"),
+    Sheet("usgs-san-rafael-1954", "San Rafael", 24000, 1954, "300201", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-healdsburg-1940", "Healdsburg", 62500, 1940, "297672", None, "15-minute sheet, surveyed 1933, edition of 1940"),
+    Sheet("usgs-asti-1959", "Asti", 24000, 1959, "288086", 1961, "7.5-minute sheet, aerial photographs of 1957, edition of 1959"),
+    Sheet("usgs-cloverdale-1960", "Cloverdale", 24000, 1960, "289371", 1962, "7.5-minute sheet, aerial photographs of 1957, edition of 1960"),
+    # The Carquinez Strait: the Port Costa-Benicia train ferry (1879-1930) and the bridge that replaced it.
+    Sheet("usgs-karquines-1898", "Karquines", 62500, 1898, "297860", None, "15-minute sheet, surveyed 1896, edition of 1898"),
+    Sheet("usgs-benicia-1952", "Benicia", 24000, 1952, "288320", None, "7.5-minute sheet, edition of 1952"),
+    # The Central Pacific's line of 1869 by Niles Canyon and Altamont, and to San Jose, before its track went in 1984.
+    Sheet("usgs-niles-1953", "Niles", 24000, 1953, "293546", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-la-costa-valley-1953", "La Costa Valley", 24000, 1953, "291950", 1954, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-livermore-1953", "Livermore", 24000, 1953, "292401", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-altamont-1953", "Altamont", 24000, 1953, "287935", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-midway-1953", "Midway", 24000, 1953, "292938", 1955, "7.5-minute sheet, aerial photographs of 1950, edition of 1953"),
+    Sheet("usgs-milpitas-1953", "Milpitas", 24000, 1953, "292969", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    # The South Pacific Coast from San Jose over the mountains toward Santa Cruz.
+    Sheet("usgs-los-gatos-1919", "Los Gatos", 62500, 1919, "298061", 1942, "15-minute sheet, surveyed 1916, edition of 1919"),
+    Sheet("usgs-san-jose-west-1953", "San Jose West", 24000, 1953, "300105", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    # The Napa Valley line and the California Pacific, from Vallejo to Calistoga and Suisun.
+    Sheet("usgs-mare-island-1916", "Mare Island", 62500, 1916, "298113", None, "15-minute sheet, edition of 1916"),
+    Sheet("usgs-cuttings-wharf-1951", "Cuttings Wharf", 24000, 1951, "289712", None, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-napa-1951", "Napa", 24000, 1951, "293422", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-yountville-1951", "Yountville", 24000, 1951, "301469", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-rutherford-1951", "Rutherford", 24000, 1951, "294860", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
+    Sheet("usgs-st-helena-1945", "St Helena", 62500, 1945, "298977", None, "15-minute sheet, edition of 1945"),
+    Sheet("usgs-calistoga-1945", "Calistoga", 62500, 1945, "296981", None, "15-minute sheet, edition of 1945"),
+    Sheet("usgs-cordelia-1951", "Cordelia", 24000, 1951, "289511", 1952, "7.5-minute sheet, aerial photographs of 1948, edition of 1951"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
@@ -231,6 +273,16 @@ class Frame:
 def sheet_resolution(sheet_id: str) -> float:
     with rasterio.open(sheet_path(BY_ID[sheet_id])) as d:
         return d.res[0]
+
+
+@cache
+def sheet_bounds(sheet_id: str) -> tuple[float, float, float, float]:
+    """The scan's extent in lon/lat, collar included."""
+    with rasterio.open(sheet_path(BY_ID[sheet_id])) as d:
+        b = d.bounds
+        lon, lat = pyproj.Transformer.from_crs(d.crs, "EPSG:4326", always_xy=True).transform(
+            [b.left, b.right, b.left, b.right], [b.bottom, b.bottom, b.top, b.top])
+    return min(lon), min(lat), max(lon), max(lat)
 
 
 def render(frame: Frame) -> np.ndarray:
@@ -485,15 +537,18 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
                 continue
             parts = {"LineString": [g["coordinates"]], "MultiLineString": g["coordinates"]}.get(g["type"])
             if parts:
+                # Magenta on a white casing: the 1940s sheets print highways in red.
                 for part in parts:
-                    draw.line([ov_px(*c[:2]) for c in part], fill=(230, 20, 20, 170), width=2)
+                    draw.line([ov_px(*c[:2]) for c in part], fill=(255, 255, 255, 170), width=5)
+                for part in parts:
+                    draw.line([ov_px(*c[:2]) for c in part], fill=(200, 0, 190, 220), width=2)
             elif g["type"] == "Point":
                 x, y = ov_px(*g["coordinates"][:2])
-                draw.ellipse([x - 5, y - 5, x + 5, y + 5], outline=(230, 20, 20, 220), width=2)
+                draw.ellipse([x - 5, y - 5, x + 5, y + 5], outline=(200, 0, 190, 230), width=2)
             label = f.get("properties", {}).get("id")
             if label and (parts or g["type"] == "Point"):
                 lx, ly = ov_px(*(parts[0][len(parts[0]) // 2] if parts else g["coordinates"])[:2])
-                draw.text((lx + 6, ly - 6), label, fill=(200, 0, 0, 255), font=font)
+                draw.text((lx + 6, ly - 6), label, fill=(170, 0, 160, 255), font=font)
     for x, y, label in marks or []:
         draw.ellipse([x - 4, y - 4, x + 4, y + 4], outline=(255, 120, 0, 255), width=2)
         if label:

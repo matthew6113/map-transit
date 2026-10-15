@@ -1,0 +1,233 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The North Pacific Coast (decision 21). Research: docs/research/sources-2c/railroads.md, section 1.",
+ "lines": [
+  {
+   "id": "npc-main-line",
+   "name": "North Pacific Coast, Sausalito to the Russian River",
+   "short_name": "North Pacific Coast",
+   "system": "north-pacific-coast",
+   "operators": [
+    {
+     "name": "North Pacific Coast Railroad",
+     "from": "1875-01-11",
+     "to": null
+    },
+    {
+     "name": "North Shore Railroad",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Northwestern Pacific Railroad",
+     "from": null,
+     "to": "1933-08-01"
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": null,
+     "to": null
+    }
+   ],
+   "era": "past",
+   "opened": "1875-01-11",
+   "closed": "1933-08-01",
+   "status": "closed",
+   "summary": "A narrow-gauge railroad from the ferry at Sausalito over White's Hill to Point Reyes, around Tomales Bay to Tomales, and through the redwoods to the Russian River at Duncans Mills (1877), later Cazadero (1886).",
+   "fate": "abandoned",
+   "fate_note": "Trains between Point Reyes and Monte Rio ended on April 3, 1930 (CRC Decision No. 22672), and between Manor and Point Reyes on August 1, 1933, replaced by Pacific Greyhound's stages (Decision No. 34457).",
+   "route": [
+    {
+     "segment": "nwp-sausalito-almonte"
+    },
+    {
+     "segment": "nwp-almonte-corte-madera"
+    },
+    {
+     "segment": "nwp-corte-madera-san-anselmo"
+    },
+    {
+     "segment": "npc-san-anselmo-manor"
+    },
+    {
+     "segment": "npc-manor-point-reyes"
+    },
+    {
+     "segment": "npc-point-reyes-tomales"
+    },
+    {
+     "segment": "npc-tomales-occidental"
+    },
+    {
+     "segment": "npc-occidental-tyrone"
+    },
+    {
+     "segment": "npc-tyrone-monte-rio"
+    },
+    {
+     "segment": "npc-monte-rio-sheridan",
+     "to": "1930-04-03",
+     "note": "Drawn to April 3, 1930, when the narrow gauge to Monte Rio ceased: the line's trains could reach this stretch only over it. When they last ran beyond Monte Rio isn't sourced."
+    }
+   ],
+   "sources": [
+    {
+     "source": "ca-brc-report-10",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "18, 154",
+     "note": "Opened for public use from Sausalito to Tomales on January 11, 1875, Tomales to Howards October 16, 1876, Howards to Tyrone April 2, 1877, Tyrone to Duncans May 15, 1877 (p. 154), and \"Duncans to Cazadero April 11, 1886\" (p. 18)."
+    },
+    {
+     "source": "marin-history-1880",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "147-148, 333",
+     "note": "\"The formal opening of the North Pacific Coast Railroad took place on Thursday, January 7, 1875 … from Saucelito to Tomales\" (p. 333); the route by Fairfax, White Hill and San Geronimo creek (pp. 147-148)."
+    },
+    {
+     "source": "sonoma-history-1880",
+     "supports": [
+      "opened"
+     ],
+     "pages": "201"
+    },
+    {
+     "source": "poors-1885",
+     "supports": [
+      "route",
+      "gauge"
+     ],
+     "pages": "870",
+     "note": "\"Saucelito, Cal., to Duncan's Mills, Cal 74.25 miles\"; three-foot gauge."
+    },
+    {
+     "source": "poors-1900",
+     "supports": [
+      "route"
+     ],
+     "pages": "606",
+     "note": "\"Main Line — San Francisco to Cazadero, Cal. (ferry, 6 m.; RR., 80.75 m.)\"."
+    },
+    {
+     "source": "crc-d22672",
+     "supports": [
+      "closed"
+     ],
+     "pages": "5",
+     "note": "The narrow gauge \"between Point Reyes and Monte Rio\": \"operation thereof ceased on April 3, 1930\"."
+    },
+    {
+     "source": "crc-d34457",
+     "supports": [
+      "closed"
+     ],
+     "pages": "2",
+     "note": "\"Prior to August 1, 1933 service … [was] performed by steam train. On that date … applicant discontinued operations between Point Reyes and Manor.\""
+    },
+    {
+     "source": "crc-d25533",
+     "supports": [
+      "closed"
+     ],
+     "note": "The order of January 9, 1933 authorizing the end of passenger and mixed trains between Manor and Point Reyes, once Pacific Greyhound's stages ran."
+    },
+    {
+     "source": "srj-1904-01-02-north-shore",
+     "supports": [
+      "operator"
+     ],
+     "pages": "4-7",
+     "note": "The North Shore Railroad's track between Sausalito and San Rafael, electrified in 1903."
+    }
+   ],
+   "flags": [],
+   "notes": "Drawn as its own line over the track it shared with the North Shore's electric trains from 1903 (decision 21). How far the trains to Point Reyes ran over the electrified track in later years isn't sourced; the map draws the line from Sausalito, as the North Pacific Coast built it, until its last trains in 1933. Not drawn: Sheridan to Duncans Mills and Cazadero, which no sheet of the line's years shows (a map to georeference by hand), and the tunnels at White's Hill and into Sonoma County. When the North Shore and then the Northwestern Pacific took it over isn't sourced here."
+  },
+  {
+   "id": "npc-san-rafael-branch",
+   "name": "North Pacific Coast San Rafael branch",
+   "short_name": "San Rafael branch",
+   "system": "north-pacific-coast",
+   "operators": [
+    {
+     "name": "North Pacific Coast Railroad",
+     "from": null,
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": null,
+     "to": null
+    }
+   ],
+   "era": "past",
+   "opened": null,
+   "closed": null,
+   "status": "closed",
+   "summary": "The North Pacific Coast's two-mile branch from its main line at the Junction (San Anselmo) to San Rafael, where its passengers took the San Rafael & San Quentin to the ferry.",
+   "route": [
+    {
+     "segment": "nwp-san-anselmo-san-rafael"
+    }
+   ],
+   "running": [
+    {
+     "date": "1875-01-08",
+     "source": "marin-history-1880",
+     "pages": "412",
+     "note": "\"The first shipment made over the road to San Francisco via San Rafael was on January 8, 1875\"."
+    },
+    {
+     "date": "1885",
+     "source": "poors-1885",
+     "pages": "870",
+     "note": "\"San Rafael Branch : Junction, Cal., to San Rafael, Cal 2.00 miles.\""
+    },
+    {
+     "date": "1900",
+     "source": "poors-1900",
+     "pages": "606",
+     "note": "\"San Rafael Branch … Junction, Cal., to San Rafael, Cal 2.00 m.\""
+    }
+   ],
+   "sources": [
+    {
+     "source": "marin-history-1880",
+     "supports": [
+      "route"
+     ],
+     "pages": "412"
+    },
+    {
+     "source": "poors-1885",
+     "supports": [
+      "route"
+     ],
+     "pages": "870"
+    },
+    {
+     "source": "poors-1900",
+     "supports": [
+      "route"
+     ],
+     "pages": "606"
+    }
+   ],
+   "flags": [
+    "opened_unsourced",
+    "closed_unsourced"
+   ],
+   "notes": "When the branch opened and when its steam trains gave way to the North Shore's electric line (1903) aren't sourced; it is drawn for the years the sources show it (decision 20). The track is the one the electric line used."
+  }
+ ]
+}

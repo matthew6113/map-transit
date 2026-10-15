@@ -113,6 +113,64 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     - Today's network is cut into shared, dated segments at build time from
       `data/present/extensions.json` (`extensions.py`), with dates from official sources only.
 
+## Made by Matthew (2026-10-15, Phase 2c planning)
+
+14. **The past era's line list follows the year slider.** The lines running in the chosen year come
+    first; every other line follows, dimmed. Search still finds any line.
+15. **Freight-only railroads are drawn, as `railroad`:** the Alameda Belt Line, the Oakland Terminal
+    Railway and the like, for the years they carried freight. Passenger track that went on carrying
+    freight counts too: its segment stays until the freight ended (the Sacramento Northern from
+    Shafter Ave to Lafayette, 1941–57), drawn in the railroad mode for those years.
+16. **The Sacramento Northern stops at the Bay Area's boundary,** the county line of the nine
+    counties (`src/basemap/region.json`), not at the pan limits: east of Bay Point it is drawn
+    through Solano County to the Yolo County line, and `continues_beyond` says where it went on to.
+    A past line cut there reaches a county line rather than the map's edge, and the test accepts
+    either.
+17. **A ferry whose last run isn't dated closes in the month of the order that authorized its
+    end,** noted "on or about" (the Creek Route, Hyde St–Berkeley, Benicia–Port Costa,
+    Martinez–Benicia). The order is cited for `closed`, its note says the date is the order's month
+    and not the last run, and `make checklists` lists these ends for a newspaper check. This narrows
+    the rule that a date is never filled in: the month is the order's, which is sourced.
+18. **The 1864 Britton & Co. railroad map of San Francisco may be traced** (David Rumsey 4779.000,
+    CC BY-NC-SA 3.0), under decision 7: each feature traced from it cites the Rumsey source with its
+    license, so it can be listed and swapped out.
+19. **Sources whose copyright is unknown are cited for facts only** (Matthew asked for the
+    recommendation): the California State Railroad Museum's timetable scans, the *Orinda Sun* and
+    *The Western Railroader*. Dates, routes and station names are facts; nothing is reproduced beyond
+    a short quote, and each `sources.json` entry says "copyright status unknown; cited for facts
+    only".
+
+## Made by Matthew (2026-10-15, Phase 2c review)
+
+20. **A line a source shows running, but whose opening or closing isn't sourced, is drawn for the
+    years it's shown.** Matthew approved it at the Phase 2c checkpoint.
+    - The case: San Francisco's numbered streetcar lines are listed street by street in Manley's
+      inspection report of February 1, 1909 and O'Shaughnessy's city report of May 1929, and
+      Oakland's in the Railroad Commission's abandonment orders of 1944–48. Few of their openings are
+      sourced, and some of their last days aren't, so under decision 4 alone they would all be left
+      off the year slider.
+    - The data keeps `opened` and `closed` null with their flags, and lists in `running[]` each date
+      a cited source shows the line in service, with its page. A route entry's own `running` lists
+      the dates that show that stretch, where it isn't in all of them (a 1929 extension, a 1909 street
+      later given up).
+    - The map draws such a line from its first running date (or its sourced opening) to its last (or
+      its sourced closing), in the lighter tint of a borrowed date, so it under-claims rather than
+      over-claims. A stretch in only some of the dates starts at the first that shows it and ends at
+      the last. The panel says "Running by February 1, 1909; until at least May 1929", and names
+      the sources.
+    - Where the last day is sourced (the San Francisco PUC's reports of 1945–49 give most of the
+      Market Street Railway lines' last streetcar days), the route at the last running date is drawn
+      on to it. The route may have changed in between; the panel gives the dates the route rests on.
+    - The alternative is to keep these lines undated: drawn only in the ghost overlay, listed in the
+      slider's note. `RUNNING_DATES = False` in `build.py` does that.
+21. **The North Pacific Coast is its own line over the track it shared with the 1903 electric
+    lines.** Its trains ran from Sausalito by San Anselmo from 1875; the North Shore electrified that
+    track in 1903, and the map already drew it as the electric lines'. The NPC (with its successors'
+    steam trains, under the North Shore and the Northwestern Pacific) is a line of its own whose
+    route runs over the same segments, and the shared segments take the track's dates, as today's
+    track does under decision 13. The other option, drawing the NPC only from San Anselmo north with
+    a note, was not taken.
+
 ## Today's network, dated (2026-10-14, Phase 2b)
 
 - **A present segment's date is its track's.** `opened` is when the track first carried passengers,

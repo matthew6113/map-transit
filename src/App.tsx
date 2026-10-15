@@ -289,6 +289,25 @@ export function App() {
     }
     return [...segs.values()].sort((a, b) => a.name.localeCompare(b.name));
   }, [lines]);
+  // The lines on the map in the slider's year, from the same feature years the map fades by: a line
+  // runs if any of its pieces is open that year (decision 14).
+  const running = useMemo(() => {
+    if (era !== 'past') return undefined;
+    const open = new Map<Era, Map<number, { open: number; close: number }>>();
+    for (const d of DATASETS.past) {
+      const index = indexes[d];
+      if (index) open.set(d, new Map(index.lines.map((f) => [f.fid, f])));
+    }
+    const ids = new Set<string>();
+    for (const l of lines) {
+      const fids = open.get(l.era);
+      if (fids && l.fids.some((fid) => {
+        const f = fids.get(fid);
+        return !!f && f.open >= 0 && f.open < year + 1 && f.close > year;
+      })) ids.add(l.id);
+    }
+    return { year, ids };
+  }, [era, year, lines, indexes]);
   const toggleGroup = (g: ModeGroup) =>
     setHiddenGroups((prev) => (prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]));
 
@@ -318,7 +337,7 @@ export function App() {
             <p class="era-note">Funded and under-construction lines. The ideal network comes in Phase 4.</p>
           )}
         </div>
-        <Index era={era} lines={lines} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
+        <Index era={era} lines={lines} running={running} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
           onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
       </header>
       <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}

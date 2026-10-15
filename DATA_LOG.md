@@ -41,7 +41,7 @@ has a date to lend (decision 4).
 
 | | |
 |---|---|
-| Status | In use. BART: 24 segments, all dated. Muni: 34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track is older than today's service and not yet dated. SMART: all three stretches. VTA: Tasman East and the Capitol line, plus Mountain View and Winchester stations; the Guadalupe trunk, Tasman West and Vasona are undated. Caltrain: dated from July 1, 1980, when Caltrans took over; its track by stretch, from the San Francisco & San Jose Railroad (October 1863 and January 16, 1864), the Bayshore Cutoff (December 8, 1907) and San José's line of December 31, 1935, plus Gilroy service (1992) and three stations. Its approach to 4th & King and the Santa Cruz branch through Diridon are older track not yet dated. Line openings for ACE, the Capitol Corridor, the Zephyr, the Gold Runner, the AirTrain and ten ferry routes; BRT lanes on Van Ness, International Blvd and Alum Rock. |
+| Status | In use. BART: 24 segments, all dated. Muni: 34 segments; the K's Ocean Ave, the L's Taraval St and the F's Market St track is older than today's service and not yet dated. Capitol Corridor: its track from West Oakland to Suisun dated by stretch from the Northern Railway's openings of 1876–79 and the bridge of 1930, from Melrose to Niles from the Western Pacific's of 1869, and from Centerville by Newark to Santa Clara from the South Pacific Coast's of 1878–82 (past sources). SMART: its track dated stretch by stretch from the San Francisco & North Pacific's openings of 1870–85 (past sources, as for Caltrain), with SMART's own service from 2017, 2019 and 2025. VTA: Tasman East and the Capitol line, plus Mountain View and Winchester stations; the Guadalupe trunk, Tasman West and Vasona are undated. Caltrain: dated from July 1, 1980, when Caltrans took over; its track by stretch, from the San Francisco & San Jose Railroad (October 1863 and January 16, 1864), the Bayshore Cutoff (December 8, 1907) and San José's line of December 31, 1935, plus Gilroy service (1992) and three stations. Its approach to 4th & King and the Santa Cruz branch through Diridon are older track not yet dated. Line openings for ACE, the Capitol Corridor, the Zephyr, the Gold Runner, the AirTrain and ten ferry routes; BRT lanes on Van Ness, International Blvd and Alum Rock. |
 | Origin | Hand-entered in `data/present/extensions.json`, with quotes. BART: its annual reports (1973–74, 1974–75, 2003), 1973 and 1974 news releases, 1947–1991 chronology, 1997 report to Congress, 2020 timeline and project pages, under https://www.bart.gov/ (scanned PDFs, cited by PDF page); VTA's BART Silicon Valley page; Alameda CTC. Muni: Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), on SFMTA's archive, cited by PDF page; SFMTA's short-range transit plans (2005, 2008), history, historic streetcar, cable car and Central Subway pages, its blog, and the Van Ness BRT notice. Others: the CPUC's 2011 safety review of VTA and VTA's timeline; Caltrain's milestones pages (to 1979, the 1980s and the 1990s); SMART's 2022 release and December 2019 general manager's report; the Golden Gate Ferry timeline; SF Bay Ferry's history; ACE; the Capitol Corridor's timeline; Amtrak's media site and Great American Stations; AC Transit's Tempo release; an SFCTA/TIMMA memo; MTC's news posts. |
 | Cut points | GTFS stations and stops (511). Street corners from Overture roads: Taraval St and 33rd Ave, Tasman Dr at I-880, Capitol Ave at Hostetter Rd and Alum Rock Ave. The Duboce portal, where Overture's rail tunnel flags end (`overture-rail-2026-09-23-1`). Caltrain's junctions with its older lines: Seventh St and 16th St and San Bruno (where the 1950 USGS San Francisco sheets draw the old line meeting today's track), Polhemus Street and San Carlos Street in San José (the 1943 USGS San Jose sheet). |
 | License | Public agency records, cited for facts. Geometry stays GTFS (511's terms). |
@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. The Southern Pacific's Oakland, Alameda and Creek Route ferries and the Richmond–San Rafael ferry join `ferries/`. The North Pacific Coast is in `north-pacific-coast/`: its own line over the Northwestern Pacific's electric track from Sausalito to San Anselmo (decision 21), then OpenHistoricalMap's ways to the Russian River, checked on the USGS sheets of 1897–1945. The San Mateo interurban (No. 40) joins `sf-msry/`, its streets in San Francisco and San Mateo cut by `street_routes`, with its private right of way from Daly City to San Mateo from OpenHistoricalMap in `sf-san-mateo/`. The San Francisco & North Pacific and the Northwestern Pacific's trains to Eureka are in `sf-north-pacific/`, on SMART's track where it runs (decision 13) and on OpenHistoricalMap's ways beyond it. The Central Pacific's trains to Sacramento by the Benicia train ferry (1879–1930) and by Niles Canyon and the Altamont Pass (1869–1941), and to San José by Milpitas (1869–1940), are in `central-pacific/`; the South Pacific Coast from Alameda to the Santa Cruz County line is in `south-pacific-coast/`; the California Pacific's Napa Valley line and its Vallejo Junction ferry are in `california-pacific/`; the Martinez–Benicia auto ferry joins `ferries/`, over the Capitol Corridor's track, which is now dated by stretch from the Northern Railway's openings (1876–79) and the Martinez–Benicia bridge (1930). Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -156,6 +156,13 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Demoro, *The Key Route* (1985) | book | Copyrighted; cited for facts, page unverified (decision 11) |
 | Robert Callwell, *Transit in San Francisco: A Selected Chronology, 1850–1995* (Muni, 1999), and SFMTA's cable car history page | official | Public agency publications; cited for facts |
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
+| Halley's *Centennial Year Book of Alameda County* (1876) and the *History of Alameda County* (M. W. Wood, 1883), from archive.org's OCR text | book | Public domain (published 1876, 1883). Their quotes need checking against the page images. |
+| *Southern Pacific Bulletin*, November–December 1930 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only (decision 19) |
+| Palmer's *History of Napa and Lake Counties* (1881) and *Poor's Manual* of 1880, from archive.org's OCR text | book | Public domain (published 1880–81). Their quotes need checking against the page images. |
+| Munro-Fraser's histories of Marin and Sonoma Counties (Alley, Bowen, 1880), the Board of Railroad Commissioners' tenth annual report (1889) and first biennial report (1894) and *Poor's Manual of Railroads* (1885, 1887, 1900), from archive.org's OCR text | book, official | Public domain (published 1880–1900). Their quotes need checking against the page images. |
+| HABS CA-1888 (Southern Pacific Mole & Pier), Library of Congress catalog record | official | Public domain (U.S. Government work) |
+| *California Highways and Public Works*, September–October 1956 | official | California public record; cited for facts |
+| Warren Manley, *Report on the operation of the street railroad lines of San Francisco* (Merchants' Association, February 1, 1909), from archive.org's OCR text | primary_document | Public domain (published 1909). Its quotes need checking against the page images, which this environment can't open. |
 | Muni's financial reports (1912–1930), O'Shaughnessy's *Report on the street railway transportation requirements of San Francisco* (1929) and the San Francisco PUC's reports (1947–1953), from archive.org | official | Public records; cited for facts, read on the page images |
 
 The geometry tools are below (decision 12).
@@ -189,6 +196,41 @@ The geometry tools are below (decision 12).
 | `usgs-walnut-creek-1949` | CA_Walnut Creek_301186_1949_24000_geo.tif | 2.032 | `77c7663e774d` |
 | `usgs-port-chicago-1951` | CA_Port Chicago_294325_1951_24000_geo.tif | 2.032 | `51be4bd5938a` |
 | `usgs-san-leandro-1948` | CA_San Leandro_300123_1948_24000_geo.tif | 2.032 | `736d4e9ccd87` |
+| `usgs-honker-bay-1918` | CA_Honker Bay_296168_1918_31680_geo.tif | 2.682 | `63a8636eacb3` |
+| `usgs-honker-bay-1953` | CA_Honker Bay_291408_1953_24000_geo.tif | 2.032 | `2aebec44aa88` |
+| `usgs-birds-landing-1953` | CA_Birds Landing_288442_1953_24000_geo.tif | 2.032 | `b1354c7dac09` |
+| `usgs-dozier-1952` | CA_Dozier_290036_1952_24000_geo.tif | 2.032 | `88b9ba333b31` |
+| `usgs-tamalpais-1897` | CA_Tamalpais_298980_1897_62500_geo.tif | 5.292 | `b1004563c202` |
+| `usgs-petaluma-1914` | CA_Petaluma_298523_1914_62500_geo.tif | 5.292 | `8527e7c2264c` |
+| `usgs-point-reyes-1916` | CA_Point Reyes_466171_1916_48000_geo.tif | 4.064 | `fe63937cf3f3` |
+| `usgs-sebastopol-1935` | CA_Sebastopol_301575_1935_48000_geo.tif | 4.064 | `fe6029fb913f` |
+| `usgs-duncans-mills-1945` | CA_Duncans Mills_296063_1945_31680_geo.tif | 2.682 | `c781bde4be85` |
+| `usgs-cazadero-1945` | CA_Cazadero_302658_1945_31680_geo.tif | 2.682 | `da9f6fa9d8d7` |
+| `usgs-montara-mountain-1949` | CA_Montara Mountain_293071_1949_24000_geo.tif | 2.032 | `3dcb383b93fb` |
+| `usgs-san-mateo-1949` | CA_San Mateo_300158_1949_24000_geo.tif | 2.032 | `0deb7839d441` |
+| `usgs-san-quentin-1948` | CA_San Quentin_300194_1948_24000_geo.tif | 2.032 | `96d5efa56ec6` |
+| `usgs-san-rafael-1954` | CA_San Rafael_300201_1954_24000_geo.tif | 2.032 | `12d0fec9d0f3` |
+| `usgs-healdsburg-1940` | CA_Healdsburg_297672_1940_62500_geo.tif | 5.292 | `a80bddd854fd` |
+| `usgs-asti-1959` | CA_Asti_288086_1959_24000_geo.tif | 2.032 | `627539aa3ad5` |
+| `usgs-cloverdale-1960` | CA_Cloverdale_289371_1960_24000_geo.tif | 2.032 | `c59f618c99ba` |
+| `usgs-karquines-1898` | CA_Karquines_297860_1898_62500_geo.tif | 5.292 | `85c0c3d48a80` |
+| `usgs-benicia-1952` | CA_Benicia_288320_1952_24000_geo.tif | 2.032 | `fc85d0208b27` |
+| `usgs-niles-1953` | CA_Niles_293546_1953_24000_geo.tif | 2.032 | `ea533197d873` |
+| `usgs-la-costa-valley-1953` | CA_La Costa Valley_291950_1953_24000_geo.tif | 2.032 | `64aacdd91628` |
+| `usgs-livermore-1953` | CA_Livermore_292401_1953_24000_geo.tif | 2.032 | `49f21b204286` |
+| `usgs-altamont-1953` | CA_Altamont_287935_1953_24000_geo.tif | 2.032 | `227003fee77f` |
+| `usgs-midway-1953` | CA_Midway_292938_1953_24000_geo.tif | 2.032 | `98a93e167555` |
+| `usgs-milpitas-1953` | CA_Milpitas_292969_1953_24000_geo.tif | 2.032 | `733e5adf7332` |
+| `usgs-los-gatos-1919` | CA_Los Gatos_298061_1919_62500_geo.tif | 5.292 | `d7dfaf400d1a` |
+| `usgs-san-jose-west-1953` | CA_San Jose West_300105_1953_24000_geo.tif | 2.032 | `797624721dd4` |
+| `usgs-mare-island-1916` | CA_Mare Island_298113_1916_62500_geo.tif | 5.292 | `576cf0a203ea` |
+| `usgs-cuttings-wharf-1951` | CA_Cuttings Wharf_289712_1951_24000_geo.tif | 2.032 | `2d36e11c075a` |
+| `usgs-napa-1951` | CA_Napa_293422_1951_24000_geo.tif | 2.032 | `bef57728fcc7` |
+| `usgs-yountville-1951` | CA_Yountville_301469_1951_24000_geo.tif | 2.032 | `c9428b96a808` |
+| `usgs-rutherford-1951` | CA_Rutherford_294860_1951_24000_geo.tif | 2.032 | `4606f3e1899a` |
+| `usgs-st-helena-1945` | CA_St Helena_298977_1945_62500_geo.tif | 5.292 | `a5919128217d` |
+| `usgs-calistoga-1945` | CA_Calistoga_296981_1945_62500_geo.tif | 5.292 | `3b437a92a9e9` |
+| `usgs-cordelia-1951` | CA_Cordelia_289511_1951_24000_geo.tif | 2.032 | `5e91acd236b3` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -204,7 +246,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -218,14 +260,37 @@ The geometry tools are below (decision 12).
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
 | Gaps | Today's shores. Land filled since the 1850s (San Francisco's waterfront, the Oakland and Alameda moles, Treasure Island) is land here, so a terminal on fill is joined straight to the nearest water. |
 
+### Overture Maps rail (today's track)
+
+| | |
+|---|---|
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line. |
+| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the box `napa` (-122.62, 38.06, -122.03, 38.60). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
+| Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Gaps | Today's track only: realignments since the line's years must be found on the sheets. |
+
 ### OpenHistoricalMap
 
 | | |
 |---|---|
-| Status | Candidate (Phase 2). |
-| Origin | `https://overpass-api.openhistoricalmap.org/` |
-| License | CC0, public domain. |
-| Coverage | An Overpass count over BAM's bbox on Oct 13, 2026 found 1,061 railway ways, 1,059 with `start_date` and 552 with `end_date`. Operators include Sacramento Northern (152 ways), Southern Pacific, South Pacific Coast (with a dated branch chronology, 1876–1998), North Pacific Coast, SF & North Pacific, the San José horsecar lines and United Railroads. There are dated Muni A–H route relations. **There is nothing yet for the Key System or the Interurban Electric Railway.** |
+| Status | In use since Oct 15, 2026 (Phase 2c), the first rung of the geometry ladder. |
+| Origin | `https://overpass-api.openhistoricalmap.org/api/interpreter` (Overpass), read by `python -m transit_pipeline.ohm fetch`: every way tagged `railway`, every ferry route and the route relations in the pan limits, as of `timestamp_osm_base` 2026-10-15T00:15:59Z (1,064 ways, 61 relations). Cached in `data/raw/ohm/region.json`; source id `ohm-2026-10-15`. |
+| License | CC0 1.0 (public domain dedication). Every segment drawn from it names its OHM way ids in its geometry method and its source note. |
+| How it's used | Geometry only (`surveyed`): a trace recipe's `ohm` part chains the ways it names (`ohm route` finds them). OHM's dates are crowd-sourced, so they are pointers; dates come from the cited histories, and where they disagree, the primary source wins and the record is flagged `conflicting_sources`. Each segment is checked on a USGS sheet of its period (review images in `docs/screenshots/p2c/traces/`). |
+| Overrides | `data/past/ohm.json` (hand-kept): OHM operators mapped to this map's systems and modes, the ways that duplicate segments traced here, and the ways skipped. `python -m transit_pipeline.ohm survey` writes `docs/checks/ohm.md`: every way as drawn, a duplicate (with its distance from ours), today's track, outside the nine counties, skipped or unused. |
+| Cross-check | Where OHM and this map traced the same track, the medians agree within 1–12 m for Muni's Geary, Van Ness and Chestnut St lines, 15–31 m for the Sacramento Northern in the Oakland hills and the NWP in Marin, and 19–57 m elsewhere (`docs/checks/ohm.md`). |
+| Drawn from it | The Sacramento Northern from West Pittsburg to Mallard, and from Chipps Island to the Yolo County line (`data/past/ohm-sacramento-northern/`). |
+| Gaps | OHM has nothing yet for the Key System or the Interurban Electric Railway. Many of its ways were traced by its mappers from the 15-minute USGS sheets of 1895–1915, which are off by tens to hundreds of metres; those are checked or corrected before use. Its San Mateo interurban relation (2800853) follows the 1892 route in San Francisco, not the later one. |
+
+### Overture Maps divisions (the Bay Area's boundary)
+
+| | |
+|---|---|
+| Status | In use since Oct 15, 2026, for decision 16. |
+| Origin | Overture Maps divisions theme (`division_area`, county), release 2026-09-23.1: the land and territorial-water areas of the nine counties in `src/basemap/region.json`, joined and simplified to about 10 m into `data/bay-area.geojson` by `python -m transit_pipeline.counties register`. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-divisions-2026-09-23-1`. |
+| License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
+| Used for | Cutting past lines that leave the region at the county line (`"clip": "county"` in a trace recipe), and the test that a line marked `continues_beyond` reaches the map's edge or, in the past era, that line. |
 
 ### Other candidates
 
@@ -241,9 +306,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 36 | 136 | 11 | 0 | 235.0 | 76.5 | 9 | 104 |
-| present | 44 | 101 | 275 | 1939.3 | 0 | 0 | 9 | 28 |
+| past | 106 | 437 | 11 | 459.2 | 467.1 | 110.4 | 8 | 393 |
+| present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 113, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 406, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 429, `conflicting_sources` 16, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 736, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

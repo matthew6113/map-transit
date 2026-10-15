@@ -14,54 +14,84 @@ Harre W. Demoro, Interurban Press, 1985.
 
 ## Traced geometry to spot-check (decision 12)
 
-Each traced feature, with how it was made. The review images (`make past-review`) draw it over its map; a corrected trace is drawn twice, as traced over its own sheet and corrected over the sheet it was corrected against.
+Each traced feature, and each drawn from OpenHistoricalMap, with how it was made. The review images (`make past-review`) draw it over its map; a corrected trace is drawn twice, as traced over its own sheet and corrected over the sheet it was corrected against.
 
 | Feature | Method | Map | Est. error | Review |
 |---|---|---|---|---|
-| `bbr-sf-loop` Transbay Terminal loop, San Francisco | geotiff | usgs-san-francisco-north-1950 | 10 m | [review](../screenshots/p2b/traces/bbr-sf-loop.jpg) |
-| `bbr-bridge` San Francisco–Oakland Bay Bridge, lower deck | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/bbr-bridge.jpg) |
-| `bbr-east-approach` East Bay approach and yards | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/bbr-east-approach.jpg) |
-| `ier-bridge-lead` Interurban lead to 26th Street | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/ier-bridge-lead.jpg) |
-| `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/transbay-terminal.jpg) |
+| `bbr-sf-loop` Transbay Terminal loop, San Francisco | geotiff | usgs-san-francisco-north-1950 | 10 m | [review](../screenshots/p2a/traces/bbr-sf-loop.jpg) |
+| `bbr-bridge` San Francisco–Oakland Bay Bridge, lower deck | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2a/traces/bbr-bridge.jpg) |
+| `bbr-east-approach` East Bay approach and yards | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/bbr-east-approach.jpg) |
+| `ier-bridge-lead` Interurban lead to 26th Street | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/ier-bridge-lead.jpg) |
+| `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2a/traces/transbay-terminal.jpg) |
+| `calp-yountville` Through Yountville and north along the highway | geotiff | usgs-yountville-1951 | 15 m | [review](../screenshots/p2c/traces/calp-yountville.jpg) |
+| `calp-st-helena-calistoga` St. Helena to Calistoga | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/calp-st-helena-calistoga-1.jpg) [sheet 2](../screenshots/p2c/traces/calp-st-helena-calistoga-2.jpg) |
+| `calp-vallejo-ferry` South Vallejo to Vallejo Junction, the ferry | approximate |  |  | [review](../screenshots/p2c/traces/calp-vallejo-ferry.jpg) |
+| `cp-port-costa-benicia-ferry` Port Costa to Benicia, the train ferry | approximate |  |  | [review](../screenshots/p2c/traces/cp-port-costa-benicia-ferry.jpg) |
+| `cp-benicia-waterfront` Benicia, the ferry slip to the line near Army Point | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-benicia-waterfront-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-benicia-waterfront-2.jpg) |
+| `cp-niles-livermore` Niles to Livermore, through Niles Canyon by Sunol and Pleasanton | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-niles-livermore-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-niles-livermore-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-niles-livermore-3.jpg) |
+| `cp-livermore-altamont` Livermore over the Altamont Pass, to the San Joaquin County line | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-livermore-altamont-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-livermore-altamont-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-livermore-altamont-3.jpg) |
+| `cp-niles-san-jose` Niles to San José, by Warm Springs and Milpitas | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-niles-san-jose-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-niles-san-jose-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-niles-san-jose-3.jpg) |
+| `eb-washington-12th-13th-link` Washington St, where it stops today to 13th St | approximate |  |  |  |
+| `eb-washington-13th-san-pablo-link` Washington St, 13th St to San Pablo Ave | approximate |  |  |  |
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |
 | `ggf-hyde-berkeley-course` Ferry, Hyde Street to the Berkeley pier | approximate |  |  |  |
 | `vallejo-ferry-course` Ferry, Clay Street to Vallejo | approximate |  |  |  |
+| `sp-creek-route-course` Ferry, foot of Mission St to the foot of Broadway, Oakland (the Creek Route) | approximate |  |  |  |
+| `sp-oakland-pier-course` Ferry, the Ferry Building to Oakland Pier | approximate |  |  |  |
+| `sp-alameda-pier-course` Ferry, the Ferry Building to Alameda Pier | approximate |  |  |  |
+| `richmond-san-rafael-course` Ferry, Castro Point (Richmond) to Point San Quentin | OpenHistoricalMap |  |  |  |
+| `sf-alameda-ferry-course` Ferry, San Francisco to Alameda Point (1864-73) | approximate |  |  |  |
+| `martinez-benicia-course` Martinez to Benicia, across the Carquinez Strait | geotiff | usgs-benicia-1952 | 15 m | [review](../screenshots/p2c/traces/martinez-benicia-course.jpg) |
 | `ferry-hyde-street-pier` Hyde Street Pier | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-hyde-street-pier.jpg) |
 | `ferry-sausalito-nwp` Sausalito ferry terminal (Northwestern Pacific) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-sausalito-nwp.jpg) |
 | `ferry-berkeley-pier` Berkeley ferry pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/ferry-berkeley-pier.jpg) |
-| `key-pier` Key Route Pier | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2b/traces/key-pier-corrected.jpg) [as traced](../screenshots/p2b/traces/key-pier.jpg) |
-| `key-trunk-shore` Pier approach and subway to Poplar Junction | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-trunk-shore.jpg) |
-| `key-yerba-buena` Yerba Buena Avenue to San Pablo Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-yerba-buena.jpg) |
-| `key-bridge-link` East Bay yards to the old pier line | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/key-bridge-link.jpg) |
+| `key-pier` Key Route Pier | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2a/traces/key-pier-corrected.jpg) [as traced](../screenshots/p2a/traces/key-pier.jpg) |
+| `key-trunk-shore` Pier approach and subway to Poplar Junction | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-trunk-shore.jpg) |
+| `key-yerba-buena` Yerba Buena Avenue to San Pablo Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-yerba-buena.jpg) |
+| `key-bridge-link` East Bay yards to the old pier line | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/key-bridge-link.jpg) |
 | `key-40th-st` Yerba Buena Avenue and 40th Street to Shafter Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st.jpg) |
 | `key-40th-st-east` 40th Street, Shafter Avenue to Piedmont Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-40th-st-east.jpg) |
-| `key-linden-st` San Pablo Avenue to Adeline Street, by Linden Street | approximate |  |  | [review](../screenshots/p2b/traces/key-linden-st.jpg) |
-| `key-adeline-south` Adeline Street to Alcatraz Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-adeline-south.jpg) |
-| `key-adeline-north` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1903 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-adeline-north.jpg) |
-| `key-shattuck-center` Shattuck Avenue to Center Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-shattuck-center.jpg) |
-| `key-adeline-1941` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1941 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-adeline-1941.jpg) |
+| `key-linden-st` San Pablo Avenue to Adeline Street, by Linden Street | approximate |  |  | [review](../screenshots/p2a/traces/key-linden-st.jpg) |
+| `key-adeline-55th` Adeline Street, to 55th Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-adeline-55th.jpg) |
+| `key-adeline-south` Adeline Street, 55th Street to Alcatraz Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-adeline-south.jpg) |
+| `key-adeline-north` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1903 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-adeline-north.jpg) |
+| `key-shattuck-center` Shattuck Avenue to Center Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-shattuck-center.jpg) |
+| `key-adeline-1941` Adeline Street, Alcatraz Avenue to Shattuck Avenue (1941 track) | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-adeline-1941.jpg) |
 | `key-poplar-north` Poplar Junction to West Grand Avenue | approximate |  |  |  |
-| `key-west-grand` 22nd Street (West Grand Avenue) to Broadway | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-west-grand.jpg) |
-| `key-poplar-south` Poplar Street, West Grand Avenue to 12th Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-poplar-south.jpg) |
-| `key-12th-st` 12th Street to Broadway | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-12th-st.jpg) |
-| `key-12th-st-oak` 12th Street, Broadway to Oak Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/key-12th-st-oak.jpg) |
-| `key-sacramento-st` Sacramento Street to Hopkins Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/key-sacramento-st.jpg) |
-| `key-hopkins-st` Hopkins Street to Northbrae (El Dorado Avenue) | street-centerline | usgs-richmond-1949 | 40 m | [review](../screenshots/p2b/traces/key-hopkins-st.jpg) |
+| `key-west-grand` 22nd Street (West Grand Avenue) to Broadway | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-west-grand.jpg) |
+| `key-poplar-south` Poplar Street, West Grand Avenue to 12th Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-poplar-south.jpg) |
+| `key-12th-st` 12th Street to Broadway | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-12th-st.jpg) |
+| `key-12th-st-oak` 12th Street, Broadway to Oak Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/key-12th-st-oak.jpg) |
+| `key-sacramento-st` Sacramento Street to Hopkins Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/key-sacramento-st.jpg) |
+| `key-hopkins-st` Hopkins Street to Northbrae (El Dorado Avenue) | street-centerline | usgs-richmond-1949 | 40 m | [review](../screenshots/p2a/traces/key-hopkins-st.jpg) |
 | `key-ferry` Ferry, Key Route pier to the Ferry Building | approximate |  |  |  |
-| `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2b/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2b/traces/key-pier-terminal.jpg) |
-| `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2b/traces/key-san-pablo.jpg) |
-| `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2b/traces/key-piedmont-terminal.jpg) |
+| `key-55th-56th-st` 55th, Vicente and 56th Streets, Adeline Street to Claremont Avenue | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/key-55th-56th-st.jpg) |
+| `key-claremont-ave` Claremont Avenue, 56th Street to the Claremont Hotel | street-centerline | usgs-oakland-east-1949 | 20 m | [review](../screenshots/p2c/traces/key-claremont-ave.jpg) |
+| `key-pier-terminal` Key Route Pier terminal | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2a/traces/key-pier-terminal-corrected.jpg) [as traced](../screenshots/p2a/traces/key-pier-terminal.jpg) |
+| `key-san-pablo` San Pablo Avenue | approximate |  |  | [review](../screenshots/p2a/traces/key-san-pablo.jpg) |
+| `key-piedmont-terminal` Piedmont (40th Street and Piedmont Avenue) | street-centerline | usgs-oakland-west-1949 | 60 m | [review](../screenshots/p2a/traces/key-piedmont-terminal.jpg) |
+| `npc-san-anselmo-manor` San Anselmo to Manor, by Fairfax | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-san-anselmo-manor-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-san-anselmo-manor-2.jpg) |
+| `npc-manor-point-reyes` Manor to Point Reyes, by White's Hill, San Geronimo, Lagunitas and Camp Taylor | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-manor-point-reyes-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-manor-point-reyes-2.jpg) [sheet 3](../screenshots/p2c/traces/npc-manor-point-reyes-3.jpg) |
+| `npc-point-reyes-tomales` Point Reyes to Tomales, along Tomales Bay | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-point-reyes-tomales.jpg) |
+| `npc-tomales-occidental` Tomales to Occidental (Howard's), by Valley Ford and Freestone | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-tomales-occidental-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-tomales-occidental-2.jpg) |
+| `npc-occidental-tyrone` Occidental to Tyrone, by Camp Meeker | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/npc-occidental-tyrone-1.jpg) [sheet 2](../screenshots/p2c/traces/npc-occidental-tyrone-2.jpg) |
+| `npc-tyrone-monte-rio` Tyrone to Monte Rio | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-tyrone-monte-rio.jpg) |
+| `npc-monte-rio-sheridan` Monte Rio to Sheridan, along the Russian River | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/npc-monte-rio-sheridan.jpg) |
 | `nwp-sausalito-almonte` Sausalito to Mill Valley Junction (Almonte) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/nwp-sausalito-almonte.jpg) |
 | `nwp-almonte-corte-madera` Mill Valley Junction to Corte Madera, by Alto and the tunnel | geotiff | usgs-tamalpais-1941 | 40 m | [review](../screenshots/p2b/traces/nwp-almonte-corte-madera.jpg) |
 | `nwp-corte-madera-san-anselmo` Corte Madera to San Anselmo, by Larkspur, Kentfield and Ross | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-corte-madera-san-anselmo.jpg) |
 | `nwp-san-anselmo-san-rafael` San Anselmo to San Rafael | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-san-anselmo-san-rafael.jpg) |
 | `nwp-mill-valley-branch` Mill Valley branch, Mill Valley Junction to Mill Valley | geotiff | usgs-tamalpais-1941 | 30 m | [review](../screenshots/p2b/traces/nwp-mill-valley-branch.jpg) |
+| `sn-west-pittsburg-mallard` West Pittsburg to Mallard | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sn-west-pittsburg-mallard.jpg) |
+| `sn-chipps-county-line` Chipps Island to the Yolo County line | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sn-chipps-county-line.jpg) |
 | `sn-shafter-ave` Shafter Ave, 40th St to Forest St | street-centerline | usgs-oakland-east-1949 | 20 m | [review](../screenshots/p2b/traces/sn-shafter-ave.jpg) |
 | `sn-rockridge-temescal` Rockridge to Lake Temescal and Montclair | geotiff | usgs-oakland-east-1949 | 25 m | [review](../screenshots/p2b/traces/sn-rockridge-temescal.jpg) |
 | `sn-shepherd-canyon` Shepherd Canyon and the Redwood Peak tunnel | approximate |  |  | [review](../screenshots/p2b/traces/sn-shepherd-canyon.jpg) |
 | `sn-eastport-lafayette` Eastport to Moraga and Lafayette | geotiff | usgs-concord-1942 | 50 m | [review](../screenshots/p2b/traces/sn-eastport-lafayette.jpg) |
 | `sn-saranap-concord` Saranap to Walnut Creek and Concord | geotiff | usgs-walnut-creek-1949 | 30 m | [review](../screenshots/p2b/traces/sn-saranap-concord.jpg) |
 | `sn-concord-bay-point` Concord to Bay Point (Port Chicago) | geotiff | usgs-port-chicago-1951 | 30 m | [review](../screenshots/p2b/traces/sn-concord-bay-point.jpg) |
+| `sn-bay-point-west-pittsburg` Bay Point to West Pittsburg | geotiff | usgs-honker-bay-1953 | 40 m | [review](../screenshots/p2c/traces/sn-bay-point-west-pittsburg.jpg) |
+| `sn-mallard-chipps-ferry` Train ferry, Mallard to Chipps Island | geotiff | usgs-honker-bay-1953 | 30 m | [review](../screenshots/p2c/traces/sn-mallard-chipps-ferry.jpg) |
 | `sf-clay-kearny-leavenworth` Clay St, Kearny St to Leavenworth St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-leavenworth.jpg) |
 | `sf-clay-kearny-drumm` Clay St, Drumm St to Kearny St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-kearny-drumm.jpg) |
 | `sf-clay-leavenworth-larkin` Clay St, Leavenworth St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-clay-leavenworth-larkin.jpg) |
@@ -69,7 +99,8 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `sf-sacramento-drumm-larkin` Sacramento St, Drumm St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-drumm-larkin.jpg) |
 | `sf-sacramento-larkin-fillmore` Sacramento St, Larkin St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-larkin-fillmore.jpg) |
 | `sf-sutter-market-larkin` Sutter St, Market St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-market-larkin.jpg) |
-| `sf-sutter-larkin-presidio` Sutter St, Larkin St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-larkin-presidio.jpg) |
+| `sf-sutter-larkin-fillmore` Sutter St, Larkin St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-sutter-larkin-fillmore.jpg) |
+| `sf-sutter-fillmore-presidio` Sutter St, Fillmore St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-sutter-fillmore-presidio.jpg) |
 | `sf-california-van-ness-fillmore` California St, Van Ness Ave to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-van-ness-fillmore.jpg) |
 | `sf-california-fillmore-presidio` California St, Fillmore St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-fillmore-presidio.jpg) |
 | `sf-ofarrell-market-jones` O'Farrell St, Market St to Jones St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-ofarrell-market-jones.jpg) |
@@ -77,7 +108,8 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `sf-pine-jones-hyde` Pine St, Jones St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-pine-jones-hyde.jpg) |
 | `sf-hyde-pine-jackson` Hyde St, Pine St to Jackson St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-hyde-pine-jackson.jpg) |
 | `sf-jones-market-ofarrell` Jones St, Market St to O'Farrell St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jones-market-ofarrell.jpg) |
-| `sf-jackson-hyde-steiner` Jackson St, Hyde St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-hyde-steiner.jpg) |
+| `sf-jackson-hyde-fillmore` Jackson St, Hyde St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-jackson-hyde-fillmore.jpg) |
+| `sf-jackson-fillmore-steiner` Jackson St, Fillmore St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-jackson-fillmore-steiner.jpg) |
 | `sf-steiner-jackson-washington` Steiner St, Jackson St to Washington St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-steiner-jackson-washington.jpg) |
 | `sf-washington-steiner-hyde` Washington St, Steiner St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-washington-steiner-hyde.jpg) |
 | `sf-jackson-steiner-presidio` Jackson St, Steiner St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-steiner-presidio.jpg) |
@@ -88,6 +120,13 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `sf-union-larkin-franklin` Union St, Larkin St to Franklin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-union-larkin-franklin.jpg) |
 | `sf-union-franklin-steiner` Union St, Franklin St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-union-franklin-steiner.jpg) |
 | `sf-castro-18th-26th` Castro St, 18th St to 26th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-castro-18th-26th.jpg) |
+| `sf-valencia-market-16th` Valencia St, Market St to 16th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-valencia-market-16th.jpg) |
+| `sf-valencia-16th-mission` Valencia St, 16th St to Mission St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-valencia-16th-mission.jpg) |
+| `sf-haight-market-stanyan` Haight St, Market St to Stanyan St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-haight-market-stanyan.jpg) |
+| `sf-castro-market-18th` Castro St, Market St to 18th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-castro-market-18th.jpg) |
+| `sf-fillmore-broadway-green` Fillmore St, Broadway to Green St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-fillmore-broadway-green.jpg) |
+| `sf-msry-eddy-market-link` Eddy St, Market St to Cyril Magnin St | approximate |  |  |  |
+| `sf-msry-hayes-market-link` Hayes St, the last block to Market St | approximate |  |  |  |
 | `muni-geary-market-van-ness` Geary St, Market St to Van Ness Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-market-van-ness.jpg) |
 | `muni-geary-van-ness-2nd` Geary Blvd, Van Ness Ave to 2nd Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-van-ness-2nd.jpg) |
 | `muni-geary-2nd-10th` Geary Blvd, 2nd Ave to 10th Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-2nd-10th.jpg) |
@@ -131,49 +170,197 @@ Each traced feature, with how it was made. The review images (`make past-review`
 | `muni-potrero-25th-division` Potrero Ave, 25th St to Division St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-potrero-25th-division.jpg) |
 | `muni-division-potrero-11th` Division St, Potrero Ave to 11th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-division-potrero-11th.jpg) |
 | `muni-11th-division-market` 11th St, Division St to Market St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-11th-division-market.jpg) |
-| `sp-oakland-mole` Oakland Mole | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/sp-oakland-mole.jpg) |
-| `sp-alameda-mole` Alameda Mole | similarity | usgs-san-francisco-1915 | 60 m | [corrected](../screenshots/p2b/traces/sp-alameda-mole-corrected.jpg) [as traced](../screenshots/p2b/traces/sp-alameda-mole.jpg) |
-| `sp-mole-16th-st` Oakland Mole to Sixteenth Street Station | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/sp-mole-16th-st.jpg) |
-| `sp-16th-st-26th-st` Sixteenth Street Station to 26th Street | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/sp-16th-st-26th-st.jpg) |
-| `sp-26th-st-34th-st` 26th Street to 34th Street | geotiff | usgs-oakland-west-1949 | 40 m | [review](../screenshots/p2b/traces/sp-26th-st-34th-st.jpg) |
-| `sp-wood-st` Wood Street, 34th Street to Ninth Street junction | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/sp-wood-st.jpg) |
-| `sp-stanford-ave` Stanford Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/sp-stanford-ave.jpg) |
-| `sp-adeline-st` Adeline Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2b/traces/sp-adeline-st.jpg) |
-| `sp-shattuck-ave-south` Shattuck Avenue, Adeline Street to Bancroft Way | street-centerline | usgs-oakland-west-1949 | 10 m | [review](../screenshots/p2b/traces/sp-shattuck-ave-south.jpg) |
-| `sp-shattuck-ave-north` Shattuck Avenue, Bancroft Way to Vine Street | street-centerline | usgs-san-francisco-1915 | 10 m | [review](../screenshots/p2b/traces/sp-shattuck-ave-north.jpg) |
-| `sp-shattuck-sutter-link` Shattuck Avenue to Sutter Street | approximate |  |  | [review](../screenshots/p2b/traces/sp-shattuck-sutter-link.jpg) |
-| `sp-sutter-st` Sutter Street to Northbrae Station | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-sutter-st.jpg) |
-| `sp-northbrae-tunnel` Northbrae Station through the Northbrae Tunnel to The Alameda | street-centerline | usgs-richmond-1949 | 20 m | [review](../screenshots/p2b/traces/sp-northbrae-tunnel.jpg) |
-| `sp-solano-ave-east` Solano Avenue, The Alameda to Thousand Oaks Station | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-solano-ave-east.jpg) |
-| `sp-ninth-st-emeryville` Ninth Street junction to Heinz Avenue, Emeryville | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2b/traces/sp-ninth-st-emeryville.jpg) |
-| `sp-ninth-st` Ninth Street, Heinz Avenue to Harrison Street | street-centerline | usgs-richmond-1949 | 10 m | [review](../screenshots/p2b/traces/sp-ninth-st.jpg) |
-| `sp-solano-ave-west` Solano Avenue, Thousand Oaks Station to San Pablo Avenue | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-solano-ave-west.jpg) |
-| `sp-albany-row` Albany, Solano Avenue to Harrison Street | similarity | usgs-san-francisco-1915 | 100 m | [corrected](../screenshots/p2b/traces/sp-albany-row-corrected.jpg) [as traced](../screenshots/p2b/traces/sp-albany-row.jpg) |
-| `sp-seventh-st` Seventh Street, Oakland | street-centerline | usgs-oakland-west-1949 | 10 m | [review](../screenshots/p2b/traces/sp-seventh-st.jpg) |
-| `sp-fallon-melrose` Fallon Street to Melrose | approximate |  |  | [review](../screenshots/p2b/traces/sp-fallon-melrose.jpg) |
-| `sp-bancroft-ave-san-leandro` Bancroft Avenue, 106th Avenue to Dutton Avenue | street-centerline | usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2b/traces/sp-bancroft-ave-san-leandro.jpg) |
-| `sp-lincoln-ave` Lincoln Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/sp-lincoln-ave.jpg) |
-| `sp-central-encinal` Central Avenue and Encinal Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2b/traces/sp-central-encinal.jpg) |
-| `sp-monterey-ave` Monterey Avenue, Hopkins Street to Colusa Avenue | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-monterey-ave.jpg) |
-| `sp-oakland-pier` Oakland Pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/sp-oakland-pier.jpg) |
-| `sp-sixteenth-street` Sixteenth Street Station | street-centerline | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/sp-sixteenth-street.jpg) |
-| `sp-northbrae` Northbrae | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-northbrae.jpg) |
-| `sp-thousand-oaks` Thousand Oaks | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2b/traces/sp-thousand-oaks.jpg) |
+| `sfnp-tiburon-larkspur` Tiburon to Larkspur, by Reed and Greenbrae | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-tiburon-larkspur-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-tiburon-larkspur-2.jpg) |
+| `sfnp-windsor-grants` Windsor to Grant's | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-windsor-grants.jpg) |
+| `sfnp-grants-healdsburg` Grant's to Healdsburg | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-grants-healdsburg.jpg) |
+| `sfnp-healdsburg-cloverdale` Healdsburg to Cloverdale, by Geyserville and Asti | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-2.jpg) [sheet 3](../screenshots/p2c/traces/sfnp-healdsburg-cloverdale-3.jpg) |
+| `sfnp-cloverdale-county-line` Cloverdale to the Mendocino County line | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/sfnp-cloverdale-county-line.jpg) |
+| `sfnp-guerneville-branch` Fulton to Guerneville, the Guerneville branch | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sfnp-guerneville-branch-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-guerneville-branch-2.jpg) |
+| `sm-daly-city-san-mateo` Daly City to San Mateo, by Colma, the cemeteries, San Bruno, Millbrae and Burlingame | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sm-daly-city-san-mateo-1.jpg) [sheet 2](../screenshots/p2c/traces/sm-daly-city-san-mateo-2.jpg) [sheet 3](../screenshots/p2c/traces/sm-daly-city-san-mateo-3.jpg) |
+| `spc-alameda-west` West Alameda, from the mole to Central Avenue | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-alameda-west.jpg) |
+| `spc-alameda-newark` Alameda to Newark, across San Leandro Bay and by Alvarado | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-alameda-newark-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-alameda-newark-2.jpg) |
+| `spc-san-jose-los-gatos` San José to Los Gatos, by Campbell | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-san-jose-los-gatos-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-san-jose-los-gatos-2.jpg) [sheet 3](../screenshots/p2c/traces/spc-san-jose-los-gatos-3.jpg) |
+| `spc-los-gatos-alma` Los Gatos to Alma, up Los Gatos Creek | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-los-gatos-alma.jpg) |
+| `spc-alma-wrights` Alma to Wrights | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-alma-wrights.jpg) |
+| `spc-wrights-county-line` Wrights into the summit tunnel, to the Santa Cruz County line | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-wrights-county-line.jpg) |
+| `sp-oakland-mole` Oakland Mole | geotiff | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/sp-oakland-mole.jpg) |
+| `sp-alameda-mole` Alameda Mole | similarity | usgs-san-francisco-1915 | 60 m | [corrected](../screenshots/p2a/traces/sp-alameda-mole-corrected.jpg) [as traced](../screenshots/p2a/traces/sp-alameda-mole.jpg) |
+| `sp-mole-16th-st` Oakland Mole to Sixteenth Street Station | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/sp-mole-16th-st.jpg) |
+| `sp-16th-st-26th-st` Sixteenth Street Station to 26th Street | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-16th-st-26th-st.jpg) |
+| `sp-26th-st-34th-st` 26th Street to 34th Street | geotiff | usgs-oakland-west-1949 | 40 m | [review](../screenshots/p2a/traces/sp-26th-st-34th-st.jpg) |
+| `sp-wood-st` Wood Street, 34th Street to Ninth Street junction | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/sp-wood-st.jpg) |
+| `sp-stanford-ave` Stanford Avenue | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/sp-stanford-ave.jpg) |
+| `sp-adeline-st` Adeline Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2a/traces/sp-adeline-st.jpg) |
+| `sp-shattuck-ave-south` Shattuck Avenue, Adeline Street to Bancroft Way | street-centerline | usgs-oakland-west-1949 | 10 m | [review](../screenshots/p2a/traces/sp-shattuck-ave-south.jpg) |
+| `sp-shattuck-ave-north` Shattuck Avenue, Bancroft Way to Vine Street | street-centerline | usgs-san-francisco-1915 | 10 m | [review](../screenshots/p2a/traces/sp-shattuck-ave-north.jpg) |
+| `sp-shattuck-sutter-link` Shattuck Avenue to Sutter Street | approximate |  |  | [review](../screenshots/p2a/traces/sp-shattuck-sutter-link.jpg) |
+| `sp-sutter-st` Sutter Street to Northbrae Station | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-sutter-st.jpg) |
+| `sp-northbrae-tunnel` Northbrae Station through the Northbrae Tunnel to The Alameda | street-centerline | usgs-richmond-1949 | 20 m | [review](../screenshots/p2a/traces/sp-northbrae-tunnel.jpg) |
+| `sp-solano-ave-east` Solano Avenue, The Alameda to Thousand Oaks Station | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-solano-ave-east.jpg) |
+| `sp-ninth-st-emeryville` Ninth Street junction to Heinz Avenue, Emeryville | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/sp-ninth-st-emeryville.jpg) |
+| `sp-ninth-st` Ninth Street, Heinz Avenue to Harrison Street | street-centerline | usgs-richmond-1949 | 10 m | [review](../screenshots/p2a/traces/sp-ninth-st.jpg) |
+| `sp-solano-ave-west` Solano Avenue, Thousand Oaks Station to San Pablo Avenue | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-solano-ave-west.jpg) |
+| `sp-albany-row` Albany, Solano Avenue to Harrison Street | similarity | usgs-san-francisco-1915 | 100 m | [corrected](../screenshots/p2a/traces/sp-albany-row-corrected.jpg) [as traced](../screenshots/p2a/traces/sp-albany-row.jpg) |
+| `sp-seventh-st` Seventh Street, Oakland | street-centerline | usgs-oakland-west-1949 | 10 m | [review](../screenshots/p2a/traces/sp-seventh-st.jpg) |
+| `sp-fallon-melrose` Fallon Street to Melrose | approximate |  |  | [review](../screenshots/p2a/traces/sp-fallon-melrose.jpg) |
+| `sp-bancroft-ave-san-leandro` Bancroft Avenue, 106th Avenue to Dutton Avenue | street-centerline | usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2a/traces/sp-bancroft-ave-san-leandro.jpg) |
+| `sp-lincoln-ave` Lincoln Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/sp-lincoln-ave.jpg) |
+| `sp-central-encinal` Central Avenue and Encinal Avenue, Alameda | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/sp-central-encinal.jpg) |
+| `sp-monterey-ave` Monterey Avenue, Hopkins Street to Colusa Avenue | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-monterey-ave.jpg) |
+| `sp-18th-st` 18th Street, Sixteenth Street Station to San Pablo Avenue | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-18th-st.jpg) |
+| `sp-18th-20th-link` San Pablo Avenue, 18th Street to 20th Street | approximate |  |  |  |
+| `sp-20th-st` 20th Street, San Pablo Avenue to Franklin Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-20th-st.jpg) |
+| `sp-20th-franklin-webster` 20th Street, Franklin Street to Webster Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-20th-franklin-webster.jpg) |
+| `sp-franklin-20th-14th` Franklin Street, 20th Street to 14th Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-franklin-20th-14th.jpg) |
+| `sp-webster-20th-14th` Webster Street, 20th Street to 14th Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-webster-20th-14th.jpg) |
+| `sp-14th-franklin-webster` 14th Street, Franklin Street to Webster Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-14th-franklin-webster.jpg) |
+| `sp-webster-14th-2nd` Webster Street, 14th Street to 2nd Street | street-centerline | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-webster-14th-2nd.jpg) |
+| `sp-webster-2nd-1st` Webster Street, 2nd Street to 1st Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/sp-webster-2nd-1st.jpg) |
+| `sp-harrison-st-bridge` Harrison Street swing bridge across the estuary | similarity | usgs-san-francisco-1915 | 80 m | [corrected](../screenshots/p2c/traces/sp-harrison-st-bridge-corrected.jpg) [as traced](../screenshots/p2c/traces/sp-harrison-st-bridge.jpg) |
+| `sp-alameda-north-shore` Alameda's north shore, the bridge to the mole line | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2c/traces/sp-alameda-north-shore.jpg) |
+| `sp-oakland-pier` Oakland Pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-oakland-pier.jpg) |
+| `sp-sixteenth-street` Sixteenth Street Station | street-centerline | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-sixteenth-street.jpg) |
+| `sp-northbrae` Northbrae | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-northbrae.jpg) |
+| `sp-thousand-oaks` Thousand Oaks | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-thousand-oaks.jpg) |
 | `sp-pen-division` Seventh St to Harrison St, by Division St | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sp-pen-division.jpg) |
 | `sp-pen-mission` The Mission, from 16th St to 26th St | similarity | usgs-san-francisco-1899 | 40 m | [corrected](../screenshots/p2b/traces/sp-pen-mission-corrected.jpg) [as traced](../screenshots/p2b/traces/sp-pen-mission.jpg) |
 | `sp-pen-mission-link` 26th St to San Jose Ave | approximate |  |  |  |
 | `sp-pen-bernal-cut` The Bernal Cut, along San Jose Ave | street-centerline | usgs-san-francisco-south-1950 | 30 m | [review](../screenshots/p2b/traces/sp-pen-bernal-cut.jpg) |
 | `sp-pen-ocean-view` Glen Park to San Bruno, by Ocean View and Colma | geotiff | usgs-san-francisco-south-1950 | 20 m | [review](../screenshots/p2b/traces/sp-pen-ocean-view.jpg) |
 | `sp-pen-san-jose` San José: the old main line to the Market Street station | geotiff | usgs-san-jose-1943 | 30 m | [review](../screenshots/p2b/traces/sp-pen-san-jose.jpg) |
+| line `eb-1-east-14th` No. 1 East 14th Street: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-1-east-14th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-2.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-3.jpg) |
+| line `eb-2-san-pablo` No. 2 San Pablo Avenue: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-2-san-pablo-streets.jpg) |
+| line `eb-6-college` No. 6 College Avenue: its 20 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-6-college-streets.jpg) |
+| line `eb-k-alcatraz` K Alcatraz Avenue: its 3 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-k-alcatraz-streets.jpg) |
+| line `eb-9-alameda` No. 9 Alameda via Park Street: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-9-alameda-streets-1.jpg) [review](../screenshots/p2c/traces/eb-9-alameda-streets-2.jpg) |
+| line `eb-10-piedmont` No. 10 Piedmont Avenue: its 11 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-10-piedmont-streets.jpg) |
+| line `eb-11-oakland-ave` No. 11 Oakland Avenue: its 24 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-11-oakland-ave-streets-1.jpg) [review](../screenshots/p2c/traces/eb-11-oakland-ave-streets-2.jpg) |
+| line `eb-12-grand-16th` No. 12 Grand Avenue-16th Street: its 14 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-12-grand-16th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-12-grand-16th-streets-2.jpg) |
+| line `eb-14-east-18th` No. 14 East 18th Street: its 16 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-14-east-18th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-14-east-18th-streets-2.jpg) |
+| line `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-15-macarthur-streets-1.jpg) [review](../screenshots/p2c/traces/eb-15-macarthur-streets-2.jpg) |
+| line `eb-38th-ave` 38th Avenue line: its 11 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-38th-ave-streets-1.jpg) [review](../screenshots/p2c/traces/eb-38th-ave-streets-2.jpg) |
+| line `eb-17-8th-ave` No. 17 8th Avenue: its 4 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-17-8th-ave-streets.jpg) |
+| line `eb-23-23rd-ave` No. 23 23rd Avenue: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-23-23rd-ave-streets.jpg) |
+| line `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue: its 8 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-18-park-lakeshore-streets-1.jpg) [review](../screenshots/p2c/traces/eb-18-park-lakeshore-streets-2.jpg) |
+| line `eb-24-dwight` No. 24 Dwight Way: its 2 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-24-dwight-streets.jpg) |
+| line `eb-cemetery` Cemetery line: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-cemetery-streets.jpg) |
+| line `eb-richmond` Richmond line: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-richmond-streets.jpg) |
+| line `eb-29-23rd-macdonald` No. 29 23rd and Macdonald: its 3 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-29-23rd-macdonald-streets.jpg) |
+| line `msry-1` No. 1 Sutter and California Streets: its 5 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-1-streets.jpg) |
+| line `msry-3` No. 3 Sutter and Jackson Streets: its 1 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-3-streets.jpg) |
+| line `msry-4` No. 4 Turk and Eddy Streets: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-4-streets.jpg) |
+| line `msry-6` No. 6 Haight Street and Masonic Avenue: its 18 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-6-streets.jpg) |
+| line `msry-7` No. 7 Haight Street and Ocean: its 2 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-7-streets.jpg) |
+| line `msry-9` No. 9 Valencia Street: its 2 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-9-streets.jpg) |
+| line `msry-10` No. 10 Guerrero Street and Sunnyside: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-10-streets-1.jpg) [review](../screenshots/p2c/traces/msry-10-streets-2.jpg) |
+| line `msry-11` No. 11 Mission and 24th Streets: its 9 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-11-streets.jpg) |
+| line `msry-12` No. 12 Mission Street and Ingleside: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-12-streets-1.jpg) [review](../screenshots/p2c/traces/msry-12-streets-2.jpg) |
+| line `msry-14` No. 14 Mission Street and Daly City: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-14-streets-1.jpg) [review](../screenshots/p2c/traces/msry-14-streets-2.jpg) |
+| line `msry-15` No. 15 Kearny Street and North Beach: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-15-streets.jpg) |
+| line `msry-17` No. 17 Haight Street and Ingleside: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-17-streets-1.jpg) [review](../screenshots/p2c/traces/msry-17-streets-2.jpg) |
+| line `msry-18` No. 18 Mission Street and Daly City: its 7 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-18-streets-1.jpg) [review](../screenshots/p2c/traces/msry-18-streets-2.jpg) |
+| line `msry-19` No. 19 Ninth and Polk Streets: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-19-streets.jpg) |
+| line `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets: its 16 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-20-streets.jpg) |
+| line `msry-21` No. 21 Hayes Street: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-21-streets.jpg) |
+| line `msry-27` No. 27 Bryant Street: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-27-streets-1.jpg) [review](../screenshots/p2c/traces/msry-27-streets-2.jpg) |
+| line `msry-32` No. 32 Hayes and Oak Streets: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-32-streets.jpg) |
+| line `msry-33` No. 33 Eighteenth Street and Park: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-33-streets.jpg) |
+| line `msry-34` No. 34 Sixth and Sansome Streets: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-34-streets.jpg) |
+| line `msry-36` No. 36 Folsom Street: its 4 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-36-streets-1.jpg) [review](../screenshots/p2c/traces/msry-36-streets-2.jpg) |
+| line `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot: its 5 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-41-streets.jpg) |
+| line `msry-42` No. 42 First and Fifth Streets: its 12 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-42-streets.jpg) |
+| line `msry-tenth-and-post` Tenth and Post Streets: its 9 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-tenth-and-post-streets.jpg) |
+| line `msry-divisadero-extension` Divisadero Street extension: its 1 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-divisadero-extension-streets.jpg) |
+| line `msry-40` No. 40 San Mateo: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 / usgs-san-mateo-1949 | 15 m | [review](../screenshots/p2c/traces/msry-40-streets-1.jpg) [review](../screenshots/p2c/traces/msry-40-streets-2.jpg) [review](../screenshots/p2c/traces/msry-40-streets-3.jpg) |
 
 ## Conflicting sources
 
+- line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass): Opens with the first through passenger train from Oakland Point (Halley); the railroad's own return gives "about December 1, 1869". From September 8 to November 8, 1869 its trains ran from San Leandro to the Alameda wharf over the San Francisco & Alameda, not drawn. Through Oakland it follows the electric lines' Seventh Street and Melrose segments, the second of them approximate, so a short gap is left before today's track.
 - line `vallejo-ferry` (San Francisco–Vallejo ferry): The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.
 - line `sf-union-st-cable` (Union Street cable line): SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.
-- line `sf-castro-st-cable` (Castro Street cable line): Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.
+- line `sf-castro-st-cable` (Castro Street cable line): Until 1906 it ran on Market St from Valencia St to Castro St (Callwell p. 81), drawn over today's F track there.
 - line `muni-b-geary` (B Geary): Muni's own reports give June 24 or 25, 1913 for the run to the beach; Callwell gives June 25. From March 22, 1949 it turned at the Transbay Terminal by 1st and Fremont Sts (Callwell p. 46); that loop isn't drawn, nor the Ferry Building loop. Whether it kept the 33rd Ave, Balboa St and 45th Ave route to the end isn't sourced yet.
 - line `muni-c-california` (C Geary–California): Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but the change itself isn't recorded in the sources reached, so its end is left open.
 - line `muni-d-van-ness` (D Van Ness–Union): O'Shaughnessy gives August 5, 1914 for its first day; Muni's reports give August 15. Its run via Geary St to the Ferries is dated only to 1915 (the city's 1948 transit history), which also puts it on Union St then, against the 1917 route table's Fillmore and Chestnut Sts. Between May 4, 1918 and July 22, 1919 its streets north of Union St aren't known, so that end isn't drawn for those months. Its right-of-way into the Presidio isn't drawn.
 - line `muni-f-stockton` (F Stockton): Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn.
 - line `muni-h-potrero` (H Van Ness–Potrero): Muni's report for 1914-15 gives August 15, 1914 for its first day; its later reports give September 7. That it ran up Van Ness Ave from the Fort Mason loop's first day, December 29, 1914, is inferred: the city's 1948 transit history gives the route for 1915. Its extension south of Army St (1946-49) isn't drawn.
+- line `sfnp-donahue` (San Francisco & North Pacific, from Donahue to Cloverdale): The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 1870, when a passenger car was put on to Santa Rosa. Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running).
+- segment `spc-wrights-county-line` (Wrights into the summit tunnel, to the Santa Cruz County line): Into the tunnel under the summit, toward Felton and Santa Cruz; cut at the county line (decision 16).
 - line `sp-peninsula` (Peninsula trains, San Francisco to San José): The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.
+
+## Dates "on or about" (decision 17)
+
+Each end dated by the month of the order or event that brought it, because no source gives the last day. A newspaper of the time would settle it.
+
+- line `calp-vallejo-calistoga` (California Pacific trains, Vallejo to Calistoga), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
+- line `calp-vallejo-junction-ferry` (Vallejo Junction–South Vallejo ferry), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
+- line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass), closed 1941-01: Authorized "to discontinue all regular passenger train service between Tracy and Elmhurst, via Niles" and trains 231 and 232 "between Tracy and Oakland Pier, via Niles", by its order of January 3, 1941, effective twenty days later: on or about January 1941 (decision 17).
+- line `cp-niles-san-jose-trains` (Central Pacific trains to San José by Niles and Milpitas), closed 1940-02: "III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas", by its order of February 13, 1940, effective ten days later: on or about February 1940 (decision 17).
+- line `ggf-hyde-berkeley` (Hyde Street–Berkeley auto ferry), closed 1937-08: Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17).
+- line `sp-creek-route` (Creek Route ferry (Broadway, Oakland)), closed 1937-08: Abandonment authorized on cancelling the schedules, within 30 days of the order of August 9, 1937, on not less than 5 days' notice: on or about August 1937 (decision 17); the last run fell between about August 14 and September 8, 1937.
+- line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-west-pittsburg-mallard`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
+- line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
+- line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
+- line `nwp-main-line` (Northwestern Pacific trains to Eureka, from San Rafael), closed 1958-11: "is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points"; "The effective date of this order shall be twenty days after the date hereof." Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17).
+
+## Drawn for its running dates (decision 20)
+
+Each line whose opening or closing isn't sourced, drawn only for the years a source shows it running. Its first and last days are still to find; until then it appears late and leaves early.
+
+| Line | Running on | Still to find |
+|---|---|---|
+| `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
+| `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
+| `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
+| `eb-k-alcatraz` K Alcatraz Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
+| `eb-9-alameda` No. 9 Alameda via Park Street | 1931-01-13 (crc-d23279, p. 2); 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-10-piedmont` No. 10 Piedmont Avenue | 1943-11-30 (crc-d36740, p. 1-2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-11-oakland-ave` No. 11 Oakland Avenue | 1931-11-16 (crc-d24224, p. 2); 1942-11-05 (crc-d35948, p. 2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-12-grand-16th` No. 12 Grand Avenue-16th Street | 1935-09-03 (crc-d28206, p. 9); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-14-east-18th` No. 14 East 18th Street | 1935-09-03 (crc-d28206, p. 9); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard | 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-38th-ave` 38th Avenue line | 1931-11-16 (crc-d24224, p. 2); 1932-06-30 (crc-d24963, p. 1); 1946-03-05 (crc-d38738, p. 1) | opening and closing |
+| `eb-17-8th-ave` No. 17 8th Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-23-23rd-ave` No. 23 23rd Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue | 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-24-dwight` No. 24 Dwight Way | 1938-01-10 (crc-d30512, p. 3) | opening and closing |
+| `eb-cemetery` Cemetery line | 1937-10-11 (crc-d30213, p. 1, 3) | opening and closing |
+| `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening and closing |
+| `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
+| `sp-creek-route` Creek Route ferry (Broadway, Oakland) | 1876-07-01 (halley-1876, p. 435); 1936-12 (crc-d29338, p. 1) | opening |
+| `sp-alameda-pier-ferry` Alameda ferry (Alameda Pier) | 1878-06-01 (wood-1883, p. 833) | opening |
+| `npc-san-rafael-branch` North Pacific Coast San Rafael branch | 1875-01-08 (marin-history-1880, p. 412); 1885 (poors-1885, p. 870); 1900 (poors-1900, p. 606) | opening and closing |
+| `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening |
+| `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening |
+| `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-6` No. 6 Haight Street and Masonic Avenue | 1909-02-01 (manley-1909, p. 11-12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-7` No. 7 Haight Street and Ocean | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-8` No. 8 Market Street | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening |
+| `msry-9` No. 9 Valencia Street | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-10` No. 10 Guerrero Street and Sunnyside | 1909-02-01 (manley-1909, p. 20); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-11` No. 11 Mission and 24th Streets | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-12` No. 12 Mission Street and Ingleside | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-14` No. 14 Mission Street and Daly City | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 345) | opening |
+| `msry-15` No. 15 Kearny Street and North Beach | 1909-02-01 (manley-1909, p. 17); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-17` No. 17 Haight Street and Ingleside | 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-18` No. 18 Mission Street and Daly City | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-19` No. 19 Ninth and Polk Streets | 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-21` No. 21 Hayes Street | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening |
+| `msry-27` No. 27 Bryant Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 347) | opening |
+| `msry-32` No. 32 Hayes and Oak Streets | 1929-05 (oshaughnessy-1929, p. 348-349) | opening and closing |
+| `msry-33` No. 33 Eighteenth Street and Park | 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
+| `msry-34` No. 34 Sixth and Sansome Streets | 1909-02-01 (manley-1909, p. 19); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
+| `msry-36` No. 36 Folsom Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening |
+| `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot | 1929-05 (oshaughnessy-1929, p. 349-350) | opening |
+| `msry-42` No. 42 First and Fifth Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
+| `msry-tenth-and-post` Tenth and Post Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
+| `msry-divisadero-extension` Divisadero Street extension | 1909-02-01 (manley-1909, p. 29); 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
+| `msry-40` No. 40 San Mateo | 1903-10-31 (srj-1903-10-31-san-mateo, p. 798-803); 1909-02-01 (manley-1909, p. 26); 1929-05 (oshaughnessy-1929, p. 349) | opening |
+| `sfnp-donahue` San Francisco & North Pacific, from Donahue to Cloverdale | 1885 (poors-1885, p. 874) | closing |
+| `sfnp-tiburon` San Francisco & North Pacific, from San Rafael and Tiburon to Cloverdale | 1887 (poors-1887, p. 873); 1889-11 (ca-brc-report-10, p. 17) | closing |
+| `nwp-main-line` Northwestern Pacific trains to Eureka, from San Rafael | 1935-05-20 (crc-d27973, p. 3); 1941-09-10 (crc-d34571, p. 1); 1958-10-21 (cpuc-d57488, p. 2) | opening |
+| `sfnp-guerneville` San Francisco & North Pacific, Guerneville branch | 1887 (poors-1887, p. 873); 1935-05-20 (crc-d27973, p. 3) | closing |
+| `spc-alameda-santa-cruz` South Pacific Coast, Alameda to Santa Cruz | 1900 (poors-1900, p. 616-617) | closing |

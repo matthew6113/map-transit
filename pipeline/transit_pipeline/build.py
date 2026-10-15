@@ -55,6 +55,21 @@ def line_sources(line: dict, segments: dict) -> list[dict]:
         m["supports"] += [x for x in ref.get("supports", []) if x not in m["supports"]]
     return list(merged.values())
 
+# Decision 20: draw a line whose opening or closing isn't sourced for
+# the years a source shows it running (its `running` dates). False leaves such lines undated.
+RUNNING_DATES = True
+
+
+def running_years(line: dict) -> list[float]:
+    """The years a source shows the line running (decision 20), in order."""
+    return sorted(decimal_year(x["date"]) for x in line.get("running", []))
+
+
+def attested(line: dict) -> bool:
+    """Drawn for its running dates, not its own (decision 20): lighter, like a borrowed date."""
+    return RUNNING_DATES and bool(line.get("running")) and (line["opened"] is None or line["closed"] is None)
+
+
 def decimal_year(d: str | None) -> float | None:
     """'1903' -> 1903.0, '1903-05' -> 1903.33, '1903-05-14' -> 1903.37 (a trailing ~ is ignored)."""
     if not d:
@@ -191,15 +206,28 @@ def main() -> None:
                 return NOT_YET, OPEN_ENDED
             o = decimal_year(line["opened"])
             c = decimal_year(line["closed"]) if line["closed"] else (OPEN_ENDED if line["status"] == "active" else None)
+            # Decision 20: a line a source shows running, whose opening or closing isn't sourced, is
+            # drawn for the years it's shown: from the first such date, to the last.
+            seen = running_years(line)
+            if seen and RUNNING_DATES:
+                o = seen[0] if o is None else o
+                c = seen[-1] if c is None else c
             return o, c
 
         def use_years(line, r=None):
-            """A line's years on one segment: its own, narrowed by the route entry's from/to."""
+            """A line's years on one segment: its own, narrowed by the route entry's from/to, and by
+            the dates a source shows this stretch in use, where it's in only some of them."""
             o, c = line_years(line)
             if r and r.get("from"):
                 o = max(o if o is not None else -math.inf, decimal_year(r["from"]))
             if r and r.get("to"):
                 c = min(c if c is not None else math.inf, decimal_year(r["to"]))
+            if r and r.get("running") and RUNNING_DATES:
+                seen, mine = running_years(line), sorted(decimal_year(d) for d in r["running"])
+                if mine[0] > seen[0]:
+                    o = max(o if o is not None else -math.inf, mine[0])
+                if mine[-1] < seen[-1]:
+                    c = min(c if c is not None else math.inf, mine[-1])
             return o, c
 
         def segment_years(seg_props, users, used=None):
@@ -241,11 +269,29 @@ def main() -> None:
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": status,
             }}
+            # A past segment that lines of different modes used in turn (an interurban, then freight
+            # trains; cable, then electric cars) draws in the mode of each year: the earliest-opened
+            # line running then, else the line that ran just before (decision 15).
+            if era == "past" and not undated and len({u["mode"] for u in users}) > 1:
+                turns = []
+                for line, r in spans.get(sid, []):
+                    lo, lc = use_years(line, r)
+                    lo = o if lo is None or lo == -math.inf else max(lo, o)
+                    lc = c if lc is None or lc == math.inf else min(lc, c)
+                    turns.append((lo, lc, line["mode"], line["opened"] or "9999"))
+                historic, own = mode_spans(o, c, turns)
+                for a, b in own:
+                    before = [m for x, y, m in historic if y <= a]
+                    after = [m for x, y, m in historic if x >= b]
+                    historic.append((a, b, before[-1] if before else after[0] if after else mode))
+                for a, b, m in sorted(historic):
+                    draw.append({**base, "properties": {**base["properties"], "mode": m, "group": MODE_GROUP[m],
+                                                         "open_y": round(a, 3), "close_y": round(b, 3), "span": 1}})
+                continue
             past_uses = []
             if era == "present":
                 for line, r in (x for x in cross if x[1]["segment"] == sid):
-                    lo = decimal_year(r.get("from") or line["opened"])
-                    lc = decimal_year(r.get("to") or line["closed"])
+                    lo, lc = use_years(line, r)
                     if lo is not None and lc is not None:
                         past_uses.append((lo, lc, line["mode"], line["opened"] or "9999"))
                 # Today's lines that ran in another mode before (Muni's streetcars before Metro).
@@ -307,11 +353,18 @@ def main() -> None:
             for r, parts in zip(line["route"], oriented):
                 seg = route_segments[r["segment"]]["properties"]
                 o, c, borrowed, undated = display(r["segment"])
-                # A line's use of a segment can be narrower than the segment's own life.
+                # A line's use of a segment can be narrower than the segment's own life: its route
+                # entry's from/to, and the line's own sourced dates (Caltrain runs on track of 1863,
+                # but only from 1980).
                 if r.get("from"):
                     o = max(o or -math.inf, decimal_year(r["from"]))
                 if r.get("to"):
                     c = min(c if c is not None else math.inf, decimal_year(r["to"]))
+                lo, lc = use_years(line, r)
+                if lo is not None and o is not None and not undated:
+                    o = max(o, lo)
+                if lc is not None and c is not None and not undated:
+                    c = min(c, lc)
                 # The segment's own dates, so the line's pieces match the drawn ones.
                 for coords, off in slots(parts, MODE_GROUP[line["mode"]], r["segment"]):
                     fid += 1
@@ -320,8 +373,8 @@ def main() -> None:
                         "fid": fid, "line": line["id"], "seg": r["segment"], "era": era, "name": line["name"],
                         "mode": line["mode"], "group": MODE_GROUP[line["mode"]], "conf": seg["geometry_confidence"],
                         "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
-                        "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0, "status": line["status"],
-                        "off": off,
+                        "borrowed": 1 if borrowed or attested(line) else 0, "undated": 1 if undated else 0,
+                        "status": line["status"], "off": off,
                     }})
             lo, lc = line_years(line)
             segs_km = defaultdict(float)
@@ -346,6 +399,7 @@ def main() -> None:
                                         "fate_note", "successor", "continues_beyond", "gauge_mm", "gauge_label",
                                         "traction", "photo", "links", "notes") if k in line},
                 "flags": line["flags"],
+                **({"running": line["running"]} if line.get("running") and RUNNING_DATES else {}),
                 "undated": era != "future" and (lo is None or lc is None),
                 "length_km": round(sum(segs_km.values()), 2),
                 "confidence_km": {k: round(v, 2) for k, v in sorted(segs_km.items())},
@@ -357,7 +411,7 @@ def main() -> None:
                     "opened": route_segments[r["segment"]]["properties"]["opened"],
                     "closed": route_segments[r["segment"]]["properties"]["closed"],
                     # This line's use of the segment, where narrower than the segment's own life.
-                    **{k: r[k] for k in ("from", "to", "note") if r.get(k)},
+                    **{k: r[k] for k in ("from", "to", "running", "note") if r.get(k)},
                     "borrowed": display(r["segment"])[2],
                     "undated": display(r["segment"])[3],
                     "confidence": route_segments[r["segment"]]["properties"]["geometry_confidence"],

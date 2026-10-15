@@ -70,7 +70,7 @@
       "mode": "ferry",
       "era": "past",
       "opened": "1927-06-16",
-      "closed": null,
+      "closed": "1937-08",
       "status": "closed",
       "summary": "Auto ferries from Hyde Street Pier to the end of a long pier from the foot of University Ave in Berkeley.",
       "fate": "abandoned",
@@ -96,15 +96,13 @@
         {
           "source": "crc-d29999",
           "supports": [
-            "general"
+            "closed"
           ],
-          "note": "Authorized in August 1937 to suspend the San Francisco-Berkeley route for six months."
+          "note": "Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17)."
         }
       ],
-      "flags": [
-        "closed_unsourced"
-      ],
-      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999); when it last ran isn't sourced, so it is left off the year slider."
+      "flags": [],
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999). When it last ran isn't sourced, so it closes on or about the month of the order (decision 17)."
     },
     {
       "id": "vallejo-ferry",
@@ -174,6 +172,342 @@
         "conflicting_sources"
       ],
       "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start."
+    },
+    {
+      "id": "sp-creek-route",
+      "name": "Creek Route ferry (Broadway, Oakland)",
+      "short_name": "Creek Route",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Central Pacific Railroad"
+        },
+        {
+          "name": "Southern Pacific Golden Gate Ferries, Ltd."
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1937-08",
+      "running": [
+        {
+          "date": "1876-07-01",
+          "source": "halley-1876",
+          "pages": "435"
+        },
+        {
+          "date": "1936-12",
+          "source": "crc-d29338",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "Up the Oakland Estuary (San Antonio Creek) from San Francisco to a slip at the foot of Broadway. Re-opened on July 1, 1876, with the Central Pacific's rebuilt steamer Capitol, when the new wharf at the foot of Broadway was finished; when it first ran isn't sourced here.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned under the Railroad Commission's order of August 9, 1937, once the company cancelled its schedules, on five days' notice within thirty days: on or about August 1937 (decision 17).",
+      "route": [
+        {
+          "segment": "sp-creek-route-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "halley-1876",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "435",
+          "note": "\"the Creek route was re-opened to freight and passengers on the 1st of July, when the rebuilt steamer Capitol, belonging to the Central Pacific Railroad Company, commenced to make regular trips between Oakland and San Francisco\""
+        },
+        {
+          "source": "crc-d29338",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "crc-d29999",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "65-67",
+          "note": "Abandonment authorized on cancelling the schedules, within 30 days of the order of August 9, 1937, on not less than 5 days' notice: on or about August 1937 (decision 17); the last run fell between about August 14 and September 8, 1937."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ]
+    },
+    {
+      "id": "sp-oakland-pier-ferry",
+      "name": "Oakland ferry (Oakland Pier)",
+      "short_name": "Oakland Pier ferry",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "San Francisco & Oakland Railroad",
+          "to": "1870"
+        },
+        {
+          "name": "Central Pacific Railroad",
+          "from": "1870"
+        },
+        {
+          "name": "Southern Pacific"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1863-09-02",
+      "closed": "1958-07-30",
+      "status": "closed",
+      "summary": "The railroad ferry from San Francisco to the Oakland trains: from 1863 to the end of the Oakland wharf, from January 16, 1871 to the Long Wharf, and from January 22, 1882 to Oakland Pier, at the end of the Mole. Only the last landing is drawn; the earlier ones aren't placed in the sources read.",
+      "fate": "abandoned",
+      "fate_note": "The Interstate Commerce Commission let the Southern Pacific and Western Pacific give up the ferries once their buses ran over the Bay Bridge (Finance Docket 19960, May 14, 1958); the last boat ran July 30, 1958.",
+      "route": [
+        {
+          "segment": "sp-oakland-pier-course",
+          "from": "1882-01-22",
+          "note": "To Oakland Pier from its opening; to the Long Wharf from 1871 and the old wharf from 1863, not drawn"
+        }
+      ],
+      "sources": [
+        {
+          "source": "halley-1876",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "177",
+          "note": "\"The first trip made by the cars on the Oakland and San Francisco Ferry Railroad was made on the 2d day of September, 1863. At that date the road was completed from the end of the wharf to Broadway\"; \"The Market Street wharf was then, as now, the place of landing on the San Francisco side.\""
+        },
+        {
+          "source": "wood-1883",
+          "supports": [
+            "route"
+          ],
+          "pages": "629-631"
+        },
+        {
+          "source": "habs-ca-1888",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "note": "The Long Wharf \"opened to traffic January 16, 1871\"; the Mole and Pier \"opened to traffic January 22, 1882\"; \"all ferry service was discontinued on July 30, 1958.\""
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "sp-alameda-pier-ferry",
+      "name": "Alameda ferry (Alameda Pier)",
+      "short_name": "Alameda Pier ferry",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "South Pacific Coast Railroad"
+        },
+        {
+          "name": "Southern Pacific"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1939-01",
+      "running": [
+        {
+          "date": "1878-06-01",
+          "source": "wood-1883",
+          "pages": "833"
+        }
+      ],
+      "status": "closed",
+      "summary": "The ferry from San Francisco to Alameda Point, where the South Pacific Coast's narrow-gauge trains to Los Gatos met it by June 1878, and later the Southern Pacific's Alameda Mole.",
+      "fate": "abandoned",
+      "fate_note": "Replaced by the Bay Bridge trains from January 15, 1939.",
+      "route": [
+        {
+          "segment": "sp-alameda-pier-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "wood-1883",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "833",
+          "note": "\"On June 1, 1878, the cars began to run regularly between Alameda and Los Gatos, Santa Clara County, connecting with the ferry between Alameda Point and San Francisco.\""
+        },
+        {
+          "source": "crc-d33445",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "9",
+          "note": "\"It was not until January 15, 1939, that the bridge was opened to rail service\"; the rail lines were unchanged \"when ferry boat operation was discontinued\". Given to the month: the decision doesn't date the last boat."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ]
+    },
+    {
+      "id": "sf-alameda-ferry",
+      "name": "San Francisco & Alameda ferry",
+      "short_name": "SF & Alameda ferry",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "San Francisco & Alameda Railroad"
+        },
+        {
+          "name": "Central Pacific Railroad"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1864-08",
+      "closed": "1873-09",
+      "status": "closed",
+      "summary": "The San Francisco & Alameda Railroad's ferry to its wharf at Alameda Point, where its trains left for High St (August 1864), San Leandro (1865) and Haywards. Drawn to the later Alameda Pier: where the 1864 wharf stood isn't placed in the sources read.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned when the Central Pacific's trains and boats began running half-hourly by Oakland on September 29, 1873.",
+      "route": [
+        {
+          "segment": "sf-alameda-ferry-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "halley-1876",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "190",
+          "note": "\"landed at the company's wharf, at Alameda Point\"; \"On the 25th of August the cars were run on the road as far as High Street\" (1864). Given to the month: the ferry's own first day isn't stated."
+        },
+        {
+          "source": "wood-1883",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "630",
+          "note": "\"the Alameda ferry was abandoned ... boats and trains commenced making half-hourly trips on September 29, 1873\". Given to the month."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "richmond-san-rafael-ferry",
+      "name": "Richmond–San Rafael ferry",
+      "short_name": "Richmond–San Rafael",
+      "system": "richmond-san-rafael-ferry",
+      "operators": [
+        {
+          "name": "Charles Van Damme"
+        },
+        {
+          "name": "Richmond and San Rafael Ferry and Transportation Co."
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1915-05",
+      "closed": "1956-09-01",
+      "status": "closed",
+      "summary": "An auto and passenger ferry from Castro Point, Richmond, to Point San Quentin, near San Rafael, 3.76 miles and about 25 minutes (1924).",
+      "fate": "abandoned",
+      "fate_note": "Its last run followed the Richmond-San Rafael Bridge's opening at 12:01 a.m. on September 1, 1956.",
+      "route": [
+        {
+          "segment": "richmond-san-rafael-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d2624",
+          "supports": [
+            "opened",
+            "operator",
+            "route"
+          ],
+          "pages": "694-695",
+          "note": "\"during the month of May, 1915, the first month in which this line was operated\"."
+        },
+        {
+          "source": "chpw-1956-09",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "11, 13"
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "martinez-benicia-ferry",
+      "name": "Martinez–Benicia ferry",
+      "short_name": "Martinez–Benicia",
+      "system": "martinez-benicia-ferry",
+      "operators": [
+        {
+          "name": "Martinez-Benicia Ferry and Transportation Company",
+          "from": "1913",
+          "to": null
+        },
+        {
+          "name": "State of California",
+          "from": "1953",
+          "to": "1962-09-15"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1913",
+      "closed": "1962-09-15",
+      "status": "closed",
+      "summary": "Auto and passenger ferries across the Carquinez Strait between Martinez and Benicia, every half hour in 1930; the last ferry in the Bay Area's state highway system.",
+      "fate": "abandoned",
+      "fate_note": "Its last trip was on September 15, 1962, the day the Benicia-Martinez Bridge opened (California Highways and Public Works, 1962).",
+      "route": [
+        {
+          "segment": "martinez-benicia-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d22535",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "pages": "1-3"
+        },
+        {
+          "source": "chpw-1962-09",
+          "supports": [
+            "closed",
+            "operator"
+          ],
+          "pages": "5-6"
+        }
+      ],
+      "flags": [],
+      "notes": "Run from 1913 by the Martinez-Benicia Ferry and Transportation Company, later by the American Toll Bridge Company and others, and from 1953 by the state (California Highways and Public Works, 1962). From early 1955 to late 1956 only a passenger ferry ran."
     }
   ]
 }

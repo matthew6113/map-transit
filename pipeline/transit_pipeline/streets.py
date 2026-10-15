@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import heapq
+import math
 import json
 import os
 import re
@@ -43,11 +44,14 @@ AREAS = {
     "southbay": (-121.98, 37.33, -121.83, 37.45),  # Milpitas and north San José (VTA's Tasman and Capitol lines)
     "marin": (-122.60, 37.845, -122.45, 38.02),  # Sausalito to San Rafael (the Northwestern Pacific's electric lines)
     "contracosta": (-122.22, 37.82, -121.88, 38.05),  # Moraga to Bay Point (the Sacramento Northern)
+    "richmond": (-122.40, 37.90, -122.28, 37.98),  # Albany to Richmond and San Pablo (the East Shore & Suburban)
+    "sanmateo": (-122.36, 37.555, -122.31, 37.59),  # Burlingame and San Mateo (the San Mateo interurban, No. 40)
 }
 CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"
 SNAP_M = 30.0  # a cross street that stops short of the route still names the corner
 BRIDGE_M = 30.0  # dead ends this close to another node of the same streets are joined
+SPREAD_M = 250.0  # a divided road crosses in points closer than this; further apart, it's two corners
 
 SUFFIX = {"avenue": "ave", "street": "st", "boulevard": "blvd", "road": "rd", "drive": "dr", "place": "pl",
           "court": "ct", "lane": "ln", "terrace": "ter", "highway": "hwy", "parkway": "pkwy", "way": "way",
@@ -94,10 +98,12 @@ def roads() -> list[tuple[str, str, LineString, str]]:
     return out
 
 
-def street(names: list[str], area: str | None = None):
-    """Today's roads with these names, in one box (Oakland has a Market St too) or in all."""
+def street(names: list[str], area: str | list[str] | None = None):
+    """Today's roads with these names, in one box (Oakland has a Market St too), in a list of boxes,
+    or in all."""
     want = {norm(n) for n in names}
-    found = [g for _, n, g, a in roads() if n in want and (area is None or a == area)]
+    boxes = None if area is None else {area} if isinstance(area, str) else set(area)
+    found = [g for _, n, g, a in roads() if n in want and (boxes is None or a in boxes)]
     if not found:
         raise SystemExit(f"[streets] no road named {names} in Overture's {area or ', '.join(AREAS)} box")
     return unary_union(found)
@@ -112,6 +118,9 @@ def corner(route, cross: str | tuple[float, float], area: str | None = None) -> 
     hit = route.intersection(other)
     pts = [p for p in getattr(hit, "geoms", [hit]) if isinstance(p, Point)]
     if pts:
+        if max(p.distance(q) for p in pts for q in pts) > SPREAD_M:
+            raise SystemExit(f"[streets] {cross} crosses the route in places {SPREAD_M:.0f} m or more apart; name a box (area) "
+                             "or give the corner as lon/lat")
         c = unary_union(pts).centroid
         return nearest_points(route, c)[0]
     a, b = nearest_points(route, other)
@@ -148,7 +157,8 @@ def route(names: list[str], start: str | tuple[float, float], end: str | tuple[f
     # metres from the rest: bridge each dead end to the nearest node within BRIDGE_M.
     nodes = list(graph)
     reach = max(BRIDGE_M, bridge_m)  # a recipe may allow longer gaps, where a freeway cut the street
-    for u in [n for n in nodes if len(graph[n]) == 1]:
+    dead = [n for n in nodes if len(graph[n]) == 1]
+    for u in dead:
         best = min((Point(u).distance(Point(v)), v) for v in nodes if v != u and v not in {w for w, _, _ in graph[u]})
         if best[0] <= reach:
             link = LineString([u, best[1]])
@@ -156,6 +166,21 @@ def route(names: list[str], start: str | tuple[float, float], end: str | tuple[f
             graph[best[1]].append((u, link.length, link))
     src = min(graph, key=lambda k: Point(k).distance(a))
     dst = min(graph, key=lambda k: Point(k).distance(b))
+    # Still apart (a whole block cleared, as for Japantown): bridge each dead end to the nearest node of
+    # another piece of the street, within the recipe's bridge_m.
+    if bridge_m > BRIDGE_M and dst not in _reach(graph, src):
+        comp = {}
+        for n in graph:
+            if n not in comp:
+                for m in _reach(graph, n):
+                    comp[m] = n
+        for u in dead:
+            others = [(Point(u).distance(Point(v)), v) for v in nodes if comp[v] != comp[u]]
+            best = min(others, default=(math.inf, None))
+            if best[0] <= bridge_m:
+                link = LineString([u, best[1]])
+                graph[u].append((best[1], link.length, link))
+                graph[best[1]].append((u, link.length, link))
     dist, prev = {src: 0.0}, {}
     queue = [(0.0, src)]
     while queue:
@@ -183,6 +208,16 @@ def route(names: list[str], start: str | tuple[float, float], end: str | tuple[f
     coords = pieces[0] + [c for cs in pieces[1:] for c in cs[1:]]
     line = LineString(coords).simplify(0.5)
     return round_coords([list(c) for c in to_degrees(line).coords]), line.length
+
+
+def _reach(graph, start) -> set:
+    seen, todo = {start}, [start]
+    while todo:
+        for v, _, _ in graph[todo.pop()]:
+            if v not in seen:
+                seen.add(v)
+                todo.append(v)
+    return seen
 
 
 def _lines(g) -> list[LineString]:

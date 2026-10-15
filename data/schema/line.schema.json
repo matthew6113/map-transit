@@ -233,6 +233,35 @@
             }
           ]
         },
+        "running": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "source"
+            ],
+            "properties": {
+              "date": {
+                "$ref": "#/$defs/date"
+              },
+              "source": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                "description": "An id in data/sources.json."
+              },
+              "pages": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "description": "Dates a cited source shows the line running (a route list, a timetable, an order describing it in service). Where opened or closed is unsourced, the map draws the line for these years (decision 20); opened and closed stay null with their flags."
+        },
         "status": {
           "enum": [
             "closed",
@@ -319,6 +348,15 @@
                     "$ref": "#/$defs/date"
                   }
                 ]
+              },
+              "running": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {
+                  "$ref": "#/$defs/date"
+                },
+                "description": "Where this stretch is in only some of the line's running dates: those dates (decision 20)."
               },
               "note": {
                 "type": "string"

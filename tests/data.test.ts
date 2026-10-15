@@ -230,6 +230,27 @@ describe('provenance', () => {
     }
   });
 
+  it('draws a line for the dates a source shows it running only where its own dates are missing (decision 20)', () => {
+    for (const f of folders) {
+      for (const l of f.lines) {
+        const running = (l.running ?? []) as { date: string; source: string }[];
+        if (!running.length) continue;
+        const dates = running.map((x) => x.date);
+        // Only where opening or closing isn't sourced; they're for drawing, not instead of dates.
+        expect(l.opened === null || l.closed === null, `${l.id}: running dates, but both ends are sourced`).toBe(true);
+        for (const x of running) {
+          expect(sourceIds, `${l.id} running ${x.date} cites ${x.source}`).toContain(x.source);
+          expect((l.sources as { source: string }[]).map((s) => s.source), `${l.id}: cite ${x.source} in sources too`).toContain(x.source);
+          if (l.opened) expect(atOrBefore(l.opened as string, x.date), `${l.id}: running ${x.date} before it opened`).toBe(true);
+          if (l.closed) expect(atOrBefore(x.date, l.closed as string), `${l.id}: running ${x.date} after it closed`).toBe(true);
+        }
+        for (const r of l.route as { segment: string; running?: string[] }[]) {
+          for (const d of r.running ?? []) expect(dates, `${l.id} on ${r.segment}: running ${d} isn't one of the line's`).toContain(d);
+        }
+      }
+    }
+  });
+
   it('flags a page cited second-hand only on a record that cites a book (decision 11)', () => {
     const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
     for (const { kind, p } of all) {
@@ -376,15 +397,56 @@ describe('geometry', () => {
     }
   });
 
-  it('marks lines clipped at the map edge with where they continue to, and only those', () => {
+  // Past lines that leave the region stop at the nine counties' boundary instead (decision 16).
+  const bayArea = read(join(DATA, 'bay-area.geojson')).features[0].geometry;
+  const boundary: number[][][] = (bayArea.type === 'Polygon' ? [bayArea.coordinates] : bayArea.coordinates).flat();
+  const toBoundary = ([x, y]: number[]) => {
+    let best = Infinity;
+    for (const ring of boundary) {
+      for (let i = 1; i < ring.length; i++) {
+        const [ax, ay] = ring[i - 1];
+        const [bx, by] = ring[i];
+        const dx = bx - ax;
+        const dy = by - ay;
+        const t = Math.max(0, Math.min(1, ((x - ax) * dx + (y - ay) * dy) / (dx * dx + dy * dy || 1)));
+        best = Math.min(best, Math.hypot(x - (ax + t * dx), y - (ay + t * dy)));
+      }
+    }
+    return best;
+  };
+
+  it('marks lines clipped at the map edge (or, in the past era, the Bay Area\'s county line) with where they continue to', () => {
     const near = (x: number, y: number) =>
       Math.min(Math.abs(x - x0), Math.abs(x - x1), Math.abs(y - y0), Math.abs(y - y1)) < 0.002;
+    const allSegs = new Map(folders.flatMap((f) => f.segments.map((s) => [s.properties.id, s] as const)));
+    // Stretches of today's network are cut at build time (extensions.py), and may be split where
+    // their lines part (`<id>-1`); a past line over one may run on beyond the county line on it.
+    type Drawn = { properties: { seg: string }; geometry: { type: string; coordinates: unknown } };
+    const today: Drawn[] = read(join(DATA, 'app', 'present-draw.geojson')).features;
+    const stretch = (sid: string) => today.filter((x) => x.properties.seg === sid || new RegExp(`^${sid}-\\d+$`).test(x.properties.seg));
+    const inside = ([x, y]: number[]) => {
+      let odd = false;
+      for (const ring of boundary) {
+        for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+          const [xi, yi] = ring[i];
+          const [xj, yj] = ring[j];
+          if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) odd = !odd;
+        }
+      }
+      return odd;
+    };
     for (const f of folders) {
-      const segs = new Map(f.segments.map((s) => [s.properties.id, s]));
       for (const l of f.lines) {
         if (!(l as { continues_beyond?: string }).continues_beyond) continue;
-        const touches = l.route.some((r) => coordsOf(segs.get(r.segment)!.geometry.coordinates).some(([x, y]) => near(x, y)));
-        expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge`).toBe(true);
+        const onToday = l.route.flatMap((r) => (allSegs.has(r.segment) ? [] : stretch(r.segment).map((x) => x.geometry)));
+        const beyond = f.era === 'past' && onToday.some((g) => coordsOf(g.coordinates).some((c) => !inside(c)));
+        const geoms = l.route.map((r) => allSegs.get(r.segment)?.geometry).filter((g) => !!g);
+        // The ends of every part, for the county line (all vertices would be slow there).
+        const ends = geoms.flatMap((g) => (g!.type === 'LineString' ? [g!.coordinates as number[][]] : (g!.coordinates as number[][][])))
+          .flatMap((part) => (part.length ? [part[0], part[part.length - 1]] : []));
+        const touches = geoms.some((g) => coordsOf(g!.coordinates).some(([x, y]) => near(x, y)))
+          || (f.era === 'past' && ends.some((c) => toBoundary(c) < 0.0005)) || beyond;
+        expect(touches, `${l.id} says it continues beyond the map but doesn't reach the edge or the county line`).toBe(true);
       }
     }
   });
@@ -433,6 +495,26 @@ describe('app files (data/app/)', () => {
     expect(slots.get('streetcar')).toEqual(new Set([1]));
   });
 
+  it('draw a line from its first running date, lighter, where its opening is unsourced (decision 20)', () => {
+    const decimal = (d: string) => {
+      const [y, m = 1, day = 1] = d.replace(/~$/, '').split('-').map(Number);
+      return d.split('-').length === 3 ? y + (Date.UTC(y, m - 1, day) - Date.UTC(y, 0, 1)) / 86400000 / 365.25 : y + (m - 1) / 12;
+    };
+    type Feat = { properties: { line: string; open_y: number; close_y: number; borrowed: number; undated: number } };
+    const pieces: Feat[] = read(join(DATA, 'app', 'past-lines.geojson')).features;
+    const lines = catalog.lines as { id: string; opened: string | null; closed: string | null; running?: { date: string }[]; undated: boolean }[];
+    const drawn = lines.filter((l) => l.running?.length && !l.opened);
+    expect(drawn.length).toBeGreaterThan(0);
+    for (const l of drawn) {
+      const mine = pieces.filter((f) => f.properties.line === l.id);
+      expect(l.undated, `${l.id} is on the slider`).toBe(false);
+      expect(mine.every((f) => f.properties.borrowed === 1), `${l.id} drawn lighter`).toBe(true);
+      const first = Math.min(...l.running!.map((r) => decimal(r.date)));
+      expect(Math.min(...mine.map((f) => f.properties.open_y)), `${l.id} starts at its first running date`).toBeCloseTo(first, 2);
+      if (l.closed) expect(Math.max(...mine.map((f) => f.properties.close_y)), `${l.id} ends at its closing`).toBeCloseTo(decimal(l.closed), 2);
+    }
+  });
+
   it('mark points undated or borrowed as they do segments, so past-era points draw (decision 4)', () => {
     for (const era of ERAS) {
       for (const f of read(join(DATA, 'app', `${era}-points.geojson`)).features as { properties: Record<string, number> }[]) {
@@ -460,7 +542,9 @@ describe('app files (data/app/)', () => {
     }
     for (const f of past) {
       const p = f.properties;
-      const users = [...pastLines.filter((l) => l.route.some((r) => r.segment === p.seg)).map((l) => l.id),
+      // A stretch of today's network may be split where its lines part (`<id>-1`, `<id>-2`).
+      const names = (sid: string) => p.seg === sid || new RegExp(`^${sid}-\\d+$`).test(p.seg);
+      const users = [...pastLines.filter((l) => l.route.some((r) => names(r.segment))).map((l) => l.id),
                      ...[...(presentUse.get(p.seg) ?? [])].filter((id) => earlier.has(id))];
       expect(users.length, `${p.seg}: drawn in a past mode, but no past line uses it`).toBeGreaterThan(0);
       const own = present.filter((x) => x.properties.seg === p.seg);

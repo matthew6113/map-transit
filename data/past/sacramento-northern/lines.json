@@ -34,7 +34,7 @@
       "opened": "1913-04-07",
       "closed": "1941-06-30",
       "status": "closed",
-      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and on by ferry to Sacramento from September 1913. Drawn to Bay Point.",
+      "summary": "Electric trains from the Key Route pier, and from 1939 the Bay Bridge, by 40th St and Shafter Ave in Oakland, through the hills by Shepherd Canyon and the Redwood Peak tunnel, to Moraga, Walnut Creek, Concord and Bay Point, and from September 1913 on by West Pittsburg, the train ferry from Mallard to Chipps Island, Montezuma and Rio Vista Junction to Sacramento, until 1940. Drawn to the Yolo County line, where it leaves the Bay Area (decision 16).",
       "fate": "converted_to_bus",
       "fate_note": "Replaced by Pacific Greyhound buses in 1941 (CRC Decision No. 34232). Freight trains used the line through the Oakland hills until 1957.",
       "route": [
@@ -86,6 +86,28 @@
         },
         {
           "segment": "sn-concord-bay-point"
+        },
+        {
+          "segment": "sn-bay-point-west-pittsburg",
+          "from": "1913-09-03"
+        },
+        {
+          "segment": "sn-west-pittsburg-mallard",
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
+        },
+        {
+          "segment": "sn-mallard-chipps-ferry",
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
+        },
+        {
+          "segment": "sn-chipps-county-line",
+          "from": "1913-09-03",
+          "to": "1940-08",
+          "note": "Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)"
         }
       ],
       "sources": [
@@ -123,7 +145,8 @@
           "source": "crc-d34232",
           "supports": [
             "closed",
-            "fate"
+            "fate",
+            "route"
           ],
           "note": "Authorizes ending \"passenger train service between the City and County of San Francisco and Pittsburg\" (May 27, 1941)."
         },
@@ -133,10 +156,45 @@
             "closed"
           ],
           "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
+        },
+        {
+          "source": "erj-1913-07-12-oakland-antioch-eastern",
+          "supports": [
+            "route"
+          ],
+          "pages": "78",
+          "note": "The first through train from Sacramento to Oakland ran on July 2, 1913."
+        },
+        {
+          "source": "erj-1913-09-13-oakland-antioch-eastern",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "434-435",
+          "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
+        },
+        {
+          "source": "crc-d33009",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "note": "Passenger trains north of West Pittsburg may stop \"on July 30, 1940, unless sooner expressly permitted\"."
+        },
+        {
+          "source": "crc-d33416",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "2-3",
+          "note": "Authorizes the Sacramento Northern \"to abandon its passenger train service between West Pittsburg and Sacramento\" on five days' notice (August 20, 1940)."
         }
       ],
       "flags": [],
-      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, began on September 3, 1913 (Electric Railway Journal); east of Bay Point the line isn't drawn yet."
+      "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
+      "continues_beyond": "Sacramento, and on to Chico"
     }
   ]
 }

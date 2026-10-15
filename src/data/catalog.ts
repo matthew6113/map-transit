@@ -41,6 +41,8 @@ export interface CatalogSegment {
   /** This line's use of the segment, where narrower than the segment's own life. */
   from?: string;
   to?: string;
+  /** Where this stretch is in only some of the line's running dates (decision 20): those dates. */
+  running?: string[];
   note?: string;
   borrowed: boolean;
   /** No sourced dates of its own or its lines': left off the year slider. */
@@ -83,6 +85,8 @@ export interface LineRecord {
   links?: { label: string; url: string }[];
   notes?: string;
   flags: string[];
+  /** Dates a source shows the line running; drawn for those years where its own dates are missing (decision 20). */
+  running?: { date: string; source: string; pages?: string; note?: string }[];
   undated: boolean;
   length_km: number;
   confidence_km: Partial<Record<Confidence, number>>;
