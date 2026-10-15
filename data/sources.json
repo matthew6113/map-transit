@@ -1140,6 +1140,17 @@
       "notes": "p. 11: the bridge \"was formally dedicated on August 31, 1956, and opened to traffic at 12.01 on the morning of September 1, 1956\"; p. 13: the ferry \"on its last run following midnight opening to traffic of the new bridge\". Read in archive.org's OCR text."
     },
     {
+      "id": "chpw-1962-09",
+      "title": "California Highways and Public Works 41 (9-10), September-October 1962",
+      "publisher": "California Division of Highways",
+      "date": "1962-09",
+      "type": "official",
+      "url": "https://archive.org/details/cvol4142alifornia196263hiwacalirich",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "J. J. Teuscher, \"Last Ferry\": \"On September 15, 1962, the Benicia-Martinez Ferry made its last trip across the Carquinez Straits\"; the state took the ferry over in 1953; \"From early in 1955 to late in 1956 the only ferry between Benicia and Martinez was a passenger ferry\" (pp. 5-6, archive.org's OCR text)."
+    },
+    {
       "id": "cpuc-d40055",
       "title": "Public Utilities Commission of California, Decision No. 40055: Key System: the No. 84 Emeryville bus terminal (Application No. 19502, 103rd supplemental)",
       "publisher": "Public Utilities Commission of the State of California",
@@ -1311,6 +1322,16 @@
       "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22212_19300318_A16292.pdf",
       "accessed": "2026-10-14",
       "notes": "Lets the Southern Pacific \"abandon its passenger trains Nos. 130 and 131 operating upon its so-called Ocean View line between San Francisco and San Bruno\". Recites Decision No. 20459 (November 15, 1928), which let the trains be discontinued for highway work \"between San Jose Avenue and Randall Street\", and that \"during the year ending October 31, 1928, no passengers whatever were carried\" southbound (OCR)."
+    },
+    {
+      "id": "crc-d22535",
+      "title": "Railroad Commission of California, Decision No. 22535 (Application No. 16420)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-06-14",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22535_19300614_A16420.pdf",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: the Martinez-Benicia Ferry and Transportation Company \"has operated a ferry for the transportation of vehicles and passengers between the City of Martinez and the Town of Benicia since 1913\"; pp. 2-3: its certificate \"from the Municipal Wharf in the City of Martinez over Carquinez Strait to the foot of Fifth Street in the Town of Benicia\" (OCR; read with pypdf, since pdftotext reads only part of it)."
     },
     {
       "id": "crc-d22672",

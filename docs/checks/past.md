@@ -41,6 +41,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-alameda-pier-course` Ferry, the Ferry Building to Alameda Pier | approximate |  |  |  |
 | `richmond-san-rafael-course` Ferry, Castro Point (Richmond) to Point San Quentin | OpenHistoricalMap |  |  |  |
 | `sf-alameda-ferry-course` Ferry, San Francisco to Alameda Point (1864-73) | approximate |  |  |  |
+| `martinez-benicia-course` Martinez to Benicia, across the Carquinez Strait | geotiff | usgs-benicia-1952 | 15 m | [review](../screenshots/p2c/traces/martinez-benicia-course.jpg) |
 | `ferry-hyde-street-pier` Hyde Street Pier | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-hyde-street-pier.jpg) |
 | `ferry-sausalito-nwp` Sausalito ferry terminal (Northwestern Pacific) | geotiff | usgs-san-francisco-north-1950 | 30 m | [review](../screenshots/p2b/traces/ferry-sausalito-nwp.jpg) |
 | `ferry-berkeley-pier` Berkeley ferry pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2b/traces/ferry-berkeley-pier.jpg) |

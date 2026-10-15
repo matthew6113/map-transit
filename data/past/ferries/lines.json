@@ -456,6 +456,58 @@
         }
       ],
       "flags": []
+    },
+    {
+      "id": "martinez-benicia-ferry",
+      "name": "Martinez–Benicia ferry",
+      "short_name": "Martinez–Benicia",
+      "system": "martinez-benicia-ferry",
+      "operators": [
+        {
+          "name": "Martinez-Benicia Ferry and Transportation Company",
+          "from": "1913",
+          "to": null
+        },
+        {
+          "name": "State of California",
+          "from": "1953",
+          "to": "1962-09-15"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1913",
+      "closed": "1962-09-15",
+      "status": "closed",
+      "summary": "Auto and passenger ferries across the Carquinez Strait between Martinez and Benicia, every half hour in 1930; the last ferry in the Bay Area's state highway system.",
+      "fate": "abandoned",
+      "fate_note": "Its last trip was on September 15, 1962, the day the Benicia-Martinez Bridge opened (California Highways and Public Works, 1962).",
+      "route": [
+        {
+          "segment": "martinez-benicia-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d22535",
+          "supports": [
+            "opened",
+            "route",
+            "operator"
+          ],
+          "pages": "1-3"
+        },
+        {
+          "source": "chpw-1962-09",
+          "supports": [
+            "closed",
+            "operator"
+          ],
+          "pages": "5-6"
+        }
+      ],
+      "flags": [],
+      "notes": "Run from 1913 by the Martinez-Benicia Ferry and Transportation Company, later by the American Toll Bridge Company and others, and from 1953 by the state (California Highways and Public Works, 1962). From early 1955 to late 1956 only a passenger ferry ran."
     }
   ]
 }

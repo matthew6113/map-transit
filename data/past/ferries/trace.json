@@ -110,6 +110,34 @@
           ]
         }
       ]
+    },
+    "martinez-benicia-course": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-benicia-1952",
+            "bbox": [
+              -122.165,
+              38.015,
+              -122.125,
+              38.052
+            ],
+            "zoom": 0.7
+          },
+          "px": [
+            [
+              353,
+              387
+            ],
+            [
+              780,
+              993
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "The two ends of the course the sheet draws, at the Benicia and Martinez piers"
     }
   },
   "points": {

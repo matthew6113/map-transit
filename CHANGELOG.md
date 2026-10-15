@@ -2,6 +2,12 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The Martinez–Benicia ferry
+
+- **Martinez–Benicia ferry** (1913 to its last trip, September 15, 1962, the day the bridge opened):
+  between the Municipal Wharf at Martinez and the foot of Fifth Street at Benicia (CRC Decision
+  22535), on the course the 1952 Benicia sheet draws (*California Highways and Public Works*, 1962).
+
 ## 2026-10-15: The Napa Valley line
 
 - **California Pacific trains, Vallejo to Calistoga** (`california-pacific/`): from the wharf at
