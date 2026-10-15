@@ -847,7 +847,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -890,7 +890,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 9 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/59 No. 9 — Last day of street car operation.\" Motor coaches from January 17, 1949. The year is misprinted: the entry stands among those of January 1949, in the report for 1948–49, on the same day as Nos. 11 and 14. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1072,7 +1072,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -1115,7 +1115,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 11 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 11 — Last day of street car operation.\" Motor coaches from January 17, 1949. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1184,7 +1184,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1948-10",
+      "closed": "1948-10-31",
       "running": [
         {
           "date": "1909-02-01",
@@ -1226,7 +1226,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"10/31/48 No. 12 — Last day of street car operation.\" The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1303,7 +1303,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1949-01",
+      "closed": "1949-01-15",
       "running": [
         {
           "date": "1909-02-01",
@@ -1346,7 +1346,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 14 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 14 — Last day of street car operation.\" Motor coaches from January 16, 1949. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -1739,7 +1739,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": "1947-09",
+      "closed": "1947-09-27",
       "running": [
         {
           "date": "1909-02-01",
@@ -1782,7 +1782,7 @@
             "operator"
           ],
           "pages": "171",
-          "note": "\"No. 20 — Last day of street car operation.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the page's 16 dates line up with its 16 entries, which puts this one on September 27, 1947, so it is given to the month. Check the day on the page image."
+          "note": "\"9/27/47 No. 20 — Last day of street car operation.\" Motor coaches from September 29, 1947. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [
@@ -2569,7 +2569,7 @@
             "operator"
           ],
           "pages": "190",
-          "note": "\"No. 41 — Discontinued. Service by \\\"F\\\" line.\" The report prints its dates in a column apart from the entries, and the OCR text keeps them apart; the month is the same for every entry near this one, so it is given to the month. Check the day on the page image."
+          "note": "\"1/15/49 No. 41 — Discontinued. Service by \"F\" line.\" The last day isn't given. The report prints its dates in a column apart from the entries; this one was read on the page image."
         }
       ],
       "flags": [

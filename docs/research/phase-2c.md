@@ -125,11 +125,12 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
 
 - **Decided at the checkpoint:** decision 20 is approved, and the North Pacific Coast is drawn as its
   own line over the track it shared with the electric lines (decision 21).
-- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which this
-  environment's network policy blocks; allowing it would let the checks below be done here.
-- **Page images:** every archive.org quote of this phase is from the OCR text; the page images can't
-  be opened from this environment. `docs/checks/past.md` lists the records; the SF PUC report's
-  date column, lined up by order for six lines, most needs a look.
+- **Page-image hosts:** archive.org serves its page images from `*.us.archive.org`, which Matthew
+  allowed after the checkpoint. Items whose files sit only on `*.ca.archive.org` or
+  `*.eu.archive.org` still can't be opened; `archive.org/metadata/<id>` names an item's servers.
+- **Page images:** the SF PUC report's date column, which had been lined up by order for six lines,
+  was read on the page images (pp. 171 and 190): five last days are now given to the day. The other
+  archive.org quotes of this phase, from the OCR text, are being re-read on the page images.
 - **Maps to georeference by hand** (or approve a fitted trace): Land's End on the 1899 or 1915 San
   Francisco sheet; the Westbrae shuttle and the Webster St bridge on the 1915 sheet.
 - **Books and newspapers:** as listed per system in `leads-2c/`, and the earlier notes' lists.

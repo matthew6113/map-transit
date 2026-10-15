@@ -2,6 +2,14 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Six SF last days, read on the page images
+
+- The San Francisco PUC's reports of 1947–48 (p. 171) and 1948–49 (p. 190), read on their page
+  images now that archive.org's image hosts are reachable, give the last day of street car operation
+  for six lines that were given to the month: No. 20, September 27, 1947; No. 12, October 31, 1948;
+  Nos. 9, 11 and 14, January 15, 1949 (No. 9's year is misprinted "59"). No. 41's entry of January
+  15, 1949 says "Discontinued" without naming the last day, so it stays January 1949.
+
 ## 2026-10-15: The Martinez–Benicia ferry
 
 - **Martinez–Benicia ferry** (1913 to its last trip, September 15, 1962, the day the bridge opened):
