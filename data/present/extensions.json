@@ -1879,6 +1879,18 @@
         "Benicia junction": [
           -122.128005,
           38.047605
+        ],
+        "Melrose": [
+          -122.213173,
+          37.765118
+        ],
+        "San Leandro": [
+          -122.164257,
+          37.72262
+        ],
+        "Niles": [
+          -121.977096,
+          37.577468
         ]
       },
       "segments": [
@@ -2019,6 +2031,60 @@
             }
           ],
           "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
+        },
+        {
+          "id": "cc-melrose-san-leandro",
+          "name": "Melrose to San Leandro, by Elmhurst",
+          "line": "capitol-corridor",
+          "from": "Melrose",
+          "to": "San Leandro",
+          "opened": "1869-11-08",
+          "sources": [
+            {
+              "source": "halley-1876",
+              "supports": [
+                "opened"
+              ],
+              "pages": "280-281",
+              "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "31",
+              "note": "The Central Pacific's return: \"To San Francisco … About December 1, 1869.\""
+            }
+          ],
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+        },
+        {
+          "id": "cc-san-leandro-niles",
+          "name": "San Leandro to Niles, by Hayward",
+          "line": "capitol-corridor",
+          "from": "San Leandro",
+          "to": "Niles",
+          "opened": "1869-09-08",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "31",
+              "note": "\"To Alameda Wharf September 8, 1869\", by this line and the San Francisco & Alameda from San Leandro."
+            },
+            {
+              "source": "halley-1876",
+              "supports": [
+                "opened"
+              ],
+              "pages": "279",
+              "note": "\"the arrival there [at San Leandro] of the first train of the Western Pacific Railroad, through from Sacramento, on Monday evening, September 6th\"."
+            }
+          ],
+          "notes": "The Western Pacific's line of 1869 from Niles, opened for public use September 8, 1869 (its first train reached San Leandro on the 6th); OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Niles, where the old line went on east into Niles Canyon."
         }
       ]
     },

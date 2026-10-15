@@ -122,6 +122,13 @@ SHEETS = [
     # The Carquinez Strait: the Port Costa-Benicia train ferry (1879-1930) and the bridge that replaced it.
     Sheet("usgs-karquines-1898", "Karquines", 62500, 1898, "297860", None, "15-minute sheet, surveyed 1896, edition of 1898"),
     Sheet("usgs-benicia-1952", "Benicia", 24000, 1952, "288320", None, "7.5-minute sheet, edition of 1952"),
+    # The Central Pacific's line of 1869 by Niles Canyon and Altamont, and to San Jose, before its track went in 1984.
+    Sheet("usgs-niles-1953", "Niles", 24000, 1953, "293546", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-la-costa-valley-1953", "La Costa Valley", 24000, 1953, "291950", 1954, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-livermore-1953", "Livermore", 24000, 1953, "292401", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-altamont-1953", "Altamont", 24000, 1953, "287935", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
+    Sheet("usgs-midway-1953", "Midway", 24000, 1953, "292938", 1955, "7.5-minute sheet, aerial photographs of 1950, edition of 1953"),
+    Sheet("usgs-milpitas-1953", "Milpitas", 24000, 1953, "292969", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

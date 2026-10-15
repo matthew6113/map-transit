@@ -100,6 +100,171 @@
       ],
       "flags": [],
       "notes": "Drawn from the Oakland Mole; between the Mole's track at Sixteenth Street and today's line there is a short gap. The trains over the bridge after 1930 aren't drawn yet: no source read here shows them running to Sacramento. Its operator's change to the Southern Pacific (a lease of 1885) isn't dated from a source read here."
+    },
+    {
+      "id": "cp-oakland-sacramento-niles",
+      "name": "Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass",
+      "short_name": "By the Altamont Pass",
+      "system": "central-pacific",
+      "operators": [
+        {
+          "name": "Central Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1941-01"
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1869-11-08",
+      "closed": "1941-01",
+      "status": "closed",
+      "summary": "The first railroad to the bay: the Western Pacific's line of 1869 from Oakland Point by Melrose, San Leandro, Hayward and Niles, through Niles Canyon and over the Altamont Pass to Stockton and Sacramento.",
+      "fate": "abandoned",
+      "fate_note": "All regular passenger trains between Tracy and Elmhurst via Niles ended on or about January 1941 (CRC Decision No. 33781); the line from Oakland to Niles still carries trains.",
+      "continues_beyond": "Tracy, Stockton and Sacramento",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "from": "1881-02",
+          "note": "The Oakland Mole, from February 1881 (Wood, 1883, p. 631); before it, the wharf at Oakland Point, not drawn."
+        },
+        {
+          "segment": "sp-seventh-st"
+        },
+        {
+          "segment": "sp-fallon-melrose"
+        },
+        {
+          "segment": "cc-melrose-san-leandro"
+        },
+        {
+          "segment": "cc-san-leandro-niles"
+        },
+        {
+          "segment": "cp-niles-livermore"
+        },
+        {
+          "segment": "cp-livermore-altamont"
+        }
+      ],
+      "sources": [
+        {
+          "source": "halley-1876",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "279-281",
+          "note": "The first through passenger train from Oakland Point, November 8, 1869, \"stopping a moment at Broadway station\"."
+        },
+        {
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31",
+          "note": "The Central Pacific's return: \"To Alameda Wharf September 8, 1869. To San Francisco … About December 1, 1869.\""
+        },
+        {
+          "source": "crc-d33781",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1, 3-4",
+          "note": "Authorized \"to discontinue all regular passenger train service between Tracy and Elmhurst, via Niles\" and trains 231 and 232 \"between Tracy and Oakland Pier, via Niles\", by its order of January 3, 1941, effective twenty days later: on or about January 1941 (decision 17)."
+        },
+        {
+          "source": "wood-1883",
+          "supports": [
+            "route"
+          ],
+          "pages": "631"
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Opens with the first through passenger train from Oakland Point (Halley); the railroad's own return gives \"about December 1, 1869\". From September 8 to November 8, 1869 its trains ran from San Leandro to the Alameda wharf over the San Francisco & Alameda, not drawn. Through Oakland it follows the electric lines' Seventh Street and Melrose segments, the second of them approximate, so a short gap is left before today's track."
+    },
+    {
+      "id": "cp-niles-san-jose-trains",
+      "name": "Central Pacific trains to San José by Niles and Milpitas",
+      "short_name": "To San José by Niles",
+      "system": "central-pacific",
+      "operators": [
+        {
+          "name": "Central Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1940-02"
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1869-09",
+      "closed": "1940-02",
+      "status": "closed",
+      "summary": "Trains from the bay by Niles, Warm Springs and Milpitas to San José; in 1940, one a day from Oakland Pier.",
+      "fate": "abandoned",
+      "fate_note": "All regular passenger service between Niles and San José via Milpitas ended on or about February 1940 (CRC Decision No. 32804).",
+      "route": [
+        {
+          "segment": "cc-san-leandro-niles"
+        },
+        {
+          "segment": "cp-niles-san-jose"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31"
+        },
+        {
+          "source": "crc-d32804",
+          "supports": [
+            "closed"
+          ],
+          "pages": "7",
+          "note": "\"III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas\", by its order of February 13, 1940, effective ten days later: on or about February 1940 (decision 17)."
+        },
+        {
+          "source": "crc-d32804",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "The Southern Pacific \"now operates … one schedule via Niles daily from Oakland Pier to San Jose\" (1940)."
+        }
+      ],
+      "flags": [],
+      "notes": "Drawn from San Leandro, where the line's first trains came in from the Alameda wharf in 1869; its trains from Oakland ran over the main line, drawn with the trains to Sacramento."
     }
   ]
 }

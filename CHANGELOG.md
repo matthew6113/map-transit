@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The Central Pacific of 1869
+
+- **Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass**, from the first
+  through passenger train from Oakland Point on November 8, 1869 (Halley; the railroad's return
+  says about December 1) to the end of passenger trains between Tracy and Elmhurst via Niles, on or
+  about January 1941 (CRC Decision 33781). Through Niles Canyon and over the pass from
+  OpenHistoricalMap's ways, checked on the 1953 sheets, made while the track was still there.
+- **Trains to San José by Niles and Milpitas**, September 1869 to on or about February 1940 (CRC
+  Decision 32804).
+- The Capitol Corridor's track from Melrose to Niles takes the Western Pacific's dates: San Leandro
+  to Niles September 8, 1869, Melrose to San Leandro November 8, 1869.
+- Six 1953 USGS sheets added: Niles, La Costa Valley, Livermore, Altamont, Midway and Milpitas.
+
 ## 2026-10-15: The Central Pacific by the Benicia ferry
 
 - **The Capitol Corridor's track is dated** by stretch: West Oakland to Shell Mound August 16, 1876,

@@ -1,5 +1,18 @@
 {
   "sheets": {
+    "usgs-altamont-1953": {
+      "file": "CA_Altamont_287935_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Altamont_287935_1953_24000_geo.tif",
+      "sha256": "227003fee77f0df1be22db6644d8fc78a985867e8fa72223ffbace76b827ec68",
+      "bytes": 11875450,
+      "pixels": [
+        6600,
+        8067
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.687999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
     "usgs-asti-1959": {
       "file": "CA_Asti_288086_1959_24000_geo.tif",
       "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Asti_288086_1959_24000_geo.tif",
@@ -182,6 +195,58 @@
       "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-122.125],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
       "fetched": "2026-10-15"
     },
+    "usgs-la-costa-valley-1953": {
+      "file": "CA_La Costa Valley_291950_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_La%20Costa%20Valley_291950_1953_24000_geo.tif",
+      "sha256": "64aacdd916287d16d76582b4e076b69e452f31b8854dd54ab9dfb41f358963e4",
+      "bytes": 13150007,
+      "pixels": [
+        6604,
+        8025
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.812999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
+    "usgs-livermore-1953": {
+      "file": "CA_Livermore_292401_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Livermore_292401_1953_24000_geo.tif",
+      "sha256": "49f21b20428602659fd101ca2859a8b2c21decddec1c26b17c658e001e42dd36",
+      "bytes": 9855057,
+      "pixels": [
+        6600,
+        8038
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.812999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
+    "usgs-midway-1953": {
+      "file": "CA_Midway_292938_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Midway_292938_1953_24000_geo.tif",
+      "sha256": "98a93e167555f5ddb23b6e2b182adcdf2d7673e1556ea20005f78ac8bb03134c",
+      "bytes": 13504868,
+      "pixels": [
+        6571,
+        8029
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.562999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
+    "usgs-milpitas-1953": {
+      "file": "CA_Milpitas_292969_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Milpitas_292969_1953_24000_geo.tif",
+      "sha256": "733e5adf73321b9e185311864c655ab2c10dab79d30b8e8de25ab5105b8f0845",
+      "bytes": 9669014,
+      "pixels": [
+        6563,
+        8058
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.937999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
     "usgs-montara-mountain-1949": {
       "file": "CA_Montara Mountain_293071_1949_24000_geo.tif",
       "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Montara%20Mountain_293071_1949_24000_geo.tif",
@@ -193,6 +258,19 @@
       ],
       "metres_per_pixel": 2.032,
       "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",37.5],PARAMETER[\"central_meridian\",-122.4375],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-15"
+    },
+    "usgs-niles-1953": {
+      "file": "CA_Niles_293546_1953_24000_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+      "sha256": "ea533197d87311f69842646f2ef9498c81cbf9d188716a8c2a328cd53822e401",
+      "bytes": 11930151,
+      "pixels": [
+        6579,
+        8033
+      ],
+      "metres_per_pixel": 2.032,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.937999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
       "fetched": "2026-10-15"
     },
     "usgs-oakland-east-1949": {

@@ -1563,6 +1563,16 @@
       "notes": "Southern Pacific Golden Gate Ferries asks to abandon its ferries \"Between San Francisco (Hyde Street Terminal) and Sausalito\" and between the foot of Market St and Tiburon. Under Decision No. 20925 (April 1, 1929) the Northwestern Pacific's auto ferry rights between San Francisco and Sausalito passed to the ferry company, which was to use \"the terminal properties of the Northwestern Pacific Railroad Company at Sausalito and Tiburon\" (OCR)."
     },
     {
+      "id": "crc-d32804",
+      "title": "Railroad Commission of California, Decision No. 32804 (Application No. 23211)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1940-02-13",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D32804_19400213_A23211.pdf",
+      "accessed": "2026-10-15",
+      "notes": "p. 7: \"III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas\" (and between Newark and Niles via Centerville); effective ten days from its date. The Southern Pacific then ran \"one schedule via Niles daily from Oakland Pier to San Jose\" (OCR, read loosely)."
+    },
+    {
       "id": "crc-d33009",
       "title": "Railroad Commission of California, Decision No. 33009 (Application No. 23175)",
       "publisher": "Railroad Commission of the State of California",
@@ -1612,6 +1622,16 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d33781",
+      "title": "Railroad Commission of California, Decision No. 33781 (Application No. 23810)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1941-01-03",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33781_19410103_A23810.pdf",
+      "accessed": "2026-10-15",
+      "notes": "The Southern Pacific's trains 231 and 232 between Tracy and Oakland Pier via Niles, and all regular passenger service between Tracy and Elmhurst via Niles, discontinued; the order effective twenty days from its date (OCR, read loosely)."
     },
     {
       "id": "crc-d33891",
@@ -2809,6 +2829,18 @@
       "notes": "p. 848 (inferred from the next page's header)."
     },
     {
+      "id": "usgs-altamont-1953",
+      "title": "Altamont, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Altamont_287935_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 287935, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 227003fee77f0df1be22db6644d8fc78a985867e8fa72223ffbace76b827ec68."
+    },
+    {
       "id": "usgs-asti-1959",
       "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
       "author": "U.S. Geological Survey",
@@ -2977,6 +3009,54 @@
       "notes": "15-minute sheet, surveyed 1896, edition of 1898. HTMC scan 297860, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 85c0c3d48a804be9e9e8b7842bb68836a81333c2741966755b6ff64eb4f6a96d."
     },
     {
+      "id": "usgs-la-costa-valley-1953",
+      "title": "La Costa Valley, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_La%20Costa%20Valley_291950_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 291950, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 64aacdd916287d16d76582b4e076b69e452f31b8854dd54ab9dfb41f358963e4."
+    },
+    {
+      "id": "usgs-livermore-1953",
+      "title": "Livermore, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Livermore_292401_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 292401, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 49f21b20428602659fd101ca2859a8b2c21decddec1c26b17c658e001e42dd36."
+    },
+    {
+      "id": "usgs-midway-1953",
+      "title": "Midway, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Midway_292938_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1950, edition of 1953. HTMC scan 292938, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 98a93e167555f5ddb23b6e2b182adcdf2d7673e1556ea20005f78ac8bb03134c."
+    },
+    {
+      "id": "usgs-milpitas-1953",
+      "title": "Milpitas, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Milpitas_292969_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 292969, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 733e5adf73321b9e185311864c655ab2c10dab79d30b8e8de25ab5105b8f0845."
+    },
+    {
       "id": "usgs-montara-mountain-1949",
       "title": "Montara Mountain, Cal., topographic quadrangle, 1:24,000, 1949",
       "author": "U.S. Geological Survey",
@@ -2987,6 +3067,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 293071, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3dcb383b93fbb3227a91e1d07de3fe1f63f415100149103d203db20cf21b1059."
+    },
+    {
+      "id": "usgs-niles-1953",
+      "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 293546, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ea533197d87311f69842646f2ef9498c81cbf9d188716a8c2a328cd53822e401."
     },
     {
       "id": "usgs-oakland-east-1949",

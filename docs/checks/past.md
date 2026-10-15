@@ -25,6 +25,9 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2a/traces/transbay-terminal.jpg) |
 | `cp-port-costa-benicia-ferry` Port Costa to Benicia, the train ferry | approximate |  |  | [review](../screenshots/p2c/traces/cp-port-costa-benicia-ferry.jpg) |
 | `cp-benicia-waterfront` Benicia, the ferry slip to the line near Army Point | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-benicia-waterfront-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-benicia-waterfront-2.jpg) |
+| `cp-niles-livermore` Niles to Livermore, through Niles Canyon by Sunol and Pleasanton | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-niles-livermore-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-niles-livermore-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-niles-livermore-3.jpg) |
+| `cp-livermore-altamont` Livermore over the Altamont Pass, to the San Joaquin County line | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-livermore-altamont-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-livermore-altamont-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-livermore-altamont-3.jpg) |
+| `cp-niles-san-jose` Niles to San José, by Warm Springs and Milpitas | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/cp-niles-san-jose-1.jpg) [sheet 2](../screenshots/p2c/traces/cp-niles-san-jose-2.jpg) [sheet 3](../screenshots/p2c/traces/cp-niles-san-jose-3.jpg) |
 | `eb-washington-12th-13th-link` Washington St, where it stops today to 13th St | approximate |  |  |  |
 | `eb-washington-13th-san-pablo-link` Washington St, 13th St to San Pablo Ave | approximate |  |  |  |
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |
@@ -262,6 +265,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 
 ## Conflicting sources
 
+- line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass): Opens with the first through passenger train from Oakland Point (Halley); the railroad's own return gives "about December 1, 1869". From September 8 to November 8, 1869 its trains ran from San Leandro to the Alameda wharf over the San Francisco & Alameda, not drawn. Through Oakland it follows the electric lines' Seventh Street and Melrose segments, the second of them approximate, so a short gap is left before today's track.
 - line `vallejo-ferry` (San Francisco–Vallejo ferry): The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.
 - line `sf-union-st-cable` (Union Street cable line): SFMTA gives 1882; the city's 1948 history, as its OCR reads, gives 1880. The 1906 date is the end of cable service, at the earthquake.
 - line `sf-castro-st-cable` (Castro Street cable line): Until 1906 it ran on Market St from Valencia St to Castro St (Callwell p. 81), drawn over today's F track there.
@@ -277,6 +281,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 
 Each end dated by the month of the order or event that brought it, because no source gives the last day. A newspaper of the time would settle it.
 
+- line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass), closed 1941-01: Authorized "to discontinue all regular passenger train service between Tracy and Elmhurst, via Niles" and trains 231 and 232 "between Tracy and Oakland Pier, via Niles", by its order of January 3, 1941, effective twenty days later: on or about January 1941 (decision 17).
+- line `cp-niles-san-jose-trains` (Central Pacific trains to San José by Niles and Milpitas), closed 1940-02: "III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas", by its order of February 13, 1940, effective ten days later: on or about February 1940 (decision 17).
 - line `ggf-hyde-berkeley` (Hyde Street–Berkeley auto ferry), closed 1937-08: Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17).
 - line `sp-creek-route` (Creek Route ferry (Broadway, Oakland)), closed 1937-08: Abandonment authorized on cancelling the schedules, within 30 days of the order of August 9, 1937, on not less than 5 days' notice: on or about August 1937 (decision 17); the last run fell between about August 14 and September 8, 1937.
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-west-pittsburg-mallard`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
