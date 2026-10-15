@@ -62,6 +62,18 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-sn', url: '/l/sn-oakland-sacramento?era=past&year=1925&test=1&at=99' },
   { name: 'past-line-nwp-san-rafael', url: '/l/nwp-sausalito-san-rafael?era=past&year=1925&test=1&at=99' },
   { name: 'past-line-muni-h', url: '/l/muni-h-potrero?era=past&year=1930&test=1&at=99' },
+  // Checkpoint 2c (with the region views above, re-taken): the Sacramento Northern to the county
+  // line, San Francisco and Oakland close in, and the new lines' panels.
+  { name: 'past-region-wide-1925', url: '/?era=past&year=1925&test=1#map=8.7/37.9800/-122.1500/0/0' },
+  { name: 'past-mallard-1925', url: '/?era=past&year=1925&test=1#map=13.2/38.0450/-121.9300/0/0' },
+  { name: 'past-sf-1865', url: '/?era=past&year=1865&test=1#map=13.6/37.7750/-122.4150/0/0' },
+  { name: 'past-sf-market-1890', url: '/?era=past&year=1890&test=1#map=13.4/37.7740/-122.4300/0/0' },
+  { name: 'past-oakland-1915', url: '/?era=past&year=1915&test=1#map=13.8/37.8150/-122.2700/0/0' },
+  { name: 'past-oakland-1930', url: '/?era=past&year=1930&test=1#map=13.0/37.8250/-122.2650/0/0' },
+  { name: 'past-line-sf-steam-dummy', url: '/l/sf-market-st-steam-dummy?era=past&year=1865&test=1&at=99' },
+  { name: 'past-line-sf-market-valencia-cable', url: '/l/sf-market-valencia-cable?era=past&year=1890&test=1&at=99' },
+  { name: 'past-line-key-e', url: '/l/key-e?era=past&year=1930&test=1&at=99' },
+  { name: 'past-line-sp-eighteenth-street', url: '/l/sp-eighteenth-street?era=past&year=1920&test=1&at=99' },
 ];
 
 async function settle(page: Page) {
