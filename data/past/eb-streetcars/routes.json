@@ -1,0 +1,941 @@
+{
+  "$comment": "The East Bay's local streetcar lines as the Railroad Commission's (later the Public Utilities Commission's) orders of 1931-48 describe them, street by street in today's names: transit_pipeline.street_routes cuts them into shared street segments and writes each line's route. A stretch with `running` is in only those orders' routes.",
+  "area": "eastbay",
+  "prefix": "eb",
+  "system": "east-bay-streetcars",
+  "check": {
+    "usgs-oakland-west-1949": [
+      -122.375,
+      37.75,
+      -122.25,
+      37.875
+    ],
+    "usgs-oakland-east-1949": [
+      -122.25,
+      37.75,
+      -122.125,
+      37.875
+    ],
+    "usgs-richmond-1949": [
+      -122.375,
+      37.875,
+      -122.25,
+      38.0
+    ],
+    "usgs-san-leandro-1948": [
+      -122.25,
+      37.625,
+      -122.125,
+      37.75
+    ]
+  },
+  "lines": {
+    "eb-1-east-14th": [
+      {
+        "street": "International Boulevard",
+        "from": "105th Avenue",
+        "to": "103rd Avenue",
+        "running": [
+          "1942-11-05"
+        ],
+        "note": "To 105th Ave in 1942; 103rd Ave by 1947"
+      },
+      {
+        "street": "International Boulevard",
+        "from": "103rd Avenue",
+        "to": "1st Avenue"
+      },
+      {
+        "street": "1st Avenue",
+        "from": "International Boulevard",
+        "to": "East 12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "1st Avenue",
+        "to": "Oak Street",
+        "note": "East 12th St and 12th St, across the outlet of Lake Merritt",
+        "bridge_m": 400
+      },
+      {
+        "street": "Oak Street",
+        "from": "12th Street",
+        "to": "13th Street"
+      },
+      {
+        "street": "13th Street",
+        "from": "Oak Street",
+        "to": "Jefferson Street",
+        "bridge_m": 300
+      },
+      {
+        "street": "Jefferson Street",
+        "from": "13th Street",
+        "to": "12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "Jefferson Street",
+        "to": "Oak Street",
+        "note": "Back toward 1st Ave",
+        "bridge_m": 400
+      }
+    ],
+    "eb-2-san-pablo": [
+      {
+        "street": "San Pablo Avenue",
+        "from": "Ashby Avenue",
+        "to": [
+          -122.271832,
+          37.8059
+        ],
+        "to_name": "Washington Street",
+        "note": "To its old junction with Washington St, where it ends today"
+      },
+      {
+        "segment": "eb-washington-13th-san-pablo-link",
+        "running": [
+          "1945-11-20",
+          "1948-03-09"
+        ]
+      },
+      {
+        "segment": "eb-washington-12th-13th-link",
+        "running": [
+          "1945-11-20",
+          "1948-03-09"
+        ]
+      },
+      {
+        "street": "Washington Street",
+        "from": [
+          -122.274153,
+          37.80205
+        ],
+        "from_name": "City Center",
+        "to": "7th Street",
+        "running": [
+          "1945-11-20",
+          "1948-03-09"
+        ]
+      },
+      {
+        "street": "Broadway",
+        "from": "14th Street",
+        "to": "7th Street",
+        "running": [
+          "1945-11-20"
+        ],
+        "note": "The downtown loop until November 1945, from San Pablo Ave's last block (gone today, not drawn)"
+      },
+      {
+        "street": "7th Street",
+        "from": "Broadway",
+        "to": "Washington Street",
+        "running": [
+          "1945-11-20"
+        ],
+        "note": "The downtown loop until November 1945"
+      },
+      {
+        "street": "7th Street",
+        "from": "Washington Street",
+        "to": [
+          -122.303733,
+          37.807714
+        ],
+        "to_name": "Pine Street",
+        "running": [
+          "1948-03-09"
+        ],
+        "note": "West on 7th St to Pine St by March 1948"
+      }
+    ],
+    "eb-6-college": [
+      {
+        "street": "9th Street",
+        "from": "Broadway",
+        "to": "Franklin Street"
+      },
+      {
+        "street": "Franklin Street",
+        "from": "9th Street",
+        "to": "8th Street"
+      },
+      {
+        "street": "8th Street",
+        "from": "Franklin Street",
+        "to": "Broadway"
+      },
+      {
+        "street": "Broadway",
+        "from": "8th Street",
+        "to": "College Avenue"
+      },
+      {
+        "street": "College Avenue",
+        "from": "Broadway",
+        "to": "Bancroft Way"
+      },
+      {
+        "street": "Bancroft Way",
+        "from": "College Avenue",
+        "to": "Fulton Street"
+      },
+      {
+        "street": "Fulton Street",
+        "from": "Bancroft Way",
+        "to": "Kittredge Street",
+        "note": "\"Fulton Street and Oxford Street\": Fulton St becomes Oxford St at Kittredge St today"
+      },
+      {
+        "street": "Oxford Street",
+        "from": "Kittredge Street",
+        "to": "University Avenue"
+      },
+      {
+        "street": "University Avenue",
+        "from": "Oxford Street",
+        "to": "Shattuck Avenue"
+      },
+      {
+        "street": "Shattuck Avenue",
+        "from": "University Avenue",
+        "to": "Bancroft Way"
+      },
+      {
+        "street": "Bancroft Way",
+        "from": "Shattuck Avenue",
+        "to": "Fulton Street"
+      }
+    ],
+    "eb-k-alcatraz": [
+      {
+        "street": "Alcatraz Avenue",
+        "from": "Adeline Street",
+        "to": "College Avenue"
+      },
+      {
+        "street": "College Avenue",
+        "from": "Alcatraz Avenue",
+        "to": "Bancroft Way"
+      },
+      {
+        "street": "Bancroft Way",
+        "from": "College Avenue",
+        "to": "Telegraph Avenue",
+        "bridge_m": 200
+      }
+    ],
+    "eb-9-alameda": [
+      {
+        "street": "8th Street",
+        "from": "Clay Street",
+        "to": "Washington Street"
+      },
+      {
+        "street": "Washington Street",
+        "from": "8th Street",
+        "to": [
+          -122.274153,
+          37.80205
+        ],
+        "to_name": "City Center"
+      },
+      {
+        "segment": "eb-washington-12th-13th-link"
+      },
+      {
+        "street": "13th Street",
+        "from": [
+          -122.272854,
+          37.804116
+        ],
+        "from_name": "Washington Street",
+        "to": "Oak Street",
+        "bridge_m": 300
+      },
+      {
+        "street": "Oak Street",
+        "from": "13th Street",
+        "to": "12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "Oak Street",
+        "to": "1st Avenue",
+        "bridge_m": 400
+      },
+      {
+        "street": "1st Avenue",
+        "from": "East 12th Street",
+        "to": "International Boulevard"
+      },
+      {
+        "street": "International Boulevard",
+        "from": "1st Avenue",
+        "to": "5th Avenue"
+      },
+      {
+        "street": "International Boulevard",
+        "from": "5th Avenue",
+        "to": "23rd Avenue",
+        "running": [
+          "1933-06-12"
+        ]
+      },
+      {
+        "street": "Park Street",
+        "from": "Blanding Avenue",
+        "to": "San Jose Avenue",
+        "running": [
+          "1933-06-12"
+        ],
+        "note": "In Alameda"
+      }
+    ],
+    "eb-10-piedmont": [
+      {
+        "street": "9th Street",
+        "from": "Broadway",
+        "to": "Franklin Street"
+      },
+      {
+        "street": "Franklin Street",
+        "from": "9th Street",
+        "to": "8th Street"
+      },
+      {
+        "street": "8th Street",
+        "from": "Franklin Street",
+        "to": "Broadway"
+      },
+      {
+        "street": "Broadway",
+        "from": "8th Street",
+        "to": "Piedmont Avenue"
+      },
+      {
+        "street": "Piedmont Avenue",
+        "from": "Broadway",
+        "to": "41st Street"
+      }
+    ],
+    "eb-11-oakland-ave": [
+      {
+        "street": "Piedmont Avenue",
+        "from": "Rio Vista Avenue",
+        "to": "Linda Avenue",
+        "running": [
+          "1931-11-16"
+        ]
+      },
+      {
+        "street": "Linda Avenue",
+        "from": "Piedmont Avenue",
+        "to": "Oakland Avenue"
+      },
+      {
+        "street": "Oakland Avenue",
+        "from": "Linda Avenue",
+        "to": "Harrison Street"
+      },
+      {
+        "street": "Harrison Street",
+        "from": "Oakland Avenue",
+        "to": "24th Street"
+      },
+      {
+        "street": "24th Street",
+        "from": "Harrison Street",
+        "to": "Broadway"
+      },
+      {
+        "street": "Broadway",
+        "from": "24th Street",
+        "to": "9th Street"
+      },
+      {
+        "street": "Broadway",
+        "from": "9th Street",
+        "to": "8th Street",
+        "running": [
+          "1942-11-05",
+          "1948-05-25"
+        ]
+      },
+      {
+        "street": "9th Street",
+        "from": "Broadway",
+        "to": "Franklin Street",
+        "running": [
+          "1931-11-16"
+        ]
+      },
+      {
+        "street": "Franklin Street",
+        "from": "9th Street",
+        "to": "8th Street",
+        "running": [
+          "1931-11-16"
+        ]
+      },
+      {
+        "street": "8th Street",
+        "from": "Franklin Street",
+        "to": "Broadway",
+        "running": [
+          "1931-11-16"
+        ]
+      },
+      {
+        "street": "8th Street",
+        "from": "Broadway",
+        "to": "Washington Street",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "street": "Washington Street",
+        "from": "8th Street",
+        "to": [
+          -122.274153,
+          37.80205
+        ],
+        "to_name": "City Center",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "segment": "eb-washington-12th-13th-link",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "street": "13th Street",
+        "from": [
+          -122.272854,
+          37.804116
+        ],
+        "from_name": "Washington Street",
+        "to": "Oak Street",
+        "running": [
+          "1942-11-05"
+        ],
+        "bridge_m": 300
+      },
+      {
+        "street": "Oak Street",
+        "from": "13th Street",
+        "to": "12th Street",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "Oak Street",
+        "to": "1st Avenue",
+        "running": [
+          "1942-11-05"
+        ],
+        "bridge_m": 400
+      },
+      {
+        "street": "1st Avenue",
+        "from": "East 12th Street",
+        "to": "International Boulevard",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "street": "International Boulevard",
+        "from": "1st Avenue",
+        "to": "38th Avenue",
+        "running": [
+          "1942-11-05"
+        ]
+      },
+      {
+        "street": "38th Avenue",
+        "from": "International Boulevard",
+        "to": "MacArthur Boulevard",
+        "running": [
+          "1942-11-05"
+        ],
+        "note": "To Hopkins St, today's MacArthur Blvd here (Decision 38738 names the same track)"
+      }
+    ],
+    "eb-12-grand-16th": [
+      {
+        "street": "Fairview Avenue",
+        "from": "Oakland Avenue",
+        "to": "Grand Avenue"
+      },
+      {
+        "street": "Grand Avenue",
+        "from": "Fairview Avenue",
+        "to": "Webster Street"
+      },
+      {
+        "street": "Webster Street",
+        "from": "Grand Avenue",
+        "to": "14th Street"
+      },
+      {
+        "street": "14th Street",
+        "from": "Webster Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Market Street",
+        "from": "14th Street",
+        "to": "16th Street"
+      },
+      {
+        "street": "16th Street",
+        "from": "Market Street",
+        "to": "Wood Street",
+        "note": "To the Southern Pacific's 16th Street station"
+      },
+      {
+        "street": "Market Street",
+        "from": "16th Street",
+        "to": "24th Street",
+        "running": [
+          "1935-09-03"
+        ],
+        "note": "To Emeryville until 1935"
+      },
+      {
+        "street": "24th Street",
+        "from": "Market Street",
+        "to": "Adeline Street",
+        "running": [
+          "1935-09-03"
+        ]
+      },
+      {
+        "street": "Adeline Street",
+        "from": "24th Street",
+        "to": "32nd Street",
+        "running": [
+          "1935-09-03"
+        ]
+      },
+      {
+        "street": "32nd Street",
+        "from": "Adeline Street",
+        "to": "Hollis Street",
+        "running": [
+          "1935-09-03"
+        ]
+      },
+      {
+        "street": "Hollis Street",
+        "from": "32nd Street",
+        "to": "Yerba Buena Avenue",
+        "running": [
+          "1935-09-03"
+        ]
+      }
+    ],
+    "eb-14-east-18th": [
+      {
+        "street": "East 27th Street",
+        "from": "Fruitvale Avenue",
+        "to": "26th Avenue"
+      },
+      {
+        "street": "26th Avenue",
+        "from": "East 27th Street",
+        "to": "East 24th Street",
+        "bridge_m": 300
+      },
+      {
+        "street": "East 24th Street",
+        "from": "26th Avenue",
+        "to": "25th Avenue"
+      },
+      {
+        "street": "25th Avenue",
+        "from": "East 24th Street",
+        "to": "East 21st Street"
+      },
+      {
+        "street": "East 21st Street",
+        "from": "25th Avenue",
+        "to": "14th Avenue"
+      },
+      {
+        "street": "14th Avenue",
+        "from": "East 21st Street",
+        "to": "East 18th Street"
+      },
+      {
+        "street": "East 18th Street",
+        "from": "14th Avenue",
+        "to": "3rd Avenue"
+      },
+      {
+        "street": "1st Avenue",
+        "from": [
+          -122.255893,
+          37.799616
+        ],
+        "from_name": "the right-of-way",
+        "to": "East 12th Street",
+        "note": "From the end of the private right-of-way; where it met 1st Ave isn't given, so the map starts at 1st Ave's north end today"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "1st Avenue",
+        "to": "Oak Street",
+        "bridge_m": 400
+      },
+      {
+        "street": "Oak Street",
+        "from": "12th Street",
+        "to": "13th Street"
+      },
+      {
+        "street": "13th Street",
+        "from": "Oak Street",
+        "to": "Jefferson Street",
+        "bridge_m": 300
+      },
+      {
+        "street": "Jefferson Street",
+        "from": "13th Street",
+        "to": "12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "Jefferson Street",
+        "to": "Oak Street",
+        "bridge_m": 400
+      }
+    ],
+    "eb-15-macarthur": [
+      {
+        "street": "MacArthur Boulevard",
+        "from": "35th Avenue",
+        "to": "14th Avenue"
+      },
+      {
+        "street": "14th Avenue",
+        "from": "MacArthur Boulevard",
+        "to": "East 21st Street"
+      },
+      {
+        "street": "14th Avenue",
+        "from": "East 21st Street",
+        "to": "East 18th Street"
+      },
+      {
+        "street": "East 18th Street",
+        "from": "14th Avenue",
+        "to": "3rd Avenue"
+      },
+      {
+        "street": "1st Avenue",
+        "from": [
+          -122.255893,
+          37.799616
+        ],
+        "from_name": "the right-of-way",
+        "to": "East 12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "1st Avenue",
+        "to": "Oak Street",
+        "bridge_m": 400
+      },
+      {
+        "street": "Oak Street",
+        "from": "12th Street",
+        "to": "13th Street"
+      },
+      {
+        "street": "13th Street",
+        "from": "Oak Street",
+        "to": "Jefferson Street",
+        "bridge_m": 300
+      },
+      {
+        "street": "Jefferson Street",
+        "from": "13th Street",
+        "to": "12th Street"
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "Jefferson Street",
+        "to": "Oak Street",
+        "bridge_m": 400
+      }
+    ],
+    "eb-38th-ave": [
+      {
+        "street": "38th Avenue",
+        "from": "MacArthur Boulevard",
+        "to": "International Boulevard"
+      },
+      {
+        "street": "International Boulevard",
+        "from": "38th Avenue",
+        "to": "1st Avenue",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ]
+      },
+      {
+        "street": "1st Avenue",
+        "from": "International Boulevard",
+        "to": "East 12th Street",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ]
+      },
+      {
+        "street": "12th Street",
+        "also": [
+          "East 12th Street"
+        ],
+        "from": "1st Avenue",
+        "to": "Oak Street",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ],
+        "bridge_m": 400
+      },
+      {
+        "street": "Oak Street",
+        "from": "12th Street",
+        "to": "13th Street",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ]
+      },
+      {
+        "street": "13th Street",
+        "from": "Oak Street",
+        "to": [
+          -122.272854,
+          37.804116
+        ],
+        "to_name": "Washington Street",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ],
+        "bridge_m": 300
+      },
+      {
+        "segment": "eb-washington-12th-13th-link",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ]
+      },
+      {
+        "street": "Washington Street",
+        "from": [
+          -122.274153,
+          37.80205
+        ],
+        "from_name": "City Center",
+        "to": "8th Street",
+        "running": [
+          "1931-11-16",
+          "1932-06-30"
+        ]
+      },
+      {
+        "street": "8th Street",
+        "from": "Washington Street",
+        "to": "Clay Street",
+        "running": [
+          "1931-11-16"
+        ],
+        "note": "To a crossover near Clay St in 1931"
+      },
+      {
+        "street": "8th Street",
+        "from": "Washington Street",
+        "to": "Broadway",
+        "running": [
+          "1932-06-30"
+        ],
+        "note": "East to Broadway from mid-1932"
+      }
+    ],
+    "eb-17-8th-ave": [
+      {
+        "street": "East 28th Street",
+        "from": "13th Avenue",
+        "to": "11th Avenue"
+      },
+      {
+        "street": "11th Avenue",
+        "from": "East 28th Street",
+        "to": "East 24th Street"
+      },
+      {
+        "street": "East 24th Street",
+        "from": "11th Avenue",
+        "to": "8th Avenue"
+      },
+      {
+        "street": "8th Avenue",
+        "from": "East 24th Street",
+        "to": "East 18th Street"
+      }
+    ],
+    "eb-23-23rd-ave": [
+      {
+        "street": "23rd Avenue",
+        "from": "East 27th Street",
+        "to": "International Boulevard"
+      }
+    ],
+    "eb-18-park-lakeshore": [
+      {
+        "street": "Leimert Boulevard",
+        "from": "Oakmore Road",
+        "to": "Park Boulevard"
+      },
+      {
+        "street": "Park Boulevard",
+        "from": "Leimert Boulevard",
+        "to": "East 20th Street"
+      },
+      {
+        "street": "Broadway",
+        "from": "13th Street",
+        "to": "Grand Avenue"
+      },
+      {
+        "street": "Grand Avenue",
+        "from": "Broadway",
+        "to": [
+          -122.249963,
+          37.809142
+        ],
+        "to_name": "Lakeshore Avenue"
+      },
+      {
+        "street": "Lakeshore Avenue",
+        "from": [
+          -122.249058,
+          37.808462
+        ],
+        "from_name": "Grand Avenue",
+        "to": "Walavista Avenue"
+      },
+      {
+        "street": "Walavista Avenue",
+        "from": "Lakeshore Avenue",
+        "to": "Carlston Avenue",
+        "note": "Walla Vista Ave in the order"
+      }
+    ],
+    "eb-24-dwight": [
+      {
+        "street": "Sixth Street",
+        "from": "University Avenue",
+        "to": "Dwight Way"
+      },
+      {
+        "street": "Dwight Way",
+        "from": "Sixth Street",
+        "to": "College Avenue"
+      }
+    ],
+    "eb-cemetery": [
+      {
+        "street": "Piedmont Avenue",
+        "from": "Pleasant Valley Avenue",
+        "to": [
+          -122.245095,
+          37.831971
+        ],
+        "to_name": "Mountain View Cemetery",
+        "note": "To the cemetery gate, where Piedmont Ave ends"
+      }
+    ],
+    "eb-richmond": [
+      {
+        "street": "San Pablo Avenue",
+        "from": "Ashby Avenue",
+        "to": "Potrero Avenue",
+        "area": [
+          "eastbay",
+          "richmond"
+        ]
+      }
+    ],
+    "eb-29-23rd-macdonald": [
+      {
+        "street": "Macdonald Avenue",
+        "from": "San Pablo Avenue",
+        "to": "23rd Street",
+        "area": [
+          "eastbay",
+          "richmond"
+        ]
+      },
+      {
+        "street": "23rd Street",
+        "from": "Macdonald Avenue",
+        "to": "Market Avenue",
+        "area": [
+          "eastbay",
+          "richmond"
+        ]
+      },
+      {
+        "street": "Market Avenue",
+        "from": "23rd Street",
+        "to": "Church Lane",
+        "note": "Market Street in the order",
+        "area": [
+          "eastbay",
+          "richmond"
+        ]
+      }
+    ]
+  }
+}

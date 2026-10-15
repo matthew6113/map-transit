@@ -17,6 +17,7 @@ this session left reading plans in `leads-2c/`; nothing in them is citable yet.
 | Key System | E Claremont line, 1908–1958 | Oakland Tribune 1905 and 1912; CPUC Decisions 50731, 54669; HAER | Today's centerlines on the streets D50731 names, and the 1949 sheet where the freeway cut them |
 | Southern Pacific | The Eighteenth Street line (1912–1933) and the Webster Street line in Oakland (1911–1923) | SF Call 1911, 1912; CRC Decisions 12906, 17743, 25740, 27800; the SP's 1914 employee timetable | Today's centerlines; the unsourced 18th–20th St link dashed |
 | Golden Gate Ferries | The Hyde St–Berkeley ferry closes on or about August 1937 | CRC Decision 29999 (decision 17) | (already drawn) |
+| East Bay streetcars (Oakland Traction's successors) | 18 lines in Oakland, Berkeley, Alameda and Richmond, street by street | The Railroad Commission's and CPUC's orders of 1931–48, each line drawn for the years its orders show it running (decision 20) | Today's centerlines (`street_routes.py`); Washington St under City Center dashed |
 | Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); ends unsourced, so drawn for those years only (decision 20, proposed) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 
 ## Not drawn yet, and what each needs
@@ -48,9 +49,11 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 
 ### East Bay
 
-- **Oakland Traction / Key System streetcars:** about 40 Commission decisions of 1928–48 are located
-  by file name (`leads-2c/eastbay.md`, section 1.1). Read D40742 (1947) first: it may list every rail
-  route then.
+- **Oakland Traction / Key System streetcars:** 18 lines drawn from the Commission's orders of
+  1931–48 (D40742 turned out to be a bus order). Still to do: each line's opening (franchises, the
+  Tribune) and last day; lines 3, 4, 5, 7 (both the Oakland and the Berkeley 7), 26, 28 and Leona,
+  whose orders don't give their whole route or whose streets are gone; the private rights-of-way
+  (Piedmont, Leona, the Richmond ferry), to trace from the 1949 sheets.
 - **East Shore & Suburban:** the Richmond line's 1933 route is sourced (CRC D26438) and its end
   (November 6, 1933), but not when the through line opened; the Tribune's 1904 opening names only "the
   connecting link between the old and the new towns of Richmond".

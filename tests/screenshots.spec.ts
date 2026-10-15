@@ -81,6 +81,10 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-sf-downtown-1929', url: '/?era=past&year=1929&test=1#map=14.4/37.7850/-122.4080/0/0' },
   { name: 'past-line-msry-21', url: '/l/msry-21?era=past&year=1929&test=1&at=99' },
   { name: 'past-line-msry-6', url: '/l/msry-6?era=past&year=1910&test=1&at=99' },
+  // The East Bay's streetcars, from the Railroad Commission's orders of 1931-48 (decision 20).
+  { name: 'past-oakland-streetcars-1935', url: '/?era=past&year=1935&test=1#map=12.4/37.8150/-122.2400/0/0' },
+  { name: 'past-oakland-streetcars-1947', url: '/?era=past&year=1947&test=1#map=12.4/37.8150/-122.2400/0/0' },
+  { name: 'past-line-eb-11', url: '/l/eb-11-oakland-ave?era=past&year=1942&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

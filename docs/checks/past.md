@@ -23,6 +23,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `bbr-east-approach` East Bay approach and yards | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2a/traces/bbr-east-approach.jpg) |
 | `ier-bridge-lead` Interurban lead to 26th Street | geotiff | usgs-oakland-west-1949 | 25 m | [review](../screenshots/p2a/traces/ier-bridge-lead.jpg) |
 | `transbay-terminal` Transbay Terminal | geotiff | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2a/traces/transbay-terminal.jpg) |
+| `eb-washington-12th-13th-link` Washington St, where it stops today to 13th St | approximate |  |  |  |
+| `eb-washington-13th-san-pablo-link` Washington St, 13th St to San Pablo Ave | approximate |  |  |  |
 | `ggf-hyde-sausalito-course` Ferry, Hyde Street to Sausalito | approximate |  |  |  |
 | `ggf-hyde-berkeley-course` Ferry, Hyde Street to the Berkeley pier | approximate |  |  |  |
 | `vallejo-ferry-course` Ferry, Clay Street to Vallejo | approximate |  |  |  |
@@ -192,6 +194,24 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-pen-bernal-cut` The Bernal Cut, along San Jose Ave | street-centerline | usgs-san-francisco-south-1950 | 30 m | [review](../screenshots/p2b/traces/sp-pen-bernal-cut.jpg) |
 | `sp-pen-ocean-view` Glen Park to San Bruno, by Ocean View and Colma | geotiff | usgs-san-francisco-south-1950 | 20 m | [review](../screenshots/p2b/traces/sp-pen-ocean-view.jpg) |
 | `sp-pen-san-jose` San José: the old main line to the Market Street station | geotiff | usgs-san-jose-1943 | 30 m | [review](../screenshots/p2b/traces/sp-pen-san-jose.jpg) |
+| line `eb-1-east-14th` No. 1 East 14th Street: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-1-east-14th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-2.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-3.jpg) |
+| line `eb-2-san-pablo` No. 2 San Pablo Avenue: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-2-san-pablo-streets.jpg) |
+| line `eb-6-college` No. 6 College Avenue: its 20 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-6-college-streets.jpg) |
+| line `eb-k-alcatraz` K Alcatraz Avenue: its 3 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-k-alcatraz-streets.jpg) |
+| line `eb-9-alameda` No. 9 Alameda via Park Street: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-9-alameda-streets-1.jpg) [review](../screenshots/p2c/traces/eb-9-alameda-streets-2.jpg) |
+| line `eb-10-piedmont` No. 10 Piedmont Avenue: its 11 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-10-piedmont-streets.jpg) |
+| line `eb-11-oakland-ave` No. 11 Oakland Avenue: its 24 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-11-oakland-ave-streets-1.jpg) [review](../screenshots/p2c/traces/eb-11-oakland-ave-streets-2.jpg) |
+| line `eb-12-grand-16th` No. 12 Grand Avenue-16th Street: its 14 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-12-grand-16th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-12-grand-16th-streets-2.jpg) |
+| line `eb-14-east-18th` No. 14 East 18th Street: its 16 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-14-east-18th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-14-east-18th-streets-2.jpg) |
+| line `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-15-macarthur-streets-1.jpg) [review](../screenshots/p2c/traces/eb-15-macarthur-streets-2.jpg) |
+| line `eb-38th-ave` 38th Avenue line: its 11 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-38th-ave-streets-1.jpg) [review](../screenshots/p2c/traces/eb-38th-ave-streets-2.jpg) |
+| line `eb-17-8th-ave` No. 17 8th Avenue: its 4 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-17-8th-ave-streets.jpg) |
+| line `eb-23-23rd-ave` No. 23 23rd Avenue: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-23-23rd-ave-streets.jpg) |
+| line `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue: its 8 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-18-park-lakeshore-streets-1.jpg) [review](../screenshots/p2c/traces/eb-18-park-lakeshore-streets-2.jpg) |
+| line `eb-24-dwight` No. 24 Dwight Way: its 2 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-24-dwight-streets.jpg) |
+| line `eb-cemetery` Cemetery line: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-cemetery-streets.jpg) |
+| line `eb-richmond` Richmond line: its 1 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-richmond-streets.jpg) |
+| line `eb-29-23rd-macdonald` No. 29 23rd and Macdonald: its 3 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-29-23rd-macdonald-streets.jpg) |
 | line `msry-1` No. 1 Sutter and California Streets: its 5 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-1-streets.jpg) |
 | line `msry-3` No. 3 Sutter and Jackson Streets: its 1 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-3-streets.jpg) |
 | line `msry-4` No. 4 Turk and Eddy Streets: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-4-streets.jpg) |
@@ -200,7 +220,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | line `msry-9` No. 9 Valencia Street: its 2 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-9-streets.jpg) |
 | line `msry-10` No. 10 Guerrero Street and Sunnyside: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-10-streets-1.jpg) [review](../screenshots/p2c/traces/msry-10-streets-2.jpg) |
 | line `msry-11` No. 11 Mission and 24th Streets: its 9 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-11-streets.jpg) |
-| line `msry-12` No. 12 Mission Street and Ingleside: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-12-streets-1.jpg) [review](../screenshots/p2c/traces/msry-12-streets-2.jpg) |
+| line `msry-12` No. 12 Mission Street and Ingleside: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-12-streets-1.jpg) [review](../screenshots/p2c/traces/msry-12-streets-2.jpg) |
 | line `msry-14` No. 14 Mission Street and Daly City: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-14-streets-1.jpg) [review](../screenshots/p2c/traces/msry-14-streets-2.jpg) |
 | line `msry-15` No. 15 Kearny Street and North Beach: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-15-streets.jpg) |
 | line `msry-17` No. 17 Haight Street and Ingleside: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-17-streets-1.jpg) [review](../screenshots/p2c/traces/msry-17-streets-2.jpg) |
@@ -245,6 +265,24 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 
 | Line | Running on | Still to find |
 |---|---|---|
+| `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
+| `eb-k-alcatraz` K Alcatraz Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
+| `eb-9-alameda` No. 9 Alameda via Park Street | 1931-01-13 (crc-d23279, p. 2); 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-10-piedmont` No. 10 Piedmont Avenue | 1943-11-30 (crc-d36740, p. 1-2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-11-oakland-ave` No. 11 Oakland Avenue | 1931-11-16 (crc-d24224, p. 2); 1942-11-05 (crc-d35948, p. 2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-12-grand-16th` No. 12 Grand Avenue-16th Street | 1935-09-03 (crc-d28206, p. 9); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
+| `eb-14-east-18th` No. 14 East 18th Street | 1935-09-03 (crc-d28206, p. 9); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard | 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-38th-ave` 38th Avenue line | 1931-11-16 (crc-d24224, p. 2); 1932-06-30 (crc-d24963, p. 1); 1946-03-05 (crc-d38738, p. 1) | opening and closing |
+| `eb-17-8th-ave` No. 17 8th Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-23-23rd-ave` No. 23 23rd Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue | 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-24-dwight` No. 24 Dwight Way | 1938-01-10 (crc-d30512, p. 3) | opening and closing |
+| `eb-cemetery` Cemetery line | 1937-10-11 (crc-d30213, p. 1, 3) | opening and closing |
+| `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening and closing |
+| `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
 | `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
 | `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
 | `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |

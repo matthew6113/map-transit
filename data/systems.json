@@ -54,6 +54,12 @@
       "notes": "Andrew Hallidie's first cable railway, 1873."
     },
     {
+      "id": "east-bay-streetcars",
+      "name": "East Bay streetcars (Oakland Traction and its successors)",
+      "short_name": "East Bay streetcars",
+      "notes": "The local streetcar lines of Oakland, Berkeley, Alameda and Richmond, run by the Oakland Traction Company, then East Bay Street Railways (from 1930), East Bay Transit (from 1936) and Key System (from the 1940s), until the last cars of 1948. Each line lists the operator its orders name."
+    },
+    {
       "id": "ferries-cliff-house-railway",
       "name": "Ferries & Cliff House Railway",
       "short_name": "Ferries & Cliff House",

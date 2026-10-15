@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, the East Bay's streetcars
+
+- **18 local streetcar lines of Oakland, Berkeley, Alameda and Richmond**, street by street as the
+  Railroad Commission's (from 1946 the Public Utilities Commission's) orders of 1931–48 describe
+  them: Nos. 1, 2, 6, 9, 10, 11, 12, 14, 15, 17, 18, 23, 24, 29, the K, the 38th Avenue line, the
+  Cemetery line and the Richmond line (on San Pablo Ave). Each is drawn for the years its orders
+  show it running (decision 20); the 1948 orders that ended the last lines name no last days.
+- Washington St's old course under City Center, between where it stops today and San Pablo Ave, is
+  drawn dashed. Private rights-of-way (to Piedmont, Leona, the Richmond ferry) and streets the
+  freeways cut in Richmond aren't drawn yet; lines 26, 28 and Leona wait on them.
+- The No. 12 of San Francisco no longer runs on to Daly City and back: the street-route cutter now
+  keeps apart cross streets of the same name in different places.
+
 ## 2026-10-15: Phase 2c, San Francisco's numbered streetcar lines
 
 - **26 Market Street Railway lines** (United Railroads in 1909), street by street as Warren Manley's

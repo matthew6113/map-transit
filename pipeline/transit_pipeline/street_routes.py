@@ -44,6 +44,7 @@ PAST = DATA / "past"
 INSIDE_M = 12.0  # a cross street this far or more from a run's ends cuts it
 OVERLAP_M = 25.0  # a new piece running this far along an existing segment is reported
 PRESENT_M = 60.0  # or this far along today's track
+NODE_M = 1500.0  # a corner further than this from a run belongs to another street of the same name
 
 
 def slug(name: str) -> str:
@@ -58,26 +59,35 @@ def short(name: str) -> str:
     return " ".join(w if w.lower() not in SUFFIX else SUFFIX[w.lower()].capitalize() for w in words)
 
 
-def existing() -> tuple[dict, dict[str, set[str]], dict[str, list[tuple[str, LineString]]]]:
-    """Street segments already made by hand: by (street, {cross, cross}), their ends by street, and
-    their geometry by street."""
+def existing() -> tuple[dict, dict[str, list], dict[str, list[tuple[str, LineString, set]]]]:
+    """Street segments already made by hand: by (street, {cross, cross}) their ids, by street their
+    ends (name, place, lon/lat) and their geometry, each with the modes of the lines on it (a
+    streetcar shares a streetcar's track; an interurban's on the same street is its own)."""
     from .streets import norm
     by_key, ends, geoms = {}, {}, {}
+    modes: dict[str, set[str]] = {}
+    for lp in PAST.glob("*/lines.json"):
+        for l in json.loads(lp.read_text())["lines"]:
+            for r in l["route"]:
+                modes.setdefault(r["segment"], set()).add(l["mode"])
     for trace in sorted(PAST.glob("*/trace.json")):
         recipes = json.loads(trace.read_text())["segments"]
         feats = json.loads((trace.parent / "segments.geojson").read_text())["features"]
         geom = {f["properties"]["id"]: f["geometry"] for f in feats}
         for sid, r in recipes.items():
-            if r.get("routes") or len(r["parts"]) != 1:
-                continue
+            if r.get("routes") or len(r["parts"]) != 1 or r.get("approximate"):
+                continue  # a dashed guess at a route isn't a street's track to share
             p = r["parts"][0]
             if "streets" not in p or len(p["streets"]) != 1 or not isinstance(p["from"], str) or not isinstance(p["to"], str):
                 continue
+            if not (sid in geom and geom[sid]):
+                continue
             st = norm(p["streets"][0])
-            by_key[(st, frozenset({norm(p["from"]), norm(p["to"])}))] = sid
-            ends.setdefault(st, set()).update({p["from"], p["to"]})
-            if sid in geom and geom[sid]:
-                geoms.setdefault(st, []).append((sid, to_metres(LineString(geom[sid]["coordinates"]))))
+            cs = geom[sid]["coordinates"]
+            m = modes.get(sid, set())
+            by_key.setdefault((st, frozenset({norm(p["from"]), norm(p["to"])})), []).append((sid, cs, m))
+            ends.setdefault(st, []).extend([(p["from"], p["from"], tuple(cs[0])), (p["to"], p["to"], tuple(cs[-1]))])
+            geoms.setdefault(st, []).append((sid, to_metres(LineString(cs)), m))
     return by_key, ends, geoms
 
 
@@ -92,7 +102,6 @@ def check_sheet(spec: dict, coords: list[list[float]]) -> str:
 def build(group: Path) -> None:
     from .streets import corner, norm, route
     cfg = json.loads((group / "routes.json").read_text())
-    area = cfg["area"]
     by_key, ends, geoms = existing()
     lines_doc = json.loads((group / "lines.json").read_text())
     lines = {l["id"]: l for l in lines_doc["lines"]}
@@ -104,12 +113,11 @@ def build(group: Path) -> None:
         v = r[which]
         return (r[f"{which}_name"], tuple(v)) if isinstance(v, list) else (v, v)
 
-    # Every cross street a run on each street starts or ends at, and the hand-made segments' ends.
-    nodes: dict[str, dict[str, str | tuple]] = {k: {n: n for n in v} for k, v in ends.items()}
-    for runs in cfg["lines"].values():
-        for r in runs:
-            if "street" in r:
-                nodes.setdefault(norm(r["street"]), {}).update(dict([end(r, "from"), end(r, "to")]))
+    def area(r):  # a box of streets.AREAS, or null for all of them
+        return r.get("area", cfg.get("area"))
+
+    def names(r):  # a street that changes name on the way (12th St, then East 12th St)
+        return [r["street"], *r.get("also", [])]
 
     # A street cut today (redevelopment, a freeway) is bridged across gaps up to its runs' bridge_m.
     bridge: dict[str, float] = {}
@@ -118,64 +126,88 @@ def build(group: Path) -> None:
             if r.get("bridge_m"):
                 bridge[norm(r["street"])] = max(bridge.get(norm(r["street"]), 0.0), r["bridge_m"])
 
+    # Each run along today's street, then every corner a run or a hand-made segment starts or ends at
+    # on that street, with where it is (San Francisco and Oakland share street names).
+    problems, warnings = [], []  # warnings: data/app/present-draw.geojson may be a build behind
+    runs_at = {}
+    for lid, runs in cfg["lines"].items():
+        for i, r in enumerate(runs):
+            if "street" not in r:
+                continue
+            st = norm(r["street"])
+            (fname, fplace), (tname, tplace) = end(r, "from"), end(r, "to")
+            try:
+                coords, _ = route(names(r), fplace, tplace, bridge.get(st, 0.0), area=area(r))
+            except (SystemExit, IndexError) as e:
+                problems.append(f"{lid}: {r['street']} from {fname} to {tname}: {e or 'no path between the two corners'}")
+                continue
+            runs_at[(lid, i)] = coords
+    nodes: dict[str, list] = {k: list(v) for k, v in ends.items()}
+    for (lid, i), coords in runs_at.items():
+        r = cfg["lines"][lid][i]
+        st = norm(r["street"])
+        for which, at in (("from", coords[0]), ("to", coords[-1])):
+            name, place = end(r, which)
+            nodes.setdefault(st, []).append((name, place, tuple(at)))
+
     # Today's track, drawn by the present era; a past line uses it rather than a second stroke.
     used = {r["segment"] for runs in cfg["lines"].values() for r in runs if "segment" in r}
     present = [(f["properties"]["seg"], to_metres(LineString(f["geometry"]["coordinates"])).buffer(8.0))
                for f in json.loads((DATA / "app" / "present-draw.geojson").read_text())["features"]
                if f["geometry"]["type"] == "LineString" and f["properties"]["seg"] not in used
-               # a subway or BART under the street is other track
-               and f["properties"].get("structure") not in ("subway", "tunnel") and f["properties"]["group"] != "heavy_rail"]
+               # a subway or BART under the street is other track, and a bus lane none
+               and f["properties"].get("structure") not in ("subway", "tunnel") and f["properties"]["group"] not in ("heavy_rail", "brt")]
     made: dict[str, dict] = {}  # new segment id -> {street, a, b, coords, lines}
-    problems, warnings = [], []  # warnings: data/app/present-draw.geojson may be a build behind
     for lid, runs in cfg["lines"].items():
         out = []
-        for r in runs:
+        for i, r in enumerate(runs):
             extra = {k: r[k] for k in ("running", "note") if k in r}
             if "segment" in r:
                 out.append({"segment": r["segment"], **{k: r[k] for k in ("from", "to") if k in r}, **extra})
                 continue
+            if (lid, i) not in runs_at:
+                continue
             st = norm(r["street"])
             (fname, fplace), (tname, tplace) = end(r, "from"), end(r, "to")
-            try:
-                coords, length = route([r["street"]], fplace, tplace, bridge.get(st, 0.0), area=area)
-            except (SystemExit, IndexError) as e:
-                problems.append(f"{lid}: {r['street']} from {fname} to {tname}: {e or 'no path between the two corners'}")
-                continue
-            run = to_metres(LineString(coords))
-            cuts = []
-            for n, place in nodes[st].items():
-                if norm(n) in {norm(fname), norm(tname)}:
-                    continue
+            run = to_metres(LineString(runs_at[(lid, i)]))
+            cuts, places = [], {fname: fplace, tname: tplace}
+            for n, place, near_at in nodes[st]:
+                if norm(n) in {norm(fname), norm(tname)} or to_metres(Point(near_at)).distance(run) > NODE_M:
+                    continue  # another town's street of the same name
                 try:
-                    p = corner(run, place, area)
+                    p = corner(run, place, area(r))
                 except SystemExit:
                     continue
                 near = to_metres(Point(place)).distance(p) if isinstance(place, tuple) else p.distance(run)
                 at = run.project(p)
                 if near < (INSIDE_M if isinstance(place, tuple) else 1.0) and INSIDE_M < at < run.length - INSIDE_M:
                     cuts.append((at, n))
-            stops = [fname, *(n for _, n in sorted(cuts)), tname]
+                    places[n] = place
+            stops = [fname, *dict.fromkeys(n for _, n in sorted(cuts)), tname]
             for a, b in zip(stops, stops[1:]):
-                key = (st, frozenset({norm(a), norm(b)}))
-                sid = by_key.get(key)
+                piece, _ = route(names(r), places[a], places[b], bridge.get(st, 0.0), area=area(r))
+                pm = to_metres(LineString(piece))
+                mode = lines[lid]["mode"]
+                sid = next((x for x, cs, m in by_key.get((st, frozenset({norm(a), norm(b)})), [])
+                            if mode in m and to_metres(LineString(cs)).hausdorff_distance(pm) < 60.0), None)
                 if sid is None:
                     x, y = sorted([a, b], key=slug)
                     sid = f"{cfg['prefix']}-{slug(r['street'])}-{slug(x)}-{slug(y)}"
                     if sid not in made:
-                        px, py = nodes[st][x], nodes[st][y]
-                        piece, _ = route([r["street"]], px, py, bridge.get(st, 0.0), area=area)
-                        made[sid] = {"street": r["street"], "a": x, "b": y, "pa": px, "pb": py, "coords": piece, "lines": [],
-                                     "bridge": bridge.get(st, 0.0)}
-                        pm = to_metres(LineString(piece))
+                        made[sid] = {"street": r["street"], "names": names(r), "a": x, "b": y, "pa": places[x], "pb": places[y], "coords": piece,
+                                     "lines": [], "bridge": bridge.get(st, 0.0), "area": area(r)}
                         for other, g in present:
                             shared = pm.intersection(g).length
                             if shared > PRESENT_M:
                                 warnings.append(f"{sid} runs {shared:.0f} m along today's {other}: cut it there and use it (decision 13)")
-                        for other, g in geoms.get(st, []):
+                        for other, g, m in geoms.get(st, []):
+                            if mode not in m:
+                                continue
                             shared = pm.intersection(g.buffer(6.0)).length
                             if shared > OVERLAP_M:
-                                problems.append(f"{sid} runs {shared:.0f} m along {other}: split {other} at "
-                                                f"{a if a not in ends.get(st, ()) else b}")
+                                problems.append(f"{sid} runs {shared:.0f} m along {other}: split {other} at {a} or {b}")
+                    elif made[sid]["coords"] and to_metres(LineString(made[sid]["coords"])).hausdorff_distance(pm) > 60.0:
+                        problems.append(f"{sid}: two different stretches of {r['street']} between {a} and {b}")
                     if lid not in made[sid]["lines"]:
                         made[sid]["lines"].append(lid)
                 out.append({"segment": sid, **extra})
@@ -219,7 +251,8 @@ def build(group: Path) -> None:
             **({"georeference": pp["georeference"]} if "georeference" in pp else {}),
         }})
         place = lambda v: list(v) if isinstance(v, tuple) else v  # noqa: E731
-        part = {"streets": [m["street"]], "from": place(m["pa"]), "to": place(m["pb"]), "area": area,
+        part = {"streets": m["names"], "from": place(m["pa"]), "to": place(m["pb"]),
+                **({"area": m["area"]} if m["area"] else {}),
                 **({"bridge_m": m["bridge"]} if m["bridge"] else {})}
         trace["segments"][sid] = {"routes": True, "parts": [part],
                                   "check": check_sheet(cfg["check"], m["coords"]), "est_error_m": 15,

@@ -1,0 +1,1710 @@
+{
+  "$comment": "The East Bay's local streetcar lines (Phase 2c). Hand-kept; each route is written by transit_pipeline.street_routes from routes.json.",
+  "lines": [
+    {
+      "id": "eb-1-east-14th",
+      "name": "No. 1 East 14th Street",
+      "short_name": "1",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Transit"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1942-11-05",
+          "source": "crc-d35945",
+          "pages": "2, 6"
+        },
+        {
+          "date": "1947-03-11",
+          "source": "cpuc-d40055",
+          "pages": "1"
+        },
+        {
+          "date": "1948-03-09",
+          "source": "cpuc-d41306",
+          "pages": "2, 4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "From downtown Oakland out East 14th St (today's International Blvd) to 105th Ave in 1942, 103rd Ave by 1947, turning back on 13th St downtown. Called \"No. 1 Oakland-105th Avenue\" in 1942 and \"No. 1 - Oakland 103rd Avenue\" in 1947.",
+      "sources": [
+        {
+          "source": "crc-d35945",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 6"
+        },
+        {
+          "source": "cpuc-d40055",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "cpuc-d41306",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-international-blvd-103rd-ave-105th-ave",
+          "running": [
+            "1942-11-05"
+          ],
+          "note": "To 105th Ave in 1942; 103rd Ave by 1947"
+        },
+        {
+          "segment": "eb-international-blvd-103rd-ave-38th-ave"
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-38th-ave"
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-5th-ave"
+        },
+        {
+          "segment": "eb-international-blvd-1st-ave-5th-ave"
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd"
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st",
+          "note": "East 12th St and 12th St, across the outlet of Lake Merritt"
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st"
+        },
+        {
+          "segment": "eb-13th-st-jefferson-st-washington-st"
+        },
+        {
+          "segment": "eb-jefferson-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-12th-st-broadway-jefferson-st",
+          "note": "Back toward 1st Ave"
+        },
+        {
+          "segment": "eb-12th-st-broadway-oak-st",
+          "note": "Back toward 1st Ave"
+        }
+      ]
+    },
+    {
+      "id": "eb-2-san-pablo",
+      "name": "No. 2 San Pablo Avenue",
+      "short_name": "2",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Transit"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1942-12-15",
+          "source": "crc-d36025",
+          "pages": "2"
+        },
+        {
+          "date": "1944-09-21",
+          "source": "crc-d37339",
+          "pages": "1"
+        },
+        {
+          "date": "1945-11-20",
+          "source": "crc-d38428",
+          "pages": "1-2"
+        },
+        {
+          "date": "1948-03-09",
+          "source": "cpuc-d41306",
+          "pages": "2, 4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "From downtown Oakland out San Pablo Ave to Ashby Ave. Until November 1945 the cars looped downtown by San Pablo Ave, Broadway, 7th St and Washington St; afterwards they turned back on Washington St, and by 1948 ran on out 7th St to Pine St in West Oakland.",
+      "sources": [
+        {
+          "source": "crc-d36025",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d37339",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "crc-d38428",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1-2"
+        },
+        {
+          "source": "cpuc-d41306",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-san-pablo-ave-ashby-ave-washington-st",
+          "note": "To its old junction with Washington St, where it ends today"
+        },
+        {
+          "segment": "eb-washington-13th-san-pablo-link",
+          "running": [
+            "1945-11-20",
+            "1948-03-09"
+          ]
+        },
+        {
+          "segment": "eb-washington-12th-13th-link",
+          "running": [
+            "1945-11-20",
+            "1948-03-09"
+          ]
+        },
+        {
+          "segment": "eb-washington-st-8th-st-city-center",
+          "running": [
+            "1945-11-20",
+            "1948-03-09"
+          ]
+        },
+        {
+          "segment": "eb-washington-st-7th-st-8th-st",
+          "running": [
+            "1945-11-20",
+            "1948-03-09"
+          ]
+        },
+        {
+          "segment": "eb-broadway-13th-st-14th-st",
+          "running": [
+            "1945-11-20"
+          ],
+          "note": "The downtown loop until November 1945, from San Pablo Ave's last block (gone today, not drawn)"
+        },
+        {
+          "segment": "eb-broadway-13th-st-9th-st",
+          "running": [
+            "1945-11-20"
+          ],
+          "note": "The downtown loop until November 1945, from San Pablo Ave's last block (gone today, not drawn)"
+        },
+        {
+          "segment": "eb-broadway-8th-st-9th-st",
+          "running": [
+            "1945-11-20"
+          ],
+          "note": "The downtown loop until November 1945, from San Pablo Ave's last block (gone today, not drawn)"
+        },
+        {
+          "segment": "eb-broadway-7th-st-8th-st",
+          "running": [
+            "1945-11-20"
+          ],
+          "note": "The downtown loop until November 1945, from San Pablo Ave's last block (gone today, not drawn)"
+        },
+        {
+          "segment": "eb-7th-st-broadway-washington-st",
+          "running": [
+            "1945-11-20"
+          ],
+          "note": "The downtown loop until November 1945"
+        },
+        {
+          "segment": "eb-7th-st-pine-st-washington-st",
+          "running": [
+            "1948-03-09"
+          ],
+          "note": "West on 7th St to Pine St by March 1948"
+        }
+      ]
+    },
+    {
+      "id": "eb-6-college",
+      "name": "No. 6 College Avenue",
+      "short_name": "6",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1946-09-10",
+          "source": "crc-d39403",
+          "pages": "5-6"
+        }
+      ],
+      "status": "closed",
+      "summary": "From a loop at 8th St and Broadway out Broadway and College Ave to Berkeley, round a loop by Bancroft Way, Fulton St, Oxford St, University Ave and Shattuck Ave.",
+      "sources": [
+        {
+          "source": "crc-d39403",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "5-6"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-9th-st-broadway-franklin-st"
+        },
+        {
+          "segment": "eb-franklin-st-8th-st-9th-st"
+        },
+        {
+          "segment": "eb-8th-st-broadway-franklin-st"
+        },
+        {
+          "segment": "eb-broadway-8th-st-9th-st"
+        },
+        {
+          "segment": "eb-broadway-13th-st-9th-st"
+        },
+        {
+          "segment": "eb-broadway-13th-st-14th-st"
+        },
+        {
+          "segment": "eb-broadway-14th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-24th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-24th-st-piedmont-ave"
+        },
+        {
+          "segment": "eb-broadway-college-ave-piedmont-ave"
+        },
+        {
+          "segment": "eb-college-ave-alcatraz-ave-broadway"
+        },
+        {
+          "segment": "eb-college-ave-alcatraz-ave-bancroft-way"
+        },
+        {
+          "segment": "eb-bancroft-way-college-ave-telegraph-ave"
+        },
+        {
+          "segment": "eb-bancroft-way-fulton-st-telegraph-ave"
+        },
+        {
+          "segment": "eb-fulton-st-bancroft-way-kittredge-st",
+          "note": "\"Fulton Street and Oxford Street\": Fulton St becomes Oxford St at Kittredge St today"
+        },
+        {
+          "segment": "eb-oxford-st-kittredge-st-university-ave"
+        },
+        {
+          "segment": "eb-university-ave-oxford-st-shattuck-ave"
+        },
+        {
+          "segment": "eb-shattuck-ave-center-st-university-ave"
+        },
+        {
+          "segment": "eb-shattuck-ave-bancroft-way-center-st"
+        },
+        {
+          "segment": "eb-bancroft-way-fulton-st-shattuck-ave"
+        }
+      ]
+    },
+    {
+      "id": "eb-k-alcatraz",
+      "name": "K Alcatraz Avenue",
+      "short_name": "K",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1946-09-10",
+          "source": "crc-d39403",
+          "pages": "5-6"
+        }
+      ],
+      "status": "closed",
+      "summary": "A connection to the F Shattuck Avenue trains: from Adeline St along Alcatraz Ave and College Ave to Bancroft Way and Telegraph Ave.",
+      "sources": [
+        {
+          "source": "crc-d39403",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "5-6"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-alcatraz-ave-adeline-st-college-ave"
+        },
+        {
+          "segment": "eb-college-ave-alcatraz-ave-bancroft-way"
+        },
+        {
+          "segment": "eb-bancroft-way-college-ave-telegraph-ave"
+        }
+      ]
+    },
+    {
+      "id": "eb-9-alameda",
+      "name": "No. 9 Alameda via Park Street",
+      "short_name": "9",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1931-01-13",
+          "source": "crc-d23279",
+          "pages": "2"
+        },
+        {
+          "date": "1933-06-12",
+          "source": "crc-d26059",
+          "pages": "2-3"
+        }
+      ],
+      "status": "closed",
+      "summary": "From downtown Oakland out East 14th St and 23rd Ave across the Park Street bridge to Alameda (the East Alameda line in 1933). It stopped when the county closed the bridge to cars over ten tons on May 2, 1933 (Decision 26059). In 1931 its downtown loop by 5th Ave and 8th St was given up for 1st Ave, 12th St and 13th St (the old loop isn't drawn: 5th Ave no longer reaches 8th St). The approach to the old Park Street bridge, rebuilt in 1935, isn't drawn.",
+      "sources": [
+        {
+          "source": "crc-d23279",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d26059",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2-3"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-8th-st-clay-st-washington-st"
+        },
+        {
+          "segment": "eb-washington-st-8th-st-city-center"
+        },
+        {
+          "segment": "eb-washington-12th-13th-link"
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st"
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st"
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd"
+        },
+        {
+          "segment": "eb-international-blvd-1st-ave-5th-ave"
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-5th-ave",
+          "running": [
+            "1933-06-12"
+          ]
+        },
+        {
+          "segment": "eb-park-st-blanding-ave-san-jose-ave",
+          "running": [
+            "1933-06-12"
+          ],
+          "note": "In Alameda"
+        }
+      ]
+    },
+    {
+      "id": "eb-10-piedmont",
+      "name": "No. 10 Piedmont Avenue",
+      "short_name": "10",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Transit"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1943-11-30",
+          "source": "crc-d36740",
+          "pages": "1-2"
+        },
+        {
+          "date": "1948-05-25",
+          "source": "cpuc-d41652",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "From a loop at 9th St and Broadway out Broadway and Piedmont Ave, sharing the C train's track from 41st St, then on private rights-of-way and Highland Ave to Crocker Ave in Piedmont (not drawn: their courses aren't given).",
+      "sources": [
+        {
+          "source": "crc-d36740",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1-2"
+        },
+        {
+          "source": "cpuc-d41652",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-9th-st-broadway-franklin-st"
+        },
+        {
+          "segment": "eb-franklin-st-8th-st-9th-st"
+        },
+        {
+          "segment": "eb-8th-st-broadway-franklin-st"
+        },
+        {
+          "segment": "eb-broadway-8th-st-9th-st"
+        },
+        {
+          "segment": "eb-broadway-13th-st-9th-st"
+        },
+        {
+          "segment": "eb-broadway-13th-st-14th-st"
+        },
+        {
+          "segment": "eb-broadway-14th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-24th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-24th-st-piedmont-ave"
+        },
+        {
+          "segment": "eb-piedmont-ave-broadway-rio-vista-ave"
+        },
+        {
+          "segment": "eb-piedmont-ave-41st-st-rio-vista-ave"
+        }
+      ]
+    },
+    {
+      "id": "eb-11-oakland-ave",
+      "name": "No. 11 Oakland Avenue",
+      "short_name": "11",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1931-11-16",
+          "source": "crc-d24224",
+          "pages": "2"
+        },
+        {
+          "date": "1942-11-05",
+          "source": "crc-d35948",
+          "pages": "2"
+        },
+        {
+          "date": "1948-05-25",
+          "source": "cpuc-d41652",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "From downtown Oakland out Broadway, 24th St, Harrison St and Oakland Ave to Piedmont Ave. In 1931 it began further north, at Piedmont Ave and Rio Vista Ave; in 1942 it ran through to 38th Ave as the Oakland-38th Avenue line. The 1942 and 1948 orders put short private rights-of-way between Harrison St and Oakland Ave and between Oakland Ave and Linda Ave; the map follows the streets, as the 1931 order describes it.",
+      "sources": [
+        {
+          "source": "crc-d24224",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d35948",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "cpuc-d41652",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-piedmont-ave-41st-st-rio-vista-ave",
+          "running": [
+            "1931-11-16"
+          ]
+        },
+        {
+          "segment": "eb-piedmont-ave-41st-st-linda-ave",
+          "running": [
+            "1931-11-16"
+          ]
+        },
+        {
+          "segment": "eb-linda-ave-oakland-ave-piedmont-ave"
+        },
+        {
+          "segment": "eb-oakland-ave-harrison-st-linda-ave"
+        },
+        {
+          "segment": "eb-harrison-st-24th-st-oakland-ave"
+        },
+        {
+          "segment": "eb-24th-st-broadway-harrison-st"
+        },
+        {
+          "segment": "eb-broadway-24th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-14th-st-grand-ave"
+        },
+        {
+          "segment": "eb-broadway-13th-st-14th-st"
+        },
+        {
+          "segment": "eb-broadway-13th-st-9th-st"
+        },
+        {
+          "segment": "eb-broadway-8th-st-9th-st",
+          "running": [
+            "1942-11-05",
+            "1948-05-25"
+          ]
+        },
+        {
+          "segment": "eb-9th-st-broadway-franklin-st",
+          "running": [
+            "1931-11-16"
+          ]
+        },
+        {
+          "segment": "eb-franklin-st-8th-st-9th-st",
+          "running": [
+            "1931-11-16"
+          ]
+        },
+        {
+          "segment": "eb-8th-st-broadway-franklin-st",
+          "running": [
+            "1931-11-16"
+          ]
+        },
+        {
+          "segment": "eb-8th-st-broadway-washington-st",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-washington-st-8th-st-city-center",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-washington-12th-13th-link",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-international-blvd-1st-ave-5th-ave",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-5th-ave",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-38th-ave",
+          "running": [
+            "1942-11-05"
+          ]
+        },
+        {
+          "segment": "eb-38th-ave-international-blvd-macarthur-blvd",
+          "running": [
+            "1942-11-05"
+          ],
+          "note": "To Hopkins St, today's MacArthur Blvd here (Decision 38738 names the same track)"
+        }
+      ]
+    },
+    {
+      "id": "eb-12-grand-16th",
+      "name": "No. 12 Grand Avenue-16th Street",
+      "short_name": "12",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1935-09-03",
+          "source": "crc-d28206",
+          "pages": "9"
+        },
+        {
+          "date": "1948-05-25",
+          "source": "cpuc-d41652",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Oakland Ave in Piedmont along Fairview Ave and Grand Ave to Webster St, then 14th St, Market St and 16th St to the Southern Pacific's 16th Street station. Until the Commission's order of September 3, 1935 it ran from Market St to Hollis St in Emeryville instead, by 24th St, Adeline St and 32nd St.",
+      "sources": [
+        {
+          "source": "crc-d28206",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "9"
+        },
+        {
+          "source": "cpuc-d41652",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-fairview-ave-grand-ave-oakland-ave"
+        },
+        {
+          "segment": "eb-grand-ave-fairview-ave-lakeshore-ave"
+        },
+        {
+          "segment": "eb-grand-ave-lakeshore-ave-webster-st"
+        },
+        {
+          "segment": "eb-webster-st-grand-ave-thomas-l-berkley-way"
+        },
+        {
+          "segment": "eb-webster-st-14th-st-thomas-l-berkley-way"
+        },
+        {
+          "segment": "eb-14th-st-franklin-st-webster-st"
+        },
+        {
+          "segment": "eb-14th-st-franklin-st-market-st"
+        },
+        {
+          "segment": "eb-market-st-14th-st-16th-st"
+        },
+        {
+          "segment": "eb-16th-st-market-st-wood-st",
+          "note": "To the Southern Pacific's 16th Street station"
+        },
+        {
+          "segment": "eb-market-st-16th-st-24th-st",
+          "running": [
+            "1935-09-03"
+          ],
+          "note": "To Emeryville until 1935"
+        },
+        {
+          "segment": "eb-24th-st-adeline-st-market-st",
+          "running": [
+            "1935-09-03"
+          ]
+        },
+        {
+          "segment": "eb-adeline-st-24th-st-32nd-st",
+          "running": [
+            "1935-09-03"
+          ]
+        },
+        {
+          "segment": "eb-32nd-st-adeline-st-hollis-st",
+          "running": [
+            "1935-09-03"
+          ]
+        },
+        {
+          "segment": "eb-hollis-st-32nd-st-yerba-buena-ave",
+          "running": [
+            "1935-09-03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb-14-east-18th",
+      "name": "No. 14 East 18th Street",
+      "short_name": "14",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        },
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1935-09-03",
+          "source": "crc-d28206",
+          "pages": "9"
+        },
+        {
+          "date": "1947-03-11",
+          "source": "cpuc-d40055",
+          "pages": "1"
+        },
+        {
+          "date": "1948-03-09",
+          "source": "cpuc-d41306",
+          "pages": "2, 4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Fruitvale Ave and East 27th St by East 21st St, 14th Ave and East 18th St to 3rd Ave, then a private right-of-way to 1st Ave (not drawn: its course isn't given) and a loop downtown by 12th St, 13th St and Jefferson St.",
+      "sources": [
+        {
+          "source": "crc-d28206",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "9"
+        },
+        {
+          "source": "cpuc-d40055",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "cpuc-d41306",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-e-27th-st-26th-ave-fruitvale-ave"
+        },
+        {
+          "segment": "eb-26th-ave-e-24th-st-e-27th-st"
+        },
+        {
+          "segment": "eb-e-24th-st-25th-ave-26th-ave"
+        },
+        {
+          "segment": "eb-25th-ave-e-21st-st-e-24th-st"
+        },
+        {
+          "segment": "eb-e-21st-st-14th-ave-25th-ave"
+        },
+        {
+          "segment": "eb-14th-ave-e-18th-st-e-21st-st"
+        },
+        {
+          "segment": "eb-e-18th-st-14th-ave-3rd-ave"
+        },
+        {
+          "segment": "eb-1st-ave-international-blvd-the-rightofway",
+          "note": "From the end of the private right-of-way; where it met 1st Ave isn't given, so the map starts at 1st Ave's north end today"
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd",
+          "note": "From the end of the private right-of-way; where it met 1st Ave isn't given, so the map starts at 1st Ave's north end today"
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st"
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st"
+        },
+        {
+          "segment": "eb-13th-st-jefferson-st-washington-st"
+        },
+        {
+          "segment": "eb-jefferson-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-12th-st-broadway-jefferson-st"
+        },
+        {
+          "segment": "eb-12th-st-broadway-oak-st"
+        }
+      ]
+    },
+    {
+      "id": "eb-15-macarthur",
+      "name": "No. 15 14th Avenue-MacArthur Boulevard",
+      "short_name": "15",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1947-03-11",
+          "source": "cpuc-d40055",
+          "pages": "1"
+        },
+        {
+          "date": "1948-03-09",
+          "source": "cpuc-d41306",
+          "pages": "2, 4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "From MacArthur Blvd and 35th Ave by MacArthur Blvd and 14th Ave to East 18th St, then with the No. 14 to downtown, where both turned back on 13th St between Clay and Jefferson Sts.",
+      "sources": [
+        {
+          "source": "cpuc-d40055",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "cpuc-d41306",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-macarthur-blvd-14th-ave-35th-ave"
+        },
+        {
+          "segment": "eb-14th-ave-e-21st-st-macarthur-blvd"
+        },
+        {
+          "segment": "eb-14th-ave-e-18th-st-e-21st-st"
+        },
+        {
+          "segment": "eb-e-18th-st-14th-ave-3rd-ave"
+        },
+        {
+          "segment": "eb-1st-ave-international-blvd-the-rightofway"
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd"
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st"
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st"
+        },
+        {
+          "segment": "eb-13th-st-jefferson-st-washington-st"
+        },
+        {
+          "segment": "eb-jefferson-st-12th-st-13th-st"
+        },
+        {
+          "segment": "eb-12th-st-broadway-jefferson-st"
+        },
+        {
+          "segment": "eb-12th-st-broadway-oak-st"
+        }
+      ]
+    },
+    {
+      "id": "eb-38th-ave",
+      "name": "38th Avenue line",
+      "short_name": "38th Ave",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        },
+        {
+          "name": "Key System"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1931-11-16",
+          "source": "crc-d24224",
+          "pages": "2"
+        },
+        {
+          "date": "1932-06-30",
+          "source": "crc-d24963",
+          "pages": "1"
+        },
+        {
+          "date": "1946-03-05",
+          "source": "crc-d38738",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "Up 38th Ave from East 14th St to Hopkins St (today's MacArthur Blvd). As No. 15 in 1931-32 it ran on downtown by East 14th St, 12th St and 13th St to 8th St; in 1942 it was part of the No. 11 (drawn there); in 1946, as No. 16, it was only the 38th Ave shuttle.",
+      "sources": [
+        {
+          "source": "crc-d24224",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2"
+        },
+        {
+          "source": "crc-d24963",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        },
+        {
+          "source": "crc-d38738",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-38th-ave-international-blvd-macarthur-blvd"
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-38th-ave",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-international-blvd-23rd-ave-5th-ave",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-international-blvd-1st-ave-5th-ave",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-1st-ave-e-12th-st-international-blvd",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-12th-st-1st-ave-oak-st",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-oak-st-12th-st-13th-st",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-13th-st-oak-st-washington-st",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-washington-12th-13th-link",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-washington-st-8th-st-city-center",
+          "running": [
+            "1931-11-16",
+            "1932-06-30"
+          ]
+        },
+        {
+          "segment": "eb-8th-st-clay-st-washington-st",
+          "running": [
+            "1931-11-16"
+          ],
+          "note": "To a crossover near Clay St in 1931"
+        },
+        {
+          "segment": "eb-8th-st-broadway-washington-st",
+          "running": [
+            "1932-06-30"
+          ],
+          "note": "East to Broadway from mid-1932"
+        }
+      ]
+    },
+    {
+      "id": "eb-17-8th-ave",
+      "name": "No. 17 8th Avenue",
+      "short_name": "17",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1933-06-12",
+          "source": "crc-d26059",
+          "pages": "2-3"
+        }
+      ],
+      "status": "closed",
+      "summary": "From East 28th St and 13th Ave by 11th Ave, East 24th St and 8th Ave to East 18th St. A few rush-hour trips ran on downtown by East 18th St and Park Blvd (not drawn: Park Blvd's lower end has changed).",
+      "sources": [
+        {
+          "source": "crc-d26059",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2-3"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-e-28th-st-11th-ave-13th-ave"
+        },
+        {
+          "segment": "eb-11th-ave-e-24th-st-e-28th-st"
+        },
+        {
+          "segment": "eb-e-24th-st-11th-ave-8th-ave"
+        },
+        {
+          "segment": "eb-8th-ave-e-18th-st-e-24th-st"
+        }
+      ]
+    },
+    {
+      "id": "eb-23-23rd-ave",
+      "name": "No. 23 23rd Avenue",
+      "short_name": "23",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1933-06-12",
+          "source": "crc-d26059",
+          "pages": "2-3"
+        }
+      ],
+      "status": "closed",
+      "summary": "On 23rd Ave from East 27th St to East 14th St.",
+      "sources": [
+        {
+          "source": "crc-d26059",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2-3"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-23rd-ave-e-27th-st-international-blvd"
+        }
+      ]
+    },
+    {
+      "id": "eb-18-park-lakeshore",
+      "name": "No. 18 Park Boulevard and Lakeshore Avenue",
+      "short_name": "18",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "Key System"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1948-03-09",
+          "source": "cpuc-d41306",
+          "pages": "2, 4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Leimert Blvd and Oakmore Rd by Park Blvd and a private right-of-way to East 18th St, then \"other streets\" to 13th St and Broadway (not drawn: neither is given), and out Broadway, Grand Ave, Lakeshore Ave and Walavista Ave to a right-of-way beyond Carlston Ave.",
+      "sources": [
+        {
+          "source": "cpuc-d41306",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "2, 4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-leimert-blvd-oakmore-rd-park-blvd"
+        },
+        {
+          "segment": "eb-park-blvd-e-20th-st-leimert-blvd"
+        },
+        {
+          "segment": "eb-broadway-13th-st-14th-st"
+        },
+        {
+          "segment": "eb-broadway-14th-st-grand-ave"
+        },
+        {
+          "segment": "eb-grand-ave-broadway-webster-st"
+        },
+        {
+          "segment": "eb-grand-ave-lakeshore-ave-webster-st"
+        },
+        {
+          "segment": "eb-lakeshore-ave-grand-ave-walavista-ave"
+        },
+        {
+          "segment": "eb-walavista-ave-carlston-ave-lakeshore-ave",
+          "note": "Walla Vista Ave in the order"
+        }
+      ]
+    },
+    {
+      "id": "eb-24-dwight",
+      "name": "No. 24 Dwight Way",
+      "short_name": "24",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Transit"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1938-01-10",
+          "source": "crc-d30512",
+          "pages": "3"
+        }
+      ],
+      "status": "closed",
+      "summary": "In Berkeley, from University Ave down 6th St and along Dwight Way to College Ave.",
+      "sources": [
+        {
+          "source": "crc-d30512",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "3"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-sixth-st-dwight-way-university-ave"
+        },
+        {
+          "segment": "eb-dwight-way-college-ave-sixth-st"
+        }
+      ]
+    },
+    {
+      "id": "eb-cemetery",
+      "name": "Cemetery line",
+      "short_name": "Cemetery",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Transit"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1937-10-11",
+          "source": "crc-d30213",
+          "pages": "1, 3"
+        }
+      ],
+      "status": "closed",
+      "summary": "On Piedmont Ave from Pleasant Valley Ave to the gate of Mountain View Cemetery.",
+      "sources": [
+        {
+          "source": "crc-d30213",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1, 3"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-piedmont-ave-mountain-view-cemetery-pleasant-valley-ave",
+          "note": "To the cemetery gate, where Piedmont Ave ends"
+        }
+      ]
+    },
+    {
+      "id": "eb-richmond",
+      "name": "Richmond line",
+      "short_name": "Richmond",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1933-10-16",
+          "source": "crc-d26438",
+          "pages": "1"
+        }
+      ],
+      "status": "closed",
+      "summary": "The old East Shore & Suburban's line, from San Pablo Ave just south of Ashby Ave through Albany and El Cerrito to Richmond, and on to the Richmond-San Rafael ferry at Point Richmond. The map draws only San Pablo Ave, to Potrero Ave: beyond it the order's streets (Potrero Ave, Pullman Ave, 23rd St, Macdonald Ave, Garrard Blvd, Standard Ave, Scofield Ave) no longer meet as they did, and are to be traced from the 1949 Richmond sheet.",
+      "sources": [
+        {
+          "source": "crc-d26438",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "1"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-san-pablo-ave-ashby-ave-potrero-ave"
+        }
+      ]
+    },
+    {
+      "id": "eb-29-23rd-macdonald",
+      "name": "No. 29 23rd and Macdonald",
+      "short_name": "29",
+      "system": "east-bay-streetcars",
+      "operators": [
+        {
+          "name": "East Bay Street Railways"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1932-06-13",
+          "source": "crc-d24866",
+          "pages": "4-5"
+        }
+      ],
+      "status": "closed",
+      "summary": "In Richmond: from San Pablo Ave along Macdonald Ave, 23rd St and Market Ave to Church Lane, by Richmond High School.",
+      "sources": [
+        {
+          "source": "crc-d24866",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "4-5"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "eb-macdonald-ave-23rd-st-san-pablo-ave"
+        },
+        {
+          "segment": "eb-23rd-st-macdonald-ave-market-ave"
+        },
+        {
+          "segment": "eb-market-ave-23rd-st-church-ln",
+          "note": "Market Street in the order"
+        }
+      ]
+    }
+  ]
+}

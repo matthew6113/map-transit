@@ -134,7 +134,7 @@ What it requires:
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
 and the Bay Bridge railway (`data/past/key-system/`, `sp-east-bay/`, `bay-bridge/`). Phase 2b adds San
-Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). Every past
+Francisco's cable lines (`sf-cable/`), Muni's first streetcar lines (`sf-muni/`), the San Francisco & San Jose Railroad's Peninsula trains (`sp-peninsula/`) and the first historic ferries (`ferries/`, and the Key Route ferry in `key-system/`), the Northwestern Pacific's electric lines in Marin (`nwp-marin/`), and the Sacramento Northern from Oakland to Bay Point (`sacramento-northern/`). Phase 2c draws the Sacramento Northern on to the Yolo County line (`sacramento-northern/` and, from OpenHistoricalMap, `ohm-sacramento-northern/`). It adds Market St's steam dummy, its first cable lines and the Fillmore Hill counterbalance to `sf-cable/`. The Key System's E line joins `key-system/`. The Southern Pacific's Eighteenth Street and Webster Street lines join `sp-east-bay/`. The Market Street Railway's numbered lines, as Manley's report of 1909 and O'Shaughnessy's of 1929 list them street by street, are in `sf-msry/`: `routes.json` gives each line's streets, and `transit_pipeline.street_routes` cuts them into shared street segments (`make past`). The East Bay's local streetcar lines, as the Railroad Commission's orders of 1931–48 describe them, are in `eb-streetcars/`, the same way. Every past
 record cites its sources in `data/sources.json`; the research behind them, with quotes, conflicts
 and open items, is in `docs/research/`. The open checks for Matthew are in `docs/checks/past.md`
 (`make checklists`).
@@ -209,7 +209,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration. Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -259,9 +259,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 69 | 299 | 11 | 52.1 | 374.0 | 77.0 | 8 | 265 |
+| past | 87 | 392 | 11 | 52.1 | 457.8 | 77.5 | 8 | 358 |
 | present | 44 | 110 | 275 | 1939.3 | 0 | 0 | 9 | 36 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 297, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 594, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 408, `conflicting_sources` 13, `expected_opening_unsourced` 6, `geometry_unverified` 4, `license_unclear` 50, `needs_manual_digitizing` 7, `opened_unsourced` 705, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

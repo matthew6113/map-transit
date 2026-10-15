@@ -1609,22 +1609,6 @@
       "est_error_m": 15,
       "note": "In Mission Street"
     },
-    "sf-msry-mission-st-29th-st-san-jose-ave": {
-      "routes": true,
-      "parts": [
-        {
-          "streets": [
-            "Mission Street"
-          ],
-          "from": "29th Street",
-          "to": "San Jose Avenue",
-          "area": "sf"
-        }
-      ],
-      "check": "usgs-san-francisco-south-1950",
-      "est_error_m": 15,
-      "note": "In Mission Street"
-    },
     "sf-msry-mission-st-29th-st-valencia-st": {
       "routes": true,
       "parts": [

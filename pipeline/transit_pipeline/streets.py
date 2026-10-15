@@ -44,6 +44,7 @@ AREAS = {
     "southbay": (-121.98, 37.33, -121.83, 37.45),  # Milpitas and north San José (VTA's Tasman and Capitol lines)
     "marin": (-122.60, 37.845, -122.45, 38.02),  # Sausalito to San Rafael (the Northwestern Pacific's electric lines)
     "contracosta": (-122.22, 37.82, -121.88, 38.05),  # Moraga to Bay Point (the Sacramento Northern)
+    "richmond": (-122.40, 37.90, -122.28, 37.98),  # Albany to Richmond and San Pablo (the East Shore & Suburban)
 }
 CACHE_DIR = RAW / "overture" / OVERTURE_RELEASE
 SOURCE_ID = "overture-roads-2026-09-23-1"
@@ -95,10 +96,12 @@ def roads() -> list[tuple[str, str, LineString, str]]:
     return out
 
 
-def street(names: list[str], area: str | None = None):
-    """Today's roads with these names, in one box (Oakland has a Market St too) or in all."""
+def street(names: list[str], area: str | list[str] | None = None):
+    """Today's roads with these names, in one box (Oakland has a Market St too), in a list of boxes,
+    or in all."""
     want = {norm(n) for n in names}
-    found = [g for _, n, g, a in roads() if n in want and (area is None or a == area)]
+    boxes = None if area is None else {area} if isinstance(area, str) else set(area)
+    found = [g for _, n, g, a in roads() if n in want and (boxes is None or a in boxes)]
     if not found:
         raise SystemExit(f"[streets] no road named {names} in Overture's {area or ', '.join(AREAS)} box")
     return unary_union(found)
