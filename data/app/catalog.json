@@ -3098,8 +3098,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
           "pages": "246–253"
         },
@@ -3378,7 +3377,7 @@
           "supports": [
             "route"
           ],
-          "pages": "462",
+          "pages": "463",
           "note": "\"a tunnel 465 ft. long in North Berkeley, where the line passes under a point from which several streets radiate\""
         },
         {
@@ -3929,7 +3928,7 @@
           "supports": [
             "route"
           ],
-          "pages": "18"
+          "pages": "9 (tenth report)"
         },
         {
           "id": "poors-1900",
@@ -4602,7 +4601,7 @@
         {
           "id": "cp-niles-san-jose",
           "name": "Niles to San José, by Warm Springs and Milpitas",
-          "opened": "1869-09",
+          "opened": "1869-09-15",
           "closed": "1940-02",
           "borrowed": false,
           "undated": false,
@@ -5403,7 +5402,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46"
+          "pages": "45"
         },
         {
           "id": "sp-bulletin-1930-11",
@@ -5470,7 +5469,7 @@
             "route"
           ],
           "pages": "462",
-          "note": "Before 1939 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station."
+          "note": "In 1912 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station; the Peninsular Railway's cars came up to them \"by means of an incline on a 7½ per cent. grade\"."
         },
         {
           "id": "gtfs-amtrak",
@@ -5889,8 +5888,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "route",
-            "general",
-            "opened"
+            "general"
           ],
           "pages": "247, 249",
           "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
@@ -7564,7 +7562,7 @@
             "route"
           ],
           "pages": "462",
-          "note": "Before 1939 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station."
+          "note": "In 1912 the Berkeley lines ran from Oakland Pier over the elevated tracks at Sixteenth Street station; the Peninsular Railway's cars came up to them \"by means of an incline on a 7½ per cent. grade\"."
         },
         {
           "id": "overture-roads-2026-09-23-1",
@@ -7591,8 +7589,8 @@
           "supports": [
             "route"
           ],
-          "pages": "29-34",
-          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\"; trains \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"."
+          "pages": "30, 32",
+          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32)."
         }
       ]
     },
@@ -22519,7 +22517,7 @@
         {
           "date": "1903-10-31",
           "source": "srj-1903-10-31-san-mateo",
-          "pages": "798-803",
+          "pages": "802",
           "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
         },
         {
@@ -22893,7 +22891,7 @@
           "supports": [
             "route"
           ],
-          "pages": "798-803"
+          "pages": "798-802"
         },
         {
           "id": "manley-1909",
@@ -26761,9 +26759,11 @@
           "accessed": "2026-10-15",
           "source": "sonoma-history-1880",
           "supports": [
+            "general",
             "opened"
           ],
-          "pages": "201"
+          "pages": "201",
+          "note": "The first passenger train reached Occidental (Howard's) \"October 16, 1876\"."
         },
         {
           "id": "poors-1885",
@@ -27272,7 +27272,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "873-875",
+          "pages": "874",
           "note": "\"the Petaluma Branch June 2, 1879\"."
         },
         {
@@ -28649,8 +28649,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
           "pages": "246–253"
         },
@@ -29107,7 +29106,7 @@
             "fate",
             "route"
           ],
-          "pages": "11, 13"
+          "pages": "12, 13"
         },
         {
           "id": "ohm-2026-10-15",
@@ -29491,6 +29490,7 @@
           "supports": [
             "opened"
           ],
+          "pages": "1157",
           "note": "\"Regular through train service from San Francisco to Bay Point was inaugurated on April 7.\""
         },
         {
@@ -29504,10 +29504,10 @@
           "accessed": "2026-10-14",
           "source": "erj-1913-04-19-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "726-728"
+          "pages": "726-728",
+          "note": "\"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point\" (p. 726)."
         },
         {
           "id": "joepg-1912-03-09",
@@ -29571,6 +29571,7 @@
           "supports": [
             "closed"
           ],
+          "pages": "3",
           "note": "\"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\" (a reminiscence)"
         },
         {
@@ -29600,10 +29601,9 @@
           "accessed": "2026-10-15",
           "source": "erj-1913-09-13-oakland-antioch-eastern",
           "supports": [
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "434-435",
+          "pages": "435",
           "note": "\"On that day [September 3, 1913] the schedule of eight trains daily between Sacramento and San Francisco became effective.\""
         },
         {
@@ -29682,8 +29682,7 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "route",
-            "general",
-            "opened"
+            "general"
           ],
           "pages": "247, 249",
           "note": "\"A pier, over 3 miles in length, has been constructed from the Oakland shore\" (p. 247); \"the pier has a length of 16,240 ft.\" (p. 249)."
@@ -30212,10 +30211,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -33347,7 +33346,7 @@
         {
           "id": "spc-wrights-county-line",
           "name": "Wrights into the summit tunnel, to the Santa Cruz County line",
-          "opened": "1880-05",
+          "opened": "1880-05-15",
           "closed": null,
           "from": "1880-05",
           "borrowed": true,
@@ -33356,8 +33355,7 @@
           "method": "OpenHistoricalMap ways 200444381, 200444380, 200444379, 200444378, 200444377, 200444376 (CC0, as of 2026-10-15), cut from -121.94827,37.13924; cut where it leaves the Bay Area's nine counties (2.2 km beyond left out, decision 16); checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, Wrights Tunnel among them.",
           "structure": "tunnel",
           "flags": [
-            "closed_unsourced",
-            "conflicting_sources"
+            "closed_unsourced"
           ],
           "notes": "Into the tunnel under the summit, toward Felton and Santa Cruz; cut at the county line (decision 16)."
         }
@@ -34291,10 +34289,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -34743,10 +34741,10 @@
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
             "general",
-            "route",
-            "opened"
+            "route"
           ],
-          "pages": "246–253"
+          "pages": "246–253",
+          "note": "The pier, ferry and trunk line its trains used; the line itself isn't described (1904)."
         },
         {
           "id": "crc-d34389",
@@ -35240,7 +35238,7 @@
           "supports": [
             "route"
           ],
-          "pages": "18"
+          "pages": "9 (tenth report)"
         },
         {
           "id": "poors-1900",
@@ -35783,8 +35781,8 @@
           "supports": [
             "route"
           ],
-          "pages": "29-34",
-          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\"; trains \"operate single track on Webster Street between Oakland (14th and Franklin) and First Street\"."
+          "pages": "30, 32",
+          "note": "\"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32)."
         },
         {
           "id": "crc-d12906",
@@ -36934,7 +36932,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46",
+          "pages": "45",
           "note": "\"From Shell Mound to Martinez January 9, 1878.\""
         },
         {
@@ -37599,7 +37597,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "46",
+          "pages": "45",
           "note": "\"From Benicia to Suisun December 28, 1879.\""
         },
         {
@@ -42015,7 +42013,7 @@
           "supports": [
             "opened"
           ],
-          "pages": "873-875",
+          "pages": "874",
           "note": "\"to Windsor (9 miles) March 1, 1871\"."
         },
         {
