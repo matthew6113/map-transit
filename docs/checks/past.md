@@ -76,7 +76,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sf-sacramento-drumm-larkin` Sacramento St, Drumm St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-drumm-larkin.jpg) |
 | `sf-sacramento-larkin-fillmore` Sacramento St, Larkin St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sacramento-larkin-fillmore.jpg) |
 | `sf-sutter-market-larkin` Sutter St, Market St to Larkin St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-market-larkin.jpg) |
-| `sf-sutter-larkin-presidio` Sutter St, Larkin St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-sutter-larkin-presidio.jpg) |
+| `sf-sutter-larkin-fillmore` Sutter St, Larkin St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-sutter-larkin-fillmore.jpg) |
+| `sf-sutter-fillmore-presidio` Sutter St, Fillmore St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-sutter-fillmore-presidio.jpg) |
 | `sf-california-van-ness-fillmore` California St, Van Ness Ave to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-van-ness-fillmore.jpg) |
 | `sf-california-fillmore-presidio` California St, Fillmore St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-california-fillmore-presidio.jpg) |
 | `sf-ofarrell-market-jones` O'Farrell St, Market St to Jones St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-ofarrell-market-jones.jpg) |
@@ -84,7 +85,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sf-pine-jones-hyde` Pine St, Jones St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-pine-jones-hyde.jpg) |
 | `sf-hyde-pine-jackson` Hyde St, Pine St to Jackson St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-hyde-pine-jackson.jpg) |
 | `sf-jones-market-ofarrell` Jones St, Market St to O'Farrell St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jones-market-ofarrell.jpg) |
-| `sf-jackson-hyde-steiner` Jackson St, Hyde St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-hyde-steiner.jpg) |
+| `sf-jackson-hyde-fillmore` Jackson St, Hyde St to Fillmore St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-jackson-hyde-fillmore.jpg) |
+| `sf-jackson-fillmore-steiner` Jackson St, Fillmore St to Steiner St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-jackson-fillmore-steiner.jpg) |
 | `sf-steiner-jackson-washington` Steiner St, Jackson St to Washington St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-steiner-jackson-washington.jpg) |
 | `sf-washington-steiner-hyde` Washington St, Steiner St to Hyde St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-washington-steiner-hyde.jpg) |
 | `sf-jackson-steiner-presidio` Jackson St, Steiner St to Presidio Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/sf-jackson-steiner-presidio.jpg) |
@@ -100,6 +102,8 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sf-haight-market-stanyan` Haight St, Market St to Stanyan St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-haight-market-stanyan.jpg) |
 | `sf-castro-market-18th` Castro St, Market St to 18th St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-castro-market-18th.jpg) |
 | `sf-fillmore-broadway-green` Fillmore St, Broadway to Green St | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2c/traces/sf-fillmore-broadway-green.jpg) |
+| `sf-msry-eddy-market-link` Eddy St, Market St to Cyril Magnin St | approximate |  |  |  |
+| `sf-msry-hayes-market-link` Hayes St, the last block to Market St | approximate |  |  |  |
 | `muni-geary-market-van-ness` Geary St, Market St to Van Ness Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-market-van-ness.jpg) |
 | `muni-geary-van-ness-2nd` Geary Blvd, Van Ness Ave to 2nd Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-van-ness-2nd.jpg) |
 | `muni-geary-2nd-10th` Geary Blvd, 2nd Ave to 10th Ave | street-centerline | usgs-san-francisco-north-1950 | 15 m | [review](../screenshots/p2b/traces/muni-geary-2nd-10th.jpg) |
@@ -188,6 +192,31 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-pen-bernal-cut` The Bernal Cut, along San Jose Ave | street-centerline | usgs-san-francisco-south-1950 | 30 m | [review](../screenshots/p2b/traces/sp-pen-bernal-cut.jpg) |
 | `sp-pen-ocean-view` Glen Park to San Bruno, by Ocean View and Colma | geotiff | usgs-san-francisco-south-1950 | 20 m | [review](../screenshots/p2b/traces/sp-pen-ocean-view.jpg) |
 | `sp-pen-san-jose` San José: the old main line to the Market Street station | geotiff | usgs-san-jose-1943 | 30 m | [review](../screenshots/p2b/traces/sp-pen-san-jose.jpg) |
+| line `msry-1` No. 1 Sutter and California Streets: its 5 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-1-streets.jpg) |
+| line `msry-3` No. 3 Sutter and Jackson Streets: its 1 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-3-streets.jpg) |
+| line `msry-4` No. 4 Turk and Eddy Streets: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-4-streets.jpg) |
+| line `msry-6` No. 6 Haight Street and Masonic Avenue: its 18 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-6-streets.jpg) |
+| line `msry-7` No. 7 Haight Street and Ocean: its 2 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-7-streets.jpg) |
+| line `msry-9` No. 9 Valencia Street: its 2 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-9-streets.jpg) |
+| line `msry-10` No. 10 Guerrero Street and Sunnyside: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-10-streets-1.jpg) [review](../screenshots/p2c/traces/msry-10-streets-2.jpg) |
+| line `msry-11` No. 11 Mission and 24th Streets: its 9 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-11-streets.jpg) |
+| line `msry-12` No. 12 Mission Street and Ingleside: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-12-streets-1.jpg) [review](../screenshots/p2c/traces/msry-12-streets-2.jpg) |
+| line `msry-14` No. 14 Mission Street and Daly City: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-14-streets-1.jpg) [review](../screenshots/p2c/traces/msry-14-streets-2.jpg) |
+| line `msry-15` No. 15 Kearny Street and North Beach: its 8 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-15-streets.jpg) |
+| line `msry-17` No. 17 Haight Street and Ingleside: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-17-streets-1.jpg) [review](../screenshots/p2c/traces/msry-17-streets-2.jpg) |
+| line `msry-18` No. 18 Mission Street and Daly City: its 7 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-18-streets-1.jpg) [review](../screenshots/p2c/traces/msry-18-streets-2.jpg) |
+| line `msry-19` No. 19 Ninth and Polk Streets: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-19-streets.jpg) |
+| line `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets: its 16 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-20-streets.jpg) |
+| line `msry-21` No. 21 Hayes Street: its 15 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-21-streets.jpg) |
+| line `msry-27` No. 27 Bryant Street: its 10 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-27-streets-1.jpg) [review](../screenshots/p2c/traces/msry-27-streets-2.jpg) |
+| line `msry-32` No. 32 Hayes and Oak Streets: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-32-streets.jpg) |
+| line `msry-33` No. 33 Eighteenth Street and Park: its 11 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-33-streets.jpg) |
+| line `msry-34` No. 34 Sixth and Sansome Streets: its 6 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-34-streets.jpg) |
+| line `msry-36` No. 36 Folsom Street: its 4 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-36-streets-1.jpg) [review](../screenshots/p2c/traces/msry-36-streets-2.jpg) |
+| line `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot: its 5 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-41-streets.jpg) |
+| line `msry-42` No. 42 First and Fifth Streets: its 12 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-42-streets.jpg) |
+| line `msry-tenth-and-post` Tenth and Post Streets: its 9 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-tenth-and-post-streets.jpg) |
+| line `msry-divisadero-extension` Divisadero Street extension: its 1 street segments | street-centerline | usgs-san-francisco-north-1950 / usgs-san-francisco-south-1950 | 15 m | [review](../screenshots/p2c/traces/msry-divisadero-extension-streets.jpg) |
 
 ## Conflicting sources
 
@@ -209,3 +238,36 @@ Each end dated by the month of the order or event that brought it, because no so
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-west-pittsburg-mallard`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
+
+## Drawn for its running dates (decision 20, open for review)
+
+Each line whose opening or closing isn't sourced, drawn only for the years a source shows it running. Its first and last days are still to find; until then it appears late and leaves early.
+
+| Line | Running on | Still to find |
+|---|---|---|
+| `msry-1` No. 1 Sutter and California Streets | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
+| `msry-3` No. 3 Sutter and Jackson Streets | 1909-02-01 (manley-1909, p. 14); 1929-05 (oshaughnessy-1929, p. 343) | opening and closing |
+| `msry-4` No. 4 Turk and Eddy Streets | 1909-02-01 (manley-1909, p. 10); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
+| `msry-6` No. 6 Haight Street and Masonic Avenue | 1909-02-01 (manley-1909, p. 11-12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
+| `msry-7` No. 7 Haight Street and Ocean | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
+| `msry-8` No. 8 Market Street | 1909-02-01 (manley-1909, p. 12); 1929-05 (oshaughnessy-1929, p. 344) | opening and closing |
+| `msry-9` No. 9 Valencia Street | 1909-02-01 (manley-1909, p. 13); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-10` No. 10 Guerrero Street and Sunnyside | 1909-02-01 (manley-1909, p. 20); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-11` No. 11 Mission and 24th Streets | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-12` No. 12 Mission Street and Ingleside | 1909-02-01 (manley-1909, p. 21); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-14` No. 14 Mission Street and Daly City | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 345) | opening and closing |
+| `msry-15` No. 15 Kearny Street and North Beach | 1909-02-01 (manley-1909, p. 17); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-17` No. 17 Haight Street and Ingleside | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-18` No. 18 Mission Street and Daly City | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-19` No. 19 Ninth and Polk Streets | 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-20` No. 20 Fourth, Ellis and O'Farrell Streets | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-21` No. 21 Hayes Street | 1909-02-01 (manley-1909, p. 18); 1929-05 (oshaughnessy-1929, p. 346) | opening and closing |
+| `msry-27` No. 27 Bryant Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 347) | opening and closing |
+| `msry-32` No. 32 Hayes and Oak Streets | 1929-05 (oshaughnessy-1929, p. 348-349) | opening and closing |
+| `msry-33` No. 33 Eighteenth Street and Park | 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
+| `msry-34` No. 34 Sixth and Sansome Streets | 1909-02-01 (manley-1909, p. 19); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
+| `msry-36` No. 36 Folsom Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
+| `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot | 1929-05 (oshaughnessy-1929, p. 349-350) | opening and closing |
+| `msry-42` No. 42 First and Fifth Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
+| `msry-tenth-and-post` Tenth and Post Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
+| `msry-divisadero-extension` Divisadero Street extension | 1909-02-01 (manley-1909, p. 29); 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |

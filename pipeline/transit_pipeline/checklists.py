@@ -11,6 +11,8 @@ Writes docs/checks/past.md with these lists:
 - Conflicts: every record flagged `conflicting_sources`, with its notes.
 - Dates "on or about" (decision 17): every end dated by the month of the order or event that brought
   it, for a newspaper check of the last day.
+- Drawn for its running dates (decision 20): every line whose opening or closing isn't sourced, drawn
+  only for the years a source shows it running, with the ends still to find.
 """
 
 from __future__ import annotations
@@ -117,9 +119,11 @@ def main() -> None:
               "over its own sheet and corrected over the sheet it was corrected against.", "",
               "| Feature | Method | Map | Est. error | Review |", "|---|---|---|---|---|"]
     traced = 0
+    routed = {sid for t in (DATA / "past").glob("*/trace.json")
+              for sid, r in json.loads(t.read_text())["segments"].items() if r.get("routes")}
     for kind, folder, p in recs:
         ohm = "OpenHistoricalMap" in p.get("geometry_method", "")
-        if kind == "line" or (p.get("geometry_confidence") == "surveyed" and not ohm):
+        if kind == "line" or (p.get("geometry_confidence") == "surveyed" and not ohm) or p["id"] in routed:
             continue
         g = p.get("georeference") or {}
         imgs = [f"[{'corrected' if n.stem.endswith('-corrected') else 'as traced' if (d / (p['id'] + '-corrected.jpg')).exists() else 'review'}]"
@@ -128,6 +132,17 @@ def main() -> None:
                 for n in sorted(d.glob(f"{p['id']}*.jpg")) if n.stem in (p['id'], p['id'] + '-corrected')]  # the latest phase's
         lines.append(f"| `{p['id']}` {p.get('name', '')} | {g.get('method', 'OpenHistoricalMap' if ohm else p.get('geometry_confidence'))} | "
                      f"{g.get('map', '')} | {str(g['est_error_m']) + ' m' if 'est_error_m' in g else ''} | {' '.join(imgs)} |")
+        traced += 1
+    # Lines given street by street (street_routes.py): their street segments, one row and image per line.
+    for kind, folder, p in recs:
+        mine = [r["segment"] for r in p.get("route", [])] if kind == "line" else []
+        streets = [x for x in mine if x in routed]
+        if not streets:
+            continue
+        d = next((d for d in reversed(REVIEWS) if any(d.glob(f"{p['id']}-streets*.jpg"))), REVIEWS[-1])
+        imgs = [f"[review](../screenshots/{d.parent.name}/traces/{n.name})" for n in sorted(d.glob(f"{p['id']}-streets*.jpg"))]
+        lines.append(f"| line `{p['id']}` {p.get('name', '')}: its {len(streets)} street segments | street-centerline | "
+                     f"{' / '.join(json.loads((DATA / 'past' / folder / 'routes.json').read_text())['check'])} | 15 m | {' '.join(imgs)} |")
         traced += 1
     if not traced:
         lines.append("| None yet | | | | |")
@@ -155,6 +170,18 @@ def main() -> None:
             if "on or about" in (c.get("note") or "") and "closed" in c.get("supports", []):
                 about.append(f"- line `{p['id']}` ({p['name']}), closed {p.get('closed')}: {c['note']}")
     lines += (about or ["None yet."]) + [""]
+
+    lines += ["## Drawn for its running dates (decision 20, open for review)", "",
+              "Each line whose opening or closing isn't sourced, drawn only for the years a source shows it "
+              "running. Its first and last days are still to find; until then it appears late and leaves early.", "",
+              "| Line | Running on | Still to find |", "|---|---|---|"]
+    running = []
+    for kind, _, p in recs:
+        if kind == "line" and p.get("running") and (p["opened"] is None or p["closed"] is None):
+            dates = "; ".join(f"{r['date']} ({r['source']}{', p. ' + r['pages'] if r.get('pages') else ''})" for r in p["running"])
+            todo = " and ".join(x for x, d in (("opening", p["opened"]), ("closing", p["closed"])) if d is None)
+            running.append(f"| `{p['id']}` {p['name']} | {dates} | {todo} |")
+    lines += (running or ["| None yet | | |"]) + [""]
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(lines))

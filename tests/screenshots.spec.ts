@@ -74,6 +74,13 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-sf-market-valencia-cable', url: '/l/sf-market-valencia-cable?era=past&year=1890&test=1&at=99' },
   { name: 'past-line-key-e', url: '/l/key-e?era=past&year=1930&test=1&at=99' },
   { name: 'past-line-sp-eighteenth-street', url: '/l/sp-eighteenth-street?era=past&year=1920&test=1&at=99' },
+  // The Market Street Railway's numbered lines, drawn for the years Manley (1909) and O'Shaughnessy
+  // (1929) show them running (decision 20).
+  { name: 'past-sf-streetcars-1910', url: '/?era=past&year=1910&test=1#map=12.7/37.7720/-122.4380/0/0' },
+  { name: 'past-sf-streetcars-1929', url: '/?era=past&year=1929&test=1#map=12.7/37.7720/-122.4380/0/0' },
+  { name: 'past-sf-downtown-1929', url: '/?era=past&year=1929&test=1#map=14.4/37.7850/-122.4080/0/0' },
+  { name: 'past-line-msry-21', url: '/l/msry-21?era=past&year=1929&test=1&at=99' },
+  { name: 'past-line-msry-6', url: '/l/msry-6?era=past&year=1910&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

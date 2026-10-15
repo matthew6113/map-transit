@@ -140,6 +140,27 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     a short quote, and each `sources.json` entry says "copyright status unknown; cited for facts
     only".
 
+## Proposed in Phase 2c (2026-10-15, open for Matthew's review)
+
+20. **A line a source shows running, but whose opening or closing isn't sourced, is drawn for the
+    years it's shown.** (open for Matthew's review)
+    - The case: San Francisco's numbered streetcar lines are listed street by street in Manley's
+      inspection report of February 1, 1909 and O'Shaughnessy's city report of May 1929, and
+      Oakland's in the Railroad Commission's abandonment orders of 1944–48. Few of their openings are
+      sourced, and some of their last days aren't, so under decision 4 alone they would all be left
+      off the year slider.
+    - The data keeps `opened` and `closed` null with their flags, and lists in `running[]` each date
+      a cited source shows the line in service, with its page. A route entry's own `running` lists
+      the dates that show that stretch, where it isn't in all of them (a 1929 extension, a 1909 street
+      later given up).
+    - The map draws such a line from its first running date (or its sourced opening) to its last (or
+      its sourced closing), in the lighter tint of a borrowed date, so it under-claims rather than
+      over-claims. A stretch in only some of the dates starts at the first that shows it and ends at
+      the last. The panel says "Running by February 1, 1909; until at least May 1929", and names
+      the sources.
+    - The alternative is to keep these lines undated: drawn only in the ghost overlay, listed in the
+      slider's note. `RUNNING_DATES = False` in `build.py` does that.
+
 ## Today's network, dated (2026-10-14, Phase 2b)
 
 - **A present segment's date is its track's.** `opened` is when the track first carried passengers,

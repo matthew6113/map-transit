@@ -1,0 +1,1274 @@
+{
+  "$comment": "Market Street Railway (and, in 1909, United Railroads) lines as Manley's report of February 1, 1909 and O'Shaughnessy's of May 1929 give them, street by street in today's names: transit_pipeline.street_routes cuts them into shared street segments and writes each line's route. A stretch with `running` is in only that report's route.",
+  "area": "sf",
+  "prefix": "sf-msry",
+  "system": "market-street-railway",
+  "check": {
+    "usgs-san-francisco-north-1950": [
+      -122.53,
+      37.75,
+      -122.35,
+      37.84
+    ],
+    "usgs-san-francisco-south-1950": [
+      -122.53,
+      37.69,
+      -122.35,
+      37.75
+    ]
+  },
+  "lines": {
+    "msry-1": [
+      {
+        "segment": "muni-f-market-drumm-1st",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-1st-sutter",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Sutter Street",
+        "from": "Market Street",
+        "to": "Presidio Avenue"
+      },
+      {
+        "street": "Presidio Avenue",
+        "from": "Sutter Street",
+        "to": "California Street"
+      },
+      {
+        "street": "California Street",
+        "from": "Presidio Avenue",
+        "to": "6th Avenue"
+      },
+      {
+        "street": "6th Avenue",
+        "from": "California Street",
+        "to": "Clement Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Clement Street",
+        "from": "6th Avenue",
+        "to": "33rd Avenue",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-3": [
+      {
+        "segment": "muni-f-market-drumm-1st",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-1st-sutter",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Sutter Street",
+        "from": "Market Street",
+        "to": "Fillmore Street"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Sutter Street",
+        "to": "Jackson Street"
+      },
+      {
+        "street": "Jackson Street",
+        "from": "Fillmore Street",
+        "to": "Presidio Avenue"
+      },
+      {
+        "street": "Presidio Avenue",
+        "from": "Jackson Street",
+        "to": "California Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-4": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "sf-msry-eddy-market-link"
+      },
+      {
+        "street": "Eddy Street",
+        "from": "Cyril Magnin Street",
+        "to": "Divisadero Street"
+      },
+      {
+        "street": "Divisadero Street",
+        "from": "Eddy Street",
+        "to": "Sacramento Street"
+      },
+      {
+        "street": "Sacramento Street",
+        "from": "Divisadero Street",
+        "to": "Arguello Boulevard"
+      },
+      {
+        "street": "Arguello Boulevard",
+        "from": "Sacramento Street",
+        "to": "Lake Street",
+        "note": "Manley (1909) says \"Sacramento to Lake\", which meet only here"
+      },
+      {
+        "street": "Lake Street",
+        "from": "Arguello Boulevard",
+        "to": "6th Avenue"
+      },
+      {
+        "street": "6th Avenue",
+        "from": "Lake Street",
+        "to": "Clement Street"
+      },
+      {
+        "street": "Clement Street",
+        "from": "6th Avenue",
+        "to": "8th Avenue"
+      },
+      {
+        "street": "8th Avenue",
+        "from": "Clement Street",
+        "to": "Fulton Street"
+      },
+      {
+        "street": "Fulton Street",
+        "from": "8th Avenue",
+        "to": "6th Avenue"
+      },
+      {
+        "street": "6th Avenue",
+        "from": "Clement Street",
+        "to": "Fulton Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Back toward Lake St"
+      },
+      {
+        "street": "Divisadero Street",
+        "from": "Turk Street",
+        "to": "Eddy Street",
+        "note": "Inbound"
+      },
+      {
+        "street": "Turk Street",
+        "from": "Divisadero Street",
+        "to": "Mason Street",
+        "note": "Inbound"
+      },
+      {
+        "street": "Mason Street",
+        "from": "Turk Street",
+        "to": "Eddy Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      }
+    ],
+    "msry-6": [
+      {
+        "segment": "muni-f-market-drumm-1st",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "muni-f-market-1st-sutter",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "muni-f-market-kearny-powell",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "segment": "sf-msry-hayes-market-link",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Hayes Street",
+        "from": [
+          -122.416962,
+          37.777658
+        ],
+        "from_name": "Market Street",
+        "to": "Fillmore Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Hayes Street",
+        "to": "Oak Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Oak Street",
+        "from": "Fillmore Street",
+        "to": "Masonic Avenue",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Masonic Avenue",
+        "from": "Oak Street",
+        "to": "Haight Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Oak Street",
+        "to": "Page Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Page Street",
+        "from": "Masonic Avenue",
+        "to": "Fillmore Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "segment": "muni-f-market-hayes-haight",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "sf-haight-market-stanyan",
+        "running": [
+          "1929-05"
+        ],
+        "note": "As far as Masonic Ave"
+      },
+      {
+        "street": "Masonic Avenue",
+        "from": "Haight Street",
+        "to": "Frederick Street"
+      },
+      {
+        "street": "Frederick Street",
+        "from": "Masonic Avenue",
+        "to": "Clayton Street"
+      },
+      {
+        "street": "Clayton Street",
+        "from": "Frederick Street",
+        "to": "Carl Street"
+      },
+      {
+        "street": "Carl Street",
+        "from": "Clayton Street",
+        "to": "Cole Street"
+      },
+      {
+        "segment": "muni-n-carl-cole-stanyan"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Carl Street",
+        "to": "Parnassus Avenue"
+      },
+      {
+        "street": "Parnassus Avenue",
+        "from": "Stanyan Street",
+        "to": "Judah Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Judah Street",
+        "from": "Parnassus Avenue",
+        "to": "9th Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "9th Avenue",
+        "from": "Judah Street",
+        "to": "Pacheco Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-7": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes"
+      },
+      {
+        "segment": "muni-f-market-hayes-haight"
+      },
+      {
+        "segment": "sf-haight-market-stanyan"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Haight Street",
+        "to": "Frederick Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Frederick Street",
+        "from": "Stanyan Street",
+        "to": "Lincoln Way",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-8": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes"
+      },
+      {
+        "segment": "muni-f-market-hayes-haight"
+      },
+      {
+        "segment": "muni-f-market-haight-valencia"
+      },
+      {
+        "segment": "muni-f-market-st"
+      },
+      {
+        "segment": "sf-castro-market-18th"
+      }
+    ],
+    "msry-9": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes"
+      },
+      {
+        "segment": "muni-f-market-hayes-haight"
+      },
+      {
+        "segment": "muni-f-market-haight-valencia"
+      },
+      {
+        "segment": "sf-valencia-market-16th"
+      },
+      {
+        "segment": "sf-valencia-16th-mission"
+      },
+      {
+        "street": "Mission Street",
+        "from": "Valencia Street",
+        "to": "29th Street"
+      },
+      {
+        "street": "29th Street",
+        "from": "Mission Street",
+        "to": "Noe Street"
+      }
+    ],
+    "msry-10": [
+      {
+        "street": "The Embarcadero",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "note": "From the Ferry Building to Mission St"
+      },
+      {
+        "street": "Mission Street",
+        "from": "The Embarcadero",
+        "to": "14th Street"
+      },
+      {
+        "street": "14th Street",
+        "from": "Mission Street",
+        "to": "Guerrero Street"
+      },
+      {
+        "street": "Guerrero Street",
+        "from": "14th Street",
+        "to": "San Jose Avenue"
+      },
+      {
+        "street": "San Jose Avenue",
+        "from": "Guerrero Street",
+        "to": "30th Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-j-30th-st",
+        "running": [
+          "1929-05"
+        ],
+        "note": "30th St from San Jose Ave to Chenery St; the stretch of today's track drawn reaches Church St, a block on"
+      },
+      {
+        "street": "Chenery Street",
+        "from": "30th Street",
+        "to": "Diamond Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Diamond Street",
+        "from": "Chenery Street",
+        "to": "Monterey Boulevard",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Monterey Boulevard",
+        "from": "Diamond Street",
+        "to": "Gennessee Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "To Genessee St, as the report spells it"
+      }
+    ],
+    "msry-11": [
+      {
+        "street": "The Embarcadero",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "note": "From the Ferry Building to Mission St"
+      },
+      {
+        "street": "Mission Street",
+        "from": "The Embarcadero",
+        "to": "22nd Street"
+      },
+      {
+        "street": "22nd Street",
+        "from": "Mission Street",
+        "to": "Chattanooga Street"
+      },
+      {
+        "street": "Chattanooga Street",
+        "from": "22nd Street",
+        "to": "24th Street"
+      },
+      {
+        "street": "24th Street",
+        "from": "Chattanooga Street",
+        "to": "Hoffman Avenue"
+      },
+      {
+        "street": "24th Street",
+        "from": "Dolores Street",
+        "to": "Chattanooga Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Dolores Street",
+        "from": "24th Street",
+        "to": "22nd Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      }
+    ],
+    "msry-12": [
+      {
+        "street": "The Embarcadero",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "note": "From the Ferry Building to Mission St"
+      },
+      {
+        "street": "Mission Street",
+        "from": "The Embarcadero",
+        "to": "Onondaga Avenue"
+      },
+      {
+        "street": "Onondaga Avenue",
+        "from": "Mission Street",
+        "to": "Ocean Avenue"
+      },
+      {
+        "street": "Ocean Avenue",
+        "from": "Onondaga Avenue",
+        "to": "San Jose Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-k-ocean-ave",
+        "running": [
+          "1929-05"
+        ],
+        "note": "O'Shaughnessy names Ocean Ave and Sloat Blvd; between them the map follows today's K line track by Junipero Serra Blvd to St Francis Circle"
+      },
+      {
+        "street": "Sloat Boulevard",
+        "from": "Junipero Serra Boulevard",
+        "to": "Great Highway",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-14": [
+      {
+        "street": "The Embarcadero",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "note": "From the Ferry Building to Mission St"
+      },
+      {
+        "street": "Mission Street",
+        "from": "The Embarcadero",
+        "to": "San Jose Avenue"
+      }
+    ],
+    "msry-15": [
+      {
+        "street": "3rd Street",
+        "from": "Townsend Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Kearny Street",
+        "from": "Market Street",
+        "to": "Broadway"
+      },
+      {
+        "street": "Broadway",
+        "from": "Kearny Street",
+        "to": "Powell Street"
+      },
+      {
+        "street": "Powell Street",
+        "from": "Broadway",
+        "to": "Bay Street"
+      },
+      {
+        "street": "Powell Street",
+        "from": "Bay Street",
+        "to": "Jefferson Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-17": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes"
+      },
+      {
+        "segment": "muni-f-market-hayes-haight"
+      },
+      {
+        "segment": "sf-haight-market-stanyan"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Haight Street",
+        "to": "Frederick Street"
+      },
+      {
+        "street": "Frederick Street",
+        "from": "Stanyan Street",
+        "to": "Lincoln Way"
+      },
+      {
+        "street": "Lincoln Way",
+        "from": "Frederick Street",
+        "to": "20th Avenue"
+      },
+      {
+        "street": "20th Avenue",
+        "from": "Lincoln Way",
+        "to": "Wawona Street"
+      },
+      {
+        "street": "Wawona Street",
+        "from": "20th Avenue",
+        "to": "19th Avenue"
+      },
+      {
+        "street": "19th Avenue",
+        "from": "Wawona Street",
+        "to": "Sloat Boulevard"
+      }
+    ],
+    "msry-18": [
+      {
+        "street": "5th Street",
+        "from": "Market Street",
+        "to": "Mission Street"
+      },
+      {
+        "street": "Mission Street",
+        "from": "5th Street",
+        "to": "San Jose Avenue"
+      }
+    ],
+    "msry-19": [
+      {
+        "street": "9th Street",
+        "from": "Brannan Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Larkin Street",
+        "from": "Market Street",
+        "to": "Post Street"
+      },
+      {
+        "street": "Post Street",
+        "from": "Larkin Street",
+        "to": "Polk Street"
+      },
+      {
+        "street": "Polk Street",
+        "from": "Post Street",
+        "to": "North Point Street"
+      }
+    ],
+    "msry-20": [
+      {
+        "street": "Townsend Street",
+        "from": "3rd Street",
+        "to": "4th Street"
+      },
+      {
+        "street": "4th Street",
+        "from": "Townsend Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Ellis Street",
+        "from": "Market Street",
+        "to": "Hyde Street"
+      },
+      {
+        "street": "Hyde Street",
+        "from": "Ellis Street",
+        "to": "O'Farrell Street"
+      },
+      {
+        "street": "O'Farrell Street",
+        "from": "Hyde Street",
+        "to": "Divisadero Street",
+        "bridge_m": 800
+      },
+      {
+        "street": "Divisadero Street",
+        "from": "O'Farrell Street",
+        "to": "Oak Street"
+      },
+      {
+        "street": "Oak Street",
+        "from": "Divisadero Street",
+        "to": "Stanyan Street"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Oak Street",
+        "to": "Haight Street"
+      },
+      {
+        "street": "Page Street",
+        "from": "Stanyan Street",
+        "to": "Divisadero Street",
+        "note": "Inbound"
+      },
+      {
+        "street": "Ellis Street",
+        "from": "Hyde Street",
+        "to": "Divisadero Street",
+        "bridge_m": 400,
+        "note": "Inbound"
+      }
+    ],
+    "msry-21": [
+      {
+        "segment": "muni-f-market-drumm-1st",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-1st-sutter",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-kearny-powell",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "sf-msry-hayes-market-link",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Hayes Street",
+        "from": [
+          -122.416962,
+          37.777658
+        ],
+        "from_name": "Market Street",
+        "to": "Divisadero Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Ellis Street",
+        "from": "Market Street",
+        "to": "Hyde Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Hyde Street",
+        "from": "Ellis Street",
+        "to": "O'Farrell Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "O'Farrell Street",
+        "from": "Hyde Street",
+        "to": "Divisadero Street",
+        "bridge_m": 800,
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Divisadero Street",
+        "from": "O'Farrell Street",
+        "to": "Hayes Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Ellis Street",
+        "from": "Hyde Street",
+        "to": "Divisadero Street",
+        "bridge_m": 400,
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Hayes Street",
+        "from": "Divisadero Street",
+        "to": "Stanyan Street"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Hayes Street",
+        "to": "Fulton Street"
+      },
+      {
+        "street": "Fulton Street",
+        "from": "Stanyan Street",
+        "to": "8th Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "8th Avenue",
+        "from": "Fulton Street",
+        "to": "Clement Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-27": [
+      {
+        "street": "2nd Street",
+        "from": "Market Street",
+        "to": "Bryant Street"
+      },
+      {
+        "street": "Bryant Street",
+        "from": "2nd Street",
+        "to": "26th Street"
+      },
+      {
+        "street": "26th Street",
+        "from": "Bryant Street",
+        "to": "Mission Street"
+      },
+      {
+        "street": "8th Street",
+        "from": "Bryant Street",
+        "to": "Brannan Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "10th Street",
+        "from": "Bryant Street",
+        "to": [
+          -122.40818,
+          37.769061
+        ],
+        "to_name": "Brannan Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Brannan Street",
+        "from": [
+          -122.407902,
+          37.769241
+        ],
+        "from_name": "10th Street",
+        "to": "2nd Street",
+        "note": "Inbound; from 8th St in 1929"
+      },
+      {
+        "street": "2nd Street",
+        "from": "Brannan Street",
+        "to": "Bryant Street",
+        "note": "Inbound"
+      }
+    ],
+    "msry-32": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "segment": "muni-f-market-mcallister-hayes"
+      },
+      {
+        "segment": "sf-msry-hayes-market-link"
+      },
+      {
+        "street": "Hayes Street",
+        "from": [
+          -122.416962,
+          37.777658
+        ],
+        "from_name": "Market Street",
+        "to": "Fillmore Street"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Hayes Street",
+        "to": "Oak Street"
+      },
+      {
+        "street": "Oak Street",
+        "from": "Fillmore Street",
+        "to": "Stanyan Street"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Oak Street",
+        "to": "Haight Street"
+      },
+      {
+        "street": "Page Street",
+        "from": "Stanyan Street",
+        "to": "Fillmore Street",
+        "note": "Inbound"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Oak Street",
+        "to": "Page Street",
+        "note": "Inbound"
+      }
+    ],
+    "msry-33": [
+      {
+        "street": "Harrison Street",
+        "from": "3rd Street",
+        "to": "14th Street"
+      },
+      {
+        "street": "14th Street",
+        "from": "Harrison Street",
+        "to": "Guerrero Street"
+      },
+      {
+        "street": "Guerrero Street",
+        "from": "14th Street",
+        "to": "18th Street"
+      },
+      {
+        "street": "18th Street",
+        "from": "Guerrero Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Market Street",
+        "from": "18th Street",
+        "to": "Caselli Avenue",
+        "note": "To Caselli Ave, which meets Market St at Clayton St"
+      },
+      {
+        "street": "Clayton Street",
+        "from": [
+          -122.444451,
+          37.758312
+        ],
+        "from_name": "Caselli Avenue",
+        "to": "Ashbury Street"
+      },
+      {
+        "street": "Ashbury Street",
+        "from": "Clayton Street",
+        "to": "Frederick Street"
+      },
+      {
+        "street": "Frederick Street",
+        "from": "Ashbury Street",
+        "to": "Clayton Street"
+      },
+      {
+        "street": "Clayton Street",
+        "from": "Frederick Street",
+        "to": "Waller Street"
+      },
+      {
+        "street": "Waller Street",
+        "from": "Clayton Street",
+        "to": "Stanyan Street"
+      }
+    ],
+    "msry-34": [
+      {
+        "street": "6th Street",
+        "from": "Brannan Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Taylor Street",
+        "from": "Market Street",
+        "to": "Post Street"
+      },
+      {
+        "street": "Post Street",
+        "from": "Taylor Street",
+        "to": "Kearny Street"
+      },
+      {
+        "street": "Kearny Street",
+        "from": "Post Street",
+        "to": "Bush Street"
+      },
+      {
+        "street": "Bush Street",
+        "from": "Kearny Street",
+        "to": "Sansome Street"
+      },
+      {
+        "street": "Sansome Street",
+        "from": "Bush Street",
+        "to": "Chestnut Street"
+      }
+    ],
+    "msry-36": [
+      {
+        "street": "Folsom Street",
+        "from": "Spear Street",
+        "to": "Precita Avenue"
+      },
+      {
+        "street": "Precita Avenue",
+        "from": "Folsom Street",
+        "to": "York Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-41": [
+      {
+        "street": "2nd Street",
+        "from": "Market Street",
+        "to": "Brannan Street"
+      },
+      {
+        "street": "Brannan Street",
+        "from": "2nd Street",
+        "to": "3rd Street"
+      },
+      {
+        "street": "3rd Street",
+        "from": "Brannan Street",
+        "to": "Townsend Street"
+      }
+    ],
+    "msry-42": [
+      {
+        "street": "Battery Street",
+        "from": "California Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "1st Street",
+        "from": "Market Street",
+        "to": "Folsom Street"
+      },
+      {
+        "street": "Folsom Street",
+        "from": "1st Street",
+        "to": "2nd Street"
+      },
+      {
+        "street": "2nd Street",
+        "from": "Folsom Street",
+        "to": "Brannan Street"
+      },
+      {
+        "street": "Brannan Street",
+        "from": "2nd Street",
+        "to": "5th Street"
+      },
+      {
+        "street": "3rd Street",
+        "from": "Brannan Street",
+        "to": "Townsend Street"
+      },
+      {
+        "street": "Townsend Street",
+        "from": "3rd Street",
+        "to": "4th Street"
+      },
+      {
+        "street": "4th Street",
+        "from": "Townsend Street",
+        "to": "Brannan Street"
+      },
+      {
+        "street": "5th Street",
+        "from": "Brannan Street",
+        "to": "Market Street"
+      }
+    ],
+    "msry-tenth-and-post": [
+      {
+        "street": "10th Street",
+        "from": "Bryant Street",
+        "to": "Market Street"
+      },
+      {
+        "street": "Polk Street",
+        "from": "Market Street",
+        "to": "Hayes Street"
+      },
+      {
+        "street": "Hayes Street",
+        "from": "Polk Street",
+        "to": [
+          -122.416962,
+          37.777658
+        ],
+        "to_name": "Market Street"
+      },
+      {
+        "street": "Larkin Street",
+        "from": [
+          -122.416422,
+          37.777741
+        ],
+        "from_name": "Hayes Street",
+        "to": "McAllister Street"
+      },
+      {
+        "street": "McAllister Street",
+        "from": "Larkin Street",
+        "to": "Leavenworth Street"
+      },
+      {
+        "street": "Leavenworth Street",
+        "from": "McAllister Street",
+        "to": "Post Street"
+      },
+      {
+        "street": "Post Street",
+        "from": "Leavenworth Street",
+        "to": "Montgomery Street"
+      }
+    ],
+    "msry-divisadero-extension": [
+      {
+        "street": "Divisadero Street",
+        "from": "Sacramento Street",
+        "to": "Jackson Street"
+      }
+    ]
+  }
+}

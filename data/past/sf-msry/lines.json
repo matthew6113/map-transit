@@ -1,0 +1,2584 @@
+{
+  "$comment": "Market Street Railway numbered lines (Phase 2c). Hand-kept; each route is written by transit_pipeline.street_routes from routes.json.",
+  "lines": [
+    {
+      "id": "msry-1",
+      "name": "No. 1 Sutter and California Streets",
+      "short_name": "1",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "13"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "343"
+        }
+      ],
+      "status": "closed",
+      "summary": "In 1909 the line started at Market and Sutter Sts; by 1929 it ran from the Ferry and went on out Clement St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "13"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "343"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-1st-sutter",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-sutter-market-larkin"
+        },
+        {
+          "segment": "sf-sutter-larkin-fillmore"
+        },
+        {
+          "segment": "sf-sutter-fillmore-presidio"
+        },
+        {
+          "segment": "sf-msry-presidio-ave-california-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-california-st-6th-ave-presidio-ave"
+        },
+        {
+          "segment": "sf-msry-6th-ave-california-st-clement-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-clement-st-6th-ave-8th-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-clement-st-33rd-ave-8th-ave",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-3",
+      "name": "No. 3 Sutter and Jackson Streets",
+      "short_name": "3",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "14"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "343"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Sutter St, Fillmore St and Jackson St to Presidio Ave. Manley's report of 1909 says it \"has just resumed service\".",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "14"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "343"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-1st-sutter",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-sutter-market-larkin"
+        },
+        {
+          "segment": "sf-sutter-larkin-fillmore"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-jackson-st-sutter-st"
+        },
+        {
+          "segment": "sf-jackson-fillmore-steiner"
+        },
+        {
+          "segment": "sf-jackson-steiner-presidio"
+        },
+        {
+          "segment": "sf-presidio-jackson-california",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-4",
+      "name": "No. 4 Turk and Eddy Streets",
+      "short_name": "4",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "10"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "344"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Eddy St and back on Turk St, then Divisadero St, Sacramento St and Lake St to a loop in the Richmond district (Manley spells it Devisadero).",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "10"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "344"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "sf-msry-eddy-market-link"
+        },
+        {
+          "segment": "sf-msry-eddy-st-cyril-magnin-st-divisadero-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-ofarrell-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-ofarrell-st-sacramento-st"
+        },
+        {
+          "segment": "sf-msry-sacramento-st-arguello-blvd-divisadero-st"
+        },
+        {
+          "segment": "sf-msry-arguello-blvd-lake-st-sacramento-st",
+          "note": "Manley (1909) says \"Sacramento to Lake\", which meet only here"
+        },
+        {
+          "segment": "sf-msry-lake-st-6th-ave-arguello-blvd"
+        },
+        {
+          "segment": "sf-msry-6th-ave-california-st-lake-st"
+        },
+        {
+          "segment": "sf-msry-6th-ave-california-st-clement-st"
+        },
+        {
+          "segment": "sf-msry-clement-st-6th-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-8th-ave-clement-st-fulton-st"
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-6th-ave-clement-st-fulton-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Back toward Lake St"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-turk-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-turk-st-divisadero-st-mason-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-mason-st-eddy-st-turk-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        }
+      ]
+    },
+    {
+      "id": "msry-6",
+      "name": "No. 6 Haight Street and Masonic Avenue",
+      "short_name": "6",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "11-12"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "344"
+        }
+      ],
+      "status": "closed",
+      "summary": "In 1909 the \"Masonic\" line ran out Hayes St, Fillmore St and Oak St (back on Page St); Manley calls the name \"a misnomer, as it runs for but three blocks on Masonic Ave\". By 1929 it ran out Haight St and on to 9th Ave and Pacheco St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "11-12"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "344"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "muni-f-market-1st-sutter",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "muni-f-market-kearny-powell",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-market-link",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-st-market-st-polk-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-st-fillmore-st-polk-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-oak-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-fillmore-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-masonic-ave",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-masonic-ave-haight-st-oak-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-masonic-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-fillmore-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-haight-market-stanyan",
+          "running": [
+            "1929-05"
+          ],
+          "note": "As far as Masonic Ave"
+        },
+        {
+          "segment": "sf-msry-masonic-ave-frederick-st-haight-st"
+        },
+        {
+          "segment": "sf-msry-frederick-st-ashbury-st-masonic-ave"
+        },
+        {
+          "segment": "sf-msry-frederick-st-ashbury-st-clayton-st"
+        },
+        {
+          "segment": "sf-msry-clayton-st-carl-st-frederick-st"
+        },
+        {
+          "segment": "sf-msry-carl-st-clayton-st-cole-st"
+        },
+        {
+          "segment": "muni-n-carl-cole-stanyan"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-carl-st-parnassus-ave"
+        },
+        {
+          "segment": "sf-msry-parnassus-ave-judah-st-stanyan-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-judah-st-9th-ave-parnassus-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-9th-ave-judah-st-pacheco-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-7",
+      "name": "No. 7 Haight Street and Ocean",
+      "short_name": "7",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "12"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "344"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then a private right of way (not drawn: its course isn't given) to the beach at Balboa St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "12"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "344"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "sf-haight-market-stanyan"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-frederick-st-haight-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-frederick-st-lincoln-way-stanyan-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-8",
+      "name": "No. 8 Market Street",
+      "short_name": "8",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "12"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "344"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Market St to Castro St and 18th St. Manley (p. 28) says the Castro St cable line acted \"as an extension of the Market Street line No. 8, which stops at 18th and Castro\".",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "12"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "344"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "muni-f-market-haight-valencia"
+        },
+        {
+          "segment": "muni-f-market-st"
+        },
+        {
+          "segment": "sf-castro-market-18th"
+        }
+      ]
+    },
+    {
+      "id": "msry-9",
+      "name": "No. 9 Valencia Street",
+      "short_name": "9",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "13"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "345"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Market St, Valencia St and Mission St to 29th St and Noe St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "13"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "345"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "muni-f-market-haight-valencia"
+        },
+        {
+          "segment": "sf-valencia-market-16th"
+        },
+        {
+          "segment": "sf-valencia-16th-mission"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-29th-st-mission-st-noe-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-10",
+      "name": "No. 10 Guerrero Street and Sunnyside",
+      "short_name": "10",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "20"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "345"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Mission St, 14th St and Guerrero St; by 1929 on by San Jose Ave, 30th St, Chenery St, Diamond St and Monterey Blvd to Genessee St. In 1909 two lines were numbered 10, the Guerrero line (\"to 14th Street to San Jose Avenue and Ocean View\") and the Glen Park line (\"to 14th to Guerrero to Chenery Street and San Jose Ave.\"), \"over the same tracks most of the way\" (Manley p. 20); where either ended in 1909 isn't given street by street.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "20"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "345"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-the-embarcadero-market-st-mission-st",
+          "note": "From the Ferry Building to Mission St"
+        },
+        {
+          "segment": "sf-msry-mission-st-5th-st-the-embarcadero"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-14th-st-guerrero-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-guerrero-st-14th-st-18th-st"
+        },
+        {
+          "segment": "sf-msry-guerrero-st-18th-st-san-jose-ave"
+        },
+        {
+          "segment": "sf-msry-san-jose-ave-30th-st-guerrero-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-j-30th-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "30th St from San Jose Ave to Chenery St; the stretch of today's track drawn reaches Church St, a block on"
+        },
+        {
+          "segment": "sf-msry-chenery-st-30th-st-diamond-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-diamond-st-chenery-st-monterey-blvd",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-monterey-blvd-diamond-st-gennessee-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "To Genessee St, as the report spells it"
+        }
+      ]
+    },
+    {
+      "id": "msry-11",
+      "name": "No. 11 Mission and 24th Streets",
+      "short_name": "11",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "21"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "345"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Mission St, 22nd St, Chattanooga St and 24th St to Hoffman Ave; by 1929 back by Dolores St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "21"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "345"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-the-embarcadero-market-st-mission-st",
+          "note": "From the Ferry Building to Mission St"
+        },
+        {
+          "segment": "sf-msry-mission-st-5th-st-the-embarcadero"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+        },
+        {
+          "segment": "sf-msry-22nd-st-chattanooga-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-chattanooga-st-22nd-st-24th-st"
+        },
+        {
+          "segment": "sf-msry-24th-st-chattanooga-st-hoffman-ave"
+        },
+        {
+          "segment": "sf-msry-24th-st-chattanooga-st-dolores-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-dolores-st-22nd-st-24th-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        }
+      ]
+    },
+    {
+      "id": "msry-12",
+      "name": "No. 12 Mission Street and Ingleside",
+      "short_name": "12",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "21"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "345"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Mission St, Onondaga Ave and Ocean Ave; in 1909 \"to Ingleside\", by 1929 on by Sloat Blvd to the Great Highway.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "21"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "345"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-the-embarcadero-market-st-mission-st",
+          "note": "From the Ferry Building to Mission St"
+        },
+        {
+          "segment": "sf-msry-mission-st-5th-st-the-embarcadero"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-san-jose-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave"
+        },
+        {
+          "segment": "sf-msry-onondaga-ave-mission-st-ocean-ave"
+        },
+        {
+          "segment": "sf-msry-ocean-ave-onondaga-ave-san-jose-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-k-ocean-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "O'Shaughnessy names Ocean Ave and Sloat Blvd; between them the map follows today's K line track by Junipero Serra Blvd to St Francis Circle"
+        },
+        {
+          "segment": "sf-msry-sloat-blvd-great-hwy-junipero-serra-blvd",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-14",
+      "name": "No. 14 Mission Street and Daly City",
+      "short_name": "14",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "22"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "345"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Mission St to Daly City; in 1909 the \"Cemeteries\" line ran on through Colma to the cemeteries (its end isn't given).",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "22"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "345"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-the-embarcadero-market-st-mission-st",
+          "note": "From the Ferry Building to Mission St"
+        },
+        {
+          "segment": "sf-msry-mission-st-5th-st-the-embarcadero"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-onondaga-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave"
+        }
+      ]
+    },
+    {
+      "id": "msry-15",
+      "name": "No. 15 Kearny Street and North Beach",
+      "short_name": "15",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "17"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "From the Southern Pacific station at 3rd and Townsend Sts by 3rd St, Kearny St, Broadway and Powell St to North Beach: to Bay St in 1909, to Jefferson St by 1929.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "17"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-townsend-st"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-market-st"
+        },
+        {
+          "segment": "sf-msry-kearny-st-market-st-post-st"
+        },
+        {
+          "segment": "sf-msry-kearny-st-bush-st-post-st"
+        },
+        {
+          "segment": "sf-msry-kearny-st-broadway-bush-st"
+        },
+        {
+          "segment": "sf-msry-broadway-kearny-st-powell-st"
+        },
+        {
+          "segment": "sf-msry-powell-st-bay-st-broadway"
+        },
+        {
+          "segment": "sf-msry-powell-st-bay-st-jefferson-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-17",
+      "name": "No. 17 Haight Street and Ingleside",
+      "short_name": "17",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Haight St, Frederick St, Lincoln Way, 20th Ave, Wawona St and 19th Ave to Sloat Blvd. There was no No. 17 in February 1909 (Manley p. 34).",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
+        },
+        {
+          "segment": "sf-haight-market-stanyan"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-frederick-st-haight-st"
+        },
+        {
+          "segment": "sf-msry-frederick-st-lincoln-way-stanyan-st"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-20th-ave-frederick-st"
+        },
+        {
+          "segment": "sf-msry-20th-ave-lincoln-way-wawona-st"
+        },
+        {
+          "segment": "sf-msry-wawona-st-19th-ave-20th-ave"
+        },
+        {
+          "segment": "sf-msry-19th-ave-sloat-blvd-wawona-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-18",
+      "name": "No. 18 Mission Street and Daly City",
+      "short_name": "18",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Market St by 5th St and Mission St to Daly City. In 1909 No. 18 was the Polk and Mission line, on other streets (Manley p. 16).",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-5th-st-market-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-onondaga-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave"
+        }
+      ]
+    },
+    {
+      "id": "msry-19",
+      "name": "No. 19 Ninth and Polk Streets",
+      "short_name": "19",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Brannan St by 9th St, Larkin St, Post St and Polk St to North Point St. In February 1909 No. 19 was the Bryant and Polk line; Manley adds that it had since been replaced by a Ninth and Polk line, \"designated No. 19\" (p. 16).",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-9th-st-brannan-st-market-st"
+        },
+        {
+          "segment": "sf-msry-larkin-st-hayes-st-market-st"
+        },
+        {
+          "segment": "sf-msry-larkin-st-hayes-st-mcallister-st"
+        },
+        {
+          "segment": "sf-msry-larkin-st-mcallister-st-post-st"
+        },
+        {
+          "segment": "sf-msry-post-st-larkin-st-polk-st"
+        },
+        {
+          "segment": "sf-msry-polk-st-n-point-st-post-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-20",
+      "name": "No. 20 Fourth, Ellis and O'Farrell Streets",
+      "short_name": "20",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "18"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 alternate cars went on out H St (not drawn yet: that it is today's Lincoln Way isn't sourced here).",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "18"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-townsend-st-3rd-st-4th-st"
+        },
+        {
+          "segment": "sf-msry-4th-st-brannan-st-townsend-st"
+        },
+        {
+          "segment": "sf-msry-4th-st-brannan-st-market-st"
+        },
+        {
+          "segment": "sf-msry-ellis-st-hyde-st-market-st"
+        },
+        {
+          "segment": "sf-msry-hyde-st-ellis-st-ofarrell-st"
+        },
+        {
+          "segment": "sf-msry-ofarrell-st-divisadero-st-hyde-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-ofarrell-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-turk-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-hayes-st-turk-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-hayes-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-masonic-ave"
+        },
+        {
+          "segment": "sf-msry-oak-st-masonic-ave-stanyan-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-page-st-masonic-ave-stanyan-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-masonic-ave",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-ellis-st-divisadero-st-hyde-st",
+          "note": "Inbound"
+        }
+      ]
+    },
+    {
+      "id": "msry-21",
+      "name": "No. 21 Hayes Street",
+      "short_name": "21",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "18"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Hayes St to Stanyan St and Fulton St. In 1909 the Hayes and Ellis line came out Ellis St and O'Farrell St (back by Ellis St) and turned into Hayes St at Divisadero St; by 1929 it ran from the Ferry out Market St and Hayes St, and on by Fulton St and 8th Ave to Clement St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "18"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-1st-sutter",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-kearny-powell",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-market-link",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-st-market-st-polk-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-st-fillmore-st-polk-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-hayes-st-divisadero-st-fillmore-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-ellis-st-hyde-st-market-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-hyde-st-ellis-st-ofarrell-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-ofarrell-st-divisadero-st-hyde-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-ofarrell-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-turk-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-divisadero-st-hayes-st-turk-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-ellis-st-divisadero-st-hyde-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-hayes-st-divisadero-st-stanyan-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-fulton-st-hayes-st"
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-stanyan-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-8th-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-8th-ave-clement-st-fulton-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-27",
+      "name": "No. 27 Bryant Street",
+      "short_name": "27",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "22"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "347"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Market St by 2nd St and Bryant St to 26th St and Mission St, back by Brannan St. In 1909 the unnumbered Bryant line ran on the same streets, back by 10th St; by 1929 back by 8th St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "22"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "347"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-2nd-st-folsom-st-market-st"
+        },
+        {
+          "segment": "sf-msry-2nd-st-bryant-st-folsom-st"
+        },
+        {
+          "segment": "sf-msry-bryant-st-26th-st-2nd-st"
+        },
+        {
+          "segment": "sf-msry-26th-st-bryant-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-8th-st-brannan-st-bryant-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-10th-st-brannan-st-bryant-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-brannan-st-10th-st-5th-st",
+          "note": "Inbound; from 8th St in 1929"
+        },
+        {
+          "segment": "sf-msry-brannan-st-3rd-st-5th-st",
+          "note": "Inbound; from 8th St in 1929"
+        },
+        {
+          "segment": "sf-msry-brannan-st-2nd-st-3rd-st",
+          "note": "Inbound; from 8th St in 1929"
+        },
+        {
+          "segment": "sf-msry-2nd-st-brannan-st-bryant-st",
+          "note": "Inbound"
+        }
+      ]
+    },
+    {
+      "id": "msry-32",
+      "name": "No. 32 Hayes and Oak Streets",
+      "short_name": "32",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "348-349"
+        }
+      ],
+      "status": "closed",
+      "summary": "Weekdays until 5:47 p.m.: out Hayes St, Fillmore St and Oak St to Stanyan St, back by Page St. In 1909 the Masonic line (No. 6) ran on these streets.",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "348-349"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "sf-msry-hayes-market-link"
+        },
+        {
+          "segment": "sf-msry-hayes-st-market-st-polk-st"
+        },
+        {
+          "segment": "sf-msry-hayes-st-fillmore-st-polk-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-fillmore-st"
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-masonic-ave"
+        },
+        {
+          "segment": "sf-msry-oak-st-masonic-ave-stanyan-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-page-st-masonic-ave-stanyan-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-masonic-ave",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-fillmore-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st",
+          "note": "Inbound"
+        }
+      ]
+    },
+    {
+      "id": "msry-33",
+      "name": "No. 33 Eighteenth Street and Park",
+      "short_name": "33",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "From 3rd St by Harrison St, 14th St, Guerrero St and 18th St, over Market St and Caselli Ave to Clayton St, Ashbury St, Frederick St and Waller St to Stanyan St. In 1909 the unnumbered Eighteenth line ran much of this way (Manley p. 20), by a \"Falcon Avenue\" not yet placed.",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-harrison-st-14th-st-3rd-st"
+        },
+        {
+          "segment": "sf-msry-14th-st-harrison-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-14th-st-guerrero-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-guerrero-st-14th-st-18th-st"
+        },
+        {
+          "segment": "sf-msry-18th-st-guerrero-st-market-st"
+        },
+        {
+          "segment": "sf-msry-market-st-18th-st-caselli-ave",
+          "note": "To Caselli Ave, which meets Market St at Clayton St"
+        },
+        {
+          "segment": "sf-msry-clayton-st-ashbury-st-caselli-ave"
+        },
+        {
+          "segment": "sf-msry-ashbury-st-clayton-st-frederick-st"
+        },
+        {
+          "segment": "sf-msry-frederick-st-ashbury-st-clayton-st"
+        },
+        {
+          "segment": "sf-msry-clayton-st-frederick-st-waller-st"
+        },
+        {
+          "segment": "sf-msry-waller-st-clayton-st-stanyan-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-34",
+      "name": "No. 34 Sixth and Sansome Streets",
+      "short_name": "34",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "19"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Brannan St by 6th St, Taylor St, Post St, Kearny St, Bush St and Sansome St to Chestnut St. In 1909 it was the unnumbered Sixth and Sansome line, made \"one continuous line\" when its Post St track came into use (Manley p. 19).",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "19"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-6th-st-brannan-st-market-st"
+        },
+        {
+          "segment": "sf-msry-taylor-st-market-st-post-st"
+        },
+        {
+          "segment": "sf-msry-post-st-kearny-st-taylor-st"
+        },
+        {
+          "segment": "sf-msry-kearny-st-bush-st-post-st"
+        },
+        {
+          "segment": "sf-msry-bush-st-kearny-st-sansome-st"
+        },
+        {
+          "segment": "sf-msry-sansome-st-bush-st-chestnut-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-36",
+      "name": "No. 36 Folsom Street",
+      "short_name": "36",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "22"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Folsom St to Precita Ave. Manley's unnumbered Folsom line (1909) ran \"Out Folsom from the Ferry to 26th and Precita Avenue\"; by 1929 it reached Folsom St by Howard St and Steuart St, and went on to York St. The map starts it at Spear St: Steuart St no longer reaches Folsom St, and the 1909 route from the Ferry isn't given street by street.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "22"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-folsom-st-1st-st-spear-st"
+        },
+        {
+          "segment": "sf-msry-folsom-st-1st-st-2nd-st"
+        },
+        {
+          "segment": "sf-msry-folsom-st-2nd-st-precita-ave"
+        },
+        {
+          "segment": "sf-msry-precita-ave-folsom-st-york-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-41",
+      "name": "No. 41 Second and Market Streets to the Southern Pacific depot",
+      "short_name": "41",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349-350"
+        }
+      ],
+      "status": "closed",
+      "summary": "Weekday rush hours, timed to the Southern Pacific's peninsula trains: from Market St by 2nd St and Brannan St to the station at 3rd and Townsend Sts.",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349-350"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-2nd-st-folsom-st-market-st"
+        },
+        {
+          "segment": "sf-msry-2nd-st-bryant-st-folsom-st"
+        },
+        {
+          "segment": "sf-msry-2nd-st-brannan-st-bryant-st"
+        },
+        {
+          "segment": "sf-msry-brannan-st-2nd-st-3rd-st"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-townsend-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-42",
+      "name": "No. 42 First and Fifth Streets",
+      "short_name": "42",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "350"
+        }
+      ],
+      "status": "closed",
+      "summary": "A loop south of Market St: from California St by Battery St, 1st St, Folsom St, 2nd St, Brannan St, 3rd St, Townsend St, 4th St and Brannan St to 5th St and Market St, back by 5th St, Brannan St, 2nd St and Folsom St.",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "350"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-battery-st-california-st-market-st"
+        },
+        {
+          "segment": "sf-msry-1st-st-folsom-st-market-st"
+        },
+        {
+          "segment": "sf-msry-folsom-st-1st-st-2nd-st"
+        },
+        {
+          "segment": "sf-msry-2nd-st-bryant-st-folsom-st"
+        },
+        {
+          "segment": "sf-msry-2nd-st-brannan-st-bryant-st"
+        },
+        {
+          "segment": "sf-msry-brannan-st-2nd-st-3rd-st"
+        },
+        {
+          "segment": "sf-msry-brannan-st-3rd-st-5th-st"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-townsend-st"
+        },
+        {
+          "segment": "sf-msry-townsend-st-3rd-st-4th-st"
+        },
+        {
+          "segment": "sf-msry-4th-st-brannan-st-townsend-st"
+        },
+        {
+          "segment": "sf-msry-5th-st-brannan-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-5th-st-market-st-mission-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-tenth-and-post",
+      "name": "Tenth and Post Streets",
+      "short_name": "10th & Post",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "350"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Bryant St by 10th St, Polk St, Hayes St, Larkin St, McAllister St, Leavenworth St and Post St to Montgomery St and Market St. In 1909 the Montgomery and 10th line ran from 10th and Bryant Sts by City Hall to Montgomery St (Manley p. 19).",
+      "sources": [
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "350"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-10th-st-bryant-st-market-st"
+        },
+        {
+          "segment": "sf-msry-polk-st-hayes-st-market-st"
+        },
+        {
+          "segment": "sf-msry-hayes-st-market-st-polk-st"
+        },
+        {
+          "segment": "sf-msry-larkin-st-hayes-st-mcallister-st"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-larkin-st-leavenworth-st"
+        },
+        {
+          "segment": "sf-msry-leavenworth-st-mcallister-st-post-st"
+        },
+        {
+          "segment": "sf-msry-post-st-leavenworth-st-taylor-st"
+        },
+        {
+          "segment": "sf-msry-post-st-kearny-st-taylor-st"
+        },
+        {
+          "segment": "sf-msry-post-st-kearny-st-montgomery-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-divisadero-extension",
+      "name": "Divisadero Street extension",
+      "short_name": "Divisadero ext.",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "29"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "350"
+        }
+      ],
+      "status": "closed",
+      "summary": "A shuttle on Divisadero St between Sacramento St and Jackson St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "29"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "350"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-divisadero-st-jackson-st-sacramento-st"
+        }
+      ]
+    }
+  ]
+}

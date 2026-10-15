@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, San Francisco's numbered streetcar lines
+
+- **26 Market Street Railway lines** (United Railroads in 1909), street by street as Warren Manley's
+  report of February 1, 1909 and M. M. O'Shaughnessy's of May 1929 give them: Nos. 1, 3, 4, 6–12,
+  14, 15, 17–21, 27, 32–34, 36, 41 and 42, the Tenth and Post line and the Divisadero St extension.
+  Few of their openings or last days are sourced yet, so each is drawn only for the years the
+  reports show it running, in the lighter tint (decision 20, proposed and open for review). A stretch
+  in only one report's route is drawn for that year only.
+- On Market St they run on today's F track, now cut at Sutter, Powell, McAllister and Hayes Sts.
+  Today's N track on Carl St (Cole St to Stanyan St) and J track on 30th St are cut where the old
+  lines shared them; those pieces' openings are left null, as older track.
+- Left for later: lines whose 1909 routes use streets renamed since (13th St, H St, Army St, Central
+  Ave and others), until a source pairs the old name with the new; No. 28 (its Rincon Hill streets
+  are gone); the private rights-of-way to the beach (their courses aren't given).
+- The Sutter St and Jackson St cable segments are cut at Fillmore St, where the numbered lines joined
+  them.
+
 ## 2026-10-15: Phase 2c, sources reachable again
 
 - **The Sacramento Northern's end beyond West Pittsburg** now cites Railroad Commission Decision No.

@@ -571,6 +571,30 @@
         "Market St & Valencia St": [
           -122.422589,
           37.772476
+        ],
+        "Market St & Sutter St": [
+          -122.400097,
+          37.790312
+        ],
+        "Market St & McAllister St": [
+          -122.411717,
+          37.781205
+        ],
+        "Market St & Hayes St": [
+          -122.416592,
+          37.777363
+        ],
+        "Carl St & Cole St": [
+          -122.449976,
+          37.765806
+        ],
+        "Carl St & Stanyan St": [
+          -122.452777,
+          37.76545
+        ],
+        "San Jose Ave & 30th St": [
+          -122.423295,
+          37.7423
         ]
       },
       "segments": [
@@ -759,10 +783,56 @@
           ]
         },
         {
-          "id": "muni-n-duboce-ocean-beach",
-          "name": "Duboce Ave and Church St to Ocean Beach, through the Sunset Tunnel",
+          "id": "muni-n-duboce-carl-cole",
+          "name": "Duboce Ave and Church St to Carl St and Cole St, through the Sunset Tunnel",
           "line": "muni-n",
           "from": "Duboce Ave & Church St",
+          "to": "Carl St & Cole St",
+          "opened": "1928-10-21",
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "opened"
+              ],
+              "pages": "37",
+              "note": "\"N Judah service begins from the Ferry Building to the beach (and through the 4,232 ft. Sunset Tunnel).\""
+            }
+          ]
+        },
+        {
+          "id": "muni-n-carl-cole-stanyan",
+          "name": "Carl St, Cole St to Stanyan St",
+          "line": "muni-n",
+          "from": "Carl St & Cole St",
+          "to": "Carl St & Stanyan St",
+          "opened": null,
+          "sources": [
+            {
+              "source": "manley-1909",
+              "supports": [
+                "route"
+              ],
+              "pages": "12",
+              "note": "The United Railroads' Masonic line ran \"to Clayton to Carl to Stanyan\" in 1909."
+            },
+            {
+              "source": "oshaughnessy-1929",
+              "supports": [
+                "route"
+              ],
+              "pages": "344",
+              "note": "Line No. 6 \"via ... Clayton St., Carl St., Stanyan St.\" in 1929."
+            }
+          ],
+          "structure": "street",
+          "notes": "Street track older than the N (1928): the United Railroads' Masonic line ran on Carl St from Clayton St to Stanyan St by 1909. When it first carried passengers isn't sourced yet. Cut at Cole St, the Sunset Tunnel's west portal, and at Stanyan St, where the old line turned off."
+        },
+        {
+          "id": "muni-n-carl-stanyan-ocean-beach",
+          "name": "Carl St and Stanyan St to Ocean Beach",
+          "line": "muni-n",
+          "from": "Carl St & Stanyan St",
           "to": "Judah St & La Playa St",
           "opened": "1928-10-21",
           "sources": [
@@ -888,10 +958,30 @@
           ]
         },
         {
-          "id": "muni-j-san-jose-ave",
-          "name": "30th St & Church St to Balboa Park",
+          "id": "muni-j-30th-st",
+          "name": "30th St, Church St to San Jose Ave",
           "line": "muni-j",
           "from": "Church St & 30th St",
+          "to": "San Jose Ave & 30th St",
+          "opened": null,
+          "sources": [
+            {
+              "source": "oshaughnessy-1929",
+              "supports": [
+                "route"
+              ],
+              "pages": "345",
+              "note": "Line No. 10 \"via ... San Jose Ave., 30th St., Chenery St.\" in 1929."
+            }
+          ],
+          "notes": "Street track older than the J's extension (1991): the Market Street Railway's No. 10 ran on 30th St from San Jose Ave to Chenery St, a block short of Church St, in 1929. When it first carried passengers isn't sourced yet.",
+          "structure": "street"
+        },
+        {
+          "id": "muni-j-san-jose-ave",
+          "name": "San Jose Ave and 30th St to Balboa Park",
+          "line": "muni-j",
+          "from": "San Jose Ave & 30th St",
           "to": "Balboa Park",
           "opened": "1991-08-31",
           "sources": [
@@ -991,10 +1081,30 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
         },
         {
-          "id": "muni-f-market-1st-kearny",
-          "name": "Market St, 1st St to Kearny St",
+          "id": "muni-f-market-1st-sutter",
+          "name": "Market St, 1st St to Sutter St",
           "line": "muni-f",
           "from": "Market St & 1st St",
+          "to": "Market St & Sutter St",
+          "opened": null,
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "29",
+              "note": "Muni's A line ran \"from Kearny & Market, on Geary\" from December 28, 1912."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Sutter St, where the Sutter St lines left Market St (Manley 1909, O'Shaughnessy 1929)."
+        },
+        {
+          "id": "muni-f-market-sutter-kearny",
+          "name": "Market St, Sutter St to Kearny St",
+          "line": "muni-f",
+          "from": "Market St & Sutter St",
           "to": "Market St & Kearny St",
           "opened": null,
           "both_ways": true,
@@ -1011,10 +1121,97 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
         },
         {
-          "id": "muni-f-market-kearny-haight",
-          "name": "Market St, Kearny St to Haight St",
+          "id": "muni-f-market-kearny-powell",
+          "name": "Market St, Kearny St to Powell St",
           "line": "muni-f",
           "from": "Market St & Kearny St",
+          "to": "Powell St & Market St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Powell St, where Eddy St met Market St (the Turk and Eddy line, Manley 1909). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "muni-f-market-powell-mcallister",
+          "name": "Market St, Powell St to McAllister St",
+          "line": "muni-f",
+          "from": "Powell St & Market St",
+          "to": "Market St & McAllister St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at McAllister St, where the McAllister line left Market St (Manley 1909)."
+        },
+        {
+          "id": "muni-f-market-mcallister-hayes",
+          "name": "Market St, McAllister St to Hayes St",
+          "line": "muni-f",
+          "from": "Market St & McAllister St",
+          "to": "Market St & Hayes St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut where Hayes St met Market St (today it stops about 46 m short), where the Hayes St lines left Market St (Manley 1909)."
+        },
+        {
+          "id": "muni-f-market-hayes-haight",
+          "name": "Market St, Hayes St to Haight St",
+          "line": "muni-f",
+          "from": "Market St & Hayes St",
           "to": "Market St & Haight St",
           "opened": null,
           "structure": "street",
@@ -1037,7 +1234,7 @@
               "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
             }
           ],
-          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883)."
         },
         {
           "id": "muni-f-market-haight-valencia",
@@ -1330,6 +1527,10 @@
             "muni-k-ocean-ave": {
               "from": "1991-08-31",
               "note": "The J reached Balboa Park with its extension from 30th St, from August 31, 1991 (Callwell p. 70)."
+            },
+            "muni-j-30th-st": {
+              "from": "1991-08-31",
+              "note": "The J's extension to Balboa Park, from August 31, 1991 (Callwell p. 70)."
             }
           },
           "earlier_mode": {
@@ -1486,6 +1687,10 @@
             "muni-metro-extension": {
               "from": "1998-08-22",
               "note": "The N replaced the E shuttle on the extension on August 22, 1998 (SRTP 2006, pp. 89–90)."
+            },
+            "muni-n-carl-cole-stanyan": {
+              "from": "1928-10-21",
+              "note": "The N from its opening on October 21, 1928 (Callwell p. 37), on street track the United Railroads used by 1909."
             }
           },
           "earlier_mode": {

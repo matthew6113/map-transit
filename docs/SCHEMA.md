@@ -102,6 +102,11 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
 - A line's `route[]` entry can narrow its use of a segment with `from` and `to`, as when a line ran
   over a bridge only from 1939 to 1958. Both fall within the segment's dates and the line's, which a
   test checks.
+- A past line whose opening or closing isn't sourced can list in `running[]` the dates a cited source
+  shows it in service (`{date, source, pages, note}`): a route list, a timetable, an order describing
+  it. The map draws it for those years, lighter (decision 20, open for review); `opened` and `closed`
+  stay null with their flags. A route entry's `running` names the dates that show that stretch,
+  where it isn't in all of them.
 - Every line in `data/past/` has the status `closed`.
 
 ## `lines.json`
@@ -146,7 +151,7 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
   terminals in the source (e.g. "Chicago Union Station"). A test checks that every line carrying it
   reaches the map's edge.
 
-**Route:** `route[]`, each entry `{segment, from?, to?, note?}`, in route order.
+**Route:** `route[]`, each entry `{segment, from?, to?, running?, note?}`, in route order. `running[]` (past lines, decision 20): `{date, source, pages?, note?}`, the dates a source shows the line running.
 
 **Extras:**
 - `summary`

@@ -17,6 +17,7 @@ this session left reading plans in `leads-2c/`; nothing in them is citable yet.
 | Key System | E Claremont line, 1908–1958 | Oakland Tribune 1905 and 1912; CPUC Decisions 50731, 54669; HAER | Today's centerlines on the streets D50731 names, and the 1949 sheet where the freeway cut them |
 | Southern Pacific | The Eighteenth Street line (1912–1933) and the Webster Street line in Oakland (1911–1923) | SF Call 1911, 1912; CRC Decisions 12906, 17743, 25740, 27800; the SP's 1914 employee timetable | Today's centerlines; the unsourced 18th–20th St link dashed |
 | Golden Gate Ferries | The Hyde St–Berkeley ferry closes on or about August 1937 | CRC Decision 29999 (decision 17) | (already drawn) |
+| Market Street Railway (URR in 1909) | 26 numbered and named lines, street by street | Running on February 1, 1909 (Manley) and in May 1929 (O'Shaughnessy); ends unsourced, so drawn for those years only (decision 20, proposed) | Today's centerlines (`street_routes.py`), today's F, N, J and K track where they shared it |
 
 ## Not drawn yet, and what each needs
 
@@ -27,10 +28,12 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 
 - **McAllister and Hayes cable lines:** opening dates rest on railfan pages; read Callwell pp. 10–13
   and the Daily Alta of 1883 and 1886.
-- **United Railroads and Market Street Railway numbered lines** (the largest gap): read Manley's 1909
-  route list and O'Shaughnessy's 1929 one (`leads-2c/sf-urr.md` gives the pages), then the Railroad
-  Commission's 1929–44 abandonment decisions it located. Most opening dates will stay unsourced, so
-  the lines show through their streets' dates where any are known.
+- **United Railroads and Market Street Railway numbered lines:** 26 drawn from Manley's 1909 list
+  and O'Shaughnessy's 1929 one (decision 20). Still to do: each line's last day (the Railroad
+  Commission's 1929–44 decisions and the city's after 1944); the lines whose 1909 routes use renamed
+  streets (2, 5, 16, 22–25, 30, 35, and the 1909 parts of 20, 23 and 24), once a source pairs the old
+  names with the new; No. 28 and No. 29 (Rincon Hill's and Bayshore's streets have changed); the
+  private rights-of-way to the beach.
 - **Ferries & Cliff House line around Land's End** (1888–1925, Callwell pp. 12, 36): its dates and
   route are sourced, but the 1915 San Francisco sheet is off by up to about 150 m there and no
   1:24,000 sheet shows the line (it was gone by 1950). Needs a fit on the 1899 or 1915 sheet, or a

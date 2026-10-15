@@ -25,7 +25,7 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       Historical Topographic Map Collection</a> (public domain), from{' '}
       <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> (CC0) and along today's street centerlines from
       Overture Maps (ODbL), with dates from California Railroad Commission decisions, period journals, newspapers and city
-      directories, and Muni's own chronology. Sources for every
+      directories, Muni's own chronology, and San Francisco's street railway reports of 1909 and 1929. Sources for every
       line are in its panel.
     </>
   );

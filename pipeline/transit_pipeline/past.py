@@ -295,7 +295,7 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
 
     def draw(f: dict, sheet: str, name: str) -> None:
         cs = f["geometry"]["coordinates"]
-        cs = [cs] if f["geometry"]["type"] == "Point" else cs
+        cs = [cs] if f["geometry"]["type"] == "Point" else [c for part in cs for c in part] if f["geometry"]["type"] == "MultiLineString" else cs
         xs, ys = [c[0] for c in cs], [c[1] for c in cs]
         pad = 0.003
         bbox = (min(xs) - pad, min(ys) - pad, max(xs) + pad, max(ys) + pad)
@@ -307,7 +307,7 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
 
     for f, recipe in feats:
         check = recipe.get("check") or next((p["trace"]["sheet"] for p in recipe.get("parts", [recipe]) if "trace" in p), None)
-        if not check:
+        if not check or recipe.get("routes"):
             continue
         fid = f["properties"]["id"]
         spec = _fit_spec(recipe)
@@ -324,6 +324,21 @@ def review(group: Path, out: Path, feats: list[tuple[dict, dict]]) -> None:
             draw(f, spec.get("true_frame", {}).get("sheet") or spec.get("check_sheet") or check, f"{fid}-corrected")
         else:
             draw(f, check, fid)
+    # Street segments cut from route lists (street_routes.py): one image per line and sheet, its
+    # streets together, rather than one per piece.
+    routed = {f["properties"]["id"]: (f, r) for f, r in feats if r.get("routes")}
+    if routed and (group / "routes.json").exists():
+        for lid in json.loads((group / "routes.json").read_text())["lines"]:
+            line = next(l for l in json.loads((group / "lines.json").read_text())["lines"] if l["id"] == lid)
+            by_sheet = defaultdict(list)
+            for e in line["route"]:
+                if e["segment"] in routed:
+                    f, r = routed[e["segment"]]
+                    by_sheet[r["check"]].append(f["geometry"]["coordinates"])
+            for n, (sheet, parts) in enumerate(sorted(by_sheet.items())):
+                name = f"{lid}-streets" + (f"-{n + 1}" if len(by_sheet) > 1 else "")
+                draw({"type": "Feature", "properties": {"id": f"{lid} streets"},
+                      "geometry": {"type": "MultiLineString", "coordinates": parts}}, sheet, name)
     tmp.unlink(missing_ok=True)
 
 

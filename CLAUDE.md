@@ -86,7 +86,7 @@ BAM's "the present as print, the future in color".
 | Command | What it does |
 |---|---|
 | `npm install`, then `make basemap` | Install, then copy BAM's built basemap into `public/generated/`, checked against `basemap.lock.json` (279 MB). Without it, the dev server proxies BAM's site. |
-| `make data` | `future-sync` (BAM's future lines), `present` (GTFS from 511, Amtrak and BART, plus BRT lanes from OpenStreetMap; 511 needs `TRANSIT_511_API_KEY`, and BRT needs `overpass-api.de` reachable), `past` (past geometry rebuilt from `data/past/*/trace.json`, using OpenHistoricalMap's ways, USGS sheets and today's street centerlines; `make past-review` draws each traced feature over its map), then `app-data` (the app files in `data/app/`). The steps run individually too. |
+| `make data` | `future-sync` (BAM's future lines), `present` (GTFS from 511, Amtrak and BART, plus BRT lanes from OpenStreetMap; 511 needs `TRANSIT_511_API_KEY`, and BRT needs `overpass-api.de` reachable), `past` (past geometry rebuilt from `data/past/*/trace.json`, after `street_routes` cuts the lines in `data/past/*/routes.json` into street segments, using OpenHistoricalMap's ways, USGS sheets and today's street centerlines; `make past-review` draws each traced feature over its map), then `app-data` (the app files in `data/app/`). The steps run individually too. |
 | `npm run dev` | Dev server on http://127.0.0.1:5173. |
 | `npm test` | Schemas, data rules, future-status freshness and theme contrast. Validation lives only here. |
 | `npm run e2e` | Playwright: eras, hover and select, keyboard, reduced motion, mobile, deep links. |

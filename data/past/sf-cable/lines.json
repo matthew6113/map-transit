@@ -171,7 +171,10 @@
           "segment": "sf-sutter-market-larkin"
         },
         {
-          "segment": "sf-sutter-larkin-presidio"
+          "segment": "sf-sutter-larkin-fillmore"
+        },
+        {
+          "segment": "sf-sutter-fillmore-presidio"
         }
       ],
       "sources": [
@@ -467,7 +470,10 @@
           "segment": "muni-cable-washington-jackson"
         },
         {
-          "segment": "sf-jackson-hyde-steiner"
+          "segment": "sf-jackson-hyde-fillmore"
+        },
+        {
+          "segment": "sf-jackson-fillmore-steiner"
         },
         {
           "segment": "sf-steiner-jackson-washington"
@@ -777,7 +783,19 @@
       "summary": "San Francisco's first street railroad: steam dummies from 3rd St out Market St and Valencia St to 16th St.",
       "route": [
         {
-          "segment": "muni-f-market-kearny-haight",
+          "segment": "muni-f-market-kearny-powell",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes",
+          "note": "From 3rd St, which meets Market St at the Kearny St corner"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight",
           "note": "From 3rd St, which meets Market St at the Kearny St corner"
         },
         {
@@ -834,10 +852,22 @@
           "note": "To the ferries at the foot of Market St"
         },
         {
-          "segment": "muni-f-market-1st-kearny"
+          "segment": "muni-f-market-1st-sutter"
         },
         {
-          "segment": "muni-f-market-kearny-haight"
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
         },
         {
           "segment": "muni-f-market-haight-valencia"
@@ -904,10 +934,22 @@
           "note": "To the ferries at the foot of Market St"
         },
         {
-          "segment": "muni-f-market-1st-kearny"
+          "segment": "muni-f-market-1st-sutter"
         },
         {
-          "segment": "muni-f-market-kearny-haight"
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "muni-f-market-mcallister-hayes"
+        },
+        {
+          "segment": "muni-f-market-hayes-haight"
         },
         {
           "segment": "sf-haight-market-stanyan"

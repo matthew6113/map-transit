@@ -50,6 +50,7 @@ past: tools
 	$(PY) transit_pipeline.water register
 	$(PY) transit_pipeline.counties register
 	$(PY) transit_pipeline.ohm fetch
+	$(PY) transit_pipeline.street_routes
 	$(PY) transit_pipeline.past
 
 past-review: past

@@ -230,6 +230,27 @@ describe('provenance', () => {
     }
   });
 
+  it('draws a line for the dates a source shows it running only where its own dates are missing (decision 20)', () => {
+    for (const f of folders) {
+      for (const l of f.lines) {
+        const running = (l.running ?? []) as { date: string; source: string }[];
+        if (!running.length) continue;
+        const dates = running.map((x) => x.date);
+        // Only where opening or closing isn't sourced; they're for drawing, not instead of dates.
+        expect(l.opened === null || l.closed === null, `${l.id}: running dates, but both ends are sourced`).toBe(true);
+        for (const x of running) {
+          expect(sourceIds, `${l.id} running ${x.date} cites ${x.source}`).toContain(x.source);
+          expect((l.sources as { source: string }[]).map((s) => s.source), `${l.id}: cite ${x.source} in sources too`).toContain(x.source);
+          if (l.opened) expect(atOrBefore(l.opened as string, x.date), `${l.id}: running ${x.date} before it opened`).toBe(true);
+          if (l.closed) expect(atOrBefore(x.date, l.closed as string), `${l.id}: running ${x.date} after it closed`).toBe(true);
+        }
+        for (const r of l.route as { segment: string; running?: string[] }[]) {
+          for (const d of r.running ?? []) expect(dates, `${l.id} on ${r.segment}: running ${d} isn't one of the line's`).toContain(d);
+        }
+      }
+    }
+  });
+
   it('flags a page cited second-hand only on a record that cites a book (decision 11)', () => {
     const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
     for (const { kind, p } of all) {
