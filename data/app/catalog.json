@@ -6955,15 +6955,15 @@
         37.81612
       ],
       "fids": [
-        832,
-        833,
-        834,
-        835,
-        836,
-        837,
-        838,
-        839,
-        840
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851
       ],
       "segments": [
         {
@@ -7297,21 +7297,21 @@
         37.824321
       ],
       "fids": [
-        814,
-        815,
-        816,
-        817,
-        818,
-        819,
-        820,
-        821,
-        822
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833
       ],
       "segments": [
         {
           "id": "sp-alameda-mole",
           "name": "Alameda Mole",
-          "opened": null,
+          "opened": "1884-03-15",
           "closed": null,
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
@@ -7321,9 +7321,9 @@
           "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
           "structure": "mole",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "The South Pacific Coast's mole, opened in 1884; the Southern Pacific's electric trains used it from 1911."
         },
         {
           "id": "bbr-sf-loop",
@@ -7432,7 +7432,7 @@
         {
           "id": "sp-central-encinal",
           "name": "Central Avenue and Encinal Avenue, Alameda",
-          "opened": null,
+          "opened": "1878-06-01",
           "closed": null,
           "borrowed": true,
           "undated": false,
@@ -7440,9 +7440,9 @@
           "method": "Along today's Central Avenue centerline from Webster Street to Encinal Avenue (1150 m; Overture 2026-09-23.1); then along today's Encinal Avenue centerline from Central Avenue to High Street (3102 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Central Avenue and Encinal Avenue.",
           "structure": "street",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "The South Pacific Coast's main line of 1878 through Alameda; the Southern Pacific's electric trains ran on it from 1911."
         }
       ],
       "sources": [
@@ -7608,6 +7608,23 @@
             "opened"
           ],
           "note": "The \"south side electric line\" opened in part on June 1, 1911, from High Street to the Alameda mole (San Francisco Call, June 3)."
+        },
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "35",
+          "note": "\"From Alameda Mole to Alameda Point March 15, 1884.\""
         },
         {
           "id": "usgs-san-francisco-1915",
@@ -9533,21 +9550,21 @@
         37.824321
       ],
       "fids": [
-        823,
-        824,
-        825,
-        826,
-        827,
-        828,
-        829,
-        830,
-        831
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842
       ],
       "segments": [
         {
           "id": "sp-alameda-mole",
           "name": "Alameda Mole",
-          "opened": null,
+          "opened": "1884-03-15",
           "closed": null,
           "to": "1939-01-15",
           "note": "Until the trains moved to the Bay Bridge",
@@ -9557,9 +9574,9 @@
           "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
           "structure": "mole",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "The South Pacific Coast's mole, opened in 1884; the Southern Pacific's electric trains used it from 1911."
         },
         {
           "id": "bbr-sf-loop",
@@ -9830,6 +9847,23 @@
             "route"
           ],
           "note": "Announced the day before: electric service on the \"horseshoe route\" from the Oakland pier to the Alameda pier, by way of Lincoln Avenue, beginning the morning of December 19, 1911."
+        },
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "35",
+          "note": "\"From Alameda Mole to Alameda Point March 15, 1884.\""
         },
         {
           "id": "usgs-san-francisco-1915",
@@ -10687,21 +10721,21 @@
         37.891351
       ],
       "fids": [
-        790,
-        791,
-        792,
-        793,
-        794,
-        795,
-        796,
-        797,
-        798,
-        799,
-        800,
         801,
         802,
         803,
-        804
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815
       ],
       "segments": [
         {
@@ -27652,14 +27686,14 @@
         37.7762
       ],
       "fids": [
-        860,
-        861,
-        862,
-        863,
-        864,
-        865,
-        866,
-        867
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879
       ],
       "segments": [
         {
@@ -27936,19 +27970,20 @@
         37.7762
       ],
       "fids": [
-        847,
-        848,
-        849,
-        850,
-        851,
-        852,
-        853,
-        854,
-        855,
-        856,
-        857,
         858,
-        859
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870,
+        871
       ],
       "segments": [
         {
@@ -31921,15 +31956,15 @@
         37.824321
       ],
       "fids": [
-        805,
-        806,
-        807,
-        808,
-        809,
-        810,
-        811,
-        812,
-        813
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824
       ],
       "segments": [
         {
@@ -32428,17 +32463,6 @@
         37.891481
       ],
       "fids": [
-        770,
-        771,
-        772,
-        773,
-        774,
-        775,
-        776,
-        777,
-        778,
-        779,
-        780,
         781,
         782,
         783,
@@ -32447,7 +32471,18 @@
         786,
         787,
         788,
-        789
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800
       ],
       "segments": [
         {
@@ -33015,6 +33050,561 @@
           ],
           "pages": "2",
           "note": "\"Beyond Northbrae the rail line followed unpaved private right of way through the tunnel to The Alameda, a distance of less than one-half mile.\""
+        }
+      ]
+    },
+    {
+      "id": "spc-alameda-santa-cruz",
+      "name": "South Pacific Coast, Alameda to Santa Cruz",
+      "short_name": "South Pacific Coast",
+      "system": "south-pacific-coast",
+      "system_name": "South Pacific Coast Railway",
+      "operators": [
+        {
+          "name": "South Pacific Coast Railroad",
+          "from": "1878-06-01",
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1878-06-01",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A narrow-gauge railroad from the ferry at Alameda across the marshes to Newark, Santa Clara and San José, then up Los Gatos Creek and through the Santa Cruz Mountains to Felton and Santa Cruz.",
+      "continues_beyond": "Felton and Santa Cruz",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Leased to the Southern Pacific from July 1, 1887 (Poor's Manual, 1900); standard-gauged later. When its trains ended isn't sourced: the map draws the line to 1900, the last date a source shows it running (decision 20). In 1940 the Southern Pacific still ran two trains a day from Oakland Pier to San José by Newark (CRC Decision 32804). Its branches to Oakland, Centerville, New Almaden and Boulder Creek aren't drawn as lines of their own.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1900",
+          "source": "poors-1900",
+          "pages": "616-617",
+          "note": "The Southern Pacific's lines: \"South Pac. Coast Ry. (narrow gauge): Alameda to Santa Cruz 77.6\" miles, with its ferry from San Francisco to Alameda."
+        }
+      ],
+      "undated": false,
+      "length_km": 97.89,
+      "confidence_km": {
+        "digitized": 7.6,
+        "surveyed": 90.29
+      },
+      "bbox": [
+        -122.330874,
+        37.131052,
+        -121.902583,
+        37.796576
+      ],
+      "fids": [
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780
+      ],
+      "segments": [
+        {
+          "id": "sp-alameda-mole",
+          "name": "Alameda Mole",
+          "opened": "1884-03-15",
+          "closed": null,
+          "from": "1884-03-15",
+          "note": "The mole from March 15, 1884; before it, Alameda Point, not placed here.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
+          "structure": "mole",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The South Pacific Coast's mole, opened in 1884; the Southern Pacific's electric trains used it from 1911."
+        },
+        {
+          "id": "spc-alameda-west",
+          "name": "West Alameda, from the mole to Central Avenue",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to sp-alameda-mole at its end; then OpenHistoricalMap way 200223559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS San Francisco 1895 topographic map, cut from -122.29160,37.78730 and to -122.27688,37.77144; checked on USGS San Francisco 1:62,500 (1899). OpenHistoricalMap's way, traced from the 1895 San Francisco sheet, cut where it leaves the mole line and where it reaches Central Avenue.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "From the mole south across west Alameda to Central Avenue. It opened partly in 1878 (from Alameda Point) and partly in 1884 (to the mole), but where Alameda Point was isn't placed here, so it shows with its line's dates."
+        },
+        {
+          "id": "sp-central-encinal",
+          "name": "Central Avenue and Encinal Avenue, Alameda",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Central Avenue centerline from Webster Street to Encinal Avenue (1150 m; Overture 2026-09-23.1); then along today's Encinal Avenue centerline from Central Avenue to High Street (3102 m; Overture 2026-09-23.1); checked on USGS Oakland West 1:24,000 (1949). In Central Avenue and Encinal Avenue.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The South Pacific Coast's main line of 1878 through Alameda; the Southern Pacific's electric trains ran on it from 1911."
+        },
+        {
+          "id": "spc-alameda-newark",
+          "name": "Alameda to Newark, across San Leandro Bay and by Alvarado",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.03253,37.52506; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line joins today's track east of Newark.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Across San Leandro Bay on a trestle and south along the marshes by Alvarado to Newark, where it joins today's track. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Newark junction and Santa Clara Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Santa Clara Amtrak and San José, the line's end (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
+        },
+        {
+          "id": "caltrain-santa-cruz-branch",
+          "name": "Polhemus Street to San Carlos Street, by Diridon",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 18 shapes run by 260 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Polhemus Street junction and San Carlos Street junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Santa Cruz branch's older track, which the main line took over on December 31, 1935; when it first carried passengers isn't sourced. The San Carlos St cut is where the 1943 San Jose sheet draws the new line leaving the branch."
+        },
+        {
+          "id": "spc-san-jose-los-gatos",
+          "name": "San José to Los Gatos, by Campbell",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 198540836, 198748406 (CC0, as of 2026-10-15), which OHM's mappers drew from https://www.santacruztrains.com/2019/10/railroads-south-pacific-coast-railroad.html, cut to -121.98013,37.22860; checked on USGS San Jose 1:62,500 (1899), USGS San Jose West 1:24,000 (1953) and USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos as the 1919 sheet labels it.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "South from San José by Campbell to Los Gatos. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "spc-los-gatos-alma",
+          "name": "Los Gatos to Alma, up Los Gatos Creek",
+          "opened": "1878-08-01",
+          "closed": null,
+          "from": "1878-08-01",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 198748406, 200446433, 200446431 (CC0, as of 2026-10-15), cut from -121.98013,37.22860 and to -121.98747,37.18369; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos and at Alma as the 1919 sheet labels them.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Up the canyon of Los Gatos Creek; Alma and Lexington are under Lexington Reservoir today. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "spc-alma-wrights",
+          "name": "Alma to Wrights",
+          "opened": "1879-05-01",
+          "closed": null,
+          "from": "1879-05-01",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200446431, 200446430, 200446426, 200446425, 200446424, 200444386, 200444385, 200444384, 200444383, 200444382, 200444381 (CC0, as of 2026-10-15), cut from -121.98747,37.18369 and to -121.94827,37.13924; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Alma and at Wrights as the 1919 sheet labels them.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "On up the creek to Wrights, at the north end of the summit tunnel. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "spc-wrights-county-line",
+          "name": "Wrights into the summit tunnel, to the Santa Cruz County line",
+          "opened": "1880-05",
+          "closed": null,
+          "from": "1880-05",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200444381, 200444380, 200444379, 200444378, 200444377, 200444376 (CC0, as of 2026-10-15), cut from -121.94827,37.13924; cut where it leaves the Bay Area's nine counties (2.2 km beyond left out, decision 16); checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, Wrights Tunnel among them.",
+          "structure": "tunnel",
+          "flags": [
+            "closed_unsourced",
+            "conflicting_sources"
+          ],
+          "notes": "Into the tunnel under the summit, toward Felton and Santa Cruz; cut at the county line (decision 16)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "35",
+          "note": "Opened for public use stretch by stretch, 1878-80."
+        },
+        {
+          "id": "poors-1900",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1900",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualrail00poorgoog",
+          "license": "Public domain (published 1900)",
+          "accessed": "2026-10-15",
+          "source": "poors-1900",
+          "supports": [
+            "route",
+            "gauge"
+          ],
+          "pages": "616-617"
+        },
+        {
+          "id": "wood-1883",
+          "title": "History of Alameda County, California",
+          "publisher": "M. W. Wood, Oakland",
+          "date": "1883",
+          "type": "book",
+          "url": "https://archive.org/details/historyofalamed00munr",
+          "license": "Public domain (published 1883)",
+          "accessed": "2026-10-15",
+          "source": "wood-1883",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "833",
+          "note": "\"On June 1, 1878, the cars began to run regularly between Alameda and Los Gatos, Santa Clara County, connecting with the ferry between Alameda Point and San Francisco.\""
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200223559"
+        },
+        {
+          "id": "crc-d33732",
+          "title": "Railroad Commission of the State of California, Decision No. 33732 (Application No. 23312): Interurban Electric Railway: the Alameda lines and their substitute service",
+          "author": "Railroad Commission of the State of California",
+          "date": "1940-12-17",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D33732_19401217_A23312.pdf",
+          "type": "official",
+          "license": "California public record (Railroad Commission of the State of California); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "crc-d33732",
+          "supports": [
+            "route"
+          ],
+          "pages": "7–9",
+          "note": "The two Alameda lines \"operate generally over parallel tracks throughout the entire residential portion of the city\"; the substitute buses followed \"the same streets now traversed by the rail lines east of Webster Street\" (p. 9): Lincoln Avenue; Central Avenue and Encinal Avenue."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-leandro-1948",
+          "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Leandro_300123_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-leandro-1948",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-niles-1953",
+          "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-niles-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened"
+          ],
+          "note": "January 16, 1864: \"The line is completed to San Jose.\""
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "crc-d20559",
+          "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1928-12-05",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20559_19281205_A14948.pdf",
+          "accessed": "2026-10-14",
+          "source": "crc-d20559",
+          "supports": [
+            "route"
+          ],
+          "note": "The new line follows \"the existing College Park to Santa Cruz Branch\" \"to a point near San Carlos street\"."
+        },
+        {
+          "id": "sp-bulletin-1936-01",
+          "title": "Southern Pacific Bulletin, January 1936",
+          "publisher": "Southern Pacific Company",
+          "date": "1936-01",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_002087",
+          "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+          "accessed": "2026-10-14",
+          "source": "sp-bulletin-1936-01",
+          "supports": [
+            "route"
+          ],
+          "pages": "7",
+          "note": "\"proceeds along the route of the Santa Cruz Branch\""
+        },
+        {
+          "id": "usgs-san-jose-1899",
+          "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_298900_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-jose-1899",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-jose-west-1953",
+          "title": "San Jose West, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose%20West_300105_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-san-jose-west-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-los-gatos-1919",
+          "title": "Los Gatos, Cal., topographic quadrangle, 1:62,500, 1919, printed 1942",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1919",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Los%20Gatos_298061_1919_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-los-gatos-1919",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-divisions-2026-09-23-1",
+          "title": "Overture Maps Foundation, divisions theme (county areas), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/divisions/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-divisions-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
         }
       ]
     },
@@ -34782,12 +35372,12 @@
         37.803847
       ],
       "fids": [
-        841,
-        842,
-        843,
-        844,
-        845,
-        846
+        852,
+        853,
+        854,
+        855,
+        856,
+        857
       ],
       "segments": [
         {
@@ -34873,7 +35463,7 @@
         {
           "id": "sp-alameda-mole",
           "name": "Alameda Mole",
-          "opened": null,
+          "opened": "1884-03-15",
           "closed": null,
           "note": "To Alameda Pier and its ferries",
           "borrowed": true,
@@ -34882,9 +35472,9 @@
           "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The railroad on the south jetty of the estuary's Deep Water Channel, from the ferry terminal to the junction at Alameda's west shore. Filled over by 1949, so traced from 1915.",
           "structure": "mole",
           "flags": [
-            "opened_unsourced",
             "closed_unsourced"
-          ]
+          ],
+          "notes": "The South Pacific Coast's mole, opened in 1884; the Southern Pacific's electric trains used it from 1911."
         }
       ],
       "sources": [
@@ -35022,6 +35612,23 @@
           "supports": [
             "geometry"
           ]
+        },
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "35",
+          "note": "\"From Alameda Mole to Alameda Point March 15, 1884.\""
         }
       ]
     },
@@ -35060,8 +35667,8 @@
         37.789032
       ],
       "fids": [
-        116,
-        117
+        122,
+        123
       ],
       "segments": [
         {
@@ -35161,7 +35768,7 @@
         37.801379
       ],
       "fids": [
-        115
+        121
       ],
       "segments": [
         {
@@ -35271,7 +35878,7 @@
         37.79567
       ],
       "fids": [
-        228
+        234
       ],
       "segments": [
         {
@@ -35456,7 +36063,7 @@
         37.86921
       ],
       "fids": [
-        135
+        141
       ],
       "segments": [
         {
@@ -35541,13 +36148,13 @@
         37.80994
       ],
       "fids": [
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
       ],
       "segments": [
         {
@@ -35755,8 +36362,8 @@
         37.41049
       ],
       "fids": [
-        252,
-        253
+        258,
+        259
       ],
       "segments": [
         {
@@ -35827,8 +36434,8 @@
         37.79367
       ],
       "fids": [
-        142,
-        143
+        148,
+        149
       ],
       "segments": [
         {
@@ -36134,17 +36741,17 @@
         37.7762
       ],
       "fids": [
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
         125,
         126,
         127,
         128,
-        129
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
       ],
       "segments": [
         {
@@ -36424,9 +37031,9 @@
         "license_unclear"
       ],
       "undated": false,
-      "length_km": 275.72,
+      "length_km": 275.7,
       "confidence_km": {
-        "surveyed": 275.72
+        "surveyed": 275.7
       },
       "bbox": [
         -122.360192,
@@ -36435,9 +37042,6 @@
         38.902995
       ],
       "fids": [
-        38,
-        39,
-        40,
         41,
         42,
         43,
@@ -36449,7 +37053,13 @@
         49,
         50,
         51,
-        52
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
       ],
       "segments": [
         {
@@ -36507,6 +37117,45 @@
           "flags": [
             "opened_unsourced"
           ]
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Santa Clara Amtrak and San José, the line's end (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Newark junction and Santa Clara Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "cc-centerville-newark",
+          "name": "Centerville (Fremont) to Newark",
+          "opened": "1882-02-18",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Fremont and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
         },
         {
           "id": "capitol-corridor-undated-2",
@@ -36708,6 +37357,34 @@
           "note": "\"From Benicia to Suisun December 28, 1879.\""
         },
         {
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened"
+          ],
+          "note": "January 16, 1864: \"The line is completed to San Jose.\""
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+        },
+        {
           "id": "halley-1876",
           "title": "The Centennial Year Book of Alameda County, California",
           "author": "William Halley",
@@ -36766,9 +37443,9 @@
         "license_unclear"
       ],
       "undated": true,
-      "length_km": 353.66,
+      "length_km": 353.61,
       "confidence_km": {
-        "surveyed": 353.66
+        "surveyed": 353.61
       },
       "bbox": [
         -122.360192,
@@ -36788,11 +37465,54 @@
         34,
         35,
         36,
-        37
+        37,
+        38,
+        39,
+        40
       ],
       "segments": [
         {
           "id": "amtrak-coast-starlight-undated-1",
+          "name": "Coast Starlight, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Santa Clara Amtrak and San José, the line's end (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Newark junction and Santa Clara Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "amtrak-coast-starlight-undated-2",
           "name": "Coast Starlight, part not yet dated",
           "opened": null,
           "closed": null,
@@ -36819,7 +37539,7 @@
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "amtrak-coast-starlight-undated-2",
+          "id": "amtrak-coast-starlight-undated-3",
           "name": "Coast Starlight, part not yet dated",
           "opened": null,
           "closed": null,
@@ -36926,7 +37646,7 @@
           "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
         },
         {
-          "id": "amtrak-coast-starlight-undated-3",
+          "id": "amtrak-coast-starlight-undated-4",
           "name": "Coast Starlight, part not yet dated",
           "opened": null,
           "closed": null,
@@ -36959,21 +37679,32 @@
           ]
         },
         {
-          "id": "halley-1876",
-          "title": "The Centennial Year Book of Alameda County, California",
-          "author": "William Halley",
-          "publisher": "William Halley, Oakland",
-          "date": "1876",
-          "type": "book",
-          "url": "https://archive.org/details/centennialyearbo00hall",
-          "license": "Public domain (published 1876)",
-          "accessed": "2026-10-15",
-          "source": "halley-1876",
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
           "supports": [
             "opened"
           ],
-          "pages": "280-281",
-          "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
+          "note": "January 16, 1864: \"The line is completed to San Jose.\""
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
         },
         {
           "id": "ca-brc-report-1894",
@@ -36989,8 +37720,25 @@
           "supports": [
             "opened"
           ],
-          "pages": "31",
-          "note": "The Central Pacific's return: \"To San Francisco … About December 1, 1869.\""
+          "pages": "35",
+          "note": "\"From Alameda Point to Los Gatos June 1, 1878\", through Newark and Santa Clara."
+        },
+        {
+          "id": "halley-1876",
+          "title": "The Centennial Year Book of Alameda County, California",
+          "author": "William Halley",
+          "publisher": "William Halley, Oakland",
+          "date": "1876",
+          "type": "book",
+          "url": "https://archive.org/details/centennialyearbo00hall",
+          "license": "Public domain (published 1876)",
+          "accessed": "2026-10-15",
+          "source": "halley-1876",
+          "supports": [
+            "opened"
+          ],
+          "pages": "280-281",
+          "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
         },
         {
           "id": "ca-brc-report-10",
@@ -37059,12 +37807,6 @@
         37.80862
       ],
       "fids": [
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
         160,
         161,
         162,
@@ -37072,7 +37814,13 @@
         164,
         165,
         166,
-        167
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173
       ],
       "segments": [
         {
@@ -37320,11 +38068,11 @@
         38.057994
       ],
       "fids": [
-        130,
-        131,
-        132,
-        133,
-        134
+        136,
+        137,
+        138,
+        139,
+        140
       ],
       "segments": [
         {
@@ -37410,15 +38158,15 @@
         37.80994
       ],
       "fids": [
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
         67,
         68,
-        69
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
       ],
       "segments": [
         {
@@ -37662,8 +38410,8 @@
         37.41132
       ],
       "fids": [
-        254,
-        255
+        260,
+        261
       ],
       "segments": [
         {
@@ -37735,7 +38483,7 @@
         37.79689
       ],
       "fids": [
-        229
+        235
       ],
       "segments": [
         {
@@ -37805,18 +38553,18 @@
         37.79443
       ],
       "fids": [
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
         174,
         175,
         176,
         177,
         178,
-        179
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
       ],
       "segments": [
         {
@@ -38107,17 +38855,17 @@
         37.79443
       ],
       "fids": [
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
         186,
         187,
         188,
         189,
-        190
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196
       ],
       "segments": [
         {
@@ -38370,16 +39118,16 @@
         37.79443
       ],
       "fids": [
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
         197,
         198,
         199,
-        200
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
       ],
       "segments": [
         {
@@ -38637,7 +39385,7 @@
         37.94473
       ],
       "fids": [
-        136
+        142
       ],
       "segments": [
         {
@@ -38720,17 +39468,17 @@
         37.79443
       ],
       "fids": [
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
         207,
         208,
         209,
         210,
-        211
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
       ],
       "segments": [
         {
@@ -38974,18 +39722,18 @@
         37.79443
       ],
       "fids": [
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
         218,
         219,
         220,
         221,
         222,
-        223
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229
       ],
       "segments": [
         {
@@ -39303,8 +40051,8 @@
         37.79853
       ],
       "fids": [
-        230,
-        231
+        236,
+        237
       ],
       "segments": [
         {
@@ -39376,7 +40124,7 @@
         37.75358
       ],
       "fids": [
-        70
+        76
       ],
       "segments": [
         {
@@ -39471,7 +40219,7 @@
         37.79417
       ],
       "fids": [
-        232
+        238
       ],
       "segments": [
         {
@@ -39556,14 +40304,14 @@
         37.93674
       ],
       "fids": [
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
         77,
-        78
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
       ],
       "segments": [
         {
@@ -39786,13 +40534,13 @@
         37.41578
       ],
       "fids": [
-        256,
-        257,
-        258,
-        259,
-        260,
-        261,
-        262
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268
       ],
       "segments": [
         {
@@ -39954,12 +40702,12 @@
         37.806637
       ],
       "fids": [
-        144,
-        145,
-        146,
-        147,
-        148,
-        149
+        150,
+        151,
+        152,
+        153,
+        154,
+        155
       ],
       "segments": [
         {
@@ -40102,10 +40850,10 @@
         37.805226
       ],
       "fids": [
-        150,
-        151,
-        152,
-        153
+        156,
+        157,
+        158,
+        159
       ],
       "segments": [
         {
@@ -40237,7 +40985,7 @@
         37.361934
       ],
       "fids": [
-        118
+        124
       ],
       "segments": [
         {
@@ -40346,12 +41094,6 @@
         37.93674
       ],
       "fids": [
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
         85,
         86,
         87,
@@ -40361,7 +41103,13 @@
         91,
         92,
         93,
-        94
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
       ],
       "segments": [
         {
@@ -40682,8 +41430,8 @@
         37.90948
       ],
       "fids": [
-        233,
-        234
+        239,
+        240
       ],
       "segments": [
         {
@@ -40780,13 +41528,13 @@
         37.63509
       ],
       "fids": [
-        239,
-        240,
-        241,
-        242,
-        243,
-        244,
-        245
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251
       ],
       "segments": [
         {
@@ -40871,11 +41619,11 @@
         38.549119
       ],
       "fids": [
-        246,
-        247,
-        248,
-        249,
-        250
+        252,
+        253,
+        254,
+        255,
+        256
       ],
       "segments": [
         {
@@ -41093,8 +41841,8 @@
         37.85629
       ],
       "fids": [
-        137,
-        138
+        143,
+        144
       ],
       "segments": [
         {
@@ -41177,8 +41925,8 @@
         37.80034
       ],
       "fids": [
-        235,
-        236
+        241,
+        242
       ],
       "segments": [
         {
@@ -41262,10 +42010,10 @@
         37.794812
       ],
       "fids": [
-        224,
-        225,
-        226,
-        227
+        230,
+        231,
+        232,
+        233
       ],
       "segments": [
         {
@@ -41402,7 +42150,7 @@
         37.87257
       ],
       "fids": [
-        53
+        59
       ],
       "segments": [
         {
@@ -41472,8 +42220,8 @@
         37.87273
       ],
       "fids": [
-        139,
-        140
+        145,
+        146
       ],
       "segments": [
         {
@@ -41557,7 +42305,7 @@
         37.81667
       ],
       "fids": [
-        251
+        257
       ],
       "segments": [
         {
@@ -41643,7 +42391,7 @@
         37.87273
       ],
       "fids": [
-        141
+        147
       ],
       "segments": [
         {
@@ -41714,8 +42462,8 @@
         38.10147
       ],
       "fids": [
-        237,
-        238
+        243,
+        244
       ],
       "segments": [
         {
@@ -41800,12 +42548,6 @@
         38.02385
       ],
       "fids": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
         101,
         102,
         103,
@@ -41819,7 +42561,13 @@
         111,
         112,
         113,
-        114
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
       ],
       "segments": [
         {

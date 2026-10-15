@@ -1891,6 +1891,14 @@
         "Niles": [
           -121.977096,
           37.577468
+        ],
+        "Newark junction": [
+          -122.032535,
+          37.525056
+        ],
+        "San José, the line's end": [
+          -121.903237,
+          37.331308
         ]
       },
       "segments": [
@@ -2085,6 +2093,70 @@
             }
           ],
           "notes": "The Western Pacific's line of 1869 from Niles, opened for public use September 8, 1869 (its first train reached San Leandro on the 6th); OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Niles, where the old line went on east into Niles Canyon."
+        },
+        {
+          "id": "cc-centerville-newark",
+          "name": "Centerville (Fremont) to Newark",
+          "line": "capitol-corridor",
+          "from": "Fremont",
+          "to": "Newark junction",
+          "opened": "1882-02-18",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "The South Pacific Coast's return: \"From Newark to Centreville February 18, 1882.\""
+            }
+          ],
+          "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "line": "capitol-corridor",
+          "from": "Newark junction",
+          "to": "Santa Clara Amtrak",
+          "opened": "1878-06-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "\"From Alameda Point to Los Gatos June 1, 1878\", through Newark and Santa Clara."
+            }
+          ],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "line": "capitol-corridor",
+          "from": "Santa Clara Amtrak",
+          "to": "San José, the line's end",
+          "opened": "1864-01-16",
+          "sources": [
+            {
+              "source": "caltrain-early-milestones",
+              "supports": [
+                "opened"
+              ],
+              "note": "January 16, 1864: \"The line is completed to San Jose.\""
+            },
+            {
+              "source": "sf-business-directory-1864",
+              "supports": [
+                "opened"
+              ],
+              "pages": "283",
+              "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+            }
+          ],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
         }
       ]
     },

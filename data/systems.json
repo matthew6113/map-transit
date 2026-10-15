@@ -174,6 +174,12 @@
       "short_name": "SMART"
     },
     {
+      "id": "south-pacific-coast",
+      "name": "South Pacific Coast Railway",
+      "short_name": "South Pacific Coast",
+      "notes": "A narrow-gauge railroad from Alameda by Newark and San José to Los Gatos (1878) and over the Santa Cruz Mountains to Santa Cruz (1880), leased to the Southern Pacific from 1887."
+    },
+    {
       "id": "southern-pacific",
       "name": "Southern Pacific Company",
       "short_name": "Southern Pacific",

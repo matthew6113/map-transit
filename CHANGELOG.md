@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: The South Pacific Coast
+
+- **South Pacific Coast, Alameda to Santa Cruz** (`south-pacific-coast/`): from the Alameda mole
+  through Alameda, across San Leandro Bay and the marshes to Newark, on today's track by Santa Clara
+  to San José, then by Campbell, Los Gatos, Alma and Wrights to the summit tunnel and the Santa Cruz
+  County line. Each stretch opens as the railroad's return to the Commissioners gives it (June 1,
+  1878 to May 1880); its end isn't sourced, so it is drawn to 1900 (*Poor's Manual*, decision 20).
+- The Alameda mole now opens March 15, 1884, and Central and Encinal Avenues in Alameda June 1,
+  1878, as the South Pacific Coast's.
+- The Capitol Corridor's track from Centerville to Newark (February 18, 1882), Newark to Santa
+  Clara (June 1, 1878) and Santa Clara to San José (the San Francisco & San José's of 1864) is dated.
+- Two USGS sheets added: Los Gatos 1919 and San Jose West 1953.
+
 ## 2026-10-15: The Central Pacific of 1869
 
 - **Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass**, from the first

@@ -26,6 +26,7 @@ running.
 | San Mateo interurban (No. 40) | 5th and Market by Mission St and its private right of way to Burlingame and San Mateo | Running in 1903 (*Street Railway Journal*), 1909 (Manley) and 1929 (O'Shaughnessy); last day January 15, 1949 (SF PUC 1948–49) | Today's centerlines; OpenHistoricalMap's right of way, checked on the 1949–50 sheets |
 | San Francisco & North Pacific, Northwestern Pacific | Trains from Donahue and from Tiburon to Cloverdale, the Guerneville branch, and the NWP's trains to Eureka | The Railroad Commissioners' tenth report and *Poor's Manual* (openings by stretch, 1870–85); CPUC Decision 57488 (1958); running dates for the rest (decision 20) | SMART's track (dated by stretch); OpenHistoricalMap's ways beyond it |
 | Central Pacific | Oakland to Sacramento by Niles and the Altamont Pass (1869–1941) and by the Benicia train ferry (1879–1930); to San José by Milpitas (1869–1940) | The Railroad Commissioners' reports (the Northern Railway's openings, 1876–79); *SP Bulletin* (the 1930 bridge) | The Capitol Corridor's track, dated by stretch; the ferry over water; Niles Canyon, the Altamont Pass, Milpitas and Benicia's waterfront from OpenHistoricalMap, checked on the 1952–53 sheets |
+| South Pacific Coast | Alameda by Newark and San José to the Santa Cruz County line | The railroad's return in the Commissioners' report of 1894 (1878–80); running in 1900 (*Poor's*), decision 20 | The Capitol Corridor's and Caltrain's track; OpenHistoricalMap, checked on the sheets of 1899–1953 |
 
 ## Not drawn yet, and what each needs
 

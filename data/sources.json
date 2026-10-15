@@ -3033,6 +3033,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 292401, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 49f21b20428602659fd101ca2859a8b2c21decddec1c26b17c658e001e42dd36."
     },
     {
+      "id": "usgs-los-gatos-1919",
+      "title": "Los Gatos, Cal., topographic quadrangle, 1:62,500, 1919, printed 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1919",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Los%20Gatos_298061_1919_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1916, edition of 1919. HTMC scan 298061, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 d7dfaf400d1addd8d5653538950ce283822e4ca38e4b7bf887cfade0e3152e90."
+    },
+    {
       "id": "usgs-midway-1953",
       "title": "Midway, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
       "author": "U.S. Geological Survey",
@@ -3223,6 +3235,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, edition of 1943. HTMC scan 466308, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 54f2629b73699450c0fb8bde6565086fac4099489250165ae19e727c93ed3d3c."
+    },
+    {
+      "id": "usgs-san-jose-west-1953",
+      "title": "San Jose West, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose%20West_300105_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 300105, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 797624721dd4eb47830327491598e3c3e00bd78c0fca52e4954b1a3676d3b160."
     },
     {
       "id": "usgs-san-leandro-1948",

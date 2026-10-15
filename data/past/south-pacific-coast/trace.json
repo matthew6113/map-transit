@@ -1,0 +1,149 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the South Pacific Coast off today's track, from OpenHistoricalMap's ways (ohm.py), checked on the USGS sheets.",
+ "segments": {
+  "spc-alameda-west": {
+   "parts": [
+    {
+     "join": "sp-alameda-mole",
+     "at": "end"
+    },
+    {
+     "ohm": [
+      200223559
+     ],
+     "from": [
+      -122.2916,
+      37.7873
+     ],
+     "to": [
+      -122.276878,
+      37.771445
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-francisco-1899"
+   ],
+   "note": "OpenHistoricalMap's way, traced from the 1895 San Francisco sheet, cut where it leaves the mole line and where it reaches Central Avenue"
+  },
+  "spc-alameda-newark": {
+   "parts": [
+    {
+     "join": "sp-central-encinal",
+     "at": "end"
+    },
+    {
+     "ohm": [
+      200236874,
+      200223560,
+      198748559
+     ],
+     "from": [
+      -122.234149,
+      37.756229
+     ],
+     "to": [
+      -122.032535,
+      37.525056
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-leandro-1948",
+    "usgs-niles-1953"
+   ],
+   "note": "OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line joins today's track east of Newark"
+  },
+  "spc-san-jose-los-gatos": {
+   "parts": [
+    {
+     "ohm": [
+      198540836,
+      198748406
+     ],
+     "to": [
+      -121.980132,
+      37.2286
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-jose-1899",
+    "usgs-san-jose-west-1953",
+    "usgs-los-gatos-1919"
+   ],
+   "note": "OpenHistoricalMap's ways, cut at Los Gatos as the 1919 sheet labels it"
+  },
+  "spc-los-gatos-alma": {
+   "parts": [
+    {
+     "ohm": [
+      198748406,
+      200446433,
+      200446431
+     ],
+     "from": [
+      -121.980132,
+      37.2286
+     ],
+     "to": [
+      -121.987471,
+      37.183694
+     ]
+    }
+   ],
+   "check": "usgs-los-gatos-1919",
+   "note": "OpenHistoricalMap's ways, cut at Los Gatos and at Alma as the 1919 sheet labels them"
+  },
+  "spc-alma-wrights": {
+   "parts": [
+    {
+     "ohm": [
+      200446431,
+      200446430,
+      200446426,
+      200446425,
+      200446424,
+      200444386,
+      200444385,
+      200444384,
+      200444383,
+      200444382,
+      200444381
+     ],
+     "from": [
+      -121.987471,
+      37.183694
+     ],
+     "to": [
+      -121.948272,
+      37.139237
+     ]
+    }
+   ],
+   "check": "usgs-los-gatos-1919",
+   "note": "OpenHistoricalMap's ways, cut at Alma and at Wrights as the 1919 sheet labels them"
+  },
+  "spc-wrights-county-line": {
+   "parts": [
+    {
+     "ohm": [
+      200444381,
+      200444380,
+      200444379,
+      200444378,
+      200444377,
+      200444376
+     ],
+     "from": [
+      -121.948272,
+      37.139237
+     ]
+    }
+   ],
+   "clip": "county",
+   "check": "usgs-los-gatos-1919",
+   "note": "OpenHistoricalMap's ways, Wrights Tunnel among them"
+  }
+ }
+}

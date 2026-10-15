@@ -1,0 +1,117 @@
+{
+  "$comment": "Hand-edited (docs/SCHEMA.md). The South Pacific Coast. Research: docs/research/sources-2c/railroads.md, section 5.",
+  "lines": [
+    {
+      "id": "spc-alameda-santa-cruz",
+      "name": "South Pacific Coast, Alameda to Santa Cruz",
+      "short_name": "South Pacific Coast",
+      "system": "south-pacific-coast",
+      "operators": [
+        {
+          "name": "South Pacific Coast Railroad",
+          "from": "1878-06-01",
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "era": "past",
+      "opened": "1878-06-01",
+      "closed": null,
+      "status": "closed",
+      "running": [
+        {
+          "date": "1900",
+          "source": "poors-1900",
+          "pages": "616-617",
+          "note": "The Southern Pacific's lines: \"South Pac. Coast Ry. (narrow gauge): Alameda to Santa Cruz 77.6\" miles, with its ferry from San Francisco to Alameda."
+        }
+      ],
+      "summary": "A narrow-gauge railroad from the ferry at Alameda across the marshes to Newark, Santa Clara and San José, then up Los Gatos Creek and through the Santa Cruz Mountains to Felton and Santa Cruz.",
+      "continues_beyond": "Felton and Santa Cruz",
+      "route": [
+        {
+          "segment": "sp-alameda-mole",
+          "from": "1884-03-15",
+          "note": "The mole from March 15, 1884; before it, Alameda Point, not placed here."
+        },
+        {
+          "segment": "spc-alameda-west"
+        },
+        {
+          "segment": "sp-central-encinal"
+        },
+        {
+          "segment": "spc-alameda-newark"
+        },
+        {
+          "segment": "cc-newark-santa-clara"
+        },
+        {
+          "segment": "cc-santa-clara-san-jose"
+        },
+        {
+          "segment": "caltrain-santa-cruz-branch"
+        },
+        {
+          "segment": "spc-san-jose-los-gatos"
+        },
+        {
+          "segment": "spc-los-gatos-alma",
+          "from": "1878-08-01"
+        },
+        {
+          "segment": "spc-alma-wrights",
+          "from": "1879-05-01"
+        },
+        {
+          "segment": "spc-wrights-county-line",
+          "from": "1880-05"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "35",
+          "note": "Opened for public use stretch by stretch, 1878-80."
+        },
+        {
+          "source": "poors-1900",
+          "supports": [
+            "route",
+            "gauge"
+          ],
+          "pages": "616-617"
+        },
+        {
+          "source": "wood-1883",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "833",
+          "note": "\"On June 1, 1878, the cars began to run regularly between Alameda and Los Gatos, Santa Clara County, connecting with the ferry between Alameda Point and San Francisco.\""
+        }
+      ],
+      "flags": [
+        "closed_unsourced"
+      ],
+      "notes": "Leased to the Southern Pacific from July 1, 1887 (Poor's Manual, 1900); standard-gauged later. When its trains ended isn't sourced: the map draws the line to 1900, the last date a source shows it running (decision 20). In 1940 the Southern Pacific still ran two trains a day from Oakland Pier to San José by Newark (CRC Decision 32804). Its branches to Oakland, Centerville, New Almaden and Boulder Creek aren't drawn as lines of their own."
+    }
+  ]
+}

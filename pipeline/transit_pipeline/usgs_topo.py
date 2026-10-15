@@ -129,6 +129,9 @@ SHEETS = [
     Sheet("usgs-altamont-1953", "Altamont", 24000, 1953, "287935", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
     Sheet("usgs-midway-1953", "Midway", 24000, 1953, "292938", 1955, "7.5-minute sheet, aerial photographs of 1950, edition of 1953"),
     Sheet("usgs-milpitas-1953", "Milpitas", 24000, 1953, "292969", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    # The South Pacific Coast from San Jose over the mountains toward Santa Cruz.
+    Sheet("usgs-los-gatos-1919", "Los Gatos", 62500, 1919, "298061", 1942, "15-minute sheet, surveyed 1916, edition of 1919"),
+    Sheet("usgs-san-jose-west-1953", "San Jose West", 24000, 1953, "300105", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

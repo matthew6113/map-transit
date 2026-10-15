@@ -98,6 +98,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'present-smart', url: '/?era=present&test=1#map=9.6/38.2000/-122.6500/0/0' },
   { name: 'past-line-cp-benicia', url: '/l/cp-oakland-sacramento-benicia?era=past&year=1900&test=1&at=99' },
   { name: 'past-carquinez-1900', url: '/?era=past&year=1900&test=1#map=12.6/38.0450/-122.1550/0/0' },
+  { name: 'past-line-spc', url: '/l/spc-alameda-santa-cruz?era=past&year=1895&test=1&at=99' },
 ];
 
 async function settle(page: Page) {
