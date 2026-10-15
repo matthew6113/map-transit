@@ -70,7 +70,7 @@
       "mode": "ferry",
       "era": "past",
       "opened": "1927-06-16",
-      "closed": null,
+      "closed": "1937-08",
       "status": "closed",
       "summary": "Auto ferries from Hyde Street Pier to the end of a long pier from the foot of University Ave in Berkeley.",
       "fate": "abandoned",
@@ -96,15 +96,13 @@
         {
           "source": "crc-d29999",
           "supports": [
-            "general"
+            "closed"
           ],
-          "note": "Authorized in August 1937 to suspend the San Francisco-Berkeley route for six months."
+          "note": "Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17)."
         }
       ],
-      "flags": [
-        "closed_unsourced"
-      ],
-      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999); when it last ran isn't sourced, so it is left off the year slider."
+      "flags": [],
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999). When it last ran isn't sourced, so it closes on or about the month of the order (decision 17)."
     },
     {
       "id": "vallejo-ferry",

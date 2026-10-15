@@ -1728,10 +1728,10 @@
         37.788015
       ],
       "fids": [
-        118,
-        119,
-        120,
-        121
+        134,
+        135,
+        136,
+        137
       ],
       "segments": [
         {
@@ -1882,16 +1882,16 @@
         37.793407
       ],
       "fids": [
-        122,
-        123,
-        124,
-        125,
-        126,
-        127,
-        128,
-        129,
-        130,
-        131
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
       ],
       "segments": [
         {
@@ -2769,14 +2769,14 @@
         37.793407
       ],
       "fids": [
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
       ],
       "segments": [
         {
@@ -3179,7 +3179,7 @@
       "closed": "1941-04-05",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they also ran on Market St to the Ferry Building.",
+      "summary": "Cable cars over the hill on Castro St from 18th St to 26th St; until 1906 they came along Market St from Valencia St.",
       "fate": "converted_to_bus",
       "fate_note": "Replaced by the No. 24 bus on April 6, 1941 (Callwell p. 41).",
       "traction": [
@@ -3189,25 +3189,62 @@
           "to": null
         }
       ],
-      "notes": "Its run on Market St from Valencia St to Castro St, until 1906, is drawn with the Market St lines.",
+      "notes": "Until 1906 it ran on Market St from Valencia St to Castro St (Callwell p. 81), drawn over today's F track there.",
       "flags": [
         "conflicting_sources"
       ],
       "undated": false,
-      "length_km": 1.42,
+      "length_km": 3.54,
       "confidence_km": {
-        "digitized": 1.42
+        "digitized": 1.62,
+        "surveyed": 1.92
       },
       "bbox": [
-        -122.435014,
+        -122.4352,
         37.748095,
-        -122.433802,
-        37.760891
+        -122.422621,
+        37.772502
       ],
       "fids": [
-        117
+        117,
+        118,
+        119,
+        120
       ],
       "segments": [
+        {
+          "id": "muni-f-market-st",
+          "name": "Market St, 17th & Castro to Valencia St",
+          "opened": null,
+          "closed": null,
+          "to": "1906",
+          "note": "On Market St from Valencia St until 1906",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 17th St & Castro St and Market St & Valencia St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records. The F's Market St track east of Valencia St is cut into the stretches above."
+        },
+        {
+          "id": "sf-castro-market-18th",
+          "name": "Castro St, Market St to 18th St",
+          "opened": "1888",
+          "closed": null,
+          "to": "1906",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Castro Street centerline from Market Street to 18th Street (198 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The link from Market St to the Castro St cable line's track at 18th St, implied by its run on Market St until 1906; after 1906 the cable ran only from 18th St (Callwell p. 41)."
+        },
         {
           "id": "sf-castro-18th-26th",
           "name": "Castro St, 18th St to 26th St",
@@ -3252,6 +3289,19 @@
             "general"
           ],
           "note": "\"Cable cars operated on a portion of Castro Street until 1944.\" Callwell's 1941 is taken."
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
         },
         {
           "id": "usgs-san-francisco-north-1950",
@@ -3452,19 +3502,19 @@
         37.806482
       ],
       "fids": [
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -3877,21 +3927,21 @@
         37.80035
       ],
       "fids": [
-        132,
-        133,
-        134,
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
       ],
       "segments": [
         {
@@ -4294,15 +4344,15 @@
         37.824321
       ],
       "fids": [
-        225,
-        226,
-        227,
-        228,
-        229,
-        230,
-        231,
-        232,
-        233
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
       ],
       "segments": [
         {
@@ -4782,14 +4832,14 @@
         37.805981
       ],
       "fids": [
-        168,
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
       ],
       "segments": [
         {
@@ -5222,16 +5272,16 @@
         37.806482
       ],
       "fids": [
-        176,
-        177,
-        178,
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
       ],
       "segments": [
         {
@@ -5507,6 +5557,195 @@
       ]
     },
     {
+      "id": "sf-haight-st-cable",
+      "name": "Haight Street cable line",
+      "system": "market-street-cable-railway",
+      "system_name": "Market Street Cable Railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1883-09",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1883-09",
+      "closed": "1906",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars from the ferries up Market St and out Haight St to Stanyan St, at Golden Gate Park.",
+      "fate": "abandoned",
+      "fate_note": "Ended with the earthquake and fire of 1906 (Callwell p. 21).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1883-09",
+          "to": "1906"
+        }
+      ],
+      "notes": "Dated to 1906, the year the earthquake ended Market St's cable lines; the last day isn't given.",
+      "flags": [],
+      "undated": false,
+      "length_km": 6.0,
+      "confidence_km": {
+        "digitized": 2.82,
+        "surveyed": 3.18
+      },
+      "bbox": [
+        -122.453554,
+        37.769174,
+        -122.396101,
+        37.793407
+      ],
+      "fids": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "note": "To the ferries at the foot of Market St",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-f-market-kearny-haight",
+          "name": "Market St, Kearny St to Haight St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Kearny St and Market St & Haight St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "sf-haight-market-stanyan",
+          "name": "Haight St, Market St to Stanyan St",
+          "opened": "1883-09",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Haight Street centerline from Market Street to Stanyan Street (2824 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The Haight St cable line, 1883 to 1906."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ],
+          "pages": "10",
+          "note": "The Haight St line opened in September 1883."
+        },
+        {
+          "id": "sf-public-transit-history-1948",
+          "title": "History of public transit in San Francisco, 1850–1948",
+          "publisher": "City and County of San Francisco",
+          "date": "1948-06",
+          "type": "official",
+          "url": "https://archive.org/details/historyofpublict1947sanf",
+          "accessed": "2026-10-14",
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "route"
+          ],
+          "pages": "16",
+          "note": "From Market St to Stanyan St (OCR)."
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ggf-hyde-berkeley",
       "name": "Hyde Street–Berkeley auto ferry",
       "system": "golden-gate-ferries",
@@ -5528,16 +5767,14 @@
       "group": "ferry",
       "era": "past",
       "opened": "1927-06-16",
-      "closed": null,
+      "closed": "1937-08",
       "status": "closed",
       "status_label": "Closed",
       "summary": "Auto ferries from Hyde Street Pier to the end of a long pier from the foot of University Ave in Berkeley.",
       "fate": "abandoned",
-      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999); when it last ran isn't sourced, so it is left off the year slider.",
-      "flags": [
-        "closed_unsourced"
-      ],
-      "undated": true,
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999). When it last ran isn't sourced, so it closes on or about the month of the order (decision 17).",
+      "flags": [],
+      "undated": false,
       "length_km": 6.75,
       "confidence_km": {
         "approximate": 6.75
@@ -5557,8 +5794,8 @@
           "name": "Ferry, Hyde Street to the Berkeley pier",
           "opened": "1927-06-16",
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "approximate",
           "method": "The shortest path over today's water from -122.42076,37.80985 to -122.36038,37.84042 (6763 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
           "structure": null,
@@ -5607,9 +5844,9 @@
           "accessed": "2026-10-14",
           "source": "crc-d29999",
           "supports": [
-            "general"
+            "closed"
           ],
-          "note": "Authorized in August 1937 to suspend the San Francisco-Berkeley route for six months."
+          "note": "Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17)."
         },
         {
           "id": "overture-base-2026-09-23-1",
@@ -6022,15 +6259,15 @@
         37.824321
       ],
       "fids": [
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240,
-        241,
-        242
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
       ],
       "segments": [
         {
@@ -6450,6 +6687,384 @@
       ]
     },
     {
+      "id": "sf-market-valencia-cable",
+      "name": "Market Street cable line, by Valencia St",
+      "system": "market-street-cable-railway",
+      "system_name": "Market Street Cable Railway",
+      "operators": [
+        {
+          "name": "Market Street Cable Railway",
+          "from": "1883-08-22",
+          "to": "1906"
+        }
+      ],
+      "mode": "cable",
+      "mode_label": "Cable car",
+      "group": "cable",
+      "era": "past",
+      "opened": "1883-08-22",
+      "closed": "1906",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Cable cars from the ferries up Market St and out Valencia St to Mission St, the trunk of the Market Street Cable Railway.",
+      "fate": "abandoned",
+      "fate_note": "The cable lines on Market St ended with the earthquake and fire of 1906; electric streetcars ran \"on Market to Castro and on Market and Valencia to 28th St.\" within days of May 3, 1906 (Callwell p. 21).",
+      "traction": [
+        {
+          "type": "cable",
+          "from": "1883-08-22",
+          "to": "1906"
+        }
+      ],
+      "notes": "Dated to 1906, the year the earthquake ended Market St's cable lines (Callwell p. 21); the last day isn't given.",
+      "flags": [],
+      "undated": false,
+      "length_km": 6.27,
+      "confidence_km": {
+        "digitized": 2.99,
+        "surveyed": 3.28
+      },
+      "bbox": [
+        -122.422648,
+        37.745603,
+        -122.396101,
+        37.793407
+      ],
+      "fids": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-drumm-1st",
+          "name": "Market St, Drumm St to 1st St",
+          "opened": null,
+          "closed": null,
+          "note": "To the ferries at the foot of Market St",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Drumm St and Market St & 1st St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at 1st St, where streetcars turned for the Transbay Terminal after March 21, 1949 (Callwell p. 46)."
+        },
+        {
+          "id": "muni-f-market-1st-kearny",
+          "name": "Market St, 1st St to Kearny St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & 1st St and Market St & Kearny St (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
+        },
+        {
+          "id": "muni-f-market-kearny-haight",
+          "name": "Market St, Kearny St to Haight St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Kearny St and Market St & Haight St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "muni-f-market-haight-valencia",
+          "name": "Market St, Haight St to Valencia St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Haight St and Market St & Valencia St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Valencia St, where the steam dummy (1860) and the Valencia St cable line (1883) left Market St."
+        },
+        {
+          "id": "sf-valencia-market-16th",
+          "name": "Valencia St, Market St to 16th St",
+          "opened": "1860-07-15",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Valencia Street centerline from Market Street to 16th Street (844 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The steam dummy's track of 1860 to 16th St; the Valencia St cable line ran on it from 1883."
+        },
+        {
+          "id": "sf-valencia-16th-mission",
+          "name": "Valencia St, 16th St to Mission St",
+          "opened": "1883-08-22",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Valencia Street centerline from 16th Street to Mission Street (2154 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). The North sheet covers it as far south as Cesar Chavez St; the last few blocks are on the South sheet.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The Valencia St cable line's run to Mission St, 1883 to 1906."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "route",
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "August 22, 1883: \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\""
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-south-1950",
+          "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-south-1950",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sf-market-st-steam-dummy",
+      "name": "Market Street steam dummy",
+      "system": "sf-market-street-railroad",
+      "system_name": "San Francisco Market Street Railroad",
+      "operators": [
+        {
+          "name": "San Francisco Market Street Railroad",
+          "from": "1860-07-15",
+          "to": "1867-03-06"
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1860-07-15",
+      "closed": "1867-03-06",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "San Francisco's first street railroad: steam dummies from 3rd St out Market St and Valencia St to 16th St.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1860-07-15",
+          "to": "1867-03-06"
+        }
+      ],
+      "notes": "Callwell dates the steam dummy from July 15, 1860 to March 6, 1867; what replaced it isn't drawn.",
+      "flags": [],
+      "undated": false,
+      "length_km": 3.22,
+      "confidence_km": {
+        "digitized": 0.84,
+        "surveyed": 2.38
+      },
+      "bbox": [
+        -122.422648,
+        37.764916,
+        -122.403406,
+        37.787654
+      ],
+      "fids": [
+        121,
+        122,
+        123
+      ],
+      "segments": [
+        {
+          "id": "muni-f-market-kearny-haight",
+          "name": "Market St, Kearny St to Haight St",
+          "opened": null,
+          "closed": null,
+          "note": "From 3rd St, which meets Market St at the Kearny St corner",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Kearny St and Market St & Haight St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "muni-f-market-haight-valencia",
+          "name": "Market St, Haight St to Valencia St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Haight St and Market St & Valencia St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Valencia St, where the steam dummy (1860) and the Valencia St cable line (1883) left Market St."
+        },
+        {
+          "id": "sf-valencia-market-16th",
+          "name": "Valencia St, Market St to 16th St",
+          "opened": "1860-07-15",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Valencia Street centerline from Market Street to 16th Street (844 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The steam dummy's track of 1860 to 16th St; the Valencia St cable line ran on it from 1883."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "route",
+            "opened",
+            "closed"
+          ],
+          "pages": "4-6",
+          "note": "The San Francisco Market Street Railroad's steam dummy, \"from 3rd & Market Sts., on Market and Valencia to 16th St.\", July 15, 1860 to March 6, 1867."
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-north-1950",
+          "title": "San Francisco North, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20North_466304_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-north-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "nwp-mill-valley",
       "name": "Mill Valley electric line",
       "system": "northwestern-pacific",
@@ -6651,19 +7266,19 @@
         37.891351
       ],
       "fids": [
-        203,
-        204,
-        205,
-        206,
-        207,
-        208,
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
       ],
       "segments": [
         {
@@ -7366,12 +7981,12 @@
         37.7762
       ],
       "fids": [
-        254,
-        255,
-        256,
-        257,
-        258,
-        259
+        270,
+        271,
+        272,
+        273,
+        274,
+        275
       ],
       "segments": [
         {
@@ -7648,17 +8263,17 @@
         37.7762
       ],
       "fids": [
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252,
-        253
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269
       ],
       "segments": [
         {
@@ -10376,15 +10991,15 @@
         37.824321
       ],
       "fids": [
-        216,
-        217,
-        218,
-        219,
-        220,
-        221,
-        222,
-        223,
-        224
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
       ],
       "segments": [
         {
@@ -10883,23 +11498,23 @@
         37.891481
       ],
       "fids": [
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196,
-        197,
-        198,
-        199,
-        200,
-        201,
-        202
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
       ],
       "segments": [
         {
@@ -13138,7 +13753,7 @@
         37.79567
       ],
       "fids": [
-        189
+        191
       ],
       "segments": [
         {
@@ -13622,8 +14237,8 @@
         37.41049
       ],
       "fids": [
-        211,
-        212
+        213,
+        214
       ],
       "segments": [
         {
@@ -14347,23 +14962,55 @@
         128,
         129,
         130,
-        131
+        131,
+        132,
+        133
       ],
       "segments": [
         {
           "id": "muni-f-market-st",
-          "name": "17th & Castro to Market & Drumm, on Market St",
+          "name": "Market St, 17th & Castro to Valencia St",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 17th St & Castro St and Market St & Drumm St (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between 17th St & Castro St and Market St & Valencia St (data/present/extensions.json)",
           "structure": "street",
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records. The F's Market St track east of Valencia St is cut into the stretches above."
+        },
+        {
+          "id": "muni-f-market-haight-valencia",
+          "name": "Market St, Haight St to Valencia St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Haight St and Market St & Valencia St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Valencia St, where the steam dummy (1860) and the Valencia St cable line (1883) left Market St."
+        },
+        {
+          "id": "muni-f-market-kearny-haight",
+          "name": "Market St, Kearny St to Haight St",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 3 shapes run by 568 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Market St & Kearny St and Market St & Haight St (data/present/extensions.json)",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
         },
         {
           "id": "muni-f-market-1st-kearny",
@@ -14847,8 +15494,8 @@
         37.41132
       ],
       "fids": [
-        213,
-        214
+        215,
+        216
       ],
       "segments": [
         {
@@ -14920,7 +15567,7 @@
         37.79689
       ],
       "fids": [
-        190
+        192
       ],
       "segments": [
         {
@@ -14990,8 +15637,6 @@
         37.79443
       ],
       "fids": [
-        132,
-        133,
         134,
         135,
         136,
@@ -15000,7 +15645,9 @@
         139,
         140,
         141,
-        142
+        142,
+        143,
+        144
       ],
       "segments": [
         {
@@ -15257,8 +15904,6 @@
         37.79443
       ],
       "fids": [
-        143,
-        144,
         145,
         146,
         147,
@@ -15267,7 +15912,9 @@
         150,
         151,
         152,
-        153
+        153,
+        154,
+        155
       ],
       "segments": [
         {
@@ -15520,8 +16167,6 @@
         37.79443
       ],
       "fids": [
-        154,
-        155,
         156,
         157,
         158,
@@ -15529,7 +16174,9 @@
         160,
         161,
         162,
-        163
+        163,
+        164,
+        165
       ],
       "segments": [
         {
@@ -15870,8 +16517,6 @@
         37.79443
       ],
       "fids": [
-        164,
-        165,
         166,
         167,
         168,
@@ -15880,7 +16525,9 @@
         171,
         172,
         173,
-        174
+        174,
+        175,
+        176
       ],
       "segments": [
         {
@@ -16124,8 +16771,6 @@
         37.79443
       ],
       "fids": [
-        175,
-        176,
         177,
         178,
         179,
@@ -16133,7 +16778,9 @@
         181,
         182,
         183,
-        184
+        184,
+        185,
+        186
       ],
       "segments": [
         {
@@ -16388,8 +17035,8 @@
         37.79853
       ],
       "fids": [
-        191,
-        192
+        193,
+        194
       ],
       "segments": [
         {
@@ -16556,7 +17203,7 @@
         37.79417
       ],
       "fids": [
-        193
+        195
       ],
       "segments": [
         {
@@ -16871,13 +17518,13 @@
         37.41578
       ],
       "fids": [
-        215,
-        216,
         217,
         218,
         219,
         220,
-        221
+        221,
+        222,
+        223
       ],
       "segments": [
         {
@@ -17767,8 +18414,8 @@
         37.90948
       ],
       "fids": [
-        194,
-        195
+        196,
+        197
       ],
       "segments": [
         {
@@ -17865,13 +18512,13 @@
         37.63509
       ],
       "fids": [
-        200,
-        201,
         202,
         203,
         204,
         205,
-        206
+        206,
+        207,
+        208
       ],
       "segments": [
         {
@@ -17955,9 +18602,9 @@
         38.549119
       ],
       "fids": [
-        207,
-        208,
-        209
+        209,
+        210,
+        211
       ],
       "segments": [
         {
@@ -18191,8 +18838,8 @@
         37.80034
       ],
       "fids": [
-        196,
-        197
+        198,
+        199
       ],
       "segments": [
         {
@@ -18276,10 +18923,10 @@
         37.794812
       ],
       "fids": [
-        185,
-        186,
         187,
-        188
+        188,
+        189,
+        190
       ],
       "segments": [
         {
@@ -18571,7 +19218,7 @@
         37.81667
       ],
       "fids": [
-        210
+        212
       ],
       "segments": [
         {
@@ -18728,8 +19375,8 @@
         38.10147
       ],
       "fids": [
-        198,
-        199
+        200,
+        201
       ],
       "segments": [
         {

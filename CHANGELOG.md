@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c, Market St's first lines
+
+- **The Market Street steam dummy** (1860-07-15 to 1867-03-06), from 3rd St out Market St and
+  Valencia St to 16th St, San Francisco's first street railroad (Callwell pp. 4–6).
+- **The Market Street Cable Railway's trunk and Valencia St line** (1883-08-22 to 1906) and its
+  **Haight St line** (September 1883 to 1906), from the ferries (Callwell p. 10; the city's 1948
+  transit history p. 16). The Castro St cable line now also runs on Market St from Valencia St until
+  1906.
+- Today's F track on Market St is cut at Haight St and Valencia St, where these lines left it
+  (decision 13).
+- **The Hyde Street–Berkeley ferry closes on or about August 1937,** the month the Railroad
+  Commission let it be suspended (Decision No. 29999; decision 17), and is back on the year slider.
+
 ## 2026-10-15: Phase 2c, the Sacramento Northern to the county line, from OpenHistoricalMap
 
 - **OpenHistoricalMap is in use** (`pipeline/transit_pipeline/ohm.py`, `data/past/ohm.json`), for

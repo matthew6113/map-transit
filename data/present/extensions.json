@@ -563,6 +563,14 @@
         "Market St & Kearny St": [
           -122.403436,
           37.787676
+        ],
+        "Market St & Haight St": [
+          -122.421895,
+          37.773223
+        ],
+        "Market St & Valencia St": [
+          -122.422589,
+          37.772476
         ]
       },
       "segments": [
@@ -1003,11 +1011,61 @@
           "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Kearny St, where Geary St leaves Market St."
         },
         {
+          "id": "muni-f-market-kearny-haight",
+          "name": "Market St, Kearny St to Haight St",
+          "line": "muni-f",
+          "from": "Market St & Kearny St",
+          "to": "Market St & Haight St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "4-6",
+              "note": "The San Francisco Market Street Railroad's steam dummy ran \"from 3rd & Market Sts., on Market and Valencia to 16th St.\" from July 15, 1860."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Haight St, where the Haight St cable line left Market St (1883). 3rd St meets Market St at the Kearny St corner."
+        },
+        {
+          "id": "muni-f-market-haight-valencia",
+          "name": "Market St, Haight St to Valencia St",
+          "line": "muni-f",
+          "from": "Market St & Haight St",
+          "to": "Market St & Valencia St",
+          "opened": null,
+          "structure": "street",
+          "both_ways": true,
+          "sources": [
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "10",
+              "note": "August 22, 1883: the Market Street Cable Railway's line \"from the ferry terminal, on Market and Valencia to Valencia & Mission Sts.\"; its Haight St line followed in September."
+            }
+          ],
+          "notes": "Street track older than the F; when it first carried passengers isn't sourced yet. Cut at Valencia St, where the steam dummy (1860) and the Valencia St cable line (1883) left Market St."
+        },
+        {
           "id": "muni-f-market-st",
-          "name": "17th & Castro to Market & Drumm, on Market St",
+          "name": "Market St, 17th & Castro to Valencia St",
           "line": "muni-f",
           "from": "17th St & Castro St",
-          "to": "Market St & Drumm St",
+          "to": "Market St & Valencia St",
           "opened": null,
           "structure": "street",
           "both_ways": true,
@@ -1019,9 +1077,17 @@
               ],
               "pages": "80",
               "note": "\"The opening of the F Market historic streetcar line on Market St. between 17th & Castro and the Transbay Terminal is celebrated\" (September 1, 1995)."
+            },
+            {
+              "source": "sfmta-callwell-chronology",
+              "supports": [
+                "route"
+              ],
+              "pages": "81",
+              "note": "The Castro St cable line, 1888; until 1906 it ran on Market St from Valencia St."
             }
           ],
-          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records."
+          "notes": "Street track older than the F (Market St carried streetcars until the subway opened); its date is for the San Francisco streetcar records. The F's Market St track east of Valencia St is cut into the stretches above."
         },
         {
           "id": "muni-f-embarcadero",
