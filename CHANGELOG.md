@@ -2,6 +2,13 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-15: Phase 2c checkpoint
+
+- The research passes' readings of the sources are saved in `docs/research/sources-2c/`, and
+  `docs/research/phase-2c.md` says what was drawn and what each system still needs.
+- `npm test` checks that a line drawn by decision 20 starts at its first running date, in the
+  lighter tint.
+
 ## 2026-10-15: Phase 2c, five bay ferries
 
 - **The Oakland Pier ferry** (September 2, 1863 to July 30, 1958; drawn to Oakland Pier from its

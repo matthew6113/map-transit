@@ -489,15 +489,18 @@ def crop(frame: Frame, out: Path, overlay: list[Path] | None = None, px_grid: in
                 continue
             parts = {"LineString": [g["coordinates"]], "MultiLineString": g["coordinates"]}.get(g["type"])
             if parts:
+                # Magenta on a white casing: the 1940s sheets print highways in red.
                 for part in parts:
-                    draw.line([ov_px(*c[:2]) for c in part], fill=(230, 20, 20, 170), width=2)
+                    draw.line([ov_px(*c[:2]) for c in part], fill=(255, 255, 255, 170), width=5)
+                for part in parts:
+                    draw.line([ov_px(*c[:2]) for c in part], fill=(200, 0, 190, 220), width=2)
             elif g["type"] == "Point":
                 x, y = ov_px(*g["coordinates"][:2])
-                draw.ellipse([x - 5, y - 5, x + 5, y + 5], outline=(230, 20, 20, 220), width=2)
+                draw.ellipse([x - 5, y - 5, x + 5, y + 5], outline=(200, 0, 190, 230), width=2)
             label = f.get("properties", {}).get("id")
             if label and (parts or g["type"] == "Point"):
                 lx, ly = ov_px(*(parts[0][len(parts[0]) // 2] if parts else g["coordinates"])[:2])
-                draw.text((lx + 6, ly - 6), label, fill=(200, 0, 0, 255), font=font)
+                draw.text((lx + 6, ly - 6), label, fill=(170, 0, 160, 255), font=font)
     for x, y, label in marks or []:
         draw.ellipse([x - 4, y - 4, x + 4, y + 4], outline=(255, 120, 0, 255), width=2)
         if label:

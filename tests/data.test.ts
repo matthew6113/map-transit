@@ -477,6 +477,26 @@ describe('app files (data/app/)', () => {
     expect(slots.get('streetcar')).toEqual(new Set([1]));
   });
 
+  it('draw a line from its first running date, lighter, where its opening is unsourced (decision 20)', () => {
+    const decimal = (d: string) => {
+      const [y, m = 1, day = 1] = d.replace(/~$/, '').split('-').map(Number);
+      return d.split('-').length === 3 ? y + (Date.UTC(y, m - 1, day) - Date.UTC(y, 0, 1)) / 86400000 / 365.25 : y + (m - 1) / 12;
+    };
+    type Feat = { properties: { line: string; open_y: number; close_y: number; borrowed: number; undated: number } };
+    const pieces: Feat[] = read(join(DATA, 'app', 'past-lines.geojson')).features;
+    const lines = catalog.lines as { id: string; opened: string | null; closed: string | null; running?: { date: string }[]; undated: boolean }[];
+    const drawn = lines.filter((l) => l.running?.length && !l.opened);
+    expect(drawn.length).toBeGreaterThan(0);
+    for (const l of drawn) {
+      const mine = pieces.filter((f) => f.properties.line === l.id);
+      expect(l.undated, `${l.id} is on the slider`).toBe(false);
+      expect(mine.every((f) => f.properties.borrowed === 1), `${l.id} drawn lighter`).toBe(true);
+      const first = Math.min(...l.running!.map((r) => decimal(r.date)));
+      expect(Math.min(...mine.map((f) => f.properties.open_y)), `${l.id} starts at its first running date`).toBeCloseTo(first, 2);
+      if (l.closed) expect(Math.max(...mine.map((f) => f.properties.close_y)), `${l.id} ends at its closing`).toBeCloseTo(decimal(l.closed), 2);
+    }
+  });
+
   it('mark points undated or borrowed as they do segments, so past-era points draw (decision 4)', () => {
     for (const era of ERAS) {
       for (const f of read(join(DATA, 'app', `${era}-points.geojson`)).features as { properties: Record<string, number> }[]) {
