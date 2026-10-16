@@ -1338,6 +1338,17 @@
       "notes": "The Southern Pacific's ferry between Vallejo Junction and Vallejo (seven round trips a day), its one round trip (trains 154 and 157) between Vallejo and Calistoga and its two between Vallejo and Suisun-Fairfield, discontinued in favour of Southern Pacific Motor Transport's coaches; the order effective twenty days from its date. The date is the one in the file's name; the OCR of the signed date is unreadable."
     },
     {
+      "id": "crc-d2180",
+      "title": "Railroad Commission of California, Decision No. 2180 (Case No. 176): the valuation of the Mt. Tamalpais & Muir Woods Railway",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1915-02-27",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "Decisions of the Railroad Commission, vol. 6, p. 235: \"the entire line was completed within eight (8) months, the first train being run to the end of the line on August 27, 1896. The Muir Woods branch line was built in 1906.\" On June 30, 1913 the main line was 8.18 miles and the Muir Woods branch 2.40. Read on the page image by the research pass."
+    },
+    {
       "id": "crc-d22212",
       "title": "Railroad Commission of California, Decision No. 22212 (Application No. 16292)",
       "publisher": "Railroad Commission of the State of California",
@@ -1366,6 +1377,17 @@
       "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22672_19300714_A15517.pdf",
       "accessed": "2026-10-15",
       "notes": "p. 5: the Interstate Commerce Commission \"authorized the abandonment of the narrow gauge line of the Northwestern Pacific Railroad company between Point Reyes and Monte Rio, and operation thereof ceased on April 3, 1930\" (OCR, read loosely)."
+    },
+    {
+      "id": "crc-d22765",
+      "title": "Railroad Commission of California, Decision No. 22765 (Application No. 16666)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-08-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22765_19300807_A16666.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: the Mt. Tamalpais & Muir Woods Railway \"authorized to abandon all service upon its railway in the County of Marin, State of California, to surrender its franchise\"; p. 3: \"The authority herein granted shall become effective on the date hereof\", August 7, 1930. Read on the scanned pages."
     },
     {
       "id": "crc-d23279",
@@ -1943,6 +1965,17 @@
       "notes": "Order I, pp. 5-6, gives both routes street by street. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d4927",
+      "title": "Railroad Commission of California, Decision No. 4927 (Application No. 3272)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1917-12-06",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D4927_19171206_A3272.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the railway runs \"from the Northwestern Pacific Railroad station at Mill Valley to the summit of Mount Tamalpais with a branch line to Muir Woods\", with a local service \"through Blythdale Canyon to the station of Lee Street, a distance of 1.12 miles\"; p. 5: authorized \"to discontinue all mountain service on its main line from Mill Valley to the summit of Tamalpais, including the Muir Woods Branch, during the months of November, December, January and February of each year\". Read on the scanned pages by the research pass."
+    },
+    {
       "id": "crc-d5642",
       "title": "Railroad Commission of California, Decision No. 5642 (Application No. 3985)",
       "publisher": "Railroad Commission of the State of California",
@@ -2353,6 +2386,17 @@
       "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
     },
     {
+      "id": "mtmw-timetable-1925",
+      "title": "Mt. Tamalpais and Muir Woods Railway, Circular No. 2: timetable, April 6 to October 31, 1925",
+      "publisher": "Mt. Tamalpais and Muir Woods Railway (Mill Valley Public Library scan)",
+      "date": "1925-04-06",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cmlpl_000744",
+      "license": "Public domain (marked by the library)",
+      "accessed": "2026-10-16",
+      "notes": "\"Steam Train Between Mill Valley, Mt. Tamalpais and Muir Woods. Some Returning Schedules Made by Gravity Cars.\" \"Mill Valley to Mt. Tamalpais 8.19 miles · Mill Valley to Muir Woods 6.98 miles\". Read on the page image by the research pass."
+    },
+    {
       "id": "muni-financial-reports",
       "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
       "publisher": "City and County of San Francisco",
@@ -2610,6 +2654,28 @@
       "notes": "The San Francisco and North Pacific Railroad, p. 873: \"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles\", with branches from Fulton to Guerneville and from Donahue to Junction (Petaluma). Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "poors-1897",
+      "title": "Poor's Manual of the Railroads of the United States, 1897 (vol. 30)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1897",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai30newyuoft",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 845, Tamalpais Ry.: \"Chartered Jan. 16, 1896 ; road opened Aug. 17, 1896.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "poors-1898",
+      "title": "Poor's Manual of the Railroads of the United States, 1898 (vol. 31)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1898",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai31newyuoft",
+      "license": "Public domain (published 1898)",
+      "accessed": "2026-10-16",
+      "notes": "p. 269: \"Chartered Jan. 16, 1896; road opened Aug. 27, 1896.\" Read on the page image by the research pass."
+    },
+    {
       "id": "poors-1900",
       "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
       "author": "Henry V. Poor",
@@ -2620,6 +2686,17 @@
       "license": "Public domain (published 1900)",
       "accessed": "2026-10-15",
       "notes": "The North Pacific Coast Railroad, p. 606: \"Main Line — San Francisco to Cazadero, Cal. (ferry, 6 m.; RR., 80.75 m.)\", with its San Rafael and Mill Valley branches and the leased San Rafael & San Quentin. archive.org's metadata gives the year as 1895 or 1901; its introduction calls it \"Poor's Manual for 1900\"; its reports run to June 30, 1899, with statements to March 31, 1900. A Google scan. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "poors-1902",
+      "title": "Poor's Manual of the Railroads of the United States, 1902 (vol. 35)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1902",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai35newyuoft",
+      "license": "Public domain (published 1902)",
+      "accessed": "2026-10-16",
+      "notes": "p. 619: \"Chartered Jan. 16, 1896; road opened Aug. 26, 1896.\" Read on the page image by the research pass."
     },
     {
       "id": "rag-1912-09-13-guppy",

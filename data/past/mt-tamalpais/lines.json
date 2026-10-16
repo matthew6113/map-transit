@@ -1,0 +1,106 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Mount Tamalpais railway. Research: docs/research/phase-2c.md.",
+ "lines": [
+  {
+   "id": "mt-tamalpais-railway",
+   "name": "Mount Tamalpais railway, Mill Valley to the summit",
+   "short_name": "Mt. Tamalpais railway",
+   "system": "mt-tamalpais-railway",
+   "operators": [
+    {
+     "name": "Mill Valley and Mount Tamalpais Scenic Railway",
+     "from": "1896-08-27",
+     "to": null
+    },
+    {
+     "name": "Mt. Tamalpais and Muir Woods Railway",
+     "from": null,
+     "to": "1930-08"
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": "1896-08-27",
+     "to": "1930-08"
+    }
+   ],
+   "era": "past",
+   "opened": "1896-08-27",
+   "closed": "1930-08",
+   "status": "closed",
+   "summary": "Steam trains from the Northwestern Pacific's station at Mill Valley up Blithedale Canyon and around the Double Bow Knot to the summit of Mount Tamalpais, 8.19 miles; visitors could ride gravity cars back down.",
+   "fate": "rail_trail",
+   "fate_note": "Abandoned under the Railroad Commission's order of August 7, 1930 (Decision No. 22765), after a toll road reached the summit; the grade is a fire road.",
+   "route": [
+    {
+     "segment": "mt-tam-mill-valley-summit"
+    }
+   ],
+   "sources": [
+    {
+     "source": "crc-d2180",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "235",
+     "note": "\"the first train being run to the end of the line on August 27, 1896\"."
+    },
+    {
+     "source": "poors-1897",
+     "supports": [
+      "opened"
+     ],
+     "pages": "845",
+     "note": "\"road opened Aug. 17, 1896\"."
+    },
+    {
+     "source": "poors-1898",
+     "supports": [
+      "opened"
+     ],
+     "pages": "269",
+     "note": "\"road opened Aug. 27, 1896\"."
+    },
+    {
+     "source": "poors-1902",
+     "supports": [
+      "opened"
+     ],
+     "pages": "619",
+     "note": "\"road opened Aug. 26, 1896\"."
+    },
+    {
+     "source": "crc-d4927",
+     "supports": [
+      "route",
+      "general"
+     ],
+     "pages": "1, 5",
+     "note": "From 1917, no mountain trains from November to February; the local to Lee Street ran all year."
+    },
+    {
+     "source": "mtmw-timetable-1925",
+     "supports": [
+      "general"
+     ],
+     "note": "Steam trains, with some returns by gravity car."
+    },
+    {
+     "source": "crc-d22765",
+     "supports": [
+      "closed"
+     ],
+     "pages": "2-3",
+     "note": "Abandonment of all service authorized August 7, 1930, effective that day: on or about August 1930 (decision 17)."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Opens on the Railroad Commission's August 27, 1896, the first train to the end of the line, which Poor's 1898 also gives; Poor's 1897 has August 17 and its 1902 edition August 26. From 1917 its mountain trains stopped each winter. Not drawn: the Muir Woods branch from Mesa (1906 or 1907, extended by 1915), on no sheet in the repo; the annotated 1915 Tamalpais sheet at the Mill Valley Public Library (archive.org cmlpl_000900) would show it, a map to georeference by hand."
+  }
+ ]
+}

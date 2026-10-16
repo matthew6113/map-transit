@@ -127,6 +127,12 @@
       "notes": "Auto ferries across the Carquinez Strait, 1913-1962."
     },
     {
+      "id": "mt-tamalpais-railway",
+      "name": "Mt. Tamalpais & Muir Woods Railway",
+      "short_name": "Mt. Tamalpais railway",
+      "notes": "Built as the Mill Valley & Mount Tamalpais Scenic Railway (1896), \"the crookedest railroad in the world\", from Mill Valley to the summit of Mount Tamalpais, with a branch to Muir Woods from 1906 or 1907; the Mt. Tamalpais & Muir Woods Railway from 1913."
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"

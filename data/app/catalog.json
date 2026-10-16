@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        708,
         709,
         710,
-        711
+        711,
+        712
       ],
       "segments": [
         {
@@ -2526,7 +2526,6 @@
         37.793407
       ],
       "fids": [
-        712,
         713,
         714,
         715,
@@ -2536,7 +2535,8 @@
         719,
         720,
         721,
-        722
+        722,
+        723
       ],
       "segments": [
         {
@@ -3444,7 +3444,6 @@
         37.793407
       ],
       "fids": [
-        738,
         739,
         740,
         741,
@@ -3452,7 +3451,8 @@
         743,
         744,
         745,
-        746
+        746,
+        747
       ],
       "segments": [
         {
@@ -4509,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        345,
-        346
+        346,
+        347
       ],
       "segments": [
         {
@@ -4639,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        369,
         370,
         371,
-        372
+        372,
+        373
       ],
       "segments": [
         {
@@ -6397,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        335
+        336
       ],
       "segments": [
         {
@@ -6661,7 +6661,6 @@
         37.806482
       ],
       "fids": [
-        747,
         748,
         749,
         750,
@@ -6674,7 +6673,8 @@
         757,
         758,
         759,
-        760
+        760,
+        761
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        687
+        688
       ],
       "segments": [
         {
@@ -7244,7 +7244,6 @@
         37.80035
       ],
       "fids": [
-        723,
         724,
         725,
         726,
@@ -7258,7 +7257,8 @@
         734,
         735,
         736,
-        737
+        737,
+        738
       ],
       "segments": [
         {
@@ -7653,7 +7653,6 @@
         37.81612
       ],
       "fids": [
-        876,
         877,
         878,
         879,
@@ -7661,7 +7660,8 @@
         881,
         882,
         883,
-        884
+        884,
+        885
       ],
       "segments": [
         {
@@ -7995,7 +7995,6 @@
         37.824321
       ],
       "fids": [
-        858,
         859,
         860,
         861,
@@ -8003,7 +8002,8 @@
         863,
         864,
         865,
-        866
+        866,
+        867
       ],
       "segments": [
         {
@@ -8500,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        761,
         762,
         763,
         764,
         765,
         766,
         767,
-        768
+        768,
+        769
       ],
       "segments": [
         {
@@ -8798,7 +8798,7 @@
         37.796162
       ],
       "fids": [
-        397
+        398
       ],
       "segments": [
         {
@@ -8907,7 +8907,7 @@
         37.788015
       ],
       "fids": [
-        364
+        365
       ],
       "segments": [
         {
@@ -9049,7 +9049,6 @@
         37.806482
       ],
       "fids": [
-        769,
         770,
         771,
         772,
@@ -9058,7 +9057,8 @@
         775,
         776,
         777,
-        778
+        778,
+        779
       ],
       "segments": [
         {
@@ -9378,14 +9378,14 @@
         37.793407
       ],
       "fids": [
-        389,
         390,
         391,
         392,
         393,
         394,
         395,
-        396
+        396,
+        397
       ],
       "segments": [
         {
@@ -9853,7 +9853,7 @@
         37.785808
       ],
       "fids": [
-        352
+        353
       ],
       "segments": [
         {
@@ -10248,7 +10248,6 @@
         37.824321
       ],
       "fids": [
-        867,
         868,
         869,
         870,
@@ -10256,7 +10255,8 @@
         872,
         873,
         874,
-        875
+        875,
+        876
       ],
       "segments": [
         {
@@ -10737,7 +10737,6 @@
         37.793407
       ],
       "fids": [
-        379,
         380,
         381,
         382,
@@ -10746,7 +10745,8 @@
         385,
         386,
         387,
-        388
+        388,
+        389
       ],
       "segments": [
         {
@@ -11021,12 +11021,12 @@
         37.787654
       ],
       "fids": [
-        373,
         374,
         375,
         376,
         377,
-        378
+        378,
+        379
       ],
       "segments": [
         {
@@ -11345,8 +11345,8 @@
         37.90596
       ],
       "fids": [
-        296,
-        297
+        297,
+        298
       ],
       "segments": [
         {
@@ -11480,6 +11480,237 @@
       ]
     },
     {
+      "id": "mt-tamalpais-railway",
+      "name": "Mount Tamalpais railway, Mill Valley to the summit",
+      "short_name": "Mt. Tamalpais railway",
+      "system": "mt-tamalpais-railway",
+      "system_name": "Mt. Tamalpais & Muir Woods Railway",
+      "operators": [
+        {
+          "name": "Mill Valley and Mount Tamalpais Scenic Railway",
+          "from": "1896-08-27",
+          "to": null
+        },
+        {
+          "name": "Mt. Tamalpais and Muir Woods Railway",
+          "from": null,
+          "to": "1930-08"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1896-08-27",
+      "closed": "1930-08",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Steam trains from the Northwestern Pacific's station at Mill Valley up Blithedale Canyon and around the Double Bow Knot to the summit of Mount Tamalpais, 8.19 miles; visitors could ride gravity cars back down.",
+      "fate": "rail_trail",
+      "fate_note": "Abandoned under the Railroad Commission's order of August 7, 1930 (Decision No. 22765), after a toll road reached the summit; the grade is a fire road.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1896-08-27",
+          "to": "1930-08"
+        }
+      ],
+      "notes": "Opens on the Railroad Commission's August 27, 1896, the first train to the end of the line, which Poor's 1898 also gives; Poor's 1897 has August 17 and its 1902 edition August 26. From 1917 its mountain trains stopped each winter. Not drawn: the Muir Woods branch from Mesa (1906 or 1907, extended by 1915), on no sheet in the repo; the annotated 1915 Tamalpais sheet at the Mill Valley Public Library (archive.org cmlpl_000900) would show it, a map to georeference by hand.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 11.76,
+      "confidence_km": {
+        "surveyed": 11.76
+      },
+      "bbox": [
+        -122.594296,
+        37.906505,
+        -122.547609,
+        37.929178
+      ],
+      "fids": [
+        281
+      ],
+      "segments": [
+        {
+          "id": "mt-tam-mill-valley-summit",
+          "name": "Mill Valley to the summit of Mount Tamalpais, by Blithedale Canyon and the Double Bow Knot",
+          "opened": "1896-08-27",
+          "closed": "1930-08",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200221495 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.54810,37.90650; checked on USGS Tamalpais 1:62,500 (1941) and USGS Tamalpais 1:62,500 (1897). Cut at the Mill Valley depot (today's Depot Plaza, Throckmorton and Miller Aves), where the way joins the Northwestern Pacific's Mill Valley branch; drawn from the 15-minute sheet, so the switchbacks of the Double Bow Knot are simplified. Up Blithedale Canyon it follows today's West Blithedale Ave, as the railroad did; the 1897 sheet itself draws the canyon about 150 m west of where it is, and the 1941 sheet draws the old grade as a road.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Its end is the month of the Railroad Commission's order (decision 17), effective the day it was signed; the last run isn't dated. Much of the grade is a fire road today, the Old Railroad Grade."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d2180",
+          "title": "Railroad Commission of California, Decision No. 2180 (Case No. 176): the valuation of the Mt. Tamalpais & Muir Woods Railway",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-02-27",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d2180",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "235",
+          "note": "\"the first train being run to the end of the line on August 27, 1896\"."
+        },
+        {
+          "id": "poors-1897",
+          "title": "Poor's Manual of the Railroads of the United States, 1897 (vol. 30)",
+          "publisher": "H. V. & H. W. Poor",
+          "date": "1897",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai30newyuoft",
+          "license": "Public domain (published 1897)",
+          "accessed": "2026-10-16",
+          "source": "poors-1897",
+          "supports": [
+            "opened"
+          ],
+          "pages": "845",
+          "note": "\"road opened Aug. 17, 1896\"."
+        },
+        {
+          "id": "poors-1898",
+          "title": "Poor's Manual of the Railroads of the United States, 1898 (vol. 31)",
+          "publisher": "H. V. & H. W. Poor",
+          "date": "1898",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai31newyuoft",
+          "license": "Public domain (published 1898)",
+          "accessed": "2026-10-16",
+          "source": "poors-1898",
+          "supports": [
+            "opened"
+          ],
+          "pages": "269",
+          "note": "\"road opened Aug. 27, 1896\"."
+        },
+        {
+          "id": "poors-1902",
+          "title": "Poor's Manual of the Railroads of the United States, 1902 (vol. 35)",
+          "publisher": "H. V. & H. W. Poor",
+          "date": "1902",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai35newyuoft",
+          "license": "Public domain (published 1902)",
+          "accessed": "2026-10-16",
+          "source": "poors-1902",
+          "supports": [
+            "opened"
+          ],
+          "pages": "619",
+          "note": "\"road opened Aug. 26, 1896\"."
+        },
+        {
+          "id": "crc-d4927",
+          "title": "Railroad Commission of California, Decision No. 4927 (Application No. 3272)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1917-12-06",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D4927_19171206_A3272.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d4927",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "1, 5",
+          "note": "From 1917, no mountain trains from November to February; the local to Lee Street ran all year."
+        },
+        {
+          "id": "mtmw-timetable-1925",
+          "title": "Mt. Tamalpais and Muir Woods Railway, Circular No. 2: timetable, April 6 to October 31, 1925",
+          "publisher": "Mt. Tamalpais and Muir Woods Railway (Mill Valley Public Library scan)",
+          "date": "1925-04-06",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cmlpl_000744",
+          "license": "Public domain (marked by the library)",
+          "accessed": "2026-10-16",
+          "source": "mtmw-timetable-1925",
+          "supports": [
+            "general"
+          ],
+          "note": "Steam trains, with some returns by gravity car."
+        },
+        {
+          "id": "crc-d22765",
+          "title": "Railroad Commission of California, Decision No. 22765 (Application No. 16666)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1930-08-07",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22765_19300807_A16666.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d22765",
+          "supports": [
+            "closed"
+          ],
+          "pages": "2-3",
+          "note": "Abandonment of all service authorized August 7, 1930, effective that day: on or about August 1930 (decision 17)."
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221495"
+        }
+      ]
+    },
+    {
       "id": "sp-ninth-street",
       "name": "Ninth Street line",
       "system": "southern-pacific",
@@ -11530,7 +11761,6 @@
         37.891351
       ],
       "fids": [
-        834,
         835,
         836,
         837,
@@ -11544,7 +11774,8 @@
         845,
         846,
         847,
-        848
+        848,
+        849
       ],
       "segments": [
         {
@@ -12560,7 +12791,6 @@
         37.793407
       ],
       "fids": [
-        398,
         399,
         400,
         401,
@@ -12569,7 +12799,8 @@
         404,
         405,
         406,
-        407
+        407,
+        408
       ],
       "segments": [
         {
@@ -12912,7 +13143,6 @@
         37.79492
       ],
       "fids": [
-        497,
         498,
         499,
         500,
@@ -12922,7 +13152,8 @@
         504,
         505,
         506,
-        507
+        507,
+        508
       ],
       "segments": [
         {
@@ -13653,7 +13884,6 @@
         37.79492
       ],
       "fids": [
-        508,
         509,
         510,
         511,
@@ -13661,7 +13891,8 @@
         513,
         514,
         515,
-        516
+        516,
+        517
       ],
       "segments": [
         {
@@ -15167,7 +15398,6 @@
         37.79492
       ],
       "fids": [
-        517,
         518,
         519,
         520,
@@ -15178,7 +15408,8 @@
         525,
         526,
         527,
-        528
+        528,
+        529
       ],
       "segments": [
         {
@@ -16092,14 +16323,14 @@
         37.79492
       ],
       "fids": [
-        529,
         530,
         531,
         532,
         533,
         534,
         535,
-        536
+        536,
+        537
       ],
       "segments": [
         {
@@ -16845,14 +17076,14 @@
         37.808586
       ],
       "fids": [
-        537,
         538,
         539,
         540,
         541,
         542,
         543,
-        544
+        544,
+        545
       ],
       "segments": [
         {
@@ -17268,7 +17499,6 @@
         37.793407
       ],
       "fids": [
-        545,
         546,
         547,
         548,
@@ -17281,7 +17511,8 @@
         555,
         556,
         557,
-        558
+        558,
+        559
       ],
       "segments": [
         {
@@ -17674,13 +17905,13 @@
         37.784013
       ],
       "fids": [
-        559,
         560,
         561,
         562,
         563,
         564,
-        565
+        565,
+        566
       ],
       "segments": [
         {
@@ -18281,12 +18512,12 @@
         37.805289
       ],
       "fids": [
-        566,
         567,
         568,
         569,
         570,
-        571
+        571,
+        572
       ],
       "segments": [
         {
@@ -19025,7 +19256,6 @@
         37.785729
       ],
       "fids": [
-        572,
         573,
         574,
         575,
@@ -19041,7 +19271,8 @@
         585,
         586,
         587,
-        588
+        588,
+        589
       ],
       "segments": [
         {
@@ -19466,7 +19697,6 @@
         37.793407
       ],
       "fids": [
-        589,
         590,
         591,
         592,
@@ -19487,7 +19717,8 @@
         607,
         608,
         609,
-        610
+        610,
+        611
       ],
       "segments": [
         {
@@ -20311,7 +20542,6 @@
         37.789284
       ],
       "fids": [
-        611,
         612,
         613,
         614,
@@ -20321,7 +20551,8 @@
         618,
         619,
         620,
-        621
+        621,
+        622
       ],
       "segments": [
         {
@@ -20825,14 +21056,14 @@
         37.793407
       ],
       "fids": [
-        408,
         409,
         410,
         411,
         412,
         413,
         414,
-        415
+        415,
+        416
       ],
       "segments": [
         {
@@ -21142,7 +21373,6 @@
         37.793407
       ],
       "fids": [
-        622,
         623,
         624,
         625,
@@ -21159,7 +21389,8 @@
         636,
         637,
         638,
-        639
+        639,
+        640
       ],
       "segments": [
         {
@@ -21591,7 +21822,6 @@
         37.782556
       ],
       "fids": [
-        640,
         641,
         642,
         643,
@@ -21601,7 +21831,8 @@
         647,
         648,
         649,
-        650
+        650,
+        651
       ],
       "segments": [
         {
@@ -21902,12 +22133,12 @@
         37.805042
       ],
       "fids": [
-        651,
         652,
         653,
         654,
         655,
-        656
+        656,
+        657
       ],
       "segments": [
         {
@@ -22132,10 +22363,10 @@
         37.79009
       ],
       "fids": [
-        657,
         658,
         659,
-        660
+        660,
+        661
       ],
       "segments": [
         {
@@ -22366,7 +22597,6 @@
         37.793407
       ],
       "fids": [
-        416,
         417,
         418,
         419,
@@ -22385,7 +22615,8 @@
         432,
         433,
         434,
-        435
+        435,
+        436
       ],
       "segments": [
         {
@@ -22894,7 +23125,6 @@
         37.784013
       ],
       "fids": [
-        688,
         689,
         690,
         691,
@@ -22913,7 +23143,8 @@
         704,
         705,
         706,
-        707
+        707,
+        708
       ],
       "segments": [
         {
@@ -23437,11 +23668,11 @@
         37.789284
       ],
       "fids": [
-        661,
         662,
         663,
         664,
-        665
+        665,
+        666
       ],
       "segments": [
         {
@@ -23655,7 +23886,6 @@
         37.793216
       ],
       "fids": [
-        666,
         667,
         668,
         669,
@@ -23666,7 +23896,8 @@
         674,
         675,
         676,
-        677
+        677,
+        678
       ],
       "segments": [
         {
@@ -24516,7 +24747,6 @@
         37.793407
       ],
       "fids": [
-        436,
         437,
         438,
         439,
@@ -24543,7 +24773,8 @@
         460,
         461,
         462,
-        463
+        463,
+        464
       ],
       "segments": [
         {
@@ -25222,7 +25453,6 @@
         37.793407
       ],
       "fids": [
-        464,
         465,
         466,
         467,
@@ -25231,7 +25461,8 @@
         470,
         471,
         472,
-        473
+        473,
+        474
       ],
       "segments": [
         {
@@ -25582,7 +25813,6 @@
         37.793407
       ],
       "fids": [
-        474,
         475,
         476,
         477,
@@ -25592,7 +25822,8 @@
         481,
         482,
         483,
-        484
+        484,
+        485
       ],
       "segments": [
         {
@@ -26351,7 +26582,6 @@
         37.793407
       ],
       "fids": [
-        485,
         486,
         487,
         488,
@@ -26362,7 +26592,8 @@
         493,
         494,
         495,
-        496
+        496,
+        497
       ],
       "segments": [
         {
@@ -26743,7 +26974,7 @@
         37.977386
       ],
       "fids": [
-        291
+        292
       ],
       "segments": [
         {
@@ -26901,7 +27132,6 @@
         38.464226
       ],
       "fids": [
-        281,
         282,
         283,
         284,
@@ -26910,7 +27140,8 @@
         287,
         288,
         289,
-        290
+        290,
+        291
       ],
       "segments": [
         {
@@ -27408,14 +27639,14 @@
         38.852585
       ],
       "fids": [
-        794,
         795,
         796,
         797,
         798,
         799,
         800,
-        801
+        801,
+        802
       ],
       "segments": [
         {
@@ -27777,11 +28008,11 @@
         37.806637
       ],
       "fids": [
-        347,
         348,
         349,
         350,
-        351
+        351,
+        352
       ],
       "segments": [
         {
@@ -28095,14 +28326,14 @@
         37.7762
       ],
       "fids": [
-        905,
         906,
         907,
         908,
         909,
         910,
         911,
-        912
+        912,
+        913
       ],
       "segments": [
         {
@@ -28379,7 +28610,6 @@
         37.7762
       ],
       "fids": [
-        891,
         892,
         893,
         894,
@@ -28392,7 +28622,8 @@
         901,
         902,
         903,
-        904
+        904,
+        905
       ],
       "segments": [
         {
@@ -28872,9 +29103,9 @@
         38.401111
       ],
       "fids": [
-        298,
         299,
-        300
+        300,
+        301
       ],
       "segments": [
         {
@@ -29168,9 +29399,9 @@
         38.473244
       ],
       "fids": [
-        306,
         307,
-        308
+        308,
+        309
       ],
       "segments": [
         {
@@ -29416,11 +29647,11 @@
         38.445375
       ],
       "fids": [
-        301,
         302,
         303,
         304,
-        305
+        305,
+        306
       ],
       "segments": [
         {
@@ -29778,7 +30009,7 @@
         38.286441
       ],
       "fids": [
-        309
+        310
       ],
       "segments": [
         {
@@ -30589,7 +30820,6 @@
         38.42361
       ],
       "fids": [
-        310,
         311,
         312,
         313,
@@ -30606,7 +30836,8 @@
         324,
         325,
         326,
-        327
+        327,
+        328
       ],
       "segments": [
         {
@@ -31900,12 +32131,12 @@
         37.795493
       ],
       "fids": [
-        336,
         337,
         338,
         339,
         340,
-        341
+        341,
+        342
       ],
       "segments": [
         {
@@ -32233,7 +32464,7 @@
         38.519886
       ],
       "fids": [
-        802
+        803
       ],
       "segments": [
         {
@@ -32415,12 +32646,12 @@
         38.809809
       ],
       "fids": [
-        779,
         780,
         781,
         782,
         783,
-        784
+        784,
+        785
       ],
       "segments": [
         {
@@ -32707,7 +32938,6 @@
         38.809809
       ],
       "fids": [
-        785,
         786,
         787,
         788,
@@ -32715,7 +32945,8 @@
         790,
         791,
         792,
-        793
+        793,
+        794
       ],
       "segments": [
         {
@@ -33201,8 +33432,8 @@
         37.908
       ],
       "fids": [
-        333,
-        334
+        334,
+        335
       ],
       "segments": [
         {
@@ -33440,11 +33671,11 @@
         38.049065
       ],
       "fids": [
-        328,
         329,
         330,
         331,
-        332
+        332,
+        333
       ],
       "segments": [
         {
@@ -33930,10 +34161,10 @@
         37.977386
       ],
       "fids": [
-        292,
         293,
         294,
-        295
+        295,
+        296
       ],
       "segments": [
         {
@@ -34148,7 +34379,6 @@
         37.824321
       ],
       "fids": [
-        849,
         850,
         851,
         852,
@@ -34156,7 +34386,8 @@
         854,
         855,
         856,
-        857
+        857,
+        858
       ],
       "segments": [
         {
@@ -34655,7 +34886,6 @@
         37.891481
       ],
       "fids": [
-        814,
         815,
         816,
         817,
@@ -34674,7 +34904,8 @@
         830,
         831,
         832,
-        833
+        833,
+        834
       ],
       "segments": [
         {
@@ -35305,7 +35536,6 @@
         37.796576
       ],
       "fids": [
-        803,
         804,
         805,
         806,
@@ -35315,7 +35545,8 @@
         810,
         811,
         812,
-        813
+        813,
+        814
       ],
       "segments": [
         {
@@ -35845,9 +36076,9 @@
         38.032436
       ],
       "fids": [
-        913,
         914,
-        915
+        915,
+        916
       ],
       "segments": [
         {
@@ -36097,9 +36328,9 @@
         37.790312
       ],
       "fids": [
-        342,
         343,
-        344
+        344,
+        345
       ],
       "segments": [
         {
@@ -36245,7 +36476,6 @@
         37.789106
       ],
       "fids": [
-        678,
         679,
         680,
         681,
@@ -36253,7 +36483,8 @@
         683,
         684,
         685,
-        686
+        686,
+        687
       ],
       "segments": [
         {
@@ -37386,10 +37617,10 @@
         37.80035
       ],
       "fids": [
-        365,
         366,
         367,
-        368
+        368,
+        369
       ],
       "segments": [
         {
@@ -37730,7 +37961,6 @@
         37.79562
       ],
       "fids": [
-        353,
         354,
         355,
         356,
@@ -37740,7 +37970,8 @@
         360,
         361,
         362,
-        363
+        363,
+        364
       ],
       "segments": [
         {
@@ -37996,12 +38227,12 @@
         37.803847
       ],
       "fids": [
-        885,
         886,
         887,
         888,
         889,
-        890
+        890,
+        891
       ],
       "segments": [
         {

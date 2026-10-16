@@ -1,0 +1,23 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Mount Tamalpais railway from OpenHistoricalMap's way, traced from the 1897 Tamalpais sheet.",
+ "segments": {
+  "mt-tam-mill-valley-summit": {
+   "parts": [
+    {
+     "ohm": [
+      200221495
+     ],
+     "from": [
+      -122.5481,
+      37.9065
+     ]
+    }
+   ],
+   "check": [
+    "usgs-tamalpais-1941",
+    "usgs-tamalpais-1897"
+   ],
+   "note": "Cut at the Mill Valley depot (today's Depot Plaza, Throckmorton and Miller Aves), where the way joins the Northwestern Pacific's Mill Valley branch; drawn from the 15-minute sheet, so the switchbacks of the Double Bow Knot are simplified. Up Blithedale Canyon it follows today's West Blithedale Ave, as the railroad did; the 1897 sheet itself draws the canyon about 150 m west of where it is, and the 1941 sheet draws the old grade as a road"
+  }
+ }
+}

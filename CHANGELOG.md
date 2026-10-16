@@ -2,6 +2,16 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Mount Tamalpais railway
+
+- **Mount Tamalpais railway** (`mt-tamalpais/`): steam trains from the Northwestern Pacific's
+  station at Mill Valley up Blithedale Canyon and around the Double Bow Knot to the summit, 8.19
+  miles. First train to the end of the line August 27, 1896 (CRC Decision 2180; Poor's gives August
+  17, 26 and 27 in different years, flagged); abandonment of all service authorized August 7, 1930
+  (Decision 22765), so it closes on or about August 1930 (decision 17). Drawn from OpenHistoricalMap's
+  way, traced from the 1897 Tamalpais sheet and checked on the 1941 one. The Muir Woods branch
+  (1906 or 1907) isn't drawn: no sheet in the repo shows it.
+
 ## 2026-10-16: The Santa Fe at Point Richmond
 
 - **Santa Fe trains, Stockton to Richmond and Ferry Point** (`santa-fe/`): across the Delta and along
