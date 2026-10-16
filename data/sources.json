@@ -2980,14 +2980,14 @@
       "notes": "p. 17 (scan leaf 16), \"PIEDMONT GETS TRAINS TO S. F.\" Re-read on the page image, October 15, 2026."
     },
     {
-      "id": "ohm-2026-10-15",
-      "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+      "id": "ohm-2026-10-16",
+      "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
       "publisher": "OpenHistoricalMap contributors",
       "url": "https://www.openhistoricalmap.org/",
       "type": "dataset",
       "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-      "accessed": "2026-10-15",
-      "notes": "Read from https://overpass-api.openhistoricalmap.org/api/interpreter (Overpass; timestamp_osm_base 2026-10-15T00:15:59Z): every way tagged railway, every ferry route and the route relations in the pan limits, cached in data/raw/ohm/region.json. Used for geometry only; each segment drawn from it names its way ids, and OHM's dates are pointers."
+      "accessed": "2026-10-16",
+      "notes": "Read from https://overpass-api.openhistoricalmap.org/api/interpreter (Overpass; timestamp_osm_base 2026-10-16T15:44:51Z): every way tagged railway, every ferry route and the route relations in the pan limits, cached in data/raw/ohm/region.json. Used for geometry only; each segment drawn from it names its way ids, and OHM's dates are pointers."
     },
     {
       "id": "organized-labor-1909-05-01",

@@ -3887,7 +3887,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200466319, 200466320 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Calistoga CA 1945 topographic map; USGS St Helena CA 1945 topographic map; checked on USGS St Helena 1:62,500 (1945) and USGS Calistoga 1:62,500 (1945). OpenHistoricalMap's ways, traced from the 1945 St. Helena and Calistoga sheets.",
+          "method": "OpenHistoricalMap ways 200466319, 200466320 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Calistoga CA 1945 topographic map; USGS St Helena CA 1945 topographic map; checked on USGS St Helena 1:62,500 (1945) and USGS Calistoga 1:62,500 (1945). OpenHistoricalMap's ways, traced from the 1945 St. Helena and Calistoga sheets.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -4128,14 +4128,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -4955,7 +4955,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200451850, 200468435 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Pleasanton CA 1906 topographic map; USGS San Jose CA 1897 topographic map; checked on USGS Niles 1:24,000 (1953), USGS Milpitas 1:24,000 (1953) and USGS San Jose 1:62,500 (1943). OpenHistoricalMap's ways, traced from the 1906 Pleasanton and 1897 San Jose sheets.",
+          "method": "OpenHistoricalMap ways 200451850, 200468435 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Pleasanton CA 1906 topographic map; USGS San Jose CA 1897 topographic map; checked on USGS Niles 1:24,000 (1953), USGS Milpitas 1:24,000 (1953) and USGS San Jose 1:62,500 (1943). OpenHistoricalMap's ways, traced from the 1906 Pleasanton and 1897 San Jose sheets.",
           "structure": "surface",
           "flags": [],
           "notes": "The Western Pacific's line of 1866-69 from Niles to San José, open to Sacramento in September 1869; its earlier opening between Niles and San José isn't sourced here."
@@ -5070,14 +5070,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -5245,7 +5245,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200468434, 198748671, 200468292, 200451847 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Pleasanton CA 1906 topographic map; checked on USGS Niles 1:24,000 (1953), USGS La Costa Valley 1:24,000 (1953) and USGS Livermore 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1906 Pleasanton sheet; checked on the 1953 sheets, from photographs of 1948-49, while the track was still there.",
+          "method": "OpenHistoricalMap ways 200468434, 198748671, 200468292, 200451847 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Pleasanton CA 1906 topographic map; checked on USGS Niles 1:24,000 (1953), USGS La Costa Valley 1:24,000 (1953) and USGS Livermore 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1906 Pleasanton sheet; checked on the 1953 sheets, from photographs of 1948-49, while the track was still there.",
           "structure": "surface",
           "flags": [],
           "notes": "The Western Pacific's line of 1869 through Niles Canyon; passenger trains ended on or about January 1941, and the track went later (the Niles Canyon Railway runs on part of it today). Not today's line through the canyon, which is the later Western Pacific's of 1909, ACE's track."
@@ -5258,7 +5258,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 198692748, 199905080 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tesla CA 1907 topographic map; cut where it leaves the Bay Area's nine counties (3.1 km beyond left out, decision 16); checked on USGS Livermore 1:24,000 (1953), USGS Altamont 1:24,000 (1953) and USGS Midway 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1907 Tesla sheet; checked on the 1953 sheets.",
+          "method": "OpenHistoricalMap ways 198692748, 199905080 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Tesla CA 1907 topographic map; cut where it leaves the Bay Area's nine counties (3.1 km beyond left out, decision 16); checked on USGS Livermore 1:24,000 (1953), USGS Altamont 1:24,000 (1953) and USGS Midway 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1907 Tesla sheet; checked on the 1953 sheets.",
           "structure": "surface",
           "flags": [],
           "notes": "Over the Altamont Pass toward Tracy and Stockton; cut at the county line (decision 16)."
@@ -5466,14 +5466,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -5682,7 +5682,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200464960 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Napa CA 1902 topographic map, cut to -122.12801,38.04760; checked on USGS Karquines 1:62,500 (1898) and USGS Benicia 1:24,000 (1952). Cut where it meets today's track near Army Point. OpenHistoricalMap's way was traced from the 1902 Napa sheet (1:125,000); on the 1952 sheet it lies along the waterfront track.",
+          "method": "OpenHistoricalMap way 200464960 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Napa CA 1902 topographic map, cut to -122.12801,38.04760; checked on USGS Karquines 1:62,500 (1898) and USGS Benicia 1:24,000 (1952). Cut where it meets today's track near Army Point. OpenHistoricalMap's way was traced from the 1902 Napa sheet (1:125,000); on the 1952 sheet it lies along the waterfront track.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -5877,14 +5877,14 @@
           "note": "Labelled Southern Pacific, along Benicia's waterfront."
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -7252,7 +7252,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839 (CC0, as of 2026-10-15), which OHM's mappers drew from Menlo Park Historical Assn; checked on USGS Hayward 1:62,500 (1915), USGS Redwood Point 1:24,000 (1948), USGS Palo Alto 1:24,000 (1953) and USGS Newark 1:24,000 (1948). OpenHistoricalMap's ways, from the Peninsula main line at Redwood Junction by Ravenswood and the Dumbarton bridge to the South Pacific Coast's line at Newark.",
+          "method": "OpenHistoricalMap ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839 (CC0, as of 2026-10-16), which OHM's mappers drew from Menlo Park Historical Assn; checked on USGS Hayward 1:62,500 (1915), USGS Redwood Point 1:24,000 (1948), USGS Palo Alto 1:24,000 (1953) and USGS Newark 1:24,000 (1948). OpenHistoricalMap's ways, from the Peninsula main line at Redwood Junction by Ravenswood and the Dumbarton bridge to the South Pacific Coast's line at Newark.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -7476,14 +7476,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -12048,7 +12048,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200221495 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.54810,37.90650; checked on USGS Tamalpais 1:62,500 (1941) and USGS Tamalpais 1:62,500 (1897). Cut at the Mill Valley depot (today's Depot Plaza, Throckmorton and Miller Aves), where the way joins the Northwestern Pacific's Mill Valley branch; drawn from the 15-minute sheet, so the switchbacks of the Double Bow Knot are simplified. Up Blithedale Canyon it follows today's West Blithedale Ave, as the railroad did; the 1897 sheet itself draws the canyon about 150 m west of where it is, and the 1941 sheet draws the old grade as a road.",
+          "method": "OpenHistoricalMap way 200221495 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.54810,37.90650; checked on USGS Tamalpais 1:62,500 (1941) and USGS Tamalpais 1:62,500 (1897). Cut at the Mill Valley depot (today's Depot Plaza, Throckmorton and Miller Aves), where the way joins the Northwestern Pacific's Mill Valley branch; drawn from the 15-minute sheet, so the switchbacks of the Double Bow Knot are simplified. Up Blithedale Canyon it follows today's West Blithedale Ave, as the railroad did; the 1897 sheet itself draws the canyon about 150 m west of where it is, and the 1941 sheet draws the old grade as a road.",
           "structure": "surface",
           "flags": [
             "conflicting_sources"
@@ -12201,14 +12201,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -30015,7 +30015,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200016967, 200012964, 202195641 (CC0, as of 2026-10-15), which OHM's mappers drew from Bromfield. Map of the city of San Mateo, showing the latest additions and subdivisions (1912); San Mateo County subdivision maps; USGS San Mateo 1939 topographic map, https://ngmdb.usgs.gov; checked on USGS San Francisco South 1:24,000 (1950), USGS Montara Mountain 1:24,000 (1949) and USGS San Mateo 1:24,000 (1949). OpenHistoricalMap's main way was traced from the 1939 San Mateo 15-minute sheet; on the 1949-50 sheets it runs within about 20 m of the track.",
+          "method": "OpenHistoricalMap ways 200016967, 200012964, 202195641 (CC0, as of 2026-10-16), which OHM's mappers drew from Bromfield. Map of the city of San Mateo, showing the latest additions and subdivisions (1912); San Mateo County subdivision maps; USGS San Mateo 1939 topographic map, https://ngmdb.usgs.gov; checked on USGS San Francisco South 1:24,000 (1950), USGS Montara Mountain 1:24,000 (1949) and USGS San Mateo 1:24,000 (1949). OpenHistoricalMap's main way was traced from the 1939 San Mateo 15-minute sheet; on the 1949-50 sheets it runs within about 20 m of the track.",
           "structure": "surface",
           "flags": [
             "opened_unsourced"
@@ -30351,14 +30351,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -34718,7 +34718,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to nwp-corte-madera-san-anselmo at its end; then OpenHistoricalMap way 200221492 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.56210,37.97739 and to -122.59200,37.99200; checked on USGS Tamalpais 1:62,500 (1897) and USGS Tamalpais 1:62,500 (1941). Cut at San Anselmo and at Manor as the 1941 sheet labels them. OpenHistoricalMap's way here was traced from the 1897 15-minute sheet: on the 1941 sheet it runs 40-60 m north-east of the track, and a straight join of 97 m meets the electric line's track at San Anselmo. It needs a fit (decision 12) or a trace from a better map.",
+          "method": "Joined to nwp-corte-madera-san-anselmo at its end; then OpenHistoricalMap way 200221492 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.56210,37.97739 and to -122.59200,37.99200; checked on USGS Tamalpais 1:62,500 (1897) and USGS Tamalpais 1:62,500 (1941). Cut at San Anselmo and at Manor as the 1941 sheet labels them. OpenHistoricalMap's way here was traced from the 1897 15-minute sheet: on the 1941 sheet it runs 40-60 m north-east of the track, and a straight join of 97 m meets the electric line's track at San Anselmo. It needs a fit (decision 12) or a trace from a better map.",
           "structure": "surface",
           "flags": [
             "closed_unsourced",
@@ -34734,7 +34734,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200221492, 202387716, 202387717, 202387713 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.59200,37.99200 and to -122.80600,38.06800; checked on USGS Tamalpais 1:62,500 (1897), USGS Petaluma 1:62,500 (1914) and USGS Point Reyes 1:48,000 (1916). Cut at Manor (1941 sheet) and at Point Reyes Station (1916 sheet). From Manor to White's Hill (about 2 km) OpenHistoricalMap's way was traced from the 1897 15-minute sheet and is likely tens of metres off, as it is from San Anselmo to Manor; beyond, its ways follow the railroad on the 1914 and 1916 sheets.",
+          "method": "OpenHistoricalMap ways 200221492, 202387716, 202387717, 202387713 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Tamalpais 1897 topographic map, cut from -122.59200,37.99200 and to -122.80600,38.06800; checked on USGS Tamalpais 1:62,500 (1897), USGS Petaluma 1:62,500 (1914) and USGS Point Reyes 1:48,000 (1916). Cut at Manor (1941 sheet) and at Point Reyes Station (1916 sheet). From Manor to White's Hill (about 2 km) OpenHistoricalMap's way was traced from the 1897 15-minute sheet and is likely tens of metres off, as it is from San Anselmo to Manor; beyond, its ways follow the railroad on the 1914 and 1916 sheets.",
           "structure": "surface",
           "flags": [
             "geometry_unverified"
@@ -34749,7 +34749,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-15), cut from -122.80600,38.06800 and to -122.90400,38.24750; checked on USGS Point Reyes 1:48,000 (1916). Cut at Point Reyes Station and at Tomales as the 1916 sheet labels them.",
+          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-16), cut from -122.80600,38.06800 and to -122.90400,38.24750; checked on USGS Point Reyes 1:48,000 (1916). Cut at Point Reyes Station and at Tomales as the 1916 sheet labels them.",
           "structure": "surface",
           "flags": [],
           "notes": "Along the east shore of Tomales Bay, by Marshall."
@@ -34762,7 +34762,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-15), cut from -122.90400,38.24750 and to -122.94300,38.40500; checked on USGS Point Reyes 1:48,000 (1916) and USGS Sebastopol 1:48,000 (1935). Cut at Tomales (1916 sheet) and at Occidental (1935 sheet); the 1935 sheet, surveyed after the line closed, shows the towns it ran through but not its track.",
+          "method": "OpenHistoricalMap way 202387713 (CC0, as of 2026-10-16), cut from -122.90400,38.24750 and to -122.94300,38.40500; checked on USGS Point Reyes 1:48,000 (1916) and USGS Sebastopol 1:48,000 (1935). Cut at Tomales (1916 sheet) and at Occidental (1935 sheet); the 1935 sheet, surveyed after the line closed, shows the towns it ran through but not its track.",
           "structure": "surface",
           "flags": [],
           "notes": "Howard's station is today's Occidental (Sonoma County history, p. 201). Into Sonoma County by a tunnel (Marin County history, p. 148), not marked separately here."
@@ -34775,7 +34775,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 202387713, 202387714, 202387715 (CC0, as of 2026-10-15), cut from -122.94300,38.40500 and to -123.00200,38.44800; checked on USGS Sebastopol 1:48,000 (1935) and USGS Duncans Mills 1:31,680 (1945). Cut at Occidental (1935 sheet) and at Tyrone (1945 sheet).",
+          "method": "OpenHistoricalMap ways 202387713, 202387714, 202387715 (CC0, as of 2026-10-16), cut from -122.94300,38.40500 and to -123.00200,38.44800; checked on USGS Sebastopol 1:48,000 (1935) and USGS Duncans Mills 1:31,680 (1945). Cut at Occidental (1935 sheet) and at Tyrone (1945 sheet).",
           "structure": "surface",
           "flags": [],
           "notes": "Down Dutch Bill Creek toward the Russian River."
@@ -34788,7 +34788,7 @@
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-15), cut from -123.00200,38.44800 and to -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Tyrone and at Monte Rio as the 1945 sheet labels them.",
+          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-16), cut from -123.00200,38.44800 and to -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Tyrone and at Monte Rio as the 1945 sheet labels them.",
           "structure": "surface",
           "flags": [],
           "notes": "Part of the stretch to Duncans Mills, opened May 15, 1877."
@@ -34803,7 +34803,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-15), cut from -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Monte Rio as the 1945 sheet labels it.",
+          "method": "OpenHistoricalMap way 202387715 (CC0, as of 2026-10-16), cut from -123.01000,38.46420; checked on USGS Duncans Mills 1:31,680 (1945). Cut at Monte Rio as the 1945 sheet labels it.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -35010,14 +35010,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -35230,7 +35230,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -35245,7 +35245,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -35260,7 +35260,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -35275,7 +35275,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200458180, 200458181, 200458182, 200458183, 200458184, 200458185, 200458186, 200458187, 200458188, 200458189 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Hopland CA 1938 topographic map; cut where it leaves the Bay Area's nine counties (21.1 km beyond left out, decision 16); checked on USGS Cloverdale 1:24,000 (1960). OpenHistoricalMap's ways north from Cloverdale.",
+          "method": "OpenHistoricalMap ways 200458180, 200458181, 200458182, 200458183, 200458184, 200458185, 200458186, 200458187, 200458188, 200458189 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Hopland CA 1938 topographic map; cut where it leaves the Bay Area's nine counties (21.1 km beyond left out, decision 16); checked on USGS Cloverdale 1:24,000 (1960). OpenHistoricalMap's ways north from Cloverdale.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -35423,14 +35423,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -38615,7 +38615,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200456948 (CC0, as of 2026-10-15), which OHM's mappers drew from California Highways and Public Works, September-October 1956. California Department of Public Works. pp. 12-17. The ferry's course as OpenHistoricalMap draws it.",
+          "method": "OpenHistoricalMap way 200456948 (CC0, as of 2026-10-16), which OHM's mappers drew from California Highways and Public Works, September-October 1956. California Department of Public Works. pp. 12-17. The ferry's course as OpenHistoricalMap draws it.",
           "structure": null,
           "flags": [
             "opened_unsourced",
@@ -38661,14 +38661,14 @@
           "pages": "12, 13"
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -38981,7 +38981,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to sn-bay-point-west-pittsburg at its end; then OpenHistoricalMap ways 199932059, 199932054, 199932053, 199932051, 199932057, 199932050, 199932049, 199932048 (CC0, as of 2026-10-15); checked on USGS Honker Bay 1:24,000 (1953).",
+          "method": "Joined to sn-bay-point-west-pittsburg at its end; then OpenHistoricalMap ways 199932059, 199932054, 199932053, 199932051, 199932057, 199932050, 199932049, 199932048 (CC0, as of 2026-10-16); checked on USGS Honker Bay 1:24,000 (1953).",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -39019,7 +39019,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 199932143, 199932142, 199932144, 199932145, 199932146, 199932147, 199932148, 199932149, 199932150, 199932152, 199932151, 199932153, 199932154, 199932155, 199932156, 199932157, 199932158, 199932159, 199932160, 199932161, 199932162, 199932163, 199932164, 199932171, 199932165, 199932167, 199932168, 199932170, 199932169, 199932173, 199932174, 199932175, 199932176, 199932177, 199932178, 199932181, 199932180, 199932183, 199932182, 199932213, 199932229, 199932232, 199932230, 199932273, 199932275, 199932276, 199932278, 199932277, 199932281, 199932283, 199932282, 199932280, 199932279, 199932285, 199932284, 199932287, 199932288, 199932289, 199932286, 199932291, 199932290, 199932295, 199932294, 199932293, 199932292, 199932297, 199932298, 199932299, 199932296, 199932308 (CC0, as of 2026-10-15); cut where it leaves the Bay Area's nine counties (0.5 km beyond left out, decision 16); checked on USGS Birds Landing 1:24,000 (1953).",
+          "method": "OpenHistoricalMap ways 199932143, 199932142, 199932144, 199932145, 199932146, 199932147, 199932148, 199932149, 199932150, 199932152, 199932151, 199932153, 199932154, 199932155, 199932156, 199932157, 199932158, 199932159, 199932160, 199932161, 199932162, 199932163, 199932164, 199932171, 199932165, 199932167, 199932168, 199932170, 199932169, 199932173, 199932174, 199932175, 199932176, 199932177, 199932178, 199932181, 199932180, 199932183, 199932182, 199932213, 199932229, 199932232, 199932230, 199932273, 199932275, 199932276, 199932278, 199932277, 199932281, 199932283, 199932282, 199932280, 199932279, 199932285, 199932284, 199932287, 199932288, 199932289, 199932286, 199932291, 199932290, 199932295, 199932294, 199932293, 199932292, 199932297, 199932298, 199932299, 199932296, 199932308 (CC0, as of 2026-10-16); cut where it leaves the Bay Area's nine counties (0.5 km beyond left out, decision 16); checked on USGS Birds Landing 1:24,000 (1953).",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -39463,14 +39463,14 @@
           "note": "Labelled Sacramento Northern"
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -40388,7 +40388,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 202387871 (CC0, as of 2026-10-15); checked on USGS Sebastopol 1:48,000 (1935) and USGS Healdsburg 1:62,500 (1940). OpenHistoricalMap's way of the Guerneville branch, from Fulton to Guerneville.",
+          "method": "OpenHistoricalMap way 202387871 (CC0, as of 2026-10-16); checked on USGS Sebastopol 1:48,000 (1935) and USGS Healdsburg 1:62,500 (1940). OpenHistoricalMap's way of the Guerneville branch, from Fulton to Guerneville.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40490,14 +40490,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -40614,7 +40614,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40629,7 +40629,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40644,7 +40644,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40747,14 +40747,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -40870,7 +40870,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200221497, 200221499, 200221500, 200221501, 200221498, 200221503, 200221504, 200221505, 202387718, 200221506, 200221502 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS San Francisco 1895 topographic map; USGS Tamalpais CA 1897 topographic map, cut to -122.51249,37.94781; checked on USGS San Quentin 1:24,000 (1948) and USGS San Rafael 1:24,000 (1954). Cut at SMART's Larkspur station, where the line joins today's track. OpenHistoricalMap's ways were traced from the 1895 and 1897 15-minute sheets; the 1948 and 1954 sheets show the track while it still carried freight.",
+          "method": "OpenHistoricalMap ways 200221497, 200221499, 200221500, 200221501, 200221498, 200221503, 200221504, 200221505, 202387718, 200221506, 200221502 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map; USGS Tamalpais CA 1897 topographic map, cut to -122.51249,37.94781; checked on USGS San Quentin 1:24,000 (1948) and USGS San Rafael 1:24,000 (1954). Cut at SMART's Larkspur station, where the line joins today's track. OpenHistoricalMap's ways were traced from the 1895 and 1897 15-minute sheets; the 1948 and 1954 sheets show the track while it still carried freight.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40950,7 +40950,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.81848,38.54914 and to -122.84400,38.59080; checked on USGS Healdsburg 1:62,500 (1940). Cut at SMART's Windsor station and at Grant as the 1940 sheet labels it. OpenHistoricalMap's way lies within about 12 m of today's track (the federal rail network's centerline, as BAM draws SMART's extension).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40965,7 +40965,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
+          "method": "OpenHistoricalMap way 200458177 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map, cut from -122.84400,38.59080 and to -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940). Cut at Grant and at Healdsburg as the 1940 sheet labels them.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -40980,7 +40980,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
+          "method": "OpenHistoricalMap ways 200458177, 200458178, 200458179 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Healdsburg CA 1920 topographic map; USGS Hopland CA 1938 topographic map; USGS Kelseyville CA 1921 topographic map, cut from -122.87170,38.60980; checked on USGS Healdsburg 1:62,500 (1940), USGS Asti 1:24,000 (1959) and USGS Cloverdale 1:24,000 (1960). Cut at Healdsburg as the 1940 sheet labels it; OpenHistoricalMap's way ends at Cloverdale, where its 1889 extension begins. Within about 12 m of today's track, except near Cloverdale (up to about 300 m).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -41071,14 +41071,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -42630,7 +42630,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "OpenHistoricalMap way 202387872 (CC0, as of 2026-10-15), cut from -122.79490,38.41160; then traced by eye from USGS Sebastopol 1:48,000 (1935) (12 hand-read points, centred on the line symbol); checked on USGS Santa Rosa 1:62,500 (1916) and USGS Sebastopol 1:48,000 (1935). OpenHistoricalMap's way from Santa Rosa to Llano, which then follows the Petaluma & Santa Rosa into Sebastopol; from Llano the railroad's own track, labelled Northwestern Pacific on the 1935 sheet, traced to its end in Sebastopol.",
+          "method": "OpenHistoricalMap way 202387872 (CC0, as of 2026-10-16), cut from -122.79490,38.41160; then traced by eye from USGS Sebastopol 1:48,000 (1935) (12 hand-read points, centred on the line symbol); checked on USGS Santa Rosa 1:62,500 (1916) and USGS Sebastopol 1:48,000 (1935). OpenHistoricalMap's way from Santa Rosa to Llano, which then follows the Petaluma & Santa Rosa into Sebastopol; from Llano the railroad's own track, labelled Northwestern Pacific on the 1935 sheet, traced to its end in Sebastopol.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -42719,14 +42719,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -44028,7 +44028,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.52251,38.35378 and to -122.52273,38.35858; then along today's track from -122.52273,38.35858 to -122.60684,38.44027 (13826 m; Overture 2026-09-23.1 rail); checked on USGS Santa Rosa 1:62,500 (1916). Through Glen Ellen on OpenHistoricalMap's way, traced from the 1916 sheet, then OpenStreetMap's mapped abandoned line by Kenwood.",
+          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.52251,38.35378 and to -122.52273,38.35858; then along today's track from -122.52273,38.35858 to -122.60684,38.44027 (13826 m; Overture 2026-09-23.1 rail); checked on USGS Santa Rosa 1:62,500 (1916). Through Glen Ellen on OpenHistoricalMap's way, traced from the 1916 sheet, then OpenStreetMap's mapped abandoned line by Kenwood.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -44224,14 +44224,14 @@
           "pages": "18"
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -44339,7 +44339,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to sp-alameda-mole at its end; then OpenHistoricalMap way 200223559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS San Francisco 1895 topographic map, cut from -122.29160,37.78730 and to -122.27688,37.77144; checked on USGS San Francisco 1:62,500 (1899). OpenHistoricalMap's way, traced from the 1895 San Francisco sheet, cut where it leaves the mole line and where it reaches Central Avenue.",
+          "method": "Joined to sp-alameda-mole at its end; then OpenHistoricalMap way 200223559 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map, cut from -122.29160,37.78730 and to -122.27688,37.77144; checked on USGS San Francisco 1:62,500 (1899). OpenHistoricalMap's way, traced from the 1895 San Francisco sheet, cut where it leaves the mole line and where it reaches Central Avenue.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -44370,7 +44370,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.18031,37.71013; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line meets today's track west of San Leandro, which runs on to Newark.",
+          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.18031,37.71013; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line meets today's track west of San Leandro, which runs on to Newark.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -44452,7 +44452,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 198540836, 198748406 (CC0, as of 2026-10-15), which OHM's mappers drew from https://www.santacruztrains.com/2019/10/railroads-south-pacific-coast-railroad.html, cut to -121.98013,37.22860; checked on USGS San Jose 1:62,500 (1899), USGS San Jose West 1:24,000 (1953) and USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos as the 1919 sheet labels it.",
+          "method": "OpenHistoricalMap ways 198540836, 198748406 (CC0, as of 2026-10-16), which OHM's mappers drew from https://www.santacruztrains.com/2019/10/railroads-south-pacific-coast-railroad.html, cut to -121.98013,37.22860; checked on USGS San Jose 1:62,500 (1899), USGS San Jose West 1:24,000 (1953) and USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos as the 1919 sheet labels it.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -44468,7 +44468,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 198748406, 200446433, 200446431 (CC0, as of 2026-10-15), cut from -121.98013,37.22860 and to -121.98747,37.18369; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos and at Alma as the 1919 sheet labels them.",
+          "method": "OpenHistoricalMap ways 198748406, 200446433, 200446431 (CC0, as of 2026-10-16), cut from -121.98013,37.22860 and to -121.98747,37.18369; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Los Gatos and at Alma as the 1919 sheet labels them.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -44484,7 +44484,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200446431, 200446430, 200446426, 200446425, 200446424, 200444386, 200444385, 200444384, 200444383, 200444382, 200444381 (CC0, as of 2026-10-15), cut from -121.98747,37.18369 and to -121.94827,37.13924; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Alma and at Wrights as the 1919 sheet labels them.",
+          "method": "OpenHistoricalMap ways 200446431, 200446430, 200446426, 200446425, 200446424, 200444386, 200444385, 200444384, 200444383, 200444382, 200444381 (CC0, as of 2026-10-16), cut from -121.98747,37.18369 and to -121.94827,37.13924; checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, cut at Alma and at Wrights as the 1919 sheet labels them.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -44500,7 +44500,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200444381, 200444380, 200444379, 200444378, 200444377, 200444376 (CC0, as of 2026-10-15), cut from -121.94827,37.13924; cut where it leaves the Bay Area's nine counties (2.2 km beyond left out, decision 16); checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, Wrights Tunnel among them.",
+          "method": "OpenHistoricalMap ways 200444381, 200444380, 200444379, 200444378, 200444377, 200444376 (CC0, as of 2026-10-16), cut from -121.94827,37.13924; cut where it leaves the Bay Area's nine counties (2.2 km beyond left out, decision 16); checked on USGS Los Gatos 1:62,500 (1919). OpenHistoricalMap's ways, Wrights Tunnel among them.",
           "structure": "tunnel",
           "flags": [
             "closed_unsourced"
@@ -44607,14 +44607,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -45253,7 +45253,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200221523 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map, cut from -122.04211,37.98064; checked on USGS Walnut Creek 1:24,000 (1949) and USGS Las Trampas Ridge 1:24,000 (1947). OpenHistoricalMap's way, traced from the 1897 Concord sheet, from where it meets the railroad on the 1949 sheet; within about 10 m of it on the 1947-49 sheets.",
+          "method": "OpenHistoricalMap way 200221523 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map, cut from -122.04211,37.98064; checked on USGS Walnut Creek 1:24,000 (1949) and USGS Las Trampas Ridge 1:24,000 (1947). OpenHistoricalMap's way, traced from the 1897 Concord sheet, from where it meets the railroad on the 1949 sheet; within about 10 m of it on the 1947-49 sheets.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -45268,7 +45268,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200223279 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Mt Diablo CA 1896 topographic map; checked on USGS Diablo 1:24,000 (1953) and USGS Mt Diablo 1:62,500 (1898). OpenHistoricalMap's way, traced from the 1896 Mt Diablo sheet, to the end of the track on the 1898 sheet.",
+          "method": "OpenHistoricalMap way 200223279 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Mt Diablo CA 1896 topographic map; checked on USGS Diablo 1:24,000 (1953) and USGS Mt Diablo 1:62,500 (1898). OpenHistoricalMap's way, traced from the 1896 Mt Diablo sheet, to the end of the track on the 1898 sheet.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -45328,14 +45328,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -45515,7 +45515,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.52251,38.35378 and to -122.52273,38.35858; then along today's track from -122.52273,38.35858 to -122.60684,38.44027 (13826 m; Overture 2026-09-23.1 rail); checked on USGS Santa Rosa 1:62,500 (1916). Through Glen Ellen on OpenHistoricalMap's way, traced from the 1916 sheet, then OpenStreetMap's mapped abandoned line by Kenwood.",
+          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.52251,38.35378 and to -122.52273,38.35858; then along today's track from -122.52273,38.35858 to -122.60684,38.44027 (13826 m; Overture 2026-09-23.1 rail); checked on USGS Santa Rosa 1:62,500 (1916). Through Glen Ellen on OpenHistoricalMap's way, traced from the 1916 sheet, then OpenStreetMap's mapped abandoned line by Kenwood.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -45530,7 +45530,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.60684,38.44027 and to -122.73000,38.44780; checked on USGS Santa Rosa 1:62,500 (1916).",
+          "method": "OpenHistoricalMap way 200461230 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Santa Rosa CA 1916 topographic map, cut from -122.60684,38.44027 and to -122.73000,38.44780; checked on USGS Santa Rosa 1:62,500 (1916).",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -45665,14 +45665,14 @@
           "pages": "4"
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
@@ -48308,7 +48308,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points); then along today's 3rd Street centerline from -122.28924,37.80107 to Oak Street (2087 m; Overture 2026-09-23.1); then traced by eye from USGS Oakland West 1:24,000 (1949) (13 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (9 hand-read points); then OpenHistoricalMap way 200236876 (CC0, as of 2026-10-15), cut to -122.21967,37.76968; checked on USGS Oakland West 1:24,000 (1949) and USGS Oakland East 1:24,000 (1949). From Chestnut Junction up to Third St, and along Third St, where the 1909 Tribune puts its double track and the 1949 sheets draw it, past the depot at Washington St to Oak St; then across the Lake Merritt channel and the yard at Fifth Ave, the northern tracks of the pair beside the Southern Pacific's, as the 1949 sheets label them; then OpenHistoricalMap's way from the 1915 sheet to today's Oakland Subdivision at Fruitvale.",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points); then along today's 3rd Street centerline from -122.28924,37.80107 to Oak Street (2087 m; Overture 2026-09-23.1); then traced by eye from USGS Oakland West 1:24,000 (1949) (13 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (9 hand-read points); then OpenHistoricalMap way 200236876 (CC0, as of 2026-10-16), cut to -122.21967,37.76968; checked on USGS Oakland West 1:24,000 (1949) and USGS Oakland East 1:24,000 (1949). From Chestnut Junction up to Third St, and along Third St, where the 1909 Tribune puts its double track and the 1949 sheets draw it, past the depot at Washington St to Oak St; then across the Lake Merritt channel and the yard at Fifth Ave, the northern tracks of the pair beside the Southern Pacific's, as the 1949 sheets label them; then OpenHistoricalMap's way from the 1915 sheet to today's Oakland Subdivision at Fruitvale.",
           "structure": "street",
           "flags": [
             "closed_unsourced"
@@ -48674,14 +48674,14 @@
           ]
         },
         {
-          "id": "ohm-2026-10-15",
-          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
           "publisher": "OpenHistoricalMap contributors",
           "url": "https://www.openhistoricalmap.org/",
           "type": "dataset",
           "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
-          "accessed": "2026-10-15",
-          "source": "ohm-2026-10-15",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
           "supports": [
             "geometry"
           ],
