@@ -379,6 +379,32 @@
         "running": [
           "1929-05"
         ]
+      },
+      {
+        "street": "Lincoln Way",
+        "from": "Frederick Street",
+        "to": [
+          -122.508806,
+          37.764042
+        ],
+        "to_name": "the right of way along the park",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "sf-msry-park-row",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "La Playa Street",
+        "from": "Fulton Street",
+        "to": "Balboa Street",
+        "running": [
+          "1929-05"
+        ]
       }
     ],
     "msry-8": [
@@ -810,12 +836,12 @@
       },
       {
         "street": "Lincoln Way",
-        "from": "Arguello Boulevard",
+        "from": "Frederick Street",
         "to": "19th Avenue",
         "running": [
           "1909-02-01"
         ],
-        "note": "H St began at First Ave (Arguello Blvd) in Jan 1909; the east end of the cars' run on H St (curve from Stanyan & Waller) is unplaced"
+        "note": "From where Frederick St and Arguello Blvd meet Lincoln Way: H St began at First Ave (Arguello Blvd) in January 1909; the cars' curve onto it from Stanyan & Waller is unplaced"
       },
       {
         "street": "Lincoln Way",
@@ -1483,6 +1509,12 @@
         "street": "48th Avenue",
         "from": "Geary Boulevard",
         "to": "Point Lobos Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "sf-msry-sutro-baths-row",
         "running": [
           "1929-05"
         ]

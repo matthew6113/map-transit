@@ -52,8 +52,7 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
   sources pairing the old street names with today's were found (`CHANGELOG.md`, October 16). Still
   to do: the other lines' last days (the Railroad Commission's 1929-44 decisions, and for Nos. 23, 24
   and 30 the Market Street Railway's 1939-41 changes; Ordinance No. 510 of 1940 is a lead); Nos. 28
-  and 29 (Rincon Hill's and Bayshore's streets have changed); the private rights-of-way to the beach
-  and Sutro Baths; No. 20's curve through Block 714 and its 1909 beach run; No. 5's diagonal from
+  and 29 (Rincon Hill's and Bayshore's streets have changed); No. 20's curve through Block 714 and its 1909 beach run; No. 5's diagonal from
   McAllister St to Fulton St; the old San Bruno Ave under US-101 (Nos. 16, 25) and No. 25's right of
   way on Potrero Ave; No. 16's 1909 link from 4th St to Kentucky St.
 - **Ferries & Cliff House line around Land's End** (1888–1925, Callwell pp. 12, 36): its dates and
@@ -63,7 +62,9 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 - **Sutro Railroad, Park & Ocean:** now sourced (`sources-2c/sf-a.md`): the Sutro's franchise and
   1894 pole permit give its route, the *Street Railway Journal* its February 1, 1896 opening; the Park
   & Ocean's franchises its route, the SF PUC's 1948 report its last streetcar day (July 3, 1948, as
-  the No. 7). Their private rights-of-way to Sutro Baths and along the beach need tracing.
+  the No. 7). Their rights of way of 1929 (to the Sutro Baths, and along the park's west edge) are
+  drawn as Nos. 2 and 7 from the 1950 sheet; the Sutro's own line of 1896 and the Park & Ocean's of
+  1883, with its beach run, aren't drawn yet.
 - **San Francisco & San Mateo (1892):** No. 40 is drawn from 1903; its forerunner's route of 1892
   (Steuart, Harrison, 14th, Guerrero, San Jose Ave, 30th and Chenery Sts, a trestle over Diamond
   Ravine and the old San Jose road) isn't, and needs the trestle traced from the 1899 sheet. When

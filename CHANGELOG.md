@@ -15,9 +15,12 @@ Data changes, newest first. Code changes are in the git log.
   Nos. 22 and 25 July 31, 1948; No. 35 in 1939 (the city's 1948 transit history). Nos. 23, 24 and
   30 had no cars by September 29, 1944; their last days aren't sourced, so they are drawn 1909-29.
 - **No. 20:** its 1909 run out H St (Lincoln Way) from Arguello Blvd to 19th Ave and on to the Great
-  Highway. Not drawn, for want of a map: its curve from Stanyan St through Block 714, the beach run
-  to Balboa St, No. 5's diagonal across a block to Fulton St, No. 2's right of way to Sutro Baths,
-  and the old San Bruno Ave (Nos. 16 and 25).
+  Highway. Not drawn, for want of a map: its curve from Stanyan St through Block 714, its beach run
+  to Balboa St, No. 5's diagonal across a block to Fulton St, and the old San Bruno Ave (Nos. 16
+  and 25).
+- **Private rights of way:** No. 2's to the Sutro Baths and No. 7's along the west edge of Golden
+  Gate Park to La Playa and the Balboa St loop, drawn for 1929 where the 1950 San Francisco North
+  sheet still has their track.
 
 ## 2026-10-16: The Sonoma Valley's railroads and the Sebastopol branch
 

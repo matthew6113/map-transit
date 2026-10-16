@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        919,
-        920,
-        921,
-        922
+        926,
+        927,
+        928,
+        929
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        923,
-        924,
-        925,
-        926,
-        927,
-        928,
-        929,
         930,
         931,
         932,
-        933
+        933,
+        934,
+        935,
+        936,
+        937,
+        938,
+        939,
+        940
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        949,
-        950,
-        951,
-        952,
-        953,
-        954,
-        955,
         956,
-        957
+        957,
+        958,
+        959,
+        960,
+        961,
+        962,
+        963,
+        964
       ],
       "segments": [
         {
@@ -6661,20 +6661,20 @@
         37.806482
       ],
       "fids": [
-        958,
-        959,
-        960,
-        961,
-        962,
-        963,
-        964,
         965,
         966,
         967,
         968,
         969,
         970,
-        971
+        971,
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        909
+        916
       ],
       "segments": [
         {
@@ -7244,13 +7244,6 @@
         37.80035
       ],
       "fids": [
-        934,
-        935,
-        936,
-        937,
-        938,
-        939,
-        940,
         941,
         942,
         943,
@@ -7258,7 +7251,14 @@
         945,
         946,
         947,
-        948
+        948,
+        949,
+        950,
+        951,
+        952,
+        953,
+        954,
+        955
       ],
       "segments": [
         {
@@ -7653,15 +7653,15 @@
         37.81612
       ],
       "fids": [
-        1102,
-        1103,
-        1104,
-        1105,
-        1106,
-        1107,
-        1108,
         1109,
-        1110
+        1110,
+        1111,
+        1112,
+        1113,
+        1114,
+        1115,
+        1116,
+        1117
       ],
       "segments": [
         {
@@ -7995,15 +7995,15 @@
         37.824321
       ],
       "fids": [
-        1084,
-        1085,
-        1086,
-        1087,
-        1088,
-        1089,
-        1090,
         1091,
-        1092
+        1092,
+        1093,
+        1094,
+        1095,
+        1096,
+        1097,
+        1098,
+        1099
       ],
       "segments": [
         {
@@ -8500,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        972,
-        973,
-        974,
-        975,
-        976,
-        977,
-        978,
-        979
+        979,
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986
       ],
       "segments": [
         {
@@ -9049,16 +9049,16 @@
         37.806482
       ],
       "fids": [
-        980,
-        981,
-        982,
-        983,
-        984,
-        985,
-        986,
         987,
         988,
-        989
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995,
+        996
       ],
       "segments": [
         {
@@ -10248,15 +10248,15 @@
         37.824321
       ],
       "fids": [
-        1093,
-        1094,
-        1095,
-        1096,
-        1097,
-        1098,
-        1099,
         1100,
-        1101
+        1101,
+        1102,
+        1103,
+        1104,
+        1105,
+        1106,
+        1107,
+        1108
       ],
       "segments": [
         {
@@ -11761,13 +11761,6 @@
         37.891351
       ],
       "fids": [
-        1060,
-        1061,
-        1062,
-        1063,
-        1064,
-        1065,
-        1066,
         1067,
         1068,
         1069,
@@ -11775,7 +11768,14 @@
         1071,
         1072,
         1073,
-        1074
+        1074,
+        1075,
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
       ],
       "segments": [
         {
@@ -13220,17 +13220,17 @@
         37.79492
       ],
       "fids": [
-        537,
-        538,
-        539,
-        540,
-        541,
-        542,
         543,
         544,
         545,
         546,
-        547
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553
       ],
       "segments": [
         {
@@ -13976,16 +13976,16 @@
         37.79492
       ],
       "fids": [
-        548,
-        549,
-        550,
-        551,
-        552,
-        553,
         554,
         555,
         556,
-        557
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563
       ],
       "segments": [
         {
@@ -15552,12 +15552,6 @@
         37.79492
       ],
       "fids": [
-        558,
-        559,
-        560,
-        561,
-        562,
-        563,
         564,
         565,
         566,
@@ -15566,7 +15560,13 @@
         569,
         570,
         571,
-        572
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578
       ],
       "segments": [
         {
@@ -16573,17 +16573,17 @@
         37.79492
       ],
       "fids": [
-        573,
-        574,
-        575,
-        576,
-        577,
-        578,
         579,
         580,
         581,
         582,
-        583
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589
       ],
       "segments": [
         {
@@ -17422,14 +17422,14 @@
         37.808586
       ],
       "fids": [
-        584,
-        585,
-        586,
-        587,
-        588,
-        589,
         590,
-        591
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597
       ],
       "segments": [
         {
@@ -17690,12 +17690,6 @@
         37.807531
       ],
       "fids": [
-        592,
-        593,
-        594,
-        595,
-        596,
-        597,
         598,
         599,
         600,
@@ -17713,7 +17707,13 @@
         612,
         613,
         614,
-        615
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621
       ],
       "segments": [
         {
@@ -18632,12 +18632,6 @@
         37.793407
       ],
       "fids": [
-        616,
-        617,
-        618,
-        619,
-        620,
-        621,
         622,
         623,
         624,
@@ -18647,7 +18641,13 @@
         628,
         629,
         630,
-        631
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637
       ],
       "segments": [
         {
@@ -18832,7 +18832,7 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Track in Lincoln Way, as the route descriptions give it, for 17."
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
         },
         {
           "id": "sf-msry-lincoln-way-19th-ave-20th-ave",
@@ -18848,7 +18848,7 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Track in Lincoln Way, as the route descriptions give it, for 17, 20."
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
         },
         {
           "id": "sf-msry-20th-ave-lincoln-way-wawona-st",
@@ -19088,16 +19088,16 @@
         37.784013
       ],
       "fids": [
-        632,
-        633,
-        634,
-        635,
-        636,
-        637,
         638,
         639,
         640,
-        641
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647
       ],
       "segments": [
         {
@@ -19776,12 +19776,12 @@
         37.805289
       ],
       "fids": [
-        642,
-        643,
-        644,
-        645,
-        646,
-        647
+        648,
+        649,
+        650,
+        651,
+        652,
+        653
       ],
       "segments": [
         {
@@ -20493,7 +20493,7 @@
           "type": "electric_overhead"
         }
       ],
-      "notes": "Manley's 1909 \"Clement\" line ran \"via Parker to Richmond Ave. to 1st Ave. to Clement to 33rd Ave. to Point Lobos Ave. to Sutro Baths\" (p. 27); his p. 34 says there was no No. 2 then. Richmond Ave is read as today's Euclid Ave on a newspaper of 1909 and O'Shaughnessy's naming Euclid Ave on the same stretch. Not drawn: the private right of way from 48th Ave to Sutro Baths, in both years.",
+      "notes": "Manley's 1909 \"Clement\" line ran \"via Parker to Richmond Ave. to 1st Ave. to Clement to 33rd Ave. to Point Lobos Ave. to Sutro Baths\" (p. 27); his p. 34 says there was no No. 2 then. Richmond Ave is read as today's Euclid Ave on a newspaper of 1909 and O'Shaughnessy's naming Euclid Ave on the same stretch. The private right of way from 48th Ave to the Sutro Baths is drawn for 1929 where the 1950 sheet has it; in 1909 it isn't, since Manley doesn't say where the cars left Point Lobos Ave.",
       "flags": [
         "opened_unsourced"
       ],
@@ -20510,13 +20510,13 @@
         }
       ],
       "undated": false,
-      "length_km": 11.21,
+      "length_km": 11.67,
       "confidence_km": {
-        "digitized": 10.72,
+        "digitized": 11.18,
         "surveyed": 0.49
       },
       "bbox": [
-        -122.509463,
+        -122.512421,
         37.778976,
         -122.396101,
         37.793407
@@ -20538,7 +20538,8 @@
         427,
         428,
         429,
-        430
+        430,
+        431
       ],
       "segments": [
         {
@@ -20838,6 +20839,25 @@
             "closed_unsourced"
           ],
           "notes": "Track in 48th Avenue, as the route descriptions give it, for 2."
+        },
+        {
+          "id": "sf-msry-sutro-baths-row",
+          "name": "Private right of way, 48th Ave to the Sutro Baths",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (14 hand-read points, centred on the line symbol). The line from Point Lobos Ave at 48th Ave to the loop by the Sutro Baths, as the 1950 sheet draws it, after the cars' last run in 1949.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "A private right of way, not a street."
         }
       ],
       "sources": [
@@ -21092,12 +21112,6 @@
         37.785729
       ],
       "fids": [
-        648,
-        649,
-        650,
-        651,
-        652,
-        653,
         654,
         655,
         656,
@@ -21115,7 +21129,14 @@
         668,
         669,
         670,
-        671
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
       ],
       "segments": [
         {
@@ -21431,24 +21452,24 @@
           "notes": "Track in Stanyan Street, as the route descriptions give it, for 7, 17, 20."
         },
         {
-          "id": "sf-msry-lincoln-way-19th-ave-arguello-blvd",
-          "name": "Lincoln Way, 19th Ave to Arguello Blvd",
+          "id": "sf-msry-lincoln-way-19th-ave-frederick-st",
+          "name": "Lincoln Way, 19th Ave to Frederick St",
           "opened": null,
           "closed": null,
           "running": [
             "1909-02-01"
           ],
-          "note": "H St began at First Ave (Arguello Blvd) in Jan 1909; the east end of the cars' run on H St (curve from Stanyan & Waller) is unplaced",
+          "note": "From where Frederick St and Arguello Blvd meet Lincoln Way: H St began at First Ave (Arguello Blvd) in January 1909; the cars' curve onto it from Stanyan & Waller is unplaced",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Lincoln Way centerline from 19th Avenue to Arguello Boulevard (1727 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "method": "Along today's Lincoln Way centerline from 19th Avenue to Frederick Street (1727 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Track in Lincoln Way, as the route descriptions give it, for 20."
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
         },
         {
           "id": "sf-msry-lincoln-way-19th-ave-20th-ave",
@@ -21468,11 +21489,11 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Track in Lincoln Way, as the route descriptions give it, for 17, 20."
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
         },
         {
-          "id": "sf-msry-lincoln-way-20th-ave-great-hwy",
-          "name": "Lincoln Way, 20th Ave to Great Hwy",
+          "id": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "name": "Lincoln Way, 20th Ave to the right of Way along the park",
           "opened": null,
           "closed": null,
           "running": [
@@ -21482,7 +21503,27 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's Lincoln Way centerline from 20th Avenue to Great Highway (2763 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "method": "Along today's Lincoln Way centerline from 20th Avenue to -122.50881,37.76404 (2691 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 20."
+        },
+        {
+          "id": "sf-msry-lincoln-way-great-hwy-the-right-of-way-along-the-park",
+          "name": "Lincoln Way, Great Hwy to the right of Way along the park",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "every other car, 'out H to Ocean Boulevard'",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Lincoln Way centerline from Great Highway to -122.50881,37.76404 (73 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -21740,13 +21781,6 @@
         37.793407
       ],
       "fids": [
-        672,
-        673,
-        674,
-        675,
-        676,
-        677,
-        678,
         679,
         680,
         681,
@@ -21761,7 +21795,14 @@
         690,
         691,
         692,
-        693
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700
       ],
       "segments": [
         {
@@ -22402,13 +22443,6 @@
         37.794281
       ],
       "fids": [
-        694,
-        695,
-        696,
-        697,
-        698,
-        699,
-        700,
         701,
         702,
         703,
@@ -22420,7 +22454,14 @@
         709,
         710,
         711,
-        712
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719
       ],
       "segments": [
         {
@@ -23094,13 +23135,6 @@
         37.789838
       ],
       "fids": [
-        713,
-        714,
-        715,
-        716,
-        717,
-        718,
-        719,
         720,
         721,
         722,
@@ -23116,7 +23150,14 @@
         732,
         733,
         734,
-        735
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742
       ],
       "segments": [
         {
@@ -23912,13 +23953,6 @@
         37.788999
       ],
       "fids": [
-        736,
-        737,
-        738,
-        739,
-        740,
-        741,
-        742,
         743,
         744,
         745,
@@ -23939,7 +23973,14 @@
         760,
         761,
         762,
-        763
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770
       ],
       "segments": [
         {
@@ -24652,13 +24693,6 @@
         37.784013
       ],
       "fids": [
-        764,
-        765,
-        766,
-        767,
-        768,
-        769,
-        770,
         771,
         772,
         773,
@@ -24669,7 +24703,14 @@
         778,
         779,
         780,
-        781
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788
       ],
       "segments": [
         {
@@ -25284,13 +25325,6 @@
         37.789284
       ],
       "fids": [
-        782,
-        783,
-        784,
-        785,
-        786,
-        787,
-        788,
         789,
         790,
         791,
@@ -25299,7 +25333,14 @@
         794,
         795,
         796,
-        797
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804
       ],
       "segments": [
         {
@@ -25958,7 +25999,6 @@
         37.793407
       ],
       "fids": [
-        431,
         432,
         433,
         434,
@@ -25966,7 +26006,8 @@
         436,
         437,
         438,
-        439
+        439,
+        440
       ],
       "segments": [
         {
@@ -26329,13 +26370,6 @@
         37.778681
       ],
       "fids": [
-        798,
-        799,
-        800,
-        801,
-        802,
-        803,
-        804,
         805,
         806,
         807,
@@ -26350,7 +26384,14 @@
         816,
         817,
         818,
-        819
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826
       ],
       "segments": [
         {
@@ -26999,13 +27040,6 @@
         37.793407
       ],
       "fids": [
-        820,
-        821,
-        822,
-        823,
-        824,
-        825,
-        826,
         827,
         828,
         829,
@@ -27017,7 +27051,14 @@
         835,
         836,
         837,
-        838
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845
       ],
       "segments": [
         {
@@ -27526,17 +27567,17 @@
         37.782556
       ],
       "fids": [
-        839,
-        840,
-        841,
-        842,
-        843,
-        844,
-        845,
         846,
         847,
         848,
-        849
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856
       ],
       "segments": [
         {
@@ -27837,12 +27878,12 @@
         37.805042
       ],
       "fids": [
-        850,
-        851,
-        852,
-        853,
-        854,
-        855
+        857,
+        858,
+        859,
+        860,
+        861,
+        862
       ],
       "segments": [
         {
@@ -28065,12 +28106,12 @@
         37.79492
       ],
       "fids": [
-        856,
-        857,
-        858,
-        859,
-        860,
-        861
+        863,
+        864,
+        865,
+        866,
+        867,
+        868
       ],
       "segments": [
         {
@@ -28363,12 +28404,12 @@
         37.79009
       ],
       "fids": [
-        862,
-        863,
-        864,
-        865,
-        866,
-        867
+        869,
+        870,
+        871,
+        872,
+        873,
+        874
       ],
       "segments": [
         {
@@ -28631,7 +28672,6 @@
         37.793407
       ],
       "fids": [
-        440,
         441,
         442,
         443,
@@ -28650,7 +28690,8 @@
         456,
         457,
         458,
-        459
+        459,
+        460
       ],
       "segments": [
         {
@@ -29235,13 +29276,6 @@
         37.784013
       ],
       "fids": [
-        868,
-        869,
-        870,
-        871,
-        872,
-        873,
-        874,
         875,
         876,
         877,
@@ -29257,7 +29291,14 @@
         887,
         888,
         889,
-        890
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897
       ],
       "segments": [
         {
@@ -29871,11 +29912,11 @@
         37.789284
       ],
       "fids": [
-        891,
-        892,
-        893,
-        894,
-        895
+        898,
+        899,
+        900,
+        901,
+        902
       ],
       "segments": [
         {
@@ -30089,19 +30130,19 @@
         37.793216
       ],
       "fids": [
-        896,
-        897,
-        898,
-        899,
-        900,
-        901,
-        902,
         903,
         904,
         905,
         906,
         907,
-        908
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915
       ],
       "segments": [
         {
@@ -30485,7 +30526,6 @@
         37.793407
       ],
       "fids": [
-        460,
         461,
         462,
         463,
@@ -30499,7 +30539,8 @@
         471,
         472,
         473,
-        474
+        474,
+        475
       ],
       "segments": [
         {
@@ -30759,7 +30800,7 @@
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Track in La Playa Street, as the route descriptions give it, for 5."
+          "notes": "Track in La Playa Street, as the route descriptions give it, for 7, 5."
         }
       ],
       "sources": [
@@ -31509,7 +31550,6 @@
         37.793407
       ],
       "fids": [
-        475,
         476,
         477,
         478,
@@ -31536,7 +31576,8 @@
         499,
         500,
         501,
-        502
+        502,
+        503
       ],
       "segments": [
         {
@@ -32240,7 +32281,7 @@
       "closed": "1948-07-03",
       "status": "closed",
       "status_label": "Closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "traction": [
@@ -32248,6 +32289,7 @@
           "type": "electric_overhead"
         }
       ],
+      "notes": "The right of way is drawn where the 1950 sheet has track along the park's west edge, from Lincoln Way near 47th Ave to Fulton St at La Playa; the loop at Balboa St, on private property, isn't drawn.",
       "flags": [
         "opened_unsourced"
       ],
@@ -32264,19 +32306,18 @@
         }
       ],
       "undated": false,
-      "length_km": 6.75,
+      "length_km": 12.5,
       "confidence_km": {
-        "digitized": 3.57,
+        "digitized": 9.32,
         "surveyed": 3.18
       },
       "bbox": [
-        -122.457807,
-        37.765904,
+        -122.510188,
+        37.764025,
         -122.396101,
         37.793407
       ],
       "fids": [
-        503,
         504,
         505,
         506,
@@ -32286,7 +32327,13 @@
         510,
         511,
         512,
-        513
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519
       ],
       "segments": [
         {
@@ -32465,6 +32512,101 @@
             "closed_unsourced"
           ],
           "notes": "Track in Frederick Street, as the route descriptions give it, for 7, 17."
+        },
+        {
+          "id": "sf-msry-lincoln-way-19th-ave-frederick-st",
+          "name": "Lincoln Way, 19th Ave to Frederick St",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Lincoln Way centerline from 19th Avenue to Frederick Street (1727 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
+        },
+        {
+          "id": "sf-msry-lincoln-way-19th-ave-20th-ave",
+          "name": "Lincoln Way, 19th Ave to 20th Ave",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Lincoln Way centerline from 19th Avenue to 20th Avenue (88 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 17, 20."
+        },
+        {
+          "id": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "name": "Lincoln Way, 20th Ave to the right of Way along the park",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Lincoln Way centerline from 20th Avenue to -122.50881,37.76404 (2691 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In Lincoln Way.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in Lincoln Way, as the route descriptions give it, for 7, 20."
+        },
+        {
+          "id": "sf-msry-park-row",
+          "name": "Private right of way along Golden Gate Park, Lincoln Way to La Playa",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco North 1:24,000 (1950) (14 hand-read points, centred on the line symbol). Along the west edge of Golden Gate Park from Lincoln Way to Fulton St at La Playa, as the 1950 sheet draws the track, three years after the cars were cut back to Lincoln Way and 47th Ave.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "A private right of way, not a street."
+        },
+        {
+          "id": "sf-msry-la-playa-st-balboa-st-fulton-st",
+          "name": "La Playa St, Balboa St to Fulton St",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1929-05"
+          ],
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's La Playa Street centerline from Balboa Street to Fulton Street (415 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In La Playa Street.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Track in La Playa Street, as the route descriptions give it, for 7, 5."
         }
       ],
       "sources": [
@@ -32656,17 +32798,17 @@
         37.793407
       ],
       "fids": [
-        514,
-        515,
-        516,
-        517,
-        518,
-        519,
         520,
         521,
         522,
         523,
-        524
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "segments": [
         {
@@ -33425,18 +33567,18 @@
         37.793407
       ],
       "fids": [
-        525,
-        526,
-        527,
-        528,
-        529,
-        530,
         531,
         532,
         533,
         534,
         535,
-        536
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542
       ],
       "segments": [
         {
@@ -34512,14 +34654,14 @@
         38.852585
       ],
       "fids": [
-        1005,
-        1006,
-        1007,
-        1008,
-        1009,
-        1010,
-        1011,
-        1012
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019
       ],
       "segments": [
         {
@@ -35199,14 +35341,14 @@
         37.7762
       ],
       "fids": [
-        1131,
-        1132,
-        1133,
-        1134,
-        1135,
-        1136,
-        1137,
-        1138
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145
       ],
       "segments": [
         {
@@ -35483,20 +35625,20 @@
         37.7762
       ],
       "fids": [
-        1117,
-        1118,
-        1119,
-        1120,
-        1121,
-        1122,
-        1123,
         1124,
         1125,
         1126,
         1127,
         1128,
         1129,
-        1130
+        1130,
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1137
       ],
       "segments": [
         {
@@ -39341,7 +39483,7 @@
         38.519886
       ],
       "fids": [
-        1013
+        1020
       ],
       "segments": [
         {
@@ -39523,12 +39665,12 @@
         38.809809
       ],
       "fids": [
-        990,
-        991,
-        992,
-        993,
-        994,
-        995
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002
       ],
       "segments": [
         {
@@ -39815,15 +39957,15 @@
         38.809809
       ],
       "fids": [
-        996,
-        997,
-        998,
-        999,
-        1000,
-        1001,
-        1002,
         1003,
-        1004
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1010,
+        1011
       ],
       "segments": [
         {
@@ -41247,11 +41389,11 @@
         38.434321
       ],
       "fids": [
-        1024,
-        1025,
-        1026,
-        1027,
-        1028
+        1031,
+        1032,
+        1033,
+        1034,
+        1035
       ],
       "segments": [
         {
@@ -41418,15 +41560,15 @@
         37.824321
       ],
       "fids": [
-        1075,
-        1076,
-        1077,
-        1078,
-        1079,
-        1080,
-        1081,
         1082,
-        1083
+        1083,
+        1084,
+        1085,
+        1086,
+        1087,
+        1088,
+        1089,
+        1090
       ],
       "segments": [
         {
@@ -41925,13 +42067,6 @@
         37.891481
       ],
       "fids": [
-        1040,
-        1041,
-        1042,
-        1043,
-        1044,
-        1045,
-        1046,
         1047,
         1048,
         1049,
@@ -41944,7 +42079,14 @@
         1056,
         1057,
         1058,
-        1059
+        1059,
+        1060,
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066
       ],
       "segments": [
         {
@@ -42564,12 +42706,12 @@
         38.440268
       ],
       "fids": [
-        1018,
-        1019,
-        1020,
-        1021,
-        1022,
-        1023
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1030
       ],
       "segments": [
         {
@@ -42931,17 +43073,17 @@
         37.796576
       ],
       "fids": [
-        1029,
-        1030,
-        1031,
-        1032,
-        1033,
-        1034,
-        1035,
         1036,
         1037,
         1038,
-        1039
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
       ],
       "segments": [
         {
@@ -43471,9 +43613,9 @@
         38.032436
       ],
       "fids": [
-        1139,
-        1140,
-        1141
+        1146,
+        1147,
+        1148
       ],
       "segments": [
         {
@@ -43717,10 +43859,10 @@
         38.462654
       ],
       "fids": [
-        1014,
-        1015,
-        1016,
-        1017
+        1021,
+        1022,
+        1023,
+        1024
       ],
       "segments": [
         {
@@ -44118,15 +44260,15 @@
         37.789106
       ],
       "fids": [
-        910,
-        911,
-        912,
-        913,
-        914,
-        915,
-        916,
         917,
-        918
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925
       ],
       "segments": [
         {
@@ -45885,12 +46027,12 @@
         37.803847
       ],
       "fids": [
-        1111,
-        1112,
-        1113,
-        1114,
-        1115,
-        1116
+        1118,
+        1119,
+        1120,
+        1121,
+        1122,
+        1123
       ],
       "segments": [
         {

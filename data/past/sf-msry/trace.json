@@ -37,6 +37,160 @@
       "approximate": true,
       "note": "Straight from Market St to where Hayes St ends today; the old street's course isn't traced"
     },
+    "sf-msry-sutro-baths-row": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.5145,
+              37.7775,
+              -122.5075,
+              37.7825
+            ],
+            "zoom": 3.0
+          },
+          "snap": 4,
+          "px": [
+            [
+              620,
+              405
+            ],
+            [
+              560,
+              368
+            ],
+            [
+              500,
+              330
+            ],
+            [
+              440,
+              292
+            ],
+            [
+              380,
+              252
+            ],
+            [
+              345,
+              233
+            ],
+            [
+              318,
+              243
+            ],
+            [
+              303,
+              270
+            ],
+            [
+              300,
+              310
+            ],
+            [
+              308,
+              380
+            ],
+            [
+              322,
+              440
+            ],
+            [
+              335,
+              478
+            ],
+            [
+              310,
+              498
+            ],
+            [
+              270,
+              512
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "The line from Point Lobos Ave at 48th Ave to the loop by the Sutro Baths, as the 1950 sheet draws it, after the cars' last run in 1949"
+    },
+    "sf-msry-park-row": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.5115,
+              37.7635,
+              -122.5075,
+              37.7725
+            ],
+            "zoom": 3.0
+          },
+          "snap": 4,
+          "px": [
+            [
+              350,
+              1390
+            ],
+            [
+              300,
+              1300
+            ],
+            [
+              260,
+              1250
+            ],
+            [
+              230,
+              1180
+            ],
+            [
+              215,
+              1080
+            ],
+            [
+              210,
+              1000
+            ],
+            [
+              208,
+              900
+            ],
+            [
+              208,
+              800
+            ],
+            [
+              210,
+              700
+            ],
+            [
+              212,
+              600
+            ],
+            [
+              215,
+              500
+            ],
+            [
+              215,
+              400
+            ],
+            [
+              210,
+              300
+            ],
+            [
+              205,
+              190
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "Along the west edge of Golden Gate Park from Lincoln Way to Fulton St at La Playa, as the 1950 sheet draws the track, three years after the cars were cut back to Lincoln Way and 47th Ave"
+    },
     "sf-msry-10th-st-brannan-st-bryant-st": {
       "routes": true,
       "parts": [
@@ -2513,22 +2667,6 @@
       "est_error_m": 15,
       "note": "In Lincoln Way"
     },
-    "sf-msry-lincoln-way-19th-ave-arguello-blvd": {
-      "routes": true,
-      "parts": [
-        {
-          "streets": [
-            "Lincoln Way"
-          ],
-          "from": "19th Avenue",
-          "to": "Arguello Boulevard",
-          "area": "sf"
-        }
-      ],
-      "check": "usgs-san-francisco-north-1950",
-      "est_error_m": 15,
-      "note": "In Lincoln Way"
-    },
     "sf-msry-lincoln-way-19th-ave-frederick-st": {
       "routes": true,
       "parts": [
@@ -2545,7 +2683,7 @@
       "est_error_m": 15,
       "note": "In Lincoln Way"
     },
-    "sf-msry-lincoln-way-20th-ave-great-hwy": {
+    "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park": {
       "routes": true,
       "parts": [
         {
@@ -2553,7 +2691,29 @@
             "Lincoln Way"
           ],
           "from": "20th Avenue",
-          "to": "Great Highway",
+          "to": [
+            -122.508806,
+            37.764042
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Lincoln Way"
+    },
+    "sf-msry-lincoln-way-great-hwy-the-right-of-way-along-the-park": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Way"
+          ],
+          "from": "Great Highway",
+          "to": [
+            -122.508806,
+            37.764042
+          ],
           "area": "sf"
         }
       ],

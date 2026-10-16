@@ -249,6 +249,12 @@
           "running": [
             "1929-05"
           ]
+        },
+        {
+          "segment": "sf-msry-sutro-baths-row",
+          "running": [
+            "1929-05"
+          ]
         }
       ],
       "sources": [
@@ -314,7 +320,7 @@
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "Manley's 1909 \"Clement\" line ran \"via Parker to Richmond Ave. to 1st Ave. to Clement to 33rd Ave. to Point Lobos Ave. to Sutro Baths\" (p. 27); his p. 34 says there was no No. 2 then. Richmond Ave is read as today's Euclid Ave on a newspaper of 1909 and O'Shaughnessy's naming Euclid Ave on the same stretch. Not drawn: the private right of way from 48th Ave to Sutro Baths, in both years."
+      "notes": "Manley's 1909 \"Clement\" line ran \"via Parker to Richmond Ave. to 1st Ave. to Clement to 33rd Ave. to Point Lobos Ave. to Sutro Baths\" (p. 27); his p. 34 says there was no No. 2 then. Richmond Ave is read as today's Euclid Ave on a newspaper of 1909 and O'Shaughnessy's naming Euclid Ave on the same stretch. The private right of way from 48th Ave to the Sutro Baths is drawn for 1929 where the 1950 sheet has it; in 1909 it isn't, since Manley doesn't say where the cars left Point Lobos Ave."
     },
     {
       "id": "msry-3",
@@ -969,7 +975,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "sources": [
@@ -1046,8 +1052,39 @@
           "running": [
             "1929-05"
           ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-frederick-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-20th-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-park-row",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-la-playa-st-balboa-st-fulton-st",
+          "running": [
+            "1929-05"
+          ]
         }
-      ]
+      ],
+      "notes": "The right of way is drawn where the 1950 sheet has track along the park's west edge, from Lincoln Way near 47th Ave to Fulton St at La Playa; the loop at Balboa St, on private property, isn't drawn."
     },
     {
       "id": "msry-8",
@@ -2516,11 +2553,11 @@
           "note": "Manley (1909): \"to Stanyan to H\""
         },
         {
-          "segment": "sf-msry-lincoln-way-19th-ave-arguello-blvd",
+          "segment": "sf-msry-lincoln-way-19th-ave-frederick-st",
           "running": [
             "1909-02-01"
           ],
-          "note": "H St began at First Ave (Arguello Blvd) in Jan 1909; the east end of the cars' run on H St (curve from Stanyan & Waller) is unplaced"
+          "note": "From where Frederick St and Arguello Blvd meet Lincoln Way: H St began at First Ave (Arguello Blvd) in January 1909; the cars' curve onto it from Stanyan & Waller is unplaced"
         },
         {
           "segment": "sf-msry-lincoln-way-19th-ave-20th-ave",
@@ -2530,7 +2567,14 @@
           "note": "every other car, 'out H to Ocean Boulevard'"
         },
         {
-          "segment": "sf-msry-lincoln-way-20th-ave-great-hwy",
+          "segment": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "every other car, 'out H to Ocean Boulevard'"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-great-hwy-the-right-of-way-along-the-park",
           "running": [
             "1909-02-01"
           ],
