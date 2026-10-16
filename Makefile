@@ -2,7 +2,7 @@
 
 PY = uv run --directory pipeline python -m
 
-PHASE ?= p2c
+PHASE ?= p2d
 
 .PHONY: help tools basemap basemap-refresh future-sync present present-refresh past past-review checklists app-data data dev build test e2e screenshots perf
 

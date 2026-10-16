@@ -27,7 +27,7 @@ from .common import DATA, ROOT, SOURCES
 OUT = ROOT / "docs" / "checks" / "past.md"
 OUT_PRESENT = ROOT / "docs" / "checks" / "present.md"
 EXTENSIONS = DATA / "present" / "extensions.json"
-REVIEWS = [ROOT / "docs" / "screenshots" / p / "traces" for p in ("p2a", "p2b", "p2c")]  # make past-review, by phase
+REVIEWS = [ROOT / "docs" / "screenshots" / p / "traces" for p in ("p2a", "p2b", "p2c", "p2d")]  # make past-review, by phase
 
 
 def records():

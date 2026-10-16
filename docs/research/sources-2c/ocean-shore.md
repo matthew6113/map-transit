@@ -648,7 +648,7 @@ Reuse: `sfmta-callwell-chronology` (p. 35; p. 33 for the Potrero Ave note) and `
     "url": "https://archive.org/details/cdc_000673",
     "license": "Public domain (published 1916)",
     "accessed": "2026-10-16",
-    "notes": "Scan leaf n4: \"After having been out of service since the 15th day of January, on account of slides and washouts … the \\\"Ocean Shore\\\" resumed its regular schedule on March 2nd\"; trains \"depart from 12th and Mission streets, San Francisco, daily, at 9 a. m. and 5:30 p. m.\" Read on the page image."
+    "notes": "Scan leaf n4: \"After having been out of service since the 15th day of January, on account of slides and washouts … the 'Ocean Shore' resumed its regular schedule on March 2nd\"; trains \"depart from 12th and Mission streets, San Francisco, daily, at 9 a. m. and 5:30 p. m.\" Read on the page image."
   },
   {
     "id": "times-gazette-1920-08-14",
