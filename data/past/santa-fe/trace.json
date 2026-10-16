@@ -1,0 +1,258 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Santa Fe's line from where the Gold Runner leaves it to Richmond along today's track, and on through the tunnel to Ferry Point as the 1948-49 sheets draw it; its ferry to San Francisco.",
+ "segments": {
+  "atsf-bay-point-richmond": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -121.9726,
+       38.0413
+      ],
+      [
+       -122.36834,
+       37.94218
+      ]
+     ],
+     "area": "santafe",
+     "names": [
+      "BNSF Stockton Subdivision"
+     ]
+    },
+    {
+     "rail": [
+      [
+       -122.36834,
+       37.94218
+      ],
+      [
+       -122.3727,
+       37.9357
+      ]
+     ],
+     "area": "santafe"
+    }
+   ],
+   "check": [
+    "usgs-honker-bay-1918",
+    "usgs-concord-1915",
+    "usgs-mare-island-1916",
+    "usgs-san-francisco-1915"
+   ],
+   "note": "Today's BNSF Stockton Subdivision, the line the Santa Fe built, to its Richmond depot"
+  },
+  "atsf-richmond-ferry-point": {
+   "parts": [
+    {
+     "join": "atsf-bay-point-richmond"
+    },
+    {
+     "trace": {
+      "sheet": "usgs-richmond-1949",
+      "bbox": [
+       -122.3785,
+       37.931,
+       -122.369,
+       37.939
+      ],
+      "zoom": 2.5
+     },
+     "px": [
+      [
+       545,
+       386
+      ],
+      [
+       480,
+       455
+      ],
+      [
+       400,
+       540
+      ],
+      [
+       330,
+       620
+      ],
+      [
+       262,
+       693
+      ]
+     ]
+    },
+    {
+     "trace": {
+      "sheet": "usgs-san-quentin-1948",
+      "bbox": [
+       -122.3845,
+       37.9195,
+       -122.372,
+       37.9375
+      ],
+      "zoom": 2.0
+     },
+     "px": [
+      [
+       728,
+       390
+      ],
+      [
+       640,
+       500
+      ],
+      [
+       560,
+       600
+      ],
+      [
+       480,
+       700
+      ],
+      [
+       400,
+       800
+      ],
+      [
+       320,
+       900
+      ],
+      [
+       240,
+       1000
+      ],
+      [
+       170,
+       1080
+      ],
+      [
+       120,
+       1150
+      ],
+      [
+       85,
+       1220
+      ],
+      [
+       55,
+       1300
+      ],
+      [
+       30,
+       1370
+      ],
+      [
+       5,
+       1440
+      ]
+     ]
+    },
+    {
+     "trace": {
+      "sheet": "usgs-san-quentin-1948",
+      "bbox": [
+       -122.3935,
+       37.9075,
+       -122.382,
+       37.9255
+      ],
+      "zoom": 1.6
+     },
+     "px": [
+      [
+       612,
+       120
+      ],
+      [
+       600,
+       180
+      ],
+      [
+       578,
+       270
+      ],
+      [
+       555,
+       350
+      ],
+      [
+       535,
+       420
+      ],
+      [
+       515,
+       500
+      ],
+      [
+       490,
+       600
+      ],
+      [
+       465,
+       700
+      ],
+      [
+       440,
+       800
+      ],
+      [
+       418,
+       900
+      ],
+      [
+       402,
+       1000
+      ],
+      [
+       392,
+       1100
+      ],
+      [
+       380,
+       1180
+      ],
+      [
+       360,
+       1235
+      ],
+      [
+       320,
+       1290
+      ],
+      [
+       275,
+       1345
+      ],
+      [
+       235,
+       1395
+      ],
+      [
+       205,
+       1428
+      ]
+     ],
+     "snap": 5
+    }
+   ],
+   "check": [
+    "usgs-san-quentin-1948",
+    "usgs-richmond-1949"
+   ],
+   "est_error_m": 25,
+   "note": "Through the yard past the depot, then through the tunnel under Point Richmond and along the shore to the train shed at Ferry Point, where the 1948 sheet labels the track Atchison Topeka and Santa Fe"
+  },
+  "atsf-ferry-point-ferry": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.3926,
+       37.908
+      ],
+      "The Embarcadero/Market Street"
+     ]
+    }
+   ]
+  }
+ }
+}

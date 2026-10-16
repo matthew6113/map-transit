@@ -33,6 +33,7 @@ from .streets import BUCKET, CACHE_DIR, OVERTURE_RELEASE, _cut_lines, _filesyste
 AREAS = {
     "napa": (-122.62, 38.06, -122.03, 38.60),  # Vallejo by Napa to Calistoga, and Napa Junction to Suisun
     "sonoma": (-122.92, 38.22, -122.62, 38.50),  # Petaluma to Sebastopol, Santa Rosa and Forestville
+    "santafe": (-122.42, 37.82, -121.55, 38.07),  # the Santa Fe from Oakland and Ferry Point to the county line at Old River
 }
 SOURCE_ID = "overture-rail-2026-09-23-1"
 SNAP_M = 150.0  # an end this close to today's track is on it

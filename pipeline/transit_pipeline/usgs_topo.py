@@ -159,6 +159,11 @@ SHEETS = [
     Sheet("usgs-calistoga-1927", "Calistoga", 62500, 1927, "465408", 1936, "15-minute sheet, surveyed 1915, edition of 1927"),
     Sheet("usgs-mare-island-1942", "Mare Island", 62500, 1942, "465907", 1942, "15-minute sheet, surveyed 1937, edition of 1942"),
     Sheet("usgs-sonoma-1942", "Sonoma", 62500, 1942, "301738", 1942, "15-minute sheet, surveyed 1941, aerial photographs of 1939, edition of 1942"),
+    # The Santa Fe from Pittsburg to the county line at Old River, in its first years.
+    Sheet("usgs-antioch-1908", "Antioch", 62500, 1908, "296717", None, "15-minute sheet, surveyed 1907, edition of 1908"),
+    Sheet("usgs-jersey-1910", "Jersey", 31680, 1910, "296187", None, "1:31,680 sheet, surveyed 1908, edition of 1910"),
+    Sheet("usgs-brentwood-1914", "Brentwood", 31680, 1914, "295948", None, "1:31,680 sheet, surveyed 1911, edition of 1914"),
+    Sheet("usgs-woodward-island-1913", "Woodward Island", 31680, 1913, "296614", None, "1:31,680 sheet, surveyed 1911, edition of 1913"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

@@ -2175,7 +2175,58 @@
           ],
           "notes": "As the San Joaquins, renamed the Gold Runner in 2025. Amtrak's own history page with the day is offline."
         }
-      }
+      },
+      "stations": {
+        "Bay Point junction": [
+          -121.9726,
+          38.0413
+        ]
+      },
+      "segments": [
+        {
+          "id": "gr-bay-point-stockton",
+          "name": "Bay Point to Stockton, by Antioch and Middle River",
+          "line": "gold-runner",
+          "from": "Bay Point junction",
+          "to": "Stockton, CA San Joaquin Street Station",
+          "opened": null,
+          "sources": [
+            {
+              "source": "ca-brc-report-1900",
+              "supports": [
+                "route"
+              ],
+              "pages": "148",
+              "note": "\"Extensions of Road Put in Operation.—Stockton to Point Richmond, 70.39 miles, May 1, 1900\": the San Francisco & San Joaquin Valley Railway, the Santa Fe's line."
+            },
+            {
+              "source": "usgs-antioch-1908",
+              "supports": [
+                "route"
+              ]
+            },
+            {
+              "source": "usgs-jersey-1910",
+              "supports": [
+                "route"
+              ]
+            },
+            {
+              "source": "usgs-brentwood-1914",
+              "supports": [
+                "route"
+              ]
+            },
+            {
+              "source": "usgs-woodward-island-1913",
+              "supports": [
+                "route"
+              ]
+            }
+          ],
+          "notes": "The Santa Fe's line of 1900, on which the Gold Runner has run since 1974 (as the San Joaquins). The railroad's return puts it in operation on May 1, 1900, but that was for freight: the Railroad Gazette expected through passengers about two months later, and no official source dates the first, so its date is borrowed from the Santa Fe's trains (July 3, 1900, the county history of 1926). Cut where the Gold Runner joins the line west of Bay Point (Port Chicago in 1932). Checked on the 1908-14 sheets from Antioch to Middle River, which draw the Santa Fe where the Gold Runner runs today (review images in docs/screenshots/p2c/traces/)."
+        }
+      ]
     },
     "golden-gate-ferry": {
       "lines": {

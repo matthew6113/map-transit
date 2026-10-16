@@ -171,6 +171,12 @@
       "short_name": "San Francisco Bay Ferry"
     },
     {
+      "id": "santa-fe",
+      "name": "Atchison, Topeka and Santa Fe Railway",
+      "short_name": "Santa Fe",
+      "notes": "Its line from Stockton by Antioch and Pinole to Richmond, built as the San Francisco & San Joaquin Valley Railway (1900), with its own ferry from Ferry Point at Point Richmond to the foot of Market St until 1933. Today's BNSF line; the Gold Runner runs on it from Bay Point east."
+    },
+    {
       "id": "sf-market-street-railroad",
       "name": "San Francisco Market Street Railroad",
       "short_name": "SF Market St RR"

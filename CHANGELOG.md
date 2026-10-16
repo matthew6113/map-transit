@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Santa Fe at Point Richmond
+
+- **Santa Fe trains, Stockton to Richmond and Ferry Point** (`santa-fe/`): across the Delta and along
+  Suisun and San Pablo Bays to Richmond, and through the tunnel to Ferry Point. Put in operation May
+  1, 1900 for freight (the Railroad Commissioners' report, p. 148); the first through train from
+  Chicago July 3, 1900 (the county history of 1926). Ferry Point's trains and the **Santa Fe ferry**
+  to the foot of Market St stopped under federal control from August 18, 1918 to January 9, 1921
+  (CRC Decisions 5642 and 9543; employee timetables Nos. 44 and 47) and ended April 23, 1933
+  (timetable No. 68). The trains are drawn to 1968, the last timetable read with passenger trains
+  at Richmond (decision 20); their line to Oakland isn't drawn yet.
+- East of Bay Point the line is today's Gold Runner track: a new dated stretch in
+  `present/extensions.json` (`gr-bay-point-stockton`), whose date is borrowed from the Santa Fe's
+  trains, as no official source dates its first passengers (decision 13). West of it, today's BNSF
+  track (`rails.py`), checked on the 1915-18 sheets; Richmond to Ferry Point traced from the 1948
+  San Quentin and 1949 Richmond sheets. Four USGS sheets of 1908-14 added, to check the Delta
+  stretch.
+
 ## 2026-10-16: The Petaluma & Santa Rosa
 
 - **Petaluma & Santa Rosa Railway** (`petaluma-santa-rosa/`), an electric interurban, as four lines:

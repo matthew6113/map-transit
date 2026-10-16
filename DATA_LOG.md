@@ -246,6 +246,10 @@ The geometry tools are below (decision 12).
 | `usgs-calistoga-1927` | CA_Calistoga_465408_1927_62500_geo.tif | 5.292 | `70617308c21b` |
 | `usgs-mare-island-1942` | CA_Mare Island_465907_1942_62500_geo.tif | 5.292 | `08217109a6a8` |
 | `usgs-sonoma-1942` | CA_Sonoma_301738_1942_62500_geo.tif | 5.292 | `5b07e0968b21` |
+| `usgs-antioch-1908` | CA_Antioch_296717_1908_62500_geo.tif | 5.292 | `6860a040bccc` |
+| `usgs-jersey-1910` | CA_Jersey_296187_1910_31680_geo.tif | 2.682 | `d7dc4c6ac5a5` |
+| `usgs-brentwood-1914` | CA_Brentwood_295948_1914_31680_geo.tif | 2.682 | `be02f04ec82d` |
+| `usgs-woodward-island-1913` | CA_Woodward Island_296614_1913_31680_geo.tif | 2.682 | `38bc3da04aac` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -279,8 +283,8 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways). |
-| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) and `sonoma` (-122.92, 38.22, -122.62, 38.50). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, the Santa Fe from Bay Point to Richmond, and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways). |
+| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) `sonoma` (-122.92, 38.22, -122.62, 38.50) and `santafe` (-122.42, 37.82, -121.55, 38.07). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
 | Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
 | Gaps | Today's track only: realignments since the line's years must be found on the sheets. |
@@ -321,9 +325,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 112 | 454 | 11 | 534.2 | 504.0 | 110.4 | 8 | 409 |
-| present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
+| past | 114 | 457 | 11 | 580.5 | 507.5 | 123.0 | 8 | 411 |
+| present | 44 | 139 | 275 | 1676.8 | 0 | 0 | 12 | 48 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 445, `conflicting_sources` 27, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 448, `conflicting_sources` 27, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 749, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        701,
-        702,
-        703,
-        704
+        708,
+        709,
+        710,
+        711
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        705,
-        706,
-        707,
-        708,
-        709,
-        710,
-        711,
         712,
         713,
         714,
-        715
+        715,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        731,
-        732,
-        733,
-        734,
-        735,
-        736,
-        737,
         738,
-        739
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746
       ],
       "segments": [
         {
@@ -4509,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        338,
-        339
+        345,
+        346
       ],
       "segments": [
         {
@@ -4639,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        362,
-        363,
-        364,
-        365
+        369,
+        370,
+        371,
+        372
       ],
       "segments": [
         {
@@ -6397,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        328
+        335
       ],
       "segments": [
         {
@@ -6661,20 +6661,20 @@
         37.806482
       ],
       "fids": [
-        740,
-        741,
-        742,
-        743,
-        744,
-        745,
-        746,
         747,
         748,
         749,
         750,
         751,
         752,
-        753
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        680
+        687
       ],
       "segments": [
         {
@@ -7244,13 +7244,6 @@
         37.80035
       ],
       "fids": [
-        716,
-        717,
-        718,
-        719,
-        720,
-        721,
-        722,
         723,
         724,
         725,
@@ -7258,7 +7251,14 @@
         727,
         728,
         729,
-        730
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737
       ],
       "segments": [
         {
@@ -7653,15 +7653,15 @@
         37.81612
       ],
       "fids": [
-        869,
-        870,
-        871,
-        872,
-        873,
-        874,
-        875,
         876,
-        877
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884
       ],
       "segments": [
         {
@@ -7995,15 +7995,15 @@
         37.824321
       ],
       "fids": [
-        851,
-        852,
-        853,
-        854,
-        855,
-        856,
-        857,
         858,
-        859
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866
       ],
       "segments": [
         {
@@ -8500,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        754,
-        755,
-        756,
-        757,
-        758,
-        759,
-        760,
-        761
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768
       ],
       "segments": [
         {
@@ -8798,7 +8798,7 @@
         37.796162
       ],
       "fids": [
-        390
+        397
       ],
       "segments": [
         {
@@ -8907,7 +8907,7 @@
         37.788015
       ],
       "fids": [
-        357
+        364
       ],
       "segments": [
         {
@@ -9049,16 +9049,16 @@
         37.806482
       ],
       "fids": [
-        762,
-        763,
-        764,
-        765,
-        766,
-        767,
-        768,
         769,
         770,
-        771
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778
       ],
       "segments": [
         {
@@ -9378,14 +9378,14 @@
         37.793407
       ],
       "fids": [
-        382,
-        383,
-        384,
-        385,
-        386,
-        387,
-        388,
-        389
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
       ],
       "segments": [
         {
@@ -9853,7 +9853,7 @@
         37.785808
       ],
       "fids": [
-        345
+        352
       ],
       "segments": [
         {
@@ -10248,15 +10248,15 @@
         37.824321
       ],
       "fids": [
-        860,
-        861,
-        862,
-        863,
-        864,
-        865,
-        866,
         867,
-        868
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875
       ],
       "segments": [
         {
@@ -10737,16 +10737,16 @@
         37.793407
       ],
       "fids": [
-        372,
-        373,
-        374,
-        375,
-        376,
-        377,
-        378,
         379,
         380,
-        381
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388
       ],
       "segments": [
         {
@@ -11021,12 +11021,12 @@
         37.787654
       ],
       "fids": [
-        366,
-        367,
-        368,
-        369,
-        370,
-        371
+        373,
+        374,
+        375,
+        376,
+        377,
+        378
       ],
       "segments": [
         {
@@ -11530,13 +11530,6 @@
         37.891351
       ],
       "fids": [
-        827,
-        828,
-        829,
-        830,
-        831,
-        832,
-        833,
         834,
         835,
         836,
@@ -11544,7 +11537,14 @@
         838,
         839,
         840,
-        841
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848
       ],
       "segments": [
         {
@@ -12560,16 +12560,16 @@
         37.793407
       ],
       "fids": [
-        391,
-        392,
-        393,
-        394,
-        395,
-        396,
-        397,
         398,
         399,
-        400
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407
       ],
       "segments": [
         {
@@ -12912,17 +12912,17 @@
         37.79492
       ],
       "fids": [
-        490,
-        491,
-        492,
-        493,
-        494,
-        495,
-        496,
         497,
         498,
         499,
-        500
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507
       ],
       "segments": [
         {
@@ -13653,15 +13653,15 @@
         37.79492
       ],
       "fids": [
-        501,
-        502,
-        503,
-        504,
-        505,
-        506,
-        507,
         508,
-        509
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516
       ],
       "segments": [
         {
@@ -15167,18 +15167,18 @@
         37.79492
       ],
       "fids": [
-        510,
-        511,
-        512,
-        513,
-        514,
-        515,
-        516,
         517,
         518,
         519,
         520,
-        521
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528
       ],
       "segments": [
         {
@@ -16092,14 +16092,14 @@
         37.79492
       ],
       "fids": [
-        522,
-        523,
-        524,
-        525,
-        526,
-        527,
-        528,
-        529
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536
       ],
       "segments": [
         {
@@ -16845,14 +16845,14 @@
         37.808586
       ],
       "fids": [
-        530,
-        531,
-        532,
-        533,
-        534,
-        535,
-        536,
-        537
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544
       ],
       "segments": [
         {
@@ -17268,20 +17268,20 @@
         37.793407
       ],
       "fids": [
-        538,
-        539,
-        540,
-        541,
-        542,
-        543,
-        544,
         545,
         546,
         547,
         548,
         549,
         550,
-        551
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
       ],
       "segments": [
         {
@@ -17674,13 +17674,13 @@
         37.784013
       ],
       "fids": [
-        552,
-        553,
-        554,
-        555,
-        556,
-        557,
-        558
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565
       ],
       "segments": [
         {
@@ -18281,12 +18281,12 @@
         37.805289
       ],
       "fids": [
-        559,
-        560,
-        561,
-        562,
-        563,
-        564
+        566,
+        567,
+        568,
+        569,
+        570,
+        571
       ],
       "segments": [
         {
@@ -19025,13 +19025,6 @@
         37.785729
       ],
       "fids": [
-        565,
-        566,
-        567,
-        568,
-        569,
-        570,
-        571,
         572,
         573,
         574,
@@ -19041,7 +19034,14 @@
         578,
         579,
         580,
-        581
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588
       ],
       "segments": [
         {
@@ -19466,13 +19466,6 @@
         37.793407
       ],
       "fids": [
-        582,
-        583,
-        584,
-        585,
-        586,
-        587,
-        588,
         589,
         590,
         591,
@@ -19487,7 +19480,14 @@
         600,
         601,
         602,
-        603
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610
       ],
       "segments": [
         {
@@ -20311,17 +20311,17 @@
         37.789284
       ],
       "fids": [
-        604,
-        605,
-        606,
-        607,
-        608,
-        609,
-        610,
         611,
         612,
         613,
-        614
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621
       ],
       "segments": [
         {
@@ -20825,14 +20825,14 @@
         37.793407
       ],
       "fids": [
-        401,
-        402,
-        403,
-        404,
-        405,
-        406,
-        407,
-        408
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415
       ],
       "segments": [
         {
@@ -21142,13 +21142,6 @@
         37.793407
       ],
       "fids": [
-        615,
-        616,
-        617,
-        618,
-        619,
-        620,
-        621,
         622,
         623,
         624,
@@ -21159,7 +21152,14 @@
         629,
         630,
         631,
-        632
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639
       ],
       "segments": [
         {
@@ -21591,17 +21591,17 @@
         37.782556
       ],
       "fids": [
-        633,
-        634,
-        635,
-        636,
-        637,
-        638,
-        639,
         640,
         641,
         642,
-        643
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650
       ],
       "segments": [
         {
@@ -21902,12 +21902,12 @@
         37.805042
       ],
       "fids": [
-        644,
-        645,
-        646,
-        647,
-        648,
-        649
+        651,
+        652,
+        653,
+        654,
+        655,
+        656
       ],
       "segments": [
         {
@@ -22132,10 +22132,10 @@
         37.79009
       ],
       "fids": [
-        650,
-        651,
-        652,
-        653
+        657,
+        658,
+        659,
+        660
       ],
       "segments": [
         {
@@ -22366,13 +22366,6 @@
         37.793407
       ],
       "fids": [
-        409,
-        410,
-        411,
-        412,
-        413,
-        414,
-        415,
         416,
         417,
         418,
@@ -22385,7 +22378,14 @@
         425,
         426,
         427,
-        428
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435
       ],
       "segments": [
         {
@@ -22894,13 +22894,6 @@
         37.784013
       ],
       "fids": [
-        681,
-        682,
-        683,
-        684,
-        685,
-        686,
-        687,
         688,
         689,
         690,
@@ -22913,7 +22906,14 @@
         697,
         698,
         699,
-        700
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707
       ],
       "segments": [
         {
@@ -23437,11 +23437,11 @@
         37.789284
       ],
       "fids": [
-        654,
-        655,
-        656,
-        657,
-        658
+        661,
+        662,
+        663,
+        664,
+        665
       ],
       "segments": [
         {
@@ -23655,18 +23655,18 @@
         37.793216
       ],
       "fids": [
-        659,
-        660,
-        661,
-        662,
-        663,
-        664,
-        665,
         666,
         667,
         668,
         669,
-        670
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677
       ],
       "segments": [
         {
@@ -24516,13 +24516,6 @@
         37.793407
       ],
       "fids": [
-        429,
-        430,
-        431,
-        432,
-        433,
-        434,
-        435,
         436,
         437,
         438,
@@ -24543,7 +24536,14 @@
         453,
         454,
         455,
-        456
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463
       ],
       "segments": [
         {
@@ -25222,16 +25222,16 @@
         37.793407
       ],
       "fids": [
-        457,
-        458,
-        459,
-        460,
-        461,
-        462,
-        463,
         464,
         465,
-        466
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473
       ],
       "segments": [
         {
@@ -25582,17 +25582,17 @@
         37.793407
       ],
       "fids": [
-        467,
-        468,
-        469,
-        470,
-        471,
-        472,
-        473,
         474,
         475,
         476,
-        477
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484
       ],
       "segments": [
         {
@@ -26351,18 +26351,18 @@
         37.793407
       ],
       "fids": [
-        478,
-        479,
-        480,
-        481,
-        482,
-        483,
-        484,
         485,
         486,
         487,
         488,
-        489
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496
       ],
       "segments": [
         {
@@ -27408,14 +27408,14 @@
         38.852585
       ],
       "fids": [
-        787,
-        788,
-        789,
-        790,
-        791,
-        792,
-        793,
-        794
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801
       ],
       "segments": [
         {
@@ -27777,11 +27777,11 @@
         37.806637
       ],
       "fids": [
-        340,
-        341,
-        342,
-        343,
-        344
+        347,
+        348,
+        349,
+        350,
+        351
       ],
       "segments": [
         {
@@ -28095,14 +28095,14 @@
         37.7762
       ],
       "fids": [
-        898,
-        899,
-        900,
-        901,
-        902,
-        903,
-        904,
-        905
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912
       ],
       "segments": [
         {
@@ -28379,20 +28379,20 @@
         37.7762
       ],
       "fids": [
-        884,
-        885,
-        886,
-        887,
-        888,
-        889,
-        890,
         891,
         892,
         893,
         894,
         895,
         896,
-        897
+        897,
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904
       ],
       "segments": [
         {
@@ -31900,12 +31900,12 @@
         37.795493
       ],
       "fids": [
-        329,
-        330,
-        331,
-        332,
-        333,
-        334
+        336,
+        337,
+        338,
+        339,
+        340,
+        341
       ],
       "segments": [
         {
@@ -32233,7 +32233,7 @@
         38.519886
       ],
       "fids": [
-        795
+        802
       ],
       "segments": [
         {
@@ -32415,12 +32415,12 @@
         38.809809
       ],
       "fids": [
-        772,
-        773,
-        774,
-        775,
-        776,
-        777
+        779,
+        780,
+        781,
+        782,
+        783,
+        784
       ],
       "segments": [
         {
@@ -32707,15 +32707,15 @@
         38.809809
       ],
       "fids": [
-        778,
-        779,
-        780,
-        781,
-        782,
-        783,
-        784,
         785,
-        786
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793
       ],
       "segments": [
         {
@@ -33164,6 +33164,724 @@
       ]
     },
     {
+      "id": "atsf-ferry",
+      "name": "Santa Fe ferry, Ferry Point to San Francisco",
+      "short_name": "Santa Fe ferry",
+      "system": "santa-fe",
+      "system_name": "Atchison, Topeka and Santa Fe Railway",
+      "operators": [
+        {
+          "name": "Atchison, Topeka and Santa Fe Railway",
+          "from": "1900-07-03",
+          "to": "1933-04-23"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1900-07-03",
+      "closed": "1933-04-23",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Santa Fe's own boats from its train shed at Ferry Point, Point Richmond, to the foot of Market St, meeting every train.",
+      "fate": "abandoned",
+      "fate_note": "Given up when the Interstate Commerce Commission let the Santa Fe and the Western Pacific use the Southern Pacific's ferries instead; from April 23, 1933 the trains ran to Oakland Pier.",
+      "notes": "Ends on April 23, 1933, the day Time Table No. 68 dropped Ferry Point; the last run itself isn't dated, and the Commission's order isn't found. Under federal control, from August 18, 1918 the trains ran from Richmond to the Southern Pacific's Oakland Pier instead (CRC Decision No. 5642; Time Table No. 44), until the Santa Fe's own ferry came back, on January 9, 1921 by Time Table No. 47, whose cover shows the date put off twice. Which slip at the Ferry Building it used isn't sourced.",
+      "flags": [],
+      "undated": false,
+      "length_km": 25.22,
+      "confidence_km": {
+        "approximate": 25.22
+      },
+      "bbox": [
+        -122.394249,
+        37.79492,
+        -122.391686,
+        37.908
+      ],
+      "fids": [
+        333,
+        334
+      ],
+      "segments": [
+        {
+          "id": "atsf-ferry-point-ferry",
+          "name": "Ferry, Ferry Point to the foot of Market St",
+          "opened": "1900-07-03",
+          "closed": "1933-04-23",
+          "to": "1918-08-18",
+          "note": "To August 18, 1918 (federal control).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.39260,37.90800 to The Embarcadero/Market Street (12656 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": "ferry",
+          "flags": [],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the slip at Ferry Point to the Ferry Building, 7.7 miles by the timetables."
+        },
+        {
+          "id": "atsf-ferry-point-ferry",
+          "name": "Ferry, Ferry Point to the foot of Market St",
+          "opened": "1900-07-03",
+          "closed": "1933-04-23",
+          "from": "1921-01-09",
+          "note": "From January 9, 1921 (Time Table No. 47).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.39260,37.90800 to The Embarcadero/Market Street (12656 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": "ferry",
+          "flags": [],
+          "notes": "The course isn't recorded: drawn as the shortest way over water from the slip at Ferry Point to the Ferry Building, 7.7 miles by the timetables."
+        }
+      ],
+      "sources": [
+        {
+          "id": "contra-costa-history-1926",
+          "title": "History of Contra Costa County, California",
+          "author": "J. P. Munro-Fraser and others",
+          "publisher": "Historic Record Company, Los Angeles",
+          "date": "1926",
+          "type": "book",
+          "url": "https://archive.org/details/historyofcontra00munr",
+          "license": "Public domain in the US (published 1926, not renewed as far as known); cited for facts",
+          "accessed": "2026-10-15",
+          "source": "contra-costa-history-1926",
+          "supports": [
+            "opened"
+          ],
+          "pages": "127",
+          "note": "The ferry Ocean Wave met the first through train, July 3, 1900."
+        },
+        {
+          "id": "railroad-gazette-1900-05-04",
+          "title": "The Railroad Gazette 32(18), May 4, 1900: \"Completion of the Atchison to San Francisco\"",
+          "publisher": "The Railroad Gazette",
+          "date": "1900-05-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1900-05-04_32_18",
+          "license": "Public domain (published 1900)",
+          "accessed": "2026-10-15",
+          "source": "railroad-gazette-1900-05-04",
+          "supports": [
+            "route"
+          ],
+          "pages": "282"
+        },
+        {
+          "id": "crocker-langley-1901",
+          "title": "Crocker-Langley San Francisco Directory for the year commencing May 1901",
+          "publisher": "H. S. Crocker Company",
+          "date": "1901",
+          "type": "primary_document",
+          "url": "https://archive.org/details/crockerlangleysa0000vari_a5j1",
+          "license": "Public domain (published 1901)",
+          "accessed": "2026-10-15",
+          "source": "crocker-langley-1901",
+          "supports": [
+            "route"
+          ],
+          "pages": "1556"
+        },
+        {
+          "id": "crc-d5642",
+          "title": "Railroad Commission of California, Decision No. 5642 (Application No. 3985)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1918-07-30",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D5642_19180730_A3985.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d5642",
+          "supports": [
+            "general"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "crc-d9543",
+          "title": "Railroad Commission of California, Decision No. 9543 (Case No. 1532)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1921-09-23",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D9543_19210923_C1532.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d9543",
+          "supports": [
+            "general"
+          ],
+          "pages": "2-3"
+        },
+        {
+          "id": "cscrm-2021-02-000897",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 47, 1921-01-09",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1921-01-09",
+          "url": "https://archive.org/details/cscrm_2021_02_000897",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-000897",
+          "supports": [
+            "general"
+          ],
+          "pages": "cover, 11"
+        },
+        {
+          "id": "point-richmond-progress-1933-04-07",
+          "title": "Point Richmond Progress, April 7, 1933: \"Ferry Service Stops\"",
+          "author": "Harry R. Burt (publisher)",
+          "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+          "date": "1933-04-07",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cric_000032",
+          "license": "Copyright status unknown; cited for facts only",
+          "accessed": "2026-10-15",
+          "source": "point-richmond-progress-1933-04-07",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "To be \"abandoned … in the latter part of April\"."
+        },
+        {
+          "id": "cscrm-2021-02-001289",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 68, 1933-04-23",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1933-04-23",
+          "url": "https://archive.org/details/cscrm_2021_02_001289",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-001289",
+          "supports": [
+            "closed"
+          ],
+          "pages": "8",
+          "note": "From April 23, 1933, no Ferry Point."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atsf-stockton-ferry-point",
+      "name": "Santa Fe trains, Stockton to Richmond and Ferry Point",
+      "short_name": "Santa Fe",
+      "system": "santa-fe",
+      "system_name": "Atchison, Topeka and Santa Fe Railway",
+      "operators": [
+        {
+          "name": "Atchison, Topeka and Santa Fe Railway",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1900-07-03",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Santa Fe's trains from Chicago and the San Joaquin Valley, from Stockton across the Delta and along Suisun Bay and San Pablo Bay to Richmond, and until 1933 through the tunnel to its ferry at Ferry Point, Point Richmond.",
+      "fate": "still_freight",
+      "fate_note": "From April 23, 1933 the trains ended at Richmond and ran on to Oakland (Time Table No. 68); the line still carries BNSF's freight and, east of Bay Point, the Gold Runner.",
+      "notes": "Opens with the first through train from Chicago, July 3, 1900 (the county history of 1926, written by a resident of the time); the line had been put in operation for freight on May 1, and the Santa Fe formally took it over on July 17. The San Francisco Call of July 2, 1900 has the story (page 3), still to be read. Under federal control, from August 18, 1918 the trains ran from Richmond to the Southern Pacific's Oakland Pier instead (CRC Decision No. 5642; Time Table No. 44), until the Santa Fe's own ferry came back, on January 9, 1921 by Time Table No. 47, whose cover shows the date put off twice. When its last passenger train ran at Richmond isn't sourced: the timetables show trains in June 1968 and none in May 1971, so it is drawn to 1968. Its trains to Oakland (from 1904 or so) aren't drawn yet.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1914-03-15",
+          "source": "cscrm-2021-02-000663",
+          "pages": "9"
+        },
+        {
+          "date": "1932-03-06",
+          "source": "cscrm-2021-02-001247",
+          "pages": "8"
+        },
+        {
+          "date": "1933-04-23",
+          "source": "cscrm-2021-02-001289",
+          "pages": "8"
+        },
+        {
+          "date": "1968-06-15",
+          "source": "cscrm-2021-02-002311",
+          "pages": "4",
+          "note": "Nos. 1 and 2 at Richmond; No. 17 of May 30, 1971 schedules no passenger train."
+        }
+      ],
+      "undated": false,
+      "length_km": 116.57,
+      "confidence_km": {
+        "digitized": 6.87,
+        "surveyed": 109.7
+      },
+      "bbox": [
+        -122.390535,
+        37.909209,
+        -121.285584,
+        38.049065
+      ],
+      "fids": [
+        328,
+        329,
+        330,
+        331,
+        332
+      ],
+      "segments": [
+        {
+          "id": "gr-bay-point-stockton",
+          "name": "Bay Point to Stockton, by Antioch and Middle River",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Bay Point junction and Stockton, CA San Joaquin Street Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Santa Fe's line of 1900, on which the Gold Runner has run since 1974 (as the San Joaquins). The railroad's return puts it in operation on May 1, 1900, but that was for freight: the Railroad Gazette expected through passengers about two months later, and no official source dates the first, so its date is borrowed from the Santa Fe's trains (July 3, 1900, the county history of 1926). Cut where the Gold Runner joins the line west of Bay Point (Port Chicago in 1932). Checked on the 1908-14 sheets from Antioch to Middle River, which draw the Santa Fe where the Gold Runner runs today (review images in docs/screenshots/p2c/traces/)."
+        },
+        {
+          "id": "atsf-bay-point-richmond",
+          "name": "Bay Point to Richmond, by Muir, Pinole and San Pablo",
+          "opened": "1900-05-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along OpenStreetMap's BNSF Stockton Subdivision from -121.97260,38.04130 to -122.36834,37.94218 (45516 m; Overture 2026-09-23.1 rail); then along today's track from -122.36834,37.94218 to -122.37270,37.93570 (810 m; Overture 2026-09-23.1 rail); checked on USGS Honker Bay 1:31,680 (1918), USGS Concord 1:62,500 (1915), USGS Mare Island 1:62,500 (1916) and USGS San Francisco 1:62,500 (1915). Today's BNSF Stockton Subdivision, the line the Santa Fe built, to its Richmond depot.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Put in operation May 1, 1900, for freight first (the Railroad Gazette). Today's BNSF line, still used for freight; its tunnels between Glen Frazer and Pinole and its viaduct over the Alhambra Valley are drawn as surface track."
+        },
+        {
+          "id": "atsf-richmond-ferry-point",
+          "name": "Richmond to Ferry Point, through the Point Richmond tunnel",
+          "opened": "1900-05-01",
+          "closed": null,
+          "to": "1918-08-18",
+          "note": "To August 18, 1918, when under federal control the trains went to the Southern Pacific's Oakland Pier instead.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to atsf-bay-point-richmond at its end; then traced by eye from USGS Richmond 1:24,000 (1949) (5 hand-read points); then traced by eye from USGS San Quentin 1:24,000 (1948) (13 hand-read points); then traced by eye from USGS San Quentin 1:24,000 (1948) (18 hand-read points, centred on the line symbol). Through the yard past the depot, then through the tunnel under Point Richmond and along the shore to the train shed at Ferry Point, where the 1948 sheet labels the track Atchison Topeka and Santa Fe.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger trains ended in April 1933; the track carried freight later, and when it was taken up isn't sourced here. The tunnel under Point Richmond is drawn as surface track."
+        },
+        {
+          "id": "atsf-richmond-ferry-point",
+          "name": "Richmond to Ferry Point, through the Point Richmond tunnel",
+          "opened": "1900-05-01",
+          "closed": null,
+          "from": "1921-01-09",
+          "to": "1933-04-23",
+          "note": "Back from January 9, 1921 (Time Table No. 47) until April 23, 1933 (No. 68).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to atsf-bay-point-richmond at its end; then traced by eye from USGS Richmond 1:24,000 (1949) (5 hand-read points); then traced by eye from USGS San Quentin 1:24,000 (1948) (13 hand-read points); then traced by eye from USGS San Quentin 1:24,000 (1948) (18 hand-read points, centred on the line symbol). Through the yard past the depot, then through the tunnel under Point Richmond and along the shore to the train shed at Ferry Point, where the 1948 sheet labels the track Atchison Topeka and Santa Fe.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger trains ended in April 1933; the track carried freight later, and when it was taken up isn't sourced here. The tunnel under Point Richmond is drawn as surface track."
+        }
+      ],
+      "sources": [
+        {
+          "id": "contra-costa-history-1926",
+          "title": "History of Contra Costa County, California",
+          "author": "J. P. Munro-Fraser and others",
+          "publisher": "Historic Record Company, Los Angeles",
+          "date": "1926",
+          "type": "book",
+          "url": "https://archive.org/details/historyofcontra00munr",
+          "license": "Public domain in the US (published 1926, not renewed as far as known); cited for facts",
+          "accessed": "2026-10-15",
+          "source": "contra-costa-history-1926",
+          "supports": [
+            "opened"
+          ],
+          "pages": "127",
+          "note": "\"The first through train from Chicago, over the Santa Fe, arrived on July 3, 1900, about noon\", with the ferry Ocean Wave waiting."
+        },
+        {
+          "id": "ca-brc-report-1900",
+          "title": "Annual Report of the Board of Railroad Commissioners of the State of California (1901), with the railroads' returns for 1900",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1901",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa04unkngoog",
+          "license": "Public domain (State of California publication of 1901)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1900",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "pages": "148",
+          "note": "\"Stockton to Point Richmond, 70.39 miles, May 1, 1900\", put in operation."
+        },
+        {
+          "id": "railroad-gazette-1900-05-04",
+          "title": "The Railroad Gazette 32(18), May 4, 1900: \"Completion of the Atchison to San Francisco\"",
+          "publisher": "The Railroad Gazette",
+          "date": "1900-05-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1900-05-04_32_18",
+          "license": "Public domain (published 1900)",
+          "accessed": "2026-10-15",
+          "source": "railroad-gazette-1900-05-04",
+          "supports": [
+            "general"
+          ],
+          "pages": "282",
+          "note": "Freight \"by May 1\"; \"Through passengers will probably not be taken until two months later.\""
+        },
+        {
+          "id": "holterhoff-1914",
+          "title": "Historical Review of the Atchison, Topeka and Santa Fe Railway Company (with particular reference to California lines)",
+          "author": "G. Holterhoff Jr.",
+          "publisher": "Atchison, Topeka and Santa Fe Railway, for the Railroad Commission of California",
+          "date": "1914-06",
+          "type": "primary_document",
+          "url": "https://archive.org/details/historyreview00holtrich",
+          "license": "Public domain (published 1914)",
+          "accessed": "2026-10-15",
+          "source": "holterhoff-1914",
+          "supports": [
+            "operator"
+          ],
+          "pages": "10",
+          "note": "\"The operation of the property was formally taken over by Santa Fe officials on July 17, 1900\"."
+        },
+        {
+          "id": "cscrm-2021-02-000663",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 35, 1914-03-15",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1914-03-15",
+          "url": "https://archive.org/details/cscrm_2021_02_000663",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-000663",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "9"
+        },
+        {
+          "id": "crc-d5642",
+          "title": "Railroad Commission of California, Decision No. 5642 (Application No. 3985)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1918-07-30",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D5642_19180730_A3985.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d5642",
+          "supports": [
+            "general"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "cscrm-2021-02-000817",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 44, 1918-08-18",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1918-08-18",
+          "url": "https://archive.org/details/cscrm_2021_02_000817",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-000817",
+          "supports": [
+            "route"
+          ],
+          "pages": "7"
+        },
+        {
+          "id": "cscrm-2021-02-000897",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 47, 1921-01-09",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1921-01-09",
+          "url": "https://archive.org/details/cscrm_2021_02_000897",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-000897",
+          "supports": [
+            "route"
+          ],
+          "pages": "cover, 11"
+        },
+        {
+          "id": "crc-d9543",
+          "title": "Railroad Commission of California, Decision No. 9543 (Case No. 1532)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1921-09-23",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D9543_19210923_C1532.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d9543",
+          "supports": [
+            "general"
+          ],
+          "pages": "2-3"
+        },
+        {
+          "id": "cscrm-2021-02-001247",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 67, 1932-03-06",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1932-03-06",
+          "url": "https://archive.org/details/cscrm_2021_02_001247",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-001247",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "cscrm-2021-02-001289",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 68, 1933-04-23",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1933-04-23",
+          "url": "https://archive.org/details/cscrm_2021_02_001289",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-001289",
+          "supports": [
+            "route"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "cscrm-2021-02-002311",
+          "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 16, 1968-06-15",
+          "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+          "date": "1968-06-15",
+          "url": "https://archive.org/details/cscrm_2021_02_002311",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-15",
+          "source": "cscrm-2021-02-002311",
+          "supports": [
+            "general"
+          ],
+          "pages": "4"
+        },
+        {
+          "id": "gtfs-gold-runner",
+          "title": "Amtrak San Joaquins (Gold Runner) GTFS feed, Mobility Database mirror (mdb-2295), version UTC: 26-Nov-2025 18:19",
+          "publisher": "Trillium Solutions for Amtrak San Joaquins",
+          "url": "https://storage.googleapis.com/storage/v1/b/mdb-latest/o/us-california-amtrak-san-joaquins-gtfs-2295.zip?alt=media",
+          "type": "dataset",
+          "license": "No license in the feed (feed_license is empty), and no terms found from the agency (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-gold-runner",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-antioch-1908",
+          "title": "Antioch, Cal., topographic quadrangle, 1:62,500, 1908",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1908",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Antioch_296717_1908_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-antioch-1908",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-jersey-1910",
+          "title": "Jersey, Cal., topographic quadrangle, 1:31,680, 1910",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1910",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Jersey_296187_1910_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-jersey-1910",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-brentwood-1914",
+          "title": "Brentwood, Cal., topographic quadrangle, 1:31,680, 1914",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1914",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Brentwood_295948_1914_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-brentwood-1914",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-woodward-island-1913",
+          "title": "Woodward Island, Cal., topographic quadrangle, 1:31,680, 1913",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1913",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Woodward%20Island_296614_1913_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-woodward-island-1913",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-honker-bay-1918",
+          "title": "Honker Bay, Cal., topographic quadrangle, 1:31,680, 1918",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1918",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Honker%20Bay_296168_1918_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-honker-bay-1918",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1915",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297163_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-mare-island-1916",
+          "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_298113_1916_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-mare-island-1916",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-richmond-1949",
+          "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-richmond-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-quentin-1948",
+          "title": "San Quentin, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Quentin_300194_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-san-quentin-1948",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "nwp-sausalito-san-rafael",
       "name": "Sausalito–San Rafael electric line",
       "system": "northwestern-pacific",
@@ -33430,15 +34148,15 @@
         37.824321
       ],
       "fids": [
-        842,
-        843,
-        844,
-        845,
-        846,
-        847,
-        848,
         849,
-        850
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857
       ],
       "segments": [
         {
@@ -33937,13 +34655,6 @@
         37.891481
       ],
       "fids": [
-        807,
-        808,
-        809,
-        810,
-        811,
-        812,
-        813,
         814,
         815,
         816,
@@ -33956,7 +34667,14 @@
         823,
         824,
         825,
-        826
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833
       ],
       "segments": [
         {
@@ -34587,17 +35305,17 @@
         37.796576
       ],
       "fids": [
-        796,
-        797,
-        798,
-        799,
-        800,
-        801,
-        802,
         803,
         804,
         805,
-        806
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813
       ],
       "segments": [
         {
@@ -35127,9 +35845,9 @@
         38.032436
       ],
       "fids": [
-        906,
-        907,
-        908
+        913,
+        914,
+        915
       ],
       "segments": [
         {
@@ -35379,9 +36097,9 @@
         37.790312
       ],
       "fids": [
-        335,
-        336,
-        337
+        342,
+        343,
+        344
       ],
       "segments": [
         {
@@ -35527,15 +36245,15 @@
         37.789106
       ],
       "fids": [
-        671,
-        672,
-        673,
-        674,
-        675,
-        676,
-        677,
         678,
-        679
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686
       ],
       "segments": [
         {
@@ -36668,10 +37386,10 @@
         37.80035
       ],
       "fids": [
-        358,
-        359,
-        360,
-        361
+        365,
+        366,
+        367,
+        368
       ],
       "segments": [
         {
@@ -37012,17 +37730,17 @@
         37.79562
       ],
       "fids": [
-        346,
-        347,
-        348,
-        349,
-        350,
-        351,
-        352,
         353,
         354,
         355,
-        356
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
       ],
       "segments": [
         {
@@ -37278,12 +37996,12 @@
         37.803847
       ],
       "fids": [
-        878,
-        879,
-        880,
-        881,
-        882,
-        883
+        885,
+        886,
+        887,
+        888,
+        889,
+        890
       ],
       "segments": [
         {
@@ -37784,7 +38502,7 @@
         37.79567
       ],
       "fids": [
-        234
+        239
       ],
       "segments": [
         {
@@ -37969,7 +38687,7 @@
         37.86921
       ],
       "fids": [
-        141
+        146
       ],
       "segments": [
         {
@@ -38268,8 +38986,8 @@
         37.41049
       ],
       "fids": [
-        258,
-        259
+        263,
+        264
       ],
       "segments": [
         {
@@ -38340,8 +39058,8 @@
         37.79367
       ],
       "fids": [
-        148,
-        149
+        153,
+        154
       ],
       "segments": [
         {
@@ -39713,11 +40431,6 @@
         37.80862
       ],
       "fids": [
-        160,
-        161,
-        162,
-        163,
-        164,
         165,
         166,
         167,
@@ -39726,7 +40439,12 @@
         170,
         171,
         172,
-        173
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
       ],
       "segments": [
         {
@@ -39963,9 +40681,9 @@
         "license_unclear"
       ],
       "undated": false,
-      "length_km": 168.5,
+      "length_km": 168.4,
       "confidence_km": {
-        "surveyed": 168.5
+        "surveyed": 168.4
       },
       "bbox": [
         -122.360181,
@@ -39978,24 +40696,140 @@
         137,
         138,
         139,
-        140
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
       ],
       "segments": [
         {
-          "id": "gold-runner-gtfs",
-          "name": "Gold Runner, as run in GTFS",
+          "id": "gold-runner-undated-1",
+          "name": "Gold Runner, part not yet dated",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
           "structure": null,
           "flags": [
-            "opened_unsourced",
-            "license_unclear"
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-4",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-5",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-6",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-3",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gr-bay-point-stockton",
+          "name": "Bay Point to Stockton, by Antioch and Middle River",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Bay Point junction and Stockton, CA San Joaquin Street Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
           ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          "notes": "The Santa Fe's line of 1900, on which the Gold Runner has run since 1974 (as the San Joaquins). The railroad's return puts it in operation on May 1, 1900, but that was for freight: the Railroad Gazette expected through passengers about two months later, and no official source dates the first, so its date is borrowed from the Santa Fe's trains (July 3, 1900, the county history of 1926). Cut where the Gold Runner joins the line west of Bay Point (Port Chicago in 1932). Checked on the 1908-14 sheets from Antioch to Middle River, which draw the Santa Fe where the Gold Runner runs today (review images in docs/screenshots/p2c/traces/)."
+        },
+        {
+          "id": "gold-runner-undated-2",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-7",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "gold-runner-undated-8",
+          "name": "Gold Runner, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 10 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
         }
       ],
       "sources": [
@@ -40028,6 +40862,83 @@
             "opened"
           ],
           "note": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\""
+        },
+        {
+          "id": "ca-brc-report-1900",
+          "title": "Annual Report of the Board of Railroad Commissioners of the State of California (1901), with the railroads' returns for 1900",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1901",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa04unkngoog",
+          "license": "Public domain (State of California publication of 1901)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1900",
+          "supports": [
+            "route"
+          ],
+          "pages": "148",
+          "note": "\"Extensions of Road Put in Operation.—Stockton to Point Richmond, 70.39 miles, May 1, 1900\": the San Francisco & San Joaquin Valley Railway, the Santa Fe's line."
+        },
+        {
+          "id": "usgs-antioch-1908",
+          "title": "Antioch, Cal., topographic quadrangle, 1:62,500, 1908",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1908",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Antioch_296717_1908_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-antioch-1908",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-jersey-1910",
+          "title": "Jersey, Cal., topographic quadrangle, 1:31,680, 1910",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1910",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Jersey_296187_1910_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-jersey-1910",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-brentwood-1914",
+          "title": "Brentwood, Cal., topographic quadrangle, 1:31,680, 1914",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1914",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Brentwood_295948_1914_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-brentwood-1914",
+          "supports": [
+            "route"
+          ]
+        },
+        {
+          "id": "usgs-woodward-island-1913",
+          "title": "Woodward Island, Cal., topographic quadrangle, 1:31,680, 1913",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1913",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Woodward%20Island_296614_1913_31680_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-woodward-island-1913",
+          "supports": [
+            "route"
+          ]
         }
       ]
     },
@@ -40316,8 +41227,8 @@
         37.41132
       ],
       "fids": [
-        260,
-        261
+        265,
+        266
       ],
       "segments": [
         {
@@ -40389,7 +41300,7 @@
         37.79689
       ],
       "fids": [
-        235
+        240
       ],
       "segments": [
         {
@@ -40459,18 +41370,18 @@
         37.79443
       ],
       "fids": [
-        174,
-        175,
-        176,
-        177,
-        178,
         179,
         180,
         181,
         182,
         183,
         184,
-        185
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
       ],
       "segments": [
         {
@@ -40760,17 +41671,17 @@
         37.79443
       ],
       "fids": [
-        186,
-        187,
-        188,
-        189,
-        190,
         191,
         192,
         193,
         194,
         195,
-        196
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
       ],
       "segments": [
         {
@@ -41022,16 +41933,16 @@
         37.79443
       ],
       "fids": [
-        197,
-        198,
-        199,
-        200,
-        201,
         202,
         203,
         204,
         205,
-        206
+        206,
+        207,
+        208,
+        209,
+        210,
+        211
       ],
       "segments": [
         {
@@ -41288,7 +42199,7 @@
         37.94473
       ],
       "fids": [
-        142
+        147
       ],
       "segments": [
         {
@@ -41371,17 +42282,17 @@
         37.79443
       ],
       "fids": [
-        207,
-        208,
-        209,
-        210,
-        211,
         212,
         213,
         214,
         215,
         216,
-        217
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
       ],
       "segments": [
         {
@@ -41624,18 +42535,18 @@
         37.79443
       ],
       "fids": [
-        218,
-        219,
-        220,
-        221,
-        222,
         223,
         224,
         225,
         226,
         227,
         228,
-        229
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
       ],
       "segments": [
         {
@@ -41952,8 +42863,8 @@
         37.79853
       ],
       "fids": [
-        236,
-        237
+        241,
+        242
       ],
       "segments": [
         {
@@ -42120,7 +43031,7 @@
         37.79417
       ],
       "fids": [
-        238
+        243
       ],
       "segments": [
         {
@@ -42435,13 +43346,13 @@
         37.41578
       ],
       "fids": [
-        262,
-        263,
-        264,
-        265,
-        266,
         267,
-        268
+        268,
+        269,
+        270,
+        271,
+        272,
+        273
       ],
       "segments": [
         {
@@ -42603,12 +43514,12 @@
         37.806637
       ],
       "fids": [
-        150,
-        151,
-        152,
-        153,
-        154,
-        155
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
       ],
       "segments": [
         {
@@ -42751,10 +43662,10 @@
         37.805226
       ],
       "fids": [
-        156,
-        157,
-        158,
-        159
+        161,
+        162,
+        163,
+        164
       ],
       "segments": [
         {
@@ -43331,8 +44242,8 @@
         37.90948
       ],
       "fids": [
-        239,
-        240
+        244,
+        245
       ],
       "segments": [
         {
@@ -43429,13 +44340,13 @@
         37.63509
       ],
       "fids": [
-        245,
-        246,
-        247,
-        248,
-        249,
         250,
-        251
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
       ],
       "segments": [
         {
@@ -43520,11 +44431,11 @@
         38.549119
       ],
       "fids": [
-        252,
-        253,
-        254,
-        255,
-        256
+        257,
+        258,
+        259,
+        260,
+        261
       ],
       "segments": [
         {
@@ -43742,8 +44653,8 @@
         37.85629
       ],
       "fids": [
-        143,
-        144
+        148,
+        149
       ],
       "segments": [
         {
@@ -43826,8 +44737,8 @@
         37.80034
       ],
       "fids": [
-        241,
-        242
+        246,
+        247
       ],
       "segments": [
         {
@@ -43911,10 +44822,10 @@
         37.794812
       ],
       "fids": [
-        230,
-        231,
-        232,
-        233
+        235,
+        236,
+        237,
+        238
       ],
       "segments": [
         {
@@ -44121,8 +45032,8 @@
         37.87273
       ],
       "fids": [
-        145,
-        146
+        150,
+        151
       ],
       "segments": [
         {
@@ -44206,7 +45117,7 @@
         37.81667
       ],
       "fids": [
-        257
+        262
       ],
       "segments": [
         {
@@ -44292,7 +45203,7 @@
         37.87273
       ],
       "fids": [
-        147
+        152
       ],
       "segments": [
         {
@@ -44363,8 +45274,8 @@
         38.10147
       ],
       "fids": [
-        243,
-        244
+        248,
+        249
       ],
       "segments": [
         {

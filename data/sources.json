@@ -1048,6 +1048,18 @@
       "notes": "The railroads' returns, with each stretch's date \"opened for public use\" on its own line; the Northern Railway's is on p. 45 of its return (\"From Shell Mound to Martinez January 9, 1878. From Benicia to Suisun December 28, 1879\"; its West Oakland date is printed \"August 17, 1886\", where the tenth report has August 16, 1876). A Google scan. Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "ca-brc-report-1900",
+      "title": "Annual Report of the Board of Railroad Commissioners of the State of California (1901), with the railroads' returns for 1900",
+      "author": "Board of Railroad Commissioners of the State of California",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1901",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa04unkngoog",
+      "license": "Public domain (State of California publication of 1901)",
+      "accessed": "2026-10-15",
+      "notes": "p. 148, the San Francisco & San Joaquin Valley Railway's return: \"Extensions of Road Put in Operation.—Stockton to Point Richmond, 70.39 miles, May 1, 1900\". A Google scan. Read on the page image."
+    },
+    {
       "id": "ca-brc-reports-9-12",
       "title": "Annual Reports of the Board of Railroad Commissioners of the State of California, 9th-12th (c. 1888-1892), bound together",
       "author": "Board of Railroad Commissioners of the State of California",
@@ -1149,6 +1161,18 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "J. J. Teuscher, \"Last Ferry\": \"On September 15, 1962, the Benicia-Martinez Ferry made its last trip across the Carquinez Straits\"; the state took the ferry over in 1953; \"From early in 1955 to late in 1956 the only ferry between Benicia and Martinez was a passenger ferry\" (pp. 5-6). Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "contra-costa-history-1926",
+      "title": "History of Contra Costa County, California",
+      "author": "J. P. Munro-Fraser and others",
+      "publisher": "Historic Record Company, Los Angeles",
+      "date": "1926",
+      "type": "book",
+      "url": "https://archive.org/details/historyofcontra00munr",
+      "license": "Public domain in the US (published 1926, not renewed as far as known); cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 127, in the Richmond chapter, by a writer who came there in 1899: \"The first through train from Chicago, over the Santa Fe, arrived on July 3, 1900, about noon. Captain H. P. Lauritzen was in charge of the ferry boat, Ocean Wave, waiting for the train.\" Read on the page image."
     },
     {
       "id": "cpuc-d40055",
@@ -1919,6 +1943,39 @@
       "notes": "Order I, pp. 5-6, gives both routes street by street. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d5642",
+      "title": "Railroad Commission of California, Decision No. 5642 (Application No. 3985)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1918-07-30",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D5642_19180730_A3985.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: the Santa Fe, at the federal Director General of Railroads' request, authorized to discontinue \"its ferry service between Ferry Point and San Francisco and for the re-routing of its passenger trains between Richmond and Oakland via the tracks of the Southern Pacific Company\". Read on the scanned page by the research pass."
+    },
+    {
+      "id": "crc-d9543",
+      "title": "Railroad Commission of California, Decision No. 9543 (Case No. 1532)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1921-09-23",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D9543_19210923_C1532.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "pp. 2-3: \"During Federal control the Santa Fe terminal was diverted from Ferry Point and the Santa Fe passenger traffic moved via Oakland Pier of the Southern Pacific\"; afterwards the Santa Fe \"resumed service via Ferry Point with their own boats\", and it operates \"a ferry service between San Francisco and Ferry Point to meet all incoming and outgoing trains\". Read on the scanned pages by the research pass."
+    },
+    {
+      "id": "crocker-langley-1901",
+      "title": "Crocker-Langley San Francisco Directory for the year commencing May 1901",
+      "publisher": "H. S. Crocker Company",
+      "date": "1901",
+      "type": "primary_document",
+      "url": "https://archive.org/details/crockerlangleysa0000vari_a5j1",
+      "license": "Public domain (published 1901)",
+      "accessed": "2026-10-15",
+      "notes": "p. 1556: \"Santa Fe Route Ferry, foot Market\"; its freight ferry slips at the Spear St wharf. Read on the page image by the research pass."
+    },
+    {
       "id": "cscrm-2021-02-000612",
       "title": "Southern Pacific Company, employee timetable No. 2, November 1, 1914",
       "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
@@ -1928,6 +1985,72 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-14",
       "notes": "pp. 30-35: \"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32); the First and Webster, Third and Webster and Webster Junction (Alameda) towers and the Harrison Street drawbridge (p. 35). Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-000663",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 35, 1914-03-15",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1914-03-15",
+      "url": "https://archive.org/details/cscrm_2021_02_000663",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 9, Third District: the stations from Stockton by Middle River, Antioch, Pittsburg, Bay Point, Muir, Pinole and San Pablo to Richmond, Richmond Avenue and Ferry Point, then 7.7 miles to San Francisco. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000817",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 44, 1918-08-18",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1918-08-18",
+      "url": "https://archive.org/details/cscrm_2021_02_000817",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "In effect Sunday, August 18, 1918: through trains run from Richmond by Santa Fe Junction to the Southern Pacific's Oakland Pier, and Ferry Point is \"Freight only\" (p. 7). Read on the page images by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000897",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 47, 1921-01-09",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1921-01-09",
+      "url": "https://archive.org/details/cscrm_2021_02_000897",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "Printed \"In effect Sunday, December 5, 1920\", overstamped, with a typed box: \"EFFECTIVE 12:01 A. M. SUNDAY, JANUARY 9th, 1921\" (cover); p. 11 restores Richmond – Ferry Point – San Francisco. Cover read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001247",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 67, 1932-03-06",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1932-03-06",
+      "url": "https://archive.org/details/cscrm_2021_02_001247",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 8, Third District, with mileposts: Stockton 1121.4 to Richmond 1189.6, Richmond Ave. 1190.2 and Ferry Point 1191.7, then San Francisco 1199.4. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001289",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 68, 1933-04-23",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1933-04-23",
+      "url": "https://archive.org/details/cscrm_2021_02_001289",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "In effect Sunday, April 23, 1933: p. 8, the Third District from Riverbank and Stockton ends at Richmond (milepost 1189.6), with no Richmond Ave. or Ferry Point; p. 9, through trains run on by Oakland (40th and San Pablo) to Oakland Pier. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002311",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 16, 1968-06-15",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1968-06-15",
+      "url": "https://archive.org/details/cscrm_2021_02_002311",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 4: first-class trains Nos. 1 and 2 at Richmond (No. 1 arrives 10.00 AM, No. 2 leaves 4.30 PM). No. 17 of May 30, 1971 schedules none. Read on the page image by the research pass."
     },
     {
       "id": "demoro-key-route-1985",
@@ -2089,6 +2212,18 @@
       "license": "Public domain (published 1876)",
       "accessed": "2026-10-15",
       "notes": "A year-by-year chronicle of Alameda County to 1876, with the openings of its railroads and ferries. Pages are the printed page numbers in the running heads. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "holterhoff-1914",
+      "title": "Historical Review of the Atchison, Topeka and Santa Fe Railway Company (with particular reference to California lines)",
+      "author": "G. Holterhoff Jr.",
+      "publisher": "Atchison, Topeka and Santa Fe Railway, for the Railroad Commission of California",
+      "date": "1914-06",
+      "type": "primary_document",
+      "url": "https://archive.org/details/historyreview00holtrich",
+      "license": "Public domain (published 1914)",
+      "accessed": "2026-10-15",
+      "notes": "p. 10: \"Although the construction of this line was not fully completed until July, 1900, … The operation of the property was formally taken over by Santa Fe officials on July 17, 1900\"; p. 11: the Oakland and East Side Railroad, incorporated March 6, 1902, \"Constructed Richmond to Oakland\". Read on the page images by the research pass."
     },
     {
       "id": "joe-1905-01-psr",
@@ -2427,6 +2562,18 @@
       "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
+      "id": "point-richmond-progress-1933-04-07",
+      "title": "Point Richmond Progress, April 7, 1933: \"Ferry Service Stops\"",
+      "author": "Harry R. Burt (publisher)",
+      "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+      "date": "1933-04-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_000032",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: \"Passenger ferry service from Ferry Point will be abandoned by the Santa Fe Railroad in the latter part of April, and a new train schedule will be put into effect.\" The Interstate Commerce Commission had approved the joint application of the Western Pacific and Santa Fe. Read on the page image by the research pass."
+    },
+    {
       "id": "poors-1880",
       "title": "Poor's Manual of the Railroads of the United States, 1880 (vol. 13)",
       "author": "Henry V. Poor",
@@ -2485,6 +2632,17 @@
       "license": "Public domain (published 1912)",
       "accessed": "2026-10-14",
       "notes": "pp. 460–463 (p. 460, the first, carries no folio), with a map of the lines on p. 460. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "railroad-gazette-1900-05-04",
+      "title": "The Railroad Gazette 32(18), May 4, 1900: \"Completion of the Atchison to San Francisco\"",
+      "publisher": "The Railroad Gazette",
+      "date": "1900-05-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_railway-age_1900-05-04_32_18",
+      "license": "Public domain (published 1900)",
+      "accessed": "2026-10-15",
+      "notes": "p. 282: \"It is proposed to accept freight for delivery over the Point Richmond route by May 1. Through passengers will probably not be taken until two months later.\" \"Ferries are to land the passengers at the union station in the city.\" Read on the page image."
     },
     {
       "id": "railroad-gazette-1907-03-15",
@@ -2994,6 +3152,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 287935, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 227003fee77f0df1be22db6644d8fc78a985867e8fa72223ffbace76b827ec68."
     },
     {
+      "id": "usgs-antioch-1908",
+      "title": "Antioch, Cal., topographic quadrangle, 1:62,500, 1908",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1908",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Antioch_296717_1908_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1907, edition of 1908. HTMC scan 296717, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 6860a040bccc4d26586476301dbae376c08622775a5e879c6a4ec693147a3209."
+    },
+    {
       "id": "usgs-asti-1959",
       "title": "Asti, Cal., topographic quadrangle, 1:24,000, 1959, printed 1961",
       "author": "U.S. Geological Survey",
@@ -3028,6 +3198,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
+    },
+    {
+      "id": "usgs-brentwood-1914",
+      "title": "Brentwood, Cal., topographic quadrangle, 1:31,680, 1914",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1914",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Brentwood_295948_1914_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1911, edition of 1914. HTMC scan 295948, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 be02f04ec82d8d99443a92c92b0c971900f5900cdde77035c4a51f9f3751fcee."
     },
     {
       "id": "usgs-calistoga-1927",
@@ -3244,6 +3426,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 291408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2aebec44aa8844ebadfd5458cc3e7965182c8111facbe73afec8fc5d0fff80ea."
+    },
+    {
+      "id": "usgs-jersey-1910",
+      "title": "Jersey, Cal., topographic quadrangle, 1:31,680, 1910",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1910",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Jersey_296187_1910_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1908, edition of 1910. HTMC scan 296187, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 d7dc4c6ac5a53f9092aaaa600d6dd42f3b8c71353079ecb85184f6d154e95dd1."
     },
     {
       "id": "usgs-karquines-1898",
@@ -3784,6 +3978,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 301186, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 77c7663e774d98ba3c6fa78bc3723fb0ef3dfe05bf78a02f2f1dae15d126e437."
+    },
+    {
+      "id": "usgs-woodward-island-1913",
+      "title": "Woodward Island, Cal., topographic quadrangle, 1:31,680, 1913",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1913",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Woodward%20Island_296614_1913_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1911, edition of 1913. HTMC scan 296614, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 38bc3da04aacd968b6dbfc998cc6cab15c5c35c1c431eb80901d0d63b75a1632."
     },
     {
       "id": "usgs-yountville-1951",
