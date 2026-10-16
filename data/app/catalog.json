@@ -2387,7 +2387,7 @@
       "closed": null,
       "status": "closed",
       "status_label": "Closed",
-      "summary": "A freight belt line along Clement Ave in Alameda, built by the city in 1918 to serve the new industries and shipyards of the north shore, worked by the Southern Pacific's switch engines; sold in 1925-26 to the Alameda Belt Line, owned by the Western Pacific and the Santa Fe, which extended it west.",
+      "summary": "A freight belt line along Clement Ave in Alameda, built by the city in 1918, whose first freight went to the new Barnes-Tibbitts shipyard; worked by the Southern Pacific's switch engines, sold in 1925-26 to the Alameda Belt Line, owned by the Western Pacific and the Santa Fe, which extended it west.",
       "fate": "abandoned",
       "fate_note": "Formally abandoned under the Surface Transportation Board's notice AB 1090X, effective June 16, 2012, after no local traffic for at least two years; the last train isn't sourced.",
       "notes": "Drawn from the first freight, May 27, 1918, to the last date a source read on its page shows the line in use, September 1941 (decisions 15 and 20); it ran into the 1990s by pointer sources only. When the Alameda Belt Line company took over from the city isn't sourced.",
@@ -40189,6 +40189,22 @@
           "note": "\"abandoned by Western Pacific as of March 1\"."
         },
         {
+          "id": "western-railroader-1957-03",
+          "title": "The Western Railroader 20(5), March 1957: Sacramento Northern abandonment and the Union Street line",
+          "publisher": "The Western Railroader",
+          "date": "1957-03",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1957-03_20_5",
+          "license": "Copyright status unknown (railfan periodical, 1957); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1957-03",
+          "supports": [
+            "general"
+          ],
+          "pages": "14",
+          "note": "\"The portion East of Lafayette will remain in service\"."
+        },
+        {
           "id": "erj-1913-04-19-oakland-antioch-eastern",
           "title": "Oakland, Antioch & Eastern Railway",
           "publisher": "Electric Railway Journal 41(16)",
@@ -47089,7 +47105,7 @@
       "status_label": "Closed",
       "summary": "Southern Pacific trains from San Francisco over the Mayfield cut-off by Los Altos, Loyola, Monta Vista and Congress Junction to Vasona Junction and Los Gatos, six a day when it opened in 1908; by 1957 one weekday commute train each way.",
       "fate": "abandoned",
-      "fate_note": "The Interstate Commerce Commission ended the Vasona Junction-Los Gatos stub in January 1959 and the branch itself in 1963, effective December 26 (Campbell Press). Much of the right of way became the Foothill Expressway.",
+      "fate_note": "The Interstate Commerce Commission ended the Vasona Junction-Los Gatos stub in January 1959 and the branch itself in 1963, effective December 26 (Campbell Press). The Foothill Expressway was to use the right of way (Campbell Press).",
       "notes": "Drawn to September 1963, its last timetable with a train (decision 20). The last day isn't settled: the timetable of October 27, 1963 has no train on the branch, the ICC's abandonment took effect on December 26, 1963 (Campbell Press), and a local history of 1973 gives the last train through Los Altos as January 27, 1964 (read only in a search snippet).",
       "flags": [
         "closed_unsourced",
@@ -47144,7 +47160,7 @@
           "flags": [
             "closed_unsourced"
           ],
-          "notes": "Built by the Southern Pacific's Peninsular Railroad (the Mayfield cut-off); double track to Congress Junction, the west track used by the Peninsular Railway's electric cars from 1910, which aren't drawn yet. Much of the right of way is the Foothill Expressway today (Campbell Press, 1963)."
+          "notes": "Built by the Southern Pacific's Peninsular Railroad (the Mayfield cut-off); double track to Congress Junction, the west track used by the Peninsular Railway's electric cars from 1910, which aren't drawn yet. The Foothill Expressway was to use the right of way (Campbell Press, 1963)."
         }
       ],
       "sources": [
@@ -47765,7 +47781,7 @@
       "status_label": "Closed",
       "summary": "The Southern Pacific's trains from Oakland by Martinez, Port Chicago, Pittsburg, Antioch, Brentwood and Byron to Tracy and the San Joaquin Valley: in 1914 eight eastbound trains a day, the Owl and a Tracy and Fresno local among them; after 1955 only through trains, and from 1965 the San Joaquin Daylight alone.",
       "fate": "abandoned",
-      "fate_note": "The San Joaquin Daylight was \"not selected by NRPC\" (Amtrak) and was discontinued on April 30, 1971 (Southern Pacific Bulletin). The track still carries freight.",
+      "fate_note": "The San Joaquin Daylight was \"not selected by NRPC\" (Amtrak) and was discontinued on April 30, 1971 (Southern Pacific Bulletin). The track is still in place (Overture's Union Pacific Tracy Subdivision).",
       "continues_beyond": "Tracy, Fresno and Los Angeles",
       "notes": "Opened for public use on September 3, 1878, in the railroad's returns; the county history of 1882 has the first train through Antioch on September 9. Clipped at the San Joaquin County line (decision 16).",
       "flags": [

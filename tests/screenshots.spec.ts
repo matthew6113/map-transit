@@ -121,6 +121,15 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-east-bay-1896', url: '/?era=past&year=1896&test=1#map=11.2/37.8700/-122.2400/0/0' },
   { name: 'past-line-wp-san-jose', url: '/l/wp-niles-san-jose?era=past&year=1925&test=1&at=99' },
   { name: 'past-south-bay-1925', url: '/?era=past&year=1925&test=1#map=10.6/37.4600/-121.9500/0/0' },
+  { name: 'past-line-los-altos', url: '/l/sp-los-altos-branch?era=past&year=1930&test=1&at=99' },
+  { name: 'past-line-tracy', url: '/l/sp-oakland-tracy?era=past&year=1930&test=1&at=99' },
+  { name: 'past-line-san-quentin', url: '/l/npc-san-quentin-trains?era=past&year=1880&test=1&at=99' },
+  { name: 'past-marin-1880', url: '/?era=past&year=1880&test=1#map=11.4/37.9200/-122.4800/0/0' },
+  { name: 'past-line-sn-freight', url: '/l/sn-oakland-lafayette-freight?era=past&year=1950&test=1&at=99' },
+  { name: 'past-oakland-hills-1950', url: '/?era=past&year=1950&test=1#map=11.8/37.8350/-122.2000/0/0' },
+  { name: 'past-line-alameda-belt', url: '/l/abl-clement-ave?era=past&year=1930&test=1&at=99' },
+  { name: 'past-line-otr-40th-st', url: '/l/otr-40th-st?era=past&year=1950&test=1&at=99' },
+  { name: 'past-west-oakland-1957', url: '/?era=past&year=1957&test=1#map=13.6/37.8150/-122.2750/0/0' },
 ];
 
 async function settle(page: Page) {
