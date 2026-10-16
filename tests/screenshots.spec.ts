@@ -112,6 +112,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-dumbarton', url: '/l/sp-dumbarton-redwood-niles?era=past&year=1914&test=1&at=99' },
   { name: 'past-line-petaluma-steamers', url: '/l/psr-steamers?era=past&year=1920&test=1&at=99' },
   { name: 'past-line-mare-island-ferry', url: '/l/mare-island-ferry?era=past&year=1943&test=1&at=99' },
+  { name: 'past-line-oakland-san-jose-1941', url: '/l/sp-oakland-san-jose-elmhurst?era=past&year=1950&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

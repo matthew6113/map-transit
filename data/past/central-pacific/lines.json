@@ -147,7 +147,10 @@
           "segment": "sp-fallon-melrose"
         },
         {
-          "segment": "cc-melrose-san-leandro"
+          "segment": "cc-melrose-elmhurst"
+        },
+        {
+          "segment": "cc-elmhurst-san-leandro"
         },
         {
           "segment": "cc-san-leandro-niles"

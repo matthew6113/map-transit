@@ -1323,6 +1323,17 @@
       "notes": "The Northwestern Pacific's Trains Nos. 3 and 4, thrice weekly between San Rafael and Eureka since June 2, 1956 (p. 2); discontinuance authorized between San Rafael and Willits (p. 12), the order effective twenty days after its date (p. 13). Text extracted with pypdf, since pdftotext reads only its first page."
     },
     {
+      "id": "cpuc-d59928",
+      "title": "Public Utilities Commission of California, Decision No. 59928 (Application No. 41544): Southern Pacific trains 73, 74, 250 and 255",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1960-04-12",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D57801_to_D73750/D59928_19600412_A41544.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 10: Southern Pacific \"is hereby authorized to discontinue the operations of passenger trains Nos. 73, 74, 250 and 255 between Oakland and San Jose and intermediate points\"; p. 11: effective twenty days after April 12, 1960. p. 1: Nos. 250 and 255 were \"the Oakland section of the Coast Daylight\". Read on the scanned pages by the research pass; p. 10 on October 16, 2026."
+    },
+    {
       "id": "cpuc-vta-safety-review-2011",
       "title": "Triennial on-site safety and security review of the Santa Clara Valley Transportation Authority (2011)",
       "publisher": "California Public Utilities Commission",
@@ -2285,6 +2296,28 @@
       "notes": "\"To Take Effect Monday, January 15, 1934, at 3:01 A. M.\": trains 140-143 become \"Kenwood Passenger\", running on from Agua Caliente by Watriss, Yulupa, Eldridge, Glen Ellen, Warfield, Beltane, Wildwood and Kenwood to Los Guilicos (p. 4). Read on the page images by the research pass."
     },
     {
+      "id": "cscrm-2021-02-001466",
+      "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1941-09-28",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001466",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 12, Niles Subdivision: passenger trains 250 and 255 and the Oakland Lark (74, 73), daily, from Oakland Pier by West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale and Elmhurst, then Mulford, Robert, Russell, Mount Eden, Alvarado, Newark, Alviso and Agnew to Santa Clara (\"Elmhurst-Santa Clara line\"). Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002028",
+      "title": "Southern Pacific, Western Division, employee timetable No. 272, 1960-04-24, with Schedule Statement ST-798 of 1960-05-09",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1960-05-09",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002028",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "Memorandum bound in (leaf 9): \"Passenger Trains Nos. 74, 250 and 255 were discontinued between Oakland and San Jose following the last operation on May 1, 1960, and Train No. 73 was discontinued following the last operation on May 2nd\". Read on the page image, October 16, 2026."
+    },
+    {
       "id": "cscrm-2021-02-002311",
       "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 16, 1968-06-15",
       "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
@@ -2848,7 +2881,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), oakland (-122.34, 37.7, -122.15, 37.82), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",

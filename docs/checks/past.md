@@ -201,8 +201,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sv-madrone-glen-ellen` Madrone to Glen Ellen, along Sonoma Creek | geotiff | usgs-santa-rosa-1916 | 50 m | [review](../screenshots/p2c/traces/sv-madrone-glen-ellen.jpg) |
 | `sfnp-sebastopol-branch` Santa Rosa to Sebastopol, by Kenilworth, Llano and Gravenstein | geotiff | usgs-santa-rosa-1916 | 30 m | [sheet 1](../screenshots/p2c/traces/sfnp-sebastopol-branch-1.jpg) [sheet 2](../screenshots/p2c/traces/sfnp-sebastopol-branch-2.jpg) |
 | `spc-alameda-west` West Alameda, from the mole to Central Avenue | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-alameda-west.jpg) |
-| `spc-alameda-newark` Alameda to Newark, across San Leandro Bay and by Alvarado | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-alameda-newark-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-alameda-newark-2.jpg) |
-| `spc-newark-junctions` Newark, the Dumbarton junction to the Centerville junction | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-newark-junctions-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-newark-junctions-2.jpg) |
+| `spc-alameda-elmhurst-jct` Alameda across San Leandro Bay to today's track west of San Leandro | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-alameda-elmhurst-jct-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-alameda-elmhurst-jct-2.jpg) |
 | `spc-san-jose-los-gatos` San José to Los Gatos, by Campbell | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/spc-san-jose-los-gatos-1.jpg) [sheet 2](../screenshots/p2c/traces/spc-san-jose-los-gatos-2.jpg) [sheet 3](../screenshots/p2c/traces/spc-san-jose-los-gatos-3.jpg) |
 | `spc-los-gatos-alma` Los Gatos to Alma, up Los Gatos Creek | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-los-gatos-alma.jpg) |
 | `spc-alma-wrights` Alma to Wrights | OpenHistoricalMap |  |  | [review](../screenshots/p2c/traces/spc-alma-wrights.jpg) |
@@ -243,6 +242,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-webster-2nd-1st` Webster Street, 2nd Street to 1st Street | street-centerline | usgs-oakland-west-1949 | 20 m | [review](../screenshots/p2c/traces/sp-webster-2nd-1st.jpg) |
 | `sp-harrison-st-bridge` Harrison Street swing bridge across the estuary | similarity | usgs-san-francisco-1915 | 80 m | [corrected](../screenshots/p2c/traces/sp-harrison-st-bridge-corrected.jpg) [as traced](../screenshots/p2c/traces/sp-harrison-st-bridge.jpg) |
 | `sp-alameda-north-shore` Alameda's north shore, the bridge to the mole line | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2c/traces/sp-alameda-north-shore.jpg) |
+| `sp-west-oakland-connection` West Oakland, the mole line to the First Street line | geotiff | usgs-oakland-west-1949 | 15 m | [review](../screenshots/p2c/traces/sp-west-oakland-connection.jpg) |
 | `sp-oakland-pier` Oakland Pier | geotiff | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-oakland-pier.jpg) |
 | `sp-sixteenth-street` Sixteenth Street Station | street-centerline | usgs-oakland-west-1949 | 30 m | [review](../screenshots/p2a/traces/sp-sixteenth-street.jpg) |
 | `sp-northbrae` Northbrae | street-centerline | usgs-richmond-1949 | 15 m | [review](../screenshots/p2a/traces/sp-northbrae.jpg) |
@@ -437,3 +437,4 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `nwp-main-line` Northwestern Pacific trains to Eureka, from San Rafael | 1935-05-20 (crc-d27973, p. 3); 1941-09-10 (crc-d34571, p. 1); 1958-10-21 (cpuc-d57488, p. 2) | opening |
 | `sfnp-guerneville` San Francisco & North Pacific, Guerneville branch | 1887 (poors-1887, p. 873); 1935-05-20 (crc-d27973, p. 3) | closing |
 | `spc-alameda-santa-cruz` South Pacific Coast, Alameda to Santa Cruz | 1900 (poors-1900, p. 616-617) | closing |
+| `sp-oakland-san-jose-elmhurst` Southern Pacific trains, Oakland Pier to San José by Elmhurst and Newark | 1941-09-28 (cscrm-2021-02-001466, p. 12) | opening |

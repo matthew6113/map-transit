@@ -1899,6 +1899,22 @@
         "San José, the line's end": [
           -121.903237,
           37.331308
+        ],
+        "West Oakland junction": [
+          -122.30493,
+          37.80583
+        ],
+        "Elmhurst junction": [
+          -122.17923,
+          37.735697
+        ],
+        "Alameda line junction": [
+          -122.180312,
+          37.710133
+        ],
+        "Dumbarton junction": [
+          -122.036056,
+          37.5267411
         ]
       },
       "segments": [
@@ -2041,10 +2057,56 @@
           "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
         },
         {
-          "id": "cc-melrose-san-leandro",
-          "name": "Melrose to San Leandro, by Elmhurst",
+          "id": "cc-west-oakland-melrose",
+          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "line": "capitol-corridor",
+          "from": "West Oakland junction",
+          "to": "Melrose",
+          "opened": null,
+          "sources": [
+            {
+              "source": "cscrm-2021-02-001466",
+              "supports": [
+                "route"
+              ],
+              "pages": "12",
+              "note": "Oakland Pier, West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale and Elmhurst on the Southern Pacific's Niles Subdivision."
+            }
+          ],
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+        },
+        {
+          "id": "cc-melrose-elmhurst",
+          "name": "Melrose to Elmhurst",
           "line": "capitol-corridor",
           "from": "Melrose",
+          "to": "Elmhurst junction",
+          "opened": "1869-11-08",
+          "sources": [
+            {
+              "source": "halley-1876",
+              "supports": [
+                "opened"
+              ],
+              "pages": "280-281",
+              "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
+            },
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "31",
+              "note": "The Central Pacific's return: \"To San Francisco … About December 1, 1869.\""
+            }
+          ],
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+        },
+        {
+          "id": "cc-elmhurst-san-leandro",
+          "name": "Elmhurst to San Leandro",
+          "line": "capitol-corridor",
+          "from": "Elmhurst junction",
           "to": "San Leandro",
           "opened": "1869-11-08",
           "sources": [
@@ -2131,6 +2193,63 @@
             }
           ],
           "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
+        },
+        {
+          "id": "cs-elmhurst-alameda-line",
+          "name": "Elmhurst to the old line from Alameda, west of San Leandro",
+          "line": "amtrak-coast-starlight",
+          "from": "Elmhurst junction",
+          "to": "Alameda line junction",
+          "opened": null,
+          "sources": [
+            {
+              "source": "cscrm-2021-02-001466",
+              "supports": [
+                "route"
+              ],
+              "pages": "12",
+              "note": "The Southern Pacific's \"Elmhurst-Santa Clara line\" in 1941: Elmhurst, Mulford, Robert, Russell, Mount Eden, Baumberg, Alvarado, Hall, Arden, Newark."
+            }
+          ],
+          "notes": "The north end of the Southern Pacific's Elmhurst-Santa Clara line, which joined the South Pacific Coast's line of 1878 from Alameda west of San Leandro; when it was built isn't sourced. Cut where the Coast Starlight leaves the Capitol Corridor's track at Elmhurst, and where the old line from Alameda came in."
+        },
+        {
+          "id": "cs-alameda-line-dumbarton",
+          "name": "West of San Leandro to Newark, by Mount Eden and Alvarado",
+          "line": "amtrak-coast-starlight",
+          "from": "Alameda line junction",
+          "to": "Dumbarton junction",
+          "opened": "1878-06-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "The South Pacific Coast's return: \"From Alameda Point to Los Gatos June 1, 1878.\""
+            }
+          ],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878 from Alameda Point, later standard gauge; OpenHistoricalMap's tracing of the 1899 Haywards sheet runs within about 170 m of today's track. Cut where the line from Alameda came in and where the Dumbarton Cutoff joins at Newark."
+        },
+        {
+          "id": "cs-dumbarton-newark",
+          "name": "Newark, the Dumbarton junction to the Centerville junction",
+          "line": "amtrak-coast-starlight",
+          "from": "Dumbarton junction",
+          "to": "Newark junction",
+          "opened": "1878-06-01",
+          "sources": [
+            {
+              "source": "ca-brc-report-1894",
+              "supports": [
+                "opened"
+              ],
+              "pages": "35",
+              "note": "The South Pacific Coast's return: \"From Alameda Point to Los Gatos June 1, 1878.\""
+            }
+          ],
+          "notes": "Part of the South Pacific Coast's line of 1878 through Newark. Cut where the Dumbarton Cutoff joined it and where the Centerville line (the Capitol Corridor's) comes in."
         },
         {
           "id": "cc-newark-santa-clara",

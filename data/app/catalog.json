@@ -5199,27 +5199,27 @@
           ]
         },
         {
-          "id": "cc-melrose-san-leandro-1",
-          "name": "Melrose to San Leandro, by Elmhurst, part 1 of 2",
+          "id": "cc-melrose-elmhurst",
+          "name": "Melrose to Elmhurst",
           "opened": "1869-11-08",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and San Leandro (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and Elmhurst junction (data/present/extensions.json)",
           "structure": null,
           "flags": [],
-          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "cc-melrose-san-leandro-2",
-          "name": "Melrose to San Leandro, by Elmhurst, part 2 of 2",
+          "id": "cc-elmhurst-san-leandro",
+          "name": "Elmhurst to San Leandro",
           "opened": "1869-11-08",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and San Leandro (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Elmhurst junction and San Leandro (data/present/extensions.json)",
           "structure": null,
           "flags": [],
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
@@ -7226,9 +7226,9 @@
       "notes": "Ends with the timetable of October 1, 1916, which the Washington Press reported; the last day with passengers isn't stated, and no Railroad Commission order on it was found. In 1912 the trains stopped for a time and were back by September 21; when they stopped isn't sourced. By 1914, one mixed train each way, Nos. 512 and 503.",
       "flags": [],
       "undated": false,
-      "length_km": 27.08,
+      "length_km": 27.04,
       "confidence_km": {
-        "surveyed": 27.08
+        "surveyed": 27.04
       },
       "bbox": [
         -122.219095,
@@ -7237,10 +7237,10 @@
         37.577468
       ],
       "fids": [
-        1055,
         1056,
         1057,
-        1058
+        1058,
+        1059
       ],
       "segments": [
         {
@@ -7261,19 +7261,17 @@
           "notes": "When it was built and first used isn't sourced here; its first regular passenger train ran on December 26, 1911. Across the bay on the Dumbarton bridge between Ravenswood and Dumbarton; only freight trains ran on it from October 1, 1916 (timetable No. 167)."
         },
         {
-          "id": "spc-newark-junctions",
+          "id": "cs-dumbarton-newark",
           "name": "Newark, the Dumbarton junction to the Centerville junction",
           "opened": "1878-06-01",
           "closed": null,
-          "borrowed": true,
+          "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Haywards CA 1899 topographic map, cut from -122.03606,37.52674 and to -122.03253,37.52506; checked on USGS Newark 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1899 Haywards sheet, from the Dumbarton Cutoff's junction to where today's line to Centerville leaves it.",
-          "structure": "surface",
-          "flags": [
-            "closed_unsourced"
-          ],
-          "notes": "Part of the South Pacific Coast's line of 1878; the Dumbarton trains ran over it between the cutoff and the Centerville branch."
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Dumbarton junction and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Part of the South Pacific Coast's line of 1878 through Newark. Cut where the Dumbarton Cutoff joined it and where the Centerville line (the Capitol Corridor's) comes in."
         },
         {
           "id": "cc-centerville-newark",
@@ -7492,6 +7490,19 @@
           "note": "Ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839"
         },
         {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
           "id": "ca-brc-report-1894",
           "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
           "author": "Board of Railroad Commissioners of the State of California",
@@ -7506,35 +7517,7 @@
             "opened"
           ],
           "pages": "35",
-          "note": "\"From Alameda Point to Los Gatos June 1, 1878.\""
-        },
-        {
-          "id": "usgs-niles-1953",
-          "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
-          "author": "U.S. Geological Survey",
-          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
-          "date": "1953",
-          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
-          "type": "primary_map",
-          "license": "Public domain (U.S. Government work)",
-          "accessed": "2026-10-15",
-          "source": "usgs-niles-1953",
-          "supports": [
-            "geometry"
-          ]
-        },
-        {
-          "id": "gtfs-amtrak",
-          "title": "Amtrak GTFS feed, version 20261013",
-          "publisher": "Amtrak",
-          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
-          "type": "dataset",
-          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
-          "accessed": "2026-10-14",
-          "source": "gtfs-amtrak",
-          "supports": [
-            "geometry"
-          ]
+          "note": "The South Pacific Coast's return: \"From Alameda Point to Los Gatos June 1, 1878.\""
         }
       ]
     },
@@ -7992,7 +7975,6 @@
         37.81612
       ],
       "fids": [
-        1121,
         1122,
         1123,
         1124,
@@ -8000,7 +7982,8 @@
         1126,
         1127,
         1128,
-        1129
+        1129,
+        1130
       ],
       "segments": [
         {
@@ -8334,7 +8317,6 @@
         37.824321
       ],
       "fids": [
-        1103,
         1104,
         1105,
         1106,
@@ -8342,7 +8324,8 @@
         1108,
         1109,
         1110,
-        1111
+        1111,
+        1112
       ],
       "segments": [
         {
@@ -10587,7 +10570,6 @@
         37.824321
       ],
       "fids": [
-        1112,
         1113,
         1114,
         1115,
@@ -10595,7 +10577,8 @@
         1117,
         1118,
         1119,
-        1120
+        1120,
+        1121
       ],
       "segments": [
         {
@@ -12284,7 +12267,6 @@
         37.891351
       ],
       "fids": [
-        1079,
         1080,
         1081,
         1082,
@@ -12298,7 +12280,8 @@
         1090,
         1091,
         1092,
-        1093
+        1093,
+        1094
       ],
       "segments": [
         {
@@ -35864,14 +35847,14 @@
         37.7762
       ],
       "fids": [
-        1150,
-        1151,
-        1152,
-        1153,
-        1154,
-        1155,
-        1156,
-        1157
+        1160,
+        1161,
+        1162,
+        1163,
+        1164,
+        1165,
+        1166,
+        1167
       ],
       "segments": [
         {
@@ -36148,20 +36131,20 @@
         37.7762
       ],
       "fids": [
-        1136,
-        1137,
-        1138,
-        1139,
-        1140,
-        1141,
-        1142,
-        1143,
-        1144,
-        1145,
         1146,
         1147,
         1148,
-        1149
+        1149,
+        1150,
+        1151,
+        1152,
+        1153,
+        1154,
+        1155,
+        1156,
+        1157,
+        1158,
+        1159
       ],
       "segments": [
         {
@@ -42803,7 +42786,6 @@
         37.824321
       ],
       "fids": [
-        1094,
         1095,
         1096,
         1097,
@@ -42811,7 +42793,8 @@
         1099,
         1100,
         1101,
-        1102
+        1102,
+        1103
       ],
       "segments": [
         {
@@ -43310,7 +43293,6 @@
         37.891481
       ],
       "fids": [
-        1059,
         1060,
         1061,
         1062,
@@ -43329,7 +43311,8 @@
         1075,
         1076,
         1077,
-        1078
+        1078,
+        1079
       ],
       "segments": [
         {
@@ -44304,10 +44287,10 @@
         }
       ],
       "undated": false,
-      "length_km": 97.89,
+      "length_km": 97.94,
       "confidence_km": {
         "digitized": 7.6,
-        "surveyed": 90.29
+        "surveyed": 90.34
       },
       "bbox": [
         -122.330874,
@@ -44327,7 +44310,8 @@
         1051,
         1052,
         1053,
-        1054
+        1054,
+        1055
       ],
       "segments": [
         {
@@ -44379,34 +44363,45 @@
           "notes": "The South Pacific Coast's main line of 1878 through Alameda; the Southern Pacific's electric trains ran on it from 1911."
         },
         {
-          "id": "spc-alameda-newark",
-          "name": "Alameda to Newark, across San Leandro Bay and by Alvarado",
+          "id": "spc-alameda-elmhurst-jct",
+          "name": "Alameda across San Leandro Bay to today's track west of San Leandro",
           "opened": "1878-06-01",
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.03606,37.52674; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and at Newark, where the Dumbarton Cutoff joins it.",
+          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.18031,37.71013; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line meets today's track west of San Leandro, which runs on to Newark.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
           ],
-          "notes": "Across San Leandro Bay on a trestle and south along the marshes by Alvarado to Newark, where the Dumbarton Cutoff joined it from 1910. When it last carried passengers isn't sourced."
+          "notes": "Across San Leandro Bay on a trestle to the marshes west of San Leandro, where the line ran on south by Mount Eden and Alvarado to Newark on what is today's Coast Subdivision (data/present/extensions.json). When it last carried passengers isn't sourced."
         },
         {
-          "id": "spc-newark-junctions",
+          "id": "cs-alameda-line-dumbarton",
+          "name": "West of San Leandro to Newark, by Mount Eden and Alvarado",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Alameda line junction and Dumbarton junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878 from Alameda Point, later standard gauge; OpenHistoricalMap's tracing of the 1899 Haywards sheet runs within about 170 m of today's track. Cut where the line from Alameda came in and where the Dumbarton Cutoff joins at Newark."
+        },
+        {
+          "id": "cs-dumbarton-newark",
           "name": "Newark, the Dumbarton junction to the Centerville junction",
           "opened": "1878-06-01",
           "closed": null,
-          "borrowed": true,
+          "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap way 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Haywards CA 1899 topographic map, cut from -122.03606,37.52674 and to -122.03253,37.52506; checked on USGS Newark 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1899 Haywards sheet, from the Dumbarton Cutoff's junction to where today's line to Centerville leaves it.",
-          "structure": "surface",
-          "flags": [
-            "closed_unsourced"
-          ],
-          "notes": "Part of the South Pacific Coast's line of 1878; the Dumbarton trains ran over it between the cutoff and the Centerville branch."
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Dumbarton junction and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Part of the South Pacific Coast's line of 1878 through Newark. Cut where the Dumbarton Cutoff joined it and where the Centerville line (the Capitol Corridor's) comes in."
         },
         {
           "id": "cc-newark-santa-clara",
@@ -44684,21 +44679,6 @@
           ]
         },
         {
-          "id": "usgs-newark-1948",
-          "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
-          "author": "U.S. Geological Survey",
-          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
-          "date": "1948",
-          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
-          "type": "primary_map",
-          "license": "Public domain (U.S. Government work)",
-          "accessed": "2026-10-16",
-          "source": "usgs-newark-1948",
-          "supports": [
-            "geometry"
-          ]
-        },
-        {
           "id": "gtfs-amtrak",
           "title": "Amtrak GTFS feed, version 20261013",
           "publisher": "Amtrak",
@@ -44842,6 +44822,348 @@
       ]
     },
     {
+      "id": "sp-oakland-san-jose-elmhurst",
+      "name": "Southern Pacific trains, Oakland Pier to San José by Elmhurst and Newark",
+      "short_name": "Oakland–San José by Newark",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1960-05-02"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": "1960-05-02",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Southern Pacific's last trains between Oakland and San José by the bay shore: from Oakland Pier by First St, Fruitvale and Elmhurst, then Mount Eden, Alvarado, Newark and Alviso to Santa Clara and San José; by 1941 the Oakland sections of the Coast Daylight and the Lark.",
+      "fate": "abandoned",
+      "fate_note": "Discontinued under the Public Utilities Commission's Decision No. 59928 of April 12, 1960; the last trains ran on May 1 and, for No. 73, May 2, 1960 (Schedule Statement ST-798). Amtrak's Coast Starlight runs over it today from Elmhurst, and the Capitol Corridor from Newark south.",
+      "notes": "When the Southern Pacific's trains began to run this way, from Elmhurst instead of over the South Pacific Coast's old line from Alameda, isn't sourced; the map draws them from September 1941, the first date a source read on the page shows them (decision 20). Ends with No. 73's last run, May 2, 1960. Between San José and Santa Clara and from Newark south they ran on today's Capitol Corridor track.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1941-09-28",
+          "source": "cscrm-2021-02-001466",
+          "pages": "12",
+          "note": "Nos. 250 and 255 and the Oakland Lark (74, 73), daily."
+        }
+      ],
+      "undated": false,
+      "length_km": 70.38,
+      "confidence_km": {
+        "digitized": 2.35,
+        "surveyed": 68.03
+      },
+      "bbox": [
+        -122.33008,
+        37.331308,
+        -121.903237,
+        37.80914
+      ],
+      "fids": [
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145
+      ],
+      "segments": [
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-west-oakland-connection",
+          "name": "West Oakland, the mole line to the First Street line",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). Traced from the 1949 sheet: from the mole line's east end round the wye's east leg and southeast along the north edge of the yard to where today's realigned track crosses it.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The trains from Oakland Pier to San José ran by West Oakland and Magnolia Tower to First St (timetable No. 234, 1941); when this track was laid isn't sourced."
+        },
+        {
+          "id": "cc-west-oakland-melrose",
+          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+        },
+        {
+          "id": "cc-melrose-elmhurst",
+          "name": "Melrose to Elmhurst",
+          "opened": "1869-11-08",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and Elmhurst junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+        },
+        {
+          "id": "cs-elmhurst-alameda-line",
+          "name": "Elmhurst to the old line from Alameda, west of San Leandro",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Elmhurst junction and Alameda line junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The north end of the Southern Pacific's Elmhurst-Santa Clara line, which joined the South Pacific Coast's line of 1878 from Alameda west of San Leandro; when it was built isn't sourced. Cut where the Coast Starlight leaves the Capitol Corridor's track at Elmhurst, and where the old line from Alameda came in."
+        },
+        {
+          "id": "cs-alameda-line-dumbarton",
+          "name": "West of San Leandro to Newark, by Mount Eden and Alvarado",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Alameda line junction and Dumbarton junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878 from Alameda Point, later standard gauge; OpenHistoricalMap's tracing of the 1899 Haywards sheet runs within about 170 m of today's track. Cut where the line from Alameda came in and where the Dumbarton Cutoff joins at Newark."
+        },
+        {
+          "id": "cs-dumbarton-newark",
+          "name": "Newark, the Dumbarton junction to the Centerville junction",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Dumbarton junction and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Part of the South Pacific Coast's line of 1878 through Newark. Cut where the Dumbarton Cutoff joined it and where the Centerville line (the Capitol Corridor's) comes in."
+        },
+        {
+          "id": "cc-newark-santa-clara",
+          "name": "Newark to Santa Clara, by Alviso",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Newark junction and Santa Clara Amtrak (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
+        },
+        {
+          "id": "cc-santa-clara-san-jose",
+          "name": "Santa Clara to San José",
+          "opened": "1864-01-16",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Santa Clara Amtrak and San José, the line's end (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The San Francisco & San José's track of 1864, which Caltrain's segment dates the same way; the Capitol Corridor's trains join it west of Santa Clara's station."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cscrm-2021-02-001466",
+          "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1941-09-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "Oakland Pier, West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale, Elmhurst, Mulford, Robert, Russell, Mount Eden, Baumberg, Alvarado, Hall, Arden, Newark, Mowry, Albrae, Drawbridge, Alviso, Agnew, Santa Clara."
+        },
+        {
+          "id": "cpuc-d59928",
+          "title": "Public Utilities Commission of California, Decision No. 59928 (Application No. 41544): Southern Pacific trains 73, 74, 250 and 255",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1960-04-12",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D57801_to_D73750/D59928_19600412_A41544.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "cpuc-d59928",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1, 10-11",
+          "note": "Authority to discontinue Nos. 73, 74, 250 and 255 between Oakland and San José, effective twenty days after April 12, 1960."
+        },
+        {
+          "id": "cscrm-2021-02-002028",
+          "title": "Southern Pacific, Western Division, employee timetable No. 272, 1960-04-24, with Schedule Statement ST-798 of 1960-05-09",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1960-05-09",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_002028",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-002028",
+          "supports": [
+            "closed"
+          ],
+          "pages": "memorandum",
+          "note": "Last runs May 1, 1960 (74, 250, 255) and May 2 (73)."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry",
+            "name"
+          ],
+          "note": "The sheet labels it \"Oakland Mole\"."
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "halley-1876",
+          "title": "The Centennial Year Book of Alameda County, California",
+          "author": "William Halley",
+          "publisher": "William Halley, Oakland",
+          "date": "1876",
+          "type": "book",
+          "url": "https://archive.org/details/centennialyearbo00hall",
+          "license": "Public domain (published 1876)",
+          "accessed": "2026-10-15",
+          "source": "halley-1876",
+          "supports": [
+            "opened"
+          ],
+          "pages": "280-281",
+          "note": "\"The last rail of the Pacific Railroad was laid on the 29th of October, in Oakland\"; \"On the 8th of November, the first passenger through train started from Oakland Point\" (1869)."
+        },
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31",
+          "note": "The Central Pacific's return: \"To San Francisco … About December 1, 1869.\""
+        },
+        {
+          "id": "caltrain-early-milestones",
+          "title": "Caltrain early milestones",
+          "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+          "type": "official",
+          "url": "https://www.caltrain.com/earlymilestones",
+          "accessed": "2026-10-14",
+          "source": "caltrain-early-milestones",
+          "supports": [
+            "opened"
+          ],
+          "note": "January 16, 1864: \"The line is completed to San Jose.\""
+        },
+        {
+          "id": "sf-business-directory-1864",
+          "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
+          "date": "1864",
+          "type": "primary_document",
+          "url": "https://archive.org/details/sanfranciscbusi186465sanf",
+          "license": "Public domain (published 1864)",
+          "accessed": "2026-10-14",
+          "source": "sf-business-directory-1864",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+        }
+      ]
+    },
+    {
       "id": "sp-san-ramon-branch",
       "name": "Southern Pacific, San Ramon branch",
       "short_name": "San Ramon branch",
@@ -44887,9 +45209,9 @@
         38.032436
       ],
       "fids": [
-        1158,
-        1159,
-        1160
+        1168,
+        1169,
+        1170
       ],
       "segments": [
         {
@@ -47301,12 +47623,12 @@
         37.803847
       ],
       "fids": [
-        1130,
         1131,
         1132,
         1133,
         1134,
-        1135
+        1135,
+        1136
       ],
       "segments": [
         {
@@ -47596,8 +47918,8 @@
         37.789032
       ],
       "fids": [
-        122,
-        123
+        126,
+        127
       ],
       "segments": [
         {
@@ -47697,7 +48019,7 @@
         37.801379
       ],
       "fids": [
-        121
+        125
       ],
       "segments": [
         {
@@ -47807,7 +48129,7 @@
         37.79567
       ],
       "fids": [
-        239
+        243
       ],
       "segments": [
         {
@@ -47992,7 +48314,7 @@
         37.86921
       ],
       "fids": [
-        146
+        150
       ],
       "segments": [
         {
@@ -48077,13 +48399,13 @@
         37.80994
       ],
       "fids": [
-        60,
-        61,
-        62,
-        63,
         64,
         65,
-        66
+        66,
+        67,
+        68,
+        69,
+        70
       ],
       "segments": [
         {
@@ -48291,8 +48613,8 @@
         37.41049
       ],
       "fids": [
-        263,
-        264
+        267,
+        268
       ],
       "segments": [
         {
@@ -48363,8 +48685,8 @@
         37.79367
       ],
       "fids": [
-        153,
-        154
+        157,
+        158
       ],
       "segments": [
         {
@@ -48670,17 +48992,17 @@
         37.7762
       ],
       "fids": [
-        125,
-        126,
-        127,
-        128,
         129,
         130,
         131,
         132,
         133,
         134,
-        135
+        135,
+        136,
+        137,
+        138,
+        139
       ],
       "segments": [
         {
@@ -48960,9 +49282,9 @@
         "license_unclear"
       ],
       "undated": false,
-      "length_km": 275.74,
+      "length_km": 275.71,
       "confidence_km": {
-        "surveyed": 275.74
+        "surveyed": 275.71
       },
       "bbox": [
         -122.360192,
@@ -48971,9 +49293,6 @@
         38.902995
       ],
       "fids": [
-        41,
-        42,
-        43,
         44,
         45,
         46,
@@ -48988,7 +49307,11 @@
         55,
         56,
         57,
-        58
+        58,
+        59,
+        60,
+        61,
+        62
       ],
       "segments": [
         {
@@ -49115,30 +49438,45 @@
           "notes": "The Western Pacific's line of 1869 from Niles, opened for public use September 8, 1869 (its first train reached San Leandro on the 6th); OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Niles, where the old line went on east into Niles Canyon."
         },
         {
-          "id": "cc-melrose-san-leandro-2",
-          "name": "Melrose to San Leandro, by Elmhurst, part 2 of 2",
+          "id": "cc-elmhurst-san-leandro",
+          "name": "Elmhurst to San Leandro",
           "opened": "1869-11-08",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and San Leandro (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Elmhurst junction and San Leandro (data/present/extensions.json)",
           "structure": null,
           "flags": [],
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "cc-melrose-san-leandro-1",
-          "name": "Melrose to San Leandro, by Elmhurst, part 1 of 2",
+          "id": "cc-melrose-elmhurst",
+          "name": "Melrose to Elmhurst",
           "opened": "1869-11-08",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and San Leandro (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and Elmhurst junction (data/present/extensions.json)",
           "structure": null,
           "flags": [],
-          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+        },
+        {
+          "id": "cc-west-oakland-melrose",
+          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
         },
         {
           "id": "capitol-corridor-undated-2",
@@ -49348,6 +49686,22 @@
           "note": "\"the arrival there [at San Leandro] of the first train of the Western Pacific Railroad, through from Sacramento, on Monday evening, September 6th\"."
         },
         {
+          "id": "cscrm-2021-02-001466",
+          "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1941-09-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "Oakland Pier, West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale and Elmhurst on the Southern Pacific's Niles Subdivision."
+        },
+        {
           "id": "sp-bulletin-1930-11",
           "title": "Southern Pacific Bulletin, vol. 18, no. 11-12 (November-December 1930)",
           "publisher": "Southern Pacific Company",
@@ -49389,9 +49743,9 @@
         "license_unclear"
       ],
       "undated": true,
-      "length_km": 353.61,
+      "length_km": 353.66,
       "confidence_km": {
-        "surveyed": 353.61
+        "surveyed": 353.66
       },
       "bbox": [
         -122.360192,
@@ -49414,7 +49768,10 @@
         37,
         38,
         39,
-        40
+        40,
+        41,
+        42,
+        43
       ],
       "segments": [
         {
@@ -49458,34 +49815,76 @@
           "notes": "The South Pacific Coast's narrow-gauge main line of 1878, later standard gauge; OpenHistoricalMap's tracings of the 1897 San Jose sheet lie on today's track, or up to about 70 m from it, as a 15-minute sheet's misregistration allows."
         },
         {
-          "id": "amtrak-coast-starlight-undated-2",
-          "name": "Coast Starlight, part not yet dated",
-          "opened": null,
+          "id": "cs-dumbarton-newark",
+          "name": "Newark, the Dumbarton junction to the Centerville junction",
+          "opened": "1878-06-01",
           "closed": null,
           "borrowed": false,
-          "undated": true,
+          "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Dumbarton junction and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "Part of the South Pacific Coast's line of 1878 through Newark. Cut where the Dumbarton Cutoff joined it and where the Centerville line (the Capitol Corridor's) comes in."
+        },
+        {
+          "id": "cs-alameda-line-dumbarton",
+          "name": "West of San Leandro to Newark, by Mount Eden and Alvarado",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Alameda line junction and Dumbarton junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's narrow-gauge main line of 1878 from Alameda Point, later standard gauge; OpenHistoricalMap's tracing of the 1899 Haywards sheet runs within about 170 m of today's track. Cut where the line from Alameda came in and where the Dumbarton Cutoff joins at Newark."
+        },
+        {
+          "id": "cs-elmhurst-alameda-line",
+          "name": "Elmhurst to the old line from Alameda, west of San Leandro",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 8 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Elmhurst junction and Alameda line junction (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ]
+          ],
+          "notes": "The north end of the Southern Pacific's Elmhurst-Santa Clara line, which joined the South Pacific Coast's line of 1878 from Alameda west of San Leandro; when it was built isn't sourced. Cut where the Coast Starlight leaves the Capitol Corridor's track at Elmhurst, and where the old line from Alameda came in."
         },
         {
-          "id": "cc-melrose-san-leandro-1",
-          "name": "Melrose to San Leandro, by Elmhurst, part 1 of 2",
+          "id": "cc-melrose-elmhurst",
+          "name": "Melrose to Elmhurst",
           "opened": "1869-11-08",
           "closed": null,
           "borrowed": false,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and San Leandro (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Melrose and Elmhurst junction (data/present/extensions.json)",
           "structure": null,
           "flags": [],
-          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
+          "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "amtrak-coast-starlight-undated-3",
+          "id": "cc-west-oakland-melrose",
+          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+        },
+        {
+          "id": "amtrak-coast-starlight-undated-2",
           "name": "Coast Starlight, part not yet dated",
           "opened": null,
           "closed": null,
@@ -49592,7 +49991,7 @@
           "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
         },
         {
-          "id": "amtrak-coast-starlight-undated-4",
+          "id": "amtrak-coast-starlight-undated-3",
           "name": "Coast Starlight, part not yet dated",
           "opened": null,
           "closed": null,
@@ -49668,6 +50067,22 @@
           ],
           "pages": "35",
           "note": "\"From Alameda Point to Los Gatos June 1, 1878\", through Newark and Santa Clara."
+        },
+        {
+          "id": "cscrm-2021-02-001466",
+          "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1941-09-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "The Southern Pacific's \"Elmhurst-Santa Clara line\" in 1941: Elmhurst, Mulford, Robert, Russell, Mount Eden, Baumberg, Alvarado, Hall, Arden, Newark."
         },
         {
           "id": "halley-1876",
@@ -49753,10 +50168,6 @@
         37.80862
       ],
       "fids": [
-        165,
-        166,
-        167,
-        168,
         169,
         170,
         171,
@@ -49766,7 +50177,11 @@
         175,
         176,
         177,
-        178
+        178,
+        179,
+        180,
+        181,
+        182
       ],
       "segments": [
         {
@@ -50014,16 +50429,16 @@
         38.057994
       ],
       "fids": [
-        136,
-        137,
-        138,
-        139,
         140,
         141,
         142,
         143,
         144,
-        145
+        145,
+        146,
+        147,
+        148,
+        149
       ],
       "segments": [
         {
@@ -50297,15 +50712,15 @@
         37.80994
       ],
       "fids": [
-        67,
-        68,
-        69,
-        70,
         71,
         72,
         73,
         74,
-        75
+        75,
+        76,
+        77,
+        78,
+        79
       ],
       "segments": [
         {
@@ -50549,8 +50964,8 @@
         37.41132
       ],
       "fids": [
-        265,
-        266
+        269,
+        270
       ],
       "segments": [
         {
@@ -50622,7 +51037,7 @@
         37.79689
       ],
       "fids": [
-        240
+        244
       ],
       "segments": [
         {
@@ -50692,10 +51107,6 @@
         37.79443
       ],
       "fids": [
-        179,
-        180,
-        181,
-        182,
         183,
         184,
         185,
@@ -50703,7 +51114,11 @@
         187,
         188,
         189,
-        190
+        190,
+        191,
+        192,
+        193,
+        194
       ],
       "segments": [
         {
@@ -50993,17 +51408,17 @@
         37.79443
       ],
       "fids": [
-        191,
-        192,
-        193,
-        194,
         195,
         196,
         197,
         198,
         199,
         200,
-        201
+        201,
+        202,
+        203,
+        204,
+        205
       ],
       "segments": [
         {
@@ -51255,16 +51670,16 @@
         37.79443
       ],
       "fids": [
-        202,
-        203,
-        204,
-        205,
         206,
         207,
         208,
         209,
         210,
-        211
+        211,
+        212,
+        213,
+        214,
+        215
       ],
       "segments": [
         {
@@ -51521,7 +51936,7 @@
         37.94473
       ],
       "fids": [
-        147
+        151
       ],
       "segments": [
         {
@@ -51604,17 +52019,17 @@
         37.79443
       ],
       "fids": [
-        212,
-        213,
-        214,
-        215,
         216,
         217,
         218,
         219,
         220,
         221,
-        222
+        222,
+        223,
+        224,
+        225,
+        226
       ],
       "segments": [
         {
@@ -51857,10 +52272,6 @@
         37.79443
       ],
       "fids": [
-        223,
-        224,
-        225,
-        226,
         227,
         228,
         229,
@@ -51868,7 +52279,11 @@
         231,
         232,
         233,
-        234
+        234,
+        235,
+        236,
+        237,
+        238
       ],
       "segments": [
         {
@@ -52185,8 +52600,8 @@
         37.79853
       ],
       "fids": [
-        241,
-        242
+        245,
+        246
       ],
       "segments": [
         {
@@ -52258,7 +52673,7 @@
         37.75358
       ],
       "fids": [
-        76
+        80
       ],
       "segments": [
         {
@@ -52353,7 +52768,7 @@
         37.79417
       ],
       "fids": [
-        243
+        247
       ],
       "segments": [
         {
@@ -52438,14 +52853,14 @@
         37.93674
       ],
       "fids": [
-        77,
-        78,
-        79,
-        80,
         81,
         82,
         83,
-        84
+        84,
+        85,
+        86,
+        87,
+        88
       ],
       "segments": [
         {
@@ -52668,13 +53083,13 @@
         37.41578
       ],
       "fids": [
-        267,
-        268,
-        269,
-        270,
         271,
         272,
-        273
+        273,
+        274,
+        275,
+        276,
+        277
       ],
       "segments": [
         {
@@ -52836,12 +53251,12 @@
         37.806637
       ],
       "fids": [
-        155,
-        156,
-        157,
-        158,
         159,
-        160
+        160,
+        161,
+        162,
+        163,
+        164
       ],
       "segments": [
         {
@@ -52984,10 +53399,10 @@
         37.805226
       ],
       "fids": [
-        161,
-        162,
-        163,
-        164
+        165,
+        166,
+        167,
+        168
       ],
       "segments": [
         {
@@ -53119,7 +53534,7 @@
         37.361934
       ],
       "fids": [
-        124
+        128
       ],
       "segments": [
         {
@@ -53228,10 +53643,6 @@
         37.93674
       ],
       "fids": [
-        85,
-        86,
-        87,
-        88,
         89,
         90,
         91,
@@ -53243,7 +53654,11 @@
         97,
         98,
         99,
-        100
+        100,
+        101,
+        102,
+        103,
+        104
       ],
       "segments": [
         {
@@ -53564,8 +53979,8 @@
         37.90948
       ],
       "fids": [
-        244,
-        245
+        248,
+        249
       ],
       "segments": [
         {
@@ -53662,13 +54077,13 @@
         37.63509
       ],
       "fids": [
-        250,
-        251,
-        252,
-        253,
         254,
         255,
-        256
+        256,
+        257,
+        258,
+        259,
+        260
       ],
       "segments": [
         {
@@ -53753,11 +54168,11 @@
         38.549119
       ],
       "fids": [
-        257,
-        258,
-        259,
-        260,
-        261
+        261,
+        262,
+        263,
+        264,
+        265
       ],
       "segments": [
         {
@@ -53975,8 +54390,8 @@
         37.85629
       ],
       "fids": [
-        148,
-        149
+        152,
+        153
       ],
       "segments": [
         {
@@ -54059,8 +54474,8 @@
         37.80034
       ],
       "fids": [
-        246,
-        247
+        250,
+        251
       ],
       "segments": [
         {
@@ -54144,10 +54559,10 @@
         37.794812
       ],
       "fids": [
-        235,
-        236,
-        237,
-        238
+        239,
+        240,
+        241,
+        242
       ],
       "segments": [
         {
@@ -54284,7 +54699,7 @@
         37.87257
       ],
       "fids": [
-        59
+        63
       ],
       "segments": [
         {
@@ -54354,8 +54769,8 @@
         37.87273
       ],
       "fids": [
-        150,
-        151
+        154,
+        155
       ],
       "segments": [
         {
@@ -54439,7 +54854,7 @@
         37.81667
       ],
       "fids": [
-        262
+        266
       ],
       "segments": [
         {
@@ -54525,7 +54940,7 @@
         37.87273
       ],
       "fids": [
-        152
+        156
       ],
       "segments": [
         {
@@ -54596,8 +55011,8 @@
         38.10147
       ],
       "fids": [
-        248,
-        249
+        252,
+        253
       ],
       "segments": [
         {
@@ -54682,10 +55097,6 @@
         38.02385
       ],
       "fids": [
-        101,
-        102,
-        103,
-        104,
         105,
         106,
         107,
@@ -54701,7 +55112,11 @@
         117,
         118,
         119,
-        120
+        120,
+        121,
+        122,
+        123,
+        124
       ],
       "segments": [
         {

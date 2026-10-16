@@ -2,6 +2,20 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Southern Pacific's Oakland–San José trains by Newark, to 1960
+
+- **Oakland Pier to San José by Elmhurst and Newark** (`sp-east-bay/`): the Southern Pacific's
+  trains by First St, Fruitvale and Elmhurst, then Mount Eden, Alvarado, Newark and Alviso to Santa
+  Clara and San José; the Oakland sections of the Coast Daylight (250, 255) and the Lark (74, 73) in
+  1941 (employee timetable No. 234). Discontinued under CPUC Decision 59928 of April 12, 1960; the
+  last trains ran May 1 and 2, 1960 (Schedule Statement ST-798). Drawn from 1941, when a source first
+  shows them (decision 20).
+- Today's track carries most of it (decision 13): the Capitol Corridor's is cut at West Oakland and
+  at Elmhurst, and the Coast Starlight's from Elmhurst to Newark is dated by stretch, the South
+  Pacific Coast's 1878 line from west of San Leandro. That replaces the South Pacific Coast's
+  OpenHistoricalMap trace south of San Leandro, which lay up to 170 m off today's track. The
+  connection from the mole across the West Oakland yard is traced from the 1949 sheet.
+
 ## 2026-10-16: The Petaluma steamers and the Mare Island ferry
 
 - **Petaluma steamers** (`ferries/`): the Petaluma & Santa Rosa's river steamers from the foot of

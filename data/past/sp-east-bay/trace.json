@@ -1075,6 +1075,58 @@
       "check": "usgs-oakland-west-1949",
       "est_error_m": 30,
       "note": "The railroad along Alameda's north shore, which the 1949 sheet still draws, west to the mole line"
+    },
+    "sp-west-oakland-connection": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-oakland-west-1949",
+            "bbox": [
+              -122.31,
+              37.803,
+              -122.3015,
+              37.809
+            ],
+            "zoom": 2.5
+          },
+          "px": [
+            [
+              165,
+              85
+            ],
+            [
+              185,
+              140
+            ],
+            [
+              215,
+              200
+            ],
+            [
+              270,
+              255
+            ],
+            [
+              350,
+              312
+            ],
+            [
+              450,
+              378
+            ],
+            [
+              548,
+              434
+            ]
+          ],
+          "snap": 4
+        }
+      ],
+      "check": [
+        "usgs-oakland-west-1949"
+      ],
+      "est_error_m": 15,
+      "note": "Traced from the 1949 sheet: from the mole line's east end round the wye's east leg and southeast along the north edge of the yard to where today's realigned track crosses it"
     }
   },
   "points": {

@@ -34,6 +34,7 @@ AREAS = {
     "napa": (-122.62, 38.06, -122.03, 38.60),  # Vallejo by Napa to Calistoga, and Napa Junction to Suisun
     "sonoma": (-122.92, 38.22, -122.62, 38.50),  # Petaluma to Sebastopol, Santa Rosa and Forestville
     "santafe": (-122.42, 37.82, -121.55, 38.07),  # the Santa Fe from Oakland and Ferry Point to the county line at Old River
+    "oakland": (-122.34, 37.70, -122.15, 37.82),  # West Oakland to Elmhurst and San Leandro (the Southern Pacific's Oakland-San José trains)
 }
 SOURCE_ID = "overture-rail-2026-09-23-1"
 SNAP_M = 150.0  # an end this close to today's track is on it

@@ -42,6 +42,7 @@ running.
 | Southern Pacific, Dumbarton Cutoff | Redwood City by Redwood Junction, the Dumbarton bridge, Newark and Centerville to Niles | First regular passenger train Dec 26, 1911 (*Times-Gazette*, Dec 30, pp. 1-2, image); four trains a day, by 1914 one mixed each way (SP timetable No. 153, p. 15, image); off for a time in 1912, back by Sept 21 (*Times-Gazette*); passengers ended with the timetable of Oct 1, 1916 (*Washington Press*, Oct 7, p. 1; timetable No. 167, p. 16, images) | OpenHistoricalMap's ways, within 3 m of today's track; checked on the 1915 Hayward and 1948-53 sheets. Not drawn: Redwood City station to Redwood Junction, on the Peninsula main line |
 | Petaluma steamers (P&SR) | The foot of Copeland St, Petaluma, down Petaluma Creek and across San Pablo Bay to San Francisco: the bulkhead between Washington and Jackson Sts (1903), Pier 9 at Broadway (1918-33), Pier 11 at Vallejo St (1935) | Service begun 1904 (CRC D28283 p. 44, image; Borden: the *Gold* bought Dec 1903); passengers ended effective Dec 23, 1935 (CRC D29778 p. 16, image); directories of 1903, 1923, 1935 (images) | Over water to Pier 9 (approximate). Not sourced: when the San Francisco berth moved |
 | Mare Island ferry | The foot of Georgia St, Vallejo, across the Mare Island Strait to the Navy Yard (and Ryder St by 1943) | Bought by the Rodeo-Vallejo Ferry Co. Mar 21, 1922 and sold Apr 1923 (CRC D14728, vol. 26 p. 189, image); running 1923, 1935, 1943 (CRC D11668, D28282, D36613, images); ceased Aug 29, 1986 (*The Fare Box*, Sept 1986, p. 100, image, from the *West County Times*); opening unsourced | Traced from the 1916 Mare Island sheet's dashed course (est. 100 m). Not sourced: the Mare Island slips' place |
+| Southern Pacific, Oakland Pier to San José by Elmhurst and Newark | Oakland Pier, West Oakland, Magnolia Tower, First St, Fruitvale, Elmhurst, Mount Eden, Alvarado, Newark, Alviso, Santa Clara, San José | Running Sept 28, 1941 (SP timetable No. 234, p. 12, image); discontinued under CPUC D59928 (Apr 12, 1960, pp. 10-11, image), last runs May 1-2, 1960 (ST-798, image); opening of this routing unsourced | Today's Capitol Corridor and Coast Starlight track, dated by stretch (decision 13); the mole connection traced from the 1949 sheet |
 
 ## Not drawn yet, and what each needs
 
@@ -124,8 +125,8 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   Commission order was found in its decisions of 1911-17). The Southern Pacific's last passenger
   trains on the Elmhurst-Newark-Santa Clara line, the Oakland sections of the Coast Daylight and the
   Lark (Nos. 250/255 and 73/74), ended under CPUC Decision 59928 of April 12, 1960, last run May 1
-  and 2, 1960 (SP schedule statement ST-798); not drawn yet, since the line from Oakland to Elmhurst
-  and the Newark end would need their own segments.
+  and 2, 1960 (SP schedule statement ST-798); drawn (see above). When those trains began to run by
+  Elmhurst, instead of over the South Pacific Coast's old line from Alameda, isn't sourced.
 - **California & Nevada (1884-1902):** not drawn. It carried the public now and then: "Regular
   trains are now run twice a week" to near Orinda Park (*Oakland Tribune*, October 10, 1889),
   fares collected in 1892 (the Railroad Commissioners' 13th report, p. 118), a San Francisco ticket

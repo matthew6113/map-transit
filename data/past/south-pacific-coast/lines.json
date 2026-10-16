@@ -53,10 +53,13 @@
           "segment": "sp-central-encinal"
         },
         {
-          "segment": "spc-alameda-newark"
+          "segment": "spc-alameda-elmhurst-jct"
         },
         {
-          "segment": "spc-newark-junctions"
+          "segment": "cs-alameda-line-dumbarton"
+        },
+        {
+          "segment": "cs-dumbarton-newark"
         },
         {
           "segment": "cc-newark-santa-clara"
