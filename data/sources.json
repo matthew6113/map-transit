@@ -3030,6 +3030,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
     },
     {
+      "id": "usgs-calistoga-1927",
+      "title": "Calistoga, Cal., topographic quadrangle, 1:62,500, 1927, printed 1936",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1927",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Calistoga_465408_1927_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1915, edition of 1927. HTMC scan 465408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 70617308c21bb97d10b4b2185af7b5c526eee051f3ff8031049998b9198f7c89."
+    },
+    {
       "id": "usgs-calistoga-1945",
       "title": "Calistoga, Cal., topographic quadrangle, 1:62,500, 1945",
       "author": "U.S. Geological Survey",
@@ -3304,6 +3316,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "15-minute sheet, edition of 1916. HTMC scan 298113, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 576cf0a203eaa62400b270d4a72e3273d2136842a1d3c4952d04e5ef5c62f9bb."
+    },
+    {
+      "id": "usgs-mare-island-1942",
+      "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_465907_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1937, edition of 1942. HTMC scan 465907, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 08217109a6a89d071e51a32409425e2f8d3d470214a7f24f795ccb25a1373866."
     },
     {
       "id": "usgs-midway-1953",
@@ -3676,6 +3700,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 300394, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 e297890306656ada4ba0d040b4e72ba58af97ceb1a13f29f099a15c5490bf54b."
+    },
+    {
+      "id": "usgs-sonoma-1942",
+      "title": "Sonoma, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sonoma_301738_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1941, aerial photographs of 1939, edition of 1942. HTMC scan 301738, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 5b07e0968b2116da75d241fd26cf299aece39bdbbdc0e7391ffbe5938a6e788c."
     },
     {
       "id": "usgs-st-helena-1945",

@@ -122,8 +122,27 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 - **San Francisco & North Pacific, still to do:** Donahue to Petaluma (no map of it traced), the
   Sonoma Valley line and the Marin & Napa branch to Sears Point (1888), the Sebastopol branch, the
   line beyond Cloverdale, and the trains' later years (1889-1935) and ends.
-- **Santa Rosa, Petaluma and San Rafael street railways, the Petaluma & Santa Rosa, the SF Napa &
-  Calistoga:** dated only by search extracts so far.
+- **Petaluma & Santa Rosa:** drawn (see above).
+- **Santa Rosa, Petaluma and San Rafael street railways:** dated only by search extracts so far.
+- **San Francisco, Napa & Calistoga (not drawn yet):** dates are sourced (Vallejo to Napa between
+  May 27 and August 5, 1905; Yountville by September 1907; St. Helena January 1908; Calistoga
+  September 2 or 9, 1912; public service on the Napa city tracks ended by September 30, 1937, CRC
+  D32850; the Vallejo ferry's last day September 12, 1937, D30121). The geometry isn't:
+  - The 1916 and 1942 Mare Island sheets (the second surveyed in 1937) draw it from Vallejo by
+    Flosden, Collins and Napa Junction, east of the Southern Pacific, to Tulucay; the 1942 Sonoma
+    sheet (photographs of 1939) draws a track on to Rockfram and Imola and up Tulucay Creek into
+    East Napa, where today's track runs, and a second track labelled "Electric" south from the west
+    side of Napa. Which was the electric line's in which years needs a source.
+  - The 1927 Calistoga sheet (surveyed 1915) draws it beside the Southern Pacific from about Lodi
+    Lane to Calistoga, labelled "S F N & C Elec".
+  - **Between Napa and Lodi Lane (about 30 km, by Yountville and St. Helena), no sheet of its years
+    shows it:** the 1951 and 1942 sheets are after its track was taken up in 1938, and the Napa
+    1:125,000 sheet is of 1902 (its 1932 reprint draws one line, too coarse to tell). OpenStreetMap
+    and OpenHistoricalMap don't map it. A map to georeference by hand, or a choice: draw that
+    stretch dashed beside the Southern Pacific through the stations the sources name, as the ferries
+    are drawn from their terminals.
+  - Vallejo's streets ("via Georgia Street and Sonoma Street", CRC D15174, 1925) and the turn
+    between them need a map of Vallejo.
 
 ## OpenHistoricalMap still to use
 
@@ -157,4 +176,11 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   - Demoro's *The Key Route* p. 104 is borrow-only on archive.org.
 - **Maps to georeference by hand** (or approve a fitted trace): Land's End on the 1899 or 1915 San
   Francisco sheet; the Westbrae shuttle and the Webster St bridge on the 1915 sheet.
+- **San Francisco, Napa & Calistoga:** a map of the line between Napa and St. Helena while it ran
+  (1905–37), or approval to draw that stretch dashed through its stations (see "Ferries and the North
+  Bay").
+- **Petaluma & Santa Rosa, conflicts to settle:** the first day (JOE's November 19, 1904; Borden's
+  November 29; Ellison and Sievers' December 1) and Green Valley's (November 19, 1904 or January 26,
+  1905). The *Sebastopol Times* or *Press Democrat* for those weeks would settle both (CDNC, which
+  this container can't reach).
 - **Books and newspapers:** as listed per system in `leads-2c/`, and the earlier notes' lists.

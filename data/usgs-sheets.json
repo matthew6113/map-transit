@@ -52,6 +52,19 @@
       "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-121.812999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
       "fetched": "2026-10-15"
     },
+    "usgs-calistoga-1927": {
+      "file": "CA_Calistoga_465408_1927_62500_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Calistoga_465408_1927_62500_geo.tif",
+      "sha256": "70617308c21bb97d10b4b2185af7b5c526eee051f3ff8031049998b9198f7c89",
+      "bytes": 6043481,
+      "pixels": [
+        5379,
+        6558
+      ],
+      "metres_per_pixel": 5.292,
+      "crs": "PROJCS[\"GCS_North_American_1927\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",38.5],PARAMETER[\"central_meridian\",-122.625],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-16"
+    },
     "usgs-calistoga-1945": {
       "file": "CA_Calistoga_296981_1945_62500_geo.tif",
       "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Calistoga_296981_1945_62500_geo.tif",
@@ -350,6 +363,19 @@
       "metres_per_pixel": 5.292,
       "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-122.375],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
       "fetched": "2026-10-15"
+    },
+    "usgs-mare-island-1942": {
+      "file": "CA_Mare Island_465907_1942_62500_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_465907_1942_62500_geo.tif",
+      "sha256": "08217109a6a89d071e51a32409425e2f8d3d470214a7f24f795ccb25a1373866",
+      "bytes": 7927143,
+      "pixels": [
+        5379,
+        6000
+      ],
+      "metres_per_pixel": 5.292,
+      "crs": "PROJCS[\"GCS_North_American_1927\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",38],PARAMETER[\"central_meridian\",-122.375],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-16"
     },
     "usgs-midway-1953": {
       "file": "CA_Midway_292938_1953_24000_geo.tif",
@@ -753,6 +779,19 @@
       "metres_per_pixel": 2.032,
       "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-122.812999999999],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
       "fetched": "2026-10-15"
+    },
+    "usgs-sonoma-1942": {
+      "file": "CA_Sonoma_301738_1942_62500_geo.tif",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sonoma_301738_1942_62500_geo.tif",
+      "sha256": "5b07e0968b2116da75d241fd26cf299aece39bdbbdc0e7391ffbe5938a6e788c",
+      "bytes": 8336346,
+      "pixels": [
+        5183,
+        6521
+      ],
+      "metres_per_pixel": 5.292,
+      "crs": "PROJCS[\"unnamed\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.978698213898,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Polyconic\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-122.375],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "fetched": "2026-10-16"
     },
     "usgs-st-helena-1945": {
       "file": "CA_St Helena_298977_1945_62500_geo.tif",

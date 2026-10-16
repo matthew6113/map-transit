@@ -155,6 +155,10 @@ SHEETS = [
     Sheet("usgs-santa-rosa-1954", "Santa Rosa", 24000, 1954, "300294", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
     Sheet("usgs-camp-meeker-1954", "Camp Meeker", 24000, 1954, "288861", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
     Sheet("usgs-santa-rosa-1916", "Santa Rosa", 62500, 1916, "298959", None, "15-minute sheet, surveyed 1914, edition of 1916"),
+    # The San Francisco, Napa & Calistoga: the only sheets of its years (1905-37), and the first after.
+    Sheet("usgs-calistoga-1927", "Calistoga", 62500, 1927, "465408", 1936, "15-minute sheet, surveyed 1915, edition of 1927"),
+    Sheet("usgs-mare-island-1942", "Mare Island", 62500, 1942, "465907", 1942, "15-minute sheet, surveyed 1937, edition of 1942"),
+    Sheet("usgs-sonoma-1942", "Sonoma", 62500, 1942, "301738", 1942, "15-minute sheet, surveyed 1941, aerial photographs of 1939, edition of 1942"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

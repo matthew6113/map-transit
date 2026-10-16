@@ -243,6 +243,9 @@ The geometry tools are below (decision 12).
 | `usgs-santa-rosa-1954` | CA_Santa Rosa_300294_1954_24000_geo.tif | 2.032 | `29504600fc63` |
 | `usgs-camp-meeker-1954` | CA_Camp Meeker_288861_1954_24000_geo.tif | 2.032 | `898f19ff2944` |
 | `usgs-santa-rosa-1916` | CA_Santa Rosa_298959_1916_62500_geo.tif | 5.292 | `6f916d06382b` |
+| `usgs-calistoga-1927` | CA_Calistoga_465408_1927_62500_geo.tif | 5.292 | `70617308c21b` |
+| `usgs-mare-island-1942` | CA_Mare Island_465907_1942_62500_geo.tif | 5.292 | `08217109a6a8` |
+| `usgs-sonoma-1942` | CA_Sonoma_301738_1942_62500_geo.tif | 5.292 | `5b07e0968b21` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
