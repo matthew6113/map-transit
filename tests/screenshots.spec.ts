@@ -130,6 +130,8 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-alameda-belt', url: '/l/abl-clement-ave?era=past&year=1930&test=1&at=99' },
   { name: 'past-line-otr-40th-st', url: '/l/otr-40th-st?era=past&year=1950&test=1&at=99' },
   { name: 'past-west-oakland-1957', url: '/?era=past&year=1957&test=1#map=13.6/37.8150/-122.2750/0/0' },
+  { name: 'past-line-ocean-shore', url: '/l/os-san-francisco-tunitas?era=past&year=1915&test=1&at=99' },
+  { name: 'past-coast-1915', url: '/?era=past&year=1915&test=1#map=10.8/37.6000/-122.4700/0/0' },
 ];
 
 async function settle(page: Page) {

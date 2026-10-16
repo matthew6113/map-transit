@@ -186,6 +186,12 @@
       "notes": "The Key System's freight company: Key System, Ltd., renamed the Oakland Terminal Railroad (1935), then the Oakland Terminal Railway of the Western Pacific and the Santa Fe (from July 1, 1943), switching West Oakland, Emeryville and the Outer Harbor."
     },
     {
+      "id": "ocean-shore",
+      "name": "Ocean Shore Railroad",
+      "short_name": "Ocean Shore",
+      "notes": "The Ocean Shore Railway (incorporated 1905), later the Ocean Shore Railroad: steam trains from San Francisco down the San Mateo coast to Tunitas, 1907-1920."
+    },
+    {
       "id": "petaluma-santa-rosa",
       "name": "Petaluma & Santa Rosa Railway",
       "short_name": "Petaluma & Santa Rosa",

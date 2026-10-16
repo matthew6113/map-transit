@@ -20,6 +20,7 @@ marked there.
 | Southern Pacific, Los Altos branch | Mayfield (California Ave) by Los Altos, Loyola, Monta Vista and Congress Junction to Vasona Junction | First timetable 1908-04-19; drawn to its last timetable with a train, 1963-09-01 (decision 20): the end conflicts (no train from October 27, 1963; the ICC's abandonment effective December 26; a local history's January 27, 1964) | OHM's ways, on the line on the 1953 Palo Alto and San Jose West sheets |
 | Alameda Belt Line | Clement Ave, Broadway to Grand St | First freight 1918-05-27 (*Oakland Tribune*); drawn to 1941-09-28, the SP employee timetable's crossings rule (decision 20); abandoned 2012 (STB AB 1090X) | Today's Clement Ave |
 | Oakland Terminal Railway | Its freight over the Key System's 40th St track (1943-07-01 to April 1957) and on Louise and Poplar Sts (1953-57); the Union St line (April 1957) | *Railway Age* 1943; CRC D36427; CPUC D49307, D53801, D55545 | The Key System's segments; Union St along today's street, straight to the WP's track at Chestnut Junction |
+| Ocean Shore Railroad | Daly City by the Mussel Rock bluffs, Pedro Valley, Devil's Slide, Montara and Moss Beach to North Granada | October 1907 (Callwell) to August 15, 1920 (Callwell; *Oakland Tribune*; CRC D8071, D8216); stretches from October 1907, May 1908 and July 1908 (*Railroad Gazette*, *Railroad Age Gazette*) | OHM's way, which lies on the coast on the 1949-50 sheets (no fit needed); not yet drawn: San Francisco's street and steam track, and Granada to Tunitas, which no map of its years covers |
 
 ## Checked, not drawn
 
@@ -59,7 +60,6 @@ are, as far as their tags and places show:
   City, Palo Alto, South San Francisco, Milpitas and Berryessa, the Sacramento Northern's Pittsburg
   branch and its Solano County realignment of about 1950.
 - **The Russian River** around Monte Rio and Guerneville (1892-1935).
-- **The Ocean Shore Railroad's** coast line (way 200014102), from the misregistered 1915 sheet.
 
 ## For Matthew
 

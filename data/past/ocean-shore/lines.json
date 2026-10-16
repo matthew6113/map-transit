@@ -1,0 +1,155 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Ocean Shore Railroad. Research: docs/research/sources-2c/ocean-shore.md.",
+ "lines": [
+  {
+   "id": "os-san-francisco-tunitas",
+   "name": "Ocean Shore trains, San Francisco to Tunitas",
+   "short_name": "Ocean Shore",
+   "system": "ocean-shore",
+   "operators": [
+    {
+     "name": "Ocean Shore Railway, later the Ocean Shore Railroad",
+     "from": "1907-10",
+     "to": "1920-08-15"
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": "1907-10",
+     "to": "1920-08-15"
+    }
+   ],
+   "era": "past",
+   "opened": "1907-10",
+   "closed": "1920-08-15",
+   "status": "closed",
+   "summary": "Steam trains from 12th and Mission Sts, San Francisco, down the coast by Daly City, the Mussel Rock bluffs, Pedro Valley, Devil's Slide, Montara, Moss Beach and Half Moon Bay to Tunitas, opened in stages from 1907 to 1909: three or four trains a day each way in 1912-15, some only to Arleta.",
+   "fate": "abandoned",
+   "fate_note": "Service stopped in August 1920, when the train crews quit; the Railroad Commission let the company give up its northern division for good on October 9, 1920 (Decision 8216).",
+   "route": [
+    {
+     "segment": "os-daly-city-tobin",
+     "note": "From 12th and Mission Sts the trains ran over about 2.4 miles of electric street track in San Francisco (12th St, Florida St, Mariposa St and Potrero Ave) and the steam line by the Islais Creek valley and Ocean View to the county line, which aren't drawn yet."
+    },
+    {
+     "segment": "os-tobin-farallone",
+     "from": "1908-05-08"
+    },
+    {
+     "segment": "os-farallone-north-granada",
+     "from": "1908-07-17",
+     "note": "On to Granada, Half Moon Bay (passenger trains from October 12, 1908), Arleta Park and Tunitas (in operation by March 5, 1909), which aren't drawn: no map of the line's years covers it south of North Granada."
+    }
+   ],
+   "sources": [
+    {
+     "source": "sfmta-callwell-chronology",
+     "supports": [
+      "opened",
+      "closed"
+     ],
+     "pages": "35",
+     "note": "October 1907 to August 15, 1920."
+    },
+    {
+     "source": "srj-1908-01-25-ocean-shore",
+     "supports": [
+      "route"
+     ],
+     "pages": "156"
+    },
+    {
+     "source": "railroad-gazette-1908-03-13",
+     "supports": [
+      "route"
+     ],
+     "pages": "393",
+     "note": "\"In operation from San Francisco to Pedro Valley, 17 miles\"."
+    },
+    {
+     "source": "railroad-gazette-1908-05-08",
+     "supports": [
+      "route"
+     ],
+     "pages": "655"
+    },
+    {
+     "source": "rag-1908-07-17",
+     "supports": [
+      "route"
+     ],
+     "pages": "555"
+    },
+    {
+     "source": "enterprise-1908-10-17",
+     "supports": [
+      "route"
+     ],
+     "note": "Passenger trains to Half Moon Bay on Monday, October 12, 1908."
+    },
+    {
+     "source": "rag-1909-03-05",
+     "supports": [
+      "route"
+     ],
+     "pages": "481",
+     "note": "In operation to Tunitas by March 5, 1909."
+    },
+    {
+     "source": "crc-d1620",
+     "supports": [
+      "route",
+      "electrification"
+     ],
+     "pages": "1328-1337",
+     "note": "The line described from the shops to the end of track past Tunitas Creek; steam except some 2.4 miles of electric street track in San Francisco."
+    },
+    {
+     "source": "daly-city-record-1913-05-09",
+     "supports": [
+      "stations"
+     ],
+     "note": "The timetable effective December 15, 1912, with its 31 stations."
+    },
+    {
+     "source": "oakland-tribune-1920-08-17",
+     "supports": [
+      "closed"
+     ],
+     "note": "\"Tunitas trains stop\": the crews had quit."
+    },
+    {
+     "source": "crc-d8071",
+     "supports": [
+      "closed"
+     ],
+     "pages": "758-759",
+     "note": "The company \"has discontinued service over its said line\" (September 8, 1920)."
+    },
+    {
+     "source": "crc-d8216",
+     "supports": [
+      "closed",
+      "fate"
+     ],
+     "pages": "986-992",
+     "note": "Permanent discontinuance on its northern division authorized, October 9, 1920."
+    },
+    {
+     "source": "erj-1920-09-11-ocean-shore",
+     "supports": [
+      "closed"
+     ],
+     "pages": "518",
+     "note": "\"has ceased to operate\"."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Its last day is August 15, 1920 in Callwell; a railfan article of 1952 implies the 16th, and the Oakland Tribune reported the trains stopped on the 17th. Drawn here only from Daly City to North Granada, the stretch OpenHistoricalMap's way covers; the street track in San Francisco, the steam line through the city, and Granada to Tunitas are still to draw (docs/research/sources-2c/ocean-shore.md)."
+  }
+ ]
+}

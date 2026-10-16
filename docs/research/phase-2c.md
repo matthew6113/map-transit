@@ -54,7 +54,7 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 José branch; the San Rafael & San Quentin, its ferry and its freight years; the Sacramento Northern's
 freight from Oakland to West Lafayette (1941-57); the Alameda Belt Line on Clement Ave; the Oakland
 Terminal's Union St line and its freight over the Key System's 40th St and Poplar St track; the
-Southern Pacific's Tracy line and Los Altos branch. The entries below are otherwise as they stood.
+Southern Pacific's Tracy line and Los Altos branch; the Ocean Shore from Daly City to North Granada (OHM's way needed no fit after all). The entries below are otherwise as they stood.
 
 ### San Francisco
 

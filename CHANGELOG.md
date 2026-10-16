@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Ocean Shore Railroad, 1907-1920
+
+- **Ocean Shore trains, San Francisco to Tunitas** (`ocean-shore/`): from October 1907 (Callwell)
+  to August 15, 1920, when the crews quit (Callwell; the *Oakland Tribune* of the 17th; CRC
+  Decisions 8071 and 8216), drawn from Daly City by the Mussel Rock bluffs, Pedro Valley, Devil's
+  Slide and Moss Beach to North Granada, in three stretches: to Tobin from October 1907, to
+  Farallone by May 8, 1908 (*Railroad Gazette*), to Granada by July 17, 1908 (*Railroad Age
+  Gazette*). Not drawn yet: the street track and steam line in San Francisco (their franchises are
+  in `sources-2c/ocean-shore.md`), and Granada to Tunitas, which no map of its years covers.
+- Geometry: OpenHistoricalMap's way. `phase-2c.md` expected it to need a fit, but on the 1949-50
+  sheets it lies on the coast and the old grade; it's the 1915 sheet as scanned that is about 150 m
+  off here.
+
 ## 2026-10-16: The freight belt lines, Alameda and West Oakland (decision 15)
 
 - **Alameda Belt Line, Clement Ave** (`alameda-belt-line/`): the city's belt line from Broadway to

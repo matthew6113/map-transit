@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        957,
-        958,
-        959,
-        960
+        960,
+        961,
+        962,
+        963
       ],
       "segments": [
         {
@@ -2763,9 +2763,6 @@
         37.793407
       ],
       "fids": [
-        961,
-        962,
-        963,
         964,
         965,
         966,
@@ -2773,7 +2770,10 @@
         968,
         969,
         970,
-        971
+        971,
+        972,
+        973,
+        974
       ],
       "segments": [
         {
@@ -3681,15 +3681,15 @@
         37.793407
       ],
       "fids": [
-        987,
-        988,
-        989,
         990,
         991,
         992,
         993,
         994,
-        995
+        995,
+        996,
+        997,
+        998
       ],
       "segments": [
         {
@@ -5121,8 +5121,8 @@
         37.790421
       ],
       "fids": [
-        381,
-        382
+        384,
+        385
       ],
       "segments": [
         {
@@ -5251,10 +5251,10 @@
         37.772502
       ],
       "fids": [
-        405,
-        406,
-        407,
-        408
+        408,
+        409,
+        410,
+        411
       ],
       "segments": [
         {
@@ -7009,7 +7009,7 @@
         37.794462
       ],
       "fids": [
-        371
+        374
       ],
       "segments": [
         {
@@ -7273,9 +7273,6 @@
         37.806482
       ],
       "fids": [
-        996,
-        997,
-        998,
         999,
         1000,
         1001,
@@ -7286,7 +7283,10 @@
         1006,
         1007,
         1008,
-        1009
+        1009,
+        1010,
+        1011,
+        1012
       ],
       "segments": [
         {
@@ -7726,7 +7726,7 @@
         37.791639
       ],
       "fids": [
-        947
+        950
       ],
       "segments": [
         {
@@ -7849,10 +7849,10 @@
         37.577468
       ],
       "fids": [
-        1080,
-        1081,
-        1082,
-        1083
+        1083,
+        1084,
+        1085,
+        1086
       ],
       "segments": [
         {
@@ -8178,9 +8178,6 @@
         37.80035
       ],
       "fids": [
-        972,
-        973,
-        974,
         975,
         976,
         977,
@@ -8192,7 +8189,10 @@
         983,
         984,
         985,
-        986
+        986,
+        987,
+        988,
+        989
       ],
       "segments": [
         {
@@ -8587,15 +8587,15 @@
         37.81612
       ],
       "fids": [
-        1146,
-        1147,
-        1148,
         1149,
         1150,
         1151,
         1152,
         1153,
-        1154
+        1154,
+        1155,
+        1156,
+        1157
       ],
       "segments": [
         {
@@ -8929,15 +8929,15 @@
         37.824321
       ],
       "fids": [
-        1128,
-        1129,
-        1130,
         1131,
         1132,
         1133,
         1134,
         1135,
-        1136
+        1136,
+        1137,
+        1138,
+        1139
       ],
       "segments": [
         {
@@ -9434,14 +9434,14 @@
         37.805981
       ],
       "fids": [
-        1010,
-        1011,
-        1012,
         1013,
         1014,
         1015,
         1016,
-        1017
+        1017,
+        1018,
+        1019,
+        1020
       ],
       "segments": [
         {
@@ -9732,7 +9732,7 @@
         37.796162
       ],
       "fids": [
-        433
+        436
       ],
       "segments": [
         {
@@ -9841,7 +9841,7 @@
         37.788015
       ],
       "fids": [
-        400
+        403
       ],
       "segments": [
         {
@@ -9983,16 +9983,16 @@
         37.806482
       ],
       "fids": [
-        1018,
-        1019,
-        1020,
         1021,
         1022,
         1023,
         1024,
         1025,
         1026,
-        1027
+        1027,
+        1028,
+        1029,
+        1030
       ],
       "segments": [
         {
@@ -10312,14 +10312,14 @@
         37.793407
       ],
       "fids": [
-        425,
-        426,
-        427,
         428,
         429,
         430,
         431,
-        432
+        432,
+        433,
+        434,
+        435
       ],
       "segments": [
         {
@@ -10787,7 +10787,7 @@
         37.785808
       ],
       "fids": [
-        388
+        391
       ],
       "segments": [
         {
@@ -11182,15 +11182,15 @@
         37.824321
       ],
       "fids": [
-        1137,
-        1138,
-        1139,
         1140,
         1141,
         1142,
         1143,
         1144,
-        1145
+        1145,
+        1146,
+        1147,
+        1148
       ],
       "segments": [
         {
@@ -11855,16 +11855,16 @@
         37.793407
       ],
       "fids": [
-        415,
-        416,
-        417,
         418,
         419,
         420,
         421,
         422,
         423,
-        424
+        424,
+        425,
+        426,
+        427
       ],
       "segments": [
         {
@@ -12139,12 +12139,12 @@
         37.787654
       ],
       "fids": [
-        409,
-        410,
-        411,
         412,
         413,
-        414
+        414,
+        415,
+        416,
+        417
       ],
       "segments": [
         {
@@ -12879,9 +12879,6 @@
         37.891351
       ],
       "fids": [
-        1104,
-        1105,
-        1106,
         1107,
         1108,
         1109,
@@ -12893,7 +12890,10 @@
         1115,
         1116,
         1117,
-        1118
+        1118,
+        1119,
+        1120,
+        1121
       ],
       "segments": [
         {
@@ -13909,9 +13909,6 @@
         37.793407
       ],
       "fids": [
-        434,
-        435,
-        436,
         437,
         438,
         439,
@@ -13919,7 +13916,10 @@
         441,
         442,
         443,
-        444
+        444,
+        445,
+        446,
+        447
       ],
       "segments": [
         {
@@ -14338,9 +14338,6 @@
         37.79492
       ],
       "fids": [
-        574,
-        575,
-        576,
         577,
         578,
         579,
@@ -14348,7 +14345,10 @@
         581,
         582,
         583,
-        584
+        584,
+        585,
+        586,
+        587
       ],
       "segments": [
         {
@@ -15094,16 +15094,16 @@
         37.79492
       ],
       "fids": [
-        585,
-        586,
-        587,
         588,
         589,
         590,
         591,
         592,
         593,
-        594
+        594,
+        595,
+        596,
+        597
       ],
       "segments": [
         {
@@ -16670,9 +16670,6 @@
         37.79492
       ],
       "fids": [
-        595,
-        596,
-        597,
         598,
         599,
         600,
@@ -16684,7 +16681,10 @@
         606,
         607,
         608,
-        609
+        609,
+        610,
+        611,
+        612
       ],
       "segments": [
         {
@@ -17691,9 +17691,6 @@
         37.79492
       ],
       "fids": [
-        610,
-        611,
-        612,
         613,
         614,
         615,
@@ -17701,7 +17698,10 @@
         617,
         618,
         619,
-        620
+        620,
+        621,
+        622,
+        623
       ],
       "segments": [
         {
@@ -18540,14 +18540,14 @@
         37.808586
       ],
       "fids": [
-        621,
-        622,
-        623,
         624,
         625,
         626,
         627,
-        628
+        628,
+        629,
+        630,
+        631
       ],
       "segments": [
         {
@@ -18808,9 +18808,6 @@
         37.807531
       ],
       "fids": [
-        629,
-        630,
-        631,
         632,
         633,
         634,
@@ -18831,7 +18828,10 @@
         649,
         650,
         651,
-        652
+        652,
+        653,
+        654,
+        655
       ],
       "segments": [
         {
@@ -19750,9 +19750,6 @@
         37.793407
       ],
       "fids": [
-        653,
-        654,
-        655,
         656,
         657,
         658,
@@ -19765,7 +19762,10 @@
         665,
         666,
         667,
-        668
+        668,
+        669,
+        670,
+        671
       ],
       "segments": [
         {
@@ -20206,16 +20206,16 @@
         37.784013
       ],
       "fids": [
-        669,
-        670,
-        671,
         672,
         673,
         674,
         675,
         676,
         677,
-        678
+        678,
+        679,
+        680,
+        681
       ],
       "segments": [
         {
@@ -20894,12 +20894,12 @@
         37.805289
       ],
       "fids": [
-        679,
-        680,
-        681,
         682,
         683,
-        684
+        684,
+        685,
+        686,
+        687
       ],
       "segments": [
         {
@@ -21640,9 +21640,6 @@
         37.793407
       ],
       "fids": [
-        445,
-        446,
-        447,
         448,
         449,
         450,
@@ -21657,7 +21654,10 @@
         459,
         460,
         461,
-        462
+        462,
+        463,
+        464,
+        465
       ],
       "segments": [
         {
@@ -22230,9 +22230,6 @@
         37.785729
       ],
       "fids": [
-        685,
-        686,
-        687,
         688,
         689,
         690,
@@ -22254,7 +22251,10 @@
         706,
         707,
         708,
-        709
+        709,
+        710,
+        711,
+        712
       ],
       "segments": [
         {
@@ -22899,9 +22899,6 @@
         37.793407
       ],
       "fids": [
-        710,
-        711,
-        712,
         713,
         714,
         715,
@@ -22920,7 +22917,10 @@
         728,
         729,
         730,
-        731
+        731,
+        732,
+        733,
+        734
       ],
       "segments": [
         {
@@ -23561,9 +23561,6 @@
         37.794281
       ],
       "fids": [
-        732,
-        733,
-        734,
         735,
         736,
         737,
@@ -23579,7 +23576,10 @@
         747,
         748,
         749,
-        750
+        750,
+        751,
+        752,
+        753
       ],
       "segments": [
         {
@@ -24253,9 +24253,6 @@
         37.789838
       ],
       "fids": [
-        751,
-        752,
-        753,
         754,
         755,
         756,
@@ -24275,7 +24272,10 @@
         770,
         771,
         772,
-        773
+        773,
+        774,
+        775,
+        776
       ],
       "segments": [
         {
@@ -25071,9 +25071,6 @@
         37.788999
       ],
       "fids": [
-        774,
-        775,
-        776,
         777,
         778,
         779,
@@ -25098,7 +25095,10 @@
         798,
         799,
         800,
-        801
+        801,
+        802,
+        803,
+        804
       ],
       "segments": [
         {
@@ -25811,9 +25811,6 @@
         37.784013
       ],
       "fids": [
-        802,
-        803,
-        804,
         805,
         806,
         807,
@@ -25828,7 +25825,10 @@
         816,
         817,
         818,
-        819
+        819,
+        820,
+        821,
+        822
       ],
       "segments": [
         {
@@ -26443,9 +26443,6 @@
         37.789284
       ],
       "fids": [
-        820,
-        821,
-        822,
         823,
         824,
         825,
@@ -26458,7 +26455,10 @@
         832,
         833,
         834,
-        835
+        835,
+        836,
+        837,
+        838
       ],
       "segments": [
         {
@@ -27117,15 +27117,15 @@
         37.793407
       ],
       "fids": [
-        463,
-        464,
-        465,
         466,
         467,
         468,
         469,
         470,
-        471
+        471,
+        472,
+        473,
+        474
       ],
       "segments": [
         {
@@ -27488,9 +27488,6 @@
         37.778681
       ],
       "fids": [
-        836,
-        837,
-        838,
         839,
         840,
         841,
@@ -27509,7 +27506,10 @@
         854,
         855,
         856,
-        857
+        857,
+        858,
+        859,
+        860
       ],
       "segments": [
         {
@@ -28158,9 +28158,6 @@
         37.793407
       ],
       "fids": [
-        858,
-        859,
-        860,
         861,
         862,
         863,
@@ -28176,7 +28173,10 @@
         873,
         874,
         875,
-        876
+        876,
+        877,
+        878,
+        879
       ],
       "segments": [
         {
@@ -28685,9 +28685,6 @@
         37.782556
       ],
       "fids": [
-        877,
-        878,
-        879,
         880,
         881,
         882,
@@ -28695,7 +28692,10 @@
         884,
         885,
         886,
-        887
+        887,
+        888,
+        889,
+        890
       ],
       "segments": [
         {
@@ -28996,12 +28996,12 @@
         37.805042
       ],
       "fids": [
-        888,
-        889,
-        890,
         891,
         892,
-        893
+        893,
+        894,
+        895,
+        896
       ],
       "segments": [
         {
@@ -29224,12 +29224,12 @@
         37.79492
       ],
       "fids": [
-        894,
-        895,
-        896,
         897,
         898,
-        899
+        899,
+        900,
+        901,
+        902
       ],
       "segments": [
         {
@@ -29522,12 +29522,12 @@
         37.79009
       ],
       "fids": [
-        900,
-        901,
-        902,
         903,
         904,
-        905
+        905,
+        906,
+        907,
+        908
       ],
       "segments": [
         {
@@ -29790,9 +29790,6 @@
         37.793407
       ],
       "fids": [
-        472,
-        473,
-        474,
         475,
         476,
         477,
@@ -29809,7 +29806,10 @@
         488,
         489,
         490,
-        491
+        491,
+        492,
+        493,
+        494
       ],
       "segments": [
         {
@@ -30394,9 +30394,6 @@
         37.784013
       ],
       "fids": [
-        906,
-        907,
-        908,
         909,
         910,
         911,
@@ -30416,7 +30413,10 @@
         925,
         926,
         927,
-        928
+        928,
+        929,
+        930,
+        931
       ],
       "segments": [
         {
@@ -31030,11 +31030,11 @@
         37.789284
       ],
       "fids": [
-        929,
-        930,
-        931,
         932,
-        933
+        933,
+        934,
+        935,
+        936
       ],
       "segments": [
         {
@@ -31248,9 +31248,6 @@
         37.793216
       ],
       "fids": [
-        934,
-        935,
-        936,
         937,
         938,
         939,
@@ -31260,7 +31257,10 @@
         943,
         944,
         945,
-        946
+        946,
+        947,
+        948,
+        949
       ],
       "segments": [
         {
@@ -31644,9 +31644,6 @@
         37.793407
       ],
       "fids": [
-        492,
-        493,
-        494,
         495,
         496,
         497,
@@ -31658,7 +31655,10 @@
         503,
         504,
         505,
-        506
+        506,
+        507,
+        508,
+        509
       ],
       "segments": [
         {
@@ -32668,9 +32668,6 @@
         37.793407
       ],
       "fids": [
-        507,
-        508,
-        509,
         510,
         511,
         512,
@@ -32695,7 +32692,10 @@
         531,
         532,
         533,
-        534
+        534,
+        535,
+        536,
+        537
       ],
       "segments": [
         {
@@ -33436,9 +33436,6 @@
         37.793407
       ],
       "fids": [
-        535,
-        536,
-        537,
         538,
         539,
         540,
@@ -33451,7 +33448,10 @@
         547,
         548,
         549,
-        550
+        550,
+        551,
+        552,
+        553
       ],
       "segments": [
         {
@@ -33916,9 +33916,6 @@
         37.793407
       ],
       "fids": [
-        551,
-        552,
-        553,
         554,
         555,
         556,
@@ -33926,7 +33923,10 @@
         558,
         559,
         560,
-        561
+        561,
+        562,
+        563,
+        564
       ],
       "segments": [
         {
@@ -34685,9 +34685,6 @@
         37.793407
       ],
       "fids": [
-        562,
-        563,
-        564,
         565,
         566,
         567,
@@ -34696,7 +34693,10 @@
         570,
         571,
         572,
-        573
+        573,
+        574,
+        575,
+        576
       ],
       "segments": [
         {
@@ -35772,14 +35772,14 @@
         38.852585
       ],
       "fids": [
-        1043,
-        1044,
-        1045,
         1046,
         1047,
         1048,
         1049,
-        1050
+        1050,
+        1051,
+        1052,
+        1053
       ],
       "segments": [
         {
@@ -36141,11 +36141,11 @@
         37.806637
       ],
       "fids": [
-        383,
-        384,
-        385,
         386,
-        387
+        387,
+        388,
+        389,
+        390
       ],
       "segments": [
         {
@@ -37083,6 +37083,377 @@
       ]
     },
     {
+      "id": "os-san-francisco-tunitas",
+      "name": "Ocean Shore trains, San Francisco to Tunitas",
+      "short_name": "Ocean Shore",
+      "system": "ocean-shore",
+      "system_name": "Ocean Shore Railroad",
+      "operators": [
+        {
+          "name": "Ocean Shore Railway, later the Ocean Shore Railroad",
+          "from": "1907-10",
+          "to": "1920-08-15"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1907-10",
+      "closed": "1920-08-15",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Steam trains from 12th and Mission Sts, San Francisco, down the coast by Daly City, the Mussel Rock bluffs, Pedro Valley, Devil's Slide, Montara, Moss Beach and Half Moon Bay to Tunitas, opened in stages from 1907 to 1909: three or four trains a day each way in 1912-15, some only to Arleta.",
+      "fate": "abandoned",
+      "fate_note": "Service stopped in August 1920, when the train crews quit; the Railroad Commission let the company give up its northern division for good on October 9, 1920 (Decision 8216).",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1907-10",
+          "to": "1920-08-15"
+        }
+      ],
+      "notes": "Its last day is August 15, 1920 in Callwell; a railfan article of 1952 implies the 16th, and the Oakland Tribune reported the trains stopped on the 17th. Drawn here only from Daly City to North Granada, the stretch OpenHistoricalMap's way covers; the street track in San Francisco, the steam line through the city, and Granada to Tunitas are still to draw (docs/research/sources-2c/ocean-shore.md).",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 32.18,
+      "confidence_km": {
+        "surveyed": 32.18
+      },
+      "bbox": [
+        -122.520125,
+        37.50169,
+        -122.459819,
+        37.711889
+      ],
+      "fids": [
+        326,
+        327,
+        328
+      ],
+      "segments": [
+        {
+          "id": "os-daly-city-tobin",
+          "name": "Daly City by Thornton and the Mussel Rock bluffs to Tobin (Pedro Valley)",
+          "opened": "1907-10",
+          "closed": null,
+          "note": "From 12th and Mission Sts the trains ran over about 2.4 miles of electric street track in San Francisco (12th St, Florida St, Mariposa St and Potrero Ave) and the steam line by the Islais Creek valley and Ocean View to the county line, which aren't drawn yet.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200014102 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Mateo, CA 1915 topographic map, cut to -122.50536,37.59614; checked on USGS San Mateo 1:62,500 (1915), USGS San Francisco South 1:24,000 (1950) and USGS Montara Mountain 1:24,000 (1949). From Daly City, near the county line, to the coast at Thornton and along the Mussel Rock bluffs by Edgemar, Salada, Vallemar and Rockaway to Tobin (Pedro Valley), cut where the 1949 sheet labels Pedro Valley. OpenHistoricalMap's way lies on the coast and the old grade as the 1949-50 sheets draw them; the 1915 sheet as scanned sets the line about 150 m off.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "\"along Mussel Rock Bluffs for some two miles\" and across \"the mouths of several fertile valleys\" (CRC Decision 1620). A 1952 railfan article gives the first passenger train to Tobin as October 2, 1907."
+        },
+        {
+          "id": "os-tobin-farallone",
+          "name": "Tobin (Pedro Valley) round San Pedro Point and by Devil's Slide to Farallone",
+          "opened": null,
+          "closed": null,
+          "from": "1908-05-08",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200014102 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Mateo, CA 1915 topographic map, cut from -122.50536,37.59614 and to -122.51719,37.53987; checked on USGS San Mateo 1:62,500 (1915), USGS San Francisco South 1:24,000 (1950) and USGS Montara Mountain 1:24,000 (1949). Round San Pedro Point and along the bluffs at Devil's Slide to Montara and Farallone, cut where the 1949 sheet labels Montara.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Open by May 8, 1908 (Railroad Gazette); its first day isn't sourced. The roadbed at Devil's Slide was relocated in 1916."
+        },
+        {
+          "id": "os-farallone-north-granada",
+          "name": "Farallone by Moss Beach and Princeton to North Granada",
+          "opened": null,
+          "closed": null,
+          "from": "1908-07-17",
+          "note": "On to Granada, Half Moon Bay (passenger trains from October 12, 1908), Arleta Park and Tunitas (in operation by March 5, 1909), which aren't drawn: no map of the line's years covers it south of North Granada.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200014102 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Mateo, CA 1915 topographic map, cut from -122.51719,37.53987; checked on USGS San Mateo 1:62,500 (1915), USGS San Francisco South 1:24,000 (1950) and USGS Montara Mountain 1:24,000 (1949). By Moss Beach and across the flat to Princeton and North Granada, where the way ends, as the 1915 sheet's drawing of the line does.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Open by July 17, 1908 (Railroad Age Gazette); its first day isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-callwell-chronology",
+          "title": "Transit in San Francisco: A Selected Chronology, 1850–1995",
+          "author": "Robert Callwell",
+          "publisher": "San Francisco Municipal Railway, Communications Department",
+          "date": "1999-09",
+          "type": "official",
+          "url": "https://archives.sfmta.com/cms/rhome/documents/TransitinSanFrancisco-CallwellChronologyweb.pdf",
+          "accessed": "2026-10-14",
+          "source": "sfmta-callwell-chronology",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "35",
+          "note": "October 1907 to August 15, 1920."
+        },
+        {
+          "id": "srj-1908-01-25-ocean-shore",
+          "title": "Street Railway Journal 31, January 25, 1908: construction news, San Francisco (Ocean Shore Railway)",
+          "publisher": "Street Railway Journal",
+          "date": "1908-01-25",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo311908newy",
+          "license": "Public domain (published 1908)",
+          "accessed": "2026-10-16",
+          "source": "srj-1908-01-25-ocean-shore",
+          "supports": [
+            "route"
+          ],
+          "pages": "156"
+        },
+        {
+          "id": "railroad-gazette-1908-03-13",
+          "title": "The Railroad Gazette 44(11), March 13, 1908: railroad construction in 1907, Ocean Shore (Electric)",
+          "publisher": "The Railroad Gazette",
+          "date": "1908-03-13",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1908-03-13_44_11",
+          "license": "Public domain (published 1908)",
+          "accessed": "2026-10-16",
+          "source": "railroad-gazette-1908-03-13",
+          "supports": [
+            "route"
+          ],
+          "pages": "393",
+          "note": "\"In operation from San Francisco to Pedro Valley, 17 miles\"."
+        },
+        {
+          "id": "railroad-gazette-1908-05-08",
+          "title": "The Railroad Gazette 44(19), May 8, 1908: railroad construction, Ocean Shore (Electric)",
+          "publisher": "The Railroad Gazette",
+          "date": "1908-05-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1908-05-08_44_19",
+          "license": "Public domain (published 1908)",
+          "accessed": "2026-10-16",
+          "source": "railroad-gazette-1908-05-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "655"
+        },
+        {
+          "id": "rag-1908-07-17",
+          "title": "Railroad Age Gazette 45(7), July 17, 1908: railroad construction, Ocean Shore",
+          "publisher": "Railroad Age Gazette",
+          "date": "1908-07-17",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1908-07-17_45_7",
+          "license": "Public domain (published 1908)",
+          "accessed": "2026-10-16",
+          "source": "rag-1908-07-17",
+          "supports": [
+            "route"
+          ],
+          "pages": "555"
+        },
+        {
+          "id": "enterprise-1908-10-17",
+          "title": "The Enterprise (South San Francisco), October 17, 1908: passenger trains reach Halfmoon Bay",
+          "publisher": "The Enterprise (South San Francisco Public Library scan)",
+          "date": "1908-10-17",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cssf_000683",
+          "license": "Public domain (published 1908)",
+          "accessed": "2026-10-16",
+          "source": "enterprise-1908-10-17",
+          "supports": [
+            "route"
+          ],
+          "note": "Passenger trains to Half Moon Bay on Monday, October 12, 1908."
+        },
+        {
+          "id": "rag-1909-03-05",
+          "title": "Railroad Age Gazette 46(10), March 5, 1909: railroad construction, Ocean Shore",
+          "publisher": "Railroad Age Gazette",
+          "date": "1909-03-05",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1909-03-05_46_10",
+          "license": "Public domain (published 1909)",
+          "accessed": "2026-10-16",
+          "source": "rag-1909-03-05",
+          "supports": [
+            "route"
+          ],
+          "pages": "481",
+          "note": "In operation to Tunitas by March 5, 1909."
+        },
+        {
+          "id": "crc-d1620",
+          "title": "Railroad Commission of California, Decision No. 1620 (Case No. 180): ascertaining the value of the property of the Ocean Shore Railroad Company",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1914-06-29",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D1620_19140629_C180.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d1620",
+          "supports": [
+            "route",
+            "electrification"
+          ],
+          "pages": "1328-1337",
+          "note": "The line described from the shops to the end of track past Tunitas Creek; steam except some 2.4 miles of electric street track in San Francisco."
+        },
+        {
+          "id": "daly-city-record-1913-05-09",
+          "title": "Daly City Record, May 9, 1913: Ocean Shore Railroad official time schedule (effective December 15, 1912)",
+          "publisher": "Daly City Record (Daly City Public Library scan)",
+          "date": "1913-05-09",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cdc_002427",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-16",
+          "source": "daly-city-record-1913-05-09",
+          "supports": [
+            "stations"
+          ],
+          "note": "The timetable effective December 15, 1912, with its 31 stations."
+        },
+        {
+          "id": "oakland-tribune-1920-08-17",
+          "title": "Oakland Tribune, 1920-08-17: \"Tunitas trains stop; workers demand raise\"",
+          "publisher": "Oakland Tribune",
+          "date": "1920-08-17",
+          "type": "primary_document",
+          "url": "https://archive.org/details/oakland-tribune-1920-08-17",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1920-08-17",
+          "supports": [
+            "closed"
+          ],
+          "note": "\"Tunitas trains stop\": the crews had quit."
+        },
+        {
+          "id": "crc-d8071",
+          "title": "Railroad Commission of California, Decision No. 8071 (Application No. 6070): Ocean Shore Railroad Company, interim order approving the switching agreement with San Francisco",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1920-09-08",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D8071_19200908_A6070.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d8071",
+          "supports": [
+            "closed"
+          ],
+          "pages": "758-759",
+          "note": "The company \"has discontinued service over its said line\" (September 8, 1920)."
+        },
+        {
+          "id": "crc-d8216",
+          "title": "Railroad Commission of California, Decision No. 8216 (Application No. 6070): Ocean Shore Railroad Company, abandonment of the northern division",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1920-10-09",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D8216_19201009_A6070.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d8216",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "986-992",
+          "note": "Permanent discontinuance on its northern division authorized, October 9, 1920."
+        },
+        {
+          "id": "erj-1920-09-11-ocean-shore",
+          "title": "Ocean Shore Ceases Operation",
+          "publisher": "Electric Railway Journal 56(11)",
+          "date": "1920-09-11",
+          "type": "journal",
+          "url": "https://archive.org/details/electricrailway561920newy",
+          "license": "Public domain (published 1920)",
+          "accessed": "2026-10-16",
+          "source": "erj-1920-09-11-ocean-shore",
+          "supports": [
+            "closed"
+          ],
+          "pages": "518",
+          "note": "\"has ceased to operate\"."
+        },
+        {
+          "id": "usgs-san-mateo-1915",
+          "title": "San Mateo, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Mateo_298922_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-mateo-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-south-1950",
+          "title": "San Francisco South, Cal., topographic quadrangle, 1:24,000, 1950",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1950",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco%20South_300067_1950_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-south-1950",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-montara-mountain-1949",
+          "title": "Montara Mountain, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Montara%20Mountain_293071_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-montara-mountain-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200014102"
+        }
+      ]
+    },
+    {
       "id": "sp-ocean-view",
       "name": "Ocean View line",
       "system": "southern-pacific",
@@ -37130,14 +37501,14 @@
         37.7762
       ],
       "fids": [
-        1185,
-        1186,
-        1187,
         1188,
         1189,
         1190,
         1191,
-        1192
+        1192,
+        1193,
+        1194,
+        1195
       ],
       "segments": [
         {
@@ -37414,9 +37785,6 @@
         37.7762
       ],
       "fids": [
-        1171,
-        1172,
-        1173,
         1174,
         1175,
         1176,
@@ -37427,7 +37795,10 @@
         1181,
         1182,
         1183,
-        1184
+        1184,
+        1185,
+        1186,
+        1187
       ],
       "segments": [
         {
@@ -37907,9 +38278,9 @@
         38.401111
       ],
       "fids": [
-        326,
-        327,
-        328
+        329,
+        330,
+        331
       ],
       "segments": [
         {
@@ -38203,9 +38574,9 @@
         38.473244
       ],
       "fids": [
-        338,
-        339,
-        340
+        341,
+        342,
+        343
       ],
       "segments": [
         {
@@ -38451,15 +38822,15 @@
         38.445375
       ],
       "fids": [
-        329,
-        330,
-        331,
         332,
         333,
         334,
         335,
         336,
-        337
+        337,
+        338,
+        339,
+        340
       ],
       "segments": [
         {
@@ -38817,7 +39188,7 @@
         38.286441
       ],
       "fids": [
-        341
+        344
       ],
       "segments": [
         {
@@ -40000,10 +40371,10 @@
         37.890752
       ],
       "fids": [
-        360,
-        361,
-        362,
-        363
+        363,
+        364,
+        365,
+        366
       ],
       "segments": [
         {
@@ -40335,9 +40706,6 @@
         38.42361
       ],
       "fids": [
-        342,
-        343,
-        344,
         345,
         346,
         347,
@@ -40352,7 +40720,10 @@
         356,
         357,
         358,
-        359
+        359,
+        360,
+        361,
+        362
       ],
       "segments": [
         {
@@ -41646,12 +42017,12 @@
         37.795493
       ],
       "fids": [
-        372,
-        373,
-        374,
         375,
         376,
-        377
+        377,
+        378,
+        379,
+        380
       ],
       "segments": [
         {
@@ -41979,7 +42350,7 @@
         38.519886
       ],
       "fids": [
-        1051
+        1054
       ],
       "segments": [
         {
@@ -42161,12 +42532,12 @@
         38.809809
       ],
       "fids": [
-        1028,
-        1029,
-        1030,
         1031,
         1032,
-        1033
+        1033,
+        1034,
+        1035,
+        1036
       ],
       "segments": [
         {
@@ -42453,15 +42824,15 @@
         38.809809
       ],
       "fids": [
-        1034,
-        1035,
-        1036,
         1037,
         1038,
         1039,
         1040,
         1041,
-        1042
+        1042,
+        1043,
+        1044,
+        1045
       ],
       "segments": [
         {
@@ -43606,8 +43977,8 @@
         37.908
       ],
       "fids": [
-        369,
-        370
+        372,
+        373
       ],
       "segments": [
         {
@@ -43845,11 +44216,11 @@
         38.049065
       ],
       "fids": [
-        364,
-        365,
-        366,
         367,
-        368
+        368,
+        369,
+        370,
+        371
       ],
       "segments": [
         {
@@ -44876,11 +45247,11 @@
         38.434321
       ],
       "fids": [
-        1062,
-        1063,
-        1064,
         1065,
-        1066
+        1066,
+        1067,
+        1068,
+        1069
       ],
       "segments": [
         {
@@ -45047,15 +45418,15 @@
         37.824321
       ],
       "fids": [
-        1119,
-        1120,
-        1121,
         1122,
         1123,
         1124,
         1125,
         1126,
-        1127
+        1127,
+        1128,
+        1129,
+        1130
       ],
       "segments": [
         {
@@ -45554,9 +45925,6 @@
         37.891481
       ],
       "fids": [
-        1084,
-        1085,
-        1086,
         1087,
         1088,
         1089,
@@ -45573,7 +45941,10 @@
         1100,
         1101,
         1102,
-        1103
+        1103,
+        1104,
+        1105,
+        1106
       ],
       "segments": [
         {
@@ -46193,12 +46564,12 @@
         38.440268
       ],
       "fids": [
-        1056,
-        1057,
-        1058,
         1059,
         1060,
-        1061
+        1061,
+        1062,
+        1063,
+        1064
       ],
       "segments": [
         {
@@ -46560,9 +46931,6 @@
         37.796576
       ],
       "fids": [
-        1067,
-        1068,
-        1069,
         1070,
         1071,
         1072,
@@ -46572,7 +46940,10 @@
         1076,
         1077,
         1078,
-        1079
+        1079,
+        1080,
+        1081,
+        1082
       ],
       "segments": [
         {
@@ -47143,7 +47514,7 @@
         37.427138
       ],
       "fids": [
-        1193
+        1196
       ],
       "segments": [
         {
@@ -47449,16 +47820,16 @@
         37.80914
       ],
       "fids": [
-        1161,
-        1162,
-        1163,
         1164,
         1165,
         1166,
         1167,
         1168,
         1169,
-        1170
+        1170,
+        1171,
+        1172,
+        1173
       ],
       "segments": [
         {
@@ -48258,9 +48629,9 @@
         38.032436
       ],
       "fids": [
-        1194,
-        1195,
-        1196
+        1197,
+        1198,
+        1199
       ],
       "segments": [
         {
@@ -48504,10 +48875,10 @@
         38.462654
       ],
       "fids": [
-        1052,
-        1053,
-        1054,
-        1055
+        1055,
+        1056,
+        1057,
+        1058
       ],
       "segments": [
         {
@@ -48757,9 +49128,9 @@
         37.790312
       ],
       "fids": [
-        378,
-        379,
-        380
+        381,
+        382,
+        383
       ],
       "segments": [
         {
@@ -48905,15 +49276,15 @@
         37.789106
       ],
       "fids": [
-        948,
-        949,
-        950,
         951,
         952,
         953,
         954,
         955,
-        956
+        956,
+        957,
+        958,
+        959
       ],
       "segments": [
         {
@@ -50062,10 +50433,10 @@
         37.80035
       ],
       "fids": [
-        401,
-        402,
-        403,
-        404
+        404,
+        405,
+        406,
+        407
       ],
       "segments": [
         {
@@ -50406,9 +50777,6 @@
         37.79562
       ],
       "fids": [
-        389,
-        390,
-        391,
         392,
         393,
         394,
@@ -50416,7 +50784,10 @@
         396,
         397,
         398,
-        399
+        399,
+        400,
+        401,
+        402
       ],
       "segments": [
         {
@@ -50672,12 +51043,12 @@
         37.803847
       ],
       "fids": [
-        1155,
-        1156,
-        1157,
         1158,
         1159,
-        1160
+        1160,
+        1161,
+        1162,
+        1163
       ],
       "segments": [
         {
@@ -50986,8 +51357,8 @@
         37.800059
       ],
       "fids": [
-        1217,
-        1218
+        1220,
+        1221
       ],
       "segments": [
         {
@@ -51169,8 +51540,8 @@
         37.57739
       ],
       "fids": [
-        1219,
-        1220
+        1222,
+        1223
       ],
       "segments": [
         {
@@ -51355,9 +51726,6 @@
         37.80914
       ],
       "fids": [
-        1197,
-        1198,
-        1199,
         1200,
         1201,
         1202,
@@ -51374,7 +51742,10 @@
         1213,
         1214,
         1215,
-        1216
+        1216,
+        1217,
+        1218,
+        1219
       ],
       "segments": [
         {
