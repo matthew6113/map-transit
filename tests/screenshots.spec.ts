@@ -115,6 +115,12 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-oakland-san-jose-1941', url: '/l/sp-oakland-san-jose-elmhurst?era=past&year=1950&test=1&at=99' },
   { name: 'present-line-niles-canyon-railway', url: '/l/niles-canyon-railway?era=present&test=1&at=99' },
   { name: 'past-line-western-pacific', url: '/l/wp-oakland-stockton?era=past&year=1925&test=1&at=99' },
+  // Checkpoint 2d (with the region views above, re-taken): the lines OpenHistoricalMap's ways
+  // made drawable, and the belt lines.
+  { name: 'past-line-california-nevada', url: '/l/cn-oakland-bryant?era=past&year=1896&test=1&at=99' },
+  { name: 'past-east-bay-1896', url: '/?era=past&year=1896&test=1#map=11.2/37.8700/-122.2400/0/0' },
+  { name: 'past-line-wp-san-jose', url: '/l/wp-niles-san-jose?era=past&year=1925&test=1&at=99' },
+  { name: 'past-south-bay-1925', url: '/?era=past&year=1925&test=1#map=10.6/37.4600/-121.9500/0/0' },
 ];
 
 async function settle(page: Page) {

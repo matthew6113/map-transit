@@ -3839,13 +3839,13 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "OpenHistoricalMap ways 200250635, 200250636 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS San Francisco 1895 topographic map, cut to -122.20642,37.90176; checked on USGS San Francisco 1:62,500 (1899) and USGS Concord 1:62,500 (1897). By San Pablo and up San Pablo Creek, under today's San Pablo Reservoir, to Orinda Park. The 1897 Concord sheet labels it \"California and Nevada R.R.\". Orinda Park is placed 2.5 miles back from Bryant along the line, the length Poor's gives the 1891 extension; no source here locates its station.",
+          "method": "OpenHistoricalMap ways 200250635, 200250636 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS San Francisco 1895 topographic map, cut to -122.20642,37.90176; checked on USGS San Francisco 1:62,500 (1899) and USGS Concord 1:62,500 (1897). By San Pablo and up San Pablo Creek to Orinda Park. The 1897 Concord sheet labels it \"California and Nevada R.R.\". Orinda Park is placed 2.5 miles back from Bryant along the line, the length Poor's gives the 1891 extension; no source here locates its station.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
             "closed_unsourced"
           ],
-          "notes": "Most of the creek's valley is under San Pablo Reservoir today."
+          "notes": "Up San Pablo Creek; the 1897 Concord sheet labels it \"California and Nevada R.R.\"."
         },
         {
           "id": "cn-orinda-park-bryant",
