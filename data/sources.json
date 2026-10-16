@@ -1211,6 +1211,28 @@
       "notes": "July 1, 1992: \"Tamien station opens in San Jose.\" / \"Service is extended to Gilroy.\" / the Joint Powers Board takes over, \"with Amtrak as contract operator.\""
     },
     {
+      "id": "campbell-interurban-press-1908-04-29",
+      "title": "Campbell Interurban Press, April 29, 1908: \"S. P. Officers' Excursion\"",
+      "publisher": "Campbell Interurban Press (Campbell Historical Museum scan)",
+      "date": "1908-04-29",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cacblm_000152",
+      "license": "Public domain (published 1908)",
+      "accessed": "2026-10-16",
+      "notes": "p. [4] (n3), quoting the Palo Alto Tribune: the officers' special \"over the new cut-off from Mayfield to Vasona\" on Saturday, April 18, 1908; \"It is double-track as far as Congress Junction\"; \"Five trains will run daily each way between Los Gatos and San Francisco\"; other stations Loyola, Monte Vista, Congress Junction and Quito. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "campbell-press-1963-12-18",
+      "title": "The Campbell Press, December 18, 1963: \"Vasona railway branch to be abandoned Dec. 26\"",
+      "publisher": "The Campbell Press (Campbell Historical Museum scan)",
+      "date": "1963-12-18",
+      "type": "primary_document",
+      "url": "https://archive.org/details/Campbell_Press_1963-12-18",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 9 (n8): the Board of Supervisors \"received notice December 11th from Congressman Charles F. Gubser that the Interstate Commerce Commission has ruled for abandonment of the Southern Pacific's Vasona Branch Railway line effective December 26th\"; \"The abandonment had been delayed by appeals primarily from the line's small number of commuters.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "capitol-corridor-timeline-1991",
       "title": "Capitol Corridor timeline: December 1991",
       "publisher": "Capitol Corridor Joint Powers Authority",
@@ -1297,6 +1319,18 @@
       "license": "Copyright (2009); cited for facts only (decision 19)",
       "accessed": "2026-10-16",
       "notes": "p. 69: \"SP ended service on its historic route in 1984. Alameda County took title to the right of way, and the rails were pulled up.\" The Pacific Locomotive Association \"contracted with the county to restore the track between Niles and Sunol, 7 miles. On May 21, 1988, California Western railbus M200 rolled into Sunol, and the Niles Canyon Railway was born.\" \"Passengers can now board at either Niles or Sunol.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "contra-costa-history-1882",
+      "title": "History of Contra Costa County, California",
+      "author": "J. P. Munro-Fraser",
+      "publisher": "W. A. Slocum, San Francisco",
+      "date": "1882",
+      "type": "book",
+      "url": "https://archive.org/details/historyofcontrco00munrrich",
+      "license": "Public domain (published 1882)",
+      "accessed": "2026-10-16",
+      "notes": "p. 491 (scan n582): \"completing their line from Oakland to Tracy, the first train passed through Antioch September 9, 1878.\" p. 497 (n590): Brentwood laid out on \"the advent of the railroad\", with \"a handsome railroad depot\"; Byron \"another hamlet on the line of the railroad\" with \"a fine depot\"; \"stage connection with Byron Station\" for Byron Hot Springs. Read on the page images, October 16, 2026."
     },
     {
       "id": "contra-costa-history-1926",
@@ -1423,6 +1457,39 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-16",
       "notes": "p. 10: Southern Pacific \"is hereby authorized to discontinue the operations of passenger trains Nos. 73, 74, 250 and 255 between Oakland and San Jose and intermediate points\"; p. 11: effective twenty days after April 12, 1960. p. 1: Nos. 250 and 255 were \"the Oakland section of the Coast Daylight\". Read on the scanned pages by the research pass; p. 10 on October 16, 2026."
+    },
+    {
+      "id": "cpuc-d67736",
+      "title": "Public Utilities Commission of California, Decision No. 67736 (Application No. 45471): Southern Pacific Peninsula commute service between San Francisco, San Jose and Vasona",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1964-08-18",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D57801_to_D73750/D67736_19640818_A45471.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 23, finding 8: \"The Commission takes official notice of the issuance of the decision by the Interstate Commerce Commission in Finance Docket No. 22C09 [as printed] authorizing Southern Pacific to discontinue the Vasona Branch.\" Application filed May 27, 1963; p. 13 (text layer): SP proposed to run train No. 134 \"via Vasona Branch line\". p. 24: dated August 18, 1964. Read on the scanned pages, October 16, 2026."
+    },
+    {
+      "id": "cpuc-d68686",
+      "title": "Public Utilities Commission of California, Decision No. 68686 (Application No. 46660): Santa Fe Golden Gate trains and Southern Pacific Owl trains 57 and 58",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1965-03-02",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D57801_to_D73750/D68686_19650302_A46660.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: Southern Pacific \"presently operates two daily trains in each direction between San Francisco and Los Angeles via the San Joaquin Valley\"; p. 20: \"Southern Pacific Company is hereby authorized to discontinue Owl Trains Nos. 57 and 58 between San Francisco and Los Angeles\", subject to a condition precedent on a schedule for San Joaquin Daylight trains 51 and 52; p. 21: dated at Los Angeles March 2, 1965, effective twenty days after. Read on the scanned pages, October 16, 2026."
+    },
+    {
+      "id": "cpuc-d74832",
+      "title": "Public Utilities Commission of California, Decision No. 74832 (Application No. 50211): San Joaquin Daylight trains 51 and 52 and Sacramento Daylight trains 53 and 54",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1968-10-15",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D73751_to_D86500/D74832_19681015_A50211.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: the San Joaquin Daylights \"operate between Los Angeles and Oakland via Lancaster, Mojave, Bakersfield, Fresno, Merced, Lathrop, Tracy and Martinez\"; p. 5, footnote 4: Trains 55 and 56, 57 and 58 (the Owl) and 59 and 60 (the West Coast) \"discontinued in 1955, 1965 and 1960, respectively\"; p. 44: \"Application No. 50211 is denied\", dated October 15, 1968, effective twenty-five days after. Read on the scanned pages, October 16, 2026."
     },
     {
       "id": "cpuc-rceb-g1006014",
@@ -2308,6 +2375,17 @@
       "notes": "p. 1337: \"PETALUMA & SANTA ROSA RAILROAD steamer Gold Line L H Fox agt Pier 9 foot Broadway\". Read on the page image, October 16, 2026."
     },
     {
+      "id": "cscrm-2021-02-000600",
+      "title": "Southern Pacific, Coast Division, employee timetable No. 72, 1908-04-19",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1908-04-19",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000600",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 10 (n9): the first timetable with the Mayfield cut-off; first-class \"Los Gatos Passenger\" trains 54, 538, 536 (Sunday only), 534, 532 and 530 from San Francisco by Mayfield 35.4, Los Altos 39.6, Loyola 41.9, Monta Vista 44.7, Congress Junction 48.9, Quito 51.5 and Vasona Junct. to Los Gatos 55.2 mi. The previous one, No. 71 of 1908-02-09 (cscrm_2021_02_000601), has none of these stations. Read on the page image, October 16, 2026."
+    },
+    {
       "id": "cscrm-2021-02-000612",
       "title": "Southern Pacific Company, employee timetable No. 2, November 1, 1914",
       "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
@@ -2506,6 +2584,50 @@
       "notes": "No. 18, \"Streamliner California Zephyr\", San Francisco 9.00 a.m., Oakland Pier 9.30, Oakland 9.44. Read on the page image by the research pass."
     },
     {
+      "id": "cscrm-2021-02-001858",
+      "title": "Southern Pacific, Western Division, employee timetable No. 260, 1955-04-24",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1955-04-24",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001858",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 6 (n7): Martinez – Tracy eastward first class only 58 Owl and 52 San Joaquin Daylight (the local No. 56 gone). Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001859",
+      "title": "Southern Pacific, Western Division, employee timetable No. 259, 1955-01-09",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1955-01-09",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001859",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 6 (n9), Martinez Subdivision eastward, Martinez – Tracy: first-class 58 Owl, 56 Passenger (leave daily except Sunday; stops at Avon, Port Chicago, Pittsburg, Antioch, Brentwood, Byron, Tracy) and 52 San Joaquin Daylight; distance Martinez – Tracy 47.5 mi. A handwritten note on No. 56 (owner unknown) reads \"Discontinued – last trip 1-[1?]8-55\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001977",
+      "title": "Southern Pacific, Coast Division, employee timetable No. 176, 1958-09-28",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1958-09-28",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001977",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 11 (n12): Los Altos Branch, No. 132 (weekdays) California Ave. 6.01 PM by Los Altos, Springer Road, Loyola, Simla, Monta Vista, Azule, Congress Jct. and Pollard Road to Vasona Jct. 6.41 and, on the Los Gatos Branch, Los Gatos 6.50 PM; No. 129 Los Gatos 6.38 AM to California Ave. 7.24 AM. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002006",
+      "title": "Southern Pacific, Coast Division, employee timetable No. 177, 1959-04-26",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1959-04-26",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002006",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 11 (n16): \"Vasona Branch\", No. 132 California Ave. 5.01 PM by Los Altos, Loyola, Monta Vista, Congress Jct. and Vasona 5.41 to Campbell and San Jose 6.00 PM; No. 129 San Jose 5.20 AM to California Ave. 6.24 AM; Los Gatos no longer served. Read on the page image, October 16, 2026."
+    },
+    {
       "id": "cscrm-2021-02-002028",
       "title": "Southern Pacific, Western Division, employee timetable No. 272, 1960-04-24, with Schedule Statement ST-798 of 1960-05-09",
       "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
@@ -2515,6 +2637,72 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-16",
       "notes": "Memorandum bound in (leaf 9): \"Passenger Trains Nos. 74, 250 and 255 were discontinued between Oakland and San Jose following the last operation on May 1, 1960, and Train No. 73 was discontinued following the last operation on May 2nd\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002147",
+      "title": "Southern Pacific, Coast Division, employee timetable No. 186, 1963-10-27",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1963-10-27",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002147",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 11 (n10): Vasona Branch, California Ave. (MP 31.8) – Los Altos – Springer Road – Loyola – Simla – Monta Vista – Blue Hills – Champagne Fountain – Vasona – Campbell – San Jose, with no trains; pp. 4-5 (n3-n4): Nos. 129 and 132 run by the main line. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002149",
+      "title": "Southern Pacific, Supplement No. 1 to Coast Division employee timetable 185, effective 1963-09-01",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1963-09-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002149",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "Cover (n0): effective Sunday, September 1, 1963; p. 11 (n6): Vasona Branch, No. 132 Passenger (weekdays) California Ave. 5.01 PM, stopping at Los Altos, Springer Road, Loyola, Simla, Monta Vista, Blue Hills, Champagne Fountain and Vasona, to San Jose 6.10 PM; No. 129 San Jose 5.20 AM to California Ave. 6.24 AM. The last timetable in the collection with a train on the branch. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002164",
+      "title": "Southern Pacific, Western Division, employee timetable No. 2, 1964-10-25",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1964-10-25",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002164",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. [12] (n11), Martinez Subdivision, Tracy line: 58/57 Owl and 52/51 San Joaquin Daylight, stopping at Martinez, Pittsburg and Tracy (Owl flag stop at Brentwood). Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002200",
+      "title": "Southern Pacific, Supplement No. 1 to Western Division employee timetable No. 2, effective 1965-04-12",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1965-04-12",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002200",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "Cover (n0): \"Superseding pages 12 and 13, effective Monday, April 12, 1965 at 12:01 A.M.\"; p. 12 (n1): the Tracy line has only 52/51 San Joaquin Daylight (the Owl gone). Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002281",
+      "title": "Southern Pacific, Western Division, employee timetable No. 13, 1970-03-29",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1970-03-29",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002281",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 12 (n11), Martinez Subdivision, Tracy line: 52 San Joaquin Daylight, leave daily, Martinez 9.22 AM, s Pittsburg 9.38, s Tracy 10.14 AM; 51 Tracy 4.40 PM, s Pittsburg 5.13, s Martinez 5.28 PM; stations Martinez, Mococo, Avon, Port Chicago, Pittsburg, Los Medanos, Brentwood, Byron, Tracy; additional stations Nichols, McAvoy, Shell Point, Antioch, Janney. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002282",
+      "title": "Southern Pacific, Western Division, employee timetable No. 14, 1971-05-23",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1971-05-23",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002282",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 12 (n11): the Tracy line table lists stations only, no trains; Nos. 12 and 102 on the Sacramento line are \"N.R.P.C. Passenger\". Read on the page image, October 16, 2026."
     },
     {
       "id": "cscrm-2021-02-002311",
@@ -2549,6 +2737,17 @@
       "license": "Copyrighted; cited for facts",
       "accessed": "2026-10-14",
       "notes": "Pages are cited as Wikipedia gives them until checked in the book (decision 11). archive.org's copy is borrow-only."
+    },
+    {
+      "id": "erj-1910-01-29-sp-electrification",
+      "title": "Southern Pacific Railroad Electrification",
+      "publisher": "Electric Railway Journal 35(5)",
+      "date": "1910-01-29",
+      "type": "journal",
+      "url": "https://archive.org/details/transit-journal-1932_1910-01-29_35_5",
+      "license": "Public domain (published 1910)",
+      "accessed": "2026-10-16",
+      "notes": "p. 204 (n33): \"steam trains will hereafter use only the east track of the double-track line between Mayfield and Congress Junction, the west track being turned over to the Peninsula Railways, which is now equipping the line for operation by electricity to Monte Vista\". Read on the page image, October 16, 2026."
     },
     {
       "id": "erj-1911-06-17-sp-oakland",
@@ -2798,6 +2997,17 @@
       "license": "Public domain (published 1897)",
       "accessed": "2026-10-16",
       "notes": "p. 3: \"SANTA ROSA, Dec. 24.—The Union-street Railway Company bought the McDonald-street Railway Company's line, including horses and all the property this afternoon. This deal puts all of the street railways in the city under the same management\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "lat-1908-03-20",
+      "title": "Los Angeles Times, March 20, 1908: \"Mayfield Cut-Off to Begin Service\"",
+      "publisher": "Los Angeles Times",
+      "date": "1908-03-20",
+      "type": "primary_document",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1908-03-20",
+      "license": "Public domain (published 1908)",
+      "accessed": "2026-10-16",
+      "notes": "2nd page (n1): \"SAN JOSE, March 19.—The first passenger train to use the Mayfield cut-off will be run Sunday, April 12, with a train from San Francisco. The Southern Pacific expects to begin regular service to Los Altos a week later.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "manley-1909",
@@ -4027,6 +4237,17 @@
       "notes": "p. 7 (read on the page image): San Jose's new line \"was opened to traffic at 12:01 a.m., December 31.\" \"All traffic has ceased over the old line.\" \"The new route leaves the old line at Polhemus Street on the north side of the city and proceeds along the route of the Santa Cruz Branch … to the new station built on the site of the old South Pacific Coast depot. Thence … to a connection with the main line at Lick.\""
     },
     {
+      "id": "sp-bulletin-1971-05",
+      "title": "Southern Pacific Bulletin 55(4), May 1971: \"AMTRAK Service Begins\"",
+      "publisher": "Southern Pacific Company",
+      "date": "1971-05",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_002463",
+      "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 10 (n5): \"Four of our inter-city trains were not selected by NRPC for operation and were therefore discontinued on April 30: the San Joaquin Daylight, the Sacramento Daylight, the Northwestern Pacific's self-propelled car which ran thrice-weekly between Eureka and Willits, and the San Jose-Monterey portion of the Del Monte.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "srj-1903-10-31-san-mateo",
       "title": "Street Railway Journal 22(18), October 31, 1903: \"San Mateo extension of the United Railroads of San Francisco\"",
       "publisher": "Street Railway Journal",
@@ -5154,6 +5375,17 @@
       "license": "Copyright status unknown (railfan periodical, 1957); cited for facts only (decision 19)",
       "accessed": "2026-10-16",
       "notes": "p. 14 (n13): the Oakland Terminal and the Western Pacific \"drove a gold spike on March 1 for the opening of the new Union Street trackage\"; \"The Sacramento Northern meantime saw its last operation to West Layfette\" (sic). Read on the page image."
+    },
+    {
+      "id": "western-railroader-1959-02",
+      "title": "The Western Railroader 22(4), February 1959: \"Southern Pacific Passenger Notes\"",
+      "publisher": "The Western Railroader",
+      "date": "1959-02",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1959-02_22_4",
+      "license": "Copyright status unknown (railfan periodical, 1959); cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 15 (n14): \"Los Gatos saw the daily (except Sat. & Sun.) commute train for the last time January 23 as the ICC order became final approving end of the three-mile stub from Vasona Junction to down-town Los Gatos.\" \"The commute train will continue over the Los Altos branch terminating at Vasona.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "western-railroader-1960-04",

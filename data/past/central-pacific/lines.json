@@ -268,6 +268,148 @@
       ],
       "flags": [],
       "notes": "Drawn from San Leandro, where the line's first trains came in from the Alameda wharf in 1869; its trains from Oakland ran over the main line, drawn with the trains to Sacramento."
+    },
+    {
+      "id": "sp-oakland-tracy",
+      "name": "Southern Pacific trains, Oakland to Tracy by Martinez and Antioch",
+      "short_name": "Tracy line",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific",
+          "from": "1878-09-03",
+          "to": "1971-04-30"
+        }
+      ],
+      "mode": "railroad",
+      "era": "past",
+      "opened": "1878-09-03",
+      "closed": "1971-04-30",
+      "status": "closed",
+      "continues_beyond": "Tracy, Fresno and Los Angeles",
+      "summary": "The Southern Pacific's trains from Oakland by Martinez, Port Chicago, Pittsburg, Antioch, Brentwood and Byron to Tracy and the San Joaquin Valley: in 1914 eight eastbound trains a day, the Owl and a Tracy and Fresno local among them; after 1955 only through trains, and from 1965 the San Joaquin Daylight alone.",
+      "fate": "abandoned",
+      "fate_note": "The San Joaquin Daylight was \"not selected by NRPC\" (Amtrak) and was discontinued on April 30, 1971 (Southern Pacific Bulletin). The track still carries freight.",
+      "route": [
+        {
+          "segment": "sp-oakland-mole",
+          "to": "1958-07-30",
+          "note": "From Oakland Pier until its last ferry; where the trains began after that isn't sourced here."
+        },
+        {
+          "segment": "sp-mole-16th-st",
+          "to": "1958-07-30"
+        },
+        {
+          "segment": "cc-west-oakland-shell-mound"
+        },
+        {
+          "segment": "cc-shell-mound-port-costa"
+        },
+        {
+          "segment": "cc-port-costa-martinez"
+        },
+        {
+          "segment": "sp-martinez-county-line"
+        }
+      ],
+      "sources": [
+        {
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "SP 24",
+          "note": "\"From Martinez to Tracy … September 3, 1878.\""
+        },
+        {
+          "source": "ca-brc-report-10",
+          "supports": [
+            "opened"
+          ],
+          "pages": "73"
+        },
+        {
+          "source": "contra-costa-history-1882",
+          "supports": [
+            "general",
+            "stations"
+          ],
+          "pages": "491, 496-497",
+          "note": "\"the first train passed through Antioch September 9, 1878\"; the depots at Brentwood and Byron."
+        },
+        {
+          "source": "cscrm-2021-02-000614",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "15",
+          "note": "Eight eastbound first-class trains from Martinez to Tracy in 1914, with the stations."
+        },
+        {
+          "source": "cscrm-2021-02-001859",
+          "supports": [
+            "route"
+          ],
+          "pages": "6",
+          "note": "1955: the Owl, the San Joaquin Daylight and a local, Nos. 55 and 56."
+        },
+        {
+          "source": "cscrm-2021-02-001858",
+          "supports": [
+            "general"
+          ],
+          "pages": "6",
+          "note": "The local gone by April 24, 1955."
+        },
+        {
+          "source": "cpuc-d68686",
+          "supports": [
+            "general"
+          ],
+          "pages": "20-21",
+          "note": "The Owl's discontinuance authorized, March 2, 1965."
+        },
+        {
+          "source": "cpuc-d74832",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "2, 5, 44",
+          "note": "The San Joaquin Daylight's route by Tracy and Martinez; its discontinuance denied, October 15, 1968."
+        },
+        {
+          "source": "cscrm-2021-02-002281",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "The last timetable with a train on the line, March 29, 1970."
+        },
+        {
+          "source": "sp-bulletin-1971-05",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "10",
+          "note": "\"discontinued on April 30\"."
+        },
+        {
+          "source": "cscrm-2021-02-002282",
+          "supports": [
+            "closed"
+          ],
+          "pages": "12",
+          "note": "No trains on the line from May 23, 1971."
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Opened for public use on September 3, 1878, in the railroad's returns; the county history of 1882 has the first train through Antioch on September 9. Clipped at the San Joaquin County line (decision 16)."
     }
   ]
 }

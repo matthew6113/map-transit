@@ -2,6 +2,21 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Southern Pacific's Tracy line and Los Altos branch
+
+- **Southern Pacific trains, Oakland to Tracy by Martinez and Antioch** (`central-pacific/`): opened
+  for public use September 3, 1878 (the railroad's returns; the 1882 county history has the first
+  train through Antioch on the 9th, `conflicting_sources`), to the San Joaquin Daylight's last run
+  on April 30, 1971, the day before Amtrak (*Southern Pacific Bulletin*). Drawn along today's Union
+  Pacific Tracy Subdivision from Martinez to the San Joaquin County line (decision 16), over the
+  Capitol Corridor's track from Oakland (decision 13).
+- **Southern Pacific trains by Los Altos, Mayfield to Vasona Junction** (`sp-peninsula/`): the
+  Mayfield cut-off, from its first timetable of April 19, 1908, drawn to its last timetable with a
+  train, September 1, 1963 (decision 20): the end is in conflict (no train from October 27, 1963;
+  the ICC's abandonment effective December 26, 1963; a local history's January 27, 1964). From
+  OpenHistoricalMap's ways, which lie on the line on the 1953 sheets. The trains' run on to Los
+  Gatos (to January 23, 1959) and then to San José isn't drawn as part of the line.
+
 ## 2026-10-16: The San Quentin branch and its ferry
 
 - **San Rafael & San Quentin trains, Point San Quentin to San Rafael** (`north-pacific-coast/`):

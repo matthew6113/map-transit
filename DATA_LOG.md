@@ -143,7 +143,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 
 | Source | Type | License |
 |---|---|---|
-| California Railroad Commission and CPUC decisions, 1916–1957 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
+| California Railroad Commission and CPUC decisions, 1916–1968 (`crc-d*`, `cpuc-d*`), from files.cpuc.ca.gov | official | California public records; cited for facts. Whether state documents are public domain is an open question for Matthew. |
 | Street Railway Journal (1904, 1906; including the North Shore Railroad's third-rail line, January 2, 1904), Railroad Gazette (1907), the Journal of Electricity, Power and Gas (1912), the Commercial & Financial Chronicle (1913), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
 | The San Francisco Call (1907, 1911), the Oakland Tribune (1889–1924), *The Argonaut* (1878–1903), the *Banner of Progress* (1867) and *The Voice of Israel* (1870), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
 | *The Western Railroader*, August 1945 (railfan periodical), from archive.org | journal | Copyright status unknown; cited for facts only (one date, the Sacramento Northern's last day) |
@@ -160,6 +160,9 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | *History of public transit in San Francisco, 1850–1948* (City and County of San Francisco, 1948), from archive.org's OCR | official | Public record; cited for facts. Its quotes need checking against the page images. |
 | Halley's *Centennial Year Book of Alameda County* (1876) and the *History of Alameda County* (M. W. Wood, 1883), from archive.org's OCR text | book | Public domain (published 1876, 1883). Their quotes need checking against the page images. |
 | *Southern Pacific Bulletin*, November–December 1930 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only (decision 19) |
+| The Southern Pacific's and Northwestern Pacific's employee timetables (1908–1971) and the *Southern Pacific Bulletin* of May 1971, California State Railroad Museum scans on archive.org (`cscrm-*`) | primary_document | Copyright status unknown; cited for facts only (decision 19) |
+| The *Los Angeles Times* (1908) and the *Campbell Interurban Press* (1908), from archive.org | primary_document | Public domain (published before 1929) |
+| The *Campbell Press* (1963), from archive.org | primary_document | No rights statement; cited for facts only, as decision 19 does (for Matthew) |
 | Palmer's *History of Napa and Lake Counties* (1881) and *Poor's Manual* of 1880, from archive.org's OCR text | book | Public domain (published 1880–81). Their quotes need checking against the page images. |
 | Munro-Fraser's histories of Marin and Sonoma Counties (Alley, Bowen, 1880), the Board of Railroad Commissioners' tenth annual report (1889) and first biennial report (1894) and *Poor's Manual of Railroads* (1885, 1887, 1900), from archive.org's OCR text | book, official | Public domain (published 1880–1900). Their quotes need checking against the page images. |
 | HABS CA-1888 (Southern Pacific Mole & Pier), Library of Congress catalog record | official | Public domain (U.S. Government work) |
@@ -332,9 +335,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 141 | 569 | 11 | 775.9 | 607.6 | 206.3 | 8 | 521 |
+| past | 143 | 571 | 11 | 864.7 | 607.6 | 206.3 | 8 | 523 |
 | present | 47 | 172 | 275 | 1715.1 | 0 | 0 | 14 | 75 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 565, `conflicting_sources` 36, `expected_opening_unsourced` 6, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 889, `page_unverified` 1, `status_unverified` 7.
+Open flags: `closed_unsourced` 568, `conflicting_sources` 38, `expected_opening_unsourced` 6, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 889, `page_unverified` 1, `status_unverified` 7.
 <!-- coverage:end -->
