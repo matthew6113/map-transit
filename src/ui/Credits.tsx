@@ -20,7 +20,9 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       records of BART, SFMTA, VTA, Caltrain, SMART, the ferry operators, ACE, the Capitol Corridor, Amtrak, AC Transit,
       MTC, SFCTA, Alameda CTC and the CPUC. Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
-      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Past lines traced from
+      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS); their statuses and
+      expected openings from VTA, TJPA, MTC, SFCTA, the FTA, the High-Speed Rail Authority, Valley Link and SMART. Past
+      lines traced from
       the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
       Historical Topographic Map Collection</a> (public domain), from{' '}
       <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> (CC0) and along today's street centerlines from

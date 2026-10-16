@@ -128,7 +128,17 @@ What it requires:
 | Origin | `data/projects.json` and `data/lines/*.geojson` from matthew6113/BAM at commit `9600699ae10affa5787c1a73374c34a5fa8e4b41`, read by `make future-sync`. Each record was last verified Oct 7–8, 2026, from official sources only. |
 | Lines | BART Silicon Valley Phase II, The Portal, CAHSR SF–SJ, Valley Link, SMART Healdsburg and SMART Cloverdale. 14 segments and 17 stations. |
 | Licenses (per line, as BAM recorded them) | **VTA GIS** (BART SV II): no license stated, flagged `license_unclear`. **TJPA status report** (Portal): traced facts; the PDF isn't redistributed. **NTAD rail network** (CAHSR, SMART): public domain. **Valley Link board packet and SEIR figures**: traced facts; georeferenced on OpenStreetMap (ODbL). **County of Sonoma GIS**: CC BY-SA 3.0 US. **SMART's station layer**: no license stated, flagged `license_unclear`. **Caltrain GTFS stations**: Caltrain developer license. **BTS National Transit Map**: CC BY 3.0 US. |
-| Gaps | Statuses are translated from BAM's stages (`docs/DECISIONS.md`) and flagged `status_unverified` until Phase 3 re-checks them. Expected openings aren't recorded yet. The CAHSR alignment is NTAD's Caltrain centerline, which is approximate and drawn dashed. |
+| Gaps | Statuses were translated from BAM's stages (`docs/DECISIONS.md`); since Phase 3 the re-verification below replaces them. The CAHSR alignment is NTAD's Caltrain centerline, which is approximate and drawn dashed. |
+
+### Future statuses, re-verified
+
+| | |
+|---|---|
+| Status | In use. |
+| Origin | `data/future/verified.json`, kept by hand and applied by `make future-sync` over BAM's translated stages. Re-verified Oct 16, 2026, from the agencies' own documents: VTA's May 2026 executive report and September 2026 post; TJPA's March 2026 committee deck and February 2026 status report; MTC's June 2026 RM3 report, May 2026 TIRCP endorsements and August 2026 agenda; SFCTA's January 2026 memo; FTA's FY2027 annual report; the High-Speed Rail Authority's 2026 Business Plan, Northern California page and October 2026 Gilroy-Wye notice; Valley Link's project and procurement pages; SMART's Healdsburg and Geyserville pages and September 2026 board items; and CEQAnet's Geyserville exemption. Twenty entries in `data/sources.json`, type `official`. Notes in `docs/research/future-status-2026-10.md`. |
+| Lines | All six: no status changed from BAM's translation. Expected openings now cited for BART Silicon Valley Phase II (Q1 2039, VTA's target Q2 2037), The Portal (May 2036), Valley Link Phase 1A (2032) and SMART Healdsburg (December 2028). |
+| License | Facts from public agency documents, cited and briefly quoted; nothing redistributed. |
+| Gaps | The agencies' sites can't be reached from the build container, so every fact is from web search results restricted to the agencies' own domains; no page or PDF was opened, and each source's notes say so. CAHSR San Francisco to San José and SMART Cloverdale have no stated opening (`expected_opening_unsourced`). The Portal's undated project page still says 2035 against its 2026 schedule documents (`conflicting_sources`). State rail grant awards (TIRCP Cycle 8), expected in October 2026, hadn't appeared. Due again by Jan 14, 2027 (`docs/checks/future.md`). |
 
 ## Past era
 
@@ -341,5 +351,5 @@ The geometry tools are below (decision 12).
 | present | 47 | 172 | 275 | 1715.1 | 0 | 0 | 14 | 75 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 576, `conflicting_sources` 43, `expected_opening_unsourced` 6, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 892, `page_unverified` 1, `status_unverified` 7.
+Open flags: `closed_unsourced` 576, `conflicting_sources` 44, `expected_opening_unsourced` 2, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 892, `page_unverified` 1, `status_unverified` 1.
 <!-- coverage:end -->

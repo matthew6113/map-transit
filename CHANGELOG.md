@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The future lines' statuses, re-verified (Phase 3)
+
+- **All six future lines** (`data/future/verified.json`, applied over BAM's translated stages):
+  re-checked against the agencies' own documents, as web search showed them. No status changes:
+  BART Silicon Valley Phase II is under construction; SMART Healdsburg is funded; The Portal, CAHSR
+  San Francisco to San José, Valley Link and SMART Cloverdale are environmental (cleared, without
+  construction funding). `status_unverified` is dropped from all six.
+- **Expected openings, now cited:** BART Silicon Valley Phase II, "Q1 2039 (VTA's target: Q2 2037)"
+  (VTA's May 2026 executive report); The Portal, May 2036 (TJPA, March 2026; its project page's 2035
+  is flagged `conflicting_sources`); Valley Link, 2032 for Phase 1A (its project page); SMART
+  Healdsburg, December 2028 (SMART's project page). CAHSR and SMART Cloverdale state none.
+- `last_verified` is Oct 16, 2026 for all six, so the 90-day test next falls due Jan 14, 2027.
+
 ## 2026-10-16: The Ocean Shore Railroad, 1907-1920
 
 - **Ocean Shore trains, San Francisco to Tunitas** (`ocean-shore/`): from October 1907 (Callwell)

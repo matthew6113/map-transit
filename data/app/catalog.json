@@ -14,9 +14,9 @@
       "closed": null,
       "status": "under_construction",
       "status_label": "Under construction",
-      "status_as_of": "2026-10-07",
-      "expected_opening": null,
-      "last_verified": "2026-10-07",
+      "status_as_of": "2026-09-01",
+      "expected_opening": "Q1 2039 (VTA's target: Q2 2037)",
+      "last_verified": "2026-10-16",
       "summary": "VTA's six-mile extension of BART from Berryessa through downtown San José to Santa Clara, with three underground stations, one at-grade station and a rail yard, built around a single tunnel about 53 feet across. Its adopted budget is $12.7 billion. Early works are under way at the tunnel launch site, but the federal grant that would pay for about 40% of it is not yet signed, and service is scheduled for 2039 (VTA aims for 2037).",
       "links": [
         {
@@ -24,11 +24,8 @@
           "url": "https://matthew6113.github.io/BAM/p/bart-silicon-valley-phase-2/"
         }
       ],
-      "notes": "Status translated from BAM's stage (infrastructure): BAM stage 'infrastructure': early construction ahead of tunneling (launch structure dug, demolition and utility relocation at station sites). Stage note at 2026-10-07: Early construction, ahead of tunneling. Crews finished excavating the West Portal launch structure for the tunnel boring machine in early September 2026, and demolition and utility relocation are under way at station sites. In August 2026 VTA signed a restated tunnel contract and gave notice to proceed with pre-tunneling work only. The federal grant agreement that would fund most of the line is not yet signed (VTA's target is late 2027), the boring machine is in storage in Germany with delivery expected in the second half of 2027, and FTA's oversight consultant rates the project high risk while VTA re-baselines its cost and schedule.",
-      "flags": [
-        "status_unverified",
-        "expected_opening_unsourced"
-      ],
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Early works for the tunnel launch structure are under way. The federal grant agreement is proposed for Q4 2027, and VTA is rebaselining the cost and schedule, which may move both dates.",
+      "flags": [],
       "undated": false,
       "length_km": 10.5,
       "confidence_km": {
@@ -94,6 +91,35 @@
       ],
       "sources": [
         {
+          "id": "vta-blog-bsvii-3-million-hours-2026",
+          "title": "BART Silicon Valley Phase II Achieves 3 Million Safe Work Hours",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "date": "2026-09-01",
+          "type": "official",
+          "url": "https://www.vta.org/blog/bart-silicon-valley-phase-ii-achieves-3-million-safe-work-hours",
+          "accessed": "2026-10-16",
+          "source": "vta-blog-bsvii-3-million-hours-2026",
+          "supports": [
+            "status"
+          ],
+          "note": "Early works: \"crews have placed 75,000 cubic yards of concrete\" (September 1, 2026)."
+        },
+        {
+          "id": "vta-bsvii-executive-report-2026-05",
+          "title": "VTA BSVII Executive Monthly Progress Report May 1, 2026",
+          "publisher": "Santa Clara Valley Transportation Authority",
+          "date": "2026-06-29",
+          "type": "official",
+          "url": "https://vtabart.org/wp-content/uploads/2026/07/BSVII_Executive-Monthly-Report_May_2026-070726-v2.pdf",
+          "accessed": "2026-10-16",
+          "source": "vta-bsvii-executive-report-2026-05",
+          "supports": [
+            "status",
+            "expected_opening"
+          ],
+          "note": "\"Q1-2039 RSD while managing to the aforementioned target RSD of Q2-2037\"; the federal grant agreement proposed for Q4 2027."
+        },
+        {
           "id": "bam-bart-silicon-valley-phase-2-record",
           "title": "Bay Area megaprojects: BART Silicon Valley Phase II (project record, verified 2026-10-07)",
           "author": "Matthew Huguet",
@@ -102,10 +128,8 @@
           "date": "2026-10-07",
           "source": "bam-bart-silicon-valley-phase-2-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'infrastructure': early construction ahead of tunneling (launch structure dug, demolition and utility relocation at station sites)."
+          ]
         },
         {
           "id": "bam-bart-silicon-valley-phase-2-geometry",
@@ -325,9 +349,9 @@
       "closed": null,
       "status": "environmental",
       "status_label": "Environmental review",
-      "status_as_of": "2026-10-07",
+      "status_as_of": "2026-06-01",
       "expected_opening": null,
-      "last_verified": "2026-10-07",
+      "last_verified": "2026-10-16",
       "summary": "The Bay Area end of California's high-speed rail line. Rather than building new tracks up the Peninsula, high-speed trains would share Caltrain's newly electrified corridor for about 49 miles from San Francisco to San Jose, stopping at Fourth and King (and later the Salesforce Transit Center via The Portal), Millbrae for SFO, and San Jose Diridon. The route was environmentally approved in 2022, but no construction has started and the Authority's current plan reaches the Bay Area by 2039.",
       "links": [
         {
@@ -335,9 +359,8 @@
           "url": "https://matthew6113.github.io/BAM/p/cahsr-sf-sj/"
         }
       ],
-      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared (ROD Oct 2022); right-of-way, design and station work not started. Stage note at 2026-10-07: Environmentally cleared: the Authority's Board certified the Final EIR/EIS and approved the route in August 2022, and the Record of Decision followed in October 2022. No construction has started. The 2026 Business Plan's schedule lists right-of-way, design, and the Fourth and King, Millbrae and San Jose station work as 'not started'. It plans for trains to reach the Bay Area over upgraded shared tracks by 2039 in its San Francisco–Bakersfield scenario. That depends on funding and on agreements with Caltrain and partners, including for the San Jose to Gilroy line. Until The Portal is built, Fourth and King is the interim terminus.",
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Cleared since 2022, with no funding or construction in the Bay Area. The adopted 2026 plan gives no opening for San Francisco to San José.",
       "flags": [
-        "status_unverified",
         "expected_opening_unsourced"
       ],
       "undated": false,
@@ -385,6 +408,48 @@
       ],
       "sources": [
         {
+          "id": "chsra-northern-california",
+          "title": "Northern California",
+          "publisher": "California High-Speed Rail Authority",
+          "type": "official",
+          "url": "https://hsr.ca.gov/project-overview/project-sections/northern-california/",
+          "accessed": "2026-10-16",
+          "source": "chsra-northern-california",
+          "supports": [
+            "status"
+          ],
+          "note": "\"fully approved and eligible for advanced design\": the San Francisco to San José EIR/EIS certified in August 2022."
+        },
+        {
+          "id": "chsra-2026-business-plan",
+          "title": "2026 Business Plan",
+          "publisher": "California High-Speed Rail Authority",
+          "date": "2026-06-01",
+          "type": "official",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2026/06/2026-Final-Business-Plan-060126-A11Y.pdf",
+          "accessed": "2026-10-16",
+          "source": "chsra-2026-business-plan",
+          "supports": [
+            "status",
+            "general"
+          ],
+          "note": "Adopted June 1, 2026. Bay Area service comes only in the San Francisco–Bakersfield scenario (\"deliver SF-B by 2039\"), which needs a state solution for San José to Gilroy; no opening is given for this section."
+        },
+        {
+          "id": "chsra-gilroy-wye-nop-2026-10",
+          "title": "Gilroy to Central Valley Wye Project: signed Notice of Preparation",
+          "publisher": "California High-Speed Rail Authority",
+          "date": "2026-10-14",
+          "type": "official",
+          "url": "https://hsr.ca.gov/wp-content/uploads/2026/10/G-Y-Official-NOP-Signed-A11Y.pdf",
+          "accessed": "2026-10-16",
+          "source": "chsra-gilroy-wye-nop-2026-10",
+          "supports": [
+            "general"
+          ],
+          "note": "October 2026: a new environmental review of Gilroy to the Central Valley Wye, the link that would bring trains to San José, with new alignments to be decided by the end of 2027."
+        },
+        {
           "id": "bam-cahsr-sf-sj-record",
           "title": "Bay Area megaprojects: California High-Speed Rail: San Francisco to San Jose (project record, verified 2026-10-07)",
           "author": "Matthew Huguet",
@@ -393,10 +458,8 @@
           "date": "2026-10-07",
           "source": "bam-cahsr-sf-sj-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'entitled': environmentally cleared (ROD Oct 2022); right-of-way, design and station work not started."
+          ]
         },
         {
           "id": "bam-cahsr-sf-sj-geometry",
@@ -536,9 +599,9 @@
       "closed": null,
       "status": "environmental",
       "status_label": "Environmental review",
-      "status_as_of": "2026-10-08",
+      "status_as_of": "2026-09-16",
       "expected_opening": null,
-      "last_verified": "2026-10-08",
+      "last_verified": "2026-10-16",
       "summary": "The last leg of the voter-approved SMART system: about 13.5 miles of out-of-service railroad from north of Healdsburg to Cloverdale, with new stations at Geyserville (adopted in August 2026) and Cloverdale. It was environmentally cleared with the rest of the line and is in the regional plan, but it has no construction funding yet.",
       "links": [
         {
@@ -546,9 +609,8 @@
           "url": "https://matthew6113.github.io/BAM/p/smart-cloverdale/"
         }
       ],
-      "notes": "Status translated from BAM's stage (proposed): BAM stage 'proposed': environmentally cleared but not yet fully funded, with no construction schedule. Stage note at 2026-10-08: Shown as proposed: environmentally cleared but not yet fully funded, with no construction schedule; SMART says the Cloverdale station will be completed when funding becomes available. SMART's 2006 EIR and 2008 SEIR covered the whole 70-mile corridor to Cloverdale. On Aug 19, 2026 the Board adopted a Geyserville station into SMART's program and approved it as a station project of its own, statutorily exempt from CEQA as a passenger rail project (Public Resources Code 21080.25, as amended by SB 71), to be advanced as part of the extension to Cloverdale; SMART filed the notice of exemption the next day. The extension is in Plan Bay Area 2050+, adopted in March 2026, with a $353 million capital cost and a 2025-2035 opening period, but SMART says it still needs state and federal grants and has applications pending or in development. SMART puts Healdsburg to Cloverdale at about 18 miles, and a Geyserville station at about the midpoint lets it split that into two smaller projects that may compete better for grants. The Cloverdale station site is listed as to be determined, and the Healdsburg design-build contract includes options to continue north if more grants are secured.",
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Cleared under SMART's system EIR, with no construction funding; SMART is pursuing grants in two phases, Geyserville first.",
       "flags": [
-        "status_unverified",
         "expected_opening_unsourced"
       ],
       "undated": false,
@@ -582,6 +644,61 @@
       ],
       "sources": [
         {
+          "id": "smart-geyserville-page",
+          "title": "Geyserville",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/geyserville",
+          "accessed": "2026-10-16",
+          "source": "smart-geyserville-page",
+          "supports": [
+            "status"
+          ],
+          "note": "The extension is split into two nine-mile projects to compete for grants; a Geyserville station near Highway 128 and Remmel Road."
+        },
+        {
+          "id": "ceqanet-2026080751-geyserville",
+          "title": "Geyserville Station (Notice of Exemption, SCH 2026080751)",
+          "publisher": "Sonoma-Marin Area Rail Transit District, via the Governor's Office of Land Use and Climate Innovation (CEQAnet)",
+          "date": "2026-08-20",
+          "type": "official",
+          "url": "https://ceqanet.lci.ca.gov/2026080751",
+          "accessed": "2026-10-16",
+          "source": "ceqanet-2026080751-geyserville",
+          "supports": [
+            "status"
+          ],
+          "note": "Geyserville station: statutory exemption from CEQA, August 20, 2026."
+        },
+        {
+          "id": "smart-board-agenda-2026-09-16",
+          "title": "Board of Directors regular meeting agenda package, September 16, 2026",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "date": "2026-09-16",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "accessed": "2026-10-16",
+          "source": "smart-board-agenda-2026-09-16",
+          "supports": [
+            "general"
+          ],
+          "note": "\"Resolution 2026-26 adopts the Geyserville Station Project into SMART's program\"."
+        },
+        {
+          "id": "mtc-tircp-cycle8-endorsements-2026-05",
+          "title": "Cycle 8 TIRCP endorsements (Programming and Allocations Committee item 4a-26-0346, Attachment A, May 13, 2026)",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2026-05-13",
+          "type": "official",
+          "url": "https://www.mtc.ca.gov/sites/default/files/meetings/attachments/6589/4a_26_0346_2_Attachment_A_Cycle8_TIRCP_Endorsements.pdf?cb=416d53bc",
+          "accessed": "2026-10-16",
+          "source": "mtc-tircp-cycle8-endorsements-2026-05",
+          "supports": [
+            "status"
+          ],
+          "note": "A state grant request for some components only; no construction funding committed. Awards pending in October 2026."
+        },
+        {
           "id": "bam-smart-cloverdale-record",
           "title": "Bay Area megaprojects: SMART Cloverdale extension (project record, verified 2026-10-08)",
           "author": "Matthew Huguet",
@@ -590,10 +707,8 @@
           "date": "2026-10-08",
           "source": "bam-smart-cloverdale-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'proposed': environmentally cleared but not yet fully funded, with no construction schedule."
+          ]
         },
         {
           "id": "bam-smart-cloverdale-geometry",
@@ -793,9 +908,9 @@
       "closed": null,
       "status": "funded",
       "status_label": "Funded",
-      "status_as_of": "2026-10-08",
-      "expected_opening": null,
-      "last_verified": "2026-10-08",
+      "status_as_of": "2026-09-16",
+      "expected_opening": "December 2028",
+      "last_verified": "2026-10-16",
       "summary": "The next step north for SMART's trains: about nine miles of railroad, idle for decades, rebuilt from today's end of the line at Windsor through Healdsburg, with a new Healdsburg station, a replacement Russian River rail bridge and the SMART Pathway alongside. It is funded at about $269 million, in design, and planned to open in late 2028; where the Healdsburg station goes is being reconsidered.",
       "links": [
         {
@@ -803,11 +918,8 @@
           "url": "https://matthew6113.github.io/BAM/p/smart-healdsburg/"
         }
       ],
-      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': funded, environmentally cleared and in design; construction hasn't started. Stage note at 2026-10-08: Funded, environmentally cleared and in design; construction hasn't started. The route is covered by SMART's 2006 EIR and 2008 SEIR for the 70-mile system; the Board adopted an addendum for this segment on Dec 17, 2025, and the California Transportation Commission, as a responsible agency, accepted it and approved the project for future consideration of funding on Jan 29, 2026. The progressive design-build team, under contract since September 2025, had prepared 50% design documents by September 2026, and utility potholing began in April 2026. The first construction package, Windsor Station to Front Street, is due for award in October 2026, with construction starting in spring 2027; a second package, Front Street to North Street, includes the station. SMART is also asking the public where the Healdsburg station should go: the historic Depot/Hudson Street site the City prefers (reaffirmed in September 2026), or a Downtown site on Vine Street about 0.45 mile away. Service is planned for December 2028.",
-      "flags": [
-        "status_unverified",
-        "expected_opening_unsourced"
-      ],
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Funded and cleared, in design; SMART's schedule starts construction in January 2027. Utility potholing since April 2026 informs the design. The Healdsburg station's site is under review again, so its point may move.",
+      "flags": [],
       "undated": false,
       "length_km": 14.21,
       "confidence_km": {
@@ -839,6 +951,48 @@
       ],
       "sources": [
         {
+          "id": "smart-healdsburg-extension-page",
+          "title": "Healdsburg extension",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/healdsburgextension",
+          "accessed": "2026-10-16",
+          "source": "smart-healdsburg-extension-page",
+          "supports": [
+            "status",
+            "expected_opening"
+          ],
+          "note": "\"Design: September 2025 - December 2026; Construction: January 2027 - November 2028; Testing: November - December 2028; Service Begins: December 2028.\" $269 million secured."
+        },
+        {
+          "id": "smart-board-agenda-2026-09-16",
+          "title": "Board of Directors regular meeting agenda package, September 16, 2026",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "date": "2026-09-16",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/09.16.2026%20Complete%20Agenda%20Package_0.pdf",
+          "accessed": "2026-10-16",
+          "source": "smart-board-agenda-2026-09-16",
+          "supports": [
+            "status"
+          ],
+          "note": "Phase I (design) of the design-build contract under way; utility and roadway design agreements."
+        },
+        {
+          "id": "smart-healdsburg-station-outreach-2026-09-23",
+          "title": "SMART Healdsburg Station Location Consideration Outreach (memorandum)",
+          "publisher": "Sonoma-Marin Area Rail Transit District",
+          "date": "2026-09-23",
+          "type": "official",
+          "url": "https://www.sonomamarintrain.org/sites/default/files/Documents/SMART%20Healdsburg%20Station%20Location%20Consideration%20Outreach_COC%2009.23.26.pdf",
+          "accessed": "2026-10-16",
+          "source": "smart-healdsburg-station-outreach-2026-09-23",
+          "supports": [
+            "general"
+          ],
+          "note": "The station's location reopened for public engagement through November 2026 (Depot/Hudson Street or downtown)."
+        },
+        {
           "id": "bam-smart-healdsburg-record",
           "title": "Bay Area megaprojects: SMART Healdsburg extension (project record, verified 2026-10-08)",
           "author": "Matthew Huguet",
@@ -847,10 +1001,8 @@
           "date": "2026-10-08",
           "source": "bam-smart-healdsburg-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'entitled': funded, environmentally cleared and in design; construction hasn't started."
+          ]
         },
         {
           "id": "bam-smart-healdsburg-geometry",
@@ -1130,9 +1282,9 @@
       "closed": null,
       "status": "environmental",
       "status_label": "Environmental review",
-      "status_as_of": "2026-10-07",
-      "expected_opening": null,
-      "last_verified": "2026-10-07",
+      "status_as_of": "2026-06-10",
+      "expected_opening": "May 2036",
+      "last_verified": "2026-10-16",
       "summary": "A rail tunnel to bring Caltrain, and later high-speed rail, from the Fourth and King terminus about 1.3 miles into the Salesforce Transit Center, whose two-level underground train box was built for it and has stood empty since 2018. It adds an underground station at Fourth and Townsend. The $8.3 billion project is environmentally cleared and in federal engineering review, with a $3.38 billion federal grant in sight. It still needs the rest of its local and state funding, and TJPA forecasts service in late 2036.",
       "links": [
         {
@@ -1140,10 +1292,9 @@
           "url": "https://matthew6113.github.io/BAM/p/the-portal/"
         }
       ],
-      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared, in FTA's Engineering phase, not under construction or fully funded. Stage note at 2026-10-07: Environmentally cleared and in the Engineering phase of FTA's Capital Investment Grants program since May 2024, but not yet under construction or fully funded. Design is at 30% for the tunnel and stations and 60% for the early works. Right-of-way appraisals are under way, and proposals for the civil and tunnel progressive design-build contract are due Oct 9, 2026. The Full Funding Grant Agreement is targeted for July 2027. TJPA says utility relocation construction will start in 2028 and forecasts that the line will be ready for service on Nov 17, 2036.",
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Environmentally cleared and in FTA's Engineering phase, without committed construction funding. TJPA's dated 2026 schedule documents give May 2036; its undated project page (tjpa.org/portaldtx) still says \"anticipated revenue service date of 2035, funding dependent\".",
       "flags": [
-        "status_unverified",
-        "expected_opening_unsourced"
+        "conflicting_sources"
       ],
       "undated": false,
       "length_km": 3.46,
@@ -1201,6 +1352,91 @@
       ],
       "sources": [
         {
+          "id": "mtc-rm3-semiannual-2026-06",
+          "title": "Regional Measure 3 semi-annual report, June 2026 (Programming and Allocations Committee, Attachment A, June 10, 2026)",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2026-06-10",
+          "type": "official",
+          "url": "https://www.mtc.ca.gov/sites/default/files/meetings/attachments/6640/2j_26_0605_2_Attachment_A_RM3_Semi_Annual_Report_June_2026_with_appendix.pdf?cb=7d83102d",
+          "accessed": "2026-10-16",
+          "source": "mtc-rm3-semiannual-2026-06",
+          "supports": [
+            "status"
+          ],
+          "note": "\"TJPA has completed 30% design and was accepted into the engineering phase of the federal Capital Investment program\"; a funding gap remains."
+        },
+        {
+          "id": "fta-fy27-annual-report-profiles",
+          "title": "Annual Report on Funding Recommendations Fiscal Year 2027: project profiles",
+          "publisher": "Federal Transit Administration",
+          "date": "2026-04-07",
+          "type": "official",
+          "url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/2026-04/FY27-AR-Project-Profiles-Combined-04-07-2026.pdf",
+          "accessed": "2026-10-16",
+          "source": "fta-fy27-annual-report-profiles",
+          "supports": [
+            "status"
+          ],
+          "note": "Among New Starts projects in Engineering; projected grant agreement Summer 2027."
+        },
+        {
+          "id": "tjpa-portal-cac-update-2026-03-10",
+          "title": "The Portal Update, Citizens Advisory Committee, March 10, 2026",
+          "publisher": "Transbay Joint Powers Authority",
+          "date": "2026-03-10",
+          "type": "official",
+          "url": "https://tjpa.org/media/40319/download?inline=",
+          "accessed": "2026-10-16",
+          "source": "tjpa-portal-cac-update-2026-03-10",
+          "supports": [
+            "expected_opening"
+          ],
+          "note": "\"Target start of revenue service: May 2036. Subject to change depending on funding availability.\""
+        },
+        {
+          "id": "tjpa-portal-status-report-2026-02",
+          "title": "The Portal Monthly Status Report, February 2026",
+          "publisher": "Transbay Joint Powers Authority",
+          "date": "2026-02",
+          "type": "official",
+          "url": "https://tjpa.org/media/40324/download?inline=",
+          "accessed": "2026-10-16",
+          "source": "tjpa-portal-status-report-2026-02",
+          "supports": [
+            "expected_opening"
+          ],
+          "note": "\"target RSD of May 2, 2036\" (schedule data date January 31, 2026)."
+        },
+        {
+          "id": "sfcta-portal-fy2026-memo-2026-01",
+          "title": "TJPA Portal Project, fiscal year 2026 (Community Advisory Committee item 9 memorandum)",
+          "publisher": "San Francisco County Transportation Authority",
+          "date": "2026-01-23",
+          "type": "official",
+          "url": "https://www.sfcta.org/sites/default/files/2026-01/SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfcta-portal-fy2026-memo-2026-01",
+          "supports": [
+            "status",
+            "expected_opening"
+          ],
+          "note": "\"planned to open for revenue service in 2036, subject to funding availability\"; about $2.2 billion still to find."
+        },
+        {
+          "id": "mtc-tircp-cycle8-endorsements-2026-05",
+          "title": "Cycle 8 TIRCP endorsements (Programming and Allocations Committee item 4a-26-0346, Attachment A, May 13, 2026)",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2026-05-13",
+          "type": "official",
+          "url": "https://www.mtc.ca.gov/sites/default/files/meetings/attachments/6589/4a_26_0346_2_Attachment_A_Cycle8_TIRCP_Endorsements.pdf?cb=416d53bc",
+          "accessed": "2026-10-16",
+          "source": "mtc-tircp-cycle8-endorsements-2026-05",
+          "supports": [
+            "general"
+          ],
+          "note": "A $750 million state rail capital (TIRCP Cycle 8) request, endorsed by MTC; awards pending in October 2026."
+        },
+        {
           "id": "bam-the-portal-record",
           "title": "Bay Area megaprojects: The Portal (Downtown Rail Extension) (project record, verified 2026-10-07)",
           "author": "Matthew Huguet",
@@ -1209,10 +1445,8 @@
           "date": "2026-10-07",
           "source": "bam-the-portal-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'entitled': environmentally cleared, in FTA's Engineering phase, not under construction or fully funded."
+          ]
         },
         {
           "id": "bam-the-portal-geometry",
@@ -1422,9 +1656,9 @@
       "closed": null,
       "status": "environmental",
       "status_label": "Environmental review",
-      "status_as_of": "2026-10-07",
-      "expected_opening": null,
-      "last_verified": "2026-10-07",
+      "status_as_of": "2026-06-10",
+      "expected_opening": "2032 (Phase 1A, Dublin/Pleasanton to Vasco Road)",
+      "last_verified": "2026-10-16",
       "summary": "A new passenger rail line along the I-580 corridor linking BART at Dublin/Pleasanton with ACE commuter trains at Vasco Road in Livermore, so riders from the San Joaquin Valley can change trains across a platform instead of driving over the Altamont Pass. The first 11 miles, with three stations and battery-electric trains, are environmentally cleared and in design; an extension to Mountain House is cleared but unfunded.",
       "links": [
         {
@@ -1432,11 +1666,8 @@
           "url": "https://matthew6113.github.io/BAM/p/valley-link/"
         }
       ],
-      "notes": "Status translated from BAM's stage (entitled): BAM stage 'entitled': environmentally cleared and in design; no construction yet. Stage note at 2026-10-07: Environmentally cleared and in design; no construction yet. The Authority certified the Subsequent EIR for the 22-mile Phase 1 in October 2024 and FTA issued a FONSI on May 27, 2025. In June 2025 the Board split delivery after cost increases at 30% design, starting with the 11-mile Phase 1A to Vasco Road; a joint CEQA addendum and NEPA re-evaluation for the 1.5-mile connection from I-580/First Street to Vasco Road is targeted for fall 2026. A CM/GC preconstruction contract went to Kiewit in June 2026. Construction funding is not yet secured: the Authority is preparing to ask FTA to enter the Capital Investment Grants Engineering phase.",
-      "flags": [
-        "status_unverified",
-        "expected_opening_unsourced"
-      ],
+      "notes": "Re-verified Oct 16, 2026 from the agencies' own documents as web search showed them; their sites can't be reached from the build container, so no page was opened (docs/research/future-status-2026-10.md). Cleared under CEQA and NEPA and in design, but not yet in FTA's Engineering phase and without construction funding. 2032 is for Phase 1A, Dublin/Pleasanton to Vasco Road, the stretch drawn here; Phase 1B, on to Mountain House, has no schedule. \"Completion\" is the authority's word.",
+      "flags": [],
       "undated": false,
       "length_km": 18.31,
       "confidence_km": {
@@ -1516,6 +1747,61 @@
       ],
       "sources": [
         {
+          "id": "mtc-rm3-semiannual-2026-06",
+          "title": "Regional Measure 3 semi-annual report, June 2026 (Programming and Allocations Committee, Attachment A, June 10, 2026)",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2026-06-10",
+          "type": "official",
+          "url": "https://www.mtc.ca.gov/sites/default/files/meetings/attachments/6640/2j_26_0605_2_Attachment_A_RM3_Semi_Annual_Report_June_2026_with_appendix.pdf?cb=7d83102d",
+          "accessed": "2026-10-16",
+          "source": "mtc-rm3-semiannual-2026-06",
+          "supports": [
+            "status"
+          ],
+          "note": "\"preparing to enter the engineering phase of the federal CIG program\"; phased construction approved June 2025."
+        },
+        {
+          "id": "valley-link-doing-business-2026",
+          "title": "Doing business (RFP 2026-01, general engineering consultant services)",
+          "publisher": "Tri-Valley – San Joaquin Valley Regional Rail Authority",
+          "date": "2026",
+          "type": "official",
+          "url": "https://www.valleylinkrail.com/doing-business",
+          "accessed": "2026-10-16",
+          "source": "valley-link-doing-business-2026",
+          "supports": [
+            "status"
+          ],
+          "note": "\"As the Phase 1A Project moves into Final Design under the Construction Manager/General Contractor delivery model\"."
+        },
+        {
+          "id": "valley-link-project-page",
+          "title": "Valley Link Project",
+          "publisher": "Tri-Valley – San Joaquin Valley Regional Rail Authority",
+          "type": "official",
+          "url": "https://www.valleylinkrail.com/valleylink-project",
+          "accessed": "2026-10-16",
+          "source": "valley-link-project-page",
+          "supports": [
+            "expected_opening"
+          ],
+          "note": "\"Phase 1A is targeted for completion in 2032 with Phase 1B's schedule remaining contingent on future funding.\" Undated page."
+        },
+        {
+          "id": "mtc-commission-agenda-2026-08-26",
+          "title": "Metropolitan Transportation Commission agenda, August 26, 2026",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2026-08-26",
+          "type": "official",
+          "url": "https://www.mtc.ca.gov/sites/default/files/meetings/agendas/6681_A_Metropolitan_Transportation_Commission_26_08_26_MTC_SAFE_1.pdf",
+          "accessed": "2026-10-16",
+          "source": "mtc-commission-agenda-2026-08-26",
+          "supports": [
+            "general"
+          ],
+          "note": "A $4 million RM3 allocation on the August 26, 2026 agenda."
+        },
+        {
           "id": "bam-valley-link-record",
           "title": "Bay Area megaprojects: Valley Link (project record, verified 2026-10-07)",
           "author": "Matthew Huguet",
@@ -1524,10 +1810,8 @@
           "date": "2026-10-07",
           "source": "bam-valley-link-record",
           "supports": [
-            "status",
             "general"
-          ],
-          "note": "BAM stage 'entitled': environmentally cleared and in design; no construction yet."
+          ]
         },
         {
           "id": "bam-valley-link-geometry",

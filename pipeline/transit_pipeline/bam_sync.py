@@ -97,7 +97,7 @@ def verify(line: dict, v: dict) -> dict:
     record.pop("note", None)
     line["sources"] = v["sources"] + line["sources"]
     line["flags"] = [f for f in line["flags"] if f != "status_unverified"
-                     and not (f == "expected_opening_unsourced" and v["expected_opening"])]
+                     and not (f == "expected_opening_unsourced" and v["expected_opening"])] + v.get("flags", [])
     line["notes"] = v["notes"]
     return line
 
