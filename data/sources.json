@@ -2592,6 +2592,17 @@
       "notes": "Read from https://overpass-api.openhistoricalmap.org/api/interpreter (Overpass; timestamp_osm_base 2026-10-15T00:15:59Z): every way tagged railway, every ferry route and the route relations in the pan limits, cached in data/raw/ohm/region.json. Used for geometry only; each segment drawn from it names its way ids, and OHM's dates are pointers."
     },
     {
+      "id": "organized-labor-1909-05-01",
+      "title": "Organized Labor (San Francisco), May 1, 1909",
+      "publisher": "San Francisco Building and Construction Trades Council",
+      "date": "1909-05-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/csfst_007772",
+      "license": "Published 1909; the scan's rights statement says copyrighted; cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 2, building contracts: \"Palm avenue (formerly Michigan avenue) near Euclid avenue (formerly Richmond avenue)\". Read on the page image by the research pass."
+    },
+    {
       "id": "oshaughnessy-1929",
       "title": "Report on the street railway transportation requirements of San Francisco",
       "author": "M. M. O'Shaughnessy",
@@ -2797,6 +2808,61 @@
       "notes": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\" 1989: \"The City of Alameda eventually started the Alameda Oakland Ferry Service\". 2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\". 2019: the Richmond terminal was completed \"and service was launched\"."
     },
     {
+      "id": "sf-bos-journal-1909",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1909",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1909",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1909sanfrich",
+      "license": "Public domain (published 1909)",
+      "accessed": "2026-10-16",
+      "notes": "p. 75: Bill No. 780, renaming \"Frederick street, between Buena Vista avenue and First avenue, and the name of 'H' street, between First avenue and the Great Highway\"; p. 218: the United Railroads' track on \"Kentucky street, from Eighteenth to Fourth street. Fourth street, from Kentucky to Berry street\"; p. 456: \"the existing double track railroad on Point Lobos avenue, between Thirty-third and Fortieth avenues\"; p. 1119: Ordinance No. 988, renaming streets, passed December 6, 1909; p. 1223: \"9th avenue and Lincoln way (formerly H street)\". Read on the page images by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1915",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1915",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1915",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1915sanfrich",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-16",
+      "notes": "p. 417: \"Bill No. 3513, Ordinance No. 3205 (New Series), entitled, 'Changing the name of Kentucky street to Third street.'\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1921",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1921",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1921",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1921sanfrich",
+      "license": "Public domain (published 1921)",
+      "accessed": "2026-10-16",
+      "notes": "p. 668 (August 1, 1921): \"Bill No. 5819, Ordinance No. 5437 … Railroad avenue to Third street.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1932",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, vol. 27 (1932)",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1932",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed27sanfrich",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 805 (May 16, 1932): \"Resolved, That the name of Howard street, from Thirteenth street to Army street, be and is hereby changed to Van Ness Avenue South.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1995",
+      "title": "Journal of Proceedings, the minutes of the Board of Supervisors of the City and County of San Francisco, January-April 1995",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1995",
+      "type": "official",
+      "url": "https://archive.org/details/journalofjanaprproceed90sanfrich",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 30 (January 9, 1995): Resolution No. 32-95, renaming Army Street Cesar Chavez Street. Read on the page image by the research pass."
+    },
+    {
       "id": "sf-business-directory-1864",
       "title": "San Francisco Business Directory and Mercantile Guide for 1864-65",
       "date": "1864",
@@ -2961,6 +3027,28 @@
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sf-general-ordinances-1907",
+      "title": "General Ordinances of the Board of Supervisors of the City and County of San Francisco",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1907",
+      "type": "official",
+      "url": "https://archive.org/details/generalordinance1907sanf",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-16",
+      "notes": "p. 198: \"Jessie street, between Duboce avenue (formerly thirteenth street) and Fourteenth street\". Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-municipal-reports-1908-09",
+      "title": "San Francisco Municipal Reports, fiscal year 1908-09",
+      "publisher": "City and County of San Francisco",
+      "date": "1909",
+      "type": "official",
+      "url": "https://archive.org/details/sanfranciscomuni58sanfrich",
+      "license": "Public domain (published 1909)",
+      "accessed": "2026-10-16",
+      "notes": "pp. 1458-1466, \"Changes in names of streets\": \"the following changes were authorized by Ordinances Nos. 726, 988, 989 and 1029 (New Series)\", among them \"Devisadero street to Divisadero street\" (p. 1459), \"First avenue to Arguello boulevard\" (p. 1460), \"H street to Lincoln way\" (p. 1461), \"Point Lobos avenue to Geary street\" (p. 1463), \"B street to Balboa street\" (p. 1458) and \"Twenty-second avenue South to Van Dyke avenue\" (p. 1465). Read on the page images by the research pass, October 16, 2026."
+    },
+    {
       "id": "sf-public-transit-history-1948",
       "title": "History of public transit in San Francisco, 1850–1948",
       "publisher": "City and County of San Francisco",
@@ -2981,6 +3069,28 @@
       "notes": "Streetcar conversions: the D and H on March 19, 1950 (1949-50, p. 43) and the F on January 21, 1951 (1950-51, p. 39). Quotes read on the page images."
     },
     {
+      "id": "sf-puc-report-1940",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1940-41",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1941",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1940sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 261: \"The expiration of the franchise of the Market Street Railway Company to operate street cars on Howard Street and South Van Ness Avenue\". Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-puc-report-1944",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1944-45",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1945",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1944sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 308: the electric car lines of 1944-45, after the Market Street Railway's lines were acquired on September 29, 1944; Nos. 23, 24 and 30 are not among them. Read on the page image by the research pass."
+    },
+    {
       "id": "sf-puc-report-1945",
       "title": "Report of the San Francisco Public Utilities Commission, fiscal year 1945-1946",
       "publisher": "City and County of San Francisco, Public Utilities Commission",
@@ -2990,6 +3100,17 @@
       "license": "Public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "The Municipal Railway's line changes by date, July 1, 1945 to June 30, 1946, pp. 279-280, including the former Market Street Railway lines it ran from 1944. Quotes re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "sf-puc-report-1946",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1946-47",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1947",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1946sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 246: \"On October 7, 1946, on the Third and Kearny Street line all street car operation was discontinued and replaced by motor coach operation\"; p. 287: \"10/ 7/46 No. 16—Street cars replaced by coaches\"; p. 288: \"12/ 5/46 No. 25—Street car outer terminal changed to Army and Potrero.\" Read on the page images by the research pass."
     },
     {
       "id": "sf-puc-report-1947",
@@ -4187,6 +4308,18 @@
       "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
       "accessed": "2026-10-16",
       "notes": "A company history drawn from its records. p. 6: the first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"; p. 12: after the crossing fight of March 1, 1905, \"shortly after midnight the first interurban car rolled across the crossing under its own power into downtown Santa Rosa\", and the Forestville line reached \"Green Valley (later Graton) on January 26 and Forestville on July 15\"; pp. 12-13: \"In Santa Rosa the tracks were laid on Sebastopol Ave. to Olive St., Olive to Fourth St., and for slightly over a mile on Fourth to the terminous at McDonald Ave.\"; p. 14: the Two Rock branch \"completed and put into operation on July 28, 1913\"; p. 24: \"on September 20, 1925, passenger service was discontinued\" on it; p. 26: Fourth St's cars \"between the depot at Olive St. and the terminus at McDonald Ave.\" ended \"on December 31, 1931\", \"on June 30, 1932, all passenger service was discontinued\", and Sebastopol Ave between Santa Rosa and Leddy was \"street and side of the road running\". Read on the page images, October 15-16, 2026."
+    },
+    {
+      "id": "wilcox-1927",
+      "title": "San Francisco's Street Railway Problem: preliminary survey of franchise expirations",
+      "author": "Delos F. Wilcox",
+      "publisher": "City and County of San Francisco, City Attorney",
+      "date": "1927-11-01",
+      "type": "official",
+      "url": "https://archive.org/details/sanfranciscosstr1192wilc",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "A survey for the City Attorney, November 1, 1927. p. 23: \"San Bruno Avenue, Oakdale Avenue to Railroad Avenue (at Wilde Street) … used by Route #25\", and \"Route #35, Howard Street Line. No franchise on record\"; p. 31: \"The tracks on Fulton from Masonic Avenue to Stanyan are used by Route #5\"; pp. 50-51: the Park & Ocean's franchise (Order No. 1736) along Stanyan St, \"curving to the right through the northeast corner of Block No. 714\" to H St, and along H St to the Great Highway; pp. 98-99: Route #25's tracks on Potrero Ave \"on a right of way outside of the pavement along the easterly side of the avenue\"; p. 105: the tracks \"running cornerwise across the block from the intersection of Central Avenue and McAllister Street to the intersection of Masonic Avenue and Fulton Street, used by Route #5\". Read on the page images by the research pass."
     },
     {
       "id": "wood-1883",

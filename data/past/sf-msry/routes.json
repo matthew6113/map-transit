@@ -798,6 +798,42 @@
         "to": "Divisadero Street",
         "bridge_m": 400,
         "note": "Inbound"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Haight Street",
+        "to": "Waller Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Manley (1909): \"to Stanyan to H\""
+      },
+      {
+        "street": "Lincoln Way",
+        "from": "Arguello Boulevard",
+        "to": "19th Avenue",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "H St began at First Ave (Arguello Blvd) in Jan 1909; the east end of the cars' run on H St (curve from Stanyan & Waller) is unplaced"
+      },
+      {
+        "street": "Lincoln Way",
+        "from": "19th Avenue",
+        "to": "Great Highway",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "every other car, 'out H to Ocean Boulevard'"
+      },
+      {
+        "street": "Stanyan Street",
+        "from": "Waller Street",
+        "to": "Page Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Inbound: 'on Page from Stanyan to Devisadero'"
       }
     ],
     "msry-21": [
@@ -1361,6 +1397,732 @@
         "running": [
           "1929-05"
         ]
+      }
+    ],
+    "msry-2": [
+      {
+        "segment": "muni-f-market-drumm-1st",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "segment": "muni-f-market-1st-sutter",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Sutter Street",
+        "from": "Market Street",
+        "to": "Presidio Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Presidio Avenue",
+        "from": "Sutter Street",
+        "to": "California Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "California Street",
+        "from": "Presidio Avenue",
+        "to": "Parker Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Parker Avenue",
+        "from": "California Street",
+        "to": "Euclid Avenue",
+        "note": "Manley: Parker Ave. and California St. was the 1909 terminus; today's centerlines miss by ~6 m at Euclid"
+      },
+      {
+        "street": "Euclid Avenue",
+        "from": "Parker Avenue",
+        "to": "Arguello Boulevard",
+        "note": "Richmond Ave in 1909"
+      },
+      {
+        "street": "Arguello Boulevard",
+        "from": "Euclid Avenue",
+        "to": "Clement Street",
+        "note": "1st Ave in 1909"
+      },
+      {
+        "street": "Clement Street",
+        "from": "Arguello Boulevard",
+        "to": "33rd Avenue"
+      },
+      {
+        "street": "33rd Avenue",
+        "from": "Clement Street",
+        "to": "Geary Boulevard"
+      },
+      {
+        "street": "Geary Boulevard",
+        "from": "33rd Avenue",
+        "to": "40th Avenue",
+        "note": "Point Lobos Ave in 1909; the city engineer (1909 journal p. 456) speaks of 'the existing double track railroad on Point Lobos avenue, between Thirty-third and Fortieth avenues'"
+      },
+      {
+        "street": "Geary Boulevard",
+        "from": "40th Avenue",
+        "to": "48th Avenue",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Manley's 1909 route, \"to Point Lobos Ave. to Sutro Baths\", gives no west end on Point Lobos Ave, so this stretch is drawn for 1929 only"
+      },
+      {
+        "street": "48th Avenue",
+        "from": "Geary Boulevard",
+        "to": "Point Lobos Avenue",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-5": [
+      {
+        "segment": "muni-f-market-drumm-1st"
+      },
+      {
+        "segment": "muni-f-market-1st-sutter"
+      },
+      {
+        "segment": "muni-f-market-sutter-kearny"
+      },
+      {
+        "segment": "muni-f-market-kearny-powell"
+      },
+      {
+        "segment": "muni-f-market-powell-mcallister"
+      },
+      {
+        "street": "McAllister Street",
+        "from": "Market Street",
+        "to": "Central Avenue",
+        "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+      },
+      {
+        "street": "Fulton Street",
+        "from": "Masonic Avenue",
+        "to": "La Playa Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Wilcox 1927 pp. 31, 91: Fulton from Masonic to Stanyan, Stanyan to Arguello, Arguello to Sixth Ave used by Route #5"
+      },
+      {
+        "street": "La Playa Street",
+        "from": "Fulton Street",
+        "to": "Balboa Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-16": [
+      {
+        "street": "3rd Street",
+        "from": "Market Street",
+        "to": "Berry Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Manley: '3rd and Townsend via 3rd to Berry'; cars 'switch back at 3rd and Market'"
+      },
+      {
+        "street": "Berry Street",
+        "from": "3rd Street",
+        "to": "4th Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "4th Street",
+        "from": "Berry Street",
+        "to": "16th Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "to Kentucky St; today 4th St ends at 16th St, ~140 m west of 3rd St"
+      },
+      {
+        "street": "3rd Street",
+        "from": "16th Street",
+        "to": "Van Dyke Avenue",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Kentucky St, then Railroad Ave, to '22nd Ave.' (Twenty-second avenue South = Van Dyke Ave); where Kentucky St began on today's 3rd St isn't sourced: 16th St is the cross street nearest 4th St's end, approximate"
+      },
+      {
+        "street": "3rd Street",
+        "from": "Market Street",
+        "to": "Bayshore Boulevard",
+        "running": [
+          "1929-05"
+        ],
+        "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+      },
+      {
+        "street": "Kearny Street",
+        "from": "Market Street",
+        "to": "Broadway",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Broadway",
+        "from": "Kearny Street",
+        "to": "The Embarcadero",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "The Embarcadero",
+        "from": "Broadway",
+        "to": "Market Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "'to north Ferry Terminal'; the stop isn't given"
+      }
+    ],
+    "msry-22": [
+      {
+        "street": "Fillmore Street",
+        "from": "Broadway",
+        "to": "Duboce Avenue"
+      },
+      {
+        "street": "Duboce Avenue",
+        "from": "Fillmore Street",
+        "to": "Church Street",
+        "note": "13th St in 1909"
+      },
+      {
+        "street": "Church Street",
+        "from": "Duboce Avenue",
+        "to": "16th Street"
+      },
+      {
+        "street": "16th Street",
+        "from": "Church Street",
+        "to": "Bryant Street"
+      },
+      {
+        "street": "16th Street",
+        "from": "Bryant Street",
+        "to": "Kansas Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Kansas Street",
+        "from": "16th Street",
+        "to": "17th Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "17th Street",
+        "from": "Kansas Street",
+        "to": "Connecticut Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Connecticut Street",
+        "from": "17th Street",
+        "to": "18th Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "18th Street",
+        "from": "Connecticut Street",
+        "to": "3rd Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "3rd Street",
+        "from": "18th Street",
+        "to": "23rd Street",
+        "running": [
+          "1929-05"
+        ]
+      }
+    ],
+    "msry-23": [
+      {
+        "street": "Sacramento Street",
+        "from": "Divisadero Street",
+        "to": "Fillmore Street"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Sacramento Street",
+        "to": "McAllister Street"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "McAllister Street",
+        "to": "Duboce Avenue",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Duboce Avenue",
+        "from": "Fillmore Street",
+        "to": "Church Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Church Street",
+        "from": "Duboce Avenue",
+        "to": "16th Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "16th Street",
+        "from": "Church Street",
+        "to": "Mission Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Mission Street",
+        "from": "16th Street",
+        "to": "29th Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "McAllister Street",
+        "from": "Fillmore Street",
+        "to": "Gough Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Gough Street",
+        "from": "McAllister Street",
+        "to": "Market Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Market Street",
+        "from": "Gough Street",
+        "to": "Valencia Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Valencia Street",
+        "from": "Market Street",
+        "to": "Mission Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Mission Street",
+        "from": "Valencia Street",
+        "to": "Richland Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Richland Avenue",
+        "from": "Mission Street",
+        "to": "Andover Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Leese Street",
+        "from": "Richland Avenue",
+        "to": "Mission Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      }
+    ],
+    "msry-24": [
+      {
+        "street": "Cortland Avenue",
+        "from": "Folsom Street",
+        "to": "Mission Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Mission Street",
+        "from": "Cortland Avenue",
+        "to": "29th Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Mission Street",
+        "from": "29th Street",
+        "to": "16th Street"
+      },
+      {
+        "street": "16th Street",
+        "from": "Mission Street",
+        "to": "Church Street"
+      },
+      {
+        "street": "Church Street",
+        "from": "16th Street",
+        "to": "Duboce Avenue"
+      },
+      {
+        "street": "Duboce Avenue",
+        "from": "Church Street",
+        "to": "Fillmore Street",
+        "note": "13th St in 1909"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Duboce Avenue",
+        "to": "Oak Street"
+      },
+      {
+        "street": "Oak Street",
+        "from": "Fillmore Street",
+        "to": "Divisadero Street"
+      },
+      {
+        "street": "Divisadero Street",
+        "from": "Oak Street",
+        "to": "Sacramento Street"
+      },
+      {
+        "street": "Sacramento Street",
+        "from": "Divisadero Street",
+        "to": "Arguello Boulevard"
+      },
+      {
+        "street": "Arguello Boulevard",
+        "from": "Sacramento Street",
+        "to": "Lake Street",
+        "note": "Manley says 'Sacramento to Lake', which meet only here (as msry-4)"
+      },
+      {
+        "street": "Lake Street",
+        "from": "Arguello Boulevard",
+        "to": "6th Avenue"
+      },
+      {
+        "street": "6th Avenue",
+        "from": "Lake Street",
+        "to": "Fulton Street"
+      },
+      {
+        "street": "Fulton Street",
+        "from": "6th Avenue",
+        "to": "8th Avenue"
+      },
+      {
+        "street": "8th Avenue",
+        "from": "Fulton Street",
+        "to": "Clement Street"
+      },
+      {
+        "street": "Clement Street",
+        "from": "8th Avenue",
+        "to": "6th Avenue"
+      },
+      {
+        "street": "Divisadero Street",
+        "from": [
+          -122.437207,
+          37.772213
+        ],
+        "from_name": "Page Street",
+        "to": "Oak Street",
+        "note": "Inbound, on the northbound side of today's divided street"
+      },
+      {
+        "street": "Page Street",
+        "from": "Divisadero Street",
+        "to": "Fillmore Street",
+        "note": "Inbound"
+      },
+      {
+        "street": "Fillmore Street",
+        "from": "Page Street",
+        "to": "Oak Street",
+        "note": "Inbound (Fillmore Duboce-Page is shared)"
+      }
+    ],
+    "msry-25": [
+      {
+        "street": "22nd Street",
+        "from": "Mission Street",
+        "to": "South Van Ness Avenue",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "South Van Ness Avenue",
+        "from": "22nd Street",
+        "to": "26th Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Howard St in 1909"
+      },
+      {
+        "street": "26th Street",
+        "from": "South Van Ness Avenue",
+        "to": "Folsom Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Folsom Street",
+        "from": "26th Street",
+        "to": "Cesar Chavez Street",
+        "running": [
+          "1909-02-01"
+        ]
+      },
+      {
+        "street": "Cesar Chavez Street",
+        "from": "Folsom Street",
+        "to": "Bryant Street",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Army St"
+      },
+      {
+        "street": "5th Street",
+        "from": "Market Street",
+        "to": "Bryant Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Bryant Street",
+        "from": "5th Street",
+        "to": "Cesar Chavez Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "Cesar Chavez Street",
+        "from": "Bryant Street",
+        "to": [
+          -122.405431,
+          37.749112
+        ],
+        "note": "Army St; today's Potrero Ave stops about 85 m short of Cesar Chavez St at the US-101 interchange, so this ends at the nearest point",
+        "to_name": "Potrero Avenue"
+      },
+      {
+        "street": "Cesar Chavez Street",
+        "from": [
+          -122.405431,
+          37.749112
+        ],
+        "to": [
+          -122.403854,
+          37.749431
+        ],
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Army St \"to San Bruno Avenue\"; the old junction is under the US-101 interchange, and this ends where today's San Bruno Ave comes nearest (57 m)",
+        "from_name": "Potrero Avenue",
+        "to_name": "San Bruno Avenue"
+      },
+      {
+        "street": "San Bruno Avenue",
+        "from": "Silver Avenue",
+        "to": "Wilde Avenue",
+        "running": [
+          "1929-05"
+        ],
+        "note": "today's San Bruno Ave south of the freeway; Wilcox 1927 p. 23 has the tracks on 'San Bruno Avenue, Oakdale Avenue to Railroad Avenue (at Wilde Street)', and Oakdale Ave now meets Bayshore Blvd, not San Bruno Ave"
+      }
+    ],
+    "msry-30": [
+      {
+        "street": "8th Street",
+        "from": "Market Street",
+        "to": "Bryant Street"
+      },
+      {
+        "street": "Bryant Street",
+        "from": "8th Street",
+        "to": "16th Street"
+      },
+      {
+        "street": "16th Street",
+        "from": "Bryant Street",
+        "to": "Kansas Street"
+      },
+      {
+        "street": "Kansas Street",
+        "from": "16th Street",
+        "to": "17th Street"
+      },
+      {
+        "street": "17th Street",
+        "from": "Kansas Street",
+        "to": "Connecticut Street"
+      },
+      {
+        "street": "Connecticut Street",
+        "from": "17th Street",
+        "to": "18th Street"
+      },
+      {
+        "street": "18th Street",
+        "from": "Connecticut Street",
+        "to": "3rd Street"
+      },
+      {
+        "street": "3rd Street",
+        "from": "18th Street",
+        "to": "Cesar Chavez Street",
+        "note": "Kentucky St/Railroad Ave in 1909"
+      },
+      {
+        "street": "3rd Street",
+        "from": "Cesar Chavez Street",
+        "to": "Van Dyke Avenue",
+        "running": [
+          "1909-02-01"
+        ],
+        "note": "Railroad Ave to '22nd Ave.' (Twenty-second avenue South)"
+      },
+      {
+        "street": "Cesar Chavez Street",
+        "from": "3rd Street",
+        "to": "Folsom Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Army St; outbound (Wilcox p. 69, OCR: 'single track on Army Street from Folsom to Bryant ... westbound')"
+      },
+      {
+        "street": "Folsom Street",
+        "from": "Cesar Chavez Street",
+        "to": "26th Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "26th Street",
+        "from": "Folsom Street",
+        "to": "South Van Ness Avenue",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "South Van Ness Avenue",
+        "from": "26th Street",
+        "to": "22nd Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Howard St in 1929"
+      },
+      {
+        "street": "22nd Street",
+        "from": "South Van Ness Avenue",
+        "to": "Mission Street",
+        "running": [
+          "1929-05"
+        ]
+      },
+      {
+        "street": "26th Street",
+        "from": "South Van Ness Avenue",
+        "to": "Bryant Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      },
+      {
+        "street": "Bryant Street",
+        "from": "26th Street",
+        "to": "Cesar Chavez Street",
+        "running": [
+          "1929-05"
+        ],
+        "note": "Inbound"
+      }
+    ],
+    "msry-35": [
+      {
+        "street": "The Embarcadero",
+        "from": "Market Street",
+        "to": "Howard Street",
+        "note": "from the Ferry"
+      },
+      {
+        "street": "Howard Street",
+        "from": "The Embarcadero",
+        "to": "South Van Ness Avenue"
+      },
+      {
+        "street": "South Van Ness Avenue",
+        "from": "Howard Street",
+        "to": "24th Street",
+        "note": "Howard St until 1932"
+      },
+      {
+        "street": "24th Street",
+        "from": "South Van Ness Avenue",
+        "to": "Rhode Island Street",
+        "note": "today's 24th St is broken ~90 m at US-101; needs bridge_m ~150",
+        "bridge_m": 150
       }
     ]
   }

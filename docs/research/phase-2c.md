@@ -47,15 +47,15 @@ map; "fit" means correcting a misregistered 15-minute sheet against control poin
 
 - **McAllister and Hayes cable lines:** opening dates rest on railfan pages; read Callwell pp. 10–13
   and the Daily Alta of 1883 and 1886.
-- **United Railroads and Market Street Railway numbered lines:** 26 drawn from Manley's 1909 list
-  and O'Shaughnessy's 1929 one (decision 20). 17 have their last day from the SF PUC's reports of
-  1945–49. Still to do: the other lines' last days (the Railroad Commission's 1929–44 decisions); the lines whose 1909 routes use renamed
-  streets (2, 5, 16, 22–25, 30, 35, and the 1909 parts of 20, 23 and 24), once a source pairs the old
-  names with the new: the Board of Supervisors renamed "many streets" by Ordinances Nos. 988, 989 and
-  1029 in December 1909 (*Municipal Reports* 1909–10, p. 640, archive.org `sanfranciscomuni59sanfrich`,
-  which lists the old names only, Point Lobos Ave from Presidio Ave to 48th Ave among them), so the
-  ordinances' text is the source to find; No. 28 and No. 29 (Rincon Hill's and Bayshore's streets have changed); the
-  private rights-of-way to the beach.
+- **United Railroads and Market Street Railway numbered lines:** 35 drawn from Manley's 1909 list
+  and O'Shaughnessy's 1929 one (decision 20), Nos. 2, 5, 16, 22-25, 30 and 35 among them since the
+  sources pairing the old street names with today's were found (`CHANGELOG.md`, October 16). Still
+  to do: the other lines' last days (the Railroad Commission's 1929-44 decisions, and for Nos. 23, 24
+  and 30 the Market Street Railway's 1939-41 changes; Ordinance No. 510 of 1940 is a lead); Nos. 28
+  and 29 (Rincon Hill's and Bayshore's streets have changed); the private rights-of-way to the beach
+  and Sutro Baths; No. 20's curve through Block 714 and its 1909 beach run; No. 5's diagonal from
+  McAllister St to Fulton St; the old San Bruno Ave under US-101 (Nos. 16, 25) and No. 25's right of
+  way on Potrero Ave; No. 16's 1909 link from 4th St to Kentucky St.
 - **Ferries & Cliff House line around Land's End** (1888–1925, Callwell pp. 12, 36): its dates and
   route are sourced, but the 1915 San Francisco sheet is off by up to about 150 m there and no
   1:24,000 sheet shows the line (it was gone by 1950). Needs a fit on the 1899 or 1915 sheet, or a
@@ -190,3 +190,11 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   1905). The *Sebastopol Times* or *Press Democrat* for those weeks would settle both (CDNC, which
   this container can't reach).
 - **Books and newspapers:** as listed per system in `leads-2c/`, and the earlier notes' lists.
+- **SF street names, your calls:** Manley's "22nd Ave." (Nos. 16 and 30 in 1909) is drawn as
+  Twenty-second avenue South, today's Van Dyke Ave, though he omits "South"; Richmond Ave is drawn as
+  Euclid Ave on a newspaper of 1909 and the matching routes, not an ordinance; No. 2 is drawn to 48th
+  Ave only for 1929 (the Sutro franchise, Order 2781, would carry it to 1909).
+- **Santa Fe's Oakland line (1904?-1958):** OpenHistoricalMap's way from the 1895 sheet runs within
+  about 15 m of the old right of way (OpenStreetMap, the Richmond and Ohlone Greenways) from Richmond
+  to south Berkeley, but south of Russell St the 1949 sheet doesn't show where the track ran to 40th
+  St and San Pablo Ave; a map of the 1930s-50s would settle it.

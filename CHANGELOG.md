@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: Nine more Market Street Railway lines, and No. 20's 1909 run on H St
+
+- **Nos. 2, 5, 16, 22, 23, 24, 25, 30 and 35** (`sf-msry/`), drawn from Manley's 1909 routes and
+  O'Shaughnessy's of 1929 (decision 20), now that sources pair their old street names with today's:
+  the city's list of the 1909 renamings (*Municipal Reports* 1908-09, pp. 1458-1466: Devisadero,
+  First Ave to Arguello Blvd, Point Lobos Ave to Geary, H St to Lincoln Way, Twenty-second avenue
+  South to Van Dyke Ave), Duboce Ave "formerly thirteenth street" (*General Ordinances*, 1907),
+  Kentucky St and Railroad Ave to 3rd St (1915, 1921), Howard St to South Van Ness Ave (1932), Army St
+  to Cesar Chavez St (1995), and Richmond Ave to Euclid Ave (a newspaper of 1909, flagged).
+- Last days from the SF PUC's reports: No. 2 July 2, 1949; No. 5 June 5, 1948; No. 16 October 1946;
+  Nos. 22 and 25 July 31, 1948; No. 35 in 1939 (the city's 1948 transit history). Nos. 23, 24 and
+  30 had no cars by September 29, 1944; their last days aren't sourced, so they are drawn 1909-29.
+- **No. 20:** its 1909 run out H St (Lincoln Way) from Arguello Blvd to 19th Ave and on to the Great
+  Highway. Not drawn, for want of a map: its curve from Stanyan St through Block 714, the beach run
+  to Balboa St, No. 5's diagonal across a block to Fulton St, No. 2's right of way to Sutro Baths,
+  and the old San Bruno Ave (Nos. 16 and 25).
+
 ## 2026-10-16: The Sonoma Valley's railroads and the Sebastopol branch
 
 - **Southern Pacific, Santa Rosa branch** (`sonoma-valley/`): Napa Junction by Schellville, El

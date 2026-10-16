@@ -106,6 +106,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-santa-fe', url: '/l/atsf-stockton-ferry-point?era=past&year=1910&test=1&at=99' },
   { name: 'past-line-mt-tamalpais', url: '/l/mt-tamalpais-railway?era=past&year=1910&test=1&at=99' },
   { name: 'past-line-sonoma-valley', url: '/l/sfnp-sonoma-valley?era=past&year=1920&test=1&at=99' },
+  { name: 'past-line-msry-22', url: '/l/msry-22?era=past&year=1929&test=1&at=99' },
 ];
 
 async function settle(page: Page) {
