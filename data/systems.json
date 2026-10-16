@@ -220,6 +220,12 @@
       "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
     },
     {
+      "id": "samtrans",
+      "name": "San Mateo County Transit District",
+      "short_name": "SamTrans",
+      "notes": "In the reference layer (data/ideal/) as the proposer of the Dumbarton corridor's rail and busway plans."
+    },
+    {
       "id": "san-francisco-bay-ferry",
       "name": "San Francisco Bay Ferry",
       "short_name": "San Francisco Bay Ferry"
@@ -246,6 +252,12 @@
       "name": "San Francisco and North Pacific Railroad",
       "short_name": "San Francisco & North Pacific",
       "notes": "Peter Donahue's railroad from the steamer landing at Donahue by Petaluma to Santa Rosa (1870) and Cloverdale (1872), with a branch from San Rafael (1879) and a line to the ferry at Point Tiburon (1885); part of the Northwestern Pacific from 1907. SMART runs on much of its track."
+    },
+    {
+      "id": "sfcta",
+      "name": "San Francisco County Transportation Authority",
+      "short_name": "SFCTA",
+      "notes": "In the reference layer (data/ideal/) as the agency studying the Geary/19th Avenue subway."
     },
     {
       "id": "sfo-airtrain",

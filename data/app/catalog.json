@@ -1981,6 +1981,777 @@
       ]
     },
     {
+      "id": "central-subway-extension-columbus",
+      "name": "Central Subway extension, by Columbus Ave to Fisherman's Wharf",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_label": "Proposed",
+      "status_as_of": "2026-10-16",
+      "summary": "The T Third's Central Subway carried on north from Chinatown to a North Beach station at Washington Square, then by Columbus Ave to Fisherman's Wharf: one of the concept alignments of SFMTA's 2015 study, which recommended none. Its costs ran from $367 million to $1.4 billion in 2014 dollars. A 2026 study looks again at a one-station extension into North Beach.",
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Drawn from Washington Square to Beach St along Columbus Ave, as the concept study names them; the link from the end of today's tunnel to Washington Square, and the study's Powell-and-Beach and one-way loop concepts, are not drawn. Research: docs/research/ideal/san-francisco.md.",
+      "proposal": {
+        "id": "central-subway-extension",
+        "proposed_by": "SFMTA",
+        "document": {
+          "id": "sfmta-t-third-phase-3-study-2015",
+          "title": "T-Third Phase 3 Concept Study, Final Report",
+          "url": "https://www.sfmta.com/sites/default/files/feature-location-pdf/1._t-third_phase_3_concept_study_-_final_report_1-8-15.pdf",
+          "date": "2015-01-08",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official"
+        },
+        "year": "2015-01-08",
+        "status": "study",
+        "status_label": "Under study",
+        "status_as_of": "2026-10-16"
+      },
+      "flags": [],
+      "undated": false,
+      "length_km": 1.09,
+      "confidence_km": {
+        "approximate": 1.09
+      },
+      "bbox": [
+        -122.419499,
+        37.80035,
+        -122.410186,
+        37.8068
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "central-subway-ext-columbus",
+          "name": "Columbus Avenue, Union Street to Beach Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Along today's Columbus Ave centerline (Overture) from Union St, at Washington Square, where every concept alignment has a North Beach station, to Beach St at Conrad Square, one of the study's Fisherman's Wharf ends. The concepts run in subway or on the surface; which isn't chosen. Not drawn: the link from the end of today's tunnel to Washington Square, which the text doesn't route.",
+          "structure": null,
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-t-third-phase-3-study-2015",
+          "title": "T-Third Phase 3 Concept Study, Final Report",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2015-01-08",
+          "type": "official",
+          "url": "https://www.sfmta.com/sites/default/files/feature-location-pdf/1._t-third_phase_3_concept_study_-_final_report_1-8-15.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"This study will not recommend a best concept alignment\"; costs \"from a low of $367 million (subway and surface to Kirkland), to a high of $1.400 billion (subway connecting all three locations) in 2014 dollars\"."
+        },
+        {
+          "id": "sfmta-central-subway-extension",
+          "title": "Central Subway Extension (project page)",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/projects/central-subway-extension",
+          "accessed": "2026-10-16",
+          "source": "sfmta-central-subway-extension",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2026 Central Subway North Beach Extension Study looks at a one-station extension into North Beach through the existing tunnels, without deciding station sites or alignments (paraphrase)."
+        },
+        {
+          "id": "sfmta-central-subway-extension-boards-2018",
+          "title": "Central Subway Extension Alternatives Study, kickoff presentation boards",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2018-10",
+          "type": "official",
+          "url": "https://www.sfmta.com/sites/default/files/reports-and-documents/2018/10/central_subway_extension_kickoff_presentation_boards.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfmta-central-subway-extension-boards-2018",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2018 alternatives study looked north and west: North Beach, Fisherman's Wharf, the Marina, Cow Hollow and the Presidio (paraphrase)."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "central-subway-extension-powell",
+      "name": "Central Subway extension, by Powell St to Fisherman's Wharf",
+      "system": "muni",
+      "system_name": "San Francisco Municipal Railway",
+      "operators": [],
+      "mode": "light_rail",
+      "mode_label": "Light rail",
+      "group": "light_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_label": "Proposed",
+      "status_as_of": "2026-10-16",
+      "summary": "The T Third's Central Subway carried on north from Chinatown to a North Beach station at Washington Square, then by Powell St to Fisherman's Wharf: one of the concept alignments of SFMTA's 2015 study, which recommended none. Its costs ran from $367 million to $1.4 billion in 2014 dollars. A 2026 study looks again at a one-station extension into North Beach.",
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Drawn from Washington Square to Beach St along Powell St, as the concept study names them; the link from the end of today's tunnel to Washington Square, and the study's Powell-and-Beach and one-way loop concepts, are not drawn. Research: docs/research/ideal/san-francisco.md.",
+      "proposal": {
+        "id": "central-subway-extension",
+        "proposed_by": "SFMTA",
+        "document": {
+          "id": "sfmta-t-third-phase-3-study-2015",
+          "title": "T-Third Phase 3 Concept Study, Final Report",
+          "url": "https://www.sfmta.com/sites/default/files/feature-location-pdf/1._t-third_phase_3_concept_study_-_final_report_1-8-15.pdf",
+          "date": "2015-01-08",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official"
+        },
+        "year": "2015-01-08",
+        "status": "study",
+        "status_label": "Under study",
+        "status_as_of": "2026-10-16"
+      },
+      "flags": [],
+      "undated": false,
+      "length_km": 0.83,
+      "confidence_km": {
+        "approximate": 0.83
+      },
+      "bbox": [
+        -122.412347,
+        37.800244,
+        -122.410851,
+        37.807695
+      ],
+      "fids": [
+        2
+      ],
+      "segments": [
+        {
+          "id": "central-subway-ext-powell",
+          "name": "Powell Street, Union Street to Beach Street",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Along today's Powell St centerline (Overture) from Union St, at Washington Square, to Beach St near Kirkland Yard, the study's other Fisherman's Wharf end. Subway or surface isn't chosen. Not drawn: the link from the end of today's tunnel to Washington Square.",
+          "structure": null,
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfmta-t-third-phase-3-study-2015",
+          "title": "T-Third Phase 3 Concept Study, Final Report",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2015-01-08",
+          "type": "official",
+          "url": "https://www.sfmta.com/sites/default/files/feature-location-pdf/1._t-third_phase_3_concept_study_-_final_report_1-8-15.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"This study will not recommend a best concept alignment\"; costs \"from a low of $367 million (subway and surface to Kirkland), to a high of $1.400 billion (subway connecting all three locations) in 2014 dollars\"."
+        },
+        {
+          "id": "sfmta-central-subway-extension",
+          "title": "Central Subway Extension (project page)",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "type": "official",
+          "url": "https://www.sfmta.com/projects/central-subway-extension",
+          "accessed": "2026-10-16",
+          "source": "sfmta-central-subway-extension",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2026 Central Subway North Beach Extension Study looks at a one-station extension into North Beach through the existing tunnels, without deciding station sites or alignments (paraphrase)."
+        },
+        {
+          "id": "sfmta-central-subway-extension-boards-2018",
+          "title": "Central Subway Extension Alternatives Study, kickoff presentation boards",
+          "publisher": "San Francisco Municipal Transportation Agency",
+          "date": "2018-10",
+          "type": "official",
+          "url": "https://www.sfmta.com/sites/default/files/reports-and-documents/2018/10/central_subway_extension_kickoff_presentation_boards.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfmta-central-subway-extension-boards-2018",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2018 alternatives study looked north and west: North Beach, Fisherman's Wharf, the Marina, Cow Hollow and the Presidio (paraphrase)."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dumbarton-rail-2017",
+      "name": "Dumbarton rail shuttle, Redwood City to Newark",
+      "system": "samtrans",
+      "system_name": "San Mateo County Transit District",
+      "operators": [],
+      "mode": "commuter_rail",
+      "mode_label": "Commuter rail",
+      "group": "commuter_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_label": "Proposed",
+      "status_as_of": "2026-10-16",
+      "summary": "Passenger trains back across the Dumbarton rail bridge: the rail phase of Alternative 10 in SamTrans's 2017 corridor study, a shuttle between Redwood City and Newark (about $975 million, the bridge rebuilt with double track), then Union City by 2030 (about $295 million more) and trains through to Caltrain, ACE and the Capitol Corridor by 2035. The study forecast 15,600 transbay riders a day. A 2023 market assessment found too few riders for its cost, and SamTrans now studies a busway on the corridor.",
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Superseded: the 2023 market assessment and SamTrans's busway study replaced it, and Plan Bay Area 2050+ (March 2026) swapped the corridor's rail for express bus and a busway. Two later rail plans for the same corridor aren't drawn: the Cross Bay Transit Partners proposal of 2018-21 (withdrawn; its mode isn't stated in what was seen) and Plan Bay Area 2050's group rapid transit, Redwood City to Newark (superseded). Research: docs/research/ideal/link21-dumbarton-express-rail.md.",
+      "proposal": {
+        "id": "dumbarton-rail-2017",
+        "proposed_by": "SamTrans",
+        "document": {
+          "id": "samtrans-dtcs-final-report-2017",
+          "title": "Dumbarton Transportation Corridor Study, Final Report",
+          "url": "https://www.samtrans.com/files/samtrans/Assets/Dumbarton+Rail+Corridor/PDFs/171120+DTCS+-+Full+Report.pdf",
+          "date": "2017-11-20",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "type": "official"
+        },
+        "year": "2017-11-20",
+        "status": "superseded",
+        "status_label": "Superseded",
+        "status_as_of": "2026-10-16"
+      },
+      "flags": [],
+      "undated": false,
+      "length_km": 17.71,
+      "confidence_km": {
+        "surveyed": 17.71
+      },
+      "bbox": [
+        -122.219095,
+        37.476472,
+        -122.036056,
+        37.527696
+      ],
+      "fids": [
+        3,
+        4,
+        5
+      ],
+      "segments": [
+        {
+          "id": "dumbarton-rail-2017-redwood-jct-newark",
+          "name": "Dumbarton rail corridor, Redwood Junction to Newark",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "The Dumbarton Cutoff as the past era draws it (OpenHistoricalMap's ways), from Redwood Junction across the rail bridge to Newark: the study's rail runs on the existing Dumbarton rail bridge and right-of-way between Redwood City and Newark. Not drawn: the stretch on today's Caltrain track from Redwood Junction to Redwood City station, and the extension to Union City, which the text doesn't route.",
+          "structure": null,
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "samtrans-dtcs-final-report-2017",
+          "title": "Dumbarton Transportation Corridor Study, Final Report",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "date": "2017-11-20",
+          "type": "official",
+          "url": "https://www.samtrans.com/files/samtrans/Assets/Dumbarton+Rail+Corridor/PDFs/171120+DTCS+-+Full+Report.pdf",
+          "accessed": "2026-10-16",
+          "source": "samtrans-dtcs-final-report-2017",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "Recommended \"moving forward with Alternative 10 using a phased approach\"; rail to Newark about $975 million, to Union City about $295 million more; 15,600 transbay riders daily; \"the bus alternatives performed the best in terms of cost-effectiveness\"."
+        },
+        {
+          "id": "samtrans-dumbarton-busway-contract-2025",
+          "title": "Awarding a Contract for the Dumbarton Busway Feasibility Study Services",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "date": "2025",
+          "type": "official",
+          "url": "https://www.samtrans.com/media/35169/download",
+          "accessed": "2026-10-16",
+          "source": "samtrans-dumbarton-busway-contract-2025",
+          "supports": [
+            "general"
+          ],
+          "note": "\"Market viability assessment in 2023 found: Significant costs associated; limited funding available. Insufficient ridership projections to justify cost - estimated at $3.6B in 2024 dollars\"; the rails \"to remain intact for potential future use\"."
+        },
+        {
+          "id": "samtrans-reimagine-dumbarton",
+          "title": "Reimagine Dumbarton",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "type": "official",
+          "url": "https://www.samtrans.com/projects/reimagine-dumbarton",
+          "accessed": "2026-10-16",
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "general"
+          ],
+          "note": "The corridor's current plan is a busway and trail; \"This Project will not preclude the opportunity to convert the corridor to passenger rail in the future\"."
+        },
+        {
+          "id": "mtc-soco-rail-study",
+          "title": "Southern Alameda County Integrated Rail Analysis (SoCo Rail) Study",
+          "publisher": "Metropolitan Transportation Commission",
+          "type": "official",
+          "url": "https://mtc.ca.gov/planning/transportation/regional-transportation-studies/southern-alameda-county-integrated-rail-analysis-soco-rail-study",
+          "accessed": "2026-10-16",
+          "source": "mtc-soco-rail-study",
+          "supports": [
+            "general"
+          ],
+          "note": "\"A new passenger rail service along the Dumbarton corridor is infeasible in the mid-term due to constraints at Redwood City and capacity along the peninsula.\""
+        },
+        {
+          "id": "usgs-hayward-1915",
+          "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-hayward-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-redwood-point-1948",
+          "title": "Redwood Point, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Redwood%20Point_294610_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-redwood-point-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-palo-alto-1953",
+          "title": "Palo Alto, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Palo%20Alto_293907_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-palo-alto-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-newark-1948",
+          "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-newark-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839"
+        }
+      ]
+    },
+    {
+      "id": "geary-19th-subway",
+      "name": "Geary/19th Avenue subway",
+      "system": "sfcta",
+      "system_name": "San Francisco County Transportation Authority",
+      "operators": [],
+      "mode": "rapid_transit",
+      "mode_label": "Rapid transit",
+      "group": "heavy_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_label": "Proposed",
+      "status_as_of": "2026-10-16",
+      "summary": "A two-track rail subway of about 10 miles, with 5 or 6 stations, from downtown San Francisco under Geary Blvd and 19th Ave to near Daly City BART. SFCTA's strategic case found it \"both needed and viable\", at $20-30 billion in 2026 dollars, with up to 182,000 riders a day on a San Francisco-only line and nearly double that with East Bay connections. It chose no alignment, stations or technology (BART, standard-gauge rail, Muni Metro or automated light rail).",
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). The SFCTA Board approved the strategic case on June 9, 2026, with final approval June 23; that adopts a study, not a project, so it is \"under study\" here. Drawn only where its words name a street: Geary from Market St to Masonic Ave (the Mission Bay downtown option) and 19th Ave from Lincoln Way to Junipero Serra Blvd. The turn through Golden Gate Park, the Daly City end and the stations are not drawn. Research: docs/research/ideal/san-francisco.md.",
+      "proposal": {
+        "id": "geary-19th-subway",
+        "proposed_by": "SFCTA, with SFMTA and SF Planning",
+        "document": {
+          "id": "sfcta-geary-19th-strategic-case-2026",
+          "title": "Geary/19th Ave Subway and Regional Connections Study: Strategic Case (CAC item 12 enclosure)",
+          "url": "https://www.sfcta.org/sites/default/files/2026-05/SFCTA_CAC_Item12_Geary-19thSubwayStudyFinalReportENCLOSURE_2026-05-27.pdf",
+          "date": "2026-05",
+          "publisher": "San Francisco County Transportation Authority",
+          "type": "official"
+        },
+        "year": "2026-05",
+        "status": "study",
+        "status_label": "Under study",
+        "status_as_of": "2026-10-16"
+      },
+      "flags": [],
+      "undated": false,
+      "length_km": 9.4,
+      "confidence_km": {
+        "approximate": 9.4
+      },
+      "bbox": [
+        -122.477391,
+        37.717195,
+        -122.403113,
+        37.788015
+      ],
+      "fids": [
+        6,
+        7
+      ],
+      "segments": [
+        {
+          "id": "geary-19th-subway-geary",
+          "name": "Under Geary St and Geary Blvd, Market St to Masonic Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Along today's Geary St and Geary Blvd centerlines (Overture) from Market St to Masonic Ave. SFCTA's Mission Bay option runs \"straight west under Geary Blvd towards Van Ness, the Western Addition and Japantown\" and turns south somewhere between Masonic and Park Presidio; it is drawn to Masonic, the near end of that range. The strategic case publishes no alignment, and its other downtown option, by Howard St and Civic Center, has no path in its words.",
+          "structure": "subway",
+          "flags": []
+        },
+        {
+          "id": "geary-19th-subway-19th-ave",
+          "name": "Under 19th Ave, Lincoln Way to Junipero Serra Blvd",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Along today's 19th Ave centerline (Overture) from Lincoln Way, the south edge of Golden Gate Park, to Junipero Serra Blvd: the subway \"continues beneath 19th Avenue\" and would surface \"near the 19th Ave / I-280 freeway interchange\". Not drawn: the turn south through Golden Gate Park, whose street is still open, and the elevated end from the interchange to near Daly City BART, which has no path in the text.",
+          "structure": "subway",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "sfcta-geary-19th-strategic-case-2026",
+          "title": "Geary/19th Ave Subway and Regional Connections Study: Strategic Case (CAC item 12 enclosure)",
+          "publisher": "San Francisco County Transportation Authority",
+          "date": "2026-05",
+          "type": "official",
+          "url": "https://www.sfcta.org/sites/default/files/2026-05/SFCTA_CAC_Item12_Geary-19thSubwayStudyFinalReportENCLOSURE_2026-05-27.pdf",
+          "accessed": "2026-10-16",
+          "source": "sfcta-geary-19th-strategic-case-2026",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"dual-track subway approximately 10 miles in length, with approximately 5 – 6 stations\"; \"a capital cost estimated in the range of $20B – $30B\"; \"would serve up to 182,000 daily riders\"."
+        },
+        {
+          "id": "sfcta-geary-19th-strategic-case-page",
+          "title": "Geary/19th Ave Subway and Regional Connections Study Strategic Case (report page)",
+          "publisher": "San Francisco County Transportation Authority",
+          "date": "2026-07",
+          "type": "official",
+          "url": "https://www.sfcta.org/reports/geary19th-ave-subway-and-regional-connections-study-strategic-case",
+          "accessed": "2026-10-16",
+          "source": "sfcta-geary-19th-strategic-case-page",
+          "supports": [
+            "general"
+          ],
+          "note": "The study \"did not select a preferred alternative or advance planning/design beyond a pre-feasibility level\"."
+        },
+        {
+          "id": "sfcta-geary-19th-project-page",
+          "title": "Geary/19th Avenue Subway and Regional Connections Study (project page)",
+          "publisher": "San Francisco County Transportation Authority",
+          "type": "official",
+          "url": "https://www.sfcta.org/projects/geary19th-avenue-subway-and-regional-connections-study",
+          "accessed": "2026-10-16",
+          "source": "sfcta-geary-19th-project-page",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "id": "pba2050plus-project-list-2026-03",
+          "title": "Plan Bay Area 2050+ Transportation Project List Report (final)",
+          "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+          "date": "2026-03-06",
+          "type": "official",
+          "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+          "accessed": "2026-10-16",
+          "source": "pba2050plus-project-list-2026-03",
+          "supports": [
+            "general"
+          ],
+          "note": "In Plan Bay Area 2050+ among studies and project development, not as a funded project."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reimagine-dumbarton-busway",
+      "name": "Reimagine Dumbarton busway",
+      "system": "samtrans",
+      "system_name": "San Mateo County Transit District",
+      "operators": [],
+      "mode": "brt",
+      "mode_label": "Bus rapid transit",
+      "group": "brt",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_label": "Proposed",
+      "status_as_of": "2026-10-16",
+      "summary": "A dedicated busway, with a walking and cycling trail beside it, on the Dumbarton rail corridor from Middlefield Rd in Redwood City to University Ave in East Palo Alto, about 13 minutes end to end, with nine stations. Plan Bay Area 2050+ carries it with express buses from Union City to Redwood City, at $606 million. SamTrans's feasibility study runs to spring 2027; construction would start after 2031, and it \"will not preclude\" rail later.",
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). \"In an adopted plan\": Plan Bay Area 2050+, adopted March 2026, carries the busway as a project; SamTrans is still studying its feasibility. Drawn on the rail right-of-way between Middlefield Rd and University Ave; its stations and its two street links into Redwood City are not drawn. Research: docs/research/ideal/link21-dumbarton-express-rail.md.",
+      "proposal": {
+        "id": "reimagine-dumbarton",
+        "proposed_by": "SamTrans",
+        "document": {
+          "id": "samtrans-reimagine-dumbarton",
+          "title": "Reimagine Dumbarton",
+          "url": "https://www.samtrans.com/projects/reimagine-dumbarton",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "type": "official"
+        },
+        "year": "2026-09",
+        "status": "adopted",
+        "status_label": "In an adopted plan",
+        "status_as_of": "2026-10-16"
+      },
+      "flags": [],
+      "undated": false,
+      "length_km": 6.32,
+      "confidence_km": {
+        "surveyed": 6.32
+      },
+      "bbox": [
+        -122.21114,
+        37.476472,
+        -122.139874,
+        37.481625
+      ],
+      "fids": [
+        8
+      ],
+      "segments": [
+        {
+          "id": "reimagine-dumbarton-busway",
+          "name": "Dumbarton rail corridor, Middlefield Rd to University Ave",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "The Dumbarton rail right-of-way (the past era's Dumbarton Cutoff, from OpenHistoricalMap's ways) between where today's Middlefield Rd and University Ave cross it (Overture centerlines): the busway runs on the rail corridor \"between Middlefield Road (Redwood City) and University Avenue (East Palo Alto)\" (paraphrase). Not drawn: its two links to Redwood City Transit Center, by Woodside Rd and El Camino Real, and by Middlefield Rd and Jefferson Ave.",
+          "structure": null,
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "samtrans-reimagine-dumbarton",
+          "title": "Reimagine Dumbarton",
+          "publisher": "San Mateo County Transit District (SamTrans)",
+          "type": "official",
+          "url": "https://www.samtrans.com/projects/reimagine-dumbarton",
+          "accessed": "2026-10-16",
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "Feasibility study \"fall 2025 to spring 2027\"; design proposals of September 2026: \"a continuous four-mile-long paved walking and bicycling trail parallel to a dedicated busway\"; \"pending funding availability, construction would start after 2031\"."
+        },
+        {
+          "id": "pba2050plus-project-list-2026-03",
+          "title": "Plan Bay Area 2050+ Transportation Project List Report (final)",
+          "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+          "date": "2026-03-06",
+          "type": "official",
+          "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+          "accessed": "2026-10-16",
+          "source": "pba2050plus-project-list-2026-03",
+          "supports": [
+            "general"
+          ],
+          "note": "25-T11-145: express bus between Union City and Redwood City with 30-minute peak headways, and a new busway on the Dumbarton rail right of way between Menlo Park and Redwood City, 2025-2035, $606 million (paraphrase)."
+        },
+        {
+          "id": "mtc-rm3-dumbarton-programming-2024-06",
+          "title": "RM3 Capital Programming for Dumbarton Corridor Improvements (presentation)",
+          "publisher": "Metropolitan Transportation Commission",
+          "date": "2024-06",
+          "type": "official",
+          "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6030/8c_Presentation_Dumbarton_programmingR1_v2.pdf",
+          "accessed": "2026-10-16",
+          "source": "mtc-rm3-dumbarton-programming-2024-06",
+          "supports": [
+            "general"
+          ],
+          "note": "RM3 money for the San Mateo busway's business case and pre-environmental work (paraphrase)."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-hayward-1915",
+          "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-hayward-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-redwood-point-1948",
+          "title": "Redwood Point, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Redwood%20Point_294610_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-redwood-point-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-palo-alto-1953",
+          "title": "Palo Alto, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Palo%20Alto_293907_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-palo-alto-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-newark-1948",
+          "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-newark-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839"
+        }
+      ]
+    },
+    {
       "id": "eb-38th-ave",
       "name": "38th Avenue line",
       "short_name": "38th Ave",

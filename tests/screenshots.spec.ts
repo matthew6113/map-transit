@@ -139,6 +139,13 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
     { name: `future-${style}-south-bay`, url: `/?era=future&solidity=${style}&test=1#map=11.4/37.3600/-121.9300/0/0` },
     { name: `future-${style}-north-bay`, url: `/?era=future&solidity=${style}&test=1#map=10.2/38.5300/-122.8300/0/0` },
   ]),
+  // Checkpoint 4: the reference proposals (layer B, "Show proposals"), two of their panels, and the editor.
+  { name: 'future-proposals-regional', url: '/?era=future&proposals=1&test=1' },
+  { name: 'future-proposals-sf', url: '/?era=future&proposals=1&test=1#map=12.7/37.7720/-122.4430/0/0' },
+  { name: 'future-proposals-dumbarton', url: '/?era=future&proposals=1&test=1#map=12.4/37.4960/-122.1300/0/0' },
+  { name: 'future-line-geary-19th-subway', url: '/l/geary-19th-subway?test=1&at=99' },
+  { name: 'future-line-reimagine-dumbarton', url: '/l/reimagine-dumbarton-busway?test=1&at=99' },
+  { name: 'future-editor', url: '/?edit=1&test=1#map=12.2/37.7700/-122.4300/0/0' },
 ];
 
 async function settle(page: Page) {

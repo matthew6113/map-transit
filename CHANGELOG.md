@@ -2,6 +2,23 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The reference proposals, the ideal network's starting points (Phase 4)
+
+- **A new layer, `data/ideal/`** (the future era's layer B): proposals drawn as their documents
+  describe them, each with who proposed it, the document, its year and how far it has gone. Shown
+  with "Show proposals" (`?proposals=1`).
+- **Drawn:** SFCTA's Geary/19th Avenue subway (under study; Geary St and Geary Blvd from Market St
+  to Masonic Ave, and 19th Ave from Lincoln Way to Junipero Serra Blvd); SFMTA's Central Subway
+  extension to Fisherman's Wharf, by Columbus Ave and by Powell St from Washington Square (under
+  study); SamTrans's 2017 Dumbarton rail shuttle, Redwood Junction to Newark (superseded); and
+  SamTrans's Reimagine Dumbarton busway, Middlefield Rd to University Ave (in Plan Bay Area 2050+).
+- **Listed, not drawn** (no path published): Link21 and the second Transbay crossing, the Muni
+  Subway Vision, ConnectSF's networks, SPUR's and Seamless Bay Area's maps, the Pennsylvania Avenue
+  Extension and regional express rail. All are in `docs/ideal/tradeoffs.md`.
+- **Matthew's network** (`data/ideal/network.geojson`): empty, for him to draw with the editor
+  (`?edit=1`).
+- 152 sources added from the research (`docs/research/ideal/`); systems `sfcta` and `samtrans`.
+
 ## 2026-10-16: The future lines' statuses, re-verified (Phase 3)
 
 - **All six future lines** (`data/future/verified.json`, applied over BAM's translated stages):

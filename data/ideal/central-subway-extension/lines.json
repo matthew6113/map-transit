@@ -1,0 +1,101 @@
+{
+  "$comment": "Hand-kept: the proposal's lines, as its document describes them (docs/SCHEMA.md, 'Ideal network'). Segments come from recipe.json (make ideal).",
+  "lines": [
+    {
+      "id": "central-subway-extension-columbus",
+      "name": "Central Subway extension, by Columbus Ave to Fisherman's Wharf",
+      "system": "muni",
+      "mode": "light_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_as_of": "2026-10-16",
+      "proposal_id": "central-subway-extension",
+      "proposed_by": "SFMTA",
+      "document": "sfmta-t-third-phase-3-study-2015",
+      "year": "2015-01-08",
+      "proposal_status": "study",
+      "summary": "The T Third's Central Subway carried on north from Chinatown to a North Beach station at Washington Square, then by Columbus Ave to Fisherman's Wharf: one of the concept alignments of SFMTA's 2015 study, which recommended none. Its costs ran from $367 million to $1.4 billion in 2014 dollars. A 2026 study looks again at a one-station extension into North Beach.",
+      "route": [
+        {
+          "segment": "central-subway-ext-columbus"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"This study will not recommend a best concept alignment\"; costs \"from a low of $367 million (subway and surface to Kirkland), to a high of $1.400 billion (subway connecting all three locations) in 2014 dollars\"."
+        },
+        {
+          "source": "sfmta-central-subway-extension",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2026 Central Subway North Beach Extension Study looks at a one-station extension into North Beach through the existing tunnels, without deciding station sites or alignments (paraphrase)."
+        },
+        {
+          "source": "sfmta-central-subway-extension-boards-2018",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2018 alternatives study looked north and west: North Beach, Fisherman's Wharf, the Marina, Cow Hollow and the Presidio (paraphrase)."
+        }
+      ],
+      "flags": [],
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Drawn from Washington Square to Beach St along Columbus Ave, as the concept study names them; the link from the end of today's tunnel to Washington Square, and the study's Powell-and-Beach and one-way loop concepts, are not drawn. Research: docs/research/ideal/san-francisco.md."
+    },
+    {
+      "id": "central-subway-extension-powell",
+      "name": "Central Subway extension, by Powell St to Fisherman's Wharf",
+      "system": "muni",
+      "mode": "light_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_as_of": "2026-10-16",
+      "proposal_id": "central-subway-extension",
+      "proposed_by": "SFMTA",
+      "document": "sfmta-t-third-phase-3-study-2015",
+      "year": "2015-01-08",
+      "proposal_status": "study",
+      "summary": "The T Third's Central Subway carried on north from Chinatown to a North Beach station at Washington Square, then by Powell St to Fisherman's Wharf: one of the concept alignments of SFMTA's 2015 study, which recommended none. Its costs ran from $367 million to $1.4 billion in 2014 dollars. A 2026 study looks again at a one-station extension into North Beach.",
+      "route": [
+        {
+          "segment": "central-subway-ext-powell"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"This study will not recommend a best concept alignment\"; costs \"from a low of $367 million (subway and surface to Kirkland), to a high of $1.400 billion (subway connecting all three locations) in 2014 dollars\"."
+        },
+        {
+          "source": "sfmta-central-subway-extension",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2026 Central Subway North Beach Extension Study looks at a one-station extension into North Beach through the existing tunnels, without deciding station sites or alignments (paraphrase)."
+        },
+        {
+          "source": "sfmta-central-subway-extension-boards-2018",
+          "supports": [
+            "general"
+          ],
+          "note": "The 2018 alternatives study looked north and west: North Beach, Fisherman's Wharf, the Marina, Cow Hollow and the Presidio (paraphrase)."
+        }
+      ],
+      "flags": [],
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Drawn from Washington Square to Beach St along Powell St, as the concept study names them; the link from the end of today's tunnel to Washington Square, and the study's Powell-and-Beach and one-way loop concepts, are not drawn. Research: docs/research/ideal/san-francisco.md."
+    }
+  ]
+}

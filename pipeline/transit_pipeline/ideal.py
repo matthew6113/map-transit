@@ -13,7 +13,9 @@ recipe.json:
          "structure": "subway",                      # optional: tunnel, subway, elevated...
          "streets": [{"names": ["Geary Boulevard", "Geary Street"], "from": "Market Street",
                       "to": "33rd Avenue", "area": "sf"}],     # streets.route, joined in order
-         "copy": "<segment id>",                     # or: another era's segment, as is (track that exists)
+         "copy": "<segment id>",                     # or: another era's segment (track that exists),
+         "clip": {"box": "dumbarton", "from": "Middlefield Road", "to": "University Avenue"},
+                                                     # cut where today's streets cross it (BOXES)
          "method": "...",                            # how, in words: becomes geometry_method
          "sources": [{"source": "...", "supports": ["route"], "note": "..."}],
          "flags": [], "notes": "..."}}}
@@ -33,6 +35,10 @@ from .common import DATA, round_coords, write_geojson
 
 IDEAL = DATA / "ideal"
 ERAS = ("present", "past", "future")
+# Street boxes of this step's own (Overture, as streets.AREAS), for clipping a copied right-of-way.
+BOXES = {
+    "dumbarton": (-122.24, 37.455, -122.12, 37.495),  # Redwood City to East Palo Alto (the Dumbarton busway)
+}
 
 
 def existing_segments() -> dict:
@@ -45,6 +51,27 @@ def existing_segments() -> dict:
     return out
 
 
+def clip(geometry: dict, spec: dict) -> dict:
+    """The stretch of a line between where two of today's streets cross it."""
+    from shapely.geometry import LineString
+    from shapely.ops import linemerge, substring
+    from . import streets
+    from .gtfs import to_degrees, to_metres
+    line = to_metres(LineString(geometry["coordinates"]) if geometry["type"] == "LineString"
+                     else linemerge([LineString(part) for part in geometry["coordinates"]]))
+    box = BOXES[spec["box"]]
+
+    def at(name: str) -> float:
+        hit = line.intersection(streets.box_street([name], spec["box"], box))
+        if hit.is_empty:
+            raise SystemExit(f"[ideal] {name} doesn't cross the line")
+        return line.project(hit.centroid)
+
+    a, b = sorted((at(spec["from"]), at(spec["to"])))
+    piece = to_degrees(substring(line, a, b))
+    return {"type": "LineString", "coordinates": round_coords([list(c) for c in piece.coords])}
+
+
 def build(group, others: dict) -> int:
     from . import streets
     recipe = json.loads((group / "recipe.json").read_text())
@@ -55,6 +82,8 @@ def build(group, others: dict) -> int:
             if src is None:
                 raise SystemExit(f"[ideal] {group.name}/{sid}: no segment {spec['copy']} to copy")
             geometry = src["geometry"]
+            if "clip" in spec:
+                geometry = clip(geometry, spec["clip"])
         else:
             coords: list[list[float]] = []
             for run in spec["streets"]:
@@ -70,9 +99,12 @@ def build(group, others: dict) -> int:
             "opened": None,
             "closed": None,
             "structure": spec.get("structure"),
-            "geometry_confidence": spec.get("confidence", "approximate"),
+            # A copied right-of-way keeps its own confidence: the proposal names track that exists.
+            "geometry_confidence": spec.get("confidence", src["properties"]["geometry_confidence"] if "copy" in spec else "approximate"),
             "geometry_method": spec["method"],
-            "sources": spec["sources"],
+            # A copied segment brings the citations for its geometry along (they follow its snapshot).
+            "sources": spec["sources"] + ([c for c in src["properties"]["sources"] if "geometry" in c["supports"]
+                                           and c["source"] not in {x["source"] for x in spec["sources"]}] if "copy" in spec else []),
             "flags": spec.get("flags", []),
             **({"notes": spec["notes"]} if spec.get("notes") else {}),
         }

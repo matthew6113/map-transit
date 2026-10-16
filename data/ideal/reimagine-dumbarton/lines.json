@@ -1,0 +1,53 @@
+{
+  "$comment": "Hand-kept: the proposal's lines, as its document describes them (docs/SCHEMA.md, 'Ideal network'). Segments come from recipe.json (make ideal).",
+  "lines": [
+    {
+      "id": "reimagine-dumbarton-busway",
+      "name": "Reimagine Dumbarton busway",
+      "system": "samtrans",
+      "mode": "brt",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_as_of": "2026-10-16",
+      "proposal_id": "reimagine-dumbarton",
+      "proposed_by": "SamTrans",
+      "document": "samtrans-reimagine-dumbarton",
+      "year": "2026-09",
+      "proposal_status": "adopted",
+      "summary": "A dedicated busway, with a walking and cycling trail beside it, on the Dumbarton rail corridor from Middlefield Rd in Redwood City to University Ave in East Palo Alto, about 13 minutes end to end, with nine stations. Plan Bay Area 2050+ carries it with express buses from Union City to Redwood City, at $606 million. SamTrans's feasibility study runs to spring 2027; construction would start after 2031, and it \"will not preclude\" rail later.",
+      "route": [
+        {
+          "segment": "reimagine-dumbarton-busway"
+        }
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "Feasibility study \"fall 2025 to spring 2027\"; design proposals of September 2026: \"a continuous four-mile-long paved walking and bicycling trail parallel to a dedicated busway\"; \"pending funding availability, construction would start after 2031\"."
+        },
+        {
+          "source": "pba2050plus-project-list-2026-03",
+          "supports": [
+            "general"
+          ],
+          "note": "25-T11-145: express bus between Union City and Redwood City with 30-minute peak headways, and a new busway on the Dumbarton rail right of way between Menlo Park and Redwood City, 2025-2035, $606 million (paraphrase)."
+        },
+        {
+          "source": "mtc-rm3-dumbarton-programming-2024-06",
+          "supports": [
+            "general"
+          ],
+          "note": "RM3 money for the San Mateo busway's business case and pre-environmental work (paraphrase)."
+        }
+      ],
+      "flags": [],
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). \"In an adopted plan\": Plan Bay Area 2050+, adopted March 2026, carries the busway as a project; SamTrans is still studying its feasibility. Drawn on the rail right-of-way between Middlefield Rd and University Ave; its stations and its two street links into Redwood City are not drawn. Research: docs/research/ideal/link21-dumbarton-express-rail.md."
+    }
+  ]
+}

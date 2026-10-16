@@ -140,6 +140,17 @@ What it requires:
 | License | Facts from public agency documents, cited and briefly quoted; nothing redistributed. |
 | Gaps | The agencies' sites can't be reached from the build container, so every fact is from web search results restricted to the agencies' own domains; no page or PDF was opened, and each source's notes say so. CAHSR San Francisco to San José and SMART Cloverdale have no stated opening (`expected_opening_unsourced`). The Portal (May 2036 in March 2026, July 16, 2036 in FTA's oversight report, 2035 on the project page) and Valley Link (2032 on the undated project page) are flagged `conflicting_sources`. State rail grant awards (TIRCP Cycle 8), expected in October 2026, hadn't appeared. Due again by Jan 14, 2027 (`docs/checks/future.md`). |
 
+### Reference proposals (layer B, `data/ideal/`)
+
+| | |
+|---|---|
+| Status | In use, from Phase 4. Drawn when "Show proposals" is on. |
+| Origin | The proposals' own documents, as web search showed them on their publishers' domains (Oct 16, 2026): SFCTA's *Geary/19th Ave Subway and Regional Connections Study: Strategic Case* (May 2026); SFMTA's *T-Third Phase 3 Concept Study* (2015) for the Central Subway extension; SamTrans's *Dumbarton Transportation Corridor Study* (2017) and its Reimagine Dumbarton busway study (2025-27); with MTC's Plan Bay Area 2050+ project list (March 2026). Research notes in `docs/research/ideal/` (`san-francisco.md`, `link21-dumbarton-express-rail.md`, `spur-seamless.md`), whose 152 proposed sources are in `data/sources.json` (types `official` and `primary_document`). Each corridor is built by `make ideal` from its `recipe.json`. |
+| Lines | Five: the Geary/19th Avenue subway (under study), the Central Subway extension by Columbus Ave and by Powell St (under study), the Dumbarton rail shuttle of 2017 (superseded) and the Reimagine Dumbarton busway (in an adopted plan). 6 segments. |
+| Geometry | Along today's street centerlines (Overture, ODbL; `approximate`, drawn dashed) where a document names the streets: Geary St and Geary Blvd, 19th Ave, Columbus Ave, Powell St. The Dumbarton proposals reuse the past era's Dumbarton Cutoff (OpenHistoricalMap, CC0), clipped for the busway where today's Middlefield Rd and University Ave cross it, from a box of Overture roads of the step's own (-122.24, 37.455, -122.12, 37.495; `ideal.py`, BOXES). |
+| License | Facts from the documents, cited and briefly quoted; no map is traced from them. |
+| Gaps | No document page was opened: SFMTA, SFCTA, SamTrans, MTC, Link21, SPUR and Seamless Bay Area are refused from the build container, so every fact is from search results, and a shared limit of 200 searches cut the research short (the notes list what wasn't reached). Not drawn, because their documents publish no path: Link21 and every second Transbay crossing, the Muni Subway Vision's corridors, ConnectSF's networks, SPUR's and Seamless Bay Area's network maps, the Pennsylvania Avenue Extension and regional express rail (which runs on today's lines). The drawn lines stop where the words stop: the Geary subway's turn through Golden Gate Park and its Daly City end, the Central Subway extension's link to Washington Square, and the Dumbarton rail's ends at Redwood City station and Union City are left out. Matthew's own network, `data/ideal/network.geojson`, is empty. |
+
 ## Past era
 
 The Phase 2a pilot: the Key System, the Southern Pacific's Red Trains / Interurban Electric Railway,
@@ -350,7 +361,7 @@ The geometry tools are below (decision 12).
 | past | 148 | 576 | 11 | 896.9 | 610.5 | 206.3 | 8 | 528 |
 | present | 47 | 172 | 275 | 1715.1 | 0 | 0 | 14 | 75 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
-| ideal | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ideal | 5 | 6 | 0 | 24.0 | 0 | 11.3 | 0 | 0 |
 
 Open flags: `closed_unsourced` 576, `conflicting_sources` 45, `expected_opening_unsourced` 2, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 892, `page_unverified` 1, `status_unverified` 1.
 <!-- coverage:end -->

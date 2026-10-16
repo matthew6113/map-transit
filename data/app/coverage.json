@@ -53,10 +53,13 @@
     }
   },
   "ideal": {
-    "lines": 0,
-    "segments": 0,
+    "lines": 5,
+    "segments": 6,
     "points": 0,
-    "km_by_confidence": {},
+    "km_by_confidence": {
+      "approximate": 11.3,
+      "surveyed": 24.0
+    },
     "undated_segments": 0,
     "borrowed_dates": 0,
     "flags": {}

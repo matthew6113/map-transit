@@ -1014,6 +1014,36 @@
       "notes": "\"The first segment of the system to open would be 28 miles between Fremont and MacArthur stations.\" / \"the District Board set Monday, September 11, as the first day of revenue service.\" (1972)"
     },
     {
+      "id": "bart-letter-rm3-transbay-2026-04-23",
+      "title": "Letter to Andrew Fremier, MTC, on the second BART Transbay Rail Crossing and RM3 scope (Programming and Allocations Committee item 3a, Attachment A, May 13, 2026)",
+      "publisher": "San Francisco Bay Area Rapid Transit District (in an MTC committee packet)",
+      "date": "2026-04-23",
+      "type": "official",
+      "url": "https://zh-tw.mtc.ca.gov/sites/default/files/meetings/attachments/6589/3a_26_0565_2_Attachment_A_Project_Amendment_Request_Letters.pdf?cb=42f20d40",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened (the search returned MTC's zh-tw mirror). \"The technical analysis determined that investing in and enhancing the existing standard-gauge rail network would meet more program requirements than adding a second BART crossing. As a result, the BART Board decided in June 2025 not to proceed with a project to design and construct a second BART transbay rail crossing.\" \"two significant financing obstacles\"; \"an estimated $800 million in grant funding is required to complete Phase 2 of the Link21 program\"."
+    },
+    {
+      "id": "bart-link21-milestones-2025-06",
+      "title": "Link21 reaches new milestones for technology selection and inclusion in the state's rail plan",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2025-06-12",
+      "type": "official",
+      "url": "https://www.bart.gov/news/articles/2025/news20250612-1",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. The BART Board voted to \"advance the Link 21 Program as a standard-gauge rail project that is part of the California State Rail Plan and a series of projects to be advanced by the state, while seeking federal funding\"; \"the day-to-day management of the Link21 Project will now be managed by the Capitol Corridor Joint Powers Authority (CCJPA), in coordination with the State Transportation Agency\". The date is from the URL; one CCJPA result said June 13."
+    },
+    {
+      "id": "bart-new-transbay-crossing-board-2018-11",
+      "title": "New Transbay Rail Crossing: Program Overview + Project Contracting Plan (Board presentation)",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2018-11-15",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/New%20Transbay%20Crossing%20Board%202018%2011%2015%20v%20FINAL%20Q%20drive%20Recovered_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: six objectives for the crossing, among them connecting the megaregion, leveraging Caltrain and high-speed rail, and protecting Market Street throughput."
+    },
+    {
       "id": "bart-news-releases-1973",
       "title": "BART news releases, 1973",
       "publisher": "San Francisco Bay Area Rapid Transit District",
@@ -1044,6 +1074,26 @@
       "notes": "p. 5: North Concord/Martinez (December 1995) and Colma (\"opened its doors to the public in February 1996\"); p. 26: \"the December 7, 1996 opening of the new Pittsburg/Bay Point Station\" and the Dublin/Pleasanton line, which meets the main line at Bay Fair."
     },
     {
+      "id": "bart-scoa-2013",
+      "title": "BART Sustainable Communities Operations Analysis, Final Report",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2013-06",
+      "type": "official",
+      "url": "https://www.bart.gov/sites/default/files/docs/BART%20Metro%20SCOA%20Final%20Report%20June%202013.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: run alongside the longer-range BART Metro Vision, which looked at a second Transbay Tube as a long-term capacity option."
+    },
+    {
+      "id": "bart-second-transbay-tube-2018-11",
+      "title": "Planning for a second Transbay Tube",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2018-11-14",
+      "type": "official",
+      "url": "https://www.bart.gov/news/articles/2018/news20181114-0",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"BART is taking early steps to create a second Transbay Tube, although it's too early to say if it will actually be a tube.\" \"a companion to the existing Transbay Tube could include both standard width rail tracks (known as standard-gauge) and the wider BART tracks\"."
+    },
+    {
       "id": "bart-sfo-extension-2003",
       "title": "Making the Bay Connection: BART–SFO Extension",
       "publisher": "San Francisco Bay Area Rapid Transit District",
@@ -1052,6 +1102,16 @@
       "url": "https://www.bart.gov/sites/default/files/docs/50-years/2002-2003%20Making%20the%20Bay%20Connection%20BART%20SFO%20Project.pdf",
       "accessed": "2026-10-14",
       "notes": "p. 1: \"An additional 1.2 miles of track have been constructed off the main line to serve the airport from both the north and south.\" The track layout of the wye comes from GTFS, not from this text."
+    },
+    {
+      "id": "bart-tccp-substations-2026-07",
+      "title": "BART brings three new traction power substations online, strengthening reliability across the system",
+      "publisher": "San Francisco Bay Area Rapid Transit District",
+      "date": "2026-07-31",
+      "type": "official",
+      "url": "https://www.bart.gov/news/articles/2026/news20260731-0",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"The increase in available power from the new substations will also give BART the future capability to run additional trains through the Transbay Tube\". Paraphrase: three substations in service January to June 2026 under the Transbay Corridor Core Capacity Program, about 20 percent more power on the M-Line."
     },
     {
       "id": "bart-timeline-2020",
@@ -1193,6 +1253,16 @@
       "notes": "Seen in web search results only; the page wasn't opened. Cycle 8 award announcement expected October 2026 (the final guidelines named September 18, 2026); no award list had been seen by 2026-10-16."
     },
     {
+      "id": "caltrain-4-track-analysis-2024-02",
+      "title": "JPB Board of Directors meeting of February 1, 2024, supplemental reading file (4-track analysis)",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "date": "2024-02-01",
+      "type": "official",
+      "url": "https://www.caltrain.com/media/32739/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: planned four-track segments around Millbrae, Hayward Park/Hillsdale and Redwood City, with California Avenue as the north Santa Clara County option."
+    },
+    {
       "id": "caltrain-early-milestones",
       "title": "Caltrain early milestones",
       "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
@@ -1200,6 +1270,35 @@
       "url": "https://www.caltrain.com/earlymilestones",
       "accessed": "2026-10-14",
       "notes": "October 1863: \"Regular service between San Francisco and Mayfield (now California Avenue in Palo Alto) begins.\" January 16, 1864: \"The line is completed to San Jose.\" December 1935: \"A new terminal opens on Cahill Street in San Jose, now known as San Jose Diridon Station.\" June 23, 1975: \"Fourth and Townsend streets terminal opens in San Francisco.\""
+    },
+    {
+      "id": "caltrain-lrsv-2025",
+      "title": "The Caltrain Long-Range Service Vision (adopted October 2025)",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "date": "2025-10",
+      "type": "official",
+      "url": "https://www.caltrain.com/media/36287",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"This updated policy supersedes Caltrain's first Long-Range Service Vision, which the board adopted in October 2019.\" Maximum peak \"8 trains per hour per direction on the JPB-owned corridor between Tamien Station in San Jose and San Francisco, with 4 trains per hour per direction between Blossom Hill and Tamien Stations\"; off-peak \"between 2 and 6 trains per hour per direction north of Blossom Hill\"; partner efforts include \"endeavors related to the Dumbarton Rail Corridor, the Link21 program\"."
+    },
+    {
+      "id": "caltrain-lrsv-page-2019",
+      "title": "Long Range Service Vision (Caltrain 2040)",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "type": "official",
+      "url": "https://www.caltrain.com/projects/business-plan/caltrain-2040/long-range-service-vision",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated (the 2019 vision). \"$23 billion\" total capital, about $9.4 billion of it grade separations; about $370 million a year operating cost by 2040 (paraphrase)."
+    },
+    {
+      "id": "caltrain-lrsv-staff-report-2025-10",
+      "title": "Adopt Proposed Changes to Long-Range Service Vision (staff report)",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "date": "2025-10",
+      "type": "official",
+      "url": "https://www.caltrain.com/media/35876/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Staff \"recommend confirming the Core Service Vision as JPB's goal for future maximum rail service on the corridor\", \"12 trains per hour per direction in the peak hours, made up of eight Caltrain and four California High Speed Rail Authority trains\"; \"removing language that directs planning for Expanded Growth in service, beyond the Core Service Vision\"; \"removing the 2040 horizon date\". Draft resolution dated October 9, 2025."
     },
     {
       "id": "caltrain-milestones-1980s",
@@ -1218,6 +1317,25 @@
       "url": "https://www.caltrain.com/milestones-1990s",
       "accessed": "2026-10-14",
       "notes": "July 1, 1992: \"Tamien station opens in San Jose.\" / \"Service is extended to Gilroy.\" / the Joint Powers Board takes over, \"with Amtrak as contract operator.\""
+    },
+    {
+      "id": "caltrain-service-vision-2019-news",
+      "title": "Caltrain Board Signs Off on Business Plan Service Vision",
+      "publisher": "Peninsula Corridor Joint Powers Board (Caltrain)",
+      "date": "2019-10",
+      "type": "official",
+      "url": "https://www.caltrain.com/news/caltrain-board-signs-business-plan-service-vision",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"Service during peak hours would grow to a minimum of eight trains per direction per hour, with all day express service every 15 minutes\"; ridership to \"almost triple to 180,000 daily riders by 2040\"; \"a series of short, 4-track stations that allow express trains to overtake locals\"."
+    },
+    {
+      "id": "caltrans-state-rail-plan-page",
+      "title": "California State Rail Plan",
+      "publisher": "California Department of Transportation",
+      "type": "official",
+      "url": "https://dot.ca.gov/programs/rail/california-state-rail-plan",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Paraphrase: the plan was released January 7, 2025; the 2025 State Rail Annual Report was released May 6, 2026; the next full update is scheduled for 2028."
     },
     {
       "id": "campbell-interurban-press-1908-04-29",
@@ -1249,6 +1367,56 @@
       "url": "https://www.capitolcorridor.org/time-line/december-1991/",
       "accessed": "2026-10-14",
       "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
+    },
+    {
+      "id": "ccjpa-board-2025-06-18",
+      "title": "CCJPA Board of Directors meeting, June 18, 2025: agenda packet, supplemental slides and public comments",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "date": "2025-06-18",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/wp-content/uploads/2025/07/June-18-2025-CCJPA-Board-Meeting_AgendaPacket_Supplemental_Slides_Public-Comments_Final.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Accept from BART the transfer of Link21 program management and oversight responsibilities to the Capitol Corridor Joint Powers Authority\"; Resolution 25-19."
+    },
+    {
+      "id": "ccjpa-board-2026-06-17",
+      "title": "CCJPA Board of Directors meeting, June 17, 2026: agenda packet and slide deck",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "date": "2026-06-17",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/wp-content/uploads/2026/06/June-17-2026-CCJPA-Board-Meeting_Agenda-Packet-Slide-Deck.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Since the CCJPA and San Francisco Bay Area Rapid Transit (BART) Boards approved Stage Gate 2 of Link21 (standard gauge in the crossing), CCJPA has assumed day-to-day management of Link21 as of July 1, 2025.\" \"We are waiting for Caltrans and FRA to execute an agreement before we can start work, which is anticipated sometime in 2026.\""
+    },
+    {
+      "id": "ccjpa-business-plan-fy27-fy28",
+      "title": "FY 2026-27 and FY 2027-28 Final Annual Business Plan",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "date": "2026-06",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/wp-content/uploads/2026/06/CCJPA-FY27-FY28-Final-Annual-Business-Plan.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: Link21 is an element of the Corridor ID process, which Caltrans and CCJPA expect to build on the Vision Plan."
+    },
+    {
+      "id": "ccjpa-link21-update-2025-06",
+      "title": "Capitol Corridor Board Advances Link21 as Standard-Gauge Rail Project and Takes Over Day-to-Day Management",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "date": "2025-06",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/blogs/get_on_board/link21update2025/",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Paraphrase: the CCJPA board voted on June 18, 2025 to advance Link21 as a standard-gauge project and to assume day-to-day management, in coordination with CalSTA."
+    },
+    {
+      "id": "ccjpa-vision-plan-2026-draft",
+      "title": "Vision Plan 2026 (public draft)",
+      "publisher": "Capitol Corridor Joint Powers Authority",
+      "date": "2026-07",
+      "type": "official",
+      "url": "https://www.capitolcorridor.org/wp-content/uploads/2026/07/CCJPA_VisionPlan_public_Web.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"a long-range blueprint for train service between the Sacramento region and the San Francisco Bay Area\"; \"(up to potentially 150 mph – electrified service)\"; Link21 as \"a combination of transit and intercity rail service\"; projects \"require UP agreement, major federal/state funding, NEPA/CEQA clearance, and 10-20+ year lead times\"; \"September/October 2026 - Finalize Vision Plan; November 2026 – CCJPA Board adopts Vision Plan\"."
     },
     {
       "id": "census-1902-street-railways",
@@ -1367,6 +1535,52 @@
       "license": "Copyright (2009); cited for facts only (decision 19)",
       "accessed": "2026-10-16",
       "notes": "p. 69: \"SP ended service on its historic route in 1984. Alameda County took title to the right of way, and the rails were pulled up.\" The Pacific Locomotive Association \"contracted with the county to restore the track between Niles and Sunol, 7 miles. On May 21, 1988, California Western railbus M200 rolled into Sunol, and the Niles Canyon Railway was born.\" \"Passengers can now board at either Niles or Sunol.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "connectsf-resources-media",
+      "title": "Resources and Media (ConnectSF)",
+      "publisher": "ConnectSF (SFCTA, SFMTA, San Francisco Planning)",
+      "type": "official",
+      "url": "https://connectsf.org/about/resources-and-media/",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated page. Lists the Transit Strategy: \"The Transit Strategy describes the major capital projects and programs that will help our city's transit system meet the existing and future travel needs of residents, workers, and visitors. | December 2021\"."
+    },
+    {
+      "id": "connectsf-sftp-page",
+      "title": "San Francisco Transportation Plan (ConnectSF page)",
+      "publisher": "ConnectSF (SFCTA, SFMTA, San Francisco Planning)",
+      "type": "official",
+      "url": "https://connectsf.org/san-francisco-transportation-plan/",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"The SFTP draws from previous phases of ConnectSF, including the Transit Strategy and Streets and Freeways Strategy, community input, San Francisco's 2021 Climate Action Plan, and multiple neighborhood, citywide, and regional transportation plans.\""
+    },
+    {
+      "id": "connectsf-studies-page",
+      "title": "Developing Street, Freeway and Transit Concepts (ConnectSF studies page)",
+      "publisher": "ConnectSF (SFCTA, SFMTA, San Francisco Planning)",
+      "type": "official",
+      "url": "https://connectsf.org/studies/",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. Offers the Transit Strategy PDF (about 28 MB; file URL not seen): \"The Transit Strategy lays the groundwork for building major, high capacity transit projects in San Francisco. It develops and prioritizes initial concepts for subways, bus rapid transit lines, and other improvements to create a rapid, reliable transit network.\""
+    },
+    {
+      "id": "connectsf-subway-vision-fact-sheet",
+      "title": "Subway Vision (fact sheet)",
+      "publisher": "ConnectSF (SFCTA, SFMTA, San Francisco Planning)",
+      "date": "2016",
+      "type": "official",
+      "url": "https://connectsf.org/wp-content/uploads/2016/10/Subway.Vision.Fact_.Sheetrev4bd.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Corridor groups for convenience and density (paraphrase); \"These corridors will be grouped, combined, and further studied to maximize benefits of any future subway networks.\""
+    },
+    {
+      "id": "connectsf-transit-strategy-page",
+      "title": "Investing in San Francisco's Transit (ConnectSF Transit Strategy page)",
+      "publisher": "ConnectSF (SFCTA, SFMTA, San Francisco Planning)",
+      "type": "official",
+      "url": "https://connectsf.org/transit-strategy/",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. Four goals, seen once (not found again by a later search): \"Make the system work better. Deliver a five-minute network. Renew and modernize our rail system, and Build more rail to San Francisco's busiest places\"."
     },
     {
       "id": "contra-costa-history-1882",
@@ -2885,6 +3099,36 @@
       "notes": "p. 2: freight trains only between Oakland and Stockton. Read on the page image by the research pass."
     },
     {
+      "id": "csrp-2018-chapter-4",
+      "title": "California State Rail Plan (2018), Chapter 4: Proposed Passenger Improvements and Investments",
+      "publisher": "California Department of Transportation",
+      "date": "2018",
+      "type": "official",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/rail-plan/4-chapter-4csrpfinal.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Exhibit 4.1: Sketch of 'Pulsed' Services\"; \"Exhibit 4.6: Northern California Service (2027 Vision)\"; \"initial integrated express bus services connecting the Peninsula and East Bay across the Dumbarton Bridge\"; a Dumbarton crossing location \"chosen consistent with results of the 2022\" study (cut off). Paraphrase: half-hourly peak and hourly off-peak bus or rail service in the Dumbarton corridor."
+    },
+    {
+      "id": "csrp-2024",
+      "title": "2024 California State Rail Plan",
+      "publisher": "California Department of Transportation",
+      "date": "2024-12",
+      "type": "official",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/california-state-rail-plan/2024-ca-state-rail-plan-a11y.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. The Salesforce Transit Center's high-speed rail vault and a second crossing: \"allowing maximum regional, high-speed, and intercity rail throughput\"; \"nearly 200 million miles per day\" in 2050; \"$307 billion\" direct capital investment, economic return \"over $537 billion\" by 2050. Paraphrase: about 1,500 miles electrified by 2050; Sacramento-Oakland and San Jose-Oakland service evaluated with and without a new Transbay crossing."
+    },
+    {
+      "id": "csrp-2024-fact-sheet",
+      "title": "California State Rail Plan 2024 Service Vision Highlights (fact sheet)",
+      "publisher": "California Department of Transportation",
+      "date": "2024-12-13",
+      "type": "official",
+      "url": "https://dot.ca.gov/-/media/dot-media/programs/rail-mass-transportation/documents/rail-plan/20241213-final-srp-fact-sheet-v2-a11y.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"A second transbay crossing will allow for through-running trains from Sacramento to San Jose and beyond\"; regional rail \"will connect the north Bay Area to as far as Healdsburg\" (one search read Cloverdale); paraphrase: 'pulsed' all-day schedules supporting timed connections."
+    },
+    {
       "id": "daly-city-record-1913-05-09",
       "title": "Daly City Record, May 9, 1913: Ocean Shore Railroad official time schedule (effective December 15, 1912)",
       "publisher": "Daly City Record (Daly City Public Library scan)",
@@ -3222,6 +3466,121 @@
       "notes": "2nd page (n1): \"SAN JOSE, March 19.—The first passenger train to use the Mayfield cut-off will be run Sunday, April 12, with a train from San Francisco. The Southern Pacific expects to begin regular service to Los Altos a week later.\" Read on the page image, October 16, 2026."
     },
     {
+      "id": "link21-concepts-page",
+      "title": "Concepts",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/program/concepts",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated. \"The building blocks of Link21 concepts include: markets, service, train technology, and infrastructure. Each concept has a new train crossing between Oakland and San Francisco, new and improved stations, enhanced service, and potential infrastructure needed to accommodate that service.\" \"Concept A Regional Rail Salesforce Transit Center via Alameda\"."
+    },
+    {
+      "id": "link21-current-planning-activities",
+      "title": "Current Planning Activities",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/program/current-planning-activities",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated. Paraphrase: Link21 continues planning a standard-gauge crossing, to advance into Environmental Review in the Project Selection Phase; station locations and track alignment are still to be defined; a standard-gauge crossing would make Salesforce Transit Center a through-running station."
+    },
+    {
+      "id": "link21-dual-gauge-fact-sheet-2024",
+      "title": "Link21 Program Dual Gauge Fact Sheet (draft)",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2024-02",
+      "type": "official",
+      "url": "https://link21program.org/sites/default/files/2024-02/2-OUTR-PH1-Link21_FactSheet_DualGauge_DRAFT-20240209_PDFUA.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Link21 is not advancing this concept as it is operationally infeasible to combine the two fundamentally different rail systems in this way.\" The tool didn't say whether this line was from the fact sheet or the FAQ."
+    },
+    {
+      "id": "link21-eac-input-report-2024-06",
+      "title": "Draft Stage Gate 2 Equity Advisory Council (EAC) Input Report",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2024-06",
+      "type": "official",
+      "url": "https://link21program.org/en/media/645/download?inline=",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: a San Antonio station is not needed for the crossing; tested as a sensitivity, its new trips were mostly within the East Bay. Alameda station and alignment options to be studied further after Stage Gate 2."
+    },
+    {
+      "id": "link21-environmental-input-concepts-2023",
+      "title": "Environmental Input to Link21 Concepts (executive summary)",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2023-12",
+      "type": "official",
+      "url": "https://link21program.org/sites/default/files/2024-02/03_2-ENVI-PH1-Env_Input_Link21_Concepts_508_ES_ONLY_120823.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Concept names: \"Concept A: Regional Rail STC to Jack London District via Alameda\", \"Concept B: Regional Rail STC via Port of Oakland\", \"Concept C: BART Downtown San Francisco via Alameda\", \"Concept E: Regional Rail STC to MacArthur via Alameda\", \"Concept F: Regional Rail STC to Oakland City Center via Alameda\". \"Concept C begins underground at Geary Boulevard and Divisadero Street, first surfacing at the potential new STC-adjacent Howard Street Station before tunneling under the San Francisco Bay toward Alameda.\" \"The BART concepts converge just west of Alameda Island and share stations throughout Oakland, including the new San Antonio Station.\" The date is from the file name (120823)."
+    },
+    {
+      "id": "link21-example-concepts",
+      "title": "Example Concepts",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/program/example-concepts",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated. Paraphrase: possible transfer points at Salesforce Transit Center, Alameda, Jack London Square, West Oakland, the Coliseum and Richmond. \"Regional Rail infrastructure improvements would extend north to Richmond and south to the Coliseum Station\" (the tool's attribution of this line varied)."
+    },
+    {
+      "id": "link21-fact-sheet-2023-06",
+      "title": "A Transformative Program for Northern California (Link21 general fact sheet)",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2023-06",
+      "type": "official",
+      "url": "https://link21program.org/sites/default/files/2023-06/2-OUTR-PH1_General_Fact_Sheet_DRAFT_FINAL_v3-2023-06-07_PDFUA_DIGITAL.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Gave \"Phase 2 Project Selection\" as 2024-2028, since overtaken."
+    },
+    {
+      "id": "link21-faqs",
+      "title": "Frequently Asked Questions",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/about/faqs",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"the initial costs of the crossing infrastructure (e.g., tunneling, portals, and track systems) would be between $18 and $30 billion in 2023 dollars\"; \"cost estimates are highly variable and depend on the definition of core features, such as alignment, stations, and service levels\"."
+    },
+    {
+      "id": "link21-pbc-appendix-c-2024-05",
+      "title": "Draft Preliminary Business Case Report, Appendix C: Draft Concept Development",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2024-05",
+      "type": "official",
+      "url": "https://link21program.org/en/media/624/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Concept C would be a new BART crossing from a new station near the STC to a new Alameda station. It would extend north to the MacArthur Station via new Jack London Square (JLS) and downtown Oakland stations and south to a new station at San Antonio.\" Concept D: \"BART Downtown San Francisco via Mission Bay and Alameda\". As the result put it, Concept A: \"A new Regional Rail crossing from the STC to Hercules via Alameda, with a grade separation at Jack London Square, ending at Coliseum Station\", with \"an average of 10.5 tph\" at the peak (Hercules unconfirmed by a later search). A combined BART and Regional Rail crossing \"should not be advanced due to low additional ridership\"."
+    },
+    {
+      "id": "link21-pbc-draft-summary-2024",
+      "title": "Link21 Preliminary Business Case Report: Draft Summary",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2024",
+      "type": "official",
+      "url": "https://link21program.org/en/media/650/download?inline=",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"ridership is highly sensitive to the number of stations served by transbay services, especially in San Francisco\"; the Regional Rail concept \"offers larger travel time saving benefits to a focused number of riders in less established travel markets\". A fragment gives \"between $5 and $10 billion in 2023 dollars\" without its subject."
+    },
+    {
+      "id": "link21-planning-activities",
+      "title": "Planning Activities",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/program/planning-activities",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated. \"Since mid-2022, we have been in the Project Identification phase, which will take us from concept development to a proposed project for Environmental Review.\""
+    },
+    {
+      "id": "link21-preliminary-business-case-2024-08",
+      "title": "Preliminary Business Case Report, Draft Final (draft, deliberative)",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "date": "2024-08",
+      "type": "official",
+      "url": "https://link21program.org/sites/default/files/2-BUSC-PH1-Prelim_BUSC_Preliminary_Business_Case_Report_v0.10_clean.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"A BART crossing could potentially generate 110,000 new daily rail trips if serving only downtown San Francisco, 130,000 trips if also serving 4th and Townsend and Mission Bay, and 140,000 trips if further serving San Antonio.\" Paraphrase: two Representative Concepts, one per technology; both include a new BART-Regional Rail transfer station in Oakland and could support an Alameda station; project approval at Stage Gate 3, the end of Phase 2."
+    },
+    {
       "id": "manley-1909",
       "title": "Report on the operation of the street railroad lines of San Francisco: a report to the Committee on Street Railroads of the Merchants' Association of San Francisco",
       "author": "Warren Manley, Inspector",
@@ -3276,6 +3635,114 @@
       "notes": "Seen in web search results only; the agenda wasn't opened. Item 8b, MTC Resolution No. 3914, Revised: \"allocation of $4 million to Tri-Valley - San Joaquin Valley Regional Rail Authority for the Valley Link Project\". The outcome of the vote wasn't seen."
     },
     {
+      "id": "mtc-core-capacity-transit-study-2017",
+      "title": "Core Capacity Transit Study (CCTS)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2017",
+      "type": "official",
+      "url": "https://mtc.ca.gov/planning/transportation/regional-transportation-studies/core-capacity-transit-study-ccts",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Paraphrase: released in 2017; its long-term Transbay options included a second BART crossing, giving redundancy to Market Street, and a new conventional rail crossing (summary sheet: https://es.mtc.ca.gov/sites/default/files/CCTS_Takeaway.pdf). The final recommendation wasn't seen."
+    },
+    {
+      "id": "mtc-horizon-crossings-2019",
+      "title": "Crossings: Perspective Paper Weighs Options for New Transbay Bridges, Tunnels",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments (Plan Bay Area)",
+      "date": "2019",
+      "type": "official",
+      "url": "https://planbayarea.org/news/news-story/crossings-perspective-paper-weighs-options-new-transbay-bridges-tunnels",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. The paper \"makes observations about the relative merits of seven different potential Transbay crossings\" and does not select one (paraphrase)."
+    },
+    {
+      "id": "mtc-horizon-project-performance-draft",
+      "title": "Horizon / Plan Bay Area 2050 draft project performance results",
+      "publisher": "Metropolitan Transportation Commission",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/Horizon_PBA50_Draft_Project_Performance.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Undated. Lists BART Crossing 3 (Mission St) $36.2B, BART Crossing 4 (New Markets) $37.4B, Commuter Rail Crossing 5 $46.1B, Crossing 7 (BART plus commuter rail) $83.5B, read by the search as present-value costs; column headers not seen."
+    },
+    {
+      "id": "mtc-news-dumbarton-bridge-toll",
+      "title": "Bridge Toll Dollars Drive Dumbarton Corridor Improvements",
+      "publisher": "Metropolitan Transportation Commission",
+      "type": "official",
+      "url": "https://mtc.ca.gov/news/bridge-toll-dollars-drive-dumbarton-corridor-improvements",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated; the search metadata put it in about late June 2024. \"a dedicated busway from the west end of the Dumbarton Bridge to the Redwood City Caltrain station\", estimated at $150 million, on track to break ground in 2029 (paraphrase)."
+    },
+    {
+      "id": "mtc-pac-minutes-2026-06-10",
+      "title": "Programming and Allocations Committee minutes, June 10, 2026",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2026-06-10",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/minutes/6640_M_Programming_and_Allocations_Committee_26_06_10_Meeting_Minutes.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: the committee referred MTC Resolution No. 4621, Revised (the RM3 program amendment, including project 13) to the Commission for approval on June 24, 2026."
+    },
+    {
+      "id": "mtc-pba-2050-plus-adopted-2026-03-25",
+      "title": "MTC, ABAG Adopt Final Plan Bay Area 2050+ and Environmental Impact Report",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2026-03-25",
+      "type": "official",
+      "url": "https://mtc.ca.gov/news/mtc-abag-adopt-final-plan-bay-area-2050-and-environmental-impact-report",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"MTC adopted Plan Bay Area 2050+ and certified the plan's associated Environmental Impact Report, giving final approval to the region's long-range plan.\" planbayarea.org/finalplan gives ABAG's adoption on March 19, 2026."
+    },
+    {
+      "id": "mtc-pba-2050-plus-draft-project-list-2025-10",
+      "title": "Plan Bay Area 2050+ Draft Transportation Project List Report",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2025-10",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/Draft_Transportation_Project_List_Report.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. The studies line covers \"transit studies and project development activities, including alternatives and/or business case analyses; design, technical, and planning analyses; and initiating environmental analyses and review\", with the Geary/19th Ave Subway and the Central Subway Extension as examples (paraphrase)."
+    },
+    {
+      "id": "mtc-pba-2050-plus-project-performance-2024-07",
+      "title": "Draft Project Performance Assessment Summary Table (Plan Bay Area 2050+)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2024-07",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/documents/2024-07/3bii_24-0707_Draft%20Project%20Performance%20Assessment%20Summary%20Table.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Geary/19th Avenue Subway, lifecycle cost $15.2 billion (2019 dollars), rated even; Central Subway Extension $1.2 billion, rated advancing (paraphrase)."
+    },
+    {
+      "id": "mtc-regional-rail-plan-2007",
+      "title": "Regional Rail Plan for the San Francisco Bay Area, Final Report (chapters 1-5) and Executive Summary",
+      "publisher": "Metropolitan Transportation Commission, with BART, Caltrain and the California High-Speed Rail Authority",
+      "date": "2007-09",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/RegionalRailPlan-Chapters1-5.pdf?cb=2a6007b7",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Executive summary page: https://mtc.ca.gov/tools-and-resources/digital-library/san-francisco-bay-area-regional-rail-plan-executive-summary (dated September 1, 2007). Paraphrase: a long-range vision for improving the existing passenger rail system and extending it."
+    },
+    {
+      "id": "mtc-regional-rail-plan-2007-ch7",
+      "title": "Regional Rail Plan for the San Francisco Bay Area, Chapter 7: Alternatives Definition and Evaluation",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2007-09",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/RegionalRailPlan-Chapter7.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Plan Recommendation: Alternative 1\"; \"both Alternative 1 & Alternative 2 recommended in long-term future for the Transbay Corridor\"; \"the cost of the transbay crossing and SF subway to Market Street is $7,200 – $8,800\" (units not shown); Alternative 2 \"$37-billion\"; \"New BART lines are considered only to alleviate capacity concerns\"."
+    },
+    {
+      "id": "mtc-resolution-4621-revised-2026-06",
+      "title": "MTC Resolution No. 4621, Revised (Programming and Allocations Committee attachment, June 10, 2026)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2026-06",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6640/3a_26_0615_2_MTC_Resolution_No_4621_Revised.pdf?cb=a0138f39",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. The draft reads \"revised on June 24, 2026 to update the scope for RM3 projects #13, #25, #32, #33, and #34 with no change to the project funding\". The Commission's vote wasn't seen."
+    },
+    {
       "id": "mtc-richmond-ferry-2019",
       "title": "Richmond ferry service sets sail",
       "publisher": "Metropolitan Transportation Commission",
@@ -3284,6 +3751,46 @@
       "url": "https://es.mtc.ca.gov/node/151841",
       "accessed": "2026-10-14",
       "notes": "January 11, 2019: an event on January 10, 2019 \"marked the launch of Richmond ferry service to San Francisco and the opening of the Richmond Ferry Terminal\"."
+    },
+    {
+      "id": "mtc-rm3-ballot-description-2018",
+      "title": "Regional Measure 3: Bay Area Traffic Relief Plan (ballot description, corrected)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2018-04",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/RM_3_Ballot_Description_041218_Corrected.pdf?cb=2a6007b7",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Dumbarton Corridor Improvements ($130 million): \"Eligible projects include, but are not limited to, projects recommended in the 2016 Dumbarton Corridor Transportation Study led by SamTrans\"; paraphrase, a rail connection at Shinn Station is also named. The date is from the file name (041218)."
+    },
+    {
+      "id": "mtc-rm3-dumbarton-programming-2024-06",
+      "title": "RM3 Capital Programming for Dumbarton Corridor Improvements (presentation)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2024-06",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6030/8c_Presentation_Dumbarton_programmingR1_v2.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Initial programming of the $130 million in RM3 Project #17, Dumbarton Corridor Improvements. $72 million programmed to projects in Alameda County, $32.5 million programmed to projects in San Mateo County, $5 million programmed to Bay Area Toll Authority projects, and $20.5 million in a reserve for future programming.\" Paraphrase: San Mateo Dumbarton busway $5 million (business case, pre-environmental), about $150 million total, construction targeted 2029."
+    },
+    {
+      "id": "mtc-rm3-hearing-notice-2026-05",
+      "title": "Notice of Public Hearing, Regional Measure 3 (May 13, 2026)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2026-04",
+      "type": "official",
+      "url": "https://www.mtc.ca.gov/sites/default/files/documents/2026-04/2026-RM3PublicHearingNotice.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"modify scope of Transbay Rail Crossing (RM3 project #13) to provide accommodation of additional Bay Area Rapid Transit District rail service in the Bay Bridge corridor and remove reference to a second transbay crossing\"; \"Current Total RM3 Funding: $50 million; Proposed Total RM3 Funding: $50 million; Proposed Funding Change: $0\"; Commission action set for June 24, 2026."
+    },
+    {
+      "id": "mtc-rm3-project17-update-2026-04",
+      "title": "RM3 Project 17 Dumbarton Corridor Updates (Programming and Allocations Committee item 2b, Attachment C, April 8, 2026)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2026-04-08",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6572/2b_26_0343_4_Attachment_C_RM3_Project17_Dumbarton_Corridor_Updates.pdf?cb=0ad9099d",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Busway (17.1): \"planning and environmental work to advance dedicated busway improvements\"; $5.0 million programmed, $4.1 million allocated; consultant procured; peer interviews and a Monterey-Salinas Transit BRT site visit done (paraphrase)."
     },
     {
       "id": "mtc-rm3-semiannual-2026-06",
@@ -3326,6 +3833,15 @@
       "notes": "May 30, 2025 (a Friday): \"Passenger service to the new Windsor station started over the weekend, the Sonoma-Marin Area Rail Transit (SMART) announced.\" Which weekend isn't clear from the date, so only the month is used."
     },
     {
+      "id": "mtc-soco-rail-study",
+      "title": "Southern Alameda County Integrated Rail Analysis (SoCo Rail) Study",
+      "publisher": "Metropolitan Transportation Commission",
+      "type": "official",
+      "url": "https://mtc.ca.gov/planning/transportation/regional-transportation-studies/southern-alameda-county-integrated-rail-analysis-soco-rail-study",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"A new passenger rail service along the Dumbarton corridor is infeasible in the mid-term due to constraints at Redwood City and capacity along the peninsula.\" \"Phase 1 of the SoCo Rail Study identified the Union City Intermodal Station as the recommended location for the East Bay rail hub.\" Phase 1 report November 2021; Phase 2 report July 20, 2023."
+    },
+    {
       "id": "mtc-tircp-cycle8-endorsements-2026-05",
       "title": "Cycle 8 TIRCP endorsements (Programming and Allocations Committee item 4a-26-0346, Attachment A, May 13, 2026)",
       "publisher": "Metropolitan Transportation Commission",
@@ -3334,6 +3850,34 @@
       "url": "https://www.mtc.ca.gov/sites/default/files/meetings/attachments/6589/4a_26_0346_2_Attachment_A_Cycle8_TIRCP_Endorsements.pdf?cb=416d53bc",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only; the attachment wasn't opened. Staff proposed endorsing TJPA's full $750 million request for The Portal (above the framework's $500 million). SMART Cloverdale Extension: \"proposed SMART Geyserville Station is not in Plan Bay Area 2050+; recommended MTC endorsement for other components only\". Awards were still pending on 2026-10-16."
+    },
+    {
+      "id": "mtc-transit-2050-plus-draft-report",
+      "title": "Draft Transit 2050+: A New Vision for the Bay Area's Transit Network",
+      "publisher": "Metropolitan Transportation Commission",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/Draft_Transit_2050_Plus_Report.pdf?cb=ae538e70",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Undated draft. \"Transit 2050+ envisions a nearly $340 billion investment in the Bay Area's transit network over the next 25 years.\" \"Frequencies of 15 minutes or better for routes between urban centers\". \"By 2050, these investments would increase regionwide transit service levels by approximately 60%. Transit ridership could increase by 41%\"."
+    },
+    {
+      "id": "mtc-transit-2050-plus-final-network-2024-12",
+      "title": "Transit 2050+: Final Network (Bay Area Partnership Board, item 4a, Attachment A, December 2, 2024)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2024-12-02",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/6175/4a_24_1491_2_Att_A_Transit50_Final_Network.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Caltrain Systemwide frequency upgrades to be implemented in Phase 1 (6 trains per hour per direction in peak) and Phase 2 (8 trains per hour per direction in peak).\""
+    },
+    {
+      "id": "mtc-transit-2050-plus-page",
+      "title": "Transit 2050+",
+      "publisher": "Metropolitan Transportation Commission",
+      "type": "official",
+      "url": "https://mtc.ca.gov/planning/long-range-planning/plan-bay-area-2050/transit-2050-plus",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. \"The project list was adopted by the Commission as part of the Plan Bay Area 2050+ Final Blueprint in January 2025.\""
     },
     {
       "id": "mtc-weta-south-san-francisco-2012",
@@ -3750,6 +4294,74 @@
       "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), richmond (-122.4, 37.9, -122.28, 37.98), sanmateo (-122.36, 37.555, -122.31, 37.59), santarosa (-122.78, 38.415, -122.69, 38.46), petaluma (-122.66, 38.22, -122.615, 38.25), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
+      "id": "pba2050-plan-2021-10",
+      "title": "Plan Bay Area 2050: A Vision for the Future (final)",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2021-10-01",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/Plan_Bay_Area_2050_October_2021_rev.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"T11. Expand and modernize the regional rail network. Better connect communities while increasing frequencies by advancing the Link21 new transbay rail crossing, BART to Silicon Valley Phase 2, Valley Link, Caltrain Downtown Rail Extension and Caltrain/High-Speed Rail grade separations.\""
+    },
+    {
+      "id": "pba2050-project-list-2021-10",
+      "title": "Plan Bay Area 2050 Transportation Project List",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2021-10",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/PBA2050_Transportation_Project_List_Oct2021.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Link21, 21-T11-112, 2036-2050, \"$28,800\": \"Link21 provides new transbay rail service between San Francisco and Oakland, including new stations in the East Bay and San Francisco.\" Dumbarton Rail, 21-T11-108, 2036-2050, \"$3,840\": \"This program includes funding to implement new group rapid transit service between Redwood City and Newark, including seven new stations (1 minute peak headways).\""
+    },
+    {
+      "id": "pba2050-project-list-amended-2024-11",
+      "title": "Plan Bay Area 2050 Transportation Project List (amended)",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2024-11",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/Amended_Plan_Bay_Area_2050_Transportation_Project_List.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Keeps 21-T11-112 (Link21, 2036-2050, \"$28,800\") and 21-T11-108 (\"Dumbarton Rail\", group rapid transit Redwood City-Newark, \"$3,840\"). One Link21 line reads about $165 million for 2021-2035, but the table was hard to parse."
+    },
+    {
+      "id": "pba2050-san-mateo-factsheet-2022",
+      "title": "Plan Bay Area 2050 San Mateo County Factsheet",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2022-01-28",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/Plan_Bay_Area_2050_Final_San_Mateo_County_Factsheet_012822_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Dumbarton group rapid transit would \"restore rail service to the 20-mile Dumbarton rail corridor between Redwood City and the East Bay\"; paraphrase: automated small-vehicle shuttles of up to 50 passengers a car, linking Caltrain with BART and the Capitol Corridor. The date is from the file name (012822)."
+    },
+    {
+      "id": "pba2050plus-page",
+      "title": "Plan Bay Area 2050+",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "type": "official",
+      "url": "https://planbayarea.org/technical-resources/plan-bay-area-2050-plus",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Paraphrase: adopted by ABAG on March 19, 2026 and by MTC on March 25, 2026. A planbayarea.org news listing dated September 21, 2026 says MTC \"today adopted\" the plan, which conflicts."
+    },
+    {
+      "id": "pba2050plus-project-list-2026-03",
+      "title": "Plan Bay Area 2050+ Transportation Project List Report (final)",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "date": "2026-03-06",
+      "type": "official",
+      "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Same id as proposed in docs/research/ideal/link21-dumbarton-express-rail.md for this document; merge the notes. Seen in web search results only. Studies and project development funding for Diridon Station, the Geary/19th Ave Subway, the Central Subway Extension, the San Jose Airport Connector, SMART to Suisun City, Link21 and a San Mateo Bridge express bus (paraphrase); line-item amounts not seen. Seen in web search results only; the PDF wasn't opened. Also registered as bam-smart-cloverdale-src-7. 25-T11-145, Dumbarton Bridge, Union City to Redwood City, 2025-2035, $606 million: paraphrase, new express bus with 30-minute peak headways and a busway on the Dumbarton rail right of way between Menlo Park and Redwood City, plus \"30 minute peak headways on route DB\". Link21 listed for project development, \"including alternatives and/or studies\"; no capital line seen. Plan total $512 billion, FY25-FY50."
+    },
+    {
+      "id": "planbayarea-2050-plus-final-plan",
+      "title": "Plan Bay Area 2050+ (final plan page)",
+      "publisher": "Metropolitan Transportation Commission and Association of Bay Area Governments",
+      "type": "official",
+      "url": "https://planbayarea.org/finalplan",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. ABAG \"adopted the plan on March 19, 2026 followed by the Metropolitan Transportation Commission (MTC) on March 25, 2026\"."
+    },
+    {
       "id": "point-richmond-progress-1933-04-07",
       "title": "Point Richmond Progress, April 7, 1933: \"Ferry Service Stops\"",
       "author": "Harry R. Burt (publisher)",
@@ -4046,6 +4658,84 @@
       "notes": "p. 1: \"OAKLAND (AP) — The California Zephyr leaves for Salt Lake City on its last trip today — its 21st birthday\". Read on the page image, October 16, 2026."
     },
     {
+      "id": "samtrans-dtcs-final-report-2017",
+      "title": "Dumbarton Transportation Corridor Study, Final Report",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2017-11-20",
+      "type": "official",
+      "url": "https://www.samtrans.com/files/samtrans/Assets/Dumbarton+Rail+Corridor/PDFs/171120+DTCS+-+Full+Report.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Recommends \"moving forward with Alternative 10 using a phased approach\"; \"the bus alternatives performed the best in terms of cost-effectiveness\"; \"the rail alternatives, while most costly, have the greatest potential for private investment and long-term ridership gains\"; the rail bridge \"also represents a safety hazard in its current condition and could require substantial funding to remove if not repaired\". The date is from the file name (171120)."
+    },
+    {
+      "id": "samtrans-dtcs-news-2017",
+      "title": "SamTrans Looks to Improve Travel in the Dumbarton Corridor",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "type": "official",
+      "url": "https://www.samtrans.com/news/samtrans-looks-improve-travel-dumbarton-corridor",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Undated (about the 2017 study). Near-term bus work about $51 million, \"13,700 more transbay riders daily, a 34 percent increase\"; rail Redwood City-Newark about $975 million, about $295 million more to Union City, \"approximately $327 million\" for interlining with Caltrain by 2035; 15,600 transbay riders daily."
+    },
+    {
+      "id": "samtrans-dumbarton-busway-contract-2025",
+      "title": "Awarding a Contract for the Dumbarton Busway Feasibility Study Services",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2025",
+      "type": "official",
+      "url": "https://www.samtrans.com/media/35169/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"Market viability assessment in 2023 found: Significant costs associated; limited funding available. Insufficient ridership projections to justify cost - estimated at $3.6B in 2024 dollars\"; rail lines \"to remain intact for potential future use\". Paraphrase: an 18-month busway feasibility study; a busway costs less, is quicker and doesn't preclude rail. A related SamTrans Citizens Advisory Committee deck (April 30, 2025) is https://www.samtrans.com/media/35337/download."
+    },
+    {
+      "id": "samtrans-dumbarton-fact-sheet-2020",
+      "title": "Dumbarton Rail Corridor Project: Estimated Ridership, Housing and Employment",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2020-01",
+      "type": "official",
+      "url": "https://www.samtrans.com/media/5006/download?inline=",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Dated January 2020 by the search result. \"Between Redwood City and Newark, the Project would primarily utilize an existing railroad right-of-way owned by the District.\" Construction \"$3 Billion\", subject to change; operation by 2028; \"Projected Increases by 2040 24,000 trips/day 7.3 million annual trips\". Paraphrase: Caltrain Sequoia/Redwood City station to Union City BART."
+    },
+    {
+      "id": "samtrans-dumbarton-update-2020-01",
+      "title": "Dumbarton Rail Corridor Project Update (Board of Directors presentation)",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2020-01-08",
+      "type": "official",
+      "url": "https://www.samtrans.com/files/samtrans/Assets/__Agendas+and+Minutes/SamTrans/Board+of+Directors/Presentations/Dumbarton+Rail+Corridor+Project+Update.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Paraphrase: Cross Bay Transit Partners (Facebook and Plenary) and the District executed an Exclusive Negotiating Agreement on August 14, 2018, covering investigation, feasibility and environmental review (CEQA/NEPA) only. \"Fall 2019 Collaboration as required Pre-scoping\"; an administrative draft EIR/EIS expected in winter 2020."
+    },
+    {
+      "id": "samtrans-dumbarton-virtual-meeting-2021",
+      "title": "SamTrans to Hold Virtual Public Meeting on Dumbarton Rail Bridge Project",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2021-03",
+      "type": "official",
+      "url": "https://www.samtrans.com/news/samtrans-hold-virtual-public-meeting-dumbarton-rail-bridge-project",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Meeting March 15, 2021: \"the focus is on developing conceptual alternatives to connect Redwood City to Union City\"; \"the San Mateo County Transit District and Cross BayTransit Partners, LLC (CBTP) are working together under a P3 arrangement\"."
+    },
+    {
+      "id": "samtrans-legislative-program-2023",
+      "title": "San Mateo County Transit District 2023 Legislative Program",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "date": "2023",
+      "type": "official",
+      "url": "https://www.samtrans.com/media/27023/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. The 2018 agreement with Cross Bay Transit Partners \"also ended in late Spring 2021\"; \"While Facebook has since ended its involvement in the project, the Agency is continuing to seek new opportunities.\""
+    },
+    {
+      "id": "samtrans-reimagine-dumbarton",
+      "title": "Reimagine Dumbarton",
+      "publisher": "San Mateo County Transit District (SamTrans)",
+      "type": "official",
+      "url": "https://www.samtrans.com/projects/reimagine-dumbarton",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the page wasn't opened. Feasibility study \"fall 2025 to spring 2027\"; \"a continuous four-mile-long paved walking and bicycling trail parallel to a dedicated busway\"; nine stations \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"; \"approximately 13 minutes in both directions\"; \"Phase II of community engagement is taking place September 9 - October 30\"; \"pending funding availability, construction would start after 2031\"; \"This Project will not preclude the opportunity to convert the corridor to passenger rail in the future\". Older URL: https://www.samtrans.com/Planning/Planning_and_Research/Dumbarton_Rail_Corridor.html"
+    },
+    {
       "id": "san-rafael-ij-1958-07-29",
       "title": "San Rafael Daily Independent-Journal, July 29, 1958: Western Pacific notice and \"last of the ferry boats\"",
       "publisher": "San Rafael Daily Independent-Journal",
@@ -4066,6 +4756,113 @@
       "license": "Public domain (court opinion; published 1913)",
       "accessed": "2026-10-16",
       "notes": "pp. 952-954, the facts proved at trial: Mark L. McDonald and Jackson R. Meyers petitioned the council on October 3, 1876; the company was incorporated on May 11, 1877, and Ordinance No. 16 of June 5, 1877 gave it fifty years. \"Plaintiff immediately commenced the construction of said road, and during the year 1877 completed the portion in controversy in this action, and has ever since continued to operate that portion\", the track \"on Fourth street, which is the street now in controversy\"; \"From 1877 down to the commission, in 1891, of the acts complained of in this action, the plaintiff has been in the actual, continuous, and notorious occupation of this railroad, has operated the same, and collected fares thereon\". In 1891 the Central Street Railway, under Ordinance No. 132 of September 2, 1891, \"commenced to tear up and remove plaintiff's track\" on part of Fourth St; the court held the 1877 franchise valid and never forfeited. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "seamless-caltrain-integration-2019",
+      "title": "Integrating Caltrain into a seamless regional transit network",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-09-29",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/9/29/integrating-caltrain-into-a-seamless-regional-transit-network",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"If Caltrain provided more frequent service, including more frequent service all day and all week, not only at peak commute times (i.e., service more like BART), it would achieve BART-like ridership.\""
+    },
+    {
+      "id": "seamless-dumbarton-potential-2019",
+      "title": "The True Potential of Dumbarton Rail",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-05-31",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/5/31/imagine-dumbarton-rail-in-a-world-of-seamless-transit",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"A new rail service connecting the Peninsula and the East Bay along the Dumbarton Rail corridor is being planned by Crossbay Transit Partners, an alliance among Facebook, the Plenary Group, and SamTrans.\""
+    },
+    {
+      "id": "seamless-dumbarton-rider-friendly-2026",
+      "title": "Rider-friendly service on the Dumbarton Corridor",
+      "publisher": "Seamless Bay Area",
+      "date": "2026-03-18",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2026/3/18/rider-friendly-service-on-the-dumbarton-corridor",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. SamTrans \"is considering paving over the train tracks to create a busway\", in place of restoring rail across the bridge, \"estimated to cost at least $3 billion\". Asks for a Redwood City connection, a link to Union City BART, and evening and weekend service (paraphrase). SamTrans's own documents are needed for status."
+    },
+    {
+      "id": "seamless-dumbarton-update-2019",
+      "title": "Dumbarton Update: Gaps in regional and state coordination",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-11-22",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/11/22/dumbarton-update-gaps-in-regional-and-state-coordinationnbsp",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. Facebook weighed light rail on surface streets to Union City BART; Seamless Bay Area objected that a short, slower link would weaken a line that also carries 40-mile-plus commutes (paraphrase)."
+    },
+    {
+      "id": "seamless-express-bus-network-2019",
+      "title": "The Bay Area Needs an Integrated, Express Bus Network",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-12-21",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/12/21/2mg31u4f8f5nm2hnwt5dpdw7084xho",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. The Vision Map shows a \"Regional Express Bus\" network \"(denoted with thin green lines on the map)\"; backs TransForm's ReX concept as consistent with the map (paraphrase)."
+    },
+    {
+      "id": "seamless-link21-governance",
+      "title": "The Bay Area needs Link21—but current governance doesn't set the project up for success",
+      "publisher": "Seamless Bay Area",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/link21-governance-needs",
+      "accessed": "2026-10-16",
+      "notes": "Undated. Seen in search results only. Link21 is a partnership between BART and Capitol Corridor; it should be led by a body with a regional mandate (paraphrase)."
+    },
+    {
+      "id": "seamless-norcal-regional-rail-2024",
+      "title": "A vision for Northern California Regional Rail",
+      "publisher": "Seamless Bay Area",
+      "date": "2024-08-27",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2024/8/27/a-vision-for-northern-california-regional-rail",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"prioritize a suite of upgrades along the existing and planned routes that will deliver an electrified, frequent, fast, and well-connected mega-regional rail network\"; \"in the short- to medium-term, Link21 should refocus its goals on identifying key rail infrastructure upgrades in the broader 21-county megaregion and de-prioritize its efforts on the 2nd Transbay Crossing\". A 'current vs. future' map image was not read."
+    },
+    {
+      "id": "seamless-spur-megaregional-rail-2019",
+      "title": "Ambitious SPUR Regional Rail Vision will require advocacy",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-06-10",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/6/10/spurs-vision-for-megaregional-rail",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. A report of SPUR's megaregional rail event: trips of 60 minutes or less between any two Bay Area rail stations, at 15-minute intervals or better; the lack of regional governance named as a barrier (paraphrase)."
+    },
+    {
+      "id": "seamless-vision-map",
+      "title": "Vision Map",
+      "publisher": "Seamless Bay Area",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/vision-map",
+      "accessed": "2026-10-16",
+      "notes": "Undated (2019 by the launch post). Also at https://www.seamlessbayarea.org/vision-map-overview. Seen in search results only. \"Expand and integrate BART, an electrified Caltrain, and light rail to create a seamless metro network ringing the Bay\"; \"upgrade service on commuter rail lines to create a regional express rail network\"; \"Only rapid and regional lines are shown on this map\". The lines appear only on the map; trace by hand."
+    },
+    {
+      "id": "seamless-vision-map-background",
+      "title": "Background - Vision Map",
+      "publisher": "Seamless Bay Area",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/background-vision-map",
+      "accessed": "2026-10-16",
+      "notes": "Undated. Seen in search results only. \"builds on numerous existing transportation plans and input from stakeholders from across the region, but is also highly aspirational\"; \"Climate change and rising sea level has not specifically been taken into account\"; \"Because there are no service standards for transit in the Bay Area, we had to standardize the definition all of the various types of transit in the region into a few simple categories\"."
+    },
+    {
+      "id": "seamless-vision-map-blog-2019",
+      "title": "Seamless Bay Area Vision Map: How a unified transit network would transform job access and improve commutes",
+      "publisher": "Seamless Bay Area",
+      "date": "2019-07-23",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/blog/2019/7/23/visionmap",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"developed in a partnership with Interline, and funded by a grant from Microsoft\"; the model has the network \"increasing the number of job opportunities accessible by transit by 2.5-7x\"."
     },
     {
       "id": "sf-bay-ferry-history",
@@ -4404,6 +5201,193 @@
       "notes": "Muni's chronology from 1902 (its first service, December 28, 1912), pp. 271-277; its service changes by date, pp. 189-192; conversions, pp. 164-165. Quotes read on the page images."
     },
     {
+      "id": "sfbos-ordinance-202-15",
+      "title": "Ordinance No. 202-15 (File No. 150873): Subway Master Plan",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "2015-11",
+      "type": "official",
+      "url": "https://sfbos.archive.sf.gov/ftp/uploadedfiles/bdsupvrs/ordinances15/o0202-15.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Passed November 17, 2015, per the search (paraphrase); makes it City policy to develop a Subway Master Plan within 12 months and update it every four years (paraphrase)."
+    },
+    {
+      "id": "sfcta-19th-ave-transit-study-2014",
+      "title": "19th Avenue Transit Study: feasibility study of relocating the Muni M-Ocean View",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2014-02",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/content/Executive/Meetings/pnp/2014/03/19thave_final_report_v23_low_res.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. The \"Longer Subway and Bridge\" option gave the greatest benefits; $520 million (2013 dollars), range $420-780 million (paraphrase)."
+    },
+    {
+      "id": "sfcta-annual-report-2025",
+      "title": "2025 Annual Report (Board item 6, draft report January 2026)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-01-27",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2026-01/SFCTA_Board_Item6_AnnualReportREPORT_2026-01-27_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"In December 2022, the Transportation Authority Board adopted the San Francisco Transportation Plan 2050 (SFTP 2050), consistent with the MTC's Plan Bay Area 2050.\""
+    },
+    {
+      "id": "sfcta-bayview-caltrain-study",
+      "title": "Bayview Caltrain Station Location Study",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/bayview-caltrain",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"recommends a site at Oakdale Avenue, adjacent to the former Southeast Community Facility at 1800 Oakdale, as the preferred location\"; timeline \"July - August 2026 Recommendation and outreach\", \"Fall 2026 Final Report\"."
+    },
+    {
+      "id": "sfcta-blog-geary-19th-potential-2024",
+      "title": "Learn More About the Potential of a Geary/19th Subway",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/learn-more-about-potential-geary19th-subway",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; exact date not seen (around the July 17 and 20, 2024 town halls). Requested by Board Vice Chair Myrna Melgar; recommended in the San Francisco Transportation Plan; construction at least 15 years away (all paraphrase)."
+    },
+    {
+      "id": "sfcta-blog-listing-2026-06",
+      "title": "SFCTA blog (listing), June 2026 posts on the Geary/19th study",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-06",
+      "type": "official",
+      "url": "https://www.sfcta.org/blog",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the post's own URL wasn't shown. \"The Transportation Authority Board approved the Geary/19th Avenue Subway and Regional Connections Study Final Report at the June 9 meeting\"; \"The Board gave final approval at the June 23 meeting.\""
+    },
+    {
+      "id": "sfcta-blog-sftp-2050-adopted",
+      "title": "Board Adopts San Francisco Transportation Plan 2050",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-12",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/board-adopts-san-francisco-transportation-plan-2050",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"the Transportation Authority Board adopted the San Francisco Transportation Plan, the blueprint for the city's transportation system development and investment over the next 30 years\". The Board agenda of 2022-12-13 lists \"Adopt the San Francisco Transportation Plan 2050\" (Resolution R23-23)."
+    },
+    {
+      "id": "sfcta-board-2026-06-09",
+      "title": "Transportation Authority Board meeting, June 9, 2026 (agenda)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-06-09",
+      "type": "official",
+      "url": "https://www.sfcta.org/events/transportation-authority-board-131",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the match of this page to the June 9, 2026 meeting is the search tool's. \"Adopt the Geary/19th Ave Subway and Regional Connections Study Final Report - ACTION\"."
+    },
+    {
+      "id": "sfcta-budget-work-program-memo-2025-04",
+      "title": "Proposed Annual Budget and Work Program, FY 2025/26 (CAC item 6 memorandum)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2025-04-24",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2025-05/SFCTA_CAC_ITEM6_ProposedAnnualBudgetandWorkProgramMEMO_2025-05-28.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"We will advance the PAX Bridging Study in FY 2025/26.\""
+    },
+    {
+      "id": "sfcta-cmp-2025",
+      "title": "Congestion Management Program 2025",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2025",
+      "type": "official",
+      "url": "https://www.sfcta.org/reports/congestion-management-program-2025",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. SFTP 2050+, \"a minor update to SFTP 2050, will be published in Summer 2026\"."
+    },
+    {
+      "id": "sfcta-geary-19th-cac-2026-02-25",
+      "title": "Geary/19th Ave Subway & Regional Connections Study (CAC item 8 update presentation)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-02-25",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2026-02/SFCTA_CAC_Item8_Geary19thAveSubwayandRegionalConnectionsStudyUpdatePRESENTATION_2026-02-25.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"initial planning-level cost estimate in range of $20 billion to $30 billion\"; open question \"Where to Terminate/Integrate at/near Daly City\"."
+    },
+    {
+      "id": "sfcta-geary-19th-project-page",
+      "title": "Geary/19th Avenue Subway and Regional Connections Study (project page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/projects/geary19th-avenue-subway-and-regional-connections-study",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. Timeline to a June 2026 final report and a June 9, 2026 Board presentation; phases from strategic planning to implementation on a 15+ year horizon (paraphrase)."
+    },
+    {
+      "id": "sfcta-geary-19th-public-comment-2026-05",
+      "title": "Public comments on the Geary/19th Subway Study final report (CAC item 12)",
+      "publisher": "Members of the public, published in an SFCTA packet",
+      "date": "2026-05-27",
+      "type": "primary_document",
+      "url": "https://www.sfcta.org/sites/default/files/2026-05/SFCTA_CAC_Item12_Geary-19thSubwayStudyFinalReportPUBLICCOMMENT_2026-05-27_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Not an official finding: objections to the left turn in the concept drawings, a suggested Presidio-area station, and about 47,000 weekday 38/38R boardings in April 2026 (all paraphrase)."
+    },
+    {
+      "id": "sfcta-geary-19th-strategic-case-2026",
+      "title": "Geary/19th Ave Subway and Regional Connections Study: Strategic Case (CAC item 12 enclosure)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-05",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2026-05/SFCTA_CAC_Item12_Geary-19thSubwayStudyFinalReportENCLOSURE_2026-05-27.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. \"dual-track subway approximately 10 miles in length, with approximately 5 – 6 stations\"; \"approximately $20B – $30B in 2026 dollars\"; \"would serve up to 182,000 daily riders, of which up to 71,000 are net new trips\"; \"end to end travel times from Daly City to Downtown San Francisco of 16 to 19 minutes\"; \"terminating roughly near the existing Daly City Bay Area Rapid Transit (BART) station\"; \"a grade separated, high capacity rapid transit investment is both needed and viable\". Figures 1-2, 3-1, 3-2 and 3-3 are maps."
+    },
+    {
+      "id": "sfcta-geary-19th-strategic-case-page",
+      "title": "Geary/19th Ave Subway and Regional Connections Study Strategic Case (report page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-07",
+      "type": "official",
+      "url": "https://www.sfcta.org/reports/geary19th-ave-subway-and-regional-connections-study-strategic-case",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Page dates: \"Final Report: July 2026\", \"Draft Report: May 2026\". The study \"did not select a preferred alternative or advance planning/design beyond a pre-feasibility level\"."
+    },
+    {
+      "id": "sfcta-geary-19th-town-hall-deck-2024",
+      "title": "Geary/19th Ave Subway & Regional Connections Study (virtual town hall slides)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-07",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-07/Geary-19th%20Virtual%20Town%20Hall%20Deck.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"expected future Geary/19th Ave Subway ridership is 300,000 per day\"."
+    },
+    {
+      "id": "sfcta-geary-19th-town-hall-recap-2026",
+      "title": "Geary/19th Avenue Subway Study Virtual Town Hall Recap",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-03-12",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/geary19th-avenue-subway-study-virtual-town-hall-recap",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"the subway is intended to complement, not replace, existing bus service on Geary Boulevard\"; \"tunneling and station construction drive the majority of costs\"; \"existing funding sources are not enough to deliver the project\"."
+    },
+    {
+      "id": "sfcta-pax-initiation-report-2022",
+      "title": "Pennsylvania Avenue Extension (PAX) Project Initiation Report, Resolution R23-05",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-07",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-08/R23-05%20PAX%20Project%20Initiation%20Report%20Signed.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"approximately $2.0-2.5 billion, excluding potential costs to replace the 22nd Street Station\"; \"PAX is in the planning stage and is not yet environmentally cleared.\" Presentation of 2022-07-12: https://www.sfcta.org/sites/default/files/2022-07/SFCTA_Board_PAXProjectInitiationReportPRESENTATION_2022-07-12.pdf"
+    },
+    {
+      "id": "sfcta-pax-project-page",
+      "title": "Pennsylvania Avenue Extension (project page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/projects/pennsylvania-avenue-extension",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"The Transportation Authority is studying potential tunnel alignments that will have trains running underground along Seventh Street and Pennsylvania Avenue.\" The long alternative \"requires replacement of the existing 22nd Street Caltrain Station\"."
+    },
+    {
       "id": "sfcta-portal-fy2026-memo-2026-01",
       "title": "TJPA Portal Project, fiscal year 2026 (Community Advisory Committee item 9 memorandum)",
       "publisher": "San Francisco County Transportation Authority",
@@ -4412,6 +5396,95 @@
       "url": "https://www.sfcta.org/sites/default/files/2026-01/SFCTA_CAC_Item9_TJPAPortalProjectFiscalYear2026MEMO_2026-01-28.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only; the memo wasn't opened. Recommends \"allocation of $12.5 million in Prop L funds to TJPA for continued advancement of The Portal project within the FTA Engineering Phase\"; the project \"is planned to open for revenue service in 2036, subject to funding availability\". Remaining need about $2.2 billion beyond the $3.38 billion CIG grant."
+    },
+    {
+      "id": "sfcta-prop-k-allocations-2022-03-08",
+      "title": "Prop K Sales Tax Allocation Request Forms, March 2022 Board Action",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-03-08",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-03/SFCTA_Board_GroupedAllocationsENCLOSURE_2022-03-08_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. The earlier vision \"envisioned undergrounding the M-Ocean View line between West Portal and Parkmerced\", not prioritized in ConnectSF (paraphrase), which chose \"aggressive surface optimization to provide subway-like service on the surface of the M-Ocean View line\"; $965,948 deobligated from \"Muni Subway Expansion Project Development\"."
+    },
+    {
+      "id": "sfcta-prop-l-5ypp-muni-core-capacity-2024",
+      "title": "Prop L 5YPP: Muni Rail Core Capacity",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-02-27",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-02/SFCTA_Board_PropL5-YearPrioritizationProgramsENCLOSURE2MuniCoreCapacity_2024-02-27.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"Total Funding: $720M; EP: $57M\"."
+    },
+    {
+      "id": "sfcta-prop-l-ep11-bayview-5ypp-2023",
+      "title": "Prop L 2023 5YPP: EP 11 Bayview Caltrain Station (approved 10.24.23)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2023-10-24",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2023-12/EP%2011%20Bayview%20Caltrain%20Station%20Prop%20L%202023%205YPP%20Approved%2010.24.23%20with%20links.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Cost estimate $100M assuming an Oakdale location; milestone of 35% design and environmental clearance in summer 2026 (paraphrase)."
+    },
+    {
+      "id": "sfcta-prop-l-ep13-geary-pif-2024",
+      "title": "Prop L Project Information Form: EP13 Geary 19th Ave Subway Placeholder (draft)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-06",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-06/EP13%20Geary%2019th%20Ave%20Subway%20Placeholder%20PIF%20DRAFT.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only: title only, and the Prop L category \"13- Next Generation Transit Investments\". Amount not seen."
+    },
+    {
+      "id": "sfcta-sftp-2050-appendix-c",
+      "title": "SFTP 2050 Appendix C: SF-CHAMP Analysis Methodology Memo",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-12-01",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-12/SFCTA_SFTP-2050_Appendix-C-SF-CHAMP-Analysis-Methodology-Memo_2022-12-01.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"Muni Rail Core Capacity: Extend N and M Parkmerced Muni Metro routes to 3-car train lengths\"."
+    },
+    {
+      "id": "sfcta-sftp-2050-final-2022-12",
+      "title": "San Francisco Transportation Plan 2050, Final Report (December 2022)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-12-13",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2023-01/SFCTA_SFTP-2050-Report-FINAL_2022-12-13_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened. Investment Plan about $80 billion (paraphrase); \"A Vision Plan to guide the allocation of an additional $15 billion potential new transportation revenues through 2050\"; \"Most of this revenue (about 85%) is already committed\"; \"The Investment Plan funds the SFMTA's Muni Metro Modernization/ Subway Modernization Program and BART's Core Capacity Program\"; Link21 among projects \"in the early stage of development\". Geary/19th subway in the 'next generation transit' planning line (paraphrase, pp. 3-27 to 3-28 per the tool)."
+    },
+    {
+      "id": "sfcta-sftp-2050-plus-board-2025-05-20",
+      "title": "San Francisco Transportation Plan 2050+ (Board item 9 presentation)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2025-05-20",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2025-05/SFCTA_Board_ITEM9_SanFranciscoTransportationPlan2050+UpdatePRESENTATION_2025-05-20v2_0.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"Major Transit Projects: The Portal (Downtown Rail Extension), BART/Muni Core Capacity Improvements, Muni Reliability and Efficiency Improvements, Geary/19th Subway, Central Subway Extension\". Adoption of SFTP 2050+ not confirmed."
+    },
+    {
+      "id": "sfcta-subway-vision-2017",
+      "title": "Subway Vision: Shaping our City's Transportation Future",
+      "publisher": "San Francisco County Transportation Authority, SFMTA and San Francisco Planning (ConnectSF)",
+      "date": "2017-06-09",
+      "type": "official",
+      "url": "https://sfcta.org/sites/default/files/2019-02/2016%20Subway%20Vision.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only; the PDF wasn't opened (copy at https://connectsf.org/wp-content/uploads/2016-Subway-Vision.pdf). \"The document provides the general orientation of potential subway corridors, without specifying detailed locations for subway lines and stations.\" \"Common themes in the prior plan review include additional Transbay service, the conversion of the M-Ocean to a full subway and extending it to Daly City, a subway to serve the Geary corridor, and the extension of Caltrain and high-speed rail to downtown San Francisco.\" Figures 6, 7 and 15 (\"Initial Corridor Concepts\"); chapter 4's corridor list not seen."
+    },
+    {
+      "id": "sfcta-subway-vision-page",
+      "title": "Subway Vision (project page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/projects/subway-vision",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"the Board of Supervisors unanimously passed an ordinance drafted by former Supervisor Scott Wiener requiring the City to create a framework for subway expansion throughout San Francisco\"."
     },
     {
       "id": "sfcta-timma-ti-ferry-2024",
@@ -4433,6 +5506,15 @@
       "notes": "\"An extension of the F line on The Embarcadero to Fisherman's Wharf began service on March 4, 2000.\""
     },
     {
+      "id": "sfmta-blog-central-subway-north-west",
+      "title": "Central Subway Extension - Looking to the North and West",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/central-subway-extension-looking-north-and-west",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated (2018 alternatives study). Destinations studied: North Beach, Fisherman's Wharf, the Marina, Cow Hollow and the Presidio (paraphrase)."
+    },
+    {
       "id": "sfmta-blog-central-subway-opens",
       "title": "Central Subway opens November 19 with special weekend service",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -4443,6 +5525,25 @@
       "notes": "Published November 1, 2022, before the opening: \"On Saturday, November 19, the Central Subway makes its historic debut with special weekend service\", Saturdays and Sundays; \"New T Third service in Central Subway is planned to start on January 7\"."
     },
     {
+      "id": "sfmta-blog-connectsf-shared-vision",
+      "title": "Connect SF - A Shared Vision for Transit in San Francisco",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/connect-sf-shared-vision-transit-san-francisco",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated blog post (2021 Transit Strategy rollout). \"This includes a new subway along Geary and 19th Avenue, an extension of the Central Subway, and a new Caltrain station in the Bayview.\" Also \"With targeted investments in our street infrastructure, we will deliver a Five-Minute Network\"."
+    },
+    {
+      "id": "sfmta-blog-dream-map-2016",
+      "title": "Draw Your Dream Map to Help Shape the Future of Subways in SF",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016-08-18",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/draw-your-dream-map-help-shape-future-subways-sf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Example ideas: \"extending the Central Subway to Fisherman's Wharf, building a second Transbay Tube for BART into Mission Bay or extending the Market Street subway across the city to allow for longer trains\"."
+    },
+    {
       "id": "sfmta-blog-powell-mason-130",
       "title": "130 years and counting on the Powell/Mason cable car line",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -4451,6 +5552,26 @@
       "url": "https://www.sfmta.com/blog/130-years-and-counting-powellmason-cable-car-line",
       "accessed": "2026-10-14",
       "notes": "April 5, 2018: \"The full Powell-Mason Line opened in early March 1888, after a short trial run in February\"; \"One month later on April 5th, the East-West running Washington and Jackson Line (which partly survives today as a segment of the Powell-Hyde Line) opened.\" Callwell gives March 28, 1888 for the first Powell St service."
+    },
+    {
+      "id": "sfmta-blog-subways-2015-09-08",
+      "title": "Subways, Subways & More Subways?",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2015-09-08",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/subways-subways-more-subways",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Wiener's list: \"the Central Subway project and a possible extension of that to Fisherman's Wharf, the downtown extension of Caltrain and high-speed rail, a second transbay tube, subway service to the city's west side and to southeastern SF\"."
+    },
+    {
+      "id": "sfmta-blog-visualizing-subways-2016",
+      "title": "Visualizing More Subways for San Francisco",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016-10-18",
+      "type": "official",
+      "url": "https://www.sfmta.com/blog/visualizing-more-subways-san-francisco",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. By Bradley Dunn. \"At pop up workshops and online, more than 2,600 unique ideas were submitted through our online mapping tool.\""
     },
     {
       "id": "sfmta-cable-car-history",
@@ -4473,6 +5594,25 @@
       "notes": "Muni's own chronology, September 1999, hosted on SFMTA's archive. Cited by the PDF's page numbers. Gives opening days of the streetcar and Metro lines, the Twin Peaks and Sunset tunnels, the Market Street subway, the cable car lines, and the F line (1995)."
     },
     {
+      "id": "sfmta-central-subway-extension",
+      "title": "Central Subway Extension (project page)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/central-subway-extension",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated (2026 content). Relaunched in 2026 as the Central Subway North Beach Extension Study, a one-station extension through the unfinished tunnels, completion mid-2026 to mid-2028 (paraphrase); \"in January 2026, District 3 Supervisor Danny Sauter convened a hearing on a variety of topics related to the T Third\"."
+    },
+    {
+      "id": "sfmta-central-subway-extension-boards-2018",
+      "title": "Central Subway Extension Alternatives Study, kickoff presentation boards",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2018-10",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/reports-and-documents/2018/10/central_subway_extension_kickoff_presentation_boards.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only: title only. Possible maps to trace."
+    },
+    {
       "id": "sfmta-central-subway-project",
       "title": "Central Subway Project",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -4480,6 +5620,42 @@
       "url": "https://www.sfmta.com/projects/central-subway-project",
       "accessed": "2026-10-14",
       "notes": "\"The new T Third line from Chinatown Rose-Pak to Sunnydale started on January 7, 2023.\" The T no longer runs on King St, the Embarcadero or Market St. Special weekend service from November 19, 2022 appears only in an announcement made before it."
+    },
+    {
+      "id": "sfmta-fast-convenient-transit",
+      "title": "Fast and Convenient Transit",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/fast-and-convenient-transit",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"Build new rail projects in places where no amount of bus improvements will be able to meet the demand\" (exact-phrase match), naming Geary Boulevard, 19th Avenue and a Central Subway extension to Fisherman's Wharf (paraphrase); \"Create a fast, frequent network of bus and rail routes that ensure riders never have to wait more than 5 minutes\"."
+    },
+    {
+      "id": "sfmta-geary-bip-faq",
+      "title": "Geary Boulevard Improvement Project Frequently Asked Questions (FAQs)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/geary-boulevard-improvement-project-frequently-asked-questions-faqs",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated (updated after the summer 2026 study). \"The ConnectSF Transit Investment Strategy calls for investment in a Geary-19th Avenue subway to provide fast, high-capacity service and improve regional access, but would take more than a decade to deliver at minimum.\""
+    },
+    {
+      "id": "sfmta-geary-bip-project",
+      "title": "Geary Boulevard Improvement Project (project page)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/geary-boulevard-improvement-project",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. In construction, Stanyan Street to 34th Avenue, $48 million, 38 and 38R; utility work from late 2024, about three years (all paraphrase)."
+    },
+    {
+      "id": "sfmta-geary-rapid-faq",
+      "title": "Geary Rapid Project: FAQs",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/project-updates/geary-rapid-project-faqs",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"major obstacles to Geary rail include the high capital cost, a scarcity of funding sources, and the scale of disruption during construction\"; \"early efforts to advance Geary rail in the 1950's and again in the 1980's were met with neighborhood opposition\"."
     },
     {
       "id": "sfmta-historic-streetcars",
@@ -4491,6 +5667,16 @@
       "notes": "\"September 1, 1995, was the first day of service for the F Market historic streetcar line\"; the extension along The Embarcadero to Fisherman's Wharf began March 4, 2000."
     },
     {
+      "id": "sfmta-m-ocean-view-station-board-2016",
+      "title": "19th Avenue / M Ocean View project, station 2 board (rail)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/projects/2016/Station%202%20Rail.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only: title text \"SAN FRANCISCO STATE UNIVERSITY PARKMERCED DIAZ AVE BANBURY DRIVE PARKMERCED\", apparently map labels. Content not seen; a drawing to trace if wanted."
+    },
+    {
       "id": "sfmta-muni-history",
       "title": "Muni history",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -4498,6 +5684,63 @@
       "url": "https://www.sfmta.com/getting-around/muni/muni-history",
       "accessed": "2026-10-14",
       "notes": "SFMTA's history page: J Church began August 11, 1917; the Twin Peaks Tunnel opened February 1918; the E ran 4th & King to the wharves from August 2015."
+    },
+    {
+      "id": "sfmta-muni-metro-capacity-cac-2025-11-06",
+      "title": "Muni Metro Capacity Study (SFMTA CAC presentation)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2025-11-06",
+      "type": "official",
+      "url": "https://sfmta.com/media/43793/download?inline=",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"In addition to the current plan for Parkmerced to provide a terminal for 3-car M service, the Muni Metro Capacity Study recommends providing infrastructure to enable the J Church to be extended to Stonestown.\""
+    },
+    {
+      "id": "sfmta-muni-metro-capacity-faq",
+      "title": "Muni Metro Capacity Study: Frequently Asked Questions",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/project-updates/muni-metro-capacity-study-frequently-asked-questions",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. The ConnectSF Transit Strategy prioritized modernizing and expanding Muni Metro's capacity as one of four critical investment areas (paraphrase); \"That makes us the fourth busiest light-rail system in the nation.\""
+    },
+    {
+      "id": "sfmta-muni-metro-capacity-study",
+      "title": "Muni Metro Capacity Study (project page)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/muni-metro-capacity-study",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"On December 2, 2025, the SFMTA Board of Directors unanimously approved the Muni Metro Capacity Study final report.\" \"even in our highest future ridership forecast, we do not need to use this strategy of removing lines from the Market Street subway within the 10–15-year program\"."
+    },
+    {
+      "id": "sfmta-muni-subway-expansion-2016",
+      "title": "Muni Subway Expansion Project, Summer 2016",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016",
+      "type": "official",
+      "url": "https://www.sfmta.com/media/2365/download",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"proposes a full subway from West Portal to Parkmerced built under the middle of 19th Avenue\"; stations SF State, Stonestown and Parkmerced, possible Ocean Avenue station (paraphrase)."
+    },
+    {
+      "id": "sfmta-muni-subway-expansion-project",
+      "title": "Muni Subway Expansion Project (project page)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/muni-subway-expansion-project",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Undated. \"no longer active. Please refer to the ConnectSF Transit Strategy for San Francisco's transit expansion priorities.\" Earlier proposal (paraphrase): M Ocean View subway West Portal to Parkmerced, $2.5-3 billion."
+    },
+    {
+      "id": "sfmta-press-connectsf-2021-04-19",
+      "title": "The SFMTA and ConnectSF Unveil Bold Vision for San Francisco Transit",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2021-04-19",
+      "type": "official",
+      "url": "https://www.sfmta.com/press-releases/sfmta-and-connectsf-unveil-bold-vision-san-francisco-transit",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. The StoryMap \"details improvements we could see in the not-too-distant future: a five-minute network, new rail lines across the city, and critical infrastructure improvements\"; Jeffrey Tumlin: \"Muni's current funding base is broken\"."
     },
     {
       "id": "sfmta-srtp-2006",
@@ -4518,6 +5761,26 @@
       "url": "https://archives.sfmta.com/cms/rsrtp/documents/08%20Chapter%203-Third%20St%20LRT%20SRTP%20fy08%20for%20MTAB%201-15-08.pdf",
       "accessed": "2026-10-14",
       "notes": "p. 4: \"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
+    },
+    {
+      "id": "sfmta-subway-vision-slides-2016-10-18",
+      "title": "San Francisco Subway Vision (SFMTA Board item 12 slides)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016-10-18",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/agendaitems/2016/10-18-16%20Item%2012%20Subway%20Vision%20-%20slide%20presentation.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. Sections on outreach, the heat map, a needs assessment, corridors for evaluation, policy guidance and tradeoffs (delivery timeline, capital cost, station spacing) (paraphrase); images not seen."
+    },
+    {
+      "id": "sfmta-t-third-phase-3-study-2015",
+      "title": "T-Third Phase 3 Concept Study, Final Report",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2015-01-08",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/feature-location-pdf/1._t-third_phase_3_concept_study_-_final_report_1-8-15.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in web search results only. \"A station in North Beach at or near Washington Square is present in all concept alignments.\" \"from a low of $367 million (subway and surface to Kirkland), to a high of $1.400 billion (subway connecting all three locations) in 2014 dollars\". \"This study will not recommend a best concept alignment.\""
     },
     {
       "id": "sfmta-van-ness-brt-open",
@@ -4631,6 +5894,225 @@
       "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
       "accessed": "2026-10-16",
       "notes": "p. 10 (n5): \"Four of our inter-city trains were not selected by NRPC for operation and were therefore discontinued on April 30: the San Joaquin Daylight, the Sacramento Daylight, the Northwestern Pacific's self-propelled car which ran thrice-weekly between Eureka and Willits, and the San Jose-Monterey portion of the Del Monte.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "spur-caltrain-corridor-vision-plan-2017",
+      "title": "The Caltrain Corridor Vision Plan",
+      "publisher": "SPUR, Silicon Valley Leadership Group, Stanford University and San Mateo County Economic Development Association",
+      "date": "2017-02",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2017-02-23/caltrain-corridor-vision-plan",
+      "accessed": "2026-10-16",
+      "notes": "PDF: https://www.spur.org/sites/default/files/2017-03/SPUR_Caltrain_Corridor_Vision_Plan.pdf. Seen in search results only. \"Develop reliable, frequent all-day rail service between San Jose and downtown San Francisco, with enough capacity to meet demand.\" \"the Vision Plan will cost between $16 billion and $21 billion to implement\"; Appendix B: \"at least $18 billion\"."
+    },
+    {
+      "id": "spur-caltrain-long-range-service-vision-letter-2019",
+      "title": "SPUR letter to the Peninsula Corridor Joint Powers Board on the Caltrain Long Range Service Vision",
+      "publisher": "SPUR",
+      "date": "2019-07-26",
+      "type": "primary_document",
+      "url": "https://www.spur.org/sites/default/files/2019-07/Caltrain%20Long%20Range%20Service%20Vision_SPUR%20Letter-%207.26.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. Names Diridon Station, the Salesforce Transit Center and \"regional hubs such as at Redwood City or Santa Clara and Great America Stations\"."
+    },
+    {
+      "id": "spur-central-subway-extension-study-2014",
+      "title": "Study Validates Central Subway Extension to North Beach and Fisherman's Wharf",
+      "publisher": "SPUR",
+      "date": "2014-12-17",
+      "type": "primary_document",
+      "url": "https://www.spur.org/news/2014-12-17/study-validates-central-subway-extension-north-beach-and-fishermans-wharf",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. SPUR's summary of a city agencies' study: options \"down Columbus to Conrad Square, or down Powell to the Kirkland Yard\"; \"Subway options, though more expensive, were deemed preferable.\" The study is the agencies'; cite their own report for status."
+    },
+    {
+      "id": "spur-connecting-northeast-neighborhoods-2013",
+      "title": "Connecting Northeast Neighborhoods (SPUR discussion paper)",
+      "publisher": "SPUR",
+      "date": "2013-08-14",
+      "type": "primary_document",
+      "url": "https://www.spur.org/sites/default/files/2013-09/SPUR_Connecting.Northeast.Neighborhoods.pdf",
+      "accessed": "2026-10-16",
+      "notes": "\"Released August 14, 2013\". Seen in search results only. Interest in extending the T Third to a North Beach station (paraphrase). A 2013 SPUR paper (the search linked this one) says \"opponents concerned about the impact of light rail on Geary have delayed its implementation for years, prompting planners to recommend a compromise of sorts: Bus Rapid Transit\"."
+    },
+    {
+      "id": "spur-freeways-of-the-future-2021",
+      "title": "Freeways of the Future",
+      "publisher": "SPUR",
+      "date": "2021-01-21",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2021-01-21/freeways-future",
+      "accessed": "2026-10-16",
+      "notes": "News post: https://www.spur.org/news/2021-01-21/how-repurpose-bay-area-freeways-fast-and-reliable-regional-public-transit. Seen in search results only. \"Develop a comprehensive regional express bus network plan that establishes an integrated express bus network\"; the news post: \"SPUR's report does not detail specific routes or stations, but rather proposes planning, institutional reforms, infrastructure coordination and policies\"."
+    },
+    {
+      "id": "spur-giving-old-infrastructure-new-life-2019",
+      "title": "Giving Old Infrastructure New Life",
+      "author": "Laura Tolkoff",
+      "publisher": "SPUR (The Urbanist)",
+      "date": "2019-07-29",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/urbanist-article/2019-07-29/giving-old-infrastructure-new-life",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"SPUR envisions a megaregional rail network anchored by two types of hubs\"; \"At the center of the strategy is frequent and reliable service that is available all day.\" Major multimodal hubs suggested for downtown San Jose, San Francisco, Oakland, Stockton and Sacramento; trains every 15 minutes or better in SF, San Jose and Oakland and every 30 minutes or better in Sacramento, Stockton, Modesto and Merced; a pulse timetable (paraphrase). No line list or map seen."
+    },
+    {
+      "id": "spur-megaregional-rail-event-2019",
+      "title": "A Vision for Megaregional Rail (event)",
+      "publisher": "SPUR",
+      "date": "2019-05-23",
+      "type": "primary_document",
+      "url": "https://www.spur.org/events/2019-05-23/vision-megaregional-rail",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. SPUR and partners propose a rail network for the Northern California megaregion, built on the existing system with targeted investments; anywhere in the Bay Area within an hour and anywhere in the megaregion within 90 minutes (paraphrase)."
+    },
+    {
+      "id": "spur-mid-life-crisis-regional-rail-2008",
+      "title": "A Mid-Life Crisis for Regional Rail",
+      "publisher": "SPUR",
+      "date": "2008-10-17",
+      "type": "primary_document",
+      "url": "https://www.spur.org/sites/default/files/2013-09/SPUR_A_Mid-Life_Crisis_for_Regional_Rail.pdf",
+      "accessed": "2026-10-16",
+      "notes": "\"Adopted by the SPUR Board of Directors October 17, 2008\". Seen in search results only. \"The new tube should be designed as a four-track bore to accommodate both BART and standard-gauge rail, such as Caltrain or high speed service.\" \"The San Francisco connection to the tube should be designed with track connections to the Caltrain/High Speed level of the Transbay Transit Center's rail level.\" The fourth BART track in downtown Oakland: \"This is a precursor project to an eventual second Bay Tube.\" Also an M line link of about a mile from SF State's Holloway stop to Daly City BART, and tunnels through the Altamont Pass and Niles Canyon by 2030 (paraphrase)."
+    },
+    {
+      "id": "spur-munis-vision-rapid-transit-2002",
+      "title": "Muni's Vision for Rapid Transit",
+      "publisher": "SPUR (The Urbanist)",
+      "date": "2002-01",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/urbanist-article/2002-01-02/munis-vision-rapid-transit",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. The article \"applies those principles and tools to the corridors, and suggests a list of projects that could become a rapid transit network for San Francisco\" (the principles are Muni's). 19th Avenue \"is appropriate for surface LRT\"; Geary as surface LRT from the ocean to Laguna, then a subway to the Financial District or Transbay Terminal, $1.7 billion; the Central Subway north via Lombard or Chestnut to a Presidio terminal (paraphrase)."
+    },
+    {
+      "id": "spur-new-civic-vision",
+      "title": "A New Civic Vision (SPUR Regional Strategy)",
+      "publisher": "SPUR",
+      "type": "primary_document",
+      "url": "https://www.spur.org/featured-project/spur-regional-strategy/new-civic-vision",
+      "accessed": "2026-10-16",
+      "notes": "Undated. Seen in search results only. \"To deliver on this vision, we need to create express lanes for buses and high-occupancy vehicles on highways, make regional rail service more frequent, complete critical projects that carry more people and enable more service, and build out California's high-speed rail system.\" \"To make it viable for people to choose transit over driving, we need frequent, all-day transit service arranged in a regular, repeating schedule.\" No line map seen."
+    },
+    {
+      "id": "spur-new-connections-2007",
+      "title": "New Connections",
+      "publisher": "SPUR",
+      "date": "2007-06-20",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2007-06-20/new-connections",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. Recommends extending the Central Subway to Washington Square and eventually to Van Ness (paraphrase): \"the benefit of linking to passengers on other bus and rapid-transit lines far outweighs the added cost of the surface extension\"."
+    },
+    {
+      "id": "spur-new-transbay-crossing-event-2021",
+      "title": "Proactive Planning for a New Transbay Rail Crossing (event)",
+      "publisher": "SPUR",
+      "date": "2021-02-23",
+      "type": "primary_document",
+      "url": "https://www.spur.org/events/2021-02-23/proactive-planning-new-transbay-rail-crossing",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"being developed as part of a newly announced Northern California transit program called Link21, jointly led by BART and Capital Corridor\" [sic]; \"the Bay Area region has already dedicated $160 million in two separate bond measures to groundwork for the crossing\". SPUR's statements, not the agencies'."
+    },
+    {
+      "id": "spur-nine-ideas-connected-sf-2021",
+      "title": "The Bigger Picture: Nine Ideas for a Connected San Francisco",
+      "publisher": "SPUR",
+      "date": "2021-10-06",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2021-10-06/bigger-picture-nine-ideas-connected-san-francisco",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only; the nine ideas themselves were not found. \"the areas furthest away from downtown lack rapid and express cross-town routes\"; \"these ideas are not policy prescriptions but possibilities\". Needs reading in a browser."
+    },
+    {
+      "id": "spur-regional-strategy-2070",
+      "title": "The Bay Area of 2070 (SPUR Regional Strategy)",
+      "publisher": "SPUR",
+      "date": "2021",
+      "type": "primary_document",
+      "url": "https://www.spur.org/featured-project/spur-regional-strategy",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only (page refused from this container). The date is the search summary's 'launched in 2018 and published in 2021'. A 50-year vision for the Bay Area of 2070; the reports library counts more than two dozen reports and over 170 policy recommendations (paraphrase)."
+    },
+    {
+      "id": "spur-regional-strategy-reports-library",
+      "title": "Reports Library (SPUR Regional Strategy)",
+      "publisher": "SPUR",
+      "type": "primary_document",
+      "url": "https://www.spur.org/featured-project/spur-regional-strategy/reports-library",
+      "accessed": "2026-10-16",
+      "notes": "Undated. Seen in search results only. Lists the strategy's transportation reports, among them The Bigger Picture reports on San Francisco and Oakland, A Regional Transit Coordinator for the Bay Area, More for Less, Value Driven and The Future of Transportation (paraphrase)."
+    },
+    {
+      "id": "spur-regional-transit-coordinator-2020",
+      "title": "A Regional Transit Coordinator for the Bay Area",
+      "publisher": "SPUR",
+      "date": "2020-12-01",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2020-12-01/regional-transit-coordinator-bay-area",
+      "accessed": "2026-10-16",
+      "notes": "PDF: https://www.spur.org/sites/default/files/2021-05/SPUR_A_Regional_Transit_Coordinator_For_The_Bay_Area_Report.pdf. Seen in search results only. Hub tiers: interregional hubs are \"the biggest cities in the region with connections to the northern California megaregion and the state\"; regional hubs are \"located in areas of high concentration of employment and key places for transfers between local and regional modes, between different regional rail services\", with \"Regional and urban trunk and express services at least every 15 minutes.\" \"Require seamless connections between operators as part of regional transit capital investments.\""
+    },
+    {
+      "id": "spur-seamless-transit-2015",
+      "title": "Seamless Transit",
+      "publisher": "SPUR",
+      "date": "2015-04",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2015-03-31/seamless-transit",
+      "accessed": "2026-10-16",
+      "notes": "PDF: https://www.spur.org/sites/default/files/2015-04/SPUR_Seamless_Transit_print.pdf (cover: \"REPORT APRIL 2015\"). Seen in search results only. Five strategies for integrating Bay Area transit, among them a regionwide transit map led by MTC (paraphrase). Not a network proposal."
+    },
+    {
+      "id": "spur-second-transbay-crossing-2016",
+      "title": "Designing the Bay Area's Second Transbay Rail Crossing",
+      "publisher": "SPUR",
+      "date": "2016-02-10",
+      "type": "primary_document",
+      "url": "https://www.spur.org/sites/default/files/2016-02/SPUR_Designing_the_Bay_Area's_Second_Transbay_Rail_Crossing.pdf",
+      "accessed": "2026-10-16",
+      "notes": "Landing page: https://www.spur.org/publications/policy-brief/2016-02-10/designing-bay-areas-second-transbay-rail-crossing. Seen in search results only. A crossing \"is not inevitable; it's a commitment today's leaders must make\". \"The choice comes down to direct redundancy with the existing crossing versus leveraging the new crossing to connect new markets.\" A four-track crossing is \"a much more complex and disruptive transportation project\". Figure 3, \"Three Ways a Second Transbay Rail Crossing Could Connect With Existing Rail\", and Maps 1-3, credited to Brian Stokle (schematic concepts by their captions; pages not seen)."
+    },
+    {
+      "id": "spur-ten-ideas-oakland-2021",
+      "title": "The Bigger Picture: Ten Ideas for Equitable Transportation in Oakland",
+      "publisher": "SPUR",
+      "date": "2021-07-15",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2021-07-15/bigger-picture-ten-ideas-equitable-transportation-oakland",
+      "accessed": "2026-10-16",
+      "notes": "PDF: https://www.spur.org/sites/default/files/2021-07/SPUR_Ten_Ideas_for_Equitable_Transportation_in_Oakland.pdf (adopted by the SPUR Oakland board 2020-06-23, per a search summary). Seen in search results only. Idea 2: \"the new crossing could connect downtown Oakland to San Francisco's SOMA district, connect to a subway on the West Side of San Francisco via Geary and 19th Avenue, then connect to the existing system at Daly City Station\". \"Many design and operational decisions are yet to be made for a new rail crossing, including which transit services would use it, the alignment and whether it would connect into downtown Oakland.\""
+    },
+    {
+      "id": "spur-three-years-integrated-transit-2026",
+      "title": "Three Years of Progress Toward a More Integrated Transit System",
+      "publisher": "SPUR",
+      "date": "2026-01-21",
+      "type": "primary_document",
+      "url": "https://www.spur.org/news/2026-01-21/three-years-progress-toward-more-integrated-transit-system",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"The RNM is also working to define a regional transit priority network that would establish transit corridors where investments would be prioritized and accelerated.\" This is SPUR's statement about MTC's Regional Network Management, not MTC's own."
+    },
+    {
+      "id": "spur-two-transit-maps-2012",
+      "title": "Two Transit Maps: The Current Reality and a Possible Future",
+      "publisher": "SPUR (The Urbanist, Issue 511)",
+      "date": "2012-03-16",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/urbanist-article/2012-03-16/two-transit-maps-current-reality-and-possible-future",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. Two maps by Brian Stokle: today's rail and rapid bus, and an aspirational future with a second Transbay tube and BRT extensions, leaving out some planned projects such as BART to Livermore (paraphrase). View the map in a browser."
+    },
+    {
+      "id": "spur-whats-next-for-muni-2000",
+      "title": "What's Next for Muni",
+      "publisher": "SPUR",
+      "date": "2000-04-19",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2000-04-19/whats-next-muni",
+      "accessed": "2026-10-16",
+      "notes": "Seen in search results only. \"The city should work aggressively to secure funding for a complete subway and busway network. The starting point for this network would be the central subway which continues the new Third Street rail line underground into Chinatown.\" \"The next most important component of the Four Corridor Rail Plan is the Geary line, by far the most productive line in terms of anticipated ridership.\""
     },
     {
       "id": "srj-1903-10-31-san-mateo",

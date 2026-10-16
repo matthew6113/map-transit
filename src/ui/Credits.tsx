@@ -21,7 +21,8 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       MTC, SFCTA, Alameda CTC and the CPUC. Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
       County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS); their statuses and
-      expected openings from VTA, TJPA, MTC, SFCTA, the FTA, the High-Speed Rail Authority, Valley Link and SMART. Past
+      expected openings from VTA, TJPA, MTC, SFCTA, the FTA, the High-Speed Rail Authority, Valley Link and SMART;
+      proposals as SFCTA, SFMTA, SamTrans and MTC describe them. Past
       lines traced from
       the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
       Historical Topographic Map Collection</a> (public domain), from{' '}

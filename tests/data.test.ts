@@ -178,7 +178,8 @@ describe('provenance', () => {
 
   it('draws BRT only on center or median lanes: the agency names the corridor, surveyed data the lanes (decisions 3 and 9)', () => {
     const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
-    for (const f of folders) {
+    // Decisions 3 and 9 are about today's network; a proposal's busway is drawn as its document describes it.
+    for (const f of folders.filter((x) => x.era !== 'ideal')) {
       const segs = new Map(f.segments.map((s) => [s.properties.id, s.properties]));
       for (const l of f.lines.filter((x) => (x as { mode?: string }).mode === 'brt')) {
         expect(l.sources.some((s) => type.get(s.source) === 'official'), `${l.id} needs its agency's own source for the corridor`).toBe(true);
