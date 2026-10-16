@@ -43,6 +43,7 @@ running.
 | Petaluma steamers (P&SR) | The foot of Copeland St, Petaluma, down Petaluma Creek and across San Pablo Bay to San Francisco: the bulkhead between Washington and Jackson Sts (1903), Pier 9 at Broadway (1918-33), Pier 11 at Vallejo St (1935) | Service begun 1904 (CRC D28283 p. 44, image; Borden: the *Gold* bought Dec 1903); passengers ended effective Dec 23, 1935 (CRC D29778 p. 16, image); directories of 1903, 1923, 1935 (images) | Over water to Pier 9 (approximate). Not sourced: when the San Francisco berth moved |
 | Mare Island ferry | The foot of Georgia St, Vallejo, across the Mare Island Strait to the Navy Yard (and Ryder St by 1943) | Bought by the Rodeo-Vallejo Ferry Co. Mar 21, 1922 and sold Apr 1923 (CRC D14728, vol. 26 p. 189, image); running 1923, 1935, 1943 (CRC D11668, D28282, D36613, images); ceased Aug 29, 1986 (*The Fare Box*, Sept 1986, p. 100, image, from the *West County Times*); opening unsourced | Traced from the 1916 Mare Island sheet's dashed course (est. 100 m). Not sourced: the Mare Island slips' place |
 | Southern Pacific, Oakland Pier to San José by Elmhurst and Newark | Oakland Pier, West Oakland, Magnolia Tower, First St, Fruitvale, Elmhurst, Mount Eden, Alvarado, Newark, Alviso, Santa Clara, San José | Running Sept 28, 1941 (SP timetable No. 234, p. 12, image); discontinued under CPUC D59928 (Apr 12, 1960, pp. 10-11, image), last runs May 1-2, 1960 (ST-798, image); opening of this routing unsourced | Today's Capitol Corridor and Coast Starlight track, dated by stretch (decision 13); the mole connection traced from the 1949 sheet |
+| Western Pacific (1903) | Its mole or Oakland Pier, Third St, Oakland, Fruitvale, San Leandro, Hayward, Niles, Niles Canyon, Pleasanton, Livermore, Altamont, to the county line; its ferry to the Ferry Building | First through train Aug 22, 1910 (*Oakland Tribune* Aug 22 and 24, images); own mole and ferry 1910-18 and 1920-33, Oakland Pier 1918-20 and 1933-58 (Tribune 1918, 1920; WP and SP timetables 1919, 1933; *Point Richmond Progress*; *Independent-Journal* 1958); California Zephyr from Mar 20, 1949; last Zephyr left Oakland Mar 21, 1970 (AP, image) | The mole from the 1915 sheet (bay correction); Third St; the 1949 sheets to Fruitvale; today's Oakland Subdivision; ACE's track from Niles. Not sourced: the days of the 1918, 1920 and 1933 moves |
 
 ## Not drawn yet, and what each needs
 
@@ -127,6 +128,17 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   Lark (Nos. 250/255 and 73/74), ended under CPUC Decision 59928 of April 12, 1960, last run May 1
   and 2, 1960 (SP schedule statement ST-798); drawn (see above). When those trains began to run by
   Elmhurst, instead of over the South Pacific Coast's old line from Alameda, isn't sourced.
+- **Western Pacific (1903):** drawn (see above; `sources-2c/western-pacific.md`). Not drawn: its San
+  José branch, Niles Junction by Irvington, Warm Springs, Milpitas and Berryessa to East San José
+  (first train August 23, 1922; trains replaced by a bus under CRC Decision 23837, the bus from July
+  13, 1931, and that ended under D24234 of November 16, 1931), for want of its route's geometry. The
+  Zephyrettes' end (1960-61) has no CPUC order; it was likely the ICC's.
+- **The 1862 Western Pacific:** its first 20 miles, San José to the mouth of Niles Canyon, were sworn
+  complete and equipped on September 29, 1866 (the record of *Curtner v. United States*), and
+  Langley's directory of 1867 says "cars are running" to Vallejo's Mills; but the Central Pacific's
+  own return opens San José to the public on September 15, 1869 (the 14th report's image reads 15).
+  The map keeps the Central Pacific's San José trains from September 1869; the 1866-69 service is
+  undated.
 - **California & Nevada (1884-1902):** not drawn. It carried the public now and then: "Regular
   trains are now run twice a week" to near Orinda Park (*Oakland Tribune*, October 10, 1889),
   fares collected in 1892 (the Railroad Commissioners' 13th report, p. 118), a San Francisco ticket

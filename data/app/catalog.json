@@ -35847,14 +35847,14 @@
         37.7762
       ],
       "fids": [
-        1160,
         1161,
         1162,
         1163,
         1164,
         1165,
         1166,
-        1167
+        1167,
+        1168
       ],
       "segments": [
         {
@@ -36131,7 +36131,6 @@
         37.7762
       ],
       "fids": [
-        1146,
         1147,
         1148,
         1149,
@@ -36144,7 +36143,8 @@
         1156,
         1157,
         1158,
-        1159
+        1159,
+        1160
       ],
       "segments": [
         {
@@ -44878,7 +44878,8 @@
         1142,
         1143,
         1144,
-        1145
+        1145,
+        1146
       ],
       "segments": [
         {
@@ -44913,19 +44914,34 @@
           "notes": "The trains from Oakland Pier to San José ran by West Oakland and Magnolia Tower to First St (timetable No. 234, 1941); when this track was laid isn't sourced."
         },
         {
-          "id": "cc-west-oakland-melrose",
-          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "id": "cc-west-oakland-magnolia",
+          "name": "West Oakland to Magnolia Tower (First and Chestnut Sts)",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Magnolia Tower (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+          "notes": "The Southern Pacific's line from the mole by West Oakland to Magnolia Tower, at First and Chestnut Sts, where the Western Pacific crossed it (its Chestnut Junction); when it first carried passengers isn't sourced. Cut where the line from the mole meets today's realigned track, and at Magnolia Tower."
+        },
+        {
+          "id": "cc-magnolia-melrose",
+          "name": "Magnolia Tower to Melrose, by First St and Fruitvale",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Magnolia Tower and Melrose (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut at Magnolia Tower and at Melrose."
         },
         {
           "id": "cc-melrose-elmhurst",
@@ -45209,9 +45225,9 @@
         38.032436
       ],
       "fids": [
-        1168,
         1169,
-        1170
+        1170,
+        1171
       ],
       "segments": [
         {
@@ -47884,6 +47900,854 @@
       ]
     },
     {
+      "id": "wp-ferry",
+      "name": "Western Pacific ferry, the WP mole to San Francisco",
+      "short_name": "WP ferry",
+      "system": "western-pacific",
+      "system_name": "Western Pacific Railroad",
+      "operators": [
+        {
+          "name": "Western Pacific",
+          "from": "1910-08-22",
+          "to": null
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1910-08-22",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Western Pacific's own ferry from its mole in Oakland to the Ferry Building, meeting its trains, except under federal control in 1918-20.",
+      "fate": "abandoned",
+      "fate_note": "Given up in 1933, when the WP's trains moved to the Southern Pacific's Oakland Pier and its passengers to the SP's ferries, between June 9 and October 1, 1933 (Point Richmond Progress; SP timetable No. 217).",
+      "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1933-05-10",
+          "source": "cscrm-2021-02-001279",
+          "pages": "2",
+          "note": "The WP mole is the trains' first station."
+        },
+        {
+          "date": "1933-06-09",
+          "source": "point-richmond-progress-1933-06-09",
+          "pages": "1",
+          "note": "The move to Oakland Pier and the SP's ferries is still to come."
+        }
+      ],
+      "undated": false,
+      "length_km": 5.8,
+      "confidence_km": {
+        "approximate": 5.8
+      },
+      "bbox": [
+        -122.394249,
+        37.79492,
+        -122.329793,
+        37.800059
+      ],
+      "fids": [
+        1192,
+        1193
+      ],
+      "segments": [
+        {
+          "id": "wp-ferry-course",
+          "name": "Ferry, the Western Pacific mole to the Ferry Building",
+          "opened": "1910-08-22",
+          "closed": null,
+          "to": "1918-05-28",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.32979,37.80006 to The Embarcadero/Market Street (5809 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Two slips at the Ferry Building, at the foot of Market St (Tribune, 1910)."
+        },
+        {
+          "id": "wp-ferry-course",
+          "name": "Ferry, the Western Pacific mole to the Ferry Building",
+          "opened": "1910-08-22",
+          "closed": null,
+          "from": "1920",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.32979,37.80006 to The Embarcadero/Market Street (5809 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Two slips at the Ferry Building, at the foot of Market St (Tribune, 1910)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1910-08-22",
+          "title": "Oakland Tribune, 1910-08-22: \"Oakland welcomes first W. P. train\" and \"W. P. ferries to care for traffic of line\"",
+          "publisher": "Oakland Tribune",
+          "date": "1910-08-22",
+          "url": "https://archive.org/details/oakland-tribune-1910-08-22",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1910-08-22",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "leaf 3"
+        },
+        {
+          "id": "oakland-tribune-1910-08-24",
+          "title": "Oakland Tribune, 1910-08-24: \"Western Pacific now runs regular trains\"",
+          "publisher": "Oakland Tribune",
+          "date": "1910-08-24",
+          "url": "https://archive.org/details/oakland-tribune-1910-08-24",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1910-08-24",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "The first regular train's San Francisco passengers took the boat, August 24, 1910."
+        },
+        {
+          "id": "oakland-tribune-1918-10-25",
+          "title": "Oakland Tribune, 1918-10-25: \"Ferry station to become warehouse\"",
+          "publisher": "Oakland Tribune",
+          "date": "1918-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1918-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1918-10-25",
+          "supports": [
+            "route"
+          ],
+          "pages": "7"
+        },
+        {
+          "id": "oakland-tribune-1920-12-08",
+          "title": "Oakland Tribune, 1920-12-08: Mayor Davie's telegram on the Oakland terminals",
+          "publisher": "Oakland Tribune",
+          "date": "1920-12-08",
+          "url": "https://archive.org/details/oakland-tribune-1920-12-08",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1920-12-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "B-1"
+        },
+        {
+          "id": "cscrm-2021-02-001279",
+          "title": "Western Pacific, Western Division, employee timetable No. 20, 1933-05-10",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1933-05-10",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001279",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001279",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "point-richmond-progress-1933-06-09",
+          "title": "Point Richmond Progress, June 9, 1933: California News Review",
+          "author": "Harry R. Burt (publisher)",
+          "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+          "date": "1933-06-09",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cric_000041",
+          "license": "Copyright status unknown; cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "point-richmond-progress-1933-06-09",
+          "supports": [
+            "general"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wp-oakland-stockton",
+      "name": "Western Pacific trains, Oakland to Stockton",
+      "short_name": "Western Pacific",
+      "system": "western-pacific",
+      "system_name": "Western Pacific Railroad",
+      "operators": [
+        {
+          "name": "Western Pacific",
+          "from": "1910-08-22",
+          "to": "1970-03"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1910-08-22",
+      "closed": "1970-03",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Western Pacific's passenger trains from Oakland along Third St, by San Leandro, Hayward and Niles, through Niles Canyon to Pleasanton and Livermore and over the Altamont Pass toward Stockton and Salt Lake City: the Scenic Limited and the Feather River Express, from 1949 the California Zephyr.",
+      "fate": "still_freight",
+      "fate_note": "The California Zephyr, the last train, left Oakland for Salt Lake City on its last trip on March 21, 1970 (AP). East of Fruitvale the line is the Union Pacific's Oakland Subdivision today, and ACE's trains run on it from Niles.",
+      "notes": "Ends in March 1970: the last eastbound left Oakland on March 21 (AP, in a paper of that day), and the last westbound left Salt Lake City the same day, so reached Oakland about the 22nd, which no source read gives. The days the WP's trains moved to Oakland Pier in 1918 and in 1933, and back to its own mole in 1920, aren't sourced; the map shows each terminal only between dates a source has it in use. Drawn to the San Joaquin county line (decision 16). Not drawn: the WP's San José branch, Niles to East San José (1922 to July 1931, CRC Decisions 23837 and 24234).",
+      "flags": [],
+      "undated": false,
+      "length_km": 100.65,
+      "confidence_km": {
+        "digitized": 13.34,
+        "surveyed": 87.31
+      },
+      "bbox": [
+        -122.33008,
+        37.567671,
+        -121.557119,
+        37.80914
+      ],
+      "fids": [
+        1172,
+        1173,
+        1174,
+        1175,
+        1176,
+        1177,
+        1178,
+        1179,
+        1180,
+        1181,
+        1182,
+        1183,
+        1184,
+        1185,
+        1186,
+        1187,
+        1188,
+        1189,
+        1190,
+        1191
+      ],
+      "segments": [
+        {
+          "id": "wp-mole",
+          "name": "The Western Pacific's mole, to Chestnut Junction",
+          "opened": "1910-08-22",
+          "closed": null,
+          "to": "1918-05-28",
+          "note": "San Francisco passengers took the WP's own ferry from its mole (Tribune, 1910).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (10 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The line the 1915 sheet labels Western Pacific, from its ferry slips at the end of the mole, south of the Southern Pacific's, along the mole and across the estuary's mouth to Chestnut Junction at First and Chestnut Sts.",
+          "structure": "mole",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "About 11,000 feet long, between the Southern Pacific's mole and the estuary's mouth (Tribune, 1910). Its passenger slips went out of use in 1918-20 and for good in 1933; when the track itself went isn't sourced."
+        },
+        {
+          "id": "wp-mole",
+          "name": "The Western Pacific's mole, to Chestnut Junction",
+          "opened": "1910-08-22",
+          "closed": null,
+          "from": "1920",
+          "to": "1933-06-09",
+          "note": "Back on its own mole after federal control (Tribune, 1920); still there on May 10, 1933 (WP timetable No. 20), and the move to Oakland Pier was still to come on June 9 (Point Richmond Progress).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS San Francisco 1:62,500 (1915) (10 hand-read points); the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The line the 1915 sheet labels Western Pacific, from its ferry slips at the end of the mole, south of the Southern Pacific's, along the mole and across the estuary's mouth to Chestnut Junction at First and Chestnut Sts.",
+          "structure": "mole",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "About 11,000 feet long, between the Southern Pacific's mole and the estuary's mouth (Tribune, 1910). Its passenger slips went out of use in 1918-20 and for good in 1933; when the track itself went isn't sourced."
+        },
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "from": "1918-10-25",
+          "to": "1920",
+          "note": "Under federal control the WP's trains used the Southern Pacific's Oakland Pier: its own ferry station was out of use by October 25, 1918 (Tribune), and it withdrew in 1920 (Tribune).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-west-oakland-connection",
+          "name": "West Oakland, the mole line to the First Street line",
+          "opened": null,
+          "closed": null,
+          "from": "1918-10-25",
+          "to": "1920",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). Traced from the 1949 sheet: from the mole line's east end round the wye's east leg and southeast along the north edge of the yard to where today's realigned track crosses it.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The trains from Oakland Pier to San José ran by West Oakland and Magnolia Tower to First St (timetable No. 234, 1941); when this track was laid isn't sourced."
+        },
+        {
+          "id": "cc-west-oakland-magnolia",
+          "name": "West Oakland to Magnolia Tower (First and Chestnut Sts)",
+          "opened": null,
+          "closed": null,
+          "from": "1918-10-25",
+          "to": "1920",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Magnolia Tower (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line from the mole by West Oakland to Magnolia Tower, at First and Chestnut Sts, where the Western Pacific crossed it (its Chestnut Junction); when it first carried passengers isn't sourced. Cut where the line from the mole meets today's realigned track, and at Magnolia Tower."
+        },
+        {
+          "id": "sp-oakland-mole",
+          "name": "Oakland Mole",
+          "opened": null,
+          "closed": null,
+          "from": "1933-10-01",
+          "to": "1958-07-30",
+          "note": "At Oakland Pier again by October 1, 1933 (SP timetable No. 217) until the last ferry on the night of July 29, 1958; from July 30 the trains ended at Oakland, with buses to San Francisco (Independent-Journal).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points). The centre of the mole's bundle of tracks, from the ferry slips to the shore at Seventh Street. The 1915 San Francisco sheet, corrected (sf1915-bay), puts the terminal within about 20 m of the 1949 sheet's.",
+          "structure": "mole",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ]
+        },
+        {
+          "id": "sp-west-oakland-connection",
+          "name": "West Oakland, the mole line to the First Street line",
+          "opened": null,
+          "closed": null,
+          "from": "1933-10-01",
+          "to": "1958-07-30",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (7 hand-read points, centred on the line symbol). Traced from the 1949 sheet: from the mole line's east end round the wye's east leg and southeast along the north edge of the yard to where today's realigned track crosses it.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The trains from Oakland Pier to San José ran by West Oakland and Magnolia Tower to First St (timetable No. 234, 1941); when this track was laid isn't sourced."
+        },
+        {
+          "id": "cc-west-oakland-magnolia",
+          "name": "West Oakland to Magnolia Tower (First and Chestnut Sts)",
+          "opened": null,
+          "closed": null,
+          "from": "1933-10-01",
+          "to": "1958-07-30",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Magnolia Tower (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line from the mole by West Oakland to Magnolia Tower, at First and Chestnut Sts, where the Western Pacific crossed it (its Chestnut Junction); when it first carried passengers isn't sourced. Cut where the line from the mole meets today's realigned track, and at Magnolia Tower."
+        },
+        {
+          "id": "wp-oakland-fruitvale",
+          "name": "Oakland, Chestnut Junction by Third St to Fruitvale",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Oakland West 1:24,000 (1949) (5 hand-read points); then along today's 3rd Street centerline from -122.28924,37.80107 to Oak Street (2087 m; Overture 2026-09-23.1); then traced by eye from USGS Oakland West 1:24,000 (1949) (13 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (9 hand-read points); then OpenHistoricalMap way 200236876 (CC0, as of 2026-10-15), cut to -122.21967,37.76968; checked on USGS Oakland West 1:24,000 (1949) and USGS Oakland East 1:24,000 (1949). From Chestnut Junction up to Third St, and along Third St, where the 1909 Tribune puts its double track and the 1949 sheets draw it, past the depot at Washington St to Oak St; then across the Lake Merritt channel and the yard at Fifth Ave, the northern tracks of the pair beside the Southern Pacific's, as the 1949 sheets label them; then OpenHistoricalMap's way from the 1915 sheet to today's Oakland Subdivision at Fruitvale.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Double track along Third St, with crossings at Webster St, Broadway and Washington St (Tribune, 1909); the depot was at Third and Washington Sts. The Southern Pacific's track crossed at Magnolia Tower, First and Chestnut Sts, the WP's Chestnut Junction."
+        },
+        {
+          "id": "wp-fruitvale-niles",
+          "name": "Fruitvale to Niles, by San Leandro and Hayward",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along OpenStreetMap's UP Oakland Subdivision from -122.21967,37.76968 to -121.96810,37.57450 (32613 m; Overture 2026-09-23.1 rail); checked on USGS Oakland East 1:24,000 (1949), USGS San Leandro 1:24,000 (1948), USGS Hayward 1:62,500 (1915) and USGS Niles 1:24,000 (1953). Today's Oakland Subdivision, the Western Pacific's line, from Fruitvale by Melrose, Elmhurst, San Leandro, Hayward and Decoto to Niles, where ACE's track joins it.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Still in place, as the Union Pacific's Oakland Subdivision."
+        },
+        {
+          "id": "ace-wp-niles-livermore",
+          "name": "Niles through Niles Canyon to Livermore",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Niles junction (WP) and Livermore Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The Western Pacific's line of 1910 on the south bank of Alameda Creek, today's Oakland Subdivision; OpenHistoricalMap's tracing of the 1923 Pleasanton sheet lies within about 25 m of it. Cut where the WP's line from Oakland joins ACE's track at Niles, and at Livermore."
+        },
+        {
+          "id": "ace-wp-livermore-county-line",
+          "name": "Livermore over the Altamont Pass to the San Joaquin county line",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Livermore Station and San Joaquin County line (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The Western Pacific's line of 1910 over the Altamont Pass, which the 1953 Altamont and Midway sheets label Western Pacific where ACE runs today. Cut at Livermore and at the county line."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1910-08-22",
+          "title": "Oakland Tribune, 1910-08-22: \"Oakland welcomes first W. P. train\" and \"W. P. ferries to care for traffic of line\"",
+          "publisher": "Oakland Tribune",
+          "date": "1910-08-22",
+          "url": "https://archive.org/details/oakland-tribune-1910-08-22",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1910-08-22",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1, leaf 3",
+          "note": "The first through train reached the depot at Third and Washington Sts at 4:15 p.m., August 22, 1910; the WP's ferry and mole."
+        },
+        {
+          "id": "oakland-tribune-1910-08-24",
+          "title": "Oakland Tribune, 1910-08-24: \"Western Pacific now runs regular trains\"",
+          "publisher": "Oakland Tribune",
+          "date": "1910-08-24",
+          "url": "https://archive.org/details/oakland-tribune-1910-08-24",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1910-08-24",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "The first eastbound overland, with ninety passengers, left Oakland at 5 p.m. on Monday, August 22, 1910; the first regular train from the east arrived on the 24th."
+        },
+        {
+          "id": "oakland-tribune-1909-07-18",
+          "title": "Oakland Tribune, 1909-07-18: \"Western Pacific double tracking\"",
+          "publisher": "Oakland Tribune",
+          "date": "1909-07-18",
+          "url": "https://archive.org/details/oakland-tribune-1909-07-18",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1909-07-18",
+          "supports": [
+            "route"
+          ],
+          "pages": "34"
+        },
+        {
+          "id": "cscrm-2021-02-000835",
+          "title": "Western Pacific, Western Division, employee timetable No. 2, 1919-01-05 (United States Railroad Administration)",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1919-01-05",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000835",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000835",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "oakland-tribune-1918-05-28",
+          "title": "Oakland Tribune, 1918-05-28: the union terminal at the Oakland mole",
+          "publisher": "Oakland Tribune",
+          "date": "1918-05-28",
+          "url": "https://archive.org/details/oakland-tribune-1918-05-28",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1918-05-28",
+          "supports": [
+            "route"
+          ],
+          "note": "The union terminal still a proposal on May 28, 1918 (read in the scan's text only)."
+        },
+        {
+          "id": "oakland-tribune-1918-10-25",
+          "title": "Oakland Tribune, 1918-10-25: \"Ferry station to become warehouse\"",
+          "publisher": "Oakland Tribune",
+          "date": "1918-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1918-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1918-10-25",
+          "supports": [
+            "route"
+          ],
+          "pages": "7"
+        },
+        {
+          "id": "oakland-tribune-1920-12-08",
+          "title": "Oakland Tribune, 1920-12-08: Mayor Davie's telegram on the Oakland terminals",
+          "publisher": "Oakland Tribune",
+          "date": "1920-12-08",
+          "url": "https://archive.org/details/oakland-tribune-1920-12-08",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1920-12-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "B-1"
+        },
+        {
+          "id": "cscrm-2021-02-001279",
+          "title": "Western Pacific, Western Division, employee timetable No. 20, 1933-05-10",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1933-05-10",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001279",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001279",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "point-richmond-progress-1933-06-09",
+          "title": "Point Richmond Progress, June 9, 1933: California News Review",
+          "author": "Harry R. Burt (publisher)",
+          "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+          "date": "1933-06-09",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cric_000041",
+          "license": "Copyright status unknown; cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "point-richmond-progress-1933-06-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "cscrm-2021-02-001268",
+          "title": "Southern Pacific, Western Division, employee timetable No. 217, 1933-10-01",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1933-10-01",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001268",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001268",
+          "supports": [
+            "route"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "cscrm-2021-02-001673",
+          "title": "Western Pacific, Western Division, employee timetable No. 38, 1949-03-20",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1949-03-20",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001673",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001673",
+          "supports": [
+            "general"
+          ],
+          "pages": "1",
+          "note": "The California Zephyr from March 20, 1949."
+        },
+        {
+          "id": "san-rafael-ij-1958-07-29",
+          "title": "San Rafael Daily Independent-Journal, July 29, 1958: Western Pacific notice and \"last of the ferry boats\"",
+          "publisher": "San Rafael Daily Independent-Journal",
+          "date": "1958-07-29",
+          "type": "journal",
+          "url": "https://archive.org/details/san-rafael-daily-independent-journal-1958-07-29",
+          "license": "Copyright (1958); cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "san-rafael-ij-1958-07-29",
+          "supports": [
+            "route"
+          ],
+          "pages": "2-3"
+        },
+        {
+          "id": "red-bluff-daily-news-1970-03-21",
+          "title": "Red Bluff Daily News, March 21, 1970: \"Zephyrs last trip\" (AP)",
+          "publisher": "Red Bluff Daily News",
+          "date": "1970-03-21",
+          "type": "journal",
+          "url": "https://archive.org/details/red-bluff-daily-news-1970-03-21",
+          "license": "Copyright (1970); cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "red-bluff-daily-news-1970-03-21",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "The California Zephyr \"leaves for Salt Lake City on its last trip today\", March 21, 1970: on or about March 1970."
+        },
+        {
+          "id": "cscrm-2021-02-002322",
+          "title": "Western Pacific, Western Division, employee timetable No. 1, 1970-07-19",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1970-07-19",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_002322",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-002322",
+          "supports": [
+            "closed"
+          ],
+          "pages": "2",
+          "note": "No passenger trains by July 19, 1970."
+        },
+        {
+          "id": "usgs-san-francisco-1915",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1915",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298897_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry",
+            "name"
+          ]
+        },
+        {
+          "id": "cscrm-2021-02-001466",
+          "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1941-09-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "route"
+          ],
+          "pages": "12"
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200236876"
+        },
+        {
+          "id": "usgs-san-leandro-1948",
+          "title": "San Leandro, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Leandro_300123_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-leandro-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-hayward-1915",
+          "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-hayward-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-niles-1953",
+          "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-niles-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-511",
+          "title": "511 SF Bay regional GTFS feed (operator RG)",
+          "publisher": "Metropolitan Transportation Commission (511.org)",
+          "url": "https://api.511.org/transit/datafeeds?operator_id=RG",
+          "type": "dataset",
+          "license": "511 SF Bay Open Data Data Agreement: https://511.org/sites/default/files/pdfs/511_Data_Agreement_Final.pdf",
+          "accessed": "2026-10-14",
+          "source": "gtfs-511",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ac-transit-1t",
       "name": "1T International–E. 14th",
       "short_name": "1T",
@@ -47918,8 +48782,8 @@
         37.789032
       ],
       "fids": [
-        132,
-        133
+        147,
+        148
       ],
       "segments": [
         {
@@ -48019,7 +48883,7 @@
         37.801379
       ],
       "fids": [
-        131
+        146
       ],
       "segments": [
         {
@@ -48129,7 +48993,7 @@
         37.79567
       ],
       "fids": [
-        257
+        272
       ],
       "segments": [
         {
@@ -48203,9 +49067,9 @@
       "notes": "Over Union Pacific's older freight line; its track dates are for the past era.",
       "flags": [],
       "undated": false,
-      "length_km": 157.41,
+      "length_km": 157.08,
       "confidence_km": {
-        "surveyed": 157.41
+        "surveyed": 157.08
       },
       "bbox": [
         -122.03319,
@@ -48237,23 +49101,397 @@
         21,
         22,
         23,
-        24
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
       ],
       "segments": [
         {
-          "id": "ace-gtfs",
-          "name": "Altamont Corridor Express, as run in GTFS",
+          "id": "ace-undated-1",
+          "name": "Altamont Corridor Express, part not yet dated",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          ]
+        },
+        {
+          "id": "ace-undated-5",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-4",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-2",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-6",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-3",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-wp-niles-livermore",
+          "name": "Niles through Niles Canyon to Livermore",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Niles junction (WP) and Livermore Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The Western Pacific's line of 1910 on the south bank of Alameda Creek, today's Oakland Subdivision; OpenHistoricalMap's tracing of the 1923 Pleasanton sheet lies within about 25 m of it. Cut where the WP's line from Oakland joins ACE's track at Niles, and at Livermore."
+        },
+        {
+          "id": "ace-undated-16",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-17",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-wp-livermore-county-line",
+          "name": "Livermore over the Altamont Pass to the San Joaquin county line",
+          "opened": "1910-08-22",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Livermore Station and San Joaquin County line (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The Western Pacific's line of 1910 over the Altamont Pass, which the 1953 Altamont and Midway sheets label Western Pacific where ACE runs today. Cut at Livermore and at the county line."
+        },
+        {
+          "id": "ace-undated-18",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-7",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-19",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-8",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-20",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-9",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-21",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-10",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-22",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-15",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-23",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-14",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-24",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-13",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-12",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-11",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "ace-undated-25",
+          "name": "Altamont Corridor Express, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 2 shapes run by 48 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
         }
       ],
       "sources": [
@@ -48286,6 +49524,38 @@
             "opened"
           ],
           "note": "\"In 1998, on October 19th, ACE commenced passenger rail service, connecting San Jose and Stockton.\""
+        },
+        {
+          "id": "oakland-tribune-1910-08-24",
+          "title": "Oakland Tribune, 1910-08-24: \"Western Pacific now runs regular trains\"",
+          "publisher": "Oakland Tribune",
+          "date": "1910-08-24",
+          "url": "https://archive.org/details/oakland-tribune-1910-08-24",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1910-08-24",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5",
+          "note": "The Western Pacific's first eastbound overland, with ninety passengers, left Oakland at 5 p.m. on Monday, August 22, 1910."
+        },
+        {
+          "id": "cscrm-2021-02-000835",
+          "title": "Western Pacific, Western Division, employee timetable No. 2, 1919-01-05 (United States Railroad Administration)",
+          "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+          "date": "1919-01-05",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000835",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000835",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "Niles, Sunol, Pleasanton and Livermore."
         }
       ]
     },
@@ -48320,7 +49590,7 @@
         37.86921
       ],
       "fids": [
-        156
+        171
       ],
       "segments": [
         {
@@ -48405,13 +49675,13 @@
         37.80994
       ],
       "fids": [
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
       ],
       "segments": [
         {
@@ -48619,8 +49889,8 @@
         37.41049
       ],
       "fids": [
-        281,
-        282
+        296,
+        297
       ],
       "segments": [
         {
@@ -48691,8 +49961,8 @@
         37.79367
       ],
       "fids": [
-        171,
-        172
+        186,
+        187
       ],
       "segments": [
         {
@@ -48790,13 +50060,13 @@
         38.981813
       ],
       "fids": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
       ],
       "segments": [
         {
@@ -48998,17 +50268,17 @@
         37.7762
       ],
       "fids": [
-        135,
-        136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
       ],
       "segments": [
         {
@@ -49299,25 +50569,26 @@
         38.902995
       ],
       "fids": [
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
         64,
         65,
         66,
         67,
-        68
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
       ],
       "segments": [
         {
@@ -49470,19 +50741,34 @@
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "cc-west-oakland-melrose",
-          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "id": "cc-magnolia-melrose",
+          "name": "Magnolia Tower to Melrose, by First St and Fruitvale",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Magnolia Tower and Melrose (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut at Magnolia Tower and at Melrose."
+        },
+        {
+          "id": "cc-west-oakland-magnolia",
+          "name": "West Oakland to Magnolia Tower (First and Chestnut Sts)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Magnolia Tower (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line from the mole by West Oakland to Magnolia Tower, at First and Chestnut Sts, where the Western Pacific crossed it (its Chestnut Junction); when it first carried passengers isn't sourced. Cut where the line from the mole meets today's realigned track, and at Magnolia Tower."
         },
         {
           "id": "capitol-corridor-undated-2",
@@ -49760,24 +51046,25 @@
         39.0
       ],
       "fids": [
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
         45,
         46,
         47,
         48,
-        49
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
       ],
       "segments": [
         {
@@ -49875,19 +51162,34 @@
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Cut at Elmhurst, where the Southern Pacific's line to Newark and Santa Clara, the Coast Starlight's today, leaves it. Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "cc-west-oakland-melrose",
-          "name": "West Oakland to Melrose, by First St and Fruitvale",
+          "id": "cc-magnolia-melrose",
+          "name": "Magnolia Tower to Melrose, by First St and Fruitvale",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Melrose (data/present/extensions.json)",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Magnolia Tower and Melrose (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
           ],
-          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut where the line from the mole, by the north edge of the West Oakland yard, meets today's realigned track, and at Melrose."
+          "notes": "The Southern Pacific's line through Oakland by First St (the Embarcadero), with stations at Oakland (First Street), East Oakland and Fruitvale in 1941; when it first carried passengers isn't sourced. Cut at Magnolia Tower and at Melrose."
+        },
+        {
+          "id": "cc-west-oakland-magnolia",
+          "name": "West Oakland to Magnolia Tower (First and Chestnut Sts)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between West Oakland junction and Magnolia Tower (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's line from the mole by West Oakland to Magnolia Tower, at First and Chestnut Sts, where the Western Pacific crossed it (its Chestnut Junction); when it first carried passengers isn't sourced. Cut where the line from the mole meets today's realigned track, and at Magnolia Tower."
         },
         {
           "id": "amtrak-coast-starlight-undated-2",
@@ -50174,20 +51476,20 @@
         37.80862
       ],
       "fids": [
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-        194,
-        195,
-        196
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211
       ],
       "segments": [
         {
@@ -50435,16 +51737,16 @@
         38.057994
       ],
       "fids": [
-        146,
-        147,
-        148,
-        149,
-        150,
-        151,
-        152,
-        153,
-        154,
-        155
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
       ],
       "segments": [
         {
@@ -50718,15 +52020,15 @@
         37.80994
       ],
       "fids": [
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
       ],
       "segments": [
         {
@@ -50970,8 +52272,8 @@
         37.41132
       ],
       "fids": [
-        283,
-        284
+        298,
+        299
       ],
       "segments": [
         {
@@ -51043,7 +52345,7 @@
         37.79689
       ],
       "fids": [
-        258
+        273
       ],
       "segments": [
         {
@@ -51113,18 +52415,18 @@
         37.79443
       ],
       "fids": [
-        197,
-        198,
-        199,
-        200,
-        201,
-        202,
-        203,
-        204,
-        205,
-        206,
-        207,
-        208
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
       ],
       "segments": [
         {
@@ -51414,17 +52716,17 @@
         37.79443
       ],
       "fids": [
-        209,
-        210,
-        211,
-        212,
-        213,
-        214,
-        215,
-        216,
-        217,
-        218,
-        219
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
       ],
       "segments": [
         {
@@ -51676,16 +52978,16 @@
         37.79443
       ],
       "fids": [
-        220,
-        221,
-        222,
-        223,
-        224,
-        225,
-        226,
-        227,
-        228,
-        229
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
       ],
       "segments": [
         {
@@ -51942,7 +53244,7 @@
         37.94473
       ],
       "fids": [
-        157
+        172
       ],
       "segments": [
         {
@@ -52025,17 +53327,17 @@
         37.79443
       ],
       "fids": [
-        230,
-        231,
-        232,
-        233,
-        234,
-        235,
-        236,
-        237,
-        238,
-        239,
-        240
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
       ],
       "segments": [
         {
@@ -52278,18 +53580,18 @@
         37.79443
       ],
       "fids": [
-        241,
-        242,
-        243,
-        244,
-        245,
-        246,
-        247,
-        248,
-        249,
-        250,
-        251,
-        252
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
       ],
       "segments": [
         {
@@ -52609,7 +53911,7 @@
         38.507811
       ],
       "fids": [
-        169
+        184
       ],
       "segments": [
         {
@@ -52728,12 +54030,12 @@
         37.599572
       ],
       "fids": [
-        163,
-        164,
-        165,
-        166,
-        167,
-        168
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -52836,8 +54138,8 @@
         37.79853
       ],
       "fids": [
-        259,
-        260
+        274,
+        275
       ],
       "segments": [
         {
@@ -52909,7 +54211,7 @@
         37.75358
       ],
       "fids": [
-        86
+        101
       ],
       "segments": [
         {
@@ -53004,7 +54306,7 @@
         37.79417
       ],
       "fids": [
-        261
+        276
       ],
       "segments": [
         {
@@ -53089,14 +54391,14 @@
         37.93674
       ],
       "fids": [
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109
       ],
       "segments": [
         {
@@ -53319,13 +54621,13 @@
         37.41578
       ],
       "fids": [
-        285,
-        286,
-        287,
-        288,
-        289,
-        290,
-        291
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306
       ],
       "segments": [
         {
@@ -53487,12 +54789,12 @@
         37.806637
       ],
       "fids": [
-        173,
-        174,
-        175,
-        176,
-        177,
-        178
+        188,
+        189,
+        190,
+        191,
+        192,
+        193
       ],
       "segments": [
         {
@@ -53635,10 +54937,10 @@
         37.805226
       ],
       "fids": [
-        179,
-        180,
-        181,
-        182
+        194,
+        195,
+        196,
+        197
       ],
       "segments": [
         {
@@ -53770,7 +55072,7 @@
         37.361934
       ],
       "fids": [
-        134
+        149
       ],
       "segments": [
         {
@@ -53879,22 +55181,22 @@
         37.93674
       ],
       "fids": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
       ],
       "segments": [
         {
@@ -54215,8 +55517,8 @@
         37.90948
       ],
       "fids": [
-        262,
-        263
+        277,
+        278
       ],
       "segments": [
         {
@@ -54313,13 +55615,13 @@
         37.63509
       ],
       "fids": [
-        268,
-        269,
-        270,
-        271,
-        272,
-        273,
-        274
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289
       ],
       "segments": [
         {
@@ -54404,11 +55706,11 @@
         38.549119
       ],
       "fids": [
-        275,
-        276,
-        277,
-        278,
-        279
+        290,
+        291,
+        292,
+        293,
+        294
       ],
       "segments": [
         {
@@ -54626,8 +55928,8 @@
         37.85629
       ],
       "fids": [
-        158,
-        159
+        173,
+        174
       ],
       "segments": [
         {
@@ -54710,8 +56012,8 @@
         37.80034
       ],
       "fids": [
-        264,
-        265
+        279,
+        280
       ],
       "segments": [
         {
@@ -54795,10 +56097,10 @@
         37.794812
       ],
       "fids": [
-        253,
-        254,
-        255,
-        256
+        268,
+        269,
+        270,
+        271
       ],
       "segments": [
         {
@@ -54935,7 +56237,7 @@
         37.87257
       ],
       "fids": [
-        69
+        84
       ],
       "segments": [
         {
@@ -55005,8 +56307,8 @@
         37.87273
       ],
       "fids": [
-        160,
-        161
+        175,
+        176
       ],
       "segments": [
         {
@@ -55090,7 +56392,7 @@
         37.81667
       ],
       "fids": [
-        280
+        295
       ],
       "segments": [
         {
@@ -55176,7 +56478,7 @@
         37.87273
       ],
       "fids": [
-        162
+        177
       ],
       "segments": [
         {
@@ -55247,8 +56549,8 @@
         38.10147
       ],
       "fids": [
-        266,
-        267
+        281,
+        282
       ],
       "segments": [
         {
@@ -55337,7 +56639,7 @@
         38.205739
       ],
       "fids": [
-        170
+        185
       ],
       "segments": [
         {
@@ -55421,26 +56723,26 @@
         38.02385
       ],
       "fids": [
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125,
         126,
         127,
         128,
         129,
-        130
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
       ],
       "segments": [
         {

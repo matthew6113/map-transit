@@ -1,0 +1,286 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Western Pacific's passenger trains and ferry in the Bay Area. Research: docs/research/sources-2c/western-pacific.md.",
+ "lines": [
+  {
+   "id": "wp-oakland-stockton",
+   "name": "Western Pacific trains, Oakland to Stockton",
+   "short_name": "Western Pacific",
+   "system": "western-pacific",
+   "operators": [
+    {
+     "name": "Western Pacific",
+     "from": "1910-08-22",
+     "to": "1970-03"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1910-08-22",
+   "closed": "1970-03",
+   "status": "closed",
+   "summary": "The Western Pacific's passenger trains from Oakland along Third St, by San Leandro, Hayward and Niles, through Niles Canyon to Pleasanton and Livermore and over the Altamont Pass toward Stockton and Salt Lake City: the Scenic Limited and the Feather River Express, from 1949 the California Zephyr.",
+   "fate": "still_freight",
+   "fate_note": "The California Zephyr, the last train, left Oakland for Salt Lake City on its last trip on March 21, 1970 (AP). East of Fruitvale the line is the Union Pacific's Oakland Subdivision today, and ACE's trains run on it from Niles.",
+   "route": [
+    {
+     "segment": "wp-mole",
+     "to": "1918-05-28",
+     "note": "San Francisco passengers took the WP's own ferry from its mole (Tribune, 1910)."
+    },
+    {
+     "segment": "wp-mole",
+     "from": "1920",
+     "to": "1933-06-09",
+     "note": "Back on its own mole after federal control (Tribune, 1920); still there on May 10, 1933 (WP timetable No. 20), and the move to Oakland Pier was still to come on June 9 (Point Richmond Progress)."
+    },
+    {
+     "segment": "sp-oakland-mole",
+     "from": "1918-10-25",
+     "to": "1920",
+     "note": "Under federal control the WP's trains used the Southern Pacific's Oakland Pier: its own ferry station was out of use by October 25, 1918 (Tribune), and it withdrew in 1920 (Tribune)."
+    },
+    {
+     "segment": "sp-west-oakland-connection",
+     "from": "1918-10-25",
+     "to": "1920"
+    },
+    {
+     "segment": "cc-west-oakland-magnolia",
+     "from": "1918-10-25",
+     "to": "1920"
+    },
+    {
+     "segment": "sp-oakland-mole",
+     "from": "1933-10-01",
+     "to": "1958-07-30",
+     "note": "At Oakland Pier again by October 1, 1933 (SP timetable No. 217) until the last ferry on the night of July 29, 1958; from July 30 the trains ended at Oakland, with buses to San Francisco (Independent-Journal)."
+    },
+    {
+     "segment": "sp-west-oakland-connection",
+     "from": "1933-10-01",
+     "to": "1958-07-30"
+    },
+    {
+     "segment": "cc-west-oakland-magnolia",
+     "from": "1933-10-01",
+     "to": "1958-07-30"
+    },
+    {
+     "segment": "wp-oakland-fruitvale"
+    },
+    {
+     "segment": "wp-fruitvale-niles"
+    },
+    {
+     "segment": "ace-wp-niles-livermore"
+    },
+    {
+     "segment": "ace-wp-livermore-county-line"
+    }
+   ],
+   "sources": [
+    {
+     "source": "oakland-tribune-1910-08-22",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "1, leaf 3",
+     "note": "The first through train reached the depot at Third and Washington Sts at 4:15 p.m., August 22, 1910; the WP's ferry and mole."
+    },
+    {
+     "source": "oakland-tribune-1910-08-24",
+     "supports": [
+      "opened"
+     ],
+     "pages": "5",
+     "note": "The first eastbound overland, with ninety passengers, left Oakland at 5 p.m. on Monday, August 22, 1910; the first regular train from the east arrived on the 24th."
+    },
+    {
+     "source": "oakland-tribune-1909-07-18",
+     "supports": [
+      "route"
+     ],
+     "pages": "34"
+    },
+    {
+     "source": "cscrm-2021-02-000835",
+     "supports": [
+      "route"
+     ],
+     "pages": "2"
+    },
+    {
+     "source": "oakland-tribune-1918-05-28",
+     "supports": [
+      "route"
+     ],
+     "note": "The union terminal still a proposal on May 28, 1918 (read in the scan's text only)."
+    },
+    {
+     "source": "oakland-tribune-1918-10-25",
+     "supports": [
+      "route"
+     ],
+     "pages": "7"
+    },
+    {
+     "source": "oakland-tribune-1920-12-08",
+     "supports": [
+      "route"
+     ],
+     "pages": "B-1"
+    },
+    {
+     "source": "cscrm-2021-02-001279",
+     "supports": [
+      "route"
+     ],
+     "pages": "2"
+    },
+    {
+     "source": "point-richmond-progress-1933-06-09",
+     "supports": [
+      "route"
+     ],
+     "pages": "1"
+    },
+    {
+     "source": "cscrm-2021-02-001268",
+     "supports": [
+      "route"
+     ],
+     "pages": "8"
+    },
+    {
+     "source": "cscrm-2021-02-001673",
+     "supports": [
+      "general"
+     ],
+     "pages": "1",
+     "note": "The California Zephyr from March 20, 1949."
+    },
+    {
+     "source": "san-rafael-ij-1958-07-29",
+     "supports": [
+      "route"
+     ],
+     "pages": "2-3"
+    },
+    {
+     "source": "red-bluff-daily-news-1970-03-21",
+     "supports": [
+      "closed"
+     ],
+     "pages": "1",
+     "note": "The California Zephyr \"leaves for Salt Lake City on its last trip today\", March 21, 1970: on or about March 1970."
+    },
+    {
+     "source": "cscrm-2021-02-002322",
+     "supports": [
+      "closed"
+     ],
+     "pages": "2",
+     "note": "No passenger trains by July 19, 1970."
+    }
+   ],
+   "flags": [],
+   "notes": "Ends in March 1970: the last eastbound left Oakland on March 21 (AP, in a paper of that day), and the last westbound left Salt Lake City the same day, so reached Oakland about the 22nd, which no source read gives. The days the WP's trains moved to Oakland Pier in 1918 and in 1933, and back to its own mole in 1920, aren't sourced; the map shows each terminal only between dates a source has it in use. Drawn to the San Joaquin county line (decision 16). Not drawn: the WP's San José branch, Niles to East San José (1922 to July 1931, CRC Decisions 23837 and 24234)."
+  },
+  {
+   "id": "wp-ferry",
+   "name": "Western Pacific ferry, the WP mole to San Francisco",
+   "short_name": "WP ferry",
+   "system": "western-pacific",
+   "operators": [
+    {
+     "name": "Western Pacific",
+     "from": "1910-08-22",
+     "to": null
+    }
+   ],
+   "mode": "ferry",
+   "era": "past",
+   "opened": "1910-08-22",
+   "closed": null,
+   "status": "closed",
+   "summary": "The Western Pacific's own ferry from its mole in Oakland to the Ferry Building, meeting its trains, except under federal control in 1918-20.",
+   "fate": "abandoned",
+   "fate_note": "Given up in 1933, when the WP's trains moved to the Southern Pacific's Oakland Pier and its passengers to the SP's ferries, between June 9 and October 1, 1933 (Point Richmond Progress; SP timetable No. 217).",
+   "route": [
+    {
+     "segment": "wp-ferry-course",
+     "to": "1918-05-28"
+    },
+    {
+     "segment": "wp-ferry-course",
+     "from": "1920"
+    }
+   ],
+   "running": [
+    {
+     "date": "1933-05-10",
+     "source": "cscrm-2021-02-001279",
+     "pages": "2",
+     "note": "The WP mole is the trains' first station."
+    },
+    {
+     "date": "1933-06-09",
+     "source": "point-richmond-progress-1933-06-09",
+     "pages": "1",
+     "note": "The move to Oakland Pier and the SP's ferries is still to come."
+    }
+   ],
+   "sources": [
+    {
+     "source": "oakland-tribune-1910-08-22",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "leaf 3"
+    },
+    {
+     "source": "oakland-tribune-1910-08-24",
+     "supports": [
+      "opened"
+     ],
+     "pages": "5",
+     "note": "The first regular train's San Francisco passengers took the boat, August 24, 1910."
+    },
+    {
+     "source": "oakland-tribune-1918-10-25",
+     "supports": [
+      "route"
+     ],
+     "pages": "7"
+    },
+    {
+     "source": "oakland-tribune-1920-12-08",
+     "supports": [
+      "route"
+     ],
+     "pages": "B-1"
+    },
+    {
+     "source": "cscrm-2021-02-001279",
+     "supports": [
+      "route"
+     ],
+     "pages": "2"
+    },
+    {
+     "source": "point-richmond-progress-1933-06-09",
+     "supports": [
+      "general"
+     ],
+     "pages": "1"
+    }
+   ],
+   "flags": [
+    "closed_unsourced"
+   ],
+   "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered."
+  }
+ ]
+}

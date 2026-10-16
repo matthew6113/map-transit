@@ -272,6 +272,12 @@
       "short_name": "VTA"
     },
     {
+      "id": "western-pacific",
+      "name": "Western Pacific Railroad",
+      "short_name": "Western Pacific",
+      "notes": "The Western Pacific of 1903 (not the 1862 company of the same name), from Oakland through Niles Canyon and over the Altamont Pass to Stockton and Salt Lake City, with its own mole and ferry to San Francisco; passenger trains 1910-1970, the California Zephyr from 1949."
+    },
+    {
       "id": "western-railway-museum",
       "name": "Western Railway Museum",
       "short_name": "Western Railway Museum",

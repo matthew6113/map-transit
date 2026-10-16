@@ -256,6 +256,9 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-sr-avon-galindo` Avon to Galindo, north of Concord | geotiff | usgs-vine-hill-1959 | 15 m | [sheet 1](../screenshots/p2c/traces/sp-sr-avon-galindo-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-avon-galindo-2.jpg) [sheet 3](../screenshots/p2c/traces/sp-sr-avon-galindo-3.jpg) [sheet galindo](../screenshots/p2c/traces/sp-sr-avon-galindo.jpg) |
 | `sp-sr-galindo-danville` Galindo to Danville, by Concord and Walnut Creek | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sp-sr-galindo-danville-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-galindo-danville-2.jpg) [sheet 3](../screenshots/p2c/traces/sp-sr-galindo-danville-3.jpg) |
 | `sp-sr-danville-san-ramon` Danville to San Ramon | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sp-sr-danville-san-ramon-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-danville-san-ramon-2.jpg) |
+| `wp-mole` The Western Pacific's mole, to Chestnut Junction | similarity | usgs-san-francisco-1915 | 50 m | [corrected](../screenshots/p2c/traces/wp-mole-corrected.jpg) [as traced](../screenshots/p2c/traces/wp-mole.jpg) |
+| `wp-ferry-course` Ferry, the Western Pacific mole to the Ferry Building | approximate |  |  |  |
+| `wp-oakland-fruitvale` Oakland, Chestnut Junction by Third St to Fruitvale | geotiff | usgs-oakland-west-1949 | 30 m | [sheet 1](../screenshots/p2c/traces/wp-oakland-fruitvale-1.jpg) [sheet 2](../screenshots/p2c/traces/wp-oakland-fruitvale-2.jpg) |
 | line `eb-1-east-14th` No. 1 East 14th Street: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-1-east-14th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-2.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-3.jpg) |
 | line `eb-2-san-pablo` No. 2 San Pablo Avenue: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-2-san-pablo-streets.jpg) |
 | line `eb-6-college` No. 6 College Avenue: its 20 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-6-college-streets.jpg) |
@@ -361,6 +364,7 @@ Each end dated by the month of the order or event that brought it, because no so
 - line `nwp-main-line` (Northwestern Pacific trains to Eureka, from San Rafael), closed 1958-11: "is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points"; "The effective date of this order shall be twenty days after the date hereof." Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17).
 - line `sp-santa-rosa-branch` (Southern Pacific, Santa Rosa branch), closed 1928-12: Effective December 6, 1928, twenty days after the order: on or about December 1928 (decision 17); the last run isn't dated.
 - line `sp-san-ramon-branch` (Southern Pacific, San Ramon branch), closed 1934-02: Authorized "to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch", effective on the date of the order, February 26, 1934, on ten days' notice to the public: on or about February 1934 (decision 17). The trains ran "on two days a week; namely, Tuesdays and Fridays".
+- line `wp-oakland-stockton` (Western Pacific trains, Oakland to Stockton), closed 1970-03: The California Zephyr "leaves for Salt Lake City on its last trip today", March 21, 1970: on or about March 1970.
 
 ## Drawn for its running dates (decision 20)
 
@@ -438,3 +442,4 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `sfnp-guerneville` San Francisco & North Pacific, Guerneville branch | 1887 (poors-1887, p. 873); 1935-05-20 (crc-d27973, p. 3) | closing |
 | `spc-alameda-santa-cruz` South Pacific Coast, Alameda to Santa Cruz | 1900 (poors-1900, p. 616-617) | closing |
 | `sp-oakland-san-jose-elmhurst` Southern Pacific trains, Oakland Pier to San José by Elmhurst and Newark | 1941-09-28 (cscrm-2021-02-001466, p. 12) | opening |
+| `wp-ferry` Western Pacific ferry, the WP mole to San Francisco | 1933-05-10 (cscrm-2021-02-001279, p. 2); 1933-06-09 (point-richmond-progress-1933-06-09, p. 1) | closing |

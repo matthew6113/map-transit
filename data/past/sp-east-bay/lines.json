@@ -1019,7 +1019,10 @@
           "segment": "sp-west-oakland-connection"
         },
         {
-          "segment": "cc-west-oakland-melrose"
+          "segment": "cc-west-oakland-magnolia"
+        },
+        {
+          "segment": "cc-magnolia-melrose"
         },
         {
           "segment": "cc-melrose-elmhurst"

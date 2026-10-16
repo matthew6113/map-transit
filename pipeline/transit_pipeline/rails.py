@@ -37,6 +37,7 @@ AREAS = {
     "oakland": (-122.34, 37.70, -122.15, 37.82),  # West Oakland to Elmhurst and San Leandro (the Southern Pacific's Oakland-San José trains)
     "nilescanyon": (-122.0, 37.565, -121.86, 37.645),  # Niles to Sunol (the Niles Canyon Railway)
     "riovista": (-121.90, 38.11, -121.85, 38.215),  # Rio Vista Junction and the Sacramento Northern south of it (the Western Railway Museum)
+    "westernpacific": (-122.23, 37.56, -121.95, 37.78),  # Fruitvale by San Leandro and Hayward to Niles (the Western Pacific, today's Oakland Subdivision)
 }
 SOURCE_ID = "overture-rail-2026-09-23-1"
 SNAP_M = 150.0  # an end this close to today's track is on it

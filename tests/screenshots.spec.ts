@@ -114,6 +114,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-mare-island-ferry', url: '/l/mare-island-ferry?era=past&year=1943&test=1&at=99' },
   { name: 'past-line-oakland-san-jose-1941', url: '/l/sp-oakland-san-jose-elmhurst?era=past&year=1950&test=1&at=99' },
   { name: 'present-line-niles-canyon-railway', url: '/l/niles-canyon-railway?era=present&test=1&at=99' },
+  { name: 'past-line-western-pacific', url: '/l/wp-oakland-stockton?era=past&year=1925&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

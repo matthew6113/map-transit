@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Western Pacific's passenger trains, 1910-1970
+
+- **Western Pacific trains, Oakland to Stockton** (`western-pacific/`): from the first through
+  train of August 22, 1910 (*Oakland Tribune*) to the California Zephyr's last trip from Oakland on
+  March 21, 1970 (AP), along Third St through Oakland, by San Leandro, Hayward and Niles, through
+  Niles Canyon and over the Altamont Pass to the San Joaquin county line (decision 16). Its trains
+  used its own mole until 1933, except under federal control (1918-20), and the Southern Pacific's
+  Oakland Pier from 1933 to the last ferry on July 29, 1958; each terminal is drawn only between dates
+  a source has it in use, since the days of the moves aren't sourced.
+- **Western Pacific ferry,** its mole to the Ferry Building, 1910 to 1933 (decision 20 for its end).
+- Geometry: the mole traced from the 1915 sheet with the bay correction; Third St on today's
+  centerline; the line to Fruitvale traced from the 1949 sheets; today's Oakland Subdivision to
+  Niles; and ACE's track from Niles to the county line, now dated from 1910 (decision 13). The
+  Capitol Corridor's track is also cut at Magnolia Tower, where the WP crossed the SP.
+- Not drawn: the WP's San José branch (1922-31).
+
 ## 2026-10-16: The heritage railways, in today's network
 
 - **Niles Canyon Railway, Napa Valley Wine Train and Western Railway Museum**

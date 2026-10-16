@@ -1,17 +1,17 @@
 {
   "past": {
-    "lines": 133,
-    "segments": 557,
+    "lines": 135,
+    "segments": 561,
     "points": 11,
     "km_by_confidence": {
-      "approximate": 182.0,
-      "digitized": 596.6,
-      "surveyed": 677.3
+      "approximate": 187.8,
+      "digitized": 607.6,
+      "surveyed": 709.9
     },
     "undated_segments": 8,
-    "borrowed_dates": 509,
+    "borrowed_dates": 513,
     "flags": {
-      "closed_unsourced": 550,
+      "closed_unsourced": 555,
       "conflicting_sources": 30,
       "geometry_unverified": 6,
       "needs_manual_digitizing": 7,
@@ -21,17 +21,17 @@
   },
   "present": {
     "lines": 47,
-    "segments": 145,
+    "segments": 172,
     "points": 275,
     "km_by_confidence": {
-      "surveyed": 1715.4
+      "surveyed": 1715.1
     },
     "undated_segments": 14,
-    "borrowed_dates": 50,
+    "borrowed_dates": 75,
     "flags": {
       "conflicting_sources": 4,
       "license_unclear": 31,
-      "opened_unsourced": 350,
+      "opened_unsourced": 375,
       "status_unverified": 1
     }
   },
