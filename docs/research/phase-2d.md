@@ -39,8 +39,8 @@ marked there.
 
 ## OpenHistoricalMap: what's left
 
-`docs/checks/ohm.md` now lists 227 unused ways, down from 365 in the survey of Oct 15: later groups
-drew from 92 more, and this pass recorded 48 as duplicates of track drawn here and skipped 13
+`docs/checks/ohm.md` now lists 226 unused ways, down from 365 in the survey of Oct 15: later groups
+drew from 93 more, and this pass recorded 48 as duplicates of track drawn here and skipped 13
 (today's track traced from misregistered sheets, and Camp Fremont's military railway). What the rest
 are, as far as their tags and places show:
 
