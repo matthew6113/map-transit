@@ -132,6 +132,13 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-west-oakland-1957', url: '/?era=past&year=1957&test=1#map=13.6/37.8150/-122.2750/0/0' },
   { name: 'past-line-ocean-shore', url: '/l/os-san-francisco-tunitas?era=past&year=1915&test=1&at=99' },
   { name: 'past-coast-1915', url: '/?era=past&year=1915&test=1#map=10.8/37.6000/-122.4700/0/0' },
+  // Checkpoint 3: the future era under each way of drawing status (?solidity=), for Matthew to choose.
+  ...(['opacity', 'tint', 'committed'] as const).flatMap((style) => [
+    { name: `future-${style}-regional`, url: `/?era=future&solidity=${style}&test=1` },
+    { name: `future-${style}-sf`, url: `/?era=future&solidity=${style}&test=1#map=13.0/37.7720/-122.4050/0/0` },
+    { name: `future-${style}-south-bay`, url: `/?era=future&solidity=${style}&test=1#map=11.4/37.3600/-121.9300/0/0` },
+    { name: `future-${style}-north-bay`, url: `/?era=future&solidity=${style}&test=1#map=10.2/38.5300/-122.8300/0/0` },
+  ]),
 ];
 
 async function settle(page: Page) {

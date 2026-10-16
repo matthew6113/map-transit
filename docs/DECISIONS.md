@@ -290,7 +290,7 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
 | Dash | `approximate` geometry only |
 | Hollow tube | Tunnel or subway (BAM's convention) |
 | Lighter tint | Display dates borrowed from the line |
-| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). |
+| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). Three ways to draw it are open for Matthew (Phase 3; `?solidity=opacity`, `tint` or `committed`); `opacity` stays the default until he picks. |
 | Faint, uncased | Ghost overlay |
 | Lines a few pixels apart, close in | Different modes on the same path (decision 10) |
 

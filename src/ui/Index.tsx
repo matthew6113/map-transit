@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import type { LineRecord } from '../data/catalog';
 import { GROUPS, STATUSES, type Era } from '../data/vocab';
-import { DATASETS } from '../eras/layers';
+import { DATASETS, type StatusStyle } from '../eras/layers';
 import { MODE_GROUPS, type ModeGroup } from '../theme/theme';
 import { formatRunning, formatYears, modeVar, trackFrom } from './format';
 
@@ -15,6 +15,8 @@ interface Props {
   openId: string | null;
   onOpen: (id: string, opener: HTMLElement) => void;
   onExpand?: () => void;
+  /** How future status is drawn (src/eras/layers.ts), so the legend says the same. */
+  statusStyle?: StatusStyle;
 }
 
 /**
@@ -22,7 +24,7 @@ interface Props {
  * The legend is the filter: each mode chip turns its lines on and off on the map and in the list.
  * The list is the screen-reader equivalent of the canvas.
  */
-export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand }: Props) {
+export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity' }: Props) {
   const [open, setOpen] = useState(() => typeof matchMedia === 'function' && !matchMedia('(max-width: 719px)').matches);
   const [query, setQuery] = useState('');
   const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era)), [lines, era]);
@@ -68,7 +70,7 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
               </button>
             ))}
           </fieldset>
-          <Legend era={era} />
+          <Legend era={era} statusStyle={statusStyle} />
           <label class="search">
             <span class="visually-hidden">Find a line</span>
             <input type="search" placeholder="Find a line" value={query}
@@ -108,7 +110,7 @@ function emptyNote(era: Era): string {
 }
 
 /** What the line styles mean. Hue is mode (the chips above); the rest is drawn here. */
-function Legend({ era }: { era: Era }) {
+function Legend({ era, statusStyle }: { era: Era; statusStyle: StatusStyle }) {
   return (
     <ul class="legend" aria-label="How lines are drawn">
       <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink" d="M1 4h26" /></svg>Surveyed or traced from a map</li>
@@ -117,8 +119,12 @@ function Legend({ era }: { era: Era }) {
       {era === 'past' && (
         <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink tint" d="M1 4h26" /></svg>Segment dates not sourced: shown with its line's dates</li>
       )}
-      {era === 'future' && (
-        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink faint" d="M1 4h13" /><path class="ink" d="M15 4h12" /></svg>Fainter is less certain: planned, in review, funded, building</li>
+      {era === 'future' && statusStyle === 'committed' && (
+        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink tint thin" d="M1 4h13" /><path class="ink" d="M15 4h12" /></svg>Pale and thin until funded: planned or in review</li>
+      )}
+      {era === 'future' && statusStyle !== 'committed' && (
+        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class={`ink ${statusStyle === 'tint' ? 'tint' : 'faint'}`} d="M1 4h13" /><path class="ink" d="M15 4h12" /></svg>
+          {statusStyle === 'tint' ? 'Paler' : 'Fainter'} is less certain: planned, in review, funded, building</li>
       )}
     </ul>
   );

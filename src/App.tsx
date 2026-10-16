@@ -4,7 +4,7 @@ import { clearDrawing, currentCamera, flyBack, flyToLine, lineCamera, panelPaddi
 import { lineIdFromPath, navigate, setQuery } from './basemap/router';
 import { loadCatalog, loadEraIndex, type EraIndex, type LineRecord } from './data/catalog';
 import { GROUPS, STATUSES, type Era, type Status } from './data/vocab';
-import { DATASETS, fadeOutYears } from './eras/layers';
+import { DATASETS, fadeOutYears, STATUS_STYLES, type StatusStyle } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, type ModeGroup, type Theme } from './theme/theme';
@@ -24,6 +24,8 @@ const DEFAULT_YEAR = 1925;
 
 const ERAS: Era[] = ['past', 'present', 'future'];
 const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : 'present');
+/** How future status is drawn, while Matthew chooses (Phase 3): ?solidity=opacity|tint|committed */
+const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
 const initialYear = (): number => {
   const y = Number(params.get('year'));
   return Number.isInteger(y) && y >= FIRST_YEAR && y <= LAST_YEAR ? y : DEFAULT_YEAR;
@@ -89,7 +91,7 @@ export function App() {
     theme,
     mode,
     loaded,
-    view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId },
+    view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE },
   }), [theme, mode, loaded, era, ghost, hiddenGroups, openId]);
 
   /** The past era's year, as feature-state (src/timeline/visibility.ts). */
@@ -334,11 +336,11 @@ export function App() {
             </label>
           )}
           {era === 'future' && (
-            <p class="era-note">Funded and under-construction lines. The ideal network comes in Phase 4.</p>
+            <p class="era-note">Lines being planned, funded or built, with their status from their agencies. The ideal network comes in Phase 4.</p>
           )}
         </div>
         <Index era={era} lines={lines} running={running} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
-          onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
+          statusStyle={STATUS_STYLE} onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
       </header>
       <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}

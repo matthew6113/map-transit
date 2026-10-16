@@ -34,7 +34,20 @@ export interface TransitView {
   hiddenGroups: ModeGroup[];
   /** The open line, if any (its stations get labels). */
   selected: string | null;
+  /** How future status is drawn: one of the options shown at the Phase 3 checkpoint. */
+  statusStyle?: StatusStyle;
 }
+
+/**
+ * Ways to draw a future line's status, for Matthew to choose from (Phase 3; `?solidity=` previews):
+ * - `opacity`: the status ladder as opacity (theme.transit.status), the default so far;
+ * - `tint`: the same ladder as an opaque tint toward the paper, so overlaps don't darken;
+ * - `committed`: two steps, pale and thin while planned or in environmental review, full once funded.
+ */
+export type StatusStyle = 'opacity' | 'tint' | 'committed';
+export const STATUS_STYLES: StatusStyle[] = ['opacity', 'tint', 'committed'];
+
+const UNCOMMITTED = ['planned', 'environmental'];
 
 /** Datasets drawn in each era. The past era runs to today, so it includes the present network. */
 export const DATASETS: Record<Era, Era[]> = {
@@ -56,14 +69,16 @@ const byGroup = (_theme: Theme, value: (g: ModeGroup) => string | number): Expre
   ['match', ['get', 'group'], ...MODE_GROUPS.flatMap((g) => [g, value(g)]), value('heavy_rail')] as unknown as ExpressionSpecification;
 
 /** Line width at z6, z10 and z15, exponential, scaled by the mode's width. */
-function width(theme: Theme, z6: number, z10: number, z15: number, extra = 0): ExpressionSpecification {
+function width(theme: Theme, z6: number, z10: number, z15: number, extra = 0, factor: number | ExpressionSpecification = 1): ExpressionSpecification {
   const w = (g: ModeGroup, v: number) => +(v * modeWidth(theme, g) + extra).toFixed(2);
+  const at = (v: number): ExpressionSpecification | number =>
+    factor === 1 ? byGroup(theme, (g) => w(g, v)) : ['*', byGroup(theme, (g) => w(g, v)), factor];
   return [
     'interpolate', ['exponential', 1.6], ['zoom'],
-    6, byGroup(theme, (g) => w(g, z6)),
-    10, byGroup(theme, (g) => w(g, z10)),
-    15, byGroup(theme, (g) => w(g, z15)),
-  ];
+    6, at(z6),
+    10, at(z10),
+    15, at(z15),
+  ] as unknown as ExpressionSpecification;
 }
 
 /** Different modes on the same path, side by side close in: each piece's slot times the spacing. */
@@ -72,6 +87,25 @@ function offset(theme: Theme): ExpressionSpecification {
   return ['interpolate', ['linear'], ['zoom'],
     ...zooms.flatMap((z, i) => [z, ['*', ['coalesce', ['get', 'off'], 0], px[i]]])] as unknown as ExpressionSpecification;
 }
+
+/**
+ * A future line's color under the `tint` and `committed` styles: the mode color laid over the paper
+ * at the status's strength (the same ladder as the opacity style), or two steps.
+ */
+function statusColor(theme: Theme, style: StatusStyle): ExpressionSpecification {
+  const s = theme.transit.status;
+  const tint = (a: number) => byGroup(theme, (g) => over(modeColor(theme, g), a, theme.colors.land));
+  if (style === 'committed') {
+    return ['case', ['in', ['get', 'status'], ['literal', UNCOMMITTED]], tint(s.planned), byGroup(theme, (g) => modeColor(theme, g))];
+  }
+  return ['match', ['get', 'status'],
+    'planned', tint(s.planned), 'environmental', tint(s.environmental), 'funded', tint(s.funded),
+    'under_construction', tint(s.under_construction), byGroup(theme, (g) => modeColor(theme, g))];
+}
+
+/** Under the `committed` style, uncommitted future lines are drawn thinner. */
+const statusWidth = (style: StatusStyle): number | ExpressionSpecification =>
+  style === 'committed' ? ['case', ['in', ['get', 'status'], ['literal', UNCOMMITTED]], 0.6, 1] : 1;
 
 /** The mode color, or a lighter tint (toward the paper) where the dates were borrowed from the line. */
 function color(theme: Theme): ExpressionSpecification {
@@ -86,11 +120,12 @@ function color(theme: Theme): ExpressionSpecification {
  * Future status as solidity; shared existing track at BAM's 0.55. In the future era today's network
  * steps back (BAM: the present as print, the future in color). In the past era, the year's `vis`.
  */
-function opacity(theme: Theme, dataset: Era, era: Era): ExpressionSpecification | number {
+function opacity(theme: Theme, dataset: Era, era: Era, style: StatusStyle = 'opacity'): ExpressionSpecification | number {
   if (era === 'past') return VIS;
   if (dataset === 'present' && era === 'future') return theme.transit.eras.presentInFuture;
   if (dataset !== 'future') return 1;
   const s = theme.transit.status;
+  if (style !== 'opacity') return ['case', ['==', ['get', 'shared'], 1], 0.55, 1];
   return ['*',
     ['match', ['get', 'status'],
       'planned', s.planned, 'environmental', s.environmental, 'funded', s.funded,
@@ -142,9 +177,14 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   }
 
   const off = offset(theme);
+  const style = view.statusStyle ?? 'opacity';
   for (const d of DATASETS[view.era]) {
     const base = [...pastFilter(view), ...groupFilter(view)];
     const src = `transit-${d}-draw`;
+    const styled = d === 'future' && style !== 'opacity';
+    const lineColor = styled ? statusColor(theme, style) : color(theme);
+    const f = d === 'future' ? statusWidth(style) : 1;
+    const op = opacity(theme, d, view.era, style);
     layers.push(
       {
         // A paper casing under every stroke, so lines read over the building print.
@@ -153,7 +193,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(...base),
         layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': c.land, 'line-width': width(theme, 2.8, 4.8, 11), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
+        paint: { 'line-color': c.land, 'line-width': width(theme, 2.8, 4.8, 11, 0, f), 'line-opacity': op, 'line-offset': off },
       },
       {
         id: `transit-${d}-solid`,
@@ -161,7 +201,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], ['!', TUBE], ...base),
         layout: { 'line-join': 'round', 'line-cap': 'round' },
-        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.5, 2.6, 6.5), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
+        paint: { 'line-color': lineColor, 'line-width': width(theme, 1.5, 2.6, 6.5, 0, f), 'line-opacity': op, 'line-offset': off },
       },
       {
         // Tunnels and subways: a hollow tube (BAM's convention).
@@ -170,7 +210,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], TUBE, ...base),
         layout: { 'line-join': 'round', 'line-cap': 'butt' },
-        paint: { 'line-color': color(theme), 'line-width': width(theme, 1.9, 3.3, 9), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
+        paint: { 'line-color': lineColor, 'line-width': width(theme, 1.9, 3.3, 9, 0, f), 'line-opacity': op, 'line-offset': off },
       },
       {
         id: `transit-${d}-tube-hollow`,
@@ -178,7 +218,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         source: src,
         filter: all(['!', APPROX], TUBE, ...base),
         layout: { 'line-join': 'round', 'line-cap': 'butt' },
-        paint: { 'line-color': c.land, 'line-width': width(theme, 0.6, 1.3, 4.5), 'line-opacity': opacity(theme, d, view.era), 'line-offset': off },
+        paint: { 'line-color': c.land, 'line-width': width(theme, 0.6, 1.3, 4.5, 0, f), 'line-opacity': op, 'line-offset': off },
       },
       {
         // Approximate geometry (reconstructed from text) is dashed, whatever its structure.
@@ -188,9 +228,9 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         filter: all(APPROX, ...base),
         layout: { 'line-join': 'round', 'line-cap': 'butt' },
         paint: {
-          'line-color': color(theme),
-          'line-width': width(theme, 1.5, 2.6, 6.5),
-          'line-opacity': opacity(theme, d, view.era),
+          'line-color': lineColor,
+          'line-width': width(theme, 1.5, 2.6, 6.5, 0, f),
+          'line-opacity': op,
           'line-dasharray': [2, 1.6],
           'line-offset': off,
         },

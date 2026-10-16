@@ -625,6 +625,10 @@ body {
   opacity: 0.4;
 }
 
+.index .legend .thin {
+  stroke-width: 1.4;
+}
+
 .index .search input {
   width: 100%;
   margin-top: 8px;
