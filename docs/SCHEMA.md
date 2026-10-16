@@ -259,8 +259,15 @@ theme's `transit.widths`).
 - Future facts come from **official sources only**, as in BAM: public agencies, their adopted plans,
   hearing records, permits and GIS.
 - Every future line needs at least one `official` source, a `status_as_of` and a `last_verified`.
-- `npm test` fails when any future line was last verified more than 90 days ago. Re-verify it
-  against official sources (Phase 3 sets up the routine), then update `last_verified`.
+- `npm test` fails when any future line was last verified more than 90 days ago. The routine:
+  `make checklists` writes `docs/checks/future.md`, each line with its status, its last check and the
+  day it falls due. Re-verify a line against the agency's own pages, then update its entry in
+  `data/future/verified.json` and run `make future-sync app-data checklists`.
+- `data/future/verified.json` is hand-kept: per line id, `status`, `status_as_of`, `expected_opening`
+  (null when no official source states one), `last_verified`, `sources[]` (citations into
+  `data/sources.json`, each quoting what it supports; ids not starting `bam-`) and `notes`.
+  `bam_sync` applies it over BAM's translated stage and drops `status_unverified`, and
+  `expected_opening_unsourced` once a date is cited. A line it doesn't list keeps BAM's.
 - With no published alignment, a project has no geometry. It appears only in the list and the
   panel, as BAM does for Link21.
 
