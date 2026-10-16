@@ -111,6 +111,12 @@
       "notes": "The Key Route trains and ferries, from 1903, under several corporate names; each line lists its operators by date."
     },
     {
+      "id": "mare-island-ferry",
+      "name": "Mare Island ferry",
+      "short_name": "Mare Island ferry",
+      "notes": "The foot-passenger ferry across the Mare Island Strait between Vallejo and the Navy Yard, run by the Six-Minute Ferry until 1922, the Rodeo-Vallejo Ferry Company in 1922-23 and the Mare Island Ferry company from 1923 to 1986."
+    },
+    {
       "id": "market-street-cable-railway",
       "name": "Market Street Cable Railway",
       "short_name": "Market St Cable"
@@ -127,9 +133,27 @@
       "notes": "Auto ferries across the Carquinez Strait, 1913-1962."
     },
     {
+      "id": "mt-tamalpais-railway",
+      "name": "Mt. Tamalpais & Muir Woods Railway",
+      "short_name": "Mt. Tamalpais railway",
+      "notes": "Built as the Mill Valley & Mount Tamalpais Scenic Railway (1896), \"the crookedest railroad in the world\", from Mill Valley to the summit of Mount Tamalpais, with a branch to Muir Woods from 1906 or 1907; the Mt. Tamalpais & Muir Woods Railway from 1913."
+    },
+    {
       "id": "muni",
       "name": "San Francisco Municipal Railway",
       "short_name": "Muni"
+    },
+    {
+      "id": "napa-valley-wine-train",
+      "name": "Napa Valley Wine Train",
+      "short_name": "Wine Train",
+      "notes": "Dining trains on the Napa Valley Railroad, the Southern Pacific's old Napa Valley branch, from 1989."
+    },
+    {
+      "id": "niles-canyon-railway",
+      "name": "Niles Canyon Railway",
+      "short_name": "Niles Canyon Railway",
+      "notes": "The Pacific Locomotive Association's heritage railway through Niles Canyon, on the Southern Pacific's line of 1869, relaid from 1987."
     },
     {
       "id": "north-pacific-coast",
@@ -142,6 +166,18 @@
       "name": "Northwestern Pacific Railroad",
       "short_name": "Northwestern Pacific",
       "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
+    },
+    {
+      "id": "petaluma-santa-rosa",
+      "name": "Petaluma & Santa Rosa Railway",
+      "short_name": "Petaluma & Santa Rosa",
+      "notes": "An electric interurban from the steamer landing at Petaluma to Sebastopol, where it divided for Santa Rosa and for Graton and Forestville (1904-05), with a branch from Liberty to Two Rock (1913). Its passenger cars ran until July 1, 1932; freight went on."
+    },
+    {
+      "id": "petaluma-street-railroad",
+      "name": "Petaluma Street Railroad",
+      "short_name": "Petaluma horsecars",
+      "notes": "Petaluma's one horsecar line (incorporated 1889), from the car barn at 12th and F Sts across the town and Petaluma Creek to the fairgrounds; bought by the Petaluma & Santa Rosa in 1903 for its franchise, and never electrified."
     },
     {
       "id": "presidio-ferries-railroad",
@@ -163,6 +199,18 @@
       "id": "san-francisco-bay-ferry",
       "name": "San Francisco Bay Ferry",
       "short_name": "San Francisco Bay Ferry"
+    },
+    {
+      "id": "santa-fe",
+      "name": "Atchison, Topeka and Santa Fe Railway",
+      "short_name": "Santa Fe",
+      "notes": "Its line from Stockton by Antioch and Pinole to Richmond, built as the San Francisco & San Joaquin Valley Railway (1900), with its own ferry from Ferry Point at Point Richmond to the foot of Market St until 1933. Today's BNSF line; the Gold Runner runs on it from Bay Point east."
+    },
+    {
+      "id": "santa-rosa-horsecars",
+      "name": "Santa Rosa Street Railways",
+      "short_name": "Santa Rosa horsecars",
+      "notes": "Santa Rosa's horsecar lines: the Santa Rosa City Railroad on Fourth St and McDonald Ave (1877), the South Side, later Union, Street Railway to the race track (1888) and the Central Street Railway on Humboldt St (1892), all under one owner from 1897 and called the Santa Rosa Street Railways from 1902. None was electrified; only the first is drawn."
     },
     {
       "id": "sf-market-street-railroad",
@@ -222,6 +270,18 @@
       "id": "vta",
       "name": "Santa Clara Valley Transportation Authority",
       "short_name": "VTA"
+    },
+    {
+      "id": "western-pacific",
+      "name": "Western Pacific Railroad",
+      "short_name": "Western Pacific",
+      "notes": "The Western Pacific of 1903 (not the 1862 company of the same name), from Oakland through Niles Canyon and over the Altamont Pass to Stockton and Salt Lake City, with its own mole and ferry to San Francisco; passenger trains 1910-1970, the California Zephyr from 1949."
+    },
+    {
+      "id": "western-railway-museum",
+      "name": "Western Railway Museum",
+      "short_name": "Western Railway Museum",
+      "notes": "The Bay Area Electric Railroad Association's museum at Rio Vista Junction, running interurbans on the Sacramento Northern's old main line."
     }
   ]
 }

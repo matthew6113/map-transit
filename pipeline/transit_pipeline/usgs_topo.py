@@ -147,6 +147,28 @@ SHEETS = [
     Sheet("usgs-diablo-1953", "Diablo", 24000, 1953, "289931", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
     Sheet("usgs-mt-diablo-1898", "Mt Diablo", 62500, 1898, "298277", 1901, "15-minute sheet, surveyed 1896, edition of 1898"),
     Sheet("usgs-vine-hill-1959", "Vine Hill", 24000, 1959, "301163", 1981, "7.5-minute sheet, edition of 1959, photorevised 1979"),
+    # The Petaluma & Santa Rosa, while its track was still in place (passengers to 1932, freight later).
+    Sheet("usgs-petaluma-1953", "Petaluma", 24000, 1953, "294061", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1953"),
+    Sheet("usgs-two-rock-1954", "Two Rock", 24000, 1954, "301038", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-cotati-1954", "Cotati", 24000, 1954, "289550", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-sebastopol-1954", "Sebastopol", 24000, 1954, "300394", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-santa-rosa-1954", "Santa Rosa", 24000, 1954, "300294", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-camp-meeker-1954", "Camp Meeker", 24000, 1954, "288861", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-santa-rosa-1916", "Santa Rosa", 62500, 1916, "298959", None, "15-minute sheet, surveyed 1914, edition of 1916"),
+    # The San Francisco, Napa & Calistoga: the only sheets of its years (1905-37), and the first after.
+    Sheet("usgs-calistoga-1927", "Calistoga", 62500, 1927, "465408", 1936, "15-minute sheet, surveyed 1915, edition of 1927"),
+    Sheet("usgs-mare-island-1942", "Mare Island", 62500, 1942, "465907", 1942, "15-minute sheet, surveyed 1937, edition of 1942"),
+    Sheet("usgs-sonoma-1942", "Sonoma", 62500, 1942, "301738", 1942, "15-minute sheet, surveyed 1941, aerial photographs of 1939, edition of 1942"),
+    # The Santa Fe from Pittsburg to the county line at Old River, in its first years.
+    Sheet("usgs-antioch-1908", "Antioch", 62500, 1908, "296717", None, "15-minute sheet, surveyed 1907, edition of 1908"),
+    Sheet("usgs-jersey-1910", "Jersey", 31680, 1910, "296187", None, "1:31,680 sheet, surveyed 1908, edition of 1910"),
+    Sheet("usgs-brentwood-1914", "Brentwood", 31680, 1914, "295948", None, "1:31,680 sheet, surveyed 1911, edition of 1914"),
+    Sheet("usgs-woodward-island-1913", "Woodward Island", 31680, 1913, "296614", None, "1:31,680 sheet, surveyed 1911, edition of 1913"),
+    # The Southern Pacific's Dumbarton Cutoff, Redwood Junction across the bay to Newark.
+    Sheet("usgs-hayward-1915", "Hayward", 62500, 1915, "297660", 1939, "15-minute sheet, surveyed 1914, edition of 1915"),
+    Sheet("usgs-redwood-point-1948", "Redwood Point", 24000, 1948, "294610", None, "7.5-minute sheet, edition of 1948"),
+    Sheet("usgs-palo-alto-1953", "Palo Alto", 24000, 1953, "293907", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-newark-1948", "Newark", 24000, 1948, "293494", None, "7.5-minute sheet, surveyed 1947, aerial photographs of 1946, edition of 1948"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

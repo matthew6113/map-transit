@@ -26,34 +26,6 @@
    ],
    "note": "OpenHistoricalMap's way, traced from the 1895 San Francisco sheet, cut where it leaves the mole line and where it reaches Central Avenue"
   },
-  "spc-alameda-newark": {
-   "parts": [
-    {
-     "join": "sp-central-encinal",
-     "at": "end"
-    },
-    {
-     "ohm": [
-      200236874,
-      200223560,
-      198748559
-     ],
-     "from": [
-      -122.234149,
-      37.756229
-     ],
-     "to": [
-      -122.032535,
-      37.525056
-     ]
-    }
-   ],
-   "check": [
-    "usgs-san-leandro-1948",
-    "usgs-niles-1953"
-   ],
-   "note": "OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line joins today's track east of Newark"
-  },
   "spc-san-jose-los-gatos": {
    "parts": [
     {
@@ -144,6 +116,34 @@
    "clip": "county",
    "check": "usgs-los-gatos-1919",
    "note": "OpenHistoricalMap's ways, Wrights Tunnel among them"
+  },
+  "spc-alameda-elmhurst-jct": {
+   "parts": [
+    {
+     "join": "sp-central-encinal",
+     "at": "end"
+    },
+    {
+     "ohm": [
+      200236874,
+      200223560,
+      198748559
+     ],
+     "from": [
+      -122.234149,
+      37.756229
+     ],
+     "to": [
+      -122.180312,
+      37.710133
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-leandro-1948",
+    "usgs-niles-1953"
+   ],
+   "note": "OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line meets today's track west of San Leandro, which runs on to Newark"
   }
  }
 }

@@ -1,0 +1,101 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Southern Pacific's Dumbarton Cutoff trains. Research: docs/research/phase-2c.md.",
+ "lines": [
+  {
+   "id": "sp-dumbarton-redwood-niles",
+   "name": "Dumbarton Cutoff trains, Redwood City to Niles",
+   "short_name": "Dumbarton Cutoff",
+   "system": "southern-pacific",
+   "operators": [
+    {
+     "name": "Southern Pacific",
+     "from": "1911-12-26",
+     "to": "1916-10-01"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1911-12-26",
+   "closed": "1916-10-01",
+   "status": "closed",
+   "summary": "Southern Pacific trains from Redwood City across the Dumbarton bridge to Newark, Centerville and Niles, at first four trains a day to and from Niles, by 1914 one mixed train each way, daily except Sunday.",
+   "fate": "abandoned",
+   "fate_note": "Passengers ended with the timetable of October 1, 1916; the cutoff carried only freight after that.",
+   "route": [
+    {
+     "segment": "sp-dumbarton-cutoff",
+     "note": "From Redwood City station, the trains ran about a mile down the main line to Redwood Junction, which isn't drawn as part of this line."
+    },
+    {
+     "segment": "cs-dumbarton-newark"
+    },
+    {
+     "segment": "cc-centerville-newark"
+    },
+    {
+     "segment": "cc-niles-centerville"
+    }
+   ],
+   "sources": [
+    {
+     "source": "times-gazette-1911-12-30",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "1-2",
+     "note": "The first regular passenger train, Tuesday, December 26, 1911; four trains a day between Niles and Redwood City."
+    },
+    {
+     "source": "washington-press-1912-04-26",
+     "supports": [
+      "route"
+     ],
+     "pages": "4"
+    },
+    {
+     "source": "times-gazette-1912-09-21",
+     "supports": [
+      "general"
+     ],
+     "pages": "2",
+     "note": "\"has again put on the Dumbarton cut off train\": the service had stopped for a time in 1912."
+    },
+    {
+     "source": "cscrm-2021-02-000614",
+     "supports": [
+      "route"
+     ],
+     "pages": "15",
+     "note": "No. 512 and No. 503, the \"Redwood Mixed\", daily except Sunday."
+    },
+    {
+     "source": "cscrm-2021-02-000730",
+     "supports": [
+      "general"
+     ],
+     "pages": "16",
+     "note": "Still the Redwood Mixed on May 28, 1916."
+    },
+    {
+     "source": "washington-press-1916-10-07",
+     "supports": [
+      "closed"
+     ],
+     "pages": "1",
+     "note": "\"The Dumbarton train no longer carries passengers\" under the timetable of Sunday, October 1, 1916."
+    },
+    {
+     "source": "cscrm-2021-02-000731",
+     "supports": [
+      "closed"
+     ],
+     "pages": "16",
+     "note": "Only freight trains over the bridge from October 1, 1916."
+    }
+   ],
+   "flags": [],
+   "notes": "Ends with the timetable of October 1, 1916, which the Washington Press reported; the last day with passengers isn't stated, and no Railroad Commission order on it was found. In 1912 the trains stopped for a time and were back by September 21; when they stopped isn't sourced. By 1914, one mixed train each way, Nos. 512 and 503."
+  }
+ ]
+}

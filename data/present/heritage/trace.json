@@ -1,0 +1,68 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the heritage railways along today's track as OpenStreetMap maps and names it (Overture rail). GTFS doesn't cover them.",
+ "segments": {
+  "ncry-niles-sunol": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -121.97769,
+       37.57722
+      ],
+      [
+       -121.88877,
+       37.59399
+      ]
+     ],
+     "area": "nilescanyon",
+     "names": [
+      "Niles Canyon Railway"
+     ]
+    }
+   ],
+   "note": "OpenStreetMap's ways named Niles Canyon Railway, from its Niles station to the Sunol depot at Kilkare Rd (Overture's places), the stretch its public trains run"
+  },
+  "nvwt-napa-st-helena": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.28366,
+       38.30246
+      ],
+      [
+       -122.47146,
+       38.50769
+      ]
+     ],
+     "area": "napa",
+     "names": [
+      "Napa Valley Railroad"
+     ]
+    }
+   ],
+   "note": "OpenStreetMap's ways named Napa Valley Railroad, from the McKinstry St station in Napa to the St. Helena station (Overture's places)"
+  },
+  "wrm-rio-vista-jct-south": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -121.87546,
+       38.20571
+      ],
+      [
+       -121.87703,
+       38.12741
+      ]
+     ],
+     "area": "riovista",
+     "names": [
+      "Western Railway Museum"
+     ]
+    }
+   ],
+   "note": "OpenStreetMap's ways named Western Railway Museum, from the museum at Rio Vista Junction south to where the named track ends"
+  }
+ }
+}

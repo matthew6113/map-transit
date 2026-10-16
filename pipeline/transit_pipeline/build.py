@@ -377,8 +377,12 @@ def main() -> None:
                         "status": line["status"], "off": off,
                     }})
             lo, lc = line_years(line)
-            segs_km = defaultdict(float)
+            segs_km, counted = defaultdict(float), set()
             for r, parts in zip(line["route"], oriented):
+                # A segment listed twice, around a break in service, is one stretch of track.
+                if r["segment"] in counted:
+                    continue
+                counted.add(r["segment"])
                 segs_km[route_segments[r["segment"]]["properties"]["geometry_confidence"]] += length_km(parts)
             catalog.append({
                 "id": line["id"],

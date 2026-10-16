@@ -20,3 +20,8 @@ map's data cites the sources themselves, in `data/sources.json`; where it rests 
 | `eastbay.md` | The Railroad Commission's and CPUC's East Bay streetcar orders, 1931–48 | `data/past/eb-streetcars/` |
 | `railroads.md` | County histories, the Railroad Commissioners' reports, *Poor's Manual*: openings and ends of the steam railroads | not drawn yet |
 | `ferries-northbay.md` | Bay and Carquinez ferries, North Bay railways, freight belt lines | `data/past/ferries/` |
+| `dumbarton-cn.md` | The Dumbarton Cutoff's passenger trains, the end of the Oakland-Newark-San José trains (1960), the California & Nevada (pass of Oct 16, page images read) | `data/past/sp-dumbarton/` |
+| `northbay-streetcars.md` | The Santa Rosa and Petaluma horsecars, and San Rafael's lack of any (pass of Oct 16, page images read) | `data/past/north-bay-horsecars/` |
+| `steamers.md` | The Petaluma River steamers and the Vallejo-Mare Island ferry (pass of Oct 16, page images read) | `data/past/ferries/` (`psr-steamers`, `mare-island-ferry`) |
+| `heritage.md` | The heritage railways carrying the public today, with the miniature and park railways left out (pass of Oct 16) | `data/present/heritage/` |
+| `western-pacific.md` | The Western Pacific's passenger trains, terminals and ferry, 1910-1970, and the 1862 Western Pacific (pass of Oct 16, page images read) | `data/past/western-pacific/` |

@@ -37,6 +37,160 @@
       "approximate": true,
       "note": "Straight from Market St to where Hayes St ends today; the old street's course isn't traced"
     },
+    "sf-msry-sutro-baths-row": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.5145,
+              37.7775,
+              -122.5075,
+              37.7825
+            ],
+            "zoom": 3.0
+          },
+          "snap": 4,
+          "px": [
+            [
+              620,
+              405
+            ],
+            [
+              560,
+              368
+            ],
+            [
+              500,
+              330
+            ],
+            [
+              440,
+              292
+            ],
+            [
+              380,
+              252
+            ],
+            [
+              345,
+              233
+            ],
+            [
+              318,
+              243
+            ],
+            [
+              303,
+              270
+            ],
+            [
+              300,
+              310
+            ],
+            [
+              308,
+              380
+            ],
+            [
+              322,
+              440
+            ],
+            [
+              335,
+              478
+            ],
+            [
+              310,
+              498
+            ],
+            [
+              270,
+              512
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "The line from Point Lobos Ave at 48th Ave to the loop by the Sutro Baths, as the 1950 sheet draws it, after the cars' last run in 1949"
+    },
+    "sf-msry-park-row": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-san-francisco-north-1950",
+            "bbox": [
+              -122.5115,
+              37.7635,
+              -122.5075,
+              37.7725
+            ],
+            "zoom": 3.0
+          },
+          "snap": 4,
+          "px": [
+            [
+              350,
+              1390
+            ],
+            [
+              300,
+              1300
+            ],
+            [
+              260,
+              1250
+            ],
+            [
+              230,
+              1180
+            ],
+            [
+              215,
+              1080
+            ],
+            [
+              210,
+              1000
+            ],
+            [
+              208,
+              900
+            ],
+            [
+              208,
+              800
+            ],
+            [
+              210,
+              700
+            ],
+            [
+              212,
+              600
+            ],
+            [
+              215,
+              500
+            ],
+            [
+              215,
+              400
+            ],
+            [
+              210,
+              300
+            ],
+            [
+              205,
+              190
+            ]
+          ]
+        }
+      ],
+      "est_error_m": 15,
+      "note": "Along the west edge of Golden Gate Park from Lincoln Way to Fulton St at La Playa, as the 1950 sheet draws the track, three years after the cars were cut back to Lincoln Way and 47th Ave"
+    },
     "sf-msry-10th-st-brannan-st-bryant-st": {
       "routes": true,
       "parts": [
@@ -103,6 +257,86 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In 14th Street"
+    },
+    "sf-msry-16th-st-bryant-st-kansas-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "16th Street"
+          ],
+          "from": "Bryant Street",
+          "to": "Kansas Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 16th Street"
+    },
+    "sf-msry-16th-st-bryant-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "16th Street"
+          ],
+          "from": "Bryant Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 16th Street"
+    },
+    "sf-msry-16th-st-church-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "16th Street"
+          ],
+          "from": "Church Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 16th Street"
+    },
+    "sf-msry-17th-st-connecticut-st-kansas-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "17th Street"
+          ],
+          "from": "Connecticut Street",
+          "to": "Kansas Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 17th Street"
+    },
+    "sf-msry-18th-st-3rd-st-connecticut-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "18th Street"
+          ],
+          "from": "3rd Street",
+          "to": "Connecticut Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 18th Street"
     },
     "sf-msry-18th-st-guerrero-st-market-st": {
       "routes": true,
@@ -184,6 +418,22 @@
       "est_error_m": 15,
       "note": "In 22nd Street"
     },
+    "sf-msry-22nd-st-mission-st-s-van-ness-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "22nd Street"
+          ],
+          "from": "Mission Street",
+          "to": "South Van Ness Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 22nd Street"
+    },
     "sf-msry-24th-st-chattanooga-st-dolores-st": {
       "routes": true,
       "parts": [
@@ -193,7 +443,8 @@
           ],
           "from": "Chattanooga Street",
           "to": "Dolores Street",
-          "area": "sf"
+          "area": "sf",
+          "bridge_m": 150
         }
       ],
       "check": "usgs-san-francisco-north-1950",
@@ -209,14 +460,32 @@
           ],
           "from": "Chattanooga Street",
           "to": "Hoffman Avenue",
-          "area": "sf"
+          "area": "sf",
+          "bridge_m": 150
         }
       ],
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In 24th Street"
     },
-    "sf-msry-26th-st-bryant-st-mission-st": {
+    "sf-msry-24th-st-rhode-island-st-s-van-ness-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "24th Street"
+          ],
+          "from": "Rhode Island Street",
+          "to": "South Van Ness Avenue",
+          "area": "sf",
+          "bridge_m": 150
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 24th Street"
+    },
+    "sf-msry-26th-st-bryant-st-folsom-st": {
       "routes": true,
       "parts": [
         {
@@ -224,7 +493,39 @@
             "26th Street"
           ],
           "from": "Bryant Street",
-          "to": "Mission Street",
+          "to": "Folsom Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In 26th Street"
+    },
+    "sf-msry-26th-st-folsom-st-s-van-ness-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "26th Street"
+          ],
+          "from": "Folsom Street",
+          "to": "South Van Ness Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In 26th Street"
+    },
+    "sf-msry-26th-st-mission-st-s-van-ness-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "26th Street"
+          ],
+          "from": "Mission Street",
+          "to": "South Van Ness Avenue",
           "area": "sf"
         }
       ],
@@ -312,6 +613,134 @@
       "est_error_m": 15,
       "note": "In 2nd Street"
     },
+    "sf-msry-33rd-ave-clement-st-geary-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "33rd Avenue"
+          ],
+          "from": "Clement Street",
+          "to": "Geary Boulevard",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 33rd Avenue"
+    },
+    "sf-msry-3rd-st-16th-st-18th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "16th Street",
+          "to": "18th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-16th-st-23rd-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "16th Street",
+          "to": "23rd Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-16th-st-berry-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "16th Street",
+          "to": "Berry Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-18th-st-23rd-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "18th Street",
+          "to": "23rd Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-23rd-st-cesar-chavez-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "23rd Street",
+          "to": "Cesar Chavez Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-bayshore-blvd-van-dyke-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "Bayshore Boulevard",
+          "to": "Van Dyke Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-berry-st-townsend-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "Berry Street",
+          "to": "Townsend Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
     "sf-msry-3rd-st-brannan-st-market-st": {
       "routes": true,
       "parts": [
@@ -343,6 +772,54 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In 3rd Street"
+    },
+    "sf-msry-3rd-st-cesar-chavez-st-van-dyke-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "3rd Street"
+          ],
+          "from": "Cesar Chavez Street",
+          "to": "Van Dyke Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In 3rd Street"
+    },
+    "sf-msry-48th-ave-geary-blvd-point-lobos-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "48th Avenue"
+          ],
+          "from": "Geary Boulevard",
+          "to": "Point Lobos Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 48th Avenue"
+    },
+    "sf-msry-4th-st-16th-st-berry-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "4th Street"
+          ],
+          "from": "16th Street",
+          "to": "Berry Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 4th Street"
     },
     "sf-msry-4th-st-brannan-st-market-st": {
       "routes": true,
@@ -376,7 +853,7 @@
       "est_error_m": 15,
       "note": "In 4th Street"
     },
-    "sf-msry-5th-st-brannan-st-mission-st": {
+    "sf-msry-5th-st-brannan-st-bryant-st": {
       "routes": true,
       "parts": [
         {
@@ -384,6 +861,22 @@
             "5th Street"
           ],
           "from": "Brannan Street",
+          "to": "Bryant Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 5th Street"
+    },
+    "sf-msry-5th-st-bryant-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "5th Street"
+          ],
+          "from": "Bryant Street",
           "to": "Mission Street",
           "area": "sf"
         }
@@ -504,6 +997,22 @@
       "est_error_m": 15,
       "note": "In 8th Street"
     },
+    "sf-msry-8th-st-bryant-st-market-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "8th Street"
+          ],
+          "from": "Bryant Street",
+          "to": "Market Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In 8th Street"
+    },
     "sf-msry-9th-ave-judah-st-pacheco-st": {
       "routes": true,
       "parts": [
@@ -535,6 +1044,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In 9th Street"
+    },
+    "sf-msry-arguello-blvd-clement-st-euclid-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Arguello Boulevard"
+          ],
+          "from": "Clement Street",
+          "to": "Euclid Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Arguello Boulevard"
     },
     "sf-msry-arguello-blvd-lake-st-sacramento-st": {
       "routes": true,
@@ -599,6 +1124,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Battery Street"
+    },
+    "sf-msry-berry-st-3rd-st-4th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Berry Street"
+          ],
+          "from": "3rd Street",
+          "to": "4th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Berry Street"
     },
     "sf-msry-brannan-st-10th-st-8th-st": {
       "routes": true,
@@ -683,7 +1224,55 @@
       "est_error_m": 15,
       "note": "In Broadway"
     },
-    "sf-msry-bryant-st-26th-st-2nd-st": {
+    "sf-msry-broadway-kearny-st-the-embarcadero": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Broadway"
+          ],
+          "from": "Kearny Street",
+          "to": "The Embarcadero",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Broadway"
+    },
+    "sf-msry-bryant-st-16th-st-26th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bryant Street"
+          ],
+          "from": "16th Street",
+          "to": "26th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Bryant Street"
+    },
+    "sf-msry-bryant-st-16th-st-8th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bryant Street"
+          ],
+          "from": "16th Street",
+          "to": "8th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Bryant Street"
+    },
+    "sf-msry-bryant-st-26th-st-cesar-chavez-st": {
       "routes": true,
       "parts": [
         {
@@ -691,7 +1280,39 @@
             "Bryant Street"
           ],
           "from": "26th Street",
-          "to": "2nd Street",
+          "to": "Cesar Chavez Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Bryant Street"
+    },
+    "sf-msry-bryant-st-2nd-st-5th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bryant Street"
+          ],
+          "from": "2nd Street",
+          "to": "5th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Bryant Street"
+    },
+    "sf-msry-bryant-st-5th-st-8th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Bryant Street"
+          ],
+          "from": "5th Street",
+          "to": "8th Street",
           "area": "sf"
         }
       ],
@@ -715,7 +1336,7 @@
       "est_error_m": 15,
       "note": "In Bush Street"
     },
-    "sf-msry-california-st-6th-ave-presidio-ave": {
+    "sf-msry-california-st-6th-ave-parker-ave": {
       "routes": true,
       "parts": [
         {
@@ -723,6 +1344,22 @@
             "California Street"
           ],
           "from": "6th Avenue",
+          "to": "Parker Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In California Street"
+    },
+    "sf-msry-california-st-parker-ave-presidio-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "California Street"
+          ],
+          "from": "Parker Avenue",
           "to": "Presidio Avenue",
           "area": "sf"
         }
@@ -746,6 +1383,120 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Carl Street"
+    },
+    "sf-msry-cesar-chavez-st-3rd-st-san-bruno-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": "3rd Street",
+          "to": [
+            -122.403854,
+            37.749431
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
+    },
+    "sf-msry-cesar-chavez-st-bryant-st-folsom-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": "Bryant Street",
+          "to": "Folsom Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
+    },
+    "sf-msry-cesar-chavez-st-bryant-st-potrero-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": "Bryant Street",
+          "to": [
+            -122.405431,
+            37.749112
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
+    },
+    "sf-msry-cesar-chavez-st-bryant-st-san-bruno-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": "Bryant Street",
+          "to": [
+            -122.403854,
+            37.749431
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
+    },
+    "sf-msry-cesar-chavez-st-folsom-st-potrero-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": "Folsom Street",
+          "to": [
+            -122.405431,
+            37.749112
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
+    },
+    "sf-msry-cesar-chavez-st-potrero-ave-san-bruno-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cesar Chavez Street"
+          ],
+          "from": [
+            -122.405431,
+            37.749112
+          ],
+          "to": [
+            -122.403854,
+            37.749431
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cesar Chavez Street"
     },
     "sf-msry-chattanooga-st-22nd-st-24th-st": {
       "routes": true,
@@ -778,6 +1529,22 @@
       "check": "usgs-san-francisco-south-1950",
       "est_error_m": 15,
       "note": "In Chenery Street"
+    },
+    "sf-msry-church-st-16th-st-duboce-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Church Street"
+          ],
+          "from": "16th Street",
+          "to": "Duboce Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Church Street"
     },
     "sf-msry-clayton-st-ashbury-st-caselli-ave": {
       "routes": true,
@@ -861,6 +1628,54 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Clement Street"
+    },
+    "sf-msry-clement-st-6th-ave-arguello-blvd": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Clement Street"
+          ],
+          "from": "6th Avenue",
+          "to": "Arguello Boulevard",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Clement Street"
+    },
+    "sf-msry-connecticut-st-17th-st-18th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Connecticut Street"
+          ],
+          "from": "17th Street",
+          "to": "18th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Connecticut Street"
+    },
+    "sf-msry-cortland-ave-folsom-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Cortland Avenue"
+          ],
+          "from": "Folsom Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Cortland Avenue"
     },
     "sf-msry-diamond-st-chenery-st-monterey-blvd": {
       "routes": true,
@@ -1009,6 +1824,22 @@
       "est_error_m": 15,
       "note": "In Dolores Street"
     },
+    "sf-msry-duboce-ave-church-st-fillmore-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Duboce Avenue"
+          ],
+          "from": "Church Street",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Duboce Avenue"
+    },
     "sf-msry-e-3rd-ave-main-st-s-b-st": {
       "routes": true,
       "parts": [
@@ -1091,6 +1922,70 @@
       "est_error_m": 15,
       "note": "In Ellis Street"
     },
+    "sf-msry-euclid-ave-arguello-blvd-parker-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Euclid Avenue"
+          ],
+          "from": "Arguello Boulevard",
+          "to": "Parker Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Euclid Avenue"
+    },
+    "sf-msry-fillmore-st-broadway-jackson-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Broadway",
+          "to": "Jackson Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fillmore Street"
+    },
+    "sf-msry-fillmore-st-duboce-ave-page-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Duboce Avenue",
+          "to": "Page Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fillmore Street"
+    },
+    "sf-msry-fillmore-st-hayes-st-mcallister-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Hayes Street",
+          "to": "McAllister Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fillmore Street"
+    },
     "sf-msry-fillmore-st-hayes-st-oak-st": {
       "routes": true,
       "parts": [
@@ -1107,7 +2002,7 @@
       "est_error_m": 15,
       "note": "In Fillmore Street"
     },
-    "sf-msry-fillmore-st-jackson-st-sutter-st": {
+    "sf-msry-fillmore-st-jackson-st-sacramento-st": {
       "routes": true,
       "parts": [
         {
@@ -1115,6 +2010,22 @@
             "Fillmore Street"
           ],
           "from": "Jackson Street",
+          "to": "Sacramento Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fillmore Street"
+    },
+    "sf-msry-fillmore-st-mcallister-st-sutter-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "McAllister Street",
           "to": "Sutter Street",
           "area": "sf"
         }
@@ -1132,6 +2043,22 @@
           ],
           "from": "Oak Street",
           "to": "Page Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fillmore Street"
+    },
+    "sf-msry-fillmore-st-sacramento-st-sutter-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fillmore Street"
+          ],
+          "from": "Sacramento Street",
+          "to": "Sutter Street",
           "area": "sf"
         }
       ],
@@ -1171,19 +2098,51 @@
       "est_error_m": 15,
       "note": "In Folsom Street"
     },
-    "sf-msry-folsom-st-2nd-st-precita-ave": {
+    "sf-msry-folsom-st-26th-st-2nd-st": {
       "routes": true,
       "parts": [
         {
           "streets": [
             "Folsom Street"
           ],
-          "from": "2nd Street",
-          "to": "Precita Avenue",
+          "from": "26th Street",
+          "to": "2nd Street",
           "area": "sf"
         }
       ],
       "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Folsom Street"
+    },
+    "sf-msry-folsom-st-26th-st-cesar-chavez-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Folsom Street"
+          ],
+          "from": "26th Street",
+          "to": "Cesar Chavez Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Folsom Street"
+    },
+    "sf-msry-folsom-st-cesar-chavez-st-precita-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Folsom Street"
+          ],
+          "from": "Cesar Chavez Street",
+          "to": "Precita Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
       "est_error_m": 15,
       "note": "In Folsom Street"
     },
@@ -1266,6 +2225,86 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Fulton Street"
+    },
+    "sf-msry-fulton-st-8th-ave-la-playa-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fulton Street"
+          ],
+          "from": "8th Avenue",
+          "to": "La Playa Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fulton Street"
+    },
+    "sf-msry-fulton-st-masonic-ave-stanyan-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Fulton Street"
+          ],
+          "from": "Masonic Avenue",
+          "to": "Stanyan Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Fulton Street"
+    },
+    "sf-msry-geary-blvd-33rd-ave-40th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Geary Boulevard"
+          ],
+          "from": "33rd Avenue",
+          "to": "40th Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Geary Boulevard"
+    },
+    "sf-msry-geary-blvd-40th-ave-48th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Geary Boulevard"
+          ],
+          "from": "40th Avenue",
+          "to": "48th Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Geary Boulevard"
+    },
+    "sf-msry-gough-st-market-st-mcallister-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Gough Street"
+          ],
+          "from": "Market Street",
+          "to": "McAllister Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Gough Street"
     },
     "sf-msry-guerrero-st-14th-st-18th-st": {
       "routes": true,
@@ -1382,6 +2421,22 @@
       "est_error_m": 15,
       "note": "In Hayes Street"
     },
+    "sf-msry-howard-st-s-van-ness-ave-the-embarcadero": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Howard Street"
+          ],
+          "from": "South Van Ness Avenue",
+          "to": "The Embarcadero",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Howard Street"
+    },
     "sf-msry-hyde-st-ellis-st-ofarrell-st": {
       "routes": true,
       "parts": [
@@ -1413,6 +2468,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Judah Street"
+    },
+    "sf-msry-kansas-st-16th-st-17th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Kansas Street"
+          ],
+          "from": "16th Street",
+          "to": "17th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Kansas Street"
     },
     "sf-msry-kearny-st-broadway-bush-st": {
       "routes": true,
@@ -1461,6 +2532,22 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Kearny Street"
+    },
+    "sf-msry-la-playa-st-balboa-st-fulton-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "La Playa Street"
+          ],
+          "from": "Balboa Street",
+          "to": "Fulton Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In La Playa Street"
     },
     "sf-msry-lake-st-6th-ave-arguello-blvd": {
       "routes": true,
@@ -1548,7 +2635,55 @@
       "est_error_m": 15,
       "note": "In Leavenworth Street"
     },
-    "sf-msry-lincoln-way-20th-ave-frederick-st": {
+    "sf-msry-leese-st-mission-st-richland-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Leese Street"
+          ],
+          "from": "Mission Street",
+          "to": "Richland Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Leese Street"
+    },
+    "sf-msry-lincoln-way-19th-ave-20th-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Way"
+          ],
+          "from": "19th Avenue",
+          "to": "20th Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Lincoln Way"
+    },
+    "sf-msry-lincoln-way-19th-ave-frederick-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Way"
+          ],
+          "from": "19th Avenue",
+          "to": "Frederick Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Lincoln Way"
+    },
+    "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park": {
       "routes": true,
       "parts": [
         {
@@ -1556,7 +2691,29 @@
             "Lincoln Way"
           ],
           "from": "20th Avenue",
-          "to": "Frederick Street",
+          "to": [
+            -122.508806,
+            37.764042
+          ],
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Lincoln Way"
+    },
+    "sf-msry-lincoln-way-great-hwy-the-right-of-way-along-the-park": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Lincoln Way"
+          ],
+          "from": "Great Highway",
+          "to": [
+            -122.508806,
+            37.764042
+          ],
           "area": "sf"
         }
       ],
@@ -1589,6 +2746,22 @@
           ],
           "from": "18th Street",
           "to": "Caselli Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Market Street"
+    },
+    "sf-msry-market-st-gough-st-valencia-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Market Street"
+          ],
+          "from": "Gough Street",
+          "to": "Valencia Street",
           "area": "sf"
         }
       ],
@@ -1644,6 +2817,54 @@
       "est_error_m": 15,
       "note": "In Masonic Avenue"
     },
+    "sf-msry-mcallister-st-central-ave-fillmore-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "McAllister Street"
+          ],
+          "from": "Central Avenue",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In McAllister Street"
+    },
+    "sf-msry-mcallister-st-fillmore-st-gough-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "McAllister Street"
+          ],
+          "from": "Fillmore Street",
+          "to": "Gough Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In McAllister Street"
+    },
+    "sf-msry-mcallister-st-gough-st-larkin-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "McAllister Street"
+          ],
+          "from": "Gough Street",
+          "to": "Larkin Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In McAllister Street"
+    },
     "sf-msry-mcallister-st-larkin-st-leavenworth-st": {
       "routes": true,
       "parts": [
@@ -1660,7 +2881,23 @@
       "est_error_m": 15,
       "note": "In McAllister Street"
     },
-    "sf-msry-mission-st-14th-st-22nd-st": {
+    "sf-msry-mcallister-st-leavenworth-st-market-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "McAllister Street"
+          ],
+          "from": "Leavenworth Street",
+          "to": "Market Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In McAllister Street"
+    },
+    "sf-msry-mission-st-14th-st-16th-st": {
       "routes": true,
       "parts": [
         {
@@ -1668,7 +2905,7 @@
             "Mission Street"
           ],
           "from": "14th Street",
-          "to": "22nd Street",
+          "to": "16th Street",
           "area": "sf"
         }
       ],
@@ -1692,6 +2929,22 @@
       "est_error_m": 15,
       "note": "In Mission Street"
     },
+    "sf-msry-mission-st-16th-st-22nd-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Mission Street"
+          ],
+          "from": "16th Street",
+          "to": "22nd Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Mission Street"
+    },
     "sf-msry-mission-st-22nd-st-valencia-st": {
       "routes": true,
       "parts": [
@@ -1708,7 +2961,7 @@
       "est_error_m": 15,
       "note": "In Mission Street"
     },
-    "sf-msry-mission-st-29th-st-onondaga-ave": {
+    "sf-msry-mission-st-29th-st-cortland-ave": {
       "routes": true,
       "parts": [
         {
@@ -1716,7 +2969,7 @@
             "Mission Street"
           ],
           "from": "29th Street",
-          "to": "Onondaga Avenue",
+          "to": "Cortland Avenue",
           "area": "sf"
         }
       ],
@@ -1753,6 +3006,38 @@
         }
       ],
       "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Mission Street"
+    },
+    "sf-msry-mission-st-cortland-ave-richland-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Mission Street"
+          ],
+          "from": "Cortland Avenue",
+          "to": "Richland Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Mission Street"
+    },
+    "sf-msry-mission-st-onondaga-ave-richland-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Mission Street"
+          ],
+          "from": "Onondaga Avenue",
+          "to": "Richland Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
       "est_error_m": 15,
       "note": "In Mission Street"
     },
@@ -1965,6 +3250,22 @@
       "est_error_m": 15,
       "note": "In Page Street"
     },
+    "sf-msry-parker-ave-california-st-euclid-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Parker Avenue"
+          ],
+          "from": "California Street",
+          "to": "Euclid Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Parker Avenue"
+    },
     "sf-msry-parnassus-ave-judah-st-stanyan-st": {
       "routes": true,
       "parts": [
@@ -2141,6 +3442,22 @@
       "est_error_m": 15,
       "note": "In Presidio Avenue"
     },
+    "sf-msry-richland-ave-andover-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Richland Avenue"
+          ],
+          "from": "Andover Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In Richland Avenue"
+    },
     "sf-msry-s-b-st-baldwin-ave-e-3rd-ave": {
       "routes": true,
       "parts": [
@@ -2157,6 +3474,54 @@
       "est_error_m": 15,
       "note": "In South B Street"
     },
+    "sf-msry-s-van-ness-ave-22nd-st-24th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "South Van Ness Avenue"
+          ],
+          "from": "22nd Street",
+          "to": "24th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In South Van Ness Avenue"
+    },
+    "sf-msry-s-van-ness-ave-22nd-st-howard-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "South Van Ness Avenue"
+          ],
+          "from": "22nd Street",
+          "to": "Howard Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In South Van Ness Avenue"
+    },
+    "sf-msry-s-van-ness-ave-24th-st-26th-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "South Van Ness Avenue"
+          ],
+          "from": "24th Street",
+          "to": "26th Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In South Van Ness Avenue"
+    },
     "sf-msry-sacramento-st-arguello-blvd-divisadero-st": {
       "routes": true,
       "parts": [
@@ -2172,6 +3537,38 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Sacramento Street"
+    },
+    "sf-msry-sacramento-st-divisadero-st-fillmore-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Sacramento Street"
+          ],
+          "from": "Divisadero Street",
+          "to": "Fillmore Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Sacramento Street"
+    },
+    "sf-msry-san-bruno-ave-silver-ave-wilde-ave": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "San Bruno Avenue"
+          ],
+          "from": "Silver Avenue",
+          "to": "Wilde Avenue",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-south-1950",
+      "est_error_m": 15,
+      "note": "In San Bruno Avenue"
     },
     "sf-msry-san-jose-ave-30th-st-guerrero-st": {
       "routes": true,
@@ -2237,7 +3634,7 @@
       "est_error_m": 15,
       "note": "In Stanyan Street"
     },
-    "sf-msry-stanyan-st-frederick-st-haight-st": {
+    "sf-msry-stanyan-st-frederick-st-waller-st": {
       "routes": true,
       "parts": [
         {
@@ -2245,7 +3642,7 @@
             "Stanyan Street"
           ],
           "from": "Frederick Street",
-          "to": "Haight Street",
+          "to": "Waller Street",
           "area": "sf"
         }
       ],
@@ -2269,7 +3666,7 @@
       "est_error_m": 15,
       "note": "In Stanyan Street"
     },
-    "sf-msry-stanyan-st-haight-st-oak-st": {
+    "sf-msry-stanyan-st-haight-st-page-st": {
       "routes": true,
       "parts": [
         {
@@ -2277,7 +3674,39 @@
             "Stanyan Street"
           ],
           "from": "Haight Street",
-          "to": "Oak Street",
+          "to": "Page Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Stanyan Street"
+    },
+    "sf-msry-stanyan-st-haight-st-waller-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Stanyan Street"
+          ],
+          "from": "Haight Street",
+          "to": "Waller Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In Stanyan Street"
+    },
+    "sf-msry-stanyan-st-oak-st-page-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "Stanyan Street"
+          ],
+          "from": "Oak Street",
+          "to": "Page Street",
           "area": "sf"
         }
       ],
@@ -2300,6 +3729,38 @@
       "check": "usgs-san-francisco-north-1950",
       "est_error_m": 15,
       "note": "In Taylor Street"
+    },
+    "sf-msry-the-embarcadero-broadway-washington-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "The Embarcadero"
+          ],
+          "from": "Broadway",
+          "to": "Washington Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In The Embarcadero"
+    },
+    "sf-msry-the-embarcadero-howard-st-mission-st": {
+      "routes": true,
+      "parts": [
+        {
+          "streets": [
+            "The Embarcadero"
+          ],
+          "from": "Howard Street",
+          "to": "Mission Street",
+          "area": "sf"
+        }
+      ],
+      "check": "usgs-san-francisco-north-1950",
+      "est_error_m": 15,
+      "note": "In The Embarcadero"
     },
     "sf-msry-the-embarcadero-market-st-mission-st": {
       "routes": true,

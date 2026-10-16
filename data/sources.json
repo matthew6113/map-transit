@@ -39,6 +39,39 @@
       "notes": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\". The San Joaquins became the Gold Runner in 2025."
     },
     {
+      "id": "asri-1897",
+      "title": "American Street Railway Investments, vol. 4 (1897): the red book of American street railway investments",
+      "publisher": "Street Railway Journal",
+      "date": "1897",
+      "type": "book",
+      "url": "https://archive.org/details/mcgrawelectricr06jourgoog",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 246, Santa Rosa: \"Santa Rosa Street Railroad Co.—Chartered June 5, 1877. This company is now in litigation and has suspended operations.\" 1.5 miles of horse track, 3 ft. 6 in. gauge, \"7 horses, 5 horse cars\"; date of information February 1897. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "asri-1903",
+      "title": "American Street Railway Investments, vol. 10 (1903)",
+      "publisher": "Street Railway Publishing Company",
+      "date": "1903",
+      "type": "book",
+      "url": "https://archive.org/details/americanstreetr00unkngoog",
+      "license": "Public domain (published 1903)",
+      "accessed": "2026-10-16",
+      "notes": "p. 14, Santa Rosa: \"Santa Rosa Street Railroad Co.—Chartered June 5, 1877.\" \"Miles of track (horse), 1.5; gauge, 3 ft. 6 in.; 16 lb. T rail; 7 horses, 5 cars.\" Officers the same as the Union Street Ry. Co.; date of information March 1903. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "asri-1906",
+      "title": "American Street Railway Investments, vol. 13 (1906): the red book of American street railway investments",
+      "publisher": "McGraw Publishing Company",
+      "date": "1906",
+      "type": "book",
+      "url": "https://archive.org/details/mcgrawelectricr02unkngoog",
+      "license": "Public domain (published 1906)",
+      "accessed": "2026-10-16",
+      "notes": "p. 21, Santa Rosa: \"Santa Rosa Street Railways.—The Union Street Ry. Co., the Central Street Ry. Co. and the Santa Rosa Street Ry. Co. are all owned by the same interest under the title of the Santa Rosa Street Railways.\" \"Miles of track, 7; gauge, 3 ft. 6 in.; 35 lb. flat rail; 17 cars; 7 horses.\" The Santa Rosa Street Railroad Co. \"is controlled and operated by the Santa Rosa Street Railways\"; date of information March 1906. Read on the page image, October 16, 2026."
+    },
+    {
       "id": "bam-bart-silicon-valley-phase-2-geometry",
       "title": "VTA GIS alignment",
       "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
@@ -1048,6 +1081,18 @@
       "notes": "The railroads' returns, with each stretch's date \"opened for public use\" on its own line; the Northern Railway's is on p. 45 of its return (\"From Shell Mound to Martinez January 9, 1878. From Benicia to Suisun December 28, 1879\"; its West Oakland date is printed \"August 17, 1886\", where the tenth report has August 16, 1876). A Google scan. Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "ca-brc-report-1900",
+      "title": "Annual Report of the Board of Railroad Commissioners of the State of California (1901), with the railroads' returns for 1900",
+      "author": "Board of Railroad Commissioners of the State of California",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1901",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa04unkngoog",
+      "license": "Public domain (State of California publication of 1901)",
+      "accessed": "2026-10-15",
+      "notes": "p. 148, the San Francisco & San Joaquin Valley Railway's return: \"Extensions of Road Put in Operation.—Stockton to Point Richmond, 70.39 miles, May 1, 1900\". A Google scan. Read on the page image."
+    },
+    {
       "id": "ca-brc-reports-9-12",
       "title": "Annual Reports of the Board of Railroad Commissioners of the State of California, 9th-12th (c. 1888-1892), bound together",
       "author": "Board of Railroad Commissioners of the State of California",
@@ -1094,6 +1139,18 @@
       "url": "https://www.capitolcorridor.org/time-line/december-1991/",
       "accessed": "2026-10-14",
       "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
+    },
+    {
+      "id": "census-1902-street-railways",
+      "title": "Street and Electric Railways, 1902 (special report of the Census Office)",
+      "author": "Bureau of the Census",
+      "publisher": "Government Printing Office",
+      "date": "1905",
+      "type": "official",
+      "url": "https://archive.org/details/cu31924004966689",
+      "license": "Public domain (U.S. government work)",
+      "accessed": "2026-10-16",
+      "notes": "p. 236, Table 93: the Santa Rosa Street Rwy. Co. (including the Central and Union companies, footnote 18) reported for January 1 to December 31, 1902, with 7.33 miles of single track; the Petaluma Street Rwy. Co. for December 1, 1901 to November 30, 1902, with 1.81 miles. Read on the page image, October 16, 2026."
     },
     {
       "id": "cfc-1913-04-19",
@@ -1149,6 +1206,30 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "J. J. Teuscher, \"Last Ferry\": \"On September 15, 1962, the Benicia-Martinez Ferry made its last trip across the Carquinez Straits\"; the state took the ferry over in 1953; \"From early in 1955 to late in 1956 the only ferry between Benicia and Martinez was a passenger ferry\" (pp. 5-6). Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "classic-trains-2009-spring",
+      "title": "Classic Trains, Spring 2009: Elrond Lawrence, on the Niles Canyon Railway",
+      "author": "Elrond Lawrence",
+      "publisher": "Kalmbach Publishing",
+      "date": "2009",
+      "type": "journal",
+      "url": "https://archive.org/details/classic-trains-spring-2009-images",
+      "license": "Copyright (2009); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 69: \"SP ended service on its historic route in 1984. Alameda County took title to the right of way, and the rails were pulled up.\" The Pacific Locomotive Association \"contracted with the county to restore the track between Niles and Sunol, 7 miles. On May 21, 1988, California Western railbus M200 rolled into Sunol, and the Niles Canyon Railway was born.\" \"Passengers can now board at either Niles or Sunol.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "contra-costa-history-1926",
+      "title": "History of Contra Costa County, California",
+      "author": "J. P. Munro-Fraser and others",
+      "publisher": "Historic Record Company, Los Angeles",
+      "date": "1926",
+      "type": "book",
+      "url": "https://archive.org/details/historyofcontra00munr",
+      "license": "Public domain in the US (published 1926, not renewed as far as known); cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 127, in the Richmond chapter, by a writer who came there in 1899: \"The first through train from Chicago, over the Santa Fe, arrived on July 3, 1900, about noon. Captain H. P. Lauritzen was in charge of the ferry boat, Ocean Wave, waiting for the train.\" Read on the page image."
     },
     {
       "id": "cpuc-d40055",
@@ -1254,6 +1335,50 @@
       "notes": "The Northwestern Pacific's Trains Nos. 3 and 4, thrice weekly between San Rafael and Eureka since June 2, 1956 (p. 2); discontinuance authorized between San Rafael and Willits (p. 12), the order effective twenty days after its date (p. 13). Text extracted with pypdf, since pdftotext reads only its first page."
     },
     {
+      "id": "cpuc-d59928",
+      "title": "Public Utilities Commission of California, Decision No. 59928 (Application No. 41544): Southern Pacific trains 73, 74, 250 and 255",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1960-04-12",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D57801_to_D73750/D59928_19600412_A41544.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 10: Southern Pacific \"is hereby authorized to discontinue the operations of passenger trains Nos. 73, 74, 250 and 255 between Oakland and San Jose and intermediate points\"; p. 11: effective twenty days after April 12, 1960. p. 1: Nos. 250 and 255 were \"the Oakland section of the Coast Daylight\". Read on the scanned pages by the research pass; p. 10 on October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-g1006014",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter G1006014: State Route 84, Rosewarnes and Farwell underpasses",
+      "publisher": "California Public Utilities Commission",
+      "date": "2010-07-22",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2010/G1006014%20SR84%20Niles%20Canyon%20-%20Alameda%20Co%20(Caltrans).pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"under track of the Pacific Locomotive Association, Inc. (PLA) in the City of Fremont and County of Alameda (County). The railroad right-of-way is owned by the County.\" \"A few tourist/excursion trains per week operate along the track at 10 MPH or less.\" Read October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-xreq2021060004",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter XREQ2021060004: Soscol Avenue, Napa",
+      "publisher": "California Public Utilities Commission",
+      "date": "2021-06-28",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2021/XREQ2021060004_SoscolAvenue_Napa.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the Soscol Avenue crossing \"of the Napa Valley Railroad (NVRR) track\"; \"The NVRR operates four passenger trains per day at a maximum speed of 25 miles per hour through the crossing.\" Read October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-xreq2023060004",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter XREQ2023060004: Redwood Road, Napa",
+      "publisher": "California Public Utilities Commission",
+      "date": "2023-06-30",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2023/XREQ2023060004_Redwood%20Rd_Napa_NVRR.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"the Redwood Road rail crossing (crossing) of the Napa Valley Wine Train (NVRR) track(s), in the City of Napa\". Read October 16, 2026."
+    },
+    {
       "id": "cpuc-vta-safety-review-2011",
       "title": "Triennial on-site safety and security review of the Santa Clara Valley Transportation Authority (2011)",
       "publisher": "California Public Utilities Commission",
@@ -1264,6 +1389,17 @@
       "notes": "Tasman East: \"The first phase, a 1.9-mile extension from North First Street to I-880\", \"opened for revenue service in May 2001\"; \"The second phase, a 2.9-mile segment from I-880 to Hostetter Road\", \"opened for revenue service in June 2004\". \"The Capitol light rail line, a 3.5-mile extension of the Tasman light rail line, opened for revenue service in June 2004.\" It \"travels along Capitol Avenue from just south of Hostetter Road to Alum Rock Avenue\". Tasman West (7.6 miles) since 1999; Vasona since 2005; the Guadalupe line since 1991."
     },
     {
+      "id": "crc-d11668",
+      "title": "Railroad Commission of California, Decision No. 11668 (Application No. 8512): Rodeo-Vallejo Ferry Company, Mare Island fares",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1923-02-16",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_23",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "Decisions of the Railroad Commission, vol. 23, p. 99: \"Rodeo-Vallejo Ferry Company operates passenger ferry service between Mare Island and the city of Vallejo\"; \"The Georgia street terminal at Vallejo is used only for the Vallejo-Mare Island run, and the terminal at Mare Island is owned by the United States government.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "crc-d12906",
       "title": "Railroad Commission of the State of California, Decision No. 12906 (Case No. 1911): Southern Pacific service over the Harrison Street bridge, Oakland–Alameda",
       "author": "Railroad Commission of the State of California",
@@ -1272,6 +1408,17 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d14728",
+      "title": "Railroad Commission of California, Decision No. 14728 (Case No. 2043): the Rodeo-Vallejo Ferry Company",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1925-04-01",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_26",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "Decisions of the Railroad Commission, vol. 26, p. 189: on March 21, 1922 the Rodeo-Vallejo Ferry Company bought the Six-Minute Ferry's property \"and also the passenger ferry operating between Mare Island and Vallejo, including the steamers San Jose and Vallejo. That portion of the property operated between Mare Island and Vallejo was sold in April, 1923, for $30,000.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "crc-d17097",
@@ -1294,6 +1441,17 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d20488",
+      "title": "Railroad Commission of California, Decision No. 20488 (Application No. 14975)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1928-11-16",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20488_19281116_A14975.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"an order authorizing the discontinuance of passenger train service on applicants' so-called Santa Rosa Branch between Napa Junction and Santa Rosa, California, a distance of 37 miles\"; trains 153 and 156 daily and 152 and 155 on Sundays; p. 5: granted, with Southern Pacific tickets honoured on the motor coaches of Southern Pacific Motor Transport Company between Napa and Santa Rosa; \"The effective date of this order is hereby fixed as twenty (20) days from the date hereof\", November 16, 1928. Read on the scanned pages."
+    },
+    {
       "id": "crc-d20559",
       "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
       "publisher": "Railroad Commission of the State of California",
@@ -1312,6 +1470,17 @@
       "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D21194_19290610_A14085.pdf",
       "accessed": "2026-10-15",
       "notes": "The Southern Pacific's ferry between Vallejo Junction and Vallejo (seven round trips a day), its one round trip (trains 154 and 157) between Vallejo and Calistoga and its two between Vallejo and Suisun-Fairfield, discontinued in favour of Southern Pacific Motor Transport's coaches; the order effective twenty days from its date. The date is the one in the file's name; the OCR of the signed date is unreadable."
+    },
+    {
+      "id": "crc-d2180",
+      "title": "Railroad Commission of California, Decision No. 2180 (Case No. 176): the valuation of the Mt. Tamalpais & Muir Woods Railway",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1915-02-27",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "Decisions of the Railroad Commission, vol. 6, p. 235: \"the entire line was completed within eight (8) months, the first train being run to the end of the line on August 27, 1896. The Muir Woods branch line was built in 1906.\" On June 30, 1913 the main line was 8.18 miles and the Muir Woods branch 2.40. Read on the page image by the research pass."
     },
     {
       "id": "crc-d22212",
@@ -1344,6 +1513,17 @@
       "notes": "p. 5: the Interstate Commerce Commission \"authorized the abandonment of the narrow gauge line of the Northwestern Pacific Railroad company between Point Reyes and Monte Rio, and operation thereof ceased on April 3, 1930\" (OCR, read loosely)."
     },
     {
+      "id": "crc-d22765",
+      "title": "Railroad Commission of California, Decision No. 22765 (Application No. 16666)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1930-08-07",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D22765_19300807_A16666.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: the Mt. Tamalpais & Muir Woods Railway \"authorized to abandon all service upon its railway in the County of Marin, State of California, to surrender its franchise\"; p. 3: \"The authority herein granted shall become effective on the date hereof\", August 7, 1930. Read on the scanned pages."
+    },
+    {
       "id": "crc-d23279",
       "title": "Railroad Commission of California, Decision No. 23279: East Bay Street Railways: abandonment of 5th Ave and 8th St, Oakland (Application No. 17062)",
       "publisher": "Railroad Commission of the State of California",
@@ -1353,6 +1533,17 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "p. 2: lines No. 9 (Alameda via Park Street) and No. 15 (38th Avenue) loop downtown by 5th Ave and 8th St; condition (1), p. 5: their new route by East 14th St, 1st Ave, 12th St, Oak St, 13th St and Washington St. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
+    },
+    {
+      "id": "crc-d2348",
+      "title": "Railroad Commission of California, Decision No. 2348 (Case No. 145): the valuation of the Petaluma & Santa Rosa",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1915-05-05",
+      "type": "official",
+      "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "Decisions of the Railroad Commission, vol. 6, p. 752: \"With the exception of approximately two miles of line, this road was placed in operation in November, 1904.\" Read on the page image, October 15, 2026."
     },
     {
       "id": "crc-d24224",
@@ -1366,6 +1557,17 @@
       "notes": "p. 2: \"The present route of car line No. 11\" from \"Piedmont Avenue and Rio Vista\", and of No. 15 (38th Avenue) \"Commencing at Hopkins and 38th Avenue\". Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d24310",
+      "title": "Railroad Commission of California, Decision No. 24310 (Application No. 17824)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1931-12-14",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24310_19311214_A17824.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "pp. 1-2: the Petaluma & Santa Rosa \"authorized to abandon its passenger service and remove its track and appurtenances thereto on its line of railroad on Fourth Street, from east of the west line of Wilson Street to its terminus at Fourth and McDonald Streets\", a line \"devoted exclusively to passenger transportation\". Read on the scanned pages."
+    },
+    {
       "id": "crc-d24764",
       "title": "Railroad Commission of California, Decision No. 24764: East Bay Street Railways: abandonment of the 90th Avenue (No. 26) line (Applications 17981, 18109, 18110)",
       "publisher": "Railroad Commission of the State of California",
@@ -1375,6 +1577,17 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "Order II, p. 4: the line \"Beginning at the intersection of East 14th Street and 90th Avenue, thence along 90th Avenue to Foothill Boulevard\". Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
+    },
+    {
+      "id": "crc-d24818",
+      "title": "Railroad Commission of California, Decision No. 24818 (Application No. 18089)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1932-05-31",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24818_19320531_A18089.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 3: the Petaluma & Santa Rosa \"granted authority to abandon and discontinue the operation of passenger and express service on its lines of railroad between Petaluma, Sebastopol, Santa Rosa and Forestville\", effective ten days after the order, on at least ten days' notice. Read on the scanned pages."
     },
     {
       "id": "crc-d24866",
@@ -1397,6 +1610,17 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "The No. 15 line rerouted \"east along Eighth Street to Broadway\" from Washington St. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
+    },
+    {
+      "id": "crc-d24983",
+      "title": "Railroad Commission of California, Decision No. 24983 (Application No. 18258)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1932-07-11",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24983_19320711_A18258.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: Railway Express Agency's trucks replace \"the discontinuance of passenger train service between termini on July 1, 1932, by Petaluma & Santa Rosa Railroad, under authority of our Decision No.24818\" (which it misdates May 21). Read on the scanned pages."
     },
     {
       "id": "crc-d25533",
@@ -1493,6 +1717,28 @@
       "notes": "Exhibit B, p. 9: \"Description of street car routes ... as modified by the foregoing decision\", lines No. 12 and No. 14; order I(b), p. 4: the track from Hollis St and Yerba Buena Ave by 32nd St, Adeline St, 24th St and Market St to 16th St given up. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d28282",
+      "title": "Railroad Commission of California, Decision No. 28282 (Case No. 4012): the operative rights of vessel carriers",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1935-10-14",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28282_19351014_C4012.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 9: \"Mare Island Ferry, a California corporation, had on file with the Commission on August 17, 1923, a tariff naming fares for the transportation of passengers between Vallejo and Mare Island\"; it \"has rendered a common carrier service for many years prior to August 17, 1923, and now operates a scheduled service for the transportation of passengers between those points.\" Read on the scanned page, October 16, 2026."
+    },
+    {
+      "id": "crc-d28283",
+      "title": "Railroad Commission of California, Decision No. 28283 (Case No. 3824): the operative rights of vessel carriers",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1935-10-14",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28283_19351014_C3824.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 43: the Petaluma and Santa Rosa Railroad operates \"a common carrier service on the inland waters of this State between San Francisco and Petaluma, transporting passengers and property on a regular schedule\"; p. 44: \"The Petaluma-San Francisco service was inaugurated in 1904 by the Petaluma and Santa Rosa Railway Company\". Read on the scanned pages."
+    },
+    {
       "id": "crc-d28671",
       "title": "Railroad Commission of the State of California, Decision No. 28671 (Application No. 19703): Interurban Electric Railway: trackage rights and Bay Bridge operation",
       "author": "Railroad Commission of the State of California",
@@ -1542,6 +1788,17 @@
       "type": "official",
       "license": "California public record (Railroad Commission of the State of California); cited for facts",
       "accessed": "2026-10-14"
+    },
+    {
+      "id": "crc-d29778",
+      "title": "Railroad Commission of California, Decision No. 29778 (Cases No. 3824 and 4012), opinion on further hearing",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1937-05-24",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29778_19370524_C3824.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 16: \"Passenger service between San Francisco and Petaluma was discontinued and the tariff cancelled effective December 23, 1935, upon application to and under authority of this Commission.\" Read on the scanned page, October 16, 2026."
     },
     {
       "id": "crc-d29999",
@@ -1820,6 +2077,17 @@
       "notes": "p. 2: \"the No. 2 San Pablo Avenue street railway line operates over a route from the business center of Oakland to Ashby Avenue by way of San Pablo Avenue\". Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d36613",
+      "title": "Railroad Commission of California, Decision No. 36613 (Application No. 25727): Mare Island Ferry commutation fares",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1943-09-21",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36613_19430921_A25727.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the Mare Island Ferry \"conducts a foot passenger common carrier ferry service between the City of Vallejo and Mare Island across the Mare Island Strait\", \"between two slips on the Vallejo side, one at Georgia Street and the other at Ryder Street, and two slips on the Mare Island side\", \"approximately one-quarter of a mile between slips\". Read on the scanned page, October 16, 2026."
+    },
+    {
       "id": "crc-d36740",
       "title": "Railroad Commission of California, Decision No. 36740: Key System: the No. 60 bus to Mountain View Cemetery (Application No. 19502, 65th supplemental)",
       "publisher": "Railroad Commission of the State of California",
@@ -1875,6 +2143,72 @@
       "notes": "Order I, pp. 5-6, gives both routes street by street. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d4927",
+      "title": "Railroad Commission of California, Decision No. 4927 (Application No. 3272)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1917-12-06",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D4927_19171206_A3272.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the railway runs \"from the Northwestern Pacific Railroad station at Mill Valley to the summit of Mount Tamalpais with a branch line to Muir Woods\", with a local service \"through Blythdale Canyon to the station of Lee Street, a distance of 1.12 miles\"; p. 5: authorized \"to discontinue all mountain service on its main line from Mill Valley to the summit of Tamalpais, including the Muir Woods Branch, during the months of November, December, January and February of each year\". Read on the scanned pages by the research pass."
+    },
+    {
+      "id": "crc-d5642",
+      "title": "Railroad Commission of California, Decision No. 5642 (Application No. 3985)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1918-07-30",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D5642_19180730_A3985.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: the Santa Fe, at the federal Director General of Railroads' request, authorized to discontinue \"its ferry service between Ferry Point and San Francisco and for the re-routing of its passenger trains between Richmond and Oakland via the tracks of the Southern Pacific Company\". Read on the scanned page by the research pass."
+    },
+    {
+      "id": "crc-d9543",
+      "title": "Railroad Commission of California, Decision No. 9543 (Case No. 1532)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1921-09-23",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D24_to_D11600/D9543_19210923_C1532.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-15",
+      "notes": "pp. 2-3: \"During Federal control the Santa Fe terminal was diverted from Ferry Point and the Santa Fe passenger traffic moved via Oakland Pier of the Southern Pacific\"; afterwards the Santa Fe \"resumed service via Ferry Point with their own boats\", and it operates \"a ferry service between San Francisco and Ferry Point to meet all incoming and outgoing trains\". Read on the scanned pages by the research pass."
+    },
+    {
+      "id": "crocker-langley-1901",
+      "title": "Crocker-Langley San Francisco Directory for the year commencing May 1901",
+      "publisher": "H. S. Crocker Company",
+      "date": "1901",
+      "type": "primary_document",
+      "url": "https://archive.org/details/crockerlangleysa0000vari_a5j1",
+      "license": "Public domain (published 1901)",
+      "accessed": "2026-10-15",
+      "notes": "p. 1556: \"Santa Fe Route Ferry, foot Market\"; its freight ferry slips at the Spear St wharf. Read on the page image by the research pass."
+    },
+    {
+      "id": "crocker-langley-1903",
+      "title": "Crocker-Langley San Francisco Directory, 1903",
+      "publisher": "H. S. Crocker Company",
+      "date": "1903",
+      "type": "book",
+      "url": "https://archive.org/details/crockerlangleysa1903sanf",
+      "license": "Public domain (published 1903)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1736: \"STEAMER GOLD, N. L. Meads agt. berth Bulkhead bet. Washington and Jackson\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "crocker-langley-1923",
+      "title": "Crocker-Langley San Francisco Directory, 1923",
+      "publisher": "R. L. Polk & Co.",
+      "date": "1923",
+      "type": "book",
+      "url": "https://archive.org/details/crockerlangleysa1923rlporich",
+      "license": "Public domain (published 1923)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1337: \"PETALUMA & SANTA ROSA RAILROAD steamer Gold Line L H Fox agt Pier 9 foot Broadway\". Read on the page image, October 16, 2026."
+    },
+    {
       "id": "cscrm-2021-02-000612",
       "title": "Southern Pacific Company, employee timetable No. 2, November 1, 1914",
       "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
@@ -1884,6 +2218,215 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-14",
       "notes": "pp. 30-35: \"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32); the First and Webster, Third and Webster and Webster Junction (Alameda) towers and the Harrison Street drawbridge (p. 35). Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-000614",
+      "title": "Southern Pacific, Western Division, employee timetable No. 153, 1914-01-04",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1914-01-04",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000614",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 15, Dumbarton and Centerville Branch: No. 512 \"Redwood Mixed\", leave daily except Sunday, Redwood City 3.20 PM by Sweeney, Henderson and Dumbarton to Newark, Centerville and Niles 4.45 PM; No. 503 back, Niles 1.40 PM to Redwood City 3.05 PM. Stations and miles from San Francisco: Redwood City 25.4, Bestos, Sweeney, Henderson, Ravenswood, Dumbarton 33.2, Newark 37.2, Mattos, Centerville 40.0, Niles 42.9. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-000663",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 35, 1914-03-15",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1914-03-15",
+      "url": "https://archive.org/details/cscrm_2021_02_000663",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 9, Third District: the stations from Stockton by Middle River, Antioch, Pittsburg, Bay Point, Muir, Pinole and San Pablo to Richmond, Richmond Avenue and Ferry Point, then 7.7 miles to San Francisco. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000730",
+      "title": "Southern Pacific, Western Division, employee timetable No. 166, 1916-05-28",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1916-05-28",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000730",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 16, Dumbarton and Centerville Branch: Nos. 512 and 503, \"Redwood Mixed\", daily except Sunday between Redwood City and Niles. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000731",
+      "title": "Southern Pacific, Western Division, employee timetable No. 167, 1916-10-01",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1916-10-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000731",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 16, Dumbarton and Centerville Branch: no Redwood Mixed; only freight trains (254, 242, 253) run between Redwood City and Newark, and the passenger and milk trains run between Newark, Centerville and Niles. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-000817",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 44, 1918-08-18",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1918-08-18",
+      "url": "https://archive.org/details/cscrm_2021_02_000817",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "In effect Sunday, August 18, 1918: through trains run from Richmond by Santa Fe Junction to the Southern Pacific's Oakland Pier, and Ferry Point is \"Freight only\" (p. 7). Read on the page images by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000835",
+      "title": "Western Pacific, Western Division, employee timetable No. 2, 1919-01-05 (United States Railroad Administration)",
+      "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+      "date": "1919-01-05",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000835",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: San Francisco, Oakland Pier (S. P.), West Oakland (S. P.), Oakland Yard (W. P.), Chestnut Junction, Oakland; \"Between Chestnut Junction and Oakland Pier trains will be governed by Southern Pacific Time Table\". Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000897",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 47, 1921-01-09",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1921-01-09",
+      "url": "https://archive.org/details/cscrm_2021_02_000897",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "Printed \"In effect Sunday, December 5, 1920\", overstamped, with a typed box: \"EFFECTIVE 12:01 A. M. SUNDAY, JANUARY 9th, 1921\" (cover); p. 11 restores Richmond – Ferry Point – San Francisco. Cover read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-000909",
+      "title": "Southern Pacific Company, employee timetable No. 180, Supplement No. 2, August 17, 1922",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1922-08-17",
+      "url": "https://archive.org/details/cscrm_2021_02_000909",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 18: the Santa Rosa Branch, with trains 69 and 70 between San Francisco and Santa Rosa; stations Napa Junction, Squab, Brazos, Buchli, Merazo, ... Schellville, Snyder, El Verano, Boyes Springs, Agua Caliente, Sobre Vista, Yulupa, Eldridge, Glen Ellen, Warfield, ... Kenwood, ... Los Guilicos, Annadel, ... Melitta, ... Santa Rosa (36.7 miles from Napa Junction). Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001171",
+      "title": "Northwestern Pacific Railroad, employee timetable No. 4, Southern Division, October 20, 1929",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1929-10-20",
+      "url": "https://archive.org/details/cscrm_2021_02_001171",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 5: Ignacio, Black Point, Reclamation, Sears' Point, Fairville, McGill, Wingo, Schellville (\"S. P. Crossing\"), Vineburg, Buena Vista, Sonoma, Verano, Boyes Springs, Fetters Springs, Agua Caliente, Watriss, Madrone (\"S. P. Crossing\"), Eldridge, Glen Ellen, 26.3 miles from Ignacio, with \"Glen Ellen Passenger\" trains; the Sebastopol branch (Santa Rosa, Kenilworth, Gravenstein, Sebastopol, 6.3 miles) has no trains. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001247",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 67, 1932-03-06",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1932-03-06",
+      "url": "https://archive.org/details/cscrm_2021_02_001247",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 8, Third District, with mileposts: Stockton 1121.4 to Richmond 1189.6, Richmond Ave. 1190.2 and Ferry Point 1191.7, then San Francisco 1199.4. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001268",
+      "title": "Southern Pacific, Western Division, employee timetable No. 217, 1933-10-01",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1933-10-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001268",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 8, Niles Subdivision: \"W. P. Passenger\" No. 12 from San Francisco by Oakland Pier, the Western Pacific crossing and Magnolia Tower. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001279",
+      "title": "Western Pacific, Western Division, employee timetable No. 20, 1933-05-10",
+      "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+      "date": "1933-05-10",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001279",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: San Francisco, \"WESTERN PACIFIC MOLE\", Oakland Yard, Oakland; \"W. P. Mole is initial station for Nos. 2 and 4\" (the Scenic Limited and the Feather River Express). Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001289",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 68, 1933-04-23",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1933-04-23",
+      "url": "https://archive.org/details/cscrm_2021_02_001289",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "In effect Sunday, April 23, 1933: p. 8, the Third District from Riverbank and Stockton ends at Richmond (milepost 1189.6), with no Richmond Ave. or Ferry Point; p. 9, through trains run on by Oakland (40th and San Pablo) to Oakland Pier. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001320",
+      "title": "Northwestern Pacific Railroad, Supplement No. 1 to employee timetable No. 12, January 15, 1934",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1934-01-15",
+      "url": "https://archive.org/details/cscrm_2021_02_001320",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "\"To Take Effect Monday, January 15, 1934, at 3:01 A. M.\": trains 140-143 become \"Kenwood Passenger\", running on from Agua Caliente by Watriss, Yulupa, Eldridge, Glen Ellen, Warfield, Beltane, Wildwood and Kenwood to Los Guilicos (p. 4). Read on the page images by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001466",
+      "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1941-09-28",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001466",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 12, Niles Subdivision: passenger trains 250 and 255 and the Oakland Lark (74, 73), daily, from Oakland Pier by West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale and Elmhurst, then Mulford, Robert, Russell, Mount Eden, Alvarado, Newark, Alviso and Agnew to Santa Clara (\"Elmhurst-Santa Clara line\"). Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001673",
+      "title": "Western Pacific, Western Division, employee timetable No. 38, 1949-03-20",
+      "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+      "date": "1949-03-20",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_001673",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "No. 18, \"Streamliner California Zephyr\", San Francisco 9.00 a.m., Oakland Pier 9.30, Oakland 9.44. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-002028",
+      "title": "Southern Pacific, Western Division, employee timetable No. 272, 1960-04-24, with Schedule Statement ST-798 of 1960-05-09",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1960-05-09",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002028",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "Memorandum bound in (leaf 9): \"Passenger Trains Nos. 74, 250 and 255 were discontinued between Oakland and San Jose following the last operation on May 1, 1960, and Train No. 73 was discontinued following the last operation on May 2nd\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-002311",
+      "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 16, 1968-06-15",
+      "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
+      "date": "1968-06-15",
+      "url": "https://archive.org/details/cscrm_2021_02_002311",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-15",
+      "notes": "p. 4: first-class trains Nos. 1 and 2 at Richmond (No. 1 arrives 10.00 AM, No. 2 leaves 4.30 PM). No. 17 of May 30, 1971 schedules none. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-002322",
+      "title": "Western Pacific, Western Division, employee timetable No. 1, 1970-07-19",
+      "publisher": "Western Pacific Railroad (California State Railroad Museum scan)",
+      "date": "1970-07-19",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_002322",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: freight trains only between Oakland and Stockton. Read on the page image by the research pass."
     },
     {
       "id": "demoro-key-route-1985",
@@ -1962,6 +2505,17 @@
       "license": "Public domain (published 1913)",
       "accessed": "2026-10-15",
       "notes": "p. 435: \"The formal opening of the Oakland, Antioch & Eastern Railway was celebrated on Sept. 3 with an elaborate program. On that day the schedule of eight trains daily between Sacramento and San Francisco became effective.\" Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "fare-box-1986-09",
+      "title": "The Fare Box (American Vecturist Association), September 1986",
+      "publisher": "American Vecturist Association",
+      "date": "1986-09",
+      "type": "journal",
+      "url": "https://archive.org/details/FareBox1986",
+      "license": "Copyright (1986); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 100, from a clipping of the West County Times of August 30, 1986: \"the Mare Island Ferry (CA 945 M) ceased all operations August 29.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "golden-gate-ferry-timeline",
@@ -2047,6 +2601,29 @@
       "notes": "A year-by-year chronicle of Alameda County to 1876, with the openings of its railroads and ferries. Pages are the printed page numbers in the running heads. Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "holterhoff-1914",
+      "title": "Historical Review of the Atchison, Topeka and Santa Fe Railway Company (with particular reference to California lines)",
+      "author": "G. Holterhoff Jr.",
+      "publisher": "Atchison, Topeka and Santa Fe Railway, for the Railroad Commission of California",
+      "date": "1914-06",
+      "type": "primary_document",
+      "url": "https://archive.org/details/historyreview00holtrich",
+      "license": "Public domain (published 1914)",
+      "accessed": "2026-10-15",
+      "notes": "p. 10: \"Although the construction of this line was not fully completed until July, 1900, … The operation of the property was formally taken over by Santa Fe officials on July 17, 1900\"; p. 11: the Oakland and East Side Railroad, incorporated March 6, 1902, \"Constructed Richmond to Oakland\". Read on the page images by the research pass."
+    },
+    {
+      "id": "joe-1905-01-psr",
+      "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
+      "publisher": "Journal of Electricity, Power and Gas",
+      "date": "1905-01",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_electrical-west_1905-01_15_1",
+      "license": "Public domain (published 1905)",
+      "accessed": "2026-10-15",
+      "notes": "p. 31: \"Regular hourly service on the new Westinghouse single-phase alternating current electric road, known as the Petaluma and Santa Rosa Railway, ... was begun on November 19th\"; \"At the same time similar service was inaugurated on the Green Valley branch, extending from Sebastopol to Green Valley.\" Read on the page image, October 15, 2026."
+    },
+    {
       "id": "joepg-1912-03-09",
       "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
       "publisher": "Journal of Electricity, Power and Gas",
@@ -2067,6 +2644,28 @@
       "license": "Public domain (published 1867)",
       "accessed": "2026-10-14",
       "notes": "p. 37, \"General Review\" (scan n140): the first train of October 17, 1863 ran \"from the Mission Dolores to Big Tree Station\"; \"The principal depot at present is at the corner of Valencia and Market Streets.\""
+    },
+    {
+      "id": "lat-1897-09-28-petaluma",
+      "title": "Los Angeles Times, September 28, 1897: \"Petaluma's Street Railway Sold\"",
+      "publisher": "Los Angeles Times",
+      "date": "1897-09-28",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-09-28",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 3: \"PETALUMA, Sept. 27.—The Petaluma street railway was sold here this afternoon at Sheriff's sale to the Wickersham Banking Company for $2356.63.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "lat-1897-12-25-santa-rosa",
+      "title": "Los Angeles Times, December 25, 1897: \"Santa Rosa Street-railway Deal\"",
+      "publisher": "Los Angeles Times",
+      "date": "1897-12-25",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-12-25",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 3: \"SANTA ROSA, Dec. 24.—The Union-street Railway Company bought the McDonald-street Railway Company's line, including horses and all the property this afternoon. This deal puts all of the street railways in the city under the same management\". Read on the page image, October 16, 2026."
     },
     {
       "id": "manley-1909",
@@ -2163,6 +2762,17 @@
       "notes": "June 7, 2012: \"The June 4 maiden voyage of the East Bay to South San Francisco ferry service marks a new chapter in water transportation\"."
     },
     {
+      "id": "mtmw-timetable-1925",
+      "title": "Mt. Tamalpais and Muir Woods Railway, Circular No. 2: timetable, April 6 to October 31, 1925",
+      "publisher": "Mt. Tamalpais and Muir Woods Railway (Mill Valley Public Library scan)",
+      "date": "1925-04-06",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cmlpl_000744",
+      "license": "Public domain (marked by the library)",
+      "accessed": "2026-10-16",
+      "notes": "\"Steam Train Between Mill Valley, Mt. Tamalpais and Muir Woods. Some Returning Schedules Made by Gravity Cars.\" \"Mill Valley to Mt. Tamalpais 8.19 miles · Mill Valley to Muir Woods 6.98 miles\". Read on the page image by the research pass."
+    },
+    {
       "id": "muni-financial-reports",
       "title": "Municipal Railway of San Francisco: financial reports, 1912-1930",
       "publisher": "City and County of San Francisco",
@@ -2249,6 +2859,39 @@
       "notes": "p. 4 (scan leaf 3), \"FASTER FERRY SERVICE.\" Read Oct 14 through archive.org's full-text search (docs/research/east-bay-electric.md); \"the Fifty-fifth street line, which has already been built as far as Telegraph avenue, will be extended to Claremont avenue and out Claremont to College avenue.\" Re-read on the page image, October 15, 2026."
     },
     {
+      "id": "oakland-tribune-1909-07-18",
+      "title": "Oakland Tribune, 1909-07-18: \"Western Pacific double tracking\"",
+      "publisher": "Oakland Tribune",
+      "date": "1909-07-18",
+      "url": "https://archive.org/details/oakland-tribune-1909-07-18",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 34: rails distributed \"along Third street for the double tracking of that thoroughfare to the end of the route on the north side of the entrance to the harbor. The crossings on Webster, Broadway and Washington were double tracked\". Read on the page image by the research pass."
+    },
+    {
+      "id": "oakland-tribune-1910-08-22",
+      "title": "Oakland Tribune, 1910-08-22: \"Oakland welcomes first W. P. train\" and \"W. P. ferries to care for traffic of line\"",
+      "publisher": "Oakland Tribune",
+      "date": "1910-08-22",
+      "url": "https://archive.org/details/oakland-tribune-1910-08-22",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the first through train \"steamed into the big depot at Third and Washington streets\" at 4:15 p.m. Leaf 3: \"the Western Pacific railway will use two slips of the Ferry building at the foot of Market street\"; \"the freight and passenger slips are together at the end of a mole about 11,000 feet long\". Read on the page images by the research pass."
+    },
+    {
+      "id": "oakland-tribune-1910-08-24",
+      "title": "Oakland Tribune, 1910-08-24: \"Western Pacific now runs regular trains\"",
+      "publisher": "Oakland Tribune",
+      "date": "1910-08-24",
+      "url": "https://archive.org/details/oakland-tribune-1910-08-24",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 5: \"The first regular passenger train from the East over the new Western Pacific lines arrived in Oakland at noon today\", its passengers alighting \"at the Third and Washington street depot\", the rest \"taking the boat for San Francisco\"; \"The first east bound overland train with ninety passengers aboard left Oakland for continental points at 5 o'clock Monday afternoon\" (August 22). Read on the page image, October 16, 2026."
+    },
+    {
       "id": "oakland-tribune-1911-06-12",
       "title": "Oakland Tribune, 1911-06-12: through service on the Poplar Street and Twelfth Street route",
       "publisher": "Oakland Tribune",
@@ -2293,6 +2936,39 @@
       "notes": "p. 10 (scan leaf 9), \"GREAT KEY ROUTE SYSTEM TO CELEBRATE BIRTHDAY\". Read Oct 14 through archive.org's full-text search (docs/research/east-bay-electric.md); \"In 1908 the Claremont line was opened\"; also \"In 1909, the Twelfth street line was opened.\" Re-read on the page image, October 15, 2026."
     },
     {
+      "id": "oakland-tribune-1918-05-28",
+      "title": "Oakland Tribune, 1918-05-28: the union terminal at the Oakland mole",
+      "publisher": "Oakland Tribune",
+      "date": "1918-05-28",
+      "url": "https://archive.org/details/oakland-tribune-1918-05-28",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "Federal control's plan to bring the Western Pacific's and the Santa Fe's trains to the Southern Pacific's Oakland mole, still a proposal. Read in the scan's text by the research pass."
+    },
+    {
+      "id": "oakland-tribune-1918-10-25",
+      "title": "Oakland Tribune, 1918-10-25: \"Ferry station to become warehouse\"",
+      "publisher": "Oakland Tribune",
+      "date": "1918-10-25",
+      "url": "https://archive.org/details/oakland-tribune-1918-10-25",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 7: \"The Western Pacific ferry station, located on the mole at the south entrance of Oakland creek, is to be converted into a warehouse … Since the consolidation of the rail terminals on this side of the bay the station has not been in use.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "oakland-tribune-1920-12-08",
+      "title": "Oakland Tribune, 1920-12-08: Mayor Davie's telegram on the Oakland terminals",
+      "publisher": "Oakland Tribune",
+      "date": "1920-12-08",
+      "url": "https://archive.org/details/oakland-tribune-1920-12-08",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "Section B, p. 1: \"Southern Pacific Oakland terminals (Oakland Pier) consolidated during federal control and used jointly by Southern Pacific, Santa Fe, Western Pacific. After federal control Western Pacific withdrawn.\" Read on the page image by the research pass."
+    },
+    {
       "id": "oakland-tribune-1924-11-03",
       "title": "Oakland Tribune, 1924-11-03: the Piedmont extension to Manor station",
       "publisher": "Oakland Tribune",
@@ -2312,6 +2988,17 @@
       "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
       "accessed": "2026-10-15",
       "notes": "Read from https://overpass-api.openhistoricalmap.org/api/interpreter (Overpass; timestamp_osm_base 2026-10-15T00:15:59Z): every way tagged railway, every ferry route and the route relations in the pan limits, cached in data/raw/ohm/region.json. Used for geometry only; each segment drawn from it names its way ids, and OHM's dates are pointers."
+    },
+    {
+      "id": "organized-labor-1909-05-01",
+      "title": "Organized Labor (San Francisco), May 1, 1909",
+      "publisher": "San Francisco Building and Construction Trades Council",
+      "date": "1909-05-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/csfst_007772",
+      "license": "Published 1909; the scan's rights statement says copyrighted; cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 2, building contracts: \"Palm avenue (formerly Michigan avenue) near Euclid avenue (formerly Richmond avenue)\". Read on the page image by the research pass."
     },
     {
       "id": "oshaughnessy-1929",
@@ -2360,7 +3047,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), oakland (-122.34, 37.7, -122.15, 37.82), nilescanyon (-122.0, 37.565, -121.86, 37.645), riovista (-121.9, 38.11, -121.85, 38.215), westernpacific (-122.23, 37.56, -121.95, 37.78), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",
@@ -2369,7 +3056,42 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), richmond (-122.4, 37.9, -122.28, 37.98), sanmateo (-122.36, 37.555, -122.31, 37.59), santarosa (-122.78, 38.415, -122.69, 38.46), petaluma (-122.66, 38.22, -122.615, 38.25), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+    },
+    {
+      "id": "point-richmond-progress-1933-04-07",
+      "title": "Point Richmond Progress, April 7, 1933: \"Ferry Service Stops\"",
+      "author": "Harry R. Burt (publisher)",
+      "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+      "date": "1933-04-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_000032",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-15",
+      "notes": "p. 1: \"Passenger ferry service from Ferry Point will be abandoned by the Santa Fe Railroad in the latter part of April, and a new train schedule will be put into effect.\" The Interstate Commerce Commission had approved the joint application of the Western Pacific and Santa Fe. Read on the page image by the research pass."
+    },
+    {
+      "id": "point-richmond-progress-1933-06-09",
+      "title": "Point Richmond Progress, June 9, 1933: California News Review",
+      "author": "Harry R. Burt (publisher)",
+      "publisher": "Point Richmond Progress (Richmond Public Library scan)",
+      "date": "1933-06-09",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_000041",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "\"The Western Pacific railroad will run its passenger trains in and out of the Oakland pier of the Southern Pacific Company, and passengers will use S. P. ferries.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "polk-sf-directory-1935",
+      "title": "Polk's Crocker-Langley San Francisco City Directory, 1935",
+      "publisher": "R. L. Polk & Co.",
+      "date": "1935",
+      "type": "book",
+      "url": "https://archive.org/details/polkscrockerlang0000vari_f2c9",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 919: \"PETALUMA & SANTA ROSA RAILROAD CO, Steamer Gold Line, L H Fox Agt, Pier 11, Foot of Vallejo\". Read on the page image, October 16, 2026."
     },
     {
       "id": "poors-1880",
@@ -2408,6 +3130,28 @@
       "notes": "The San Francisco and North Pacific Railroad, p. 873: \"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles\", with branches from Fulton to Guerneville and from Donahue to Junction (Petaluma). Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "poors-1897",
+      "title": "Poor's Manual of the Railroads of the United States, 1897 (vol. 30)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1897",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai30newyuoft",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 845, Tamalpais Ry.: \"Chartered Jan. 16, 1896 ; road opened Aug. 17, 1896.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "poors-1898",
+      "title": "Poor's Manual of the Railroads of the United States, 1898 (vol. 31)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1898",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai31newyuoft",
+      "license": "Public domain (published 1898)",
+      "accessed": "2026-10-16",
+      "notes": "p. 269: \"Chartered Jan. 16, 1896; road opened Aug. 27, 1896.\" Read on the page image by the research pass."
+    },
+    {
       "id": "poors-1900",
       "title": "Poor's Manual of the Railroads of the United States, vol. 33 (1900)",
       "author": "Henry V. Poor",
@@ -2420,6 +3164,17 @@
       "notes": "The North Pacific Coast Railroad, p. 606: \"Main Line — San Francisco to Cazadero, Cal. (ferry, 6 m.; RR., 80.75 m.)\", with its San Rafael and Mill Valley branches and the leased San Rafael & San Quentin. archive.org's metadata gives the year as 1895 or 1901; its introduction calls it \"Poor's Manual for 1900\"; its reports run to June 30, 1899, with statements to March 31, 1900. A Google scan. Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "poors-1902",
+      "title": "Poor's Manual of the Railroads of the United States, 1902 (vol. 35)",
+      "publisher": "H. V. & H. W. Poor",
+      "date": "1902",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai35newyuoft",
+      "license": "Public domain (published 1902)",
+      "accessed": "2026-10-16",
+      "notes": "p. 619: \"Chartered Jan. 16, 1896; road opened Aug. 26, 1896.\" Read on the page image by the research pass."
+    },
+    {
       "id": "rag-1912-09-13-guppy",
       "title": "Electrification of Oakland Suburban Lines",
       "author": "R. T. Guppy",
@@ -2430,6 +3185,39 @@
       "license": "Public domain (published 1912)",
       "accessed": "2026-10-14",
       "notes": "pp. 460–463 (p. 460, the first, carries no folio), with a map of the lines on p. 460. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "railfan-railroad-1989-03",
+      "title": "Railfan & Railroad, March 1989: Railnews, the Western Railway Museum",
+      "publisher": "Carstens Publications",
+      "date": "1989-03",
+      "type": "journal",
+      "url": "https://archive.org/details/railfan-railroad-mar-1989-images",
+      "license": "Copyright (1989); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 30: \"In addition to 1½ miles of its own trackage under wire, WRM operates an eight-mile segment of the former Sacramento Northern Oakland-Sacramento main line (now an unused UP branch).\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "railfan-railroad-1989-11",
+      "title": "Railfan & Railroad, November 1989: Railnews, the Napa Valley Wine Train",
+      "publisher": "Carstens Publications",
+      "date": "1989-11",
+      "type": "journal",
+      "url": "https://archive.org/details/railfan-railroad-nov-1989-images",
+      "license": "Copyright (1989); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 46: \"On August 23, 1989, the California Public Utilities Commission gave the highball to the Napa Valley Wine Train for tourist operations on the Napa Valley Railroad\", service to \"begin as early as September 16\"; \"36-mile, three-hour round trips\". Read on the page image by the research pass."
+    },
+    {
+      "id": "railroad-gazette-1900-05-04",
+      "title": "The Railroad Gazette 32(18), May 4, 1900: \"Completion of the Atchison to San Francisco\"",
+      "publisher": "The Railroad Gazette",
+      "date": "1900-05-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_railway-age_1900-05-04_32_18",
+      "license": "Public domain (published 1900)",
+      "accessed": "2026-10-15",
+      "notes": "p. 282: \"It is proposed to accept freight for delivery over the Point Richmond route by May 1. Through passengers will probably not be taken until two months later.\" \"Ferries are to land the passengers at the union station in the city.\" Read on the page image."
     },
     {
       "id": "railroad-gazette-1907-03-15",
@@ -2454,6 +3242,39 @@
       "notes": "pp. 148–154."
     },
     {
+      "id": "red-bluff-daily-news-1970-03-21",
+      "title": "Red Bluff Daily News, March 21, 1970: \"Zephyrs last trip\" (AP)",
+      "publisher": "Red Bluff Daily News",
+      "date": "1970-03-21",
+      "type": "journal",
+      "url": "https://archive.org/details/red-bluff-daily-news-1970-03-21",
+      "license": "Copyright (1970); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"OAKLAND (AP) — The California Zephyr leaves for Salt Lake City on its last trip today — its 21st birthday\". Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "san-rafael-ij-1958-07-29",
+      "title": "San Rafael Daily Independent-Journal, July 29, 1958: Western Pacific notice and \"last of the ferry boats\"",
+      "publisher": "San Rafael Daily Independent-Journal",
+      "date": "1958-07-29",
+      "type": "journal",
+      "url": "https://archive.org/details/san-rafael-daily-independent-journal-1958-07-29",
+      "license": "Copyright (1958); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2, a Western Pacific advertisement: \"Motor Coach replaces Ferry EFFECTIVE Wednesday, July 30th\", the train terminating at Oakland, Third & Washington Sts., \"NO SERVICE TO OAKLAND PIER\". p. 3 (UPI): the last ferry's \"last round trip between the San Francisco Ferry Building and the Oakland Mole at 11:30 p.m.\" Read on the page images by the research pass."
+    },
+    {
+      "id": "santa-rosa-city-rr-v-central-1895",
+      "title": "Santa Rosa City R. Co. v. Central St. Ry. Co., Supreme Court of California, No. 15,202, January 6, 1895 (38 Pac. 986), in California Unreported Cases, vol. 4",
+      "publisher": "Bender-Moss Co. (1913)",
+      "date": "1895-01-06",
+      "type": "official",
+      "url": "https://archive.org/details/californiaunrepo04cali",
+      "license": "Public domain (court opinion; published 1913)",
+      "accessed": "2026-10-16",
+      "notes": "pp. 952-954, the facts proved at trial: Mark L. McDonald and Jackson R. Meyers petitioned the council on October 3, 1876; the company was incorporated on May 11, 1877, and Ordinance No. 16 of June 5, 1877 gave it fifty years. \"Plaintiff immediately commenced the construction of said road, and during the year 1877 completed the portion in controversy in this action, and has ever since continued to operate that portion\", the track \"on Fourth street, which is the street now in controversy\"; \"From 1877 down to the commission, in 1891, of the acts complained of in this action, the plaintiff has been in the actual, continuous, and notorious occupation of this railroad, has operated the same, and collected fares thereon\". In 1891 the Central Street Railway, under Ordinance No. 132 of September 2, 1891, \"commenced to tear up and remove plaintiff's track\" on part of Fourth St; the court held the 1877 franchise valid and never forfeited. Read on the page images, October 16, 2026."
+    },
+    {
       "id": "sf-bay-ferry-history",
       "title": "Our history",
       "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
@@ -2461,6 +3282,61 @@
       "url": "https://www.sfbayferry.com/our-history/",
       "accessed": "2026-10-14",
       "notes": "1986: \"Marine World established ferry service between the Ferry Building and Vallejo.\" 1989: \"The City of Alameda eventually started the Alameda Oakland Ferry Service\". 2024: \"launched a pilot service connecting Jack London Square to Alameda Landing\". 2019: the Richmond terminal was completed \"and service was launched\"."
+    },
+    {
+      "id": "sf-bos-journal-1909",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1909",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1909",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1909sanfrich",
+      "license": "Public domain (published 1909)",
+      "accessed": "2026-10-16",
+      "notes": "p. 75: Bill No. 780, renaming \"Frederick street, between Buena Vista avenue and First avenue, and the name of 'H' street, between First avenue and the Great Highway\"; p. 218: the United Railroads' track on \"Kentucky street, from Eighteenth to Fourth street. Fourth street, from Kentucky to Berry street\"; p. 456: \"the existing double track railroad on Point Lobos avenue, between Thirty-third and Fortieth avenues\"; p. 1119: Ordinance No. 988, renaming streets, passed December 6, 1909; p. 1223: \"9th avenue and Lincoln way (formerly H street)\". Read on the page images by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1915",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1915",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1915",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1915sanfrich",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-16",
+      "notes": "p. 417: \"Bill No. 3513, Ordinance No. 3205 (New Series), entitled, 'Changing the name of Kentucky street to Third street.'\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1921",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, 1921",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1921",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed1921sanfrich",
+      "license": "Public domain (published 1921)",
+      "accessed": "2026-10-16",
+      "notes": "p. 668 (August 1, 1921): \"Bill No. 5819, Ordinance No. 5437 … Railroad avenue to Third street.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1932",
+      "title": "Journal of Proceedings, Board of Supervisors of the City and County of San Francisco, vol. 27 (1932)",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1932",
+      "type": "official",
+      "url": "https://archive.org/details/journalofproceed27sanfrich",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 805 (May 16, 1932): \"Resolved, That the name of Howard street, from Thirteenth street to Army street, be and is hereby changed to Van Ness Avenue South.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-bos-journal-1995",
+      "title": "Journal of Proceedings, the minutes of the Board of Supervisors of the City and County of San Francisco, January-April 1995",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1995",
+      "type": "official",
+      "url": "https://archive.org/details/journalofjanaprproceed90sanfrich",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 30 (January 9, 1995): Resolution No. 32-95, renaming Army Street Cesar Chavez Street. Read on the page image by the research pass."
     },
     {
       "id": "sf-business-directory-1864",
@@ -2627,6 +3503,28 @@
       "notes": "The electric Seventh Street trains still end at \"Fruitvale and Melrose, via Seventh St\". Read through the Library of Congress OCR; re-read on the page image before quoting."
     },
     {
+      "id": "sf-general-ordinances-1907",
+      "title": "General Ordinances of the Board of Supervisors of the City and County of San Francisco",
+      "publisher": "San Francisco Board of Supervisors",
+      "date": "1907",
+      "type": "official",
+      "url": "https://archive.org/details/generalordinance1907sanf",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-16",
+      "notes": "p. 198: \"Jessie street, between Duboce avenue (formerly thirteenth street) and Fourteenth street\". Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-municipal-reports-1908-09",
+      "title": "San Francisco Municipal Reports, fiscal year 1908-09",
+      "publisher": "City and County of San Francisco",
+      "date": "1909",
+      "type": "official",
+      "url": "https://archive.org/details/sanfranciscomuni58sanfrich",
+      "license": "Public domain (published 1909)",
+      "accessed": "2026-10-16",
+      "notes": "pp. 1458-1466, \"Changes in names of streets\": \"the following changes were authorized by Ordinances Nos. 726, 988, 989 and 1029 (New Series)\", among them \"Devisadero street to Divisadero street\" (p. 1459), \"First avenue to Arguello boulevard\" (p. 1460), \"H street to Lincoln way\" (p. 1461), \"Point Lobos avenue to Geary street\" (p. 1463), \"B street to Balboa street\" (p. 1458) and \"Twenty-second avenue South to Van Dyke avenue\" (p. 1465). Read on the page images by the research pass, October 16, 2026."
+    },
+    {
       "id": "sf-public-transit-history-1948",
       "title": "History of public transit in San Francisco, 1850–1948",
       "publisher": "City and County of San Francisco",
@@ -2647,6 +3545,28 @@
       "notes": "Streetcar conversions: the D and H on March 19, 1950 (1949-50, p. 43) and the F on January 21, 1951 (1950-51, p. 39). Quotes read on the page images."
     },
     {
+      "id": "sf-puc-report-1940",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1940-41",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1941",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1940sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 261: \"The expiration of the franchise of the Market Street Railway Company to operate street cars on Howard Street and South Van Ness Avenue\". Read on the page image by the research pass."
+    },
+    {
+      "id": "sf-puc-report-1944",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1944-45",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1945",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1944sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 308: the electric car lines of 1944-45, after the Market Street Railway's lines were acquired on September 29, 1944; Nos. 23, 24 and 30 are not among them. Read on the page image by the research pass."
+    },
+    {
       "id": "sf-puc-report-1945",
       "title": "Report of the San Francisco Public Utilities Commission, fiscal year 1945-1946",
       "publisher": "City and County of San Francisco, Public Utilities Commission",
@@ -2656,6 +3576,17 @@
       "license": "Public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "The Municipal Railway's line changes by date, July 1, 1945 to June 30, 1946, pp. 279-280, including the former Market Street Railway lines it ran from 1944. Quotes re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "sf-puc-report-1946",
+      "title": "Report of the Public Utilities Commission of the City and County of San Francisco, 1946-47",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1947",
+      "type": "official",
+      "url": "https://archive.org/details/reportofsanfranc1946sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 246: \"On October 7, 1946, on the Third and Kearny Street line all street car operation was discontinued and replaced by motor coach operation\"; p. 287: \"10/ 7/46 No. 16—Street cars replaced by coaches\"; p. 288: \"12/ 5/46 No. 25—Street car outer terminal changed to Army and Potrero.\" Read on the page images by the research pass."
     },
     {
       "id": "sf-puc-report-1947",
@@ -2894,6 +3825,28 @@
       "notes": "pp. 276–285. p. 283: \"The first regular train service over the Key Route was inaugurated on Oct. 26, when an hourly schedule was put into effect, and one boat was used for the pier connection.\" Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "srj-1905-03-25-santa-rosa",
+      "title": "Street Railway Journal 25, March 25, 1905: the crossing fight at Santa Rosa",
+      "publisher": "Street Railway Journal",
+      "date": "1905-03-25",
+      "type": "journal",
+      "url": "https://archive.org/details/streetrailwayjo251905newy",
+      "license": "Public domain (published 1905)",
+      "accessed": "2026-10-15",
+      "notes": "p. 542: \"There was a struggle at Santa Rosa, Cal., on March 1 over a railroad crossing\", the Petaluma & Santa Rosa kept \"from crossing its tracks on Sebastapol Avenue, Santa Rosa\". Read on the page image, October 15, 2026."
+    },
+    {
+      "id": "srj-1905-07-01-psr",
+      "title": "Street Railway Journal 26(1), July 1, 1905: the Petaluma & Santa Rosa Railway",
+      "publisher": "Street Railway Journal",
+      "date": "1905-07-01",
+      "type": "journal",
+      "url": "https://archive.org/details/streetrailwayj261905newy",
+      "license": "Public domain (published 1905)",
+      "accessed": "2026-10-15",
+      "notes": "pp. 10-13: the line \"extends north from Petaluma 17 miles to Sebastopol, where it divides, one branch going 7 miles east to Santa Rosa, the other continuing in a generally northern direction 8 miles to the town of Forestville\" (p. 11); at Petaluma, \"a large warehouse and terminal yards on the water front\" (p. 11); \"On the Sebastopol-Santa Rosa branch the track follows the county highway most of the distance\" (p. 13); a map on p. 10. Read on the page images, October 15, 2026."
+    },
+    {
       "id": "srj-1906-06-02-22nd-st",
       "title": "The Twenty-Second Street branch of the Key Route",
       "publisher": "Street Railway Journal 27(22)",
@@ -2903,6 +3856,28 @@
       "license": "Public domain (published 1906)",
       "accessed": "2026-10-14",
       "notes": "p. 848: \"The Twenty-Second Street or Oakland branch of the San Francisco, Oakland & San José Railroad (Key Route) was opened for regular traffic on May 16th.\" Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "times-gazette-1911-12-30",
+      "title": "Times-Gazette (Redwood City), December 30, 1911: \"Redwood is main transfer station\" and \"A red letter day\"",
+      "publisher": "Times-Gazette (Daly City Public Library scan)",
+      "date": "1911-12-30",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cdc_000451",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"Railroad passenger communication between this city and Niles, via the Dumbarton bridge, was established Tuesday morning when the first regular train to carry passengers made the trip from the Alameda shore\"; \"Four trains daily to and from Niles will connect at Redwood City\", with a timetable by Sweeney, Henderson, Dumbarton, Newark and Centerville. p. 2: \"Tuesday, December 26, 1911\", \"the opening to passenger traffic of the Dumbarton Cutoff\". Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "times-gazette-1912-09-21",
+      "title": "Times-Gazette (Redwood City), September 21, 1912: local notes",
+      "publisher": "Times-Gazette (Daly City Public Library scan)",
+      "date": "1912-09-21",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cdc_000489",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: \"The Southern Pacific Company has again put on the Dumbarton cut off train between this city and Niles. The train arrives here every afternoon at 4:30 and returns at 5:15 o'clock. It carries passengers and freight.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "usgs-altamont-1953",
@@ -2915,6 +3890,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 287935, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 227003fee77f0df1be22db6644d8fc78a985867e8fa72223ffbace76b827ec68."
+    },
+    {
+      "id": "usgs-antioch-1908",
+      "title": "Antioch, Cal., topographic quadrangle, 1:62,500, 1908",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1908",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Antioch_296717_1908_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1907, edition of 1908. HTMC scan 296717, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 6860a040bccc4d26586476301dbae376c08622775a5e879c6a4ec693147a3209."
     },
     {
       "id": "usgs-asti-1959",
@@ -2953,6 +3940,30 @@
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 288442, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 b1354c7dac097df6fcec114404eb9ddf5bf15e4996c2d9eaca281b52c9c9b8fd."
     },
     {
+      "id": "usgs-brentwood-1914",
+      "title": "Brentwood, Cal., topographic quadrangle, 1:31,680, 1914",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1914",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Brentwood_295948_1914_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1911, edition of 1914. HTMC scan 295948, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 be02f04ec82d8d99443a92c92b0c971900f5900cdde77035c4a51f9f3751fcee."
+    },
+    {
+      "id": "usgs-calistoga-1927",
+      "title": "Calistoga, Cal., topographic quadrangle, 1:62,500, 1927, printed 1936",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1927",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Calistoga_465408_1927_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1915, edition of 1927. HTMC scan 465408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 70617308c21bb97d10b4b2185af7b5c526eee051f3ff8031049998b9198f7c89."
+    },
+    {
       "id": "usgs-calistoga-1945",
       "title": "Calistoga, Cal., topographic quadrangle, 1:62,500, 1945",
       "author": "U.S. Geological Survey",
@@ -2963,6 +3974,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "15-minute sheet, edition of 1945. HTMC scan 296981, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 3b437a92a9e9880d5368cf75f67bc00f144afd3ba69eb9a31d21e6536da5d80f."
+    },
+    {
+      "id": "usgs-camp-meeker-1954",
+      "title": "Camp Meeker, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Camp%20Meeker_288861_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 288861, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 898f19ff2944d3bdd91a431cb59d4a2d6a3971aa7f0e1ea2bf84804db5e76092."
     },
     {
       "id": "usgs-cazadero-1945",
@@ -3037,6 +4060,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 289511, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 5e91acd236b3d30d83a20e1f8771c2db1e64b0fff2ebe143d685897eef18820e."
     },
     {
+      "id": "usgs-cotati-1954",
+      "title": "Cotati, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cotati_289550_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 289550, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 391e619d055854aece1ea5d21f4f393846504a7fcca633f1c7bd8fbfadc51d7e."
+    },
+    {
       "id": "usgs-cuttings-wharf-1951",
       "title": "Cuttings Wharf, Cal., topographic quadrangle, 1:24,000, 1951",
       "author": "U.S. Geological Survey",
@@ -3097,6 +4132,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1949. HTMC scan 290434, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 4174b070619ed81e58fc9fe9be2463e850e5a5c8433f287d1f37609daaf0b8b7."
     },
     {
+      "id": "usgs-hayward-1915",
+      "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1914, edition of 1915. HTMC scan 297660, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e393283753d9423b258dba911a48c2ef55316d9479f5c50d168c1548508fdfe1."
+    },
+    {
       "id": "usgs-healdsburg-1940",
       "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
       "author": "U.S. Geological Survey",
@@ -3131,6 +4178,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 291408, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2aebec44aa8844ebadfd5458cc3e7965182c8111facbe73afec8fc5d0fff80ea."
+    },
+    {
+      "id": "usgs-jersey-1910",
+      "title": "Jersey, Cal., topographic quadrangle, 1:31,680, 1910",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1910",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Jersey_296187_1910_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1908, edition of 1910. HTMC scan 296187, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 d7dc4c6ac5a53f9092aaaa600d6dd42f3b8c71353079ecb85184f6d154e95dd1."
     },
     {
       "id": "usgs-karquines-1898",
@@ -3205,6 +4264,18 @@
       "notes": "15-minute sheet, edition of 1916. HTMC scan 298113, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 576cf0a203eaa62400b270d4a72e3273d2136842a1d3c4952d04e5ef5c62f9bb."
     },
     {
+      "id": "usgs-mare-island-1942",
+      "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_465907_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1937, edition of 1942. HTMC scan 465907, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 08217109a6a89d071e51a32409425e2f8d3d470214a7f24f795ccb25a1373866."
+    },
+    {
       "id": "usgs-midway-1953",
       "title": "Midway, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
       "author": "U.S. Geological Survey",
@@ -3265,6 +4336,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 293422, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 bef57728fcc76432ebf1870c988e6d642636bcf8f1e7912fe4c184249773c4a1."
     },
     {
+      "id": "usgs-newark-1948",
+      "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, surveyed 1947, aerial photographs of 1946, edition of 1948. HTMC scan 293494, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2115a78c8fbdb08e6dbc7629b9ee7ad32f90e120292fbec28906f8a072297b75."
+    },
+    {
       "id": "usgs-niles-1953",
       "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
       "author": "U.S. Geological Survey",
@@ -3301,6 +4384,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
     },
     {
+      "id": "usgs-palo-alto-1953",
+      "title": "Palo Alto, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Palo%20Alto_293907_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 293907, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 df2bc8520549efb81cd044380ef42b6ab54c6f8702911b68c27ae10901a16613."
+    },
+    {
       "id": "usgs-petaluma-1914",
       "title": "Petaluma, Cal., topographic quadrangle, 1:62,500, 1914",
       "author": "U.S. Geological Survey",
@@ -3311,6 +4406,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "15-minute sheet, surveyed 1912, edition of 1914. HTMC scan 298523, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 8527e7c2264c34995419017f91bf8e2d6179d047569235c8342ba49fffa92d75."
+    },
+    {
+      "id": "usgs-petaluma-1953",
+      "title": "Petaluma, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_294061_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1953. HTMC scan 294061, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 db5c6ed8813c78e945e8e8201f1cd1718adc2dcc526e5abe0b5537ec2c1cad9e."
     },
     {
       "id": "usgs-point-reyes-1916",
@@ -3335,6 +4442,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 294325, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 51be4bd5938ab0bef517ed04ebc48020fb0f27f759f30f58d47af90177c4f570."
+    },
+    {
+      "id": "usgs-redwood-point-1948",
+      "title": "Redwood Point, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Redwood%20Point_294610_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, edition of 1948. HTMC scan 294610, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 891249ddb330e1099a4cc4f3dbed866e5435bbf55c19ae323310d9c0d18e113d."
     },
     {
       "id": "usgs-richmond-1949",
@@ -3517,6 +4636,30 @@
       "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 300201, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 12d0fec9d0f3697ca12f80fbf5cc99ea2291a362415b3b93494594deb9476dc1."
     },
     {
+      "id": "usgs-santa-rosa-1916",
+      "title": "Santa Rosa, Cal., topographic quadrangle, 1:62,500, 1916",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1916",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_298959_1916_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1914, edition of 1916. HTMC scan 298959, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 6f916d06382b9f3b7d59147fcd392b485ffb6ccbf7ea5266833d9782ac836f59."
+    },
+    {
+      "id": "usgs-santa-rosa-1954",
+      "title": "Santa Rosa, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_300294_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 300294, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 29504600fc63b1cae3190d0de7bfa43c7720f88deece1474187fcc5beb642777."
+    },
+    {
       "id": "usgs-sebastopol-1935",
       "title": "Sebastopol, Cal., topographic quadrangle, 1:48,000, 1935",
       "author": "U.S. Geological Survey",
@@ -3527,6 +4670,30 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "1:48,000 advance sheet, surveyed 1935. HTMC scan 301575, GeoTIFF georeferenced by USGS (NAD27 polyconic), 4.064 m a pixel. SHA-256 fe6029fb913f211a06639d8bab969bd67171e60b1b4ca31a1946f10e582ae7f8."
+    },
+    {
+      "id": "usgs-sebastopol-1954",
+      "title": "Sebastopol, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_300394_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 300394, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 e297890306656ada4ba0d040b4e72ba58af97ceb1a13f29f099a15c5490bf54b."
+    },
+    {
+      "id": "usgs-sonoma-1942",
+      "title": "Sonoma, Cal., topographic quadrangle, 1:62,500, 1942",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1942",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sonoma_301738_1942_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1941, aerial photographs of 1939, edition of 1942. HTMC scan 301738, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 5b07e0968b2116da75d241fd26cf299aece39bdbbdc0e7391ffbe5938a6e788c."
     },
     {
       "id": "usgs-st-helena-1945",
@@ -3565,6 +4732,18 @@
       "notes": "15-minute sheet, aerial photographs of 1939, edition of 1941. HTMC scan 301788, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e8b2a9b5bf73d88c9e3b55c864290de2ad440f8506111d87f43f334047e5f43f."
     },
     {
+      "id": "usgs-two-rock-1954",
+      "title": "Two Rock, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1954",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Two%20Rock_301038_1954_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1952, edition of 1954. HTMC scan 301038, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 7a522bc95b0b4e7d85b492e46050a16385af27635d5c6f5902ee1d99061488e1."
+    },
+    {
       "id": "usgs-vine-hill-1959",
       "title": "Vine Hill, Cal., topographic quadrangle, 1:24,000, 1959, printed 1981",
       "author": "U.S. Geological Survey",
@@ -3587,6 +4766,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 301186, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 77c7663e774d98ba3c6fa78bc3723fb0ef3dfe05bf78a02f2f1dae15d126e437."
+    },
+    {
+      "id": "usgs-woodward-island-1913",
+      "title": "Woodward Island, Cal., topographic quadrangle, 1:31,680, 1913",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1913",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Woodward%20Island_296614_1913_31680_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "1:31,680 sheet, surveyed 1911, edition of 1913. HTMC scan 296614, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 38bc3da04aacd968b6dbfc998cc6cab15c5c35c1c431eb80901d0d63b75a1632."
     },
     {
       "id": "usgs-yountville-1951",
@@ -3619,6 +4810,28 @@
       "notes": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\" Phase I runs from Warm Springs through Milpitas to Berryessa/North San José."
     },
     {
+      "id": "washington-press-1912-04-26",
+      "title": "The Washington Press (Niles), April 26, 1912: Southern Pacific timetable",
+      "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+      "date": "1912-04-26",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cafrwtm_000262",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-16",
+      "notes": "p. 4: \"Niles-Redwood City\": a Sunday-only passenger train, a mixed train except Sunday and a daily passenger train each way, by Centerville, Newark and Dumbarton. Read on the page image by the research pass."
+    },
+    {
+      "id": "washington-press-1916-10-07",
+      "title": "The Washington Press (Niles), October 7, 1916: \"Southern Pacific time table has many changes\"",
+      "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+      "date": "1916-10-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cafrwtm_000387",
+      "license": "Public domain (published 1916)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"the new time tables of the Southern Pacific Company went into effect last Sunday, October 1\"; \"In the Niles-Centerville-Newark branch several important changes have been made. The Dumbarton train no longer carries passengers.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "western-railroader-1945-08",
       "title": "The Western Railroader 8(10), August 1945",
       "publisher": "The Western Railroader",
@@ -3628,6 +4841,53 @@
       "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
       "accessed": "2026-10-14",
       "notes": "A reminiscence, on the page printed \"Page Three\": \"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\". Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "western-railroader-1949-04",
+      "title": "The Western Railroader 12(6), April 1949: the Northwestern Pacific",
+      "publisher": "The Western Railroader",
+      "date": "1949-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1949-04_12_6",
+      "license": "Copyright status unknown (railfan periodical, 1949); cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 10 (\"Page Ten\"): \"In 1917 passenger service was discontinued between Santa Rosa and Sebastopol.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "western-railroader-1952-02",
+      "title": "The Western Railroader 15(4), February 1952: Robert Ellison and Walt Sievers on the Petaluma & Santa Rosa",
+      "author": "Robert Ellison and Walt Sievers",
+      "publisher": "The Western Railroader",
+      "date": "1952-02",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1952-02_15_4",
+      "license": "Copyright status unknown (railfan periodical, 1952); cited for facts only",
+      "accessed": "2026-10-15",
+      "notes": "p. 3: \"on December 1st regular service was inaugurated from Petaluma via Sebastopol to the CNW crossing at the Santa Rosa city limits\" (1904); p. 5: service \"to Green Valley Township as early as January 26, 1905\", \"but the first car did not reach Forestville until July 15th\", and the Two Rock branch \"open on July 28, 1913\"; p. 12: Two Rock's passenger service ended September 30, 1925, and \"On July 1st of the same year all passenger service on the rail line was abandoned\" (1932). Read on the page images, October 15, 2026."
+    },
+    {
+      "id": "western-railroader-1960-04",
+      "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+      "author": "Stanley T. Borden",
+      "publisher": "The Western Railroader",
+      "date": "1960-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+      "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "A company history drawn from its records. p. 6: the first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"; p. 12: after the crossing fight of March 1, 1905, \"shortly after midnight the first interurban car rolled across the crossing under its own power into downtown Santa Rosa\", and the Forestville line reached \"Green Valley (later Graton) on January 26 and Forestville on July 15\"; pp. 12-13: \"In Santa Rosa the tracks were laid on Sebastopol Ave. to Olive St., Olive to Fourth St., and for slightly over a mile on Fourth to the terminous at McDonald Ave.\"; p. 14: the Two Rock branch \"completed and put into operation on July 28, 1913\"; p. 24: \"on September 20, 1925, passenger service was discontinued\" on it; p. 26: Fourth St's cars \"between the depot at Olive St. and the terminus at McDonald Ave.\" ended \"on December 31, 1931\", \"on June 30, 1932, all passenger service was discontinued\", and Sebastopol Ave between Santa Rosa and Leddy was \"street and side of the road running\". Read on the page images, October 15-16, 2026."
+    },
+    {
+      "id": "wilcox-1927",
+      "title": "San Francisco's Street Railway Problem: preliminary survey of franchise expirations",
+      "author": "Delos F. Wilcox",
+      "publisher": "City and County of San Francisco, City Attorney",
+      "date": "1927-11-01",
+      "type": "official",
+      "url": "https://archive.org/details/sanfranciscosstr1192wilc",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "A survey for the City Attorney, November 1, 1927. p. 23: \"San Bruno Avenue, Oakdale Avenue to Railroad Avenue (at Wilde Street) … used by Route #25\", and \"Route #35, Howard Street Line. No franchise on record\"; p. 31: \"The tracks on Fulton from Masonic Avenue to Stanyan are used by Route #5\"; pp. 50-51: the Park & Ocean's franchise (Order No. 1736) along Stanyan St, \"curving to the right through the northeast corner of Block No. 714\" to H St, and along H St to the Great Highway; pp. 98-99: Route #25's tracks on Potrero Ave \"on a right of way outside of the pavement along the easterly side of the avenue\"; p. 105: the tracks \"running cornerwise across the block from the intersection of Central Avenue and McAllister Street to the intersection of Masonic Avenue and Fulton Street, used by Route #5\". Read on the page images by the research pass."
     },
     {
       "id": "wood-1883",

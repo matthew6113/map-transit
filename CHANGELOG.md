@@ -2,6 +2,175 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Western Pacific's passenger trains, 1910-1970
+
+- **Western Pacific trains, Oakland to Stockton** (`western-pacific/`): from the first through
+  train of August 22, 1910 (*Oakland Tribune*) to the California Zephyr's last trip from Oakland on
+  March 21, 1970 (AP), along Third St through Oakland, by San Leandro, Hayward and Niles, through
+  Niles Canyon and over the Altamont Pass to the San Joaquin county line (decision 16). Its trains
+  used its own mole until 1933, except under federal control (1918-20), and the Southern Pacific's
+  Oakland Pier from 1933 to the last ferry on July 29, 1958; each terminal is drawn only between dates
+  a source has it in use, since the days of the moves aren't sourced.
+- **Western Pacific ferry,** its mole to the Ferry Building, 1910 to 1933 (decision 20 for its end).
+- Geometry: the mole traced from the 1915 sheet with the bay correction; Third St on today's
+  centerline; the line to Fruitvale traced from the 1949 sheets; today's Oakland Subdivision to
+  Niles; and ACE's track from Niles to the county line, now dated from 1910 (decision 13). The
+  Capitol Corridor's track is also cut at Magnolia Tower, where the WP crossed the SP.
+- Not drawn: the WP's San José branch (1922-31).
+
+## 2026-10-16: The heritage railways, in today's network
+
+- **Niles Canyon Railway, Napa Valley Wine Train and Western Railway Museum**
+  (`present/heritage/`), the three the schema names, in the `heritage` mode (off by default). GTFS
+  doesn't carry them, so each is drawn along OpenStreetMap's ways named for it (Overture rail):
+  Niles to Sunol, 6.4 mi; Napa's McKinstry St station to St. Helena, 17.8 mi; Rio Vista Junction
+  south, 5.7 mi. Operators and service from the Public Utilities Commission's crossing letters of
+  2010-23 where they exist. Their openings (May 21, 1988; September 16, 1989; by 1989) come from
+  railfan journals, so they stay null under today's network's official-only rule, and the museum's
+  current schedule couldn't be confirmed (`status_unverified`).
+- `make past` now also builds a present-era group with a `trace.json`.
+
+## 2026-10-16: The Southern Pacific's Oakland–San José trains by Newark, to 1960
+
+- **Oakland Pier to San José by Elmhurst and Newark** (`sp-east-bay/`): the Southern Pacific's
+  trains by First St, Fruitvale and Elmhurst, then Mount Eden, Alvarado, Newark and Alviso to Santa
+  Clara and San José; the Oakland sections of the Coast Daylight (250, 255) and the Lark (74, 73) in
+  1941 (employee timetable No. 234). Discontinued under CPUC Decision 59928 of April 12, 1960; the
+  last trains ran May 1 and 2, 1960 (Schedule Statement ST-798). Drawn from 1941, when a source first
+  shows them (decision 20).
+- Today's track carries most of it (decision 13): the Capitol Corridor's is cut at West Oakland and
+  at Elmhurst, and the Coast Starlight's from Elmhurst to Newark is dated by stretch, the South
+  Pacific Coast's 1878 line from west of San Leandro. That replaces the South Pacific Coast's
+  OpenHistoricalMap trace south of San Leandro, which lay up to 170 m off today's track. The
+  connection from the mole across the West Oakland yard is traced from the 1949 sheet.
+
+## 2026-10-16: The Petaluma steamers and the Mare Island ferry
+
+- **Petaluma steamers** (`ferries/`): the Petaluma & Santa Rosa's river steamers from the foot of
+  Copeland St at Petaluma to the San Francisco waterfront, from 1904, when the Railroad Commission
+  says the company began the service (Borden has the *Gold* bought in December 1903), until passenger
+  service ended effective December 23, 1935 (CRC Decision 29778). Drawn over water to Pier 9 at the
+  foot of Broadway, its berth in the 1918-33 directories; the 1903 berth (the bulkhead between
+  Washington and Jackson Sts) and 1935's (Pier 11, foot of Vallejo) are within about 300 m.
+- **Mare Island ferry:** foot passengers across the Mare Island Strait from the foot of Georgia St at
+  Vallejo to the Navy Yard, traced from the 1916 Mare Island sheet's dashed course. Shown running
+  from March 21, 1922 (CRC Decision 14728) to its last day, August 29, 1986 (*The Fare Box*,
+  relaying the *West County Times*); its opening isn't sourced.
+
+## 2026-10-16: The Dumbarton Cutoff's passenger trains, 1911-1916
+
+- **Southern Pacific, Redwood City to Niles** (`sp-dumbarton/`): across the Dumbarton bridge by
+  Newark and Centerville, from the first regular passenger train on Tuesday, December 26, 1911
+  (Redwood City *Times-Gazette*) to the timetable of October 1, 1916, after which "The Dumbarton
+  train no longer carries passengers" (*Washington Press*, Niles; the Southern Pacific's employee
+  timetable No. 167 has only freight over the bridge). At first four trains a day; by 1914 one mixed
+  train each way, daily except Sunday (timetable No. 153). The trains stopped for a time in 1912.
+- Geometry from OpenHistoricalMap's ways, within 3 m of today's track, checked on the 1915 Hayward
+  and 1948-53 Redwood Point, Palo Alto and Newark sheets. The South Pacific Coast's Alameda-Newark
+  segment is split where the cutoff joins it, and today's Niles-Centerville track is dated from the
+  past era's lines.
+- Not drawn: the California & Nevada (1884-1902), whose public trains were few and whose alignment
+  no map in the repo shows.
+
+## 2026-10-16: The North Bay horsecars, in Santa Rosa and Petaluma
+
+- **Santa Rosa, Fourth St and McDonald Ave** (`north-bay-horsecars/`): the Santa Rosa City
+  Railroad's horsecars from the San Francisco & North Pacific depot along Fourth St to McDonald Ave
+  and north to the cemetery, on today's streets. Open from 1877, the year the Supreme Court found its
+  Fourth St track completed and running (*Santa Rosa City R. Co. v. Central St. Ry. Co.*, 1895;
+  Borden has 1878); suspended from early 1893 to 1898 (Borden); shown running in the 1902 census and
+  the street railway directories to March 1906. Its end isn't sourced.
+- **Petaluma Street Railroad:** from the car barn at 12th and F Sts by F, 6th and Liberty Sts,
+  Western Ave, Kentucky St and Washington St across Petaluma Creek to Payran St, on the streets of
+  Borden's 1897 map, drawn for 1902-03, when the census and a directory show it running (decision
+  20). Not drawn: its last stretch to Mary St and the fairgrounds branch.
+- Not drawn: Santa Rosa's Union (1888) and Central (1892) lines, whose streets of the day aren't
+  placed. San Rafael had no street railway: none is in the 1902 census (p. 236), nor, by a search of
+  their text, in the street railway directories of 1886-1908.
+- A line's length now counts once a segment it lists twice around a break in service (the Santa Fe,
+  six Market Street Railway lines).
+
+## 2026-10-16: Nine more Market Street Railway lines, and No. 20's 1909 run on H St
+
+- **Nos. 2, 5, 16, 22, 23, 24, 25, 30 and 35** (`sf-msry/`), drawn from Manley's 1909 routes and
+  O'Shaughnessy's of 1929 (decision 20), now that sources pair their old street names with today's:
+  the city's list of the 1909 renamings (*Municipal Reports* 1908-09, pp. 1458-1466: Devisadero,
+  First Ave to Arguello Blvd, Point Lobos Ave to Geary, H St to Lincoln Way, Twenty-second avenue
+  South to Van Dyke Ave), Duboce Ave "formerly thirteenth street" (*General Ordinances*, 1907),
+  Kentucky St and Railroad Ave to 3rd St (1915, 1921), Howard St to South Van Ness Ave (1932), Army St
+  to Cesar Chavez St (1995), and Richmond Ave to Euclid Ave (a newspaper of 1909, flagged).
+- Last days from the SF PUC's reports: No. 2 July 2, 1949; No. 5 June 5, 1948; No. 16 October 1946;
+  Nos. 22 and 25 July 31, 1948; No. 35 in 1939 (the city's 1948 transit history). Nos. 23, 24 and
+  30 had no cars by September 29, 1944; their last days aren't sourced, so they are drawn 1909-29.
+- **No. 20:** its 1909 run out H St (Lincoln Way) from Arguello Blvd to 19th Ave and on to the Great
+  Highway. Not drawn, for want of a map: its curve from Stanyan St through Block 714, its beach run
+  to Balboa St, No. 5's diagonal across a block to Fulton St, and the old San Bruno Ave (Nos. 16
+  and 25).
+- **Private rights of way:** No. 2's to the Sutro Baths and No. 7's along the west edge of Golden
+  Gate Park to La Playa and the Balboa St loop, drawn for 1929 where the 1950 San Francisco North
+  sheet still has their track.
+
+## 2026-10-16: The Sonoma Valley's railroads and the Sebastopol branch
+
+- **Southern Pacific, Santa Rosa branch** (`sonoma-valley/`): Napa Junction by Schellville, El
+  Verano, Glen Ellen and Kenwood to Santa Rosa, opened May 31, 1888 (the Railroad Commissioners'
+  reports of 1889 and 1894); passenger trains ended under CRC Decision 20488, effective December 6,
+  1928, so on or about December 1928 (decision 17).
+- **Sonoma Valley branch, Ignacio to Glen Ellen**: from June 1, 1888, when the Marin & Napa joined
+  the Sonoma Valley Railroad (1880-82) to the main line, by Sears Point, Wingo, Schellville and
+  Sonoma; on to Kenwood from January 15, 1934 over the Southern Pacific's track; passenger trains
+  ended June 12, 1935 (Decisions 27973 and 34457). The first narrow-gauge line from Sonoma Landing
+  isn't drawn: where the landing was isn't sourced.
+- **Sebastopol branch**, Santa Rosa to Sebastopol: February 17, 1890 to 1917, its passenger end from
+  *The Western Railroader* of April 1949 (read on the page image).
+- Geometry: today's track to Schellville; OpenStreetMap's mapped abandoned grades up the valley and
+  by Kenwood; OpenHistoricalMap's ways (from the 1916 Santa Rosa sheet) into Santa Rosa and to Llano;
+  traced from the 1942 Sonoma sheet (Sonoma to Madrone), the 1916 Santa Rosa sheet (Madrone to Glen
+  Ellen) and the 1935 Sebastopol sheet (Llano to Sebastopol).
+
+## 2026-10-16: The Mount Tamalpais railway
+
+- **Mount Tamalpais railway** (`mt-tamalpais/`): steam trains from the Northwestern Pacific's
+  station at Mill Valley up Blithedale Canyon and around the Double Bow Knot to the summit, 8.19
+  miles. First train to the end of the line August 27, 1896 (CRC Decision 2180; Poor's gives August
+  17, 26 and 27 in different years, flagged); abandonment of all service authorized August 7, 1930
+  (Decision 22765), so it closes on or about August 1930 (decision 17). Drawn from OpenHistoricalMap's
+  way, traced from the 1897 Tamalpais sheet and checked on the 1941 one. The Muir Woods branch
+  (1906 or 1907) isn't drawn: no sheet in the repo shows it.
+
+## 2026-10-16: The Santa Fe at Point Richmond
+
+- **Santa Fe trains, Stockton to Richmond and Ferry Point** (`santa-fe/`): across the Delta and along
+  Suisun and San Pablo Bays to Richmond, and through the tunnel to Ferry Point. Put in operation May
+  1, 1900 for freight (the Railroad Commissioners' report, p. 148); the first through train from
+  Chicago July 3, 1900 (the county history of 1926). Ferry Point's trains and the **Santa Fe ferry**
+  to the foot of Market St stopped under federal control from August 18, 1918 to January 9, 1921
+  (CRC Decisions 5642 and 9543; employee timetables Nos. 44 and 47) and ended April 23, 1933
+  (timetable No. 68). The trains are drawn to 1968, the last timetable read with passenger trains
+  at Richmond (decision 20); their line to Oakland isn't drawn yet.
+- East of Bay Point the line is today's Gold Runner track: a new dated stretch in
+  `present/extensions.json` (`gr-bay-point-stockton`), whose date is borrowed from the Santa Fe's
+  trains, as no official source dates its first passengers (decision 13). West of it, today's BNSF
+  track (`rails.py`), checked on the 1915-18 sheets; Richmond to Ferry Point traced from the 1948
+  San Quentin and 1949 Richmond sheets. Four USGS sheets of 1908-14 added, to check the Delta
+  stretch.
+
+## 2026-10-16: The Petaluma & Santa Rosa
+
+- **Petaluma & Santa Rosa Railway** (`petaluma-santa-rosa/`), an electric interurban, as four lines:
+  Petaluma to Sebastopol, Sebastopol to Santa Rosa, Sebastopol to Forestville, and the Two Rock
+  branch. Opened November 19, 1904 (the *Journal of Electricity, Power and Gas*, January 1905, p.
+  31); into downtown Santa Rosa across the steam road's tracks the night of March 1, 1905 (Borden,
+  1960); Forestville July 15, 1905; Two Rock July 28, 1913 to September 1925. Fourth St's cars ended
+  December 31, 1931 (CRC Decision 24310) and all passenger service on July 1, 1932 (Decisions 24818
+  and 24983). The opening and Green Valley dates conflict between the 1905 journal and the railfan
+  histories, and are flagged.
+- Geometry: OpenStreetMap still maps most of the abandoned line (`rails.py`, which now keeps to named
+  ways), checked on the 1954 sheets, on which the track is still in place for freight. Petaluma,
+  Sebastopol, the Santa Rosa branch to Leddy, and Graton to Forestville are traced from the 1953–54
+  sheets; Sebastopol Rd, Olive St and Fourth St in Santa Rosa follow today's streets, checked on the
+  1916 and 1954 Santa Rosa sheets. Seven USGS sheets added.
+
 ## 2026-10-15: The San Ramon branch
 
 - **Southern Pacific, San Ramon branch** (`sp-san-ramon/`): from Avon, on today's line from

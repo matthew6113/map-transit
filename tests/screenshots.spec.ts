@@ -102,6 +102,19 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-napa', url: '/l/calp-vallejo-calistoga?era=past&year=1900&test=1&at=99' },
   { name: 'past-line-calp-suisun', url: '/l/calp-vallejo-suisun?era=past&year=1885&test=1&at=99' },
   { name: 'past-line-san-ramon', url: '/l/sp-san-ramon-branch?era=past&year=1900&test=1&at=99' },
+  { name: 'past-line-psr-santa-rosa', url: '/l/psr-sebastopol-santa-rosa?era=past&year=1920&test=1&at=99' },
+  { name: 'past-line-santa-fe', url: '/l/atsf-stockton-ferry-point?era=past&year=1910&test=1&at=99' },
+  { name: 'past-line-mt-tamalpais', url: '/l/mt-tamalpais-railway?era=past&year=1910&test=1&at=99' },
+  { name: 'past-line-sonoma-valley', url: '/l/sfnp-sonoma-valley?era=past&year=1920&test=1&at=99' },
+  { name: 'past-line-msry-22', url: '/l/msry-22?era=past&year=1929&test=1&at=99' },
+  { name: 'past-line-santa-rosa-horsecars', url: '/l/sr-horsecars-fourth-mcdonald?era=past&year=1890&test=1&at=99' },
+  { name: 'past-line-petaluma-horsecars', url: '/l/petaluma-street-railroad?era=past&year=1902&test=1&at=99' },
+  { name: 'past-line-dumbarton', url: '/l/sp-dumbarton-redwood-niles?era=past&year=1914&test=1&at=99' },
+  { name: 'past-line-petaluma-steamers', url: '/l/psr-steamers?era=past&year=1920&test=1&at=99' },
+  { name: 'past-line-mare-island-ferry', url: '/l/mare-island-ferry?era=past&year=1943&test=1&at=99' },
+  { name: 'past-line-oakland-san-jose-1941', url: '/l/sp-oakland-san-jose-elmhurst?era=past&year=1950&test=1&at=99' },
+  { name: 'present-line-niles-canyon-railway', url: '/l/niles-canyon-railway?era=present&test=1&at=99' },
+  { name: 'past-line-western-pacific', url: '/l/wp-oakland-stockton?era=past&year=1925&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

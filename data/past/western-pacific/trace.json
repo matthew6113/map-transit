@@ -1,0 +1,289 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Western Pacific's mole, ferry and line through Oakland to Niles.",
+ "segments": {
+  "wp-mole": {
+   "parts": [
+    {
+     "trace": {
+      "sheet": "usgs-san-francisco-1915",
+      "bbox": [
+       -122.34,
+       37.792,
+       -122.288,
+       37.804
+      ],
+      "zoom": 2.5
+     },
+     "px": [
+      [
+       389,
+       308
+      ],
+      [
+       540,
+       383
+      ],
+      [
+       756,
+       459
+      ],
+      [
+       972,
+       508
+      ],
+      [
+       1188,
+       529
+      ],
+      [
+       1404,
+       488
+      ],
+      [
+       1609,
+       454
+      ],
+      [
+       1728,
+       421
+      ],
+      [
+       1944,
+       367
+      ],
+      [
+       2044,
+       340
+      ]
+     ]
+    }
+   ],
+   "fit": "sf1915-bay",
+   "check": [
+    "usgs-san-francisco-1915"
+   ],
+   "est_error_m": 50,
+   "note": "The line the 1915 sheet labels Western Pacific, from its ferry slips at the end of the mole, south of the Southern Pacific's, along the mole and across the estuary's mouth to Chestnut Junction at First and Chestnut Sts"
+  },
+  "wp-ferry-course": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.329793,
+       37.800059
+      ],
+      "The Embarcadero/Market Street"
+     ]
+    }
+   ]
+  },
+  "wp-oakland-fruitvale": {
+   "parts": [
+    {
+     "trace": {
+      "sheet": "usgs-oakland-west-1949",
+      "bbox": [
+       -122.3,
+       37.7965,
+       -122.284,
+       37.8045
+      ],
+      "zoom": 2.6
+     },
+     "px": [
+      [
+       1131,
+       694
+      ],
+      [
+       1145,
+       640
+      ],
+      [
+       1165,
+       580
+      ],
+      [
+       1190,
+       520
+      ],
+      [
+       1210,
+       488
+      ]
+     ]
+    },
+    {
+     "streets": [
+      "3rd Street"
+     ],
+     "from": [
+      -122.28924,
+      37.80107
+     ],
+     "to": "Oak Street",
+     "area": "eastbay"
+    },
+    {
+     "trace": {
+      "sheet": "usgs-oakland-west-1949",
+      "bbox": [
+       -122.27,
+       37.787,
+       -122.25,
+       37.7955
+      ],
+      "zoom": 3.0
+     },
+     "px": [
+      [
+       300,
+       330
+      ],
+      [
+       480,
+       410
+      ],
+      [
+       640,
+       498
+      ],
+      [
+       800,
+       555
+      ],
+      [
+       985,
+       602
+      ],
+      [
+       1170,
+       632
+      ],
+      [
+       1370,
+       680
+      ],
+      [
+       1550,
+       710
+      ],
+      [
+       1720,
+       755
+      ],
+      [
+       1900,
+       795
+      ],
+      [
+       2100,
+       845
+      ],
+      [
+       2250,
+       890
+      ],
+      [
+       2450,
+       980
+      ]
+     ]
+    },
+    {
+     "trace": {
+      "sheet": "usgs-oakland-east-1949",
+      "bbox": [
+       -122.2505,
+       37.778,
+       -122.233,
+       37.7905
+      ],
+      "zoom": 3.0
+     },
+     "px": [
+      [
+       418,
+       441
+      ],
+      [
+       769,
+       643
+      ],
+      [
+       1079,
+       847
+      ],
+      [
+       1213,
+       974
+      ],
+      [
+       1387,
+       1124
+      ],
+      [
+       1544,
+       1235
+      ],
+      [
+       1703,
+       1366
+      ],
+      [
+       1842,
+       1489
+      ],
+      [
+       1947,
+       1577
+      ]
+     ]
+    },
+    {
+     "ohm": [
+      200236876
+     ],
+     "to": [
+      -122.21967,
+      37.76968
+     ]
+    }
+   ],
+   "check": [
+    "usgs-oakland-west-1949",
+    "usgs-oakland-east-1949"
+   ],
+   "est_error_m": 30,
+   "note": "From Chestnut Junction up to Third St, and along Third St, where the 1909 Tribune puts its double track and the 1949 sheets draw it, past the depot at Washington St to Oak St; then across the Lake Merritt channel and the yard at Fifth Ave, the northern tracks of the pair beside the Southern Pacific's, as the 1949 sheets label them; then OpenHistoricalMap's way from the 1915 sheet to today's Oakland Subdivision at Fruitvale"
+  },
+  "wp-fruitvale-niles": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.21967,
+       37.76968
+      ],
+      [
+       -121.9681,
+       37.5745
+      ]
+     ],
+     "area": "westernpacific",
+     "names": [
+      "UP Oakland Subdivision"
+     ]
+    }
+   ],
+   "check": [
+    "usgs-oakland-east-1949",
+    "usgs-san-leandro-1948",
+    "usgs-hayward-1915",
+    "usgs-niles-1953"
+   ],
+   "note": "Today's Oakland Subdivision, the Western Pacific's line, from Fruitvale by Melrose, Elmhurst, San Leandro, Hayward and Decoto to Niles, where ACE's track joins it"
+  }
+ }
+}

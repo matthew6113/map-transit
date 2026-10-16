@@ -6,10 +6,13 @@
 import { readFileSync } from 'node:fs';
 import { expect, test, type Page } from '@playwright/test';
 
-/** Counts come from the built catalog, so the tests follow the data. */
+/** Counts come from the built catalog, so the tests follow the data. Groups off by default (heritage)
+ * aren't listed until their legend chip is switched on. */
 const catalog = JSON.parse(readFileSync('data/app/catalog.json', 'utf8')) as { lines: { era: string; group: string }[] };
-const present = catalog.lines.filter((l) => l.era === 'present');
-const future = catalog.lines.filter((l) => l.era === 'present' || l.era === 'future');
+const groups = (JSON.parse(readFileSync('data/schema/vocabulary.json', 'utf8')) as { groups: Record<string, { defaultOn: boolean }> }).groups;
+const shown = catalog.lines.filter((l) => groups[l.group]?.defaultOn !== false);
+const present = shown.filter((l) => l.era === 'present');
+const future = shown.filter((l) => l.era === 'present' || l.era === 'future');
 const futureNotHeavy = future.filter((l) => l.group !== 'heavy_rail');
 
 test.setTimeout(240_000);

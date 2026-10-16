@@ -12,7 +12,7 @@ help:
 	@echo "make future-sync      Import BAM's future lines at the pinned commit (data/future/bam/)"
 	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment), BRT lanes from OpenStreetMap"
 	@echo "make present-refresh  The same, downloading every feed again"
-	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json): OpenHistoricalMap, USGS sheets, today's streets"
+	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json), and the heritage railways' (data/present/heritage/): OpenHistoricalMap, USGS sheets, today's streets and track"
 	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/$$PHASE/traces/ (PHASE=p2b)"
 	@echo "make checklists       Matthew's review lists: docs/checks/present.md (scanned-PDF quotes, conflicts), past.md (book pages, traced geometry) and ohm.md (OpenHistoricalMap's ways)"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"

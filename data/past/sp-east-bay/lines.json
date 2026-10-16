@@ -990,6 +990,97 @@
       ],
       "flags": [],
       "notes": "Across the estuary by the Harrison Street swing bridge (CRC Decision 17743, not the Webster Street bridge), then, as the 1915 USGS sheet draws the railroad, west along Alameda's north shore to the mole and Alameda Pier; where Webster Junction stood isn't placed. An Oakland Tribune headline of December 26, 1923, \"S.P. Bridge Service to End Tonight\", relayed by Wikipedia, isn't checked."
+    },
+    {
+      "id": "sp-oakland-san-jose-elmhurst",
+      "name": "Southern Pacific trains, Oakland Pier to San José by Elmhurst and Newark",
+      "short_name": "Oakland–San José by Newark",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1960-05-02"
+        }
+      ],
+      "mode": "railroad",
+      "era": "past",
+      "opened": null,
+      "closed": "1960-05-02",
+      "status": "closed",
+      "summary": "The Southern Pacific's last trains between Oakland and San José by the bay shore: from Oakland Pier by First St, Fruitvale and Elmhurst, then Mount Eden, Alvarado, Newark and Alviso to Santa Clara and San José; by 1941 the Oakland sections of the Coast Daylight and the Lark.",
+      "fate": "abandoned",
+      "fate_note": "Discontinued under the Public Utilities Commission's Decision No. 59928 of April 12, 1960; the last trains ran on May 1 and, for No. 73, May 2, 1960 (Schedule Statement ST-798). Amtrak's Coast Starlight runs over it today from Elmhurst, and the Capitol Corridor from Newark south.",
+      "route": [
+        {
+          "segment": "sp-oakland-mole"
+        },
+        {
+          "segment": "sp-west-oakland-connection"
+        },
+        {
+          "segment": "cc-west-oakland-magnolia"
+        },
+        {
+          "segment": "cc-magnolia-melrose"
+        },
+        {
+          "segment": "cc-melrose-elmhurst"
+        },
+        {
+          "segment": "cs-elmhurst-alameda-line"
+        },
+        {
+          "segment": "cs-alameda-line-dumbarton"
+        },
+        {
+          "segment": "cs-dumbarton-newark"
+        },
+        {
+          "segment": "cc-newark-santa-clara"
+        },
+        {
+          "segment": "cc-santa-clara-san-jose"
+        }
+      ],
+      "running": [
+        {
+          "date": "1941-09-28",
+          "source": "cscrm-2021-02-001466",
+          "pages": "12",
+          "note": "Nos. 250 and 255 and the Oakland Lark (74, 73), daily."
+        }
+      ],
+      "sources": [
+        {
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "route"
+          ],
+          "pages": "12",
+          "note": "Oakland Pier, West Oakland, Magnolia Tower, Oakland (First Street), East Oakland, Fruitvale, Elmhurst, Mulford, Robert, Russell, Mount Eden, Baumberg, Alvarado, Hall, Arden, Newark, Mowry, Albrae, Drawbridge, Alviso, Agnew, Santa Clara."
+        },
+        {
+          "source": "cpuc-d59928",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1, 10-11",
+          "note": "Authority to discontinue Nos. 73, 74, 250 and 255 between Oakland and San José, effective twenty days after April 12, 1960."
+        },
+        {
+          "source": "cscrm-2021-02-002028",
+          "supports": [
+            "closed"
+          ],
+          "pages": "memorandum",
+          "note": "Last runs May 1, 1960 (74, 250, 255) and May 2 (73)."
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "When the Southern Pacific's trains began to run this way, from Elmhurst instead of over the South Pacific Coast's old line from Alameda, isn't sourced; the map draws them from September 1941, the first date a source read on the page shows them (decision 20). Ends with No. 73's last run, May 2, 1960. Between San José and Santa Clara and from Newark south they ran on today's Capitol Corridor track."
     }
   ]
 }

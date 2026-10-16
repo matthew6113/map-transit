@@ -1,0 +1,429 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Petaluma & Santa Rosa. Research: docs/research/phase-2c.md.",
+ "lines": [
+  {
+   "id": "psr-petaluma-sebastopol",
+   "name": "Petaluma & Santa Rosa, Petaluma to Sebastopol",
+   "short_name": "Petaluma–Sebastopol",
+   "system": "petaluma-santa-rosa",
+   "operators": [
+    {
+     "name": "Petaluma and Santa Rosa Railway",
+     "from": "1904-11-19",
+     "to": null
+    },
+    {
+     "name": "Petaluma and Santa Rosa Railroad",
+     "from": null,
+     "to": "1932-07-01"
+    }
+   ],
+   "mode": "interurban",
+   "traction": [
+    {
+     "type": "electric_overhead",
+     "from": "1904-11-19",
+     "to": "1932-07-01"
+    }
+   ],
+   "era": "past",
+   "opened": "1904-11-19",
+   "closed": "1932-07-01",
+   "status": "closed",
+   "summary": "Electric cars from the steamer landing on the Petaluma River north beside the steam railroad, then across the farms by Liberty and Stony Point to Sebastopol.",
+   "fate": "abandoned",
+   "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+   "route": [
+    {
+     "segment": "psr-petaluma-town"
+    },
+    {
+     "segment": "psr-petaluma-sebastopol"
+    },
+    {
+     "segment": "psr-sebastopol-town"
+    }
+   ],
+   "sources": [
+    {
+     "source": "joe-1905-01-psr",
+     "supports": [
+      "opened"
+     ],
+     "pages": "31",
+     "note": "Regular hourly service \"was begun on November 19th\" (1904)."
+    },
+    {
+     "source": "crc-d2348",
+     "supports": [
+      "opened"
+     ],
+     "pages": "752",
+     "note": "\"placed in operation in November, 1904\"."
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "opened"
+     ],
+     "pages": "6",
+     "note": "The first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"."
+    },
+    {
+     "source": "western-railroader-1952-02",
+     "supports": [
+      "opened"
+     ],
+     "pages": "3",
+     "note": "Regular service from December 1, 1904, \"from Petaluma via Sebastopol to the CNW crossing at the Santa Rosa city limits\"."
+    },
+    {
+     "source": "srj-1905-07-01-psr",
+     "supports": [
+      "route"
+     ],
+     "pages": "10-13"
+    },
+    {
+     "source": "crc-d24818",
+     "supports": [
+      "closed"
+     ],
+     "pages": "3"
+    },
+    {
+     "source": "crc-d24983",
+     "supports": [
+      "closed"
+     ],
+     "pages": "1",
+     "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "closed"
+     ],
+     "pages": "26",
+     "note": "\"on June 30, 1932, all passenger service was discontinued\": the last day."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Opens on JOE's November 19, 1904; Borden gives November 29 and Ellison and Sievers December 1. By 1927 its cars ran 11 round trips a day between Sebastopol and Petaluma (Borden, p. 25). The company's steamers ran on from Petaluma to San Francisco."
+  },
+  {
+   "id": "psr-sebastopol-santa-rosa",
+   "name": "Petaluma & Santa Rosa, Sebastopol to Santa Rosa",
+   "short_name": "Sebastopol–Santa Rosa",
+   "system": "petaluma-santa-rosa",
+   "operators": [
+    {
+     "name": "Petaluma and Santa Rosa Railway",
+     "from": "1904-11-19",
+     "to": null
+    },
+    {
+     "name": "Petaluma and Santa Rosa Railroad",
+     "from": null,
+     "to": "1932-07-01"
+    }
+   ],
+   "mode": "interurban",
+   "traction": [
+    {
+     "type": "electric_overhead",
+     "from": "1904-11-19",
+     "to": "1932-07-01"
+    }
+   ],
+   "era": "past",
+   "opened": "1904-11-19",
+   "closed": "1932-07-01",
+   "status": "closed",
+   "summary": "Electric cars from Sebastopol by Gravenstein and Llano, then beside Sebastopol Ave into Santa Rosa, up Olive St and along Fourth St to McDonald Ave.",
+   "fate": "abandoned",
+   "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+   "route": [
+    {
+     "segment": "psr-sebastopol-town",
+     "note": "Through cars from Petaluma ran into Santa Rosa at first (Borden; Ellison and Sievers)."
+    },
+    {
+     "segment": "psr-sebastopol-leddy"
+    },
+    {
+     "segment": "psr-leddy-santa-rosa"
+    },
+    {
+     "segment": "psr-santa-rosa-olive",
+     "from": "1905-03-02",
+     "note": "Until the night of March 1, 1905 the cars stopped at the California Northwestern's crossing, which the steam road wouldn't let them cross (Borden; Street Railway Journal)."
+    },
+    {
+     "segment": "psr-santa-rosa-fourth-st",
+     "from": "1905-03-02",
+     "to": "1931-12-31",
+     "note": "Fourth St's cars ended on December 31, 1931 (Borden), under the order of December 14, 1931 (Decision No. 24310)."
+    }
+   ],
+   "sources": [
+    {
+     "source": "joe-1905-01-psr",
+     "supports": [
+      "opened"
+     ],
+     "pages": "31",
+     "note": "Regular hourly service \"was begun on November 19th\" (1904)."
+    },
+    {
+     "source": "crc-d2348",
+     "supports": [
+      "opened"
+     ],
+     "pages": "752",
+     "note": "\"placed in operation in November, 1904\"."
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "opened"
+     ],
+     "pages": "6",
+     "note": "The first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"."
+    },
+    {
+     "source": "western-railroader-1952-02",
+     "supports": [
+      "opened"
+     ],
+     "pages": "3",
+     "note": "Regular service from December 1, 1904, \"from Petaluma via Sebastopol to the CNW crossing at the Santa Rosa city limits\"."
+    },
+    {
+     "source": "srj-1905-07-01-psr",
+     "supports": [
+      "route"
+     ],
+     "pages": "11-13"
+    },
+    {
+     "source": "srj-1905-03-25-santa-rosa",
+     "supports": [
+      "general"
+     ],
+     "pages": "542"
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "route"
+     ],
+     "pages": "12-13, 26"
+    },
+    {
+     "source": "crc-d24310",
+     "supports": [
+      "route"
+     ],
+     "pages": "1-2"
+    },
+    {
+     "source": "crc-d24818",
+     "supports": [
+      "closed"
+     ],
+     "pages": "3"
+    },
+    {
+     "source": "crc-d24983",
+     "supports": [
+      "closed"
+     ],
+     "pages": "1",
+     "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "closed"
+     ],
+     "pages": "26",
+     "note": "\"on June 30, 1932, all passenger service was discontinued\": the last day."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Opens on JOE's November 19, 1904, which names no terminals; Borden and Ellison and Sievers say the first cars ran to the California Northwestern's crossing at the Santa Rosa city limits (November 29 or December 1). Between Leddy and the crossing it is drawn on Sebastopol Rd's centerline, the road it ran beside. By 1927, 18 round trips a day (Borden, p. 25)."
+  },
+  {
+   "id": "psr-sebastopol-forestville",
+   "name": "Petaluma & Santa Rosa, Sebastopol to Forestville",
+   "short_name": "Sebastopol–Forestville",
+   "system": "petaluma-santa-rosa",
+   "operators": [
+    {
+     "name": "Petaluma and Santa Rosa Railway",
+     "from": "1904-11-19",
+     "to": null
+    },
+    {
+     "name": "Petaluma and Santa Rosa Railroad",
+     "from": null,
+     "to": "1932-07-01"
+    }
+   ],
+   "mode": "interurban",
+   "traction": [
+    {
+     "type": "electric_overhead",
+     "from": "1904-11-19",
+     "to": "1932-07-01"
+    }
+   ],
+   "era": "past",
+   "opened": "1904-11-19",
+   "closed": "1932-07-01",
+   "status": "closed",
+   "summary": "Electric cars from Sebastopol up Main St and north through the orchards by Molino, Barlow, Graton (Green Valley), Manzana and Ross to Forestville.",
+   "fate": "abandoned",
+   "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+   "route": [
+    {
+     "segment": "psr-sebastopol-town",
+     "note": "From Petaluma at first; by 1927 the cars ran between Sebastopol and Forestville (Borden, p. 25)."
+    },
+    {
+     "segment": "psr-sebastopol-graton"
+    },
+    {
+     "segment": "psr-graton-forestville",
+     "from": "1905-07-15"
+    }
+   ],
+   "sources": [
+    {
+     "source": "joe-1905-01-psr",
+     "supports": [
+      "opened"
+     ],
+     "pages": "31",
+     "note": "\"At the same time similar service was inaugurated on the Green Valley branch, extending from Sebastopol to Green Valley.\""
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "opened"
+     ],
+     "pages": "12",
+     "note": "Green Valley on January 26, 1905 and Forestville on July 15, 1905."
+    },
+    {
+     "source": "western-railroader-1952-02",
+     "supports": [
+      "opened"
+     ],
+     "pages": "5"
+    },
+    {
+     "source": "srj-1905-07-01-psr",
+     "supports": [
+      "route"
+     ],
+     "pages": "11"
+    },
+    {
+     "source": "crc-d24818",
+     "supports": [
+      "closed"
+     ],
+     "pages": "3"
+    },
+    {
+     "source": "crc-d24983",
+     "supports": [
+      "closed"
+     ],
+     "pages": "1",
+     "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+    },
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "closed"
+     ],
+     "pages": "26",
+     "note": "\"on June 30, 1932, all passenger service was discontinued\": the last day."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Opens on JOE's November 19, 1904 to Green Valley (Graton); Borden and Ellison and Sievers give January 26, 1905. Forestville from July 15, 1905. Drawn from Sebastopol's depot; the line's later track is on the 1954 sheets."
+  },
+  {
+   "id": "psr-liberty-two-rock",
+   "name": "Petaluma & Santa Rosa, Two Rock branch",
+   "short_name": "Two Rock branch",
+   "system": "petaluma-santa-rosa",
+   "operators": [
+    {
+     "name": "Petaluma and Santa Rosa Railway",
+     "from": "1913-07-28",
+     "to": null
+    },
+    {
+     "name": "Petaluma and Santa Rosa Railroad",
+     "from": null,
+     "to": "1925-09-20"
+    }
+   ],
+   "mode": "interurban",
+   "traction": [
+    {
+     "type": "electric_overhead",
+     "from": "1913-07-28",
+     "to": "1925-09-20"
+    }
+   ],
+   "era": "past",
+   "opened": "1913-07-28",
+   "closed": "1925-09-20",
+   "status": "closed",
+   "summary": "A branch of 5.77 miles from Liberty, on the line from Petaluma, west to Two Rock.",
+   "fate": "abandoned",
+   "fate_note": "Its passenger service ended in September 1925; freight went on.",
+   "route": [
+    {
+     "segment": "psr-liberty-two-rock"
+    }
+   ],
+   "sources": [
+    {
+     "source": "western-railroader-1960-04",
+     "supports": [
+      "opened",
+      "closed"
+     ],
+     "pages": "14, 24",
+     "note": "\"completed and put into operation on July 28, 1913\" (p. 14); \"on September 20, 1925, passenger service was discontinued\" (p. 24)."
+    },
+    {
+     "source": "western-railroader-1952-02",
+     "supports": [
+      "opened",
+      "closed"
+     ],
+     "pages": "5, 12",
+     "note": "Opened July 28, 1913; passenger service ended September 30, 1925."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Its end is Borden's September 20, 1925; Ellison and Sievers give September 30. Its passengers were few once the county highway opened (Borden, p. 24). Drawn on OpenStreetMap's way, whose west end is short of Two Rock itself."
+  }
+ ]
+}

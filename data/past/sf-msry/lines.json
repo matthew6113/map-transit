@@ -100,7 +100,10 @@
           "segment": "sf-msry-presidio-ave-california-st-sutter-st"
         },
         {
-          "segment": "sf-msry-california-st-6th-ave-presidio-ave"
+          "segment": "sf-msry-california-st-parker-ave-presidio-ave"
+        },
+        {
+          "segment": "sf-msry-california-st-6th-ave-parker-ave"
         },
         {
           "segment": "sf-msry-6th-ave-california-st-clement-st",
@@ -121,6 +124,203 @@
           ]
         }
       ]
+    },
+    {
+      "id": "msry-2",
+      "name": "No. 2 Sutter and Clement Streets",
+      "short_name": "2",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1949-07-02",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "27"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "343"
+        }
+      ],
+      "status": "closed",
+      "summary": "Out Sutter St and California St to Parker Ave, then by Euclid Ave and Arguello Blvd to Clement St, out Clement St, 33rd Ave and Geary Blvd to 48th Ave, and over a private right of way to Sutro Baths. In 1909 the same line, unnumbered, was the \"Clement\" line from Parker Ave and California St (Manley p. 27).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from July 3, 1949.",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "muni-f-market-1st-sutter",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-sutter-market-larkin",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-sutter-larkin-fillmore",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-sutter-fillmore-presidio",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-presidio-ave-california-st-sutter-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-california-st-parker-ave-presidio-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-parker-ave-california-st-euclid-ave",
+          "note": "Manley: Parker Ave. and California St. was the 1909 terminus; today's centerlines miss by ~6 m at Euclid"
+        },
+        {
+          "segment": "sf-msry-euclid-ave-arguello-blvd-parker-ave",
+          "note": "Richmond Ave in 1909"
+        },
+        {
+          "segment": "sf-msry-arguello-blvd-clement-st-euclid-ave",
+          "note": "1st Ave in 1909"
+        },
+        {
+          "segment": "sf-msry-clement-st-6th-ave-arguello-blvd"
+        },
+        {
+          "segment": "sf-msry-clement-st-6th-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-clement-st-33rd-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-33rd-ave-clement-st-geary-blvd"
+        },
+        {
+          "segment": "sf-msry-geary-blvd-33rd-ave-40th-ave",
+          "note": "Point Lobos Ave in 1909; the city engineer (1909 journal p. 456) speaks of 'the existing double track railroad on Point Lobos avenue, between Thirty-third and Fortieth avenues'"
+        },
+        {
+          "segment": "sf-msry-geary-blvd-40th-ave-48th-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Manley's 1909 route, \"to Point Lobos Ave. to Sutro Baths\", gives no west end on Point Lobos Ave, so this stretch is drawn for 1929 only"
+        },
+        {
+          "segment": "sf-msry-48th-ave-geary-blvd-point-lobos-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-sutro-baths-row",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "27"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "343"
+        },
+        {
+          "source": "organized-labor-1909-05-01",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "Euclid Ave was Richmond Ave: \"Euclid avenue (formerly Richmond avenue)\", a newspaper's building notice, not an ordinance."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1460, 1463",
+          "note": "\"First avenue to Arguello boulevard\"; \"Point Lobos avenue to Geary street\"."
+        },
+        {
+          "source": "sf-bos-journal-1909",
+          "supports": [
+            "route"
+          ],
+          "pages": "456",
+          "note": "\"the existing double track railroad on Point Lobos avenue, between Thirty-third and Fortieth avenues\"."
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "192",
+          "note": "\"7/ 2/49 No. 2—Last day of street car operation.\" Motor coaches from July 3, 1949."
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "general"
+          ],
+          "pages": "172",
+          "note": "\"10/ 5/47 No. 2—Motor coach service substituted for street cars evenings, Sundays and holidays.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Manley's 1909 \"Clement\" line ran \"via Parker to Richmond Ave. to 1st Ave. to Clement to 33rd Ave. to Point Lobos Ave. to Sutro Baths\" (p. 27); his p. 34 says there was no No. 2 then. Richmond Ave is read as today's Euclid Ave on a newspaper of 1909 and O'Shaughnessy's naming Euclid Ave on the same stretch. The private right of way from 48th Ave to the Sutro Baths is drawn for 1929 where the 1950 sheet has it; in 1909 it isn't, since Manley doesn't say where the cars left Point Lobos Ave."
     },
     {
       "id": "msry-3",
@@ -215,7 +415,10 @@
           "segment": "sf-sutter-larkin-fillmore"
         },
         {
-          "segment": "sf-msry-fillmore-st-jackson-st-sutter-st"
+          "segment": "sf-msry-fillmore-st-sacramento-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-jackson-st-sacramento-st"
         },
         {
           "segment": "sf-jackson-fillmore-steiner"
@@ -374,6 +577,158 @@
           "note": "Inbound"
         }
       ]
+    },
+    {
+      "id": "msry-5",
+      "name": "No. 5 McAllister and Fulton Streets",
+      "short_name": "5",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1948-06-05",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "11"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "344"
+        }
+      ],
+      "status": "closed",
+      "summary": "From the Ferry out Market St and McAllister St to Central Ave, then across a block on its own right of way to Fulton St and Masonic Ave, and out Fulton St to La Playa and Balboa St. In 1909 the McAllister line ran to its car house at McAllister St and Central Ave, every other car on \"to Chutes\" (Manley p. 11).",
+      "fate": "converted_to_bus",
+      "fate_note": "Motor coaches from June 7, 1948; trolley coaches from July 3, 1949.",
+      "route": [
+        {
+          "segment": "muni-f-market-drumm-1st"
+        },
+        {
+          "segment": "muni-f-market-1st-sutter"
+        },
+        {
+          "segment": "muni-f-market-sutter-kearny"
+        },
+        {
+          "segment": "muni-f-market-kearny-powell"
+        },
+        {
+          "segment": "muni-f-market-powell-mcallister"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-leavenworth-st-market-st",
+          "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-larkin-st-leavenworth-st",
+          "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-gough-st-larkin-st",
+          "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-fillmore-st-gough-st",
+          "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+        },
+        {
+          "segment": "sf-msry-mcallister-st-central-ave-fillmore-st",
+          "note": "To the car house \"at McAllister and Central Ave.\" (Manley, 1909)"
+        },
+        {
+          "segment": "sf-msry-fulton-st-masonic-ave-stanyan-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Wilcox 1927 pp. 31, 91: Fulton from Masonic to Stanyan, Stanyan to Arguello, Arguello to Sixth Ave used by Route #5"
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-stanyan-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Wilcox 1927 pp. 31, 91: Fulton from Masonic to Stanyan, Stanyan to Arguello, Arguello to Sixth Ave used by Route #5"
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-8th-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Wilcox 1927 pp. 31, 91: Fulton from Masonic to Stanyan, Stanyan to Arguello, Arguello to Sixth Ave used by Route #5"
+        },
+        {
+          "segment": "sf-msry-fulton-st-8th-ave-la-playa-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Wilcox 1927 pp. 31, 91: Fulton from Masonic to Stanyan, Stanyan to Arguello, Arguello to Sixth Ave used by Route #5"
+        },
+        {
+          "segment": "sf-msry-la-playa-st-balboa-st-fulton-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "11"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "344"
+        },
+        {
+          "source": "wilcox-1927",
+          "supports": [
+            "route"
+          ],
+          "pages": "31, 91, 105"
+        },
+        {
+          "source": "sf-puc-report-1947",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "175",
+          "note": "\"6/ 7/48 No. 5—Motor coach service substituted for street car service. Last day of street car operation June 5, 1948.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Not drawn: the right of way \"cornerwise across the block\" from McAllister St and Central Ave to Masonic Ave and Fulton St (its ends are known, its course isn't), the loop at Balboa St on private property, and the 1909 cars' run on \"to Chutes\"."
     },
     {
       "id": "msry-6",
@@ -620,7 +975,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344; not drawn past Frederick St: where the cars left Lincoln Way, and the right of way's course, aren't given).",
+      "summary": "Out Haight St to Stanyan St; by 1929 on by Frederick St and Lincoln Way, then \"Lincoln Way, Private Right of Way and La Playa to Balboa Street Loop\" (O'Shaughnessy p. 344).",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from July 4, 1948; trolley coaches from July 3, 1949.",
       "sources": [
@@ -681,7 +1036,13 @@
           "segment": "sf-haight-market-stanyan"
         },
         {
-          "segment": "sf-msry-stanyan-st-frederick-st-haight-st",
+          "segment": "sf-msry-stanyan-st-haight-st-waller-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-stanyan-st-frederick-st-waller-st",
           "running": [
             "1929-05"
           ]
@@ -691,8 +1052,39 @@
           "running": [
             "1929-05"
           ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-frederick-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-20th-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-park-row",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-la-playa-st-balboa-st-fulton-st",
+          "running": [
+            "1929-05"
+          ]
         }
-      ]
+      ],
+      "notes": "The right of way is drawn where the 1950 sheet has track along the park's west edge, from Lincoln Way near 47th Ave to Fulton St at La Playa; the loop at Balboa St, on private property, isn't drawn."
     },
     {
       "id": "msry-8",
@@ -1108,7 +1500,10 @@
           "segment": "sf-msry-mission-st-14th-st-5th-st"
         },
         {
-          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+          "segment": "sf-msry-mission-st-14th-st-16th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st"
         },
         {
           "segment": "sf-msry-22nd-st-chattanooga-st-mission-st"
@@ -1217,7 +1612,10 @@
           "segment": "sf-msry-mission-st-14th-st-5th-st"
         },
         {
-          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+          "segment": "sf-msry-mission-st-14th-st-16th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st"
         },
         {
           "segment": "sf-msry-mission-st-22nd-st-valencia-st"
@@ -1226,7 +1624,13 @@
           "segment": "sf-msry-mission-st-29th-st-valencia-st"
         },
         {
-          "segment": "sf-msry-mission-st-29th-st-onondaga-ave"
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-cortland-ave-richland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-richland-ave"
         },
         {
           "segment": "sf-msry-onondaga-ave-mission-st-ocean-ave"
@@ -1335,7 +1739,10 @@
           "segment": "sf-msry-mission-st-14th-st-5th-st"
         },
         {
-          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+          "segment": "sf-msry-mission-st-14th-st-16th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st"
         },
         {
           "segment": "sf-msry-mission-st-22nd-st-valencia-st"
@@ -1344,7 +1751,13 @@
           "segment": "sf-msry-mission-st-29th-st-valencia-st"
         },
         {
-          "segment": "sf-msry-mission-st-29th-st-onondaga-ave"
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-cortland-ave-richland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-richland-ave"
         },
         {
           "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave"
@@ -1441,6 +1854,283 @@
       ]
     },
     {
+      "id": "msry-16",
+      "name": "No. 16 Third and Kearny Streets",
+      "short_name": "16",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1946-10",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "17"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "From the Ferry by Broadway and Kearny St, then out 3rd St to the south end of the city. In 1909 the Kentucky line ran from 3rd St and Townsend St by Berry St and 4th St to Kentucky St and on to 22nd Ave South (Manley p. 17).",
+      "fate": "converted_to_bus",
+      "fate_note": "Replaced by motor coaches on October 7, 1946.",
+      "route": [
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-market-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Manley: '3rd and Townsend via 3rd to Berry'; cars 'switch back at 3rd and Market'"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-townsend-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Manley: '3rd and Townsend via 3rd to Berry'; cars 'switch back at 3rd and Market'"
+        },
+        {
+          "segment": "sf-msry-3rd-st-berry-st-townsend-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Manley: '3rd and Townsend via 3rd to Berry'; cars 'switch back at 3rd and Market'"
+        },
+        {
+          "segment": "sf-msry-berry-st-3rd-st-4th-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-4th-st-16th-st-berry-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "to Kentucky St; today 4th St ends at 16th St, ~140 m west of 3rd St"
+        },
+        {
+          "segment": "sf-msry-3rd-st-16th-st-18th-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Kentucky St, then Railroad Ave, to '22nd Ave.' (Twenty-second avenue South = Van Dyke Ave); where Kentucky St began on today's 3rd St isn't sourced: 16th St is the cross street nearest 4th St's end, approximate"
+        },
+        {
+          "segment": "sf-msry-3rd-st-18th-st-23rd-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Kentucky St, then Railroad Ave, to '22nd Ave.' (Twenty-second avenue South = Van Dyke Ave); where Kentucky St began on today's 3rd St isn't sourced: 16th St is the cross street nearest 4th St's end, approximate"
+        },
+        {
+          "segment": "sf-msry-3rd-st-23rd-st-cesar-chavez-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Kentucky St, then Railroad Ave, to '22nd Ave.' (Twenty-second avenue South = Van Dyke Ave); where Kentucky St began on today's 3rd St isn't sourced: 16th St is the cross street nearest 4th St's end, approximate"
+        },
+        {
+          "segment": "sf-msry-3rd-st-cesar-chavez-st-van-dyke-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Kentucky St, then Railroad Ave, to '22nd Ave.' (Twenty-second avenue South = Van Dyke Ave); where Kentucky St began on today's 3rd St isn't sourced: 16th St is the cross street nearest 4th St's end, approximate"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-market-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-brannan-st-townsend-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-berry-st-townsend-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-16th-st-berry-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-16th-st-18th-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-18th-st-23rd-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-23rd-st-cesar-chavez-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-cesar-chavez-st-van-dyke-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-3rd-st-bayshore-blvd-van-dyke-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "OS29 names only 3rd St; south end at '3rd St. and Wilde Ave.'/San Bruno Ave, see unplaced"
+        },
+        {
+          "segment": "sf-msry-kearny-st-market-st-post-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-kearny-st-bush-st-post-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-kearny-st-broadway-bush-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-broadway-kearny-st-the-embarcadero",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-the-embarcadero-broadway-washington-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "'to north Ferry Terminal'; the stop isn't given"
+        },
+        {
+          "segment": "muni-e-embarcadero",
+          "running": [
+            "1929-05"
+          ],
+          "note": "'to north Ferry Terminal'; the stop isn't given"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "17"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        },
+        {
+          "source": "sf-bos-journal-1909",
+          "supports": [
+            "route"
+          ],
+          "pages": "218"
+        },
+        {
+          "source": "sf-bos-journal-1915",
+          "supports": [
+            "route"
+          ],
+          "pages": "417",
+          "note": "Kentucky St became 3rd St (Ordinance No. 3205)."
+        },
+        {
+          "source": "sf-bos-journal-1921",
+          "supports": [
+            "route"
+          ],
+          "pages": "668",
+          "note": "Railroad Ave became 3rd St (Ordinance No. 5437)."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1465",
+          "note": "\"Twenty-second avenue South to Van Dyke avenue.\" Manley's \"22nd Ave.\", at the end of Railroad Ave, is read as Twenty-second avenue South; he omits \"South\"."
+        },
+        {
+          "source": "wilcox-1927",
+          "supports": [
+            "route"
+          ],
+          "pages": "195"
+        },
+        {
+          "source": "sf-puc-report-1946",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "246, 287",
+          "note": "\"On October 7, 1946, on the Third and Kearny Street line all street car operation was discontinued and replaced by motor coach operation.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Its end is the month the street cars were replaced, October 1946; the last day isn't given. Not drawn: the 1909 link from 4th St to Kentucky St south of the Channel, and the 1929 run on San Bruno Ave from 3rd St and Wilde Ave to Sunnydale Ave, the county line (today's streets there were rebuilt)."
+    },
+    {
       "id": "msry-17",
       "name": "No. 17 Haight Street and Ingleside",
       "short_name": "17",
@@ -1520,13 +2210,19 @@
           "segment": "sf-haight-market-stanyan"
         },
         {
-          "segment": "sf-msry-stanyan-st-frederick-st-haight-st"
+          "segment": "sf-msry-stanyan-st-haight-st-waller-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-frederick-st-waller-st"
         },
         {
           "segment": "sf-msry-frederick-st-lincoln-way-stanyan-st"
         },
         {
-          "segment": "sf-msry-lincoln-way-20th-ave-frederick-st"
+          "segment": "sf-msry-lincoln-way-19th-ave-frederick-st"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-20th-ave"
         },
         {
           "segment": "sf-msry-20th-ave-lincoln-way-wawona-st"
@@ -1590,7 +2286,10 @@
           "segment": "sf-msry-mission-st-14th-st-5th-st"
         },
         {
-          "segment": "sf-msry-mission-st-14th-st-22nd-st"
+          "segment": "sf-msry-mission-st-14th-st-16th-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st"
         },
         {
           "segment": "sf-msry-mission-st-22nd-st-valencia-st"
@@ -1599,7 +2298,13 @@
           "segment": "sf-msry-mission-st-29th-st-valencia-st"
         },
         {
-          "segment": "sf-msry-mission-st-29th-st-onondaga-ave"
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-cortland-ave-richland-ave"
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-richland-ave"
         },
         {
           "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave"
@@ -1722,7 +2427,7 @@
         }
       ],
       "status": "closed",
-      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 the cars went on \"to Stanyan to H to 19th\", and every other car \"out H to Ocean Boulevard, thence west to B Street\" (Manley p. 18; not drawn yet: that H St is today's Lincoln Way isn't sourced here).",
+      "summary": "Out Ellis St, O'Farrell St, Divisadero St and Oak St to Stanyan St, back by Page St and Ellis St, and from Market St by 4th St to the Southern Pacific station. In 1909 the cars went on \"to Stanyan to H to 19th\", and every other car \"out H to Ocean Boulevard, thence west to B Street\" (Manley p. 18): H St is today's Lincoln Way.",
       "fate": "converted_to_bus",
       "fate_note": "Motor coaches from late September 1947.",
       "sources": [
@@ -1752,6 +2457,30 @@
           ],
           "pages": "171",
           "note": "\"9/27/47 No. 20 — Last day of street car operation.\" Motor coaches from September 29, 1947. The report prints its dates in a column apart from the entries; this one was read on the page image."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1461",
+          "note": "\"H street to Lincoln way.\""
+        },
+        {
+          "source": "sf-bos-journal-1909",
+          "supports": [
+            "route"
+          ],
+          "pages": "75, 1223",
+          "note": "In January 1909 H St began at First Ave (Arguello Blvd); Frederick St was a separate street."
+        },
+        {
+          "source": "wilcox-1927",
+          "supports": [
+            "route"
+          ],
+          "pages": "50-51",
+          "note": "The franchise (Order No. 1736): from Stanyan St and Waller St, \"curving to the right through the northeast corner of Block No. 714\" to H St, and along H St to the Great Highway."
         }
       ],
       "flags": [
@@ -1795,7 +2524,10 @@
           "segment": "sf-msry-oak-st-masonic-ave-stanyan-st"
         },
         {
-          "segment": "sf-msry-stanyan-st-haight-st-oak-st"
+          "segment": "sf-msry-stanyan-st-oak-st-page-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-page-st"
         },
         {
           "segment": "sf-msry-page-st-masonic-ave-stanyan-st",
@@ -1812,8 +2544,58 @@
         {
           "segment": "sf-msry-ellis-st-divisadero-st-hyde-st",
           "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-waller-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Manley (1909): \"to Stanyan to H\""
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-frederick-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "From where Frederick St and Arguello Blvd meet Lincoln Way: H St began at First Ave (Arguello Blvd) in January 1909; the cars' curve onto it from Stanyan & Waller is unplaced"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-19th-ave-20th-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "every other car, 'out H to Ocean Boulevard'"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-20th-ave-the-right-of-way-along-the-park",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "every other car, 'out H to Ocean Boulevard'"
+        },
+        {
+          "segment": "sf-msry-lincoln-way-great-hwy-the-right-of-way-along-the-park",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "every other car, 'out H to Ocean Boulevard'"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-waller-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound: 'on Page from Stanyan to Devisadero'"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-page-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Inbound: 'on Page from Stanyan to Devisadero'"
         }
-      ]
+      ],
+      "notes": "Not drawn: the 1909 curve from Stanyan St and Waller St to H St through Block 714, and the run beyond Lincoln Way, \"to Ocean Boulevard, thence west to B Street\" (Balboa St), which the franchise puts north along the beach to 49th Ave (La Playa) and then west; no map places it."
     },
     {
       "id": "msry-21",
@@ -2015,6 +2797,802 @@
       ]
     },
     {
+      "id": "msry-22",
+      "name": "No. 22 Fillmore and Sixteenth Streets",
+      "short_name": "22",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1948-07-31",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "15"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "346"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Broadway down Fillmore St, then by Duboce Ave and Church St to 16th St and out 16th St to Bryant St; by 1929 on by Kansas St, 17th St, Connecticut St and 18th St to 3rd St and 23rd St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Wholly converted to motor coaches on August 1, 1948.",
+      "route": [
+        {
+          "segment": "sf-msry-fillmore-st-broadway-jackson-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-jackson-st-sacramento-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-sacramento-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-mcallister-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-mcallister-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-duboce-ave-page-st"
+        },
+        {
+          "segment": "sf-msry-duboce-ave-church-st-fillmore-st",
+          "note": "13th St in 1909"
+        },
+        {
+          "segment": "sf-msry-church-st-16th-st-duboce-ave"
+        },
+        {
+          "segment": "sf-msry-16th-st-church-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-16th-st-bryant-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-16th-st-bryant-st-kansas-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-kansas-st-16th-st-17th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-17th-st-connecticut-st-kansas-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-connecticut-st-17th-st-18th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-18th-st-3rd-st-connecticut-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-3rd-st-16th-st-18th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-3rd-st-16th-st-23rd-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "15"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "346"
+        },
+        {
+          "source": "sf-general-ordinances-1907",
+          "supports": [
+            "route"
+          ],
+          "pages": "198",
+          "note": "Duboce Ave was 13th St: \"Duboce avenue (formerly thirteenth street)\"."
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "189, 277",
+          "note": "\"7/31/48 No. 22—Last day of street car operation.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Manley's 13th St is today's Duboce Ave (the general ordinances of 1907). By 1929 two-thirds of the cars turned back at 16th St and Bryant St."
+    },
+    {
+      "id": "msry-23",
+      "name": "No. 23 Fillmore and Valencia Streets",
+      "short_name": "23",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "15"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "347"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Sacramento St and Divisadero St down Fillmore St; in 1909 by Duboce Ave, Church St and 16th St to Mission St and 29th St, in 1929 by McAllister St, Gough St, Market St and Valencia St to Mission St and Richland Ave.",
+      "route": [
+        {
+          "segment": "sf-msry-sacramento-st-divisadero-st-fillmore-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-sacramento-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-mcallister-st-sutter-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-mcallister-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-fillmore-st-hayes-st-oak-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-fillmore-st-duboce-ave-page-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-duboce-ave-church-st-fillmore-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-church-st-16th-st-duboce-ave",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-16th-st-church-st-mission-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-mcallister-st-fillmore-st-gough-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-gough-st-market-st-mcallister-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-market-st-gough-st-valencia-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-valencia-market-16th",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-valencia-16th-mission",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-cortland-ave-richland-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-richland-ave-andover-st-mission-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-leese-st-mission-st-richland-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "15"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "347"
+        },
+        {
+          "source": "sf-general-ordinances-1907",
+          "supports": [
+            "route"
+          ],
+          "pages": "198",
+          "note": "Duboce Ave was 13th St: \"Duboce avenue (formerly thirteenth street)\"."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1459",
+          "note": "\"Devisadero street to Divisadero street.\""
+        },
+        {
+          "source": "sf-puc-report-1944",
+          "supports": [
+            "general"
+          ],
+          "pages": "308",
+          "note": "Not among the electric car lines when the city took over the Market Street Railway, September 29, 1944."
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "general"
+          ],
+          "pages": "48",
+          "note": "\"During 1940 and 41 a number of conversions to coach operation took place … on the Mission Street stubs, Richland Avenue and Bosworth (#23)\"."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "notes": "When its cars last ran isn't sourced: not after September 29, 1944, when the city's list of electric lines doesn't have it; its Richland Ave end went to coaches in 1940-41. Drawn for the years the reports show it (decision 20)."
+    },
+    {
+      "id": "msry-24",
+      "name": "No. 24 Mission and Richmond",
+      "short_name": "24",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "16"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "347"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Mission St by 16th St, Church St, Duboce Ave and Fillmore St to Oak St (back by Page St), then by Divisadero St and Sacramento St to Lake St and a loop by 6th Ave, Fulton St, 8th Ave and Clement St; by 1929 from Cortland Ave and Folsom St.",
+      "route": [
+        {
+          "segment": "sf-msry-cortland-ave-folsom-st-mission-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st"
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st"
+        },
+        {
+          "segment": "sf-msry-16th-st-church-st-mission-st"
+        },
+        {
+          "segment": "sf-msry-church-st-16th-st-duboce-ave"
+        },
+        {
+          "segment": "sf-msry-duboce-ave-church-st-fillmore-st",
+          "note": "13th St in 1909"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-duboce-ave-page-st"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st"
+        },
+        {
+          "segment": "sf-msry-oak-st-divisadero-st-fillmore-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-hayes-st-oak-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-hayes-st-turk-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-turk-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-eddy-st-ofarrell-st"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-ofarrell-st-sacramento-st"
+        },
+        {
+          "segment": "sf-msry-sacramento-st-arguello-blvd-divisadero-st"
+        },
+        {
+          "segment": "sf-msry-arguello-blvd-lake-st-sacramento-st",
+          "note": "Manley says 'Sacramento to Lake', which meet only here (as msry-4)"
+        },
+        {
+          "segment": "sf-msry-lake-st-6th-ave-arguello-blvd"
+        },
+        {
+          "segment": "sf-msry-6th-ave-california-st-lake-st"
+        },
+        {
+          "segment": "sf-msry-6th-ave-california-st-clement-st"
+        },
+        {
+          "segment": "sf-msry-6th-ave-clement-st-fulton-st"
+        },
+        {
+          "segment": "sf-msry-fulton-st-6th-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-8th-ave-clement-st-fulton-st"
+        },
+        {
+          "segment": "sf-msry-clement-st-6th-ave-8th-ave"
+        },
+        {
+          "segment": "sf-msry-divisadero-st-oak-st-page-st",
+          "note": "Inbound, on the northbound side of today's divided street"
+        },
+        {
+          "segment": "sf-msry-page-st-divisadero-st-fillmore-st",
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-fillmore-st-oak-st-page-st",
+          "note": "Inbound (Fillmore Duboce-Page is shared)"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "16"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "347"
+        },
+        {
+          "source": "sf-general-ordinances-1907",
+          "supports": [
+            "route"
+          ],
+          "pages": "198",
+          "note": "Duboce Ave was 13th St: \"Duboce avenue (formerly thirteenth street)\"."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1459",
+          "note": "\"Devisadero street to Divisadero street.\""
+        },
+        {
+          "source": "sf-puc-report-1944",
+          "supports": [
+            "general"
+          ],
+          "pages": "308",
+          "note": "Not among the electric car lines when the city took over the Market Street Railway, September 29, 1944."
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "general"
+          ],
+          "pages": "49",
+          "note": "In 1941 the No. 24 coach line replaced \"the Castro Street cable, the Divisadero Street carline and the Fillmore Hill balanced cable way\"; which car line is meant isn't clear."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "notes": "When its cars last ran isn't sourced: not after September 29, 1944 (the city's list of electric lines). Drawn for the years the reports show it (decision 20)."
+    },
+    {
+      "id": "msry-25",
+      "name": "No. 25 San Bruno Avenue",
+      "short_name": "25",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1948-07-31",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "28"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "347"
+        }
+      ],
+      "status": "closed",
+      "summary": "In 1929 from Market St by 5th St and Bryant St to Army St, then by Potrero Ave and San Bruno Ave to 3rd St and Wilde Ave. In 1909 the San Bruno line, unnumbered, ran from 22nd St and Mission St by Howard St, 26th St, Folsom St and Army St to San Bruno Ave and the Five Mile House (Manley p. 28).",
+      "fate": "converted_to_bus",
+      "fate_note": "Wholly converted to motor coaches on August 1, 1948; from December 5, 1946 its street cars had turned at Army St and Potrero Ave.",
+      "route": [
+        {
+          "segment": "sf-msry-22nd-st-mission-st-s-van-ness-ave",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-22nd-st-24th-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Howard St in 1909"
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-24th-st-26th-st",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Howard St in 1909"
+        },
+        {
+          "segment": "sf-msry-26th-st-folsom-st-s-van-ness-ave",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-folsom-st-26th-st-cesar-chavez-st",
+          "running": [
+            "1909-02-01"
+          ]
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-folsom-st-potrero-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Army St"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-potrero-ave-san-bruno-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Army St"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-bryant-st-san-bruno-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Army St"
+        },
+        {
+          "segment": "sf-msry-5th-st-market-st-mission-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-5th-st-bryant-st-mission-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-bryant-st-5th-st-8th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-bryant-st-16th-st-8th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-bryant-st-16th-st-26th-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-bryant-st-26th-st-cesar-chavez-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-bryant-st-san-bruno-ave",
+          "note": "Army St; today's Potrero Ave stops about 85 m short of Cesar Chavez St at the US-101 interchange, so this ends at the nearest point"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-potrero-ave-san-bruno-ave",
+          "note": "Army St; today's Potrero Ave stops about 85 m short of Cesar Chavez St at the US-101 interchange, so this ends at the nearest point"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-potrero-ave-san-bruno-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Army St \"to San Bruno Avenue\"; the old junction is under the US-101 interchange, and this ends where today's San Bruno Ave comes nearest (57 m)"
+        },
+        {
+          "segment": "sf-msry-san-bruno-ave-silver-ave-wilde-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "today's San Bruno Ave south of the freeway; Wilcox 1927 p. 23 has the tracks on 'San Bruno Avenue, Oakdale Avenue to Railroad Avenue (at Wilde Street)', and Oakdale Ave now meets Bayshore Blvd, not San Bruno Ave"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "28"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "347"
+        },
+        {
+          "source": "sf-bos-journal-1932",
+          "supports": [
+            "route"
+          ],
+          "pages": "805",
+          "note": "Howard St from 13th St to Army St became \"Van Ness Avenue South\"."
+        },
+        {
+          "source": "sf-bos-journal-1995",
+          "supports": [
+            "route"
+          ],
+          "pages": "30",
+          "note": "Army St became Cesar Chavez St (Resolution No. 32-95)."
+        },
+        {
+          "source": "wilcox-1927",
+          "supports": [
+            "route"
+          ],
+          "pages": "23, 98-99"
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "189, 277",
+          "note": "\"7/31/48 No. 25—Last day of street car operation.\""
+        },
+        {
+          "source": "sf-puc-report-1946",
+          "supports": [
+            "general"
+          ],
+          "pages": "288",
+          "note": "\"12/ 5/46 No. 25—Street car outer terminal changed to Army and Potrero.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Not drawn: the right of way on the east side of Potrero Ave, San Bruno Ave from Army St to Silver Ave (under today's freeway and Bayshore Blvd), the ends at 3rd St and Wilde Ave and at Sunnydale Ave, and the 1909 run to the Five Mile House. Howard St from 13th St to Army St is today's South Van Ness Ave (1932), Army St today's Cesar Chavez St (1995)."
+    },
+    {
       "id": "msry-27",
       "name": "No. 27 Bryant Street",
       "short_name": "27",
@@ -2095,10 +3673,25 @@
           "segment": "sf-msry-2nd-st-bryant-st-folsom-st"
         },
         {
-          "segment": "sf-msry-bryant-st-26th-st-2nd-st"
+          "segment": "sf-msry-bryant-st-2nd-st-5th-st"
         },
         {
-          "segment": "sf-msry-26th-st-bryant-st-mission-st"
+          "segment": "sf-msry-bryant-st-5th-st-8th-st"
+        },
+        {
+          "segment": "sf-msry-bryant-st-16th-st-8th-st"
+        },
+        {
+          "segment": "sf-msry-bryant-st-16th-st-26th-st"
+        },
+        {
+          "segment": "sf-msry-26th-st-bryant-st-folsom-st"
+        },
+        {
+          "segment": "sf-msry-26th-st-folsom-st-s-van-ness-ave"
+        },
+        {
+          "segment": "sf-msry-26th-st-mission-st-s-van-ness-ave"
         },
         {
           "segment": "sf-msry-8th-st-brannan-st-bryant-st",
@@ -2138,6 +3731,234 @@
           "note": "Inbound"
         }
       ]
+    },
+    {
+      "id": "msry-30",
+      "name": "No. 30 Eighth and Army Streets",
+      "short_name": "30",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "23"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "348"
+        }
+      ],
+      "status": "closed",
+      "summary": "From Market St out 8th St and Bryant St to 16th St, by Kansas St, 17th St, Connecticut St and 18th St to 3rd St, and south; in 1909 on to 22nd Ave South, in 1929 back west by Army St, Folsom St, 26th St and Howard St to 22nd St and Mission St.",
+      "route": [
+        {
+          "segment": "sf-msry-8th-st-bryant-st-market-st"
+        },
+        {
+          "segment": "sf-msry-bryant-st-16th-st-8th-st"
+        },
+        {
+          "segment": "sf-msry-16th-st-bryant-st-kansas-st"
+        },
+        {
+          "segment": "sf-msry-kansas-st-16th-st-17th-st"
+        },
+        {
+          "segment": "sf-msry-17th-st-connecticut-st-kansas-st"
+        },
+        {
+          "segment": "sf-msry-connecticut-st-17th-st-18th-st"
+        },
+        {
+          "segment": "sf-msry-18th-st-3rd-st-connecticut-st"
+        },
+        {
+          "segment": "sf-msry-3rd-st-18th-st-23rd-st",
+          "note": "Kentucky St/Railroad Ave in 1909"
+        },
+        {
+          "segment": "sf-msry-3rd-st-23rd-st-cesar-chavez-st",
+          "note": "Kentucky St/Railroad Ave in 1909"
+        },
+        {
+          "segment": "sf-msry-3rd-st-cesar-chavez-st-van-dyke-ave",
+          "running": [
+            "1909-02-01"
+          ],
+          "note": "Railroad Ave to '22nd Ave.' (Twenty-second avenue South)"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-3rd-st-san-bruno-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Army St; outbound (Wilcox p. 69, OCR: 'single track on Army Street from Folsom to Bryant ... westbound')"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-potrero-ave-san-bruno-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Army St; outbound (Wilcox p. 69, OCR: 'single track on Army Street from Folsom to Bryant ... westbound')"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-bryant-st-potrero-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Army St; outbound (Wilcox p. 69, OCR: 'single track on Army Street from Folsom to Bryant ... westbound')"
+        },
+        {
+          "segment": "sf-msry-cesar-chavez-st-bryant-st-folsom-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Army St; outbound (Wilcox p. 69, OCR: 'single track on Army Street from Folsom to Bryant ... westbound')"
+        },
+        {
+          "segment": "sf-msry-folsom-st-26th-st-cesar-chavez-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-26th-st-folsom-st-s-van-ness-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-24th-st-26th-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Howard St in 1929"
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-22nd-st-24th-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Howard St in 1929"
+        },
+        {
+          "segment": "sf-msry-22nd-st-mission-st-s-van-ness-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-26th-st-folsom-st-s-van-ness-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-26th-st-bryant-st-folsom-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        },
+        {
+          "segment": "sf-msry-bryant-st-26th-st-cesar-chavez-st",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Inbound"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "23"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "348"
+        },
+        {
+          "source": "sf-bos-journal-1915",
+          "supports": [
+            "route"
+          ],
+          "pages": "417",
+          "note": "Kentucky St became 3rd St (Ordinance No. 3205)."
+        },
+        {
+          "source": "sf-bos-journal-1921",
+          "supports": [
+            "route"
+          ],
+          "pages": "668",
+          "note": "Railroad Ave became 3rd St (Ordinance No. 5437)."
+        },
+        {
+          "source": "sf-municipal-reports-1908-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "1465",
+          "note": "\"Twenty-second avenue South to Van Dyke avenue.\" Manley's \"22nd Ave.\", at the end of Railroad Ave, is read as Twenty-second avenue South; he omits \"South\"."
+        },
+        {
+          "source": "sf-bos-journal-1932",
+          "supports": [
+            "route"
+          ],
+          "pages": "805",
+          "note": "Howard St from 13th St to Army St became \"Van Ness Avenue South\"."
+        },
+        {
+          "source": "sf-bos-journal-1995",
+          "supports": [
+            "route"
+          ],
+          "pages": "30",
+          "note": "Army St became Cesar Chavez St (Resolution No. 32-95)."
+        },
+        {
+          "source": "sf-puc-report-1944",
+          "supports": [
+            "general"
+          ],
+          "pages": "308",
+          "note": "Not among the electric car lines when the city took over the Market Street Railway, September 29, 1944."
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "notes": "Manley's 1909 \"8th and 18th\" line, unnumbered (p. 23). When its cars last ran isn't sourced: not after September 29, 1944 (the city's list of electric lines). Drawn for the years the reports show it (decision 20)."
     },
     {
       "id": "msry-32",
@@ -2223,7 +4044,10 @@
           "segment": "sf-msry-oak-st-masonic-ave-stanyan-st"
         },
         {
-          "segment": "sf-msry-stanyan-st-haight-st-oak-st"
+          "segment": "sf-msry-stanyan-st-oak-st-page-st"
+        },
+        {
+          "segment": "sf-msry-stanyan-st-haight-st-page-st"
         },
         {
           "segment": "sf-msry-page-st-masonic-ave-stanyan-st",
@@ -2404,6 +4228,124 @@
       ]
     },
     {
+      "id": "msry-35",
+      "name": "No. 35 Howard Street",
+      "short_name": "35",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1939",
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "22"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "From the Ferry out Howard St to 24th St, and out 24th St to Rhode Island St.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned in 1939, its franchise having expired; its 24th St end was motorized.",
+      "route": [
+        {
+          "segment": "sf-msry-the-embarcadero-market-st-mission-st",
+          "note": "from the Ferry"
+        },
+        {
+          "segment": "sf-msry-the-embarcadero-howard-st-mission-st",
+          "note": "from the Ferry"
+        },
+        {
+          "segment": "sf-msry-howard-st-s-van-ness-ave-the-embarcadero"
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-22nd-st-howard-st",
+          "note": "Howard St until 1932"
+        },
+        {
+          "segment": "sf-msry-s-van-ness-ave-22nd-st-24th-st",
+          "note": "Howard St until 1932"
+        },
+        {
+          "segment": "sf-msry-24th-st-rhode-island-st-s-van-ness-ave",
+          "note": "today's 24th St is broken ~90 m at US-101; needs bridge_m ~150"
+        }
+      ],
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "22"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349"
+        },
+        {
+          "source": "sf-bos-journal-1932",
+          "supports": [
+            "route"
+          ],
+          "pages": "805",
+          "note": "Howard St from 13th St to Army St became \"Van Ness Avenue South\"."
+        },
+        {
+          "source": "wilcox-1927",
+          "supports": [
+            "general"
+          ],
+          "pages": "23"
+        },
+        {
+          "source": "sf-puc-report-1940",
+          "supports": [
+            "general"
+          ],
+          "pages": "261"
+        },
+        {
+          "source": "sf-public-transit-history-1948",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "46, 48",
+          "note": "\"in 1939, when the city asked the private company to discontinue its Howard Street line, the franchise having expired\"; \"The stub end of the abandoned Howard Street line (#35) was motorized in 1939 on 24th Street from Valencia to Rhode Island.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Manley's 1909 \"Howard\" line, unnumbered (p. 22). Its end is the year its franchise expired and the city asked for it to be discontinued; the day isn't sourced. Howard St south of 13th St is today's South Van Ness Ave (1932)."
+    },
+    {
       "id": "msry-36",
       "name": "No. 36 Folsom Street",
       "short_name": "36",
@@ -2484,10 +4426,231 @@
           "segment": "sf-msry-folsom-st-1st-st-2nd-st"
         },
         {
-          "segment": "sf-msry-folsom-st-2nd-st-precita-ave"
+          "segment": "sf-msry-folsom-st-26th-st-2nd-st"
+        },
+        {
+          "segment": "sf-msry-folsom-st-26th-st-cesar-chavez-st"
+        },
+        {
+          "segment": "sf-msry-folsom-st-cesar-chavez-st-precita-ave"
         },
         {
           "segment": "sf-msry-precita-ave-folsom-st-york-st",
+          "running": [
+            "1929-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "msry-40",
+      "name": "No. 40 San Mateo",
+      "short_name": "40",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        },
+        {
+          "name": "San Francisco Municipal Railway"
+        }
+      ],
+      "mode": "interurban",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": "1949-01-15",
+      "running": [
+        {
+          "date": "1903-10-31",
+          "source": "srj-1903-10-31-san-mateo",
+          "pages": "802",
+          "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
+        },
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "26",
+          "note": "\"5th and Market via 5th to Mission to Colma to Cemeteries to San Mateo.\""
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "349"
+        }
+      ],
+      "status": "closed",
+      "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
+      "fate": "abandoned",
+      "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
+      "sources": [
+        {
+          "source": "srj-1903-10-31-san-mateo",
+          "supports": [
+            "route"
+          ],
+          "pages": "798-802"
+        },
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "26"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "349",
+          "note": "\"Line No. 40 - San Mateo From Market St. via 5th St., Mission St., through Daly City and Colma, then Private Right of Way through San Bruno, Lomita Park and Millbrae to Burlingame, then via San Mateo Drive, Baldwin Avenue, \"B\" Street and 3rd Ave. to Main Street - San Mateo.\""
+        },
+        {
+          "source": "sf-puc-report-1948",
+          "supports": [
+            "closed",
+            "fate",
+            "operator"
+          ],
+          "pages": "164, 277",
+          "note": "\"On January 16, 1949, the No. 40 San Mateo street car line was abandoned, the last day of operation being January 15, 1949.\""
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Its opening to San Mateo isn't sourced; the map draws it from October 31, 1903, when the Street Railway Journal describes the cars running (decision 20). In 1903 it reached the city by the San Francisco & San Mateo's streets of 1892, which aren't drawn yet, so until 1909 it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
+      "route": [
+        {
+          "segment": "sf-msry-5th-st-market-st-mission-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-5th-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-14th-st-16th-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-16th-st-22nd-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-22nd-st-valencia-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-valencia-st",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-29th-st-cortland-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-cortland-ave-richland-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-richland-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave",
+          "running": [
+            "1909-02-01",
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sm-daly-city-san-mateo"
+        },
+        {
+          "segment": "sf-msry-n-san-mateo-dr-baldwin-ave-peninsula-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "O'Shaughnessy's San Mateo Drive"
+        },
+        {
+          "segment": "sf-msry-baldwin-ave-n-san-mateo-dr-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-s-b-st-baldwin-ave-e-3rd-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-e-3rd-ave-main-st-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-main-st-2nd-ave-e-3rd-ave",
+          "running": [
+            "1929-05"
+          ],
+          "note": "Back by Main St, 2nd Ave, B St, Baldwin Ave, Ellsworth Ave and Poplar Ave"
+        },
+        {
+          "segment": "sf-msry-2nd-ave-main-st-s-b-st",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-n-ellsworth-ave-baldwin-ave-e-poplar-ave",
+          "running": [
+            "1929-05"
+          ]
+        },
+        {
+          "segment": "sf-msry-e-poplar-ave-n-ellsworth-ave-n-san-mateo-dr",
           "running": [
             "1929-05"
           ]
@@ -2644,10 +4807,78 @@
           "segment": "sf-msry-4th-st-brannan-st-townsend-st"
         },
         {
-          "segment": "sf-msry-5th-st-brannan-st-mission-st"
+          "segment": "sf-msry-5th-st-brannan-st-bryant-st"
+        },
+        {
+          "segment": "sf-msry-5th-st-bryant-st-mission-st"
         },
         {
           "segment": "sf-msry-5th-st-market-st-mission-st"
+        }
+      ]
+    },
+    {
+      "id": "msry-divisadero-extension",
+      "name": "Divisadero Street extension",
+      "short_name": "Divisadero ext.",
+      "system": "market-street-railway",
+      "operators": [
+        {
+          "name": "United Railroads of San Francisco"
+        },
+        {
+          "name": "Market Street Railway Company"
+        }
+      ],
+      "mode": "streetcar",
+      "traction": [
+        {
+          "type": "electric_overhead"
+        }
+      ],
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "running": [
+        {
+          "date": "1909-02-01",
+          "source": "manley-1909",
+          "pages": "29"
+        },
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "350"
+        }
+      ],
+      "status": "closed",
+      "summary": "A shuttle on Divisadero St between Sacramento St and Jackson St.",
+      "sources": [
+        {
+          "source": "manley-1909",
+          "supports": [
+            "route",
+            "name"
+          ],
+          "pages": "29"
+        },
+        {
+          "source": "oshaughnessy-1929",
+          "supports": [
+            "route",
+            "name",
+            "electrification"
+          ],
+          "pages": "350"
+        }
+      ],
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "route": [
+        {
+          "segment": "sf-msry-divisadero-st-jackson-st-sacramento-st"
         }
       ]
     },
@@ -2721,265 +4952,6 @@
         },
         {
           "segment": "sf-msry-post-st-kearny-st-montgomery-st"
-        }
-      ]
-    },
-    {
-      "id": "msry-divisadero-extension",
-      "name": "Divisadero Street extension",
-      "short_name": "Divisadero ext.",
-      "system": "market-street-railway",
-      "operators": [
-        {
-          "name": "United Railroads of San Francisco"
-        },
-        {
-          "name": "Market Street Railway Company"
-        }
-      ],
-      "mode": "streetcar",
-      "traction": [
-        {
-          "type": "electric_overhead"
-        }
-      ],
-      "era": "past",
-      "opened": null,
-      "closed": null,
-      "running": [
-        {
-          "date": "1909-02-01",
-          "source": "manley-1909",
-          "pages": "29"
-        },
-        {
-          "date": "1929-05",
-          "source": "oshaughnessy-1929",
-          "pages": "350"
-        }
-      ],
-      "status": "closed",
-      "summary": "A shuttle on Divisadero St between Sacramento St and Jackson St.",
-      "sources": [
-        {
-          "source": "manley-1909",
-          "supports": [
-            "route",
-            "name"
-          ],
-          "pages": "29"
-        },
-        {
-          "source": "oshaughnessy-1929",
-          "supports": [
-            "route",
-            "name",
-            "electrification"
-          ],
-          "pages": "350"
-        }
-      ],
-      "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
-      ],
-      "route": [
-        {
-          "segment": "sf-msry-divisadero-st-jackson-st-sacramento-st"
-        }
-      ]
-    },
-    {
-      "id": "msry-40",
-      "name": "No. 40 San Mateo",
-      "short_name": "40",
-      "system": "market-street-railway",
-      "operators": [
-        {
-          "name": "United Railroads of San Francisco"
-        },
-        {
-          "name": "Market Street Railway Company"
-        },
-        {
-          "name": "San Francisco Municipal Railway"
-        }
-      ],
-      "mode": "interurban",
-      "traction": [
-        {
-          "type": "electric_overhead"
-        }
-      ],
-      "era": "past",
-      "opened": null,
-      "closed": "1949-01-15",
-      "running": [
-        {
-          "date": "1903-10-31",
-          "source": "srj-1903-10-31-san-mateo",
-          "pages": "802",
-          "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
-        },
-        {
-          "date": "1909-02-01",
-          "source": "manley-1909",
-          "pages": "26",
-          "note": "\"5th and Market via 5th to Mission to Colma to Cemeteries to San Mateo.\""
-        },
-        {
-          "date": "1929-05",
-          "source": "oshaughnessy-1929",
-          "pages": "349"
-        }
-      ],
-      "status": "closed",
-      "summary": "The San Mateo interurban: from 5th and Market out Mission St through Daly City and Colma, then on its own right of way by the cemeteries, San Bruno and Millbrae to Burlingame, and through the streets of San Mateo to Main St.",
-      "fate": "abandoned",
-      "fate_note": "Abandoned on January 16, 1949, the last day of operation being January 15, 1949 (the San Francisco PUC's report for 1948-49).",
-      "sources": [
-        {
-          "source": "srj-1903-10-31-san-mateo",
-          "supports": [
-            "route"
-          ],
-          "pages": "798-802"
-        },
-        {
-          "source": "manley-1909",
-          "supports": [
-            "route",
-            "name"
-          ],
-          "pages": "26"
-        },
-        {
-          "source": "oshaughnessy-1929",
-          "supports": [
-            "route",
-            "name",
-            "electrification"
-          ],
-          "pages": "349",
-          "note": "\"Line No. 40 - San Mateo From Market St. via 5th St., Mission St., through Daly City and Colma, then Private Right of Way through San Bruno, Lomita Park and Millbrae to Burlingame, then via San Mateo Drive, Baldwin Avenue, \"B\" Street and 3rd Ave. to Main Street - San Mateo.\""
-        },
-        {
-          "source": "sf-puc-report-1948",
-          "supports": [
-            "closed",
-            "fate",
-            "operator"
-          ],
-          "pages": "164, 277",
-          "note": "\"On January 16, 1949, the No. 40 San Mateo street car line was abandoned, the last day of operation being January 15, 1949.\""
-        }
-      ],
-      "flags": [
-        "opened_unsourced"
-      ],
-      "notes": "Its opening to San Mateo isn't sourced; the map draws it from October 31, 1903, when the Street Railway Journal describes the cars running (decision 20). In 1903 it reached the city by the San Francisco & San Mateo's streets of 1892, which aren't drawn yet, so until 1909 it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
-      "route": [
-        {
-          "segment": "sf-msry-5th-st-market-st-mission-st",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-14th-st-5th-st",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-14th-st-22nd-st",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-22nd-st-valencia-st",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-29th-st-valencia-st",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-29th-st-onondaga-ave",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-mission-st-onondaga-ave-san-jose-ave",
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sm-daly-city-san-mateo"
-        },
-        {
-          "segment": "sf-msry-n-san-mateo-dr-baldwin-ave-peninsula-ave",
-          "running": [
-            "1929-05"
-          ],
-          "note": "O'Shaughnessy's San Mateo Drive"
-        },
-        {
-          "segment": "sf-msry-baldwin-ave-n-san-mateo-dr-s-b-st",
-          "running": [
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-s-b-st-baldwin-ave-e-3rd-ave",
-          "running": [
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-e-3rd-ave-main-st-s-b-st",
-          "running": [
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-main-st-2nd-ave-e-3rd-ave",
-          "running": [
-            "1929-05"
-          ],
-          "note": "Back by Main St, 2nd Ave, B St, Baldwin Ave, Ellsworth Ave and Poplar Ave"
-        },
-        {
-          "segment": "sf-msry-2nd-ave-main-st-s-b-st",
-          "running": [
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-n-ellsworth-ave-baldwin-ave-e-poplar-ave",
-          "running": [
-            "1929-05"
-          ]
-        },
-        {
-          "segment": "sf-msry-e-poplar-ave-n-ellsworth-ave-n-san-mateo-dr",
-          "running": [
-            "1929-05"
-          ]
         }
       ]
     }

@@ -138,6 +138,63 @@
       ],
       "est_error_m": 15,
       "note": "The two ends of the course the sheet draws, at the Benicia and Martinez piers"
+    },
+    "psr-steamer-course": {
+      "parts": [
+        {
+          "water": [
+            [
+              -122.633806,
+              38.236239
+            ],
+            "The Embarcadero/Broadway"
+          ]
+        }
+      ],
+      "note": "From the Petaluma & Santa Rosa's landing at the foot of Copeland St, where its electric line began, down Petaluma Creek and across San Pablo Bay to Pier 9 at the foot of Broadway"
+    },
+    "mare-island-ferry-course": {
+      "parts": [
+        {
+          "trace": {
+            "sheet": "usgs-mare-island-1916",
+            "bbox": [
+              -122.271,
+              38.0995,
+              -122.2625,
+              38.1035
+            ],
+            "zoom": 5.0
+          },
+          "px": [
+            [
+              555,
+              182
+            ],
+            [
+              440,
+              197
+            ],
+            [
+              345,
+              218
+            ],
+            [
+              260,
+              265
+            ],
+            [
+              175,
+              305
+            ]
+          ]
+        }
+      ],
+      "check": [
+        "usgs-mare-island-1916"
+      ],
+      "est_error_m": 100,
+      "note": "The ferry's course as the 1916 sheet draws it, dashed, from a pier on the Vallejo waterfront by Georgia St to the Navy Yard; a 15-minute sheet, so its pier lies about 150 m from where Georgia St meets today's filled shore"
     }
   },
   "points": {

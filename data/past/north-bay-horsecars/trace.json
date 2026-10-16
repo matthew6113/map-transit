@@ -1,0 +1,100 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Santa Rosa and Petaluma horsecar lines on today's street centerlines.",
+ "segments": {
+  "sr-hc-fourth-st": {
+   "parts": [
+    {
+     "streets": [
+      "4th Street"
+     ],
+     "from": "Wilson Street",
+     "to": "McDonald Avenue",
+     "area": "santarosa",
+     "bridge_m": 300
+    }
+   ],
+   "check": [
+    "usgs-santa-rosa-1954"
+   ],
+   "est_error_m": 15,
+   "note": "East along Fourth St from the San Francisco & North Pacific depot at Wilson St to McDonald Ave (Borden), across today's freeway and mall, where Overture has no 4th St; the same street as the Petaluma & Santa Rosa's later track"
+  },
+  "sr-hc-mcdonald-ave": {
+   "parts": [
+    {
+     "streets": [
+      "McDonald Avenue"
+     ],
+     "from": "4th Street",
+     "to": "Franklin Avenue",
+     "area": "santarosa"
+    }
+   ],
+   "check": [
+    "usgs-santa-rosa-1954",
+    "usgs-santa-rosa-1916"
+   ],
+   "est_error_m": 15,
+   "note": "North on McDonald Ave from Fourth St to the Rural Cemetery's south corner (Borden), where today's Franklin Ave begins; the 1916 and 1954 sheets draw the street to the corner"
+  },
+  "pet-hc-f-st-washington-st": {
+   "parts": [
+    {
+     "streets": [
+      "F Street"
+     ],
+     "from": "12th Street",
+     "to": "6th Street",
+     "area": "petaluma"
+    },
+    {
+     "streets": [
+      "6th Street"
+     ],
+     "from": "F Street",
+     "to": "Liberty Street",
+     "area": "petaluma"
+    },
+    {
+     "streets": [
+      "Liberty Street"
+     ],
+     "from": "6th Street",
+     "to": "Western Avenue",
+     "area": "petaluma"
+    },
+    {
+     "streets": [
+      "Western Avenue"
+     ],
+     "from": "Liberty Street",
+     "to": "Kentucky Street",
+     "area": "petaluma"
+    },
+    {
+     "streets": [
+      "Kentucky Street"
+     ],
+     "from": "Western Avenue",
+     "to": "Washington Street",
+     "area": "petaluma"
+    },
+    {
+     "streets": [
+      "Washington Street",
+      "East Washington Street"
+     ],
+     "from": "Kentucky Street",
+     "to": "Payran Street",
+     "area": "petaluma"
+    }
+   ],
+   "check": [
+    "usgs-petaluma-1914",
+    "usgs-petaluma-1953"
+   ],
+   "est_error_m": 15,
+   "note": "From the car barn at 12th and F Sts by F St, 6th St, Liberty St, Western Ave, Kentucky St and Washington St, across Petaluma Creek and the San Francisco & North Pacific, to Payran St (Borden, from a map of 1897). Not drawn: the last stretch to just beyond Mary St, and the branch into the fairgrounds, since no Mary St crosses Washington St today"
+  }
+ }
+}

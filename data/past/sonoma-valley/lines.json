@@ -1,0 +1,244 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Sonoma Valley's railroads and the Sebastopol branch. Research: docs/research/phase-2c.md.",
+ "lines": [
+  {
+   "id": "sp-santa-rosa-branch",
+   "name": "Southern Pacific, Santa Rosa branch",
+   "short_name": "Santa Rosa branch",
+   "system": "southern-pacific",
+   "operators": [
+    {
+     "name": "Southern Pacific Company",
+     "from": "1888-05-31",
+     "to": "1928-12"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1888-05-31",
+   "closed": "1928-12",
+   "status": "closed",
+   "summary": "Trains from Napa Junction, on the line from Vallejo to Napa, west across the marshes to Schellville and up the Sonoma Valley by El Verano, Glen Ellen and Kenwood to Santa Rosa, 36.7 miles; built as the Northern Railway.",
+   "fate": "converted_to_bus",
+   "fate_note": "Its passenger trains ended under the Railroad Commission's order of November 16, 1928 (Decision No. 20488), effective twenty days later, Southern Pacific Motor Transport's coaches taking its passengers between Napa and Santa Rosa; freight went on.",
+   "route": [
+    {
+     "segment": "sp-srb-napa-junction-schellville"
+    },
+    {
+     "segment": "sp-srb-schellville-glen-ellen"
+    },
+    {
+     "segment": "sp-srb-glen-ellen-los-guilicos"
+    },
+    {
+     "segment": "sp-srb-los-guilicos-santa-rosa"
+    }
+   ],
+   "sources": [
+    {
+     "source": "ca-brc-report-1894",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "45",
+     "note": "The Northern Railway's return: \"From Napa Junction to Santa Rosa ........ May 31, 1888.\""
+    },
+    {
+     "source": "ca-brc-report-10",
+     "supports": [
+      "opened"
+     ],
+     "pages": "35",
+     "note": "\"On May 31, 1888, the line from Napa Junction to Santa Rosa was opened for business, 36.70 miles.\""
+    },
+    {
+     "source": "cscrm-2021-02-000909",
+     "supports": [
+      "route",
+      "stations"
+     ],
+     "pages": "18"
+    },
+    {
+     "source": "crc-d20488",
+     "supports": [
+      "closed",
+      "fate"
+     ],
+     "pages": "1, 5",
+     "note": "Effective December 6, 1928, twenty days after the order: on or about December 1928 (decision 17); the last run isn't dated."
+    }
+   ],
+   "flags": [],
+   "notes": "Its end is the month the Railroad Commission's order took effect, December 1928; the June 1929 timetable has no passenger train west of Napa Junction. In 1928 its trains ran from the South Vallejo wharf (Decision No. 20488), over the California Pacific's track to Napa Junction, which isn't repeated here."
+  },
+  {
+   "id": "sfnp-sonoma-valley",
+   "name": "Sonoma Valley branch, Ignacio to Glen Ellen",
+   "short_name": "Sonoma Valley branch",
+   "system": "sf-north-pacific",
+   "operators": [
+    {
+     "name": "San Francisco and North Pacific Railway",
+     "from": "1888-06-01",
+     "to": null
+    },
+    {
+     "name": "California Northwestern Railway",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Northwestern Pacific Railroad",
+     "from": null,
+     "to": "1935-06-12"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1888-06-01",
+   "closed": "1935-06-12",
+   "status": "closed",
+   "summary": "Trains from Ignacio, on the line from San Rafael to Petaluma, across the marshes by Sears Point and Wingo to Schellville, then up the Sonoma Valley by Sonoma, Boyes Springs and Agua Caliente to Glen Ellen, and from 1934 on to Kenwood.",
+   "fate": "converted_to_bus",
+   "fate_note": "Its passenger trains were let go under the Railroad Commission's order of May 20, 1935 (Decision No. 27973), once Pacific Greyhound's buses ran, and ended on June 12, 1935.",
+   "route": [
+    {
+     "segment": "sv-ignacio-sears-point"
+    },
+    {
+     "segment": "sv-sears-point-schellville"
+    },
+    {
+     "segment": "sv-schellville-sonoma"
+    },
+    {
+     "segment": "sv-sonoma-madrone"
+    },
+    {
+     "segment": "sv-madrone-glen-ellen",
+     "to": "1934-01-15"
+    },
+    {
+     "segment": "sp-srb-glen-ellen-los-guilicos",
+     "from": "1934-01-15",
+     "note": "From January 15, 1934 the trains ran on to Kenwood and Los Guilicos over the Southern Pacific's track (supplement to Time-Table No. 12)."
+    }
+   ],
+   "sources": [
+    {
+     "source": "ca-brc-report-1894",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "82",
+     "note": "Sonoma Landing to Sonoma August 23, 1880; Sonoma to Glen Ellen August 15, 1882; Ignacio to Sears Point June 1, 1888."
+    },
+    {
+     "source": "ca-brc-report-10",
+     "supports": [
+      "route"
+     ],
+     "pages": "16, 166",
+     "note": "\"Ignacio to Glen Ellen 26.37\" miles on November 1, 1889."
+    },
+    {
+     "source": "cscrm-2021-02-001171",
+     "supports": [
+      "route",
+      "stations"
+     ],
+     "pages": "5"
+    },
+    {
+     "source": "cscrm-2021-02-001320",
+     "supports": [
+      "route"
+     ],
+     "pages": "4"
+    },
+    {
+     "source": "crc-d27973",
+     "supports": [
+      "closed",
+      "fate"
+     ],
+     "pages": "4-5",
+     "note": "\"Branch line between Ignacio and Kenwood: Northbound, 140 and 142, daily, and Southbound, 141 and 143, daily, being the only passenger service on said railroad branch line\"."
+    },
+    {
+     "source": "crc-d34457",
+     "supports": [
+      "closed"
+     ],
+     "pages": "2",
+     "note": "\"On June 12, 1935, applicant discontinued certain passenger trains serving … branch line points between Kenwood and Ignacio.\""
+    }
+   ],
+   "flags": [],
+   "notes": "Opens with the Marin & Napa's link from Ignacio to Sears Point, June 1, 1888. Its valley line was older: the Sonoma Valley Railroad, three-foot gauge, from Sonoma Landing to Sonoma (1880) and Glen Ellen (1882); where Sonoma Landing was, and when the line was made standard gauge, aren't sourced, so that first line isn't drawn. Between Madrone and Glen Ellen its own track is drawn until 1934; after that its trains used the Southern Pacific's, which isn't split out here."
+  },
+  {
+   "id": "sfnp-sebastopol-branch",
+   "name": "Sebastopol branch, Santa Rosa to Sebastopol",
+   "short_name": "Sebastopol branch",
+   "system": "sf-north-pacific",
+   "operators": [
+    {
+     "name": "San Francisco and North Pacific Railway",
+     "from": "1890-02-17",
+     "to": null
+    },
+    {
+     "name": "Northwestern Pacific Railroad",
+     "from": null,
+     "to": "1917"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1890-02-17",
+   "closed": "1917",
+   "status": "closed",
+   "summary": "A branch of 6.3 miles from Santa Rosa west by Kenilworth, Llano and Gravenstein to Sebastopol.",
+   "fate": "abandoned",
+   "fate_note": "Its passenger trains ended in 1917; by 1929 no trains at all were scheduled on it, and the track into Sebastopol was given up after the Northwestern Pacific bought the Petaluma & Santa Rosa in 1932.",
+   "route": [
+    {
+     "segment": "sfnp-sebastopol-branch"
+    }
+   ],
+   "sources": [
+    {
+     "source": "ca-brc-report-1894",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "82"
+    },
+    {
+     "source": "cscrm-2021-02-001171",
+     "supports": [
+      "route",
+      "stations"
+     ],
+     "pages": "5"
+    },
+    {
+     "source": "western-railroader-1949-04",
+     "supports": [
+      "closed"
+     ],
+     "pages": "10",
+     "note": "\"In 1917 passenger service was discontinued between Santa Rosa and Sebastopol.\""
+    }
+   ],
+   "flags": [],
+   "notes": "Opened for public use February 17, 1890 (the commissioners' report of 1894). Its passenger end is the year a railfan history of 1949 gives; no Railroad Commission order for it was found. Beside the Petaluma & Santa Rosa from Llano into Sebastopol."
+  }
+ ]
+}
