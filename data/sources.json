@@ -39,6 +39,39 @@
       "notes": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\". The San Joaquins became the Gold Runner in 2025."
     },
     {
+      "id": "asri-1897",
+      "title": "American Street Railway Investments, vol. 4 (1897): the red book of American street railway investments",
+      "publisher": "Street Railway Journal",
+      "date": "1897",
+      "type": "book",
+      "url": "https://archive.org/details/mcgrawelectricr06jourgoog",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 246, Santa Rosa: \"Santa Rosa Street Railroad Co.—Chartered June 5, 1877. This company is now in litigation and has suspended operations.\" 1.5 miles of horse track, 3 ft. 6 in. gauge, \"7 horses, 5 horse cars\"; date of information February 1897. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "asri-1903",
+      "title": "American Street Railway Investments, vol. 10 (1903)",
+      "publisher": "Street Railway Publishing Company",
+      "date": "1903",
+      "type": "book",
+      "url": "https://archive.org/details/americanstreetr00unkngoog",
+      "license": "Public domain (published 1903)",
+      "accessed": "2026-10-16",
+      "notes": "p. 14, Santa Rosa: \"Santa Rosa Street Railroad Co.—Chartered June 5, 1877.\" \"Miles of track (horse), 1.5; gauge, 3 ft. 6 in.; 16 lb. T rail; 7 horses, 5 cars.\" Officers the same as the Union Street Ry. Co.; date of information March 1903. Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "asri-1906",
+      "title": "American Street Railway Investments, vol. 13 (1906): the red book of American street railway investments",
+      "publisher": "McGraw Publishing Company",
+      "date": "1906",
+      "type": "book",
+      "url": "https://archive.org/details/mcgrawelectricr02unkngoog",
+      "license": "Public domain (published 1906)",
+      "accessed": "2026-10-16",
+      "notes": "p. 21, Santa Rosa: \"Santa Rosa Street Railways.—The Union Street Ry. Co., the Central Street Ry. Co. and the Santa Rosa Street Ry. Co. are all owned by the same interest under the title of the Santa Rosa Street Railways.\" \"Miles of track, 7; gauge, 3 ft. 6 in.; 35 lb. flat rail; 17 cars; 7 horses.\" The Santa Rosa Street Railroad Co. \"is controlled and operated by the Santa Rosa Street Railways\"; date of information March 1906. Read on the page image, October 16, 2026."
+    },
+    {
       "id": "bam-bart-silicon-valley-phase-2-geometry",
       "title": "VTA GIS alignment",
       "url": "https://gis.vta.org/gis/rest/services/Hosted/BSVII_Alignment_2022/FeatureServer/22",
@@ -1106,6 +1139,18 @@
       "url": "https://www.capitolcorridor.org/time-line/december-1991/",
       "accessed": "2026-10-14",
       "notes": "On December 12, 1991, Caltrans and Amtrak \"initiated the Capitol Corridor intercity train service with 6 daily trains between San Jose and Sacramento.\""
+    },
+    {
+      "id": "census-1902-street-railways",
+      "title": "Street and Electric Railways, 1902 (special report of the Census Office)",
+      "author": "Bureau of the Census",
+      "publisher": "Government Printing Office",
+      "date": "1905",
+      "type": "official",
+      "url": "https://archive.org/details/cu31924004966689",
+      "license": "Public domain (U.S. government work)",
+      "accessed": "2026-10-16",
+      "notes": "p. 236, Table 93: the Santa Rosa Street Rwy. Co. (including the Central and Union companies, footnote 18) reported for January 1 to December 31, 1902, with 7.33 miles of single track; the Petaluma Street Rwy. Co. for December 1, 1901 to November 30, 1902, with 1.81 miles. Read on the page image, October 16, 2026."
     },
     {
       "id": "cfc-1913-04-19",
@@ -2336,6 +2381,28 @@
       "notes": "p. 37, \"General Review\" (scan n140): the first train of October 17, 1863 ran \"from the Mission Dolores to Big Tree Station\"; \"The principal depot at present is at the corner of Valencia and Market Streets.\""
     },
     {
+      "id": "lat-1897-09-28-petaluma",
+      "title": "Los Angeles Times, September 28, 1897: \"Petaluma's Street Railway Sold\"",
+      "publisher": "Los Angeles Times",
+      "date": "1897-09-28",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-09-28",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 3: \"PETALUMA, Sept. 27.—The Petaluma street railway was sold here this afternoon at Sheriff's sale to the Wickersham Banking Company for $2356.63.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "lat-1897-12-25-santa-rosa",
+      "title": "Los Angeles Times, December 25, 1897: \"Santa Rosa Street-railway Deal\"",
+      "publisher": "Los Angeles Times",
+      "date": "1897-12-25",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-12-25",
+      "license": "Public domain (published 1897)",
+      "accessed": "2026-10-16",
+      "notes": "p. 3: \"SANTA ROSA, Dec. 24.—The Union-street Railway Company bought the McDonald-street Railway Company's line, including horses and all the property this afternoon. This deal puts all of the street railways in the city under the same management\". Read on the page image, October 16, 2026."
+    },
+    {
       "id": "manley-1909",
       "title": "Report on the operation of the street railroad lines of San Francisco: a report to the Committee on Street Railroads of the Merchants' Association of San Francisco",
       "author": "Warren Manley, Inspector",
@@ -2649,7 +2716,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",
@@ -2658,7 +2725,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
+      "notes": "Named road segments in the boxes eastbay (-122.36, 37.7, -122.15, 37.93), sf (-122.52, 37.7, -122.355, 37.835), southbay (-121.98, 37.33, -121.83, 37.45), marin (-122.6, 37.845, -122.45, 38.02), contracosta (-122.22, 37.82, -121.88, 38.05), richmond (-122.4, 37.9, -122.28, 37.98), sanmateo (-122.36, 37.555, -122.31, 37.59), santarosa (-122.78, 38.415, -122.69, 38.46), petaluma (-122.66, 38.22, -122.615, 38.25), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's centerlines, used where a source places a past line on a named street (decision 12)."
     },
     {
       "id": "point-richmond-progress-1933-04-07",
@@ -2797,6 +2864,17 @@
       "license": "Unclear (1939; public domain only if its copyright wasn't renewed); cited for facts",
       "accessed": "2026-10-14",
       "notes": "pp. 148–154."
+    },
+    {
+      "id": "santa-rosa-city-rr-v-central-1895",
+      "title": "Santa Rosa City R. Co. v. Central St. Ry. Co., Supreme Court of California, No. 15,202, January 6, 1895 (38 Pac. 986), in California Unreported Cases, vol. 4",
+      "publisher": "Bender-Moss Co. (1913)",
+      "date": "1895-01-06",
+      "type": "official",
+      "url": "https://archive.org/details/californiaunrepo04cali",
+      "license": "Public domain (court opinion; published 1913)",
+      "accessed": "2026-10-16",
+      "notes": "pp. 952-954, the facts proved at trial: Mark L. McDonald and Jackson R. Meyers petitioned the council on October 3, 1876; the company was incorporated on May 11, 1877, and Ordinance No. 16 of June 5, 1877 gave it fifty years. \"Plaintiff immediately commenced the construction of said road, and during the year 1877 completed the portion in controversy in this action, and has ever since continued to operate that portion\", the track \"on Fourth street, which is the street now in controversy\"; \"From 1877 down to the commission, in 1891, of the acts complained of in this action, the plaintiff has been in the actual, continuous, and notorious occupation of this railroad, has operated the same, and collected fares thereon\". In 1891 the Central Street Railway, under Ordinance No. 132 of September 2, 1891, \"commenced to tear up and remove plaintiff's track\" on part of Fourth St; the court held the 1877 franchise valid and never forfeited. Read on the page images, October 16, 2026."
     },
     {
       "id": "sf-bay-ferry-history",

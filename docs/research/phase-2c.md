@@ -37,6 +37,8 @@ running.
 | Sonoma Valley branch (SF&NP, NWP) | Ignacio, Sears Point, Wingo, Schellville, Sonoma, Boyes Springs, Agua Caliente, Madrone, Glen Ellen; Kenwood from 1934 | Sonoma Landing to Sonoma Aug 23, 1880; Sonoma to Glen Ellen Aug 15, 1882; Ignacio to Sears Point June 1, 1888 (BRC 1894 p. 82, image); Kenwood from Jan 15, 1934 (NWP timetable supplement); ended June 12, 1935 (CRC D27973, D34457) | Today's track to Schellville; OpenStreetMap's grade to Sonoma; traced from the 1942 Sonoma and 1916 Santa Rosa sheets to Glen Ellen, which disagree by about 100 m where they meet. Not sourced: Sonoma Landing's place; the change to standard gauge |
 | Sebastopol branch (SF&NP, NWP) | Santa Rosa, Kenilworth, Llano, Gravenstein, Sebastopol | Opened Feb 17, 1890 (BRC 1894 p. 82, image); passengers ended 1917 (*Western Railroader*, Apr 1949, p. 10, image) | OpenHistoricalMap's way to Llano (it then follows the P&SR); traced from the 1935 Sebastopol sheet into Sebastopol |
 | Martinez–Benicia ferry | Auto ferry across the Carquinez Strait, 1913–1962 | CRC D22535 (1930); *CH&PW* 1962 | The 1952 Benicia sheet's course |
+| Santa Rosa horsecars, Fourth St and McDonald Ave | The San Francisco & North Pacific depot along Fourth St to McDonald Ave and north to the Rural Cemetery | Fourth St track completed and running in 1877 (*Santa Rosa City R. Co. v. Central St. Ry. Co.*, 4 Cal. Unrep. 950, pp. 952-954, image; Borden has 1878); suspended early 1893 to 1898 (Borden, p. 3, image; ASRI Feb 1897, p. 246); sold to the Union Street Railway Dec 24, 1897 (*Los Angeles Times*; Borden p. 4; his p. 3 has Dec 27); running in 1902 (census), Mar 1903 and Mar 1906 (directories); end unsourced (Borden: "until 1905", and "not known") | Today's 4th St and McDonald Ave, checked on the 1954 (and for McDonald Ave the 1916) sheets. Not drawn: the loop around the courthouse on Borden's map |
+| Petaluma Street Railroad | 12th and F Sts by F, 6th and Liberty Sts, Western Ave, Kentucky St and Washington St across Petaluma Creek to Payran St | Incorporated Oct 14, 1889 (Borden p. 5, image); sheriff's sale Sept 27, 1897 (*Los Angeles Times*; Borden and ASRI 1903 have a foreclosure in 1900); running Dec 1901-Nov 1902 (census p. 236) and Mar 1903 (ASRI p. 11); bought by the P&SR in 1903 (Borden; CRC D2348 p. 760); opening and end unsourced | Today's streets on Borden's 1897 route, checked on the 1914 and 1953 sheets. Not drawn: Payran St to just beyond Mary St, and the fairgrounds branch |
 
 ## Not drawn yet, and what each needs
 
@@ -130,7 +132,17 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   line beyond Cloverdale, and the trains' later years (1889-1935) and ends. The Sonoma Valley and
   Sebastopol branches are drawn (see above).
 - **Petaluma & Santa Rosa:** drawn (see above).
-- **Santa Rosa, Petaluma and San Rafael street railways:** dated only by search extracts so far.
+- **Santa Rosa and Petaluma street railways:** drawn (see above): Santa Rosa's 1877 line and the
+  Petaluma Street Railroad. Not drawn: Santa Rosa's South Side (Union) line, opened August 15, 1888,
+  Fourth St at the courthouse by South Main St and Pressley St to the race track at Park Ave, and the
+  Central's, opened March 1892, by Humboldt St to Carr Ave and Stewart St, with a branch by Benton
+  St, the SP depot, North St and 14th St to McDonald Ave (Borden, p. 3-4, image). South Main St and
+  Pressley St aren't placed on today's map, and the Union had 4 miles by 1897 on streets no source
+  names. None of the city lines was ever electrified.
+- **San Rafael:** no street railway. None is in the 1902 census (p. 236, image), and a search of the
+  text of the 1890 census and the street railway directories of 1886-1908 finds none. The Marin
+  Terminal Railroad (1905), building at Point Pedro near San Rafael, stopped after the 1906
+  earthquake (Borden p. 13, image).
 - **San Francisco, Napa & Calistoga (not drawn yet):** dates are sourced (Vallejo to Napa between
   May 27 and August 5, 1905; Yountville by September 1907; St. Helena January 1908; Calistoga
   September 2 or 9, 1912; public service on the Napa city tracks ended by September 30, 1937, CRC
@@ -195,6 +207,13 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   Twenty-second avenue South, today's Van Dyke Ave, though he omits "South"; Richmond Ave is drawn as
   Euclid Ave on a newspaper of 1909 and the matching routes, not an ordinance; No. 2 is drawn to 48th
   Ave only for 1929 (the Sutro franchise, Order 2781, would carry it to 1909).
+- **North Bay horsecars:** a map of Petaluma of the 1890s (a Sanborn sheet) to place Mary St on
+  Washington St and the fairgrounds branch; a map of Santa Rosa of about 1890 for the Union's South
+  Main and Pressley Sts and the Central's streets; the *Press Democrat* or *Petaluma Argus* (CDNC,
+  which this container can't reach) for when the horsecars stopped in each town. A lead for
+  Petaluma's opening: the Fourth District Agricultural Association's report for the year to December
+  1, 1890 (*Appendix to the Journals*, 1893, vol. 5, archive.org `appendixtojourna18935cali`, near
+  leaf 519) lists a receipt "From Petaluma Street Railway Company", read in the scan's text only.
 - **Santa Fe's Oakland line (1904?-1958):** OpenHistoricalMap's way from the 1895 sheet runs within
   about 15 m of the old right of way (OpenStreetMap, the Richmond and Ohlone Greenways) from Richmond
   to south Berkeley, but south of Russell St the 1949 sheet doesn't show where the track ran to 40th

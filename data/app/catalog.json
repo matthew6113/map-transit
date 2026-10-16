@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        926,
-        927,
-        928,
-        929
+        931,
+        932,
+        933,
+        934
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        930,
-        931,
-        932,
-        933,
-        934,
         935,
         936,
         937,
         938,
         939,
-        940
+        940,
+        941,
+        942,
+        943,
+        944,
+        945
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        956,
-        957,
-        958,
-        959,
-        960,
         961,
         962,
         963,
-        964
+        964,
+        965,
+        966,
+        967,
+        968,
+        969
       ],
       "segments": [
         {
@@ -4509,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        350,
-        351
+        355,
+        356
       ],
       "segments": [
         {
@@ -4639,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        374,
-        375,
-        376,
-        377
+        379,
+        380,
+        381,
+        382
       ],
       "segments": [
         {
@@ -6397,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        340
+        345
       ],
       "segments": [
         {
@@ -6661,11 +6661,6 @@
         37.806482
       ],
       "fids": [
-        965,
-        966,
-        967,
-        968,
-        969,
         970,
         971,
         972,
@@ -6674,7 +6669,12 @@
         975,
         976,
         977,
-        978
+        978,
+        979,
+        980,
+        981,
+        982,
+        983
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        916
+        921
       ],
       "segments": [
         {
@@ -7244,11 +7244,6 @@
         37.80035
       ],
       "fids": [
-        941,
-        942,
-        943,
-        944,
-        945,
         946,
         947,
         948,
@@ -7258,7 +7253,12 @@
         952,
         953,
         954,
-        955
+        955,
+        956,
+        957,
+        958,
+        959,
+        960
       ],
       "segments": [
         {
@@ -7653,15 +7653,15 @@
         37.81612
       ],
       "fids": [
-        1109,
-        1110,
-        1111,
-        1112,
-        1113,
         1114,
         1115,
         1116,
-        1117
+        1117,
+        1118,
+        1119,
+        1120,
+        1121,
+        1122
       ],
       "segments": [
         {
@@ -7995,15 +7995,15 @@
         37.824321
       ],
       "fids": [
-        1091,
-        1092,
-        1093,
-        1094,
-        1095,
         1096,
         1097,
         1098,
-        1099
+        1099,
+        1100,
+        1101,
+        1102,
+        1103,
+        1104
       ],
       "segments": [
         {
@@ -8500,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        979,
-        980,
-        981,
-        982,
-        983,
         984,
         985,
-        986
+        986,
+        987,
+        988,
+        989,
+        990,
+        991
       ],
       "segments": [
         {
@@ -8798,7 +8798,7 @@
         37.796162
       ],
       "fids": [
-        402
+        407
       ],
       "segments": [
         {
@@ -8907,7 +8907,7 @@
         37.788015
       ],
       "fids": [
-        369
+        374
       ],
       "segments": [
         {
@@ -9049,16 +9049,16 @@
         37.806482
       ],
       "fids": [
-        987,
-        988,
-        989,
-        990,
-        991,
         992,
         993,
         994,
         995,
-        996
+        996,
+        997,
+        998,
+        999,
+        1000,
+        1001
       ],
       "segments": [
         {
@@ -9378,14 +9378,14 @@
         37.793407
       ],
       "fids": [
-        394,
-        395,
-        396,
-        397,
-        398,
         399,
         400,
-        401
+        401,
+        402,
+        403,
+        404,
+        405,
+        406
       ],
       "segments": [
         {
@@ -9853,7 +9853,7 @@
         37.785808
       ],
       "fids": [
-        357
+        362
       ],
       "segments": [
         {
@@ -10248,15 +10248,15 @@
         37.824321
       ],
       "fids": [
-        1100,
-        1101,
-        1102,
-        1103,
-        1104,
         1105,
         1106,
         1107,
-        1108
+        1108,
+        1109,
+        1110,
+        1111,
+        1112,
+        1113
       ],
       "segments": [
         {
@@ -10737,16 +10737,16 @@
         37.793407
       ],
       "fids": [
-        384,
-        385,
-        386,
-        387,
-        388,
         389,
         390,
         391,
         392,
-        393
+        393,
+        394,
+        395,
+        396,
+        397,
+        398
       ],
       "segments": [
         {
@@ -11021,12 +11021,12 @@
         37.787654
       ],
       "fids": [
-        378,
-        379,
-        380,
-        381,
-        382,
-        383
+        383,
+        384,
+        385,
+        386,
+        387,
+        388
       ],
       "segments": [
         {
@@ -11345,8 +11345,8 @@
         37.90596
       ],
       "fids": [
-        297,
-        298
+        302,
+        303
       ],
       "segments": [
         {
@@ -11761,11 +11761,6 @@
         37.891351
       ],
       "fids": [
-        1067,
-        1068,
-        1069,
-        1070,
-        1071,
         1072,
         1073,
         1074,
@@ -11775,7 +11770,12 @@
         1078,
         1079,
         1080,
-        1081
+        1081,
+        1082,
+        1083,
+        1084,
+        1085,
+        1086
       ],
       "segments": [
         {
@@ -12791,17 +12791,17 @@
         37.793407
       ],
       "fids": [
-        403,
-        404,
-        405,
-        406,
-        407,
         408,
         409,
         410,
         411,
         412,
-        413
+        413,
+        414,
+        415,
+        416,
+        417,
+        418
       ],
       "segments": [
         {
@@ -13220,17 +13220,17 @@
         37.79492
       ],
       "fids": [
-        543,
-        544,
-        545,
-        546,
-        547,
         548,
         549,
         550,
         551,
         552,
-        553
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
       ],
       "segments": [
         {
@@ -13976,16 +13976,16 @@
         37.79492
       ],
       "fids": [
-        554,
-        555,
-        556,
-        557,
-        558,
         559,
         560,
         561,
         562,
-        563
+        563,
+        564,
+        565,
+        566,
+        567,
+        568
       ],
       "segments": [
         {
@@ -14109,7 +14109,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's 24th Street centerline from Chattanooga Street to Hoffman Avenue (1264 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In 24th Street.",
+          "method": "Along today's 24th Street centerline from Chattanooga Street to Hoffman Avenue (1264 m; Overture 2026-09-23.1, across gaps of up to 150 m where the street is cut today); checked on USGS San Francisco North 1:24,000 (1950). In 24th Street.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -14129,7 +14129,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
-          "method": "Along today's 24th Street centerline from Chattanooga Street to Dolores Street (103 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950). In 24th Street.",
+          "method": "Along today's 24th Street centerline from Chattanooga Street to Dolores Street (103 m; Overture 2026-09-23.1, across gaps of up to 150 m where the street is cut today); checked on USGS San Francisco North 1:24,000 (1950). In 24th Street.",
           "structure": "street",
           "flags": [
             "opened_unsourced",
@@ -15552,11 +15552,6 @@
         37.79492
       ],
       "fids": [
-        564,
-        565,
-        566,
-        567,
-        568,
         569,
         570,
         571,
@@ -15566,7 +15561,12 @@
         575,
         576,
         577,
-        578
+        578,
+        579,
+        580,
+        581,
+        582,
+        583
       ],
       "segments": [
         {
@@ -16573,17 +16573,17 @@
         37.79492
       ],
       "fids": [
-        579,
-        580,
-        581,
-        582,
-        583,
         584,
         585,
         586,
         587,
         588,
-        589
+        589,
+        590,
+        591,
+        592,
+        593,
+        594
       ],
       "segments": [
         {
@@ -17422,14 +17422,14 @@
         37.808586
       ],
       "fids": [
-        590,
-        591,
-        592,
-        593,
-        594,
         595,
         596,
-        597
+        597,
+        598,
+        599,
+        600,
+        601,
+        602
       ],
       "segments": [
         {
@@ -17679,9 +17679,9 @@
         }
       ],
       "undated": false,
-      "length_km": 34.72,
+      "length_km": 21.96,
       "confidence_km": {
-        "digitized": 34.72
+        "digitized": 21.96
       },
       "bbox": [
         -122.407645,
@@ -17690,11 +17690,6 @@
         37.807531
       ],
       "fids": [
-        598,
-        599,
-        600,
-        601,
-        602,
         603,
         604,
         605,
@@ -17713,7 +17708,12 @@
         618,
         619,
         620,
-        621
+        621,
+        622,
+        623,
+        624,
+        625,
+        626
       ],
       "segments": [
         {
@@ -18632,11 +18632,6 @@
         37.793407
       ],
       "fids": [
-        622,
-        623,
-        624,
-        625,
-        626,
         627,
         628,
         629,
@@ -18647,7 +18642,12 @@
         634,
         635,
         636,
-        637
+        637,
+        638,
+        639,
+        640,
+        641,
+        642
       ],
       "segments": [
         {
@@ -19088,16 +19088,16 @@
         37.784013
       ],
       "fids": [
-        638,
-        639,
-        640,
-        641,
-        642,
         643,
         644,
         645,
         646,
-        647
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
       ],
       "segments": [
         {
@@ -19776,12 +19776,12 @@
         37.805289
       ],
       "fids": [
-        648,
-        649,
-        650,
-        651,
-        652,
-        653
+        653,
+        654,
+        655,
+        656,
+        657,
+        658
       ],
       "segments": [
         {
@@ -20522,11 +20522,6 @@
         37.793407
       ],
       "fids": [
-        414,
-        415,
-        416,
-        417,
-        418,
         419,
         420,
         421,
@@ -20539,7 +20534,12 @@
         428,
         429,
         430,
-        431
+        431,
+        432,
+        433,
+        434,
+        435,
+        436
       ],
       "segments": [
         {
@@ -21101,9 +21101,9 @@
         }
       ],
       "undated": false,
-      "length_km": 16.02,
+      "length_km": 15.81,
       "confidence_km": {
-        "digitized": 16.02
+        "digitized": 15.81
       },
       "bbox": [
         -122.50963,
@@ -21112,11 +21112,6 @@
         37.785729
       ],
       "fids": [
-        654,
-        655,
-        656,
-        657,
-        658,
         659,
         660,
         661,
@@ -21136,7 +21131,12 @@
         675,
         676,
         677,
-        678
+        678,
+        679,
+        680,
+        681,
+        682,
+        683
       ],
       "segments": [
         {
@@ -21781,11 +21781,6 @@
         37.793407
       ],
       "fids": [
-        679,
-        680,
-        681,
-        682,
-        683,
         684,
         685,
         686,
@@ -21802,7 +21797,12 @@
         697,
         698,
         699,
-        700
+        700,
+        701,
+        702,
+        703,
+        704,
+        705
       ],
       "segments": [
         {
@@ -22443,11 +22443,6 @@
         37.794281
       ],
       "fids": [
-        701,
-        702,
-        703,
-        704,
-        705,
         706,
         707,
         708,
@@ -22461,7 +22456,12 @@
         716,
         717,
         718,
-        719
+        719,
+        720,
+        721,
+        722,
+        723,
+        724
       ],
       "segments": [
         {
@@ -23124,9 +23124,9 @@
         }
       ],
       "undated": false,
-      "length_km": 13.24,
+      "length_km": 13.05,
       "confidence_km": {
-        "digitized": 13.24
+        "digitized": 13.05
       },
       "bbox": [
         -122.440648,
@@ -23135,11 +23135,6 @@
         37.789838
       ],
       "fids": [
-        720,
-        721,
-        722,
-        723,
-        724,
         725,
         726,
         727,
@@ -23157,7 +23152,12 @@
         739,
         740,
         741,
-        742
+        742,
+        743,
+        744,
+        745,
+        746,
+        747
       ],
       "segments": [
         {
@@ -23942,9 +23942,9 @@
         }
       ],
       "undated": false,
-      "length_km": 13.78,
+      "length_km": 13.68,
       "confidence_km": {
-        "digitized": 13.78
+        "digitized": 13.68
       },
       "bbox": [
         -122.46658,
@@ -23953,11 +23953,6 @@
         37.788999
       ],
       "fids": [
-        743,
-        744,
-        745,
-        746,
-        747,
         748,
         749,
         750,
@@ -23980,7 +23975,12 @@
         767,
         768,
         769,
-        770
+        770,
+        771,
+        772,
+        773,
+        774,
+        775
       ],
       "segments": [
         {
@@ -24682,9 +24682,9 @@
         }
       ],
       "undated": false,
-      "length_km": 10.07,
+      "length_km": 9.16,
       "confidence_km": {
-        "digitized": 10.07
+        "digitized": 9.16
       },
       "bbox": [
         -122.418712,
@@ -24693,11 +24693,6 @@
         37.784013
       ],
       "fids": [
-        771,
-        772,
-        773,
-        774,
-        775,
         776,
         777,
         778,
@@ -24710,7 +24705,12 @@
         785,
         786,
         787,
-        788
+        788,
+        789,
+        790,
+        791,
+        792,
+        793
       ],
       "segments": [
         {
@@ -25325,11 +25325,6 @@
         37.789284
       ],
       "fids": [
-        789,
-        790,
-        791,
-        792,
-        793,
         794,
         795,
         796,
@@ -25340,7 +25335,12 @@
         801,
         802,
         803,
-        804
+        804,
+        805,
+        806,
+        807,
+        808,
+        809
       ],
       "segments": [
         {
@@ -25999,15 +25999,15 @@
         37.793407
       ],
       "fids": [
-        432,
-        433,
-        434,
-        435,
-        436,
         437,
         438,
         439,
-        440
+        440,
+        441,
+        442,
+        443,
+        444,
+        445
       ],
       "segments": [
         {
@@ -26359,9 +26359,9 @@
         }
       ],
       "undated": false,
-      "length_km": 20.78,
+      "length_km": 20.59,
       "confidence_km": {
-        "digitized": 20.78
+        "digitized": 20.59
       },
       "bbox": [
         -122.418712,
@@ -26370,11 +26370,6 @@
         37.778681
       ],
       "fids": [
-        805,
-        806,
-        807,
-        808,
-        809,
         810,
         811,
         812,
@@ -26391,7 +26386,12 @@
         823,
         824,
         825,
-        826
+        826,
+        827,
+        828,
+        829,
+        830,
+        831
       ],
       "segments": [
         {
@@ -27040,11 +27040,6 @@
         37.793407
       ],
       "fids": [
-        827,
-        828,
-        829,
-        830,
-        831,
         832,
         833,
         834,
@@ -27058,7 +27053,12 @@
         842,
         843,
         844,
-        845
+        845,
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "segments": [
         {
@@ -27567,17 +27567,17 @@
         37.782556
       ],
       "fids": [
-        846,
-        847,
-        848,
-        849,
-        850,
         851,
         852,
         853,
         854,
         855,
-        856
+        856,
+        857,
+        858,
+        859,
+        860,
+        861
       ],
       "segments": [
         {
@@ -27878,12 +27878,12 @@
         37.805042
       ],
       "fids": [
-        857,
-        858,
-        859,
-        860,
-        861,
-        862
+        862,
+        863,
+        864,
+        865,
+        866,
+        867
       ],
       "segments": [
         {
@@ -28106,12 +28106,12 @@
         37.79492
       ],
       "fids": [
-        863,
-        864,
-        865,
-        866,
-        867,
-        868
+        868,
+        869,
+        870,
+        871,
+        872,
+        873
       ],
       "segments": [
         {
@@ -28404,12 +28404,12 @@
         37.79009
       ],
       "fids": [
-        869,
-        870,
-        871,
-        872,
-        873,
-        874
+        874,
+        875,
+        876,
+        877,
+        878,
+        879
       ],
       "segments": [
         {
@@ -28672,11 +28672,6 @@
         37.793407
       ],
       "fids": [
-        441,
-        442,
-        443,
-        444,
-        445,
         446,
         447,
         448,
@@ -28691,7 +28686,12 @@
         457,
         458,
         459,
-        460
+        460,
+        461,
+        462,
+        463,
+        464,
+        465
       ],
       "segments": [
         {
@@ -29276,11 +29276,6 @@
         37.784013
       ],
       "fids": [
-        875,
-        876,
-        877,
-        878,
-        879,
         880,
         881,
         882,
@@ -29298,7 +29293,12 @@
         894,
         895,
         896,
-        897
+        897,
+        898,
+        899,
+        900,
+        901,
+        902
       ],
       "segments": [
         {
@@ -29912,11 +29912,11 @@
         37.789284
       ],
       "fids": [
-        898,
-        899,
-        900,
-        901,
-        902
+        903,
+        904,
+        905,
+        906,
+        907
       ],
       "segments": [
         {
@@ -30130,11 +30130,6 @@
         37.793216
       ],
       "fids": [
-        903,
-        904,
-        905,
-        906,
-        907,
         908,
         909,
         910,
@@ -30142,7 +30137,12 @@
         912,
         913,
         914,
-        915
+        915,
+        916,
+        917,
+        918,
+        919,
+        920
       ],
       "segments": [
         {
@@ -30526,11 +30526,6 @@
         37.793407
       ],
       "fids": [
-        461,
-        462,
-        463,
-        464,
-        465,
         466,
         467,
         468,
@@ -30540,7 +30535,12 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478,
+        479,
+        480
       ],
       "segments": [
         {
@@ -31550,11 +31550,6 @@
         37.793407
       ],
       "fids": [
-        476,
-        477,
-        478,
-        479,
-        480,
         481,
         482,
         483,
@@ -31577,7 +31572,12 @@
         500,
         501,
         502,
-        503
+        503,
+        504,
+        505,
+        506,
+        507,
+        508
       ],
       "segments": [
         {
@@ -32318,11 +32318,6 @@
         37.793407
       ],
       "fids": [
-        504,
-        505,
-        506,
-        507,
-        508,
         509,
         510,
         511,
@@ -32333,7 +32328,12 @@
         516,
         517,
         518,
-        519
+        519,
+        520,
+        521,
+        522,
+        523,
+        524
       ],
       "segments": [
         {
@@ -32798,17 +32798,17 @@
         37.793407
       ],
       "fids": [
-        520,
-        521,
-        522,
-        523,
-        524,
         525,
         526,
         527,
         528,
         529,
-        530
+        530,
+        531,
+        532,
+        533,
+        534,
+        535
       ],
       "segments": [
         {
@@ -33567,18 +33567,18 @@
         37.793407
       ],
       "fids": [
-        531,
-        532,
-        533,
-        534,
-        535,
         536,
         537,
         538,
         539,
         540,
         541,
-        542
+        542,
+        543,
+        544,
+        545,
+        546,
+        547
       ],
       "segments": [
         {
@@ -33989,7 +33989,7 @@
         37.977386
       ],
       "fids": [
-        292
+        297
       ],
       "segments": [
         {
@@ -34147,16 +34147,16 @@
         38.464226
       ],
       "fids": [
-        282,
-        283,
-        284,
-        285,
-        286,
         287,
         288,
         289,
         290,
-        291
+        291,
+        292,
+        293,
+        294,
+        295,
+        296
       ],
       "segments": [
         {
@@ -34654,14 +34654,14 @@
         38.852585
       ],
       "fids": [
-        1012,
-        1013,
-        1014,
-        1015,
-        1016,
         1017,
         1018,
-        1019
+        1019,
+        1020,
+        1021,
+        1022,
+        1023,
+        1024
       ],
       "segments": [
         {
@@ -35023,11 +35023,11 @@
         37.806637
       ],
       "fids": [
-        352,
-        353,
-        354,
-        355,
-        356
+        357,
+        358,
+        359,
+        360,
+        361
       ],
       "segments": [
         {
@@ -35341,14 +35341,14 @@
         37.7762
       ],
       "fids": [
-        1138,
-        1139,
-        1140,
-        1141,
-        1142,
         1143,
         1144,
-        1145
+        1145,
+        1146,
+        1147,
+        1148,
+        1149,
+        1150
       ],
       "segments": [
         {
@@ -35625,11 +35625,6 @@
         37.7762
       ],
       "fids": [
-        1124,
-        1125,
-        1126,
-        1127,
-        1128,
         1129,
         1130,
         1131,
@@ -35638,7 +35633,12 @@
         1134,
         1135,
         1136,
-        1137
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142
       ],
       "segments": [
         {
@@ -36118,9 +36118,9 @@
         38.401111
       ],
       "fids": [
-        299,
-        300,
-        301
+        304,
+        305,
+        306
       ],
       "segments": [
         {
@@ -36414,9 +36414,9 @@
         38.473244
       ],
       "fids": [
-        311,
-        312,
-        313
+        316,
+        317,
+        318
       ],
       "segments": [
         {
@@ -36662,15 +36662,15 @@
         38.445375
       ],
       "fids": [
-        302,
-        303,
-        304,
-        305,
-        306,
         307,
         308,
         309,
-        310
+        310,
+        311,
+        312,
+        313,
+        314,
+        315
       ],
       "segments": [
         {
@@ -37028,7 +37028,7 @@
         38.286441
       ],
       "fids": [
-        314
+        319
       ],
       "segments": [
         {
@@ -37039,7 +37039,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.72092,38.28435 to -122.79061,38.26738 (6644 m; Overture 2026-09-23.1 rail); checked on USGS Cotati 1:24,000 (1954) and USGS Two Rock 1:24,000 (1954). OpenStreetMap's way, checked on the 1954 sheets.",
+          "method": "Along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.72092,38.28435 to -122.79061,38.26738 (6644 m; Overture 2026-09-23.1 rail); checked on USGS Cotati 1:24,000 (1954) and USGS Two Rock 1:24,000 (1954). OpenStreetMap's way, along what the 1954 Cotati sheet labels the Old Railroad Grade.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
@@ -37122,6 +37122,218 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-15",
           "source": "usgs-two-rock-1954",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "petaluma-street-railroad",
+      "name": "Petaluma Street Railroad, F St to the fairgrounds",
+      "short_name": "Petaluma horsecars",
+      "system": "petaluma-street-railroad",
+      "system_name": "Petaluma Street Railroad",
+      "operators": [
+        {
+          "name": "Petaluma Street Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Horsecars from the car barn at 12th and F Sts by F St, 6th St, Liberty St, Western Ave and Kentucky St to Washington St, then across Petaluma Creek and the railroad to the fairgrounds.",
+      "fate": "abandoned",
+      "fate_note": "Bought by the Petaluma & Santa Rosa in 1903 for its franchise rights, which that company never used (CRC Decision No. 2348); when the horses stopped isn't known.",
+      "gauge_mm": 1435,
+      "gauge_label": "4 ft 8½ in",
+      "traction": [
+        {
+          "type": "horse",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Drawn for the years a source shows it running (decision 20), on the streets of Borden's 1897 map. Its opening isn't sourced; it was incorporated on October 14, 1889 (Borden). Sold at sheriff's sale on September 27, 1897 (Los Angeles Times); Borden and the 1903 directory have a foreclosure sale in 1900. The 1905 directory still lists its horses, as sold to the Petaluma & Santa Rosa. Not drawn: the stretch from Payran St to just beyond Mary St, and the fairgrounds branch, for want of the old Mary St's place.",
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "running": [
+        {
+          "date": "1902",
+          "source": "census-1902-street-railways",
+          "pages": "236",
+          "note": "The Petaluma Street Rwy. Co. reported for December 1, 1901 to November 30, 1902, with 1.81 miles of track."
+        },
+        {
+          "date": "1903-03",
+          "source": "asri-1903",
+          "pages": "11",
+          "note": "2 miles of horse track, 4 cars and 4 horses."
+        }
+      ],
+      "undated": false,
+      "length_km": 3.06,
+      "confidence_km": {
+        "digitized": 3.06
+      },
+      "bbox": [
+        -122.642977,
+        38.223113,
+        -122.63259,
+        38.242053
+      ],
+      "fids": [
+        286
+      ],
+      "segments": [
+        {
+          "id": "pet-hc-f-st-washington-st",
+          "name": "Petaluma, 12th and F Sts to Washington and Payran Sts (horsecars)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's F Street centerline from 12th Street to 6th Street (739 m; Overture 2026-09-23.1); then along today's 6th Street centerline from F Street to Liberty Street (631 m; Overture 2026-09-23.1); then along today's Liberty Street centerline from 6th Street to Western Avenue (167 m; Overture 2026-09-23.1); then along today's Western Avenue centerline from Liberty Street to Kentucky Street (171 m; Overture 2026-09-23.1); then along today's Kentucky Street centerline from Western Avenue to Washington Street (204 m; Overture 2026-09-23.1); then along today's Washington Street and East Washington Street centerline from Kentucky Street to Payran Street (1160 m; Overture 2026-09-23.1); checked on USGS Petaluma 1:62,500 (1914) and USGS Petaluma 1:24,000 (1953). From the car barn at 12th and F Sts by F St, 6th St, Liberty St, Western Ave, Kentucky St and Washington St, across Petaluma Creek and the San Francisco & North Pacific, to Payran St (Borden, from a map of 1897). Not drawn: the last stretch to just beyond Mary St, and the branch into the fairgrounds, since no Mary St crosses Washington St today.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Its streets from Borden, who takes them from a map of 1897. Standard gauge, 2.5 miles with the fairgrounds branch (Borden); 1.81 miles in the census of 1902."
+        }
+      ],
+      "sources": [
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "pages": "5, 8",
+          "note": "Incorporated October 14, 1889; \"an 1897 map shows the following route: from 12th St. via F St., 6th St., Liberty St., Western Ave., Kentucky St., Washington St., across Petaluma Creek and across the San Francisco & North Pacific Railroad tracks to just beyond Mary St.\", with a branch into the fairgrounds; sold under foreclosure in 1900, and to the Petaluma & Santa Rosa in 1903."
+        },
+        {
+          "id": "lat-1897-09-28-petaluma",
+          "title": "Los Angeles Times, September 28, 1897: \"Petaluma's Street Railway Sold\"",
+          "publisher": "Los Angeles Times",
+          "date": "1897-09-28",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-09-28",
+          "license": "Public domain (published 1897)",
+          "accessed": "2026-10-16",
+          "source": "lat-1897-09-28-petaluma",
+          "supports": [
+            "general"
+          ],
+          "pages": "3",
+          "note": "Sold at sheriff's sale to the Wickersham Banking Company on September 27, 1897."
+        },
+        {
+          "id": "census-1902-street-railways",
+          "title": "Street and Electric Railways, 1902 (special report of the Census Office)",
+          "author": "Bureau of the Census",
+          "publisher": "Government Printing Office",
+          "date": "1905",
+          "type": "official",
+          "url": "https://archive.org/details/cu31924004966689",
+          "license": "Public domain (U.S. government work)",
+          "accessed": "2026-10-16",
+          "source": "census-1902-street-railways",
+          "supports": [
+            "general"
+          ],
+          "pages": "236"
+        },
+        {
+          "id": "asri-1903",
+          "title": "American Street Railway Investments, vol. 10 (1903)",
+          "publisher": "Street Railway Publishing Company",
+          "date": "1903",
+          "type": "book",
+          "url": "https://archive.org/details/americanstreetr00unkngoog",
+          "license": "Public domain (published 1903)",
+          "accessed": "2026-10-16",
+          "source": "asri-1903",
+          "supports": [
+            "general"
+          ],
+          "pages": "11",
+          "note": "\"The properties of this company were sold at foreclosure sale in 1900 to the Wickersham Banking Co., The road is now owned and managed by Thomas Maclay.\""
+        },
+        {
+          "id": "crc-d2348",
+          "title": "Railroad Commission of California, Decision No. 2348 (Case No. 145): the valuation of the Petaluma & Santa Rosa",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-05-05",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d2348",
+          "supports": [
+            "general"
+          ],
+          "pages": "760",
+          "note": "\"Purchase of Petaluma horse-car line for its rights, $2,790.00\"."
+        },
+        {
+          "id": "usgs-petaluma-1914",
+          "title": "Petaluma, Cal., topographic quadrangle, 1:62,500, 1914",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1914",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_298523_1914_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-petaluma-1914",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-petaluma-1953",
+          "title": "Petaluma, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_294061_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-petaluma-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
           "supports": [
             "geometry"
           ]
@@ -37839,11 +38051,6 @@
         38.42361
       ],
       "fids": [
-        315,
-        316,
-        317,
-        318,
-        319,
         320,
         321,
         322,
@@ -37856,7 +38063,12 @@
         329,
         330,
         331,
-        332
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
       ],
       "segments": [
         {
@@ -39150,12 +39362,12 @@
         37.795493
       ],
       "fids": [
-        341,
-        342,
-        343,
-        344,
-        345,
-        346
+        346,
+        347,
+        348,
+        349,
+        350,
+        351
       ],
       "segments": [
         {
@@ -39483,7 +39695,7 @@
         38.519886
       ],
       "fids": [
-        1020
+        1025
       ],
       "segments": [
         {
@@ -39665,12 +39877,12 @@
         38.809809
       ],
       "fids": [
-        997,
-        998,
-        999,
-        1000,
-        1001,
-        1002
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007
       ],
       "segments": [
         {
@@ -39957,15 +40169,15 @@
         38.809809
       ],
       "fids": [
-        1003,
-        1004,
-        1005,
-        1006,
-        1007,
         1008,
         1009,
         1010,
-        1011
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016
       ],
       "segments": [
         {
@@ -40440,9 +40652,9 @@
       "notes": "Ends on April 23, 1933, the day Time Table No. 68 dropped Ferry Point; the last run itself isn't dated, and the Commission's order isn't found. Under federal control, from August 18, 1918 the trains ran from Richmond to the Southern Pacific's Oakland Pier instead (CRC Decision No. 5642; Time Table No. 44), until the Santa Fe's own ferry came back, on January 9, 1921 by Time Table No. 47, whose cover shows the date put off twice. Which slip at the Ferry Building it used isn't sourced.",
       "flags": [],
       "undated": false,
-      "length_km": 25.22,
+      "length_km": 12.61,
       "confidence_km": {
-        "approximate": 25.22
+        "approximate": 12.61
       },
       "bbox": [
         -122.394249,
@@ -40451,8 +40663,8 @@
         37.908
       ],
       "fids": [
-        338,
-        339
+        343,
+        344
       ],
       "segments": [
         {
@@ -40678,9 +40890,9 @@
         }
       ],
       "undated": false,
-      "length_km": 116.57,
+      "length_km": 113.13,
       "confidence_km": {
-        "digitized": 6.87,
+        "digitized": 3.44,
         "surveyed": 109.7
       },
       "bbox": [
@@ -40690,11 +40902,11 @@
         38.049065
       ],
       "fids": [
-        333,
-        334,
-        335,
-        336,
-        337
+        338,
+        339,
+        340,
+        341,
+        342
       ],
       "segments": [
         {
@@ -41132,6 +41344,338 @@
       ]
     },
     {
+      "id": "sr-horsecars-fourth-mcdonald",
+      "name": "Santa Rosa horsecars, Fourth St and McDonald Ave",
+      "short_name": "Fourth St horsecars",
+      "system": "santa-rosa-horsecars",
+      "system_name": "Santa Rosa Street Railways",
+      "operators": [
+        {
+          "name": "Santa Rosa City Railroad Company",
+          "from": "1877",
+          "to": "1897-12-24"
+        },
+        {
+          "name": "Union Street Railway",
+          "from": "1897-12-24",
+          "to": "1902"
+        },
+        {
+          "name": "Santa Rosa Street Railways",
+          "from": "1902",
+          "to": null
+        }
+      ],
+      "mode": "streetcar",
+      "mode_label": "Streetcar",
+      "group": "streetcar",
+      "era": "past",
+      "opened": "1877",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Santa Rosa's first street railway: horsecars from the San Francisco & North Pacific depot east along Fourth St, past the courthouse, to McDonald Ave, then north to the cemetery, 1.62 miles.",
+      "fate": "abandoned",
+      "fate_note": "Never electrified: the Petaluma & Santa Rosa, which took the horsecar lines over, laid its own track on Fourth St in 1905 and never used their franchises (CRC Decision No. 2348). When the horses stopped isn't known.",
+      "gauge_mm": 1067,
+      "gauge_label": "3 ft 6 in",
+      "traction": [
+        {
+          "type": "horse",
+          "from": "1877",
+          "to": null
+        }
+      ],
+      "notes": "Opens in 1877, the year the Supreme Court found the Fourth St track completed and running; Borden has 1878. Its owner sold it on December 24, 1897 (the Los Angeles Times's dispatch of that day, and Borden on p. 4; his p. 3 has December 27). Its end isn't sourced: Borden gives 1905 in one place and says in another that how long the horsecars ran \"is not known\"; directories list it, with horses, to March 1906, and the Railroad Commission calls the lines \"formerly operating\" in 1915. Not drawn: the South Side (Union) line to the race track (1888) and the Central's Humboldt St line (1892), whose streets of the day aren't placed.",
+      "flags": [
+        "conflicting_sources",
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1902",
+          "source": "census-1902-street-railways",
+          "pages": "236",
+          "note": "The Santa Rosa Street Rwy. Co., with the Central and Union lines, reported for the year 1902."
+        },
+        {
+          "date": "1903-03",
+          "source": "asri-1903",
+          "pages": "14",
+          "note": "1.5 miles of horse track, 7 horses and 5 cars."
+        },
+        {
+          "date": "1906-03",
+          "source": "asri-1906",
+          "pages": "21",
+          "note": "Controlled and operated by the Santa Rosa Street Railways, with 7 horses for its 7 miles."
+        }
+      ],
+      "undated": false,
+      "length_km": 2.62,
+      "confidence_km": {
+        "digitized": 2.62
+      },
+      "bbox": [
+        -122.720731,
+        38.437436,
+        -122.703842,
+        38.453806
+      ],
+      "fids": [
+        282,
+        283,
+        284,
+        285
+      ],
+      "segments": [
+        {
+          "id": "sr-hc-fourth-st",
+          "name": "Fourth St, Santa Rosa, the depot to McDonald Ave (horsecars)",
+          "opened": "1877",
+          "closed": null,
+          "to": "1893",
+          "note": "Operation was suspended early in 1893, during the lawsuit over its franchise (Borden).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 4th Street centerline from Wilson Street to McDonald Avenue (1699 m; Overture 2026-09-23.1, across gaps of up to 300 m where the street is cut today); checked on USGS Santa Rosa 1:24,000 (1954). East along Fourth St from the San Francisco & North Pacific depot at Wilson St to McDonald Ave (Borden), across today's freeway and mall, where Overture has no 4th St; the same street as the Petaluma & Santa Rosa's later track.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced",
+            "conflicting_sources"
+          ],
+          "notes": "The court dates this track, \"the track on Fourth street\", to 1877; Borden opens the line a year after its June 5, 1877 franchise. Its own 3 ft 6 in track, not the Petaluma & Santa Rosa's of 1905 on the same street (Borden; CRC Decision No. 2348, p. 760). Borden's map shows a loop around the courthouse in the square, not drawn; the Union and Central cars ran over this track to the depot (Borden, pp. 3-4). How long the horsecars ran isn't known."
+        },
+        {
+          "id": "sr-hc-mcdonald-ave",
+          "name": "McDonald Ave, Santa Rosa, Fourth St to the cemetery (horsecars)",
+          "opened": null,
+          "closed": null,
+          "to": "1893",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's McDonald Avenue centerline from 4th Street to Franklin Avenue (925 m; Overture 2026-09-23.1); checked on USGS Santa Rosa 1:24,000 (1954) and USGS Santa Rosa 1:62,500 (1916). North on McDonald Ave from Fourth St to the Rural Cemetery's south corner (Borden), where today's Franklin Ave begins; the 1916 and 1954 sheets draw the street to the corner.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Built to serve Mark L. McDonald's subdivision, the McDonald Addition (Borden). The court dates only the Fourth St track; Borden has the whole line open in 1878, so this stretch's year isn't sourced on its own."
+        },
+        {
+          "id": "sr-hc-fourth-st",
+          "name": "Fourth St, Santa Rosa, the depot to McDonald Ave (horsecars)",
+          "opened": "1877",
+          "closed": null,
+          "from": "1898",
+          "note": "Resumed in 1898, after the Union Street Railway bought the line (Borden).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 4th Street centerline from Wilson Street to McDonald Avenue (1699 m; Overture 2026-09-23.1, across gaps of up to 300 m where the street is cut today); checked on USGS Santa Rosa 1:24,000 (1954). East along Fourth St from the San Francisco & North Pacific depot at Wilson St to McDonald Ave (Borden), across today's freeway and mall, where Overture has no 4th St; the same street as the Petaluma & Santa Rosa's later track.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced",
+            "conflicting_sources"
+          ],
+          "notes": "The court dates this track, \"the track on Fourth street\", to 1877; Borden opens the line a year after its June 5, 1877 franchise. Its own 3 ft 6 in track, not the Petaluma & Santa Rosa's of 1905 on the same street (Borden; CRC Decision No. 2348, p. 760). Borden's map shows a loop around the courthouse in the square, not drawn; the Union and Central cars ran over this track to the depot (Borden, pp. 3-4). How long the horsecars ran isn't known."
+        },
+        {
+          "id": "sr-hc-mcdonald-ave",
+          "name": "McDonald Ave, Santa Rosa, Fourth St to the cemetery (horsecars)",
+          "opened": null,
+          "closed": null,
+          "from": "1898",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's McDonald Avenue centerline from 4th Street to Franklin Avenue (925 m; Overture 2026-09-23.1); checked on USGS Santa Rosa 1:24,000 (1954) and USGS Santa Rosa 1:62,500 (1916). North on McDonald Ave from Fourth St to the Rural Cemetery's south corner (Borden), where today's Franklin Ave begins; the 1916 and 1954 sheets draw the street to the corner.",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Built to serve Mark L. McDonald's subdivision, the McDonald Addition (Borden). The court dates only the Fourth St track; Borden has the whole line open in 1878, so this stretch's year isn't sourced on its own."
+        }
+      ],
+      "sources": [
+        {
+          "id": "santa-rosa-city-rr-v-central-1895",
+          "title": "Santa Rosa City R. Co. v. Central St. Ry. Co., Supreme Court of California, No. 15,202, January 6, 1895 (38 Pac. 986), in California Unreported Cases, vol. 4",
+          "publisher": "Bender-Moss Co. (1913)",
+          "date": "1895-01-06",
+          "type": "official",
+          "url": "https://archive.org/details/californiaunrepo04cali",
+          "license": "Public domain (court opinion; published 1913)",
+          "accessed": "2026-10-16",
+          "source": "santa-rosa-city-rr-v-central-1895",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "952-954",
+          "note": "\"during the year 1877 completed the portion in controversy in this action, and has ever since continued to operate that portion\", on Fourth St; operated continuously from 1877 to 1891."
+        },
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "route",
+            "general"
+          ],
+          "pages": "3-6, 8",
+          "note": "\"opened for service one year later\" than its June 5, 1877 charter; \"Its 1.62 miles of track ran east along Fourth Street from the San Francisco & North Pacific Railroad depot to McDonald Ave., then north along this street to the cemetery\"; four horse cars on 3 ft 6 in gauge. \"Early in 1893, operation was suspended owing to litigation about charter rights\"; bought by the Union's directors on December 27, 1897 (p. 3; December 24 on p. 4), and \"operation was resumed the following year\"; under the Santa Rosa Street Railways from 1902 (p. 4). The horsecars ran \"until 1905\" (p. 5), but \"How long these horse cars continued to operate after they were acquired is not known\" (p. 6)."
+        },
+        {
+          "id": "asri-1897",
+          "title": "American Street Railway Investments, vol. 4 (1897): the red book of American street railway investments",
+          "publisher": "Street Railway Journal",
+          "date": "1897",
+          "type": "book",
+          "url": "https://archive.org/details/mcgrawelectricr06jourgoog",
+          "license": "Public domain (published 1897)",
+          "accessed": "2026-10-16",
+          "source": "asri-1897",
+          "supports": [
+            "general"
+          ],
+          "pages": "246",
+          "note": "February 1897: \"This company is now in litigation and has suspended operations.\""
+        },
+        {
+          "id": "lat-1897-12-25-santa-rosa",
+          "title": "Los Angeles Times, December 25, 1897: \"Santa Rosa Street-railway Deal\"",
+          "publisher": "Los Angeles Times",
+          "date": "1897-12-25",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1897-12-25",
+          "license": "Public domain (published 1897)",
+          "accessed": "2026-10-16",
+          "source": "lat-1897-12-25-santa-rosa",
+          "supports": [
+            "general"
+          ],
+          "pages": "3",
+          "note": "Bought by the Union Street Railway on the afternoon of December 24, 1897."
+        },
+        {
+          "id": "census-1902-street-railways",
+          "title": "Street and Electric Railways, 1902 (special report of the Census Office)",
+          "author": "Bureau of the Census",
+          "publisher": "Government Printing Office",
+          "date": "1905",
+          "type": "official",
+          "url": "https://archive.org/details/cu31924004966689",
+          "license": "Public domain (U.S. government work)",
+          "accessed": "2026-10-16",
+          "source": "census-1902-street-railways",
+          "supports": [
+            "general"
+          ],
+          "pages": "236"
+        },
+        {
+          "id": "asri-1903",
+          "title": "American Street Railway Investments, vol. 10 (1903)",
+          "publisher": "Street Railway Publishing Company",
+          "date": "1903",
+          "type": "book",
+          "url": "https://archive.org/details/americanstreetr00unkngoog",
+          "license": "Public domain (published 1903)",
+          "accessed": "2026-10-16",
+          "source": "asri-1903",
+          "supports": [
+            "general"
+          ],
+          "pages": "14"
+        },
+        {
+          "id": "asri-1906",
+          "title": "American Street Railway Investments, vol. 13 (1906): the red book of American street railway investments",
+          "publisher": "McGraw Publishing Company",
+          "date": "1906",
+          "type": "book",
+          "url": "https://archive.org/details/mcgrawelectricr02unkngoog",
+          "license": "Public domain (published 1906)",
+          "accessed": "2026-10-16",
+          "source": "asri-1906",
+          "supports": [
+            "general"
+          ],
+          "pages": "21"
+        },
+        {
+          "id": "crc-d2348",
+          "title": "Railroad Commission of California, Decision No. 2348 (Case No. 145): the valuation of the Petaluma & Santa Rosa",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-05-05",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d2348",
+          "supports": [
+            "general"
+          ],
+          "pages": "760",
+          "note": "The Petaluma & Santa Rosa bought \"the two original horse-car lines formerly operating in Petaluma and Santa Rosa\" but never operated under their franchises."
+        },
+        {
+          "id": "usgs-santa-rosa-1954",
+          "title": "Santa Rosa, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_300294_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-santa-rosa-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-santa-rosa-1916",
+          "title": "Santa Rosa, Cal., topographic quadrangle, 1:62,500, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_298959_1916_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-santa-rosa-1916",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "nwp-sausalito-san-rafael",
       "name": "Sausalito–San Rafael electric line",
       "system": "northwestern-pacific",
@@ -41180,10 +41724,10 @@
         37.977386
       ],
       "fids": [
-        293,
-        294,
-        295,
-        296
+        298,
+        299,
+        300,
+        301
       ],
       "segments": [
         {
@@ -41389,11 +41933,11 @@
         38.434321
       ],
       "fids": [
-        1031,
-        1032,
-        1033,
-        1034,
-        1035
+        1036,
+        1037,
+        1038,
+        1039,
+        1040
       ],
       "segments": [
         {
@@ -41560,15 +42104,15 @@
         37.824321
       ],
       "fids": [
-        1082,
-        1083,
-        1084,
-        1085,
-        1086,
         1087,
         1088,
         1089,
-        1090
+        1090,
+        1091,
+        1092,
+        1093,
+        1094,
+        1095
       ],
       "segments": [
         {
@@ -42067,11 +42611,6 @@
         37.891481
       ],
       "fids": [
-        1047,
-        1048,
-        1049,
-        1050,
-        1051,
         1052,
         1053,
         1054,
@@ -42086,7 +42625,12 @@
         1063,
         1064,
         1065,
-        1066
+        1066,
+        1067,
+        1068,
+        1069,
+        1070,
+        1071
       ],
       "segments": [
         {
@@ -42706,12 +43250,12 @@
         38.440268
       ],
       "fids": [
-        1025,
-        1026,
-        1027,
-        1028,
-        1029,
-        1030
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035
       ],
       "segments": [
         {
@@ -43073,17 +43617,17 @@
         37.796576
       ],
       "fids": [
-        1036,
-        1037,
-        1038,
-        1039,
-        1040,
         1041,
         1042,
         1043,
         1044,
         1045,
-        1046
+        1046,
+        1047,
+        1048,
+        1049,
+        1050,
+        1051
       ],
       "segments": [
         {
@@ -43613,9 +44157,9 @@
         38.032436
       ],
       "fids": [
-        1146,
-        1147,
-        1148
+        1151,
+        1152,
+        1153
       ],
       "segments": [
         {
@@ -43859,10 +44403,10 @@
         38.462654
       ],
       "fids": [
-        1021,
-        1022,
-        1023,
-        1024
+        1026,
+        1027,
+        1028,
+        1029
       ],
       "segments": [
         {
@@ -44112,9 +44656,9 @@
         37.790312
       ],
       "fids": [
-        347,
-        348,
-        349
+        352,
+        353,
+        354
       ],
       "segments": [
         {
@@ -44260,15 +44804,15 @@
         37.789106
       ],
       "fids": [
-        917,
-        918,
-        919,
-        920,
-        921,
         922,
         923,
         924,
-        925
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
       ],
       "segments": [
         {
@@ -45417,10 +45961,10 @@
         37.80035
       ],
       "fids": [
-        370,
-        371,
-        372,
-        373
+        375,
+        376,
+        377,
+        378
       ],
       "segments": [
         {
@@ -45761,17 +46305,17 @@
         37.79562
       ],
       "fids": [
-        358,
-        359,
-        360,
-        361,
-        362,
         363,
         364,
         365,
         366,
         367,
-        368
+        368,
+        369,
+        370,
+        371,
+        372,
+        373
       ],
       "segments": [
         {
@@ -46027,12 +46571,12 @@
         37.803847
       ],
       "fids": [
-        1118,
-        1119,
-        1120,
-        1121,
-        1122,
-        1123
+        1123,
+        1124,
+        1125,
+        1126,
+        1127,
+        1128
       ],
       "segments": [
         {

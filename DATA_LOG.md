@@ -265,7 +265,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98), Burlingame and San Mateo (-122.36, 37.555, -122.31, 37.59) and Santa Rosa (-122.78, 38.415, -122.69, 38.45). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98), Burlingame and San Mateo (-122.36, 37.555, -122.31, 37.59), Santa Rosa (-122.78, 38.415, -122.69, 38.46, to McDonald Ave's north end) and Petaluma (-122.66, 38.22, -122.615, 38.25). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -325,9 +325,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 127 | 550 | 11 | 684.4 | 590.0 | 123.0 | 8 | 503 |
+| past | 129 | 553 | 11 | 684.4 | 595.7 | 123.0 | 8 | 506 |
 | present | 44 | 139 | 275 | 1676.8 | 0 | 0 | 12 | 48 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 543, `conflicting_sources` 29, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 842, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 548, `conflicting_sources` 32, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 845, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

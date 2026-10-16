@@ -2,6 +2,24 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The North Bay horsecars, in Santa Rosa and Petaluma
+
+- **Santa Rosa, Fourth St and McDonald Ave** (`north-bay-horsecars/`): the Santa Rosa City
+  Railroad's horsecars from the San Francisco & North Pacific depot along Fourth St to McDonald Ave
+  and north to the cemetery, on today's streets. Open from 1877, the year the Supreme Court found its
+  Fourth St track completed and running (*Santa Rosa City R. Co. v. Central St. Ry. Co.*, 1895;
+  Borden has 1878); suspended from early 1893 to 1898 (Borden); shown running in the 1902 census and
+  the street railway directories to March 1906. Its end isn't sourced.
+- **Petaluma Street Railroad:** from the car barn at 12th and F Sts by F, 6th and Liberty Sts,
+  Western Ave, Kentucky St and Washington St across Petaluma Creek to Payran St, on the streets of
+  Borden's 1897 map, drawn for 1902-03, when the census and a directory show it running (decision
+  20). Not drawn: its last stretch to Mary St and the fairgrounds branch.
+- Not drawn: Santa Rosa's Union (1888) and Central (1892) lines, whose streets of the day aren't
+  placed. San Rafael had no street railway: none is in the 1902 census (p. 236), nor, by a search of
+  their text, in the street railway directories of 1886-1908.
+- A line's length now counts once a segment it lists twice around a break in service (the Santa Fe,
+  six Market Street Railway lines).
+
 ## 2026-10-16: Nine more Market Street Railway lines, and No. 20's 1909 run on H St
 
 - **Nos. 2, 5, 16, 22, 23, 24, 25, 30 and 35** (`sf-msry/`), drawn from Manley's 1909 routes and
