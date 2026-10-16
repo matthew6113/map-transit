@@ -50,8 +50,21 @@ export function syncStyle(map: maplibregl.Map, next: StyleInputs) {
     prev.view.proposals === next.view.proposals
   ) return;
   applied.set(map, next);
-  map.setStyle(buildStyle(next), { diff: true });
+  map.setStyle(keepAdded(map, buildStyle(next)), { diff: true });
   afterSync.get(map)?.();
+}
+
+/** Layers another module adds to the map itself (the network editor's, src/editor/), by id prefix. */
+export const ADDED_PREFIX = 'transit-editor';
+
+/** A diffed setStyle removes whatever the new style lacks: carry the added layers and their sources over. */
+function keepAdded(map: maplibregl.Map, style: maplibregl.StyleSpecification): maplibregl.StyleSpecification {
+  const current = map.getStyle();
+  const added = current?.layers.filter((l) => l.id.startsWith(ADDED_PREFIX)) ?? [];
+  if (!added.length) return style;
+  const sources = { ...style.sources };
+  for (const l of added) if ('source' in l && typeof l.source === 'string') sources[l.source] = current.sources[l.source];
+  return { ...style, sources, layers: [...style.layers, ...added] };
 }
 
 export function onAfterSync(map: maplibregl.Map, fn: () => void) {

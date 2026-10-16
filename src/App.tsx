@@ -11,6 +11,7 @@ import { applyCssVariables, defaultTheme, MODE_GROUPS, type ModeGroup, type Them
 import { applyYear, resetVisibility, visibleAt, type Dated } from './timeline/visibility';
 import { Controls } from './ui/Controls';
 import { Credits } from './ui/Credits';
+import type { Editor as EditorComponent } from './editor/Editor';
 import { EraSwitcher } from './ui/EraSwitcher';
 import { Index } from './ui/Index';
 import { LinePanel } from './ui/LinePanel';
@@ -25,7 +26,9 @@ const DEFAULT_YEAR = 1925;
 const ERAS: Era[] = ['past', 'present', 'future'];
 /** The era that draws a dataset: the reference proposals are the future's layer B. */
 const eraOf = (d: Dataset): Era => (d === 'ideal' ? 'future' : d);
-const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : 'present');
+/** The network editor (Phase 4b), for Matthew: ?edit=1, in the future era. */
+const EDIT = params.get('edit') === '1';
+const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : EDIT ? 'future' : 'present');
 /** How future status is drawn, while Matthew chooses (Phase 3): ?solidity=opacity|tint|committed */
 const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
 const initialYear = (): number => {
@@ -60,6 +63,12 @@ export function App() {
   const [year, setYear] = useState(initialYear);
   const [ghost, setGhost] = useState(params.get('ghost') === '1');
   const [proposals, setProposals] = useState(params.get('proposals') === '1');
+  const [editing, setEditing] = useState(EDIT);
+  // The editor and Terra Draw load only for ?edit=1, not for every visitor.
+  const [Editor, setEditor] = useState<typeof EditorComponent | null>(null);
+  useEffect(() => {
+    if (editing && !Editor) void import('./editor/Editor').then((m) => setEditor(() => m.Editor));
+  }, [editing, Editor]);
   const [hiddenGroups, setHiddenGroups] = useState<ModeGroup[]>(() => MODE_GROUPS.filter((g) => !GROUPS[g].defaultOn));
   const [loaded, setLoaded] = useState<Dataset[]>(() => [...new Set<Dataset>([...DATASETS[initialEra()], ...(params.get('ghost') === '1' ? ['past' as Era] : [])])]);
   const [map, setMap] = useState<MapLibreMap | null>(null);
@@ -152,9 +161,10 @@ export function App() {
       year: era === 'past' ? String(year) : null,
       ghost: ghost && era !== 'past' ? '1' : null,
       proposals: proposals && era === 'future' ? '1' : null,
+      edit: editing ? '1' : null,
     }), 400);
     return () => window.clearTimeout(t);
-  }, [era, year, ghost, proposals]);
+  }, [era, year, ghost, proposals, editing]);
 
   const setEra = useCallback((next: Era) => {
     setPlaying(false);
@@ -316,11 +326,17 @@ export function App() {
     }
     return { year, ids };
   }, [era, year, lines, indexes]);
+  // The proposals a line of Matthew's network can say it is based on.
+  const proposalChoices = useMemo(() => {
+    const seen = new Map<string, string>();
+    for (const l of lines) if (l.proposal && !seen.has(l.proposal.id)) seen.set(l.proposal.id, `${l.proposal.proposed_by}: ${l.proposal.document.title}`);
+    return [...seen].map(([id, name]) => ({ id, name })).sort((a, b) => a.name.localeCompare(b.name));
+  }, [lines]);
   const toggleGroup = (g: ModeGroup) =>
     setHiddenGroups((prev) => (prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]));
 
   return (
-    <div class={`app era-${era} ${line ? 'with-line' : ''}`}>
+    <div class={`app era-${era} ${line || (editing && era === 'future') ? 'with-line' : ''}`}>
       <a class="skip-link" href="#controls-start">Skip to map controls</a>
       <header class="title">
         <h1>{SITE_TITLE}</h1>
@@ -363,11 +379,14 @@ export function App() {
       </header>
       <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}
-        onSelectLine={(id) => void openLine(id)} />
+        onSelectLine={(id) => { if (!editing) void openLine(id); }} />
       <span id="controls-start" tabIndex={-1} />
       <Controls map={map} mode={mode} onModeChange={setMode} onHome={goHome} />
       <Credits collapse={interacted || !!line} has511={lines.some((l) => l.sources.some((s) => s.source === 'gtfs-511'))} />
-      {line && <LinePanel line={line} onClose={() => void closeLine()} />}
+      {line && !(editing && era === 'future') && <LinePanel line={line} onClose={() => void closeLine()} />}
+      {editing && era === 'future' && map && Editor && (
+        <Editor map={map} theme={theme} proposals={proposalChoices} onClose={() => setEditing(false)} />
+      )}
     </div>
   );
 }
