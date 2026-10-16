@@ -22,3 +22,4 @@ map's data cites the sources themselves, in `data/sources.json`; where it rests 
 | `ferries-northbay.md` | Bay and Carquinez ferries, North Bay railways, freight belt lines | `data/past/ferries/` |
 | `dumbarton-cn.md` | The Dumbarton Cutoff's passenger trains, the end of the Oakland-Newark-San José trains (1960), the California & Nevada (pass of Oct 16, page images read) | `data/past/sp-dumbarton/` |
 | `northbay-streetcars.md` | The Santa Rosa and Petaluma horsecars, and San Rafael's lack of any (pass of Oct 16, page images read) | `data/past/north-bay-horsecars/` |
+| `steamers.md` | The Petaluma River steamers and the Vallejo-Mare Island ferry (pass of Oct 16, page images read) | `data/past/ferries/` (`psr-steamers`, `mare-island-ferry`) |

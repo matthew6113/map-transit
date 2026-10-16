@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Petaluma steamers and the Mare Island ferry
+
+- **Petaluma steamers** (`ferries/`): the Petaluma & Santa Rosa's river steamers from the foot of
+  Copeland St at Petaluma to the San Francisco waterfront, from 1904, when the Railroad Commission
+  says the company began the service (Borden has the *Gold* bought in December 1903), until passenger
+  service ended effective December 23, 1935 (CRC Decision 29778). Drawn over water to Pier 9 at the
+  foot of Broadway, its berth in the 1918-33 directories; the 1903 berth (the bulkhead between
+  Washington and Jackson Sts) and 1935's (Pier 11, foot of Vallejo) are within about 300 m.
+- **Mare Island ferry:** foot passengers across the Mare Island Strait from the foot of Georgia St at
+  Vallejo to the Navy Yard, traced from the 1916 Mare Island sheet's dashed course. Shown running
+  from March 21, 1922 (CRC Decision 14728) to its last day, August 29, 1986 (*The Fare Box*,
+  relaying the *West County Times*); its opening isn't sourced.
+
 ## 2026-10-16: The Dumbarton Cutoff's passenger trains, 1911-1916
 
 - **Southern Pacific, Redwood City to Niles** (`sp-dumbarton/`): across the Dumbarton bridge by

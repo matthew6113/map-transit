@@ -110,6 +110,8 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-santa-rosa-horsecars', url: '/l/sr-horsecars-fourth-mcdonald?era=past&year=1890&test=1&at=99' },
   { name: 'past-line-petaluma-horsecars', url: '/l/petaluma-street-railroad?era=past&year=1902&test=1&at=99' },
   { name: 'past-line-dumbarton', url: '/l/sp-dumbarton-redwood-niles?era=past&year=1914&test=1&at=99' },
+  { name: 'past-line-petaluma-steamers', url: '/l/psr-steamers?era=past&year=1920&test=1&at=99' },
+  { name: 'past-line-mare-island-ferry', url: '/l/mare-island-ferry?era=past&year=1943&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

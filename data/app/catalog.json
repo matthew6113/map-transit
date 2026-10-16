@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        931,
-        932,
         933,
-        934
+        934,
+        935,
+        936
       ],
       "segments": [
         {
@@ -2526,8 +2526,6 @@
         37.793407
       ],
       "fids": [
-        935,
-        936,
         937,
         938,
         939,
@@ -2536,7 +2534,9 @@
         942,
         943,
         944,
-        945
+        945,
+        946,
+        947
       ],
       "segments": [
         {
@@ -2811,8 +2811,6 @@
         37.891454
       ],
       "fids": [
-        209,
-        210,
         211,
         212,
         213,
@@ -2829,7 +2827,9 @@
         224,
         225,
         226,
-        227
+        227,
+        228,
+        229
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        961,
-        962,
         963,
         964,
         965,
         966,
         967,
         968,
-        969
+        969,
+        970,
+        971
       ],
       "segments": [
         {
@@ -4509,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        355,
-        356
+        357,
+        358
       ],
       "segments": [
         {
@@ -4639,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        379,
-        380,
         381,
-        382
+        382,
+        383,
+        384
       ],
       "segments": [
         {
@@ -5930,8 +5930,6 @@
         37.859007
       ],
       "fids": [
-        270,
-        271,
         272,
         273,
         274,
@@ -5940,7 +5938,9 @@
         277,
         278,
         279,
-        280
+        280,
+        281,
+        282
       ],
       "segments": [
         {
@@ -6397,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        345
+        347
       ],
       "segments": [
         {
@@ -6661,8 +6661,6 @@
         37.806482
       ],
       "fids": [
-        970,
-        971,
         972,
         973,
         974,
@@ -6674,7 +6672,9 @@
         980,
         981,
         982,
-        983
+        983,
+        984,
+        985
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        921
+        923
       ],
       "segments": [
         {
@@ -7237,10 +7237,10 @@
         37.577468
       ],
       "fids": [
-        1053,
-        1054,
         1055,
-        1056
+        1056,
+        1057,
+        1058
       ],
       "segments": [
         {
@@ -7583,8 +7583,6 @@
         37.80035
       ],
       "fids": [
-        946,
-        947,
         948,
         949,
         950,
@@ -7597,7 +7595,9 @@
         957,
         958,
         959,
-        960
+        960,
+        961,
+        962
       ],
       "segments": [
         {
@@ -7992,15 +7992,15 @@
         37.81612
       ],
       "fids": [
-        1119,
-        1120,
         1121,
         1122,
         1123,
         1124,
         1125,
         1126,
-        1127
+        1127,
+        1128,
+        1129
       ],
       "segments": [
         {
@@ -8334,15 +8334,15 @@
         37.824321
       ],
       "fids": [
-        1101,
-        1102,
         1103,
         1104,
         1105,
         1106,
         1107,
         1108,
-        1109
+        1109,
+        1110,
+        1111
       ],
       "segments": [
         {
@@ -8839,14 +8839,14 @@
         37.805981
       ],
       "fids": [
-        984,
-        985,
         986,
         987,
         988,
         989,
         990,
-        991
+        991,
+        992,
+        993
       ],
       "segments": [
         {
@@ -9137,7 +9137,7 @@
         37.796162
       ],
       "fids": [
-        407
+        409
       ],
       "segments": [
         {
@@ -9246,7 +9246,7 @@
         37.788015
       ],
       "fids": [
-        374
+        376
       ],
       "segments": [
         {
@@ -9388,8 +9388,6 @@
         37.806482
       ],
       "fids": [
-        992,
-        993,
         994,
         995,
         996,
@@ -9397,7 +9395,9 @@
         998,
         999,
         1000,
-        1001
+        1001,
+        1002,
+        1003
       ],
       "segments": [
         {
@@ -9717,14 +9717,14 @@
         37.793407
       ],
       "fids": [
-        399,
-        400,
         401,
         402,
         403,
         404,
         405,
-        406
+        406,
+        407,
+        408
       ],
       "segments": [
         {
@@ -10192,7 +10192,7 @@
         37.785808
       ],
       "fids": [
-        362
+        364
       ],
       "segments": [
         {
@@ -10442,7 +10442,7 @@
         37.817801
       ],
       "fids": [
-        269
+        271
       ],
       "segments": [
         {
@@ -10587,15 +10587,15 @@
         37.824321
       ],
       "fids": [
-        1110,
-        1111,
         1112,
         1113,
         1114,
         1115,
         1116,
         1117,
-        1118
+        1118,
+        1119,
+        1120
       ],
       "segments": [
         {
@@ -11032,6 +11032,190 @@
       ]
     },
     {
+      "id": "mare-island-ferry",
+      "name": "Mare Island ferry, Vallejo to the Navy Yard",
+      "short_name": "Mare Island ferry",
+      "system": "mare-island-ferry",
+      "system_name": "Mare Island ferry",
+      "operators": [
+        {
+          "name": "Rodeo-Vallejo Ferry Company",
+          "from": "1922-03-21",
+          "to": "1923-04"
+        },
+        {
+          "name": "Mare Island Ferry",
+          "from": null,
+          "to": "1986-08-29"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1986-08-29",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Foot-passenger ferries across the Mare Island Strait, about a quarter mile, between Vallejo and the Mare Island Navy Yard.",
+      "fate": "abandoned",
+      "fate_note": "It \"ceased all operations August 29\", 1986 (The Fare Box, from the West County Times of August 30, 1986).",
+      "notes": "Its opening isn't sourced: accounts put the first ferry in the 1850s or 1860s, and the Railroad Commission says only that it had run \"for many years\" before 1923. Drawn from 1922, the first date a source shows it running (decision 20). Its last day, August 29, 1986, rests on a collectors' newsletter relaying the West County Times, which hasn't been read itself.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1922-03-21",
+          "source": "crc-d14728",
+          "pages": "189",
+          "note": "\"the passenger ferry operating between Mare Island and Vallejo\", bought that day by the Rodeo-Vallejo Ferry Company."
+        },
+        {
+          "date": "1923-02-16",
+          "source": "crc-d11668",
+          "pages": "99"
+        },
+        {
+          "date": "1935-10-14",
+          "source": "crc-d28282",
+          "pages": "9",
+          "note": "\"now operates a scheduled service for the transportation of passengers\"."
+        },
+        {
+          "date": "1943-09-21",
+          "source": "crc-d36613",
+          "pages": "1"
+        }
+      ],
+      "undated": false,
+      "length_km": 0.43,
+      "confidence_km": {
+        "digitized": 0.43
+      },
+      "bbox": [
+        -122.268886,
+        38.1006,
+        -122.264295,
+        38.10177
+      ],
+      "fids": [
+        210
+      ],
+      "segments": [
+        {
+          "id": "mare-island-ferry-course",
+          "name": "Ferry, Vallejo to Mare Island",
+          "opened": null,
+          "closed": "1986-08-29",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Mare Island 1:62,500 (1916) (5 hand-read points). The ferry's course as the 1916 sheet draws it, dashed, from a pier on the Vallejo waterfront by Georgia St to the Navy Yard; a 15-minute sheet, so its pier lies about 150 m from where Georgia St meets today's filled shore.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "From the Georgia St terminal at Vallejo (1923) to the Navy Yard's own terminal; by 1943 there were two slips on each side, Georgia St and Ryder St at Vallejo. Where the Mare Island slips stood isn't sourced beyond the 1916 sheet's drawing."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d14728",
+          "title": "Railroad Commission of California, Decision No. 14728 (Case No. 2043): the Rodeo-Vallejo Ferry Company",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1925-04-01",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_26",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d14728",
+          "supports": [
+            "general"
+          ],
+          "pages": "189"
+        },
+        {
+          "id": "crc-d11668",
+          "title": "Railroad Commission of California, Decision No. 11668 (Application No. 8512): Rodeo-Vallejo Ferry Company, Mare Island fares",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1923-02-16",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_23",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d11668",
+          "supports": [
+            "route"
+          ],
+          "pages": "99",
+          "note": "The Georgia St terminal at Vallejo and the government's terminal on Mare Island; the steamer Vallejo."
+        },
+        {
+          "id": "crc-d28282",
+          "title": "Railroad Commission of California, Decision No. 28282 (Case No. 4012): the operative rights of vessel carriers",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1935-10-14",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28282_19351014_C4012.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d28282",
+          "supports": [
+            "general"
+          ],
+          "pages": "9",
+          "note": "A tariff on file from August 17, 1923, and \"a common carrier service for many years prior\"."
+        },
+        {
+          "id": "crc-d36613",
+          "title": "Railroad Commission of California, Decision No. 36613 (Application No. 25727): Mare Island Ferry commutation fares",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1943-09-21",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36613_19430921_A25727.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d36613",
+          "supports": [
+            "route"
+          ],
+          "pages": "1",
+          "note": "Two slips on each side, Georgia St and Ryder St at Vallejo, about a quarter mile apart across the strait."
+        },
+        {
+          "id": "fare-box-1986-09",
+          "title": "The Fare Box (American Vecturist Association), September 1986",
+          "publisher": "American Vecturist Association",
+          "date": "1986-09",
+          "type": "journal",
+          "url": "https://archive.org/details/FareBox1986",
+          "license": "Copyright (1986); cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "fare-box-1986-09",
+          "supports": [
+            "closed"
+          ],
+          "pages": "100"
+        },
+        {
+          "id": "usgs-mare-island-1916",
+          "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_298113_1916_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-mare-island-1916",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-market-valencia-cable",
       "name": "Market Street cable line, by Valencia St",
       "system": "market-street-cable-railway",
@@ -11076,8 +11260,6 @@
         37.793407
       ],
       "fids": [
-        389,
-        390,
         391,
         392,
         393,
@@ -11085,7 +11267,9 @@
         395,
         396,
         397,
-        398
+        398,
+        399,
+        400
       ],
       "segments": [
         {
@@ -11360,12 +11544,12 @@
         37.787654
       ],
       "fids": [
-        383,
-        384,
         385,
         386,
         387,
-        388
+        388,
+        389,
+        390
       ],
       "segments": [
         {
@@ -11684,8 +11868,8 @@
         37.90596
       ],
       "fids": [
-        302,
-        303
+        304,
+        305
       ],
       "segments": [
         {
@@ -11870,7 +12054,7 @@
         37.929178
       ],
       "fids": [
-        281
+        283
       ],
       "segments": [
         {
@@ -12100,8 +12284,6 @@
         37.891351
       ],
       "fids": [
-        1077,
-        1078,
         1079,
         1080,
         1081,
@@ -12114,7 +12296,9 @@
         1088,
         1089,
         1090,
-        1091
+        1091,
+        1092,
+        1093
       ],
       "segments": [
         {
@@ -13130,8 +13314,6 @@
         37.793407
       ],
       "fids": [
-        408,
-        409,
         410,
         411,
         412,
@@ -13140,7 +13322,9 @@
         415,
         416,
         417,
-        418
+        418,
+        419,
+        420
       ],
       "segments": [
         {
@@ -13559,8 +13743,6 @@
         37.79492
       ],
       "fids": [
-        548,
-        549,
         550,
         551,
         552,
@@ -13569,7 +13751,9 @@
         555,
         556,
         557,
-        558
+        558,
+        559,
+        560
       ],
       "segments": [
         {
@@ -14315,8 +14499,6 @@
         37.79492
       ],
       "fids": [
-        559,
-        560,
         561,
         562,
         563,
@@ -14324,7 +14506,9 @@
         565,
         566,
         567,
-        568
+        568,
+        569,
+        570
       ],
       "segments": [
         {
@@ -15891,8 +16075,6 @@
         37.79492
       ],
       "fids": [
-        569,
-        570,
         571,
         572,
         573,
@@ -15905,7 +16087,9 @@
         580,
         581,
         582,
-        583
+        583,
+        584,
+        585
       ],
       "segments": [
         {
@@ -16912,8 +17096,6 @@
         37.79492
       ],
       "fids": [
-        584,
-        585,
         586,
         587,
         588,
@@ -16922,7 +17104,9 @@
         591,
         592,
         593,
-        594
+        594,
+        595,
+        596
       ],
       "segments": [
         {
@@ -17761,14 +17945,14 @@
         37.808586
       ],
       "fids": [
-        595,
-        596,
         597,
         598,
         599,
         600,
         601,
-        602
+        602,
+        603,
+        604
       ],
       "segments": [
         {
@@ -18029,8 +18213,6 @@
         37.807531
       ],
       "fids": [
-        603,
-        604,
         605,
         606,
         607,
@@ -18052,7 +18234,9 @@
         623,
         624,
         625,
-        626
+        626,
+        627,
+        628
       ],
       "segments": [
         {
@@ -18971,8 +19155,6 @@
         37.793407
       ],
       "fids": [
-        627,
-        628,
         629,
         630,
         631,
@@ -18986,7 +19168,9 @@
         639,
         640,
         641,
-        642
+        642,
+        643,
+        644
       ],
       "segments": [
         {
@@ -19427,8 +19611,6 @@
         37.784013
       ],
       "fids": [
-        643,
-        644,
         645,
         646,
         647,
@@ -19436,7 +19618,9 @@
         649,
         650,
         651,
-        652
+        652,
+        653,
+        654
       ],
       "segments": [
         {
@@ -20115,12 +20299,12 @@
         37.805289
       ],
       "fids": [
-        653,
-        654,
         655,
         656,
         657,
-        658
+        658,
+        659,
+        660
       ],
       "segments": [
         {
@@ -20861,8 +21045,6 @@
         37.793407
       ],
       "fids": [
-        419,
-        420,
         421,
         422,
         423,
@@ -20878,7 +21060,9 @@
         433,
         434,
         435,
-        436
+        436,
+        437,
+        438
       ],
       "segments": [
         {
@@ -21451,8 +21635,6 @@
         37.785729
       ],
       "fids": [
-        659,
-        660,
         661,
         662,
         663,
@@ -21475,7 +21657,9 @@
         680,
         681,
         682,
-        683
+        683,
+        684,
+        685
       ],
       "segments": [
         {
@@ -22120,8 +22304,6 @@
         37.793407
       ],
       "fids": [
-        684,
-        685,
         686,
         687,
         688,
@@ -22141,7 +22323,9 @@
         702,
         703,
         704,
-        705
+        705,
+        706,
+        707
       ],
       "segments": [
         {
@@ -22782,8 +22966,6 @@
         37.794281
       ],
       "fids": [
-        706,
-        707,
         708,
         709,
         710,
@@ -22800,7 +22982,9 @@
         721,
         722,
         723,
-        724
+        724,
+        725,
+        726
       ],
       "segments": [
         {
@@ -23474,8 +23658,6 @@
         37.789838
       ],
       "fids": [
-        725,
-        726,
         727,
         728,
         729,
@@ -23496,7 +23678,9 @@
         744,
         745,
         746,
-        747
+        747,
+        748,
+        749
       ],
       "segments": [
         {
@@ -24292,8 +24476,6 @@
         37.788999
       ],
       "fids": [
-        748,
-        749,
         750,
         751,
         752,
@@ -24319,7 +24501,9 @@
         772,
         773,
         774,
-        775
+        775,
+        776,
+        777
       ],
       "segments": [
         {
@@ -25032,8 +25216,6 @@
         37.784013
       ],
       "fids": [
-        776,
-        777,
         778,
         779,
         780,
@@ -25049,7 +25231,9 @@
         790,
         791,
         792,
-        793
+        793,
+        794,
+        795
       ],
       "segments": [
         {
@@ -25664,8 +25848,6 @@
         37.789284
       ],
       "fids": [
-        794,
-        795,
         796,
         797,
         798,
@@ -25679,7 +25861,9 @@
         806,
         807,
         808,
-        809
+        809,
+        810,
+        811
       ],
       "segments": [
         {
@@ -26338,15 +26522,15 @@
         37.793407
       ],
       "fids": [
-        437,
-        438,
         439,
         440,
         441,
         442,
         443,
         444,
-        445
+        445,
+        446,
+        447
       ],
       "segments": [
         {
@@ -26709,8 +26893,6 @@
         37.778681
       ],
       "fids": [
-        810,
-        811,
         812,
         813,
         814,
@@ -26730,7 +26912,9 @@
         828,
         829,
         830,
-        831
+        831,
+        832,
+        833
       ],
       "segments": [
         {
@@ -27379,8 +27563,6 @@
         37.793407
       ],
       "fids": [
-        832,
-        833,
         834,
         835,
         836,
@@ -27397,7 +27579,9 @@
         847,
         848,
         849,
-        850
+        850,
+        851,
+        852
       ],
       "segments": [
         {
@@ -27906,8 +28090,6 @@
         37.782556
       ],
       "fids": [
-        851,
-        852,
         853,
         854,
         855,
@@ -27916,7 +28098,9 @@
         858,
         859,
         860,
-        861
+        861,
+        862,
+        863
       ],
       "segments": [
         {
@@ -28217,12 +28401,12 @@
         37.805042
       ],
       "fids": [
-        862,
-        863,
         864,
         865,
         866,
-        867
+        867,
+        868,
+        869
       ],
       "segments": [
         {
@@ -28445,12 +28629,12 @@
         37.79492
       ],
       "fids": [
-        868,
-        869,
         870,
         871,
         872,
-        873
+        873,
+        874,
+        875
       ],
       "segments": [
         {
@@ -28743,12 +28927,12 @@
         37.79009
       ],
       "fids": [
-        874,
-        875,
         876,
         877,
         878,
-        879
+        879,
+        880,
+        881
       ],
       "segments": [
         {
@@ -29011,8 +29195,6 @@
         37.793407
       ],
       "fids": [
-        446,
-        447,
         448,
         449,
         450,
@@ -29030,7 +29212,9 @@
         462,
         463,
         464,
-        465
+        465,
+        466,
+        467
       ],
       "segments": [
         {
@@ -29615,8 +29799,6 @@
         37.784013
       ],
       "fids": [
-        880,
-        881,
         882,
         883,
         884,
@@ -29637,7 +29819,9 @@
         899,
         900,
         901,
-        902
+        902,
+        903,
+        904
       ],
       "segments": [
         {
@@ -30251,11 +30435,11 @@
         37.789284
       ],
       "fids": [
-        903,
-        904,
         905,
         906,
-        907
+        907,
+        908,
+        909
       ],
       "segments": [
         {
@@ -30469,8 +30653,6 @@
         37.793216
       ],
       "fids": [
-        908,
-        909,
         910,
         911,
         912,
@@ -30481,7 +30663,9 @@
         917,
         918,
         919,
-        920
+        920,
+        921,
+        922
       ],
       "segments": [
         {
@@ -30865,8 +31049,6 @@
         37.793407
       ],
       "fids": [
-        466,
-        467,
         468,
         469,
         470,
@@ -30879,7 +31061,9 @@
         477,
         478,
         479,
-        480
+        480,
+        481,
+        482
       ],
       "segments": [
         {
@@ -31889,8 +32073,6 @@
         37.793407
       ],
       "fids": [
-        481,
-        482,
         483,
         484,
         485,
@@ -31916,7 +32098,9 @@
         505,
         506,
         507,
-        508
+        508,
+        509,
+        510
       ],
       "segments": [
         {
@@ -32657,8 +32841,6 @@
         37.793407
       ],
       "fids": [
-        509,
-        510,
         511,
         512,
         513,
@@ -32672,7 +32854,9 @@
         521,
         522,
         523,
-        524
+        524,
+        525,
+        526
       ],
       "segments": [
         {
@@ -33137,8 +33321,6 @@
         37.793407
       ],
       "fids": [
-        525,
-        526,
         527,
         528,
         529,
@@ -33147,7 +33329,9 @@
         532,
         533,
         534,
-        535
+        535,
+        536,
+        537
       ],
       "segments": [
         {
@@ -33906,8 +34090,6 @@
         37.793407
       ],
       "fids": [
-        536,
-        537,
         538,
         539,
         540,
@@ -33917,7 +34099,9 @@
         544,
         545,
         546,
-        547
+        547,
+        548,
+        549
       ],
       "segments": [
         {
@@ -34328,7 +34512,7 @@
         37.977386
       ],
       "fids": [
-        297
+        299
       ],
       "segments": [
         {
@@ -34486,8 +34670,6 @@
         38.464226
       ],
       "fids": [
-        287,
-        288,
         289,
         290,
         291,
@@ -34495,7 +34677,9 @@
         293,
         294,
         295,
-        296
+        296,
+        297,
+        298
       ],
       "segments": [
         {
@@ -34993,14 +35177,14 @@
         38.852585
       ],
       "fids": [
-        1017,
-        1018,
         1019,
         1020,
         1021,
         1022,
         1023,
-        1024
+        1024,
+        1025,
+        1026
       ],
       "segments": [
         {
@@ -35362,11 +35546,11 @@
         37.806637
       ],
       "fids": [
-        357,
-        358,
         359,
         360,
-        361
+        361,
+        362,
+        363
       ],
       "segments": [
         {
@@ -35680,14 +35864,14 @@
         37.7762
       ],
       "fids": [
-        1148,
-        1149,
         1150,
         1151,
         1152,
         1153,
         1154,
-        1155
+        1155,
+        1156,
+        1157
       ],
       "segments": [
         {
@@ -35964,8 +36148,6 @@
         37.7762
       ],
       "fids": [
-        1134,
-        1135,
         1136,
         1137,
         1138,
@@ -35977,7 +36159,9 @@
         1144,
         1145,
         1146,
-        1147
+        1147,
+        1148,
+        1149
       ],
       "segments": [
         {
@@ -36457,9 +36641,9 @@
         38.401111
       ],
       "fids": [
-        304,
-        305,
-        306
+        306,
+        307,
+        308
       ],
       "segments": [
         {
@@ -36753,9 +36937,9 @@
         38.473244
       ],
       "fids": [
-        316,
-        317,
-        318
+        318,
+        319,
+        320
       ],
       "segments": [
         {
@@ -37001,15 +37185,15 @@
         38.445375
       ],
       "fids": [
-        307,
-        308,
         309,
         310,
         311,
         312,
         313,
         314,
-        315
+        315,
+        316,
+        317
       ],
       "segments": [
         {
@@ -37367,7 +37551,7 @@
         38.286441
       ],
       "fids": [
-        319
+        321
       ],
       "segments": [
         {
@@ -37532,7 +37716,7 @@
         38.242053
       ],
       "fids": [
-        286
+        288
       ],
       "segments": [
         {
@@ -37680,6 +37864,182 @@
       ]
     },
     {
+      "id": "psr-steamers",
+      "name": "Petaluma steamers, Petaluma to San Francisco",
+      "short_name": "Petaluma steamers",
+      "system": "petaluma-santa-rosa",
+      "system_name": "Petaluma & Santa Rosa Railway",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1904",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1935-12-23"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": "1904",
+      "closed": "1935-12-23",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Petaluma & Santa Rosa's river steamers, the Gold and others, from its landing at Petaluma down Petaluma Creek and across San Pablo Bay to the San Francisco waterfront, connecting with its electric cars.",
+      "fate": "abandoned",
+      "fate_note": "Passenger service ended and its tariff was cancelled effective December 23, 1935, with the Railroad Commission's authority (Decision No. 29778); the steamers went on carrying freight.",
+      "notes": "Opens in 1904, when the Railroad Commission says the company began the service; Borden has it buy the Gold in December 1903. Steamers had run between Petaluma and San Francisco since the 1850s under other owners, which this line doesn't draw. The course is drawn over water between the landings, not as steered.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 58.99,
+      "confidence_km": {
+        "approximate": 58.99
+      },
+      "bbox": [
+        -122.633806,
+        37.799281,
+        -122.394071,
+        38.236239
+      ],
+      "fids": [
+        209
+      ],
+      "segments": [
+        {
+          "id": "psr-steamer-course",
+          "name": "Steamer, Petaluma to San Francisco",
+          "opened": "1904",
+          "closed": "1935-12-23",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.63381,38.23624 to The Embarcadero/Broadway (59170 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course. From the Petaluma & Santa Rosa's landing at the foot of Copeland St, where its electric line began, down Petaluma Creek and across San Pablo Bay to Pier 9 at the foot of Broadway.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "From the foot of Copeland St, where Borden puts the steamer landing, to Pier 9 at the foot of Broadway (1918-33 directories). The San Francisco berth moved: the bulkhead between Washington and Jackson Sts in the 1903 directory, Pier 11 at the foot of Vallejo St in 1935's, both within about 300 m."
+        }
+      ],
+      "sources": [
+        {
+          "id": "crc-d28283",
+          "title": "Railroad Commission of California, Decision No. 28283 (Case No. 3824): the operative rights of vessel carriers",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1935-10-14",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D28283_19351014_C3824.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d28283",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "43-44",
+          "note": "\"The Petaluma-San Francisco service was inaugurated in 1904 by the Petaluma and Santa Rosa Railway Company\"; still \"transporting passengers and property on a regular schedule\" in 1935."
+        },
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "general",
+            "route"
+          ],
+          "pages": "6",
+          "note": "The stern-wheeler Gold, which \"had been plying daily between Petaluma and San Francisco for a number of years prior to its acquisition\", was bought in December, in the account of 1903."
+        },
+        {
+          "id": "crocker-langley-1903",
+          "title": "Crocker-Langley San Francisco Directory, 1903",
+          "publisher": "H. S. Crocker Company",
+          "date": "1903",
+          "type": "book",
+          "url": "https://archive.org/details/crockerlangleysa1903sanf",
+          "license": "Public domain (published 1903)",
+          "accessed": "2026-10-16",
+          "source": "crocker-langley-1903",
+          "supports": [
+            "route"
+          ],
+          "pages": "1736"
+        },
+        {
+          "id": "crocker-langley-1923",
+          "title": "Crocker-Langley San Francisco Directory, 1923",
+          "publisher": "R. L. Polk & Co.",
+          "date": "1923",
+          "type": "book",
+          "url": "https://archive.org/details/crockerlangleysa1923rlporich",
+          "license": "Public domain (published 1923)",
+          "accessed": "2026-10-16",
+          "source": "crocker-langley-1923",
+          "supports": [
+            "route"
+          ],
+          "pages": "1337"
+        },
+        {
+          "id": "polk-sf-directory-1935",
+          "title": "Polk's Crocker-Langley San Francisco City Directory, 1935",
+          "publisher": "R. L. Polk & Co.",
+          "date": "1935",
+          "type": "book",
+          "url": "https://archive.org/details/polkscrockerlang0000vari_f2c9",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "polk-sf-directory-1935",
+          "supports": [
+            "route"
+          ],
+          "pages": "919"
+        },
+        {
+          "id": "crc-d29778",
+          "title": "Railroad Commission of California, Decision No. 29778 (Cases No. 3824 and 4012), opinion on further hearing",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1937-05-24",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D29778_19370524_C3824.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d29778",
+          "supports": [
+            "closed"
+          ],
+          "pages": "16",
+          "note": "\"Passenger service between San Francisco and Petaluma was discontinued and the tariff cancelled effective December 23, 1935\"."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "key-c",
       "name": "Piedmont line",
       "short_name": "C",
@@ -37718,15 +38078,15 @@
         37.830986
       ],
       "fids": [
-        228,
-        229,
         230,
         231,
         232,
         233,
         234,
         235,
-        236
+        236,
+        237,
+        238
       ],
       "segments": [
         {
@@ -38390,8 +38750,6 @@
         38.42361
       ],
       "fids": [
-        320,
-        321,
         322,
         323,
         324,
@@ -38407,7 +38765,9 @@
         334,
         335,
         336,
-        337
+        337,
+        338,
+        339
       ],
       "segments": [
         {
@@ -39220,8 +39580,6 @@
         37.887944
       ],
       "fids": [
-        256,
-        257,
         258,
         259,
         260,
@@ -39232,7 +39590,9 @@
         265,
         266,
         267,
-        268
+        268,
+        269,
+        270
       ],
       "segments": [
         {
@@ -39701,12 +40061,12 @@
         37.795493
       ],
       "fids": [
-        346,
-        347,
         348,
         349,
         350,
-        351
+        351,
+        352,
+        353
       ],
       "segments": [
         {
@@ -40034,7 +40394,7 @@
         38.519886
       ],
       "fids": [
-        1025
+        1027
       ],
       "segments": [
         {
@@ -40216,12 +40576,12 @@
         38.809809
       ],
       "fids": [
-        1002,
-        1003,
         1004,
         1005,
         1006,
-        1007
+        1007,
+        1008,
+        1009
       ],
       "segments": [
         {
@@ -40508,15 +40868,15 @@
         38.809809
       ],
       "fids": [
-        1008,
-        1009,
         1010,
         1011,
         1012,
         1013,
         1014,
         1015,
-        1016
+        1016,
+        1017,
+        1018
       ],
       "segments": [
         {
@@ -41002,8 +41362,8 @@
         37.908
       ],
       "fids": [
-        343,
-        344
+        345,
+        346
       ],
       "segments": [
         {
@@ -41241,11 +41601,11 @@
         38.049065
       ],
       "fids": [
-        338,
-        339,
         340,
         341,
-        342
+        342,
+        343,
+        344
       ],
       "segments": [
         {
@@ -41762,10 +42122,10 @@
         38.453806
       ],
       "fids": [
-        282,
-        283,
         284,
-        285
+        285,
+        286,
+        287
       ],
       "segments": [
         {
@@ -42063,10 +42423,10 @@
         37.977386
       ],
       "fids": [
-        298,
-        299,
         300,
-        301
+        301,
+        302,
+        303
       ],
       "segments": [
         {
@@ -42272,11 +42632,11 @@
         38.434321
       ],
       "fids": [
-        1036,
-        1037,
         1038,
         1039,
-        1040
+        1040,
+        1041,
+        1042
       ],
       "segments": [
         {
@@ -42443,15 +42803,15 @@
         37.824321
       ],
       "fids": [
-        1092,
-        1093,
         1094,
         1095,
         1096,
         1097,
         1098,
         1099,
-        1100
+        1100,
+        1101,
+        1102
       ],
       "segments": [
         {
@@ -42950,8 +43310,6 @@
         37.891481
       ],
       "fids": [
-        1057,
-        1058,
         1059,
         1060,
         1061,
@@ -42969,7 +43327,9 @@
         1073,
         1074,
         1075,
-        1076
+        1076,
+        1077,
+        1078
       ],
       "segments": [
         {
@@ -43589,12 +43949,12 @@
         38.440268
       ],
       "fids": [
-        1030,
-        1031,
         1032,
         1033,
         1034,
-        1035
+        1035,
+        1036,
+        1037
       ],
       "segments": [
         {
@@ -43956,8 +44316,6 @@
         37.796576
       ],
       "fids": [
-        1041,
-        1042,
         1043,
         1044,
         1045,
@@ -43967,7 +44325,9 @@
         1049,
         1050,
         1051,
-        1052
+        1052,
+        1053,
+        1054
       ],
       "segments": [
         {
@@ -44527,9 +44887,9 @@
         38.032436
       ],
       "fids": [
-        1156,
-        1157,
-        1158
+        1158,
+        1159,
+        1160
       ],
       "segments": [
         {
@@ -44773,10 +45133,10 @@
         38.462654
       ],
       "fids": [
-        1026,
-        1027,
         1028,
-        1029
+        1029,
+        1030,
+        1031
       ],
       "segments": [
         {
@@ -45026,9 +45386,9 @@
         37.790312
       ],
       "fids": [
-        352,
-        353,
-        354
+        354,
+        355,
+        356
       ],
       "segments": [
         {
@@ -45174,15 +45534,15 @@
         37.789106
       ],
       "fids": [
-        922,
-        923,
         924,
         925,
         926,
         927,
         928,
         929,
-        930
+        930,
+        931,
+        932
       ],
       "segments": [
         {
@@ -45450,8 +45810,6 @@
         37.82911
       ],
       "fids": [
-        245,
-        246,
         247,
         248,
         249,
@@ -45460,7 +45818,9 @@
         252,
         253,
         254,
-        255
+        255,
+        256,
+        257
       ],
       "segments": [
         {
@@ -45937,14 +46297,14 @@
         37.82911
       ],
       "fids": [
-        237,
-        238,
         239,
         240,
         241,
         242,
         243,
-        244
+        244,
+        245,
+        246
       ],
       "segments": [
         {
@@ -46331,10 +46691,10 @@
         37.80035
       ],
       "fids": [
-        375,
-        376,
         377,
-        378
+        378,
+        379,
+        380
       ],
       "segments": [
         {
@@ -46675,8 +47035,6 @@
         37.79562
       ],
       "fids": [
-        363,
-        364,
         365,
         366,
         367,
@@ -46685,7 +47043,9 @@
         370,
         371,
         372,
-        373
+        373,
+        374,
+        375
       ],
       "segments": [
         {
@@ -46941,12 +47301,12 @@
         37.803847
       ],
       "fids": [
-        1128,
-        1129,
         1130,
         1131,
         1132,
-        1133
+        1133,
+        1134,
+        1135
       ],
       "segments": [
         {

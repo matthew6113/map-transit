@@ -111,6 +111,12 @@
       "notes": "The Key Route trains and ferries, from 1903, under several corporate names; each line lists its operators by date."
     },
     {
+      "id": "mare-island-ferry",
+      "name": "Mare Island ferry",
+      "short_name": "Mare Island ferry",
+      "notes": "The foot-passenger ferry across the Mare Island Strait between Vallejo and the Navy Yard, run by the Six-Minute Ferry until 1922, the Rodeo-Vallejo Ferry Company in 1922-23 and the Mare Island Ferry company from 1923 to 1986."
+    },
+    {
       "id": "market-street-cable-railway",
       "name": "Market Street Cable Railway",
       "short_name": "Market St Cable"

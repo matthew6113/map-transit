@@ -40,6 +40,8 @@ running.
 | Santa Rosa horsecars, Fourth St and McDonald Ave | The San Francisco & North Pacific depot along Fourth St to McDonald Ave and north to the Rural Cemetery | Fourth St track completed and running in 1877 (*Santa Rosa City R. Co. v. Central St. Ry. Co.*, 4 Cal. Unrep. 950, pp. 952-954, image; Borden has 1878); suspended early 1893 to 1898 (Borden, p. 3, image; ASRI Feb 1897, p. 246); sold to the Union Street Railway Dec 24, 1897 (*Los Angeles Times*; Borden p. 4; his p. 3 has Dec 27); running in 1902 (census), Mar 1903 and Mar 1906 (directories); end unsourced (Borden: "until 1905", and "not known") | Today's 4th St and McDonald Ave, checked on the 1954 (and for McDonald Ave the 1916) sheets. Not drawn: the loop around the courthouse on Borden's map |
 | Petaluma Street Railroad | 12th and F Sts by F, 6th and Liberty Sts, Western Ave, Kentucky St and Washington St across Petaluma Creek to Payran St | Incorporated Oct 14, 1889 (Borden p. 5, image); sheriff's sale Sept 27, 1897 (*Los Angeles Times*; Borden and ASRI 1903 have a foreclosure in 1900); running Dec 1901-Nov 1902 (census p. 236) and Mar 1903 (ASRI p. 11); bought by the P&SR in 1903 (Borden; CRC D2348 p. 760); opening and end unsourced | Today's streets on Borden's 1897 route, checked on the 1914 and 1953 sheets. Not drawn: Payran St to just beyond Mary St, and the fairgrounds branch |
 | Southern Pacific, Dumbarton Cutoff | Redwood City by Redwood Junction, the Dumbarton bridge, Newark and Centerville to Niles | First regular passenger train Dec 26, 1911 (*Times-Gazette*, Dec 30, pp. 1-2, image); four trains a day, by 1914 one mixed each way (SP timetable No. 153, p. 15, image); off for a time in 1912, back by Sept 21 (*Times-Gazette*); passengers ended with the timetable of Oct 1, 1916 (*Washington Press*, Oct 7, p. 1; timetable No. 167, p. 16, images) | OpenHistoricalMap's ways, within 3 m of today's track; checked on the 1915 Hayward and 1948-53 sheets. Not drawn: Redwood City station to Redwood Junction, on the Peninsula main line |
+| Petaluma steamers (P&SR) | The foot of Copeland St, Petaluma, down Petaluma Creek and across San Pablo Bay to San Francisco: the bulkhead between Washington and Jackson Sts (1903), Pier 9 at Broadway (1918-33), Pier 11 at Vallejo St (1935) | Service begun 1904 (CRC D28283 p. 44, image; Borden: the *Gold* bought Dec 1903); passengers ended effective Dec 23, 1935 (CRC D29778 p. 16, image); directories of 1903, 1923, 1935 (images) | Over water to Pier 9 (approximate). Not sourced: when the San Francisco berth moved |
+| Mare Island ferry | The foot of Georgia St, Vallejo, across the Mare Island Strait to the Navy Yard (and Ryder St by 1943) | Bought by the Rodeo-Vallejo Ferry Co. Mar 21, 1922 and sold Apr 1923 (CRC D14728, vol. 26 p. 189, image); running 1923, 1935, 1943 (CRC D11668, D28282, D36613, images); ceased Aug 29, 1986 (*The Fare Box*, Sept 1986, p. 100, image, from the *West County Times*); opening unsourced | Traced from the 1916 Mare Island sheet's dashed course (est. 100 m). Not sourced: the Mare Island slips' place |
 
 ## Not drawn yet, and what each needs
 
@@ -138,7 +140,9 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 
 - **Benicia–Port Costa** (the train ferry, 1879–1930) and **Martinez–Benicia** (1913–1962): drawn,
   from the 1898 Karquines and 1952 Benicia sheets.
-- **Mare Island, the Petaluma steamers:** dates are web pointers only.
+- **Mare Island, the Petaluma steamers:** drawn (see above; `sources-2c/steamers.md`). Not
+  drawn: the Petaluma steamers before the Petaluma & Santa Rosa (from the 1850s; the *Gold* from
+  1883), whose owners and landings are only partly sourced, and the Mare Island ferry before 1922.
 - **Santa Fe:** drawn to Ferry Point (see above). For Matthew: the *San Francisco Call* of July 2, 1900, p. 3 (and July 3, pp. 4, 6, 8; July 4, p. 4) has the first train, and loc.gov's page text can't be reached from here; the Santa Fe and Southern Pacific employee timetables (California State Railroad Museum, "Copyright Status Unknown") are cited for facts only.
 - **North Pacific Coast:** drawn to Sheridan, past Monte Rio. Still to do: Sheridan to Duncans Mills
   and up Austin Creek to Cazadero (1886), on no sheet of its years (a map to georeference by hand, such
@@ -231,6 +235,10 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   Petaluma's opening: the Fourth District Agricultural Association's report for the year to December
   1, 1890 (*Appendix to the Journals*, 1893, vol. 5, archive.org `appendixtojourna18935cali`, near
   leaf 519) lists a receipt "From Petaluma Street Railway Company", read in the scan's text only.
+- **Mare Island ferry:** the *West County Times* or *Vallejo Times-Herald* of August 29-30, 1986, to
+  confirm its last day, which now rests on a collectors' newsletter.
+- **Petaluma steamers:** a San Francisco waterfront map of the 1900s-1930s to place the berths (the
+  bulkhead between Washington and Jackson Sts, Pier 9, Pier 11), if you want each drawn in its years.
 - **California & Nevada:** a map of its line to georeference (the Library of Congress's "Map
   shewing the California and Nevada railroad", or the Santa Fe's later right of way), if you want
   its few public trains drawn.

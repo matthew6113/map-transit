@@ -508,6 +508,189 @@
       ],
       "flags": [],
       "notes": "Run from 1913 by the Martinez-Benicia Ferry and Transportation Company, later by the American Toll Bridge Company and others, and from 1953 by the state (California Highways and Public Works, 1962). From early 1955 to late 1956 only a passenger ferry ran."
+    },
+    {
+      "id": "psr-steamers",
+      "name": "Petaluma steamers, Petaluma to San Francisco",
+      "short_name": "Petaluma steamers",
+      "system": "petaluma-santa-rosa",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1904",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1935-12-23"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": "1904",
+      "closed": "1935-12-23",
+      "status": "closed",
+      "summary": "The Petaluma & Santa Rosa's river steamers, the Gold and others, from its landing at Petaluma down Petaluma Creek and across San Pablo Bay to the San Francisco waterfront, connecting with its electric cars.",
+      "fate": "abandoned",
+      "fate_note": "Passenger service ended and its tariff was cancelled effective December 23, 1935, with the Railroad Commission's authority (Decision No. 29778); the steamers went on carrying freight.",
+      "route": [
+        {
+          "segment": "psr-steamer-course"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d28283",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "43-44",
+          "note": "\"The Petaluma-San Francisco service was inaugurated in 1904 by the Petaluma and Santa Rosa Railway Company\"; still \"transporting passengers and property on a regular schedule\" in 1935."
+        },
+        {
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "general"
+          ],
+          "pages": "6",
+          "note": "The stern-wheeler Gold, which \"had been plying daily between Petaluma and San Francisco for a number of years prior to its acquisition\", was bought in December, in the account of 1903."
+        },
+        {
+          "source": "crocker-langley-1903",
+          "supports": [
+            "route"
+          ],
+          "pages": "1736"
+        },
+        {
+          "source": "crocker-langley-1923",
+          "supports": [
+            "route"
+          ],
+          "pages": "1337"
+        },
+        {
+          "source": "polk-sf-directory-1935",
+          "supports": [
+            "route"
+          ],
+          "pages": "919"
+        },
+        {
+          "source": "crc-d29778",
+          "supports": [
+            "closed"
+          ],
+          "pages": "16",
+          "note": "\"Passenger service between San Francisco and Petaluma was discontinued and the tariff cancelled effective December 23, 1935\"."
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Opens in 1904, when the Railroad Commission says the company began the service; Borden has it buy the Gold in December 1903. Steamers had run between Petaluma and San Francisco since the 1850s under other owners, which this line doesn't draw. The course is drawn over water between the landings, not as steered."
+    },
+    {
+      "id": "mare-island-ferry",
+      "name": "Mare Island ferry, Vallejo to the Navy Yard",
+      "short_name": "Mare Island ferry",
+      "system": "mare-island-ferry",
+      "operators": [
+        {
+          "name": "Rodeo-Vallejo Ferry Company",
+          "from": "1922-03-21",
+          "to": "1923-04"
+        },
+        {
+          "name": "Mare Island Ferry",
+          "from": null,
+          "to": "1986-08-29"
+        }
+      ],
+      "mode": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1986-08-29",
+      "status": "closed",
+      "summary": "Foot-passenger ferries across the Mare Island Strait, about a quarter mile, between Vallejo and the Mare Island Navy Yard.",
+      "fate": "abandoned",
+      "fate_note": "It \"ceased all operations August 29\", 1986 (The Fare Box, from the West County Times of August 30, 1986).",
+      "route": [
+        {
+          "segment": "mare-island-ferry-course"
+        }
+      ],
+      "running": [
+        {
+          "date": "1922-03-21",
+          "source": "crc-d14728",
+          "pages": "189",
+          "note": "\"the passenger ferry operating between Mare Island and Vallejo\", bought that day by the Rodeo-Vallejo Ferry Company."
+        },
+        {
+          "date": "1923-02-16",
+          "source": "crc-d11668",
+          "pages": "99"
+        },
+        {
+          "date": "1935-10-14",
+          "source": "crc-d28282",
+          "pages": "9",
+          "note": "\"now operates a scheduled service for the transportation of passengers\"."
+        },
+        {
+          "date": "1943-09-21",
+          "source": "crc-d36613",
+          "pages": "1"
+        }
+      ],
+      "sources": [
+        {
+          "source": "crc-d14728",
+          "supports": [
+            "general"
+          ],
+          "pages": "189"
+        },
+        {
+          "source": "crc-d11668",
+          "supports": [
+            "route"
+          ],
+          "pages": "99",
+          "note": "The Georgia St terminal at Vallejo and the government's terminal on Mare Island; the steamer Vallejo."
+        },
+        {
+          "source": "crc-d28282",
+          "supports": [
+            "general"
+          ],
+          "pages": "9",
+          "note": "A tariff on file from August 17, 1923, and \"a common carrier service for many years prior\"."
+        },
+        {
+          "source": "crc-d36613",
+          "supports": [
+            "route"
+          ],
+          "pages": "1",
+          "note": "Two slips on each side, Georgia St and Ryder St at Vallejo, about a quarter mile apart across the strait."
+        },
+        {
+          "source": "fare-box-1986-09",
+          "supports": [
+            "closed"
+          ],
+          "pages": "100"
+        }
+      ],
+      "flags": [
+        "opened_unsourced"
+      ],
+      "notes": "Its opening isn't sourced: accounts put the first ferry in the 1850s or 1860s, and the Railroad Commission says only that it had run \"for many years\" before 1923. Drawn from 1922, the first date a source shows it running (decision 20). Its last day, August 29, 1986, rests on a collectors' newsletter relaying the West County Times, which hasn't been read itself."
     }
   ]
 }
