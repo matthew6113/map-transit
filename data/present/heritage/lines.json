@@ -1,0 +1,141 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The heritage railways that carry the public today; GTFS doesn't cover them. Research: docs/research/sources-2c/heritage.md.",
+ "lines": [
+  {
+   "id": "niles-canyon-railway",
+   "name": "Niles Canyon Railway, Niles to Sunol",
+   "short_name": "Niles Canyon Railway",
+   "system": "niles-canyon-railway",
+   "operators": [
+    {
+     "name": "Pacific Locomotive Association"
+    }
+   ],
+   "mode": "heritage",
+   "era": "present",
+   "opened": null,
+   "closed": null,
+   "status": "active",
+   "summary": "Excursion trains behind diesel and steam through Niles Canyon between Sunol and Niles, on select weekends, run by volunteers of the Pacific Locomotive Association.",
+   "route": [
+    {
+     "segment": "ncry-niles-sunol"
+    }
+   ],
+   "sources": [
+    {
+     "source": "cpuc-rceb-g1006014",
+     "supports": [
+      "operator",
+      "general"
+     ],
+     "pages": "1",
+     "note": "Track of the Pacific Locomotive Association, on a right of way the county owns; \"A few tourist/excursion trains per week\" (2010)."
+    },
+    {
+     "source": "classic-trains-2009-spring",
+     "supports": [
+      "route",
+      "general"
+     ],
+     "pages": "69",
+     "note": "The first train ran into Sunol on May 21, 1988; Niles to Sunol, 7 miles."
+    }
+   ],
+   "flags": [
+    "opened_unsourced"
+   ],
+   "notes": "Its first train ran on May 21, 1988 (Classic Trains); left null here because today's network takes its dates from official sources only. Its public trains board at Sunol in 2026, by its own schedule (ncry.org, seen only through a search)."
+  },
+  {
+   "id": "napa-valley-wine-train",
+   "name": "Napa Valley Wine Train, Napa to St. Helena",
+   "short_name": "Wine Train",
+   "system": "napa-valley-wine-train",
+   "operators": [
+    {
+     "name": "Napa Valley Wine Train, Inc."
+    }
+   ],
+   "mode": "heritage",
+   "era": "present",
+   "opened": null,
+   "closed": null,
+   "status": "active",
+   "summary": "Dining trains from the McKinstry St station in Napa up the valley to St. Helena and back, a 36-mile round trip on the Southern Pacific's old Napa Valley branch.",
+   "route": [
+    {
+     "segment": "nvwt-napa-st-helena"
+    }
+   ],
+   "sources": [
+    {
+     "source": "cpuc-rceb-xreq2021060004",
+     "supports": [
+      "route",
+      "general"
+     ],
+     "pages": "1",
+     "note": "\"The NVRR operates four passenger trains per day\" through the Soscol Ave crossing (2021)."
+    },
+    {
+     "source": "cpuc-rceb-xreq2023060004",
+     "supports": [
+      "operator"
+     ],
+     "pages": "1"
+    },
+    {
+     "source": "railfan-railroad-1989-11",
+     "supports": [
+      "general"
+     ],
+     "pages": "46",
+     "note": "The Public Utilities Commission's approval of August 23, 1989; service to begin as early as September 16."
+    }
+   ],
+   "flags": [
+    "opened_unsourced"
+   ],
+   "notes": "Railfan & Railroad gives the Public Utilities Commission's approval of August 23, 1989 and a start as early as September 16, 1989; left null here because today's network takes its dates from official sources only, and the Commission's 1989 decision isn't online. Wine Industry Advisor announced a ride for March 24, 2026 (February 24, 2026, seen only through a search)."
+  },
+  {
+   "id": "western-railway-museum",
+   "name": "Western Railway Museum, Rio Vista Junction",
+   "short_name": "Western Railway Museum",
+   "system": "western-railway-museum",
+   "operators": [
+    {
+     "name": "Bay Area Electric Railroad Association"
+    }
+   ],
+   "mode": "heritage",
+   "era": "present",
+   "opened": null,
+   "closed": null,
+   "status": "active",
+   "summary": "Interurban and streetcar rides at the Western Railway Museum, south from Rio Vista Junction over the Sacramento Northern's old main line, on weekends.",
+   "route": [
+    {
+     "segment": "wrm-rio-vista-jct-south"
+    }
+   ],
+   "sources": [
+    {
+     "source": "railfan-railroad-1989-03",
+     "supports": [
+      "route",
+      "general"
+     ],
+     "pages": "30",
+     "note": "Operating 8 miles of the former Sacramento Northern main line by 1989."
+    }
+   ],
+   "flags": [
+    "opened_unsourced",
+    "status_unverified"
+   ],
+   "notes": "When rides on the Sacramento Northern's main line began isn't sourced (by 1989, Railfan & Railroad). Its current schedule couldn't be confirmed here: wrm.org was unreachable, and search found no 2026 listing."
+  }
+ ]
+}

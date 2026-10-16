@@ -240,6 +240,13 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   confirm its last day, which now rests on a collectors' newsletter.
 - **Petaluma steamers:** a San Francisco waterfront map of the 1900s-1930s to place the berths (the
   bulkhead between Washington and Jackson Sts, Pier 9, Pier 11), if you want each drawn in its years.
+- **Heritage railways (drawn: Niles Canyon, the Wine Train, the Western Railway Museum):** the
+  operators' own pages couldn't be reached here (ncry.org, winetrain.com, wrm.org), so their 2026
+  schedules were seen only through a search, and the museum's not at all. Your calls: whether to
+  draw the Niles Canyon Railway's track east of Sunol (six trains a year, CPUC 2016), and whether
+  the Railroad Museum at Ardenwood (3 ft gauge, about a mile in the park) and the History Park
+  trolley go in as short lines, as points, or not at all. Miniature park railways are left out
+  (`sources-2c/heritage.md`).
 - **California & Nevada:** a map of its line to georeference (the Library of Congress's "Map
   shewing the California and Nevada railroad", or the Santa Fe's later right of way), if you want
   its few public trains drawn.

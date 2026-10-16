@@ -144,6 +144,18 @@
       "short_name": "Muni"
     },
     {
+      "id": "napa-valley-wine-train",
+      "name": "Napa Valley Wine Train",
+      "short_name": "Wine Train",
+      "notes": "Dining trains on the Napa Valley Railroad, the Southern Pacific's old Napa Valley branch, from 1989."
+    },
+    {
+      "id": "niles-canyon-railway",
+      "name": "Niles Canyon Railway",
+      "short_name": "Niles Canyon Railway",
+      "notes": "The Pacific Locomotive Association's heritage railway through Niles Canyon, on the Southern Pacific's line of 1869, relaid from 1987."
+    },
+    {
       "id": "north-pacific-coast",
       "name": "North Pacific Coast Railroad",
       "short_name": "North Pacific Coast",
@@ -258,6 +270,12 @@
       "id": "vta",
       "name": "Santa Clara Valley Transportation Authority",
       "short_name": "VTA"
+    },
+    {
+      "id": "western-railway-museum",
+      "name": "Western Railway Museum",
+      "short_name": "Western Railway Museum",
+      "notes": "The Bay Area Electric Railroad Association's museum at Rio Vista Junction, running interurbans on the Sacramento Northern's old main line."
     }
   ]
 }

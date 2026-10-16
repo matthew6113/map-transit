@@ -2,6 +2,18 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The heritage railways, in today's network
+
+- **Niles Canyon Railway, Napa Valley Wine Train and Western Railway Museum**
+  (`present/heritage/`), the three the schema names, in the `heritage` mode (off by default). GTFS
+  doesn't carry them, so each is drawn along OpenStreetMap's ways named for it (Overture rail):
+  Niles to Sunol, 6.4 mi; Napa's McKinstry St station to St. Helena, 17.8 mi; Rio Vista Junction
+  south, 5.7 mi. Operators and service from the Public Utilities Commission's crossing letters of
+  2010-23 where they exist. Their openings (May 21, 1988; September 16, 1989; by 1989) come from
+  railfan journals, so they stay null under today's network's official-only rule, and the museum's
+  current schedule couldn't be confirmed (`status_unverified`).
+- `make past` now also builds a present-era group with a `trace.json`.
+
 ## 2026-10-16: The Southern Pacific's Oakland–San José trains by Newark, to 1960
 
 - **Oakland Pier to San José by Elmhurst and Newark** (`sp-east-bay/`): the Southern Pacific's

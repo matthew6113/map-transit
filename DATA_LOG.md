@@ -287,8 +287,8 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, the Santa Fe from Bay Point to Richmond, the Sonoma Valley's lines (where OpenStreetMap maps their abandoned grades, class `unknown`), and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways); and in Oakland (-122.34, 37.70, -122.15, 37.82), for checking the Southern Pacific's Oakland–San José route against today's track. |
-| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) `sonoma` (-122.92, 38.22, -122.62, 38.50) and `santafe` (-122.42, 37.82, -121.55, 38.07). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, the Santa Fe from Bay Point to Richmond, the Sonoma Valley's lines (where OpenStreetMap maps their abandoned grades, class `unknown`), and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways); the Southern Pacific's connection across the West Oakland yard; and the present era's heritage railways, which GTFS doesn't cover: OpenStreetMap's ways named "Niles Canyon Railway", "Napa Valley Railroad" and "Western Railway Museum" (`data/present/heritage/`). |
+| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) `sonoma` (-122.92, 38.22, -122.62, 38.50), `santafe` (-122.42, 37.82, -121.55, 38.07), `oakland` (-122.34, 37.70, -122.15, 37.82), `nilescanyon` (-122.0, 37.565, -121.86, 37.645) and `riovista` (-121.90, 38.11, -121.85, 38.215). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
 | Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
 | Gaps | Today's track only: realignments since the line's years must be found on the sheets. |
@@ -330,8 +330,8 @@ The geometry tools are below (decision 12).
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
 | past | 133 | 557 | 11 | 677.3 | 596.6 | 182.0 | 8 | 509 |
-| present | 44 | 142 | 275 | 1667.4 | 0 | 0 | 11 | 50 |
+| present | 47 | 145 | 275 | 1715.4 | 0 | 0 | 14 | 50 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 550, `conflicting_sources` 34, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 851, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 550, `conflicting_sources` 34, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 857, `page_unverified` 1, `status_unverified` 7.
 <!-- coverage:end -->

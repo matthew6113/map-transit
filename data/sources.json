@@ -1208,6 +1208,18 @@
       "notes": "J. J. Teuscher, \"Last Ferry\": \"On September 15, 1962, the Benicia-Martinez Ferry made its last trip across the Carquinez Straits\"; the state took the ferry over in 1953; \"From early in 1955 to late in 1956 the only ferry between Benicia and Martinez was a passenger ferry\" (pp. 5-6). Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "classic-trains-2009-spring",
+      "title": "Classic Trains, Spring 2009: Elrond Lawrence, on the Niles Canyon Railway",
+      "author": "Elrond Lawrence",
+      "publisher": "Kalmbach Publishing",
+      "date": "2009",
+      "type": "journal",
+      "url": "https://archive.org/details/classic-trains-spring-2009-images",
+      "license": "Copyright (2009); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 69: \"SP ended service on its historic route in 1984. Alameda County took title to the right of way, and the rails were pulled up.\" The Pacific Locomotive Association \"contracted with the county to restore the track between Niles and Sunol, 7 miles. On May 21, 1988, California Western railbus M200 rolled into Sunol, and the Niles Canyon Railway was born.\" \"Passengers can now board at either Niles or Sunol.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "contra-costa-history-1926",
       "title": "History of Contra Costa County, California",
       "author": "J. P. Munro-Fraser and others",
@@ -1332,6 +1344,39 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-16",
       "notes": "p. 10: Southern Pacific \"is hereby authorized to discontinue the operations of passenger trains Nos. 73, 74, 250 and 255 between Oakland and San Jose and intermediate points\"; p. 11: effective twenty days after April 12, 1960. p. 1: Nos. 250 and 255 were \"the Oakland section of the Coast Daylight\". Read on the scanned pages by the research pass; p. 10 on October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-g1006014",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter G1006014: State Route 84, Rosewarnes and Farwell underpasses",
+      "publisher": "California Public Utilities Commission",
+      "date": "2010-07-22",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2010/G1006014%20SR84%20Niles%20Canyon%20-%20Alameda%20Co%20(Caltrans).pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"under track of the Pacific Locomotive Association, Inc. (PLA) in the City of Fremont and County of Alameda (County). The railroad right-of-way is owned by the County.\" \"A few tourist/excursion trains per week operate along the track at 10 MPH or less.\" Read October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-xreq2021060004",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter XREQ2021060004: Soscol Avenue, Napa",
+      "publisher": "California Public Utilities Commission",
+      "date": "2021-06-28",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2021/XREQ2021060004_SoscolAvenue_Napa.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the Soscol Avenue crossing \"of the Napa Valley Railroad (NVRR) track\"; \"The NVRR operates four passenger trains per day at a maximum speed of 25 miles per hour through the crossing.\" Read October 16, 2026."
+    },
+    {
+      "id": "cpuc-rceb-xreq2023060004",
+      "title": "California Public Utilities Commission, Rail Crossings and Engineering Branch, GO 88-B letter XREQ2023060004: Redwood Road, Napa",
+      "publisher": "California Public Utilities Commission",
+      "date": "2023-06-30",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/rail/RCEB/GO88/2023/XREQ2023060004_Redwood%20Rd_Napa_NVRR.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"the Redwood Road rail crossing (crossing) of the Napa Valley Wine Train (NVRR) track(s), in the City of Napa\". Read October 16, 2026."
     },
     {
       "id": "cpuc-vta-safety-review-2011",
@@ -2881,7 +2926,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), oakland (-122.34, 37.7, -122.15, 37.82), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), oakland (-122.34, 37.7, -122.15, 37.82), nilescanyon (-122.0, 37.565, -121.86, 37.645), riovista (-121.9, 38.11, -121.85, 38.215), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",
@@ -3007,6 +3052,28 @@
       "license": "Public domain (published 1912)",
       "accessed": "2026-10-14",
       "notes": "pp. 460–463 (p. 460, the first, carries no folio), with a map of the lines on p. 460. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "railfan-railroad-1989-03",
+      "title": "Railfan & Railroad, March 1989: Railnews, the Western Railway Museum",
+      "publisher": "Carstens Publications",
+      "date": "1989-03",
+      "type": "journal",
+      "url": "https://archive.org/details/railfan-railroad-mar-1989-images",
+      "license": "Copyright (1989); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 30: \"In addition to 1½ miles of its own trackage under wire, WRM operates an eight-mile segment of the former Sacramento Northern Oakland-Sacramento main line (now an unused UP branch).\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "railfan-railroad-1989-11",
+      "title": "Railfan & Railroad, November 1989: Railnews, the Napa Valley Wine Train",
+      "publisher": "Carstens Publications",
+      "date": "1989-11",
+      "type": "journal",
+      "url": "https://archive.org/details/railfan-railroad-nov-1989-images",
+      "license": "Copyright (1989); cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 46: \"On August 23, 1989, the California Public Utilities Commission gave the highball to the Napa Valley Wine Train for tourist operations on the Napa Valley Railroad\", service to \"begin as early as September 16\"; \"36-mile, three-hour round trips\". Read on the page image by the research pass."
     },
     {
       "id": "railroad-gazette-1900-05-04",

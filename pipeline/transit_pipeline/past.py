@@ -1,7 +1,9 @@
 """Past-era geometry from its recipes (decision 12): `make past`.
 
 Past-era data is hand-edited, except for the geometry, which is rebuilt from
-data/past/<group>/trace.json so that every traced line can be redone and checked:
+data/past/<group>/trace.json so that every traced line can be redone and checked. A present-era group
+that GTFS doesn't cover (data/present/heritage/, the heritage railways) is built the same way from its
+own trace.json:
 
     {"segments": {"<segment id>": {
         "parts": [                                   # joined in order
@@ -410,6 +412,7 @@ def main() -> None:
     if shared.exists():
         FITS.update({k: v for k, v in json.loads(shared.read_text()).items() if not k.startswith("$")})
     groups = sorted(p for p in PAST.glob("*") if (p / "trace.json").exists())
+    groups += sorted(p for p in (DATA / "present").glob("*") if (p / "trace.json").exists())
     files, features, items = {}, {}, []
     for group in groups:
         recipes = json.loads((group / "trace.json").read_text())
