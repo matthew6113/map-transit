@@ -164,6 +164,11 @@ SHEETS = [
     Sheet("usgs-jersey-1910", "Jersey", 31680, 1910, "296187", None, "1:31,680 sheet, surveyed 1908, edition of 1910"),
     Sheet("usgs-brentwood-1914", "Brentwood", 31680, 1914, "295948", None, "1:31,680 sheet, surveyed 1911, edition of 1914"),
     Sheet("usgs-woodward-island-1913", "Woodward Island", 31680, 1913, "296614", None, "1:31,680 sheet, surveyed 1911, edition of 1913"),
+    # The Southern Pacific's Dumbarton Cutoff, Redwood Junction across the bay to Newark.
+    Sheet("usgs-hayward-1915", "Hayward", 62500, 1915, "297660", 1939, "15-minute sheet, surveyed 1914, edition of 1915"),
+    Sheet("usgs-redwood-point-1948", "Redwood Point", 24000, 1948, "294610", None, "7.5-minute sheet, edition of 1948"),
+    Sheet("usgs-palo-alto-1953", "Palo Alto", 24000, 1953, "293907", 1955, "7.5-minute sheet, aerial photographs of 1948, edition of 1953"),
+    Sheet("usgs-newark-1948", "Newark", 24000, 1948, "293494", None, "7.5-minute sheet, surveyed 1947, aerial photographs of 1946, edition of 1948"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 

@@ -7200,6 +7200,345 @@
       ]
     },
     {
+      "id": "sp-dumbarton-redwood-niles",
+      "name": "Dumbarton Cutoff trains, Redwood City to Niles",
+      "short_name": "Dumbarton Cutoff",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific",
+          "from": "1911-12-26",
+          "to": "1916-10-01"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1911-12-26",
+      "closed": "1916-10-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Southern Pacific trains from Redwood City across the Dumbarton bridge to Newark, Centerville and Niles, at first four trains a day to and from Niles, by 1914 one mixed train each way, daily except Sunday.",
+      "fate": "abandoned",
+      "fate_note": "Passengers ended with the timetable of October 1, 1916; the cutoff carried only freight after that.",
+      "notes": "Ends with the timetable of October 1, 1916, which the Washington Press reported; the last day with passengers isn't stated, and no Railroad Commission order on it was found. In 1912 the trains stopped for a time and were back by September 21; when they stopped isn't sourced. By 1914, one mixed train each way, Nos. 512 and 503.",
+      "flags": [],
+      "undated": false,
+      "length_km": 27.08,
+      "confidence_km": {
+        "surveyed": 27.08
+      },
+      "bbox": [
+        -122.219095,
+        37.476472,
+        -121.970004,
+        37.577468
+      ],
+      "fids": [
+        1053,
+        1054,
+        1055,
+        1056
+      ],
+      "segments": [
+        {
+          "id": "sp-dumbarton-cutoff",
+          "name": "Dumbarton Cutoff, Redwood Junction across the Dumbarton bridge to Newark",
+          "opened": null,
+          "closed": null,
+          "note": "From Redwood City station, the trains ran about a mile down the main line to Redwood Junction, which isn't drawn as part of this line.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839 (CC0, as of 2026-10-15), which OHM's mappers drew from Menlo Park Historical Assn; checked on USGS Hayward 1:62,500 (1915), USGS Redwood Point 1:24,000 (1948), USGS Palo Alto 1:24,000 (1953) and USGS Newark 1:24,000 (1948). OpenHistoricalMap's ways, from the Peninsula main line at Redwood Junction by Ravenswood and the Dumbarton bridge to the South Pacific Coast's line at Newark.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "When it was built and first used isn't sourced here; its first regular passenger train ran on December 26, 1911. Across the bay on the Dumbarton bridge between Ravenswood and Dumbarton; only freight trains ran on it from October 1, 1916 (timetable No. 167)."
+        },
+        {
+          "id": "spc-newark-junctions",
+          "name": "Newark, the Dumbarton junction to the Centerville junction",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Haywards CA 1899 topographic map, cut from -122.03606,37.52674 and to -122.03253,37.52506; checked on USGS Newark 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1899 Haywards sheet, from the Dumbarton Cutoff's junction to where today's line to Centerville leaves it.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Part of the South Pacific Coast's line of 1878; the Dumbarton trains ran over it between the cutoff and the Centerville branch."
+        },
+        {
+          "id": "cc-centerville-newark",
+          "name": "Centerville (Fremont) to Newark",
+          "opened": "1882-02-18",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Fremont and Newark junction (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
+        },
+        {
+          "id": "cc-niles-centerville",
+          "name": "Niles to Centerville (Fremont)",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Niles and Fremont (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The Southern Pacific's branch from Niles to Centerville; when it first carried passengers isn't sourced. Cut at Niles and at Fremont's station, at Centerville."
+        }
+      ],
+      "sources": [
+        {
+          "id": "times-gazette-1911-12-30",
+          "title": "Times-Gazette (Redwood City), December 30, 1911: \"Redwood is main transfer station\" and \"A red letter day\"",
+          "publisher": "Times-Gazette (Daly City Public Library scan)",
+          "date": "1911-12-30",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cdc_000451",
+          "license": "Public domain (published 1911)",
+          "accessed": "2026-10-16",
+          "source": "times-gazette-1911-12-30",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1-2",
+          "note": "The first regular passenger train, Tuesday, December 26, 1911; four trains a day between Niles and Redwood City."
+        },
+        {
+          "id": "washington-press-1912-04-26",
+          "title": "The Washington Press (Niles), April 26, 1912: Southern Pacific timetable",
+          "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+          "date": "1912-04-26",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cafrwtm_000262",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-16",
+          "source": "washington-press-1912-04-26",
+          "supports": [
+            "route"
+          ],
+          "pages": "4"
+        },
+        {
+          "id": "times-gazette-1912-09-21",
+          "title": "Times-Gazette (Redwood City), September 21, 1912: local notes",
+          "publisher": "Times-Gazette (Daly City Public Library scan)",
+          "date": "1912-09-21",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cdc_000489",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-16",
+          "source": "times-gazette-1912-09-21",
+          "supports": [
+            "general"
+          ],
+          "pages": "2",
+          "note": "\"has again put on the Dumbarton cut off train\": the service had stopped for a time in 1912."
+        },
+        {
+          "id": "cscrm-2021-02-000614",
+          "title": "Southern Pacific, Western Division, employee timetable No. 153, 1914-01-04",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1914-01-04",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000614",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000614",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "No. 512 and No. 503, the \"Redwood Mixed\", daily except Sunday."
+        },
+        {
+          "id": "cscrm-2021-02-000730",
+          "title": "Southern Pacific, Western Division, employee timetable No. 166, 1916-05-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1916-05-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000730",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000730",
+          "supports": [
+            "general"
+          ],
+          "pages": "16",
+          "note": "Still the Redwood Mixed on May 28, 1916."
+        },
+        {
+          "id": "washington-press-1916-10-07",
+          "title": "The Washington Press (Niles), October 7, 1916: \"Southern Pacific time table has many changes\"",
+          "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+          "date": "1916-10-07",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cafrwtm_000387",
+          "license": "Public domain (published 1916)",
+          "accessed": "2026-10-16",
+          "source": "washington-press-1916-10-07",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"The Dumbarton train no longer carries passengers\" under the timetable of Sunday, October 1, 1916."
+        },
+        {
+          "id": "cscrm-2021-02-000731",
+          "title": "Southern Pacific, Western Division, employee timetable No. 167, 1916-10-01",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1916-10-01",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000731",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000731",
+          "supports": [
+            "closed"
+          ],
+          "pages": "16",
+          "note": "Only freight trains over the bridge from October 1, 1916."
+        },
+        {
+          "id": "usgs-hayward-1915",
+          "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1915",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-hayward-1915",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-redwood-point-1948",
+          "title": "Redwood Point, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Redwood%20Point_294610_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-redwood-point-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-palo-alto-1953",
+          "title": "Palo Alto, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Palo%20Alto_293907_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-palo-alto-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-newark-1948",
+          "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-newark-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 198540842, 199872462, 199872461, 198540841, 198540838, 198540840, 198540839"
+        },
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened"
+          ],
+          "pages": "35",
+          "note": "\"From Alameda Point to Los Gatos June 1, 1878.\""
+        },
+        {
+          "id": "usgs-niles-1953",
+          "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-niles-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "muni-e-union",
       "name": "E Union",
       "short_name": "E",
@@ -7653,15 +7992,15 @@
         37.81612
       ],
       "fids": [
-        1114,
-        1115,
-        1116,
-        1117,
-        1118,
         1119,
         1120,
         1121,
-        1122
+        1122,
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
       ],
       "segments": [
         {
@@ -7995,15 +8334,15 @@
         37.824321
       ],
       "fids": [
-        1096,
-        1097,
-        1098,
-        1099,
-        1100,
         1101,
         1102,
         1103,
-        1104
+        1104,
+        1105,
+        1106,
+        1107,
+        1108,
+        1109
       ],
       "segments": [
         {
@@ -10248,15 +10587,15 @@
         37.824321
       ],
       "fids": [
-        1105,
-        1106,
-        1107,
-        1108,
-        1109,
         1110,
         1111,
         1112,
-        1113
+        1113,
+        1114,
+        1115,
+        1116,
+        1117,
+        1118
       ],
       "segments": [
         {
@@ -11761,11 +12100,6 @@
         37.891351
       ],
       "fids": [
-        1072,
-        1073,
-        1074,
-        1075,
-        1076,
         1077,
         1078,
         1079,
@@ -11775,7 +12109,12 @@
         1083,
         1084,
         1085,
-        1086
+        1086,
+        1087,
+        1088,
+        1089,
+        1090,
+        1091
       ],
       "segments": [
         {
@@ -35341,14 +35680,14 @@
         37.7762
       ],
       "fids": [
-        1143,
-        1144,
-        1145,
-        1146,
-        1147,
         1148,
         1149,
-        1150
+        1150,
+        1151,
+        1152,
+        1153,
+        1154,
+        1155
       ],
       "segments": [
         {
@@ -35625,11 +35964,6 @@
         37.7762
       ],
       "fids": [
-        1129,
-        1130,
-        1131,
-        1132,
-        1133,
         1134,
         1135,
         1136,
@@ -35638,7 +35972,12 @@
         1139,
         1140,
         1141,
-        1142
+        1142,
+        1143,
+        1144,
+        1145,
+        1146,
+        1147
       ],
       "segments": [
         {
@@ -42104,15 +42443,15 @@
         37.824321
       ],
       "fids": [
-        1087,
-        1088,
-        1089,
-        1090,
-        1091,
         1092,
         1093,
         1094,
-        1095
+        1095,
+        1096,
+        1097,
+        1098,
+        1099,
+        1100
       ],
       "segments": [
         {
@@ -42611,11 +42950,6 @@
         37.891481
       ],
       "fids": [
-        1052,
-        1053,
-        1054,
-        1055,
-        1056,
         1057,
         1058,
         1059,
@@ -42630,7 +42964,12 @@
         1068,
         1069,
         1070,
-        1071
+        1071,
+        1072,
+        1073,
+        1074,
+        1075,
+        1076
       ],
       "segments": [
         {
@@ -43627,7 +43966,8 @@
         1048,
         1049,
         1050,
-        1051
+        1051,
+        1052
       ],
       "segments": [
         {
@@ -43686,12 +44026,27 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.03253,37.52506; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and where the line joins today's track east of Newark.",
+          "method": "Joined to sp-central-encinal at its end; then OpenHistoricalMap ways 200236874, 200223560, 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS Haywards CA 1899 topographic map, cut from -122.23415,37.75623 and to -122.03606,37.52674; checked on USGS San Leandro 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's ways, traced from the 1895 San Francisco and 1899 Haywards sheets, cut at the end of the Central Avenue segment and at Newark, where the Dumbarton Cutoff joins it.",
           "structure": "surface",
           "flags": [
             "closed_unsourced"
           ],
-          "notes": "Across San Leandro Bay on a trestle and south along the marshes by Alvarado to Newark, where it joins today's track. When it last carried passengers isn't sourced."
+          "notes": "Across San Leandro Bay on a trestle and south along the marshes by Alvarado to Newark, where the Dumbarton Cutoff joined it from 1910. When it last carried passengers isn't sourced."
+        },
+        {
+          "id": "spc-newark-junctions",
+          "name": "Newark, the Dumbarton junction to the Centerville junction",
+          "opened": "1878-06-01",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 198748559 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Haywards CA 1899 topographic map, cut from -122.03606,37.52674 and to -122.03253,37.52506; checked on USGS Newark 1:24,000 (1948) and USGS Niles 1:24,000 (1953). OpenHistoricalMap's way, traced from the 1899 Haywards sheet, from the Dumbarton Cutoff's junction to where today's line to Centerville leaves it.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Part of the South Pacific Coast's line of 1878; the Dumbarton trains ran over it between the cutoff and the Centerville branch."
         },
         {
           "id": "cc-newark-santa-clara",
@@ -43969,6 +44324,21 @@
           ]
         },
         {
+          "id": "usgs-newark-1948",
+          "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1948",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-16",
+          "source": "usgs-newark-1948",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
           "id": "gtfs-amtrak",
           "title": "Amtrak GTFS feed, version 20261013",
           "publisher": "Amtrak",
@@ -44157,9 +44527,9 @@
         38.032436
       ],
       "fids": [
-        1151,
-        1152,
-        1153
+        1156,
+        1157,
+        1158
       ],
       "segments": [
         {
@@ -46571,12 +46941,12 @@
         37.803847
       ],
       "fids": [
-        1123,
-        1124,
-        1125,
-        1126,
-        1127,
-        1128
+        1128,
+        1129,
+        1130,
+        1131,
+        1132,
+        1133
       ],
       "segments": [
         {
@@ -48230,9 +48600,9 @@
         "license_unclear"
       ],
       "undated": false,
-      "length_km": 275.7,
+      "length_km": 275.74,
       "confidence_km": {
-        "surveyed": 275.7
+        "surveyed": 275.74
       },
       "bbox": [
         -122.360192,
@@ -48304,7 +48674,7 @@
           "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
         },
         {
-          "id": "capitol-corridor-undated-4",
+          "id": "capitol-corridor-undated-3",
           "name": "Capitol Corridor, part not yet dated",
           "opened": null,
           "closed": null,
@@ -48357,18 +48727,19 @@
           "notes": "The South Pacific Coast's branch from Newark to Centerville, opened in 1882; OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Fremont's station, at Centerville, and where today's line meets the South Pacific Coast's main line east of Newark."
         },
         {
-          "id": "capitol-corridor-undated-2",
-          "name": "Capitol Corridor, part not yet dated",
+          "id": "cc-niles-centerville",
+          "name": "Niles to Centerville (Fremont)",
           "opened": null,
           "closed": null,
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Niles and Fremont (data/present/extensions.json)",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ]
+          ],
+          "notes": "The Southern Pacific's branch from Niles to Centerville; when it first carried passengers isn't sourced. Cut at Niles and at Fremont's station, at Centerville."
         },
         {
           "id": "cc-san-leandro-niles",
@@ -48410,7 +48781,7 @@
           "notes": "The Western Pacific's line of 1869 into Oakland, in the Capitol Corridor's track today (OpenHistoricalMap's tracing of the 1897 Concord sheet lies on it from Fruitvale to Elmhurst). Dated by the first through passenger train, November 8, 1869 (Halley); the railroad's own return says \"about December 1, 1869\". Cut at today's track nearest the end of the electric lines' Melrose segment, and at San Leandro's station as the 1948 sheet places it. Part of it, from the junction with the San Francisco & Alameda west of San Leandro, may have opened in September 1869."
         },
         {
-          "id": "capitol-corridor-undated-3",
+          "id": "capitol-corridor-undated-2",
           "name": "Capitol Corridor, part not yet dated",
           "opened": null,
           "closed": null,
@@ -48582,6 +48953,22 @@
           ],
           "pages": "283",
           "note": "\"On the 16th day of January, 1864, the road was completed to San Jose, and trains commenced running to that place.\""
+        },
+        {
+          "id": "cscrm-2021-02-000614",
+          "title": "Southern Pacific, Western Division, employee timetable No. 153, 1914-01-04",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1914-01-04",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_000614",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-000614",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "The Southern Pacific's Dumbarton and Centerville Branch in 1914: Niles, the Western Pacific crossing, Centerville, Mattos and Newark."
         },
         {
           "id": "halley-1876",

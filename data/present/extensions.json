@@ -2095,6 +2095,25 @@
           "notes": "The Western Pacific's line of 1869 from Niles, opened for public use September 8, 1869 (its first train reached San Leandro on the 6th); OpenHistoricalMap's tracing of the 1899 Haywards sheet lies on today's track. Cut at Niles, where the old line went on east into Niles Canyon."
         },
         {
+          "id": "cc-niles-centerville",
+          "name": "Niles to Centerville (Fremont)",
+          "line": "capitol-corridor",
+          "from": "Niles",
+          "to": "Fremont",
+          "opened": null,
+          "sources": [
+            {
+              "source": "cscrm-2021-02-000614",
+              "supports": [
+                "route"
+              ],
+              "pages": "15",
+              "note": "The Southern Pacific's Dumbarton and Centerville Branch in 1914: Niles, the Western Pacific crossing, Centerville, Mattos and Newark."
+            }
+          ],
+          "notes": "The Southern Pacific's branch from Niles to Centerville; when it first carried passengers isn't sourced. Cut at Niles and at Fremont's station, at Centerville."
+        },
+        {
           "id": "cc-centerville-newark",
           "name": "Centerville (Fremont) to Newark",
           "line": "capitol-corridor",

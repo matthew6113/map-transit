@@ -2,6 +2,21 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Dumbarton Cutoff's passenger trains, 1911-1916
+
+- **Southern Pacific, Redwood City to Niles** (`sp-dumbarton/`): across the Dumbarton bridge by
+  Newark and Centerville, from the first regular passenger train on Tuesday, December 26, 1911
+  (Redwood City *Times-Gazette*) to the timetable of October 1, 1916, after which "The Dumbarton
+  train no longer carries passengers" (*Washington Press*, Niles; the Southern Pacific's employee
+  timetable No. 167 has only freight over the bridge). At first four trains a day; by 1914 one mixed
+  train each way, daily except Sunday (timetable No. 153). The trains stopped for a time in 1912.
+- Geometry from OpenHistoricalMap's ways, within 3 m of today's track, checked on the 1915 Hayward
+  and 1948-53 Redwood Point, Palo Alto and Newark sheets. The South Pacific Coast's Alameda-Newark
+  segment is split where the cutoff joins it, and today's Niles-Centerville track is dated from the
+  past era's lines.
+- Not drawn: the California & Nevada (1884-1902), whose public trains were few and whose alignment
+  no map in the repo shows.
+
 ## 2026-10-16: The North Bay horsecars, in Santa Rosa and Petaluma
 
 - **Santa Rosa, Fourth St and McDonald Ave** (`north-bay-horsecars/`): the Santa Rosa City

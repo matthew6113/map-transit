@@ -1,0 +1,27 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Dumbarton Cutoff from OpenHistoricalMap's ways.",
+ "segments": {
+  "sp-dumbarton-cutoff": {
+   "parts": [
+    {
+     "ohm": [
+      198540842,
+      199872462,
+      199872461,
+      198540841,
+      198540838,
+      198540840,
+      198540839
+     ]
+    }
+   ],
+   "check": [
+    "usgs-hayward-1915",
+    "usgs-redwood-point-1948",
+    "usgs-palo-alto-1953",
+    "usgs-newark-1948"
+   ],
+   "note": "OpenHistoricalMap's ways, from the Peninsula main line at Redwood Junction by Ravenswood and the Dumbarton bridge to the South Pacific Coast's line at Newark"
+  }
+ }
+}

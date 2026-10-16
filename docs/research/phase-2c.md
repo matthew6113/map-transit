@@ -39,6 +39,7 @@ running.
 | Martinez–Benicia ferry | Auto ferry across the Carquinez Strait, 1913–1962 | CRC D22535 (1930); *CH&PW* 1962 | The 1952 Benicia sheet's course |
 | Santa Rosa horsecars, Fourth St and McDonald Ave | The San Francisco & North Pacific depot along Fourth St to McDonald Ave and north to the Rural Cemetery | Fourth St track completed and running in 1877 (*Santa Rosa City R. Co. v. Central St. Ry. Co.*, 4 Cal. Unrep. 950, pp. 952-954, image; Borden has 1878); suspended early 1893 to 1898 (Borden, p. 3, image; ASRI Feb 1897, p. 246); sold to the Union Street Railway Dec 24, 1897 (*Los Angeles Times*; Borden p. 4; his p. 3 has Dec 27); running in 1902 (census), Mar 1903 and Mar 1906 (directories); end unsourced (Borden: "until 1905", and "not known") | Today's 4th St and McDonald Ave, checked on the 1954 (and for McDonald Ave the 1916) sheets. Not drawn: the loop around the courthouse on Borden's map |
 | Petaluma Street Railroad | 12th and F Sts by F, 6th and Liberty Sts, Western Ave, Kentucky St and Washington St across Petaluma Creek to Payran St | Incorporated Oct 14, 1889 (Borden p. 5, image); sheriff's sale Sept 27, 1897 (*Los Angeles Times*; Borden and ASRI 1903 have a foreclosure in 1900); running Dec 1901-Nov 1902 (census p. 236) and Mar 1903 (ASRI p. 11); bought by the P&SR in 1903 (Borden; CRC D2348 p. 760); opening and end unsourced | Today's streets on Borden's 1897 route, checked on the 1914 and 1953 sheets. Not drawn: Payran St to just beyond Mary St, and the fairgrounds branch |
+| Southern Pacific, Dumbarton Cutoff | Redwood City by Redwood Junction, the Dumbarton bridge, Newark and Centerville to Niles | First regular passenger train Dec 26, 1911 (*Times-Gazette*, Dec 30, pp. 1-2, image); four trains a day, by 1914 one mixed each way (SP timetable No. 153, p. 15, image); off for a time in 1912, back by Sept 21 (*Times-Gazette*); passengers ended with the timetable of Oct 1, 1916 (*Washington Press*, Oct 7, p. 1; timetable No. 167, p. 16, images) | OpenHistoricalMap's ways, within 3 m of today's track; checked on the 1915 Hayward and 1948-53 sheets. Not drawn: Redwood City station to Redwood Junction, on the Peninsula main line |
 
 ## Not drawn yet, and what each needs
 
@@ -116,6 +117,22 @@ Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
   Haywards (p. 198). Not drawn: neither Halley nor Wood (1883) names the streets they ran on (7th
   St in Oakland; Railroad, now Lincoln, Ave in Alameda; the way to San Leandro and Haywards), so
   their routes need a period source or a map of the 1860s-70s.
+- **Dumbarton Cutoff:** drawn (see above), Redwood City to Niles, December 26, 1911 to October 1,
+  1916. Still unsourced: when the 1912 break began, and the last day with passengers (no Railroad
+  Commission order was found in its decisions of 1911-17). The Southern Pacific's last passenger
+  trains on the Elmhurst-Newark-Santa Clara line, the Oakland sections of the Coast Daylight and the
+  Lark (Nos. 250/255 and 73/74), ended under CPUC Decision 59928 of April 12, 1960, last run May 1
+  and 2, 1960 (SP schedule statement ST-798); not drawn yet, since the line from Oakland to Elmhurst
+  and the Newark end would need their own segments.
+- **California & Nevada (1884-1902):** not drawn. It carried the public now and then: "Regular
+  trains are now run twice a week" to near Orinda Park (*Oakland Tribune*, October 10, 1889),
+  fares collected in 1892 (the Railroad Commissioners' 13th report, p. 118), a San Francisco ticket
+  office in 1892-93 (Langley's), passenger earnings of $2,816 in the year to June 30, 1895 (Poor's
+  1896, p. 339), a daily train to Bryant from June 1, 1896, and by December 1897 "no longer runs
+  trains regularly" (*Oakland Tribune*). Poor's of 1891 and 1892 say it made "No operations other
+  than transportation of construction materials". The research is in `sources-2c/dumbarton-cn.md`;
+  its stations (Emeryville, 40th St and San Pablo Ave, University Ave, San Pablo, Oak Grove,
+  Orinda Park, Bryant) are sourced, but no map in the repo shows its alignment.
 
 ### Ferries and the North Bay
 
@@ -214,6 +231,9 @@ Mateo line (20 km), and 665 km of unnamed ways, many of them traced by OHM's map
   Petaluma's opening: the Fourth District Agricultural Association's report for the year to December
   1, 1890 (*Appendix to the Journals*, 1893, vol. 5, archive.org `appendixtojourna18935cali`, near
   leaf 519) lists a receipt "From Petaluma Street Railway Company", read in the scan's text only.
+- **California & Nevada:** a map of its line to georeference (the Library of Congress's "Map
+  shewing the California and Nevada railroad", or the Santa Fe's later right of way), if you want
+  its few public trains drawn.
 - **Santa Fe's Oakland line (1904?-1958):** OpenHistoricalMap's way from the 1895 sheet runs within
   about 15 m of the old right of way (OpenStreetMap, the Richmond and Ohlone Greenways) from Richmond
   to south Berkeley, but south of Russell St the 1949 sheet doesn't show where the track ran to 40th

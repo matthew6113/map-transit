@@ -250,6 +250,10 @@ The geometry tools are below (decision 12).
 | `usgs-jersey-1910` | CA_Jersey_296187_1910_31680_geo.tif | 2.682 | `d7dc4c6ac5a5` |
 | `usgs-brentwood-1914` | CA_Brentwood_295948_1914_31680_geo.tif | 2.682 | `be02f04ec82d` |
 | `usgs-woodward-island-1913` | CA_Woodward Island_296614_1913_31680_geo.tif | 2.682 | `38bc3da04aac` |
+| `usgs-hayward-1915` | CA_Hayward_297660_1915_62500_geo.tif | 5.292 | `e393283753d9` |
+| `usgs-redwood-point-1948` | CA_Redwood Point_294610_1948_24000_geo.tif | 2.032 | `891249ddb330` |
+| `usgs-palo-alto-1953` | CA_Palo Alto_293907_1953_24000_geo.tif | 2.032 | `df2bc8520549` |
+| `usgs-newark-1948` | CA_Newark_293494_1948_24000_geo.tif | 2.032 | `2115a78c8fbd` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -325,9 +329,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 129 | 553 | 11 | 684.4 | 595.7 | 123.0 | 8 | 506 |
+| past | 130 | 555 | 11 | 702.1 | 595.7 | 123.0 | 8 | 508 |
 | present | 44 | 139 | 275 | 1676.8 | 0 | 0 | 12 | 48 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 548, `conflicting_sources` 32, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 845, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 550, `conflicting_sources` 32, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 846, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

@@ -2076,6 +2076,17 @@
       "notes": "pp. 30-35: \"OAKLAND (14th and Franklin)—Via Webster Street\" (p. 30); double track on Webster Street, single track only \"In case of emergency\" (p. 32); the First and Webster, Third and Webster and Webster Junction (Alameda) towers and the Harrison Street drawbridge (p. 35). Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "cscrm-2021-02-000614",
+      "title": "Southern Pacific, Western Division, employee timetable No. 153, 1914-01-04",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1914-01-04",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000614",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 15, Dumbarton and Centerville Branch: No. 512 \"Redwood Mixed\", leave daily except Sunday, Redwood City 3.20 PM by Sweeney, Henderson and Dumbarton to Newark, Centerville and Niles 4.45 PM; No. 503 back, Niles 1.40 PM to Redwood City 3.05 PM. Stations and miles from San Francisco: Redwood City 25.4, Bestos, Sweeney, Henderson, Ravenswood, Dumbarton 33.2, Newark 37.2, Mattos, Centerville 40.0, Niles 42.9. Read on the page image, October 16, 2026."
+    },
+    {
       "id": "cscrm-2021-02-000663",
       "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 35, 1914-03-15",
       "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
@@ -2085,6 +2096,28 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-15",
       "notes": "p. 9, Third District: the stations from Stockton by Middle River, Antioch, Pittsburg, Bay Point, Muir, Pinole and San Pablo to Richmond, Richmond Avenue and Ferry Point, then 7.7 miles to San Francisco. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000730",
+      "title": "Southern Pacific, Western Division, employee timetable No. 166, 1916-05-28",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1916-05-28",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000730",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 16, Dumbarton and Centerville Branch: Nos. 512 and 503, \"Redwood Mixed\", daily except Sunday between Redwood City and Niles. Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-000731",
+      "title": "Southern Pacific, Western Division, employee timetable No. 167, 1916-10-01",
+      "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+      "date": "1916-10-01",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cscrm_2021_02_000731",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 16, Dumbarton and Centerville Branch: no Redwood Mixed; only freight trains (254, 242, 253) run between Redwood City and Newark, and the passenger and milk trains run between Newark, Centerville and Niles. Read on the page image, October 16, 2026."
     },
     {
       "id": "cscrm-2021-02-000817",
@@ -2716,7 +2749,7 @@
       "url": "https://docs.overturemaps.org/guides/transportation/",
       "type": "dataset",
       "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
-      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
+      "notes": "Rail segments in the boxes napa (-122.62, 38.06, -122.03, 38.6), sonoma (-122.92, 38.22, -122.62, 38.5), santafe (-122.42, 37.82, -121.55, 38.07), dumbarton (-122.24, 37.46, -121.96, 37.59), read from s3://overturemaps-us-west-2/release/2026-09-23.1/theme=transportation/type=segment/. Today's track, used where a past line ran on track still in place (decision 12)."
     },
     {
       "id": "overture-roads-2026-09-23-1",
@@ -3460,6 +3493,28 @@
       "notes": "p. 848: \"The Twenty-Second Street or Oakland branch of the San Francisco, Oakland & San José Railroad (Key Route) was opened for regular traffic on May 16th.\" Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "times-gazette-1911-12-30",
+      "title": "Times-Gazette (Redwood City), December 30, 1911: \"Redwood is main transfer station\" and \"A red letter day\"",
+      "publisher": "Times-Gazette (Daly City Public Library scan)",
+      "date": "1911-12-30",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cdc_000451",
+      "license": "Public domain (published 1911)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"Railroad passenger communication between this city and Niles, via the Dumbarton bridge, was established Tuesday morning when the first regular train to carry passengers made the trip from the Alameda shore\"; \"Four trains daily to and from Niles will connect at Redwood City\", with a timetable by Sweeney, Henderson, Dumbarton, Newark and Centerville. p. 2: \"Tuesday, December 26, 1911\", \"the opening to passenger traffic of the Dumbarton Cutoff\". Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "times-gazette-1912-09-21",
+      "title": "Times-Gazette (Redwood City), September 21, 1912: local notes",
+      "publisher": "Times-Gazette (Daly City Public Library scan)",
+      "date": "1912-09-21",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cdc_000489",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-16",
+      "notes": "p. 2: \"The Southern Pacific Company has again put on the Dumbarton cut off train between this city and Niles. The train arrives here every afternoon at 4:30 and returns at 5:15 o'clock. It carries passengers and freight.\" Read on the page image, October 16, 2026."
+    },
+    {
       "id": "usgs-altamont-1953",
       "title": "Altamont, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
       "author": "U.S. Geological Survey",
@@ -3712,6 +3767,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1949. HTMC scan 290434, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 4174b070619ed81e58fc9fe9be2463e850e5a5c8433f287d1f37609daaf0b8b7."
     },
     {
+      "id": "usgs-hayward-1915",
+      "title": "Hayward, Cal., topographic quadrangle, 1:62,500, 1915, printed 1939",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1915",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Hayward_297660_1915_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "15-minute sheet, surveyed 1914, edition of 1915. HTMC scan 297660, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e393283753d9423b258dba911a48c2ef55316d9479f5c50d168c1548508fdfe1."
+    },
+    {
       "id": "usgs-healdsburg-1940",
       "title": "Healdsburg, Cal., topographic quadrangle, 1:62,500, 1940",
       "author": "U.S. Geological Survey",
@@ -3904,6 +3971,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 293422, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 bef57728fcc76432ebf1870c988e6d642636bcf8f1e7912fe4c184249773c4a1."
     },
     {
+      "id": "usgs-newark-1948",
+      "title": "Newark, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Newark_293494_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, surveyed 1947, aerial photographs of 1946, edition of 1948. HTMC scan 293494, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2115a78c8fbdb08e6dbc7629b9ee7ad32f90e120292fbec28906f8a072297b75."
+    },
+    {
       "id": "usgs-niles-1953",
       "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
       "author": "U.S. Geological Survey",
@@ -3938,6 +4017,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1946, field check 1947, edition of 1949. HTMC scan 293623, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 ce44edbc1b5410dc5cfaf3c5bbcc675bf5b189b11678873635652e92bd320cd3."
+    },
+    {
+      "id": "usgs-palo-alto-1953",
+      "title": "Palo Alto, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Palo%20Alto_293907_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 293907, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 df2bc8520549efb81cd044380ef42b6ab54c6f8702911b68c27ae10901a16613."
     },
     {
       "id": "usgs-petaluma-1914",
@@ -3986,6 +4077,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 294325, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 51be4bd5938ab0bef517ed04ebc48020fb0f27f759f30f58d47af90177c4f570."
+    },
+    {
+      "id": "usgs-redwood-point-1948",
+      "title": "Redwood Point, Cal., topographic quadrangle, 1:24,000, 1948",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1948",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Redwood%20Point_294610_1948_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-16",
+      "notes": "7.5-minute sheet, edition of 1948. HTMC scan 294610, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 891249ddb330e1099a4cc4f3dbed866e5435bbf55c19ae323310d9c0d18e113d."
     },
     {
       "id": "usgs-richmond-1949",
@@ -4340,6 +4443,28 @@
       "url": "https://www.vta.org/projects/bart-sv",
       "accessed": "2026-10-14",
       "notes": "\"Phase I broke ground in 2012 and opened for passenger service on June 13, 2020.\" Phase I runs from Warm Springs through Milpitas to Berryessa/North San José."
+    },
+    {
+      "id": "washington-press-1912-04-26",
+      "title": "The Washington Press (Niles), April 26, 1912: Southern Pacific timetable",
+      "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+      "date": "1912-04-26",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cafrwtm_000262",
+      "license": "Public domain (published 1912)",
+      "accessed": "2026-10-16",
+      "notes": "p. 4: \"Niles-Redwood City\": a Sunday-only passenger train, a mixed train except Sunday and a daily passenger train each way, by Centerville, Newark and Dumbarton. Read on the page image by the research pass."
+    },
+    {
+      "id": "washington-press-1916-10-07",
+      "title": "The Washington Press (Niles), October 7, 1916: \"Southern Pacific time table has many changes\"",
+      "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
+      "date": "1916-10-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cafrwtm_000387",
+      "license": "Public domain (published 1916)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"the new time tables of the Southern Pacific Company went into effect last Sunday, October 1\"; \"In the Niles-Centerville-Newark branch several important changes have been made. The Dumbarton train no longer carries passengers.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "western-railroader-1945-08",
