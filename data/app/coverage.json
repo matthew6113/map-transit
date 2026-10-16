@@ -1,18 +1,18 @@
 {
   "past": {
-    "lines": 108,
-    "segments": 444,
+    "lines": 112,
+    "segments": 454,
     "points": 11,
     "km_by_confidence": {
       "approximate": 110.4,
-      "digitized": 473.9,
-      "surveyed": 506.3
+      "digitized": 504.0,
+      "surveyed": 534.2
     },
     "undated_segments": 8,
-    "borrowed_dates": 400,
+    "borrowed_dates": 409,
     "flags": {
-      "closed_unsourced": 436,
-      "conflicting_sources": 13,
+      "closed_unsourced": 445,
+      "conflicting_sources": 23,
       "geometry_unverified": 6,
       "needs_manual_digitizing": 7,
       "opened_unsourced": 406,

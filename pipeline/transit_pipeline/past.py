@@ -159,8 +159,9 @@ def build_part(part: dict, fit) -> tuple[list[list[float]], str, str]:
         from .rails import route as along_rail
         from .streets import OVERTURE_RELEASE
         a, b = (_lonlat(x) for x in part["rail"])
-        coords, length = along_rail(a, b, part["area"])
-        return coords, "rail", (f"along today's track from {_label(part['rail'][0])} to {_label(part['rail'][1])} "
+        coords, length = along_rail(a, b, part["area"], tuple(part.get("names", ())))
+        what = f"OpenStreetMap's {' and '.join(part['names'])}" if part.get("names") else "today's track"
+        return coords, "rail", (f"along {what} from {_label(part['rail'][0])} to {_label(part['rail'][1])} "
                                 f"({length:.0f} m; Overture {OVERTURE_RELEASE} rail)")
     if "lonlat" in part:
         return part["lonlat"], "approximate", "given point by point"

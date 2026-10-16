@@ -32,6 +32,7 @@ from .streets import BUCKET, CACHE_DIR, OVERTURE_RELEASE, _cut_lines, _filesyste
 
 AREAS = {
     "napa": (-122.62, 38.06, -122.03, 38.60),  # Vallejo by Napa to Calistoga, and Napa Junction to Suisun
+    "sonoma": (-122.92, 38.22, -122.62, 38.50),  # Petaluma to Sebastopol, Santa Rosa and Forestville
 }
 SOURCE_ID = "overture-rail-2026-09-23-1"
 SNAP_M = 150.0  # an end this close to today's track is on it
@@ -53,18 +54,22 @@ def _area(name: str) -> Path:
 
 
 @cache
-def rail(area: str):
-    """Today's track in the box, in metres, unioned and noded."""
-    lines = [to_metres(shapely.from_wkb(r["geometry"])) for r in pq.read_table(_area(area)).to_pylist()]
+def rail(area: str, names: tuple[str, ...] = ()):
+    """Today's track in the box, in metres, unioned and noded; only the ways with these names, if
+    any are given (an abandoned line OpenStreetMap still maps, kept apart from the live track)."""
+    rows = pq.read_table(_area(area)).to_pylist()
+    lines = [to_metres(shapely.from_wkb(r["geometry"])) for r in rows
+             if not names or ((r["names"] or {}).get("primary") in names)]
     if not lines:
-        raise SystemExit(f"[rails] no track in Overture's {area} box")
+        raise SystemExit(f"[rails] no track in Overture's {area} box" + (f" named {names}" if names else ""))
     return unary_union(lines)
 
 
-def route(start: tuple[float, float], end: tuple[float, float], area: str) -> tuple[list[list[float]], float]:
+def route(start: tuple[float, float], end: tuple[float, float], area: str,
+          names: tuple[str, ...] = ()) -> tuple[list[list[float]], float]:
     """Today's track from one point to another (each snapped onto it), as lon/lat, and its length in
-    metres: the shortest path over the rail network in the box."""
-    net = rail(area)
+    metres: the shortest path over the rail network in the box (or over the ways with these names)."""
+    net = rail(area, tuple(names))
     ends = []
     for p in (start, end):
         q = to_metres(Point(p))

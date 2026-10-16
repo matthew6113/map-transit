@@ -102,6 +102,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-line-napa', url: '/l/calp-vallejo-calistoga?era=past&year=1900&test=1&at=99' },
   { name: 'past-line-calp-suisun', url: '/l/calp-vallejo-suisun?era=past&year=1885&test=1&at=99' },
   { name: 'past-line-san-ramon', url: '/l/sp-san-ramon-branch?era=past&year=1900&test=1&at=99' },
+  { name: 'past-line-psr-santa-rosa', url: '/l/psr-sebastopol-santa-rosa?era=past&year=1920&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

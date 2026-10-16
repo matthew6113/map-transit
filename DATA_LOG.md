@@ -236,6 +236,13 @@ The geometry tools are below (decision 12).
 | `usgs-diablo-1953` | CA_Diablo_289931_1953_24000_geo.tif | 2.032 | `cc0c424ed2d6` |
 | `usgs-mt-diablo-1898` | CA_Mt Diablo_298277_1898_62500_geo.tif | 5.292 | `131ad0f00447` |
 | `usgs-vine-hill-1959` | CA_Vine Hill_301163_1959_24000_geo.tif | 2.032 | `382dfe8a0bf5` |
+| `usgs-petaluma-1953` | CA_Petaluma_294061_1953_24000_geo.tif | 2.032 | `db5c6ed8813c` |
+| `usgs-two-rock-1954` | CA_Two Rock_301038_1954_24000_geo.tif | 2.032 | `7a522bc95b0b` |
+| `usgs-cotati-1954` | CA_Cotati_289550_1954_24000_geo.tif | 2.032 | `391e619d0558` |
+| `usgs-sebastopol-1954` | CA_Sebastopol_300394_1954_24000_geo.tif | 2.032 | `e29789030665` |
+| `usgs-santa-rosa-1954` | CA_Santa Rosa_300294_1954_24000_geo.tif | 2.032 | `29504600fc63` |
+| `usgs-camp-meeker-1954` | CA_Camp Meeker_288861_1954_24000_geo.tif | 2.032 | `898f19ff2944` |
+| `usgs-santa-rosa-1916` | CA_Santa Rosa_298959_1916_62500_geo.tif | 5.292 | `6f916d06382b` |
 
 ### NOAA NADCON grid (NAD27 to WGS84)
 
@@ -251,7 +258,7 @@ The geometry tools are below (decision 12).
 | | |
 |---|---|
 | Status | In use, for past lines that a source places on a named street (`streets.py`, decision 12). |
-| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
+| Origin | Overture Maps transportation segments (subtype `road`, named), release 2026-09-23.1, the same release as BAM's basemap, in four boxes: the East Bay (-122.36, 37.70, -122.15, 37.93), and, added in Phase 2b, San Francisco (-122.52, 37.70, -122.355, 37.835), Milpitas and north San José (-121.98, 37.33, -121.83, 37.45), southern Marin (-122.60, 37.845, -122.45, 38.02) and central Contra Costa (-122.22, 37.82, -121.88, 38.05), where they check the USGS sheets' registration, and, added in Phase 2c, Richmond (-122.40, 37.90, -122.28, 37.98), Burlingame and San Mateo (-122.36, 37.555, -122.31, 37.59) and Santa Rosa (-122.78, 38.415, -122.69, 38.45). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-roads-2026-09-23-1`. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. A segment routed along these centerlines is derived from them, so it carries ODbL too, and the source is credited in its panel. |
 | Gaps | These are today's centerlines. A street that has moved since (a freeway cut, a widening, a renaming such as Grove St to Martin Luther King Jr Way) is checked on the USGS sheet of the period, and traced from it where it differs. Divided roads come out along one carriageway. |
 
@@ -269,8 +276,8 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line. |
-| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the box `napa` (-122.62, 38.06, -122.03, 38.60). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways). |
+| Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) and `sonoma` (-122.92, 38.22, -122.62, 38.50). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
 | Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
 | Gaps | Today's track only: realignments since the line's years must be found on the sheets. |
@@ -311,9 +318,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 108 | 444 | 11 | 506.3 | 473.9 | 110.4 | 8 | 400 |
+| past | 112 | 454 | 11 | 534.2 | 504.0 | 110.4 | 8 | 409 |
 | present | 44 | 131 | 275 | 1676.9 | 0 | 0 | 12 | 40 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 436, `conflicting_sources` 17, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 445, `conflicting_sources` 27, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 47, `needs_manual_digitizing` 7, `opened_unsourced` 741, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

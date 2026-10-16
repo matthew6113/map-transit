@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Petaluma & Santa Rosa
+
+- **Petaluma & Santa Rosa Railway** (`petaluma-santa-rosa/`), an electric interurban, as four lines:
+  Petaluma to Sebastopol, Sebastopol to Santa Rosa, Sebastopol to Forestville, and the Two Rock
+  branch. Opened November 19, 1904 (the *Journal of Electricity, Power and Gas*, January 1905, p.
+  31); into downtown Santa Rosa across the steam road's tracks the night of March 1, 1905 (Borden,
+  1960); Forestville July 15, 1905; Two Rock July 28, 1913 to September 1925. Fourth St's cars ended
+  December 31, 1931 (CRC Decision 24310) and all passenger service on July 1, 1932 (Decisions 24818
+  and 24983). The opening and Green Valley dates conflict between the 1905 journal and the railfan
+  histories, and are flagged.
+- Geometry: OpenStreetMap still maps most of the abandoned line (`rails.py`, which now keeps to named
+  ways), checked on the 1954 sheets, on which the track is still in place for freight. Petaluma,
+  Sebastopol, the Santa Rosa branch to Leddy, and Graton to Forestville are traced from the 1953–54
+  sheets; Sebastopol Rd, Olive St and Fourth St in Santa Rosa follow today's streets, checked on the
+  1916 and 1954 Santa Rosa sheets. Seven USGS sheets added.
+
 ## 2026-10-15: The San Ramon branch
 
 - **Southern Pacific, San Ramon branch** (`sp-san-ramon/`): from Avon, on today's line from

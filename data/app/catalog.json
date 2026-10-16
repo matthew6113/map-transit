@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        689,
-        690,
-        691,
-        692
+        701,
+        702,
+        703,
+        704
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        693,
-        694,
-        695,
-        696,
-        697,
-        698,
-        699,
-        700,
-        701,
-        702,
-        703
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        719,
-        720,
-        721,
-        722,
-        723,
-        724,
-        725,
-        726,
-        727
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739
       ],
       "segments": [
         {
@@ -4509,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        326,
-        327
+        338,
+        339
       ],
       "segments": [
         {
@@ -4639,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        350,
-        351,
-        352,
-        353
+        362,
+        363,
+        364,
+        365
       ],
       "segments": [
         {
@@ -6397,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        316
+        328
       ],
       "segments": [
         {
@@ -6661,20 +6661,20 @@
         37.806482
       ],
       "fids": [
-        728,
-        729,
-        730,
-        731,
-        732,
-        733,
-        734,
-        735,
-        736,
-        737,
-        738,
-        739,
         740,
-        741
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753
       ],
       "segments": [
         {
@@ -7114,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        668
+        680
       ],
       "segments": [
         {
@@ -7244,21 +7244,21 @@
         37.80035
       ],
       "fids": [
-        704,
-        705,
-        706,
-        707,
-        708,
-        709,
-        710,
-        711,
-        712,
-        713,
-        714,
-        715,
         716,
         717,
-        718
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730
       ],
       "segments": [
         {
@@ -7653,15 +7653,15 @@
         37.81612
       ],
       "fids": [
-        857,
-        858,
-        859,
-        860,
-        861,
-        862,
-        863,
-        864,
-        865
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877
       ],
       "segments": [
         {
@@ -7995,15 +7995,15 @@
         37.824321
       ],
       "fids": [
-        839,
-        840,
-        841,
-        842,
-        843,
-        844,
-        845,
-        846,
-        847
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859
       ],
       "segments": [
         {
@@ -8500,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        742,
-        743,
-        744,
-        745,
-        746,
-        747,
-        748,
-        749
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761
       ],
       "segments": [
         {
@@ -8798,7 +8798,7 @@
         37.796162
       ],
       "fids": [
-        378
+        390
       ],
       "segments": [
         {
@@ -8907,7 +8907,7 @@
         37.788015
       ],
       "fids": [
-        345
+        357
       ],
       "segments": [
         {
@@ -9049,16 +9049,16 @@
         37.806482
       ],
       "fids": [
-        750,
-        751,
-        752,
-        753,
-        754,
-        755,
-        756,
-        757,
-        758,
-        759
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771
       ],
       "segments": [
         {
@@ -9378,14 +9378,14 @@
         37.793407
       ],
       "fids": [
-        370,
-        371,
-        372,
-        373,
-        374,
-        375,
-        376,
-        377
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389
       ],
       "segments": [
         {
@@ -9853,7 +9853,7 @@
         37.785808
       ],
       "fids": [
-        333
+        345
       ],
       "segments": [
         {
@@ -10248,15 +10248,15 @@
         37.824321
       ],
       "fids": [
-        848,
-        849,
-        850,
-        851,
-        852,
-        853,
-        854,
-        855,
-        856
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868
       ],
       "segments": [
         {
@@ -10737,16 +10737,16 @@
         37.793407
       ],
       "fids": [
-        360,
-        361,
-        362,
-        363,
-        364,
-        365,
-        366,
-        367,
-        368,
-        369
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381
       ],
       "segments": [
         {
@@ -11021,12 +11021,12 @@
         37.787654
       ],
       "fids": [
-        354,
-        355,
-        356,
-        357,
-        358,
-        359
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
       ],
       "segments": [
         {
@@ -11530,21 +11530,21 @@
         37.891351
       ],
       "fids": [
-        815,
-        816,
-        817,
-        818,
-        819,
-        820,
-        821,
-        822,
-        823,
-        824,
-        825,
-        826,
         827,
         828,
-        829
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841
       ],
       "segments": [
         {
@@ -12560,16 +12560,16 @@
         37.793407
       ],
       "fids": [
-        379,
-        380,
-        381,
-        382,
-        383,
-        384,
-        385,
-        386,
-        387,
-        388
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400
       ],
       "segments": [
         {
@@ -12912,17 +12912,17 @@
         37.79492
       ],
       "fids": [
-        478,
-        479,
-        480,
-        481,
-        482,
-        483,
-        484,
-        485,
-        486,
-        487,
-        488
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500
       ],
       "segments": [
         {
@@ -13653,15 +13653,15 @@
         37.79492
       ],
       "fids": [
-        489,
-        490,
-        491,
-        492,
-        493,
-        494,
-        495,
-        496,
-        497
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
       ],
       "segments": [
         {
@@ -15167,18 +15167,18 @@
         37.79492
       ],
       "fids": [
-        498,
-        499,
-        500,
-        501,
-        502,
-        503,
-        504,
-        505,
-        506,
-        507,
-        508,
-        509
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521
       ],
       "segments": [
         {
@@ -16092,14 +16092,14 @@
         37.79492
       ],
       "fids": [
-        510,
-        511,
-        512,
-        513,
-        514,
-        515,
-        516,
-        517
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529
       ],
       "segments": [
         {
@@ -16845,14 +16845,14 @@
         37.808586
       ],
       "fids": [
-        518,
-        519,
-        520,
-        521,
-        522,
-        523,
-        524,
-        525
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537
       ],
       "segments": [
         {
@@ -17268,20 +17268,20 @@
         37.793407
       ],
       "fids": [
-        526,
-        527,
-        528,
-        529,
-        530,
-        531,
-        532,
-        533,
-        534,
-        535,
-        536,
-        537,
         538,
-        539
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551
       ],
       "segments": [
         {
@@ -17674,13 +17674,13 @@
         37.784013
       ],
       "fids": [
-        540,
-        541,
-        542,
-        543,
-        544,
-        545,
-        546
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558
       ],
       "segments": [
         {
@@ -18281,12 +18281,12 @@
         37.805289
       ],
       "fids": [
-        547,
-        548,
-        549,
-        550,
-        551,
-        552
+        559,
+        560,
+        561,
+        562,
+        563,
+        564
       ],
       "segments": [
         {
@@ -19025,23 +19025,23 @@
         37.785729
       ],
       "fids": [
-        553,
-        554,
-        555,
-        556,
-        557,
-        558,
-        559,
-        560,
-        561,
-        562,
-        563,
-        564,
         565,
         566,
         567,
         568,
-        569
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581
       ],
       "segments": [
         {
@@ -19466,18 +19466,6 @@
         37.793407
       ],
       "fids": [
-        570,
-        571,
-        572,
-        573,
-        574,
-        575,
-        576,
-        577,
-        578,
-        579,
-        580,
-        581,
         582,
         583,
         584,
@@ -19487,7 +19475,19 @@
         588,
         589,
         590,
-        591
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603
       ],
       "segments": [
         {
@@ -20311,17 +20311,17 @@
         37.789284
       ],
       "fids": [
-        592,
-        593,
-        594,
-        595,
-        596,
-        597,
-        598,
-        599,
-        600,
-        601,
-        602
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614
       ],
       "segments": [
         {
@@ -20825,14 +20825,14 @@
         37.793407
       ],
       "fids": [
-        389,
-        390,
-        391,
-        392,
-        393,
-        394,
-        395,
-        396
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408
       ],
       "segments": [
         {
@@ -21142,24 +21142,24 @@
         37.793407
       ],
       "fids": [
-        603,
-        604,
-        605,
-        606,
-        607,
-        608,
-        609,
-        610,
-        611,
-        612,
-        613,
-        614,
         615,
         616,
         617,
         618,
         619,
-        620
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632
       ],
       "segments": [
         {
@@ -21591,17 +21591,17 @@
         37.782556
       ],
       "fids": [
-        621,
-        622,
-        623,
-        624,
-        625,
-        626,
-        627,
-        628,
-        629,
-        630,
-        631
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643
       ],
       "segments": [
         {
@@ -21902,12 +21902,12 @@
         37.805042
       ],
       "fids": [
-        632,
-        633,
-        634,
-        635,
-        636,
-        637
+        644,
+        645,
+        646,
+        647,
+        648,
+        649
       ],
       "segments": [
         {
@@ -22132,10 +22132,10 @@
         37.79009
       ],
       "fids": [
-        638,
-        639,
-        640,
-        641
+        650,
+        651,
+        652,
+        653
       ],
       "segments": [
         {
@@ -22366,18 +22366,6 @@
         37.793407
       ],
       "fids": [
-        397,
-        398,
-        399,
-        400,
-        401,
-        402,
-        403,
-        404,
-        405,
-        406,
-        407,
-        408,
         409,
         410,
         411,
@@ -22385,7 +22373,19 @@
         413,
         414,
         415,
-        416
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
       ],
       "segments": [
         {
@@ -22894,18 +22894,6 @@
         37.784013
       ],
       "fids": [
-        669,
-        670,
-        671,
-        672,
-        673,
-        674,
-        675,
-        676,
-        677,
-        678,
-        679,
-        680,
         681,
         682,
         683,
@@ -22913,7 +22901,19 @@
         685,
         686,
         687,
-        688
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700
       ],
       "segments": [
         {
@@ -23437,11 +23437,11 @@
         37.789284
       ],
       "fids": [
-        642,
-        643,
-        644,
-        645,
-        646
+        654,
+        655,
+        656,
+        657,
+        658
       ],
       "segments": [
         {
@@ -23655,18 +23655,18 @@
         37.793216
       ],
       "fids": [
-        647,
-        648,
-        649,
-        650,
-        651,
-        652,
-        653,
-        654,
-        655,
-        656,
-        657,
-        658
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670
       ],
       "segments": [
         {
@@ -24516,18 +24516,6 @@
         37.793407
       ],
       "fids": [
-        417,
-        418,
-        419,
-        420,
-        421,
-        422,
-        423,
-        424,
-        425,
-        426,
-        427,
-        428,
         429,
         430,
         431,
@@ -24543,7 +24531,19 @@
         441,
         442,
         443,
-        444
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456
       ],
       "segments": [
         {
@@ -25222,16 +25222,16 @@
         37.793407
       ],
       "fids": [
-        445,
-        446,
-        447,
-        448,
-        449,
-        450,
-        451,
-        452,
-        453,
-        454
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466
       ],
       "segments": [
         {
@@ -25582,17 +25582,17 @@
         37.793407
       ],
       "fids": [
-        455,
-        456,
-        457,
-        458,
-        459,
-        460,
-        461,
-        462,
-        463,
-        464,
-        465
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477
       ],
       "segments": [
         {
@@ -26351,18 +26351,18 @@
         37.793407
       ],
       "fids": [
-        466,
-        467,
-        468,
-        469,
-        470,
-        471,
-        472,
-        473,
-        474,
-        475,
-        476,
-        477
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489
       ],
       "segments": [
         {
@@ -27408,14 +27408,14 @@
         38.852585
       ],
       "fids": [
-        775,
-        776,
-        777,
-        778,
-        779,
-        780,
-        781,
-        782
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794
       ],
       "segments": [
         {
@@ -27777,11 +27777,11 @@
         37.806637
       ],
       "fids": [
-        328,
-        329,
-        330,
-        331,
-        332
+        340,
+        341,
+        342,
+        343,
+        344
       ],
       "segments": [
         {
@@ -28095,14 +28095,14 @@
         37.7762
       ],
       "fids": [
-        886,
-        887,
-        888,
-        889,
-        890,
-        891,
-        892,
-        893
+        898,
+        899,
+        900,
+        901,
+        902,
+        903,
+        904,
+        905
       ],
       "segments": [
         {
@@ -28379,20 +28379,20 @@
         37.7762
       ],
       "fids": [
-        872,
-        873,
-        874,
-        875,
-        876,
-        877,
-        878,
-        879,
-        880,
-        881,
-        882,
-        883,
         884,
-        885
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897
       ],
       "segments": [
         {
@@ -28813,6 +28813,1065 @@
           "license": "Public domain (U.S. Government work)",
           "accessed": "2026-10-14",
           "source": "usgs-san-jose-1943",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psr-petaluma-sebastopol",
+      "name": "Petaluma & Santa Rosa, Petaluma to Sebastopol",
+      "short_name": "Petaluma–Sebastopol",
+      "system": "petaluma-santa-rosa",
+      "system_name": "Petaluma & Santa Rosa Railway",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1904-11-19",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1932-07-01"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1904-11-19",
+      "closed": "1932-07-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Electric cars from the steamer landing on the Petaluma River north beside the steam railroad, then across the farms by Liberty and Stony Point to Sebastopol.",
+      "fate": "abandoned",
+      "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1904-11-19",
+          "to": "1932-07-01"
+        }
+      ],
+      "notes": "Opens on JOE's November 19, 1904; Borden gives November 29 and Ellison and Sievers December 1. By 1927 its cars ran 11 round trips a day between Sebastopol and Petaluma (Borden, p. 25). The company's steamers ran on from Petaluma to San Francisco.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 27.09,
+      "confidence_km": {
+        "digitized": 5.8,
+        "surveyed": 21.29
+      },
+      "bbox": [
+        -122.823579,
+        38.236239,
+        -122.633806,
+        38.401111
+      ],
+      "fids": [
+        298,
+        299,
+        300
+      ],
+      "segments": [
+        {
+          "id": "psr-petaluma-town",
+          "name": "Petaluma, the waterfront to the edge of town",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Petaluma 1:24,000 (1953) (23 hand-read points, centred on the line symbol); then traced by eye from USGS Cotati 1:24,000 (1954) (7 hand-read points, centred on the line symbol). The track the 1953 sheet labels Petaluma & Santa Rosa, west of the Northwestern Pacific's, from the waterfront by the foot of Copeland St, where Borden puts the steamer landing; where its passenger depot stood isn't sourced.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "Which streets the line used in Petaluma in 1904 isn't sourced; it is drawn where the 1953 sheet labels its track. Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-petaluma-sebastopol",
+          "name": "Petaluma to Sebastopol, by Liberty and Stony Point",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.64515,38.25577 to -122.80240,38.38042 (21338 m; Overture 2026-09-23.1 rail); checked on USGS Cotati 1:24,000 (1954), USGS Two Rock 1:24,000 (1954) and USGS Sebastopol 1:24,000 (1954). OpenStreetMap still maps the abandoned line here, and it matches the 1954 sheets, on which the track is still in place.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-sebastopol-town",
+          "name": "Into Sebastopol, along the Gravenstein Highway and Main St",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (7 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (18 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (5 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (2 hand-read points). Beside the Gravenstein Highway, then in Main St to the depot, as the 1954 sheet draws it.",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "In the streets of Sebastopol, as a 1941 photo caption in Borden has it. Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        }
+      ],
+      "sources": [
+        {
+          "id": "joe-1905-01-psr",
+          "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
+          "publisher": "Journal of Electricity, Power and Gas",
+          "date": "1905-01",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_electrical-west_1905-01_15_1",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "joe-1905-01-psr",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31",
+          "note": "Regular hourly service \"was begun on November 19th\" (1904)."
+        },
+        {
+          "id": "crc-d2348",
+          "title": "Railroad Commission of California, Decision No. 2348 (Case No. 145): the valuation of the Petaluma & Santa Rosa",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-05-05",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d2348",
+          "supports": [
+            "opened",
+            "general"
+          ],
+          "pages": "752",
+          "note": "\"placed in operation in November, 1904\"."
+        },
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "closed",
+            "route"
+          ],
+          "pages": "6",
+          "note": "The first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"."
+        },
+        {
+          "id": "western-railroader-1952-02",
+          "title": "The Western Railroader 15(4), February 1952: Robert Ellison and Walt Sievers on the Petaluma & Santa Rosa",
+          "author": "Robert Ellison and Walt Sievers",
+          "publisher": "The Western Railroader",
+          "date": "1952-02",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1952-02_15_4",
+          "license": "Copyright status unknown (railfan periodical, 1952); cited for facts only",
+          "accessed": "2026-10-15",
+          "source": "western-railroader-1952-02",
+          "supports": [
+            "opened"
+          ],
+          "pages": "3",
+          "note": "Regular service from December 1, 1904, \"from Petaluma via Sebastopol to the CNW crossing at the Santa Rosa city limits\"."
+        },
+        {
+          "id": "srj-1905-07-01-psr",
+          "title": "Street Railway Journal 26(1), July 1, 1905: the Petaluma & Santa Rosa Railway",
+          "publisher": "Street Railway Journal",
+          "date": "1905-07-01",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayj261905newy",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "srj-1905-07-01-psr",
+          "supports": [
+            "route"
+          ],
+          "pages": "10-13"
+        },
+        {
+          "id": "crc-d24818",
+          "title": "Railroad Commission of California, Decision No. 24818 (Application No. 18089)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-05-31",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24818_19320531_A18089.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24818",
+          "supports": [
+            "closed"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "crc-d24983",
+          "title": "Railroad Commission of California, Decision No. 24983 (Application No. 18258)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-07-11",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24983_19320711_A18258.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24983",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+        },
+        {
+          "id": "usgs-petaluma-1953",
+          "title": "Petaluma, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Petaluma_294061_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-petaluma-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cotati-1954",
+          "title": "Cotati, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cotati_289550_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cotati-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-two-rock-1954",
+          "title": "Two Rock, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Two%20Rock_301038_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-two-rock-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-sebastopol-1954",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_300394_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1954",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psr-sebastopol-forestville",
+      "name": "Petaluma & Santa Rosa, Sebastopol to Forestville",
+      "short_name": "Sebastopol–Forestville",
+      "system": "petaluma-santa-rosa",
+      "system_name": "Petaluma & Santa Rosa Railway",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1904-11-19",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1932-07-01"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1904-11-19",
+      "closed": "1932-07-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Electric cars from Sebastopol up Main St and north through the orchards by Molino, Barlow, Graton (Green Valley), Manzana and Ross to Forestville.",
+      "fate": "abandoned",
+      "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1904-11-19",
+          "to": "1932-07-01"
+        }
+      ],
+      "notes": "Opens on JOE's November 19, 1904 to Green Valley (Graton); Borden and Ellison and Sievers give January 26, 1905. Forestville from July 15, 1905. Drawn from Sebastopol's depot; the line's later track is on the 1954 sheets.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 15.01,
+      "confidence_km": {
+        "digitized": 15.01
+      },
+      "bbox": [
+        -122.892438,
+        38.380402,
+        -122.802433,
+        38.473244
+      ],
+      "fids": [
+        306,
+        307,
+        308
+      ],
+      "segments": [
+        {
+          "id": "psr-sebastopol-town",
+          "name": "Into Sebastopol, along the Gravenstein Highway and Main St",
+          "opened": "1904-11-19",
+          "closed": null,
+          "note": "From Petaluma at first; by 1927 the cars ran between Sebastopol and Forestville (Borden, p. 25).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (7 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (18 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (5 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (2 hand-read points). Beside the Gravenstein Highway, then in Main St to the depot, as the 1954 sheet draws it.",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "In the streets of Sebastopol, as a 1941 photo caption in Borden has it. Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-sebastopol-graton",
+          "name": "Sebastopol to Graton (Green Valley), by Molino and Barlow",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (8 hand-read points); then traced by eye from USGS Sebastopol 1:24,000 (1954) (9 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (13 hand-read points, centred on the line symbol); then along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.84276,38.41304 to -122.86395,38.42346 (2832 m; Overture 2026-09-23.1 rail); then traced by eye from USGS Sebastopol 1:24,000 (1954) (15 hand-read points, centred on the line symbol); checked on USGS Sebastopol 1:24,000 (1954). Up Main St from the depot, past Analy Union High School, then beside the highway north to Molino and by Barlow to Graton, as the 1954 sheet draws it, with OpenStreetMap's way from the highway to Barlow.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "JOE has service to Green Valley from November 19, 1904; Borden and Ellison and Sievers give January 26, 1905. Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-graton-forestville",
+          "name": "Graton to Forestville, by Manzana and Ross",
+          "opened": "1905-07-15",
+          "closed": null,
+          "from": "1905-07-15",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (10 hand-read points, centred on the line symbol); then along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.87251,38.44494 to -122.87681,38.44907 (604 m; Overture 2026-09-23.1 rail); then traced by eye from USGS Camp Meeker 1:24,000 (1954) (32 hand-read points, centred on the line symbol); checked on USGS Sebastopol 1:24,000 (1954) and USGS Camp Meeker 1:24,000 (1954). By Manzana and Ross to the end of track at Forestville's main street, as the 1954 sheets draw it, with OpenStreetMap's way at Manzana.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        }
+      ],
+      "sources": [
+        {
+          "id": "joe-1905-01-psr",
+          "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
+          "publisher": "Journal of Electricity, Power and Gas",
+          "date": "1905-01",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_electrical-west_1905-01_15_1",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "joe-1905-01-psr",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31",
+          "note": "\"At the same time similar service was inaugurated on the Green Valley branch, extending from Sebastopol to Green Valley.\""
+        },
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "12",
+          "note": "Green Valley on January 26, 1905 and Forestville on July 15, 1905."
+        },
+        {
+          "id": "western-railroader-1952-02",
+          "title": "The Western Railroader 15(4), February 1952: Robert Ellison and Walt Sievers on the Petaluma & Santa Rosa",
+          "author": "Robert Ellison and Walt Sievers",
+          "publisher": "The Western Railroader",
+          "date": "1952-02",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1952-02_15_4",
+          "license": "Copyright status unknown (railfan periodical, 1952); cited for facts only",
+          "accessed": "2026-10-15",
+          "source": "western-railroader-1952-02",
+          "supports": [
+            "opened"
+          ],
+          "pages": "5"
+        },
+        {
+          "id": "srj-1905-07-01-psr",
+          "title": "Street Railway Journal 26(1), July 1, 1905: the Petaluma & Santa Rosa Railway",
+          "publisher": "Street Railway Journal",
+          "date": "1905-07-01",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayj261905newy",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "srj-1905-07-01-psr",
+          "supports": [
+            "route"
+          ],
+          "pages": "11"
+        },
+        {
+          "id": "crc-d24818",
+          "title": "Railroad Commission of California, Decision No. 24818 (Application No. 18089)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-05-31",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24818_19320531_A18089.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24818",
+          "supports": [
+            "closed"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "crc-d24983",
+          "title": "Railroad Commission of California, Decision No. 24983 (Application No. 18258)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-07-11",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24983_19320711_A18258.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24983",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+        },
+        {
+          "id": "usgs-sebastopol-1954",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_300394_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-camp-meeker-1954",
+          "title": "Camp Meeker, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Camp%20Meeker_288861_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-camp-meeker-1954",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psr-sebastopol-santa-rosa",
+      "name": "Petaluma & Santa Rosa, Sebastopol to Santa Rosa",
+      "short_name": "Sebastopol–Santa Rosa",
+      "system": "petaluma-santa-rosa",
+      "system_name": "Petaluma & Santa Rosa Railway",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1904-11-19",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1932-07-01"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1904-11-19",
+      "closed": "1932-07-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Electric cars from Sebastopol by Gravenstein and Llano, then beside Sebastopol Ave into Santa Rosa, up Olive St and along Fourth St to McDonald Ave.",
+      "fate": "abandoned",
+      "fate_note": "Its passenger and express service ended under the Railroad Commission's order of May 31, 1932 (Decision No. 24818), as of July 1, 1932 (Decision No. 24983); its freight trains ran on.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1904-11-19",
+          "to": "1932-07-01"
+        }
+      ],
+      "notes": "Opens on JOE's November 19, 1904, which names no terminals; Borden and Ellison and Sievers say the first cars ran to the California Northwestern's crossing at the Santa Rosa city limits (November 29 or December 1). Between Leddy and the crossing it is drawn on Sebastopol Rd's centerline, the road it ran beside. By 1927, 18 round trips a day (Borden, p. 25).",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 15.57,
+      "confidence_km": {
+        "digitized": 15.57
+      },
+      "bbox": [
+        -122.823583,
+        38.380402,
+        -122.704138,
+        38.445375
+      ],
+      "fids": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "segments": [
+        {
+          "id": "psr-sebastopol-town",
+          "name": "Into Sebastopol, along the Gravenstein Highway and Main St",
+          "opened": "1904-11-19",
+          "closed": null,
+          "note": "Through cars from Petaluma ran into Santa Rosa at first (Borden; Ellison and Sievers).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (7 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (18 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (5 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (2 hand-read points). Beside the Gravenstein Highway, then in Main St to the depot, as the 1954 sheet draws it.",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "In the streets of Sebastopol, as a 1941 photo caption in Borden has it. Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-sebastopol-leddy",
+          "name": "Sebastopol to Leddy, by Gravenstein and Llano",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Sebastopol 1:24,000 (1954) (5 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (6 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (4 hand-read points, centred on the line symbol); then traced by eye from USGS Sebastopol 1:24,000 (1954) (20 hand-read points, centred on the line symbol). The track the 1954 sheet labels Petaluma & Santa Rosa, by Gravenstein and Llano to Leddy, which the 1935 sheet shows beside the Northwestern Pacific's own Sebastopol branch.",
+          "structure": "surface",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger cars ended on July 1, 1932; the track went on carrying freight, and when it was taken up isn't sourced here."
+        },
+        {
+          "id": "psr-leddy-santa-rosa",
+          "name": "Leddy to the Northwestern Pacific's crossing, along Sebastopol Rd",
+          "opened": "1904-11-19",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sebastopol Road and Sebastopol Avenue centerline from -122.77201,38.42455 to -122.72128,38.43160 (4522 m; Overture 2026-09-23.1); checked on USGS Sebastopol 1:48,000 (1935) and USGS Santa Rosa 1:62,500 (1916). Borden: \"street and side of the road running\" on Sebastopol Ave between Santa Rosa and Leddy; the 1916 and 1935 sheets draw the line beside the road, here drawn on its centerline to the Northwestern Pacific's crossing.",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources",
+            "closed_unsourced"
+          ],
+          "notes": "The cars ran only to this crossing, then the California Northwestern's, at the Santa Rosa city limits, until the night of March 1, 1905 (Borden; Ellison and Sievers). Borden: the track was abandoned between Olive St and Stop 45 on May 20, 1946, when Sebastopol Ave was widened, and the line then used the Northwestern Pacific's Sebastopol branch into Santa Rosa."
+        },
+        {
+          "id": "psr-santa-rosa-olive",
+          "name": "Sebastopol Ave and Olive St, Santa Rosa",
+          "opened": "1905-03-02",
+          "closed": null,
+          "from": "1905-03-02",
+          "note": "Until the night of March 1, 1905 the cars stopped at the California Northwestern's crossing, which the steam road wouldn't let them cross (Borden; Street Railway Journal).",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Sebastopol Avenue centerline from -122.72128,38.43160 to Olive Street (201 m; Overture 2026-09-23.1); then along today's Olive Street and Wilson Street centerline from Sebastopol Avenue to 4th Street (623 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Santa Rosa 1:24,000 (1954). Sebastopol Ave to Olive St and Olive St to Fourth St (Borden); Olive St ran on to Fourth St at Wilson St on the 1954 sheet, where today's freeway cuts it.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Opened when the first car crossed the California Northwestern's track \"shortly after midnight\" after the fight of March 1, 1905 (Borden). The depot was at Olive St (Borden, p. 26)."
+        },
+        {
+          "id": "psr-santa-rosa-fourth-st",
+          "name": "Fourth St, Santa Rosa, to McDonald Ave",
+          "opened": "1905-03-02",
+          "closed": "1931-12-31",
+          "from": "1905-03-02",
+          "to": "1931-12-31",
+          "note": "Fourth St's cars ended on December 31, 1931 (Borden), under the order of December 14, 1931 (Decision No. 24310).",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's 4th Street centerline from Wilson Street to McDonald Avenue (1699 m; Overture 2026-09-23.1, across gaps of up to 300 m where the street is cut today); checked on USGS Santa Rosa 1:24,000 (1954). In Fourth St to the terminus at McDonald Ave (Borden; CRC Decision No. 24310), across today's freeway, where Overture has no 4th St.",
+          "structure": "street",
+          "flags": [],
+          "notes": "The Railroad Commission's order of December 14, 1931 let the company abandon Fourth St from Wilson St to McDonald Ave; Borden has its cars end on December 31, 1931."
+        }
+      ],
+      "sources": [
+        {
+          "id": "joe-1905-01-psr",
+          "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
+          "publisher": "Journal of Electricity, Power and Gas",
+          "date": "1905-01",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_electrical-west_1905-01_15_1",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "joe-1905-01-psr",
+          "supports": [
+            "opened"
+          ],
+          "pages": "31",
+          "note": "Regular hourly service \"was begun on November 19th\" (1904)."
+        },
+        {
+          "id": "crc-d2348",
+          "title": "Railroad Commission of California, Decision No. 2348 (Case No. 145): the valuation of the Petaluma & Santa Rosa",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1915-05-05",
+          "type": "official",
+          "url": "https://archive.org/details/california-railroad-commission-decisions_6",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d2348",
+          "supports": [
+            "opened"
+          ],
+          "pages": "752",
+          "note": "\"placed in operation in November, 1904\"."
+        },
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "route",
+            "closed"
+          ],
+          "pages": "6",
+          "note": "The first regular trains on November 29, 1904, \"from Petaluma to the California Northwestern crossing in Santa Rosa\"."
+        },
+        {
+          "id": "western-railroader-1952-02",
+          "title": "The Western Railroader 15(4), February 1952: Robert Ellison and Walt Sievers on the Petaluma & Santa Rosa",
+          "author": "Robert Ellison and Walt Sievers",
+          "publisher": "The Western Railroader",
+          "date": "1952-02",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1952-02_15_4",
+          "license": "Copyright status unknown (railfan periodical, 1952); cited for facts only",
+          "accessed": "2026-10-15",
+          "source": "western-railroader-1952-02",
+          "supports": [
+            "opened"
+          ],
+          "pages": "3",
+          "note": "Regular service from December 1, 1904, \"from Petaluma via Sebastopol to the CNW crossing at the Santa Rosa city limits\"."
+        },
+        {
+          "id": "srj-1905-07-01-psr",
+          "title": "Street Railway Journal 26(1), July 1, 1905: the Petaluma & Santa Rosa Railway",
+          "publisher": "Street Railway Journal",
+          "date": "1905-07-01",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayj261905newy",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "srj-1905-07-01-psr",
+          "supports": [
+            "route"
+          ],
+          "pages": "11-13"
+        },
+        {
+          "id": "srj-1905-03-25-santa-rosa",
+          "title": "Street Railway Journal 25, March 25, 1905: the crossing fight at Santa Rosa",
+          "publisher": "Street Railway Journal",
+          "date": "1905-03-25",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo251905newy",
+          "license": "Public domain (published 1905)",
+          "accessed": "2026-10-15",
+          "source": "srj-1905-03-25-santa-rosa",
+          "supports": [
+            "general"
+          ],
+          "pages": "542"
+        },
+        {
+          "id": "crc-d24310",
+          "title": "Railroad Commission of California, Decision No. 24310 (Application No. 17824)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-12-14",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24310_19311214_A17824.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24310",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "1-2"
+        },
+        {
+          "id": "crc-d24818",
+          "title": "Railroad Commission of California, Decision No. 24818 (Application No. 18089)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-05-31",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24818_19320531_A18089.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24818",
+          "supports": [
+            "closed"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "crc-d24983",
+          "title": "Railroad Commission of California, Decision No. 24983 (Application No. 18258)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1932-07-11",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24983_19320711_A18258.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-15",
+          "source": "crc-d24983",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"the discontinuance of passenger train service between termini on July 1, 1932\"."
+        },
+        {
+          "id": "usgs-sebastopol-1954",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_300394_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-sebastopol-1935",
+          "title": "Sebastopol, Cal., topographic quadrangle, 1:48,000, 1935",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1935",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Sebastopol_301575_1935_48000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-sebastopol-1935",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-santa-rosa-1916",
+          "title": "Santa Rosa, Cal., topographic quadrangle, 1:62,500, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_298959_1916_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-santa-rosa-1916",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-santa-rosa-1954",
+          "title": "Santa Rosa, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Santa%20Rosa_300294_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-santa-rosa-1954",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psr-liberty-two-rock",
+      "name": "Petaluma & Santa Rosa, Two Rock branch",
+      "short_name": "Two Rock branch",
+      "system": "petaluma-santa-rosa",
+      "system_name": "Petaluma & Santa Rosa Railway",
+      "operators": [
+        {
+          "name": "Petaluma and Santa Rosa Railway",
+          "from": "1913-07-28",
+          "to": null
+        },
+        {
+          "name": "Petaluma and Santa Rosa Railroad",
+          "from": null,
+          "to": "1925-09-20"
+        }
+      ],
+      "mode": "interurban",
+      "mode_label": "Interurban",
+      "group": "interurban",
+      "era": "past",
+      "opened": "1913-07-28",
+      "closed": "1925-09-20",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A branch of 5.77 miles from Liberty, on the line from Petaluma, west to Two Rock.",
+      "fate": "abandoned",
+      "fate_note": "Its passenger service ended in September 1925; freight went on.",
+      "traction": [
+        {
+          "type": "electric_overhead",
+          "from": "1913-07-28",
+          "to": "1925-09-20"
+        }
+      ],
+      "notes": "Its end is Borden's September 20, 1925; Ellison and Sievers give September 30. Its passengers were few once the county highway opened (Borden, p. 24). Drawn on OpenStreetMap's way, whose west end is short of Two Rock itself.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 6.63,
+      "confidence_km": {
+        "surveyed": 6.63
+      },
+      "bbox": [
+        -122.790607,
+        38.267382,
+        -122.720924,
+        38.286441
+      ],
+      "fids": [
+        309
+      ],
+      "segments": [
+        {
+          "id": "psr-liberty-two-rock",
+          "name": "Liberty to Two Rock",
+          "opened": "1913-07-28",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along OpenStreetMap's Petaluma and Santa Rosa Railroad from -122.72092,38.28435 to -122.79061,38.26738 (6644 m; Overture 2026-09-23.1 rail); checked on USGS Cotati 1:24,000 (1954) and USGS Two Rock 1:24,000 (1954). OpenStreetMap's way, checked on the 1954 sheets.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its passenger service ended in September 1925; the branch carried freight later."
+        }
+      ],
+      "sources": [
+        {
+          "id": "western-railroader-1960-04",
+          "title": "The Western Railroader 23(4), April 1960: Stanley T. Borden, \"Petaluma & Santa Rosa Electric R.R.\"",
+          "author": "Stanley T. Borden",
+          "publisher": "The Western Railroader",
+          "date": "1960-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1960-04_23_4",
+          "license": "Copyright status unknown (railfan periodical, 1960); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1960-04",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "14, 24",
+          "note": "\"completed and put into operation on July 28, 1913\" (p. 14); \"on September 20, 1925, passenger service was discontinued\" (p. 24)."
+        },
+        {
+          "id": "western-railroader-1952-02",
+          "title": "The Western Railroader 15(4), February 1952: Robert Ellison and Walt Sievers on the Petaluma & Santa Rosa",
+          "author": "Robert Ellison and Walt Sievers",
+          "publisher": "The Western Railroader",
+          "date": "1952-02",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1952-02_15_4",
+          "license": "Copyright status unknown (railfan periodical, 1952); cited for facts only",
+          "accessed": "2026-10-15",
+          "source": "western-railroader-1952-02",
+          "supports": [
+            "opened",
+            "closed"
+          ],
+          "pages": "5, 12",
+          "note": "Opened July 28, 1913; passenger service ended September 30, 1925."
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cotati-1954",
+          "title": "Cotati, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cotati_289550_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cotati-1954",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-two-rock-1954",
+          "title": "Two Rock, Cal., topographic quadrangle, 1:24,000, 1954, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1954",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Two%20Rock_301038_1954_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-two-rock-1954",
           "supports": [
             "geometry"
           ]
@@ -29530,24 +30589,24 @@
         38.42361
       ],
       "fids": [
-        298,
-        299,
-        300,
-        301,
-        302,
-        303,
-        304,
-        305,
-        306,
-        307,
-        308,
-        309,
         310,
         311,
         312,
         313,
         314,
-        315
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327
       ],
       "segments": [
         {
@@ -30841,12 +31900,12 @@
         37.795493
       ],
       "fids": [
-        317,
-        318,
-        319,
-        320,
-        321,
-        322
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
       ],
       "segments": [
         {
@@ -31174,7 +32233,7 @@
         38.519886
       ],
       "fids": [
-        783
+        795
       ],
       "segments": [
         {
@@ -31356,12 +32415,12 @@
         38.809809
       ],
       "fids": [
-        760,
-        761,
-        762,
-        763,
-        764,
-        765
+        772,
+        773,
+        774,
+        775,
+        776,
+        777
       ],
       "segments": [
         {
@@ -31648,15 +32707,15 @@
         38.809809
       ],
       "fids": [
-        766,
-        767,
-        768,
-        769,
-        770,
-        771,
-        772,
-        773,
-        774
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786
       ],
       "segments": [
         {
@@ -32371,15 +33430,15 @@
         37.824321
       ],
       "fids": [
-        830,
-        831,
-        832,
-        833,
-        834,
-        835,
-        836,
-        837,
-        838
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850
       ],
       "segments": [
         {
@@ -32878,18 +33937,6 @@
         37.891481
       ],
       "fids": [
-        795,
-        796,
-        797,
-        798,
-        799,
-        800,
-        801,
-        802,
-        803,
-        804,
-        805,
-        806,
         807,
         808,
         809,
@@ -32897,7 +33944,19 @@
         811,
         812,
         813,
-        814
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826
       ],
       "segments": [
         {
@@ -33528,17 +34587,17 @@
         37.796576
       ],
       "fids": [
-        784,
-        785,
-        786,
-        787,
-        788,
-        789,
-        790,
-        791,
-        792,
-        793,
-        794
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806
       ],
       "segments": [
         {
@@ -34068,9 +35127,9 @@
         38.032436
       ],
       "fids": [
-        894,
-        895,
-        896
+        906,
+        907,
+        908
       ],
       "segments": [
         {
@@ -34320,9 +35379,9 @@
         37.790312
       ],
       "fids": [
-        323,
-        324,
-        325
+        335,
+        336,
+        337
       ],
       "segments": [
         {
@@ -34468,15 +35527,15 @@
         37.789106
       ],
       "fids": [
-        659,
-        660,
-        661,
-        662,
-        663,
-        664,
-        665,
-        666,
-        667
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679
       ],
       "segments": [
         {
@@ -35609,10 +36668,10 @@
         37.80035
       ],
       "fids": [
-        346,
-        347,
-        348,
-        349
+        358,
+        359,
+        360,
+        361
       ],
       "segments": [
         {
@@ -35953,17 +37012,17 @@
         37.79562
       ],
       "fids": [
-        334,
-        335,
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342,
-        343,
-        344
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
       ],
       "segments": [
         {
@@ -36219,12 +37278,12 @@
         37.803847
       ],
       "fids": [
-        866,
-        867,
-        868,
-        869,
-        870,
-        871
+        878,
+        879,
+        880,
+        881,
+        882,
+        883
       ],
       "segments": [
         {

@@ -144,6 +144,12 @@
       "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
     },
     {
+      "id": "petaluma-santa-rosa",
+      "name": "Petaluma & Santa Rosa Railway",
+      "short_name": "Petaluma & Santa Rosa",
+      "notes": "An electric interurban from the steamer landing at Petaluma to Sebastopol, where it divided for Santa Rosa and for Graton and Forestville (1904-05), with a branch from Liberty to Two Rock (1913). Its passenger cars ran until July 1, 1932; freight went on."
+    },
+    {
       "id": "presidio-ferries-railroad",
       "name": "Presidio & Ferries Railroad",
       "short_name": "Presidio & Ferries"

@@ -147,6 +147,14 @@ SHEETS = [
     Sheet("usgs-diablo-1953", "Diablo", 24000, 1953, "289931", 1954, "7.5-minute sheet, aerial photographs of 1949, edition of 1953"),
     Sheet("usgs-mt-diablo-1898", "Mt Diablo", 62500, 1898, "298277", 1901, "15-minute sheet, surveyed 1896, edition of 1898"),
     Sheet("usgs-vine-hill-1959", "Vine Hill", 24000, 1959, "301163", 1981, "7.5-minute sheet, edition of 1959, photorevised 1979"),
+    # The Petaluma & Santa Rosa, while its track was still in place (passengers to 1932, freight later).
+    Sheet("usgs-petaluma-1953", "Petaluma", 24000, 1953, "294061", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1953"),
+    Sheet("usgs-two-rock-1954", "Two Rock", 24000, 1954, "301038", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-cotati-1954", "Cotati", 24000, 1954, "289550", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-sebastopol-1954", "Sebastopol", 24000, 1954, "300394", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-santa-rosa-1954", "Santa Rosa", 24000, 1954, "300294", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-camp-meeker-1954", "Camp Meeker", 24000, 1954, "288861", 1955, "7.5-minute sheet, aerial photographs of 1952, edition of 1954"),
+    Sheet("usgs-santa-rosa-1916", "Santa Rosa", 62500, 1916, "298959", None, "15-minute sheet, surveyed 1914, edition of 1916"),
 ]
 BY_ID = {s.id: s for s in SHEETS}
 
