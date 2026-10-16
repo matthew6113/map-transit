@@ -1745,18 +1745,18 @@
         37.804116
       ],
       "fids": [
-        163,
-        164,
-        165,
-        166,
-        167,
         168,
         169,
         170,
         171,
         172,
         173,
-        174
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
       ],
       "segments": [
         {
@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        684,
-        685,
-        686,
-        687
+        689,
+        690,
+        691,
+        692
       ],
       "segments": [
         {
@@ -2408,7 +2408,7 @@
         37.797871
       ],
       "fids": [
-        200
+        205
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        688,
-        689,
-        690,
-        691,
-        692,
         693,
         694,
         695,
         696,
         697,
-        698
+        698,
+        699,
+        700,
+        701,
+        702,
+        703
       ],
       "segments": [
         {
@@ -2811,11 +2811,6 @@
         37.891454
       ],
       "fids": [
-        204,
-        205,
-        206,
-        207,
-        208,
         209,
         210,
         211,
@@ -2829,7 +2824,12 @@
         219,
         220,
         221,
-        222
+        222,
+        223,
+        224,
+        225,
+        226,
+        227
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        714,
-        715,
-        716,
-        717,
-        718,
         719,
         720,
         721,
-        722
+        722,
+        723,
+        724,
+        725,
+        726,
+        727
       ],
       "segments": [
         {
@@ -3768,7 +3768,7 @@
         {
           "date": "1889",
           "source": "ca-brc-reports-9-12",
-          "pages": "18",
+          "pages": "9 (tenth report)",
           "note": "\"Napa Junction to Calistoga 34.48\" miles, in the California Pacific's mileage."
         },
         {
@@ -3795,7 +3795,8 @@
         2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "segments": [
         {
@@ -3815,6 +3816,22 @@
           "notes": "The California Pacific's line north from its wharf at South Vallejo, built in 1868-69 (the railroad reported only \"sundry dates\"), still in place today."
         },
         {
+          "id": "calp-napa-junction-fork",
+          "name": "Napa Junction, where the line to Suisun branches off",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along today's track from -122.25050,38.18600 to -122.25064,38.18708 (119 m; Overture 2026-09-23.1 rail); checked on USGS Cuttings Wharf 1:24,000 (1951) and USGS Cordelia 1:24,000 (1951). Today's track at Napa Junction, to where the line to Suisun leaves the line to Napa.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The California Pacific's junction of its line to Sacramento with the Napa Valley line."
+        },
+        {
           "id": "calp-napa-junction-yountville",
           "name": "Napa Junction to Yountville, by Napa",
           "opened": null,
@@ -3822,7 +3839,7 @@
           "borrowed": true,
           "undated": false,
           "confidence": "surveyed",
-          "method": "Along today's track from -122.25050,38.18600 to -122.35769,38.39694 (26459 m; Overture 2026-09-23.1 rail); checked on USGS Cuttings Wharf 1:24,000 (1951), USGS Napa 1:24,000 (1951) and USGS Yountville 1:24,000 (1951). Today's track, which the 1951 sheets show the railroad on, to where it leaves the old line south of Yountville.",
+          "method": "Along today's track from -122.25064,38.18708 to -122.35769,38.39694 (26340 m; Overture 2026-09-23.1 rail); checked on USGS Cuttings Wharf 1:24,000 (1951), USGS Napa 1:24,000 (1951) and USGS Yountville 1:24,000 (1951). Today's track, which the 1951 sheets show the railroad on, to where it leaves the old line south of Yountville.",
           "structure": "surface",
           "flags": [
             "opened_unsourced",
@@ -4019,6 +4036,21 @@
           ]
         },
         {
+          "id": "usgs-cordelia-1951",
+          "title": "Cordelia, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1951",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cordelia_289511_1951_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cordelia-1951",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
           "id": "usgs-napa-1951",
           "title": "Napa, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
           "author": "U.S. Geological Survey",
@@ -4112,6 +4144,323 @@
       ]
     },
     {
+      "id": "calp-vallejo-suisun",
+      "name": "California Pacific trains, Vallejo to Suisun and Sacramento",
+      "short_name": "Vallejo–Suisun line",
+      "system": "california-pacific",
+      "system_name": "California Pacific Railroad",
+      "operators": [
+        {
+          "name": "California Pacific Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": "1929-06"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": "1929-06",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains from the ferry at South Vallejo by Napa Junction, Jameson Canyon and Cordelia to Suisun, on the California Pacific's line to Sacramento; by 1929 they ran only as far as Suisun-Fairfield.",
+      "fate": "converted_to_bus",
+      "fate_note": "Discontinued on or about June 1929, with the trains to Calistoga and the Vallejo Junction ferry, for the Southern Pacific's own motor coaches (CRC Decision No. 21194).",
+      "continues_beyond": "Sacramento",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "The California Pacific opened its road from Vallejo to Sacramento in 1868-70, at \"sundry dates\" its own return gives no details of, so the map draws its trains from 1880, the first date a source shows the line (decision 20), in the lighter tint. West of Suisun it is drawn on today's track, checked on the 1949-51 sheets; from Suisun to Davis on the Capitol Corridor's. When the trains stopped running on to Sacramento isn't sourced: that stretch is shown for 1880 and 1889 only.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1880",
+          "source": "poors-1880",
+          "pages": "973",
+          "note": "\"Line of Road.— South Vallejo, Cal., to Sacramento, Cal 61.18 miles.\""
+        },
+        {
+          "date": "1889",
+          "source": "ca-brc-reports-9-12",
+          "pages": "9 (tenth report)",
+          "note": "\"Vallejo to Sacramento 60.39\" miles, in the California Pacific's mileage."
+        },
+        {
+          "date": "1929-06",
+          "source": "crc-d21194",
+          "pages": "7",
+          "note": "Trains Nos. 166 to 173 \"operated between Vallejo and Suisun-Fairfield\"."
+        }
+      ],
+      "undated": false,
+      "length_km": 76.22,
+      "confidence_km": {
+        "surveyed": 76.22
+      },
+      "bbox": [
+        -122.252898,
+        38.081324,
+        -121.737407,
+        38.543285
+      ],
+      "fids": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "segments": [
+        {
+          "id": "calp-south-vallejo-napa-junction",
+          "name": "South Vallejo to Napa Junction",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along today's track from -122.24470,38.08140 to -122.25050,38.18600 (11756 m; Overture 2026-09-23.1 rail); checked on USGS Karquines 1:62,500 (1898), USGS Mare Island 1:62,500 (1916) and USGS Cuttings Wharf 1:24,000 (1951). Today's track from the end of rail at South Vallejo, near the old wharf on the 1898 Karquines sheet, to Napa Junction.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The California Pacific's line north from its wharf at South Vallejo, built in 1868-69 (the railroad reported only \"sundry dates\"), still in place today."
+        },
+        {
+          "id": "calp-napa-junction-fork",
+          "name": "Napa Junction, where the line to Suisun branches off",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along today's track from -122.25050,38.18600 to -122.25064,38.18708 (119 m; Overture 2026-09-23.1 rail); checked on USGS Cuttings Wharf 1:24,000 (1951) and USGS Cordelia 1:24,000 (1951). Today's track at Napa Junction, to where the line to Suisun leaves the line to Napa.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The California Pacific's junction of its line to Sacramento with the Napa Valley line."
+        },
+        {
+          "id": "calp-suisun-fork-suisun",
+          "name": "Napa Junction to Suisun, by Jameson Canyon and Cordelia",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Along today's track from -122.25064,38.18708 to -122.04120,38.24330 (21513 m; Overture 2026-09-23.1 rail); checked on USGS Cordelia 1:24,000 (1951) and USGS Fairfield South 1:24,000 (1949). Today's track from where it leaves the line to Napa, through Jameson Canyon and by Cordelia, to Suisun-Fairfield.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The California Pacific's line to Sacramento, west of Suisun, on today's track."
+        },
+        {
+          "id": "cc-suisun-davis",
+          "name": "Suisun-Fairfield to Davis, by Dixon",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1880",
+            "1889"
+          ],
+          "note": "On to Sacramento in 1880 and 1889; by 1929 the trains turned at Suisun-Fairfield",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 6 shapes run by 191 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between Suisun-Fairfield and Davis (data/present/extensions.json)",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ],
+          "notes": "The California Pacific's line of 1868-69 from Vallejo to Sacramento. The company itself reported only that it opened \"at sundry dates\" in 1868 and 1869 (the tenth report, p. 63), so its date isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "poors-1880",
+          "title": "Poor's Manual of the Railroads of the United States, 1880 (vol. 13)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofr1880newyuoft",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "poors-1880",
+          "supports": [
+            "route"
+          ],
+          "pages": "973"
+        },
+        {
+          "id": "ca-brc-reports-9-12",
+          "title": "Annual Reports of the Board of Railroad Commissioners of the State of California, 9th-12th (c. 1888-1892), bound together",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa05unkngoog",
+          "license": "Public domain (State of California publications)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-reports-9-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "9 (tenth report)"
+        },
+        {
+          "id": "crc-d21194",
+          "title": "Railroad Commission of California, Decision No. 21194 (Applications Nos. 14085, 14086, 14758, 14760, 14898)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1929-06-10",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D21194_19290610_A14085.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d21194",
+          "supports": [
+            "closed",
+            "route",
+            "stations"
+          ],
+          "pages": "1, 7, 9",
+          "note": "\"Trains Nos. 166-167, 168-169, 170-171 and 172-173, operated between Vallejo and Suisun-Fairfield\", discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        },
+        {
+          "id": "overture-rail-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (rail), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-rail-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-karquines-1898",
+          "title": "Karquines, Cal., topographic quadrangle, 1:62,500, 1898",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1898",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Karquines_297860_1898_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-karquines-1898",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-mare-island-1916",
+          "title": "Mare Island, Cal., topographic quadrangle, 1:62,500, 1916",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1916",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mare%20Island_298113_1916_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-mare-island-1916",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cuttings-wharf-1951",
+          "title": "Cuttings Wharf, Cal., topographic quadrangle, 1:24,000, 1951",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1951",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cuttings%20Wharf_289712_1951_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cuttings-wharf-1951",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-cordelia-1951",
+          "title": "Cordelia, Cal., topographic quadrangle, 1:24,000, 1951, printed 1952",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1951",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Cordelia_289511_1951_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-cordelia-1951",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-fairfield-south-1949",
+          "title": "Fairfield South, Cal., topographic quadrangle, 1:24,000, 1949, printed 1959",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Fairfield%20South_290434_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-fairfield-south-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "gtfs-amtrak",
+          "title": "Amtrak GTFS feed, version 20261013",
+          "publisher": "Amtrak",
+          "url": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+          "type": "dataset",
+          "license": "Published by Amtrak for public use; no license stated in the feed or found on Amtrak's site (see DATA_LOG.md).",
+          "accessed": "2026-10-14",
+          "source": "gtfs-amtrak",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ca-brc-report-10",
+          "title": "Tenth Annual Report of the Board of Railroad Commissioners of the State of California, for the year ending December 31, 1889",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1889",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa54commgoog",
+          "license": "Public domain (State of California publication of 1889)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-10",
+          "supports": [
+            "route"
+          ],
+          "pages": "10",
+          "note": "The Northern Railway joined \"the California Pacific Railroad\" at Suisun, \"forming a short line from San Francisco to Sacramento\"."
+        }
+      ]
+    },
+    {
       "id": "sf-california-st-west",
       "name": "California Street cable line, west of Van Ness Ave",
       "system": "california-street-cable-railroad",
@@ -4160,8 +4509,8 @@
         37.790421
       ],
       "fids": [
-        321,
-        322
+        326,
+        327
       ],
       "segments": [
         {
@@ -4290,10 +4639,10 @@
         37.772502
       ],
       "fids": [
-        345,
-        346,
-        347,
-        348
+        350,
+        351,
+        352,
+        353
       ],
       "segments": [
         {
@@ -4464,7 +4813,7 @@
         37.831971
       ],
       "fids": [
-        190
+        195
       ],
       "segments": [
         {
@@ -4581,8 +4930,8 @@
         37.72262
       ],
       "fids": [
-        25,
-        26
+        30,
+        31
       ],
       "segments": [
         {
@@ -4791,14 +5140,14 @@
         37.80914
       ],
       "fids": [
-        17,
-        18,
-        19,
-        20,
-        21,
         22,
         23,
-        24
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
       ],
       "segments": [
         {
@@ -5227,16 +5576,16 @@
         38.543285
       ],
       "fids": [
-        7,
-        8,
-        9,
-        10,
-        11,
         12,
         13,
         14,
         15,
-        16
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
       "segments": [
         {
@@ -5581,17 +5930,17 @@
         37.859007
       ],
       "fids": [
-        265,
-        266,
-        267,
-        268,
-        269,
         270,
         271,
         272,
         273,
         274,
-        275
+        275,
+        276,
+        277,
+        278,
+        279,
+        280
       ],
       "segments": [
         {
@@ -6048,7 +6397,7 @@
         37.794462
       ],
       "fids": [
-        311
+        316
       ],
       "segments": [
         {
@@ -6179,7 +6528,7 @@
         37.798581
       ],
       "fids": [
-        198
+        203
       ],
       "segments": [
         {
@@ -6312,11 +6661,6 @@
         37.806482
       ],
       "fids": [
-        723,
-        724,
-        725,
-        726,
-        727,
         728,
         729,
         730,
@@ -6325,7 +6669,12 @@
         733,
         734,
         735,
-        736
+        736,
+        737,
+        738,
+        739,
+        740,
+        741
       ],
       "segments": [
         {
@@ -6765,7 +7114,7 @@
         37.791639
       ],
       "fids": [
-        663
+        668
       ],
       "segments": [
         {
@@ -6895,11 +7244,6 @@
         37.80035
       ],
       "fids": [
-        699,
-        700,
-        701,
-        702,
-        703,
         704,
         705,
         706,
@@ -6909,7 +7253,12 @@
         710,
         711,
         712,
-        713
+        713,
+        714,
+        715,
+        716,
+        717,
+        718
       ],
       "segments": [
         {
@@ -7304,15 +7653,15 @@
         37.81612
       ],
       "fids": [
-        852,
-        853,
-        854,
-        855,
-        856,
         857,
         858,
         859,
-        860
+        860,
+        861,
+        862,
+        863,
+        864,
+        865
       ],
       "segments": [
         {
@@ -7646,15 +7995,15 @@
         37.824321
       ],
       "fids": [
-        834,
-        835,
-        836,
-        837,
-        838,
         839,
         840,
         841,
-        842
+        842,
+        843,
+        844,
+        845,
+        846,
+        847
       ],
       "segments": [
         {
@@ -8151,14 +8500,14 @@
         37.805981
       ],
       "fids": [
-        737,
-        738,
-        739,
-        740,
-        741,
         742,
         743,
-        744
+        744,
+        745,
+        746,
+        747,
+        748,
+        749
       ],
       "segments": [
         {
@@ -8449,7 +8798,7 @@
         37.796162
       ],
       "fids": [
-        373
+        378
       ],
       "segments": [
         {
@@ -8558,7 +8907,7 @@
         37.788015
       ],
       "fids": [
-        340
+        345
       ],
       "segments": [
         {
@@ -8700,16 +9049,16 @@
         37.806482
       ],
       "fids": [
-        745,
-        746,
-        747,
-        748,
-        749,
         750,
         751,
         752,
         753,
-        754
+        754,
+        755,
+        756,
+        757,
+        758,
+        759
       ],
       "segments": [
         {
@@ -9029,14 +9378,14 @@
         37.793407
       ],
       "fids": [
-        365,
-        366,
-        367,
-        368,
-        369,
         370,
         371,
-        372
+        372,
+        373,
+        374,
+        375,
+        376,
+        377
       ],
       "segments": [
         {
@@ -9278,7 +9627,7 @@
         37.840424
       ],
       "fids": [
-        196
+        201
       ],
       "segments": [
         {
@@ -9396,7 +9745,7 @@
         37.85646
       ],
       "fids": [
-        195
+        200
       ],
       "segments": [
         {
@@ -9504,7 +9853,7 @@
         37.785808
       ],
       "fids": [
-        328
+        333
       ],
       "segments": [
         {
@@ -9618,9 +9967,9 @@
         37.869656
       ],
       "fids": [
-        71,
-        72,
-        73
+        76,
+        77,
+        78
       ],
       "segments": [
         {
@@ -9754,7 +10103,7 @@
         37.817801
       ],
       "fids": [
-        264
+        269
       ],
       "segments": [
         {
@@ -9899,15 +10248,15 @@
         37.824321
       ],
       "fids": [
-        843,
-        844,
-        845,
-        846,
-        847,
         848,
         849,
         850,
-        851
+        851,
+        852,
+        853,
+        854,
+        855,
+        856
       ],
       "segments": [
         {
@@ -10388,16 +10737,16 @@
         37.793407
       ],
       "fids": [
-        355,
-        356,
-        357,
-        358,
-        359,
         360,
         361,
         362,
         363,
-        364
+        364,
+        365,
+        366,
+        367,
+        368,
+        369
       ],
       "segments": [
         {
@@ -10672,12 +11021,12 @@
         37.787654
       ],
       "fids": [
-        349,
-        350,
-        351,
-        352,
-        353,
-        354
+        354,
+        355,
+        356,
+        357,
+        358,
+        359
       ],
       "segments": [
         {
@@ -10879,7 +11228,7 @@
         38.04191
       ],
       "fids": [
-        203
+        208
       ],
       "segments": [
         {
@@ -10996,8 +11345,8 @@
         37.90596
       ],
       "fids": [
-        291,
-        292
+        296,
+        297
       ],
       "segments": [
         {
@@ -11181,11 +11530,6 @@
         37.891351
       ],
       "fids": [
-        810,
-        811,
-        812,
-        813,
-        814,
         815,
         816,
         817,
@@ -11195,7 +11539,12 @@
         821,
         822,
         823,
-        824
+        824,
+        825,
+        826,
+        827,
+        828,
+        829
       ],
       "segments": [
         {
@@ -11721,11 +12070,6 @@
         37.80505
       ],
       "fids": [
-        27,
-        28,
-        29,
-        30,
-        31,
         32,
         33,
         34,
@@ -11733,7 +12077,12 @@
         36,
         37,
         38,
-        39
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
       ],
       "segments": [
         {
@@ -12211,16 +12560,16 @@
         37.793407
       ],
       "fids": [
-        374,
-        375,
-        376,
-        377,
-        378,
         379,
         380,
         381,
         382,
-        383
+        383,
+        384,
+        385,
+        386,
+        387,
+        388
       ],
       "segments": [
         {
@@ -12563,17 +12912,17 @@
         37.79492
       ],
       "fids": [
-        473,
-        474,
-        475,
-        476,
-        477,
         478,
         479,
         480,
         481,
         482,
-        483
+        483,
+        484,
+        485,
+        486,
+        487,
+        488
       ],
       "segments": [
         {
@@ -12917,17 +13266,17 @@
         37.826543
       ],
       "fids": [
-        84,
-        85,
-        86,
-        87,
-        88,
         89,
         90,
         91,
         92,
         93,
-        94
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
       ],
       "segments": [
         {
@@ -13304,15 +13653,15 @@
         37.79492
       ],
       "fids": [
-        484,
-        485,
-        486,
-        487,
-        488,
         489,
         490,
         491,
-        492
+        492,
+        493,
+        494,
+        495,
+        496,
+        497
       ],
       "segments": [
         {
@@ -13614,11 +13963,6 @@
         37.827343
       ],
       "fids": [
-        95,
-        96,
-        97,
-        98,
-        99,
         100,
         101,
         102,
@@ -13638,7 +13982,12 @@
         116,
         117,
         118,
-        119
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
       ],
       "segments": [
         {
@@ -14409,11 +14758,6 @@
         37.828691
       ],
       "fids": [
-        120,
-        121,
-        122,
-        123,
-        124,
         125,
         126,
         127,
@@ -14422,7 +14766,12 @@
         130,
         131,
         132,
-        133
+        133,
+        134,
+        135,
+        136,
+        137,
+        138
       ],
       "segments": [
         {
@@ -14818,18 +15167,18 @@
         37.79492
       ],
       "fids": [
-        493,
-        494,
-        495,
-        496,
-        497,
         498,
         499,
         500,
         501,
         502,
         503,
-        504
+        504,
+        505,
+        506,
+        507,
+        508,
+        509
       ],
       "segments": [
         {
@@ -15223,11 +15572,6 @@
         37.80505
       ],
       "fids": [
-        134,
-        135,
-        136,
-        137,
-        138,
         139,
         140,
         141,
@@ -15238,7 +15582,12 @@
         146,
         147,
         148,
-        149
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
       ],
       "segments": [
         {
@@ -15743,14 +16092,14 @@
         37.79492
       ],
       "fids": [
-        505,
-        506,
-        507,
-        508,
-        509,
         510,
         511,
-        512
+        512,
+        513,
+        514,
+        515,
+        516,
+        517
       ],
       "segments": [
         {
@@ -16034,11 +16383,6 @@
         37.80505
       ],
       "fids": [
-        150,
-        151,
-        152,
-        153,
-        154,
         155,
         156,
         157,
@@ -16046,7 +16390,12 @@
         159,
         160,
         161,
-        162
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
       ],
       "segments": [
         {
@@ -16496,14 +16845,14 @@
         37.808586
       ],
       "fids": [
-        513,
-        514,
-        515,
-        516,
-        517,
         518,
         519,
-        520
+        520,
+        521,
+        522,
+        523,
+        524,
+        525
       ],
       "segments": [
         {
@@ -16751,10 +17100,10 @@
         37.800137
       ],
       "fids": [
-        175,
-        176,
-        177,
-        178
+        180,
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -16919,11 +17268,6 @@
         37.793407
       ],
       "fids": [
-        521,
-        522,
-        523,
-        524,
-        525,
         526,
         527,
         528,
@@ -16932,7 +17276,12 @@
         531,
         532,
         533,
-        534
+        534,
+        535,
+        536,
+        537,
+        538,
+        539
       ],
       "segments": [
         {
@@ -17325,13 +17674,13 @@
         37.784013
       ],
       "fids": [
-        535,
-        536,
-        537,
-        538,
-        539,
         540,
-        541
+        541,
+        542,
+        543,
+        544,
+        545,
+        546
       ],
       "segments": [
         {
@@ -17574,14 +17923,14 @@
         37.815099
       ],
       "fids": [
-        180,
-        181,
-        182,
-        183,
-        184,
         185,
         186,
-        187
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
       ],
       "segments": [
         {
@@ -17932,12 +18281,12 @@
         37.805289
       ],
       "fids": [
-        542,
-        543,
-        544,
-        545,
-        546,
-        547
+        547,
+        548,
+        549,
+        550,
+        551,
+        552
       ],
       "segments": [
         {
@@ -18170,17 +18519,17 @@
         37.852133
       ],
       "fids": [
-        40,
-        41,
-        42,
-        43,
-        44,
         45,
         46,
         47,
         48,
         49,
-        50
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
       ],
       "segments": [
         {
@@ -18676,11 +19025,6 @@
         37.785729
       ],
       "fids": [
-        548,
-        549,
-        550,
-        551,
-        552,
         553,
         554,
         555,
@@ -18692,7 +19036,12 @@
         561,
         562,
         563,
-        564
+        564,
+        565,
+        566,
+        567,
+        568,
+        569
       ],
       "segments": [
         {
@@ -19117,11 +19466,6 @@
         37.793407
       ],
       "fids": [
-        565,
-        566,
-        567,
-        568,
-        569,
         570,
         571,
         572,
@@ -19138,7 +19482,12 @@
         583,
         584,
         585,
-        586
+        586,
+        587,
+        588,
+        589,
+        590,
+        591
       ],
       "segments": [
         {
@@ -19705,7 +20054,7 @@
         37.793564
       ],
       "fids": [
-        179
+        184
       ],
       "segments": [
         {
@@ -19819,8 +20168,8 @@
         37.867988
       ],
       "fids": [
-        188,
-        189
+        193,
+        194
       ],
       "segments": [
         {
@@ -19962,17 +20311,17 @@
         37.789284
       ],
       "fids": [
-        587,
-        588,
-        589,
-        590,
-        591,
         592,
         593,
         594,
         595,
         596,
-        597
+        597,
+        598,
+        599,
+        600,
+        601,
+        602
       ],
       "segments": [
         {
@@ -20314,9 +20663,9 @@
         37.95684
       ],
       "fids": [
-        192,
-        193,
-        194
+        197,
+        198,
+        199
       ],
       "segments": [
         {
@@ -20476,14 +20825,14 @@
         37.793407
       ],
       "fids": [
-        384,
-        385,
-        386,
-        387,
-        388,
         389,
         390,
-        391
+        391,
+        392,
+        393,
+        394,
+        395,
+        396
       ],
       "segments": [
         {
@@ -20793,11 +21142,6 @@
         37.793407
       ],
       "fids": [
-        598,
-        599,
-        600,
-        601,
-        602,
         603,
         604,
         605,
@@ -20810,7 +21154,12 @@
         612,
         613,
         614,
-        615
+        615,
+        616,
+        617,
+        618,
+        619,
+        620
       ],
       "segments": [
         {
@@ -21242,17 +21591,17 @@
         37.782556
       ],
       "fids": [
-        616,
-        617,
-        618,
-        619,
-        620,
         621,
         622,
         623,
         624,
         625,
-        626
+        626,
+        627,
+        628,
+        629,
+        630,
+        631
       ],
       "segments": [
         {
@@ -21553,12 +21902,12 @@
         37.805042
       ],
       "fids": [
-        627,
-        628,
-        629,
-        630,
-        631,
-        632
+        632,
+        633,
+        634,
+        635,
+        636,
+        637
       ],
       "segments": [
         {
@@ -21783,10 +22132,10 @@
         37.79009
       ],
       "fids": [
-        633,
-        634,
-        635,
-        636
+        638,
+        639,
+        640,
+        641
       ],
       "segments": [
         {
@@ -22017,11 +22366,6 @@
         37.793407
       ],
       "fids": [
-        392,
-        393,
-        394,
-        395,
-        396,
         397,
         398,
         399,
@@ -22036,7 +22380,12 @@
         408,
         409,
         410,
-        411
+        411,
+        412,
+        413,
+        414,
+        415,
+        416
       ],
       "segments": [
         {
@@ -22545,11 +22894,6 @@
         37.784013
       ],
       "fids": [
-        664,
-        665,
-        666,
-        667,
-        668,
         669,
         670,
         671,
@@ -22564,7 +22908,12 @@
         680,
         681,
         682,
-        683
+        683,
+        684,
+        685,
+        686,
+        687,
+        688
       ],
       "segments": [
         {
@@ -23088,11 +23437,11 @@
         37.789284
       ],
       "fids": [
-        637,
-        638,
-        639,
-        640,
-        641
+        642,
+        643,
+        644,
+        645,
+        646
       ],
       "segments": [
         {
@@ -23306,18 +23655,18 @@
         37.793216
       ],
       "fids": [
-        642,
-        643,
-        644,
-        645,
-        646,
         647,
         648,
         649,
         650,
         651,
         652,
-        653
+        653,
+        654,
+        655,
+        656,
+        657,
+        658
       ],
       "segments": [
         {
@@ -23625,11 +23974,6 @@
         37.872473
       ],
       "fids": [
-        51,
-        52,
-        53,
-        54,
-        55,
         56,
         57,
         58,
@@ -23644,7 +23988,12 @@
         67,
         68,
         69,
-        70
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
       ],
       "segments": [
         {
@@ -24167,11 +24516,6 @@
         37.793407
       ],
       "fids": [
-        412,
-        413,
-        414,
-        415,
-        416,
         417,
         418,
         419,
@@ -24194,7 +24538,12 @@
         436,
         437,
         438,
-        439
+        439,
+        440,
+        441,
+        442,
+        443,
+        444
       ],
       "segments": [
         {
@@ -24873,16 +25222,16 @@
         37.793407
       ],
       "fids": [
-        440,
-        441,
-        442,
-        443,
-        444,
         445,
         446,
         447,
         448,
-        449
+        449,
+        450,
+        451,
+        452,
+        453,
+        454
       ],
       "segments": [
         {
@@ -25233,17 +25582,17 @@
         37.793407
       ],
       "fids": [
-        450,
-        451,
-        452,
-        453,
-        454,
         455,
         456,
         457,
         458,
         459,
-        460
+        460,
+        461,
+        462,
+        463,
+        464,
+        465
       ],
       "segments": [
         {
@@ -25564,16 +25913,16 @@
         37.804116
       ],
       "fids": [
-        74,
-        75,
-        76,
-        77,
-        78,
         79,
         80,
         81,
         82,
-        83
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
       ],
       "segments": [
         {
@@ -26002,18 +26351,18 @@
         37.793407
       ],
       "fids": [
-        461,
-        462,
-        463,
-        464,
-        465,
         466,
         467,
         468,
         469,
         470,
         471,
-        472
+        472,
+        473,
+        474,
+        475,
+        476,
+        477
       ],
       "segments": [
         {
@@ -26394,7 +26743,7 @@
         37.977386
       ],
       "fids": [
-        286
+        291
       ],
       "segments": [
         {
@@ -26552,16 +26901,16 @@
         38.464226
       ],
       "fids": [
-        276,
-        277,
-        278,
-        279,
-        280,
         281,
         282,
         283,
         284,
-        285
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
       ],
       "segments": [
         {
@@ -27059,14 +27408,14 @@
         38.852585
       ],
       "fids": [
-        770,
-        771,
-        772,
-        773,
-        774,
         775,
         776,
-        777
+        777,
+        778,
+        779,
+        780,
+        781,
+        782
       ],
       "segments": [
         {
@@ -27428,11 +27777,11 @@
         37.806637
       ],
       "fids": [
-        323,
-        324,
-        325,
-        326,
-        327
+        328,
+        329,
+        330,
+        331,
+        332
       ],
       "segments": [
         {
@@ -27612,7 +27961,7 @@
         37.812316
       ],
       "fids": [
-        199
+        204
       ],
       "segments": [
         {
@@ -27746,14 +28095,14 @@
         37.7762
       ],
       "fids": [
-        881,
-        882,
-        883,
-        884,
-        885,
         886,
         887,
-        888
+        888,
+        889,
+        890,
+        891,
+        892,
+        893
       ],
       "segments": [
         {
@@ -28030,11 +28379,6 @@
         37.7762
       ],
       "fids": [
-        867,
-        868,
-        869,
-        870,
-        871,
         872,
         873,
         874,
@@ -28043,7 +28387,12 @@
         877,
         878,
         879,
-        880
+        880,
+        881,
+        882,
+        883,
+        884,
+        885
       ],
       "segments": [
         {
@@ -28509,15 +28858,15 @@
         37.830986
       ],
       "fids": [
-        223,
-        224,
-        225,
-        226,
-        227,
         228,
         229,
         230,
-        231
+        231,
+        232,
+        233,
+        234,
+        235,
+        236
       ],
       "segments": [
         {
@@ -28948,7 +29297,7 @@
         37.920757
       ],
       "fids": [
-        191
+        196
       ],
       "segments": [
         {
@@ -29052,7 +29401,7 @@
         37.941617
       ],
       "fids": [
-        202
+        207
       ],
       "segments": [
         {
@@ -29181,11 +29530,6 @@
         38.42361
       ],
       "fids": [
-        293,
-        294,
-        295,
-        296,
-        297,
         298,
         299,
         300,
@@ -29198,7 +29542,12 @@
         307,
         308,
         309,
-        310
+        310,
+        311,
+        312,
+        313,
+        314,
+        315
       ],
       "segments": [
         {
@@ -30011,11 +30360,6 @@
         37.887944
       ],
       "fids": [
-        251,
-        252,
-        253,
-        254,
-        255,
         256,
         257,
         258,
@@ -30023,7 +30367,12 @@
         260,
         261,
         262,
-        263
+        263,
+        264,
+        265,
+        266,
+        267,
+        268
       ],
       "segments": [
         {
@@ -30492,12 +30841,12 @@
         37.795493
       ],
       "fids": [
-        312,
-        313,
-        314,
-        315,
-        316,
-        317
+        317,
+        318,
+        319,
+        320,
+        321,
+        322
       ],
       "segments": [
         {
@@ -30691,7 +31040,7 @@
         37.797871
       ],
       "fids": [
-        201
+        206
       ],
       "segments": [
         {
@@ -30825,7 +31174,7 @@
         38.519886
       ],
       "fids": [
-        778
+        783
       ],
       "segments": [
         {
@@ -31007,12 +31356,12 @@
         38.809809
       ],
       "fids": [
-        755,
-        756,
-        757,
-        758,
-        759,
-        760
+        760,
+        761,
+        762,
+        763,
+        764,
+        765
       ],
       "segments": [
         {
@@ -31299,15 +31648,15 @@
         38.809809
       ],
       "fids": [
-        761,
-        762,
-        763,
-        764,
-        765,
         766,
         767,
         768,
-        769
+        769,
+        770,
+        771,
+        772,
+        773,
+        774
       ],
       "segments": [
         {
@@ -31677,7 +32026,7 @@
         38.09994
       ],
       "fids": [
-        197
+        202
       ],
       "segments": [
         {
@@ -31804,10 +32153,10 @@
         37.977386
       ],
       "fids": [
-        287,
-        288,
-        289,
-        290
+        292,
+        293,
+        294,
+        295
       ],
       "segments": [
         {
@@ -32022,15 +32371,15 @@
         37.824321
       ],
       "fids": [
-        825,
-        826,
-        827,
-        828,
-        829,
         830,
         831,
         832,
-        833
+        833,
+        834,
+        835,
+        836,
+        837,
+        838
       ],
       "segments": [
         {
@@ -32529,11 +32878,6 @@
         37.891481
       ],
       "fids": [
-        790,
-        791,
-        792,
-        793,
-        794,
         795,
         796,
         797,
@@ -32548,7 +32892,12 @@
         806,
         807,
         808,
-        809
+        809,
+        810,
+        811,
+        812,
+        813,
+        814
       ],
       "segments": [
         {
@@ -33179,17 +33528,17 @@
         37.796576
       ],
       "fids": [
-        779,
-        780,
-        781,
-        782,
-        783,
         784,
         785,
         786,
         787,
         788,
-        789
+        789,
+        790,
+        791,
+        792,
+        793,
+        794
       ],
       "segments": [
         {
@@ -33674,6 +34023,260 @@
       ]
     },
     {
+      "id": "sp-san-ramon-branch",
+      "name": "Southern Pacific, San Ramon branch",
+      "short_name": "San Ramon branch",
+      "system": "southern-pacific",
+      "system_name": "Southern Pacific Company",
+      "operators": [
+        {
+          "name": "Southern Pacific Company",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1891-06-07",
+      "closed": "1934-02",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains from Avon, on the line from Martinez to Tracy, by Concord, Walnut Creek and Danville to San Ramon; by 1934, mixed trains two days a week.",
+      "fate": "abandoned",
+      "fate_note": "The mixed trains, Nos. 444 and 445, were abandoned under the Railroad Commission's order of February 26, 1934 (Decision No. 26834); the branch went on carrying freight \"as necessity demands\".",
+      "traction": [
+        {
+          "type": "steam",
+          "from": null,
+          "to": null
+        }
+      ],
+      "notes": "Opened for public use June 7, 1891 (the Railroad Commissioners' report of 1894). Its end is the month of the order that let the Southern Pacific abandon the branch's mixed trains, which required ten days' notice to the public, so the last trains ran in March 1934 at the earliest; the last run isn't dated. The branch was later extended south of San Ramon; that stretch isn't drawn, since the order names only Avon to San Ramon.",
+      "flags": [],
+      "undated": false,
+      "length_km": 32.26,
+      "confidence_km": {
+        "digitized": 6.65,
+        "surveyed": 25.61
+      },
+      "bbox": [
+        -122.075774,
+        37.777359,
+        -121.964207,
+        38.032436
+      ],
+      "fids": [
+        894,
+        895,
+        896
+      ],
+      "segments": [
+        {
+          "id": "sp-sr-avon-galindo",
+          "name": "Avon to Galindo, north of Concord",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Traced by eye from USGS Vine Hill 1:24,000 (1959) (16 hand-read points, centred on the line symbol); then traced by eye from USGS Vine Hill 1:24,000 (1959) (13 hand-read points, centred on the line symbol); then traced by eye from USGS Walnut Creek 1:24,000 (1949) (18 hand-read points, centred on the line symbol); then joined to sp-sr-galindo-danville at its start. Traced from the 1959 Vine Hill sheet, which today's track at Avon checks, and the 1949 Walnut Creek sheet: OpenHistoricalMap's way here, from the 1896 Carquinez Strait sheet, is up to 150 m off.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The branch left the line from Martinez to Tracy at Avon."
+        },
+        {
+          "id": "sp-sr-galindo-danville",
+          "name": "Galindo to Danville, by Concord and Walnut Creek",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200221523 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Concord CA 1897 topographic map, cut from -122.04211,37.98064; checked on USGS Walnut Creek 1:24,000 (1949) and USGS Las Trampas Ridge 1:24,000 (1947). OpenHistoricalMap's way, traced from the 1897 Concord sheet, from where it meets the railroad on the 1949 sheet; within about 10 m of it on the 1947-49 sheets.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "South through Concord and Walnut Creek, beside the Sacramento Northern's line for part of the way."
+        },
+        {
+          "id": "sp-sr-danville-san-ramon",
+          "name": "Danville to San Ramon",
+          "opened": "1891-06-07",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200223279 (CC0, as of 2026-10-15), which OHM's mappers drew from USGS Mt Diablo CA 1896 topographic map; checked on USGS Diablo 1:24,000 (1953) and USGS Mt Diablo 1:62,500 (1898). OpenHistoricalMap's way, traced from the 1896 Mt Diablo sheet, to the end of the track on the 1898 sheet.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Its end of 1891 at San Ramon, where the 1898 sheet ends the track; it was later extended south (not drawn)."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ca-brc-report-1894",
+          "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1894",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa00caligoog",
+          "license": "Public domain (State of California publication of 1894)",
+          "accessed": "2026-10-15",
+          "source": "ca-brc-report-1894",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "24",
+          "note": "\"Branch from Avon to San Ramon … June 7, 1891\", opened for public use (the Southern Pacific Railroad Company's return)."
+        },
+        {
+          "id": "crc-d26834",
+          "title": "Railroad Commission of California, Decision No. 26834 (Application No. 19269)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1934-02-26",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26834_19340226_A19269.pdf",
+          "accessed": "2026-10-15",
+          "source": "crc-d26834",
+          "supports": [
+            "closed",
+            "fate",
+            "route"
+          ],
+          "pages": "1-2",
+          "note": "Authorized \"to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch\", effective on the date of the order, February 26, 1934, on ten days' notice to the public: on or about February 1934 (decision 17). The trains ran \"on two days a week; namely, Tuesdays and Fridays\"."
+        },
+        {
+          "id": "usgs-karquines-1898",
+          "title": "Karquines, Cal., topographic quadrangle, 1:62,500, 1898",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1898",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Karquines_297860_1898_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-karquines-1898",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-15",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-15T00:15:59Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-15",
+          "source": "ohm-2026-10-15",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221524"
+        },
+        {
+          "id": "usgs-vine-hill-1959",
+          "title": "Vine Hill, Cal., topographic quadrangle, 1:24,000, 1959, printed 1981",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1959",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Vine%20Hill_301163_1959_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-vine-hill-1959",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-walnut-creek-1949",
+          "title": "Walnut Creek, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Walnut%20Creek_301186_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-walnut-creek-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1942",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1942",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1942",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-las-trampas-ridge-1947",
+          "title": "Las Trampas Ridge, Cal., topographic quadrangle, 1:24,000, 1947, printed 1956",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1947",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Las%20Trampas%20Ridge_292167_1947_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-las-trampas-ridge-1947",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-diablo-1953",
+          "title": "Diablo, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Diablo_289931_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-diablo-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-mt-diablo-1898",
+          "title": "Mt Diablo, Cal., topographic quadrangle, 1:62,500, 1898, printed 1901",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1898",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mt%20Diablo_298277_1898_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-mt-diablo-1898",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sf-sutter-st-cable",
       "name": "Sutter Street cable line",
       "system": "sutter-street-railroad",
@@ -33717,9 +34320,9 @@
         37.790312
       ],
       "fids": [
-        318,
-        319,
-        320
+        323,
+        324,
+        325
       ],
       "segments": [
         {
@@ -33865,15 +34468,15 @@
         37.789106
       ],
       "fids": [
-        654,
-        655,
-        656,
-        657,
-        658,
         659,
         660,
         661,
-        662
+        662,
+        663,
+        664,
+        665,
+        666,
+        667
       ],
       "segments": [
         {
@@ -34125,17 +34728,17 @@
         37.82911
       ],
       "fids": [
-        240,
-        241,
-        242,
-        243,
-        244,
         245,
         246,
         247,
         248,
         249,
-        250
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
       ],
       "segments": [
         {
@@ -34612,14 +35215,14 @@
         37.82911
       ],
       "fids": [
-        232,
-        233,
-        234,
-        235,
-        236,
         237,
         238,
-        239
+        239,
+        240,
+        241,
+        242,
+        243,
+        244
       ],
       "segments": [
         {
@@ -35006,10 +35609,10 @@
         37.80035
       ],
       "fids": [
-        341,
-        342,
-        343,
-        344
+        346,
+        347,
+        348,
+        349
       ],
       "segments": [
         {
@@ -35182,7 +35785,7 @@
         {
           "date": "1889",
           "source": "ca-brc-reports-9-12",
-          "pages": "18",
+          "pages": "9 (tenth report)",
           "note": "\"a ferry line from Vallejo to Vallejo Junction, connecting there with the Northern Railway for San Francisco\"."
         },
         {
@@ -35204,7 +35807,7 @@
         38.0792
       ],
       "fids": [
-        6
+        11
       ],
       "segments": [
         {
@@ -35350,17 +35953,17 @@
         37.79562
       ],
       "fids": [
-        329,
-        330,
-        331,
-        332,
-        333,
         334,
         335,
         336,
         337,
         338,
-        339
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
       ],
       "segments": [
         {
@@ -35616,12 +36219,12 @@
         37.803847
       ],
       "fids": [
-        861,
-        862,
-        863,
-        864,
-        865,
-        866
+        866,
+        867,
+        868,
+        869,
+        870,
+        871
       ],
       "segments": [
         {

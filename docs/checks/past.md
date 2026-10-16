@@ -228,6 +228,9 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 | `sp-pen-bernal-cut` The Bernal Cut, along San Jose Ave | street-centerline | usgs-san-francisco-south-1950 | 30 m | [review](../screenshots/p2b/traces/sp-pen-bernal-cut.jpg) |
 | `sp-pen-ocean-view` Glen Park to San Bruno, by Ocean View and Colma | geotiff | usgs-san-francisco-south-1950 | 20 m | [review](../screenshots/p2b/traces/sp-pen-ocean-view.jpg) |
 | `sp-pen-san-jose` San José: the old main line to the Market Street station | geotiff | usgs-san-jose-1943 | 30 m | [review](../screenshots/p2b/traces/sp-pen-san-jose.jpg) |
+| `sp-sr-avon-galindo` Avon to Galindo, north of Concord | geotiff | usgs-vine-hill-1959 | 15 m | [sheet 1](../screenshots/p2c/traces/sp-sr-avon-galindo-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-avon-galindo-2.jpg) [sheet 3](../screenshots/p2c/traces/sp-sr-avon-galindo-3.jpg) [sheet galindo](../screenshots/p2c/traces/sp-sr-avon-galindo.jpg) |
+| `sp-sr-galindo-danville` Galindo to Danville, by Concord and Walnut Creek | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sp-sr-galindo-danville-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-galindo-danville-2.jpg) [sheet 3](../screenshots/p2c/traces/sp-sr-galindo-danville-3.jpg) |
+| `sp-sr-danville-san-ramon` Danville to San Ramon | OpenHistoricalMap |  |  | [sheet 1](../screenshots/p2c/traces/sp-sr-danville-san-ramon-1.jpg) [sheet 2](../screenshots/p2c/traces/sp-sr-danville-san-ramon-2.jpg) |
 | line `eb-1-east-14th` No. 1 East 14th Street: its 13 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-1-east-14th-streets-1.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-2.jpg) [review](../screenshots/p2c/traces/eb-1-east-14th-streets-3.jpg) |
 | line `eb-2-san-pablo` No. 2 San Pablo Avenue: its 9 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-2-san-pablo-streets.jpg) |
 | line `eb-6-college` No. 6 College Avenue: its 20 street segments | street-centerline | usgs-oakland-west-1949 / usgs-oakland-east-1949 / usgs-richmond-1949 / usgs-san-leandro-1948 | 15 m | [review](../screenshots/p2c/traces/eb-6-college-streets.jpg) |
@@ -294,6 +297,7 @@ Each traced feature, and each drawn from OpenHistoricalMap, with how it was made
 Each end dated by the month of the order or event that brought it, because no source gives the last day. A newspaper of the time would settle it.
 
 - line `calp-vallejo-calistoga` (California Pacific trains, Vallejo to Calistoga), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
+- line `calp-vallejo-suisun` (California Pacific trains, Vallejo to Suisun and Sacramento), closed 1929-06: "Trains Nos. 166-167, 168-169, 170-171 and 172-173, operated between Vallejo and Suisun-Fairfield", discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
 - line `calp-vallejo-junction-ferry` (Vallejo Junction–South Vallejo ferry), closed 1929-06: Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17).
 - line `cp-oakland-sacramento-niles` (Central Pacific trains, Oakland to Sacramento by Niles and the Altamont Pass), closed 1941-01: Authorized "to discontinue all regular passenger train service between Tracy and Elmhurst, via Niles" and trains 231 and 232 "between Tracy and Oakland Pier, via Niles", by its order of January 3, 1941, effective twenty days later: on or about January 1941 (decision 17).
 - line `cp-niles-san-jose-trains` (Central Pacific trains to San José by Niles and Milpitas), closed 1940-02: "III Discontinue all regular scheduled passenger service between Niles and San Jose via Milpitas", by its order of February 13, 1940, effective ten days later: on or about February 1940 (decision 17).
@@ -303,6 +307,7 @@ Each end dated by the month of the order or event that brought it, because no so
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-mallard-chipps-ferry`, to 1940-08: By the train ferry across Suisun Bay. Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `sn-oakland-sacramento` (Sacramento Northern trains, San Francisco to Bay Point and Sacramento) on `sn-chipps-county-line`, to 1940-08: Trains north of West Pittsburg ended on or about August 1940: the Railroad Commission's Decision No. 33416 of August 20, 1940 let them stop on five days' notice, effective five days from its date; the last day isn't sourced (decision 17)
 - line `nwp-main-line` (Northwestern Pacific trains to Eureka, from San Rafael), closed 1958-11: "is hereby authorized to discontinue the operation of Trains Nos. 3 and 4 between San Rafael and Willits and intermediate points"; "The effective date of this order shall be twenty days after the date hereof." Closed on or about November 1958: the order took effect then, and the last train isn't dated in it (decision 17).
+- line `sp-san-ramon-branch` (Southern Pacific, San Ramon branch), closed 1934-02: Authorized "to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch", effective on the date of the order, February 26, 1934, on ten days' notice to the public: on or about February 1934 (decision 17). The trains ran "on two days a week; namely, Tuesdays and Fridays".
 
 ## Drawn for its running dates (decision 20)
 
@@ -310,8 +315,9 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 
 | Line | Running on | Still to find |
 |---|---|---|
-| `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
-| `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 18); 1900 (poors-1900, p. 616-617) | opening |
+| `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
+| `calp-vallejo-suisun` California Pacific trains, Vallejo to Suisun and Sacramento | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1929-06 (crc-d21194, p. 7) | opening |
+| `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
 | `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
 | `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
 | `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |

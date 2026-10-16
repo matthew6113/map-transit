@@ -24,13 +24,35 @@
    ],
    "note": "Today's track from the end of rail at South Vallejo, near the old wharf on the 1898 Karquines sheet, to Napa Junction"
   },
-  "calp-napa-junction-yountville": {
+  "calp-napa-junction-fork": {
    "parts": [
     {
      "rail": [
       [
        -122.2505,
        38.186
+      ],
+      [
+       -122.250642,
+       38.187081
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-cuttings-wharf-1951",
+    "usgs-cordelia-1951"
+   ],
+   "note": "Today's track at Napa Junction, to where the line to Suisun leaves the line to Napa"
+  },
+  "calp-napa-junction-yountville": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.250642,
+       38.187081
       ],
       [
        -122.357686,
@@ -220,6 +242,28 @@
    ],
    "check": "usgs-karquines-1898",
    "note": "The wharves read off the 1898 Karquines sheet"
+  },
+  "calp-suisun-fork-suisun": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.250642,
+       38.187081
+      ],
+      [
+       -122.0412,
+       38.2433
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-cordelia-1951",
+    "usgs-fairfield-south-1949"
+   ],
+   "note": "Today's track from where it leaves the line to Napa, through Jameson Canyon and by Cordelia, to Suisun-Fairfield"
   }
  }
 }

@@ -1,0 +1,285 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Southern Pacific's San Ramon branch from OpenHistoricalMap's ways, checked on the sheets of 1898-1953.",
+ "segments": {
+  "sp-sr-avon-galindo": {
+   "parts": [
+    {
+     "trace": {
+      "sheet": "usgs-vine-hill-1959",
+      "bbox": [
+       -122.084,
+       38.017,
+       -122.062,
+       38.036
+      ],
+      "zoom": 1.0
+     },
+     "px": [
+      [
+       355,
+       195
+      ],
+      [
+       395,
+       200
+      ],
+      [
+       430,
+       222
+      ],
+      [
+       465,
+       258
+      ],
+      [
+       500,
+       300
+      ],
+      [
+       540,
+       350
+      ],
+      [
+       580,
+       400
+      ],
+      [
+       620,
+       450
+      ],
+      [
+       650,
+       495
+      ],
+      [
+       680,
+       545
+      ],
+      [
+       710,
+       600
+      ],
+      [
+       745,
+       665
+      ],
+      [
+       780,
+       730
+      ],
+      [
+       815,
+       795
+      ],
+      [
+       845,
+       855
+      ],
+      [
+       872,
+       912
+      ]
+     ],
+     "snap": 4
+    },
+    {
+     "trace": {
+      "sheet": "usgs-vine-hill-1959",
+      "bbox": [
+       -122.07,
+       37.998,
+       -122.048,
+       38.019
+      ],
+      "zoom": 1.0
+     },
+     "px": [
+      [
+       268,
+       0
+      ],
+      [
+       300,
+       60
+      ],
+      [
+       350,
+       160
+      ],
+      [
+       400,
+       262
+      ],
+      [
+       450,
+       362
+      ],
+      [
+       500,
+       462
+      ],
+      [
+       550,
+       562
+      ],
+      [
+       600,
+       662
+      ],
+      [
+       650,
+       762
+      ],
+      [
+       700,
+       860
+      ],
+      [
+       725,
+       925
+      ],
+      [
+       742,
+       985
+      ],
+      [
+       748,
+       1040
+      ]
+     ],
+     "snap": 4
+    },
+    {
+     "trace": {
+      "sheet": "usgs-walnut-creek-1949",
+      "bbox": [
+       -122.065,
+       37.98,
+       -122.04,
+       38.0
+      ],
+      "zoom": 1.0
+     },
+     "px": [
+      [
+       527,
+       5
+      ],
+      [
+       522,
+       80
+      ],
+      [
+       518,
+       160
+      ],
+      [
+       522,
+       240
+      ],
+      [
+       545,
+       285
+      ],
+      [
+       580,
+       330
+      ],
+      [
+       620,
+       385
+      ],
+      [
+       660,
+       445
+      ],
+      [
+       700,
+       505
+      ],
+      [
+       740,
+       570
+      ],
+      [
+       780,
+       635
+      ],
+      [
+       812,
+       700
+      ],
+      [
+       835,
+       760
+      ],
+      [
+       865,
+       820
+      ],
+      [
+       900,
+       880
+      ],
+      [
+       935,
+       940
+      ],
+      [
+       965,
+       1000
+      ],
+      [
+       986,
+       1055
+      ]
+     ],
+     "snap": 4
+    },
+    {
+     "join": "sp-sr-galindo-danville",
+     "at": "start"
+    }
+   ],
+   "check": [
+    "usgs-vine-hill-1959",
+    "usgs-walnut-creek-1949",
+    "usgs-karquines-1898"
+   ],
+   "est_error_m": 15,
+   "note": "Traced from the 1959 Vine Hill sheet, which today's track at Avon checks, and the 1949 Walnut Creek sheet: OpenHistoricalMap's way here, from the 1896 Carquinez Strait sheet, is up to 150 m off"
+  },
+  "sp-sr-galindo-danville": {
+   "parts": [
+    {
+     "ohm": [
+      200221523
+     ],
+     "from": [
+      -122.04211,
+      37.98064
+     ]
+    }
+   ],
+   "check": [
+    "usgs-walnut-creek-1949",
+    "usgs-las-trampas-ridge-1947"
+   ],
+   "note": "OpenHistoricalMap's way, traced from the 1897 Concord sheet, from where it meets the railroad on the 1949 sheet; within about 10 m of it on the 1947-49 sheets"
+  },
+  "sp-sr-danville-san-ramon": {
+   "parts": [
+    {
+     "ohm": [
+      200223279
+     ]
+    }
+   ],
+   "check": [
+    "usgs-diablo-1953",
+    "usgs-mt-diablo-1898"
+   ],
+   "note": "OpenHistoricalMap's way, traced from the 1896 Mt Diablo sheet, to the end of the track on the 1898 sheet"
+  }
+ }
+}

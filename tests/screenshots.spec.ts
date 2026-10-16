@@ -100,6 +100,8 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'past-carquinez-1900', url: '/?era=past&year=1900&test=1#map=12.6/38.0450/-122.1550/0/0' },
   { name: 'past-line-spc', url: '/l/spc-alameda-santa-cruz?era=past&year=1895&test=1&at=99' },
   { name: 'past-line-napa', url: '/l/calp-vallejo-calistoga?era=past&year=1900&test=1&at=99' },
+  { name: 'past-line-calp-suisun', url: '/l/calp-vallejo-suisun?era=past&year=1885&test=1&at=99' },
+  { name: 'past-line-san-ramon', url: '/l/sp-san-ramon-branch?era=past&year=1900&test=1&at=99' },
 ];
 
 async function settle(page: Page) {

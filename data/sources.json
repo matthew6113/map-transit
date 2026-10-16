@@ -1452,6 +1452,16 @@
       "notes": "p. 1: the route \"From a point fifty (50) feet south of the intersection of Ashby and San Pablo Avenues\" to near the Richmond-San Rafael ferry terminal. Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
     },
     {
+      "id": "crc-d26834",
+      "title": "Railroad Commission of California, Decision No. 26834 (Application No. 19269)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1934-02-26",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D26834_19340226_A19269.pdf",
+      "accessed": "2026-10-15",
+      "notes": "pp. 1-2: Southern Pacific \"authorized to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch\", effective \"on the date hereof\", with \"not less than ten (10) days' notice to the public\"; the trains ran on Tuesdays and Fridays, and \"two passengers were handled in a forty-two day test period\". Read on the scanned pages."
+    },
+    {
       "id": "crc-d27800",
       "title": "Railroad Commission of the State of California, Decision No. 27800 (Case No. 3908): Oakland v. Southern Pacific, the Eighteenth Street line",
       "author": "Railroad Commission of the State of California",
@@ -3039,6 +3049,18 @@
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 289712, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 2d36e11c075a20f0396128eda7ae6698602e9f2d71ae3277bb97def84a2741ef."
     },
     {
+      "id": "usgs-diablo-1953",
+      "title": "Diablo, Cal., topographic quadrangle, 1:24,000, 1953, printed 1954",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1953",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Diablo_289931_1953_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1949, edition of 1953. HTMC scan 289931, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 cc0c424ed2d6ba215ad9718ea229313061c6c4b1b1c2f8329e7dc18ad9d87b12."
+    },
+    {
       "id": "usgs-dozier-1952",
       "title": "Dozier, Cal., topographic quadrangle, 1:24,000, 1952, printed 1953",
       "author": "U.S. Geological Survey",
@@ -3061,6 +3083,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "1:31,680 sheet, edition of 1945. HTMC scan 296063, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.682 m a pixel. SHA-256 c781bde4be859726515c50187f77b02dce3aad4ab26112adff78112d2e57d42e."
+    },
+    {
+      "id": "usgs-fairfield-south-1949",
+      "title": "Fairfield South, Cal., topographic quadrangle, 1:24,000, 1949, printed 1959",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1949",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Fairfield%20South_290434_1949_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1949. HTMC scan 290434, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 4174b070619ed81e58fc9fe9be2463e850e5a5c8433f287d1f37609daaf0b8b7."
     },
     {
       "id": "usgs-healdsburg-1940",
@@ -3121,6 +3155,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1953. HTMC scan 291950, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 64aacdd916287d16d76582b4e076b69e452f31b8854dd54ab9dfb41f358963e4."
+    },
+    {
+      "id": "usgs-las-trampas-ridge-1947",
+      "title": "Las Trampas Ridge, Cal., topographic quadrangle, 1:24,000, 1947, printed 1956",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1947",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Las%20Trampas%20Ridge_292167_1947_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1947. HTMC scan 292167, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 12f165eada701cfbb63cbd0bdb6c514c42fc2847eadb01f03bee9330fc43a4f5."
     },
     {
       "id": "usgs-livermore-1953",
@@ -3193,6 +3239,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1946, edition of 1949. HTMC scan 293071, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 3dcb383b93fbb3227a91e1d07de3fe1f63f415100149103d203db20cf21b1059."
+    },
+    {
+      "id": "usgs-mt-diablo-1898",
+      "title": "Mt Diablo, Cal., topographic quadrangle, 1:62,500, 1898, printed 1901",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1898",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Mt%20Diablo_298277_1898_62500_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "15-minute sheet, surveyed 1896, edition of 1898. HTMC scan 298277, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 131ad0f00447a815ec485239b797df55c2d2ccb25876441a197347e2b837db57."
     },
     {
       "id": "usgs-napa-1951",
@@ -3505,6 +3563,18 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-14",
       "notes": "15-minute sheet, aerial photographs of 1939, edition of 1941. HTMC scan 301788, GeoTIFF georeferenced by USGS (NAD27 polyconic), 5.292 m a pixel. SHA-256 e8b2a9b5bf73d88c9e3b55c864290de2ad440f8506111d87f43f334047e5f43f."
+    },
+    {
+      "id": "usgs-vine-hill-1959",
+      "title": "Vine Hill, Cal., topographic quadrangle, 1:24,000, 1959, printed 1981",
+      "author": "U.S. Geological Survey",
+      "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+      "date": "1959",
+      "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Vine%20Hill_301163_1959_24000_geo.tif",
+      "type": "primary_map",
+      "license": "Public domain (U.S. Government work)",
+      "accessed": "2026-10-15",
+      "notes": "7.5-minute sheet, edition of 1959, photorevised 1979. HTMC scan 301163, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 382dfe8a0bf56f2634052cc3c307cd4acbe675db0ad7b80db730782dd2980269."
     },
     {
       "id": "usgs-walnut-creek-1949",

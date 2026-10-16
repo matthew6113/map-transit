@@ -1,0 +1,67 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Southern Pacific's San Ramon branch. Research: docs/research/sources-2c/railroads.md, section 6.",
+ "lines": [
+  {
+   "id": "sp-san-ramon-branch",
+   "name": "Southern Pacific, San Ramon branch",
+   "short_name": "San Ramon branch",
+   "system": "southern-pacific",
+   "operators": [
+    {
+     "name": "Southern Pacific Company",
+     "from": null,
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": null,
+     "to": null
+    }
+   ],
+   "era": "past",
+   "opened": "1891-06-07",
+   "closed": "1934-02",
+   "status": "closed",
+   "summary": "Trains from Avon, on the line from Martinez to Tracy, by Concord, Walnut Creek and Danville to San Ramon; by 1934, mixed trains two days a week.",
+   "fate": "abandoned",
+   "fate_note": "The mixed trains, Nos. 444 and 445, were abandoned under the Railroad Commission's order of February 26, 1934 (Decision No. 26834); the branch went on carrying freight \"as necessity demands\".",
+   "route": [
+    {
+     "segment": "sp-sr-avon-galindo"
+    },
+    {
+     "segment": "sp-sr-galindo-danville"
+    },
+    {
+     "segment": "sp-sr-danville-san-ramon"
+    }
+   ],
+   "sources": [
+    {
+     "source": "ca-brc-report-1894",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "24",
+     "note": "\"Branch from Avon to San Ramon … June 7, 1891\", opened for public use (the Southern Pacific Railroad Company's return)."
+    },
+    {
+     "source": "crc-d26834",
+     "supports": [
+      "closed",
+      "fate",
+      "route"
+     ],
+     "pages": "1-2",
+     "note": "Authorized \"to abandon the operation of mixed trains Nos. 444 and 445 between Avon and San Ramon on its San Ramon Branch\", effective on the date of the order, February 26, 1934, on ten days' notice to the public: on or about February 1934 (decision 17). The trains ran \"on two days a week; namely, Tuesdays and Fridays\"."
+    }
+   ],
+   "flags": [],
+   "notes": "Opened for public use June 7, 1891 (the Railroad Commissioners' report of 1894). Its end is the month of the order that let the Southern Pacific abandon the branch's mixed trains, which required ten days' notice to the public, so the last trains ran in March 1934 at the earliest; the last run isn't dated. The branch was later extended south of San Ramon; that stretch isn't drawn, since the order names only Avon to San Ramon."
+  }
+ ]
+}

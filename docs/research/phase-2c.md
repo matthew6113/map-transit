@@ -28,6 +28,8 @@ running.
 | Central Pacific | Oakland to Sacramento by Niles and the Altamont Pass (1869–1941) and by the Benicia train ferry (1879–1930); to San José by Milpitas (1869–1940) | The Railroad Commissioners' reports (the Northern Railway's openings, 1876–79); *SP Bulletin* (the 1930 bridge) | The Capitol Corridor's track, dated by stretch; the ferry over water; Niles Canyon, the Altamont Pass, Milpitas and Benicia's waterfront from OpenHistoricalMap, checked on the 1952–53 sheets |
 | South Pacific Coast | Alameda by Newark and San José to the Santa Cruz County line | The railroad's return in the Commissioners' report of 1894 (1878–80); running in 1900 (*Poor's*), decision 20 | The Capitol Corridor's and Caltrain's track; OpenHistoricalMap, checked on the sheets of 1899–1953 |
 | California Pacific (Napa Valley line) | Vallejo by Napa to Calistoga, and the Vallejo Junction ferry | Running in 1880 (*Poor's*), 1889 and 1900; end on or about June 1929 (CRC D21194) | Today's track (Overture); traced through Yountville on the 1951 sheets; OpenHistoricalMap beyond St. Helena |
+| California Pacific (to Suisun) | Vallejo by Napa Junction, Jameson Canyon and Cordelia to Suisun, and on to Sacramento | Running in 1880 (*Poor's*) and 1889; by 1929 only to Suisun-Fairfield, ending on or about June 1929 (CRC D21194) | Today's track (Overture), checked on the 1949–51 Cordelia and Fairfield South sheets; the Capitol Corridor's track beyond Suisun |
+| Southern Pacific, San Ramon branch | Avon by Concord, Walnut Creek and Danville to San Ramon | Opened June 7, 1891 (the Railroad Commissioners' report of 1894, p. 24, read on the page image); mixed trains abandoned on or about February 1934 (CRC D26834) | OpenHistoricalMap from Galindo south, within about 10 m of the 1947–53 sheets; traced from the 1959 Vine Hill and 1949 Walnut Creek sheets from Avon to Galindo |
 | Martinez–Benicia ferry | Auto ferry across the Carquinez Strait, 1913–1962 | CRC D22535 (1930); *CH&PW* 1962 | The 1952 Benicia sheet's course |
 
 ## Not drawn yet, and what each needs
@@ -96,12 +98,21 @@ California Pacific and Napa Valley, the North Pacific Coast and SF & North Pacif
 OHM), Santa Fe at Point Richmond, the South Pacific Coast and California & Nevada, and the SP's San
 Ramon, Napa and Dumbarton lines. `leads-2c/railroads.md` has the plan.
 
+- **SF & Oakland and SF & Alameda:** Halley's dates, read on the page images: the SF & Oakland's
+  "first trip … on the 2d day of September, 1863", "from the end of the wharf to Broadway" (p. 177),
+  and "On the 1st of April [1865] the Oakland Railroad was extended to Larue's Wharf, in Brooklyn"
+  (p. 200); the SF & Alameda's trial trip from the Point to Alameda on Saturday, August 13, 1864,
+  cars "as far as High Street" on the 25th of August (p. 190), track to San Leandro "finished on
+  the first day of March" 1865 (p. 197), and "on the 25th of August the line was completed" to
+  Haywards (p. 198). Not drawn: neither Halley nor Wood (1883) names the streets they ran on (7th
+  St in Oakland; Railroad, now Lincoln, Ave in Alameda; the way to San Leandro and Haywards), so
+  their routes need a period source or a map of the 1860s-70s.
+
 ### Ferries and the North Bay
 
 - **Benicia–Port Costa** (the train ferry, 1879–1930) and **Martinez–Benicia** (1913–1962): drawn,
   from the 1898 Karquines and 1952 Benicia sheets.
 - **Mare Island, the Petaluma steamers:** dates are web pointers only.
-- **California Pacific, Vallejo to Sacramento:** its trains by Napa Junction, Cordelia and Suisun (to 1929) aren't drawn: where its line met the Northern Railway's near Suisun needs a map.
 - **North Pacific Coast:** drawn to Sheridan, past Monte Rio. Still to do: Sheridan to Duncans Mills
   and up Austin Creek to Cazadero (1886), on no sheet of its years (a map to georeference by hand, such
   as the NPC's own map of about 1900 at Calisphere); its tunnels; the Mill Valley branch; the San
