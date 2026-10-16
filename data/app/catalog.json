@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        941,
-        942,
-        943,
-        944
+        944,
+        945,
+        946,
+        947
       ],
       "segments": [
         {
@@ -2526,9 +2526,6 @@
         37.793407
       ],
       "fids": [
-        945,
-        946,
-        947,
         948,
         949,
         950,
@@ -2536,7 +2533,10 @@
         952,
         953,
         954,
-        955
+        955,
+        956,
+        957,
+        958
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        971,
-        972,
-        973,
         974,
         975,
         976,
         977,
         978,
-        979
+        979,
+        980,
+        981,
+        982
       ],
       "segments": [
         {
@@ -4884,8 +4884,8 @@
         37.790421
       ],
       "fids": [
-        365,
-        366
+        368,
+        369
       ],
       "segments": [
         {
@@ -5014,10 +5014,10 @@
         37.772502
       ],
       "fids": [
-        389,
-        390,
-        391,
-        392
+        392,
+        393,
+        394,
+        395
       ],
       "segments": [
         {
@@ -6772,7 +6772,7 @@
         37.794462
       ],
       "fids": [
-        355
+        358
       ],
       "segments": [
         {
@@ -7036,9 +7036,6 @@
         37.806482
       ],
       "fids": [
-        980,
-        981,
-        982,
         983,
         984,
         985,
@@ -7049,7 +7046,10 @@
         990,
         991,
         992,
-        993
+        993,
+        994,
+        995,
+        996
       ],
       "segments": [
         {
@@ -7489,7 +7489,7 @@
         37.791639
       ],
       "fids": [
-        931
+        934
       ],
       "segments": [
         {
@@ -7612,10 +7612,10 @@
         37.577468
       ],
       "fids": [
-        1064,
-        1065,
-        1066,
-        1067
+        1067,
+        1068,
+        1069,
+        1070
       ],
       "segments": [
         {
@@ -7941,9 +7941,6 @@
         37.80035
       ],
       "fids": [
-        956,
-        957,
-        958,
         959,
         960,
         961,
@@ -7955,7 +7952,10 @@
         967,
         968,
         969,
-        970
+        970,
+        971,
+        972,
+        973
       ],
       "segments": [
         {
@@ -8350,15 +8350,15 @@
         37.81612
       ],
       "fids": [
-        1130,
-        1131,
-        1132,
         1133,
         1134,
         1135,
         1136,
         1137,
-        1138
+        1138,
+        1139,
+        1140,
+        1141
       ],
       "segments": [
         {
@@ -8692,15 +8692,15 @@
         37.824321
       ],
       "fids": [
-        1112,
-        1113,
-        1114,
         1115,
         1116,
         1117,
         1118,
         1119,
-        1120
+        1120,
+        1121,
+        1122,
+        1123
       ],
       "segments": [
         {
@@ -9197,14 +9197,14 @@
         37.805981
       ],
       "fids": [
-        994,
-        995,
-        996,
         997,
         998,
         999,
         1000,
-        1001
+        1001,
+        1002,
+        1003,
+        1004
       ],
       "segments": [
         {
@@ -9495,7 +9495,7 @@
         37.796162
       ],
       "fids": [
-        417
+        420
       ],
       "segments": [
         {
@@ -9604,7 +9604,7 @@
         37.788015
       ],
       "fids": [
-        384
+        387
       ],
       "segments": [
         {
@@ -9746,16 +9746,16 @@
         37.806482
       ],
       "fids": [
-        1002,
-        1003,
-        1004,
         1005,
         1006,
         1007,
         1008,
         1009,
         1010,
-        1011
+        1011,
+        1012,
+        1013,
+        1014
       ],
       "segments": [
         {
@@ -10075,14 +10075,14 @@
         37.793407
       ],
       "fids": [
-        409,
-        410,
-        411,
         412,
         413,
         414,
         415,
-        416
+        416,
+        417,
+        418,
+        419
       ],
       "segments": [
         {
@@ -10550,7 +10550,7 @@
         37.785808
       ],
       "fids": [
-        372
+        375
       ],
       "segments": [
         {
@@ -10945,15 +10945,15 @@
         37.824321
       ],
       "fids": [
-        1121,
-        1122,
-        1123,
         1124,
         1125,
         1126,
         1127,
         1128,
-        1129
+        1129,
+        1130,
+        1131,
+        1132
       ],
       "segments": [
         {
@@ -11618,16 +11618,16 @@
         37.793407
       ],
       "fids": [
-        399,
-        400,
-        401,
         402,
         403,
         404,
         405,
         406,
         407,
-        408
+        408,
+        409,
+        410,
+        411
       ],
       "segments": [
         {
@@ -11902,12 +11902,12 @@
         37.787654
       ],
       "fids": [
-        393,
-        394,
-        395,
         396,
         397,
-        398
+        398,
+        399,
+        400,
+        401
       ],
       "segments": [
         {
@@ -12226,8 +12226,8 @@
         37.90596
       ],
       "fids": [
-        308,
-        309
+        311,
+        312
       ],
       "segments": [
         {
@@ -12642,9 +12642,6 @@
         37.891351
       ],
       "fids": [
-        1088,
-        1089,
-        1090,
         1091,
         1092,
         1093,
@@ -12656,7 +12653,10 @@
         1099,
         1100,
         1101,
-        1102
+        1102,
+        1103,
+        1104,
+        1105
       ],
       "segments": [
         {
@@ -13672,9 +13672,6 @@
         37.793407
       ],
       "fids": [
-        418,
-        419,
-        420,
         421,
         422,
         423,
@@ -13682,7 +13679,10 @@
         425,
         426,
         427,
-        428
+        428,
+        429,
+        430,
+        431
       ],
       "segments": [
         {
@@ -14101,9 +14101,6 @@
         37.79492
       ],
       "fids": [
-        558,
-        559,
-        560,
         561,
         562,
         563,
@@ -14111,7 +14108,10 @@
         565,
         566,
         567,
-        568
+        568,
+        569,
+        570,
+        571
       ],
       "segments": [
         {
@@ -14857,16 +14857,16 @@
         37.79492
       ],
       "fids": [
-        569,
-        570,
-        571,
         572,
         573,
         574,
         575,
         576,
         577,
-        578
+        578,
+        579,
+        580,
+        581
       ],
       "segments": [
         {
@@ -16433,9 +16433,6 @@
         37.79492
       ],
       "fids": [
-        579,
-        580,
-        581,
         582,
         583,
         584,
@@ -16447,7 +16444,10 @@
         590,
         591,
         592,
-        593
+        593,
+        594,
+        595,
+        596
       ],
       "segments": [
         {
@@ -17454,9 +17454,6 @@
         37.79492
       ],
       "fids": [
-        594,
-        595,
-        596,
         597,
         598,
         599,
@@ -17464,7 +17461,10 @@
         601,
         602,
         603,
-        604
+        604,
+        605,
+        606,
+        607
       ],
       "segments": [
         {
@@ -18303,14 +18303,14 @@
         37.808586
       ],
       "fids": [
-        605,
-        606,
-        607,
         608,
         609,
         610,
         611,
-        612
+        612,
+        613,
+        614,
+        615
       ],
       "segments": [
         {
@@ -18571,9 +18571,6 @@
         37.807531
       ],
       "fids": [
-        613,
-        614,
-        615,
         616,
         617,
         618,
@@ -18594,7 +18591,10 @@
         633,
         634,
         635,
-        636
+        636,
+        637,
+        638,
+        639
       ],
       "segments": [
         {
@@ -19513,9 +19513,6 @@
         37.793407
       ],
       "fids": [
-        637,
-        638,
-        639,
         640,
         641,
         642,
@@ -19528,7 +19525,10 @@
         649,
         650,
         651,
-        652
+        652,
+        653,
+        654,
+        655
       ],
       "segments": [
         {
@@ -19969,16 +19969,16 @@
         37.784013
       ],
       "fids": [
-        653,
-        654,
-        655,
         656,
         657,
         658,
         659,
         660,
         661,
-        662
+        662,
+        663,
+        664,
+        665
       ],
       "segments": [
         {
@@ -20657,12 +20657,12 @@
         37.805289
       ],
       "fids": [
-        663,
-        664,
-        665,
         666,
         667,
-        668
+        668,
+        669,
+        670,
+        671
       ],
       "segments": [
         {
@@ -21403,9 +21403,6 @@
         37.793407
       ],
       "fids": [
-        429,
-        430,
-        431,
         432,
         433,
         434,
@@ -21420,7 +21417,10 @@
         443,
         444,
         445,
-        446
+        446,
+        447,
+        448,
+        449
       ],
       "segments": [
         {
@@ -21993,9 +21993,6 @@
         37.785729
       ],
       "fids": [
-        669,
-        670,
-        671,
         672,
         673,
         674,
@@ -22017,7 +22014,10 @@
         690,
         691,
         692,
-        693
+        693,
+        694,
+        695,
+        696
       ],
       "segments": [
         {
@@ -22662,9 +22662,6 @@
         37.793407
       ],
       "fids": [
-        694,
-        695,
-        696,
         697,
         698,
         699,
@@ -22683,7 +22680,10 @@
         712,
         713,
         714,
-        715
+        715,
+        716,
+        717,
+        718
       ],
       "segments": [
         {
@@ -23324,9 +23324,6 @@
         37.794281
       ],
       "fids": [
-        716,
-        717,
-        718,
         719,
         720,
         721,
@@ -23342,7 +23339,10 @@
         731,
         732,
         733,
-        734
+        734,
+        735,
+        736,
+        737
       ],
       "segments": [
         {
@@ -24016,9 +24016,6 @@
         37.789838
       ],
       "fids": [
-        735,
-        736,
-        737,
         738,
         739,
         740,
@@ -24038,7 +24035,10 @@
         754,
         755,
         756,
-        757
+        757,
+        758,
+        759,
+        760
       ],
       "segments": [
         {
@@ -24834,9 +24834,6 @@
         37.788999
       ],
       "fids": [
-        758,
-        759,
-        760,
         761,
         762,
         763,
@@ -24861,7 +24858,10 @@
         782,
         783,
         784,
-        785
+        785,
+        786,
+        787,
+        788
       ],
       "segments": [
         {
@@ -25574,9 +25574,6 @@
         37.784013
       ],
       "fids": [
-        786,
-        787,
-        788,
         789,
         790,
         791,
@@ -25591,7 +25588,10 @@
         800,
         801,
         802,
-        803
+        803,
+        804,
+        805,
+        806
       ],
       "segments": [
         {
@@ -26206,9 +26206,6 @@
         37.789284
       ],
       "fids": [
-        804,
-        805,
-        806,
         807,
         808,
         809,
@@ -26221,7 +26218,10 @@
         816,
         817,
         818,
-        819
+        819,
+        820,
+        821,
+        822
       ],
       "segments": [
         {
@@ -26880,15 +26880,15 @@
         37.793407
       ],
       "fids": [
-        447,
-        448,
-        449,
         450,
         451,
         452,
         453,
         454,
-        455
+        455,
+        456,
+        457,
+        458
       ],
       "segments": [
         {
@@ -27251,9 +27251,6 @@
         37.778681
       ],
       "fids": [
-        820,
-        821,
-        822,
         823,
         824,
         825,
@@ -27272,7 +27269,10 @@
         838,
         839,
         840,
-        841
+        841,
+        842,
+        843,
+        844
       ],
       "segments": [
         {
@@ -27921,9 +27921,6 @@
         37.793407
       ],
       "fids": [
-        842,
-        843,
-        844,
         845,
         846,
         847,
@@ -27939,7 +27936,10 @@
         857,
         858,
         859,
-        860
+        860,
+        861,
+        862,
+        863
       ],
       "segments": [
         {
@@ -28448,9 +28448,6 @@
         37.782556
       ],
       "fids": [
-        861,
-        862,
-        863,
         864,
         865,
         866,
@@ -28458,7 +28455,10 @@
         868,
         869,
         870,
-        871
+        871,
+        872,
+        873,
+        874
       ],
       "segments": [
         {
@@ -28759,12 +28759,12 @@
         37.805042
       ],
       "fids": [
-        872,
-        873,
-        874,
         875,
         876,
-        877
+        877,
+        878,
+        879,
+        880
       ],
       "segments": [
         {
@@ -28987,12 +28987,12 @@
         37.79492
       ],
       "fids": [
-        878,
-        879,
-        880,
         881,
         882,
-        883
+        883,
+        884,
+        885,
+        886
       ],
       "segments": [
         {
@@ -29285,12 +29285,12 @@
         37.79009
       ],
       "fids": [
-        884,
-        885,
-        886,
         887,
         888,
-        889
+        889,
+        890,
+        891,
+        892
       ],
       "segments": [
         {
@@ -29553,9 +29553,6 @@
         37.793407
       ],
       "fids": [
-        456,
-        457,
-        458,
         459,
         460,
         461,
@@ -29572,7 +29569,10 @@
         472,
         473,
         474,
-        475
+        475,
+        476,
+        477,
+        478
       ],
       "segments": [
         {
@@ -30157,9 +30157,6 @@
         37.784013
       ],
       "fids": [
-        890,
-        891,
-        892,
         893,
         894,
         895,
@@ -30179,7 +30176,10 @@
         909,
         910,
         911,
-        912
+        912,
+        913,
+        914,
+        915
       ],
       "segments": [
         {
@@ -30793,11 +30793,11 @@
         37.789284
       ],
       "fids": [
-        913,
-        914,
-        915,
         916,
-        917
+        917,
+        918,
+        919,
+        920
       ],
       "segments": [
         {
@@ -31011,9 +31011,6 @@
         37.793216
       ],
       "fids": [
-        918,
-        919,
-        920,
         921,
         922,
         923,
@@ -31023,7 +31020,10 @@
         927,
         928,
         929,
-        930
+        930,
+        931,
+        932,
+        933
       ],
       "segments": [
         {
@@ -31407,9 +31407,6 @@
         37.793407
       ],
       "fids": [
-        476,
-        477,
-        478,
         479,
         480,
         481,
@@ -31421,7 +31418,10 @@
         487,
         488,
         489,
-        490
+        490,
+        491,
+        492,
+        493
       ],
       "segments": [
         {
@@ -32431,9 +32431,6 @@
         37.793407
       ],
       "fids": [
-        491,
-        492,
-        493,
         494,
         495,
         496,
@@ -32458,7 +32455,10 @@
         515,
         516,
         517,
-        518
+        518,
+        519,
+        520,
+        521
       ],
       "segments": [
         {
@@ -33199,9 +33199,6 @@
         37.793407
       ],
       "fids": [
-        519,
-        520,
-        521,
         522,
         523,
         524,
@@ -33214,7 +33211,10 @@
         531,
         532,
         533,
-        534
+        534,
+        535,
+        536,
+        537
       ],
       "segments": [
         {
@@ -33679,9 +33679,6 @@
         37.793407
       ],
       "fids": [
-        535,
-        536,
-        537,
         538,
         539,
         540,
@@ -33689,7 +33686,10 @@
         542,
         543,
         544,
-        545
+        545,
+        546,
+        547,
+        548
       ],
       "segments": [
         {
@@ -34448,9 +34448,6 @@
         37.793407
       ],
       "fids": [
-        546,
-        547,
-        548,
         549,
         550,
         551,
@@ -34459,7 +34456,10 @@
         554,
         555,
         556,
-        557
+        557,
+        558,
+        559,
+        560
       ],
       "segments": [
         {
@@ -35535,14 +35535,14 @@
         38.852585
       ],
       "fids": [
-        1027,
-        1028,
-        1029,
         1030,
         1031,
         1032,
         1033,
-        1034
+        1034,
+        1035,
+        1036,
+        1037
       ],
       "segments": [
         {
@@ -35904,11 +35904,11 @@
         37.806637
       ],
       "fids": [
-        367,
-        368,
-        369,
         370,
-        371
+        371,
+        372,
+        373,
+        374
       ],
       "segments": [
         {
@@ -36222,14 +36222,14 @@
         37.7762
       ],
       "fids": [
-        1169,
-        1170,
-        1171,
         1172,
         1173,
         1174,
         1175,
-        1176
+        1176,
+        1177,
+        1178,
+        1179
       ],
       "segments": [
         {
@@ -36506,9 +36506,6 @@
         37.7762
       ],
       "fids": [
-        1155,
-        1156,
-        1157,
         1158,
         1159,
         1160,
@@ -36519,7 +36516,10 @@
         1165,
         1166,
         1167,
-        1168
+        1168,
+        1169,
+        1170,
+        1171
       ],
       "segments": [
         {
@@ -36999,9 +36999,9 @@
         38.401111
       ],
       "fids": [
-        310,
-        311,
-        312
+        313,
+        314,
+        315
       ],
       "segments": [
         {
@@ -37295,9 +37295,9 @@
         38.473244
       ],
       "fids": [
-        322,
-        323,
-        324
+        325,
+        326,
+        327
       ],
       "segments": [
         {
@@ -37543,15 +37543,15 @@
         38.445375
       ],
       "fids": [
-        313,
-        314,
-        315,
         316,
         317,
         318,
         319,
         320,
-        321
+        321,
+        322,
+        323,
+        324
       ],
       "segments": [
         {
@@ -37909,7 +37909,7 @@
         38.286441
       ],
       "fids": [
-        325
+        328
       ],
       "segments": [
         {
@@ -39092,10 +39092,10 @@
         37.890752
       ],
       "fids": [
-        344,
-        345,
-        346,
-        347
+        347,
+        348,
+        349,
+        350
       ],
       "segments": [
         {
@@ -39411,9 +39411,6 @@
         38.42361
       ],
       "fids": [
-        326,
-        327,
-        328,
         329,
         330,
         331,
@@ -39428,7 +39425,10 @@
         340,
         341,
         342,
-        343
+        343,
+        344,
+        345,
+        346
       ],
       "segments": [
         {
@@ -40722,12 +40722,12 @@
         37.795493
       ],
       "fids": [
-        356,
-        357,
-        358,
         359,
         360,
-        361
+        361,
+        362,
+        363,
+        364
       ],
       "segments": [
         {
@@ -41055,7 +41055,7 @@
         38.519886
       ],
       "fids": [
-        1035
+        1038
       ],
       "segments": [
         {
@@ -41237,12 +41237,12 @@
         38.809809
       ],
       "fids": [
-        1012,
-        1013,
-        1014,
         1015,
         1016,
-        1017
+        1017,
+        1018,
+        1019,
+        1020
       ],
       "segments": [
         {
@@ -41529,15 +41529,15 @@
         38.809809
       ],
       "fids": [
-        1018,
-        1019,
-        1020,
         1021,
         1022,
         1023,
         1024,
         1025,
-        1026
+        1026,
+        1027,
+        1028,
+        1029
       ],
       "segments": [
         {
@@ -41986,6 +41986,665 @@
       ]
     },
     {
+      "id": "nwp-san-quentin-freight",
+      "name": "San Quentin branch freight, San Rafael to Point San Quentin",
+      "short_name": "San Quentin branch freight",
+      "system": "north-pacific-coast",
+      "system_name": "North Pacific Coast Railroad",
+      "operators": [
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": "1913",
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1913",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The San Quentin branch after its passenger trains ended in 1913: a freight branch of the Northwestern Pacific, in its employee timetables until 1933 (decision 15).",
+      "fate": "abandoned",
+      "fate_note": "Gone from the timetable that took effect on January 15, 1934; when it was abandoned isn't sourced.",
+      "notes": "Drawn as freight from the passenger trains' end in 1913 to its last timetable in 1933 (decisions 15 and 20); the freight before 1929 isn't otherwise shown.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1929-10-20",
+          "source": "cscrm-2021-02-001171",
+          "pages": "8",
+          "note": "San Rafael 17.0 to San Quentin 20.1 miles, with no scheduled trains."
+        },
+        {
+          "date": "1933-09-17",
+          "source": "cscrm-2021-02-001294",
+          "pages": "4",
+          "note": "The last employee timetable found that lists the branch."
+        }
+      ],
+      "undated": false,
+      "length_km": 5.22,
+      "confidence_km": {
+        "surveyed": 5.22
+      },
+      "bbox": [
+        -122.525991,
+        37.943494,
+        -122.477407,
+        37.968652
+      ],
+      "fids": [
+        306
+      ],
+      "segments": [
+        {
+          "id": "npc-san-rafael-san-quentin",
+          "name": "San Rafael to Point San Quentin (the San Rafael & San Quentin)",
+          "opened": "1870-03-21",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to nwp-san-anselmo-san-rafael at its end; then OpenHistoricalMap ways 200221496, 200221509 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map; USGS Tamalpais 1897 topographic map, cut from -122.52590,37.96865; checked on USGS Tamalpais 1:62,500 (1941), USGS Tamalpais 1:62,500 (1897) and USGS San Francisco 1:62,500 (1899). From the San Rafael branch's end at San Rafael, southeast beside the Northwestern Pacific's main line and along the shore to the wharf at Point San Quentin; OpenHistoricalMap's ways, traced by its mappers from the 1897 Tamalpais and 1895 San Francisco sheets, run within a few tens of metres of the line on the 1941 Tamalpais sheet as far as that sheet goes. Where in San Rafael the San Rafael & San Quentin ended isn't sourced.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Built as a standard-gauge line and relaid to three-foot gauge under the North Pacific Coast's lease of 1875 (Western Railroader, 1949). Still in the Northwestern Pacific's timetables as a freight branch in 1929-33; when its track was given up isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "western-railroader-1949-04",
+          "title": "The Western Railroader 12(6), April 1949: the Northwestern Pacific",
+          "publisher": "The Western Railroader",
+          "date": "1949-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1949-04_12_6",
+          "license": "Copyright status unknown (railfan periodical, 1949); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1949-04",
+          "supports": [
+            "opened"
+          ],
+          "pages": "10",
+          "note": "Passenger service ended in 1913."
+        },
+        {
+          "id": "cscrm-2021-02-001171",
+          "title": "Northwestern Pacific Railroad, employee timetable No. 4, Southern Division, October 20, 1929",
+          "publisher": "California State Railroad Museum scan",
+          "date": "1929-10-20",
+          "url": "https://archive.org/details/cscrm_2021_02_001171",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001171",
+          "supports": [
+            "route"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "cscrm-2021-02-001294",
+          "title": "Northwestern Pacific Railroad, employee timetable No. 12, Southern Division, September 17, 1933",
+          "publisher": "California State Railroad Museum scan",
+          "date": "1933-09-17",
+          "url": "https://archive.org/details/cscrm_2021_02_001294",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001294",
+          "supports": [
+            "route"
+          ],
+          "pages": "4"
+        },
+        {
+          "id": "cscrm-2021-02-001320",
+          "title": "Northwestern Pacific Railroad, Supplement No. 1 to employee timetable No. 12, January 15, 1934",
+          "publisher": "California State Railroad Museum scan",
+          "date": "1934-01-15",
+          "url": "https://archive.org/details/cscrm_2021_02_001320",
+          "type": "primary_document",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001320",
+          "supports": [
+            "general"
+          ],
+          "pages": "4",
+          "note": "The page that superseded p. 4 of No. 12 on January 15, 1934 has no San Quentin table."
+        },
+        {
+          "id": "marin-history-1880",
+          "title": "History of Marin County, California",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofmarinco00munr",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "marin-history-1880",
+          "supports": [
+            "opened"
+          ],
+          "pages": "333",
+          "note": "\"on Monday, March 21, 1870, the initiatory trip was made\"."
+        },
+        {
+          "id": "ca-transportation-report-1877",
+          "title": "Report of the Board of Commissioners of Transportation to the Legislature of the State of California, with the railroads' returns for 1877",
+          "author": "California Board of Commissioners of Transportation",
+          "publisher": "State Office, Sacramento",
+          "date": "1878",
+          "type": "official",
+          "url": "https://archive.org/details/reportboardcomm00trangoog",
+          "license": "Public domain (State of California publication)",
+          "accessed": "2026-10-16",
+          "source": "ca-transportation-report-1877",
+          "supports": [
+            "route"
+          ],
+          "pages": "211",
+          "note": "\"From San Rafael to San Quentin. Length 3.50 miles.\""
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221496, 200221509"
+        }
+      ]
+    },
+    {
+      "id": "npc-san-quentin-ferry",
+      "name": "San Quentin ferry, San Francisco to Point San Quentin",
+      "short_name": "San Quentin ferry",
+      "system": "north-pacific-coast",
+      "system_name": "North Pacific Coast Railroad",
+      "operators": [
+        {
+          "name": "Charles Minturn",
+          "from": null,
+          "to": "1875-03-11"
+        },
+        {
+          "name": "North Pacific Coast Railroad",
+          "from": "1875-03-11",
+          "to": "1884-04"
+        }
+      ],
+      "mode": "ferry",
+      "mode_label": "Ferry",
+      "group": "ferry",
+      "era": "past",
+      "opened": null,
+      "closed": "1884-04",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Steamers from the Davis St wharf in San Francisco to Point San Quentin, at first Charles Minturn's, with stages and from 1870 the railroad to San Rafael; from 1875 the North Pacific Coast's boats, which met its passenger trains there until 1884.",
+      "fate": "abandoned",
+      "fate_note": "The North Pacific Coast's timetable from April 27, 1884 sends every boat by Saucelito.",
+      "notes": "Closed in April 1884, with the timetable printed as beginning \"Saturday, April 27th, 1884\"; April 27 was a Sunday, so the day is uncertain. When the ferry began isn't sourced; it ran by April 1867.",
+      "flags": [
+        "opened_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1867-04-06",
+          "source": "banner-of-progress-1867-04-06",
+          "pages": "1",
+          "note": "Minturn's steamer Contra Costa, with stages to San Rafael, before the railroad."
+        },
+        {
+          "date": "1870-04-30",
+          "source": "voice-of-israel-1870-10-07",
+          "pages": "7",
+          "note": "\"Connecting at Point San Quentin with the recently constructed Railroad to San Rafael\"."
+        },
+        {
+          "date": "1877-11-05",
+          "source": "argonaut-1878-01-12",
+          "pages": "16",
+          "note": "The North Pacific Coast's steamer San Rafael \"between San Francisco and San Quentin (connecting with trains at latter place)\"."
+        },
+        {
+          "date": "1884-01-21",
+          "source": "argonaut-1884-04-19",
+          "pages": "13",
+          "note": "Boats \"For SAN RAFAEL (via San Quentin Ferry)\"."
+        }
+      ],
+      "undated": false,
+      "length_km": 18.45,
+      "confidence_km": {
+        "approximate": 18.45
+      },
+      "bbox": [
+        -122.47741,
+        37.799685,
+        -122.39598,
+        37.94375
+      ],
+      "fids": [
+        305
+      ],
+      "segments": [
+        {
+          "id": "npc-san-quentin-ferry-course",
+          "name": "Ferry, Davis St wharf to Point San Quentin",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "The shortest path over today's water from -122.47741,37.94349 to Davis Street/Vallejo Street (18503 m; Overture 2026-09-23.1 land and water), kept off the shore: the sources give the terminals, not the course. The sources give the terminals: the Davis St wharf between Broadway and Vallejo St, and Point San Quentin.",
+          "structure": "ferry",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Over water between the terminals; the sources give the terminals, not the course."
+        }
+      ],
+      "sources": [
+        {
+          "id": "banner-of-progress-1867-04-06",
+          "title": "Banner of Progress 1(13), April 6, 1867: advertisement, \"San Pablo and San Quentin Ferry\"",
+          "publisher": "Banner of Progress, San Francisco",
+          "date": "1867-04-06",
+          "type": "primary_document",
+          "url": "https://archive.org/details/IAPSOP-banner_of_progress_v1_n13_apr_6_1867_partial",
+          "license": "Public domain (published 1867)",
+          "accessed": "2026-10-16",
+          "source": "banner-of-progress-1867-04-06",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "1"
+        },
+        {
+          "id": "voice-of-israel-1870-10-07",
+          "title": "The Voice of Israel (San Francisco), October 7, 1870: advertisement, \"San Quentin Ferry\"",
+          "publisher": "The Voice of Israel",
+          "date": "1870-10-07",
+          "type": "primary_document",
+          "url": "https://archive.org/details/casfema_000161",
+          "license": "Public domain (item metadata: \"Public Domain. No restrictions on use.\")",
+          "accessed": "2026-10-16",
+          "source": "voice-of-israel-1870-10-07",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "7"
+        },
+        {
+          "id": "argonaut-1878-01-12",
+          "title": "The Argonaut 2(1), January 12, 1878: North Pacific Coast Railroad timetable advertisement",
+          "publisher": "The Argonaut, San Francisco",
+          "date": "1878-01-12",
+          "type": "primary_document",
+          "url": "https://archive.org/details/argonaut21878sanf",
+          "license": "Public domain (published 1878)",
+          "accessed": "2026-10-16",
+          "source": "argonaut-1878-01-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "16"
+        },
+        {
+          "id": "argonaut-1884-04-19",
+          "title": "The Argonaut 14(16), April 19, 1884: North Pacific Coast Railroad timetable advertisement",
+          "publisher": "The Argonaut, San Francisco",
+          "date": "1884-04-19",
+          "type": "primary_document",
+          "url": "https://archive.org/details/argonaut141884sanf",
+          "license": "Public domain (published 1884)",
+          "accessed": "2026-10-16",
+          "source": "argonaut-1884-04-19",
+          "supports": [
+            "general"
+          ],
+          "pages": "13",
+          "note": "The last advertisement found with the San Quentin ferry."
+        },
+        {
+          "id": "argonaut-1884-05-03",
+          "title": "The Argonaut 14(18), May 3, 1884: North Pacific Coast Railroad timetable advertisement",
+          "publisher": "The Argonaut, San Francisco",
+          "date": "1884-05-03",
+          "type": "primary_document",
+          "url": "https://archive.org/details/argonaut141884sanf",
+          "license": "Public domain (published 1884)",
+          "accessed": "2026-10-16",
+          "source": "argonaut-1884-05-03",
+          "supports": [
+            "closed"
+          ],
+          "pages": "13",
+          "note": "\"Commencing Saturday, April 27th, 1884\": no San Quentin ferry."
+        },
+        {
+          "id": "overture-base-2026-09-23-1",
+          "title": "Overture Maps Foundation, base theme (land and water), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/base/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-base-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "npc-san-quentin-trains",
+      "name": "San Rafael & San Quentin trains, Point San Quentin to San Rafael",
+      "short_name": "San Quentin trains",
+      "system": "north-pacific-coast",
+      "system_name": "North Pacific Coast Railroad",
+      "operators": [
+        {
+          "name": "San Rafael & San Quentin Railroad",
+          "from": "1870-03-21",
+          "to": "1875-03-11"
+        },
+        {
+          "name": "North Pacific Coast Railroad",
+          "from": "1875-03-11",
+          "to": null
+        },
+        {
+          "name": "North Shore Railroad",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Northwestern Pacific Railroad",
+          "from": null,
+          "to": "1913"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1870-03-21",
+      "closed": "1913",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "Trains between the ferry wharf at Point San Quentin and San Rafael, first the San Rafael & San Quentin's own, then, under the North Pacific Coast's lease from 1875, the narrow gauge's: until 1884 San Quentin was its passenger terminal, with boats from San Francisco meeting trains for San Rafael, the Junction (San Anselmo) and the Russian River. Later a steam shuttle, which kept running after the lines to San Rafael were electrified in 1903.",
+      "fate": "abandoned",
+      "fate_note": "Passenger service between San Rafael and San Quentin ended in 1913 (Western Railroader, 1949); the branch went on carrying freight.",
+      "traction": [
+        {
+          "type": "steam",
+          "from": "1870-03-21",
+          "to": "1913"
+        }
+      ],
+      "notes": "The end in 1913 rests on one railfan history (Borden, in the Western Railroader of 1949); no Railroad Commission order or newspaper for it was found, and its day isn't known. Poor's of 1885 and a 1939 railfan article give the opening as 1871; the ferry's advertisement of 1870 calls the railroad \"recently constructed\".",
+      "flags": [],
+      "undated": false,
+      "length_km": 5.22,
+      "confidence_km": {
+        "surveyed": 5.22
+      },
+      "bbox": [
+        -122.525991,
+        37.943494,
+        -122.477407,
+        37.968652
+      ],
+      "fids": [
+        304
+      ],
+      "segments": [
+        {
+          "id": "npc-san-rafael-san-quentin",
+          "name": "San Rafael to Point San Quentin (the San Rafael & San Quentin)",
+          "opened": "1870-03-21",
+          "closed": null,
+          "note": "In 1877-84 the boats' trains ran on over the San Rafael branch to the Junction (San Anselmo) and the main line.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "Joined to nwp-san-anselmo-san-rafael at its end; then OpenHistoricalMap ways 200221496, 200221509 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map; USGS Tamalpais 1897 topographic map, cut from -122.52590,37.96865; checked on USGS Tamalpais 1:62,500 (1941), USGS Tamalpais 1:62,500 (1897) and USGS San Francisco 1:62,500 (1899). From the San Rafael branch's end at San Rafael, southeast beside the Northwestern Pacific's main line and along the shore to the wharf at Point San Quentin; OpenHistoricalMap's ways, traced by its mappers from the 1897 Tamalpais and 1895 San Francisco sheets, run within a few tens of metres of the line on the 1941 Tamalpais sheet as far as that sheet goes. Where in San Rafael the San Rafael & San Quentin ended isn't sourced.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Built as a standard-gauge line and relaid to three-foot gauge under the North Pacific Coast's lease of 1875 (Western Railroader, 1949). Still in the Northwestern Pacific's timetables as a freight branch in 1929-33; when its track was given up isn't sourced."
+        }
+      ],
+      "sources": [
+        {
+          "id": "marin-history-1880",
+          "title": "History of Marin County, California",
+          "author": "J. P. Munro-Fraser",
+          "publisher": "Alley, Bowen & Co., San Francisco",
+          "date": "1880",
+          "type": "book",
+          "url": "https://archive.org/details/historyofmarinco00munr",
+          "license": "Public domain (published 1880)",
+          "accessed": "2026-10-15",
+          "source": "marin-history-1880",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "148, 333",
+          "note": "The first trip, March 21, 1870 (p. 333); \"the San Quentin terminus is used principally for the passenger business\" (p. 148)."
+        },
+        {
+          "id": "ca-transportation-report-1877",
+          "title": "Report of the Board of Commissioners of Transportation to the Legislature of the State of California, with the railroads' returns for 1877",
+          "author": "California Board of Commissioners of Transportation",
+          "publisher": "State Office, Sacramento",
+          "date": "1878",
+          "type": "official",
+          "url": "https://archive.org/details/reportboardcomm00trangoog",
+          "license": "Public domain (State of California publication)",
+          "accessed": "2026-10-16",
+          "source": "ca-transportation-report-1877",
+          "supports": [
+            "operator",
+            "route"
+          ],
+          "pages": "211",
+          "note": "The North Pacific Coast's lease, from March 11, 1875 to March 11, 1918."
+        },
+        {
+          "id": "argonaut-1878-01-12",
+          "title": "The Argonaut 2(1), January 12, 1878: North Pacific Coast Railroad timetable advertisement",
+          "publisher": "The Argonaut, San Francisco",
+          "date": "1878-01-12",
+          "type": "primary_document",
+          "url": "https://archive.org/details/argonaut21878sanf",
+          "license": "Public domain (published 1878)",
+          "accessed": "2026-10-16",
+          "source": "argonaut-1878-01-12",
+          "supports": [
+            "route"
+          ],
+          "pages": "16",
+          "note": "Boats \"for San Quentin, San Rafael, and Junction\", connecting with trains."
+        },
+        {
+          "id": "argonaut-1903-11-02",
+          "title": "The Argonaut 53 (No. 1390), November 2, 1903: North Shore Railroad timetable advertisement",
+          "publisher": "The Argonaut, San Francisco",
+          "date": "1903-11-02",
+          "type": "primary_document",
+          "url": "https://archive.org/details/argonaut531903sanf",
+          "license": "Public domain (published 1903)",
+          "accessed": "2026-10-16",
+          "source": "argonaut-1903-11-02",
+          "supports": [
+            "general"
+          ],
+          "pages": "288",
+          "note": "\"Trains marked * run to San Quentin\" in the North Shore's timetable of 1903."
+        },
+        {
+          "id": "srj-1904-01-02-north-shore",
+          "title": "Street Railway Journal 23(1), January 2, 1904: the North Shore Railroad's third-rail electric line",
+          "publisher": "Street Railway Journal",
+          "date": "1904-01-02",
+          "type": "journal",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "electrification"
+          ],
+          "pages": "6",
+          "note": "\"The line extends to San Quentin … but this extension is not in operation at present.\""
+        },
+        {
+          "id": "western-railroader-1949-04",
+          "title": "The Western Railroader 12(6), April 1949: the Northwestern Pacific",
+          "publisher": "The Western Railroader",
+          "date": "1949-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1949-04_12_6",
+          "license": "Copyright status unknown (railfan periodical, 1949); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1949-04",
+          "supports": [
+            "closed",
+            "gauge"
+          ],
+          "pages": "6, 7, 10",
+          "note": "Standard gauge, relaid to three-foot gauge in 1875 (p. 7); steam trains between San Rafael and San Quentin after 1903 (p. 7); \"Passenger service was discontinued between San Rafael and San Quentin\" in 1913 (p. 10)."
+        },
+        {
+          "id": "usgs-tamalpais-1941",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1941",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1941",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_301788_1941_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-tamalpais-1941",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-tamalpais-1897",
+          "title": "Tamalpais, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Tamalpais_298980_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-tamalpais-1897",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200221496, 200221509"
+        }
+      ]
+    },
+    {
       "id": "atsf-ferry",
       "name": "Santa Fe ferry, Ferry Point to San Francisco",
       "short_name": "Santa Fe ferry",
@@ -42023,8 +42682,8 @@
         37.908
       ],
       "fids": [
-        353,
-        354
+        356,
+        357
       ],
       "segments": [
         {
@@ -42262,11 +42921,11 @@
         38.049065
       ],
       "fids": [
-        348,
-        349,
-        350,
         351,
-        352
+        352,
+        353,
+        354,
+        355
       ],
       "segments": [
         {
@@ -43084,10 +43743,10 @@
         37.977386
       ],
       "fids": [
-        304,
-        305,
-        306,
-        307
+        307,
+        308,
+        309,
+        310
       ],
       "segments": [
         {
@@ -43293,11 +43952,11 @@
         38.434321
       ],
       "fids": [
-        1046,
-        1047,
-        1048,
         1049,
-        1050
+        1050,
+        1051,
+        1052,
+        1053
       ],
       "segments": [
         {
@@ -43464,15 +44123,15 @@
         37.824321
       ],
       "fids": [
-        1103,
-        1104,
-        1105,
         1106,
         1107,
         1108,
         1109,
         1110,
-        1111
+        1111,
+        1112,
+        1113,
+        1114
       ],
       "segments": [
         {
@@ -43971,9 +44630,6 @@
         37.891481
       ],
       "fids": [
-        1068,
-        1069,
-        1070,
         1071,
         1072,
         1073,
@@ -43990,7 +44646,10 @@
         1084,
         1085,
         1086,
-        1087
+        1087,
+        1088,
+        1089,
+        1090
       ],
       "segments": [
         {
@@ -44610,12 +45269,12 @@
         38.440268
       ],
       "fids": [
-        1040,
-        1041,
-        1042,
         1043,
         1044,
-        1045
+        1045,
+        1046,
+        1047,
+        1048
       ],
       "segments": [
         {
@@ -44977,9 +45636,6 @@
         37.796576
       ],
       "fids": [
-        1051,
-        1052,
-        1053,
         1054,
         1055,
         1056,
@@ -44989,7 +45645,10 @@
         1060,
         1061,
         1062,
-        1063
+        1063,
+        1064,
+        1065,
+        1066
       ],
       "segments": [
         {
@@ -45548,16 +46207,16 @@
         37.80914
       ],
       "fids": [
-        1145,
-        1146,
-        1147,
         1148,
         1149,
         1150,
         1151,
         1152,
         1153,
-        1154
+        1154,
+        1155,
+        1156,
+        1157
       ],
       "segments": [
         {
@@ -45903,9 +46562,9 @@
         38.032436
       ],
       "fids": [
-        1177,
-        1178,
-        1179
+        1180,
+        1181,
+        1182
       ],
       "segments": [
         {
@@ -46149,10 +46808,10 @@
         38.462654
       ],
       "fids": [
-        1036,
-        1037,
-        1038,
-        1039
+        1039,
+        1040,
+        1041,
+        1042
       ],
       "segments": [
         {
@@ -46402,9 +47061,9 @@
         37.790312
       ],
       "fids": [
-        362,
-        363,
-        364
+        365,
+        366,
+        367
       ],
       "segments": [
         {
@@ -46550,15 +47209,15 @@
         37.789106
       ],
       "fids": [
-        932,
-        933,
-        934,
         935,
         936,
         937,
         938,
         939,
-        940
+        940,
+        941,
+        942,
+        943
       ],
       "segments": [
         {
@@ -47707,10 +48366,10 @@
         37.80035
       ],
       "fids": [
-        385,
-        386,
-        387,
-        388
+        388,
+        389,
+        390,
+        391
       ],
       "segments": [
         {
@@ -48051,9 +48710,6 @@
         37.79562
       ],
       "fids": [
-        373,
-        374,
-        375,
         376,
         377,
         378,
@@ -48061,7 +48717,10 @@
         380,
         381,
         382,
-        383
+        383,
+        384,
+        385,
+        386
       ],
       "segments": [
         {
@@ -48317,12 +48976,12 @@
         37.803847
       ],
       "fids": [
-        1139,
-        1140,
-        1141,
         1142,
         1143,
-        1144
+        1144,
+        1145,
+        1146,
+        1147
       ],
       "segments": [
         {
@@ -48631,8 +49290,8 @@
         37.800059
       ],
       "fids": [
-        1200,
-        1201
+        1203,
+        1204
       ],
       "segments": [
         {
@@ -48814,8 +49473,8 @@
         37.57739
       ],
       "fids": [
-        1202,
-        1203
+        1205,
+        1206
       ],
       "segments": [
         {
@@ -49000,9 +49659,6 @@
         37.80914
       ],
       "fids": [
-        1180,
-        1181,
-        1182,
         1183,
         1184,
         1185,
@@ -49019,7 +49675,10 @@
         1196,
         1197,
         1198,
-        1199
+        1199,
+        1200,
+        1201,
+        1202
       ],
       "segments": [
         {

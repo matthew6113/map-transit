@@ -39,6 +39,50 @@
       "notes": "\"When the Amtrak San Joaquins service was established in 1974, the ATSF line was chosen for the route\". The San Joaquins became the Gold Runner in 2025."
     },
     {
+      "id": "argonaut-1878-01-12",
+      "title": "The Argonaut 2(1), January 12, 1878: North Pacific Coast Railroad timetable advertisement",
+      "publisher": "The Argonaut, San Francisco",
+      "date": "1878-01-12",
+      "type": "primary_document",
+      "url": "https://archive.org/details/argonaut21878sanf",
+      "license": "Public domain (published 1878)",
+      "accessed": "2026-10-16",
+      "notes": "p. 16 (scan leaf n24): \"Commencing Monday Nov. 5th, 1877, the new, swift, and elegantly appointed steamer, SAN RAFAEL, Will run between San Francisco and San Quentin (connecting with trains at latter place)\"; boats \"for San Quentin, San Rafael, and Junction\"; \"The 10.00 A. M. boat connects with through trains for Duncan Mills\". Read on the page image."
+    },
+    {
+      "id": "argonaut-1884-04-19",
+      "title": "The Argonaut 14(16), April 19, 1884: North Pacific Coast Railroad timetable advertisement",
+      "publisher": "The Argonaut, San Francisco",
+      "date": "1884-04-19",
+      "type": "primary_document",
+      "url": "https://archive.org/details/argonaut141884sanf",
+      "license": "Public domain (published 1884)",
+      "accessed": "2026-10-16",
+      "notes": "p. 13 (scan leaf n259): \"Commencing Monday, January 21st, 1884 … For SAN RAFAEL (via San Quentin Ferry)—†10.15, *11.15 A. M., *4.50, †5.00 P. M.\", and boats via Saucelito. The last issue found with the San Quentin ferry. Read on the page image."
+    },
+    {
+      "id": "argonaut-1884-05-03",
+      "title": "The Argonaut 14(18), May 3, 1884: North Pacific Coast Railroad timetable advertisement",
+      "publisher": "The Argonaut, San Francisco",
+      "date": "1884-05-03",
+      "type": "primary_document",
+      "url": "https://archive.org/details/argonaut141884sanf",
+      "license": "Public domain (published 1884)",
+      "accessed": "2026-10-16",
+      "notes": "p. 13 (scan leaf n291): \"SAUCELITO—SAN RAFAEL—SAN QUENTIN, via NORTH PACIFIC COAST R. R. … Commencing Saturday, April 27th, 1884 … For SAN RAFAEL and SAUCELITO (week days)—7.30, 9.15 A. M.\": no San Quentin ferry. April 27, 1884 was a Sunday. Read on the page image."
+    },
+    {
+      "id": "argonaut-1903-11-02",
+      "title": "The Argonaut 53 (No. 1390), November 2, 1903: North Shore Railroad timetable advertisement",
+      "publisher": "The Argonaut, San Francisco",
+      "date": "1903-11-02",
+      "type": "primary_document",
+      "url": "https://archive.org/details/argonaut531903sanf",
+      "license": "Public domain (published 1903)",
+      "accessed": "2026-10-16",
+      "notes": "p. 288 (scan leaf n298): \"FOR SAN RAFAEL, ROSS, MILL VALLEY, ETC., Via Sausalito Ferry\"; weekdays *7.45 a.m., *1.45, *6.15 p.m.; \"Trains marked * run to San Quentin.\" The same note is in the ads from February 16, 1903 (vol. 52, No. 1353) on. Read on the page image."
+    },
+    {
       "id": "asri-1897",
       "title": "American Street Railway Investments, vol. 4 (1897): the red book of American street railway investments",
       "publisher": "Street Railway Journal",
@@ -902,6 +946,17 @@
       "notes": "Cited by BAM's valley-link record."
     },
     {
+      "id": "banner-of-progress-1867-04-06",
+      "title": "Banner of Progress 1(13), April 6, 1867: advertisement, \"San Pablo and San Quentin Ferry\"",
+      "publisher": "Banner of Progress, San Francisco",
+      "date": "1867-04-06",
+      "type": "primary_document",
+      "url": "https://archive.org/details/IAPSOP-banner_of_progress_v1_n13_apr_6_1867_partial",
+      "license": "Public domain (published 1867)",
+      "accessed": "2026-10-16",
+      "notes": "PDF p. 1: \"SAN PABLO AND SAN QUENTIN FERRY. Through to San Rafael and Point Isabel. From Vallejo and Davis Streets\"; the steamer Contra Costa, \"Connecting with Stages for San Rafael, Olima, Tomales, and Bolinas\"; Charles Minturn, agent. Read on the rendered page image, October 16, 2026."
+    },
+    {
       "id": "bart-annual-report-1973-74",
       "title": "BART annual report 1973–74",
       "publisher": "San Francisco Bay Area Rapid Transit District",
@@ -1115,6 +1170,18 @@
       "license": "Public domain (State of California publications)",
       "accessed": "2026-10-15",
       "notes": "The tenth report's history of each railroad, pp. 7-23; p. 9 (scan n330): \"In connection with its railroad the California Pacific operates a ferry line from Vallejo to Vallejo Junction, connecting there with the Northern Railway for San Francisco and other points on the lines operated by the Southern Pacific Company\", and its mileage \"Napa Junction to Calistoga 34.48\". The eleventh report repeats it on its p. 15. A Google scan. Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "ca-transportation-report-1877",
+      "title": "Report of the Board of Commissioners of Transportation to the Legislature of the State of California, with the railroads' returns for 1877",
+      "author": "California Board of Commissioners of Transportation",
+      "publisher": "State Office, Sacramento",
+      "date": "1878",
+      "type": "official",
+      "url": "https://archive.org/details/reportboardcomm00trangoog",
+      "license": "Public domain (State of California publication)",
+      "accessed": "2026-10-16",
+      "notes": "The North Pacific Coast's return for the year ending December 31, 1877, p. 211: \"San Rafael and San Quentin Railroad. Termini From San Rafael to San Quentin. Length 3.50 miles. Dates of lease From March 11, 1875, to March 11, 1918\", rental $1; \"Total miles of road operated by this company, including San Quentin Ferry 91.25 miles\"; p. 210 (OCR): \"including San Quentin ferry, 11.5 miles\". archive.org dates the item 1876. A Google scan. Read on the page image (p. 211)."
     },
     {
       "id": "caltrain-early-milestones",
@@ -2393,6 +2460,17 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-15",
       "notes": "In effect Sunday, April 23, 1933: p. 8, the Third District from Riverbank and Stockton ends at Richmond (milepost 1189.6), with no Richmond Ave. or Ferry Point; p. 9, through trains run on by Oakland (40th and San Pablo) to Oakland Pier. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001294",
+      "title": "Northwestern Pacific Railroad, employee timetable No. 12, Southern Division, September 17, 1933",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1933-09-17",
+      "url": "https://archive.org/details/cscrm_2021_02_001294",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 4 (n3): San Rafael 17.0 to San Quentin 20.1 miles from San Francisco, \"Distance from San Quentin\" 3.1, no trains; n7, maximum locomotive weights: \"San Quentin Branch … 114 T-57-19/26-110 169,000\". The last timetable found that lists the branch. Read on the page images."
     },
     {
       "id": "cscrm-2021-02-001320",
@@ -4969,6 +5047,17 @@
       "license": "Public domain (U.S. Government work)",
       "accessed": "2026-10-15",
       "notes": "7.5-minute sheet, aerial photographs of 1948, edition of 1951. HTMC scan 301469, GeoTIFF georeferenced by USGS (NAD27 polyconic), 2.032 m a pixel. SHA-256 c9428b96a8081f210c499fa0ec458e84676b79b14ed84c36c0b929f8565fdda9."
+    },
+    {
+      "id": "voice-of-israel-1870-10-07",
+      "title": "The Voice of Israel (San Francisco), October 7, 1870: advertisement, \"San Quentin Ferry\"",
+      "publisher": "The Voice of Israel",
+      "date": "1870-10-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/casfema_000161",
+      "license": "Public domain (item metadata: \"Public Domain. No restrictions on use.\")",
+      "accessed": "2026-10-16",
+      "notes": "[p. 7] (scan leaf n6): \"On and after April 30, 1870, the favorite steamer CONTRA COSTA … will leave as follows, daily (Sundays excepted): San Francisco, 9:30 a m; 1 p m; 4:30 p m. San Quentin, 8 a m; 11:30 a m; 2:45 p m. Connecting at Point San Quentin with the recently constructed Railroad to San Rafael\". Signed Chas. Minturn. Read on the page image."
     },
     {
       "id": "vta-30-years-timeline",

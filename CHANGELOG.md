@@ -2,6 +2,22 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The San Quentin branch and its ferry
+
+- **San Rafael & San Quentin trains, Point San Quentin to San Rafael** (`north-pacific-coast/`):
+  from the first trip on March 21, 1870 (Marin history, 1880) to 1913, when passenger service ended
+  (Borden, *Western Railroader*, 1949: one railfan source, no order found). Leased to the North
+  Pacific Coast from March 11, 1875 (its 1877 return), which made San Quentin its passenger
+  terminal; steam trains still ran there after the electrification of 1903 (*Argonaut*, 1903;
+  *Street Railway Journal*, 1904).
+- **San Quentin ferry, San Francisco to Point San Quentin:** Minturn's steamer from the Davis St
+  wharf by April 1867, meeting the railroad from April 30, 1870, then the North Pacific Coast's
+  boats, until the timetable of April 27, 1884 sent every boat by Saucelito (`closed` 1884-04).
+- **San Quentin branch freight** (decision 15): from 1913 to its last employee timetable, September
+  17, 1933 (decision 20); gone from the timetable of January 15, 1934.
+- Geometry: OpenHistoricalMap's ways from the 1897 and 1895 sheets, joined to the San Rafael branch,
+  checked on the 1941 Tamalpais and 1899 San Francisco sheets; the ferry over water.
+
 ## 2026-10-16: The Sacramento Northern's freight to Oakland, 1941-1957
 
 - **Sacramento Northern freight, Oakland to West Lafayette** (`sacramento-northern/`, decision 15):
