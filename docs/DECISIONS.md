@@ -467,3 +467,25 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   ferries are hidden, since this map draws its own. BAM's single `layers.context` flag is split into
   roads, rail and ferry; that split should be backported to BAM.
 - **The style panel is deferred to Phase 5.** The palette is still a one-file swap.
+
+## The ideal network (2026-10-16, Phase 4)
+
+- **The reference layer is two-level, like the eras** (refines `docs/SCHEMA.md`'s planned flat
+  `ideal/reference/<proposal>.geojson`). Each proposal is a folder, `data/ideal/<proposal>/`, with
+  segments and lines, so proposals that share a corridor share a stroke. The app treats it as a fourth
+  dataset, `ideal`, drawn in the future era only when "Show proposals" is on (`?proposals=1`).
+- **Proposals are drawn only where their documents word a route.** Along today's streets or track,
+  `approximate` (dashed) unless the right-of-way already exists; a stretch the words don't place
+  (a turn "somewhere between Masonic and Park Presidio", a new tube under the bay) is left out, and
+  the panel says so. A proposal with no path at all is on the tradeoffs page only
+  (`docs/ideal/tradeoffs.md`).
+- **`proposal_status` is a separate vocabulary** (adopted, study, advocacy, superseded, withdrawn),
+  since a proposal isn't a project being built; `adopted` and `study` need an official source.
+- **The look is a placeholder:** proposals in their mode's hue, at 0.6 of the width and 0.85
+  opacity (`theme.transit.proposals`), off by default. Open for Matthew (`docs/research/phase-4.md`).
+- **The editor (Phase 4b) is an author's tool behind `?edit=1`,** loaded on demand (Terra Draw 1.35.0
+  and its MapLibre adapter 1.4.1). It exports `data/ideal/network.geojson` to commit; nothing is saved
+  to the site. Its layers (`transit-editor-*`) survive the app's diffed style updates because
+  `syncStyle` carries them into each new style.
+- **Matthew's network isn't drawn on the map yet,** because it's empty; how it should look waits on
+  him.
