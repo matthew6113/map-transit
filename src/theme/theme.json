@@ -66,6 +66,11 @@
       "funded": 0.8,
       "under_construction": 0.95,
       "opening": 1
+    },
+    "proposals": {
+      "note": "The future's layer B, the reference proposals (Phase 4): thinner than lines being built, in the mode's hue. Placeholder: the checkpoint shows options.",
+      "opacity": 0.85,
+      "width": 0.6
     }
   },
   "type": {

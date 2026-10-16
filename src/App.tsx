@@ -3,7 +3,7 @@ import type { Map as MapLibreMap } from 'maplibre-gl';
 import { clearDrawing, currentCamera, flyBack, flyToLine, lineCamera, panelPadding, type Camera } from './basemap/flight';
 import { lineIdFromPath, navigate, setQuery } from './basemap/router';
 import { loadCatalog, loadEraIndex, type EraIndex, type LineRecord } from './data/catalog';
-import { GROUPS, STATUSES, type Era, type Status } from './data/vocab';
+import { GROUPS, STATUSES, type Dataset, type Era, type Status } from './data/vocab';
 import { DATASETS, fadeOutYears, STATUS_STYLES, type StatusStyle } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
@@ -23,6 +23,8 @@ const SITE_TITLE = 'Bay Area transit';
 const DEFAULT_YEAR = 1925;
 
 const ERAS: Era[] = ['past', 'present', 'future'];
+/** The era that draws a dataset: the reference proposals are the future's layer B. */
+const eraOf = (d: Dataset): Era => (d === 'ideal' ? 'future' : d);
 const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : 'present');
 /** How future status is drawn, while Matthew chooses (Phase 3): ?solidity=opacity|tint|committed */
 const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
@@ -57,11 +59,12 @@ export function App() {
   const [era, setEraState] = useState<Era>(initialEra);
   const [year, setYear] = useState(initialYear);
   const [ghost, setGhost] = useState(params.get('ghost') === '1');
+  const [proposals, setProposals] = useState(params.get('proposals') === '1');
   const [hiddenGroups, setHiddenGroups] = useState<ModeGroup[]>(() => MODE_GROUPS.filter((g) => !GROUPS[g].defaultOn));
-  const [loaded, setLoaded] = useState<Era[]>(() => [...new Set<Era>([...DATASETS[initialEra()], ...(params.get('ghost') === '1' ? ['past' as Era] : [])])]);
+  const [loaded, setLoaded] = useState<Dataset[]>(() => [...new Set<Dataset>([...DATASETS[initialEra()], ...(params.get('ghost') === '1' ? ['past' as Era] : [])])]);
   const [map, setMap] = useState<MapLibreMap | null>(null);
   const [lines, setLines] = useState<LineRecord[]>([]);
-  const [indexes, setIndexes] = useState<Partial<Record<Era, EraIndex>>>({});
+  const [indexes, setIndexes] = useState<Partial<Record<Dataset, EraIndex>>>({});
   const [openId, setOpenId] = useState<string | null>(null);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
@@ -71,8 +74,8 @@ export function App() {
   const hovered = useRef<LineRecord | null>(null);
 
   const byId = useMemo(() => new Map(lines.map((l) => [l.id, l])), [lines]);
-  const live = useRef({ era, openId, byId, indexes, year, speed });
-  live.current = { era, openId, byId, indexes, year, speed };
+  const live = useRef({ era, openId, byId, indexes, year, speed, proposals });
+  live.current = { era, openId, byId, indexes, year, speed, proposals };
 
   useEffect(() => {
     applyCssVariables(theme);
@@ -91,8 +94,9 @@ export function App() {
     theme,
     mode,
     loaded,
-    view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE },
-  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId]);
+    view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE,
+      proposals: proposals && era === 'future' },
+  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId, proposals]);
 
   /** The past era's year, as feature-state (src/timeline/visibility.ts). */
   const showYear = useCallback((opts: { animateFrom?: number } = {}) => {
@@ -147,14 +151,15 @@ export function App() {
       era: era === 'present' ? null : era,
       year: era === 'past' ? String(year) : null,
       ghost: ghost && era !== 'past' ? '1' : null,
+      proposals: proposals && era === 'future' ? '1' : null,
     }), 400);
     return () => window.clearTimeout(t);
-  }, [era, year, ghost]);
+  }, [era, year, ghost, proposals]);
 
   const setEra = useCallback((next: Era) => {
     setPlaying(false);
     setEraState(next);
-    setLoaded((prev) => [...new Set<Era>([...prev, ...DATASETS[next]])]);
+    setLoaded((prev) => [...new Set<Dataset>([...prev, ...DATASETS[next]])]);
   }, []);
 
   const onHoverLine = useCallback((id: string | null) => {
@@ -187,7 +192,8 @@ export function App() {
       f.opener = opts.opener ?? (document.activeElement as HTMLElement | null);
     }
     setSelected(live.current.byId.get(live.current.openId ?? ''), false);
-    if (!DATASETS[live.current.era].includes(line.era)) setEra(line.era);
+    if (!DATASETS[live.current.era].includes(line.era)) setEra(eraOf(line.era));
+    if (line.era === 'ideal' && !live.current.proposals) setProposals(true);
     const index = live.current.indexes[line.era] ?? (await loadEraIndex(line.era));
     if (!current()) return;
     if (opts.push !== false) navigate(id);
@@ -295,7 +301,7 @@ export function App() {
   // runs if any of its pieces is open that year (decision 14).
   const running = useMemo(() => {
     if (era !== 'past') return undefined;
-    const open = new Map<Era, Map<number, { open: number; close: number }>>();
+    const open = new Map<Dataset, Map<number, { open: number; close: number }>>();
     for (const d of DATASETS.past) {
       const index = indexes[d];
       if (index) open.set(d, new Map(index.lines.map((f) => [f.fid, f])));
@@ -330,17 +336,30 @@ export function App() {
               <input type="checkbox" checked={ghost} onChange={(e) => {
                 const on = (e.currentTarget as HTMLInputElement).checked;
                 setGhost(on);
-                if (on) setLoaded((prev) => [...new Set<Era>([...prev, 'past'])]);
+                if (on) setLoaded((prev) => [...new Set<Dataset>([...prev, 'past'])]);
               }} />
               Show lost lines underneath
             </label>
           )}
           {era === 'future' && (
-            <p class="era-note">Lines being planned, funded or built, with their status from their agencies. The ideal network comes in Phase 4.</p>
+            <label class="ghost-toggle">
+              <input type="checkbox" checked={proposals} onChange={(e) => {
+                const on = (e.currentTarget as HTMLInputElement).checked;
+                setProposals(on);
+                if (!on && line?.era === 'ideal') void closeLine();
+              }} />
+              Show proposals
+            </label>
+          )}
+          {era === 'future' && (
+            <p class="era-note">
+              Lines being planned, funded or built, with their status from their agencies.
+              {proposals && ' Proposals are drawn thinner, as their documents describe them: the plans Matthew\'s ideal network will be drawn from.'}
+            </p>
           )}
         </div>
         <Index era={era} lines={lines} running={running} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
-          statusStyle={STATUS_STYLE} onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
+          statusStyle={STATUS_STYLE} proposals={proposals} onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
       </header>
       <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}

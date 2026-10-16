@@ -350,6 +350,7 @@ The geometry tools are below (decision 12).
 | past | 148 | 576 | 11 | 896.9 | 610.5 | 206.3 | 8 | 528 |
 | present | 47 | 172 | 275 | 1715.1 | 0 | 0 | 14 | 75 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
+| ideal | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 Open flags: `closed_unsourced` 576, `conflicting_sources` 45, `expected_opening_unsourced` 2, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 892, `page_unverified` 1, `status_unverified` 1.
 <!-- coverage:end -->

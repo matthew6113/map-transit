@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'preact/hooks';
 import type { LineRecord, ResolvedSource } from '../data/catalog';
-import { CONFIDENCE, FLAGS, STATUSES } from '../data/vocab';
+import { CONFIDENCE, FLAGS, PROPOSAL_STATUSES, STATUSES } from '../data/vocab';
 import { formatDate, formatLength, formatRunning, formatYears, modeVar, trackFrom } from './format';
 
 interface Props {
@@ -33,7 +33,9 @@ export function LinePanel({ line, onClose }: Props) {
     heading.current?.focus({ preventScroll: true });
   }, [line.id]);
 
-  const future = line.era === 'future';
+  const proposal = line.proposal;
+  // Not built (a future line or a proposal): no years of service.
+  const future = line.era === 'future' || !!proposal;
   const running = line.status === 'closed' && line.running?.length ? line.running : null;
   const years = running ? formatRunning(line.opened, line.closed, running)
     : formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
@@ -48,8 +50,8 @@ export function LinePanel({ line, onClose }: Props) {
           <h2 id="line-title" ref={heading} tabIndex={-1}>{line.name}</h2>
           <p class="meta">
             <span class="mode-chip"><i style={{ background: modeVar(line.group) }} />{line.mode_label}</span>
-            <span>{line.system_name}</span>
-            <span>{future ? STATUSES[line.status].label : years}</span>
+            <span>{proposal ? proposal.proposed_by : line.system_name}</span>
+            <span>{proposal ? proposal.status_label : future ? STATUSES[line.status].label : years}</span>
           </p>
         </div>
         <button type="button" class="close" aria-label="Close" onClick={onClose}>
@@ -57,7 +59,15 @@ export function LinePanel({ line, onClose }: Props) {
         </button>
       </header>
 
-      {future && (
+      {proposal && (
+        <p class="status-note">
+          <strong>A proposal</strong>, drawn as {proposal.document.url ? <a href={proposal.document.url}>{proposal.document.title}</a> : proposal.document.title}
+          {' '}({proposal.year.slice(0, 4)}) describes it; nothing here is being built. {proposal.status_label} as of{' '}
+          {formatDate(proposal.status_as_of)}: {PROPOSAL_STATUSES[proposal.status].meaning}
+        </p>
+      )}
+
+      {future && !proposal && (
         <p class="status-note">
           <strong>{STATUSES[line.status].label}</strong>
           {line.status_as_of && <> as of {formatDate(line.status_as_of)}</>}. {STATUSES[line.status].meaning}

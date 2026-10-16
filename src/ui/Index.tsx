@@ -17,6 +17,8 @@ interface Props {
   onExpand?: () => void;
   /** How future status is drawn (src/eras/layers.ts), so the legend says the same. */
   statusStyle?: StatusStyle;
+  /** Future era: the reference proposals are on the map, so list them too. */
+  proposals?: boolean;
 }
 
 /**
@@ -24,10 +26,10 @@ interface Props {
  * The legend is the filter: each mode chip turns its lines on and off on the map and in the list.
  * The list is the screen-reader equivalent of the canvas.
  */
-export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity' }: Props) {
+export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity', proposals = false }: Props) {
   const [open, setOpen] = useState(() => typeof matchMedia === 'function' && !matchMedia('(max-width: 719px)').matches);
   const [query, setQuery] = useState('');
-  const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era)), [lines, era]);
+  const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era) && (l.era !== 'ideal' || proposals)), [lines, era, proposals]);
   const counts = useMemo(() => {
     const c = new Map<ModeGroup, number>();
     for (const l of inEra) c.set(l.group, (c.get(l.group) ?? 0) + 1);
@@ -36,7 +38,7 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
   const q = query.trim().toLowerCase();
   const shown = inEra
     .filter((l) => !hiddenGroups.includes(l.group))
-    .filter((l) => !q || `${l.name} ${l.system_name} ${l.mode_label}`.toLowerCase().includes(q))
+    .filter((l) => !q || `${l.name} ${l.system_name} ${l.mode_label} ${l.proposal?.proposed_by ?? ''}`.toLowerCase().includes(q))
     .sort((a, b) => MODE_GROUPS.indexOf(a.group) - MODE_GROUPS.indexOf(b.group) || a.name.localeCompare(b.name));
   // In the past era the list follows the slider: the lines running that year first, the rest dimmed
   // below them (decision 14). Search still finds every line.
@@ -45,7 +47,12 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
         { key: 'running', head: `Running in ${running.year}`, items: shown.filter((l) => running.ids.has(l.id)) },
         { key: 'other', head: `Not running in ${running.year}`, items: shown.filter((l) => !running.ids.has(l.id)) },
       ].filter((g) => g.items.length)
-    : [{ key: 'all', head: '', items: shown }];
+    : proposals && era === 'future'
+      ? [
+          { key: 'built', head: 'Lines and projects', items: shown.filter((l) => l.era !== 'ideal') },
+          { key: 'proposals', head: 'Proposals', items: shown.filter((l) => l.era === 'ideal') },
+        ].filter((g) => g.items.length)
+      : [{ key: 'all', head: '', items: shown }];
 
   return (
     <section class="index" aria-label="Lines and legend">
@@ -70,7 +77,7 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
               </button>
             ))}
           </fieldset>
-          <Legend era={era} statusStyle={statusStyle} />
+          <Legend era={era} statusStyle={statusStyle} proposals={proposals} />
           <label class="search">
             <span class="visually-hidden">Find a line</span>
             <input type="search" placeholder="Find a line" value={query}
@@ -86,9 +93,10 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
                       onClick={(e) => onOpen(l.id, e.currentTarget)}>
                       <span class="name"><i style={{ background: modeVar(l.group) }} />{l.name}</span>
                       <span class="where">
-                        {l.system_name} · {l.mode_label}
+                        {l.proposal ? l.proposal.proposed_by : l.system_name} · {l.mode_label}
                         {' · '}
-                        {l.era === 'future' ? STATUSES[l.status].label
+                        {l.proposal ? `${l.proposal.status_label}, ${l.proposal.year.slice(0, 4)}`
+                          : l.era === 'future' ? STATUSES[l.status].label
                           : l.status === 'closed' && l.running?.length ? formatRunning(l.opened, l.closed, l.running)
                           : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
                       </span>
@@ -110,7 +118,7 @@ function emptyNote(era: Era): string {
 }
 
 /** What the line styles mean. Hue is mode (the chips above); the rest is drawn here. */
-function Legend({ era, statusStyle }: { era: Era; statusStyle: StatusStyle }) {
+function Legend({ era, statusStyle, proposals }: { era: Era; statusStyle: StatusStyle; proposals: boolean }) {
   return (
     <ul class="legend" aria-label="How lines are drawn">
       <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink" d="M1 4h26" /></svg>Surveyed or traced from a map</li>
@@ -125,6 +133,9 @@ function Legend({ era, statusStyle }: { era: Era; statusStyle: StatusStyle }) {
       {era === 'future' && statusStyle !== 'committed' && (
         <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class={`ink ${statusStyle === 'tint' ? 'tint' : 'faint'}`} d="M1 4h13" /><path class="ink" d="M15 4h12" /></svg>
           {statusStyle === 'tint' ? 'Paler' : 'Fainter'} is less certain: planned, in review, funded, building</li>
+      )}
+      {era === 'future' && proposals && (
+        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink thin proposal" d="M1 4h26" /></svg>Thinner: a proposal, as its document describes it</li>
       )}
     </ul>
   );

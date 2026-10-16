@@ -270,7 +270,8 @@
             "environmental",
             "funded",
             "under_construction",
-            "opening"
+            "opening",
+            "proposed"
           ]
         },
         "status_as_of": {
@@ -289,6 +290,34 @@
         },
         "last_verified": {
           "$ref": "#/$defs/date"
+        },
+        "proposal_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Reference layer only: the proposal (its folder under data/ideal/) this line belongs to."
+        },
+        "proposed_by": {
+          "type": "string",
+          "description": "Reference layer only: who proposed it, as the document names them."
+        },
+        "document": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Reference layer only: the source id of the document that proposes it; the line also cites it."
+        },
+        "year": {
+          "$ref": "#/$defs/date",
+          "description": "Reference layer only: the document's date."
+        },
+        "proposal_status": {
+          "enum": [
+            "adopted",
+            "study",
+            "advocacy",
+            "superseded",
+            "withdrawn"
+          ],
+          "description": "Reference layer only: how far the proposal has gone (vocabulary.json, proposal_statuses), as of status_as_of."
         },
         "summary": {
           "type": "string"

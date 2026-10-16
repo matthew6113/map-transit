@@ -45,8 +45,10 @@ data/
   sources.json     every source, cited by id
   systems.json     operating systems and companies (Key System, SP, BART, Muni...)
   <era>/<group>/   lines.json, segments.geojson, points.geojson
-                   era is past, present or future; group is a system or a generator,
+                   era is past, present, future or ideal; group is a system or a generator,
                    e.g. future/bam (from BAM), present/bart (from GTFS), past/key-system
+  ideal/<proposal>/  the future's reference proposals (layer B), one folder per proposal
+  ideal/network.geojson  Matthew's own network (hand-edited or from the editor)
   app/             built by `make app-data`; don't edit
   raw/             downloads, git-ignored
 ```
@@ -273,9 +275,37 @@ theme's `transit.widths`).
 
 ## Ideal network (Phase 4)
 
-These files are added in Phase 4:
+The future era has two layers: A, what's being built (`data/future/`), and B, the ideal network.
+Layer B starts from a **reference layer** of serious proposals, which Matthew designs his own
+network from. Nothing in layer B is generated: the reference layer records what each document
+proposes, and Matthew's network holds only the lines he picks.
 
-- `ideal/reference/<proposal>.geojson`: `proposal_id`, `proposed_by`, `document`, `year` and
-  `proposal_status`, plus the provenance fields.
-- `ideal/network.geojson`: Matthew's own network, hand-editable. Fields are `id`, `name`, `mode`,
-  `based_on[]` (reference proposal ids), `notes` and `author`.
+**The reference layer, `data/ideal/<proposal>/`,** is built like the other eras (this refines the
+flat `ideal/reference/<proposal>.geojson` of the plan, so that proposals sharing a corridor share
+one stroke): `segments.geojson` for the corridors as the documents describe them, `lines.json` for
+each proposed line, and optionally `points.geojson` for named stations. The folder is the proposal.
+Each line has `era: "ideal"`, `status: "proposed"`, and:
+
+| Field | Rule |
+|---|---|
+| `proposal_id` | The folder's name. |
+| `proposed_by` | Who proposed it, as the document names them (for example "SFCTA", "SPUR"). |
+| `document` | The source id of the document that proposes it; the line cites it in `sources[]` too. |
+| `year` | The document's date. |
+| `proposal_status` | How far the proposal has gone (`vocabulary.json`, `proposal_statuses`): `adopted` (in an adopted plan), `study` (under study by a public agency), `advocacy` (proposed by a group outside government), `superseded` or `withdrawn`. `adopted` and `study` need an `official` source. |
+| `status_as_of` | When `proposal_status` was last checked. |
+
+- Proposals are facts about documents: a document says what it proposes, so it is the source for
+  that, whoever published it (`type`: `official` for public agencies, `primary_document` for others).
+- **Geometry follows the ladder.** A path traced from a document's georeferenced map is
+  `digitized`; one rebuilt from the document's words along today's streets or track is
+  `approximate` (drawn dashed), and `geometry_method` says which words and which streets. Where a
+  document publishes no path, such as a new tube under the bay, the line has no segment drawn
+  for that stretch, and the panel says so.
+- On the map, proposals are drawn thinner (`theme.transit.proposals`) and only when "Show proposals"
+  is on (`?proposals=1`). They are never on the year slider.
+
+**Matthew's network, `data/ideal/network.geojson`,** is hand-editable, or exported from the
+in-browser editor (Phase 4b), and checked against `data/schema/network.schema.json`. Each feature is
+a line, with `id`, `name`, `mode`, `based_on[]` (the reference proposals or proposal lines it draws
+on; empty for his own), `notes` and `author`. It holds only what Matthew draws.

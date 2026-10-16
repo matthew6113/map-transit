@@ -33,7 +33,15 @@
     "environmental": { "label": "Environmental review", "era": "future", "meaning": "In environmental review, or cleared but without construction funding." },
     "funded": { "label": "Funded", "era": "future", "meaning": "Environmentally cleared with construction funding committed; construction not started." },
     "under_construction": { "label": "Under construction", "era": "future", "meaning": "Construction, including early works, under way." },
-    "opening": { "label": "Opening", "era": "future", "meaning": "Built and in testing, or an opening date announced by the agency." }
+    "opening": { "label": "Opening", "era": "future", "meaning": "Built and in testing, or an opening date announced by the agency." },
+    "proposed": { "label": "Proposed", "era": "ideal", "meaning": "A proposal in the reference layer: drawn as its document describes it, not as anything being built." }
+  },
+  "proposal_statuses": {
+    "adopted": { "label": "In an adopted plan", "meaning": "In a plan a public agency has adopted, such as Plan Bay Area or the San Francisco Transportation Plan, without funding or environmental review of its own yet." },
+    "study": { "label": "Under study", "meaning": "Being studied by a public agency; not adopted." },
+    "advocacy": { "label": "Advocacy", "meaning": "Proposed by a group outside government." },
+    "superseded": { "label": "Superseded", "meaning": "Replaced by a later decision or proposal." },
+    "withdrawn": { "label": "Withdrawn", "meaning": "Dropped by those who proposed it." }
   },
   "geometry_confidence": {
     "surveyed": "From OpenStreetMap, OpenHistoricalMap, GTFS or official GIS.",

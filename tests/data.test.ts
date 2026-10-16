@@ -5,6 +5,8 @@
  * - a null date carries its *_unsourced flag (dates are never filled in);
  * - every line's route names segments that exist in the same era;
  * - future statuses were verified against official sources within the last 90 days;
+ * - every reference proposal (data/ideal/<proposal>/) names who proposed it, in which document, and how
+ *   far it has gone; Matthew's own network (data/ideal/network.geojson) matches its schema;
  * - geometry stays inside the map's bounds;
  * - the app files (data/app/) were rebuilt after the last data change.
  */
@@ -19,6 +21,7 @@ import segmentSchema from '../data/schema/segment.schema.json';
 import pointSchema from '../data/schema/point.schema.json';
 import sourceSchema from '../data/schema/source.schema.json';
 import extSchema from '../data/schema/extensions.schema.json';
+import networkSchema from '../data/schema/network.schema.json';
 import region from '../src/basemap/region.json';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -33,6 +36,7 @@ const validators = {
   points: ajv.compile(pointSchema),
   registry: ajv.compile(sourceSchema),
   extensions: ajv.compile(extSchema),
+  network: ajv.compile(networkSchema),
 };
 
 type Props = Record<string, unknown> & { id: string; flags: string[]; sources: { source: string }[] };
@@ -44,7 +48,7 @@ interface Folder {
   points: { properties: Props & { system: string; line_ids: string[]; opened: string | null; closed: string | null }; geometry: { coordinates: number[] } }[];
 }
 
-const ERAS = ['past', 'present', 'future'] as const;
+const ERAS = ['past', 'present', 'future', 'ideal'] as const;
 const folders: Folder[] = ERAS.flatMap((era) => {
   const base = join(DATA, era);
   if (!existsSync(base)) return [];
@@ -137,7 +141,7 @@ describe('provenance', () => {
   it('never fills in a date: a null date carries its flag', () => {
     for (const { era, kind, p } of all) {
       const status = (p.status as string | undefined) ?? '';
-      const notYetOpen = era === 'future' || FUTURE.includes(status);
+      const notYetOpen = era === 'future' || era === 'ideal' || FUTURE.includes(status);
       if (p.opened === null && !notYetOpen) expect(p.flags, `${kind} ${p.id}: opened is null`).toContain('opened_unsourced');
       // Running today (or not yet open) has no closing date to source.
       const stillOpen = era !== 'past' || status === 'active';
@@ -186,6 +190,33 @@ describe('provenance', () => {
         }
       }
     }
+  });
+
+  it('says who proposed each reference line, in which document, and how far it has gone', () => {
+    const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+    for (const f of folders.filter((x) => x.era === 'ideal')) {
+      const proposal = f.dir.split('/').pop();
+      for (const l of f.lines) {
+        expect(l.status, l.id).toBe('proposed');
+        expect(l.proposal_id, `${l.id}: proposal_id is its folder`).toBe(proposal);
+        for (const k of ['proposed_by', 'document', 'year', 'proposal_status', 'status_as_of']) expect(l[k], `${l.id} ${k}`).toBeTruthy();
+        expect(sourceIds, `${l.id}: document ${l.document}`).toContain(l.document);
+        expect(l.sources.map((s) => s.source), `${l.id}: cite its document in sources`).toContain(l.document);
+        // A public agency's own status for its proposal; an advocacy group's proposal is cited as its own.
+        if (['adopted', 'study'].includes(l.proposal_status as string)) {
+          expect(l.sources.some((s) => type.get(s.source) === 'official'), `${l.id}: an official source for "${l.proposal_status}"`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it("accepts Matthew's network file", () => {
+    const path = join(DATA, 'ideal', 'network.geojson');
+    if (!existsSync(path)) return;
+    const net = read(path);
+    expect(validators.network(net), ajv.errorsText(validators.network.errors, { separator: '\n' })).toBe(true);
+    const ids = net.features.map((x: { properties: { id: string } }) => x.properties.id);
+    expect(ids.filter((id: string, i: number) => ids.indexOf(id) !== i), 'duplicate ids').toEqual([]);
   });
 
   it('gives every past line the closed status', () => {

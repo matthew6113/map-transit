@@ -1,7 +1,7 @@
 /**
  * The transit layers, drawn over BAM's basemap (above the buildings, below the place labels).
  *
- * Every era has three GeoJSON sources, loaded by URL (data never goes into the style):
+ * Every dataset (each era's own, and `ideal`, the future's reference proposals) has three GeoJSON sources, loaded by URL (data never goes into the style):
  * - `transit-<era>-draw`: one feature per segment, the visible strokes. Opaque, so lines sharing
  *   track read as one stroke; translucency only for fades, the ghost overlay and future solidity.
  * - `transit-<era>-lines`: one feature per line x segment use: the hit target, and a highlight
@@ -10,7 +10,7 @@
  *
  * Encodings (docs/DECISIONS.md): hue and width are mode; a dash is approximate geometry; a hollow
  * tube is a tunnel or subway; a lighter tint is a date borrowed from the line; future status is
- * solidity; the ghost overlay is faint and uncased. Close in, different modes on the same path spread
+ * solidity; reference proposals are thinner (theme.transit.proposals); the ghost overlay is faint and uncased. Close in, different modes on the same path spread
  * apart by their slot, `off` (decision 10); the open line's drawing and the stations stay on the true
  * path.
  *
@@ -24,7 +24,7 @@ import type { ExpressionSpecification, LayerSpecification, SourceSpecification }
 type FilterSpecification = ExpressionSpecification;
 import { MODE_GROUPS, modeColor, modeWidth, over, type ModeGroup, type Theme } from '../theme/theme';
 import { currentDrawing, DRAW_SOURCE } from '../basemap/flight';
-import type { Era } from '../data/vocab';
+import type { Dataset, Era } from '../data/vocab';
 
 export interface TransitView {
   era: Era;
@@ -36,6 +36,8 @@ export interface TransitView {
   selected: string | null;
   /** How future status is drawn: one of the options shown at the Phase 3 checkpoint. */
   statusStyle?: StatusStyle;
+  /** Future era: draw the reference proposals (layer B) too. */
+  proposals?: boolean;
 }
 
 /**
@@ -49,14 +51,21 @@ export const STATUS_STYLES: StatusStyle[] = ['opacity', 'tint', 'committed'];
 
 const UNCOMMITTED = ['planned', 'environmental'];
 
-/** Datasets drawn in each era. The past era runs to today, so it includes the present network. */
-export const DATASETS: Record<Era, Era[]> = {
+/**
+ * Datasets drawn in each era. The past era runs to today, so it includes the present network; the
+ * future's includes the reference proposals, drawn when switched on (`shownDatasets`).
+ */
+export const DATASETS: Record<Era, Dataset[]> = {
   past: ['past', 'present'],
   present: ['present'],
-  future: ['present', 'future'],
+  future: ['present', 'future', 'ideal'],
 };
 
-/** Layers that open a line when clicked. */
+/** The datasets on the map now: the reference proposals only when switched on. */
+export const shownDatasets = (view: Pick<TransitView, 'era' | 'proposals'>) =>
+  DATASETS[view.era].filter((d) => d !== 'ideal' || view.proposals);
+
+/** Layers that open a line when clicked (those not in the style are skipped by the caller). */
 export const hitLayers = (era: Era) => DATASETS[era].map((d) => `transit-${d}-hit`);
 
 /** After closing, a line stays on the map, fading, for this many years. */
@@ -120,9 +129,10 @@ function color(theme: Theme): ExpressionSpecification {
  * Future status as solidity; shared existing track at BAM's 0.55. In the future era today's network
  * steps back (BAM: the present as print, the future in color). In the past era, the year's `vis`.
  */
-function opacity(theme: Theme, dataset: Era, era: Era, style: StatusStyle = 'opacity'): ExpressionSpecification | number {
+function opacity(theme: Theme, dataset: Dataset, era: Era, style: StatusStyle = 'opacity'): ExpressionSpecification | number {
   if (era === 'past') return VIS;
   if (dataset === 'present' && era === 'future') return theme.transit.eras.presentInFuture;
+  if (dataset === 'ideal') return theme.transit.proposals.opacity;
   if (dataset !== 'future') return 1;
   const s = theme.transit.status;
   if (style !== 'opacity') return ['case', ['==', ['get', 'shared'], 1], 0.55, 1];
@@ -144,7 +154,7 @@ const groupFilter = (view: TransitView): FilterSpecification[] =>
 const TUBE: FilterSpecification = ['in', ['get', 'structure'], ['literal', ['tunnel', 'subway']]];
 const APPROX: FilterSpecification = ['==', ['get', 'conf'], 'approximate'];
 
-export function transitSources(urls: Record<Era, { draw: string; lines: string; points: string }>, loaded: Era[]): Record<string, SourceSpecification> {
+export function transitSources(urls: Record<Dataset, { draw: string; lines: string; points: string }>, loaded: Dataset[]): Record<string, SourceSpecification> {
   const out: Record<string, SourceSpecification> = {};
   for (const era of loaded) {
     out[`transit-${era}-draw`] = { type: 'geojson', data: urls[era].draw, promoteId: 'fid' };
@@ -178,12 +188,12 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
 
   const off = offset(theme);
   const style = view.statusStyle ?? 'opacity';
-  for (const d of DATASETS[view.era]) {
+  for (const d of shownDatasets(view)) {
     const base = [...pastFilter(view), ...groupFilter(view)];
     const src = `transit-${d}-draw`;
     const styled = d === 'future' && style !== 'opacity';
     const lineColor = styled ? statusColor(theme, style) : color(theme);
-    const f = d === 'future' ? statusWidth(style) : 1;
+    const f = d === 'future' ? statusWidth(style) : d === 'ideal' ? theme.transit.proposals.width : 1;
     const op = opacity(theme, d, view.era, style);
     layers.push(
       {
@@ -273,7 +283,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
     },
   );
 
-  for (const d of DATASETS[view.era]) {
+  for (const d of shownDatasets(view)) {
     const base = [...pastFilter(view), ...groupFilter(view)];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
     const waterside: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['pier', 'mole', 'ferry_terminal']]];
@@ -333,7 +343,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   }
 
   // Invisible, wide hit targets last, so thin lines are easy to hover and tap.
-  for (const d of DATASETS[view.era]) {
+  for (const d of shownDatasets(view)) {
     layers.push({
       id: `transit-${d}-hit`,
       type: 'line',

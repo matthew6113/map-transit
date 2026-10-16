@@ -51,5 +51,14 @@
       "expected_opening_unsourced": 2,
       "license_unclear": 15
     }
+  },
+  "ideal": {
+    "lines": 0,
+    "segments": 0,
+    "points": 0,
+    "km_by_confidence": {},
+    "undated_segments": 0,
+    "borrowed_dates": 0,
+    "flags": {}
   }
 }

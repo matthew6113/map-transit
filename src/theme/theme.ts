@@ -37,6 +37,7 @@ export function normalizeTheme(input: unknown): Theme {
     Object.assign(merged.transit.widths, pickNumbers(t.transit.widths));
     Object.assign(merged.transit.eras, pickNumbers(t.transit.eras));
     Object.assign(merged.transit.status, pickNumbers(t.transit.status));
+    Object.assign(merged.transit.proposals, pickNumbers(t.transit.proposals));
   }
   Object.assign(merged.type, pickStrings(t.type));
   if (t.map) {

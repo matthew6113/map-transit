@@ -18,6 +18,10 @@ and past lines may run over present segments, track that is still in use (decisi
 - <era>-points.geojson  stations, piers, terminals, carbarns.
 - catalog.json          every line with its resolved sources, for the panel and the list.
 
+The ideal era (data/ideal/<proposal>/) is the future's layer B: the reference proposals Matthew
+designs his own network from, built like the other eras and never on the year slider. Each catalog
+entry carries its proposal: who proposed it, in which document and year, and how far it has gone.
+
 Dates: a segment's own dates win. When one is null, the display borrows the earliest sourced opening
 and the latest sourced closing of the lines that used it, marked `borrowed` (decision 4). The source
 data keeps the null and its *_unsourced flag. Nothing sourced: `undated`, off the year slider.
@@ -39,9 +43,10 @@ from . import extensions
 from .common import APP, DATA, MODE_GROUP, ROOT, SOURCES, SYSTEMS, VOCAB, write_geojson, write_json
 from .side_by_side import Paths
 
-ERAS = ("past", "present", "future")
+ERAS = ("past", "present", "future", "ideal")
 OPEN_ENDED = 9999.0  # still running (or not yet open): no closing year
-NOT_YET = 9000.0  # future lines: never on the year slider
+NOT_YET = 9000.0  # future lines and proposals: never on the year slider
+UNBUILT = ("future", "ideal")
 
 
 
@@ -149,6 +154,8 @@ def mode_spans(o_p: float | None, c_p: float | None, past_uses: list[tuple[float
 
 def load_era(era: str):
     lines, segments, points = [], {}, []
+    if not (DATA / era).exists():
+        return lines, segments, points
     for folder in sorted(p for p in (DATA / era).glob("*") if p.is_dir()):
         if (folder / "lines.json").exists():
             lines += json.loads((folder / "lines.json").read_text())["lines"]
@@ -158,6 +165,20 @@ def load_era(era: str):
         if (folder / "points.geojson").exists():
             points += json.loads((folder / "points.geojson").read_text())["features"]
     return lines, segments, points
+
+
+def proposal(line: dict, sources: dict) -> dict:
+    """A reference line's proposal, for the panel: who, in which document, and how far it has gone."""
+    doc = sources[line["document"]]
+    return {
+        "id": line["proposal_id"],
+        "proposed_by": line["proposed_by"],
+        "document": {k: doc[k] for k in ("id", "title", "url", "date", "publisher", "type") if k in doc},
+        "year": line["year"],
+        "status": line["proposal_status"],
+        "status_label": VOCAB["proposal_statuses"][line["proposal_status"]]["label"],
+        "status_as_of": line["status_as_of"],
+    }
 
 
 def main() -> None:
@@ -187,7 +208,7 @@ def main() -> None:
     past_mode_spans: dict = {}
 
     # The present first, so the past can draw its lines over present track with its display dates.
-    for era in ("present", "past", "future"):
+    for era in ("present", "past", "future", "ideal"):
         lines, segments, points = loaded[era]
         route_segments = {**present_segments, **segments} if era == "past" else segments
         uses = defaultdict(list)  # segment id -> lines that use it
@@ -202,7 +223,7 @@ def main() -> None:
                 spans[r["segment"]].append((line, r))
 
         def line_years(line):
-            if era == "future":
+            if era in UNBUILT:
                 return NOT_YET, OPEN_ENDED
             o = decimal_year(line["opened"])
             c = decimal_year(line["closed"]) if line["closed"] else (OPEN_ENDED if line["status"] == "active" else None)
@@ -233,7 +254,7 @@ def main() -> None:
         def segment_years(seg_props, users, used=None):
             """(open_y, close_y, borrowed, undated) for display, of a segment or a point. A segment
             borrows from its lines' use of it (route from/to), a point from its lines."""
-            if era == "future":
+            if era in UNBUILT:
                 return NOT_YET, OPEN_ENDED, False, False
             o = decimal_year(seg_props["opened"])
             c = decimal_year(seg_props["closed"])
@@ -402,9 +423,10 @@ def main() -> None:
                 **{k: line[k] for k in ("status_as_of", "expected_opening", "last_verified", "summary", "fate",
                                         "fate_note", "successor", "continues_beyond", "gauge_mm", "gauge_label",
                                         "traction", "photo", "links", "notes") if k in line},
+                **({"proposal": proposal(line, sources)} if era == "ideal" else {}),
                 "flags": line["flags"],
                 **({"running": line["running"]} if line.get("running") and RUNNING_DATES else {}),
-                "undated": era != "future" and (lo is None or lc is None),
+                "undated": era not in UNBUILT and (lo is None or lc is None),
                 "length_km": round(sum(segs_km.values()), 2),
                 "confidence_km": {k: round(v, 2) for k, v in sorted(segs_km.items())},
                 "bbox": bbox(oriented),
