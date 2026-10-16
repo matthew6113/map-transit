@@ -196,6 +196,107 @@
       "flags": [],
       "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
       "continues_beyond": "Sacramento, and on to Chico"
+    },
+    {
+      "id": "sn-oakland-lafayette-freight",
+      "name": "Sacramento Northern freight, Oakland to West Lafayette",
+      "short_name": "SN freight to Oakland",
+      "system": "sacramento-northern",
+      "operators": [
+        {
+          "name": "Sacramento Northern Railway (Western Pacific)",
+          "from": "1941-06-30",
+          "to": "1957-03-01"
+        }
+      ],
+      "mode": "railroad",
+      "era": "past",
+      "opened": "1941-06-30",
+      "closed": "1957-03-01",
+      "status": "closed",
+      "summary": "The Sacramento Northern's line from 40th St and Shafter Ave, Oakland, through the Oakland hills tunnel, Canyon and Moraga to West Lafayette, after its passenger trains ended in 1941: freight only, until the Western Pacific gave it up in 1957 (decision 15).",
+      "fate": "abandoned",
+      "fate_note": "The Interstate Commerce Commission let the line be abandoned on July 3, 1956 (Finance Docket 19124), and it was abandoned as of March 1, 1957, when the Oakland Terminal's Union St line opened; the track and wire were sold for scrap on March 28. East of West Lafayette the line stayed in use.",
+      "route": [
+        {
+          "segment": "sn-shafter-ave",
+          "note": "The street track in Shafter Ave went with the rest."
+        },
+        {
+          "segment": "sn-rockridge-temescal"
+        },
+        {
+          "segment": "sn-shepherd-canyon"
+        },
+        {
+          "segment": "sn-eastport-lafayette",
+          "note": "The abandonment ended at West Lafayette station, a little short of Lafayette, whose place no source here gives; this segment runs on to Lafayette, which stayed in use."
+        }
+      ],
+      "sources": [
+        {
+          "source": "western-railroader-1945-08",
+          "supports": [
+            "opened"
+          ],
+          "pages": "3",
+          "note": "The last day of the passenger trains, June 30, 1941."
+        },
+        {
+          "source": "orinda-sun-1957-02-15",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "1",
+          "note": "\"since then the Sacramento Northern has been used only for freight\"; about 16 miles between 40th and Shafter and West Lafayette station."
+        },
+        {
+          "source": "traffic-world-1955-11-26",
+          "supports": [
+            "route"
+          ],
+          "pages": "60",
+          "note": "The application to abandon \"about 17.52 miles of line in Oakland and West Lafayette\" (Finance Docket 19124)."
+        },
+        {
+          "source": "icc-practitioners-journal-1956-09",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1219",
+          "note": "Finance Docket 19124 granted by Division 4, July 3, 1956."
+        },
+        {
+          "source": "western-railroader-1956-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "8",
+          "note": "\"including the trackage in Shafter Avenue\"."
+        },
+        {
+          "source": "western-railroader-1957-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "14",
+          "note": "The Union St line opened on March 1, 1957; the SN \"saw its last operation to West Layfette\" (sic)."
+        },
+        {
+          "source": "orinda-sun-1957-04-05",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"abandoned by Western Pacific as of March 1\"."
+        }
+      ],
+      "flags": [
+        "conflicting_sources"
+      ],
+      "notes": "Its years as a freight line begin with the passenger trains' last day; the line carried freight before that too. The last freight train's day isn't sourced (pointers say February 28, 1957). The sources give its length as 15.52, 16, 17.52 and 18 miles."
     }
   ]
 }

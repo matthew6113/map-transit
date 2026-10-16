@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        937,
-        938,
-        939,
-        940
+        941,
+        942,
+        943,
+        944
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        941,
-        942,
-        943,
-        944,
         945,
         946,
         947,
         948,
         949,
         950,
-        951
+        951,
+        952,
+        953,
+        954,
+        955
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        967,
-        968,
-        969,
-        970,
         971,
         972,
         973,
         974,
-        975
+        975,
+        976,
+        977,
+        978,
+        979
       ],
       "segments": [
         {
@@ -4884,8 +4884,8 @@
         37.790421
       ],
       "fids": [
-        361,
-        362
+        365,
+        366
       ],
       "segments": [
         {
@@ -5014,10 +5014,10 @@
         37.772502
       ],
       "fids": [
-        385,
-        386,
-        387,
-        388
+        389,
+        390,
+        391,
+        392
       ],
       "segments": [
         {
@@ -6772,7 +6772,7 @@
         37.794462
       ],
       "fids": [
-        351
+        355
       ],
       "segments": [
         {
@@ -7036,10 +7036,6 @@
         37.806482
       ],
       "fids": [
-        976,
-        977,
-        978,
-        979,
         980,
         981,
         982,
@@ -7049,7 +7045,11 @@
         986,
         987,
         988,
-        989
+        989,
+        990,
+        991,
+        992,
+        993
       ],
       "segments": [
         {
@@ -7489,7 +7489,7 @@
         37.791639
       ],
       "fids": [
-        927
+        931
       ],
       "segments": [
         {
@@ -7612,10 +7612,10 @@
         37.577468
       ],
       "fids": [
-        1060,
-        1061,
-        1062,
-        1063
+        1064,
+        1065,
+        1066,
+        1067
       ],
       "segments": [
         {
@@ -7941,10 +7941,6 @@
         37.80035
       ],
       "fids": [
-        952,
-        953,
-        954,
-        955,
         956,
         957,
         958,
@@ -7955,7 +7951,11 @@
         963,
         964,
         965,
-        966
+        966,
+        967,
+        968,
+        969,
+        970
       ],
       "segments": [
         {
@@ -8350,15 +8350,15 @@
         37.81612
       ],
       "fids": [
-        1126,
-        1127,
-        1128,
-        1129,
         1130,
         1131,
         1132,
         1133,
-        1134
+        1134,
+        1135,
+        1136,
+        1137,
+        1138
       ],
       "segments": [
         {
@@ -8692,15 +8692,15 @@
         37.824321
       ],
       "fids": [
-        1108,
-        1109,
-        1110,
-        1111,
         1112,
         1113,
         1114,
         1115,
-        1116
+        1116,
+        1117,
+        1118,
+        1119,
+        1120
       ],
       "segments": [
         {
@@ -9197,14 +9197,14 @@
         37.805981
       ],
       "fids": [
-        990,
-        991,
-        992,
-        993,
         994,
         995,
         996,
-        997
+        997,
+        998,
+        999,
+        1000,
+        1001
       ],
       "segments": [
         {
@@ -9495,7 +9495,7 @@
         37.796162
       ],
       "fids": [
-        413
+        417
       ],
       "segments": [
         {
@@ -9604,7 +9604,7 @@
         37.788015
       ],
       "fids": [
-        380
+        384
       ],
       "segments": [
         {
@@ -9746,16 +9746,16 @@
         37.806482
       ],
       "fids": [
-        998,
-        999,
-        1000,
-        1001,
         1002,
         1003,
         1004,
         1005,
         1006,
-        1007
+        1007,
+        1008,
+        1009,
+        1010,
+        1011
       ],
       "segments": [
         {
@@ -10075,14 +10075,14 @@
         37.793407
       ],
       "fids": [
-        405,
-        406,
-        407,
-        408,
         409,
         410,
         411,
-        412
+        412,
+        413,
+        414,
+        415,
+        416
       ],
       "segments": [
         {
@@ -10550,7 +10550,7 @@
         37.785808
       ],
       "fids": [
-        368
+        372
       ],
       "segments": [
         {
@@ -10945,15 +10945,15 @@
         37.824321
       ],
       "fids": [
-        1117,
-        1118,
-        1119,
-        1120,
         1121,
         1122,
         1123,
         1124,
-        1125
+        1125,
+        1126,
+        1127,
+        1128,
+        1129
       ],
       "segments": [
         {
@@ -11618,16 +11618,16 @@
         37.793407
       ],
       "fids": [
-        395,
-        396,
-        397,
-        398,
         399,
         400,
         401,
         402,
         403,
-        404
+        404,
+        405,
+        406,
+        407,
+        408
       ],
       "segments": [
         {
@@ -11902,12 +11902,12 @@
         37.787654
       ],
       "fids": [
-        389,
-        390,
-        391,
-        392,
         393,
-        394
+        394,
+        395,
+        396,
+        397,
+        398
       ],
       "segments": [
         {
@@ -12642,10 +12642,6 @@
         37.891351
       ],
       "fids": [
-        1084,
-        1085,
-        1086,
-        1087,
         1088,
         1089,
         1090,
@@ -12656,7 +12652,11 @@
         1095,
         1096,
         1097,
-        1098
+        1098,
+        1099,
+        1100,
+        1101,
+        1102
       ],
       "segments": [
         {
@@ -13672,17 +13672,17 @@
         37.793407
       ],
       "fids": [
-        414,
-        415,
-        416,
-        417,
         418,
         419,
         420,
         421,
         422,
         423,
-        424
+        424,
+        425,
+        426,
+        427,
+        428
       ],
       "segments": [
         {
@@ -14101,17 +14101,17 @@
         37.79492
       ],
       "fids": [
-        554,
-        555,
-        556,
-        557,
         558,
         559,
         560,
         561,
         562,
         563,
-        564
+        564,
+        565,
+        566,
+        567,
+        568
       ],
       "segments": [
         {
@@ -14857,16 +14857,16 @@
         37.79492
       ],
       "fids": [
-        565,
-        566,
-        567,
-        568,
         569,
         570,
         571,
         572,
         573,
-        574
+        574,
+        575,
+        576,
+        577,
+        578
       ],
       "segments": [
         {
@@ -16433,10 +16433,6 @@
         37.79492
       ],
       "fids": [
-        575,
-        576,
-        577,
-        578,
         579,
         580,
         581,
@@ -16447,7 +16443,11 @@
         586,
         587,
         588,
-        589
+        589,
+        590,
+        591,
+        592,
+        593
       ],
       "segments": [
         {
@@ -17454,17 +17454,17 @@
         37.79492
       ],
       "fids": [
-        590,
-        591,
-        592,
-        593,
         594,
         595,
         596,
         597,
         598,
         599,
-        600
+        600,
+        601,
+        602,
+        603,
+        604
       ],
       "segments": [
         {
@@ -18303,14 +18303,14 @@
         37.808586
       ],
       "fids": [
-        601,
-        602,
-        603,
-        604,
         605,
         606,
         607,
-        608
+        608,
+        609,
+        610,
+        611,
+        612
       ],
       "segments": [
         {
@@ -18571,10 +18571,6 @@
         37.807531
       ],
       "fids": [
-        609,
-        610,
-        611,
-        612,
         613,
         614,
         615,
@@ -18594,7 +18590,11 @@
         629,
         630,
         631,
-        632
+        632,
+        633,
+        634,
+        635,
+        636
       ],
       "segments": [
         {
@@ -19513,10 +19513,6 @@
         37.793407
       ],
       "fids": [
-        633,
-        634,
-        635,
-        636,
         637,
         638,
         639,
@@ -19528,7 +19524,11 @@
         645,
         646,
         647,
-        648
+        648,
+        649,
+        650,
+        651,
+        652
       ],
       "segments": [
         {
@@ -19969,16 +19969,16 @@
         37.784013
       ],
       "fids": [
-        649,
-        650,
-        651,
-        652,
         653,
         654,
         655,
         656,
         657,
-        658
+        658,
+        659,
+        660,
+        661,
+        662
       ],
       "segments": [
         {
@@ -20657,12 +20657,12 @@
         37.805289
       ],
       "fids": [
-        659,
-        660,
-        661,
-        662,
         663,
-        664
+        664,
+        665,
+        666,
+        667,
+        668
       ],
       "segments": [
         {
@@ -21403,10 +21403,6 @@
         37.793407
       ],
       "fids": [
-        425,
-        426,
-        427,
-        428,
         429,
         430,
         431,
@@ -21420,7 +21416,11 @@
         439,
         440,
         441,
-        442
+        442,
+        443,
+        444,
+        445,
+        446
       ],
       "segments": [
         {
@@ -21993,10 +21993,6 @@
         37.785729
       ],
       "fids": [
-        665,
-        666,
-        667,
-        668,
         669,
         670,
         671,
@@ -22017,7 +22013,11 @@
         686,
         687,
         688,
-        689
+        689,
+        690,
+        691,
+        692,
+        693
       ],
       "segments": [
         {
@@ -22662,10 +22662,6 @@
         37.793407
       ],
       "fids": [
-        690,
-        691,
-        692,
-        693,
         694,
         695,
         696,
@@ -22683,7 +22679,11 @@
         708,
         709,
         710,
-        711
+        711,
+        712,
+        713,
+        714,
+        715
       ],
       "segments": [
         {
@@ -23324,10 +23324,6 @@
         37.794281
       ],
       "fids": [
-        712,
-        713,
-        714,
-        715,
         716,
         717,
         718,
@@ -23342,7 +23338,11 @@
         727,
         728,
         729,
-        730
+        730,
+        731,
+        732,
+        733,
+        734
       ],
       "segments": [
         {
@@ -24016,10 +24016,6 @@
         37.789838
       ],
       "fids": [
-        731,
-        732,
-        733,
-        734,
         735,
         736,
         737,
@@ -24038,7 +24034,11 @@
         750,
         751,
         752,
-        753
+        753,
+        754,
+        755,
+        756,
+        757
       ],
       "segments": [
         {
@@ -24834,10 +24834,6 @@
         37.788999
       ],
       "fids": [
-        754,
-        755,
-        756,
-        757,
         758,
         759,
         760,
@@ -24861,7 +24857,11 @@
         778,
         779,
         780,
-        781
+        781,
+        782,
+        783,
+        784,
+        785
       ],
       "segments": [
         {
@@ -25574,10 +25574,6 @@
         37.784013
       ],
       "fids": [
-        782,
-        783,
-        784,
-        785,
         786,
         787,
         788,
@@ -25591,7 +25587,11 @@
         796,
         797,
         798,
-        799
+        799,
+        800,
+        801,
+        802,
+        803
       ],
       "segments": [
         {
@@ -26206,10 +26206,6 @@
         37.789284
       ],
       "fids": [
-        800,
-        801,
-        802,
-        803,
         804,
         805,
         806,
@@ -26221,7 +26217,11 @@
         812,
         813,
         814,
-        815
+        815,
+        816,
+        817,
+        818,
+        819
       ],
       "segments": [
         {
@@ -26880,15 +26880,15 @@
         37.793407
       ],
       "fids": [
-        443,
-        444,
-        445,
-        446,
         447,
         448,
         449,
         450,
-        451
+        451,
+        452,
+        453,
+        454,
+        455
       ],
       "segments": [
         {
@@ -27251,10 +27251,6 @@
         37.778681
       ],
       "fids": [
-        816,
-        817,
-        818,
-        819,
         820,
         821,
         822,
@@ -27272,7 +27268,11 @@
         834,
         835,
         836,
-        837
+        837,
+        838,
+        839,
+        840,
+        841
       ],
       "segments": [
         {
@@ -27921,10 +27921,6 @@
         37.793407
       ],
       "fids": [
-        838,
-        839,
-        840,
-        841,
         842,
         843,
         844,
@@ -27939,7 +27935,11 @@
         853,
         854,
         855,
-        856
+        856,
+        857,
+        858,
+        859,
+        860
       ],
       "segments": [
         {
@@ -28448,17 +28448,17 @@
         37.782556
       ],
       "fids": [
-        857,
-        858,
-        859,
-        860,
         861,
         862,
         863,
         864,
         865,
         866,
-        867
+        867,
+        868,
+        869,
+        870,
+        871
       ],
       "segments": [
         {
@@ -28759,12 +28759,12 @@
         37.805042
       ],
       "fids": [
-        868,
-        869,
-        870,
-        871,
         872,
-        873
+        873,
+        874,
+        875,
+        876,
+        877
       ],
       "segments": [
         {
@@ -28987,12 +28987,12 @@
         37.79492
       ],
       "fids": [
-        874,
-        875,
-        876,
-        877,
         878,
-        879
+        879,
+        880,
+        881,
+        882,
+        883
       ],
       "segments": [
         {
@@ -29285,12 +29285,12 @@
         37.79009
       ],
       "fids": [
-        880,
-        881,
-        882,
-        883,
         884,
-        885
+        885,
+        886,
+        887,
+        888,
+        889
       ],
       "segments": [
         {
@@ -29553,10 +29553,6 @@
         37.793407
       ],
       "fids": [
-        452,
-        453,
-        454,
-        455,
         456,
         457,
         458,
@@ -29572,7 +29568,11 @@
         468,
         469,
         470,
-        471
+        471,
+        472,
+        473,
+        474,
+        475
       ],
       "segments": [
         {
@@ -30157,10 +30157,6 @@
         37.784013
       ],
       "fids": [
-        886,
-        887,
-        888,
-        889,
         890,
         891,
         892,
@@ -30179,7 +30175,11 @@
         905,
         906,
         907,
-        908
+        908,
+        909,
+        910,
+        911,
+        912
       ],
       "segments": [
         {
@@ -30793,11 +30793,11 @@
         37.789284
       ],
       "fids": [
-        909,
-        910,
-        911,
-        912,
-        913
+        913,
+        914,
+        915,
+        916,
+        917
       ],
       "segments": [
         {
@@ -31011,10 +31011,6 @@
         37.793216
       ],
       "fids": [
-        914,
-        915,
-        916,
-        917,
         918,
         919,
         920,
@@ -31023,7 +31019,11 @@
         923,
         924,
         925,
-        926
+        926,
+        927,
+        928,
+        929,
+        930
       ],
       "segments": [
         {
@@ -31407,10 +31407,6 @@
         37.793407
       ],
       "fids": [
-        472,
-        473,
-        474,
-        475,
         476,
         477,
         478,
@@ -31421,7 +31417,11 @@
         483,
         484,
         485,
-        486
+        486,
+        487,
+        488,
+        489,
+        490
       ],
       "segments": [
         {
@@ -32431,10 +32431,6 @@
         37.793407
       ],
       "fids": [
-        487,
-        488,
-        489,
-        490,
         491,
         492,
         493,
@@ -32458,7 +32454,11 @@
         511,
         512,
         513,
-        514
+        514,
+        515,
+        516,
+        517,
+        518
       ],
       "segments": [
         {
@@ -33199,10 +33199,6 @@
         37.793407
       ],
       "fids": [
-        515,
-        516,
-        517,
-        518,
         519,
         520,
         521,
@@ -33214,7 +33210,11 @@
         527,
         528,
         529,
-        530
+        530,
+        531,
+        532,
+        533,
+        534
       ],
       "segments": [
         {
@@ -33679,17 +33679,17 @@
         37.793407
       ],
       "fids": [
-        531,
-        532,
-        533,
-        534,
         535,
         536,
         537,
         538,
         539,
         540,
-        541
+        541,
+        542,
+        543,
+        544,
+        545
       ],
       "segments": [
         {
@@ -34448,10 +34448,6 @@
         37.793407
       ],
       "fids": [
-        542,
-        543,
-        544,
-        545,
         546,
         547,
         548,
@@ -34459,7 +34455,11 @@
         550,
         551,
         552,
-        553
+        553,
+        554,
+        555,
+        556,
+        557
       ],
       "segments": [
         {
@@ -35535,14 +35535,14 @@
         38.852585
       ],
       "fids": [
-        1023,
-        1024,
-        1025,
-        1026,
         1027,
         1028,
         1029,
-        1030
+        1030,
+        1031,
+        1032,
+        1033,
+        1034
       ],
       "segments": [
         {
@@ -35904,11 +35904,11 @@
         37.806637
       ],
       "fids": [
-        363,
-        364,
-        365,
-        366,
-        367
+        367,
+        368,
+        369,
+        370,
+        371
       ],
       "segments": [
         {
@@ -36222,14 +36222,14 @@
         37.7762
       ],
       "fids": [
-        1165,
-        1166,
-        1167,
-        1168,
         1169,
         1170,
         1171,
-        1172
+        1172,
+        1173,
+        1174,
+        1175,
+        1176
       ],
       "segments": [
         {
@@ -36506,10 +36506,6 @@
         37.7762
       ],
       "fids": [
-        1151,
-        1152,
-        1153,
-        1154,
         1155,
         1156,
         1157,
@@ -36519,7 +36515,11 @@
         1161,
         1162,
         1163,
-        1164
+        1164,
+        1165,
+        1166,
+        1167,
+        1168
       ],
       "segments": [
         {
@@ -39052,6 +39052,309 @@
       ]
     },
     {
+      "id": "sn-oakland-lafayette-freight",
+      "name": "Sacramento Northern freight, Oakland to West Lafayette",
+      "short_name": "SN freight to Oakland",
+      "system": "sacramento-northern",
+      "system_name": "Sacramento Northern Railway",
+      "operators": [
+        {
+          "name": "Sacramento Northern Railway (Western Pacific)",
+          "from": "1941-06-30",
+          "to": "1957-03-01"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1941-06-30",
+      "closed": "1957-03-01",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Sacramento Northern's line from 40th St and Shafter Ave, Oakland, through the Oakland hills tunnel, Canyon and Moraga to West Lafayette, after its passenger trains ended in 1941: freight only, until the Western Pacific gave it up in 1957 (decision 15).",
+      "fate": "abandoned",
+      "fate_note": "The Interstate Commerce Commission let the line be abandoned on July 3, 1956 (Finance Docket 19124), and it was abandoned as of March 1, 1957, when the Oakland Terminal's Union St line opened; the track and wire were sold for scrap on March 28. East of West Lafayette the line stayed in use.",
+      "notes": "Its years as a freight line begin with the passenger trains' last day; the line carried freight before that too. The last freight train's day isn't sourced (pointers say February 28, 1957). The sources give its length as 15.52, 16, 17.52 and 18 miles.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 28.97,
+      "confidence_km": {
+        "approximate": 3.39,
+        "digitized": 25.59
+      },
+      "bbox": [
+        -122.259777,
+        37.819525,
+        -122.084854,
+        37.890752
+      ],
+      "fids": [
+        344,
+        345,
+        346,
+        347
+      ],
+      "segments": [
+        {
+          "id": "sn-shafter-ave",
+          "name": "Shafter Ave, 40th St to Forest St",
+          "opened": null,
+          "closed": null,
+          "note": "The street track in Shafter Ave went with the rest.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Shafter Avenue centerline from -122.25978,37.82846 to -122.25312,37.84313 (1776 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949).",
+          "structure": "street",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "In Shafter Ave, from the Key Route junction at 40th St. Shafter Ave is about 1.4 miles today, against 1912's \"about 1 3/4 miles\"."
+        },
+        {
+          "id": "sn-rockridge-temescal",
+          "name": "Rockridge to Lake Temescal and Montclair",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-shafter-ave at its end; then traced by eye from USGS Oakland East 1:24,000 (1949) (10 hand-read points, centred on the line symbol); then traced by eye from USGS Oakland East 1:24,000 (1949) (6 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (12 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (3 hand-read points); then traced by eye from USGS Oakland East 1:24,000 (1949) (11 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "On its own right-of-way past Lake Temescal, traced from the 1949 sheet, where the track still ran for freight."
+        },
+        {
+          "id": "sn-shepherd-canyon",
+          "name": "Shepherd Canyon and the Redwood Peak tunnel",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Joined to sn-rockridge-temescal at its end; then along today's Shepherd Canyon Road centerline from -122.20530,37.82450 to -122.18479,37.83578 (2831 m; Overture 2026-09-23.1); then given point by point; checked on USGS Oakland East 1:24,000 (1949).",
+          "structure": "tunnel",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Up Shepherd Canyon, whose road today follows the old right-of-way, then through the 3,458 ft tunnel under Redwood Peak to Eastport. The canyon is drawn along today's Shepherd Canyon Road and checked on the 1949 sheet; the tunnel is drawn straight between its portals and is approximate."
+        },
+        {
+          "id": "sn-eastport-lafayette",
+          "name": "Eastport to Moraga and Lafayette",
+          "opened": null,
+          "closed": null,
+          "note": "The abandonment ended at West Lafayette station, a little short of Lafayette, whose place no source here gives; this segment runs on to Lafayette, which stayed in use.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to sn-shepherd-canyon at its end; then traced by eye from USGS Concord 1:62,500 (1942) (17 hand-read points, centred on the line symbol); then traced by eye from USGS Concord 1:62,500 (1942) (13 hand-read points, centred on the line symbol); then traced by eye from USGS Concord 1:62,500 (1942) (21 hand-read points, centred on the line symbol).",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Down the San Leandro Creek valley to Valle Vista and Moraga, then by St Mary's College and Burton to Lafayette, traced from the 1942 Concord sheet, which falls within about 50 m of today's streets here. Opened east of Lafayette in 1911, as the Oakland & Antioch's local line (Bay Point to Concord from February 1911, to Walnut Creek by about September, to Lafayette by December 19); those dates aren't confirmed enough to draw yet, so the track shows from the through service of 1913."
+        }
+      ],
+      "sources": [
+        {
+          "id": "western-railroader-1945-08",
+          "title": "The Western Railroader 8(10), August 1945",
+          "publisher": "The Western Railroader",
+          "date": "1945-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1945-08_8_10",
+          "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
+          "accessed": "2026-10-14",
+          "source": "western-railroader-1945-08",
+          "supports": [
+            "opened"
+          ],
+          "pages": "3",
+          "note": "The last day of the passenger trains, June 30, 1941."
+        },
+        {
+          "id": "orinda-sun-1957-02-15",
+          "title": "Orinda Sun, February 15, 1957: \"Sacto-Northern picture recalls long controversy\"",
+          "publisher": "Orinda Sun",
+          "date": "1957-02-15",
+          "type": "primary_document",
+          "url": "https://archive.org/details/caorihs_000466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "orinda-sun-1957-02-15",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "1",
+          "note": "\"since then the Sacramento Northern has been used only for freight\"; about 16 miles between 40th and Shafter and West Lafayette station."
+        },
+        {
+          "id": "traffic-world-1955-11-26",
+          "title": "Traffic World 96, November 26, 1955: \"Oakland Terminal\" (Finance No. 19124, application)",
+          "publisher": "Traffic World",
+          "date": "1955-11-26",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_traffic-world_1955-11-26_96",
+          "license": "Copyright status unknown (trade weekly, 1955); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "traffic-world-1955-11-26",
+          "supports": [
+            "route"
+          ],
+          "pages": "60",
+          "note": "The application to abandon \"about 17.52 miles of line in Oakland and West Lafayette\" (Finance Docket 19124)."
+        },
+        {
+          "id": "icc-practitioners-journal-1956-09",
+          "title": "I. C. C. Practitioners' Journal 23(10), September 1956: digest of Commission decisions",
+          "publisher": "Association of Interstate Commerce Commission Practitioners",
+          "date": "1956-09",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_icc-practitioners-journal_1956-09_23_10",
+          "license": "Copyright status unknown (professional journal, 1956); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "icc-practitioners-journal-1956-09",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1219",
+          "note": "Finance Docket 19124 granted by Division 4, July 3, 1956."
+        },
+        {
+          "id": "western-railroader-1956-08",
+          "title": "The Western Railroader 19(10), August 1956: \"I.C.C. approves Sacramento Northern abandonment\"",
+          "publisher": "The Western Railroader",
+          "date": "1956-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1956-08_19_10",
+          "license": "Copyright status unknown (railfan periodical, 1956); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1956-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "8",
+          "note": "\"including the trackage in Shafter Avenue\"."
+        },
+        {
+          "id": "western-railroader-1957-04",
+          "title": "The Western Railroader 20(6), April 1957: \"Union Street line 'gold spike'\"",
+          "publisher": "The Western Railroader",
+          "date": "1957-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1957-04_20_6",
+          "license": "Copyright status unknown (railfan periodical, 1957); cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1957-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "14",
+          "note": "The Union St line opened on March 1, 1957; the SN \"saw its last operation to West Layfette\" (sic)."
+        },
+        {
+          "id": "orinda-sun-1957-04-05",
+          "title": "Orinda Sun, April 5, 1957: \"Reno man buys Sacto-Northern tracks, wire\"",
+          "publisher": "Orinda Sun",
+          "date": "1957-04-05",
+          "type": "primary_document",
+          "url": "https://archive.org/details/caorihs_000473",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "orinda-sun-1957-04-05",
+          "supports": [
+            "closed"
+          ],
+          "pages": "1",
+          "note": "\"abandoned by Western Pacific as of March 1\"."
+        },
+        {
+          "id": "erj-1913-04-19-oakland-antioch-eastern",
+          "title": "Oakland, Antioch & Eastern Railway",
+          "publisher": "Electric Railway Journal 41(16)",
+          "date": "1913-04-19",
+          "type": "journal",
+          "url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16",
+          "license": "Public domain (published 1913)",
+          "accessed": "2026-10-14",
+          "source": "erj-1913-04-19-oakland-antioch-eastern",
+          "supports": [
+            "route"
+          ],
+          "pages": "726"
+        },
+        {
+          "id": "joepg-1912-03-09",
+          "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
+          "publisher": "Journal of Electricity, Power and Gas",
+          "date": "1912-03-09",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_electrical-west_1912-03-09_28_10",
+          "license": "Public domain (published 1912)",
+          "accessed": "2026-10-14",
+          "source": "joepg-1912-03-09",
+          "supports": [
+            "route"
+          ],
+          "pages": "217"
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1942",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1942",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1942",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_465521_1942_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1942",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sn-oakland-sacramento",
       "name": "Sacramento Northern trains, San Francisco to Bay Point and Sacramento",
       "system": "sacramento-northern",
@@ -40419,12 +40722,12 @@
         37.795493
       ],
       "fids": [
-        352,
-        353,
-        354,
-        355,
         356,
-        357
+        357,
+        358,
+        359,
+        360,
+        361
       ],
       "segments": [
         {
@@ -40752,7 +41055,7 @@
         38.519886
       ],
       "fids": [
-        1031
+        1035
       ],
       "segments": [
         {
@@ -40934,12 +41237,12 @@
         38.809809
       ],
       "fids": [
-        1008,
-        1009,
-        1010,
-        1011,
         1012,
-        1013
+        1013,
+        1014,
+        1015,
+        1016,
+        1017
       ],
       "segments": [
         {
@@ -41226,15 +41529,15 @@
         38.809809
       ],
       "fids": [
-        1014,
-        1015,
-        1016,
-        1017,
         1018,
         1019,
         1020,
         1021,
-        1022
+        1022,
+        1023,
+        1024,
+        1025,
+        1026
       ],
       "segments": [
         {
@@ -41720,8 +42023,8 @@
         37.908
       ],
       "fids": [
-        349,
-        350
+        353,
+        354
       ],
       "segments": [
         {
@@ -41959,11 +42262,11 @@
         38.049065
       ],
       "fids": [
-        344,
-        345,
-        346,
-        347,
-        348
+        348,
+        349,
+        350,
+        351,
+        352
       ],
       "segments": [
         {
@@ -42990,11 +43293,11 @@
         38.434321
       ],
       "fids": [
-        1042,
-        1043,
-        1044,
-        1045,
-        1046
+        1046,
+        1047,
+        1048,
+        1049,
+        1050
       ],
       "segments": [
         {
@@ -43161,15 +43464,15 @@
         37.824321
       ],
       "fids": [
-        1099,
-        1100,
-        1101,
-        1102,
         1103,
         1104,
         1105,
         1106,
-        1107
+        1107,
+        1108,
+        1109,
+        1110,
+        1111
       ],
       "segments": [
         {
@@ -43668,10 +43971,6 @@
         37.891481
       ],
       "fids": [
-        1064,
-        1065,
-        1066,
-        1067,
         1068,
         1069,
         1070,
@@ -43687,7 +43986,11 @@
         1080,
         1081,
         1082,
-        1083
+        1083,
+        1084,
+        1085,
+        1086,
+        1087
       ],
       "segments": [
         {
@@ -44307,12 +44610,12 @@
         38.440268
       ],
       "fids": [
-        1036,
-        1037,
-        1038,
-        1039,
         1040,
-        1041
+        1041,
+        1042,
+        1043,
+        1044,
+        1045
       ],
       "segments": [
         {
@@ -44674,10 +44977,6 @@
         37.796576
       ],
       "fids": [
-        1047,
-        1048,
-        1049,
-        1050,
         1051,
         1052,
         1053,
@@ -44686,7 +44985,11 @@
         1056,
         1057,
         1058,
-        1059
+        1059,
+        1060,
+        1061,
+        1062,
+        1063
       ],
       "segments": [
         {
@@ -45245,16 +45548,16 @@
         37.80914
       ],
       "fids": [
-        1141,
-        1142,
-        1143,
-        1144,
         1145,
         1146,
         1147,
         1148,
         1149,
-        1150
+        1150,
+        1151,
+        1152,
+        1153,
+        1154
       ],
       "segments": [
         {
@@ -45600,9 +45903,9 @@
         38.032436
       ],
       "fids": [
-        1173,
-        1174,
-        1175
+        1177,
+        1178,
+        1179
       ],
       "segments": [
         {
@@ -45846,10 +46149,10 @@
         38.462654
       ],
       "fids": [
-        1032,
-        1033,
-        1034,
-        1035
+        1036,
+        1037,
+        1038,
+        1039
       ],
       "segments": [
         {
@@ -46099,9 +46402,9 @@
         37.790312
       ],
       "fids": [
-        358,
-        359,
-        360
+        362,
+        363,
+        364
       ],
       "segments": [
         {
@@ -46247,15 +46550,15 @@
         37.789106
       ],
       "fids": [
-        928,
-        929,
-        930,
-        931,
         932,
         933,
         934,
         935,
-        936
+        936,
+        937,
+        938,
+        939,
+        940
       ],
       "segments": [
         {
@@ -47404,10 +47707,10 @@
         37.80035
       ],
       "fids": [
-        381,
-        382,
-        383,
-        384
+        385,
+        386,
+        387,
+        388
       ],
       "segments": [
         {
@@ -47748,17 +48051,17 @@
         37.79562
       ],
       "fids": [
-        369,
-        370,
-        371,
-        372,
         373,
         374,
         375,
         376,
         377,
         378,
-        379
+        379,
+        380,
+        381,
+        382,
+        383
       ],
       "segments": [
         {
@@ -48014,12 +48317,12 @@
         37.803847
       ],
       "fids": [
-        1135,
-        1136,
-        1137,
-        1138,
         1139,
-        1140
+        1140,
+        1141,
+        1142,
+        1143,
+        1144
       ],
       "segments": [
         {
@@ -48328,8 +48631,8 @@
         37.800059
       ],
       "fids": [
-        1196,
-        1197
+        1200,
+        1201
       ],
       "segments": [
         {
@@ -48511,8 +48814,8 @@
         37.57739
       ],
       "fids": [
-        1198,
-        1199
+        1202,
+        1203
       ],
       "segments": [
         {
@@ -48697,10 +49000,6 @@
         37.80914
       ],
       "fids": [
-        1176,
-        1177,
-        1178,
-        1179,
         1180,
         1181,
         1182,
@@ -48716,7 +49015,11 @@
         1192,
         1193,
         1194,
-        1195
+        1195,
+        1196,
+        1197,
+        1198,
+        1199
       ],
       "segments": [
         {

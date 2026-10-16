@@ -147,6 +147,7 @@ and open items, is in `docs/research/`. The open checks for Matthew are in `docs
 | Street Railway Journal (1904, 1906; including the North Shore Railroad's third-rail line, January 2, 1904), Railroad Gazette (1907), the Journal of Electricity, Power and Gas (1912), the Commercial & Financial Chronicle (1913), Railway Age Gazette (1912), Electric Railway Journal (1911, 1912), from archive.org | journal | Public domain (published before 1929) |
 | The San Francisco Call (1907, 1911) and the Oakland Tribune (1889–1924), via Chronicling America and archive.org | primary_document | Public domain (published before 1929) |
 | *The Western Railroader*, August 1945 (railfan periodical), from archive.org | journal | Copyright status unknown; cited for facts only (one date, the Sacramento Northern's last day) |
+| *The Western Railroader* (1949-57), the *Orinda Sun* (1953-57), *Traffic World* (1925-56) and the *I.C.C. Practitioners' Journal* (1956), from archive.org, read on the page images | journal, primary_document | Copyright status unknown; cited for facts only (decision 19; *Traffic World* and the *Practitioners' Journal* are new to that list, for Matthew) |
 | San Francisco directories: the *Business Directory and Mercantile Guide* for 1864–65 and Langley's directories of 1867 and 1892, from archive.org | primary_document | Public domain (published 1864, 1867, 1892) |
 | *Poor's Manual* (1891–93, 1896) and the Board of Railroad Commissioners' thirteenth annual report (1892), read on archive.org's page images (the California & Nevada) | book, official | Public domain (published 1891–96) |
 | *Southern Pacific Bulletin*, January 1936 (California State Railroad Museum scan on archive.org) | primary_document | Copyright status unknown; cited for facts only |
@@ -331,9 +332,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 137 | 567 | 11 | 770.7 | 607.6 | 187.8 | 8 | 519 |
+| past | 138 | 567 | 11 | 770.7 | 607.6 | 187.8 | 8 | 519 |
 | present | 47 | 172 | 275 | 1715.1 | 0 | 0 | 14 | 75 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 562, `conflicting_sources` 35, `expected_opening_unsourced` 6, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 887, `page_unverified` 1, `status_unverified` 7.
+Open flags: `closed_unsourced` 562, `conflicting_sources` 36, `expected_opening_unsourced` 6, `geometry_unverified` 7, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 887, `page_unverified` 1, `status_unverified` 7.
 <!-- coverage:end -->

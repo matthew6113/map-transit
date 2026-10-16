@@ -2,6 +2,16 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Sacramento Northern's freight to Oakland, 1941-1957
+
+- **Sacramento Northern freight, Oakland to West Lafayette** (`sacramento-northern/`, decision 15):
+  after the passenger trains' last day, June 30, 1941, the line from 40th St and Shafter Ave by the
+  Oakland hills tunnel, Canyon and Moraga carried freight only, until it was abandoned as of March 1,
+  1957 (*Orinda Sun*, April 5, 1957), under the ICC's grant of July 3, 1956 (Finance Docket 19124).
+  Its four segments now draw in the railroad mode for those years. The abandonment ended at West
+  Lafayette, which no source places, so the segment to Lafayette is drawn to 1957 whole; the last
+  train's day isn't sourced.
+
 ## 2026-10-16: The Western Pacific's San José branch, 1922-1931
 
 - **Western Pacific trains, Niles to San José** (`western-pacific/`): from Niles Junction by

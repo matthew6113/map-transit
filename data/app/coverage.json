@@ -1,6 +1,6 @@
 {
   "past": {
-    "lines": 137,
+    "lines": 138,
     "segments": 567,
     "points": 11,
     "km_by_confidence": {
@@ -12,7 +12,7 @@
     "borrowed_dates": 519,
     "flags": {
       "closed_unsourced": 562,
-      "conflicting_sources": 31,
+      "conflicting_sources": 32,
       "geometry_unverified": 7,
       "needs_manual_digitizing": 7,
       "opened_unsourced": 512,
