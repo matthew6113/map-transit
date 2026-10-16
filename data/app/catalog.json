@@ -1745,7 +1745,6 @@
         37.804116
       ],
       "fids": [
-        179,
         180,
         181,
         182,
@@ -1756,7 +1755,8 @@
         187,
         188,
         189,
-        190
+        190,
+        191
       ],
       "segments": [
         {
@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        951,
-        952,
-        953,
-        954
+        957,
+        958,
+        959,
+        960
       ],
       "segments": [
         {
@@ -2362,6 +2362,243 @@
       ]
     },
     {
+      "id": "abl-clement-ave",
+      "name": "Alameda Belt Line, Clement Ave",
+      "short_name": "Alameda Belt Line",
+      "system": "alameda-belt-line",
+      "system_name": "Alameda Belt Line",
+      "operators": [
+        {
+          "name": "City of Alameda (Southern Pacific's switch engines, by 1924)",
+          "from": "1918-05-27",
+          "to": null
+        },
+        {
+          "name": "Alameda Belt Line (Western Pacific and Santa Fe)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1918-05-27",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A freight belt line along Clement Ave in Alameda, built by the city in 1918 to serve the new industries and shipyards of the north shore, worked by the Southern Pacific's switch engines; sold in 1925-26 to the Alameda Belt Line, owned by the Western Pacific and the Santa Fe, which extended it west.",
+      "fate": "abandoned",
+      "fate_note": "Formally abandoned under the Surface Transportation Board's notice AB 1090X, effective June 16, 2012, after no local traffic for at least two years; the last train isn't sourced.",
+      "notes": "Drawn from the first freight, May 27, 1918, to the last date a source read on its page shows the line in use, September 1941 (decisions 15 and 20); it ran into the 1990s by pointer sources only. When the Alameda Belt Line company took over from the city isn't sourced.",
+      "flags": [
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1924-03-25",
+          "source": "oakland-tribune-1924-03-25",
+          "pages": "15",
+          "note": "\"the Southern Pacific, now operating switching engines over the belt line by an agreement with the city\"."
+        },
+        {
+          "date": "1925-07-14",
+          "source": "crc-d15177",
+          "pages": "802-803",
+          "note": "The Railroad Commission lets the Alameda Belt Line buy the city's \"existing belt line railroad\" and extend it."
+        },
+        {
+          "date": "1941-09-28",
+          "source": "cscrm-2021-02-001466",
+          "pages": "17",
+          "note": "Rule 98: \"Alameda, Belt line bet'n West Alameda and Pacific Ave. 'stop.'\" and \"bet'n Eagle Ave. and Tynan\", its crossings of the Southern Pacific. Read on the page image."
+        }
+      ],
+      "undated": false,
+      "length_km": 1.85,
+      "confidence_km": {
+        "digitized": 1.85
+      },
+      "bbox": [
+        -122.252914,
+        37.767963,
+        -122.234626,
+        37.776254
+      ],
+      "fids": [
+        1
+      ],
+      "segments": [
+        {
+          "id": "abl-clement-ave",
+          "name": "Clement Ave, Broadway to Grand St",
+          "opened": "1918-05-27",
+          "closed": null,
+          "note": "The extensions authorized in 1926-27, by Grand St, Buena Vista Ave and Sherman St and on across Webster St (CRC Decisions 16794, 18770), aren't drawn: their opening isn't sourced and their route west of Sherman St isn't placed.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Clement Avenue centerline from Broadway to Grand Street (1857 m; Overture 2026-09-23.1); checked on USGS Oakland East 1:24,000 (1949) and USGS Oakland West 1:24,000 (1949). Single track in the center of Clement Ave, from just east of Broadway to Grand St (CRC Decision 15177, 1925).",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced",
+            "conflicting_sources"
+          ],
+          "notes": "The city's contract of 1918 names Pearl St as the east end, the Railroad Commission in 1925 a point 188 ft east of Broadway; drawn from Broadway. The 2.61-mile line of 2012 still began here, at Clement Ave and Broadway."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1918-05-27",
+          "title": "Oakland Tribune, 1918-05-27: the Barnes-Tibbitts shipyard and the first freight on Alameda's municipal belt line",
+          "publisher": "Oakland Tribune",
+          "date": "1918-05-27",
+          "type": "primary_document",
+          "url": "https://archive.org/details/oakland-tribune-1918-05-27",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1918-05-27",
+          "supports": [
+            "opened"
+          ],
+          "pages": "9"
+        },
+        {
+          "id": "oakland-tribune-1924-03-25",
+          "title": "Oakland Tribune, 1924-03-25: WP and Santa Fe plans for Alameda's belt line",
+          "publisher": "Oakland Tribune",
+          "date": "1924-03-25",
+          "type": "primary_document",
+          "url": "https://archive.org/details/oakland-tribune-1924-03-25",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1924-03-25",
+          "supports": [
+            "operator"
+          ],
+          "pages": "15"
+        },
+        {
+          "id": "crc-d15177",
+          "title": "Railroad Commission of California, Decision No. 15177 (Application No. 10888): Alameda Belt Line stock; purchase of the city of Alameda's belt line",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1925-07-14",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D15177_19250714_A10888.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d15177",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "801-805"
+        },
+        {
+          "id": "crc-d16794",
+          "title": "Railroad Commission of California, Decision No. 16794 (Application No. 12874): Alameda Belt Line extension tracks across streets in Alameda",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1926-05-28",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D16794_19260528_A12874.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d16794",
+          "supports": [
+            "general"
+          ],
+          "pages": "1-2",
+          "note": "The 1926 extension from Clement Ave near Minturn St by Grand St, Eagle Ave, Hibbard St, Buena Vista Ave and Sherman St."
+        },
+        {
+          "id": "cscrm-2021-02-001466",
+          "title": "Southern Pacific, Western Division, employee timetable No. 234, 1941-09-28",
+          "publisher": "Southern Pacific Company (California State Railroad Museum scan)",
+          "date": "1941-09-28",
+          "type": "primary_document",
+          "url": "https://archive.org/details/cscrm_2021_02_001466",
+          "license": "Copyright status unknown; cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "cscrm-2021-02-001466",
+          "supports": [
+            "general"
+          ],
+          "pages": "17"
+        },
+        {
+          "id": "fr-2012-05-17-ab1090x",
+          "title": "Federal Register 77(96), May 17, 2012: STB Docket No. AB 1090X, City of Alameda d/b/a Alameda Belt Line Railroad, abandonment exemption",
+          "publisher": "Office of the Federal Register",
+          "date": "2012-05-17",
+          "type": "official",
+          "url": "https://archive.org/details/sim_federal-register-find_2012-05-17_77_97",
+          "license": "US government work; public domain",
+          "accessed": "2026-10-16",
+          "source": "fr-2012-05-17-ab1090x",
+          "supports": [
+            "fate"
+          ],
+          "pages": "29456",
+          "note": "2.61 miles from Clement Ave and Broadway to near Constitution Way; \"No local traffic has moved over the line for at least 2 years\"."
+        },
+        {
+          "id": "oakland-tribune-1918-04-10",
+          "title": "Oakland Tribune, 1918-04-10: \"Bids are received for belt line\" (Alameda)",
+          "publisher": "Oakland Tribune",
+          "date": "1918-04-10",
+          "type": "primary_document",
+          "url": "https://archive.org/details/oakland-tribune-1918-04-10",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1918-04-10",
+          "supports": [
+            "route"
+          ],
+          "pages": "7",
+          "note": "Bids for \"the Alameda belt line on Clement avenue, from Pearl street west to Grand street\", about 6,234 ft."
+        },
+        {
+          "id": "usgs-oakland-east-1949",
+          "title": "Oakland East, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20East_293613_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-east-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-alameda-pier-ferry",
       "name": "Alameda ferry (Alameda Pier)",
       "short_name": "Alameda Pier ferry",
@@ -2408,7 +2645,7 @@
         37.797871
       ],
       "fids": [
-        216
+        217
       ],
       "segments": [
         {
@@ -2526,17 +2763,17 @@
         37.793407
       ],
       "fids": [
-        955,
-        956,
-        957,
-        958,
-        959,
-        960,
         961,
         962,
         963,
         964,
-        965
+        965,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971
       ],
       "segments": [
         {
@@ -2811,7 +3048,6 @@
         37.891454
       ],
       "fids": [
-        222,
         223,
         224,
         225,
@@ -2829,7 +3065,8 @@
         237,
         238,
         239,
-        240
+        240,
+        241
       ],
       "segments": [
         {
@@ -3444,15 +3681,15 @@
         37.793407
       ],
       "fids": [
-        981,
-        982,
-        983,
-        984,
-        985,
-        986,
         987,
         988,
-        989
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        995
       ],
       "segments": [
         {
@@ -3792,10 +4029,10 @@
         37.966278
       ],
       "fids": [
-        1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "segments": [
         {
@@ -4166,12 +4403,12 @@
         38.580148
       ],
       "fids": [
-        5,
         6,
         7,
         8,
         9,
-        10
+        10,
+        11
       ],
       "segments": [
         {
@@ -4591,10 +4828,10 @@
         38.543285
       ],
       "fids": [
-        11,
         12,
         13,
-        14
+        14,
+        15
       ],
       "segments": [
         {
@@ -4884,8 +5121,8 @@
         37.790421
       ],
       "fids": [
-        375,
-        376
+        381,
+        382
       ],
       "segments": [
         {
@@ -5014,10 +5251,10 @@
         37.772502
       ],
       "fids": [
-        399,
-        400,
-        401,
-        402
+        405,
+        406,
+        407,
+        408
       ],
       "segments": [
         {
@@ -5188,7 +5425,7 @@
         37.831971
       ],
       "fids": [
-        206
+        207
       ],
       "segments": [
         {
@@ -5305,8 +5542,8 @@
         37.72262
       ],
       "fids": [
-        34,
-        35
+        35,
+        36
       ],
       "segments": [
         {
@@ -5515,14 +5752,14 @@
         37.80914
       ],
       "fids": [
-        26,
         27,
         28,
         29,
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
       "segments": [
         {
@@ -5951,7 +6188,6 @@
         38.543285
       ],
       "fids": [
-        16,
         17,
         18,
         19,
@@ -5960,7 +6196,8 @@
         22,
         23,
         24,
-        25
+        25,
+        26
       ],
       "segments": [
         {
@@ -6305,7 +6542,6 @@
         37.859007
       ],
       "fids": [
-        283,
         284,
         285,
         286,
@@ -6315,7 +6551,8 @@
         290,
         291,
         292,
-        293
+        293,
+        294
       ],
       "segments": [
         {
@@ -6772,7 +7009,7 @@
         37.794462
       ],
       "fids": [
-        365
+        371
       ],
       "segments": [
         {
@@ -6903,7 +7140,7 @@
         37.798581
       ],
       "fids": [
-        214
+        215
       ],
       "segments": [
         {
@@ -7036,12 +7273,6 @@
         37.806482
       ],
       "fids": [
-        990,
-        991,
-        992,
-        993,
-        994,
-        995,
         996,
         997,
         998,
@@ -7049,7 +7280,13 @@
         1000,
         1001,
         1002,
-        1003
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009
       ],
       "segments": [
         {
@@ -7489,7 +7726,7 @@
         37.791639
       ],
       "fids": [
-        941
+        947
       ],
       "segments": [
         {
@@ -7612,10 +7849,10 @@
         37.577468
       ],
       "fids": [
-        1074,
-        1075,
-        1076,
-        1077
+        1080,
+        1081,
+        1082,
+        1083
       ],
       "segments": [
         {
@@ -7941,12 +8178,6 @@
         37.80035
       ],
       "fids": [
-        966,
-        967,
-        968,
-        969,
-        970,
-        971,
         972,
         973,
         974,
@@ -7955,7 +8186,13 @@
         977,
         978,
         979,
-        980
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        986
       ],
       "segments": [
         {
@@ -8350,15 +8587,15 @@
         37.81612
       ],
       "fids": [
-        1140,
-        1141,
-        1142,
-        1143,
-        1144,
-        1145,
         1146,
         1147,
-        1148
+        1148,
+        1149,
+        1150,
+        1151,
+        1152,
+        1153,
+        1154
       ],
       "segments": [
         {
@@ -8692,15 +8929,15 @@
         37.824321
       ],
       "fids": [
-        1122,
-        1123,
-        1124,
-        1125,
-        1126,
-        1127,
         1128,
         1129,
-        1130
+        1130,
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136
       ],
       "segments": [
         {
@@ -9197,14 +9434,14 @@
         37.805981
       ],
       "fids": [
-        1004,
-        1005,
-        1006,
-        1007,
-        1008,
-        1009,
         1010,
-        1011
+        1011,
+        1012,
+        1013,
+        1014,
+        1015,
+        1016,
+        1017
       ],
       "segments": [
         {
@@ -9495,7 +9732,7 @@
         37.796162
       ],
       "fids": [
-        427
+        433
       ],
       "segments": [
         {
@@ -9604,7 +9841,7 @@
         37.788015
       ],
       "fids": [
-        394
+        400
       ],
       "segments": [
         {
@@ -9746,16 +9983,16 @@
         37.806482
       ],
       "fids": [
-        1012,
-        1013,
-        1014,
-        1015,
-        1016,
-        1017,
         1018,
         1019,
         1020,
-        1021
+        1021,
+        1022,
+        1023,
+        1024,
+        1025,
+        1026,
+        1027
       ],
       "segments": [
         {
@@ -10075,14 +10312,14 @@
         37.793407
       ],
       "fids": [
-        419,
-        420,
-        421,
-        422,
-        423,
-        424,
         425,
-        426
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432
       ],
       "segments": [
         {
@@ -10324,7 +10561,7 @@
         37.840424
       ],
       "fids": [
-        212
+        213
       ],
       "segments": [
         {
@@ -10442,7 +10679,7 @@
         37.85646
       ],
       "fids": [
-        211
+        212
       ],
       "segments": [
         {
@@ -10550,7 +10787,7 @@
         37.785808
       ],
       "fids": [
-        382
+        388
       ],
       "segments": [
         {
@@ -10664,9 +10901,9 @@
         37.869656
       ],
       "fids": [
-        87,
         88,
-        89
+        89,
+        90
       ],
       "segments": [
         {
@@ -10800,7 +11037,7 @@
         37.817801
       ],
       "fids": [
-        282
+        283
       ],
       "segments": [
         {
@@ -10945,15 +11182,15 @@
         37.824321
       ],
       "fids": [
-        1131,
-        1132,
-        1133,
-        1134,
-        1135,
-        1136,
         1137,
         1138,
-        1139
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145
       ],
       "segments": [
         {
@@ -11458,7 +11695,7 @@
         38.10177
       ],
       "fids": [
-        221
+        222
       ],
       "segments": [
         {
@@ -11618,16 +11855,16 @@
         37.793407
       ],
       "fids": [
-        409,
-        410,
-        411,
-        412,
-        413,
-        414,
         415,
         416,
         417,
-        418
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424
       ],
       "segments": [
         {
@@ -11902,12 +12139,12 @@
         37.787654
       ],
       "fids": [
-        403,
-        404,
-        405,
-        406,
-        407,
-        408
+        409,
+        410,
+        411,
+        412,
+        413,
+        414
       ],
       "segments": [
         {
@@ -12109,7 +12346,7 @@
         38.04191
       ],
       "fids": [
-        219
+        220
       ],
       "segments": [
         {
@@ -12226,8 +12463,8 @@
         37.90596
       ],
       "fids": [
-        318,
-        319
+        319,
+        320
       ],
       "segments": [
         {
@@ -12412,7 +12649,7 @@
         37.929178
       ],
       "fids": [
-        294
+        295
       ],
       "segments": [
         {
@@ -12642,12 +12879,6 @@
         37.891351
       ],
       "fids": [
-        1098,
-        1099,
-        1100,
-        1101,
-        1102,
-        1103,
         1104,
         1105,
         1106,
@@ -12656,7 +12887,13 @@
         1109,
         1110,
         1111,
-        1112
+        1112,
+        1113,
+        1114,
+        1115,
+        1116,
+        1117,
+        1118
       ],
       "segments": [
         {
@@ -13182,7 +13419,6 @@
         37.80505
       ],
       "fids": [
-        43,
         44,
         45,
         46,
@@ -13194,7 +13430,8 @@
         52,
         53,
         54,
-        55
+        55,
+        56
       ],
       "segments": [
         {
@@ -13672,17 +13909,17 @@
         37.793407
       ],
       "fids": [
-        428,
-        429,
-        430,
-        431,
-        432,
-        433,
         434,
         435,
         436,
         437,
-        438
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444
       ],
       "segments": [
         {
@@ -14101,17 +14338,17 @@
         37.79492
       ],
       "fids": [
-        568,
-        569,
-        570,
-        571,
-        572,
-        573,
         574,
         575,
         576,
         577,
-        578
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584
       ],
       "segments": [
         {
@@ -14470,7 +14707,6 @@
         37.826543
       ],
       "fids": [
-        100,
         101,
         102,
         103,
@@ -14480,7 +14716,8 @@
         107,
         108,
         109,
-        110
+        110,
+        111
       ],
       "segments": [
         {
@@ -14857,16 +15094,16 @@
         37.79492
       ],
       "fids": [
-        579,
-        580,
-        581,
-        582,
-        583,
-        584,
         585,
         586,
         587,
-        588
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594
       ],
       "segments": [
         {
@@ -15229,7 +15466,6 @@
         37.827343
       ],
       "fids": [
-        111,
         112,
         113,
         114,
@@ -15253,7 +15489,8 @@
         132,
         133,
         134,
-        135
+        135,
+        136
       ],
       "segments": [
         {
@@ -16024,7 +16261,6 @@
         37.828691
       ],
       "fids": [
-        136,
         137,
         138,
         139,
@@ -16037,7 +16273,8 @@
         146,
         147,
         148,
-        149
+        149,
+        150
       ],
       "segments": [
         {
@@ -16433,12 +16670,6 @@
         37.79492
       ],
       "fids": [
-        589,
-        590,
-        591,
-        592,
-        593,
-        594,
         595,
         596,
         597,
@@ -16447,7 +16678,13 @@
         600,
         601,
         602,
-        603
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609
       ],
       "segments": [
         {
@@ -16934,7 +17171,6 @@
         37.80505
       ],
       "fids": [
-        150,
         151,
         152,
         153,
@@ -16949,7 +17185,8 @@
         162,
         163,
         164,
-        165
+        165,
+        166
       ],
       "segments": [
         {
@@ -17454,17 +17691,17 @@
         37.79492
       ],
       "fids": [
-        604,
-        605,
-        606,
-        607,
-        608,
-        609,
         610,
         611,
         612,
         613,
-        614
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620
       ],
       "segments": [
         {
@@ -17841,7 +18078,6 @@
         37.80505
       ],
       "fids": [
-        166,
         167,
         168,
         169,
@@ -17853,7 +18089,8 @@
         175,
         176,
         177,
-        178
+        178,
+        179
       ],
       "segments": [
         {
@@ -18303,14 +18540,14 @@
         37.808586
       ],
       "fids": [
-        615,
-        616,
-        617,
-        618,
-        619,
-        620,
         621,
-        622
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628
       ],
       "segments": [
         {
@@ -18571,12 +18808,6 @@
         37.807531
       ],
       "fids": [
-        623,
-        624,
-        625,
-        626,
-        627,
-        628,
         629,
         630,
         631,
@@ -18594,7 +18825,13 @@
         643,
         644,
         645,
-        646
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652
       ],
       "segments": [
         {
@@ -19345,10 +19582,10 @@
         37.800137
       ],
       "fids": [
-        191,
         192,
         193,
-        194
+        194,
+        195
       ],
       "segments": [
         {
@@ -19513,12 +19750,6 @@
         37.793407
       ],
       "fids": [
-        647,
-        648,
-        649,
-        650,
-        651,
-        652,
         653,
         654,
         655,
@@ -19528,7 +19759,13 @@
         659,
         660,
         661,
-        662
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
       ],
       "segments": [
         {
@@ -19969,16 +20206,16 @@
         37.784013
       ],
       "fids": [
-        663,
-        664,
-        665,
-        666,
-        667,
-        668,
         669,
         670,
         671,
-        672
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
       ],
       "segments": [
         {
@@ -20299,14 +20536,14 @@
         37.815099
       ],
       "fids": [
-        196,
         197,
         198,
         199,
         200,
         201,
         202,
-        203
+        203,
+        204
       ],
       "segments": [
         {
@@ -20657,12 +20894,12 @@
         37.805289
       ],
       "fids": [
-        673,
-        674,
-        675,
-        676,
-        677,
-        678
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
       ],
       "segments": [
         {
@@ -20895,7 +21132,6 @@
         37.852133
       ],
       "fids": [
-        56,
         57,
         58,
         59,
@@ -20905,7 +21141,8 @@
         63,
         64,
         65,
-        66
+        66,
+        67
       ],
       "segments": [
         {
@@ -21403,12 +21640,6 @@
         37.793407
       ],
       "fids": [
-        439,
-        440,
-        441,
-        442,
-        443,
-        444,
         445,
         446,
         447,
@@ -21420,7 +21651,13 @@
         453,
         454,
         455,
-        456
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462
       ],
       "segments": [
         {
@@ -21993,12 +22230,6 @@
         37.785729
       ],
       "fids": [
-        679,
-        680,
-        681,
-        682,
-        683,
-        684,
         685,
         686,
         687,
@@ -22017,7 +22248,13 @@
         700,
         701,
         702,
-        703
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709
       ],
       "segments": [
         {
@@ -22662,12 +22899,6 @@
         37.793407
       ],
       "fids": [
-        704,
-        705,
-        706,
-        707,
-        708,
-        709,
         710,
         711,
         712,
@@ -22683,7 +22914,13 @@
         722,
         723,
         724,
-        725
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731
       ],
       "segments": [
         {
@@ -23324,12 +23561,6 @@
         37.794281
       ],
       "fids": [
-        726,
-        727,
-        728,
-        729,
-        730,
-        731,
         732,
         733,
         734,
@@ -23342,7 +23573,13 @@
         741,
         742,
         743,
-        744
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750
       ],
       "segments": [
         {
@@ -23893,7 +24130,7 @@
         37.793564
       ],
       "fids": [
-        195
+        196
       ],
       "segments": [
         {
@@ -24016,12 +24253,6 @@
         37.789838
       ],
       "fids": [
-        745,
-        746,
-        747,
-        748,
-        749,
-        750,
         751,
         752,
         753,
@@ -24038,7 +24269,13 @@
         764,
         765,
         766,
-        767
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773
       ],
       "segments": [
         {
@@ -24694,8 +24931,8 @@
         37.867988
       ],
       "fids": [
-        204,
-        205
+        205,
+        206
       ],
       "segments": [
         {
@@ -24834,12 +25071,6 @@
         37.788999
       ],
       "fids": [
-        768,
-        769,
-        770,
-        771,
-        772,
-        773,
         774,
         775,
         776,
@@ -24861,7 +25092,13 @@
         792,
         793,
         794,
-        795
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801
       ],
       "segments": [
         {
@@ -25574,12 +25811,6 @@
         37.784013
       ],
       "fids": [
-        796,
-        797,
-        798,
-        799,
-        800,
-        801,
         802,
         803,
         804,
@@ -25591,7 +25822,13 @@
         810,
         811,
         812,
-        813
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819
       ],
       "segments": [
         {
@@ -26206,12 +26443,6 @@
         37.789284
       ],
       "fids": [
-        814,
-        815,
-        816,
-        817,
-        818,
-        819,
         820,
         821,
         822,
@@ -26221,7 +26452,13 @@
         826,
         827,
         828,
-        829
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835
       ],
       "segments": [
         {
@@ -26718,9 +26955,9 @@
         37.95684
       ],
       "fids": [
-        208,
         209,
-        210
+        210,
+        211
       ],
       "segments": [
         {
@@ -26880,15 +27117,15 @@
         37.793407
       ],
       "fids": [
-        457,
-        458,
-        459,
-        460,
-        461,
-        462,
         463,
         464,
-        465
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471
       ],
       "segments": [
         {
@@ -27251,12 +27488,6 @@
         37.778681
       ],
       "fids": [
-        830,
-        831,
-        832,
-        833,
-        834,
-        835,
         836,
         837,
         838,
@@ -27272,7 +27503,13 @@
         848,
         849,
         850,
-        851
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857
       ],
       "segments": [
         {
@@ -27921,12 +28158,6 @@
         37.793407
       ],
       "fids": [
-        852,
-        853,
-        854,
-        855,
-        856,
-        857,
         858,
         859,
         860,
@@ -27939,7 +28170,13 @@
         867,
         868,
         869,
-        870
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876
       ],
       "segments": [
         {
@@ -28448,17 +28685,17 @@
         37.782556
       ],
       "fids": [
-        871,
-        872,
-        873,
-        874,
-        875,
-        876,
         877,
         878,
         879,
         880,
-        881
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887
       ],
       "segments": [
         {
@@ -28759,12 +28996,12 @@
         37.805042
       ],
       "fids": [
-        882,
-        883,
-        884,
-        885,
-        886,
-        887
+        888,
+        889,
+        890,
+        891,
+        892,
+        893
       ],
       "segments": [
         {
@@ -28987,12 +29224,12 @@
         37.79492
       ],
       "fids": [
-        888,
-        889,
-        890,
-        891,
-        892,
-        893
+        894,
+        895,
+        896,
+        897,
+        898,
+        899
       ],
       "segments": [
         {
@@ -29285,12 +29522,12 @@
         37.79009
       ],
       "fids": [
-        894,
-        895,
-        896,
-        897,
-        898,
-        899
+        900,
+        901,
+        902,
+        903,
+        904,
+        905
       ],
       "segments": [
         {
@@ -29553,12 +29790,6 @@
         37.793407
       ],
       "fids": [
-        466,
-        467,
-        468,
-        469,
-        470,
-        471,
         472,
         473,
         474,
@@ -29572,7 +29803,13 @@
         482,
         483,
         484,
-        485
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491
       ],
       "segments": [
         {
@@ -30157,12 +30394,6 @@
         37.784013
       ],
       "fids": [
-        900,
-        901,
-        902,
-        903,
-        904,
-        905,
         906,
         907,
         908,
@@ -30179,7 +30410,13 @@
         919,
         920,
         921,
-        922
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928
       ],
       "segments": [
         {
@@ -30793,11 +31030,11 @@
         37.789284
       ],
       "fids": [
-        923,
-        924,
-        925,
-        926,
-        927
+        929,
+        930,
+        931,
+        932,
+        933
       ],
       "segments": [
         {
@@ -31011,19 +31248,19 @@
         37.793216
       ],
       "fids": [
-        928,
-        929,
-        930,
-        931,
-        932,
-        933,
         934,
         935,
         936,
         937,
         938,
         939,
-        940
+        940,
+        941,
+        942,
+        943,
+        944,
+        945,
+        946
       ],
       "segments": [
         {
@@ -31407,12 +31644,6 @@
         37.793407
       ],
       "fids": [
-        486,
-        487,
-        488,
-        489,
-        490,
-        491,
         492,
         493,
         494,
@@ -31421,7 +31652,13 @@
         497,
         498,
         499,
-        500
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506
       ],
       "segments": [
         {
@@ -31889,7 +32126,6 @@
         37.872473
       ],
       "fids": [
-        67,
         68,
         69,
         70,
@@ -31908,7 +32144,8 @@
         83,
         84,
         85,
-        86
+        86,
+        87
       ],
       "segments": [
         {
@@ -32431,12 +32668,6 @@
         37.793407
       ],
       "fids": [
-        501,
-        502,
-        503,
-        504,
-        505,
-        506,
         507,
         508,
         509,
@@ -32458,7 +32689,13 @@
         525,
         526,
         527,
-        528
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534
       ],
       "segments": [
         {
@@ -33199,12 +33436,6 @@
         37.793407
       ],
       "fids": [
-        529,
-        530,
-        531,
-        532,
-        533,
-        534,
         535,
         536,
         537,
@@ -33214,7 +33445,13 @@
         541,
         542,
         543,
-        544
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550
       ],
       "segments": [
         {
@@ -33679,17 +33916,17 @@
         37.793407
       ],
       "fids": [
-        545,
-        546,
-        547,
-        548,
-        549,
-        550,
         551,
         552,
         553,
         554,
-        555
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561
       ],
       "segments": [
         {
@@ -34010,7 +34247,6 @@
         37.804116
       ],
       "fids": [
-        90,
         91,
         92,
         93,
@@ -34019,7 +34255,8 @@
         96,
         97,
         98,
-        99
+        99,
+        100
       ],
       "segments": [
         {
@@ -34448,18 +34685,18 @@
         37.793407
       ],
       "fids": [
-        556,
-        557,
-        558,
-        559,
-        560,
-        561,
         562,
         563,
         564,
         565,
         566,
-        567
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573
       ],
       "segments": [
         {
@@ -34870,7 +35107,7 @@
         37.977386
       ],
       "fids": [
-        310
+        311
       ],
       "segments": [
         {
@@ -35028,7 +35265,6 @@
         38.464226
       ],
       "fids": [
-        300,
         301,
         302,
         303,
@@ -35037,7 +35273,8 @@
         306,
         307,
         308,
-        309
+        309,
+        310
       ],
       "segments": [
         {
@@ -35535,14 +35772,14 @@
         38.852585
       ],
       "fids": [
-        1037,
-        1038,
-        1039,
-        1040,
-        1041,
-        1042,
         1043,
-        1044
+        1044,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049,
+        1050
       ],
       "segments": [
         {
@@ -35904,11 +36141,11 @@
         37.806637
       ],
       "fids": [
-        377,
-        378,
-        379,
-        380,
-        381
+        383,
+        384,
+        385,
+        386,
+        387
       ],
       "segments": [
         {
@@ -36046,6 +36283,677 @@
       ]
     },
     {
+      "id": "otr-poplar-st",
+      "name": "Oakland Terminal freight, Louise St and Poplar St to 12th St",
+      "short_name": "Oakland Terminal, Poplar St",
+      "system": "oakland-terminal",
+      "system_name": "Oakland Terminal Railway",
+      "operators": [
+        {
+          "name": "Oakland Terminal Railway",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Oakland Terminal Railway's switching service over the Key System's A and B line track on Louise St and Poplar St, from Yerba Buena Ave to 12th St, for the industries along Poplar St and West Grand Ave.",
+      "fate": "abandoned",
+      "notes": "Drawn for the years the sources show it (decision 20), 1953-57. Its service on West Grand Ave, also named, isn't drawn: which stretch of the B line's track it used isn't stated.",
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced"
+      ],
+      "running": [
+        {
+          "date": "1953-11-10",
+          "source": "cpuc-d49307",
+          "pages": "2",
+          "note": "The A and B lines \"from Yerba Buena Avenue along Poplar Street and West Grand Avenue … are subject to retention by Oakland Terminal Railways for freight operations\"."
+        },
+        {
+          "date": "1957-09-10",
+          "source": "cpuc-d55545",
+          "pages": "4",
+          "note": "\"The Oakland Terminal Railway provides switching service for the industries along Poplar Street and West Grand Avenue.\""
+        }
+      ],
+      "undated": false,
+      "length_km": 2.34,
+      "confidence_km": {
+        "approximate": 1.45,
+        "digitized": 0.89
+      },
+      "bbox": [
+        -122.290221,
+        37.808692,
+        -122.284667,
+        37.82911
+      ],
+      "fids": [
+        323,
+        324
+      ],
+      "segments": [
+        {
+          "id": "key-poplar-north",
+          "name": "Poplar Junction to West Grand Avenue",
+          "opened": "1906-05-16",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "approximate",
+          "method": "Joined to key-trunk-shore at its end; then given point by point; then along today's Poplar Street centerline from -122.28469,37.82298 to West Grand Avenue (774 m; Overture 2026-09-23.1). South from Poplar Junction on Poplar Street; the street's north end is gone today, so the first 700 m are joined straight.",
+          "structure": "street",
+          "flags": [
+            "geometry_unverified"
+          ]
+        },
+        {
+          "id": "key-poplar-south",
+          "name": "Poplar Street, West Grand Avenue to 12th Street",
+          "opened": "1911-06-11",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Poplar Street centerline from West Grand Avenue to 12th Street (893 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Poplar Street.",
+          "structure": "street",
+          "flags": [
+            "conflicting_sources"
+          ],
+          "notes": "Dated from the through trains of June 11, 1911 (\"through train service was established yesterday\"), but the same article says \"Two cars operating separately have been giving service for more than a year\" over Twelfth Street via Poplar Junction, and the Tribune's history of October 25, 1912 says \"In 1909, the Twelfth street line was opened\": the track may date from 1909."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cpuc-d49307",
+          "title": "Public Utilities Commission of the State of California, Decision No. 49307 (Application No. 33920): Key System's A and B lines",
+          "author": "Public Utilities Commission of the State of California",
+          "date": "1953-11-10",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D49307_19531110_A33920.pdf",
+          "type": "official",
+          "license": "California public record (Public Utilities Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "cpuc-d49307",
+          "supports": [
+            "route"
+          ],
+          "pages": "2"
+        },
+        {
+          "id": "cpuc-d55545",
+          "title": "Public Utilities Commission of California, Decision No. 55545 (Case No. 5900): grade crossings on the Key System's Poplar and Louise Street line used by The Oakland Terminal Railway",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1957-09-10",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D55545_19570910_C5900.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "cpuc-d55545",
+          "supports": [
+            "route"
+          ],
+          "pages": "4",
+          "note": "\"from Tower No. 2 at Yerba Buena Avenue and Louise Street along the center of Louise Street to Poplar Street, thence along the center of Poplar Street to 12th Street. The line is double-tracked throughout.\""
+        },
+        {
+          "id": "oakland-tribune-1911-06-12",
+          "title": "Oakland Tribune, 1911-06-12: through service on the Poplar Street and Twelfth Street route",
+          "publisher": "Oakland Tribune",
+          "date": "1911-06-12",
+          "url": "https://archive.org/details/oakland-tribune-1911-06-12",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1911-06-12",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "\"the Twenty-second street Key Route line at Poplar Junction\"",
+          "pages": "2"
+        },
+        {
+          "id": "srj-1906-06-02-22nd-st",
+          "title": "The Twenty-Second Street branch of the Key Route",
+          "publisher": "Street Railway Journal 27(22)",
+          "date": "1906-06-02",
+          "url": "https://archive.org/details/streetrailwayjo271906newy",
+          "type": "journal",
+          "license": "Public domain (published 1906)",
+          "accessed": "2026-10-14",
+          "source": "srj-1906-06-02-22nd-st",
+          "supports": [
+            "opened"
+          ],
+          "pages": "848"
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "oakland-tribune-1912-10-25",
+          "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
+          "publisher": "Oakland Tribune",
+          "date": "1912-10-25",
+          "url": "https://archive.org/details/oakland-tribune-1912-10-25",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1912-10-25",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"In 1909, the Twelfth street line was opened.\" and \"In 1911, the Twelfth street line was extended\"."
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otr-40th-st",
+      "name": "Oakland Terminal freight, Yerba Buena Ave by 40th St to Shafter Ave",
+      "short_name": "Oakland Terminal, 40th St",
+      "system": "oakland-terminal",
+      "system_name": "Oakland Terminal Railway",
+      "operators": [
+        {
+          "name": "Oakland Terminal Railway (Western Pacific and Santa Fe)",
+          "from": "1943-07-01",
+          "to": "1957-04"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1943-07-01",
+      "closed": "1957-04",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Oakland Terminal Railway's freight over the Key System's track from Yerba Buena Ave along 40th St to Shafter Ave, where it met the Sacramento Northern: the Western Pacific's traffic to the Outer Harbor went this way until the Union St line opened in 1957.",
+      "fate": "replaced_by_rail",
+      "fate_note": "Given up with the Sacramento Northern's line to Oakland when the Union St line opened in 1957.",
+      "notes": "Drawn from the Oakland Terminal Railway's first day, July 1, 1943; its predecessor, the Oakland Terminal Railroad (1935-43), may have run freight here too, which no source says. Closed in April 1957, the month the CPUC gives the Union St line's opening; The Western Railroader has March 1. While the Key System's trains ran (to 1958) the track draws in their mode.",
+      "flags": [
+        "conflicting_sources"
+      ],
+      "undated": false,
+      "length_km": 2.26,
+      "confidence_km": {
+        "digitized": 2.26
+      },
+      "bbox": [
+        -122.284667,
+        37.828463,
+        -122.259778,
+        37.830986
+      ],
+      "fids": [
+        321,
+        322
+      ],
+      "segments": [
+        {
+          "id": "key-yerba-buena",
+          "name": "Yerba Buena Avenue to San Pablo Avenue",
+          "opened": "1903-10-26",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-trunk-shore at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (2 hand-read points, centred on the line symbol). Along Yerba Buena Avenue to the station at San Pablo Avenue.",
+          "structure": "street",
+          "flags": []
+        },
+        {
+          "id": "key-40th-st",
+          "name": "Yerba Buena Avenue and 40th Street to Shafter Avenue",
+          "opened": "1904-06-01",
+          "closed": "1958",
+          "borrowed": false,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Joined to key-yerba-buena at its end; then along today's Yerba Buena Avenue centerline from -122.27980,37.82960 to 40th Street (260 m; Overture 2026-09-23.1); then along today's 40th Street centerline from Yerba Buena Avenue to -122.25978,37.82846 (1450 m; Overture 2026-09-23.1, across gaps of up to 250 m where the street is cut today); checked on USGS Oakland West 1:24,000 (1949). Along Yerba Buena Avenue and 40th Street.",
+          "structure": "street",
+          "flags": []
+        }
+      ],
+      "sources": [
+        {
+          "id": "railway-age-1943-07-03",
+          "title": "Railway Age 115(1), July 3, 1943: \"Oakland Terminal begins operations July 1\"",
+          "publisher": "Simmons-Boardman Publishing Corporation",
+          "date": "1943-07-03",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_railway-age_1943-07-03_115_1",
+          "accessed": "2026-10-16",
+          "source": "railway-age-1943-07-03",
+          "supports": [
+            "opened",
+            "operator"
+          ],
+          "pages": "35",
+          "note": "The Oakland Terminal Railway \"took over, on July 1, all freight operations heretofore conducted by the Oakland Terminal Railroad Company, one of the Key System companies.\""
+        },
+        {
+          "id": "crc-d36427",
+          "title": "Railroad Commission of California, Decision No. 36427 (Application No. 25539): Oakland Terminal Railroad Co. sells its freight business to The Oakland Terminal Railway; merger into Key System",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1943-06-08",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D36427_19430608_A25539.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d36427",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "2",
+          "note": "Trackage rights over the Key System's passenger lines, and the Fortieth Street line from near Adeline St to near Broadway, for the connection with the Sacramento Northern."
+        },
+        {
+          "id": "cpuc-d55545",
+          "title": "Public Utilities Commission of California, Decision No. 55545 (Case No. 5900): grade crossings on the Key System's Poplar and Louise Street line used by The Oakland Terminal Railway",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1957-09-10",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D55545_19570910_C5900.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "cpuc-d55545",
+          "supports": [
+            "route",
+            "closed"
+          ],
+          "pages": "2-3",
+          "note": "The connection \"over the 'C' line tracks of the Key System Transit Lines from 40th and Shafter in Oakland to the Outer Harbor\", until the Union St line opened in April 1957."
+        },
+        {
+          "id": "western-railroader-1956-08",
+          "title": "The Western Railroader 19(10), August 1956: \"I.C.C. approves Sacramento Northern abandonment\"",
+          "publisher": "The Western Railroader",
+          "date": "1956-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1956-08_19_10",
+          "license": "Copyright status unknown (railfan periodical, 1956); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1956-08",
+          "supports": [
+            "closed"
+          ],
+          "pages": "8",
+          "note": "\"The Oakland Terminal will abandon service from Yerba Buena yards to 40th & Shafter over the Key System.\""
+        },
+        {
+          "id": "crc-d27770",
+          "title": "Railroad Commission of California, Decision No. 27770 (Application No. 19822): Key System, Ltd. leases its non-freight lines to Key Terminal Railway, Ltd.",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1935-02-25",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D27770_19350225_A19822.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d27770",
+          "supports": [
+            "general"
+          ],
+          "pages": "1, 4",
+          "note": "From March 1, 1935 the Key System's freight lines stayed with its freight company when the passenger lines were leased."
+        },
+        {
+          "id": "crc-d30868",
+          "title": "Railroad Commission of California, Decision No. 30868 (Application No. 19600, first supplemental order): Oakland Terminal Railroad Co. (formerly Key System, Ltd.)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1938-05-16",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D25901_to_D40599/D30868_19380516_A19600.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "crc-d30868",
+          "supports": [
+            "general"
+          ],
+          "pages": "1",
+          "note": "Key System, Ltd. renamed Oakland Terminal Railroad Co."
+        },
+        {
+          "id": "srj-1904-02-13-key-route-1",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (I)",
+          "publisher": "Street Railway Journal 23(7)",
+          "date": "1904-02-13",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-13-key-route-1",
+          "supports": [
+            "route"
+          ],
+          "pages": "251",
+          "note": "\"For 2980 ft. east of the subway the double tracks are carried on Yerba Buena Avenue to the station at the crossing of San Pablo Avenue.\""
+        },
+        {
+          "id": "srj-1904-02-20-key-route-2",
+          "title": "The San Francisco, Oakland & San Jose Railway: \"The Key Route\" (II)",
+          "publisher": "Street Railway Journal 23(8)",
+          "date": "1904-02-20",
+          "url": "https://archive.org/details/streetrailwayjo231904newy",
+          "type": "journal",
+          "license": "Public domain (published 1904)",
+          "accessed": "2026-10-14",
+          "source": "srj-1904-02-20-key-route-2",
+          "supports": [
+            "opened"
+          ],
+          "pages": "283",
+          "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903); Part I says \"At this writing only the Berkeley branch is in full operation\" (p. 247)."
+        },
+        {
+          "id": "haer-ca-32",
+          "title": "San Francisco Oakland Bay Bridge (HAER CA-32, addendum)",
+          "author": "Historic American Engineering Record; JRP Historical Consulting",
+          "publisher": "National Park Service, Historic American Engineering Record",
+          "date": "1999-05-01",
+          "url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ca/ca1300/ca1352/data/ca1352data.pdf",
+          "type": "official",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "haer-ca-32",
+          "supports": [
+            "closed"
+          ],
+          "pages": "215",
+          "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "oakland-tribune-1904-02-04",
+          "title": "Oakland Tribune, 1904-02-04: the Piedmont branch along Fortieth Street",
+          "publisher": "Oakland Tribune",
+          "date": "1904-02-04",
+          "url": "https://archive.org/details/oakland-tribune-1904-02-04",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1904-02-04",
+          "supports": [
+            "route"
+          ],
+          "note": "\"complete the Piedmont branch along Fortieth street\"",
+          "pages": "5"
+        },
+        {
+          "id": "oakland-tribune-1904-05-28",
+          "title": "Oakland Tribune, 1904-05-28: the Piedmont terminal and opening",
+          "publisher": "Oakland Tribune",
+          "date": "1904-05-28",
+          "url": "https://archive.org/details/oakland-tribune-1904-05-28",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-14",
+          "source": "oakland-tribune-1904-05-28",
+          "supports": [
+            "route",
+            "opened"
+          ],
+          "note": "\"The terminal of the road will be on Piedmont avenue, between Fortieth and Forty-first streets.\" \"Wednesday next at 10 a.m. the Key Route will inaugurate its ferry system in Piedmont.\"",
+          "pages": "3"
+        },
+        {
+          "id": "cpuc-d50731",
+          "title": "Public Utilities Commission of the State of California, Decision No. 50731 (Application No. 35880): Key System's C and E lines, night and Sunday buses",
+          "author": "Public Utilities Commission of the State of California",
+          "date": "1954-11-03",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D50731_19541103_A35880.pdf",
+          "type": "official",
+          "license": "California public record (Public Utilities Commission); cited for facts",
+          "accessed": "2026-10-14",
+          "source": "cpuc-d50731",
+          "supports": [
+            "route"
+          ],
+          "pages": "2",
+          "note": "Yerba Buena Avenue runs \"from Adeline Street to 40th Street\"."
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otr-union-st",
+      "name": "Oakland Terminal freight, the Union St line",
+      "short_name": "Union St line",
+      "system": "oakland-terminal",
+      "system_name": "Oakland Terminal Railway",
+      "operators": [
+        {
+          "name": "Oakland Terminal Railway and Western Pacific",
+          "from": "1957-04",
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1957-04",
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A line built in 1956-57 along Union St in West Oakland, from the Key System's 12th St track to the Western Pacific near First St, so that the Western Pacific's traffic no longer went by the Sacramento Northern and 40th St.",
+      "fate": "abandoned",
+      "notes": "Opened in April 1957 by the CPUC, March 1, 1957 by The Western Railroader. Shown only for 1957, the one year a source read here shows it in use; when it closed isn't sourced (the Oakland Terminal still ran 10 miles of switching track in West Oakland in 2013, by the State Rail Plan, which doesn't name its streets).",
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "running": [
+        {
+          "date": "1957-09-10",
+          "source": "cpuc-d55545",
+          "pages": "3",
+          "note": "In operation."
+        }
+      ],
+      "undated": false,
+      "length_km": 1.08,
+      "confidence_km": {
+        "digitized": 1.08
+      },
+      "bbox": [
+        -122.291405,
+        37.79945,
+        -122.288843,
+        37.808597
+      ],
+      "fids": [
+        325
+      ],
+      "segments": [
+        {
+          "id": "otr-union-st",
+          "name": "Union St, 12th St to Third St and the Western Pacific near First St",
+          "opened": "1957-04",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "digitized",
+          "method": "Along today's Union Street centerline from 12th Street to 3rd Street (812 m; Overture 2026-09-23.1, across gaps of up to 150 m where the street is cut today); then joined to wp-mole at its end; checked on USGS Oakland West 1:24,000 (1949). Along Union St from the Key System's 12th St line to Third St (CPUC Decision 53801); then, over the Western Pacific's property, to its line near First and Magnolia Sts, drawn straight to the end of the WP's mole track at Chestnut Junction, about 270 m: no source places that stretch.",
+          "structure": "street",
+          "flags": [
+            "closed_unsourced",
+            "conflicting_sources"
+          ],
+          "notes": "Opened in April 1957 (CPUC); The Western Railroader has it opening on March 1, 1957, with a gold spike."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cpuc-d53801",
+          "title": "Public Utilities Commission of California, Decision No. 53801 (Application No. 38249): Western Pacific and The Oakland Terminal Railway, line along Union Street, Oakland",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1956-09-25",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D53801_19560925_A38249.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "cpuc-d53801",
+          "supports": [
+            "route"
+          ],
+          "pages": "1-2",
+          "note": "Authorized September 25, 1956."
+        },
+        {
+          "id": "cpuc-d55545",
+          "title": "Public Utilities Commission of California, Decision No. 55545 (Case No. 5900): grade crossings on the Key System's Poplar and Louise Street line used by The Oakland Terminal Railway",
+          "publisher": "Public Utilities Commission of the State of California",
+          "date": "1957-09-10",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D55545_19570910_C5900.pdf",
+          "license": "California public record; cited for facts",
+          "accessed": "2026-10-16",
+          "source": "cpuc-d55545",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "3"
+        },
+        {
+          "id": "western-railroader-1957-04",
+          "title": "The Western Railroader 20(6), April 1957: \"Union Street line 'gold spike'\"",
+          "publisher": "The Western Railroader",
+          "date": "1957-04",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1957-04_20_6",
+          "license": "Copyright status unknown (railfan periodical, 1957); cited for facts only (decision 19)",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1957-04",
+          "supports": [
+            "opened"
+          ],
+          "pages": "14",
+          "note": "\"The Oakland Terminal and the Western Pacific drove a gold spike on March 1 for the opening of the new Union Street trackage\"."
+        },
+        {
+          "id": "western-railroader-1956-08",
+          "title": "The Western Railroader 19(10), August 1956: \"I.C.C. approves Sacramento Northern abandonment\"",
+          "publisher": "The Western Railroader",
+          "date": "1956-08",
+          "type": "journal",
+          "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1956-08_19_10",
+          "license": "Copyright status unknown (railfan periodical, 1956); cited for facts only",
+          "accessed": "2026-10-16",
+          "source": "western-railroader-1956-08",
+          "supports": [
+            "route"
+          ],
+          "pages": "8"
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "overture-roads-2026-09-23-1",
+          "title": "Overture Maps Foundation, transportation theme (roads), release 2026-09-23.1",
+          "publisher": "Overture Maps Foundation",
+          "url": "https://docs.overturemaps.org/guides/transportation/",
+          "type": "dataset",
+          "license": "ODbL 1.0: © OpenStreetMap contributors, Overture Maps Foundation",
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sp-oakland-pier-ferry",
       "name": "Oakland ferry (Oakland Pier)",
       "short_name": "Oakland Pier ferry",
@@ -36088,7 +36996,7 @@
         37.812316
       ],
       "fids": [
-        215
+        216
       ],
       "segments": [
         {
@@ -36222,14 +37130,14 @@
         37.7762
       ],
       "fids": [
-        1179,
-        1180,
-        1181,
-        1182,
-        1183,
-        1184,
         1185,
-        1186
+        1186,
+        1187,
+        1188,
+        1189,
+        1190,
+        1191,
+        1192
       ],
       "segments": [
         {
@@ -36506,12 +37414,6 @@
         37.7762
       ],
       "fids": [
-        1165,
-        1166,
-        1167,
-        1168,
-        1169,
-        1170,
         1171,
         1172,
         1173,
@@ -36519,7 +37421,13 @@
         1175,
         1176,
         1177,
-        1178
+        1178,
+        1179,
+        1180,
+        1181,
+        1182,
+        1183,
+        1184
       ],
       "segments": [
         {
@@ -36999,9 +37907,9 @@
         38.401111
       ],
       "fids": [
-        320,
-        321,
-        322
+        326,
+        327,
+        328
       ],
       "segments": [
         {
@@ -37295,9 +38203,9 @@
         38.473244
       ],
       "fids": [
-        332,
-        333,
-        334
+        338,
+        339,
+        340
       ],
       "segments": [
         {
@@ -37543,15 +38451,15 @@
         38.445375
       ],
       "fids": [
-        323,
-        324,
-        325,
-        326,
-        327,
-        328,
         329,
         330,
-        331
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
       ],
       "segments": [
         {
@@ -37909,7 +38817,7 @@
         38.286441
       ],
       "fids": [
-        335
+        341
       ],
       "segments": [
         {
@@ -38074,7 +38982,7 @@
         38.242053
       ],
       "fids": [
-        299
+        300
       ],
       "segments": [
         {
@@ -38266,7 +39174,7 @@
         38.236239
       ],
       "fids": [
-        220
+        221
       ],
       "segments": [
         {
@@ -38436,7 +39344,6 @@
         37.830986
       ],
       "fids": [
-        241,
         242,
         243,
         244,
@@ -38444,7 +39351,8 @@
         246,
         247,
         248,
-        249
+        249,
+        250
       ],
       "segments": [
         {
@@ -38875,7 +39783,7 @@
         37.920757
       ],
       "fids": [
-        207
+        208
       ],
       "segments": [
         {
@@ -38979,7 +39887,7 @@
         37.941617
       ],
       "fids": [
-        218
+        219
       ],
       "segments": [
         {
@@ -39092,10 +40000,10 @@
         37.890752
       ],
       "fids": [
-        354,
-        355,
-        356,
-        357
+        360,
+        361,
+        362,
+        363
       ],
       "segments": [
         {
@@ -39411,12 +40319,6 @@
         38.42361
       ],
       "fids": [
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
         342,
         343,
         344,
@@ -39428,7 +40330,13 @@
         350,
         351,
         352,
-        353
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359
       ],
       "segments": [
         {
@@ -40241,7 +41149,6 @@
         37.887944
       ],
       "fids": [
-        269,
         270,
         271,
         272,
@@ -40253,7 +41160,8 @@
         278,
         279,
         280,
-        281
+        281,
+        282
       ],
       "segments": [
         {
@@ -40722,12 +41630,12 @@
         37.795493
       ],
       "fids": [
-        366,
-        367,
-        368,
-        369,
-        370,
-        371
+        372,
+        373,
+        374,
+        375,
+        376,
+        377
       ],
       "segments": [
         {
@@ -40921,7 +41829,7 @@
         37.797871
       ],
       "fids": [
-        217
+        218
       ],
       "segments": [
         {
@@ -41055,7 +41963,7 @@
         38.519886
       ],
       "fids": [
-        1045
+        1051
       ],
       "segments": [
         {
@@ -41237,12 +42145,12 @@
         38.809809
       ],
       "fids": [
-        1022,
-        1023,
-        1024,
-        1025,
-        1026,
-        1027
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033
       ],
       "segments": [
         {
@@ -41529,15 +42437,15 @@
         38.809809
       ],
       "fids": [
-        1028,
-        1029,
-        1030,
-        1031,
-        1032,
-        1033,
         1034,
         1035,
-        1036
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042
       ],
       "segments": [
         {
@@ -41907,7 +42815,7 @@
         38.09994
       ],
       "fids": [
-        213
+        214
       ],
       "segments": [
         {
@@ -42039,7 +42947,7 @@
         37.968652
       ],
       "fids": [
-        313
+        314
       ],
       "segments": [
         {
@@ -42287,7 +43195,7 @@
         37.94375
       ],
       "fids": [
-        312
+        313
       ],
       "segments": [
         {
@@ -42461,7 +43369,7 @@
         37.968652
       ],
       "fids": [
-        311
+        312
       ],
       "segments": [
         {
@@ -42682,8 +43590,8 @@
         37.908
       ],
       "fids": [
-        363,
-        364
+        369,
+        370
       ],
       "segments": [
         {
@@ -42921,11 +43829,11 @@
         38.049065
       ],
       "fids": [
-        358,
-        359,
-        360,
-        361,
-        362
+        364,
+        365,
+        366,
+        367,
+        368
       ],
       "segments": [
         {
@@ -43442,10 +44350,10 @@
         38.453806
       ],
       "fids": [
-        295,
         296,
         297,
-        298
+        298,
+        299
       ],
       "segments": [
         {
@@ -43743,10 +44651,10 @@
         37.977386
       ],
       "fids": [
-        314,
         315,
         316,
-        317
+        317,
+        318
       ],
       "segments": [
         {
@@ -43952,11 +44860,11 @@
         38.434321
       ],
       "fids": [
-        1056,
-        1057,
-        1058,
-        1059,
-        1060
+        1062,
+        1063,
+        1064,
+        1065,
+        1066
       ],
       "segments": [
         {
@@ -44123,15 +45031,15 @@
         37.824321
       ],
       "fids": [
-        1113,
-        1114,
-        1115,
-        1116,
-        1117,
-        1118,
         1119,
         1120,
-        1121
+        1121,
+        1122,
+        1123,
+        1124,
+        1125,
+        1126,
+        1127
       ],
       "segments": [
         {
@@ -44630,12 +45538,6 @@
         37.891481
       ],
       "fids": [
-        1078,
-        1079,
-        1080,
-        1081,
-        1082,
-        1083,
         1084,
         1085,
         1086,
@@ -44649,7 +45551,13 @@
         1094,
         1095,
         1096,
-        1097
+        1097,
+        1098,
+        1099,
+        1100,
+        1101,
+        1102,
+        1103
       ],
       "segments": [
         {
@@ -45269,12 +46177,12 @@
         38.440268
       ],
       "fids": [
-        1050,
-        1051,
-        1052,
-        1053,
-        1054,
-        1055
+        1056,
+        1057,
+        1058,
+        1059,
+        1060,
+        1061
       ],
       "segments": [
         {
@@ -45636,19 +46544,19 @@
         37.796576
       ],
       "fids": [
-        1061,
-        1062,
-        1063,
-        1064,
-        1065,
-        1066,
         1067,
         1068,
         1069,
         1070,
         1071,
         1072,
-        1073
+        1073,
+        1074,
+        1075,
+        1076,
+        1077,
+        1078,
+        1079
       ],
       "segments": [
         {
@@ -46219,7 +47127,7 @@
         37.427138
       ],
       "fids": [
-        1187
+        1193
       ],
       "segments": [
         {
@@ -46525,16 +47433,16 @@
         37.80914
       ],
       "fids": [
-        1155,
-        1156,
-        1157,
-        1158,
-        1159,
-        1160,
         1161,
         1162,
         1163,
-        1164
+        1164,
+        1165,
+        1166,
+        1167,
+        1168,
+        1169,
+        1170
       ],
       "segments": [
         {
@@ -46876,13 +47784,13 @@
         38.057968
       ],
       "fids": [
-        36,
         37,
         38,
         39,
         40,
         41,
-        42
+        42,
+        43
       ],
       "segments": [
         {
@@ -47334,9 +48242,9 @@
         38.032436
       ],
       "fids": [
-        1188,
-        1189,
-        1190
+        1194,
+        1195,
+        1196
       ],
       "segments": [
         {
@@ -47580,10 +48488,10 @@
         38.462654
       ],
       "fids": [
-        1046,
-        1047,
-        1048,
-        1049
+        1052,
+        1053,
+        1054,
+        1055
       ],
       "segments": [
         {
@@ -47833,9 +48741,9 @@
         37.790312
       ],
       "fids": [
-        372,
-        373,
-        374
+        378,
+        379,
+        380
       ],
       "segments": [
         {
@@ -47981,15 +48889,15 @@
         37.789106
       ],
       "fids": [
-        942,
-        943,
-        944,
-        945,
-        946,
-        947,
         948,
         949,
-        950
+        950,
+        951,
+        952,
+        953,
+        954,
+        955,
+        956
       ],
       "segments": [
         {
@@ -48257,7 +49165,6 @@
         37.82911
       ],
       "fids": [
-        258,
         259,
         260,
         261,
@@ -48267,7 +49174,8 @@
         265,
         266,
         267,
-        268
+        268,
+        269
       ],
       "segments": [
         {
@@ -48744,14 +49652,14 @@
         37.82911
       ],
       "fids": [
-        250,
         251,
         252,
         253,
         254,
         255,
         256,
-        257
+        257,
+        258
       ],
       "segments": [
         {
@@ -49138,10 +50046,10 @@
         37.80035
       ],
       "fids": [
-        395,
-        396,
-        397,
-        398
+        401,
+        402,
+        403,
+        404
       ],
       "segments": [
         {
@@ -49336,7 +50244,7 @@
         38.0792
       ],
       "fids": [
-        15
+        16
       ],
       "segments": [
         {
@@ -49482,17 +50390,17 @@
         37.79562
       ],
       "fids": [
-        383,
-        384,
-        385,
-        386,
-        387,
-        388,
         389,
         390,
         391,
         392,
-        393
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399
       ],
       "segments": [
         {
@@ -49748,12 +50656,12 @@
         37.803847
       ],
       "fids": [
-        1149,
-        1150,
-        1151,
-        1152,
-        1153,
-        1154
+        1155,
+        1156,
+        1157,
+        1158,
+        1159,
+        1160
       ],
       "segments": [
         {
@@ -50062,8 +50970,8 @@
         37.800059
       ],
       "fids": [
-        1211,
-        1212
+        1217,
+        1218
       ],
       "segments": [
         {
@@ -50245,8 +51153,8 @@
         37.57739
       ],
       "fids": [
-        1213,
-        1214
+        1219,
+        1220
       ],
       "segments": [
         {
@@ -50431,12 +51339,6 @@
         37.80914
       ],
       "fids": [
-        1191,
-        1192,
-        1193,
-        1194,
-        1195,
-        1196,
         1197,
         1198,
         1199,
@@ -50450,7 +51352,13 @@
         1207,
         1208,
         1209,
-        1210
+        1210,
+        1211,
+        1212,
+        1213,
+        1214,
+        1215,
+        1216
       ],
       "segments": [
         {

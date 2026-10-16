@@ -11,6 +11,12 @@
       "short_name": "ACE"
     },
     {
+      "id": "alameda-belt-line",
+      "name": "Alameda Belt Line",
+      "short_name": "Alameda Belt Line",
+      "notes": "A freight belt line in Alameda: the city's line on Clement Ave (1918), sold to a company of the Western Pacific and the Santa Fe in 1925-26 and extended west; abandoned in 2012."
+    },
+    {
       "id": "amtrak",
       "name": "Amtrak",
       "short_name": "Amtrak"
@@ -172,6 +178,12 @@
       "name": "Northwestern Pacific Railroad",
       "short_name": "Northwestern Pacific",
       "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
+    },
+    {
+      "id": "oakland-terminal",
+      "name": "Oakland Terminal Railway",
+      "short_name": "Oakland Terminal",
+      "notes": "The Key System's freight company: Key System, Ltd., renamed the Oakland Terminal Railroad (1935), then the Oakland Terminal Railway of the Western Pacific and the Santa Fe (from July 1, 1943), switching West Oakland, Emeryville and the Outer Harbor."
     },
     {
       "id": "petaluma-santa-rosa",

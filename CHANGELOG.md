@@ -2,6 +2,21 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The freight belt lines, Alameda and West Oakland (decision 15)
+
+- **Alameda Belt Line, Clement Ave** (`alameda-belt-line/`): the city's belt line from Broadway to
+  Grand St, from the first freight on May 27, 1918 (*Oakland Tribune*), worked by the Southern
+  Pacific's switch engines by 1924, sold to the Western Pacific and Santa Fe's Alameda Belt Line
+  under CRC Decision 15177 (1925). Drawn to September 1941, the last date a source read on its page
+  shows it in use (the SP's employee timetable, decision 20); it was formally abandoned in 2012 (STB
+  notice AB 1090X). The 1926-27 extensions west aren't drawn: their openings aren't sourced.
+- **Oakland Terminal Railway** (`oakland-terminal/`): its freight over the Key System's track from
+  Yerba Buena Ave along 40th St to Shafter Ave, from its first day, July 1, 1943 (*Railway Age*), to
+  April 1957 (CRC D36427, CPUC D55545); its switching on Louise and Poplar Sts, 1953-57 (CPUC D49307,
+  D55545); and the Union St line, opened in April 1957 (CPUC D53801, D55545; *The Western
+  Railroader* has March 1), drawn along Union St and straight to the Western Pacific's track at
+  Chestnut Junction. Its Outer Harbor, mole and Emeryville tracks aren't placed by any source here.
+
 ## 2026-10-16: The Southern Pacific's Tracy line and Los Altos branch
 
 - **Southern Pacific trains, Oakland to Tracy by Martinez and Antioch** (`central-pacific/`): opened

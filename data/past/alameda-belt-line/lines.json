@@ -1,0 +1,108 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Alameda Belt Line, a freight line (decision 15). Research: docs/research/sources-2c/belt-lines.md.",
+ "lines": [
+  {
+   "id": "abl-clement-ave",
+   "name": "Alameda Belt Line, Clement Ave",
+   "short_name": "Alameda Belt Line",
+   "system": "alameda-belt-line",
+   "operators": [
+    {
+     "name": "City of Alameda (Southern Pacific's switch engines, by 1924)",
+     "from": "1918-05-27",
+     "to": null
+    },
+    {
+     "name": "Alameda Belt Line (Western Pacific and Santa Fe)",
+     "from": null,
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1918-05-27",
+   "closed": null,
+   "status": "closed",
+   "running": [
+    {
+     "date": "1924-03-25",
+     "source": "oakland-tribune-1924-03-25",
+     "pages": "15",
+     "note": "\"the Southern Pacific, now operating switching engines over the belt line by an agreement with the city\"."
+    },
+    {
+     "date": "1925-07-14",
+     "source": "crc-d15177",
+     "pages": "802-803",
+     "note": "The Railroad Commission lets the Alameda Belt Line buy the city's \"existing belt line railroad\" and extend it."
+    },
+    {
+     "date": "1941-09-28",
+     "source": "cscrm-2021-02-001466",
+     "pages": "17",
+     "note": "Rule 98: \"Alameda, Belt line bet'n West Alameda and Pacific Ave. 'stop.'\" and \"bet'n Eagle Ave. and Tynan\", its crossings of the Southern Pacific. Read on the page image."
+    }
+   ],
+   "summary": "A freight belt line along Clement Ave in Alameda, built by the city in 1918 to serve the new industries and shipyards of the north shore, worked by the Southern Pacific's switch engines; sold in 1925-26 to the Alameda Belt Line, owned by the Western Pacific and the Santa Fe, which extended it west.",
+   "fate": "abandoned",
+   "fate_note": "Formally abandoned under the Surface Transportation Board's notice AB 1090X, effective June 16, 2012, after no local traffic for at least two years; the last train isn't sourced.",
+   "route": [
+    {
+     "segment": "abl-clement-ave",
+     "note": "The extensions authorized in 1926-27, by Grand St, Buena Vista Ave and Sherman St and on across Webster St (CRC Decisions 16794, 18770), aren't drawn: their opening isn't sourced and their route west of Sherman St isn't placed."
+    }
+   ],
+   "sources": [
+    {
+     "source": "oakland-tribune-1918-05-27",
+     "supports": [
+      "opened"
+     ],
+     "pages": "9"
+    },
+    {
+     "source": "oakland-tribune-1924-03-25",
+     "supports": [
+      "operator"
+     ],
+     "pages": "15"
+    },
+    {
+     "source": "crc-d15177",
+     "supports": [
+      "route",
+      "operator"
+     ],
+     "pages": "801-805"
+    },
+    {
+     "source": "crc-d16794",
+     "supports": [
+      "general"
+     ],
+     "pages": "1-2",
+     "note": "The 1926 extension from Clement Ave near Minturn St by Grand St, Eagle Ave, Hibbard St, Buena Vista Ave and Sherman St."
+    },
+    {
+     "source": "cscrm-2021-02-001466",
+     "supports": [
+      "general"
+     ],
+     "pages": "17"
+    },
+    {
+     "source": "fr-2012-05-17-ab1090x",
+     "supports": [
+      "fate"
+     ],
+     "pages": "29456",
+     "note": "2.61 miles from Clement Ave and Broadway to near Constitution Way; \"No local traffic has moved over the line for at least 2 years\"."
+    }
+   ],
+   "flags": [
+    "closed_unsourced"
+   ],
+   "notes": "Drawn from the first freight, May 27, 1918, to the last date a source read on its page shows the line in use, September 1941 (decisions 15 and 20); it ran into the 1990s by pointer sources only. When the Alameda Belt Line company took over from the city isn't sourced."
+  }
+ ]
+}
