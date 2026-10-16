@@ -284,6 +284,34 @@
     "usgs-niles-1953"
    ],
    "note": "Today's Oakland Subdivision, the Western Pacific's line, from Fruitvale by Melrose, Elmhurst, San Leandro, Hayward and Decoto to Niles, where ACE's track joins it"
+  },
+  "wp-sj-niles-jct-warm-springs": {
+   "parts": [
+    {
+     "ohm": [
+      200451853
+     ]
+    }
+   ],
+   "check": [
+    "usgs-niles-1953",
+    "usgs-milpitas-1953"
+   ],
+   "note": "The San José branch from Niles Junction, on the main line just east of Niles, south by Irvington to Warm Springs, beside the Southern Pacific; the 1953 Niles sheet labels it Western Pacific and draws it where the way runs"
+  },
+  "wp-sj-warm-springs-east-san-jose": {
+   "parts": [
+    {
+     "ohm": [
+      198748683
+     ]
+    }
+   ],
+   "check": [
+    "usgs-milpitas-1953",
+    "usgs-san-jose-1943"
+   ],
+   "note": "From Warm Springs by Milpitas and Berryessa to the edge of east San José, where the way tagged Western Pacific ends; the 1943 San Jose sheet labels the line. BART's Silicon Valley extension runs on this right of way today. The branch's East San José depot isn't placed by any source here"
   }
  }
 }

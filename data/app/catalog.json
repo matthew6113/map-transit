@@ -48474,6 +48474,191 @@
       ]
     },
     {
+      "id": "wp-niles-san-jose",
+      "name": "Western Pacific trains, Niles to San José",
+      "short_name": "WP San José branch",
+      "system": "western-pacific",
+      "system_name": "Western Pacific Railroad",
+      "operators": [
+        {
+          "name": "Western Pacific",
+          "from": "1922-08-23",
+          "to": "1931-07"
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": "1922-08-23",
+      "closed": "1931-07",
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "The Western Pacific's branch trains from Niles by Irvington, Warm Springs, Milpitas and Berryessa to East San José, opened by a special from Oakland on August 23, 1922. By 1931, trains 101 and 102 ran between Niles and San José, meeting the Scenic Limited at Niles.",
+      "fate": "converted_to_bus",
+      "fate_note": "The Railroad Commission let the trains be replaced by a bus on June 29, 1931; the bus ran from July 13, 1931 and was itself given up under an order of November 16, 1931.",
+      "notes": "The first train, on August 23, 1922, was the Oakland Chamber of Commerce's special; the first day of regular trains isn't sourced. The order replacing the trains is dated June 29, 1931, effective ten days later, and the bus began on July 13, 1931, so the last trains ran in July 1931; the day isn't stated.",
+      "flags": [],
+      "undated": false,
+      "length_km": 25.76,
+      "confidence_km": {
+        "surveyed": 25.76
+      },
+      "bbox": [
+        -121.965232,
+        37.358914,
+        -121.871516,
+        37.57739
+      ],
+      "fids": [
+        1198,
+        1199
+      ],
+      "segments": [
+        {
+          "id": "wp-sj-niles-jct-warm-springs",
+          "name": "Niles Junction by Irvington to Warm Springs",
+          "opened": "1922-08-23",
+          "closed": null,
+          "note": "From Niles station the trains ran about half a kilometre along the main line to Niles Junction, which isn't drawn as part of this line.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200451853 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Pleasanton CA 1941 topographic map; checked on USGS Niles 1:24,000 (1953) and USGS Milpitas 1:24,000 (1953). The San José branch from Niles Junction, on the main line just east of Niles, south by Irvington to Warm Springs, beside the Southern Pacific; the 1953 Niles sheet labels it Western Pacific and draws it where the way runs.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "The Western Pacific's San José branch; Irvington and Warm Springs were on it (Sawyer, 1922, read in the scan's text only)."
+        },
+        {
+          "id": "wp-sj-warm-springs-east-san-jose",
+          "name": "Warm Springs by Milpitas and Berryessa to East San José",
+          "opened": "1922-08-23",
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 198748683 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Jose CA 1943 topographic map; checked on USGS Milpitas 1:24,000 (1953) and USGS San Jose 1:62,500 (1943). From Warm Springs by Milpitas and Berryessa to the edge of east San José, where the way tagged Western Pacific ends; the 1943 San Jose sheet labels the line. BART's Silicon Valley extension runs on this right of way today. The branch's East San José depot isn't placed by any source here.",
+          "structure": "surface",
+          "flags": [
+            "closed_unsourced"
+          ],
+          "notes": "Berryessa was a flag stop in 1931 (CRC D23837). BART's Silicon Valley extension runs on this right of way today."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1922-08-23",
+          "title": "Oakland Tribune, 1922-08-23: \"300 Oakland trade chiefs inaugurate new service to San Jose on Western Pacific\"",
+          "publisher": "Oakland Tribune",
+          "date": "1922-08-23",
+          "url": "https://archive.org/details/oakland-tribune-1922-08-23",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1922-08-23",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "1",
+          "note": "\"riding from Oakland to San Jose on the first train over the new line\"."
+        },
+        {
+          "id": "crc-d23837",
+          "title": "Railroad Commission of California, Decision No. 23837 (Application No. 17393)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-06-29",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23837_19310629_A17393.pdf",
+          "accessed": "2026-10-16",
+          "source": "crc-d23837",
+          "supports": [
+            "closed",
+            "route"
+          ],
+          "pages": "1, 4",
+          "note": "Trains 101 and 102 between Niles and San José, connecting with the Scenic Limited; discontinued, with a bus substituted."
+        },
+        {
+          "id": "crc-d24234",
+          "title": "Railroad Commission of California, Decision No. 24234 (Application No. 17767)",
+          "publisher": "Railroad Commission of the State of California",
+          "date": "1931-11-16",
+          "type": "official",
+          "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24234_19311116_A17767.pdf",
+          "accessed": "2026-10-16",
+          "source": "crc-d24234",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1-2",
+          "note": "The bus ran from July 13, 1931; its abandonment authorized November 16, 1931."
+        },
+        {
+          "id": "usgs-niles-1953",
+          "title": "Niles, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Niles_293546_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-niles-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-milpitas-1953",
+          "title": "Milpitas, Cal., topographic quadrangle, 1:24,000, 1953, printed 1955",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1953",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Milpitas_292969_1953_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-15",
+          "source": "usgs-milpitas-1953",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200451853"
+        },
+        {
+          "id": "usgs-san-jose-1943",
+          "title": "San Jose, Cal., topographic quadrangle, 1:62,500, 1943",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1943",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Jose_466308_1943_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-jose-1943",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "wp-oakland-stockton",
       "name": "Western Pacific trains, Oakland to Stockton",
       "short_name": "Western Pacific",

@@ -2,6 +2,17 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Western Pacific's San José branch, 1922-1931
+
+- **Western Pacific trains, Niles to San José** (`western-pacific/`): from Niles Junction by
+  Irvington, Warm Springs, Milpitas and Berryessa to East San José, from the first train, a special
+  from Oakland on August 23, 1922 (*Oakland Tribune*), to July 1931, when trains 101 and 102 gave
+  way to a bus (CRC Decisions 23837 and 24234; the bus ran from July 13, 1931). The first day of
+  regular trains and the last day of trains aren't stated.
+- Geometry: OpenHistoricalMap's ways, checked on the 1953 Niles and Milpitas sheets and the 1943
+  San Jose sheet, which label the line. It ends where OHM's Western Pacific way ends, at the edge
+  of east San José; the depot there isn't placed by any source here.
+
 ## 2026-10-16: The California & Nevada Railroad, 1889-1897
 
 - **California & Nevada trains, Emery to Bryant** (`california-nevada/`): the narrow-gauge line from

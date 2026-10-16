@@ -1558,6 +1558,16 @@
       "notes": "Decisions of the Railroad Commission, vol. 6, p. 752: \"With the exception of approximately two miles of line, this road was placed in operation in November, 1904.\" Read on the page image, October 15, 2026."
     },
     {
+      "id": "crc-d23837",
+      "title": "Railroad Commission of California, Decision No. 23837 (Application No. 17393)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1931-06-29",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D23837_19310629_A17393.pdf",
+      "accessed": "2026-10-16",
+      "notes": "The Western Pacific's San José branch: p. 1, \"Train No. 101 leaves San Jose at 10:15 A.M. and arrives at Niles at 11:05 A.M., connecting with No. 2, Scenic Limited eastbound\"; Berryessa a flag stop; the trains discontinued and a motor bus substituted, effective ten days after the order. p. 4: \"Dated at San Francisco, California, this 29th day of June, 1931.\" Read on the scanned pages."
+    },
+    {
       "id": "crc-d24224",
       "title": "Railroad Commission of California, Decision No. 24224: East Bay Street Railways: first supplemental opinion and order (Application No. 17062)",
       "publisher": "Railroad Commission of the State of California",
@@ -1567,6 +1577,16 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15",
       "notes": "p. 2: \"The present route of car line No. 11\" from \"Piedmont Avenue and Rio Vista\", and of No. 15 (38th Avenue) \"Commencing at Hopkins and 38th Avenue\". Read on the scanned pages (the text layers are poor OCR), October 15, 2026."
+    },
+    {
+      "id": "crc-d24234",
+      "title": "Railroad Commission of California, Decision No. 24234 (Application No. 17767)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1931-11-16",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D24234_19311116_A17767.pdf",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: the Western Pacific's bus between Niles and San José \"has been operated each day, commencing July 13, 1931, to and including October 21, 1931\"; p. 2: \"authorized to abandon its motor bus service between Niles, County of Alameda, and San Jose, County of Santa Clara\". Read on the scanned pages."
     },
     {
       "id": "crc-d24310",
@@ -3023,6 +3043,17 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-16",
       "notes": "Section B, p. 1: \"Southern Pacific Oakland terminals (Oakland Pier) consolidated during federal control and used jointly by Southern Pacific, Santa Fe, Western Pacific. After federal control Western Pacific withdrawn.\" Read on the page image by the research pass."
+    },
+    {
+      "id": "oakland-tribune-1922-08-23",
+      "title": "Oakland Tribune, 1922-08-23: \"300 Oakland trade chiefs inaugurate new service to San Jose on Western Pacific\"",
+      "publisher": "Oakland Tribune",
+      "date": "1922-08-23",
+      "url": "https://archive.org/details/oakland-tribune-1922-08-23",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 1 (scan leaf n0): the Oakland Chamber of Commerce \"today opened the new line of the Western Pacific Railway Company into the Santa Clara Valley, riding from Oakland to San Jose on the first train over the new line. They left the Western Pacific depot at 9 a. m.\" Read on the page image (docs/research/sources-2c/western-pacific.md, 1e)."
     },
     {
       "id": "oakland-tribune-1924-11-03",
