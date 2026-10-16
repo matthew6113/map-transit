@@ -37,6 +37,12 @@
       "short_name": "High-speed rail"
     },
     {
+      "id": "california-nevada",
+      "name": "California and Nevada Railroad",
+      "short_name": "California & Nevada",
+      "notes": "A narrow-gauge railroad from Emery, by Berkeley and San Pablo, up San Pablo Creek to Orinda Park and Bryant (built 1884-91), which carried the public only now and then."
+    },
+    {
       "id": "california-pacific",
       "name": "California Pacific Railroad",
       "short_name": "California Pacific",

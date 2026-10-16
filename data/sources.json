@@ -1069,6 +1069,18 @@
       "notes": "Each railroad's return gives the dates its stretches were \"opened for public use\"; the North Pacific Coast's is on p. 154 (Sausalito to Tomales, January 11, 1875; Tomales to Howards, October 16, 1876; Howards to Tyrone, April 2, 1877; Tyrone to Duncans, May 15, 1877), and the report's brief histories (p. 18) add \"Duncans to Cazadero April 11, 1886\". A Google scan. Re-read on the page images, October 15, 2026."
     },
     {
+      "id": "ca-brc-report-13",
+      "title": "Thirteenth Annual Report of the Board of Railroad Commissioners of the State of California, 1892",
+      "author": "Board of Railroad Commissioners of the State of California",
+      "publisher": "State Printing Office, Sacramento",
+      "date": "1892",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportboa44commgoog",
+      "license": "Public domain (State of California publication of 1892)",
+      "accessed": "2026-10-16",
+      "notes": "p. 118 (scan leaf n123), the California and Nevada Railroad's answer to Shively's complaint against all the railroads, sworn July 13, 1892: it \"denies that the rates of railroad fare charged and collected by said defendant are higher\" than they should be, and that \"the present fare schedules of said railroad company should be reduced\"; its income \"for freights and fares … does not now and never has paid the operating expenses\". A Google scan. Read on the page image."
+    },
+    {
       "id": "ca-brc-report-1894",
       "title": "Report of the Board of Railroad Commissioners of the State of California (first biennial), 1893-1894",
       "author": "Board of Railroad Commissioners of the State of California",
@@ -2646,6 +2658,17 @@
       "notes": "p. 37, \"General Review\" (scan n140): the first train of October 17, 1863 ran \"from the Mission Dolores to Big Tree Station\"; \"The principal depot at present is at the corner of Valencia and Market Streets.\""
     },
     {
+      "id": "langley-sf-directory-1892",
+      "title": "Langley's San Francisco Directory for the year commencing May, 1892",
+      "author": "Henry G. Langley",
+      "date": "1892",
+      "type": "primary_document",
+      "url": "https://archive.org/details/langleyssanfranc1892sanf",
+      "license": "Public domain (published 1892)",
+      "accessed": "2026-10-16",
+      "notes": "p. 327 (scan leaf n322): \"California and Nevada Railroad Co., ticket office, 650 Market\". Read on the page image."
+    },
+    {
       "id": "lat-1897-09-28-petaluma",
       "title": "Los Angeles Times, September 28, 1897: \"Petaluma's Street Railway Sold\"",
       "publisher": "Los Angeles Times",
@@ -2802,6 +2825,39 @@
       "url": "https://www.nps.gov/safr/learn/historyculture/hyde-street-pier.htm",
       "accessed": "2026-10-14",
       "notes": "\"Constructed by the Golden Gate Ferries, Ltd., the pier began as a single-slip ferry landing.\" \"The first ferry run departed Hyde Street Pier on May 28, 1922.\" \"The first ferry on the Berkeley run departed on June 16, 1927.\" In 1928 the company merged with the Southern Pacific to form Southern Pacific-Golden Gate Ferries, Ltd. The slips that had served the Sausalito run were removed in 1934 and replaced by one slip farther north. \"The last ferry departed Hyde Street Pier on July 25, 1938.\""
+    },
+    {
+      "id": "oakland-tribune-1889-10-10",
+      "title": "Oakland Daily Evening Tribune, 1889-10-10: the California and Nevada's trains",
+      "publisher": "Oakland Tribune",
+      "date": "1889-10-10",
+      "url": "https://archive.org/details/oakland-tribune-1889-10-10",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "Scan leaf n5 (no page number printed), \"The California and Nevada\": \"Regular trains are now run twice a week over the California and Nevada railroad to the end of the road near Orinda Park, General Wagner's ranch.\" The same column: the company told the Railroad Commission it had \"nothing to report\"; \"Trains were not then running regularly\". Read on the page image."
+    },
+    {
+      "id": "oakland-tribune-1896-06-20",
+      "title": "Oakland Tribune, 1896-06-20: the California and Nevada's daily express to Bryants",
+      "publisher": "Oakland Tribune",
+      "date": "1896-06-20",
+      "url": "https://archive.org/details/oakland-tribune-1896-06-20",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 7 (scan leaf n6), the railroad's advertisement, signed by its receiver: \"on and after June 1st a daily express train will be run between Oakland and Bryants in Contra Costa County, connecting with stage for Lafayette and Walnut Creek. Train leaves Emery station on arrival of the Berkeley train … returning will leave Bryants at 3:10 P. M. Freight and express received at Fortieth street and San Pablo avenue\". Read on the page image."
+    },
+    {
+      "id": "oakland-tribune-1897-12-07",
+      "title": "Oakland Tribune, 1897-12-07: \"C. & N. Railroad is not running\"",
+      "publisher": "Oakland Tribune",
+      "date": "1897-12-07",
+      "url": "https://archive.org/details/oakland-tribune-1897-12-07",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-16",
+      "notes": "p. 4 (scan leaf n3): \"The California and Nevada Railroad no longer runs trains regularly, owing to a lack of passengers and freight. Round trips are made two or three times a week.\" Read on the page image."
     },
     {
       "id": "oakland-tribune-1904-02-04",
@@ -3128,6 +3184,54 @@
       "license": "Public domain (published 1887)",
       "accessed": "2026-10-15",
       "notes": "The San Francisco and North Pacific Railroad, p. 873: \"Main Line of Road.— Point Tiburon, Cal., to Cloverdale, Cal 84.50 miles\", with branches from Fulton to Guerneville and from Donahue to Junction (Petaluma). Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "poors-1891",
+      "title": "Poor's Manual of the Railroads of the United States, vol. 24 (1891)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1891",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai24newyuoft",
+      "license": "Public domain (published 1891)",
+      "accessed": "2026-10-16",
+      "notes": "p. 83 (scan leaf n272), the California and Nevada Railroad: to a point 4 miles beyond San Pablo, 22 miles; \"formally opened in March, 1885 … Road now in contractor's hands. No operations other than transportation of construction materials.\" Read on the page image."
+    },
+    {
+      "id": "poors-1892",
+      "title": "Poor's Manual of the Railroads of the United States, vol. 25 (1892)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1892",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai25newyuoft",
+      "license": "Public domain (published 1892)",
+      "accessed": "2026-10-16",
+      "notes": "p. 95 (scan leaf n268), the California and Nevada Railroad: \"The extension from Orinda Park to Bryant was built in 1891. … No operations other than transportation of construction materials.\" Read on the page image."
+    },
+    {
+      "id": "poors-1893",
+      "title": "Poor's Manual of the Railroads of the United States, vol. 26 (1893)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1893",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai26newyuoft",
+      "license": "Public domain (published 1893)",
+      "accessed": "2026-10-16",
+      "notes": "p. 107 (scan leaf n340), the California and Nevada Railroad, 20.0 and 2.5 miles: \"Leased to and operated by the Pacific Construction and Improvement Co. of San Francisco, Cal. … Cars—passenger, 2; combination, 1\". Read on the page image."
+    },
+    {
+      "id": "poors-1896",
+      "title": "Poor's Manual of the Railroads of the United States, vol. 29 (1896)",
+      "author": "Henry V. Poor",
+      "publisher": "H. V. & H. W. Poor, New York",
+      "date": "1896",
+      "type": "book",
+      "url": "https://archive.org/details/poorsmanualofrai29newyuoft",
+      "license": "Public domain (published 1896)",
+      "accessed": "2026-10-16",
+      "notes": "pp. 339-340 (scan leaf n576), the California and Nevada Railroad, 23 miles, operated by the Oakland and San Francisco Terminal Co.: \"Operations, year ending June 30, 1895.—Earnings (passenger, $2,816; freight, $3,146)\". Read on the page image."
     },
     {
       "id": "poors-1897",

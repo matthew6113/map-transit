@@ -1745,10 +1745,6 @@
         37.804116
       ],
       "fids": [
-        168,
-        169,
-        170,
-        171,
         172,
         173,
         174,
@@ -1756,7 +1752,11 @@
         176,
         177,
         178,
-        179
+        179,
+        180,
+        181,
+        182,
+        183
       ],
       "segments": [
         {
@@ -2255,10 +2255,10 @@
         37.788015
       ],
       "fids": [
-        933,
-        934,
-        935,
-        936
+        937,
+        938,
+        939,
+        940
       ],
       "segments": [
         {
@@ -2408,7 +2408,7 @@
         37.797871
       ],
       "fids": [
-        205
+        209
       ],
       "segments": [
         {
@@ -2526,17 +2526,17 @@
         37.793407
       ],
       "fids": [
-        937,
-        938,
-        939,
-        940,
         941,
         942,
         943,
         944,
         945,
         946,
-        947
+        947,
+        948,
+        949,
+        950,
+        951
       ],
       "segments": [
         {
@@ -2811,10 +2811,6 @@
         37.891454
       ],
       "fids": [
-        211,
-        212,
-        213,
-        214,
         215,
         216,
         217,
@@ -2829,7 +2825,11 @@
         226,
         227,
         228,
-        229
+        229,
+        230,
+        231,
+        232,
+        233
       ],
       "segments": [
         {
@@ -3444,15 +3444,15 @@
         37.793407
       ],
       "fids": [
-        963,
-        964,
-        965,
-        966,
         967,
         968,
         969,
         970,
-        971
+        971,
+        972,
+        973,
+        974,
+        975
       ],
       "segments": [
         {
@@ -3719,6 +3719,381 @@
       ]
     },
     {
+      "id": "cn-oakland-bryant",
+      "name": "California & Nevada trains, Emery to Bryant",
+      "short_name": "California & Nevada",
+      "system": "california-nevada",
+      "system_name": "California and Nevada Railroad",
+      "operators": [
+        {
+          "name": "California and Nevada Railroad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "mode": "railroad",
+      "mode_label": "Railroad",
+      "group": "heavy_rail",
+      "era": "past",
+      "opened": null,
+      "closed": null,
+      "status": "closed",
+      "status_label": "Closed",
+      "summary": "A narrow-gauge railroad from the Southern Pacific's Berkeley line at Emery, by Fortieth St and San Pablo Ave, Berkeley and San Pablo, up San Pablo Creek to Orinda Park and Bryant, built in the 1880s toward a Nevada line it never reached. It ran trains for the public now and then: twice a week to Orinda Park in 1889, a daily express to Bryant in the summer of 1896, two or three round trips a week by the end of 1897.",
+      "fate": "abandoned",
+      "fate_note": "By December 1897 it \"no longer runs trains regularly\" (Oakland Tribune). Its right of way north of Berkeley later carried the Santa Fe's Oakland line.",
+      "notes": "Drawn for the years the sources show it running (decision 20): from October 1889 to December 1897. Poor's gives a formal opening in March 1885 but, in 1891 and 1892, says the road carried only construction materials, which the Tribune of 1889 and the company's own answer of 1892 contradict; when its first public train ran isn't sourced. By December 1897 it ran only now and then; a daily train is reported again in 1899-1900, carrying hay and grain, and the line was sold at foreclosure about 1902, both read only in the scans' text (docs/research/sources-2c/dumbarton-cn.md).",
+      "flags": [
+        "opened_unsourced",
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "running": [
+        {
+          "date": "1889-10-10",
+          "source": "oakland-tribune-1889-10-10",
+          "pages": "n5",
+          "note": "\"Regular trains are now run twice a week … to the end of the road near Orinda Park\"."
+        },
+        {
+          "date": "1892-07-13",
+          "source": "ca-brc-report-13",
+          "pages": "118",
+          "note": "The company's sworn answer: it charged and collected fares, under \"fare schedules\"."
+        },
+        {
+          "date": "1895-06-30",
+          "source": "poors-1896",
+          "pages": "339",
+          "note": "Passenger earnings of $2,816 in the year to June 30, 1895."
+        },
+        {
+          "date": "1896-06-01",
+          "source": "oakland-tribune-1896-06-20",
+          "pages": "7",
+          "note": "\"on and after June 1st a daily express train will be run between Oakland and Bryants\"."
+        },
+        {
+          "date": "1897-12-07",
+          "source": "oakland-tribune-1897-12-07",
+          "pages": "4",
+          "note": "\"no longer runs trains regularly … Round trips are made two or three times a week.\""
+        }
+      ],
+      "undated": false,
+      "length_km": 35.08,
+      "confidence_km": {
+        "surveyed": 35.08
+      },
+      "bbox": [
+        -122.331724,
+        37.827911,
+        -122.178907,
+        37.966278
+      ],
+      "fids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "segments": [
+        {
+          "id": "cn-emery-russell",
+          "name": "Emery, by Fortieth St and San Pablo Ave, to Russell St, Berkeley",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200263309 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map, cut to -122.27943,37.85491; checked on USGS San Francisco 1:62,500 (1899) and USGS Oakland West 1:24,000 (1949). From the Southern Pacific's Berkeley line at Emery, east beside Fortieth St, across San Pablo Ave at Fortieth St, where the line's depot was, and north to Russell St, Berkeley. Not checked: the 1899 sheet draws the line here too faintly to compare, and by 1949 no track was left on it.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced",
+            "geometry_unverified"
+          ],
+          "notes": "Where the line ran between Emery and Berkeley is OpenHistoricalMap's reading of the 1895 sheet, unchecked: no later sheet here shows track on it. It crosses San Pablo Ave at Fortieth St, where the sources put the depot and freight office."
+        },
+        {
+          "id": "cn-russell-stege",
+          "name": "Russell St, Berkeley, by Albany to near Stege",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200263309 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS San Francisco 1895 topographic map, cut from -122.27943,37.85491; checked on USGS Oakland West 1:24,000 (1949), USGS Richmond 1:24,000 (1949) and USGS San Francisco 1:62,500 (1899). From Russell St, Berkeley, by University Ave and Albany to near Stege. The 1949 sheets draw the Santa Fe's track on this right of way, and the way follows it within a few metres; the 1899 sheet draws the line about 150-200 m further west, which is that sheet's misregistration.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "The Santa Fe's Oakland line later ran on this right of way; the 1949 sheets draw its track here."
+        },
+        {
+          "id": "cn-stege-orinda-park",
+          "name": "Near Stege, by San Pablo and San Pablo Creek, to Orinda Park",
+          "opened": null,
+          "closed": null,
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap ways 200250635, 200250636 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map; USGS San Francisco 1895 topographic map, cut to -122.20642,37.90176; checked on USGS San Francisco 1:62,500 (1899) and USGS Concord 1:62,500 (1897). By San Pablo and up San Pablo Creek, under today's San Pablo Reservoir, to Orinda Park. The 1897 Concord sheet labels it \"California and Nevada R.R.\". Orinda Park is placed 2.5 miles back from Bryant along the line, the length Poor's gives the 1891 extension; no source here locates its station.",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Most of the creek's valley is under San Pablo Reservoir today."
+        },
+        {
+          "id": "cn-orinda-park-bryant",
+          "name": "Orinda Park to Bryant",
+          "opened": null,
+          "closed": null,
+          "running": [
+            "1896-06-01"
+          ],
+          "note": "Built in 1891; the trains of 1889 ran to Orinda Park. Shown for 1896, when the daily express ran to Bryants.",
+          "borrowed": true,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "OpenHistoricalMap way 200250636 (CC0, as of 2026-10-16), which OHM's mappers drew from USGS Concord CA 1897 topographic map, cut from -122.20642,37.90176; checked on USGS Concord 1:62,500 (1897). Orinda Park to Bryant, the extension built in 1891, where the 1897 Concord sheet ends the line at \"Bryant\".",
+          "structure": "surface",
+          "flags": [
+            "opened_unsourced",
+            "closed_unsourced"
+          ],
+          "notes": "Built in 1891 (Poor's); its opening to trains isn't dated."
+        }
+      ],
+      "sources": [
+        {
+          "id": "oakland-tribune-1889-10-10",
+          "title": "Oakland Daily Evening Tribune, 1889-10-10: the California and Nevada's trains",
+          "publisher": "Oakland Tribune",
+          "date": "1889-10-10",
+          "url": "https://archive.org/details/oakland-tribune-1889-10-10",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1889-10-10",
+          "supports": [
+            "general",
+            "route"
+          ],
+          "pages": "n5"
+        },
+        {
+          "id": "ca-brc-report-13",
+          "title": "Thirteenth Annual Report of the Board of Railroad Commissioners of the State of California, 1892",
+          "author": "Board of Railroad Commissioners of the State of California",
+          "publisher": "State Printing Office, Sacramento",
+          "date": "1892",
+          "type": "official",
+          "url": "https://archive.org/details/annualreportboa44commgoog",
+          "license": "Public domain (State of California publication of 1892)",
+          "accessed": "2026-10-16",
+          "source": "ca-brc-report-13",
+          "supports": [
+            "general"
+          ],
+          "pages": "118",
+          "note": "The company's answer to a complaint over fares, sworn July 13, 1892; the line was 23 miles long."
+        },
+        {
+          "id": "langley-sf-directory-1892",
+          "title": "Langley's San Francisco Directory for the year commencing May, 1892",
+          "author": "Henry G. Langley",
+          "date": "1892",
+          "type": "primary_document",
+          "url": "https://archive.org/details/langleyssanfranc1892sanf",
+          "license": "Public domain (published 1892)",
+          "accessed": "2026-10-16",
+          "source": "langley-sf-directory-1892",
+          "supports": [
+            "general"
+          ],
+          "pages": "327",
+          "note": "\"California and Nevada Railroad Co., ticket office, 650 Market\"."
+        },
+        {
+          "id": "poors-1891",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 24 (1891)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1891",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai24newyuoft",
+          "license": "Public domain (published 1891)",
+          "accessed": "2026-10-16",
+          "source": "poors-1891",
+          "supports": [
+            "general"
+          ],
+          "pages": "83",
+          "note": "\"formally opened in March, 1885 … No operations other than transportation of construction materials\", which the newspapers and the company contradict."
+        },
+        {
+          "id": "poors-1892",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 25 (1892)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1892",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai25newyuoft",
+          "license": "Public domain (published 1892)",
+          "accessed": "2026-10-16",
+          "source": "poors-1892",
+          "supports": [
+            "route"
+          ],
+          "pages": "95"
+        },
+        {
+          "id": "poors-1893",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 26 (1893)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1893",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai26newyuoft",
+          "license": "Public domain (published 1893)",
+          "accessed": "2026-10-16",
+          "source": "poors-1893",
+          "supports": [
+            "route",
+            "operator"
+          ],
+          "pages": "107",
+          "note": "\"Leased to and operated by the Pacific Construction and Improvement Co.\"; two passenger cars and a combination car."
+        },
+        {
+          "id": "poors-1896",
+          "title": "Poor's Manual of the Railroads of the United States, vol. 29 (1896)",
+          "author": "Henry V. Poor",
+          "publisher": "H. V. & H. W. Poor, New York",
+          "date": "1896",
+          "type": "book",
+          "url": "https://archive.org/details/poorsmanualofrai29newyuoft",
+          "license": "Public domain (published 1896)",
+          "accessed": "2026-10-16",
+          "source": "poors-1896",
+          "supports": [
+            "general"
+          ],
+          "pages": "339-340"
+        },
+        {
+          "id": "oakland-tribune-1896-06-20",
+          "title": "Oakland Tribune, 1896-06-20: the California and Nevada's daily express to Bryants",
+          "publisher": "Oakland Tribune",
+          "date": "1896-06-20",
+          "url": "https://archive.org/details/oakland-tribune-1896-06-20",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1896-06-20",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "7",
+          "note": "Emery station; Fortieth St and San Pablo Ave; Bryants, with a stage to Lafayette and Walnut Creek."
+        },
+        {
+          "id": "oakland-tribune-1897-12-07",
+          "title": "Oakland Tribune, 1897-12-07: \"C. & N. Railroad is not running\"",
+          "publisher": "Oakland Tribune",
+          "date": "1897-12-07",
+          "url": "https://archive.org/details/oakland-tribune-1897-12-07",
+          "type": "primary_document",
+          "license": "Public domain (published before 1929)",
+          "accessed": "2026-10-16",
+          "source": "oakland-tribune-1897-12-07",
+          "supports": [
+            "general"
+          ],
+          "pages": "4"
+        },
+        {
+          "id": "usgs-san-francisco-1899",
+          "title": "San Francisco, Cal., topographic quadrangle, 1:62,500, 1899",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1899",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_San%20Francisco_298890_1899_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-san-francisco-1899",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-oakland-west-1949",
+          "title": "Oakland West, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Oakland%20West_293623_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-oakland-west-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "ohm-2026-10-16",
+          "title": "OpenHistoricalMap, railways and ferry routes in the map's area, as of 2026-10-16T15:44:51Z",
+          "publisher": "OpenHistoricalMap contributors",
+          "url": "https://www.openhistoricalmap.org/",
+          "type": "dataset",
+          "license": "CC0 1.0 (public domain dedication): https://www.openhistoricalmap.org/copyright",
+          "accessed": "2026-10-16",
+          "source": "ohm-2026-10-16",
+          "supports": [
+            "geometry"
+          ],
+          "note": "Ways 200263309"
+        },
+        {
+          "id": "usgs-richmond-1949",
+          "title": "Richmond, Cal., topographic quadrangle, 1:24,000, 1949",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1949",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Richmond_294669_1949_24000_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-richmond-1949",
+          "supports": [
+            "geometry"
+          ]
+        },
+        {
+          "id": "usgs-concord-1897",
+          "title": "Concord, Cal., topographic quadrangle, 1:62,500, 1897",
+          "author": "U.S. Geological Survey",
+          "publisher": "U.S. Geological Survey, Historical Topographic Map Collection",
+          "date": "1897",
+          "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CA/CA_Concord_297157_1897_62500_geo.tif",
+          "type": "primary_map",
+          "license": "Public domain (U.S. Government work)",
+          "accessed": "2026-10-14",
+          "source": "usgs-concord-1897",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    {
       "id": "calp-vallejo-calistoga",
       "name": "California Pacific trains, Vallejo to Calistoga",
       "short_name": "Napa Valley line",
@@ -3791,12 +4166,12 @@
         38.580148
       ],
       "fids": [
-        1,
-        2,
-        3,
-        4,
         5,
-        6
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "segments": [
         {
@@ -4216,10 +4591,10 @@
         38.543285
       ],
       "fids": [
-        7,
-        8,
-        9,
-        10
+        11,
+        12,
+        13,
+        14
       ],
       "segments": [
         {
@@ -4509,8 +4884,8 @@
         37.790421
       ],
       "fids": [
-        357,
-        358
+        361,
+        362
       ],
       "segments": [
         {
@@ -4639,10 +5014,10 @@
         37.772502
       ],
       "fids": [
-        381,
-        382,
-        383,
-        384
+        385,
+        386,
+        387,
+        388
       ],
       "segments": [
         {
@@ -4813,7 +5188,7 @@
         37.831971
       ],
       "fids": [
-        195
+        199
       ],
       "segments": [
         {
@@ -4930,8 +5305,8 @@
         37.72262
       ],
       "fids": [
-        30,
-        31
+        34,
+        35
       ],
       "segments": [
         {
@@ -5140,14 +5515,14 @@
         37.80914
       ],
       "fids": [
-        22,
-        23,
-        24,
-        25,
         26,
         27,
         28,
-        29
+        29,
+        30,
+        31,
+        32,
+        33
       ],
       "segments": [
         {
@@ -5576,16 +5951,16 @@
         38.543285
       ],
       "fids": [
-        12,
-        13,
-        14,
-        15,
         16,
         17,
         18,
         19,
         20,
-        21
+        21,
+        22,
+        23,
+        24,
+        25
       ],
       "segments": [
         {
@@ -5930,17 +6305,17 @@
         37.859007
       ],
       "fids": [
-        272,
-        273,
-        274,
-        275,
         276,
         277,
         278,
         279,
         280,
         281,
-        282
+        282,
+        283,
+        284,
+        285,
+        286
       ],
       "segments": [
         {
@@ -6397,7 +6772,7 @@
         37.794462
       ],
       "fids": [
-        347
+        351
       ],
       "segments": [
         {
@@ -6528,7 +6903,7 @@
         37.798581
       ],
       "fids": [
-        203
+        207
       ],
       "segments": [
         {
@@ -6661,10 +7036,6 @@
         37.806482
       ],
       "fids": [
-        972,
-        973,
-        974,
-        975,
         976,
         977,
         978,
@@ -6674,7 +7045,11 @@
         982,
         983,
         984,
-        985
+        985,
+        986,
+        987,
+        988,
+        989
       ],
       "segments": [
         {
@@ -7114,7 +7489,7 @@
         37.791639
       ],
       "fids": [
-        923
+        927
       ],
       "segments": [
         {
@@ -7237,10 +7612,10 @@
         37.577468
       ],
       "fids": [
-        1056,
-        1057,
-        1058,
-        1059
+        1060,
+        1061,
+        1062,
+        1063
       ],
       "segments": [
         {
@@ -7566,10 +7941,6 @@
         37.80035
       ],
       "fids": [
-        948,
-        949,
-        950,
-        951,
         952,
         953,
         954,
@@ -7580,7 +7951,11 @@
         959,
         960,
         961,
-        962
+        962,
+        963,
+        964,
+        965,
+        966
       ],
       "segments": [
         {
@@ -7975,15 +8350,15 @@
         37.81612
       ],
       "fids": [
-        1122,
-        1123,
-        1124,
-        1125,
         1126,
         1127,
         1128,
         1129,
-        1130
+        1130,
+        1131,
+        1132,
+        1133,
+        1134
       ],
       "segments": [
         {
@@ -8317,15 +8692,15 @@
         37.824321
       ],
       "fids": [
-        1104,
-        1105,
-        1106,
-        1107,
         1108,
         1109,
         1110,
         1111,
-        1112
+        1112,
+        1113,
+        1114,
+        1115,
+        1116
       ],
       "segments": [
         {
@@ -8822,14 +9197,14 @@
         37.805981
       ],
       "fids": [
-        986,
-        987,
-        988,
-        989,
         990,
         991,
         992,
-        993
+        993,
+        994,
+        995,
+        996,
+        997
       ],
       "segments": [
         {
@@ -9120,7 +9495,7 @@
         37.796162
       ],
       "fids": [
-        409
+        413
       ],
       "segments": [
         {
@@ -9229,7 +9604,7 @@
         37.788015
       ],
       "fids": [
-        376
+        380
       ],
       "segments": [
         {
@@ -9371,16 +9746,16 @@
         37.806482
       ],
       "fids": [
-        994,
-        995,
-        996,
-        997,
         998,
         999,
         1000,
         1001,
         1002,
-        1003
+        1003,
+        1004,
+        1005,
+        1006,
+        1007
       ],
       "segments": [
         {
@@ -9700,14 +10075,14 @@
         37.793407
       ],
       "fids": [
-        401,
-        402,
-        403,
-        404,
         405,
         406,
         407,
-        408
+        408,
+        409,
+        410,
+        411,
+        412
       ],
       "segments": [
         {
@@ -9949,7 +10324,7 @@
         37.840424
       ],
       "fids": [
-        201
+        205
       ],
       "segments": [
         {
@@ -10067,7 +10442,7 @@
         37.85646
       ],
       "fids": [
-        200
+        204
       ],
       "segments": [
         {
@@ -10175,7 +10550,7 @@
         37.785808
       ],
       "fids": [
-        364
+        368
       ],
       "segments": [
         {
@@ -10289,9 +10664,9 @@
         37.869656
       ],
       "fids": [
-        76,
-        77,
-        78
+        80,
+        81,
+        82
       ],
       "segments": [
         {
@@ -10425,7 +10800,7 @@
         37.817801
       ],
       "fids": [
-        271
+        275
       ],
       "segments": [
         {
@@ -10570,15 +10945,15 @@
         37.824321
       ],
       "fids": [
-        1113,
-        1114,
-        1115,
-        1116,
         1117,
         1118,
         1119,
         1120,
-        1121
+        1121,
+        1122,
+        1123,
+        1124,
+        1125
       ],
       "segments": [
         {
@@ -11083,7 +11458,7 @@
         38.10177
       ],
       "fids": [
-        210
+        214
       ],
       "segments": [
         {
@@ -11243,16 +11618,16 @@
         37.793407
       ],
       "fids": [
-        391,
-        392,
-        393,
-        394,
         395,
         396,
         397,
         398,
         399,
-        400
+        400,
+        401,
+        402,
+        403,
+        404
       ],
       "segments": [
         {
@@ -11527,12 +11902,12 @@
         37.787654
       ],
       "fids": [
-        385,
-        386,
-        387,
-        388,
         389,
-        390
+        390,
+        391,
+        392,
+        393,
+        394
       ],
       "segments": [
         {
@@ -11734,7 +12109,7 @@
         38.04191
       ],
       "fids": [
-        208
+        212
       ],
       "segments": [
         {
@@ -11851,8 +12226,8 @@
         37.90596
       ],
       "fids": [
-        304,
-        305
+        308,
+        309
       ],
       "segments": [
         {
@@ -12037,7 +12412,7 @@
         37.929178
       ],
       "fids": [
-        283
+        287
       ],
       "segments": [
         {
@@ -12267,10 +12642,6 @@
         37.891351
       ],
       "fids": [
-        1080,
-        1081,
-        1082,
-        1083,
         1084,
         1085,
         1086,
@@ -12281,7 +12652,11 @@
         1091,
         1092,
         1093,
-        1094
+        1094,
+        1095,
+        1096,
+        1097,
+        1098
       ],
       "segments": [
         {
@@ -12807,10 +13182,6 @@
         37.80505
       ],
       "fids": [
-        32,
-        33,
-        34,
-        35,
         36,
         37,
         38,
@@ -12819,7 +13190,11 @@
         41,
         42,
         43,
-        44
+        44,
+        45,
+        46,
+        47,
+        48
       ],
       "segments": [
         {
@@ -13297,17 +13672,17 @@
         37.793407
       ],
       "fids": [
-        410,
-        411,
-        412,
-        413,
         414,
         415,
         416,
         417,
         418,
         419,
-        420
+        420,
+        421,
+        422,
+        423,
+        424
       ],
       "segments": [
         {
@@ -13726,17 +14101,17 @@
         37.79492
       ],
       "fids": [
-        550,
-        551,
-        552,
-        553,
         554,
         555,
         556,
         557,
         558,
         559,
-        560
+        560,
+        561,
+        562,
+        563,
+        564
       ],
       "segments": [
         {
@@ -14095,17 +14470,17 @@
         37.826543
       ],
       "fids": [
-        89,
-        90,
-        91,
-        92,
         93,
         94,
         95,
         96,
         97,
         98,
-        99
+        99,
+        100,
+        101,
+        102,
+        103
       ],
       "segments": [
         {
@@ -14482,16 +14857,16 @@
         37.79492
       ],
       "fids": [
-        561,
-        562,
-        563,
-        564,
         565,
         566,
         567,
         568,
         569,
-        570
+        570,
+        571,
+        572,
+        573,
+        574
       ],
       "segments": [
         {
@@ -14854,10 +15229,6 @@
         37.827343
       ],
       "fids": [
-        100,
-        101,
-        102,
-        103,
         104,
         105,
         106,
@@ -14878,7 +15249,11 @@
         121,
         122,
         123,
-        124
+        124,
+        125,
+        126,
+        127,
+        128
       ],
       "segments": [
         {
@@ -15649,10 +16024,6 @@
         37.828691
       ],
       "fids": [
-        125,
-        126,
-        127,
-        128,
         129,
         130,
         131,
@@ -15662,7 +16033,11 @@
         135,
         136,
         137,
-        138
+        138,
+        139,
+        140,
+        141,
+        142
       ],
       "segments": [
         {
@@ -16058,10 +16433,6 @@
         37.79492
       ],
       "fids": [
-        571,
-        572,
-        573,
-        574,
         575,
         576,
         577,
@@ -16072,7 +16443,11 @@
         582,
         583,
         584,
-        585
+        585,
+        586,
+        587,
+        588,
+        589
       ],
       "segments": [
         {
@@ -16559,10 +16934,6 @@
         37.80505
       ],
       "fids": [
-        139,
-        140,
-        141,
-        142,
         143,
         144,
         145,
@@ -16574,7 +16945,11 @@
         151,
         152,
         153,
-        154
+        154,
+        155,
+        156,
+        157,
+        158
       ],
       "segments": [
         {
@@ -17079,17 +17454,17 @@
         37.79492
       ],
       "fids": [
-        586,
-        587,
-        588,
-        589,
         590,
         591,
         592,
         593,
         594,
         595,
-        596
+        596,
+        597,
+        598,
+        599,
+        600
       ],
       "segments": [
         {
@@ -17466,10 +17841,6 @@
         37.80505
       ],
       "fids": [
-        155,
-        156,
-        157,
-        158,
         159,
         160,
         161,
@@ -17478,7 +17849,11 @@
         164,
         165,
         166,
-        167
+        167,
+        168,
+        169,
+        170,
+        171
       ],
       "segments": [
         {
@@ -17928,14 +18303,14 @@
         37.808586
       ],
       "fids": [
-        597,
-        598,
-        599,
-        600,
         601,
         602,
         603,
-        604
+        604,
+        605,
+        606,
+        607,
+        608
       ],
       "segments": [
         {
@@ -18196,10 +18571,6 @@
         37.807531
       ],
       "fids": [
-        605,
-        606,
-        607,
-        608,
         609,
         610,
         611,
@@ -18219,7 +18590,11 @@
         625,
         626,
         627,
-        628
+        628,
+        629,
+        630,
+        631,
+        632
       ],
       "segments": [
         {
@@ -18970,10 +19345,10 @@
         37.800137
       ],
       "fids": [
-        180,
-        181,
-        182,
-        183
+        184,
+        185,
+        186,
+        187
       ],
       "segments": [
         {
@@ -19138,10 +19513,6 @@
         37.793407
       ],
       "fids": [
-        629,
-        630,
-        631,
-        632,
         633,
         634,
         635,
@@ -19153,7 +19524,11 @@
         641,
         642,
         643,
-        644
+        644,
+        645,
+        646,
+        647,
+        648
       ],
       "segments": [
         {
@@ -19594,16 +19969,16 @@
         37.784013
       ],
       "fids": [
-        645,
-        646,
-        647,
-        648,
         649,
         650,
         651,
         652,
         653,
-        654
+        654,
+        655,
+        656,
+        657,
+        658
       ],
       "segments": [
         {
@@ -19924,14 +20299,14 @@
         37.815099
       ],
       "fids": [
-        185,
-        186,
-        187,
-        188,
         189,
         190,
         191,
-        192
+        192,
+        193,
+        194,
+        195,
+        196
       ],
       "segments": [
         {
@@ -20282,12 +20657,12 @@
         37.805289
       ],
       "fids": [
-        655,
-        656,
-        657,
-        658,
         659,
-        660
+        660,
+        661,
+        662,
+        663,
+        664
       ],
       "segments": [
         {
@@ -20520,17 +20895,17 @@
         37.852133
       ],
       "fids": [
-        45,
-        46,
-        47,
-        48,
         49,
         50,
         51,
         52,
         53,
         54,
-        55
+        55,
+        56,
+        57,
+        58,
+        59
       ],
       "segments": [
         {
@@ -21028,10 +21403,6 @@
         37.793407
       ],
       "fids": [
-        421,
-        422,
-        423,
-        424,
         425,
         426,
         427,
@@ -21045,7 +21416,11 @@
         435,
         436,
         437,
-        438
+        438,
+        439,
+        440,
+        441,
+        442
       ],
       "segments": [
         {
@@ -21618,10 +21993,6 @@
         37.785729
       ],
       "fids": [
-        661,
-        662,
-        663,
-        664,
         665,
         666,
         667,
@@ -21642,7 +22013,11 @@
         682,
         683,
         684,
-        685
+        685,
+        686,
+        687,
+        688,
+        689
       ],
       "segments": [
         {
@@ -22287,10 +22662,6 @@
         37.793407
       ],
       "fids": [
-        686,
-        687,
-        688,
-        689,
         690,
         691,
         692,
@@ -22308,7 +22679,11 @@
         704,
         705,
         706,
-        707
+        707,
+        708,
+        709,
+        710,
+        711
       ],
       "segments": [
         {
@@ -22949,10 +23324,6 @@
         37.794281
       ],
       "fids": [
-        708,
-        709,
-        710,
-        711,
         712,
         713,
         714,
@@ -22967,7 +23338,11 @@
         723,
         724,
         725,
-        726
+        726,
+        727,
+        728,
+        729,
+        730
       ],
       "segments": [
         {
@@ -23518,7 +23893,7 @@
         37.793564
       ],
       "fids": [
-        184
+        188
       ],
       "segments": [
         {
@@ -23641,10 +24016,6 @@
         37.789838
       ],
       "fids": [
-        727,
-        728,
-        729,
-        730,
         731,
         732,
         733,
@@ -23663,7 +24034,11 @@
         746,
         747,
         748,
-        749
+        749,
+        750,
+        751,
+        752,
+        753
       ],
       "segments": [
         {
@@ -24319,8 +24694,8 @@
         37.867988
       ],
       "fids": [
-        193,
-        194
+        197,
+        198
       ],
       "segments": [
         {
@@ -24459,10 +24834,6 @@
         37.788999
       ],
       "fids": [
-        750,
-        751,
-        752,
-        753,
         754,
         755,
         756,
@@ -24486,7 +24857,11 @@
         774,
         775,
         776,
-        777
+        777,
+        778,
+        779,
+        780,
+        781
       ],
       "segments": [
         {
@@ -25199,10 +25574,6 @@
         37.784013
       ],
       "fids": [
-        778,
-        779,
-        780,
-        781,
         782,
         783,
         784,
@@ -25216,7 +25587,11 @@
         792,
         793,
         794,
-        795
+        795,
+        796,
+        797,
+        798,
+        799
       ],
       "segments": [
         {
@@ -25831,10 +26206,6 @@
         37.789284
       ],
       "fids": [
-        796,
-        797,
-        798,
-        799,
         800,
         801,
         802,
@@ -25846,7 +26217,11 @@
         808,
         809,
         810,
-        811
+        811,
+        812,
+        813,
+        814,
+        815
       ],
       "segments": [
         {
@@ -26343,9 +26718,9 @@
         37.95684
       ],
       "fids": [
-        197,
-        198,
-        199
+        201,
+        202,
+        203
       ],
       "segments": [
         {
@@ -26505,15 +26880,15 @@
         37.793407
       ],
       "fids": [
-        439,
-        440,
-        441,
-        442,
         443,
         444,
         445,
         446,
-        447
+        447,
+        448,
+        449,
+        450,
+        451
       ],
       "segments": [
         {
@@ -26876,10 +27251,6 @@
         37.778681
       ],
       "fids": [
-        812,
-        813,
-        814,
-        815,
         816,
         817,
         818,
@@ -26897,7 +27268,11 @@
         830,
         831,
         832,
-        833
+        833,
+        834,
+        835,
+        836,
+        837
       ],
       "segments": [
         {
@@ -27546,10 +27921,6 @@
         37.793407
       ],
       "fids": [
-        834,
-        835,
-        836,
-        837,
         838,
         839,
         840,
@@ -27564,7 +27935,11 @@
         849,
         850,
         851,
-        852
+        852,
+        853,
+        854,
+        855,
+        856
       ],
       "segments": [
         {
@@ -28073,17 +28448,17 @@
         37.782556
       ],
       "fids": [
-        853,
-        854,
-        855,
-        856,
         857,
         858,
         859,
         860,
         861,
         862,
-        863
+        863,
+        864,
+        865,
+        866,
+        867
       ],
       "segments": [
         {
@@ -28384,12 +28759,12 @@
         37.805042
       ],
       "fids": [
-        864,
-        865,
-        866,
-        867,
         868,
-        869
+        869,
+        870,
+        871,
+        872,
+        873
       ],
       "segments": [
         {
@@ -28612,12 +28987,12 @@
         37.79492
       ],
       "fids": [
-        870,
-        871,
-        872,
-        873,
         874,
-        875
+        875,
+        876,
+        877,
+        878,
+        879
       ],
       "segments": [
         {
@@ -28910,12 +29285,12 @@
         37.79009
       ],
       "fids": [
-        876,
-        877,
-        878,
-        879,
         880,
-        881
+        881,
+        882,
+        883,
+        884,
+        885
       ],
       "segments": [
         {
@@ -29178,10 +29553,6 @@
         37.793407
       ],
       "fids": [
-        448,
-        449,
-        450,
-        451,
         452,
         453,
         454,
@@ -29197,7 +29568,11 @@
         464,
         465,
         466,
-        467
+        467,
+        468,
+        469,
+        470,
+        471
       ],
       "segments": [
         {
@@ -29782,10 +30157,6 @@
         37.784013
       ],
       "fids": [
-        882,
-        883,
-        884,
-        885,
         886,
         887,
         888,
@@ -29804,7 +30175,11 @@
         901,
         902,
         903,
-        904
+        904,
+        905,
+        906,
+        907,
+        908
       ],
       "segments": [
         {
@@ -30418,11 +30793,11 @@
         37.789284
       ],
       "fids": [
-        905,
-        906,
-        907,
-        908,
-        909
+        909,
+        910,
+        911,
+        912,
+        913
       ],
       "segments": [
         {
@@ -30636,10 +31011,6 @@
         37.793216
       ],
       "fids": [
-        910,
-        911,
-        912,
-        913,
         914,
         915,
         916,
@@ -30648,7 +31019,11 @@
         919,
         920,
         921,
-        922
+        922,
+        923,
+        924,
+        925,
+        926
       ],
       "segments": [
         {
@@ -31032,10 +31407,6 @@
         37.793407
       ],
       "fids": [
-        468,
-        469,
-        470,
-        471,
         472,
         473,
         474,
@@ -31046,7 +31417,11 @@
         479,
         480,
         481,
-        482
+        482,
+        483,
+        484,
+        485,
+        486
       ],
       "segments": [
         {
@@ -31514,10 +31889,6 @@
         37.872473
       ],
       "fids": [
-        56,
-        57,
-        58,
-        59,
         60,
         61,
         62,
@@ -31533,7 +31904,11 @@
         72,
         73,
         74,
-        75
+        75,
+        76,
+        77,
+        78,
+        79
       ],
       "segments": [
         {
@@ -32056,10 +32431,6 @@
         37.793407
       ],
       "fids": [
-        483,
-        484,
-        485,
-        486,
         487,
         488,
         489,
@@ -32083,7 +32454,11 @@
         507,
         508,
         509,
-        510
+        510,
+        511,
+        512,
+        513,
+        514
       ],
       "segments": [
         {
@@ -32824,10 +33199,6 @@
         37.793407
       ],
       "fids": [
-        511,
-        512,
-        513,
-        514,
         515,
         516,
         517,
@@ -32839,7 +33210,11 @@
         523,
         524,
         525,
-        526
+        526,
+        527,
+        528,
+        529,
+        530
       ],
       "segments": [
         {
@@ -33304,17 +33679,17 @@
         37.793407
       ],
       "fids": [
-        527,
-        528,
-        529,
-        530,
         531,
         532,
         533,
         534,
         535,
         536,
-        537
+        537,
+        538,
+        539,
+        540,
+        541
       ],
       "segments": [
         {
@@ -33635,16 +34010,16 @@
         37.804116
       ],
       "fids": [
-        79,
-        80,
-        81,
-        82,
         83,
         84,
         85,
         86,
         87,
-        88
+        88,
+        89,
+        90,
+        91,
+        92
       ],
       "segments": [
         {
@@ -34073,10 +34448,6 @@
         37.793407
       ],
       "fids": [
-        538,
-        539,
-        540,
-        541,
         542,
         543,
         544,
@@ -34084,7 +34455,11 @@
         546,
         547,
         548,
-        549
+        549,
+        550,
+        551,
+        552,
+        553
       ],
       "segments": [
         {
@@ -34495,7 +34870,7 @@
         37.977386
       ],
       "fids": [
-        299
+        303
       ],
       "segments": [
         {
@@ -34653,16 +35028,16 @@
         38.464226
       ],
       "fids": [
-        289,
-        290,
-        291,
-        292,
         293,
         294,
         295,
         296,
         297,
-        298
+        298,
+        299,
+        300,
+        301,
+        302
       ],
       "segments": [
         {
@@ -35160,14 +35535,14 @@
         38.852585
       ],
       "fids": [
-        1019,
-        1020,
-        1021,
-        1022,
         1023,
         1024,
         1025,
-        1026
+        1026,
+        1027,
+        1028,
+        1029,
+        1030
       ],
       "segments": [
         {
@@ -35529,11 +35904,11 @@
         37.806637
       ],
       "fids": [
-        359,
-        360,
-        361,
-        362,
-        363
+        363,
+        364,
+        365,
+        366,
+        367
       ],
       "segments": [
         {
@@ -35713,7 +36088,7 @@
         37.812316
       ],
       "fids": [
-        204
+        208
       ],
       "segments": [
         {
@@ -35847,14 +36222,14 @@
         37.7762
       ],
       "fids": [
-        1161,
-        1162,
-        1163,
-        1164,
         1165,
         1166,
         1167,
-        1168
+        1168,
+        1169,
+        1170,
+        1171,
+        1172
       ],
       "segments": [
         {
@@ -36131,10 +36506,6 @@
         37.7762
       ],
       "fids": [
-        1147,
-        1148,
-        1149,
-        1150,
         1151,
         1152,
         1153,
@@ -36144,7 +36515,11 @@
         1157,
         1158,
         1159,
-        1160
+        1160,
+        1161,
+        1162,
+        1163,
+        1164
       ],
       "segments": [
         {
@@ -36624,9 +36999,9 @@
         38.401111
       ],
       "fids": [
-        306,
-        307,
-        308
+        310,
+        311,
+        312
       ],
       "segments": [
         {
@@ -36920,9 +37295,9 @@
         38.473244
       ],
       "fids": [
-        318,
-        319,
-        320
+        322,
+        323,
+        324
       ],
       "segments": [
         {
@@ -37168,15 +37543,15 @@
         38.445375
       ],
       "fids": [
-        309,
-        310,
-        311,
-        312,
         313,
         314,
         315,
         316,
-        317
+        317,
+        318,
+        319,
+        320,
+        321
       ],
       "segments": [
         {
@@ -37534,7 +37909,7 @@
         38.286441
       ],
       "fids": [
-        321
+        325
       ],
       "segments": [
         {
@@ -37699,7 +38074,7 @@
         38.242053
       ],
       "fids": [
-        288
+        292
       ],
       "segments": [
         {
@@ -37891,7 +38266,7 @@
         38.236239
       ],
       "fids": [
-        209
+        213
       ],
       "segments": [
         {
@@ -38061,15 +38436,15 @@
         37.830986
       ],
       "fids": [
-        230,
-        231,
-        232,
-        233,
         234,
         235,
         236,
         237,
-        238
+        238,
+        239,
+        240,
+        241,
+        242
       ],
       "segments": [
         {
@@ -38500,7 +38875,7 @@
         37.920757
       ],
       "fids": [
-        196
+        200
       ],
       "segments": [
         {
@@ -38604,7 +38979,7 @@
         37.941617
       ],
       "fids": [
-        207
+        211
       ],
       "segments": [
         {
@@ -38733,10 +39108,6 @@
         38.42361
       ],
       "fids": [
-        322,
-        323,
-        324,
-        325,
         326,
         327,
         328,
@@ -38750,7 +39121,11 @@
         336,
         337,
         338,
-        339
+        339,
+        340,
+        341,
+        342,
+        343
       ],
       "segments": [
         {
@@ -39563,10 +39938,6 @@
         37.887944
       ],
       "fids": [
-        258,
-        259,
-        260,
-        261,
         262,
         263,
         264,
@@ -39575,7 +39946,11 @@
         267,
         268,
         269,
-        270
+        270,
+        271,
+        272,
+        273,
+        274
       ],
       "segments": [
         {
@@ -40044,12 +40419,12 @@
         37.795493
       ],
       "fids": [
-        348,
-        349,
-        350,
-        351,
         352,
-        353
+        353,
+        354,
+        355,
+        356,
+        357
       ],
       "segments": [
         {
@@ -40243,7 +40618,7 @@
         37.797871
       ],
       "fids": [
-        206
+        210
       ],
       "segments": [
         {
@@ -40377,7 +40752,7 @@
         38.519886
       ],
       "fids": [
-        1027
+        1031
       ],
       "segments": [
         {
@@ -40559,12 +40934,12 @@
         38.809809
       ],
       "fids": [
-        1004,
-        1005,
-        1006,
-        1007,
         1008,
-        1009
+        1009,
+        1010,
+        1011,
+        1012,
+        1013
       ],
       "segments": [
         {
@@ -40851,15 +41226,15 @@
         38.809809
       ],
       "fids": [
-        1010,
-        1011,
-        1012,
-        1013,
         1014,
         1015,
         1016,
         1017,
-        1018
+        1018,
+        1019,
+        1020,
+        1021,
+        1022
       ],
       "segments": [
         {
@@ -41229,7 +41604,7 @@
         38.09994
       ],
       "fids": [
-        202
+        206
       ],
       "segments": [
         {
@@ -41345,8 +41720,8 @@
         37.908
       ],
       "fids": [
-        345,
-        346
+        349,
+        350
       ],
       "segments": [
         {
@@ -41584,11 +41959,11 @@
         38.049065
       ],
       "fids": [
-        340,
-        341,
-        342,
-        343,
-        344
+        344,
+        345,
+        346,
+        347,
+        348
       ],
       "segments": [
         {
@@ -42105,10 +42480,10 @@
         38.453806
       ],
       "fids": [
-        284,
-        285,
-        286,
-        287
+        288,
+        289,
+        290,
+        291
       ],
       "segments": [
         {
@@ -42406,10 +42781,10 @@
         37.977386
       ],
       "fids": [
-        300,
-        301,
-        302,
-        303
+        304,
+        305,
+        306,
+        307
       ],
       "segments": [
         {
@@ -42615,11 +42990,11 @@
         38.434321
       ],
       "fids": [
-        1038,
-        1039,
-        1040,
-        1041,
-        1042
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
       ],
       "segments": [
         {
@@ -42786,15 +43161,15 @@
         37.824321
       ],
       "fids": [
-        1095,
-        1096,
-        1097,
-        1098,
         1099,
         1100,
         1101,
         1102,
-        1103
+        1103,
+        1104,
+        1105,
+        1106,
+        1107
       ],
       "segments": [
         {
@@ -43293,10 +43668,6 @@
         37.891481
       ],
       "fids": [
-        1060,
-        1061,
-        1062,
-        1063,
         1064,
         1065,
         1066,
@@ -43312,7 +43683,11 @@
         1076,
         1077,
         1078,
-        1079
+        1079,
+        1080,
+        1081,
+        1082,
+        1083
       ],
       "segments": [
         {
@@ -43932,12 +44307,12 @@
         38.440268
       ],
       "fids": [
-        1032,
-        1033,
-        1034,
-        1035,
         1036,
-        1037
+        1037,
+        1038,
+        1039,
+        1040,
+        1041
       ],
       "segments": [
         {
@@ -44299,10 +44674,6 @@
         37.796576
       ],
       "fids": [
-        1043,
-        1044,
-        1045,
-        1046,
         1047,
         1048,
         1049,
@@ -44311,7 +44682,11 @@
         1052,
         1053,
         1054,
-        1055
+        1055,
+        1056,
+        1057,
+        1058,
+        1059
       ],
       "segments": [
         {
@@ -44870,16 +45245,16 @@
         37.80914
       ],
       "fids": [
-        1137,
-        1138,
-        1139,
-        1140,
         1141,
         1142,
         1143,
         1144,
         1145,
-        1146
+        1146,
+        1147,
+        1148,
+        1149,
+        1150
       ],
       "segments": [
         {
@@ -45225,9 +45600,9 @@
         38.032436
       ],
       "fids": [
-        1169,
-        1170,
-        1171
+        1173,
+        1174,
+        1175
       ],
       "segments": [
         {
@@ -45471,10 +45846,10 @@
         38.462654
       ],
       "fids": [
-        1028,
-        1029,
-        1030,
-        1031
+        1032,
+        1033,
+        1034,
+        1035
       ],
       "segments": [
         {
@@ -45724,9 +46099,9 @@
         37.790312
       ],
       "fids": [
-        354,
-        355,
-        356
+        358,
+        359,
+        360
       ],
       "segments": [
         {
@@ -45872,15 +46247,15 @@
         37.789106
       ],
       "fids": [
-        924,
-        925,
-        926,
-        927,
         928,
         929,
         930,
         931,
-        932
+        932,
+        933,
+        934,
+        935,
+        936
       ],
       "segments": [
         {
@@ -46148,17 +46523,17 @@
         37.82911
       ],
       "fids": [
-        247,
-        248,
-        249,
-        250,
         251,
         252,
         253,
         254,
         255,
         256,
-        257
+        257,
+        258,
+        259,
+        260,
+        261
       ],
       "segments": [
         {
@@ -46635,14 +47010,14 @@
         37.82911
       ],
       "fids": [
-        239,
-        240,
-        241,
-        242,
         243,
         244,
         245,
-        246
+        246,
+        247,
+        248,
+        249,
+        250
       ],
       "segments": [
         {
@@ -47029,10 +47404,10 @@
         37.80035
       ],
       "fids": [
-        377,
-        378,
-        379,
-        380
+        381,
+        382,
+        383,
+        384
       ],
       "segments": [
         {
@@ -47227,7 +47602,7 @@
         38.0792
       ],
       "fids": [
-        11
+        15
       ],
       "segments": [
         {
@@ -47373,17 +47748,17 @@
         37.79562
       ],
       "fids": [
-        365,
-        366,
-        367,
-        368,
         369,
         370,
         371,
         372,
         373,
         374,
-        375
+        375,
+        376,
+        377,
+        378,
+        379
       ],
       "segments": [
         {
@@ -47639,12 +48014,12 @@
         37.803847
       ],
       "fids": [
-        1131,
-        1132,
-        1133,
-        1134,
         1135,
-        1136
+        1136,
+        1137,
+        1138,
+        1139,
+        1140
       ],
       "segments": [
         {
@@ -47953,8 +48328,8 @@
         37.800059
       ],
       "fids": [
-        1192,
-        1193
+        1196,
+        1197
       ],
       "segments": [
         {
@@ -48137,10 +48512,6 @@
         37.80914
       ],
       "fids": [
-        1172,
-        1173,
-        1174,
-        1175,
         1176,
         1177,
         1178,
@@ -48156,7 +48527,11 @@
         1188,
         1189,
         1190,
-        1191
+        1191,
+        1192,
+        1193,
+        1194,
+        1195
       ],
       "segments": [
         {

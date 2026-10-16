@@ -2,6 +2,24 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The California & Nevada Railroad, 1889-1897
+
+- **California & Nevada trains, Emery to Bryant** (`california-nevada/`): the narrow-gauge line from
+  the Southern Pacific's Berkeley line at Emery, by Fortieth St and San Pablo Ave, Berkeley, Albany
+  and San Pablo, up San Pablo Creek to Orinda Park and Bryant. Drawn for the years the sources show
+  it running (decision 20): trains twice a week to Orinda Park in October 1889 (*Oakland Tribune*),
+  fares collected in 1892 (the company's answer in the Railroad Commissioners' thirteenth report),
+  passenger earnings in the year to June 1895 (*Poor's* 1896), a daily express to Bryants from June
+  1, 1896, and by December 7, 1897 only two or three round trips a week (*Oakland Tribune*). Its
+  opening and end aren't sourced: *Poor's* gives a formal opening in March 1885 but, in 1891-92,
+  says it carried only construction materials (`conflicting_sources`). Orinda Park to Bryant, built
+  in 1891, is shown for 1896 only.
+- Geometry: OpenHistoricalMap's ways, traced by its mappers from the 1895 San Francisco and 1897
+  Concord sheets (the 1897 sheet labels the line). From Russell St, Berkeley, to near Stege they run
+  within a few metres of the Santa Fe's track on the 1949 sheets, the same right of way; from Emery
+  to Russell St nothing later shows the track, so that stretch is `geometry_unverified`. Orinda Park
+  is placed 2.5 miles back from Bryant, the length *Poor's* gives the extension.
+
 ## 2026-10-16: The Western Pacific's passenger trains, 1910-1970
 
 - **Western Pacific trains, Oakland to Stockton** (`western-pacific/`): from the first through
