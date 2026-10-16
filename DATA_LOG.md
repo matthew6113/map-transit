@@ -283,7 +283,7 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, the Santa Fe from Bay Point to Richmond, and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways). |
+| Status | In use, for past lines on track still in place where no better map is traced (`rails.py`): the Napa Valley line, the California Pacific to Suisun, the Santa Fe from Bay Point to Richmond, the Sonoma Valley's lines (where OpenStreetMap maps their abandoned grades, class `unknown`), and the Petaluma & Santa Rosa, whose abandoned line OpenStreetMap still maps (class `unknown`, named "Petaluma and Santa Rosa Railroad"; a recipe's `names` keeps to those ways). |
 | Origin | Overture Maps transportation theme, release 2026-09-23.1, segments of subtype `rail` in the boxes `napa` (-122.62, 38.06, -122.03, 38.60) `sonoma` (-122.92, 38.22, -122.62, 38.50) and `santafe` (-122.42, 37.82, -121.55, 38.07). Read anonymously from S3 and cached in `data/raw/overture/`. Source id `overture-rail-2026-09-23-1`. |
 | Method | The shortest path over today's rail network between two points, each snapped onto it (within 150 m); `surveyed`. Checked against the USGS sheets of the line's years; where today's track was moved (as at Yountville), the old line is traced from the sheet instead. |
 | License | ODbL 1.0, © OpenStreetMap contributors and Overture Maps Foundation. |
@@ -325,9 +325,9 @@ The geometry tools are below (decision 12).
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|
-| past | 115 | 458 | 11 | 592.2 | 507.5 | 123.0 | 8 | 411 |
+| past | 118 | 468 | 11 | 684.4 | 527.9 | 123.0 | 8 | 421 |
 | present | 44 | 139 | 275 | 1676.8 | 0 | 0 | 12 | 48 |
 | future | 6 | 14 | 17 | 10.5 | 21.7 | 111.0 | 0 | 0 |
 
-Open flags: `closed_unsourced` 448, `conflicting_sources` 29, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 749, `page_unverified` 1, `status_unverified` 6.
+Open flags: `closed_unsourced` 458, `conflicting_sources` 29, `expected_opening_unsourced` 6, `geometry_unverified` 6, `license_unclear` 46, `needs_manual_digitizing` 7, `opened_unsourced` 751, `page_unverified` 1, `status_unverified` 6.
 <!-- coverage:end -->

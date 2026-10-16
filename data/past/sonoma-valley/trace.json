@@ -1,0 +1,501 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Sonoma Valley's railroads, from today's track, OpenStreetMap's mapped abandoned lines and OpenHistoricalMap's ways, and traced from the 1916, 1935 and 1942 sheets where none of those has them.",
+ "segments": {
+  "sp-srb-napa-junction-schellville": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.25071,
+       38.186
+      ],
+      [
+       -122.4405,
+       38.2475
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-mare-island-1916"
+   ],
+   "note": "Today's track, which the 1916 sheet labels Santa Rosa Branch, Southern Pacific"
+  },
+  "sp-srb-schellville-glen-ellen": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.4405,
+       38.2475
+      ],
+      [
+       -122.52251,
+       38.35378
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-mare-island-1916",
+    "usgs-santa-rosa-1916"
+   ],
+   "note": "OpenStreetMap's mapped abandoned line by El Verano and Yulupa, labelled S P on the 1916 sheet"
+  },
+  "sp-srb-glen-ellen-los-guilicos": {
+   "parts": [
+    {
+     "ohm": [
+      200461230
+     ],
+     "from": [
+      -122.52251,
+      38.35378
+     ],
+     "to": [
+      -122.52273,
+      38.35858
+     ]
+    },
+    {
+     "rail": [
+      [
+       -122.52273,
+       38.35858
+      ],
+      [
+       -122.60684,
+       38.44027
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-santa-rosa-1916"
+   ],
+   "note": "Through Glen Ellen on OpenHistoricalMap's way, traced from the 1916 sheet, then OpenStreetMap's mapped abandoned line by Kenwood"
+  },
+  "sp-srb-los-guilicos-santa-rosa": {
+   "parts": [
+    {
+     "ohm": [
+      200461230
+     ],
+     "from": [
+      -122.60684,
+      38.44027
+     ],
+     "to": [
+      -122.73,
+      38.4478
+     ]
+    }
+   ],
+   "check": [
+    "usgs-santa-rosa-1916"
+   ]
+  },
+  "sv-ignacio-sears-point": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.5425,
+       38.0805
+      ],
+      [
+       -122.4472,
+       38.1515
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-petaluma-1914",
+    "usgs-mare-island-1916"
+   ],
+   "note": "Today's track, from where the 1914 sheet's Sonoma Valley branch leaves the main line north of Ignacio"
+  },
+  "sv-sears-point-schellville": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.4472,
+       38.1515
+      ],
+      [
+       -122.4405,
+       38.2475
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-mare-island-1916"
+   ],
+   "note": "Today's track by Fairville, Quarries and Wingo, as the 1916 sheet draws the Northwestern Pacific"
+  },
+  "sv-schellville-sonoma": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.4405,
+       38.2475
+      ],
+      [
+       -122.4517,
+       38.2947
+      ]
+     ],
+     "area": "napa"
+    }
+   ],
+   "check": [
+    "usgs-sonoma-1942"
+   ],
+   "note": "OpenStreetMap's mapped abandoned line by Vineburg into Sonoma"
+  },
+  "sv-sonoma-madrone": {
+   "parts": [
+    {
+     "trace": {
+      "sheet": "usgs-sonoma-1942",
+      "bbox": [
+       -122.5,
+       38.29,
+       -122.448,
+       38.336
+      ],
+      "zoom": 1.2
+     },
+     "snap": 5,
+     "px": [
+      [
+       956,
+       1040
+      ],
+      [
+       900,
+       1010
+      ],
+      [
+       850,
+       992
+      ],
+      [
+       800,
+       978
+      ],
+      [
+       750,
+       966
+      ],
+      [
+       700,
+       955
+      ],
+      [
+       650,
+       944
+      ],
+      [
+       600,
+       930
+      ],
+      [
+       550,
+       912
+      ],
+      [
+       510,
+       896
+      ],
+      [
+       480,
+       875
+      ],
+      [
+       455,
+       845
+      ],
+      [
+       440,
+       800
+      ],
+      [
+       425,
+       750
+      ],
+      [
+       410,
+       700
+      ],
+      [
+       395,
+       650
+      ],
+      [
+       380,
+       600
+      ],
+      [
+       365,
+       560
+      ],
+      [
+       345,
+       510
+      ],
+      [
+       320,
+       470
+      ],
+      [
+       290,
+       420
+      ],
+      [
+       255,
+       360
+      ],
+      [
+       215,
+       300
+      ],
+      [
+       175,
+       240
+      ],
+      [
+       135,
+       185
+      ],
+      [
+       95,
+       135
+      ],
+      [
+       55,
+       95
+      ],
+      [
+       15,
+       60
+      ],
+      [
+       0,
+       48
+      ]
+     ]
+    }
+   ],
+   "est_error_m": 50,
+   "note": "West from Sonoma by Verano, then north through Boyes Springs and Agua Caliente, as the 1942 sheet draws the railroad; where it leaves that sheet it is about 100 m from where the 1916 sheet has it, joined straight"
+  },
+  "sv-madrone-glen-ellen": {
+   "parts": [
+    {
+     "join": "sv-sonoma-madrone"
+    },
+    {
+     "trace": {
+      "sheet": "usgs-santa-rosa-1916",
+      "bbox": [
+       -122.535,
+       38.29,
+       -122.4715,
+       38.368
+      ],
+      "zoom": 1.5
+     },
+     "snap": 4,
+     "px": [
+      [
+       840,
+       1010
+      ],
+      [
+       800,
+       960
+      ],
+      [
+       760,
+       905
+      ],
+      [
+       720,
+       860
+      ],
+      [
+       690,
+       825
+      ],
+      [
+       660,
+       780
+      ],
+      [
+       630,
+       735
+      ],
+      [
+       600,
+       690
+      ],
+      [
+       570,
+       650
+      ],
+      [
+       540,
+       610
+      ],
+      [
+       505,
+       575
+      ],
+      [
+       470,
+       545
+      ],
+      [
+       430,
+       515
+      ],
+      [
+       390,
+       490
+      ],
+      [
+       350,
+       470
+      ],
+      [
+       310,
+       450
+      ],
+      [
+       280,
+       420
+      ],
+      [
+       262,
+       380
+      ],
+      [
+       250,
+       330
+      ],
+      [
+       245,
+       280
+      ],
+      [
+       240,
+       230
+      ],
+      [
+       235,
+       180
+      ],
+      [
+       230,
+       140
+      ]
+     ]
+    }
+   ],
+   "est_error_m": 50,
+   "note": "By Madrone and along Sonoma Creek to Glen Ellen, west of the Southern Pacific, labelled N W P on the 1916 sheet"
+  },
+  "sfnp-sebastopol-branch": {
+   "parts": [
+    {
+     "ohm": [
+      202387872
+     ],
+     "from": [
+      -122.7949,
+      38.4116
+     ]
+    },
+    {
+     "trace": {
+      "sheet": "usgs-sebastopol-1935",
+      "bbox": [
+       -122.83,
+       38.395,
+       -122.795,
+       38.415
+      ],
+      "zoom": 2.0
+     },
+     "snap": 4,
+     "px": [
+      [
+       1500,
+       195
+      ],
+      [
+       1400,
+       240
+      ],
+      [
+       1300,
+       290
+      ],
+      [
+       1200,
+       340
+      ],
+      [
+       1100,
+       385
+      ],
+      [
+       1000,
+       430
+      ],
+      [
+       900,
+       475
+      ],
+      [
+       800,
+       520
+      ],
+      [
+       700,
+       565
+      ],
+      [
+       600,
+       610
+      ],
+      [
+       500,
+       645
+      ],
+      [
+       440,
+       660
+      ]
+     ]
+    }
+   ],
+   "check": [
+    "usgs-santa-rosa-1916",
+    "usgs-sebastopol-1935"
+   ],
+   "est_error_m": 30,
+   "note": "OpenHistoricalMap's way from Santa Rosa to Llano, which then follows the Petaluma & Santa Rosa into Sebastopol; from Llano the railroad's own track, labelled Northwestern Pacific on the 1935 sheet, traced to its end in Sebastopol"
+  }
+ }
+}

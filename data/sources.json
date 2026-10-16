@@ -1318,6 +1318,17 @@
       "accessed": "2026-10-14"
     },
     {
+      "id": "crc-d20488",
+      "title": "Railroad Commission of California, Decision No. 20488 (Application No. 14975)",
+      "publisher": "Railroad Commission of the State of California",
+      "date": "1928-11-16",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D11601_to_D25900/D20488_19281116_A14975.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-16",
+      "notes": "p. 1: \"an order authorizing the discontinuance of passenger train service on applicants' so-called Santa Rosa Branch between Napa Junction and Santa Rosa, California, a distance of 37 miles\"; trains 153 and 156 daily and 152 and 155 on Sundays; p. 5: granted, with Southern Pacific tickets honoured on the motor coaches of Southern Pacific Motor Transport Company between Napa and Santa Rosa; \"The effective date of this order is hereby fixed as twenty (20) days from the date hereof\", November 16, 1928. Read on the scanned pages."
+    },
+    {
       "id": "crc-d20559",
       "title": "Railroad Commission of California, Decision No. 20559 (Application No. 14948)",
       "publisher": "Railroad Commission of the State of California",
@@ -2053,6 +2064,28 @@
       "notes": "Printed \"In effect Sunday, December 5, 1920\", overstamped, with a typed box: \"EFFECTIVE 12:01 A. M. SUNDAY, JANUARY 9th, 1921\" (cover); p. 11 restores Richmond – Ferry Point – San Francisco. Cover read on the page image, October 16, 2026."
     },
     {
+      "id": "cscrm-2021-02-000909",
+      "title": "Southern Pacific Company, employee timetable No. 180, Supplement No. 2, August 17, 1922",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1922-08-17",
+      "url": "https://archive.org/details/cscrm_2021_02_000909",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 18: the Santa Rosa Branch, with trains 69 and 70 between San Francisco and Santa Rosa; stations Napa Junction, Squab, Brazos, Buchli, Merazo, ... Schellville, Snyder, El Verano, Boyes Springs, Agua Caliente, Sobre Vista, Yulupa, Eldridge, Glen Ellen, Warfield, ... Kenwood, ... Los Guilicos, Annadel, ... Melitta, ... Santa Rosa (36.7 miles from Napa Junction). Read on the page image by the research pass."
+    },
+    {
+      "id": "cscrm-2021-02-001171",
+      "title": "Northwestern Pacific Railroad, employee timetable No. 4, Southern Division, October 20, 1929",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1929-10-20",
+      "url": "https://archive.org/details/cscrm_2021_02_001171",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "p. 5: Ignacio, Black Point, Reclamation, Sears' Point, Fairville, McGill, Wingo, Schellville (\"S. P. Crossing\"), Vineburg, Buena Vista, Sonoma, Verano, Boyes Springs, Fetters Springs, Agua Caliente, Watriss, Madrone (\"S. P. Crossing\"), Eldridge, Glen Ellen, 26.3 miles from Ignacio, with \"Glen Ellen Passenger\" trains; the Sebastopol branch (Santa Rosa, Kenilworth, Gravenstein, Sebastopol, 6.3 miles) has no trains. Read on the page image by the research pass."
+    },
+    {
       "id": "cscrm-2021-02-001247",
       "title": "Atchison, Topeka and Santa Fe Railway, Coast Lines, employee timetable No. 67, 1932-03-06",
       "publisher": "Atchison, Topeka and Santa Fe Railway (California State Railroad Museum scan)",
@@ -2073,6 +2106,17 @@
       "license": "Copyright status unknown; cited for facts only (decision 19)",
       "accessed": "2026-10-15",
       "notes": "In effect Sunday, April 23, 1933: p. 8, the Third District from Riverbank and Stockton ends at Richmond (milepost 1189.6), with no Richmond Ave. or Ferry Point; p. 9, through trains run on by Oakland (40th and San Pablo) to Oakland Pier. Read on the page images, October 16, 2026."
+    },
+    {
+      "id": "cscrm-2021-02-001320",
+      "title": "Northwestern Pacific Railroad, Supplement No. 1 to employee timetable No. 12, January 15, 1934",
+      "publisher": "California State Railroad Museum scan",
+      "date": "1934-01-15",
+      "url": "https://archive.org/details/cscrm_2021_02_001320",
+      "type": "primary_document",
+      "license": "Copyright status unknown; cited for facts only (decision 19)",
+      "accessed": "2026-10-16",
+      "notes": "\"To Take Effect Monday, January 15, 1934, at 3:01 A. M.\": trains 140-143 become \"Kenwood Passenger\", running on from Agua Caliente by Watriss, Yulupa, Eldridge, Glen Ellen, Warfield, Beltane, Wildwood and Kenwood to Los Guilicos (p. 4). Read on the page images by the research pass."
     },
     {
       "id": "cscrm-2021-02-002311",
@@ -4108,6 +4152,17 @@
       "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
       "accessed": "2026-10-14",
       "notes": "A reminiscence, on the page printed \"Page Three\": \"the last day of regular service on the Sacramento Northern Railway, June 30, 1941\". Re-read on the page images, October 15, 2026."
+    },
+    {
+      "id": "western-railroader-1949-04",
+      "title": "The Western Railroader 12(6), April 1949: the Northwestern Pacific",
+      "publisher": "The Western Railroader",
+      "date": "1949-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1949-04_12_6",
+      "license": "Copyright status unknown (railfan periodical, 1949); cited for facts only",
+      "accessed": "2026-10-16",
+      "notes": "p. 10 (\"Page Ten\"): \"In 1917 passenger service was discontinued between Santa Rosa and Sebastopol.\" Read on the page image, October 16, 2026."
     },
     {
       "id": "western-railroader-1952-02",

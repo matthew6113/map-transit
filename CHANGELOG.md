@@ -2,6 +2,24 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-16: The Sonoma Valley's railroads and the Sebastopol branch
+
+- **Southern Pacific, Santa Rosa branch** (`sonoma-valley/`): Napa Junction by Schellville, El
+  Verano, Glen Ellen and Kenwood to Santa Rosa, opened May 31, 1888 (the Railroad Commissioners'
+  reports of 1889 and 1894); passenger trains ended under CRC Decision 20488, effective December 6,
+  1928, so on or about December 1928 (decision 17).
+- **Sonoma Valley branch, Ignacio to Glen Ellen**: from June 1, 1888, when the Marin & Napa joined
+  the Sonoma Valley Railroad (1880-82) to the main line, by Sears Point, Wingo, Schellville and
+  Sonoma; on to Kenwood from January 15, 1934 over the Southern Pacific's track; passenger trains
+  ended June 12, 1935 (Decisions 27973 and 34457). The first narrow-gauge line from Sonoma Landing
+  isn't drawn: where the landing was isn't sourced.
+- **Sebastopol branch**, Santa Rosa to Sebastopol: February 17, 1890 to 1917, its passenger end from
+  *The Western Railroader* of April 1949 (read on the page image).
+- Geometry: today's track to Schellville; OpenStreetMap's mapped abandoned grades up the valley and
+  by Kenwood; OpenHistoricalMap's ways (from the 1916 Santa Rosa sheet) into Santa Rosa and to Llano;
+  traced from the 1942 Sonoma sheet (Sonoma to Madrone), the 1916 Santa Rosa sheet (Madrone to Glen
+  Ellen) and the 1935 Sebastopol sheet (Llano to Sebastopol).
+
 ## 2026-10-16: The Mount Tamalpais railway
 
 - **Mount Tamalpais railway** (`mt-tamalpais/`): steam trains from the Northwestern Pacific's
