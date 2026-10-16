@@ -95,7 +95,9 @@ def verify(line: dict, v: dict) -> dict:
     record = next(s for s in line["sources"] if s["source"].endswith("-record"))
     record["supports"] = ["general"]
     record.pop("note", None)
-    line["sources"] = v["sources"] + line["sources"]
+    # A source the re-check cites (BAM's record among them) is cited as the re-check gives it.
+    cited = {s["source"] for s in v["sources"]}
+    line["sources"] = v["sources"] + [s for s in line["sources"] if s["source"] not in cited]
     line["flags"] = [f for f in line["flags"] if f != "status_unverified"
                      and not (f == "expected_opening_unsourced" and v["expected_opening"])] + v.get("flags", [])
     line["notes"] = v["notes"]

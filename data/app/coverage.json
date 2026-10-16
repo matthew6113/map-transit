@@ -47,7 +47,7 @@
     "undated_segments": 0,
     "borrowed_dates": 0,
     "flags": {
-      "conflicting_sources": 1,
+      "conflicting_sources": 2,
       "expected_opening_unsourced": 2,
       "license_unclear": 15
     }

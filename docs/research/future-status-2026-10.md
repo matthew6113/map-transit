@@ -247,6 +247,25 @@ Each entry is for Matthew to decide on; none is ranked or recommended. All are `
 - **Not searched separately:** Muni rail extensions (none known past planning), AC Transit's other
   corridors, and VTA's BRT corridors.
 
+## As applied: reconciled with BAM's records
+
+BAM's records of Oct 7-8 (`data/raw/bam/9600699ae10a/projects.json`, its `stageNote`, `nextMilestone`
+and `verify` fields) were read from the agencies' documents themselves, and for two lines they carry
+schedules newer than this pass could see. `data/future/verified.json` therefore differs from the
+proposals above:
+
+- **Status as of** is BAM's verification date (Oct 7, or Oct 8 for SMART) for all six: the last day
+  the documents were read. This pass found nothing that changes any status.
+- **The Portal:** "November 2036 (TJPA's forecast, September 2026)". BAM read TJPA's September 2026
+  status report (ready for service Nov 17, 2036) and lists FTA's oversight consultant's July 2026
+  target of July 16, 2036. The March 2026 deck's May 2036 is cited as earlier; `conflicting_sources`
+  stays, for those and the project page's 2035.
+- **Valley Link:** "Summer 2033 (Phase 1A, Dublin/Pleasanton to Vasco Road)", from the June 2026 MTC
+  request's schedule as BAM records it, against the undated project page's 2032; flagged
+  `conflicting_sources`.
+- BART Silicon Valley Phase II (2039, VTA's target 2037), SMART Healdsburg (December 2028), CAHSR
+  (none) and SMART Cloverdale (none) agree with BAM's records.
+
 ## Proposed sources.json entries
 
 ```json

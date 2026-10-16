@@ -8,12 +8,12 @@ from (`docs/SPEC.md`, phase 3). The research is in `future-status-2026-10.md`.
 
 | Line | Status | As of | Expected opening | From |
 |---|---|---|---|---|
-| BART Silicon Valley Phase II | under construction | Sep 1, 2026 | Q1 2039 (VTA's target: Q2 2037) | VTA's May 2026 executive report; its September 2026 post on early works |
-| The Portal | environmental | Jun 10, 2026 | May 2036 | MTC's June 2026 RM3 report; FTA's FY2027 report; TJPA's March 2026 deck and February 2026 status report |
-| CAHSR San Francisco to San José | environmental | Jun 1, 2026 | none stated | The Authority's 2026 Business Plan and Northern California page |
-| Valley Link | environmental | Jun 10, 2026 | 2032 (Phase 1A, Dublin/Pleasanton to Vasco Road) | MTC's June 2026 RM3 report; Valley Link's project page |
-| SMART Healdsburg | funded | Sep 16, 2026 | December 2028 | SMART's project page and September 2026 board items |
-| SMART Cloverdale | environmental | Sep 16, 2026 | none stated | SMART's Geyserville page; CEQAnet's exemption of August 2026; MTC's TIRCP endorsements |
+| BART Silicon Valley Phase II | under construction | Oct 7, 2026 | Q1 2039 (VTA's target: Q2 2037) | BAM's record; VTA's May 2026 executive report and September 2026 post |
+| The Portal | environmental | Oct 7, 2026 | November 2036 (TJPA's forecast, September 2026) | BAM's record and TJPA's September 2026 status report; MTC's June 2026 RM3 report; FTA's FY2027 report |
+| CAHSR San Francisco to San José | environmental | Oct 7, 2026 | none stated | BAM's record; the Authority's 2026 Business Plan and Northern California page |
+| Valley Link | environmental | Oct 7, 2026 | Summer 2033 (Phase 1A, Dublin/Pleasanton to Vasco Road) | BAM's record (the June 2026 MTC request); MTC's June 2026 RM3 report |
+| SMART Healdsburg | funded | Oct 8, 2026 | December 2028 | BAM's record; SMART's project page and September 2026 board items |
+| SMART Cloverdale | environmental | Oct 8, 2026 | none stated | BAM's record; SMART's Geyserville page; CEQAnet's exemption of August 2026 |
 
 No status changed from BAM's translation of Oct 7-8. Four lines gained a cited expected opening.
 
@@ -23,6 +23,10 @@ No status changed from BAM's translation of Oct 7-8. Four lines gained a cited e
   domains. No page or PDF was opened, and each source's notes in `data/sources.json` say so.
   CLAUDE.md asks for re-verification "with web searches at build time"; opening the key documents in a
   browser would still be worth doing once.
+- **Reconciled with BAM.** BAM's records of Oct 7-8 read the documents themselves, and for The Portal
+  and Valley Link they carry newer schedules than the search could see (TJPA's September 2026 report;
+  the June 2026 MTC request). Those are used, and the earlier or undated dates are cited and flagged
+  `conflicting_sources` (`future-status-2026-10.md`, "As applied").
 - **Changed since early October:** the High-Speed Rail Authority's Notice of Preparation of Oct 13-14
   for a new environmental review of Gilroy to the Central Valley Wye, which is cited on the CAHSR line
   as context. It doesn't change San Francisco to San José.
@@ -78,8 +82,10 @@ From `future-status-2026-10.md`, unranked; each needs Matthew's word (here, or a
   potholing began in April 2026, and the City of Healdsburg's calendar lists a groundbreaking
   celebration on May 8, 2026. Say if those count as early works, which would make it
   `under_construction`.
-- **The Portal:** flagged `conflicting_sources` for the project page's 2035 against TJPA's 2026
-  schedule documents' May 2036. Say if the flag should come off.
+- **Conflicting openings:** The Portal (November 2036 from TJPA's September report; July 16, 2036 in
+  FTA's oversight report; May 2036 in March; 2035 on the project page) and Valley Link (summer 2033 in
+  the June 2026 schedule; 2032 on the undated project page) are flagged `conflicting_sources`, showing
+  the newest dated statement. Say if either should read otherwise.
 - **Search-only verification:** confirm that statuses read from agency-domain search results meet the
   official-sources rule, or open the key documents named in `future-status-2026-10.md` yourself.
 - **The second list:** which projects, if any, to add here, or to BAM first so the maps stay in step.
