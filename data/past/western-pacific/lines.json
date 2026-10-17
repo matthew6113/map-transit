@@ -275,12 +275,36 @@
       "general"
      ],
      "pages": "1"
+    },
+    {
+     "source": "ime-1913-10-edward-t-jeffery",
+     "supports": [
+      "route",
+      "photo"
+     ],
+     "pages": "428",
+     "note": "Went into service \"about Aug. 15\" (1913), \"taking the place of the stern-wheel steamer Telephone, which formerly connected the Western Pacific Railroad system at its terminal pier in Oakland and the ferry depot at the foot of Market street\"."
     }
    ],
    "flags": [
     "closed_unsourced"
    ],
-   "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered."
+   "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered.",
+   "photo": {
+    "image_url": "https://archive.org/download/internationalma181913newy/page/n445.jpg",
+    "crop": [
+     0.0907,
+     0.3073,
+     0.936,
+     0.6805
+    ],
+    "caption": "The launch of the Western Pacific's ferry Edward T. Jeffery at the Moore & Scott yard in Oakland on July 19, 1913. From about August 15 she ran between the WP's pier in Oakland and the Ferry Building, in place of the stern-wheeler Telephone.",
+    "author": "International Marine Engineering",
+    "date": "published October 1913",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/internationalma181913newy/page/n445/mode/1up",
+    "source": "ime-1913-10-edward-t-jeffery"
+   }
   },
   {
    "id": "wp-niles-san-jose",

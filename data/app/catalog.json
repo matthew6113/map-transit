@@ -2407,6 +2407,26 @@
       "license": "Copyright status unknown (professional journal, 1956); cited for facts only",
       "accessed": "2026-10-16"
     },
+    "ime-1913-10-edward-t-jeffery": {
+      "title": "Steel Screw Ferry-Boat Edward T. Jeffery",
+      "author": "J. B. Shipley",
+      "publisher": "International Marine Engineering 18(10)",
+      "date": "1913-10",
+      "type": "journal",
+      "url": "https://archive.org/details/internationalma181913newy/page/n445/mode/1up",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-17"
+    },
+    "ime-1915-09-contra-costa": {
+      "title": "Side-Wheel Car Ferry Contra Costa",
+      "author": "Edward W. Olin",
+      "publisher": "International Marine Engineering 20(9)",
+      "date": "1915-09",
+      "type": "journal",
+      "url": "https://archive.org/details/internationalma201915newy/page/n384/mode/1up",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-17"
+    },
     "joe-1905-01-psr": {
       "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
       "publisher": "Journal of Electricity, Power and Gas",
@@ -2415,6 +2435,16 @@
       "url": "https://archive.org/details/sim_electrical-west_1905-01_15_1",
       "license": "Public domain (published 1905)",
       "accessed": "2026-10-15"
+    },
+    "joe-1907-08-03-ocean-shore": {
+      "title": "Ocean Shore Railway Construction",
+      "author": "B. B. Beckett",
+      "publisher": "The Journal of Electricity, Power and Gas 19(5)",
+      "date": "1907-08-03",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_electrical-west_1907-08-03_19_5/page/n4/mode/1up",
+      "license": "Public domain (published 1907)",
+      "accessed": "2026-10-17"
     },
     "joepg-1912-03-09": {
       "title": "Journal of Electricity, Power and Gas 28(10), March 9, 1912: the Oakland & Antioch Railway",
@@ -10075,6 +10105,24 @@
         }
       ],
       "notes": "Drawn from the Oakland Mole; between the Mole's track at Sixteenth Street and today's line there is a short gap. The trains over the bridge after 1930 aren't drawn yet: no source read here shows them running to Sacramento. Its operator's change to the Southern Pacific (a lease of 1885) isn't dated from a source read here.",
+      "photo": {
+        "image_url": "https://archive.org/download/internationalma201915newy/page/n384.jpg",
+        "crop": [
+          0.0676,
+          0.0467,
+          0.9299,
+          0.2408
+        ],
+        "caption": "The Southern Pacific's train ferry Contra Costa on her trial trip. Built to carry freight and passenger trains across the Carquinez Strait between Port Costa and Benicia, she relieved the Solano, in service since 1879.",
+        "author": "International Marine Engineering",
+        "date": "published September 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/internationalma201915newy/page/n384/mode/1up",
+        "source": "ime-1915-09-contra-costa",
+        "file": "photos/cp-oakland-sacramento-benicia-a30a58fc.jpg",
+        "width": 960,
+        "height": 298
+      },
       "flags": [],
       "undated": false,
       "length_km": 115.79,
@@ -10265,6 +10313,15 @@
           ],
           "pages": "631",
           "note": "The Oakland Mole's depot \"was opened with a grand ball in February, 1881\"."
+        },
+        {
+          "source": "ime-1915-09-contra-costa",
+          "supports": [
+            "route",
+            "photo"
+          ],
+          "pages": "387-388",
+          "note": "The Contra Costa, \"especially designed to carry freight and passenger trains across the Carquinez Straits between Port Costa and Benicia\", relieved \"the old steamer Solano, which has been in almost continuous service since 1879\"; the crossing took 8 minutes."
         },
         {
           "source": "usgs-oakland-west-1949",
@@ -35368,6 +35425,24 @@
         }
       ],
       "notes": "Its last day is August 15, 1920 in Callwell; a railfan article of 1952 implies the 16th, and the Oakland Tribune reported the trains stopped on the 17th. Drawn here only from Daly City to North Granada, the stretch OpenHistoricalMap's way covers; the street track in San Francisco, the steam line through the city, and Granada to Tunitas are still to draw (docs/research/sources-2c/ocean-shore.md).",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_electrical-west_1907-08-03_19_5/page/n4.jpg",
+        "crop": [
+          0.1173,
+          0.4223,
+          0.8382,
+          0.7822
+        ],
+        "caption": "The line of the Ocean Shore Railway along the cliffs, looking north from Green Canyon, while it was being built in 1907.",
+        "author": "The Journal of Electricity, Power and Gas",
+        "date": "published August 3, 1907",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_electrical-west_1907-08-03_19_5/page/n4/mode/1up",
+        "source": "joe-1907-08-03-ocean-shore",
+        "file": "photos/os-san-francisco-tunitas-ebe35f04.jpg",
+        "width": 960,
+        "height": 633
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -35541,6 +35616,13 @@
           ],
           "pages": "518",
           "note": "\"has ceased to operate\"."
+        },
+        {
+          "source": "joe-1907-08-03-ocean-shore",
+          "supports": [
+            "photo"
+          ],
+          "pages": "85"
         },
         {
           "source": "usgs-san-mateo-1915",
@@ -41037,6 +41119,24 @@
         }
       ],
       "notes": "Run by the North Shore Railroad, which became part of the Northwestern Pacific; the date of the change isn't sourced here. Other routes (by Greenbrae, and on to Manor) aren't drawn.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n21.jpg",
+        "crop": [
+          0.5202,
+          0.5067,
+          0.9328,
+          0.817
+        ],
+        "caption": "The North Shore Railroad's electric line in San Rafael: single track, fenced in through the streets.",
+        "author": "Street Railway Journal",
+        "date": "published January 2, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n21/mode/1up",
+        "source": "srj-1904-01-02-north-shore",
+        "file": "photos/nwp-sausalito-san-rafael-c0e5f537.jpg",
+        "width": 676,
+        "height": 720
+      },
       "flags": [],
       "undated": false,
       "length_km": 20.59,
@@ -41124,7 +41224,8 @@
           "supports": [
             "opened",
             "route",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "4-7",
           "note": "\"the main line to San Rafael was opened on Oct. 17\" (1903), \"the first third-rail road to be constructed and put into operation in California\"."
@@ -45642,6 +45743,24 @@
       "fate": "abandoned",
       "fate_note": "Given up in 1933, when the WP's trains moved to the Southern Pacific's Oakland Pier and its passengers to the SP's ferries, between June 9 and October 1, 1933 (Point Richmond Progress; SP timetable No. 217).",
       "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered.",
+      "photo": {
+        "image_url": "https://archive.org/download/internationalma181913newy/page/n445.jpg",
+        "crop": [
+          0.0907,
+          0.3073,
+          0.936,
+          0.6805
+        ],
+        "caption": "The launch of the Western Pacific's ferry Edward T. Jeffery at the Moore & Scott yard in Oakland on July 19, 1913. From about August 15 she ran between the WP's pier in Oakland and the Ferry Building, in place of the stern-wheeler Telephone.",
+        "author": "International Marine Engineering",
+        "date": "published October 1913",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/internationalma181913newy/page/n445/mode/1up",
+        "source": "ime-1913-10-edward-t-jeffery",
+        "file": "photos/wp-ferry-5a256ad2.jpg",
+        "width": 960,
+        "height": 600
+      },
       "flags": [
         "closed_unsourced"
       ],
@@ -45752,6 +45871,15 @@
             "general"
           ],
           "pages": "1"
+        },
+        {
+          "source": "ime-1913-10-edward-t-jeffery",
+          "supports": [
+            "route",
+            "photo"
+          ],
+          "pages": "428",
+          "note": "Went into service \"about Aug. 15\" (1913), \"taking the place of the stern-wheel steamer Telephone, which formerly connected the Western Pacific Railroad system at its terminal pier in Oakland and the ferry depot at the foot of Market street\"."
         },
         {
           "source": "overture-base-2026-09-23-1",

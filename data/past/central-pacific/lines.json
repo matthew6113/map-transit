@@ -96,10 +96,34 @@
           ],
           "pages": "631",
           "note": "The Oakland Mole's depot \"was opened with a grand ball in February, 1881\"."
+        },
+        {
+          "source": "ime-1915-09-contra-costa",
+          "supports": [
+            "route",
+            "photo"
+          ],
+          "pages": "387-388",
+          "note": "The Contra Costa, \"especially designed to carry freight and passenger trains across the Carquinez Straits between Port Costa and Benicia\", relieved \"the old steamer Solano, which has been in almost continuous service since 1879\"; the crossing took 8 minutes."
         }
       ],
       "flags": [],
-      "notes": "Drawn from the Oakland Mole; between the Mole's track at Sixteenth Street and today's line there is a short gap. The trains over the bridge after 1930 aren't drawn yet: no source read here shows them running to Sacramento. Its operator's change to the Southern Pacific (a lease of 1885) isn't dated from a source read here."
+      "notes": "Drawn from the Oakland Mole; between the Mole's track at Sixteenth Street and today's line there is a short gap. The trains over the bridge after 1930 aren't drawn yet: no source read here shows them running to Sacramento. Its operator's change to the Southern Pacific (a lease of 1885) isn't dated from a source read here.",
+      "photo": {
+        "image_url": "https://archive.org/download/internationalma201915newy/page/n384.jpg",
+        "crop": [
+          0.0676,
+          0.0467,
+          0.9299,
+          0.2408
+        ],
+        "caption": "The Southern Pacific's train ferry Contra Costa on her trial trip. Built to carry freight and passenger trains across the Carquinez Strait between Port Costa and Benicia, she relieved the Solano, in service since 1879.",
+        "author": "International Marine Engineering",
+        "date": "published September 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/internationalma201915newy/page/n384/mode/1up",
+        "source": "ime-1915-09-contra-costa"
+      }
     },
     {
       "id": "cp-oakland-sacramento-niles",

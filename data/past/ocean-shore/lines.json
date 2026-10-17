@@ -144,12 +144,34 @@
      ],
      "pages": "518",
      "note": "\"has ceased to operate\"."
+    },
+    {
+     "source": "joe-1907-08-03-ocean-shore",
+     "supports": [
+      "photo"
+     ],
+     "pages": "85"
     }
    ],
    "flags": [
     "conflicting_sources"
    ],
-   "notes": "Its last day is August 15, 1920 in Callwell; a railfan article of 1952 implies the 16th, and the Oakland Tribune reported the trains stopped on the 17th. Drawn here only from Daly City to North Granada, the stretch OpenHistoricalMap's way covers; the street track in San Francisco, the steam line through the city, and Granada to Tunitas are still to draw (docs/research/sources-2c/ocean-shore.md)."
+   "notes": "Its last day is August 15, 1920 in Callwell; a railfan article of 1952 implies the 16th, and the Oakland Tribune reported the trains stopped on the 17th. Drawn here only from Daly City to North Granada, the stretch OpenHistoricalMap's way covers; the street track in San Francisco, the steam line through the city, and Granada to Tunitas are still to draw (docs/research/sources-2c/ocean-shore.md).",
+   "photo": {
+    "image_url": "https://archive.org/download/sim_electrical-west_1907-08-03_19_5/page/n4.jpg",
+    "crop": [
+     0.1173,
+     0.4223,
+     0.8382,
+     0.7822
+    ],
+    "caption": "The line of the Ocean Shore Railway along the cliffs, looking north from Green Canyon, while it was being built in 1907.",
+    "author": "The Journal of Electricity, Power and Gas",
+    "date": "published August 3, 1907",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/sim_electrical-west_1907-08-03_19_5/page/n4/mode/1up",
+    "source": "joe-1907-08-03-ocean-shore"
+   }
   }
  ]
 }

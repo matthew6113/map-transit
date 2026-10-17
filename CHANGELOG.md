@@ -2,6 +2,17 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: Four more photos
+
+- **The Ocean Shore Railway**, its line along the cliffs from Green Canyon as it was being built, from *The Journal of
+  Electricity, Power and Gas* of August 3, 1907; **the Western Pacific's ferry**, the launch of the *Edward T. Jeffery* in
+  July 1913, and **the Benicia crossing**, the Southern Pacific's train ferry *Contra Costa* on her trial trip, both from
+  *International Marine Engineering* (October 1913, September 1915); and **the North Shore's Sausalito–San Rafael line**,
+  its fenced track through San Rafael, from the *Street Railway Journal* article already cited. Three new sources.
+- The two marine articles also back the routes: the *Edward T. Jeffery* replaced the stern-wheeler *Telephone* between
+  the WP's pier and the Ferry Building about August 15, 1913, and the *Contra Costa* relieved the *Solano*, in service
+  since 1879, between Port Costa and Benicia.
+
 ## 2026-10-17: Every past segment on the year slider
 
 - **The Southern Pacific's Ninth Street line** is drawn from February 12, 1912, when the *Oakland
