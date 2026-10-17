@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: Photos for nine past lines
+
+- **Panel photos** from public-domain journals (published before 1931, scanned by the Internet
+  Archive): the Key Route's Berkeley line and ferry, the North Shore's Mill Valley line, the Mt.
+  Tamalpais railway, the Petaluma & Santa Rosa (Petaluma to Sebastopol) and its steamers, the
+  Southern Pacific's Encinal Avenue and Seventh Street lines, and Market Street Railway's No. 40 San
+  Mateo line. Each cites its article with `supports: ["photo"]`; the Mt. Tamalpais railway and the
+  Petaluma steamers gain those citations.
+
 ## 2026-10-17: The busway's stations; Matthew's network reaches the map
 
 - **Reimagine Dumbarton busway:** eight of its nine stations, where the cross streets SamTrans names

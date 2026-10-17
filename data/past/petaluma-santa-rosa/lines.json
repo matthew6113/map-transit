@@ -80,7 +80,8 @@
     {
      "source": "srj-1905-07-01-psr",
      "supports": [
-      "route"
+      "route",
+      "photo"
      ],
      "pages": "10-13"
     },
@@ -111,7 +112,22 @@
    "flags": [
     "conflicting_sources"
    ],
-   "notes": "Opens on JOE's November 19, 1904; Borden gives November 29 and Ellison and Sievers December 1. By 1927 its cars ran 11 round trips a day between Sebastopol and Petaluma (Borden, p. 25). The company's steamers ran on from Petaluma to San Francisco."
+   "notes": "Opens on JOE's November 19, 1904; Borden gives November 29 and Ellison and Sievers December 1. By 1927 its cars ran 11 round trips a day between Sebastopol and Petaluma (Borden, p. 25). The company's steamers ran on from Petaluma to San Francisco.",
+   "photo": {
+    "image_url": "https://archive.org/download/streetrailwayj261905newy/page/n24.jpg",
+    "crop": [
+     0.113,
+     0.4862,
+     0.9408,
+     0.8129
+    ],
+    "caption": "A Petaluma & Santa Rosa car at Sebastopol station, with the freight station on the left and the stone substation behind it.",
+    "author": "Street Railway Journal",
+    "date": "published July 1, 1905",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/streetrailwayj261905newy/page/n24/mode/1up",
+    "source": "srj-1905-07-01-psr"
+   }
   },
   {
    "id": "psr-sebastopol-santa-rosa",

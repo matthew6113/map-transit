@@ -158,9 +158,12 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
 
 **Extras:**
 - `summary`
-- `photo`: `{commons_file | image_url, caption, author, date?, license, source_url, source?}`: a
-  Wikimedia Commons file name or a direct image address (a Library of Congress JPEG, say); a
-  sentence on what it shows, which is also its alt text; and the record that states its rights.
+- `photo`: `{commons_file | image_url, crop?, caption, author, date?, license, source_url, source?}`:
+  a Wikimedia Commons file name or a direct image address (a Library of Congress JPEG, or a scanned
+  page, `archive.org/download/<item>/page/n<N>.jpg`); `crop`, the part to keep as fractions
+  [left, top, right, bottom] (a halftone on a page, one half of a stereograph); a sentence on what it
+  shows, which is also its alt text; and the record that states its rights. The line cites its
+  `source` with `supports: ["photo"]`.
   Public domain only: `public-domain`, `PD-US-expired` or `CC0`. `make photos` downloads it and
   writes a resized copy, without metadata, to `public/photos/` (committed), and the catalog lists it
   only once that copy exists. Never hotlinked.
@@ -194,7 +197,8 @@ Points, with these properties:
 - `line_ids[]`
 - `opened`, `closed`
 - `status`: future projects only; existing, new or rebuilt.
-- `fate`, `photo`
+- `fate`, `photo` (a point's photo is in the schema but not yet downloaded or drawn: `make photos` and
+  the panel take line photos only)
 - The provenance fields.
 
 ## Today's network, dated (`present/extensions.json`)

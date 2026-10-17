@@ -24,6 +24,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; open?
   { name: 'future, with proposals', url: '/?era=future&proposals=1&test=1' },
   { name: 'a line panel', url: '/l/bart-yellow?test=1&at=99' },
   { name: 'a proposal panel', url: '/l/geary-19th-subway?test=1&at=99' },
+  { name: 'a line panel with a photo', url: '/l/key-f?era=past&year=1912&test=1&at=99' },
   { name: 'the editor', url: '/?edit=1&test=1' },
   { name: 'the style panel', url: '/?style=1&test=1' },
   { name: 'phone, a line panel', url: '/l/bart-yellow?test=1&at=99', width: 390, height: 844 },

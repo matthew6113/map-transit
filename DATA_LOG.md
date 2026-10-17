@@ -359,11 +359,11 @@ The geometry tools are below (decision 12).
 
 | | |
 |---|---|
-| Status | None in use yet. The pipeline is ready (`make photos`, from Phase 5); candidates wait for Matthew. |
-| Origin | Each line's `photo` names a Wikimedia Commons file or a direct image address. Candidates from the Library of Congress (searched through its JSON API, Oct 17, 2026) are in `docs/research/photos-candidates.md`: 13 lines have one, from stereographs and Detroit Publishing views published before 1931, HABS and HAER survey photos, and Carol M. Highsmith's gift. |
-| License | Public domain only: `public-domain`, `PD-US-expired` or `CC0` (CLAUDE.md), stated on the record `source_url` points to. Credited in the line's panel. |
-| Storage | `make photos` downloads the original into `data/raw/photos/` (git-ignored) and writes a copy of at most 960 × 720 px, without metadata, to `public/photos/` (committed). Never hotlinked. |
-| Gaps | No image could be viewed or downloaded from the build container (the LOC's and Wikimedia's image servers are blocked), so no caption is written and no photo is drawn. The LOC holds little of the Key System, the interurbans, BART, Caltrain or VTA; Commons, Calisphere, OAC and SFPL, the next places to look, are blocked too. |
+| Status | In use, from Oct 17, 2026: nine past lines have a photo in their panel. `make photos` downloads them. |
+| Origin | Halftones in three journals published in the US before 1931, as scanned by the Internet Archive. Each is cited in `data/sources.json`, and each page was read here, so every caption follows the journal's own caption and text: *Street Railway Journal* 22-23 and 26 (1903-05): the Key Route's Berkeley terminal and the ferryboat *Yerba Buena*; Mill Valley and the Mt. Tamalpais railway's double bow-knot (the North Shore article); a Petaluma & Santa Rosa car at Sebastopol and the steamer *Gold* at Petaluma; a car on the United Railroads' San Mateo line. *Electric Railway Journal* 37 (1911): a Southern Pacific steel motor car for the Alameda line. *Railway Age Gazette* 53 (1912): Southern Pacific electric cars of the East Bay lines. |
+| License | `PD-US-expired`: published in the US before 1931. The journals credit no photographer. Credited in the line's panel and in the map's credits. |
+| Storage | Each photo is the scan's page image (`archive.org/download/<item>/page/n<N>.jpg`), cropped to the halftone (`crop`, fractions of the page). `make photos` downloads the page into `data/raw/photos/` (git-ignored) and writes a copy of at most 960 × 720 px, without metadata, to `public/photos/` (committed). Never hotlinked. |
+| Gaps | Halftone scans show moiré and little detail. Library of Congress candidates for 13 more lines (`docs/research/photos-candidates.md`) are still waiting for Matthew: their image server, like Wikimedia's, is blocked from the build container. Most lines have no photo yet, among them BART, Caltrain, Muni and the other present-era lines, the Sacramento Northern, the Ocean Shore and the San Francisco cable lines. |
 
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |

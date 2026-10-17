@@ -113,7 +113,8 @@
           "supports": [
             "opened",
             "route",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "4-7",
           "note": "\"The Mill Valley branch of the new system was placed in operation on Aug. 21\" (1903)."
@@ -127,7 +128,22 @@
         }
       ],
       "flags": [],
-      "notes": "Run by the North Shore Railroad, then the Northwestern Pacific. Decision No. 34457 names only the Sausalito-San Rafael line; the Mill Valley branch is taken to have ended with it."
+      "notes": "Run by the North Shore Railroad, then the Northwestern Pacific. Decision No. 34457 names only the Sausalito-San Rafael line; the Mill Valley branch is taken to have ended with it.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n20.jpg",
+        "crop": [
+          0.0665,
+          0.6333,
+          0.5859,
+          0.9105
+        ],
+        "caption": "Mill Valley, with the North Shore Railroad's electric train at the depot and the power house at left.",
+        "author": "Street Railway Journal",
+        "date": "published January 2, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n20/mode/1up",
+        "source": "srj-1904-01-02-north-shore"
+      }
     }
   ]
 }

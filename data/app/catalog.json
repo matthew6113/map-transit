@@ -7668,6 +7668,24 @@
       "summary": "The Key Route's first line, from its pier to downtown Berkeley by Adeline Street and Shattuck Avenue; cut back to Alcatraz Avenue in 1933, then from 1941 over the Southern Pacific's old tracks to Northbrae and, from 1942, through the Northbrae Tunnel to The Alameda.",
       "fate": "converted_to_bus",
       "notes": "Letters were given to the lines in 1939. By 1933 the line ran to University Avenue, not Center Street; when it was extended isn't sourced, and that last stretch isn't drawn. The day of the 1933 cutback isn't sourced. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n300.jpg",
+        "crop": [
+          0.0936,
+          0.1653,
+          0.9443,
+          0.6161
+        ],
+        "caption": "A four-car Key Route train at its Berkeley terminal, with an Oakland Transit Consolidated car of the Telegraph Avenue line in front and the Southern Pacific's depot at left.",
+        "author": "Street Railway Journal",
+        "date": "published February 20, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n300/mode/1up",
+        "source": "srj-1904-02-20-key-route-2",
+        "file": "photos/key-f-60a10bad.jpg",
+        "width": 952,
+        "height": 720
+      },
       "flags": [
         "page_unverified"
       ],
@@ -7989,9 +8007,10 @@
         {
           "source": "srj-1904-02-20-key-route-2",
           "supports": [
-            "opened"
+            "opened",
+            "photo"
           ],
-          "pages": "283",
+          "pages": "283, 285",
           "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903)."
         },
         {
@@ -12077,6 +12096,24 @@
         }
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue.",
+      "photo": {
+        "image_url": "https://archive.org/download/transit-journal-1932_1911-06-17_37_24/page/n5.jpg",
+        "crop": [
+          0.0742,
+          0.345,
+          0.416,
+          0.671
+        ],
+        "caption": "One of the Southern Pacific's steel motor cars for its Alameda line, which opened on June 1, 1911, seen end on with its roller pantograph.",
+        "author": "Electric Railway Journal",
+        "date": "published June 17, 1911",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24/page/n5/mode/1up",
+        "source": "erj-1911-06-17-sp-oakland",
+        "file": "photos/sp-encinal-avenue-511efb20.jpg",
+        "width": 523,
+        "height": 720
+      },
       "flags": [
         "needs_manual_digitizing"
       ],
@@ -12296,7 +12333,8 @@
           "source": "erj-1911-06-17-sp-oakland",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "1048",
           "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
@@ -13730,6 +13768,24 @@
       "summary": "The Key Route's ferries from the end of its pier to the Ferry Building in San Francisco, meeting every train.",
       "fate": "abandoned",
       "fate_note": "Ended when the Key System's trains began running over the Bay Bridge on January 15, 1939.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n261.jpg",
+        "crop": [
+          0.5591,
+          0.1004,
+          0.9351,
+          0.2201
+        ],
+        "caption": "The Yerba Buena, one of the Key Route's two ferryboats.",
+        "author": "Street Railway Journal",
+        "date": "published February 13, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n261/mode/1up",
+        "source": "srj-1904-02-13-key-route-1",
+        "file": "photos/key-ferry-3961278c.jpg",
+        "width": 960,
+        "height": 439
+      },
       "flags": [],
       "undated": false,
       "length_km": 4.93,
@@ -13780,7 +13836,8 @@
         {
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "246–253"
         },
@@ -14828,6 +14885,24 @@
         }
       ],
       "notes": "Run by the North Shore Railroad, then the Northwestern Pacific. Decision No. 34457 names only the Sausalito-San Rafael line; the Mill Valley branch is taken to have ended with it.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n20.jpg",
+        "crop": [
+          0.0665,
+          0.6333,
+          0.5859,
+          0.9105
+        ],
+        "caption": "Mill Valley, with the North Shore Railroad's electric train at the depot and the power house at left.",
+        "author": "Street Railway Journal",
+        "date": "published January 2, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n20/mode/1up",
+        "source": "srj-1904-01-02-north-shore",
+        "file": "photos/nwp-mill-valley-327d62c9.jpg",
+        "width": 953,
+        "height": 720
+      },
       "flags": [],
       "undated": false,
       "length_km": 8.65,
@@ -14883,7 +14958,8 @@
           "supports": [
             "opened",
             "route",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "4-7",
           "note": "\"The Mill Valley branch of the new system was placed in operation on Aug. 21\" (1903)."
@@ -14961,6 +15037,24 @@
         }
       ],
       "notes": "Opens on the Railroad Commission's August 27, 1896, the first train to the end of the line, which Poor's 1898 also gives; Poor's 1897 has August 17 and its 1902 edition August 26. From 1917 its mountain trains stopped each winter. Not drawn: the Muir Woods branch from Mesa (1906 or 1907, extended by 1915), on no sheet in the repo; the annotated 1915 Tamalpais sheet at the Mill Valley Public Library (archive.org cmlpl_000900) would show it, a map to georeference by hand.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n19.jpg",
+        "crop": [
+          0.5216,
+          0.6323,
+          0.9311,
+          0.9261
+        ],
+        "caption": "The double bow-knot, where the track ran alongside itself five times, with San Francisco Bay in the distance.",
+        "author": "Street Railway Journal",
+        "date": "published January 2, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n19/mode/1up",
+        "source": "srj-1904-01-02-north-shore",
+        "file": "photos/mt-tamalpais-railway-447960eb.jpg",
+        "width": 709,
+        "height": 720
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -15052,6 +15146,13 @@
           ],
           "pages": "2-3",
           "note": "Abandonment of all service authorized August 7, 1930, effective that day: on or about August 1930 (decision 17)."
+        },
+        {
+          "source": "srj-1904-01-02-north-shore",
+          "supports": [
+            "photo"
+          ],
+          "pages": "4, 6–7"
         },
         {
           "source": "usgs-tamalpais-1941",
@@ -29677,6 +29778,24 @@
         }
       ],
       "notes": "Its opening to San Mateo isn't sourced; the map draws it from October 31, 1903, when the Street Railway Journal describes the cars running (decision 20). In 1903 it reached the city by the San Francisco & San Mateo's streets of 1892, which aren't drawn yet, so until 1909 it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo221903newy/page/n818.jpg",
+        "crop": [
+          0.05,
+          0.2769,
+          0.4692,
+          0.5354
+        ],
+        "caption": "A car in a cut on the United Railroads' San Mateo line.",
+        "author": "Street Railway Journal",
+        "date": "published October 31, 1903",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo221903newy/page/n818/mode/1up",
+        "source": "srj-1903-10-31-san-mateo",
+        "file": "photos/msry-40-e12bf451.jpg",
+        "width": 800,
+        "height": 720
+      },
       "flags": [
         "opened_unsourced"
       ],
@@ -30111,7 +30230,8 @@
         {
           "source": "srj-1903-10-31-san-mateo",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "798-802"
         },
@@ -35934,6 +36054,24 @@
         }
       ],
       "notes": "Opens on JOE's November 19, 1904; Borden gives November 29 and Ellison and Sievers December 1. By 1927 its cars ran 11 round trips a day between Sebastopol and Petaluma (Borden, p. 25). The company's steamers ran on from Petaluma to San Francisco.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayj261905newy/page/n24.jpg",
+        "crop": [
+          0.113,
+          0.4862,
+          0.9408,
+          0.8129
+        ],
+        "caption": "A Petaluma & Santa Rosa car at Sebastopol station, with the freight station on the left and the stone substation behind it.",
+        "author": "Street Railway Journal",
+        "date": "published July 1, 1905",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayj261905newy/page/n24/mode/1up",
+        "source": "srj-1905-07-01-psr",
+        "file": "photos/psr-petaluma-sebastopol-77542010.jpg",
+        "width": 960,
+        "height": 548
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -36043,7 +36181,8 @@
         {
           "source": "srj-1905-07-01-psr",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "10-13"
         },
@@ -36804,6 +36943,24 @@
       "fate": "abandoned",
       "fate_note": "Passenger service ended and its tariff was cancelled effective December 23, 1935, with the Railroad Commission's authority (Decision No. 29778); the steamers went on carrying freight.",
       "notes": "Opens in 1904, when the Railroad Commission says the company began the service; Borden has it buy the Gold in December 1903. Steamers had run between Petaluma and San Francisco since the 1850s under other owners, which this line doesn't draw. The course is drawn over water between the landings, not as steered.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayj261905newy/page/n25.jpg",
+        "crop": [
+          0.3119,
+          0.5967,
+          0.9064,
+          0.8044
+        ],
+        "caption": "The steamer Gold docking at the Petaluma & Santa Rosa's warehouse in Petaluma.",
+        "author": "Street Railway Journal",
+        "date": "published July 1, 1905",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayj261905newy/page/n25/mode/1up",
+        "source": "srj-1905-07-01-psr",
+        "file": "photos/psr-steamers-d434b939.jpg",
+        "width": 960,
+        "height": 485
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -36886,6 +37043,13 @@
           ],
           "pages": "16",
           "note": "\"Passenger service between San Francisco and Petaluma was discontinued and the tariff cancelled effective December 23, 1935\"."
+        },
+        {
+          "source": "srj-1905-07-01-psr",
+          "supports": [
+            "photo"
+          ],
+          "pages": "11–12"
         },
         {
           "source": "overture-base-2026-09-23-1",
@@ -40972,6 +41136,24 @@
         }
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears.",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_railway-age_1912-09-13_53_11/page/n8.jpg",
+        "crop": [
+          0.1289,
+          0.3532,
+          0.8542,
+          0.6211
+        ],
+        "caption": "Southern Pacific electric cars, the equipment of its East Bay lines.",
+        "author": "Railway Age Gazette",
+        "date": "published September 13, 1912",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11/page/n8/mode/1up",
+        "source": "rag-1912-09-13-guppy",
+        "file": "photos/sp-seventh-street-1c716b3c.jpg",
+        "width": 960,
+        "height": 493
+      },
       "flags": [
         "needs_manual_digitizing"
       ],
@@ -41141,6 +41323,7 @@
           "supports": [
             "general",
             "electrification",
+            "photo",
             "route"
           ],
           "pages": "460–463"

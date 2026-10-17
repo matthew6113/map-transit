@@ -29,8 +29,9 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> (CC0) and along today's street centerlines from
       Overture Maps (ODbL), with dates from California Railroad Commission decisions, period journals, newspapers and city
       directories, Muni's own chronology, San Francisco's street railway reports of 1909 and 1929, the county histories of
-      1876–83, the state Board of Railroad Commissioners' reports and Poor's Manual of Railroads. Sources for every
-      line are in its panel.
+      1876–83, the state Board of Railroad Commissioners' reports and Poor's Manual of Railroads. Photos are public
+      domain, from period journals scanned by the <a href="https://archive.org/">Internet Archive</a>. Sources for
+      every line, and each photo's, are in its panel.
     </>
   );
 }

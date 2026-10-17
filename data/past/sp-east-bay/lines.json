@@ -402,7 +402,8 @@
           "source": "rag-1912-09-13-guppy",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "460–463"
         },
@@ -497,7 +498,22 @@
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears.",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_railway-age_1912-09-13_53_11/page/n8.jpg",
+        "crop": [
+          0.1289,
+          0.3532,
+          0.8542,
+          0.6211
+        ],
+        "caption": "Southern Pacific electric cars, the equipment of its East Bay lines.",
+        "author": "Railway Age Gazette",
+        "date": "published September 13, 1912",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11/page/n8/mode/1up",
+        "source": "rag-1912-09-13-guppy"
+      }
     },
     {
       "id": "sp-encinal-avenue",
@@ -623,7 +639,8 @@
           "source": "erj-1911-06-17-sp-oakland",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "1048",
           "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
@@ -654,7 +671,22 @@
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue.",
+      "photo": {
+        "image_url": "https://archive.org/download/transit-journal-1932_1911-06-17_37_24/page/n5.jpg",
+        "crop": [
+          0.0742,
+          0.345,
+          0.416,
+          0.671
+        ],
+        "caption": "One of the Southern Pacific's steel motor cars for its Alameda line, which opened on June 1, 1911, seen end on with its roller pantograph.",
+        "author": "Electric Railway Journal",
+        "date": "published June 17, 1911",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24/page/n5/mode/1up",
+        "source": "erj-1911-06-17-sp-oakland"
+      }
     },
     {
       "id": "sp-lincoln-avenue",
