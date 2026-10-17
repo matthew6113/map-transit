@@ -32,6 +32,12 @@
       "status": "closed",
       "running": [
         {
+          "date": "1871",
+          "source": "alta-guide-1871",
+          "pages": "98-99",
+          "note": "The California Pacific \"runs morning and evening trains daily each way\" from San Francisco by Vallejo; \"to Calistoga, 3 hours\"; the Calistoga train is switched off at Napa Junction (pp. 98-99)."
+        },
+        {
           "date": "1880",
           "source": "poors-1880",
           "pages": "973",
@@ -111,12 +117,19 @@
           ],
           "pages": "1, 9",
           "note": "Discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        },
+        {
+          "source": "alta-guide-1871",
+          "supports": [
+            "route"
+          ],
+          "pages": "98-99"
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The Napa Valley Railroad ran from steamers at Soscol to Napa from July 11, 1865, and reached Calistoga in October 1868 (Napa County history); the California Pacific, which bought it in 1869, joined it at Napa Junction from Vallejo in 1868-69, at \"sundry dates\" its own return gives no details of. So when trains first ran from Vallejo to Calistoga isn't sourced: the map draws them from 1880, the first date a source shows the line (decision 20), in the lighter tint. Soscol and the line of 1865 into Napa by Main Street aren't drawn."
+      "notes": "The Napa Valley Railroad ran from steamers at Soscol to Napa from July 11, 1865, and reached Calistoga in October 1868 (Napa County history); the California Pacific, which bought it in 1869, joined it at Napa Junction from Vallejo in 1868-69, at \"sundry dates\" its own return gives no details of. So when trains first ran from Vallejo to Calistoga isn't sourced: the map draws them from 1871, the first date a source read shows the line (decision 20), in the lighter tint. Soscol and the line of 1865 into Napa by Main Street aren't drawn."
     },
     {
       "id": "calp-vallejo-suisun",
@@ -148,6 +161,12 @@
       "closed": "1929-06",
       "status": "closed",
       "running": [
+        {
+          "date": "1871",
+          "source": "alta-guide-1871",
+          "pages": "98",
+          "note": "The California Pacific is \"the shortest route between San Francisco, Sacramento, Marysville and Calistoga\", with \"morning and evening trains daily each way\"; \"to Sacramento, 4 hours\" (p. 98)."
+        },
         {
           "date": "1880",
           "source": "poors-1880",
@@ -183,10 +202,11 @@
         {
           "segment": "cc-suisun-davis",
           "running": [
+            "1871",
             "1880",
             "1889"
           ],
-          "note": "On to Sacramento in 1880 and 1889; by 1929 the trains turned at Suisun-Fairfield"
+          "note": "On to Sacramento in 1871, 1880 and 1889; by 1929 the trains turned at Suisun-Fairfield"
         }
       ],
       "continues_beyond": "Sacramento",
@@ -213,12 +233,19 @@
           ],
           "pages": "1, 7, 9",
           "note": "\"Trains Nos. 166-167, 168-169, 170-171 and 172-173, operated between Vallejo and Suisun-Fairfield\", discontinued under the order of June 10, 1929, effective twenty days from its date: on or about June 1929 (decision 17)."
+        },
+        {
+          "source": "alta-guide-1871",
+          "supports": [
+            "route"
+          ],
+          "pages": "98"
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The California Pacific opened its road from Vallejo to Sacramento in 1868-70, at \"sundry dates\" its own return gives no details of, so the map draws its trains from 1880, the first date a source shows the line (decision 20), in the lighter tint. West of Suisun it is drawn on today's track, checked on the 1949-51 sheets; from Suisun to Davis on the Capitol Corridor's. When the trains stopped running on to Sacramento isn't sourced: that stretch is shown for 1880 and 1889 only."
+      "notes": "The California Pacific opened its road from Vallejo to Sacramento in 1868-70, at \"sundry dates\" its own return gives no details of, so the map draws its trains from 1871, the first date a source read shows the line (decision 20), in the lighter tint. West of Suisun it is drawn on today's track, checked on the 1949-51 sheets; from Suisun to Davis on the Capitol Corridor's. When the trains stopped running on to Sacramento isn't sourced: that stretch is shown for 1871, 1880 and 1889 only."
     },
     {
       "id": "calp-vallejo-junction-ferry",

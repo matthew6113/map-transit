@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: The California Pacific from 1871, and the SF&NP's first day
+
+- **The California Pacific's trains** to Calistoga and to Suisun and Sacramento are drawn from 1871, not 1880:
+  the *Alta California* railroad guide of 1871 has its "morning and evening trains daily each way" from San
+  Francisco by Vallejo to Sacramento and Calistoga. Their openings stay unsourced.
+- **The San Francisco & North Pacific** opens on October 22, 1870, when "the first passenger car from Petaluma
+  arrived at Santa Rosa" (the same guide), rather than October 1870.
+- One new source.
+
 ## 2026-10-17: East Bay streetcar ends, and the San Mateo line's opening
 
 - **Key System lines 14, 15 and 18** close on Saturday, March 27, 1948: *The Western Railroader* of April 1948
