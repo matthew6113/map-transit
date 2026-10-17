@@ -468,6 +468,20 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   roads, rail and ferry; that split should be backported to BAM.
 - **The style panel is deferred to Phase 5.** The palette is still a one-file swap.
 
+## Accessibility (2026-10-17, Phase 5)
+
+- **axe-core runs on seven views** (`npm run a11y`, `tests/a11y.spec.ts`, WCAG 2.1 A and AA rules):
+  the present, the past at 1925, the future with proposals, a line panel, a proposal panel, the
+  editor and a phone's line panel. CI runs it in WebKit. The map canvas is out of axe's reach; the
+  line list is its text equivalent.
+- **One fix:** a mode chip that's off had 45% text, under 4.5:1 on the panel. It's 62% now, still
+  struck through.
+- **By hand, with the keyboard:** every control shows a focus ring; the tab order runs skip link,
+  byline, era, the era's own controls (play, speed, year), the list toggle, mode chips, search and the
+  list. Enter on a line opens its panel with focus on its title; Escape closes it and returns focus to
+  the line in the list. Drawing in the editor needs a pointer; it's an author's tool, and its form
+  fields are keyboard accessible.
+
 ## The ideal network (2026-10-16, Phase 4)
 
 - **The reference layer is two-level, like the eras** (refines `docs/SCHEMA.md`'s planned flat

@@ -12,7 +12,8 @@
     "test": "vitest run",
     "e2e": "playwright test tests/interaction.spec.ts tests/editor.spec.ts",
     "screenshots": "playwright test tests/screenshots.spec.ts",
-    "perf": "playwright test tests/perf.spec.ts"
+    "perf": "playwright test tests/perf.spec.ts",
+    "a11y": "playwright test tests/a11y.spec.ts"
   },
   "dependencies": {
     "maplibre-gl": "6.11.2",
@@ -22,6 +23,7 @@
     "terra-draw-maplibre-gl-adapter": "1.4.1"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
     "@playwright/test": "1.56.1",
     "@preact/preset-vite": "2.10.6",
     "@types/geojson": "7946.0.16",

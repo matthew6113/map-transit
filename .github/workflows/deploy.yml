@@ -111,6 +111,9 @@ jobs:
       - run: npm run e2e
         env:
           PW_WEBKIT: "1"
+      - run: npm run a11y
+        env:
+          PW_WEBKIT: "1"
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

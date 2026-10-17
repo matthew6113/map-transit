@@ -568,7 +568,8 @@ body {
 }
 
 .mode-toggle[aria-pressed='false'] {
-  color: color-mix(in srgb, var(--color-panel-text) 45%, transparent);
+  /* Dimmer than a chip that's on, but still 4.5:1 on the panel (WCAG AA); the strike says it's off. */
+  color: color-mix(in srgb, var(--color-panel-text) 62%, transparent);
   text-decoration: line-through;
 }
 
