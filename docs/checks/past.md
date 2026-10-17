@@ -400,23 +400,23 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `calp-vallejo-calistoga` California Pacific trains, Vallejo to Calistoga | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
 | `calp-vallejo-suisun` California Pacific trains, Vallejo to Suisun and Sacramento | 1880 (poors-1880, p. 973); 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1929-06 (crc-d21194, p. 7) | opening |
 | `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
-| `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
-| `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5); 1948-11-04 (cpuc-d42199, p. 2) | opening and closing |
+| `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5); 1948-11-04 (cpuc-d42199, p. 2) | opening and closing |
 | `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
 | `eb-k-alcatraz` K Alcatraz Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
-| `eb-9-alameda` No. 9 Alameda via Park Street | 1931-01-13 (crc-d23279, p. 2); 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
+| `eb-9-alameda` No. 9 Alameda via Park Street | 1931-01-13 (crc-d23279, p. 2); 1933-05-02 (crc-d26059, p. 1) | opening and closing |
 | `eb-10-piedmont` No. 10 Piedmont Avenue | 1943-11-30 (crc-d36740, p. 1-2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
 | `eb-11-oakland-ave` No. 11 Oakland Avenue | 1931-11-16 (crc-d24224, p. 2); 1942-11-05 (crc-d35948, p. 2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
 | `eb-12-grand-16th` No. 12 Grand Avenue-16th Street | 1935-09-03 (crc-d28206, p. 9); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
-| `eb-14-east-18th` No. 14 East 18th Street | 1935-09-03 (crc-d28206, p. 9); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
-| `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard | 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-14-east-18th` No. 14 East 18th Street | 1935-09-03 (crc-d28206, p. 9); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening |
+| `eb-15-macarthur` No. 15 14th Avenue-MacArthur Boulevard | 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening |
 | `eb-38th-ave` 38th Avenue line | 1931-11-16 (crc-d24224, p. 2); 1932-06-30 (crc-d24963, p. 1); 1946-03-05 (crc-d38738, p. 1) | opening and closing |
 | `eb-17-8th-ave` No. 17 8th Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
 | `eb-23-23rd-ave` No. 23 23rd Avenue | 1933-06-12 (crc-d26059, p. 2-3) | opening and closing |
-| `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue | 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening and closing |
+| `eb-18-park-lakeshore` No. 18 Park Boulevard and Lakeshore Avenue | 1948-03-09 (cpuc-d41306, p. 2, 4-5) | opening |
 | `eb-24-dwight` No. 24 Dwight Way | 1938-01-10 (crc-d30512, p. 3) | opening and closing |
 | `eb-cemetery` Cemetery line | 1937-10-11 (crc-d30213, p. 1, 3) | opening and closing |
-| `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening and closing |
+| `eb-richmond` Richmond line | 1933-10-16 (crc-d26438, p. 1) | opening |
 | `eb-29-23rd-macdonald` No. 29 23rd and Macdonald | 1932-06-13 (crc-d24866, p. 4-5) | opening and closing |
 | `sp-creek-route` Creek Route ferry (Broadway, Oakland) | 1876-07-01 (halley-1876, p. 435); 1936-12 (crc-d29338, p. 1) | opening |
 | `sp-alameda-pier-ferry` Alameda ferry (Alameda Pier) | 1878-06-01 (wood-1883, p. 833) | opening |
@@ -460,7 +460,6 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `msry-34` No. 34 Sixth and Sansome Streets | 1909-02-01 (manley-1909, p. 19); 1929-05 (oshaughnessy-1929, p. 349) | opening and closing |
 | `msry-35` No. 35 Howard Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening |
 | `msry-36` No. 36 Folsom Street | 1909-02-01 (manley-1909, p. 22); 1929-05 (oshaughnessy-1929, p. 349) | opening |
-| `msry-40` No. 40 San Mateo | 1903-10-31 (srj-1903-10-31-san-mateo, p. 802); 1909-02-01 (manley-1909, p. 26); 1929-05 (oshaughnessy-1929, p. 349) | opening |
 | `msry-41` No. 41 Second and Market Streets to the Southern Pacific depot | 1929-05 (oshaughnessy-1929, p. 349-350) | opening |
 | `msry-42` No. 42 First and Fifth Streets | 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |
 | `msry-divisadero-extension` Divisadero Street extension | 1909-02-01 (manley-1909, p. 29); 1929-05 (oshaughnessy-1929, p. 350) | opening and closing |

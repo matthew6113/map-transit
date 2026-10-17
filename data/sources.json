@@ -7811,6 +7811,61 @@
       "license": "Public domain (published 1915)",
       "accessed": "2026-10-17",
       "notes": "pp. 387-388 (scan of the Smithsonian Libraries' copy): the Southern Pacific's new car ferry, \"especially designed to carry freight and passenger trains across the Carquinez Straits between Port Costa and Benicia\", \"to relieve the old steamer Solano, which has been in almost continuous service since 1879\"; \"The trip across is made in 8 minutes.\" The halftone \"The Contra Costa on Her Trial Trip\" on p. 387. Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "western-railroader-1948-04",
+      "title": "The Western Railroader 11(6), April 1948: \"Key street car abandonment speeded by power shortage\"",
+      "publisher": "The Western Railroader",
+      "date": "1948-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1948-04_11_6/page/n7/mode/1up",
+      "license": "Copyright status unknown (railfan periodical, 1948); cited for facts only",
+      "accessed": "2026-10-17",
+      "notes": "Scan leaf n7: \"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th with car 918 on line 18, car 951 on line 15 and car 993 on line 16\" (16 as printed; the three lines are 14, 15 and 18). Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "western-railroader-1948-12",
+      "title": "The Western Railroader 12(2), December 1948: \"History of the 40-line\"",
+      "publisher": "The Western Railroader",
+      "date": "1948-12",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1948-12_12_2/page/n2/mode/1up",
+      "license": "Copyright status unknown (railfan periodical, 1948); cited for facts only",
+      "accessed": "2026-10-17",
+      "notes": "p. 3 (\"Page Three\"): \"on December 31, 1902, the line was opened for service to beat a franchise deadline of January 1, 1903\"; \"Shuttle service was started between Holy Cross and San Mateo on an hourly headway\". p. 4: the cars \"to the Cemeteries had been routed down Mission Street to Onodaga to Ocean to San Jose Road\", and through service to San Mateo by that route began in November 1903. Also p. 3: the San Francisco & San Mateo \"was opened for service as far as Thirtieth Street on July 29, 1891\" and reached Baden \"early in 1893\". Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "richmond-record-herald-1933-11-03",
+      "title": "Richmond Record-Herald, November 3, 1933: the new Key bus service",
+      "publisher": "Richmond Record-Herald (Richmond Public Library scan)",
+      "date": "1933-11-03",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_006539",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-17",
+      "notes": "p. 1: new bus service \"will be started here on the morning of Tuesday, November 7. At that date all street car service will be discontinued between here and Oakland\"; \"Street cars will operate only as far as Ashby avenue in Berkeley\". Read on the archive.org text, October 17, 2026 (the research pass read it October 15)."
+    },
+    {
+      "id": "richmond-record-herald-1933-11-07",
+      "title": "Richmond Record-Herald, November 7, 1933: \"New busses will start here today\"",
+      "publisher": "Richmond Record-Herald (Richmond Public Library scan)",
+      "date": "1933-11-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_006542/page/n2/mode/1up",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-17",
+      "notes": "p. 3, Tuesday morning: \"For today, with the start of the new bus system in Richmond, there will be no more street car service in Richmond\"; \"All street car rails in Richmond and on San Pablo avenue to Ashby avenue, Berkeley, will be torn up\". Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "cpuc-d42199",
+      "title": "Public Utilities Commission of California, Decision No. 42199: Key System Transit Lines: motor coaches for lines No. 1, 2, 4 and 5 (Application No. 29174, with No. 19502, 110th supplemental)",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1948-11-04",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D42199_19481104_A29174.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-17",
+      "notes": "p. 2: the company \"seeks authority to discontinue street railway service on its four remaining local rail lines (Nos. 1, 2, 4 and 5) being operated in the Cities of Oakland and Berkeley\"; the order (pp. 9-11) lets it substitute motor coaches, effective 20 days after \"this 4th day of November, 1948\", with buses within 90 days after that. Read on the scanned pages, October 17, 2026."
     }
   ]
 }

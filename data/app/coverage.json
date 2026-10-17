@@ -11,11 +11,11 @@
     "undated_segments": 0,
     "borrowed_dates": 528,
     "flags": {
-      "closed_unsourced": 576,
+      "closed_unsourced": 572,
       "conflicting_sources": 39,
       "geometry_unverified": 7,
       "needs_manual_digitizing": 7,
-      "opened_unsourced": 517,
+      "opened_unsourced": 516,
       "page_unverified": 1
     }
   },

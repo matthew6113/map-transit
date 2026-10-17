@@ -1039,6 +1039,15 @@
       "license": "California public record; cited for facts",
       "accessed": "2026-10-15"
     },
+    "cpuc-d42199": {
+      "title": "Public Utilities Commission of California, Decision No. 42199: Key System Transit Lines: motor coaches for lines No. 1, 2, 4 and 5 (Application No. 29174, with No. 19502, 110th supplemental)",
+      "publisher": "Public Utilities Commission of the State of California",
+      "date": "1948-11-04",
+      "type": "official",
+      "url": "https://files.cpuc.ca.gov/LegacyCPUCDecisionsAndResolutions/Decisions/Decisions_D40600_to_D57800/D42199_19481104_A29174.pdf",
+      "license": "California public record; cited for facts",
+      "accessed": "2026-10-17"
+    },
     "cpuc-d44289": {
       "title": "Public Utilities Commission of the State of California, Decision No. 44289 (Application No. 31128): Key System's A (12th Street) line east of Oak Street",
       "author": "Public Utilities Commission of the State of California",
@@ -3223,6 +3232,24 @@
       "license": "Copyright (1970); cited for facts only (decision 19)",
       "accessed": "2026-10-16"
     },
+    "richmond-record-herald-1933-11-03": {
+      "title": "Richmond Record-Herald, November 3, 1933: the new Key bus service",
+      "publisher": "Richmond Record-Herald (Richmond Public Library scan)",
+      "date": "1933-11-03",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_006539",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-17"
+    },
+    "richmond-record-herald-1933-11-07": {
+      "title": "Richmond Record-Herald, November 7, 1933: \"New busses will start here today\"",
+      "publisher": "Richmond Record-Herald (Richmond Public Library scan)",
+      "date": "1933-11-07",
+      "type": "primary_document",
+      "url": "https://archive.org/details/cric_006542/page/n2/mode/1up",
+      "license": "Copyright status unknown; cited for facts only",
+      "accessed": "2026-10-17"
+    },
     "samtrans-dtcs-final-report-2017": {
       "title": "Dumbarton Transportation Corridor Study, Final Report",
       "publisher": "San Mateo County Transit District (SamTrans)",
@@ -4683,6 +4710,24 @@
       "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1945-08_8_10",
       "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
       "accessed": "2026-10-14"
+    },
+    "western-railroader-1948-04": {
+      "title": "The Western Railroader 11(6), April 1948: \"Key street car abandonment speeded by power shortage\"",
+      "publisher": "The Western Railroader",
+      "date": "1948-04",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1948-04_11_6/page/n7/mode/1up",
+      "license": "Copyright status unknown (railfan periodical, 1948); cited for facts only",
+      "accessed": "2026-10-17"
+    },
+    "western-railroader-1948-12": {
+      "title": "The Western Railroader 12(2), December 1948: \"History of the 40-line\"",
+      "publisher": "The Western Railroader",
+      "date": "1948-12",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1948-12_12_2/page/n2/mode/1up",
+      "license": "Copyright status unknown (railfan periodical, 1948); cited for facts only",
+      "accessed": "2026-10-17"
     },
     "western-railroader-1949-04": {
       "title": "The Western Railroader 12(6), April 1949: the Northwestern Pacific",
@@ -15816,6 +15861,12 @@
           "date": "1948-03-09",
           "source": "cpuc-d41306",
           "pages": "2, 4-5"
+        },
+        {
+          "date": "1948-11-04",
+          "source": "cpuc-d42199",
+          "pages": "2",
+          "note": "One of the \"four remaining local rail lines (Nos. 1, 2, 4 and 5) being operated in the Cities of Oakland and Berkeley\"."
         }
       ],
       "undated": false,
@@ -16085,6 +16136,14 @@
             "name"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "cpuc-d42199",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "pages": "2, 9-11"
         },
         {
           "source": "usgs-san-leandro-1948",
@@ -18881,18 +18940,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "status": "closed",
       "status_label": "Closed",
       "summary": "From Fruitvale Ave and East 27th St by East 21st St, 14th Ave and East 18th St to 3rd Ave, then a private right-of-way to 1st Ave (not drawn: its course isn't given) and a loop downtown by 12th St, 13th St and Jefferson St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -19221,9 +19281,18 @@
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         },
         {
           "source": "usgs-oakland-east-1949",
@@ -19623,18 +19692,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "status": "closed",
       "status_label": "Closed",
       "summary": "From MacArthur Blvd and 35th Ave by MacArthur Blvd and 14th Ave to East 18th St, then with the No. 14 to downtown, where both turned back on 13th St between Clay and Jefferson Sts.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -19897,9 +19967,18 @@
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         },
         {
           "source": "usgs-oakland-east-1949",
@@ -21689,18 +21768,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "status": "closed",
       "status_label": "Closed",
       "summary": "From Leimert Blvd and Oakmore Rd by Park Blvd and a private right-of-way to East 18th St, then \"other streets\" to 13th St and Broadway (not drawn: neither is given), and out Broadway, Grand Ave, Lakeshore Ave and Walavista Ave to a right-of-way beyond Carlston Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -21866,9 +21946,18 @@
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         },
         {
           "source": "usgs-oakland-east-1949",
@@ -22182,6 +22271,12 @@
           "date": "1948-03-09",
           "source": "cpuc-d41306",
           "pages": "2, 4-5"
+        },
+        {
+          "date": "1948-11-04",
+          "source": "cpuc-d42199",
+          "pages": "2",
+          "note": "One of the \"four remaining local rail lines (Nos. 1, 2, 4 and 5) being operated in the Cities of Oakland and Berkeley\"."
         }
       ],
       "undated": false,
@@ -22460,6 +22555,14 @@
             "name"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "cpuc-d42199",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "pages": "2, 9-11"
         },
         {
           "source": "usgs-oakland-west-1949",
@@ -29961,7 +30064,7 @@
       "mode_label": "Interurban",
       "group": "interurban",
       "era": "past",
-      "opened": null,
+      "opened": "1902-12-31",
       "closed": "1949-01-15",
       "status": "closed",
       "status_label": "Closed",
@@ -29973,7 +30076,7 @@
           "type": "electric_overhead"
         }
       ],
-      "notes": "Its opening to San Mateo isn't sourced; the map draws it from October 31, 1903, when the Street Railway Journal describes the cars running (decision 20). In 1903 it reached the city by the San Francisco & San Mateo's streets of 1892, which aren't drawn yet, so until 1909 it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
+      "notes": "It opened to San Mateo on December 31, 1902, at first as an hourly shuttle from Holy Cross; through cars from the city by Mission St began in November 1903 (The Western Railroader, December 1948, the one source read for both). Its city streets are drawn from Manley's route of 1909, so until then it is drawn from Daly City. Its streets in San Mateo are O'Shaughnessy's of 1929; the ones before aren't sourced.",
       "photo": {
         "image_url": "https://archive.org/download/streetrailwayjo221903newy/page/n818.jpg",
         "crop": [
@@ -29992,28 +30095,7 @@
         "width": 800,
         "height": 720
       },
-      "flags": [
-        "opened_unsourced"
-      ],
-      "running": [
-        {
-          "date": "1903-10-31",
-          "source": "srj-1903-10-31-san-mateo",
-          "pages": "802",
-          "note": "\"The cars at the present time are operated every half-hour\" to San Mateo."
-        },
-        {
-          "date": "1909-02-01",
-          "source": "manley-1909",
-          "pages": "26",
-          "note": "\"5th and Market via 5th to Mission to Colma to Cemeteries to San Mateo.\""
-        },
-        {
-          "date": "1929-05",
-          "source": "oshaughnessy-1929",
-          "pages": "349"
-        }
-      ],
+      "flags": [],
       "undated": false,
       "length_km": 33.57,
       "confidence_km": {
@@ -30057,10 +30139,8 @@
           "name": "5th St, Market St to Mission St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
+          "note": "Manley's route of February 1, 1909 is the first source read that gives it street by street; through cars ran by Mission St from November 1903, turning off by Onondaga Ave, Ocean Ave and San Jose Rd (not drawn), and before that a shuttle ran from Holy Cross (The Western Railroader, December 1948)",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30077,10 +30157,7 @@
           "name": "Mission St, 14th St to 5th St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30097,10 +30174,7 @@
           "name": "Mission St, 14th St to 16th St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30117,10 +30191,7 @@
           "name": "Mission St, 16th St to 22nd St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30137,10 +30208,7 @@
           "name": "Mission St, 22nd St to Valencia St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30157,10 +30225,7 @@
           "name": "Mission St, 29th St to Valencia St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30177,10 +30242,7 @@
           "name": "Mission St, 29th St to Cortland Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30197,10 +30259,7 @@
           "name": "Mission St, Cortland Ave to Richland Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30217,10 +30276,7 @@
           "name": "Mission St, Onondaga Ave to Richland Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30237,10 +30293,7 @@
           "name": "Mission St, Onondaga Ave to San Jose Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1909-02-01",
-            "1929-05"
-          ],
+          "from": "1909-02-01",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30272,10 +30325,8 @@
           "name": "N San Mateo Dr, Baldwin Ave to Peninsula Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
-          "note": "O'Shaughnessy's San Mateo Drive",
+          "from": "1929-05",
+          "note": "O'Shaughnessy's San Mateo Drive, from his route of May 1929; the line's streets in San Mateo before then aren't sourced",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30292,9 +30343,7 @@
           "name": "Baldwin Ave, N San Mateo Dr to S B St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30311,9 +30360,7 @@
           "name": "S B St, Baldwin Ave to E 3rd Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30330,9 +30377,7 @@
           "name": "E 3rd Ave, Main St to S B St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30349,9 +30394,7 @@
           "name": "Main St, 2nd Ave to E 3rd Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "note": "Back by Main St, 2nd Ave, B St, Baldwin Ave, Ellsworth Ave and Poplar Ave",
           "borrowed": true,
           "undated": false,
@@ -30369,9 +30412,7 @@
           "name": "2nd Ave, Main St to S B St",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30388,9 +30429,7 @@
           "name": "N Ellsworth Ave, Baldwin Ave to E Poplar Ave",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30407,9 +30446,7 @@
           "name": "E Poplar Ave, N Ellsworth Ave to N San Mateo Dr",
           "opened": null,
           "closed": null,
-          "running": [
-            "1929-05"
-          ],
+          "from": "1929-05",
           "borrowed": true,
           "undated": false,
           "confidence": "digitized",
@@ -30458,6 +30495,15 @@
           ],
           "pages": "164, 277",
           "note": "\"On January 16, 1949, the No. 40 San Mateo street car line was abandoned, the last day of operation being January 15, 1949.\""
+        },
+        {
+          "source": "western-railroader-1948-12",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "3-4",
+          "note": "\"on December 31, 1902, the line was opened for service\"; at first a shuttle between Holy Cross and San Mateo, with through cars by Mission St from November 1903."
         },
         {
           "source": "usgs-san-francisco-north-1950",
@@ -33298,9 +33344,10 @@
           "pages": "2"
         },
         {
-          "date": "1933-06-12",
+          "date": "1933-05-02",
           "source": "crc-d26059",
-          "pages": "2-3"
+          "pages": "1",
+          "note": "The county's resolution of May 2, 1933 closed the Park Street bridge, \"over which the No. 9 street car line operated\", to cars over ten tons, so the line had to stop; the day it last ran isn't given."
         }
       ],
       "undated": false,
@@ -33462,7 +33509,7 @@
           "opened": null,
           "closed": null,
           "running": [
-            "1933-06-12"
+            "1933-05-02"
           ],
           "borrowed": true,
           "undated": false,
@@ -33481,7 +33528,7 @@
           "opened": null,
           "closed": null,
           "running": [
-            "1933-06-12"
+            "1933-05-02"
           ],
           "note": "In Alameda",
           "borrowed": true,
@@ -37615,18 +37662,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1933-11-06",
       "status": "closed",
       "status_label": "Closed",
       "summary": "The old East Shore & Suburban's line, from San Pablo Ave just south of Ashby Ave through Albany and El Cerrito to Richmond, and on to the Richmond-San Rafael ferry at Point Richmond. The map draws only San Pablo Ave, to Potrero Ave: beyond it the order's streets (Potrero Ave, Pullman Ave, 23rd St, Macdonald Ave, Garrard Blvd, Standard Ave, Scofield Ave) no longer meet as they did, and are to be traced from the 1949 Richmond sheet.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from Tuesday, November 7, 1933; the cars ran on only to Ashby Ave, Berkeley (Richmond Record-Herald, November 3 and 7, 1933).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -37675,6 +37723,24 @@
             "name"
           ],
           "pages": "1"
+        },
+        {
+          "source": "richmond-record-herald-1933-11-03",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1",
+          "note": "Buses from the morning of Tuesday, November 7, 1933: \"At that date all street car service will be discontinued between here and Oakland\"; cars to run \"only as far as Ashby avenue in Berkeley\"."
+        },
+        {
+          "source": "richmond-record-herald-1933-11-07",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "3",
+          "note": "\"For today, with the start of the new bus system in Richmond, there will be no more street car service in Richmond.\" Its last day was Monday, November 6."
         },
         {
           "source": "usgs-richmond-1949",

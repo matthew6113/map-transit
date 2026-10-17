@@ -1154,6 +1154,11 @@ already quoted in east-bay-electric.md; re-read here. [O][ocr][img]
 
 ## 19. Actual changeover days (newspapers and *The Western Railroader*)
 
+*Applied to the data on Oct 17, 2026:* lines 14, 15 and 18 close on Mar 27, 1948 and the Richmond line on
+Nov 6, 1933, each re-read on the page image. The June and November 1948 days below are plans announced in
+advance, with no later report of the day found, so lines 1, 2, 10, 11 and 12 keep `closed` null; lines 1 and
+2 are drawn to D42199 (Nov 4, 1948).
+
 **Sources reached:** the *Oakland Tribune* on archive.org runs only to 1924 (no issues 1925–48), so
 it can't give 1930s–40s days. *The Western Railroader* (railfan monthly, San Francisco; issues
 1937–49 on archive.org as `sim_western-railroader-the-western-railfan_YYYY-MM_…`) and the
