@@ -600,7 +600,7 @@ describe('app files (data/app/)', () => {
 
   it('resolve every cited source into the catalog', () => {
     for (const l of catalog.lines) {
-      for (const s of l.sources) expect(s.title, `${l.id}: ${s.source}`).toBeTruthy();
+      for (const s of l.sources) expect(catalog.sources[s.source]?.title, `${l.id}: ${s.source}`).toBeTruthy();
     }
   });
 });

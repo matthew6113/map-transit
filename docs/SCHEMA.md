@@ -35,7 +35,8 @@ flattens them into `data/app/`:
   dates overlap count as alongside.
 - `<era>-points.geojson`: stations and other points. Like the strokes, each carries its display years
   (`open_y`, `close_y`) and the `borrowed` and `undated` marks (decision 4).
-- `catalog.json`: every line, with its sources resolved, for the panel and the list.
+- `catalog.json`: every line with its citations, for the panel and the list, and each cited source's
+  record once (`sources`, by id; the client joins them).
 
 ## Where files live
 

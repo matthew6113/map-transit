@@ -16,7 +16,8 @@ slot across the path, so different modes are drawn side by side close in (side_b
 Today's network is cut into shared, dated segments first (extensions.py, data/present/extensions.json),
 and past lines may run over present segments, track that is still in use (decision 13).
 - <era>-points.geojson  stations, piers, terminals, carbarns.
-- catalog.json          every line with its resolved sources, for the panel and the list.
+- catalog.json          every line with its citations, for the panel and the list, and each cited
+                        source's record once.
 
 The ideal era (data/ideal/<proposal>/) is the future's layer B: the reference proposals Matthew
 designs his own network from, built like the other eras and never on the year slider. Each catalog
@@ -492,7 +493,8 @@ def main() -> None:
                     "flags": route_segments[r["segment"]]["properties"]["flags"],
                     **({"notes": route_segments[r["segment"]]["properties"]["notes"]} if "notes" in route_segments[r["segment"]]["properties"] else {}),
                 } for r in line["route"]],
-                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line_sources(line, route_segments)],
+                # Citations only: the records are listed once, in the catalog's `sources` (the client joins them).
+                "sources": line_sources(line, route_segments),
             })
 
         by_line = {l["id"]: l for l in lines}
@@ -544,7 +546,11 @@ def main() -> None:
         }
 
     coverage = {era: coverage[era] for era in ERAS}
-    write_json(APP / "catalog.json", {"lines": sorted(catalog, key=lambda l: (l["era"], l["name"]))})
+    cited = sorted({c["source"] for l in catalog for c in l["sources"]})
+    write_json(APP / "catalog.json", {
+        "sources": {sid: {k: v for k, v in sources[sid].items() if k not in ("id", "notes")} for sid in cited},
+        "lines": sorted(catalog, key=lambda l: (l["era"], l["name"])),
+    })
     write_json(APP / "coverage.json", coverage)
     update_data_log(coverage)
     for era, c in coverage.items():

@@ -140,9 +140,16 @@ export function eraUrls(era: Dataset) {
   return { draw: absolute(f.draw), lines: absolute(f.lines), points: absolute(f.points) };
 }
 
+/** A line's citation, as catalog.json keeps it: the source's record is listed once, by id. */
+type Citation = Pick<ResolvedSource, 'source' | 'supports' | 'pages' | 'note'>;
+
 export async function loadCatalog(): Promise<LineRecord[]> {
   const res = await fetch(catalogUrl);
-  return ((await res.json()) as { lines: LineRecord[] }).lines;
+  const { sources, lines } = (await res.json()) as {
+    sources: Record<string, Omit<ResolvedSource, 'id' | 'source' | 'supports'>>;
+    lines: (Omit<LineRecord, 'sources'> & { sources: Citation[] })[];
+  };
+  return lines.map((l) => ({ ...l, sources: l.sources.map((c) => ({ id: c.source, ...sources[c.source], ...c })) }));
 }
 
 /** What the client needs from an era's files: each line's route for the drawing animation, and

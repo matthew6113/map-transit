@@ -345,8 +345,21 @@ Milliseconds from a year step to a settled map, 12 steps each:
 - B and C reload the source and re-lay out every layer at each step. A costs about one repaint.
 - An earlier run that compared one global-state paint layer against ten filtered layers was not a
   fair test and isn't used.
-- **Still to do:** re-measure on a real GPU, including WebKit on an iPhone, in Phase 5. The real past
-  data should be smaller than 10,000 segments.
+- **With the real data (2026-10-17, Phase 5):** the past era has 576 segments and 148 lines, not
+  10,000. The same measure, years 1906 to 1917 (the second test in `tests/perf.spec.ts`):
+
+  | View | Median | p90 | Max |
+  |---|---|---|---|
+  | The "Whole Bay" frame | 378 | 665 | 698 |
+  | San Francisco, zoom 13 | 233 | 341 | 381 |
+  | San Francisco, zoom 13, with the building print | 1,289 | 2,586 | 3,061 |
+
+  The building print, not the lines, is what costs under software WebGL. On a real GPU both are
+  far cheaper; that, and WebKit on an iPhone, needs a device (Matthew's).
+- **PMTiles aren't needed for the past era.** Its files are 628 KB and 972 KB (119 KB and 150 KB
+  gzipped) and load only in the past era. The catalog, the largest file at the start, now lists each
+  source's record once and lines cite it by id: 2.66 MB to 2.07 MB (319 KB to 255 KB gzipped). It
+  loads beside the map, not before it, so it delays only the list and the panels.
 <!-- perf:end -->
 
 ## Present-era data (2026-10-13, Phase 1)

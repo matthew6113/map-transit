@@ -5,7 +5,7 @@
  *  A. the app's path: visibility as feature-state, set only on features crossing the year;
  *  B. the year as layer filters, changed with map.setFilter (what the plan first proposed);
  *  C. the same filters written with global-state, stepped with map.setGlobalStateProperty.
- * Plus hover: feature-state on one line's features.
+ * Plus hover: feature-state on one line's features. A second test repeats A on the real past data.
  * Headless Chromium draws with SwiftShader (software WebGL): a repaint alone costs about 1.5 s here,
  * so absolute times are pessimistic and the comparison is what counts. Results: test-results/perf.json.
  */
@@ -118,4 +118,34 @@ test('year slider rendering, 10k features, 4x CPU slowdown', async ({ page, cont
   writeFileSync('test-results/perf.json', JSON.stringify(result, null, 2));
   console.log(JSON.stringify(result, null, 2));
   expect(a.length).toBe(YEARS);
+});
+
+/** The same measure on the real past data (Phase 5), across the busiest years, at the "Whole Bay"
+ * frame and close in over San Francisco: does the shipped approach still hold? */
+test('year slider rendering, the real past data, 4x CPU slowdown', async ({ page, context }) => {
+  test.setTimeout(900_000);
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const out: Record<string, ReturnType<typeof stats>> = {};
+  for (const [name, hash, buildings] of [
+    ['whole bay', '#map=9/37.75/-122.25', false],
+    ['san francisco', '#map=13/37.78/-122.42', false],
+    ['san francisco, with the building print', '#map=13/37.78/-122.42', true],
+  ] as const) {
+    await page.goto(`/?era=past&year=1905&test=1${buildings ? '' : '&buildings=0'}${hash}`);
+    await page.waitForFunction(() => document.body.dataset.mapReady === 'true', null, { timeout: 120_000 });
+    await page.waitForFunction(() => {
+      const m = (window as unknown as { __map?: import('maplibre-gl').Map }).__map;
+      return !!m?.getSource('transit-past-draw') && m.isSourceLoaded('transit-past-draw') && m.isSourceLoaded('transit-past-lines');
+    }, null, { timeout: 120_000 });
+    await idle(page);
+    const cdp = await context.newCDPSession(page);
+    await cdp.send('Emulation.setCPUThrottlingRate', { rate: 4 });
+    console.log(name);
+    out[name] = stats(await measure(page, 'window.__app.setYear(year, { animateFrom: year - 1 })', 1906));
+    await cdp.send('Emulation.setCPUThrottlingRate', { rate: 1 });
+  }
+  const result = { cpuSlowdown: 4, renderer: 'SwiftShader (software WebGL)', years: '1906-1917', stepsPerView: YEARS, msToIdle: out };
+  mkdirSync('test-results', { recursive: true });
+  writeFileSync('test-results/perf-real.json', JSON.stringify(result, null, 2));
+  console.log(JSON.stringify(result, null, 2));
 });
