@@ -157,8 +157,9 @@ export function LinePanel({ line, onClose }: Props) {
         <details>
           <summary>Segments ({line.segments.length})</summary>
           <ol class="segments">
-            {line.segments.map((s) => (
-              <li key={s.id}>
+            {/* A segment can appear twice, once per period this line used it, so its id alone isn't a key. */}
+            {line.segments.map((s, i) => (
+              <li key={`${s.id}-${i}`}>
                 <span class="seg-name">{s.name}</span>
                 <span class="small">
                   {CONFIDENCE_LABEL[s.confidence]}
