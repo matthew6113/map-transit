@@ -2257,6 +2257,15 @@
       "license": "Public domain (published 1913)",
       "accessed": "2026-10-14"
     },
+    "erj-1913-05-17-sf-municipal-car": {
+      "title": "Municipal Car in San Francisco",
+      "publisher": "Electric Railway Journal 41(20)",
+      "date": "1913-05-17",
+      "type": "journal",
+      "url": "https://archive.org/details/electricrailway411913newy/page/n919/mode/1up",
+      "license": "Public domain (published 1913)",
+      "accessed": "2026-10-17"
+    },
     "erj-1913-07-12-oakland-antioch-eastern": {
       "title": "First Through Train Over Oakland, Antioch & Eastern Railway",
       "publisher": "Electric Railway Journal 42(2)",
@@ -7030,6 +7039,24 @@
         }
       ],
       "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway411913newy/page/n919.jpg",
+        "crop": [
+          0.0726,
+          0.5751,
+          0.6155,
+          0.8318
+        ],
+        "caption": "One of the Municipal Railway's standard cars for its Geary Street line, signed for route A.",
+        "author": "Electric Railway Journal",
+        "date": "published May 17, 1913",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway411913newy/page/n919/mode/1up",
+        "source": "erj-1913-05-17-sf-municipal-car",
+        "file": "photos/muni-a-geary-10th-71346d33.jpg",
+        "width": 960,
+        "height": 644
+      },
       "flags": [],
       "undated": false,
       "length_km": 12.53,
@@ -7111,6 +7138,13 @@
           ],
           "pages": "29",
           "note": "December 28, 1912: \"On that first day, Muni's A line operated from Kearny & Market, on Geary and 10th Ave. to Fulton St. at Golden Gate Park, with the B line providing shuttle service on Geary from 10th to 33rd Aves.\""
+        },
+        {
+          "source": "erj-1913-05-17-sf-municipal-car",
+          "supports": [
+            "photo"
+          ],
+          "pages": "896"
         },
         {
           "source": "usgs-san-francisco-north-1950",
@@ -36444,6 +36478,24 @@
         }
       ],
       "notes": "Opens on JOE's November 19, 1904, which names no terminals; Borden and Ellison and Sievers say the first cars ran to the California Northwestern's crossing at the Santa Rosa city limits (November 29 or December 1). Between Leddy and the crossing it is drawn on Sebastopol Rd's centerline, the road it ran beside. By 1927, 18 round trips a day (Borden, p. 25).",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo251905newy/page/n565.jpg",
+        "crop": [
+          0.492,
+          0.486,
+          0.9053,
+          0.736
+        ],
+        "caption": "California Northwestern locomotives and flat cars block the Petaluma & Santa Rosa's crossing of their tracks on Sebastopol Avenue in Santa Rosa, in the crossing fight of March 1, 1905.",
+        "author": "Street Railway Journal",
+        "date": "published March 25, 1905",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo251905newy/page/n565/mode/1up",
+        "source": "srj-1905-03-25-santa-rosa",
+        "file": "photos/psr-sebastopol-santa-rosa-568ac832.jpg",
+        "width": 840,
+        "height": 720
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -36598,7 +36650,8 @@
         {
           "source": "srj-1905-03-25-santa-rosa",
           "supports": [
-            "general"
+            "general",
+            "photo"
           ],
           "pages": "542"
         },
@@ -37794,6 +37847,24 @@
         }
       ],
       "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
+      "photo": {
+        "image_url": "https://archive.org/download/transit-journal-1932_1913-04-19_41_16/page/n24.jpg",
+        "crop": [
+          0.0463,
+          0.5616,
+          0.9413,
+          0.8059
+        ],
+        "caption": "An Oakland, Antioch & Eastern car beside one of the line's substations.",
+        "author": "Electric Railway Journal",
+        "date": "published April 19, 1913",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16/page/n24/mode/1up",
+        "source": "erj-1913-04-19-oakland-antioch-eastern",
+        "file": "photos/sn-oakland-sacramento-ac7f2712.jpg",
+        "width": 960,
+        "height": 385
+      },
       "flags": [],
       "undated": false,
       "length_km": 130.54,
@@ -38116,7 +38187,8 @@
         {
           "source": "erj-1913-04-19-oakland-antioch-eastern",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "726-728",
           "note": "\"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point\" (p. 726)."

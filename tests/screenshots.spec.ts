@@ -163,7 +163,8 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; paint
       paint: [['transit-ghost', 'line-opacity', 0.55]] as [string, string, unknown][] })),
   { name: 'style-panel', url: '/?style=1&test=1' },
   // Panels with photos (public-domain journal halftones, `make photos`).
-  ...['key-f', 'key-ferry', 'mt-tamalpais-railway', 'psr-steamers', 'sp-encinal-avenue', 'msry-40'].map((id) => (
+  ...['key-f', 'key-ferry', 'mt-tamalpais-railway', 'psr-steamers', 'sp-encinal-avenue', 'msry-40', 'sn-oakland-sacramento',
+    'psr-sebastopol-santa-rosa', 'muni-a-geary-10th'].map((id) => (
     { name: `past-line-${id}-photo`, url: `/l/${id}?era=past&year=1912&test=1&at=99` })),
   { name: 'mobile-line-key-f-photo', url: '/l/key-f?era=past&year=1912&test=1&at=99', width: 390, height: 844 },
   { name: 'style-panel-mobile', url: '/?style=1&test=1', width: 390, height: 844 },

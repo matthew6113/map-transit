@@ -227,7 +227,8 @@
     {
      "source": "srj-1905-03-25-santa-rosa",
      "supports": [
-      "general"
+      "general",
+      "photo"
      ],
      "pages": "542"
     },
@@ -272,7 +273,22 @@
    "flags": [
     "conflicting_sources"
    ],
-   "notes": "Opens on JOE's November 19, 1904, which names no terminals; Borden and Ellison and Sievers say the first cars ran to the California Northwestern's crossing at the Santa Rosa city limits (November 29 or December 1). Between Leddy and the crossing it is drawn on Sebastopol Rd's centerline, the road it ran beside. By 1927, 18 round trips a day (Borden, p. 25)."
+   "notes": "Opens on JOE's November 19, 1904, which names no terminals; Borden and Ellison and Sievers say the first cars ran to the California Northwestern's crossing at the Santa Rosa city limits (November 29 or December 1). Between Leddy and the crossing it is drawn on Sebastopol Rd's centerline, the road it ran beside. By 1927, 18 round trips a day (Borden, p. 25).",
+   "photo": {
+    "image_url": "https://archive.org/download/streetrailwayjo251905newy/page/n565.jpg",
+    "crop": [
+     0.492,
+     0.486,
+     0.9053,
+     0.736
+    ],
+    "caption": "California Northwestern locomotives and flat cars block the Petaluma & Santa Rosa's crossing of their tracks on Sebastopol Avenue in Santa Rosa, in the crossing fight of March 1, 1905.",
+    "author": "Street Railway Journal",
+    "date": "published March 25, 1905",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/streetrailwayjo251905newy/page/n565/mode/1up",
+    "source": "srj-1905-03-25-santa-rosa"
+   }
   },
   {
    "id": "psr-sebastopol-forestville",

@@ -59,10 +59,32 @@
           ],
           "pages": "39",
           "note": "\"The A-line service on 10th Ave. was abandoned in December 1932 because of the competition from the 31 line.\""
+        },
+        {
+          "source": "erj-1913-05-17-sf-municipal-car",
+          "supports": [
+            "photo"
+          ],
+          "pages": "896"
         }
       ],
       "flags": [],
-      "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet."
+      "notes": "Drawn as it ran on its first day; where its downtown end lay later isn't sourced yet.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway411913newy/page/n919.jpg",
+        "crop": [
+          0.0726,
+          0.5751,
+          0.6155,
+          0.8318
+        ],
+        "caption": "One of the Municipal Railway's standard cars for its Geary Street line, signed for route A.",
+        "author": "Electric Railway Journal",
+        "date": "published May 17, 1913",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway411913newy/page/n919/mode/1up",
+        "source": "erj-1913-05-17-sf-municipal-car"
+      }
     },
     {
       "id": "muni-b-geary",

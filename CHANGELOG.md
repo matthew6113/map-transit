@@ -2,6 +2,14 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: Three more photos
+
+- The Oakland, Antioch & Eastern (the Sacramento Northern's line from Oakland), from the *Electric
+  Railway Journal* of April 19, 1913; the Petaluma & Santa Rosa's crossing fight at Santa Rosa, from
+  the *Street Railway Journal* of March 25, 1905; and a Municipal Railway car for the Geary line's
+  route A, from the *Electric Railway Journal* of May 17, 1913 (a new source,
+  `erj-1913-05-17-sf-municipal-car`).
+
 ## 2026-10-17: Photos for nine past lines
 
 - **Panel photos** from public-domain journals (published before 1931, scanned by the Internet

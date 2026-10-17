@@ -122,7 +122,8 @@
         {
           "source": "erj-1913-04-19-oakland-antioch-eastern",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "726-728",
           "note": "\"On April 7 the last-named company expected to inaugurate regular train service between Oakland and Bay Point\" (p. 726)."
@@ -195,7 +196,22 @@
       ],
       "flags": [],
       "notes": "The last day, June 30, 1941, rests on a railfan magazine's reminiscence of 1945; the Railroad Commission authorized the end in May 1941. Through service to Sacramento, by the Chipps Island ferry, ran from September 3, 1913 (the first through train on July 2) to on or about August 1940 (Decision No. 33416); after that the trains ran to Pittsburg. The Pittsburg branch itself isn't drawn yet: its opening isn't sourced.",
-      "continues_beyond": "Sacramento, and on to Chico"
+      "continues_beyond": "Sacramento, and on to Chico",
+      "photo": {
+        "image_url": "https://archive.org/download/transit-journal-1932_1913-04-19_41_16/page/n24.jpg",
+        "crop": [
+          0.0463,
+          0.5616,
+          0.9413,
+          0.8059
+        ],
+        "caption": "An Oakland, Antioch & Eastern car beside one of the line's substations.",
+        "author": "Electric Railway Journal",
+        "date": "published April 19, 1913",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/transit-journal-1932_1913-04-19_41_16/page/n24/mode/1up",
+        "source": "erj-1913-04-19-oakland-antioch-eastern"
+      }
     },
     {
       "id": "sn-oakland-lafayette-freight",
