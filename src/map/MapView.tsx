@@ -3,7 +3,7 @@
  * diffed setStyle, 2D/3D handling, hover tooltip). Hover highlights a whole line through feature-state
  * instead of a style rebuild, and a click on shared track lists every line there.
  */
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useRef, useState } from 'preact/hooks';
 import * as maplibregl from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import { Protocol } from 'pmtiles';
@@ -235,7 +235,9 @@ export function MapView({ inputs, shown, statusLabel, onReady, onFirstInteractio
     };
   }, [mode]);
 
-  useEffect(() => {
+  // A layout effect, so Escape works from the moment the chooser shows: an ordinary effect waits for
+  // the next animation frame, which a busy map can hold back.
+  useLayoutEffect(() => {
     if (!chooser) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setChooser(null);
