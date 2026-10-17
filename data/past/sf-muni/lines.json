@@ -438,13 +438,35 @@
           ],
           "pages": "46",
           "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "source": "sf-puc-reports-1949-53",
+          "supports": [
+            "general"
+          ],
+          "pages": "42-43 (1949-50)",
+          "note": "The year's conversions (July 3, 1949; March 19, 1950) don't include the C."
         }
       ],
       "flags": [
         "closed_unsourced",
         "conflicting_sources"
       ],
-      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but the change itself isn't recorded in the sources reached, so its end is left open."
+      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but its report for 1949-50 lists that year's conversions, the D and H among them, without the C, and the change itself isn't recorded in the sources reached, so its end is left open. It is drawn until 1949, the last year a source shows it running.",
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "352",
+          "note": "C: \"From Ferry Loop via Market Street, Geary St., 2nd Ave., Cornwall St. and California St. to 33rd Ave.\""
+        },
+        {
+          "date": "1949",
+          "source": "sf-puc-report-1948",
+          "pages": "165",
+          "note": "Contemplated conversions: \"March 5, 1950 … Letter \\\"C\\\" California line — Street car to motor coach.\""
+        }
+      ]
     },
     {
       "id": "muni-d-van-ness",

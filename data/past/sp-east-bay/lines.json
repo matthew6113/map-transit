@@ -322,12 +322,50 @@
           "supports": [
             "general"
           ]
+        },
+        {
+          "source": "oakland-tribune-1912-02-02",
+          "supports": [
+            "general"
+          ],
+          "pages": "18",
+          "note": "Trial trip over the loop to Albany and along Ninth Street on February 2, 1912; service \"within a week\"."
+        },
+        {
+          "source": "oakland-tribune-1912-02-06",
+          "supports": [
+            "general"
+          ],
+          "pages": "3"
+        },
+        {
+          "source": "oakland-tribune-1912-02-08",
+          "supports": [
+            "general"
+          ],
+          "pages": "7"
+        },
+        {
+          "source": "oakland-tribune-1912-02-12",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes\"; regular loop service from \"next Monday\"."
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: service over the loop by Solano Avenue to Ninth Street was planned to begin on Saturday, February 3, 1912, \"if the trials justify\" (San Francisco Call, February 2, 1912); no report of the day itself has been found. Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial train ran over the loop to Albany and along Ninth Street on February 2, 1912 (Oakland Tribune, Feb. 2), and the loop's twenty-minute service, celebrated at Albany on February 7, was inaugurated that day (Tribune, Feb. 6 and 8). But on February 12 Ninth Street trains still ran on their own, every 40 minutes from 9 to 5, \"principally for trial purposes\", with regular service around the loop planned for Monday, February 19 (Tribune, Feb. 12); no report of that day has been found, so the line is drawn from February 12, when a source shows it running. The San Francisco Call of February 2 had planned service from February 3; Wikipedia gives February 7, citing the Berkeley Gazette, not yet checked.",
+      "running": [
+        {
+          "date": "1912-02-12",
+          "source": "oakland-tribune-1912-02-12",
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes.\""
+        }
+      ]
     },
     {
       "id": "sp-seventh-street",

@@ -4132,6 +4132,50 @@
       "notes": "scan leaf 12 (counted from 0), \"NEW KEY ROUTE SERVICE BEGINS\"; the folio is illegible (p. 14 by the order of the pages, one of which seems missing from the scan). Re-read on the page image, October 15, 2026."
     },
     {
+      "id": "oakland-tribune-1912-02-02",
+      "title": "Oakland Tribune, 1912-02-02: \"Electric train makes successful trial trip\" (the Southern Pacific's Albany loop)",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-02",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-02",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17",
+      "notes": "p. 18 (scan leaf 17, counted from 0). Berkeley, Feb. 2: \"A successful trial trip was made by the electric train over the loop line to Albany and through West Berkeley along Ninth street this afternoon\"; \"The loop service of which the California street and Ninth street lines are parts will be placed in operation within a week\". Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "oakland-tribune-1912-02-06",
+      "title": "Oakland Tribune, 1912-02-06: \"Albany to celebrate 20-minute service\"",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-06",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-06",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17",
+      "notes": "p. 3 (scan leaf 2, counted from 0). Albany, Feb. 6: \"The inauguration of a twenty-minute service by the Southern Pacific on its California street, Albany and Ninth street loop electric line tomorrow, will be celebrated by the citizens\". Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "oakland-tribune-1912-02-08",
+      "title": "Oakland Tribune, 1912-02-08: \"Albany greets railway men\" (the Southern Pacific loop's completion celebrated)",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-08",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-08",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17",
+      "notes": "p. 7 (scan leaf 6, counted from 0). Albany, Feb. 8: \"The completion of the Southern Pacific loop connecting Albany with Berkeley, Oakland and San Francisco and the inauguration of rapid transit service was gloriously celebrated last evening\". Read on the page image, October 17, 2026."
+    },
+    {
+      "id": "oakland-tribune-1912-02-12",
+      "title": "Oakland Tribune, 1912-02-12: \"S. P. loop service to start Monday\"",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-12",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-12",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17",
+      "notes": "p. 10 (scan leaf 9, counted from 0). Berkeley, Feb. 12: regular service on the Ninth and California streets loop via Albany is planned for \"next Monday\" (February 19); \"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes\"; \"A separate 20 minute service is now in effect on California street, between the pier and Thousand Oaks\". Read on the page image, October 17, 2026."
+    },
+    {
       "id": "oakland-tribune-1912-10-25",
       "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
       "publisher": "Oakland Tribune",
@@ -5254,6 +5298,17 @@
       "license": "Public record; cited for facts",
       "accessed": "2026-10-14",
       "notes": "Muni's chronology from 1902 (its first service, December 28, 1912), pp. 271-277; its service changes by date, pp. 189-192; conversions, pp. 164-165. Quotes read on the page images."
+    },
+    {
+      "id": "sf-puc-reports-1949-53",
+      "title": "Annual reports of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53 (bound together)",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1950",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportsanf1949sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-17",
+      "notes": "Scanned by the San Francisco Public Library. The Municipal Railway's \"Changes\" for 1949-50 (pp. 42-43 of that year's report): the July 3, 1949 conversions and those of March 19, 1950 (lines D and H to motor coaches); the C isn't among them. Read in the OCR text, October 17, 2026."
     },
     {
       "id": "sfbos-ordinance-202-15",

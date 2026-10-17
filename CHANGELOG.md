@@ -2,6 +2,19 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: Every past segment on the year slider
+
+- **The Southern Pacific's Ninth Street line** is drawn from February 12, 1912, when the *Oakland
+  Tribune* has its trains running between the mole and Albany "principally for trial purposes"
+  (decision 20). The Tribune of February 2, 6, 8 and 12 also gives the trial trip (February 2), the
+  loop's twenty-minute service and celebration at Albany (February 7) and the regular loop service
+  planned for February 19; that day isn't reported, so the opening stays unsourced.
+- **Muni's C Geary–California line** is drawn until 1949, when the PUC's report still plans its
+  conversion to buses. The report for 1949-50 lists that year's conversions without it, so its end
+  stays open.
+- That puts the last eight undated past segments on the slider: the C's California St extension and
+  the Ninth Street line's loop through West Berkeley and Albany. Five new sources.
+
 ## 2026-10-17: Three more photos
 
 - The Oakland, Antioch & Eastern (the Sacramento Northern's line from Oakland), from the *Electric

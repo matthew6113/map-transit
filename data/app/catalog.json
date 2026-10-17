@@ -2737,6 +2737,42 @@
       "license": "Public domain (published before 1929)",
       "accessed": "2026-10-14"
     },
+    "oakland-tribune-1912-02-02": {
+      "title": "Oakland Tribune, 1912-02-02: \"Electric train makes successful trial trip\" (the Southern Pacific's Albany loop)",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-02",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-02",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17"
+    },
+    "oakland-tribune-1912-02-06": {
+      "title": "Oakland Tribune, 1912-02-06: \"Albany to celebrate 20-minute service\"",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-06",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-06",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17"
+    },
+    "oakland-tribune-1912-02-08": {
+      "title": "Oakland Tribune, 1912-02-08: \"Albany greets railway men\" (the Southern Pacific loop's completion celebrated)",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-08",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-08",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17"
+    },
+    "oakland-tribune-1912-02-12": {
+      "title": "Oakland Tribune, 1912-02-12: \"S. P. loop service to start Monday\"",
+      "publisher": "Oakland Tribune",
+      "date": "1912-02-12",
+      "url": "https://archive.org/details/oakland-tribune-1912-02-12",
+      "type": "primary_document",
+      "license": "Public domain (published before 1929)",
+      "accessed": "2026-10-17"
+    },
     "oakland-tribune-1912-10-25": {
       "title": "Oakland Tribune, 1912-10-25: a retrospective of the Key Route",
       "publisher": "Oakland Tribune",
@@ -3471,6 +3507,15 @@
       "url": "https://archive.org/details/reportofsanfranc1948sanf",
       "license": "Public record; cited for facts",
       "accessed": "2026-10-14"
+    },
+    "sf-puc-reports-1949-53": {
+      "title": "Annual reports of the Public Utilities Commission of the City and County of San Francisco, 1949-50 to 1952-53 (bound together)",
+      "publisher": "City and County of San Francisco, Public Utilities Commission",
+      "date": "1950",
+      "type": "official",
+      "url": "https://archive.org/details/annualreportsanf1949sanf",
+      "license": "Public record; cited for facts",
+      "accessed": "2026-10-17"
     },
     "sfcta-geary-19th-project-page": {
       "title": "Geary/19th Avenue Subway and Regional Connections Study (project page)",
@@ -8195,12 +8240,26 @@
           "to": null
         }
       ],
-      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but the change itself isn't recorded in the sources reached, so its end is left open.",
+      "notes": "Muni's report for 1914-15 has it running to 33rd Ave from February 19, 1915; its later reports give 13th Ave that day and 33rd Ave on March 28. Muni planned to replace its streetcars with buses on March 5, 1950 (PUC report for 1948-49), but its report for 1949-50 lists that year's conversions, the D and H among them, without the C, and the change itself isn't recorded in the sources reached, so its end is left open. It is drawn until 1949, the last year a source shows it running.",
       "flags": [
         "closed_unsourced",
         "conflicting_sources"
       ],
-      "undated": true,
+      "running": [
+        {
+          "date": "1929-05",
+          "source": "oshaughnessy-1929",
+          "pages": "352",
+          "note": "C: \"From Ferry Loop via Market Street, Geary St., 2nd Ave., Cornwall St. and California St. to 33rd Ave.\""
+        },
+        {
+          "date": "1949",
+          "source": "sf-puc-report-1948",
+          "pages": "165",
+          "note": "Contemplated conversions: \"March 5, 1950 … Letter \\\"C\\\" California line — Street car to motor coach.\""
+        }
+      ],
+      "undated": false,
       "length_km": 9.32,
       "confidence_km": {
         "digitized": 8.41,
@@ -8303,7 +8362,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's 2nd Avenue centerline from Geary Boulevard to Cornwall Street (421 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
@@ -8318,7 +8377,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Cornwall Street centerline from 2nd Avenue to California Street (531 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
@@ -8333,7 +8392,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's California Street centerline from -122.46627,37.78478 to Funston Avenue (511 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
@@ -8351,7 +8410,7 @@
           "from": "1915-03-28",
           "note": "To 33rd Ave from March 28, 1915",
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's California Street centerline from Funston Avenue to -122.49347,37.78350 (1887 m; Overture 2026-09-23.1); checked on USGS San Francisco North 1:24,000 (1950).",
           "structure": "street",
@@ -8405,6 +8464,14 @@
           ],
           "pages": "46",
           "note": "March 21, 1949: \"Last day of streetcar service to the Ferry Building. Afterwards, all of the remaining Market St. streetcar lines operated on the 1st and Fremont Sts. loop to and from the Transbay Terminal.\""
+        },
+        {
+          "source": "sf-puc-reports-1949-53",
+          "supports": [
+            "general"
+          ],
+          "pages": "42-43 (1949-50)",
+          "note": "The year's conversions (July 3, 1949; March 19, 1950) don't include the C."
         },
         {
           "source": "gtfs-511",
@@ -15244,11 +15311,19 @@
           "to": null
         }
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: service over the loop by Solano Avenue to Ninth Street was planned to begin on Saturday, February 3, 1912, \"if the trials justify\" (San Francisco Call, February 2, 1912); no report of the day itself has been found. Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked.",
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial train ran over the loop to Albany and along Ninth Street on February 2, 1912 (Oakland Tribune, Feb. 2), and the loop's twenty-minute service, celebrated at Albany on February 7, was inaugurated that day (Tribune, Feb. 6 and 8). But on February 12 Ninth Street trains still ran on their own, every 40 minutes from 9 to 5, \"principally for trial purposes\", with regular service around the loop planned for Monday, February 19 (Tribune, Feb. 12); no report of that day has been found, so the line is drawn from February 12, when a source shows it running. The San Francisco Call of February 2 had planned service from February 3; Wikipedia gives February 7, citing the Berkeley Gazette, not yet checked.",
       "flags": [
         "opened_unsourced"
       ],
-      "undated": true,
+      "running": [
+        {
+          "date": "1912-02-12",
+          "source": "oakland-tribune-1912-02-12",
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes.\""
+        }
+      ],
+      "undated": false,
       "length_km": 26.23,
       "confidence_km": {
         "digitized": 26.23
@@ -15419,7 +15494,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-wood-st at its end; then traced by eye from USGS Oakland West 1:24,000 (1949) (8 hand-read points). North from Ninth Street junction through Emeryville to Heinz Avenue, read by hand where the 1949 sheet draws the track among others.",
           "structure": "surface",
@@ -15434,7 +15509,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Ninth Street centerline from Heinz Avenue to Harrison Street (3198 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Ninth Street.",
           "structure": "street",
@@ -15449,7 +15524,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Joined to sp-ninth-st at its end; then traced by eye from USGS San Francisco 1:62,500 (1915) (8 hand-read points); then joined to sp-solano-ave-west at its end; the sheet corrected by a shift on 3 control points (Yerba Buena Island on the 1949 Oakland West sheet; +74 m E, +213 m N, RMS 44.8 m). The 1915 sheet draws a railroad here, west of San Pablo Avenue, but places it only roughly; its north end stops short of Solano Avenue on the sheet, and the last stretch to Solano Avenue is joined straight.",
           "structure": "surface",
@@ -15466,7 +15541,7 @@
           "opened": null,
           "closed": null,
           "borrowed": true,
-          "undated": true,
+          "undated": false,
           "confidence": "digitized",
           "method": "Along today's Solano Avenue centerline from Colusa Avenue to San Pablo Avenue (1710 m; Overture 2026-09-23.1); checked on USGS Richmond 1:24,000 (1949). In Solano Avenue, across San Pablo Avenue.",
           "structure": "street",
@@ -15543,6 +15618,36 @@
             "general",
             "route"
           ]
+        },
+        {
+          "source": "oakland-tribune-1912-02-02",
+          "supports": [
+            "general"
+          ],
+          "pages": "18",
+          "note": "Trial trip over the loop to Albany and along Ninth Street on February 2, 1912; service \"within a week\"."
+        },
+        {
+          "source": "oakland-tribune-1912-02-06",
+          "supports": [
+            "general"
+          ],
+          "pages": "3"
+        },
+        {
+          "source": "oakland-tribune-1912-02-08",
+          "supports": [
+            "general"
+          ],
+          "pages": "7"
+        },
+        {
+          "source": "oakland-tribune-1912-02-12",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes\"; regular loop service from \"next Monday\"."
         },
         {
           "source": "usgs-oakland-west-1949",
