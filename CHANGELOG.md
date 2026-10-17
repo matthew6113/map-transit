@@ -2,6 +2,11 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: A photo for the Vallejo ferry
+
+- The Monticello Steamship Company's *Napa Valley*, signed "Vallejo San Francisco Direct Ferry", from *Pacific Marine
+  Review* of March 1927 (the San Francisco Public Library's copy, scanned by the Internet Archive). One new source.
+
 ## 2026-10-17: The California Pacific from 1871, and the SF&NP's first day
 
 - **The California Pacific's trains** to Calistoga and to Suisun and Sacramento are drawn from 1871, not 1880:

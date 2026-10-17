@@ -166,12 +166,36 @@
             "closed"
           ],
           "note": "\"abandoned its service with the close of business September 12th\" (1937)."
+        },
+        {
+          "source": "pmr-1927-03-monticello",
+          "supports": [
+            "photo",
+            "operator"
+          ],
+          "pages": "151",
+          "note": "The Monticello Steamship Company, \"operating passenger and freight service on San Francisco Bay between San Francisco and Vallejo\" (1927)."
         }
       ],
       "flags": [
         "conflicting_sources"
       ],
-      "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start."
+      "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.",
+      "photo": {
+        "image_url": "https://archive.org/download/pacificmarinerev2427paci/page/n188.jpg",
+        "crop": [
+          0.3474,
+          0.0692,
+          0.9238,
+          0.2358
+        ],
+        "caption": "The Monticello Steamship Company's Napa Valley, the \"Vallejo San Francisco Direct Ferry\", with her bow and stern rebuilt to carry automobiles in 1927. The trip took about an hour and three quarters.",
+        "author": "Pacific Marine Review",
+        "date": "published March 1927",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/pacificmarinerev2427paci/page/n188/mode/1up",
+        "source": "pmr-1927-03-monticello"
+      }
     },
     {
       "id": "sp-creek-route",

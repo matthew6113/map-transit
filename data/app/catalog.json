@@ -2998,6 +2998,15 @@
       "url": "https://planbayarea.org/sites/default/files/documents/2026-04/Final_Plan_Bay_Area_2050_Plus_Transportation_Project_List_Report.pdf",
       "accessed": "2026-10-16"
     },
+    "pmr-1927-03-monticello": {
+      "title": "Bay Fleet Equipped to Carry Autos",
+      "publisher": "Pacific Marine Review 24(3) (San Francisco Public Library scan)",
+      "date": "1927-03",
+      "type": "journal",
+      "url": "https://archive.org/details/pacificmarinerev2427paci/page/n188/mode/1up",
+      "license": "Public domain (published 1927)",
+      "accessed": "2026-10-17"
+    },
     "point-richmond-progress-1933-04-07": {
       "title": "Point Richmond Progress, April 7, 1933: \"Ferry Service Stops\"",
       "author": "Harry R. Burt (publisher)",
@@ -40029,6 +40038,24 @@
       "fate": "abandoned",
       "fate_note": "Abandoned with the close of business on September 12, 1937, after the bridges opened (CRC Decision No. 30121).",
       "notes": "The Railroad Commission's decisions give 1895 (No. 29464) and 1896 (No. 30086) for its start.",
+      "photo": {
+        "image_url": "https://archive.org/download/pacificmarinerev2427paci/page/n188.jpg",
+        "crop": [
+          0.3474,
+          0.0692,
+          0.9238,
+          0.2358
+        ],
+        "caption": "The Monticello Steamship Company's Napa Valley, the \"Vallejo San Francisco Direct Ferry\", with her bow and stern rebuilt to carry automobiles in 1927. The trip took about an hour and three quarters.",
+        "author": "Pacific Marine Review",
+        "date": "published March 1927",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/pacificmarinerev2427paci/page/n188/mode/1up",
+        "source": "pmr-1927-03-monticello",
+        "file": "photos/vallejo-ferry-ddcac0fc.jpg",
+        "width": 960,
+        "height": 401
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -40086,6 +40113,15 @@
             "closed"
           ],
           "note": "\"abandoned its service with the close of business September 12th\" (1937)."
+        },
+        {
+          "source": "pmr-1927-03-monticello",
+          "supports": [
+            "photo",
+            "operator"
+          ],
+          "pages": "151",
+          "note": "The Monticello Steamship Company, \"operating passenger and freight service on San Francisco Bay between San Francisco and Vallejo\" (1927)."
         },
         {
           "source": "overture-base-2026-09-23-1",

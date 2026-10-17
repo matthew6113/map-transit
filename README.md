@@ -16,7 +16,7 @@ quiet basemap, in the spirit of the NYT's "A Map of Every Building in America". 
 - BAM's six future lines, with statuses re-verified from official sources;
 - in the future era, a reference layer of proposals and an editor for Matthew's own network.
 
-Sixteen past lines have public-domain photos. See `docs/SPEC.md` for the phases, `docs/research/`
+Seventeen past lines have public-domain photos. See `docs/SPEC.md` for the phases, `docs/research/`
 for each checkpoint's notes, `docs/DECISIONS.md` for the choices made so far, and `DATA_LOG.md` for
 every dataset.
 

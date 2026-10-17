@@ -165,7 +165,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; paint
   // Panels with photos (public-domain journal halftones, `make photos`).
   ...['key-f', 'key-ferry', 'mt-tamalpais-railway', 'psr-steamers', 'sp-encinal-avenue', 'msry-40', 'sn-oakland-sacramento',
     'psr-sebastopol-santa-rosa', 'muni-a-geary-10th', 'nwp-mill-valley', 'psr-petaluma-sebastopol', 'sp-seventh-street',
-    'nwp-sausalito-san-rafael', 'os-san-francisco-tunitas', 'wp-ferry', 'cp-oakland-sacramento-benicia'].map((id) => (
+    'nwp-sausalito-san-rafael', 'os-san-francisco-tunitas', 'wp-ferry', 'cp-oakland-sacramento-benicia', 'vallejo-ferry'].map((id) => (
     { name: `past-line-${id}-photo`, url: `/l/${id}?era=past&year=1912&test=1&at=99` })),
   { name: 'mobile-line-key-f-photo', url: '/l/key-f?era=past&year=1912&test=1&at=99', width: 390, height: 844 },
   { name: 'style-panel-mobile', url: '/?style=1&test=1', width: 390, height: 844 },
