@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "e2e": "playwright test tests/interaction.spec.ts",
+    "e2e": "playwright test tests/interaction.spec.ts tests/editor.spec.ts",
     "screenshots": "playwright test tests/screenshots.spec.ts",
     "perf": "playwright test tests/perf.spec.ts"
   },

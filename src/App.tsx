@@ -402,7 +402,7 @@ export function App() {
         onSelectLine={(id) => { if (!editing) void openLine(id); }} />
       <span id="controls-start" tabIndex={-1} />
       <Controls map={map} mode={mode} onModeChange={setMode} onHome={goHome} />
-      <Credits collapse={interacted || !!line} has511={lines.some((l) => l.sources.some((s) => s.source === 'gtfs-511'))} />
+      <Credits collapse={interacted || !!line || (editing && era === 'future')} has511={lines.some((l) => l.sources.some((s) => s.source === 'gtfs-511'))} />
       {line && !(editing && era === 'future') && <LinePanel line={line} onClose={() => void closeLine()} />}
       {editing && era === 'future' && map && Editor && (
         <Editor map={map} theme={theme} proposals={proposalChoices} onClose={() => setEditing(false)} />
