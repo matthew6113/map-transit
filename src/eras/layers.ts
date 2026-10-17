@@ -140,6 +140,16 @@ function proposalColor(theme: Theme, style: ProposalStyle): ExpressionSpecificat
   return own;
 }
 
+/** The same for a proposal's stations, whose features carry their lines' status as `lstatus`. */
+function proposalStationColor(theme: Theme, style: ProposalStyle): ExpressionSpecification {
+  const p = theme.transit.proposals;
+  const own = byGroup(theme, (g) => modeColor(theme, g));
+  const proposed: ExpressionSpecification = ['==', ['get', 'lstatus'], 'proposed'];
+  if (style === 'tint') return ['case', proposed, byGroup(theme, (g) => over(modeColor(theme, g), 1 - p.tintMix, theme.colors.land)), own];
+  if (style === 'neutral') return ['case', proposed, p.neutral, own];
+  return own;
+}
+
 /** Under the `committed` style, uncommitted future lines are drawn thinner. */
 const statusWidth = (style: StatusStyle): number | ExpressionSpecification =>
   style === 'committed' ? ['case', ['in', ['get', 'status'], ['literal', UNCOMMITTED]], 0.6, 1] : 1;
@@ -314,6 +324,8 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   for (const d of shownDatasets(view)) {
     const base = [...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view, 'lstatus') : [])];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
+    // A proposal's stations take the proposal look's color, so they read with its line.
+    const ring = d === 'ideal' ? proposalStationColor(theme, view.proposalStyle ?? 'translucent') : byGroup(theme, (g) => modeColor(theme, g));
     const waterside: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['pier', 'mole', 'ferry_terminal']]];
     const works: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['carbarn', 'shop', 'yard', 'depot']]];
     layers.push(
@@ -342,8 +354,8 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
         filter: all(...base),
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 2.2, 13, 3.6, 16, 5.5],
-          'circle-color': ['case', isNew, byGroup(theme, (g) => modeColor(theme, g)), c.land],
-          'circle-stroke-color': ['case', isNew, c.land, works, c.labels, byGroup(theme, (g) => modeColor(theme, g))],
+          'circle-color': ['case', isNew, ring, c.land],
+          'circle-stroke-color': ['case', isNew, c.land, works, c.labels, ring],
           'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 10, 1.1, 16, 2],
           'circle-opacity': view.era === 'past' ? VIS : 1,
           'circle-stroke-opacity': view.era === 'past' ? VIS : 1,
