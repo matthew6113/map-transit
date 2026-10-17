@@ -42,7 +42,19 @@ export interface TransitView {
   network?: boolean;
   /** How the reference proposals are drawn: one of the options shown at the Phase 4 checkpoint. */
   proposalStyle?: ProposalStyle;
+  /** How the lost lines under today's network are drawn: one of the options shown at the Phase 5 checkpoint. */
+  ghostStyle?: GhostStyle;
 }
+
+/**
+ * Ways to draw the lost lines under today's and the future's networks ("Show lost lines underneath"),
+ * for Matthew to choose from (Phase 5; `?ghoststyle=`), all at theme.transit.eras.ghostOpacity:
+ * - `hue`: each line in its mode's hue, as in the past era, the default so far;
+ * - `ink`: the building print's ink, so the past reads as print under today's color;
+ * - `dashed`: the mode's hue, dashed, so a lost line can't pass for a running one.
+ */
+export type GhostStyle = 'hue' | 'ink' | 'dashed';
+export const GHOST_STYLES: GhostStyle[] = ['hue', 'ink', 'dashed'];
 
 /**
  * Ways to draw the reference proposals, for Matthew to choose from (Phase 4; `?proposalstyle=`). All are
@@ -210,16 +222,18 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
     (f.length === 0 ? ['literal', true] : f.length === 1 ? f[0] : ['all', ...f]) as FilterSpecification;
 
   if (view.ghost && view.era !== 'past') {
+    const ghost = view.ghostStyle ?? 'hue';
     layers.push({
       id: 'transit-ghost',
       type: 'line',
       source: 'transit-past-draw',
       filter: all(...groupFilter(view)),
-      layout: { 'line-join': 'round', 'line-cap': 'round' },
+      layout: { 'line-join': 'round', 'line-cap': ghost === 'dashed' ? 'butt' : 'round' },
       paint: {
-        'line-color': byGroup(theme, (g) => modeColor(theme, g)),
+        'line-color': ghost === 'ink' ? c.buildings : byGroup(theme, (g) => modeColor(theme, g)),
         'line-opacity': theme.transit.eras.ghostOpacity,
         'line-width': width(theme, 0.8, 1.2, 3),
+        ...(ghost === 'dashed' ? { 'line-dasharray': [2, 1.5] } : {}),
       },
     });
   }

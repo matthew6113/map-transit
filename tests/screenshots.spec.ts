@@ -9,7 +9,8 @@ const DIR = process.env.SHOTS_DIR ?? 'docs/screenshots/p0';
 // SHOTS_ONLY=past- takes only the views whose names match (a regular expression).
 const ONLY = new RegExp(process.env.SHOTS_ONLY ?? '');
 
-const VIEWS: { name: string; url: string; width?: number; height?: number }[] = [
+/** `paint` sets a layer's paint property before the shot: a token value to compare, without the style panel. */
+const VIEWS: { name: string; url: string; width?: number; height?: number; paint?: [string, string, unknown][] }[] = [
   { name: 'present-regional', url: '/?test=1' },
   { name: 'future-regional', url: '/?era=future&test=1' },
   { name: 'present-sf', url: '/?test=1#map=13.2/37.7840/-122.4100/0/0' },
@@ -151,6 +152,17 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'future-line-geary-19th-subway', url: '/l/geary-19th-subway?test=1&at=99' },
   { name: 'future-line-reimagine-dumbarton', url: '/l/reimagine-dumbarton-busway?test=1&at=99' },
   { name: 'future-editor', url: '/?edit=1&test=1#map=12.2/37.7700/-122.4300/0/0' },
+  // Checkpoint 5: the lost lines under today's network, three ways; the style panel.
+  ...(['hue', 'ink', 'dashed'] as const).flatMap((style) => [
+    { name: `present-ghost-${style}-east-bay`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=11.8/37.8200/-122.2700/0/0` },
+    { name: `present-ghost-${style}-sf`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=13.0/37.7750/-122.4300/0/0` },
+  ]),
+  // The same at 0.55 (theme.transit.eras.ghostOpacity is 0.3).
+  ...(['hue', 'ink'] as const).map((style) => (
+    { name: `present-ghost-${style}-055-east-bay`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=11.8/37.8200/-122.2700/0/0`,
+      paint: [['transit-ghost', 'line-opacity', 0.55]] as [string, string, unknown][] })),
+  { name: 'style-panel', url: '/?style=1&test=1' },
+  { name: 'style-panel-mobile', url: '/?style=1&test=1', width: 390, height: 844 },
 ];
 
 async function settle(page: Page) {
@@ -178,6 +190,13 @@ for (const v of VIEWS.filter((x) => ONLY.test(x.name))) {
     });
     const page = await context.newPage();
     await page.goto(v.url);
+    if (v.paint) {
+      await page.waitForFunction(() => document.body.dataset.mapReady === 'true', null, { timeout: 120_000 });
+      await page.evaluate((paint) => {
+        const m = (window as unknown as { __map: import('maplibre-gl').Map }).__map;
+        for (const [layer, prop, value] of paint) m.setPaintProperty(layer, prop as 'line-opacity', value as number);
+      }, v.paint);
+    }
     await settle(page);
     await page.screenshot({ path: `${DIR}/${v.name}.png`, timeout: 120_000 });
     await context.close();

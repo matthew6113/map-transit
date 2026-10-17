@@ -4,7 +4,7 @@ import { clearDrawing, currentCamera, flyBack, flyToLine, lineCamera, panelPaddi
 import { lineIdFromPath, navigate, setQuery } from './basemap/router';
 import { loadCatalog, loadEraIndex, type EraIndex, type LineRecord } from './data/catalog';
 import { GROUPS, STATUSES, type Dataset, type Era, type Status } from './data/vocab';
-import { DATASETS, fadeOutYears, PROPOSAL_STYLES, STATUS_STYLES, type ProposalStyle, type StatusStyle } from './eras/layers';
+import { DATASETS, fadeOutYears, GHOST_STYLES, PROPOSAL_STYLES, STATUS_STYLES, type GhostStyle, type ProposalStyle, type StatusStyle } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, normalizeTheme, type ModeGroup, type Theme } from './theme/theme';
@@ -16,6 +16,7 @@ import { EraSwitcher } from './ui/EraSwitcher';
 import { Index } from './ui/Index';
 import { LinePanel } from './ui/LinePanel';
 import { StylePanel } from './ui/StylePanel';
+import { busyPace, PACES, type Pace } from './timeline/pace';
 import { FIRST_YEAR, LAST_YEAR, stepMs, YearSlider } from './ui/YearSlider';
 
 const params = new URLSearchParams(location.search);
@@ -34,6 +35,10 @@ const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params
 const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
 /** How the reference proposals are drawn, while Matthew chooses (Phase 4): ?proposalstyle=translucent|tint|neutral */
 const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : 'translucent';
+/** How the lost lines are drawn under today's network, while Matthew chooses (Phase 5): ?ghoststyle=hue|ink|dashed */
+const GHOST_STYLE: GhostStyle = GHOST_STYLES.includes(params.get('ghoststyle') as GhostStyle) ? (params.get('ghoststyle') as GhostStyle) : 'hue';
+/** How play moves through the years, while Matthew chooses (Phase 5): ?pace=even|busy */
+const PACE: Pace = PACES.includes(params.get('pace') as Pace) ? (params.get('pace') as Pace) : 'even';
 const initialYear = (): number => {
   const y = Number(params.get('year'));
   return Number.isInteger(y) && y >= FIRST_YEAR && y <= LAST_YEAR ? y : DEFAULT_YEAR;
@@ -105,8 +110,11 @@ export function App() {
   const hasNetwork = useMemo(() => lines.some((l) => l.status === 'ideal'), [lines]);
   // While the editor is open it draws the network itself, so the map's copy steps aside.
   const network = hasNetwork && networkOn && !editing;
-  const live = useRef({ era, openId, byId, indexes, year, speed, proposals });
-  live.current = { era, openId, byId, indexes, year, speed, proposals };
+  // Play's pace (?pace=busy): a year in which more opens and closes takes longer.
+  const pace = useMemo(() => (PACE === 'busy' ? busyPace([indexes.past, indexes.present], FIRST_YEAR, LAST_YEAR) : () => 1),
+    [indexes.past, indexes.present]);
+  const live = useRef({ era, openId, byId, indexes, year, speed, proposals, pace });
+  live.current = { era, openId, byId, indexes, year, speed, proposals, pace };
 
   useEffect(() => {
     void loadCatalog().then(setLines);
@@ -141,7 +149,8 @@ export function App() {
     mode,
     loaded,
     view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE,
-      proposals: proposals && era === 'future', network: network && era === 'future', proposalStyle: PROPOSAL_STYLE },
+      proposals: proposals && era === 'future', network: network && era === 'future', proposalStyle: PROPOSAL_STYLE,
+      ghostStyle: GHOST_STYLE },
   }), [theme, mode, loaded, era, ghost, hiddenGroups, openId, proposals, network]);
 
   /** The past era's year, as feature-state (src/timeline/visibility.ts). */
@@ -149,7 +158,7 @@ export function App() {
     if (!map || live.current.era !== 'past') return;
     const idx = live.current.indexes;
     applyYear(map, Object.fromEntries(DATASETS.past.map((d) => [d, idx[d]])), live.current.year, fadeOutYears(theme),
-      { animateFrom: opts.animateFrom, stepMs: stepMs(live.current.speed) });
+      { animateFrom: opts.animateFrom, stepMs: stepMs(live.current.speed) * live.current.pace(live.current.year) });
   }, [map, theme]);
 
   /**
@@ -394,7 +403,7 @@ export function App() {
         <div class="era-bar">
           <EraSwitcher era={era} onChange={chooseEra} />
           {era === 'past' && (
-            <YearSlider year={year} playing={playing} speed={speed} onYear={onYear} onPlaying={setPlaying}
+            <YearSlider year={year} playing={playing} speed={speed} pace={pace} onYear={onYear} onPlaying={setPlaying}
               onSpeed={setSpeed} undated={undated} />
           )}
           {era !== 'past' && (
