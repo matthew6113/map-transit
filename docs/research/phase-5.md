@@ -37,10 +37,16 @@ Screenshots are in `docs/screenshots/p5/`.
     `public/photos/` (committed) and never hotlinks it.
   - The catalog lists a photo only once it is downloaded. The panel shows it under the summary,
     with its caption, credit and license.
-  - A photo can be a Commons file or a direct image address, and can be cropped to one half of a
-    stereograph.
-  - Candidates for 13 lines are in `photos-candidates.md`. None is used: no image could be viewed
-    from the build container, so no caption could be written.
+  - A photo can be a Commons file or a direct image address, cropped to part of the image (a
+    halftone on a scanned page, one half of a stereograph).
+  - **Nine past lines have a photo** (added after the checkpoint), each a halftone from a journal
+    published before 1931 and scanned by the Internet Archive, the one image host the container
+    reaches. They are the Key Route's Berkeley line and ferry, the North Shore's Mill Valley line,
+    the Mt. Tamalpais railway, the Petaluma & Santa Rosa and its steamers, the SP's Encinal Avenue and
+    Seventh Street lines, and the San Mateo line (screenshots `past-line-*-photo`). Each page was
+    read, so each caption follows the journal's own.
+  - Library of Congress candidates for 13 more lines are in `photos-candidates.md`. None is used:
+    their images can't be viewed from the container, so no caption could be written.
 - **Timeline and ghost:** two settings to choose from (below). WebKit runs the interaction, editor
   and accessibility tests in CI on every push. Deploy is pushing to `main`, so it happens when the
   pull request merges.
@@ -89,7 +95,10 @@ New from this phase:
   - the ghost: `hue`, `ink` or `dashed`, and its opacity (0.3 or about 0.55);
   - the pace: `even` or `busy`.
 - **Photos:**
-  - look at the candidates in `photos-candidates.md`, which also lists what to check;
+  - look over the nine in place (`past-line-*-photo`): keep, swap or drop any. Halftone scans show
+    moiré;
+  - look at the Library of Congress candidates in `photos-candidates.md`, which also lists what to
+    check;
   - confirm Carol Highsmith's public-domain dedication on the Library of Congress's page;
   - decide on the contractor-made survey photos;
   - for each photo you choose, write a caption from the image.
