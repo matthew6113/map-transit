@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import type { LineRecord } from '../data/catalog';
 import { GROUPS, STATUSES, type Era } from '../data/vocab';
-import { DATASETS, type StatusStyle } from '../eras/layers';
+import { DATASETS, type ProposalStyle, type StatusStyle } from '../eras/layers';
 import { MODE_GROUPS, type ModeGroup } from '../theme/theme';
 import { formatRunning, formatYears, modeVar, trackFrom } from './format';
 
@@ -19,6 +19,10 @@ interface Props {
   statusStyle?: StatusStyle;
   /** Future era: the reference proposals are on the map, so list them too. */
   proposals?: boolean;
+  /** Future era: Matthew's network is on the map, so list it too. */
+  network?: boolean;
+  /** How the proposals are drawn (src/eras/layers.ts), so the legend says the same. */
+  proposalStyle?: ProposalStyle;
 }
 
 /**
@@ -26,10 +30,11 @@ interface Props {
  * The legend is the filter: each mode chip turns its lines on and off on the map and in the list.
  * The list is the screen-reader equivalent of the canvas.
  */
-export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity', proposals = false }: Props) {
+export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity', proposals = false, network = false, proposalStyle = 'translucent' }: Props) {
   const [open, setOpen] = useState(() => typeof matchMedia === 'function' && !matchMedia('(max-width: 719px)').matches);
   const [query, setQuery] = useState('');
-  const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era) && (l.era !== 'ideal' || proposals)), [lines, era, proposals]);
+  const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era)
+    && (l.era !== 'ideal' || (l.status === 'ideal' ? network : proposals))), [lines, era, proposals, network]);
   const counts = useMemo(() => {
     const c = new Map<ModeGroup, number>();
     for (const l of inEra) c.set(l.group, (c.get(l.group) ?? 0) + 1);
@@ -47,10 +52,11 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
         { key: 'running', head: `Running in ${running.year}`, items: shown.filter((l) => running.ids.has(l.id)) },
         { key: 'other', head: `Not running in ${running.year}`, items: shown.filter((l) => !running.ids.has(l.id)) },
       ].filter((g) => g.items.length)
-    : proposals && era === 'future'
+    : (proposals || network) && era === 'future'
       ? [
+          { key: 'network', head: "Matthew's network", items: shown.filter((l) => l.status === 'ideal') },
           { key: 'built', head: 'Lines and projects', items: shown.filter((l) => l.era !== 'ideal') },
-          { key: 'proposals', head: 'Proposals', items: shown.filter((l) => l.era === 'ideal') },
+          { key: 'proposals', head: 'Proposals', items: shown.filter((l) => l.status === 'proposed') },
         ].filter((g) => g.items.length)
       : [{ key: 'all', head: '', items: shown }];
 
@@ -77,7 +83,7 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
               </button>
             ))}
           </fieldset>
-          <Legend era={era} statusStyle={statusStyle} proposals={proposals} />
+          <Legend era={era} statusStyle={statusStyle} proposals={proposals} proposalStyle={proposalStyle} />
           <label class="search">
             <span class="visually-hidden">Find a line</span>
             <input type="search" placeholder="Find a line" value={query}
@@ -95,7 +101,8 @@ export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId
                       <span class="where">
                         {l.proposal ? l.proposal.proposed_by : l.system_name} · {l.mode_label}
                         {' · '}
-                        {l.proposal ? `${l.proposal.status_label}, ${l.proposal.year.slice(0, 4)}`
+                        {l.status === 'ideal' ? STATUSES.ideal.label
+                          : l.proposal ? `${l.proposal.status_label}, ${l.proposal.year.slice(0, 4)}`
                           : l.era === 'future' ? STATUSES[l.status].label
                           : l.status === 'closed' && l.running?.length ? formatRunning(l.opened, l.closed, l.running)
                           : formatYears(l.opened, l.closed, l.status, trackFrom(l.segments))}
@@ -118,7 +125,7 @@ function emptyNote(era: Era): string {
 }
 
 /** What the line styles mean. Hue is mode (the chips above); the rest is drawn here. */
-function Legend({ era, statusStyle, proposals }: { era: Era; statusStyle: StatusStyle; proposals: boolean }) {
+function Legend({ era, statusStyle, proposals, proposalStyle }: { era: Era; statusStyle: StatusStyle; proposals: boolean; proposalStyle: ProposalStyle }) {
   return (
     <ul class="legend" aria-label="How lines are drawn">
       <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink" d="M1 4h26" /></svg>Surveyed or traced from a map</li>
@@ -135,7 +142,8 @@ function Legend({ era, statusStyle, proposals }: { era: Era; statusStyle: Status
           {statusStyle === 'tint' ? 'Paler' : 'Fainter'} is less certain: planned, in review, funded, building</li>
       )}
       {era === 'future' && proposals && (
-        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class="ink thin proposal" d="M1 4h26" /></svg>Thinner: a proposal, as its document describes it</li>
+        <li><svg viewBox="0 0 28 8" aria-hidden="true"><path class={`ink thin proposal-${proposalStyle}`} d="M1 4h26" /></svg>
+          {proposalStyle === 'neutral' ? 'Thin and grey' : proposalStyle === 'tint' ? 'Thin and pale' : 'Thinner'}: a proposal, as its document describes it</li>
       )}
     </ul>
   );

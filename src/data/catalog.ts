@@ -97,6 +97,9 @@ export interface LineRecord {
   fids: number[];
   segments: CatalogSegment[];
   sources: ResolvedSource[];
+  /** A line of Matthew's network: what it draws on (a proposal, or one proposal line), and who drew it. */
+  based_on?: { id: string; name: string; line?: string }[];
+  author?: string;
   /** A reference proposal (the ideal dataset): who proposed it, in which document, and how far it has gone. */
   proposal?: {
     id: string;

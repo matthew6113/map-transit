@@ -27,5 +27,151 @@
         }
       ]
     }
+  },
+  "points": {
+    "reimagine-dumbarton-middlefield": {
+      "name": "Fair Oaks Health Center/Middlefield Road",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "Middlefield Road",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-fifth-ave": {
+      "name": "Fifth Avenue",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "5th Avenue",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-ninth-ave": {
+      "name": "Ninth Avenue",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "9th Avenue",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-marsh-rd": {
+      "name": "Bay Road/Marsh Road",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "Marsh Road",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-bohannon-dr": {
+      "name": "Bohannon Drive",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "Bohannon Drive",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-chilco-st": {
+      "name": "Chilco Street",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "Chilco Street",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-willow-rd": {
+      "name": "Willow Road",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "Willow Road",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    },
+    "reimagine-dumbarton-university-ave": {
+      "name": "University Avenue",
+      "segment": "reimagine-dumbarton-busway",
+      "cross": "University Avenue",
+      "box": "dumbarton",
+      "line_ids": [
+        "reimagine-dumbarton-busway"
+      ],
+      "sources": [
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "stations"
+          ],
+          "note": "Nine stations: \"Fair Oaks Health Center/Middlefield Road, Fifth Avenue, Ninth Avenue, Bay Road/Marsh Road, Bohannon Drive, Belle Haven Community Campus, Chilco Street, Willow Road, and University Avenue\"."
+        }
+      ]
+    }
   }
 }

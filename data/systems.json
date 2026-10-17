@@ -111,6 +111,12 @@
       "short_name": "Golden Gate Ferry"
     },
     {
+      "id": "ideal-network",
+      "name": "Matthew's ideal network",
+      "short_name": "Ideal network",
+      "notes": "Matthew Huguet's own network, from data/ideal/network.geojson (the future era's layer B)."
+    },
+    {
       "id": "ier",
       "name": "Interurban Electric Railway",
       "short_name": "IER",

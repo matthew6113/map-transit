@@ -4,7 +4,7 @@ import { clearDrawing, currentCamera, flyBack, flyToLine, lineCamera, panelPaddi
 import { lineIdFromPath, navigate, setQuery } from './basemap/router';
 import { loadCatalog, loadEraIndex, type EraIndex, type LineRecord } from './data/catalog';
 import { GROUPS, STATUSES, type Dataset, type Era, type Status } from './data/vocab';
-import { DATASETS, fadeOutYears, STATUS_STYLES, type StatusStyle } from './eras/layers';
+import { DATASETS, fadeOutYears, PROPOSAL_STYLES, STATUS_STYLES, type ProposalStyle, type StatusStyle } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, type ModeGroup, type Theme } from './theme/theme';
@@ -31,6 +31,8 @@ const EDIT = params.get('edit') === '1';
 const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : EDIT ? 'future' : 'present');
 /** How future status is drawn, while Matthew chooses (Phase 3): ?solidity=opacity|tint|committed */
 const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
+/** How the reference proposals are drawn, while Matthew chooses (Phase 4): ?proposalstyle=translucent|tint|neutral */
+const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : 'translucent';
 const initialYear = (): number => {
   const y = Number(params.get('year'));
   return Number.isInteger(y) && y >= FIRST_YEAR && y <= LAST_YEAR ? y : DEFAULT_YEAR;
@@ -63,6 +65,8 @@ export function App() {
   const [year, setYear] = useState(initialYear);
   const [ghost, setGhost] = useState(params.get('ghost') === '1');
   const [proposals, setProposals] = useState(params.get('proposals') === '1');
+  // Matthew's own network shows once it has lines, unless switched off (?network=0).
+  const [networkOn, setNetworkOn] = useState(params.get('network') !== '0');
   const [editing, setEditing] = useState(EDIT);
   // The editor and Terra Draw load only for ?edit=1, not for every visitor.
   const [Editor, setEditor] = useState<typeof EditorComponent | null>(null);
@@ -83,6 +87,9 @@ export function App() {
   const hovered = useRef<LineRecord | null>(null);
 
   const byId = useMemo(() => new Map(lines.map((l) => [l.id, l])), [lines]);
+  const hasNetwork = useMemo(() => lines.some((l) => l.status === 'ideal'), [lines]);
+  // While the editor is open it draws the network itself, so the map's copy steps aside.
+  const network = hasNetwork && networkOn && !editing;
   const live = useRef({ era, openId, byId, indexes, year, speed, proposals });
   live.current = { era, openId, byId, indexes, year, speed, proposals };
 
@@ -104,8 +111,8 @@ export function App() {
     mode,
     loaded,
     view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE,
-      proposals: proposals && era === 'future' },
-  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId, proposals]);
+      proposals: proposals && era === 'future', network: network && era === 'future', proposalStyle: PROPOSAL_STYLE },
+  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId, proposals, network]);
 
   /** The past era's year, as feature-state (src/timeline/visibility.ts). */
   const showYear = useCallback((opts: { animateFrom?: number } = {}) => {
@@ -161,10 +168,11 @@ export function App() {
       year: era === 'past' ? String(year) : null,
       ghost: ghost && era !== 'past' ? '1' : null,
       proposals: proposals && era === 'future' ? '1' : null,
+      network: hasNetwork && !networkOn && era === 'future' ? '0' : null,
       edit: editing ? '1' : null,
     }), 400);
     return () => window.clearTimeout(t);
-  }, [era, year, ghost, proposals, editing]);
+  }, [era, year, ghost, proposals, editing, hasNetwork, networkOn]);
 
   const setEra = useCallback((next: Era) => {
     setPlaying(false);
@@ -203,7 +211,8 @@ export function App() {
     }
     setSelected(live.current.byId.get(live.current.openId ?? ''), false);
     if (!DATASETS[live.current.era].includes(line.era)) setEra(eraOf(line.era));
-    if (line.era === 'ideal' && !live.current.proposals) setProposals(true);
+    if (line.status === 'proposed' && !live.current.proposals) setProposals(true);
+    if (line.status === 'ideal') setNetworkOn(true);
     const index = live.current.indexes[line.era] ?? (await loadEraIndex(line.era));
     if (!current()) return;
     if (opts.push !== false) navigate(id);
@@ -357,12 +366,22 @@ export function App() {
               Show lost lines underneath
             </label>
           )}
+          {era === 'future' && hasNetwork && (
+            <label class="ghost-toggle">
+              <input type="checkbox" checked={networkOn} onChange={(e) => {
+                const on = (e.currentTarget as HTMLInputElement).checked;
+                setNetworkOn(on);
+                if (!on && line?.status === 'ideal') void closeLine();
+              }} />
+              Show Matthew's network
+            </label>
+          )}
           {era === 'future' && (
             <label class="ghost-toggle">
               <input type="checkbox" checked={proposals} onChange={(e) => {
                 const on = (e.currentTarget as HTMLInputElement).checked;
                 setProposals(on);
-                if (!on && line?.era === 'ideal') void closeLine();
+                if (!on && line?.status === 'proposed') void closeLine();
               }} />
               Show proposals
             </label>
@@ -370,12 +389,13 @@ export function App() {
           {era === 'future' && (
             <p class="era-note">
               Lines being planned, funded or built, with their status from their agencies.
-              {proposals && ' Proposals are drawn thinner, as their documents describe them: the plans Matthew\'s ideal network will be drawn from.'}
+              {network && ' Matthew\'s own network is drawn in full.'}
+              {proposals && ' Proposals are drawn thinner, as their documents describe them: the plans Matthew\'s ideal network is drawn from.'}
             </p>
           )}
         </div>
         <Index era={era} lines={lines} running={running} hiddenGroups={hiddenGroups} onToggleGroup={toggleGroup} openId={openId}
-          statusStyle={STATUS_STYLE} proposals={proposals} onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
+          statusStyle={STATUS_STYLE} proposals={proposals} network={network} proposalStyle={PROPOSAL_STYLE} onOpen={(id, opener) => void openLine(id, { opener })} onExpand={() => setInteracted(true)} />
       </header>
       <MapView inputs={inputs} shown={shown} statusLabel={(s) => STATUSES[s as Status]?.label ?? s} onReady={onReady}
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}

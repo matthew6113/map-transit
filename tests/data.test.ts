@@ -211,6 +211,10 @@ describe('provenance', () => {
     }
   });
 
+  it("keeps `designed` geometry for Matthew's network: no authored segment or point uses it", () => {
+    for (const { kind, p } of all) expect(p.geometry_confidence, `${kind} ${p.id}`).not.toBe('designed');
+  });
+
   it("accepts Matthew's network file", () => {
     const path = join(DATA, 'ideal', 'network.geojson');
     if (!existsSync(path)) return;
@@ -218,6 +222,13 @@ describe('provenance', () => {
     expect(validators.network(net), ajv.errorsText(validators.network.errors, { separator: '\n' })).toBe(true);
     const ids = net.features.map((x: { properties: { id: string } }) => x.properties.id);
     expect(ids.filter((id: string, i: number) => ids.indexOf(id) !== i), 'duplicate ids').toEqual([]);
+    // Every line reaches the app (make app-data), and says what it's based on in terms the app knows.
+    const catalog = read(join(DATA, 'app', 'catalog.json')).lines as { id: string; status: string }[];
+    expect(catalog.filter((l) => l.status === 'ideal').map((l) => l.id).sort()).toEqual(ids.map((id: string) => `ideal-network-${id}`).sort());
+    const known = new Set([...folders.filter((f) => f.era === 'ideal').map((f) => f.dir.split('/').pop()), ...folders.filter((f) => f.era === 'ideal').flatMap((f) => f.lines.map((l) => l.id))]);
+    for (const f of net.features as { properties: { id: string; based_on: string[] } }[]) {
+      for (const b of f.properties.based_on) expect(known, `${f.properties.id} is based on ${b}, which isn't a proposal or a proposal line`).toContain(b);
+    }
   });
 
   it('gives every past line the closed status', () => {

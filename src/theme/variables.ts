@@ -9,7 +9,7 @@
  */
 export interface ThemeVariables {
   colors: Record<string, string>;
-  transit: { modes: Record<string, string> };
+  transit: { modes: Record<string, string>; proposals?: { neutral?: string } };
   type: { ui: string; text: string };
 }
 
@@ -24,6 +24,7 @@ export function cssVariables(theme: ThemeVariables): [string, string][] {
   return [
     ...Object.entries(theme.colors).map(([role, color]): [string, string] => [`--color-${kebab(role)}`, color]),
     ...Object.entries(theme.transit.modes).map(([mode, v]): [string, string] => [`--mode-${kebab(mode)}`, themeColor(theme.colors, v)]),
+    ...(theme.transit.proposals?.neutral ? [['--transit-proposal-neutral', themeColor(theme.colors, theme.transit.proposals.neutral)] as [string, string]] : []),
     ['--font-ui', `'${theme.type.ui}', system-ui, sans-serif`],
     ['--font-text', `'${theme.type.text}', Georgia, serif`],
   ];

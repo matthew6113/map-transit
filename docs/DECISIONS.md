@@ -481,11 +481,15 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   (`docs/ideal/tradeoffs.md`).
 - **`proposal_status` is a separate vocabulary** (adopted, study, advocacy, superseded, withdrawn),
   since a proposal isn't a project being built; `adopted` and `study` need an official source.
-- **The look is a placeholder:** proposals in their mode's hue, at 0.6 of the width and 0.85
-  opacity (`theme.transit.proposals`), off by default. Open for Matthew (`docs/research/phase-4.md`).
+- **The look is a placeholder:** proposals at 0.6 of the width, off by default, in one of three looks
+  open for Matthew (`?proposalstyle=`): `translucent` (the mode's hue at 0.85 opacity, the default),
+  `tint` (the mode's hue mixed halfway toward the paper) or `neutral` (one grey,
+  `theme.transit.proposals.neutral`). See `docs/research/phase-4.md`.
 - **The editor (Phase 4b) is an author's tool behind `?edit=1`,** loaded on demand (Terra Draw 1.35.0
   and its MapLibre adapter 1.4.1). It exports `data/ideal/network.geojson` to commit; nothing is saved
   to the site. Its layers (`transit-editor-*`) survive the app's diffed style updates because
   `syncStyle` carries them into each new style.
-- **Matthew's network isn't drawn on the map yet,** because it's empty; how it should look waits on
-  him.
+- **Matthew's network draws at full strength once it has lines,** with its own toggle, on by default
+  and hidden while the editor is open (the editor draws it). Its geometry is `designed`, a fourth
+  confidence used for nothing else. Whether it should look otherwise (over everything, or in place
+  of the proposals) is his call.

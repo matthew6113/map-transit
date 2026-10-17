@@ -303,9 +303,18 @@ Each line has `era: "ideal"`, `status: "proposed"`, and:
   document publishes no path, such as a new tube under the bay, the line has no segment drawn
   for that stretch, and the panel says so.
 - On the map, proposals are drawn thinner (`theme.transit.proposals`) and only when "Show proposals"
-  is on (`?proposals=1`). They are never on the year slider.
+  is on (`?proposals=1`). They are never on the year slider. Three looks are open for Matthew
+  (`?proposalstyle=translucent`, `tint` or `neutral`).
+- A recipe may also place stations a document names by cross street (`points`): where today's
+  street crosses the corridor, or the nearest point to a street ending within 40 m of it.
 
 **Matthew's network, `data/ideal/network.geojson`,** is hand-editable, or exported from the
 in-browser editor (Phase 4b), and checked against `data/schema/network.schema.json`. Each feature is
 a line, with `id`, `name`, `mode`, `based_on[]` (the reference proposals or proposal lines it draws
 on; empty for his own), `notes` and `author`. It holds only what Matthew draws.
+
+`make app-data` turns each of its lines into an ideal-era line (`ideal-network-<id>`, status
+`ideal`) on one segment of its own, with `geometry_confidence: designed` (a design, not a surveyed
+or reconstructed path; no authored segment may use it). In the future era it draws at full
+strength with its own toggle, "Show Matthew's network" (`?network=0` hides it), shown once the
+file has lines; its panel says what each line is based on.

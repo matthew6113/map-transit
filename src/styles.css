@@ -629,8 +629,16 @@ body {
   stroke-width: 1.4;
 }
 
-.index .legend .proposal {
+.index .legend .proposal-translucent {
   opacity: 0.85;
+}
+
+.index .legend .proposal-tint {
+  stroke: color-mix(in srgb, var(--color-panel-text) 50%, var(--color-land));
+}
+
+.index .legend .proposal-neutral {
+  stroke: var(--transit-proposal-neutral);
 }
 
 .index .search input {

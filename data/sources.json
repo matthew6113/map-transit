@@ -3389,6 +3389,13 @@
       "notes": "p. 1219 (n136): \"F. D. 19124, Oakland Terminal Ry. et al. Abandonment, July 3, 1956, Div. 4\", with \"257 I. C. C. 700 conditions imposed for the protection of employees\"; \"Oakland Terminal R., et al, F. D. 19124, Granted, July 3, 1956\". p. 1210 (n127): \"Oakland Terminal Railway et al., Construction, F. D. 19125, July 3, 1956\". Read on the page images."
     },
     {
+      "id": "ideal-network",
+      "title": "Matthew Huguet's ideal network (data/ideal/network.geojson)",
+      "author": "Matthew Huguet",
+      "type": "dataset",
+      "notes": "Matthew's own design, drawn in the network editor (?edit=1) from the reference proposals or apart from them. It is a design, not a source of facts about any project."
+    },
+    {
       "id": "joe-1905-01-psr",
       "title": "Journal of Electricity, Power and Gas 15(1), January 1905: the Petaluma and Santa Rosa Railway opens",
       "publisher": "Journal of Electricity, Power and Gas",

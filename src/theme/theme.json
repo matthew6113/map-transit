@@ -68,9 +68,11 @@
       "opening": 1
     },
     "proposals": {
-      "note": "The future's layer B, the reference proposals (Phase 4): thinner than lines being built, in the mode's hue. Placeholder: the checkpoint shows options.",
+      "note": "The future's layer B, the reference proposals (Phase 4). Placeholder: three looks are open for Matthew (?proposalstyle=translucent, tint or neutral), all at this width. translucent: the mode's hue at this opacity; tint: the mode's hue mixed toward the paper by tintMix; neutral: one color for every proposal.",
       "opacity": 0.85,
-      "width": 0.6
+      "width": 0.6,
+      "tintMix": 0.5,
+      "neutral": "#857D72"
     }
   },
   "type": {

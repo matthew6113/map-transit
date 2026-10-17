@@ -27,6 +27,7 @@
           "source": "samtrans-reimagine-dumbarton",
           "supports": [
             "route",
+            "stations",
             "general"
           ],
           "note": "Feasibility study \"fall 2025 to spring 2027\"; design proposals of September 2026: \"a continuous four-mile-long paved walking and bicycling trail parallel to a dedicated busway\"; \"pending funding availability, construction would start after 2031\"."
@@ -47,7 +48,7 @@
         }
       ],
       "flags": [],
-      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). \"In an adopted plan\": Plan Bay Area 2050+, adopted March 2026, carries the busway as a project; SamTrans is still studying its feasibility. Drawn on the rail right-of-way between Middlefield Rd and University Ave; its stations and its two street links into Redwood City are not drawn. Research: docs/research/ideal/link21-dumbarton-express-rail.md."
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). \"In an adopted plan\": Plan Bay Area 2050+, adopted March 2026, carries the busway as a project; SamTrans is still studying its feasibility. Drawn on the rail right-of-way between Middlefield Rd and University Ave, with eight of its nine stations where the cross streets SamTrans names meet the corridor; the Belle Haven Community Campus station, named by no street, and the two street links into Redwood City are not drawn. Research: docs/research/ideal/link21-dumbarton-express-rail.md."
     }
   ]
 }

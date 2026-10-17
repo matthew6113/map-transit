@@ -38,7 +38,21 @@ export interface TransitView {
   statusStyle?: StatusStyle;
   /** Future era: draw the reference proposals (layer B) too. */
   proposals?: boolean;
+  /** Future era: draw Matthew's own network (layer B). */
+  network?: boolean;
+  /** How the reference proposals are drawn: one of the options shown at the Phase 4 checkpoint. */
+  proposalStyle?: ProposalStyle;
 }
+
+/**
+ * Ways to draw the reference proposals, for Matthew to choose from (Phase 4; `?proposalstyle=`). All are
+ * thinner than lines being built (theme.transit.proposals.width), and dashed where approximate:
+ * - `translucent`: the mode's hue, slightly translucent (theme.transit.proposals), the default so far;
+ * - `tint`: the mode's hue mixed toward the paper, opaque, so a proposal on real track can't pass for a running line;
+ * - `neutral`: one color for every proposal, the mode left to the panel.
+ */
+export type ProposalStyle = 'translucent' | 'tint' | 'neutral';
+export const PROPOSAL_STYLES: ProposalStyle[] = ['translucent', 'tint', 'neutral'];
 
 /**
  * Ways to draw a future line's status, for Matthew to choose from (Phase 3; `?solidity=` previews):
@@ -61,9 +75,14 @@ export const DATASETS: Record<Era, Dataset[]> = {
   future: ['present', 'future', 'ideal'],
 };
 
-/** The datasets on the map now: the reference proposals only when switched on. */
-export const shownDatasets = (view: Pick<TransitView, 'era' | 'proposals'>) =>
-  DATASETS[view.era].filter((d) => d !== 'ideal' || view.proposals);
+/** The datasets on the map now: layer B only when its proposals or Matthew's network are switched on. */
+export const shownDatasets = (view: Pick<TransitView, 'era' | 'proposals' | 'network'>) =>
+  DATASETS[view.era].filter((d) => d !== 'ideal' || view.proposals || view.network);
+
+/** Within layer B, the line statuses shown: `proposed` (the reference proposals) and `ideal` (Matthew's). */
+const idealFilter = (view: TransitView, key = 'status'): FilterSpecification[] =>
+  [['in', ['get', key], ['literal', [...(view.proposals ? ['proposed'] : []), ...(view.network ? ['ideal'] : [])]]]];
+const IS_PROPOSAL: ExpressionSpecification = ['==', ['get', 'status'], 'proposed'];
 
 /** Layers that open a line when clicked (those not in the style are skipped by the caller). */
 export const hitLayers = (era: Era) => DATASETS[era].map((d) => `transit-${d}-hit`);
@@ -112,6 +131,15 @@ function statusColor(theme: Theme, style: StatusStyle): ExpressionSpecification 
     'under_construction', tint(s.under_construction), byGroup(theme, (g) => modeColor(theme, g))];
 }
 
+/** A reference proposal's color under each proposal style; Matthew's own lines keep their mode's. */
+function proposalColor(theme: Theme, style: ProposalStyle): ExpressionSpecification {
+  const p = theme.transit.proposals;
+  const own = byGroup(theme, (g) => modeColor(theme, g));
+  if (style === 'tint') return ['case', IS_PROPOSAL, byGroup(theme, (g) => over(modeColor(theme, g), 1 - p.tintMix, theme.colors.land)), own];
+  if (style === 'neutral') return ['case', IS_PROPOSAL, p.neutral, own];
+  return own;
+}
+
 /** Under the `committed` style, uncommitted future lines are drawn thinner. */
 const statusWidth = (style: StatusStyle): number | ExpressionSpecification =>
   style === 'committed' ? ['case', ['in', ['get', 'status'], ['literal', UNCOMMITTED]], 0.6, 1] : 1;
@@ -129,10 +157,10 @@ function color(theme: Theme): ExpressionSpecification {
  * Future status as solidity; shared existing track at BAM's 0.55. In the future era today's network
  * steps back (BAM: the present as print, the future in color). In the past era, the year's `vis`.
  */
-function opacity(theme: Theme, dataset: Dataset, era: Era, style: StatusStyle = 'opacity'): ExpressionSpecification | number {
+function opacity(theme: Theme, dataset: Dataset, era: Era, style: StatusStyle = 'opacity', proposalStyle: ProposalStyle = 'translucent'): ExpressionSpecification | number {
   if (era === 'past') return VIS;
   if (dataset === 'present' && era === 'future') return theme.transit.eras.presentInFuture;
-  if (dataset === 'ideal') return theme.transit.proposals.opacity;
+  if (dataset === 'ideal') return ['case', IS_PROPOSAL, proposalStyle === 'translucent' ? theme.transit.proposals.opacity : 1, 1];
   if (dataset !== 'future') return 1;
   const s = theme.transit.status;
   if (style !== 'opacity') return ['case', ['==', ['get', 'shared'], 1], 0.55, 1];
@@ -189,12 +217,12 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   const off = offset(theme);
   const style = view.statusStyle ?? 'opacity';
   for (const d of shownDatasets(view)) {
-    const base = [...pastFilter(view), ...groupFilter(view)];
+    const base = [...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view) : [])];
     const src = `transit-${d}-draw`;
     const styled = d === 'future' && style !== 'opacity';
-    const lineColor = styled ? statusColor(theme, style) : color(theme);
-    const f = d === 'future' ? statusWidth(style) : d === 'ideal' ? theme.transit.proposals.width : 1;
-    const op = opacity(theme, d, view.era, style);
+    const lineColor = styled ? statusColor(theme, style) : d === 'ideal' ? proposalColor(theme, view.proposalStyle ?? 'translucent') : color(theme);
+    const f = d === 'future' ? statusWidth(style) : d === 'ideal' ? ['case', IS_PROPOSAL, theme.transit.proposals.width, 1] as ExpressionSpecification : 1;
+    const op = opacity(theme, d, view.era, style, view.proposalStyle ?? 'translucent');
     layers.push(
       {
         // A paper casing under every stroke, so lines read over the building print.
@@ -284,7 +312,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   );
 
   for (const d of shownDatasets(view)) {
-    const base = [...pastFilter(view), ...groupFilter(view)];
+    const base = [...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view, 'lstatus') : [])];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
     const waterside: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['pier', 'mole', 'ferry_terminal']]];
     const works: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['carbarn', 'shop', 'yard', 'depot']]];
@@ -348,7 +376,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
       id: `transit-${d}-hit`,
       type: 'line',
       source: `transit-${d}-lines`,
-      filter: all(...pastFilter(view), ...groupFilter(view)),
+      filter: all(...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view) : [])),
       paint: { 'line-color': '#000000', 'line-opacity': 0, 'line-width': 16, 'line-offset': offset(theme) },
     });
   }

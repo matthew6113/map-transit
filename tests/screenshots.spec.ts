@@ -143,6 +143,11 @@ const VIEWS: { name: string; url: string; width?: number; height?: number }[] = 
   { name: 'future-proposals-regional', url: '/?era=future&proposals=1&test=1' },
   { name: 'future-proposals-sf', url: '/?era=future&proposals=1&test=1#map=12.7/37.7720/-122.4430/0/0' },
   { name: 'future-proposals-dumbarton', url: '/?era=future&proposals=1&test=1#map=12.4/37.4960/-122.1300/0/0' },
+  // The three ways to draw proposals (?proposalstyle=), for Matthew to choose.
+  ...(['translucent', 'tint', 'neutral'] as const).flatMap((style) => [
+    { name: `future-proposals-${style}-sf`, url: `/?era=future&proposals=1&proposalstyle=${style}&test=1#map=13.4/37.7800/-122.4400/0/0` },
+    { name: `future-proposals-${style}-dumbarton`, url: `/?era=future&proposals=1&proposalstyle=${style}&test=1#map=13.6/37.4790/-122.1750/0/0` },
+  ]),
   { name: 'future-line-geary-19th-subway', url: '/l/geary-19th-subway?test=1&at=99' },
   { name: 'future-line-reimagine-dumbarton', url: '/l/reimagine-dumbarton-busway?test=1&at=99' },
   { name: 'future-editor', url: '/?edit=1&test=1#map=12.2/37.7700/-122.4300/0/0' },

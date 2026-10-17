@@ -21,6 +21,8 @@ and past lines may run over present segments, track that is still in use (decisi
 The ideal era (data/ideal/<proposal>/) is the future's layer B: the reference proposals Matthew
 designs his own network from, built like the other eras and never on the year slider. Each catalog
 entry carries its proposal: who proposed it, in which document and year, and how far it has gone.
+Matthew's own network (data/ideal/network.geojson, from the editor) joins the same era: each of its
+lines becomes one segment, `designed`, with status `ideal` and what it's based on.
 
 Dates: a segment's own dates win. When one is null, the display borrows the earliest sourced opening
 and the latest sourced closing of the lines that used it, marked `borrowed` (decision 4). The source
@@ -47,6 +49,8 @@ ERAS = ("past", "present", "future", "ideal")
 OPEN_ENDED = 9999.0  # still running (or not yet open): no closing year
 NOT_YET = 9000.0  # future lines and proposals: never on the year slider
 UNBUILT = ("future", "ideal")
+NETWORK = DATA / "ideal" / "network.geojson"
+NETWORK_ID = "ideal-network"  # its source, its system and its lines' id prefix
 
 
 
@@ -152,8 +156,49 @@ def mode_spans(o_p: float | None, c_p: float | None, past_uses: list[tuple[float
     return [(a, b, m) for a, b, m in spans if m], [(a, b) for a, b, m in spans if not m]
 
 
+def network() -> tuple[list[dict], dict]:
+    """Matthew's network as the ideal era's lines and segments: one segment per line, as he drew it."""
+    if not NETWORK.exists():
+        return [], {}
+    lines, segments = [], {}
+    for f in json.loads(NETWORK.read_text())["features"]:
+        p = f["properties"]
+        lid = f"{NETWORK_ID}-{p['id']}"
+        segments[lid] = {"type": "Feature", "geometry": f["geometry"], "properties": {
+            "id": lid, "system": NETWORK_ID, "name": p["name"], "opened": None, "closed": None, "structure": None,
+            "geometry_confidence": "designed",
+            "geometry_method": "Drawn by Matthew in the network editor (data/ideal/network.geojson).",
+            "sources": [{"source": NETWORK_ID, "supports": ["geometry"]}], "flags": []}}
+        lines.append({
+            "id": lid, "name": p["name"], "system": NETWORK_ID, "mode": p["mode"], "era": "ideal",
+            "opened": None, "closed": None, "status": "ideal", "route": [{"segment": lid}],
+            "sources": [{"source": NETWORK_ID, "supports": ["general"]}], "flags": [],
+            **({"notes": p["notes"]} if p.get("notes") else {}),
+            "based_on": p["based_on"], "author": p["author"],
+        })
+    return lines, segments
+
+
+def based_on(line: dict, lines: list[dict], sources: dict) -> list[dict]:
+    """What a line of Matthew's network draws on, by name: a whole proposal, or one proposal line."""
+    by_line = {l["id"]: l for l in lines}
+    by_proposal = {l["proposal_id"]: l for l in lines if l.get("proposal_id")}
+    out = []
+    for ref in line["based_on"]:
+        if ref in by_line:
+            out.append({"id": ref, "name": by_line[ref]["name"], "line": ref})
+        elif ref in by_proposal:
+            l = by_proposal[ref]
+            out.append({"id": ref, "name": f"{l['proposed_by']}: {sources[l['document']]['title']}"})
+        else:
+            out.append({"id": ref, "name": ref})
+    return out
+
+
 def load_era(era: str):
     lines, segments, points = [], {}, []
+    if era == "ideal":
+        lines, segments = network()
     if not (DATA / era).exists():
         return lines, segments, points
     for folder in sorted(p for p in (DATA / era).glob("*") if p.is_dir()):
@@ -423,7 +468,8 @@ def main() -> None:
                 **{k: line[k] for k in ("status_as_of", "expected_opening", "last_verified", "summary", "fate",
                                         "fate_note", "successor", "continues_beyond", "gauge_mm", "gauge_label",
                                         "traction", "photo", "links", "notes") if k in line},
-                **({"proposal": proposal(line, sources)} if era == "ideal" else {}),
+                **({"proposal": proposal(line, sources)} if line["status"] == "proposed" else {}),
+                **({"based_on": based_on(line, lines, sources), "author": line["author"]} if line["status"] == "ideal" else {}),
                 "flags": line["flags"],
                 **({"running": line["running"]} if line.get("running") and RUNNING_DATES else {}),
                 "undated": era not in UNBUILT and (lo is None or lc is None),
@@ -472,6 +518,8 @@ def main() -> None:
                 "lines": "," + ",".join(p["line_ids"]) + ",",
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0,
+                # The ideal era's layers (proposals, Matthew's network) switch on apart: a station goes with its lines.
+                **({"lstatus": users[0]["status"] if users else "proposed"} if era == "ideal" else {}),
             }})
 
         if era == "present":

@@ -19,7 +19,7 @@ Nothing of Matthew's network is drawn: that's his (CLAUDE.md). Screenshots are i
   | Geary/19th Avenue subway (SFCTA, 2026) | Under study | Geary St and Geary Blvd, Market St to Masonic Ave; 19th Ave, Lincoln Way to Junipero Serra Blvd | The turn south (between Masonic and Park Presidio) through Golden Gate Park; the Howard St downtown option; the Daly City end; stations |
   | Central Subway extension (SFMTA, 2015) | Under study | Columbus Ave and Powell St, Union St to Beach St, as two lines | The link from today's tunnel to Washington Square; the loop concept |
   | Dumbarton rail shuttle (SamTrans, 2017) | Superseded | The Dumbarton Cutoff, Redwood Junction to Newark | Redwood City station; Union City |
-  | Reimagine Dumbarton busway (SamTrans, 2025-27) | In an adopted plan (Plan Bay Area 2050+) | The rail corridor, Middlefield Rd to University Ave | Its two street links into Redwood City; stations |
+  | Reimagine Dumbarton busway (SamTrans, 2025-27) | In an adopted plan (Plan Bay Area 2050+) | The rail corridor, Middlefield Rd to University Ave, and eight of its nine stations where their cross streets meet it | Its two street links into Redwood City; the Belle Haven Community Campus station, which no street places |
 
 - **The tradeoffs page, `docs/ideal/tradeoffs.md`:** every proposal, drawn or not, grouped by the
   choice it poses (a second crossing; the west side; North Beach; Caltrain south of The Portal;
@@ -45,16 +45,21 @@ Nothing of Matthew's network is drawn: that's his (CLAUDE.md). Screenshots are i
   3-1 to 3-3, the Subway Vision's Figure 15, the T-Third concept study, Link21's Appendix C) needs a
   browser, and its license is open.
 
-## The look: a placeholder
+## The look: three options
 
-Proposals draw in their mode's hue, at 0.6 of the width and 0.85 opacity (`theme.transit.proposals`),
-dashed where approximate (most of them), and only when "Show proposals" is on. Options for Matthew,
-not built yet: on by default; a single neutral hue for every proposal, so mode is read from the
-panel; or proposals stepping back like today's network (0.4) once his own network is drawn. One
-thing the screenshots show: a proposal on track that exists (the Dumbarton rail shuttle, on the
-surveyed Dumbarton Cutoff) draws solid, and reads almost like a running line; a proposal-only
-encoding (a lighter tint, say) would separate them without borrowing the dash, which means
-approximate.
+Proposals are thinner than lines being built (0.6 of the width), dashed where approximate, and off
+by default. Three looks are open (`?proposalstyle=`; screenshots `future-proposals-<style>-sf` and
+`-dumbarton`):
+
+| Option | How | For | Against |
+|---|---|---|---|
+| `translucent` (default) | The mode's hue at 0.85 opacity | Mode reads at a glance, as everywhere else | A proposal on track that exists (the Dumbarton rail shuttle, on the surveyed cutoff) draws solid and reads almost like a running line |
+| `tint` | The mode's hue mixed halfway toward the paper | Still says the mode, but plainly not running | Pale lines are harder to see over the building print |
+| `neutral` | One grey for every proposal | Can't be mistaken for anything built or planned | Mode is only in the panel and the list |
+
+**Matthew's own network** draws at full strength in its mode, under its own toggle ("Show
+Matthew's network", on once the file has lines), and hides while the editor is open. Checked with a
+temporary line, then removed.
 
 ## For Matthew
 
@@ -67,9 +72,9 @@ New from this phase:
   listed in each research file in a browser.
 - **Your picks:** read `docs/ideal/tradeoffs.md` and draw them with `?edit=1`; the seven questions at
   its end are the ones the proposals leave open.
-- **How your network should look** once it has lines: full strength over everything, its own toggle,
-  or in place of the proposals.
-- **The proposals' look** (above).
+- **How your network looks** once it has lines: full strength under its own toggle, as built; or
+  otherwise.
+- **The proposals' look:** `translucent`, `tint` or `neutral` (above), or another.
 - **Statuses to confirm:** the Geary/19th subway as "under study" (it is named in SFTP 2050 and Plan
   Bay Area 2050+, but only for studies; a literal reading would make it "in an adopted plan"); the
   busway as "in an adopted plan" (Plan Bay Area 2050+ carries it, while SamTrans still studies it).

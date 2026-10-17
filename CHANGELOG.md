@@ -2,6 +2,15 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: The busway's stations; Matthew's network reaches the map
+
+- **Reimagine Dumbarton busway:** eight of its nine stations, where the cross streets SamTrans names
+  meet the corridor (Middlefield Rd, Fifth Ave, Ninth Ave, Marsh Rd, Bohannon Dr, Chilco St, Willow
+  Rd, University Ave); Belle Haven Community Campus, named by no street, isn't placed.
+- **Matthew's network:** `make app-data` now turns `data/ideal/network.geojson` into ideal-era lines
+  (`designed` geometry, status `ideal`), drawn under "Show Matthew's network". The file is still
+  empty; a source and a system, `ideal-network`, stand ready for it.
+
 ## 2026-10-16: The reference proposals, the ideal network's starting points (Phase 4)
 
 - **A new layer, `data/ideal/`** (the future era's layer B): proposals drawn as their documents

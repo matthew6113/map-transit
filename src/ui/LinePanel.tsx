@@ -24,6 +24,7 @@ const CONFIDENCE_LABEL: Record<string, string> = {
   surveyed: 'Surveyed',
   digitized: 'Traced from a map',
   approximate: 'Approximate',
+  designed: 'Designed',
 };
 
 /** The line's panel: what it is, when it ran, what happened to it, how it's drawn, and its sources. */
@@ -34,8 +35,9 @@ export function LinePanel({ line, onClose }: Props) {
   }, [line.id]);
 
   const proposal = line.proposal;
-  // Not built (a future line or a proposal): no years of service.
-  const future = line.era === 'future' || !!proposal;
+  const mine = line.status === 'ideal';
+  // Not built (a future line, a proposal or a line of Matthew's network): no years of service.
+  const future = line.era === 'future' || line.era === 'ideal';
   const running = line.status === 'closed' && line.running?.length ? line.running : null;
   const years = running ? formatRunning(line.opened, line.closed, running)
     : formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
@@ -50,7 +52,7 @@ export function LinePanel({ line, onClose }: Props) {
           <h2 id="line-title" ref={heading} tabIndex={-1}>{line.name}</h2>
           <p class="meta">
             <span class="mode-chip"><i style={{ background: modeVar(line.group) }} />{line.mode_label}</span>
-            <span>{proposal ? proposal.proposed_by : line.system_name}</span>
+            <span>{proposal ? proposal.proposed_by : mine ? line.author : line.system_name}</span>
             <span>{proposal ? proposal.status_label : future ? STATUSES[line.status].label : years}</span>
           </p>
         </div>
@@ -67,7 +69,16 @@ export function LinePanel({ line, onClose }: Props) {
         </p>
       )}
 
-      {future && !proposal && (
+      {mine && (
+        <p class="status-note">
+          <strong>Matthew's network</strong>: his design, not a project being built or a proposal.
+          {line.based_on?.length
+            ? <> Based on {line.based_on.map((b, i) => <span key={b.id}>{i ? '; ' : ''}{b.name}</span>)}.</>
+            : ' Drawn on its own, from no proposal.'}
+        </p>
+      )}
+
+      {future && !proposal && !mine && (
         <p class="status-note">
           <strong>{STATUSES[line.status].label}</strong>
           {line.status_as_of && <> as of {formatDate(line.status_as_of)}</>}. {STATUSES[line.status].meaning}

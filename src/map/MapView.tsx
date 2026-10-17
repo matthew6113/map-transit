@@ -47,7 +47,7 @@ export function syncStyle(map: maplibregl.Map, next: StyleInputs) {
     prev && prev.theme === next.theme && prev.mode === next.mode && prev.loaded.join() === next.loaded.join() &&
     prev.view.era === next.view.era && prev.view.ghost === next.view.ghost &&
     prev.view.selected === next.view.selected && prev.view.hiddenGroups.join() === next.view.hiddenGroups.join() &&
-    prev.view.proposals === next.view.proposals
+    prev.view.proposals === next.view.proposals && prev.view.network === next.view.network
   ) return;
   applied.set(map, next);
   map.setStyle(keepAdded(map, buildStyle(next)), { diff: true });

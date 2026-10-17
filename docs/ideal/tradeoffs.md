@@ -213,8 +213,9 @@ Nothing here is chosen for you. The questions the proposals leave open:
 3. "Export network.geojson", and commit it as `data/ideal/network.geojson`; `npm test` checks it.
    A draft stays in your browser until then.
 
-The map doesn't draw your network yet: say how it should look (full strength over everything, its
-own toggle, or in place of the proposals) and it goes in once the file has lines.
+Once the file has lines, `make app-data` puts them on the map: at full strength in the future era,
+under "Show Matthew's network", each with a panel naming what it's based on. Say if it should look
+otherwise.
 
 ## Not covered yet
 

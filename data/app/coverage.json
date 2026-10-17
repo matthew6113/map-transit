@@ -55,7 +55,7 @@
   "ideal": {
     "lines": 5,
     "segments": 6,
-    "points": 0,
+    "points": 8,
     "km_by_confidence": {
       "approximate": 11.3,
       "surveyed": 24.0

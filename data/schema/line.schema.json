@@ -271,7 +271,8 @@
             "funded",
             "under_construction",
             "opening",
-            "proposed"
+            "proposed",
+            "ideal"
           ]
         },
         "status_as_of": {
