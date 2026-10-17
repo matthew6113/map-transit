@@ -4711,6 +4711,15 @@
       "license": "Copyright status unknown (railfan periodical, 1945); cited for facts only",
       "accessed": "2026-10-14"
     },
+    "western-railroader-1946-10": {
+      "title": "The Western Railroader 9(10), October 1946: \"Key System converts 6 and K lines\"",
+      "publisher": "The Western Railroader",
+      "date": "1946-10",
+      "type": "journal",
+      "url": "https://archive.org/details/sim_western-railroader-the-western-railfan_1946-10_9_10/page/n1/mode/1up",
+      "license": "Copyright status unknown (railfan periodical, 1946); cited for facts only",
+      "accessed": "2026-10-17"
+    },
     "western-railroader-1948-04": {
       "title": "The Western Railroader 11(6), April 1948: \"Key street car abandonment speeded by power shortage\"",
       "publisher": "The Western Railroader",
@@ -13839,18 +13848,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1946-09-29",
       "status": "closed",
       "status_label": "Closed",
       "summary": "A connection to the F Shattuck Avenue trains: from Adeline St along Alcatraz Ave and College Ave to Bancroft Way and Telegraph Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from September 30, 1946 (Decision 39403; The Western Railroader, October 1946).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -13930,9 +13940,19 @@
           "source": "crc-d39403",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "5-6"
+        },
+        {
+          "source": "western-railroader-1946-10",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "2",
+          "note": "\"converted to bus operation September 30th\" (1946), the first day Decision 39403 allowed; the last cars ran the day before."
         },
         {
           "source": "usgs-oakland-west-1949",
@@ -31495,18 +31515,19 @@
       "group": "streetcar",
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1946-09-29",
       "status": "closed",
       "status_label": "Closed",
       "summary": "From a loop at 8th St and Broadway out Broadway and College Ave to Berkeley, round a loop by Bancroft Way, Fulton St, Oxford St, University Ave and Shattuck Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from September 30, 1946 (Decision 39403; The Western Railroader, October 1946).",
       "traction": [
         {
           "type": "electric_overhead"
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "running": [
         {
@@ -31876,9 +31897,19 @@
           "source": "crc-d39403",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "5-6"
+        },
+        {
+          "source": "western-railroader-1946-10",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "2",
+          "note": "\"converted to bus operation September 30th\" (1946), the first day Decision 39403 allowed; the last cars ran the day before."
         },
         {
           "source": "crc-d36740",

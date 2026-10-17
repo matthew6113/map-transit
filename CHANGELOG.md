@@ -7,6 +7,8 @@ Data changes, newest first. Code changes are in the git log.
 - **Key System lines 14, 15 and 18** close on Saturday, March 27, 1948: *The Western Railroader* of April 1948
   has them "abandoned as per schedule Saturday eveing [sic] March 27th", inside the window Decision 41306
   allowed. Buses took over (`converted_to_bus`).
+- **Lines 6 (College Avenue) and K (Alcatraz Avenue)** close on September 29, 1946: *The Western Railroader*
+  of October 1946 has them "converted to bus operation September 30th", the day Decision 39403 took effect.
 - **The Richmond line** closes on Monday, November 6, 1933: the *Richmond Record-Herald* of the morning of the
   7th has "no more street car service in Richmond" from that day, the cars running on only to Ashby Ave.
 - **Lines 1 and 2** are drawn to November 4, 1948, when Decision 42199 has them among the "four remaining local
@@ -17,7 +19,7 @@ Data changes, newest first. Code changes are in the git log.
 - **The No. 40 San Mateo line** opens on December 31, 1902, at first a shuttle from Holy Cross (*The Western
   Railroader*, December 1948). Its city streets are still drawn from 1909 and its San Mateo streets from 1929,
   now as route `from` dates.
-- Five new sources.
+- Six new sources.
 
 ## 2026-10-17: Four more photos
 

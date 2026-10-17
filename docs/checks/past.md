@@ -402,8 +402,8 @@ Each line whose opening or closing isn't sourced, drawn only for the years a sou
 | `calp-vallejo-junction-ferry` Vallejo Junction–South Vallejo ferry | 1889 (ca-brc-reports-9-12, p. 9 (tenth report)); 1900 (poors-1900, p. 616-617) | opening |
 | `eb-1-east-14th` No. 1 East 14th Street | 1942-11-05 (crc-d35945, p. 2, 6); 1947-03-11 (cpuc-d40055, p. 1); 1948-03-09 (cpuc-d41306, p. 2, 4-5); 1948-11-04 (cpuc-d42199, p. 2) | opening and closing |
 | `eb-2-san-pablo` No. 2 San Pablo Avenue | 1942-12-15 (crc-d36025, p. 2); 1944-09-21 (crc-d37339, p. 1); 1945-11-20 (crc-d38428, p. 1-2); 1948-03-09 (cpuc-d41306, p. 2, 4-5); 1948-11-04 (cpuc-d42199, p. 2) | opening and closing |
-| `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
-| `eb-k-alcatraz` K Alcatraz Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening and closing |
+| `eb-6-college` No. 6 College Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening |
+| `eb-k-alcatraz` K Alcatraz Avenue | 1946-09-10 (crc-d39403, p. 5-6) | opening |
 | `eb-9-alameda` No. 9 Alameda via Park Street | 1931-01-13 (crc-d23279, p. 2); 1933-05-02 (crc-d26059, p. 1) | opening and closing |
 | `eb-10-piedmont` No. 10 Piedmont Avenue | 1943-11-30 (crc-d36740, p. 1-2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |
 | `eb-11-oakland-ave` No. 11 Oakland Avenue | 1931-11-16 (crc-d24224, p. 2); 1942-11-05 (crc-d35948, p. 2); 1948-05-25 (cpuc-d41652, p. 1) | opening and closing |

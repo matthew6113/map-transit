@@ -1154,8 +1154,9 @@ already quoted in east-bay-electric.md; re-read here. [O][ocr][img]
 
 ## 19. Actual changeover days (newspapers and *The Western Railroader*)
 
-*Applied to the data on Oct 17, 2026:* lines 14, 15 and 18 close on Mar 27, 1948 and the Richmond line on
-Nov 6, 1933, each re-read on the page image. The June and November 1948 days below are plans announced in
+*Applied to the data on Oct 17, 2026:* lines 14, 15 and 18 close on Mar 27, 1948, lines 6 and K on Sept 29,
+1946 (*The Western Railroader*, Oct 1946, p. 2: "converted to bus operation September 30th") and the Richmond
+line on Nov 6, 1933, each re-read on the page image. The June and November 1948 days below are plans announced in
 advance, with no later report of the day found, so lines 1, 2, 10, 11 and 12 keep `closed` null; lines 1 and
 2 are drawn to D42199 (Nov 4, 1948).
 
