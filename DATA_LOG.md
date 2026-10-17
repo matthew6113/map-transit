@@ -355,6 +355,16 @@ The geometry tools are below (decision 12).
 | Demoro, *The Key Route*; Ford, *Red Trains in the East Bay*; Sappers; Western Railway Museum; Market Street Railway; cable-car-guy.com | Candidate | Dates and text routings. The printed books may need page citations from Matthew. |
 | Blue & Gold Fleet's own ferries (`docs/SPEC.md` coverage list, "Present") | Checked Oct 16, 2026; not added | 511's operator list has no Blue & Gold feed; the San Francisco Bay Ferry routes it operates are already drawn from 511 as SF Bay Ferry's. The Mobility Database's "Blue & Gold Fleet" feed (mdb-1178, 2024) is in fact SF Bay Ferry's, and the only feed with Blue & Gold's own route, Pier 41 to Sausalito, Tiburon and Angel Island, is Trillium's of 2021 (mdb-595, inactive). Its Tiburon and Angel Island runs passed to Golden Gate Ferry in 2021-22, which the map draws from 511; its Sausalito run is reported suspended since May 3, 2026 (secondary sources only; blueandgoldfleet.com and goldengate.org are blocked from the container). Nothing is drawn until an official source shows a route running. |
 
+## Photos
+
+| | |
+|---|---|
+| Status | None in use yet. The pipeline is ready (`make photos`, from Phase 5); candidates wait for Matthew. |
+| Origin | Each line's `photo` names a Wikimedia Commons file or a direct image address. Candidates from the Library of Congress (searched through its JSON API, Oct 17, 2026) are in `docs/research/photos-candidates.md`: 13 lines have one, from stereographs and Detroit Publishing views published before 1931, HABS and HAER survey photos, and Carol M. Highsmith's gift. |
+| License | Public domain only: `public-domain`, `PD-US-expired` or `CC0` (CLAUDE.md), stated on the record `source_url` points to. Credited in the line's panel. |
+| Storage | `make photos` downloads the original into `data/raw/photos/` (git-ignored) and writes a copy of at most 960 × 720 px, without metadata, to `public/photos/` (committed). Never hotlinked. |
+| Gaps | No image could be viewed or downloaded from the build container (the LOC's and Wikimedia's image servers are blocked), so no caption is written and no photo is drawn. The LOC holds little of the Key System, the interurbans, BART, Caltrain or VTA; Commons, Calisphere, OAC and SFPL, the next places to look, are blocked too. |
+
 <!-- coverage:start -->
 | Era | Lines | Segments | Points | km surveyed | km digitized | km approximate | Undated segments | Borrowed dates |
 |---|---|---|---|---|---|---|---|---|

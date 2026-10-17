@@ -451,6 +451,17 @@
             "source": {
               "type": "string",
               "description": "An id in sources.json, when the photo's record is listed there."
+            },
+            "crop": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "minItems": 4,
+              "maxItems": 4,
+              "description": "Part of the image to keep, as fractions [left, top, right, bottom]: one half of a stereograph, say."
             }
           }
         },

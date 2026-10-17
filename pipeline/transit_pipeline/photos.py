@@ -35,7 +35,7 @@ def origin(photo: dict) -> str:
 def photo_file(line_id: str, photo: dict) -> str:
     """The published file's name: the line and a hash of the image's origin, so a new photo gets a new
     name and no cache shows the old one."""
-    key = photo.get("commons_file") or photo["image_url"]
+    key = (photo.get("commons_file") or photo["image_url"]) + (json.dumps(photo["crop"]) if photo.get("crop") else "")
     return f"photos/{line_id}-{hashlib.sha1(key.encode()).hexdigest()[:8]}.jpg"
 
 
@@ -52,6 +52,8 @@ def photos() -> list[tuple[str, dict]]:
 
 def main() -> None:
     from PIL import Image, ImageOps
+    # A Library of Congress master TIFF can pass Pillow's default guard against decompression bombs.
+    Image.MAX_IMAGE_PIXELS = 400_000_000
     PUBLIC.mkdir(parents=True, exist_ok=True)
     wanted = set()
     for line_id, photo in photos():
@@ -63,6 +65,10 @@ def main() -> None:
         raw = fetch(origin(photo), RAW / f"{Path(name).stem}.orig")
         with Image.open(raw) as im:
             im = ImageOps.exif_transpose(im).convert("RGB")
+            if photo.get("crop"):
+                # Fractions of the image: one half of a stereograph, say.
+                l, t, r, b = photo["crop"]
+                im = im.crop((round(l * im.width), round(t * im.height), round(r * im.width), round(b * im.height)))
             im.thumbnail((MAX_W, MAX_H), Image.LANCZOS)
             # No EXIF or other metadata: only the pixels go out.
             im.save(dest, "JPEG", quality=QUALITY, optimize=True, progressive=True)
