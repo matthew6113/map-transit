@@ -479,7 +479,11 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 - **Freight-only rail stays as BAM's faint dashed context.** BAM's context lines for transit rail and
   ferries are hidden, since this map draws its own. BAM's single `layers.context` flag is split into
   roads, rail and ferry; that split should be backported to BAM.
-- **The style panel is deferred to Phase 5.** The palette is still a one-file swap.
+- **The style panel (Phase 5) is BAM's, behind `?style=1`.** Mode colors and widths, the eras, future
+  status, proposals, the shared basemap, type, 3D and layers, all live, with the contrast check; it
+  exports `theme.json` to commit. A change kept in the browser shows only with `?style=1`, never to
+  visitors. The basemap colors are BAM's, so a change there belongs in BAM too. BAM's newer
+  `controlBorder` came with it: fields and filter chips are outlined at 3:1 (WCAG 1.4.11).
 - **The share card is drawn from the map itself** (Phase 5, `npm run share-card`): 1200×630, the
   title band over the map, in the theme's type and colors; one card for the site and every line's
   page. Three options are open for Matthew (`docs/screenshots/p5/share-card-*.jpg`): the whole Bay

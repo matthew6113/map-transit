@@ -117,7 +117,8 @@ export interface ContrastIssue {
 
 /**
  * Lines are graphics (WCAG 1.4.11, 3:1 against land and water: ferries cross water, rail crosses
- * bridges); labels are text (4.5:1); the selected line is drawn in the selection color over land.
+ * bridges); labels are text (4.5:1); the selected line is drawn in the selection color over land;
+ * field outlines are controls (3:1 on the panel).
  */
 export function contrastIssues(theme: Theme): ContrastIssue[] {
   const issues: ContrastIssue[] = [];
@@ -138,5 +139,8 @@ export function contrastIssues(theme: Theme): ContrastIssue[] {
     const sel = contrast(theme.colors.selection, bg);
     if (sel < 3) issues.push({ subject: 'Selection', against: name, ratio: sel, needed: 3 });
   }
+  // Fields and filter chips are controls: their outline needs 3:1 on the panel (WCAG 1.4.11).
+  const field = contrast(theme.colors.controlBorder, theme.colors.panelBackground);
+  if (field < 3) issues.push({ subject: 'Field outlines', against: 'panel', ratio: field, needed: 3 });
   return issues;
 }

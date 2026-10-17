@@ -1,6 +1,7 @@
 /**
  * Interaction tests: eras, the legend's filters, the list, opening and closing lines (list, map,
- * shared track, deep link, Escape), the year slider by keyboard, reduced motion and the phone layout.
+ * shared track, deep link, Escape), the year slider by keyboard, reduced motion, the phone layout and
+ * the style panel.
  * Chromium here; WebKit in CI (PW_WEBKIT=1).
  */
 import { readFileSync } from 'node:fs';
@@ -165,4 +166,23 @@ test('on a phone the panel is a bottom sheet', async ({ browser }) => {
   expect(box!.y).toBeGreaterThan(844 * 0.4);
   expect(box!.width).toBeGreaterThan(380);
   await context.close();
+});
+
+test('the style panel (?style=1) changes a mode color live, and Escape closes it', async ({ page }) => {
+  await page.goto('/?style=1&test=1');
+  await ready(page);
+  const panel = page.getByRole('complementary', { name: 'Style panel' });
+  await expect(panel).toBeVisible();
+  await expect(panel.getByText('Every check passes.')).toBeVisible();
+  const paint = () => page.evaluate(() => JSON.stringify((window as unknown as { __map: import('maplibre-gl').Map }).__map
+    .getStyle().layers.filter((l) => l.id.startsWith('transit-present')).map((l) => 'paint' in l ? l.paint : null)));
+  expect(await paint()).not.toContain('#123456');
+  await panel.getByLabel('Heavy rail hex').fill('#123456');
+  await expect.poll(paint).toContain('#123456');
+  // A pale color fails the contrast check, which says so.
+  await panel.getByLabel('Ferry hex').fill('#DDEEFF');
+  await expect(panel.getByText(/Mode: ferry on water/)).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(panel).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Style' })).toBeFocused();
 });

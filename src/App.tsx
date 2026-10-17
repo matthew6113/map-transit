@@ -7,7 +7,7 @@ import { GROUPS, STATUSES, type Dataset, type Era, type Status } from './data/vo
 import { DATASETS, fadeOutYears, PROPOSAL_STYLES, STATUS_STYLES, type ProposalStyle, type StatusStyle } from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
-import { applyCssVariables, defaultTheme, MODE_GROUPS, type ModeGroup, type Theme } from './theme/theme';
+import { applyCssVariables, defaultTheme, MODE_GROUPS, normalizeTheme, type ModeGroup, type Theme } from './theme/theme';
 import { applyYear, resetVisibility, visibleAt, type Dated } from './timeline/visibility';
 import { Controls } from './ui/Controls';
 import { Credits } from './ui/Credits';
@@ -15,6 +15,7 @@ import type { Editor as EditorComponent } from './editor/Editor';
 import { EraSwitcher } from './ui/EraSwitcher';
 import { Index } from './ui/Index';
 import { LinePanel } from './ui/LinePanel';
+import { StylePanel } from './ui/StylePanel';
 import { FIRST_YEAR, LAST_YEAR, stepMs, YearSlider } from './ui/YearSlider';
 
 const params = new URLSearchParams(location.search);
@@ -38,9 +39,21 @@ const initialYear = (): number => {
   return Number.isInteger(y) && y >= FIRST_YEAR && y <= LAST_YEAR ? y : DEFAULT_YEAR;
 };
 
+/** The style panel (Phase 5, from BAM) is an author's tool: ?style=1. Its theme persists in the browser. */
+const STYLE_PANEL_ENABLED = params.get('style') === '1';
+const STORAGE_KEY = 'transit.theme.v1';
+
 /** Layer options from the URL, so a view can be shared or screenshotted: ?labels=0&mask=0&buildings=0 */
 function loadTheme(): Theme {
-  const theme = structuredClone(defaultTheme);
+  let theme = structuredClone(defaultTheme);
+  if (STYLE_PANEL_ENABLED && !params.has('test')) {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) theme = normalizeTheme(JSON.parse(saved));
+    } catch {
+      // Storage can be blocked; fall back to the theme file.
+    }
+  }
   const flag = (name: string) => (params.has(name) ? params.get(name) !== '0' : undefined);
   const L = theme.layers;
   L.labels = flag('labels') ?? L.labels;
@@ -59,7 +72,9 @@ interface FlightState {
 }
 
 export function App() {
-  const [theme] = useState<Theme>(loadTheme);
+  const [theme, setTheme] = useState<Theme>(loadTheme);
+  const [panelOpen, setPanelOpen] = useState(STYLE_PANEL_ENABLED);
+  const styleToggle = useRef<HTMLButtonElement>(null);
   const [mode, setMode] = useState<ViewMode>(params.get('view') === '3d' ? '3d' : '2d');
   const [era, setEraState] = useState<Era>(initialEra);
   const [year, setYear] = useState(initialYear);
@@ -94,9 +109,24 @@ export function App() {
   live.current = { era, openId, byId, indexes, year, speed, proposals };
 
   useEffect(() => {
-    applyCssVariables(theme);
     void loadCatalog().then(setLines);
+  }, []);
+
+  useEffect(() => {
+    applyCssVariables(theme);
+    if (!STYLE_PANEL_ENABLED) return;
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(theme));
+    } catch {
+      // Not critical: the panel still works without persistence.
+    }
   }, [theme]);
+
+  const closePanel = useCallback(() => {
+    setPanelOpen(false);
+    // Focus goes back to the button that opens it, which renders once the panel has gone.
+    requestAnimationFrame(() => styleToggle.current?.focus());
+  }, []);
 
   // Each era's files are fetched once, when the era is first shown.
   useEffect(() => {
@@ -280,11 +310,22 @@ export function App() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && live.current.openId && !document.querySelector('.map-chooser')) void closeLine();
+      const target = e.target as HTMLElement | null;
+      const typing = !!target && (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName));
+      // Alt+Shift+S, as in BAM, not a bare "S": single-key shortcuts fire while typing (WCAG 2.1.4).
+      if (STYLE_PANEL_ENABLED && !typing && e.altKey && e.shiftKey && e.code === 'KeyS') {
+        e.preventDefault();
+        setPanelOpen((open) => !open);
+      } else if (e.key === 'Escape' && panelOpen) {
+        // The topmost panel closes first.
+        closePanel();
+      } else if (e.key === 'Escape' && live.current.openId && !document.querySelector('.map-chooser')) {
+        void closeLine();
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [closeLine]);
+  }, [closeLine, closePanel, panelOpen]);
 
   const onReady = useCallback((m: MapLibreMap) => {
     setMap(m);
@@ -345,7 +386,7 @@ export function App() {
     setHiddenGroups((prev) => (prev.includes(g) ? prev.filter((x) => x !== g) : [...prev, g]));
 
   return (
-    <div class={`app era-${era} ${line || (editing && era === 'future') ? 'with-line' : ''}`}>
+    <div class={`app era-${era} ${line || (editing && era === 'future') ? 'with-line' : ''} ${panelOpen ? 'with-panel' : ''}`}>
       <a class="skip-link" href="#controls-start">Skip to map controls</a>
       <header class="title">
         <h1>{SITE_TITLE}</h1>
@@ -407,6 +448,13 @@ export function App() {
       {editing && era === 'future' && map && Editor && (
         <Editor map={map} theme={theme} proposals={proposalChoices} onClose={() => setEditing(false)} />
       )}
+      {STYLE_PANEL_ENABLED && !panelOpen && (
+        <button ref={styleToggle} type="button" class="style-toggle" onClick={() => setPanelOpen(true)}
+          title="Open the style panel (Alt+Shift+S)">
+          Style
+        </button>
+      )}
+      {panelOpen && <StylePanel theme={theme} onChange={setTheme} onClose={closePanel} />}
     </div>
   );
 }

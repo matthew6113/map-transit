@@ -98,4 +98,4 @@ BAM's "the present as print, the future in color".
 | Deploy | Push to `main`. `.github/workflows/deploy.yml` restores the basemap snapshot, tests, builds and publishes to GitHub Pages. Pull requests build and test only. |
 
 URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `#map=zoom/lat/lng/bearing/pitch`,
-`/l/{line-id}`. For review only, `?test=1&at=<seconds>` holds a line's flight still.
+`/l/{line-id}`. Author's tools: `?style=1` (the style panel; Alt+Shift+S), `?edit=1` (the network editor). For review only, `?test=1&at=<seconds>` holds a line's flight still.
