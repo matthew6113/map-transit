@@ -32,14 +32,26 @@ proposal with no published path is here, not on the map.
 
 ## 1. A second Transbay crossing: which kind, and when
 
-`link21-dumbarton-express-rail.md` §1; `spur-seamless.md` S3, B2.
+`link21-dumbarton-express-rail.md` §1; `follow-up-2026-10.md` §5; `spur-seamless.md` S3, B2.
 
 **Where it stands.** In June 2025 BART's and Capitol Corridor's boards chose a standard-gauge
 ("Regional Rail") crossing for Link21, and BART decided "not to proceed with a project to design and
 construct a second BART transbay rail crossing". Capitol Corridor has run the program since July 1,
-2025. No alignment is published: its concepts name places (the Salesforce Transit Center, Alameda,
-Jack London Square, West Oakland, the Coliseum, Richmond), and its next planning work waits on a
-Caltrans–FRA agreement. No environmental review is scheduled.
+2025. No alignment is published, and its next planning work waits on a Caltrans–FRA agreement. No
+environmental review is scheduled.
+
+**What the 2024 concepts would connect** (stations in sequence; no path between them):
+- **Regional Rail** (the technology chosen): the Salesforce Transit Center, under the bay to a new
+  station in Alameda, then 12th St/Oakland City Center and south to the Coliseum; north by a modified
+  Emeryville station, Berkeley and a modified Richmond station to San Pablo. 16 transbay trains an
+  hour each way at the peak, with room for 24. It assumes the Union Pacific right-of-way is widened
+  "throughout the East Bay extents". A second version, "RR to Millbrae", adds the Pennsylvania
+  Avenue Extension, a four-track section and grade separations down the Peninsula. Hercules was
+  tested as an extension north of Richmond and dropped: the riders didn't support it, and the city
+  plans its own Capitol Corridor station.
+- **BART** (dropped): a new station near the Salesforce Transit Center, south by 4th & Townsend and
+  Mission Bay, under the bay to Alameda, Jack London Square and downtown Oakland to MacArthur, with a
+  branch to San Antonio; 24 trains an hour.
 
 | | BART crossing (dropped) | Standard-gauge crossing (chosen) | Upgrade today's corridors first |
 |---|---|---|---|
@@ -130,9 +142,14 @@ Chinatown, then on the surface into the Marina by Lombard or Chestnut to a Presi
 `san-francisco.md` §4; `link21-dumbarton-express-rail.md` §3; `spur-seamless.md` S6.
 
 - **Pennsylvania Avenue Extension** (SFCTA, under study): a Caltrain tunnel "along Seventh Street and
-  Pennsylvania Avenue", about $2.0-2.5 billion, not before the mid to late 2030s, removing the
-  street crossings at Mission Bay Drive and 16th Street; each alternative reworks or moves the 22nd
-  Street station. No portals are published, so it isn't on the map.
+  Pennsylvania Avenue" from The Portal's structure in the 4th and King railyard, about $2.0-2.5
+  billion, not before the mid to late 2030s, removing the street crossings at Mission Bay Drive and
+  16th Street. Three lengths: long (about 7,800 ft, to "a point immediately north of Cesar Chavez
+  Street", closing the 22nd Street station), mid-length (about 6,300 ft, to just north of 22nd
+  Street, which stays with changes) and short (about 5,600 ft, one bore, the other track staying in
+  today's corridor). How the tunnel turns from 7th St into Pennsylvania Ave isn't worded (one bore
+  curves "under private property"), so it isn't on the map. Link21's "RR to Millbrae" concept
+  includes it; a Bridging Study's procurement began in October 2025.
 - **Caltrain's ceiling.** Its Long-Range Service Vision (adopted October 2025) caps the corridor at 8
   Caltrain and 4 high-speed trains per direction at the peak, with short four-track overtakes (around
   Millbrae, Hayward Park/Hillsdale, Redwood City, and California Ave as an option), and drops the 2019
@@ -219,9 +236,12 @@ otherwise.
 
 ## Not covered yet
 
-The research ran out of searches before these: ConnectSF's Transit Strategy PDF (its project list,
-the Five-Minute Network's routes, its maps), the Subway Vision's corridor list (chapter 4, Figure
-15), SPUR's *Nine Ideas for a Connected San Francisco* (2021), Seamless Bay Area's map, Link21's
-concept maps, and the State Rail Plan's Bay Area figures. Each research file lists what to open in a
-browser. Not researched at all: AC Transit's and VTA's corridor plans, Muni's other rail
-extensions, and East Bay BART extensions.
+A follow-up pass (`follow-up-2026-10.md`) filled some gaps, but search results alone couldn't reach
+these: ConnectSF's Transit Strategy itself (it names five major rail and transit projects without
+ranking them, and the Five-Minute Network's routes weren't settled in 2021; Muni Forward now funds
+its first corridors on the 1, 22, T and 28), the Subway Vision's corridor list (chapter 4, Figure
+15), SPUR's *Nine Ideas for a Connected San Francisco*, the lines on Seamless Bay Area's map (its
+pages name none), Link21's concept maps, and the State Rail Plan's Bay Area figures. SFTP 2050+,
+San Francisco's next plan, was due as a final plan in fall 2026 and wasn't adopted by mid-October.
+Each research file lists what to open in a browser. Not researched at all: AC Transit's and VTA's
+corridor plans, Muni's other rail extensions, and East Bay BART extensions.

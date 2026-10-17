@@ -30,7 +30,9 @@ Nothing of Matthew's network is drawn: that's his (CLAUDE.md). Screenshots are i
   `data/ideal/network.geojson`, which `npm test` validates. A draft stays in the browser. It loads
   only for `?edit=1`, as its own chunk.
 - **Research:** three passes, in `docs/research/ideal/` (`link21-dumbarton-express-rail.md`,
-  `san-francisco.md`, `spur-seamless.md`); 152 sources added.
+  `san-francisco.md`, `spur-seamless.md`), and a follow-up on Oct 17 (`follow-up-2026-10.md`: Link21's
+  2024 concepts, the Pennsylvania Avenue Extension's ends, ConnectSF); 185 sources added. The
+  follow-up found no route a proposal words precisely enough to draw beyond those already drawn.
 
 ## How it was researched, and its limits
 

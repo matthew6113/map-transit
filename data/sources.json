@@ -3473,6 +3473,15 @@
       "notes": "2nd page (n1): \"SAN JOSE, March 19.—The first passenger train to use the Mayfield cut-off will be run Sunday, April 12, with a train from San Francisco. The Southern Pacific expects to begin regular service to Los Altos a week later.\" Read on the page image, October 16, 2026."
     },
     {
+      "id": "link21-concepts-memo-kornblatt",
+      "title": "Draft memorandum from Helene Kornblatt (PMC) to Don Dean (BART) on Link21 concepts under consideration",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/media/625/download?inline=",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated draft. Concept F: \"a Regional Rail transbay crossing that would connect the Salesforce Transit Center in San Francisco to Oakland City Center via an alignment through Alameda\". Ridership did not support Regional Rail infrastructure north of Richmond to Hercules (paraphrase); Link21 \"would not preclude the planned intercity service station in Hercules or future infrastructure improvements to support Urban | Metro service as separate projects by others\"."
+    },
+    {
       "id": "link21-concepts-page",
       "title": "Concepts",
       "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
@@ -3489,6 +3498,15 @@
       "url": "https://link21program.org/en/program/current-planning-activities",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only; the page wasn't opened. Undated. Paraphrase: Link21 continues planning a standard-gauge crossing, to advance into Environmental Review in the Project Selection Phase; station locations and track alignment are still to be defined; a standard-gauge crossing would make Salesforce Transit Center a through-running station."
+    },
+    {
+      "id": "link21-document-library",
+      "title": "Document Library",
+      "publisher": "Link21 Program (BART and Capitol Corridor Joint Powers Authority)",
+      "type": "official",
+      "url": "https://link21program.org/en/about/document-library",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. Lists \"Appendix C Environmental Constraints and Opportunities Mapbooks\" by subarea (Transbay Crossing, Oakland to Richmond, San Jose to Gilroy, among others) and a \"Stage Gate 2 Summary Report\" (content not seen)."
     },
     {
       "id": "link21-dual-gauge-fact-sheet-2024",
@@ -3630,6 +3648,16 @@
       "url": "https://blog.bayareametro.gov/posts/alameda-seaplane-ferry-route-celebrates-1-million-riders",
       "accessed": "2026-10-14",
       "notes": "March 7, 2025: more than 1 million passengers \"since the route's launch on July 1, 2021.\""
+    },
+    {
+      "id": "mtc-bil-regional-endorsement-list-2023",
+      "title": "Agenda Item 3b: Regional Endorsement List (Bipartisan Infrastructure Law)",
+      "publisher": "Metropolitan Transportation Commission",
+      "date": "2023",
+      "type": "official",
+      "url": "https://mtc.ca.gov/sites/default/files/meetings/attachments/5837/11b_23_1324_Regional_Endorsement_List_4.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; year as the search tool gave it. Lists \"Pennsylvania Avenue Extension Grade Separation (City and County of San Francisco)\", not on the CPUC grade-separation priority list but \"met other criteria and still provides a safety benefit\"."
     },
     {
       "id": "mtc-commission-agenda-2026-08-26",
@@ -4872,6 +4900,15 @@
       "notes": "Seen in search results only. \"developed in a partnership with Interline, and funded by a grant from Microsoft\"; the model has the network \"increasing the number of job opportunities accessible by transit by 2.5-7x\"."
     },
     {
+      "id": "seamless-vision-map-overview",
+      "title": "Vision Map (overview page)",
+      "publisher": "Seamless Bay Area",
+      "type": "primary_document",
+      "url": "https://www.seamlessbayarea.org/vision-map-overview",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. The map \"builds on numerous existing transportation plans and input from stakeholders, but is also highly aspirational\"; it shows transit planned and operated as a unified network (paraphrase). No line names in the text."
+    },
+    {
       "id": "sf-bay-ferry-history",
       "title": "Our history",
       "publisher": "San Francisco Bay Ferry (Water Emergency Transportation Authority)",
@@ -5267,6 +5304,16 @@
       "notes": "Seen in web search results only; the post's own URL wasn't shown. \"The Transportation Authority Board approved the Geary/19th Avenue Subway and Regional Connections Study Final Report at the June 9 meeting\"; \"The Board gave final approval at the June 23 meeting.\""
     },
     {
+      "id": "sfcta-blog-muni-forward-quick-build-2026",
+      "title": "Transportation Authority Board Approves $1.5 Million for Muni Forward Quick-Build Improvements",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-02",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/transportation-authority-board-approves-15-million-muni-forward-quick-build-improvements",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"28 19th Avenue (Lincoln Avenue to Junipero Serra Boulevard)\" (another result wrote Lincoln Way); \"The Transportation Authority Board gave final approval at the February 24 meeting.\" Open for use by December 2028 (paraphrase)."
+    },
+    {
       "id": "sfcta-blog-sftp-2050-adopted",
       "title": "Board Adopts San Francisco Transportation Plan 2050",
       "publisher": "San Francisco County Transportation Authority",
@@ -5275,6 +5322,26 @@
       "url": "https://www.sfcta.org/blogs/board-adopts-san-francisco-transportation-plan-2050",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only. \"the Transportation Authority Board adopted the San Francisco Transportation Plan, the blueprint for the city's transportation system development and investment over the next 30 years\". The Board agenda of 2022-12-13 lists \"Adopt the San Francisco Transportation Plan 2050\" (Resolution R23-23)."
+    },
+    {
+      "id": "sfcta-blog-sftp-feedback-2026-04",
+      "title": "Give Your Feedback on the Future of Transportation in San Francisco",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-04",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/give-your-feedback-future-transportation-san-francisco",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Round 2 outreach for SFTP 2050+ launched April 14, 2026: \"This phase shares initial findings from the financially constrained long-range transportation Investment Plan and a proposed Vision Plan, which includes investments enabled by any new revenues generated in the future.\" Some priorities moved to the Vision Plan because of lower revenues (paraphrase)."
+    },
+    {
+      "id": "sfcta-blog-transit-investment-strategy-feedback-2021",
+      "title": "Give feedback on San Francisco's Transit Investment Strategy",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021",
+      "type": "official",
+      "url": "https://www.sfcta.org/blogs/give-feedback-san-franciscos-transit-investment-strategy",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Feedback due Friday, May 7 (paraphrase). \"Deliver a five-minute network for reliable transit service citywide.\"; \"Increase speed, reliability, and capacity for a modern rail system.\""
     },
     {
       "id": "sfcta-board-2026-06-09",
@@ -5287,6 +5354,46 @@
       "notes": "Seen in web search results only; the match of this page to the June 9, 2026 meeting is the search tool's. \"Adopt the Geary/19th Ave Subway and Regional Connections Study Final Report - ACTION\"."
     },
     {
+      "id": "sfcta-board-minutes-2021-04-27",
+      "title": "Draft minutes, Transportation Authority Board meeting of April 27, 2021",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021-04-27",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2021-05/04%20April%2027%20Mins.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Item: ConnectSF Transit Strategy Update (information). \"no decisions have been made on which routes will be in the 5-minute network\"; connector routes \"not as frequent as the 5-minute network, but still very frequent, likely 10 minutes or better\"; \"the next step on the westside subway is a more focused planning study\"."
+    },
+    {
+      "id": "sfcta-board-packet-2024-10-08",
+      "title": "Transportation Authority Board packet, October 8, 2024",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-10-08",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-10/SFCTA_Board_PACKET_2024-10-08_1.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Five-Minute Network: \"a set of high-ridership corridors with capacity to support combined five-minute headways or better, that serve major regional destinations and transit hubs\"."
+    },
+    {
+      "id": "sfcta-board-packet-2026-02-24",
+      "title": "Transportation Authority Board packet, February 24, 2026",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-02-24",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2026-02/SFCTA_Board_PACKET_2026-02-24.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Muni Forward Five-Minute Network Corridor Quick-Build, $1,549,000 of Prop L: \"This project includes approximately 10-15 intersections on each of the four project corridors identified as priorities in the sales tax funded Muni Forward Five-Minute Network Corridor work.\" Segments seen once (paraphrase): 22 Fillmore, Fillmore Street between Marina Boulevard and Herman Street; T Third, Townsend to the Bayshore terminal; 1 California, full route."
+    },
+    {
+      "id": "sfcta-board-packet-2026-05-19",
+      "title": "Transportation Authority Board packet, May 19, 2026",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-05-19",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2026-05/SFCTA_Board_PACKET_2026-05-19.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Budget table: \"SFTP 2055\", $700,000, \"Programmed\"; \"SFTP 2050+\", $700,000, \"Appropriated\" (layout paraphrase)."
+    },
+    {
       "id": "sfcta-budget-work-program-memo-2025-04",
       "title": "Proposed Annual Budget and Work Program, FY 2025/26 (CAC item 6 memorandum)",
       "publisher": "San Francisco County Transportation Authority",
@@ -5297,6 +5404,16 @@
       "notes": "Seen in web search results only. \"We will advance the PAX Bridging Study in FY 2025/26.\""
     },
     {
+      "id": "sfcta-cac-2026-04-22",
+      "title": "SFCTA Community Advisory Committee (meeting page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2026-04-22",
+      "type": "official",
+      "url": "https://www.sfcta.org/events/sfcta-community-advisory-committee-24",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; the match of this page to the April 22, 2026 meeting is the search tool's. Agenda item \"San Francisco Transportation Plan 2050+ and West Side Network Study Update - INFORMATION\"."
+    },
+    {
       "id": "sfcta-cmp-2025",
       "title": "Congestion Management Program 2025",
       "publisher": "San Francisco County Transportation Authority",
@@ -5305,6 +5422,54 @@
       "url": "https://www.sfcta.org/reports/congestion-management-program-2025",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only. SFTP 2050+, \"a minor update to SFTP 2050, will be published in Summer 2026\"."
+    },
+    {
+      "id": "sfcta-comments-pba2050-2021-07-20",
+      "title": "Comments on the Draft Plan Bay Area 2050 (letter to Matt Maloney, MTC)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021-07-20",
+      "type": "official",
+      "url": "https://files.mtc.ca.gov/pdf/pba_comments/2021/San_Francisco_County_Transportation_Authority_7-20-21.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; hosted by MTC. \"This future project, known as the Pennsylvania Avenue Extension, will avoid conflicts with 16th Street, a major east-west travel corridor serving Mission Bay.\""
+    },
+    {
+      "id": "sfcta-connectsf-project-page",
+      "title": "ConnectSF (project page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/projects/connectsf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Undated. The Transit Strategy's four recommendations: \"Make the system work better with aggressive maintenance and restoration.\", \"Deliver a five-minute network for reliable transit service citywide.\", \"Increase speed, reliability, and capacity for a modern rail system.\", \"Build rail where bus service is not sufficient to meet demand.\" Links interactive maps for the 2050 Statement of Needs (paraphrase)."
+    },
+    {
+      "id": "sfcta-connectsf-transit-slides-2021-03-23",
+      "title": "Statement of Needs: Challenges to Making the ConnectSF Vision a Reality (ConnectSF transit slides to the Transportation Authority Board)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021-03-23",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2021-03/Transit%20Slides%20to%20TA%20Board%202021%200323%20v6.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; date from the file name. The rail piece is framed as renewing aging infrastructure and expanding the systems that keep trains moving (paraphrase). The same title appears on the April 27, 2021 presentation (https://www.sfcta.org/sites/default/files/2021-04/Item%2011%20-%20Connect%20SF%20%20Transit%20PRESENTATION.pdf)."
+    },
+    {
+      "id": "sfcta-d4-mobility-study-2021-09",
+      "title": "District 4 Mobility Study, Final Report",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021-09-17",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2021-09/SFCTA-D4_Mobility_Study_Report_2021-09-17_FINAL.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Same sentence as the Great Highway report: Sunset Blvd and 19th Ave \"are part of the proposed 5-Minute network\", which \"is intended to provide fast, frequent, and prioritized transit service, with pedestrian safety and access enhancements\"."
+    },
+    {
+      "id": "sfcta-events-listing",
+      "title": "Meetings, Agendas & Events",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/events",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; a live listing. \"Transportation Authority Board. (Canceled). Tuesday, October 27.\" (2026)."
     },
     {
       "id": "sfcta-geary-19th-cac-2026-02-25",
@@ -5376,6 +5541,16 @@
       "notes": "Seen in web search results only. \"the subway is intended to complement, not replace, existing bus service on Geary Boulevard\"; \"tunneling and station construction drive the majority of costs\"; \"existing funding sources are not enough to deliver the project\"."
     },
     {
+      "id": "sfcta-great-highway-evaluation-2021-07",
+      "title": "Great Highway Concepts Evaluation Report, Final Report",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2021-07-13",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2021-07/SFCTA_Great-Highway-Evaluation-Report_2021-07-13_FINAL.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"For ConnectSF, both Sunset Blvd and 19th Ave are part of the proposed 5-Minute network, which is intended to provide fast, frequent, and prioritized transit service\"."
+    },
+    {
       "id": "sfcta-pax-initiation-report-2022",
       "title": "Pennsylvania Avenue Extension (PAX) Project Initiation Report, Resolution R23-05",
       "publisher": "San Francisco County Transportation Authority",
@@ -5384,6 +5559,36 @@
       "url": "https://www.sfcta.org/sites/default/files/2022-08/R23-05%20PAX%20Project%20Initiation%20Report%20Signed.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only. \"approximately $2.0-2.5 billion, excluding potential costs to replace the 22nd Street Station\"; \"PAX is in the planning stage and is not yet environmentally cleared.\" Presentation of 2022-07-12: https://www.sfcta.org/sites/default/files/2022-07/SFCTA_Board_PAXProjectInitiationReportPRESENTATION_2022-07-12.pdf"
+    },
+    {
+      "id": "sfcta-pax-pir-memo-2022-07-12",
+      "title": "Pennsylvania Avenue Extension Project Initiation Report (Board memo and draft resolution)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-07-12",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-07/SFCTA_Board_PAXProjectInitiationReportMEMO_2022-07-12.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. PAX connects to the DTX in \"a cut-and-cover structure built as part of DTX\" at the 4th and King railyard (paraphrase around the quote); the recommended alignment is a 1.6-mile twin tunnel, where the signed report says single bore (paraphrase)."
+    },
+    {
+      "id": "sfcta-pax-pir-presentation-2022-07-12",
+      "title": "Pennsylvania Avenue Extension (PAX) Project Initiation Report, Agenda Item 8 (presentation)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-07-12",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-07/SFCTA_Board_PAXProjectInitiationReportPRESENTATION_2022-07-12.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Tunnel lengths about 7,800 ft (long), 6,300 ft (mid-length) and 5,600 ft (short, Alternative C) (paraphrase)."
+    },
+    {
+      "id": "sfcta-pax-pir-public-comment-2022-07-12",
+      "title": "Public comment on the PAX Project Initiation Report (Board item)",
+      "publisher": "Members of the public, published in an SFCTA packet",
+      "date": "2022-07-12",
+      "type": "primary_document",
+      "url": "https://www.sfcta.org/sites/default/files/2022-07/SFCTA_Board_PAXProjectInitiationReportPUBLICCOMMENT_2022-07-12.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Not an official finding. Proposes an Alternative B3 tying into existing tracks north of the Jerrold bridge with a 23rd Street portal (paraphrase), \"flaring the abandoned tunnel entering the PAX twin-bore tunnels immediately north of the 23rd street overpass\"."
     },
     {
       "id": "sfcta-pax-project-page",
@@ -5415,6 +5620,16 @@
       "notes": "Seen in web search results only. The earlier vision \"envisioned undergrounding the M-Ocean View line between West Portal and Parkmerced\", not prioritized in ConnectSF (paraphrase), which chose \"aggressive surface optimization to provide subway-like service on the surface of the M-Ocean View line\"; $965,948 deobligated from \"Muni Subway Expansion Project Development\"."
     },
     {
+      "id": "sfcta-prop-l-5ypp-cac-2024-01-24",
+      "title": "Adopt Four Prop L 5YPPs and Amend Strategic Plan Baseline (CAC presentation)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-01-24",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-01/SFCTA_CAC_2023PropL5YPPPRESENTATION_2024-01-24.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Muni Forward Five-Minute Network corridors: \"Group 2 corridors (potential additional corridors if funding allows)\", including the 7, 8, 9 and 30 and \"14 Mission (south of Randall Street)\" (list partly paraphrase)."
+    },
+    {
       "id": "sfcta-prop-l-5ypp-muni-core-capacity-2024",
       "title": "Prop L 5YPP: Muni Rail Core Capacity",
       "publisher": "San Francisco County Transportation Authority",
@@ -5423,6 +5638,16 @@
       "url": "https://www.sfcta.org/sites/default/files/2024-02/SFCTA_Board_PropL5-YearPrioritizationProgramsENCLOSURE2MuniCoreCapacity_2024-02-27.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only. \"Total Funding: $720M; EP: $57M\"."
+    },
+    {
+      "id": "sfcta-prop-l-allocations-memo-2024-10-22",
+      "title": "Prop L Allocations Memo (Board item 6)",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2024-10-22",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2024-10/SFCTA_Board_Item6_PropLAllocationsMEMO_2024-10-22.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"This project will focus on the 1 California, 22 Fillmore, T Third surface route, and 28 19th Avenue, with additional corridors if there are cost savings to support this. Group 2 corridors include: 7 Haight-Noriega, 8 Bayshore, 9 San Bruno, 14 Mission, 30 Stockton, 43 Masonic and 44 O'Shaughnessy.\" \"Scope for all corridors is to be determined during this planning and outreach process.\""
     },
     {
       "id": "sfcta-prop-l-ep11-bayview-5ypp-2023",
@@ -5443,6 +5668,16 @@
       "url": "https://www.sfcta.org/sites/default/files/2024-06/EP13%20Geary%2019th%20Ave%20Subway%20Placeholder%20PIF%20DRAFT.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only: title only, and the Prop L category \"13- Next Generation Transit Investments\". Amount not seen."
+    },
+    {
+      "id": "sfcta-sftp-2050-appendix-a",
+      "title": "SFTP 2050 Appendix A: SFTP 2050 Investment Plan Development",
+      "publisher": "San Francisco County Transportation Authority",
+      "date": "2022-12-01",
+      "type": "official",
+      "url": "https://www.sfcta.org/sites/default/files/2022-12/SFCTA_SFTP-2050_Appendix-A-Plan-Development-Process_2022-12-01.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"The TCS conducted a comparative analysis of representative transit concepts to understand the benefits that might be achieved through alternative major investments in each of the 13 ConnectSF transportation corridors\"; the concepts \"were intended to direct the commencement of corridor planning studies, rather than as formal project proposals\". The 13 corridor names weren't seen."
     },
     {
       "id": "sfcta-sftp-2050-appendix-c",
@@ -5473,6 +5708,15 @@
       "url": "https://www.sfcta.org/sites/default/files/2025-05/SFCTA_Board_ITEM9_SanFranciscoTransportationPlan2050+UpdatePRESENTATION_2025-05-20v2_0.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only. \"Major Transit Projects: The Portal (Downtown Rail Extension), BART/Muni Core Capacity Improvements, Muni Reliability and Efficiency Improvements, Geary/19th Subway, Central Subway Extension\". Adoption of SFTP 2050+ not confirmed."
+    },
+    {
+      "id": "sfcta-sftp-project-page",
+      "title": "San Francisco Transportation Plan (project page)",
+      "publisher": "San Francisco County Transportation Authority",
+      "type": "official",
+      "url": "https://www.sfcta.org/projects/san-francisco-transportation-plan",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. SFTP 2050+ timeline: Spring 2026 Round 2 outreach, \"Summer 2026 Draft Plan\", \"Fall 2026 Final Plan\"; lists an \"April 14, 2026 Transportation Authority Board Presentation (PDF)\". The update \"incorporates PBA 2050+ revisions to projected population growth and reduced revenues and updates modeling to incorporate post-pandemic travel behaviors\". No adoption seen."
     },
     {
       "id": "sfcta-subway-vision-2017",
@@ -5581,6 +5825,26 @@
       "notes": "Seen in web search results only. By Bradley Dunn. \"At pop up workshops and online, more than 2,600 unique ideas were submitted through our online mapping tool.\""
     },
     {
+      "id": "sfmta-board-2021-07-20-item-18",
+      "title": "7-20-21 MTAB Item 18 ConnectSF Investment Strategies",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2021-07-20",
+      "type": "official",
+      "url": "https://www.sfmta.com/reports/7-20-21-mtab-item-18-connectsf-investment-strategies",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; the slides' content wasn't seen. The minutes (https://www.sfmta.com/media/27823/download, per the search tool) record the item as continued to a future date (paraphrase)."
+    },
+    {
+      "id": "sfmta-board-workshop-2021-reference",
+      "title": "2021 Board of Directors Workshop Reference Materials",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2021",
+      "type": "official",
+      "url": "https://www.sfmta.com/about-us/sfmta-board-directors/2021-board-directors-workshop",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"Recommended investments include: 1) bus priority investments across the City to improve speeds and reliability while reducing operating costs; 2) improvements to existing surface rail and subway infrastructure ... and 3) in the few locations where surface transit cannot provide enough capacity, new underground rail such as a Geary subway, linking to regional investments such as a future new transbay rail crossing.\""
+    },
+    {
       "id": "sfmta-cable-car-history",
       "title": "Cable car history",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -5618,6 +5882,15 @@
       "url": "https://www.sfmta.com/sites/default/files/reports-and-documents/2018/10/central_subway_extension_kickoff_presentation_boards.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only: title only. Possible maps to trace."
+    },
+    {
+      "id": "sfmta-central-subway-faq",
+      "title": "Central Subway Project Frequently Asked Questions",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/project-updates/central-subway-project-frequently-asked-questions",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. The ConnectSF Transit Strategy, published in December 2021, identifies a future subway route to be studied along the Geary/19th Ave corridor, which could connect to Link21 (paraphrase)."
     },
     {
       "id": "sfmta-central-subway-project",
@@ -5682,6 +5955,25 @@
       "url": "https://www.sfmta.com/sites/default/files/projects/2016/Station%202%20Rail.pdf",
       "accessed": "2026-10-16",
       "notes": "Seen in web search results only: title text \"SAN FRANCISCO STATE UNIVERSITY PARKMERCED DIAZ AVE BANBURY DRIVE PARKMERCED\", apparently map labels. Content not seen; a drawing to trace if wanted."
+    },
+    {
+      "id": "sfmta-muni-forward-page",
+      "title": "Muni Forward (project page)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "type": "official",
+      "url": "https://www.sfmta.com/projects/muni-forward",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. \"Our work focuses on the busiest lines that carry over 80% of Muni riders.\" \"ConnectSF defines a Five-Minute Network where service would be most frequent.\""
+    },
+    {
+      "id": "sfmta-muni-forward-update-2023-11-21",
+      "title": "Muni Forward Update, SFMTA Board of Directors (slides)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2023-11-21",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/reports-and-documents/2023/11/11-21-23_mtab_item_12_muni_forward_update_-_slide_presentation.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only, as fragmented text. An exact-phrase search for \"about a dozen corridors that carry two-thirds of all Muni ridership\" matched this deck; another result attributed similar words to an SFCTA memo. No list of the corridors seen."
     },
     {
       "id": "sfmta-muni-history",
@@ -5770,6 +6062,16 @@
       "notes": "p. 4: \"The IOS, which began revenue service on April 7, 2007, extends Muni Metro light rail service south from its current terminal at Fourth and King Streets.\""
     },
     {
+      "id": "sfmta-subway-vision-emsc-slides-2016-10-26",
+      "title": "San Francisco Subway Vision (slides, EMSC)",
+      "publisher": "San Francisco Municipal Transportation Agency",
+      "date": "2016-10-26",
+      "type": "official",
+      "url": "https://www.sfmta.com/sites/default/files/agendaitems/2016/10-26-16%20EMSC%20Subway%20Vision%20-%20slide%20presentation.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. Under \"Corridors for Evaluation\" the extracted text reads only \"Cross Town – Connectors - Demand Based\"; corridor names not in the text."
+    },
+    {
       "id": "sfmta-subway-vision-slides-2016-10-18",
       "title": "San Francisco Subway Vision (SFMTA Board item 12 slides)",
       "publisher": "San Francisco Municipal Transportation Agency",
@@ -5798,6 +6100,15 @@
       "url": "https://www.sfmta.com/node/26084",
       "accessed": "2026-10-14",
       "notes": "\"As of 10 a.m., Friday, April 1, 2022, the Van Ness BRT Bus Rapid Transit Lane has officially begun service.\""
+    },
+    {
+      "id": "sfplanning-cpc-connectsf-transit-packet",
+      "title": "Statement of Needs: Challenges to Making the ConnectSF Vision a Reality (Planning Commission packet, item 11)",
+      "publisher": "San Francisco Planning",
+      "type": "official",
+      "url": "https://commissions.sfplanning.org/cpcpackets/11.ConnectSF.pdf",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only; undated. Its recommendations are the Five-Minute Network and Rail Expansion; Five-Minute Network corridors would likely include Rapid Network routes, other routes with enough demand for frequent service, and routes where transit growth is expected (both paraphrase)."
     },
     {
       "id": "smart-5th-anniversary-2022",
@@ -5901,6 +6212,16 @@
       "license": "Copyright status unknown (California State Railroad Museum scan); cited for facts only",
       "accessed": "2026-10-16",
       "notes": "p. 10 (n5): \"Four of our inter-city trains were not selected by NRPC for operation and were therefore discontinued on April 30: the San Joaquin Daylight, the Sacramento Daylight, the Northwestern Pacific's self-propelled car which ran thrice-weekly between Eureka and Willits, and the San Jose-Monterey portion of the Del Monte.\" Read on the page image, October 16, 2026."
+    },
+    {
+      "id": "spur-bigger-picture-series-2021",
+      "title": "The Bigger Picture (series page)",
+      "publisher": "SPUR",
+      "date": "2021-02-18",
+      "type": "primary_document",
+      "url": "https://www.spur.org/publications/spur-report/2021-02-18/bigger-picture",
+      "accessed": "2026-10-17",
+      "notes": "Seen in web search results only. \"these ideas are not policy prescriptions but possibilities\"; SPUR partnered with AECOM (paraphrase). Series includes Nine Ideas for a Connected San Francisco (2021-10-06)."
     },
     {
       "id": "spur-caltrain-corridor-vision-plan-2017",
