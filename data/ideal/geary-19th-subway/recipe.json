@@ -1,0 +1,67 @@
+{
+  "$comment": "Recipe for transit_pipeline.ideal (make ideal). Research: docs/research/ideal/san-francisco.md, section 3.",
+  "system": "sfcta",
+  "segments": {
+    "geary-19th-subway-geary": {
+      "name": "Under Geary St and Geary Blvd, Market St to Masonic Ave",
+      "structure": "subway",
+      "streets": [
+        {
+          "names": [
+            "Geary Street",
+            "Geary Boulevard"
+          ],
+          "from": "Market Street",
+          "to": "Masonic Avenue",
+          "area": "sf"
+        }
+      ],
+      "method": "Along today's Geary St and Geary Blvd centerlines (Overture) from Market St to Masonic Ave. SFCTA's Mission Bay option runs \"straight west under Geary Blvd towards Van Ness, the Western Addition and Japantown\" and turns south somewhere between Masonic and Park Presidio; it is drawn to Masonic, the near end of that range. The strategic case publishes no alignment, and its other downtown option, by Howard St and Civic Center, has no path in its words.",
+      "sources": [
+        {
+          "source": "sfcta-geary-19th-strategic-case-2026",
+          "supports": [
+            "route"
+          ],
+          "note": "\"the Geary/19th Ave Subway would likely continue straight west under Geary Blvd towards Van Ness, the Western Addition and Japantown\"; the turn south falls between Masonic and Park Presidio (paraphrase)."
+        },
+        {
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    "geary-19th-subway-19th-ave": {
+      "name": "Under 19th Ave, Lincoln Way to Junipero Serra Blvd",
+      "structure": "subway",
+      "streets": [
+        {
+          "names": [
+            "19th Avenue"
+          ],
+          "from": "Lincoln Way",
+          "to": "Junipero Serra Boulevard",
+          "area": "sf"
+        }
+      ],
+      "method": "Along today's 19th Ave centerline (Overture) from Lincoln Way, the south edge of Golden Gate Park, to Junipero Serra Blvd: the subway \"continues beneath 19th Avenue\" and would surface \"near the 19th Ave / I-280 freeway interchange\". Not drawn: the turn south through Golden Gate Park, whose street is still open, and the elevated end from the interchange to near Daly City BART, which has no path in the text.",
+      "sources": [
+        {
+          "source": "sfcta-geary-19th-strategic-case-2026",
+          "supports": [
+            "route"
+          ],
+          "note": "\"It turns south through Golden Gate Park and continues beneath 19th Avenue\"; \"likely that both through running and transfer options ... would need to surface and transition to an elevated alignment near the 19th Ave / I-280 freeway interchange\"."
+        },
+        {
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    }
+  }
+}

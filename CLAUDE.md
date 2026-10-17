@@ -86,14 +86,16 @@ BAM's "the present as print, the future in color".
 | Command | What it does |
 |---|---|
 | `npm install`, then `make basemap` | Install, then copy BAM's built basemap into `public/generated/`, checked against `basemap.lock.json` (279 MB). Without it, the dev server proxies BAM's site. |
-| `make data` | `future-sync` (BAM's future lines), `present` (GTFS from 511, Amtrak and BART, plus BRT lanes from OpenStreetMap; 511 needs `TRANSIT_511_API_KEY`, and BRT needs `overpass-api.de` reachable), `past` (past geometry rebuilt from `data/past/*/trace.json`, after `street_routes` cuts the lines in `data/past/*/routes.json` into street segments, using OpenHistoricalMap's ways, USGS sheets and today's street centerlines; `make past-review` draws each traced feature over its map), then `app-data` (the app files in `data/app/`). The steps run individually too. |
+| `make data` | `future-sync` (BAM's future lines), `present` (GTFS from 511, Amtrak and BART, plus BRT lanes from OpenStreetMap; 511 needs `TRANSIT_511_API_KEY`, and BRT needs `overpass-api.de` reachable), `past` (past geometry rebuilt from `data/past/*/trace.json`, after `street_routes` cuts the lines in `data/past/*/routes.json` into street segments, using OpenHistoricalMap's ways, USGS sheets and today's street centerlines; `make past-review` draws each traced feature over its map), `ideal` (the reference proposals), `photos` (each line's public-domain photo into `public/photos/`), then `app-data` (the app files in `data/app/`). The steps run individually too. |
 | `npm run dev` | Dev server on http://127.0.0.1:5173. |
 | `npm test` | Schemas, data rules, future-status freshness and theme contrast. Validation lives only here. |
 | `npm run e2e` | Playwright: eras, hover and select, keyboard, reduced motion, mobile, deep links. |
 | `npm run screenshots` | Key views into `docs/screenshots/p0/`; set `SHOTS_DIR=docs/screenshots/p<n>` for a later checkpoint. |
-| `npm run perf` | The year-slider rendering spike (10k synthetic features, 4x CPU slowdown). |
+| `npm run perf` | The year-slider rendering spike (10k synthetic features, then the real past data; 4x CPU slowdown). |
+| `npm run a11y` | axe-core (WCAG 2.1 A and AA) on nine key views. CI runs it in WebKit. |
+| `npm run share-card` | Draws the share card from the map into `public/share-card.jpg` (`SHARE_CARD=past-1925\|present\|three-eras`), and every option into `docs/screenshots/p5/`. |
 | `npx tsc --noEmit`, `npm run build` | Type-check; production build. |
 | Deploy | Push to `main`. `.github/workflows/deploy.yml` restores the basemap snapshot, tests, builds and publishes to GitHub Pages. Pull requests build and test only. |
 
 URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `#map=zoom/lat/lng/bearing/pitch`,
-`/l/{line-id}`. For review only, `?test=1&at=<seconds>` holds a line's flight still.
+`/l/{line-id}`. Author's tools: `?style=1` (the style panel; Alt+Shift+S), `?edit=1` (the network editor). For review only, `?test=1&at=<seconds>` holds a line's flight still.

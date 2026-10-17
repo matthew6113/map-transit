@@ -1,0 +1,27 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Oakland Terminal Railway's Union St line.",
+ "segments": {
+  "otr-union-st": {
+   "parts": [
+    {
+     "streets": [
+      "Union Street"
+     ],
+     "from": "12th Street",
+     "to": "3rd Street",
+     "area": "eastbay",
+     "bridge_m": 150.0
+    },
+    {
+     "join": "wp-mole",
+     "at": "end"
+    }
+   ],
+   "check": [
+    "usgs-oakland-west-1949"
+   ],
+   "est_error_m": 30,
+   "note": "Along Union St from the Key System's 12th St line to Third St (CPUC Decision 53801); then, over the Western Pacific's property, to its line near First and Magnolia Sts, drawn straight to the end of the WP's mole track at Chestnut Junction, about 270 m: no source places that stretch"
+  }
+ }
+}

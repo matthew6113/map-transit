@@ -2,6 +2,176 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-17: Every past segment on the year slider
+
+- **The Southern Pacific's Ninth Street line** is drawn from February 12, 1912, when the *Oakland
+  Tribune* has its trains running between the mole and Albany "principally for trial purposes"
+  (decision 20). The Tribune of February 2, 6, 8 and 12 also gives the trial trip (February 2), the
+  loop's twenty-minute service and celebration at Albany (February 7) and the regular loop service
+  planned for February 19; that day isn't reported, so the opening stays unsourced.
+- **Muni's C Geary–California line** is drawn until 1949, when the PUC's report still plans its
+  conversion to buses. The report for 1949-50 lists that year's conversions without it, so its end
+  stays open.
+- That puts the last eight undated past segments on the slider: the C's California St extension and
+  the Ninth Street line's loop through West Berkeley and Albany. Five new sources.
+
+## 2026-10-17: Three more photos
+
+- The Oakland, Antioch & Eastern (the Sacramento Northern's line from Oakland), from the *Electric
+  Railway Journal* of April 19, 1913; the Petaluma & Santa Rosa's crossing fight at Santa Rosa, from
+  the *Street Railway Journal* of March 25, 1905; and a Municipal Railway car for the Geary line's
+  route A, from the *Electric Railway Journal* of May 17, 1913 (a new source,
+  `erj-1913-05-17-sf-municipal-car`).
+
+## 2026-10-17: Photos for nine past lines
+
+- **Panel photos** from public-domain journals (published before 1931, scanned by the Internet
+  Archive): the Key Route's Berkeley line and ferry, the North Shore's Mill Valley line, the Mt.
+  Tamalpais railway, the Petaluma & Santa Rosa (Petaluma to Sebastopol) and its steamers, the
+  Southern Pacific's Encinal Avenue and Seventh Street lines, and Market Street Railway's No. 40 San
+  Mateo line. Each cites its article with `supports: ["photo"]`; the Mt. Tamalpais railway and the
+  Petaluma steamers gain those citations.
+
+## 2026-10-17: The busway's stations; Matthew's network reaches the map
+
+- **Reimagine Dumbarton busway:** eight of its nine stations, where the cross streets SamTrans names
+  meet the corridor (Middlefield Rd, Fifth Ave, Ninth Ave, Marsh Rd, Bohannon Dr, Chilco St, Willow
+  Rd, University Ave); Belle Haven Community Campus, named by no street, isn't placed.
+- **Matthew's network:** `make app-data` now turns `data/ideal/network.geojson` into ideal-era lines
+  (`designed` geometry, status `ideal`), drawn under "Show Matthew's network". The file is still
+  empty; a source and a system, `ideal-network`, stand ready for it.
+
+## 2026-10-16: The reference proposals, the ideal network's starting points (Phase 4)
+
+- **A new layer, `data/ideal/`** (the future era's layer B): proposals drawn as their documents
+  describe them, each with who proposed it, the document, its year and how far it has gone. Shown
+  with "Show proposals" (`?proposals=1`).
+- **Drawn:** SFCTA's Geary/19th Avenue subway (under study; Geary St and Geary Blvd from Market St
+  to Masonic Ave, and 19th Ave from Lincoln Way to Junipero Serra Blvd); SFMTA's Central Subway
+  extension to Fisherman's Wharf, by Columbus Ave and by Powell St from Washington Square (under
+  study); SamTrans's 2017 Dumbarton rail shuttle, Redwood Junction to Newark (superseded); and
+  SamTrans's Reimagine Dumbarton busway, Middlefield Rd to University Ave (in Plan Bay Area 2050+).
+- **Listed, not drawn** (no path published): Link21 and the second Transbay crossing, the Muni
+  Subway Vision, ConnectSF's networks, SPUR's and Seamless Bay Area's maps, the Pennsylvania Avenue
+  Extension and regional express rail. All are in `docs/ideal/tradeoffs.md`.
+- **Matthew's network** (`data/ideal/network.geojson`): empty, for him to draw with the editor
+  (`?edit=1`).
+- 152 sources added from the research (`docs/research/ideal/`); systems `sfcta` and `samtrans`.
+
+## 2026-10-16: The future lines' statuses, re-verified (Phase 3)
+
+- **All six future lines** (`data/future/verified.json`, applied over BAM's translated stages):
+  checked against the agencies' own documents as web search showed them, and reconciled with BAM's
+  records of Oct 7-8, which read the documents themselves. No status changes: BART Silicon Valley
+  Phase II is under construction; SMART Healdsburg is funded; The Portal, CAHSR San Francisco to San
+  José, Valley Link and SMART Cloverdale are environmental (cleared, without construction funding).
+  `status_unverified` is dropped from all six; status as of Oct 7 (Oct 8 for SMART).
+- **Expected openings, now cited:** BART Silicon Valley Phase II, "Q1 2039 (VTA's target: Q2 2037)"
+  (VTA's May 2026 executive report; BAM's record); The Portal, "November 2036 (TJPA's forecast,
+  September 2026)" (TJPA's September status report, as BAM's record reads it); Valley Link, "Summer
+  2033 (Phase 1A ...)" (the June 2026 MTC request's schedule, as BAM records it); SMART Healdsburg,
+  December 2028 (SMART's project page). The Portal and Valley Link are flagged `conflicting_sources`
+  for their earlier or undated dates (May 2036 and 2035; 2032). CAHSR and SMART Cloverdale state none.
+- `last_verified` is Oct 16, 2026 for all six, so the 90-day test next falls due Jan 14, 2027.
+
+## 2026-10-16: The Ocean Shore Railroad, 1907-1920
+
+- **Ocean Shore trains, San Francisco to Tunitas** (`ocean-shore/`): from October 1907 (Callwell)
+  to August 15, 1920, when the crews quit (Callwell; the *Oakland Tribune* of the 17th; CRC
+  Decisions 8071 and 8216), drawn from Daly City by the Mussel Rock bluffs, Pedro Valley, Devil's
+  Slide and Moss Beach to North Granada, in three stretches: to Tobin from October 1907, to
+  Farallone by May 8, 1908 (*Railroad Gazette*), to Granada by July 17, 1908 (*Railroad Age
+  Gazette*). Not drawn yet: the street track and steam line in San Francisco (their franchises are
+  in `sources-2c/ocean-shore.md`), and Granada to Tunitas, which no map of its years covers.
+- Geometry: OpenHistoricalMap's way. `phase-2c.md` expected it to need a fit, but on the 1949-50
+  sheets it lies on the coast and the old grade; it's the 1915 sheet as scanned that is about 150 m
+  off here.
+
+## 2026-10-16: The freight belt lines, Alameda and West Oakland (decision 15)
+
+- **Alameda Belt Line, Clement Ave** (`alameda-belt-line/`): the city's belt line from Broadway to
+  Grand St, from the first freight on May 27, 1918 (*Oakland Tribune*), worked by the Southern
+  Pacific's switch engines by 1924, sold to the Western Pacific and Santa Fe's Alameda Belt Line
+  under CRC Decision 15177 (1925). Drawn to September 1941, the last date a source read on its page
+  shows it in use (the SP's employee timetable, decision 20); it was formally abandoned in 2012 (STB
+  notice AB 1090X). The 1926-27 extensions west aren't drawn: their openings aren't sourced.
+- **Oakland Terminal Railway** (`oakland-terminal/`): its freight over the Key System's track from
+  Yerba Buena Ave along 40th St to Shafter Ave, from its first day, July 1, 1943 (*Railway Age*), to
+  April 1957 (CRC D36427, CPUC D55545); its switching on Louise and Poplar Sts, 1953-57 (CPUC D49307,
+  D55545); and the Union St line, opened in April 1957 (CPUC D53801, D55545; *The Western
+  Railroader* has March 1), drawn along Union St and straight to the Western Pacific's track at
+  Chestnut Junction. Its Outer Harbor, mole and Emeryville tracks aren't placed by any source here.
+
+## 2026-10-16: The Southern Pacific's Tracy line and Los Altos branch
+
+- **Southern Pacific trains, Oakland to Tracy by Martinez and Antioch** (`central-pacific/`): opened
+  for public use September 3, 1878 (the railroad's returns; the 1882 county history has the first
+  train through Antioch on the 9th, `conflicting_sources`), to the San Joaquin Daylight's last run
+  on April 30, 1971, the day before Amtrak (*Southern Pacific Bulletin*). Drawn along today's Union
+  Pacific Tracy Subdivision from Martinez to the San Joaquin County line (decision 16), over the
+  Capitol Corridor's track from Oakland (decision 13).
+- **Southern Pacific trains by Los Altos, Mayfield to Vasona Junction** (`sp-peninsula/`): the
+  Mayfield cut-off, from its first timetable of April 19, 1908, drawn to its last timetable with a
+  train, September 1, 1963 (decision 20): the end is in conflict (no train from October 27, 1963;
+  the ICC's abandonment effective December 26, 1963; a local history's January 27, 1964). From
+  OpenHistoricalMap's ways, which lie on the line on the 1953 sheets. The trains' run on to Los
+  Gatos (to January 23, 1959) and then to San José isn't drawn as part of the line.
+
+## 2026-10-16: The San Quentin branch and its ferry
+
+- **San Rafael & San Quentin trains, Point San Quentin to San Rafael** (`north-pacific-coast/`):
+  from the first trip on March 21, 1870 (Marin history, 1880) to 1913, when passenger service ended
+  (Borden, *Western Railroader*, 1949: one railfan source, no order found). Leased to the North
+  Pacific Coast from March 11, 1875 (its 1877 return), which made San Quentin its passenger
+  terminal; steam trains still ran there after the electrification of 1903 (*Argonaut*, 1903;
+  *Street Railway Journal*, 1904).
+- **San Quentin ferry, San Francisco to Point San Quentin:** Minturn's steamer from the Davis St
+  wharf by April 1867, meeting the railroad from April 30, 1870, then the North Pacific Coast's
+  boats, until the timetable of April 27, 1884 sent every boat by Saucelito (`closed` 1884-04).
+- **San Quentin branch freight** (decision 15): from 1913 to its last employee timetable, September
+  17, 1933 (decision 20); gone from the timetable of January 15, 1934.
+- Geometry: OpenHistoricalMap's ways from the 1897 and 1895 sheets, joined to the San Rafael branch,
+  checked on the 1941 Tamalpais and 1899 San Francisco sheets; the ferry over water.
+
+## 2026-10-16: The Sacramento Northern's freight to Oakland, 1941-1957
+
+- **Sacramento Northern freight, Oakland to West Lafayette** (`sacramento-northern/`, decision 15):
+  after the passenger trains' last day, June 30, 1941, the line from 40th St and Shafter Ave by the
+  Oakland hills tunnel, Canyon and Moraga carried freight only, until it was abandoned as of March 1,
+  1957 (*Orinda Sun*, April 5, 1957), under the ICC's grant of July 3, 1956 (Finance Docket 19124).
+  Its four segments now draw in the railroad mode for those years. The abandonment ended at West
+  Lafayette, which no source places, so the segment to Lafayette is drawn to 1957 whole; the last
+  train's day isn't sourced.
+
+## 2026-10-16: The Western Pacific's San José branch, 1922-1931
+
+- **Western Pacific trains, Niles to San José** (`western-pacific/`): from Niles Junction by
+  Irvington, Warm Springs, Milpitas and Berryessa to East San José, from the first train, a special
+  from Oakland on August 23, 1922 (*Oakland Tribune*), to July 1931, when trains 101 and 102 gave
+  way to a bus (CRC Decisions 23837 and 24234; the bus ran from July 13, 1931). The first day of
+  regular trains and the last day of trains aren't stated.
+- Geometry: OpenHistoricalMap's ways, checked on the 1953 Niles and Milpitas sheets and the 1943
+  San Jose sheet, which label the line. It ends where OHM's Western Pacific way ends, at the edge
+  of east San José; the depot there isn't placed by any source here.
+
+## 2026-10-16: The California & Nevada Railroad, 1889-1897
+
+- **California & Nevada trains, Emery to Bryant** (`california-nevada/`): the narrow-gauge line from
+  the Southern Pacific's Berkeley line at Emery, by Fortieth St and San Pablo Ave, Berkeley, Albany
+  and San Pablo, up San Pablo Creek to Orinda Park and Bryant. Drawn for the years the sources show
+  it running (decision 20): trains twice a week to Orinda Park in October 1889 (*Oakland Tribune*),
+  fares collected in 1892 (the company's answer in the Railroad Commissioners' thirteenth report),
+  passenger earnings in the year to June 1895 (*Poor's* 1896), a daily express to Bryants from June
+  1, 1896, and by December 7, 1897 only two or three round trips a week (*Oakland Tribune*). Its
+  opening and end aren't sourced: *Poor's* gives a formal opening in March 1885 but, in 1891-92,
+  says it carried only construction materials (`conflicting_sources`). Orinda Park to Bryant, built
+  in 1891, is shown for 1896 only.
+- Geometry: OpenHistoricalMap's ways, traced by its mappers from the 1895 San Francisco and 1897
+  Concord sheets (the 1897 sheet labels the line). From Russell St, Berkeley, to near Stege they run
+  within a few metres of the Santa Fe's track on the 1949 sheets, the same right of way; from Emery
+  to Russell St nothing later shows the track, so that stretch is `geometry_unverified`. Orinda Park
+  is placed 2.5 miles back from Bryant, the length *Poor's* gives the extension.
+
 ## 2026-10-16: The Western Pacific's passenger trains, 1910-1970
 
 - **Western Pacific trains, Oakland to Stockton** (`western-pacific/`): from the first through

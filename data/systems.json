@@ -11,6 +11,12 @@
       "short_name": "ACE"
     },
     {
+      "id": "alameda-belt-line",
+      "name": "Alameda Belt Line",
+      "short_name": "Alameda Belt Line",
+      "notes": "A freight belt line in Alameda: the city's line on Clement Ave (1918), sold to a company of the Western Pacific and the Santa Fe in 1925-26 and extended west; abandoned in 2012."
+    },
+    {
       "id": "amtrak",
       "name": "Amtrak",
       "short_name": "Amtrak"
@@ -35,6 +41,12 @@
       "id": "cahsr",
       "name": "California High-Speed Rail",
       "short_name": "High-speed rail"
+    },
+    {
+      "id": "california-nevada",
+      "name": "California and Nevada Railroad",
+      "short_name": "California & Nevada",
+      "notes": "A narrow-gauge railroad from Emery, by Berkeley and San Pablo, up San Pablo Creek to Orinda Park and Bryant (built 1884-91), which carried the public only now and then."
     },
     {
       "id": "california-pacific",
@@ -97,6 +109,12 @@
       "id": "golden-gate-ferry",
       "name": "Golden Gate Ferry",
       "short_name": "Golden Gate Ferry"
+    },
+    {
+      "id": "ideal-network",
+      "name": "Matthew's ideal network",
+      "short_name": "Ideal network",
+      "notes": "Matthew Huguet's own network, from data/ideal/network.geojson (the future era's layer B)."
     },
     {
       "id": "ier",
@@ -168,6 +186,18 @@
       "notes": "Here, its third-rail electric lines in southern Marin, built by the North Shore Railroad and opened in 1903."
     },
     {
+      "id": "oakland-terminal",
+      "name": "Oakland Terminal Railway",
+      "short_name": "Oakland Terminal",
+      "notes": "The Key System's freight company: Key System, Ltd., renamed the Oakland Terminal Railroad (1935), then the Oakland Terminal Railway of the Western Pacific and the Santa Fe (from July 1, 1943), switching West Oakland, Emeryville and the Outer Harbor."
+    },
+    {
+      "id": "ocean-shore",
+      "name": "Ocean Shore Railroad",
+      "short_name": "Ocean Shore",
+      "notes": "The Ocean Shore Railway (incorporated 1905), later the Ocean Shore Railroad: steam trains from San Francisco down the San Mateo coast to Tunitas, 1907-1920."
+    },
+    {
       "id": "petaluma-santa-rosa",
       "name": "Petaluma & Santa Rosa Railway",
       "short_name": "Petaluma & Santa Rosa",
@@ -196,6 +226,12 @@
       "notes": "Built from Oakland as the Oakland & Antioch and the Oakland, Antioch & Eastern (1911-13), then the San Francisco-Sacramento Railroad, and from 1929 the Sacramento Northern. Here, its line from Oakland to Bay Point."
     },
     {
+      "id": "samtrans",
+      "name": "San Mateo County Transit District",
+      "short_name": "SamTrans",
+      "notes": "In the reference layer (data/ideal/) as the proposer of the Dumbarton corridor's rail and busway plans."
+    },
+    {
       "id": "san-francisco-bay-ferry",
       "name": "San Francisco Bay Ferry",
       "short_name": "San Francisco Bay Ferry"
@@ -222,6 +258,12 @@
       "name": "San Francisco and North Pacific Railroad",
       "short_name": "San Francisco & North Pacific",
       "notes": "Peter Donahue's railroad from the steamer landing at Donahue by Petaluma to Santa Rosa (1870) and Cloverdale (1872), with a branch from San Rafael (1879) and a line to the ferry at Point Tiburon (1885); part of the Northwestern Pacific from 1907. SMART runs on much of its track."
+    },
+    {
+      "id": "sfcta",
+      "name": "San Francisco County Transportation Authority",
+      "short_name": "SFCTA",
+      "notes": "In the reference layer (data/ideal/) as the agency studying the Geary/19th Avenue subway."
     },
     {
       "id": "sfo-airtrain",

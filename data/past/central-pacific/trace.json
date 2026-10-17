@@ -87,6 +87,34 @@
     "usgs-san-jose-1943"
    ],
    "note": "OpenHistoricalMap's ways, traced from the 1906 Pleasanton and 1897 San Jose sheets"
+  },
+  "sp-martinez-county-line": {
+   "parts": [
+    {
+     "rail": [
+      [
+       -122.138886,
+       38.019307
+      ],
+      [
+       -121.4169,
+       37.7371
+      ]
+     ],
+     "area": "santafe",
+     "names": [
+      "UP Martinez Subdivision",
+      "UP Tracy Subdivision"
+     ]
+    }
+   ],
+   "clip": "county",
+   "check": [
+    "usgs-port-chicago-1951",
+    "usgs-antioch-1908",
+    "usgs-brentwood-1914"
+   ],
+   "note": "Today's Union Pacific Tracy Subdivision, the line of 1878, from Martinez by Avon, Port Chicago, Pittsburg, Antioch, Brentwood and Byron to the San Joaquin County line at Old River (decision 16); realignments since 1878 are checked only on the sheets of 1908-51. Today's Gold Runner uses the track as far as Bay Point"
   }
  }
 }

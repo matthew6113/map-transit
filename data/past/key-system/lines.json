@@ -122,9 +122,10 @@
         {
           "source": "srj-1904-02-20-key-route-2",
           "supports": [
-            "opened"
+            "opened",
+            "photo"
           ],
-          "pages": "283",
+          "pages": "283, 285",
           "note": "\"The first regular train service over the Key Route was inaugurated on Oct. 26\" (1903)."
         },
         {
@@ -179,7 +180,22 @@
       "flags": [
         "page_unverified"
       ],
-      "notes": "Letters were given to the lines in 1939. By 1933 the line ran to University Avenue, not Center Street; when it was extended isn't sourced, and that last stretch isn't drawn. The day of the 1933 cutback isn't sourced. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+      "notes": "Letters were given to the lines in 1939. By 1933 the line ran to University Avenue, not Center Street; when it was extended isn't sourced, and that last stretch isn't drawn. The day of the 1933 cutback isn't sourced. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n300.jpg",
+        "crop": [
+          0.0936,
+          0.1653,
+          0.9443,
+          0.6161
+        ],
+        "caption": "A four-car Key Route train at its Berkeley terminal, with an Oakland Transit Consolidated car of the Telegraph Avenue line in front and the Southern Pacific's depot at left.",
+        "author": "Street Railway Journal",
+        "date": "published February 20, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n300/mode/1up",
+        "source": "srj-1904-02-20-key-route-2"
+      }
     },
     {
       "id": "key-c",
@@ -738,12 +754,28 @@
         {
           "source": "srj-1904-02-13-key-route-1",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "246–253"
         }
       ],
-      "flags": []
+      "flags": [],
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n261.jpg",
+        "crop": [
+          0.5591,
+          0.1004,
+          0.9351,
+          0.2201
+        ],
+        "caption": "The Yerba Buena, one of the Key Route's two ferryboats.",
+        "author": "Street Railway Journal",
+        "date": "published February 13, 1904",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n261/mode/1up",
+        "source": "srj-1904-02-13-key-route-1"
+      }
     },
     {
       "id": "key-e",

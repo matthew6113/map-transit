@@ -4494,7 +4494,8 @@
         {
           "source": "srj-1903-10-31-san-mateo",
           "supports": [
-            "route"
+            "route",
+            "photo"
           ],
           "pages": "798-802"
         },
@@ -4655,7 +4656,22 @@
             "1929-05"
           ]
         }
-      ]
+      ],
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayjo221903newy/page/n818.jpg",
+        "crop": [
+          0.05,
+          0.2769,
+          0.4692,
+          0.5354
+        ],
+        "caption": "A car in a cut on the United Railroads' San Mateo line.",
+        "author": "Street Railway Journal",
+        "date": "published October 31, 1903",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayjo221903newy/page/n818/mode/1up",
+        "source": "srj-1903-10-31-san-mateo"
+      }
     },
     {
       "id": "msry-41",

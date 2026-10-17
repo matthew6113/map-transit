@@ -1,6 +1,7 @@
 /**
  * Interaction tests: eras, the legend's filters, the list, opening and closing lines (list, map,
- * shared track, deep link, Escape), the year slider by keyboard, reduced motion and the phone layout.
+ * shared track, deep link, Escape), the year slider by keyboard, reduced motion, the phone layout and
+ * the style panel.
  * Chromium here; WebKit in CI (PW_WEBKIT=1).
  */
 import { readFileSync } from 'node:fs';
@@ -165,4 +166,46 @@ test('on a phone the panel is a bottom sheet', async ({ browser }) => {
   expect(box!.y).toBeGreaterThan(844 * 0.4);
   expect(box!.width).toBeGreaterThan(380);
   await context.close();
+});
+
+test('the style panel (?style=1) changes a mode color live, and Escape closes it', async ({ page }) => {
+  await page.goto('/?style=1&test=1');
+  await ready(page);
+  const panel = page.getByRole('complementary', { name: 'Style panel' });
+  await expect(panel).toBeVisible();
+  await expect(panel.getByText('Every check passes.')).toBeVisible();
+  const paint = () => page.evaluate(() => JSON.stringify((window as unknown as { __map: import('maplibre-gl').Map }).__map
+    .getStyle().layers.filter((l) => l.id.startsWith('transit-present')).map((l) => 'paint' in l ? l.paint : null)));
+  expect(await paint()).not.toContain('#123456');
+  await panel.getByLabel('Heavy rail hex').fill('#123456');
+  await expect.poll(paint).toContain('#123456');
+  // A pale color fails the contrast check, which says so.
+  await panel.getByLabel('Ferry hex').fill('#DDEEFF');
+  await expect(panel.getByText(/Mode: ferry on water/)).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(panel).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Style' })).toBeFocused();
+});
+
+test('with the style panel open, Escape closes the shared-track chooser first', async ({ page }) => {
+  await page.goto('/?style=1&test=1#map=14/37.7894/-122.4013');
+  await ready(page);
+  await page.waitForFunction(() => (window as unknown as { __map: import('maplibre-gl').Map }).__map.isSourceLoaded('transit-present-lines'));
+  await settled(page);
+  const p = await screenPoint(page, [-122.401587, 37.789173]);
+  await page.mouse.click(p.x, p.y);
+  const chooser = page.getByRole('dialog', { name: 'Lines on this track' });
+  await expect(chooser).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(chooser).toBeHidden();
+  await expect(page.getByRole('complementary', { name: 'Style panel' })).toBeVisible();
+});
+
+test("the URL's layer options change the view, not the theme the style panel saves", async ({ page }) => {
+  // No ?test=1: the panel saves its theme in the browser only outside tests.
+  await page.goto('/?style=1&buildings=0');
+  await ready(page);
+  const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('transit.theme.v1') ?? 'null'));
+  expect(saved?.layers?.buildings).toBe(true);
+  await expect(page.getByRole('complementary', { name: 'Style panel' }).getByLabel('Buildings', { exact: true })).toBeChecked();
 });

@@ -13,7 +13,10 @@ import presentPoints from '../../data/app/present-points.geojson?url';
 import futureDraw from '../../data/app/future-draw.geojson?url';
 import futureLines from '../../data/app/future-lines.geojson?url';
 import futurePoints from '../../data/app/future-points.geojson?url';
-import type { Confidence, Era, Mode, Status } from './vocab';
+import idealDraw from '../../data/app/ideal-draw.geojson?url';
+import idealLines from '../../data/app/ideal-lines.geojson?url';
+import idealPoints from '../../data/app/ideal-points.geojson?url';
+import type { Confidence, Dataset, Mode, ProposalStatus, Status } from './vocab';
 import type { ModeGroup } from '../theme/theme';
 import type { LngLat } from '../basemap/geometry';
 
@@ -64,7 +67,7 @@ export interface LineRecord {
   mode: Mode;
   mode_label: string;
   group: ModeGroup;
-  era: Era;
+  era: Dataset;
   opened: string | null;
   closed: string | null;
   status: Status;
@@ -81,7 +84,11 @@ export interface LineRecord {
   gauge_mm?: number;
   gauge_label?: string;
   traction?: { type: string; from?: string | null; to?: string | null }[];
-  photo?: { commons_file: string; author: string; date?: string; license: string; source_url: string };
+  /** A public-domain photo as the site serves it (public/photos/, `make photos`). */
+  photo?: {
+    file: string; width: number; height: number; caption: string; author: string; date?: string;
+    license: 'public-domain' | 'PD-US-expired' | 'CC0'; source_url: string; commons_file?: string; image_url?: string;
+  };
   links?: { label: string; url: string }[];
   notes?: string;
   flags: string[];
@@ -94,12 +101,26 @@ export interface LineRecord {
   fids: number[];
   segments: CatalogSegment[];
   sources: ResolvedSource[];
+  /** A line of Matthew's network: what it draws on (a proposal, or one proposal line), and who drew it. */
+  based_on?: { id: string; name: string; line?: string }[];
+  author?: string;
+  /** A reference proposal (the ideal dataset): who proposed it, in which document, and how far it has gone. */
+  proposal?: {
+    id: string;
+    proposed_by: string;
+    document: { id: string; title: string; url?: string; date?: string; publisher?: string; type: string };
+    year: string;
+    status: ProposalStatus;
+    status_label: string;
+    status_as_of: string;
+  };
 }
 
-export const ERA_FILES: Record<Era, { draw: string; lines: string; points: string }> = {
+export const ERA_FILES: Record<Dataset, { draw: string; lines: string; points: string }> = {
   past: { draw: pastDraw, lines: pastLines, points: pastPoints },
   present: { draw: presentDraw, lines: presentLines, points: presentPoints },
   future: { draw: futureDraw, lines: futureLines, points: futurePoints },
+  ideal: { draw: idealDraw, lines: idealLines, points: idealPoints },
 };
 
 const absolute = (url: string) => new URL(url, location.href).href;
@@ -118,14 +139,21 @@ if (SYNTHETIC) {
 }
 
 /** Source URLs for MapLibre, which resolves them in a worker: make them absolute. */
-export function eraUrls(era: Era) {
+export function eraUrls(era: Dataset) {
   const f = ERA_FILES[era];
   return { draw: absolute(f.draw), lines: absolute(f.lines), points: absolute(f.points) };
 }
 
+/** A line's citation, as catalog.json keeps it: the source's record is listed once, by id. */
+type Citation = Pick<ResolvedSource, 'source' | 'supports' | 'pages' | 'note'>;
+
 export async function loadCatalog(): Promise<LineRecord[]> {
   const res = await fetch(catalogUrl);
-  return ((await res.json()) as { lines: LineRecord[] }).lines;
+  const { sources, lines } = (await res.json()) as {
+    sources: Record<string, Omit<ResolvedSource, 'id' | 'source' | 'supports'>>;
+    lines: (Omit<LineRecord, 'sources'> & { sources: Citation[] })[];
+  };
+  return lines.map((l) => ({ ...l, sources: l.sources.map((c) => ({ id: c.source, ...sources[c.source], ...c })) }));
 }
 
 /** What the client needs from an era's files: each line's route for the drawing animation, and
@@ -149,7 +177,7 @@ const years = (features: YearProps[]) =>
   }));
 
 /** The same URLs the map sources use, so the browser serves the second request from its cache. */
-export async function loadEraIndex(era: Era): Promise<EraIndex> {
+export async function loadEraIndex(era: Dataset): Promise<EraIndex> {
   const urls = eraUrls(era);
   const [lines, draw, points] = await Promise.all([
     fetch(urls.lines).then((r) => r.json()),

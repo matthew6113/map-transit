@@ -1,0 +1,78 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the California & Nevada Railroad from OpenHistoricalMap's ways, which its mappers traced from the 1895 San Francisco and 1897 Concord sheets.",
+ "segments": {
+  "cn-emery-russell": {
+   "parts": [
+    {
+     "ohm": [
+      200263309
+     ],
+     "to": [
+      -122.279426,
+      37.854908
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-francisco-1899",
+    "usgs-oakland-west-1949"
+   ],
+   "note": "From the Southern Pacific's Berkeley line at Emery, east beside Fortieth St, across San Pablo Ave at Fortieth St, where the line's depot was, and north to Russell St, Berkeley. Not checked: the 1899 sheet draws the line here too faintly to compare, and by 1949 no track was left on it"
+  },
+  "cn-russell-stege": {
+   "parts": [
+    {
+     "ohm": [
+      200263309
+     ],
+     "from": [
+      -122.279426,
+      37.854908
+     ]
+    }
+   ],
+   "check": [
+    "usgs-oakland-west-1949",
+    "usgs-richmond-1949",
+    "usgs-san-francisco-1899"
+   ],
+   "note": "From Russell St, Berkeley, by University Ave and Albany to near Stege. The 1949 sheets draw the Santa Fe's track on this right of way, and the way follows it within a few metres; the 1899 sheet draws the line about 150-200 m further west, which is that sheet's misregistration"
+  },
+  "cn-stege-orinda-park": {
+   "parts": [
+    {
+     "ohm": [
+      200250635,
+      200250636
+     ],
+     "to": [
+      -122.20642,
+      37.90176
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-francisco-1899",
+    "usgs-concord-1897"
+   ],
+   "note": "By San Pablo and up San Pablo Creek to Orinda Park. The 1897 Concord sheet labels it \"California and Nevada R.R.\". Orinda Park is placed 2.5 miles back from Bryant along the line, the length Poor's gives the 1891 extension; no source here locates its station"
+  },
+  "cn-orinda-park-bryant": {
+   "parts": [
+    {
+     "ohm": [
+      200250636
+     ],
+     "from": [
+      -122.20642,
+      37.90176
+     ]
+    }
+   ],
+   "check": [
+    "usgs-concord-1897"
+   ],
+   "note": "Orinda Park to Bryant, the extension built in 1891, where the 1897 Concord sheet ends the line at \"Bryant\""
+  }
+ }
+}

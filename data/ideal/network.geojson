@@ -1,0 +1,5 @@
+{
+  "type": "FeatureCollection",
+  "$comment": "Matthew's ideal network: his own design, drawn from the reference proposals in data/ideal/<proposal>/ or on its own. Hand-edited, or exported from the in-browser editor (Phase 4b). Nothing here is generated: lines are added only when Matthew picks them (CLAUDE.md, the ideal network is Matthew's). Fields: docs/SCHEMA.md, 'Ideal network'.",
+  "features": []
+}

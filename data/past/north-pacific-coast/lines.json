@@ -229,6 +229,288 @@
     "closed_unsourced"
    ],
    "notes": "When the branch opened and when its steam trains gave way to the North Shore's electric line (1903) aren't sourced; it is drawn for the years the sources show it (decision 20). The track is the one the electric line used."
+  },
+  {
+   "id": "npc-san-quentin-trains",
+   "name": "San Rafael & San Quentin trains, Point San Quentin to San Rafael",
+   "short_name": "San Quentin trains",
+   "system": "north-pacific-coast",
+   "operators": [
+    {
+     "name": "San Rafael & San Quentin Railroad",
+     "from": "1870-03-21",
+     "to": "1875-03-11"
+    },
+    {
+     "name": "North Pacific Coast Railroad",
+     "from": "1875-03-11",
+     "to": null
+    },
+    {
+     "name": "North Shore Railroad",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Northwestern Pacific Railroad",
+     "from": null,
+     "to": "1913"
+    }
+   ],
+   "mode": "railroad",
+   "traction": [
+    {
+     "type": "steam",
+     "from": "1870-03-21",
+     "to": "1913"
+    }
+   ],
+   "era": "past",
+   "opened": "1870-03-21",
+   "closed": "1913",
+   "status": "closed",
+   "summary": "Trains between the ferry wharf at Point San Quentin and San Rafael, first the San Rafael & San Quentin's own, then, under the North Pacific Coast's lease from 1875, the narrow gauge's: until 1884 San Quentin was its passenger terminal, with boats from San Francisco meeting trains for San Rafael, the Junction (San Anselmo) and the Russian River. Later a steam shuttle, which kept running after the lines to San Rafael were electrified in 1903.",
+   "fate": "abandoned",
+   "fate_note": "Passenger service between San Rafael and San Quentin ended in 1913 (Western Railroader, 1949); the branch went on carrying freight.",
+   "route": [
+    {
+     "segment": "npc-san-rafael-san-quentin",
+     "note": "In 1877-84 the boats' trains ran on over the San Rafael branch to the Junction (San Anselmo) and the main line."
+    }
+   ],
+   "sources": [
+    {
+     "source": "marin-history-1880",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "148, 333",
+     "note": "The first trip, March 21, 1870 (p. 333); \"the San Quentin terminus is used principally for the passenger business\" (p. 148)."
+    },
+    {
+     "source": "ca-transportation-report-1877",
+     "supports": [
+      "operator",
+      "route"
+     ],
+     "pages": "211",
+     "note": "The North Pacific Coast's lease, from March 11, 1875 to March 11, 1918."
+    },
+    {
+     "source": "argonaut-1878-01-12",
+     "supports": [
+      "route"
+     ],
+     "pages": "16",
+     "note": "Boats \"for San Quentin, San Rafael, and Junction\", connecting with trains."
+    },
+    {
+     "source": "argonaut-1903-11-02",
+     "supports": [
+      "general"
+     ],
+     "pages": "288",
+     "note": "\"Trains marked * run to San Quentin\" in the North Shore's timetable of 1903."
+    },
+    {
+     "source": "srj-1904-01-02-north-shore",
+     "supports": [
+      "electrification"
+     ],
+     "pages": "6",
+     "note": "\"The line extends to San Quentin … but this extension is not in operation at present.\""
+    },
+    {
+     "source": "western-railroader-1949-04",
+     "supports": [
+      "closed",
+      "gauge"
+     ],
+     "pages": "6, 7, 10",
+     "note": "Standard gauge, relaid to three-foot gauge in 1875 (p. 7); steam trains between San Rafael and San Quentin after 1903 (p. 7); \"Passenger service was discontinued between San Rafael and San Quentin\" in 1913 (p. 10)."
+    }
+   ],
+   "flags": [],
+   "notes": "The end in 1913 rests on one railfan history (Borden, in the Western Railroader of 1949); no Railroad Commission order or newspaper for it was found, and its day isn't known. Poor's of 1885 and a 1939 railfan article give the opening as 1871; the ferry's advertisement of 1870 calls the railroad \"recently constructed\"."
+  },
+  {
+   "id": "npc-san-quentin-ferry",
+   "name": "San Quentin ferry, San Francisco to Point San Quentin",
+   "short_name": "San Quentin ferry",
+   "system": "north-pacific-coast",
+   "operators": [
+    {
+     "name": "Charles Minturn",
+     "from": null,
+     "to": "1875-03-11"
+    },
+    {
+     "name": "North Pacific Coast Railroad",
+     "from": "1875-03-11",
+     "to": "1884-04"
+    }
+   ],
+   "mode": "ferry",
+   "era": "past",
+   "opened": null,
+   "closed": "1884-04",
+   "status": "closed",
+   "running": [
+    {
+     "date": "1867-04-06",
+     "source": "banner-of-progress-1867-04-06",
+     "pages": "1",
+     "note": "Minturn's steamer Contra Costa, with stages to San Rafael, before the railroad."
+    },
+    {
+     "date": "1870-04-30",
+     "source": "voice-of-israel-1870-10-07",
+     "pages": "7",
+     "note": "\"Connecting at Point San Quentin with the recently constructed Railroad to San Rafael\"."
+    },
+    {
+     "date": "1877-11-05",
+     "source": "argonaut-1878-01-12",
+     "pages": "16",
+     "note": "The North Pacific Coast's steamer San Rafael \"between San Francisco and San Quentin (connecting with trains at latter place)\"."
+    },
+    {
+     "date": "1884-01-21",
+     "source": "argonaut-1884-04-19",
+     "pages": "13",
+     "note": "Boats \"For SAN RAFAEL (via San Quentin Ferry)\"."
+    }
+   ],
+   "summary": "Steamers from the Davis St wharf in San Francisco to Point San Quentin, at first Charles Minturn's, with stages and from 1870 the railroad to San Rafael; from 1875 the North Pacific Coast's boats, which met its passenger trains there until 1884.",
+   "fate": "abandoned",
+   "fate_note": "The North Pacific Coast's timetable from April 27, 1884 sends every boat by Saucelito.",
+   "route": [
+    {
+     "segment": "npc-san-quentin-ferry-course"
+    }
+   ],
+   "sources": [
+    {
+     "source": "banner-of-progress-1867-04-06",
+     "supports": [
+      "route",
+      "operator"
+     ],
+     "pages": "1"
+    },
+    {
+     "source": "voice-of-israel-1870-10-07",
+     "supports": [
+      "route",
+      "operator"
+     ],
+     "pages": "7"
+    },
+    {
+     "source": "argonaut-1878-01-12",
+     "supports": [
+      "route"
+     ],
+     "pages": "16"
+    },
+    {
+     "source": "argonaut-1884-04-19",
+     "supports": [
+      "general"
+     ],
+     "pages": "13",
+     "note": "The last advertisement found with the San Quentin ferry."
+    },
+    {
+     "source": "argonaut-1884-05-03",
+     "supports": [
+      "closed"
+     ],
+     "pages": "13",
+     "note": "\"Commencing Saturday, April 27th, 1884\": no San Quentin ferry."
+    }
+   ],
+   "flags": [
+    "opened_unsourced"
+   ],
+   "notes": "Closed in April 1884, with the timetable printed as beginning \"Saturday, April 27th, 1884\"; April 27 was a Sunday, so the day is uncertain. When the ferry began isn't sourced; it ran by April 1867."
+  },
+  {
+   "id": "nwp-san-quentin-freight",
+   "name": "San Quentin branch freight, San Rafael to Point San Quentin",
+   "short_name": "San Quentin branch freight",
+   "system": "north-pacific-coast",
+   "operators": [
+    {
+     "name": "Northwestern Pacific Railroad",
+     "from": "1913",
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1913",
+   "closed": null,
+   "status": "closed",
+   "running": [
+    {
+     "date": "1929-10-20",
+     "source": "cscrm-2021-02-001171",
+     "pages": "8",
+     "note": "San Rafael 17.0 to San Quentin 20.1 miles, with no scheduled trains."
+    },
+    {
+     "date": "1933-09-17",
+     "source": "cscrm-2021-02-001294",
+     "pages": "4",
+     "note": "The last employee timetable found that lists the branch."
+    }
+   ],
+   "summary": "The San Quentin branch after its passenger trains ended in 1913: a freight branch of the Northwestern Pacific, in its employee timetables until 1933 (decision 15).",
+   "fate": "abandoned",
+   "fate_note": "Gone from the timetable that took effect on January 15, 1934; when it was abandoned isn't sourced.",
+   "route": [
+    {
+     "segment": "npc-san-rafael-san-quentin"
+    }
+   ],
+   "sources": [
+    {
+     "source": "western-railroader-1949-04",
+     "supports": [
+      "opened"
+     ],
+     "pages": "10",
+     "note": "Passenger service ended in 1913."
+    },
+    {
+     "source": "cscrm-2021-02-001171",
+     "supports": [
+      "route"
+     ],
+     "pages": "8"
+    },
+    {
+     "source": "cscrm-2021-02-001294",
+     "supports": [
+      "route"
+     ],
+     "pages": "4"
+    },
+    {
+     "source": "cscrm-2021-02-001320",
+     "supports": [
+      "general"
+     ],
+     "pages": "4",
+     "note": "The page that superseded p. 4 of No. 12 on January 15, 1934 has no San Quentin table."
+    }
+   ],
+   "flags": [
+    "closed_unsourced"
+   ],
+   "notes": "Drawn as freight from the passenger trains' end in 1913 to its last timetable in 1933 (decisions 15 and 20); the freight before 1929 isn't otherwise shown."
   }
  ]
 }

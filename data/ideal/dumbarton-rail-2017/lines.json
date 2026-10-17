@@ -1,0 +1,60 @@
+{
+  "$comment": "Hand-kept: the proposal's lines, as its document describes them (docs/SCHEMA.md, 'Ideal network'). Segments come from recipe.json (make ideal).",
+  "lines": [
+    {
+      "id": "dumbarton-rail-2017",
+      "name": "Dumbarton rail shuttle, Redwood City to Newark",
+      "system": "samtrans",
+      "mode": "commuter_rail",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_as_of": "2026-10-16",
+      "proposal_id": "dumbarton-rail-2017",
+      "proposed_by": "SamTrans",
+      "document": "samtrans-dtcs-final-report-2017",
+      "year": "2017-11-20",
+      "proposal_status": "superseded",
+      "summary": "Passenger trains back across the Dumbarton rail bridge: the rail phase of Alternative 10 in SamTrans's 2017 corridor study, a shuttle between Redwood City and Newark (about $975 million, the bridge rebuilt with double track), then Union City by 2030 (about $295 million more) and trains through to Caltrain, ACE and the Capitol Corridor by 2035. The study forecast 15,600 transbay riders a day. A 2023 market assessment found too few riders for its cost, and SamTrans now studies a busway on the corridor.",
+      "route": [
+        {
+          "segment": "dumbarton-rail-2017-redwood-jct-newark"
+        }
+      ],
+      "sources": [
+        {
+          "source": "samtrans-dtcs-final-report-2017",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "Recommended \"moving forward with Alternative 10 using a phased approach\"; rail to Newark about $975 million, to Union City about $295 million more; 15,600 transbay riders daily; \"the bus alternatives performed the best in terms of cost-effectiveness\"."
+        },
+        {
+          "source": "samtrans-dumbarton-busway-contract-2025",
+          "supports": [
+            "general"
+          ],
+          "note": "\"Market viability assessment in 2023 found: Significant costs associated; limited funding available. Insufficient ridership projections to justify cost - estimated at $3.6B in 2024 dollars\"; the rails \"to remain intact for potential future use\"."
+        },
+        {
+          "source": "samtrans-reimagine-dumbarton",
+          "supports": [
+            "general"
+          ],
+          "note": "The corridor's current plan is a busway and trail; \"This Project will not preclude the opportunity to convert the corridor to passenger rail in the future\"."
+        },
+        {
+          "source": "mtc-soco-rail-study",
+          "supports": [
+            "general"
+          ],
+          "note": "\"A new passenger rail service along the Dumbarton corridor is infeasible in the mid-term due to constraints at Redwood City and capacity along the peninsula.\""
+        }
+      ],
+      "flags": [],
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). Superseded: the 2023 market assessment and SamTrans's busway study replaced it, and Plan Bay Area 2050+ (March 2026) swapped the corridor's rail for express bus and a busway. Two later rail plans for the same corridor aren't drawn: the Cross Bay Transit Partners proposal of 2018-21 (withdrawn; its mode isn't stated in what was seen) and Plan Bay Area 2050's group rapid transit, Redwood City to Newark (superseded). Research: docs/research/ideal/link21-dumbarton-express-rail.md."
+    }
+  ]
+}

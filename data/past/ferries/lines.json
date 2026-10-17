@@ -586,12 +586,34 @@
           ],
           "pages": "16",
           "note": "\"Passenger service between San Francisco and Petaluma was discontinued and the tariff cancelled effective December 23, 1935\"."
+        },
+        {
+          "source": "srj-1905-07-01-psr",
+          "supports": [
+            "photo"
+          ],
+          "pages": "11–12"
         }
       ],
       "flags": [
         "conflicting_sources"
       ],
-      "notes": "Opens in 1904, when the Railroad Commission says the company began the service; Borden has it buy the Gold in December 1903. Steamers had run between Petaluma and San Francisco since the 1850s under other owners, which this line doesn't draw. The course is drawn over water between the landings, not as steered."
+      "notes": "Opens in 1904, when the Railroad Commission says the company began the service; Borden has it buy the Gold in December 1903. Steamers had run between Petaluma and San Francisco since the 1850s under other owners, which this line doesn't draw. The course is drawn over water between the landings, not as steered.",
+      "photo": {
+        "image_url": "https://archive.org/download/streetrailwayj261905newy/page/n25.jpg",
+        "crop": [
+          0.3119,
+          0.5967,
+          0.9064,
+          0.8044
+        ],
+        "caption": "The steamer Gold docking at the Petaluma & Santa Rosa's warehouse in Petaluma.",
+        "author": "Street Railway Journal",
+        "date": "published July 1, 1905",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/streetrailwayj261905newy/page/n25/mode/1up",
+        "source": "srj-1905-07-01-psr"
+      }
     },
     {
       "id": "mare-island-ferry",

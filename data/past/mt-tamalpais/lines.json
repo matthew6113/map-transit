@@ -95,12 +95,34 @@
      ],
      "pages": "2-3",
      "note": "Abandonment of all service authorized August 7, 1930, effective that day: on or about August 1930 (decision 17)."
+    },
+    {
+     "source": "srj-1904-01-02-north-shore",
+     "supports": [
+      "photo"
+     ],
+     "pages": "4, 6–7"
     }
    ],
    "flags": [
     "conflicting_sources"
    ],
-   "notes": "Opens on the Railroad Commission's August 27, 1896, the first train to the end of the line, which Poor's 1898 also gives; Poor's 1897 has August 17 and its 1902 edition August 26. From 1917 its mountain trains stopped each winter. Not drawn: the Muir Woods branch from Mesa (1906 or 1907, extended by 1915), on no sheet in the repo; the annotated 1915 Tamalpais sheet at the Mill Valley Public Library (archive.org cmlpl_000900) would show it, a map to georeference by hand."
+   "notes": "Opens on the Railroad Commission's August 27, 1896, the first train to the end of the line, which Poor's 1898 also gives; Poor's 1897 has August 17 and its 1902 edition August 26. From 1917 its mountain trains stopped each winter. Not drawn: the Muir Woods branch from Mesa (1906 or 1907, extended by 1915), on no sheet in the repo; the annotated 1915 Tamalpais sheet at the Mill Valley Public Library (archive.org cmlpl_000900) would show it, a map to georeference by hand.",
+   "photo": {
+    "image_url": "https://archive.org/download/streetrailwayjo231904newy/page/n19.jpg",
+    "crop": [
+     0.5216,
+     0.6323,
+     0.9311,
+     0.9261
+    ],
+    "caption": "The double bow-knot, where the track ran alongside itself five times, with San Francisco Bay in the distance.",
+    "author": "Street Railway Journal",
+    "date": "published January 2, 1904",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/streetrailwayjo231904newy/page/n19/mode/1up",
+    "source": "srj-1904-01-02-north-shore"
+   }
   }
  ]
 }

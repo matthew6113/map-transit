@@ -1,0 +1,226 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The Oakland Terminal Railway, the Key System's freight company (decision 15). Research: docs/research/sources-2c/belt-lines.md.",
+ "lines": [
+  {
+   "id": "otr-40th-st",
+   "name": "Oakland Terminal freight, Yerba Buena Ave by 40th St to Shafter Ave",
+   "short_name": "Oakland Terminal, 40th St",
+   "system": "oakland-terminal",
+   "operators": [
+    {
+     "name": "Oakland Terminal Railway (Western Pacific and Santa Fe)",
+     "from": "1943-07-01",
+     "to": "1957-04"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1943-07-01",
+   "closed": "1957-04",
+   "status": "closed",
+   "summary": "The Oakland Terminal Railway's freight over the Key System's track from Yerba Buena Ave along 40th St to Shafter Ave, where it met the Sacramento Northern: the Western Pacific's traffic to the Outer Harbor went this way until the Union St line opened in 1957.",
+   "fate": "replaced_by_rail",
+   "fate_note": "Given up with the Sacramento Northern's line to Oakland when the Union St line opened in 1957.",
+   "route": [
+    {
+     "segment": "key-yerba-buena"
+    },
+    {
+     "segment": "key-40th-st"
+    }
+   ],
+   "sources": [
+    {
+     "source": "railway-age-1943-07-03",
+     "supports": [
+      "opened",
+      "operator"
+     ],
+     "pages": "35",
+     "note": "The Oakland Terminal Railway \"took over, on July 1, all freight operations heretofore conducted by the Oakland Terminal Railroad Company, one of the Key System companies.\""
+    },
+    {
+     "source": "crc-d36427",
+     "supports": [
+      "route",
+      "operator"
+     ],
+     "pages": "2",
+     "note": "Trackage rights over the Key System's passenger lines, and the Fortieth Street line from near Adeline St to near Broadway, for the connection with the Sacramento Northern."
+    },
+    {
+     "source": "cpuc-d55545",
+     "supports": [
+      "route",
+      "closed"
+     ],
+     "pages": "2-3",
+     "note": "The connection \"over the 'C' line tracks of the Key System Transit Lines from 40th and Shafter in Oakland to the Outer Harbor\", until the Union St line opened in April 1957."
+    },
+    {
+     "source": "western-railroader-1956-08",
+     "supports": [
+      "closed"
+     ],
+     "pages": "8",
+     "note": "\"The Oakland Terminal will abandon service from Yerba Buena yards to 40th & Shafter over the Key System.\""
+    },
+    {
+     "source": "crc-d27770",
+     "supports": [
+      "general"
+     ],
+     "pages": "1, 4",
+     "note": "From March 1, 1935 the Key System's freight lines stayed with its freight company when the passenger lines were leased."
+    },
+    {
+     "source": "crc-d30868",
+     "supports": [
+      "general"
+     ],
+     "pages": "1",
+     "note": "Key System, Ltd. renamed Oakland Terminal Railroad Co."
+    }
+   ],
+   "flags": [
+    "conflicting_sources"
+   ],
+   "notes": "Drawn from the Oakland Terminal Railway's first day, July 1, 1943; its predecessor, the Oakland Terminal Railroad (1935-43), may have run freight here too, which no source says. Closed in April 1957, the month the CPUC gives the Union St line's opening; The Western Railroader has March 1. While the Key System's trains ran (to 1958) the track draws in their mode."
+  },
+  {
+   "id": "otr-poplar-st",
+   "name": "Oakland Terminal freight, Louise St and Poplar St to 12th St",
+   "short_name": "Oakland Terminal, Poplar St",
+   "system": "oakland-terminal",
+   "operators": [
+    {
+     "name": "Oakland Terminal Railway",
+     "from": null,
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": null,
+   "closed": null,
+   "status": "closed",
+   "running": [
+    {
+     "date": "1953-11-10",
+     "source": "cpuc-d49307",
+     "pages": "2",
+     "note": "The A and B lines \"from Yerba Buena Avenue along Poplar Street and West Grand Avenue … are subject to retention by Oakland Terminal Railways for freight operations\"."
+    },
+    {
+     "date": "1957-09-10",
+     "source": "cpuc-d55545",
+     "pages": "4",
+     "note": "\"The Oakland Terminal Railway provides switching service for the industries along Poplar Street and West Grand Avenue.\""
+    }
+   ],
+   "summary": "The Oakland Terminal Railway's switching service over the Key System's A and B line track on Louise St and Poplar St, from Yerba Buena Ave to 12th St, for the industries along Poplar St and West Grand Ave.",
+   "fate": "abandoned",
+   "route": [
+    {
+     "segment": "key-poplar-north"
+    },
+    {
+     "segment": "key-poplar-south"
+    }
+   ],
+   "sources": [
+    {
+     "source": "cpuc-d49307",
+     "supports": [
+      "route"
+     ],
+     "pages": "2"
+    },
+    {
+     "source": "cpuc-d55545",
+     "supports": [
+      "route"
+     ],
+     "pages": "4",
+     "note": "\"from Tower No. 2 at Yerba Buena Avenue and Louise Street along the center of Louise Street to Poplar Street, thence along the center of Poplar Street to 12th Street. The line is double-tracked throughout.\""
+    }
+   ],
+   "flags": [
+    "opened_unsourced",
+    "closed_unsourced"
+   ],
+   "notes": "Drawn for the years the sources show it (decision 20), 1953-57. Its service on West Grand Ave, also named, isn't drawn: which stretch of the B line's track it used isn't stated."
+  },
+  {
+   "id": "otr-union-st",
+   "name": "Oakland Terminal freight, the Union St line",
+   "short_name": "Union St line",
+   "system": "oakland-terminal",
+   "operators": [
+    {
+     "name": "Oakland Terminal Railway and Western Pacific",
+     "from": "1957-04",
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1957-04",
+   "closed": null,
+   "status": "closed",
+   "running": [
+    {
+     "date": "1957-09-10",
+     "source": "cpuc-d55545",
+     "pages": "3",
+     "note": "In operation."
+    }
+   ],
+   "summary": "A line built in 1956-57 along Union St in West Oakland, from the Key System's 12th St track to the Western Pacific near First St, so that the Western Pacific's traffic no longer went by the Sacramento Northern and 40th St.",
+   "fate": "abandoned",
+   "route": [
+    {
+     "segment": "otr-union-st"
+    }
+   ],
+   "sources": [
+    {
+     "source": "cpuc-d53801",
+     "supports": [
+      "route"
+     ],
+     "pages": "1-2",
+     "note": "Authorized September 25, 1956."
+    },
+    {
+     "source": "cpuc-d55545",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "3"
+    },
+    {
+     "source": "western-railroader-1957-04",
+     "supports": [
+      "opened"
+     ],
+     "pages": "14",
+     "note": "\"The Oakland Terminal and the Western Pacific drove a gold spike on March 1 for the opening of the new Union Street trackage\"."
+    },
+    {
+     "source": "western-railroader-1956-08",
+     "supports": [
+      "route"
+     ],
+     "pages": "8"
+    }
+   ],
+   "flags": [
+    "closed_unsourced",
+    "conflicting_sources"
+   ],
+   "notes": "Opened in April 1957 by the CPUC, March 1, 1957 by The Western Railroader. Shown only for 1957, the one year a source read here shows it in use; when it closed isn't sourced (the Oakland Terminal still ran 10 miles of switching track in West Oakland in 2013, by the State Rail Plan, which doesn't name its streets)."
+  }
+ ]
+}

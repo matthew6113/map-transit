@@ -1,0 +1,62 @@
+{
+  "$comment": "Hand-kept: the proposal's lines, as its document describes them (docs/SCHEMA.md, 'Ideal network'). Segments come from recipe.json (make ideal).",
+  "lines": [
+    {
+      "id": "geary-19th-subway",
+      "name": "Geary/19th Avenue subway",
+      "system": "sfcta",
+      "mode": "rapid_transit",
+      "era": "ideal",
+      "opened": null,
+      "closed": null,
+      "status": "proposed",
+      "status_as_of": "2026-10-16",
+      "proposal_id": "geary-19th-subway",
+      "proposed_by": "SFCTA, with SFMTA and SF Planning",
+      "document": "sfcta-geary-19th-strategic-case-2026",
+      "year": "2026-05",
+      "proposal_status": "study",
+      "summary": "A two-track rail subway of about 10 miles, with 5 or 6 stations, from downtown San Francisco under Geary Blvd and 19th Ave to near Daly City BART. SFCTA's strategic case found it \"both needed and viable\", at $20-30 billion in 2026 dollars, with up to 182,000 riders a day on a San Francisco-only line and nearly double that with East Bay connections. It chose no alignment, stations or technology (BART, standard-gauge rail, Muni Metro or automated light rail).",
+      "route": [
+        {
+          "segment": "geary-19th-subway-geary"
+        },
+        {
+          "segment": "geary-19th-subway-19th-ave"
+        }
+      ],
+      "sources": [
+        {
+          "source": "sfcta-geary-19th-strategic-case-2026",
+          "supports": [
+            "route",
+            "general"
+          ],
+          "note": "\"dual-track subway approximately 10 miles in length, with approximately 5 – 6 stations\"; \"a capital cost estimated in the range of $20B – $30B\"; \"would serve up to 182,000 daily riders\"."
+        },
+        {
+          "source": "sfcta-geary-19th-strategic-case-page",
+          "supports": [
+            "general"
+          ],
+          "note": "The study \"did not select a preferred alternative or advance planning/design beyond a pre-feasibility level\"."
+        },
+        {
+          "source": "sfcta-geary-19th-project-page",
+          "supports": [
+            "general"
+          ]
+        },
+        {
+          "source": "pba2050plus-project-list-2026-03",
+          "supports": [
+            "general"
+          ],
+          "note": "In Plan Bay Area 2050+ among studies and project development, not as a funded project."
+        }
+      ],
+      "flags": [],
+      "notes": "Seen in web search results only (the agency's site can't be reached from the build container). The SFCTA Board approved the strategic case on June 9, 2026, with final approval June 23; that adopts a study, not a project, so it is \"under study\" here. Drawn only where its words name a street: Geary from Market St to Masonic Ave (the Mission Bay downtown option) and 19th Ave from Lincoln Way to Junipero Serra Blvd. The turn through Golden Gate Park, the Daly City end and the stations are not drawn. Research: docs/research/ideal/san-francisco.md."
+    }
+  ]
+}

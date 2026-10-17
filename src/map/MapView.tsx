@@ -3,7 +3,7 @@
  * diffed setStyle, 2D/3D handling, hover tooltip). Hover highlights a whole line through feature-state
  * instead of a style rebuild, and a click on shared track lists every line there.
  */
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useRef, useState } from 'preact/hooks';
 import * as maplibregl from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import { Protocol } from 'pmtiles';
@@ -46,11 +46,25 @@ export function syncStyle(map: maplibregl.Map, next: StyleInputs) {
   if (
     prev && prev.theme === next.theme && prev.mode === next.mode && prev.loaded.join() === next.loaded.join() &&
     prev.view.era === next.view.era && prev.view.ghost === next.view.ghost &&
-    prev.view.selected === next.view.selected && prev.view.hiddenGroups.join() === next.view.hiddenGroups.join()
+    prev.view.selected === next.view.selected && prev.view.hiddenGroups.join() === next.view.hiddenGroups.join() &&
+    prev.view.proposals === next.view.proposals && prev.view.network === next.view.network
   ) return;
   applied.set(map, next);
-  map.setStyle(buildStyle(next), { diff: true });
+  map.setStyle(keepAdded(map, buildStyle(next)), { diff: true });
   afterSync.get(map)?.();
+}
+
+/** Layers another module adds to the map itself (the network editor's, src/editor/), by id prefix. */
+export const ADDED_PREFIX = 'transit-editor';
+
+/** A diffed setStyle removes whatever the new style lacks: carry the added layers and their sources over. */
+function keepAdded(map: maplibregl.Map, style: maplibregl.StyleSpecification): maplibregl.StyleSpecification {
+  const current = map.getStyle();
+  const added = current?.layers.filter((l) => l.id.startsWith(ADDED_PREFIX)) ?? [];
+  if (!added.length) return style;
+  const sources = { ...style.sources };
+  for (const l of added) if ('source' in l && typeof l.source === 'string') sources[l.source] = current.sources[l.source];
+  return { ...style, sources, layers: [...style.layers, ...added] };
 }
 
 export function onAfterSync(map: maplibregl.Map, fn: () => void) {
@@ -221,7 +235,9 @@ export function MapView({ inputs, shown, statusLabel, onReady, onFirstInteractio
     };
   }, [mode]);
 
-  useEffect(() => {
+  // A layout effect, so Escape works from the moment the chooser shows: an ordinary effect waits for
+  // the next animation frame, which a busy map can hold back.
+  useLayoutEffect(() => {
     if (!chooser) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setChooser(null);

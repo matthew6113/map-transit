@@ -5,6 +5,8 @@
  * - a null date carries its *_unsourced flag (dates are never filled in);
  * - every line's route names segments that exist in the same era;
  * - future statuses were verified against official sources within the last 90 days;
+ * - every reference proposal (data/ideal/<proposal>/) names who proposed it, in which document, and how
+ *   far it has gone; Matthew's own network (data/ideal/network.geojson) matches its schema;
  * - geometry stays inside the map's bounds;
  * - the app files (data/app/) were rebuilt after the last data change.
  */
@@ -19,6 +21,7 @@ import segmentSchema from '../data/schema/segment.schema.json';
 import pointSchema from '../data/schema/point.schema.json';
 import sourceSchema from '../data/schema/source.schema.json';
 import extSchema from '../data/schema/extensions.schema.json';
+import networkSchema from '../data/schema/network.schema.json';
 import region from '../src/basemap/region.json';
 
 const ROOT = resolve(import.meta.dirname, '..');
@@ -33,6 +36,7 @@ const validators = {
   points: ajv.compile(pointSchema),
   registry: ajv.compile(sourceSchema),
   extensions: ajv.compile(extSchema),
+  network: ajv.compile(networkSchema),
 };
 
 type Props = Record<string, unknown> & { id: string; flags: string[]; sources: { source: string }[] };
@@ -44,7 +48,7 @@ interface Folder {
   points: { properties: Props & { system: string; line_ids: string[]; opened: string | null; closed: string | null }; geometry: { coordinates: number[] } }[];
 }
 
-const ERAS = ['past', 'present', 'future'] as const;
+const ERAS = ['past', 'present', 'future', 'ideal'] as const;
 const folders: Folder[] = ERAS.flatMap((era) => {
   const base = join(DATA, era);
   if (!existsSync(base)) return [];
@@ -137,7 +141,7 @@ describe('provenance', () => {
   it('never fills in a date: a null date carries its flag', () => {
     for (const { era, kind, p } of all) {
       const status = (p.status as string | undefined) ?? '';
-      const notYetOpen = era === 'future' || FUTURE.includes(status);
+      const notYetOpen = era === 'future' || era === 'ideal' || FUTURE.includes(status);
       if (p.opened === null && !notYetOpen) expect(p.flags, `${kind} ${p.id}: opened is null`).toContain('opened_unsourced');
       // Running today (or not yet open) has no closing date to source.
       const stillOpen = era !== 'past' || status === 'active';
@@ -174,7 +178,8 @@ describe('provenance', () => {
 
   it('draws BRT only on center or median lanes: the agency names the corridor, surveyed data the lanes (decisions 3 and 9)', () => {
     const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
-    for (const f of folders) {
+    // Decisions 3 and 9 are about today's network; a proposal's busway is drawn as its document describes it.
+    for (const f of folders.filter((x) => x.era !== 'ideal')) {
       const segs = new Map(f.segments.map((s) => [s.properties.id, s.properties]));
       for (const l of f.lines.filter((x) => (x as { mode?: string }).mode === 'brt')) {
         expect(l.sources.some((s) => type.get(s.source) === 'official'), `${l.id} needs its agency's own source for the corridor`).toBe(true);
@@ -185,6 +190,44 @@ describe('provenance', () => {
           expect(seg.geometry_method as string, `${seg.id} must say it follows center or median lanes`).toMatch(/center or median bus lane/);
         }
       }
+    }
+  });
+
+  it('says who proposed each reference line, in which document, and how far it has gone', () => {
+    const type = new Map<string, string>(sources.sources.map((s: { id: string; type: string }) => [s.id, s.type]));
+    for (const f of folders.filter((x) => x.era === 'ideal')) {
+      const proposal = f.dir.split('/').pop();
+      for (const l of f.lines) {
+        expect(l.status, l.id).toBe('proposed');
+        expect(l.proposal_id, `${l.id}: proposal_id is its folder`).toBe(proposal);
+        for (const k of ['proposed_by', 'document', 'year', 'proposal_status', 'status_as_of']) expect(l[k], `${l.id} ${k}`).toBeTruthy();
+        expect(sourceIds, `${l.id}: document ${l.document}`).toContain(l.document);
+        expect(l.sources.map((s) => s.source), `${l.id}: cite its document in sources`).toContain(l.document);
+        // A public agency's own status for its proposal; an advocacy group's proposal is cited as its own.
+        if (['adopted', 'study'].includes(l.proposal_status as string)) {
+          expect(l.sources.some((s) => type.get(s.source) === 'official'), `${l.id}: an official source for "${l.proposal_status}"`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it("keeps `designed` geometry for Matthew's network: no authored segment or point uses it", () => {
+    for (const { kind, p } of all) expect(p.geometry_confidence, `${kind} ${p.id}`).not.toBe('designed');
+  });
+
+  it("accepts Matthew's network file", () => {
+    const path = join(DATA, 'ideal', 'network.geojson');
+    if (!existsSync(path)) return;
+    const net = read(path);
+    expect(validators.network(net), ajv.errorsText(validators.network.errors, { separator: '\n' })).toBe(true);
+    const ids = net.features.map((x: { properties: { id: string } }) => x.properties.id);
+    expect(ids.filter((id: string, i: number) => ids.indexOf(id) !== i), 'duplicate ids').toEqual([]);
+    // Every line reaches the app (make app-data), and says what it's based on in terms the app knows.
+    const catalog = read(join(DATA, 'app', 'catalog.json')).lines as { id: string; status: string }[];
+    expect(catalog.filter((l) => l.status === 'ideal').map((l) => l.id).sort()).toEqual(ids.map((id: string) => `ideal-network-${id}`).sort());
+    const known = new Set([...folders.filter((f) => f.era === 'ideal').map((f) => f.dir.split('/').pop()), ...folders.filter((f) => f.era === 'ideal').flatMap((f) => f.lines.map((l) => l.id))]);
+    for (const f of net.features as { properties: { id: string; based_on: string[] } }[]) {
+      for (const b of f.properties.based_on) expect(known, `${f.properties.id} is based on ${b}, which isn't a proposal or a proposal line`).toContain(b);
     }
   });
 
@@ -555,9 +598,17 @@ describe('app files (data/app/)', () => {
     }
   });
 
+  it('list only photos the site serves itself (make photos), never a hotlink', () => {
+    for (const l of catalog.lines as { id: string; photo?: { file: string } }[]) {
+      if (!l.photo) continue;
+      expect(l.photo.file, l.id).toMatch(/^photos\/[a-z0-9-]+\.jpg$/);
+      expect(existsSync(join(DATA, '..', 'public', l.photo.file)), `${l.id}: public/${l.photo.file}`).toBe(true);
+    }
+  });
+
   it('resolve every cited source into the catalog', () => {
     for (const l of catalog.lines) {
-      for (const s of l.sources) expect(s.title, `${l.id}: ${s.source}`).toBeTruthy();
+      for (const s of l.sources) expect(catalog.sources[s.source]?.title, `${l.id}: ${s.source}`).toBeTruthy();
     }
   });
 });

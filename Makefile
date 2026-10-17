@@ -2,9 +2,9 @@
 
 PY = uv run --directory pipeline python -m
 
-PHASE ?= p2c
+PHASE ?= p2d
 
-.PHONY: help tools basemap basemap-refresh future-sync present present-refresh past past-review checklists app-data data dev build test e2e screenshots perf
+.PHONY: help tools basemap basemap-refresh future-sync present present-refresh past past-review ideal photos checklists app-data data dev build test e2e screenshots perf
 
 help:
 	@echo "make basemap          Copy BAM's built basemap into public/generated/ and check it against basemap.lock.json"
@@ -13,10 +13,12 @@ help:
 	@echo "make present          Today's network from GTFS (511 needs TRANSIT_511_API_KEY in .env or the environment), BRT lanes from OpenStreetMap"
 	@echo "make present-refresh  The same, downloading every feed again"
 	@echo "make past             Past-era geometry from its recipes (data/past/*/trace.json), and the heritage railways' (data/present/heritage/): OpenHistoricalMap, USGS sheets, today's streets and track"
-	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/$$PHASE/traces/ (PHASE=p2b)"
-	@echo "make checklists       Matthew's review lists: docs/checks/present.md (scanned-PDF quotes, conflicts), past.md (book pages, traced geometry) and ohm.md (OpenHistoricalMap's ways)"
+	@echo "make past-review      The same, drawing each traced feature over its map into docs/screenshots/$$PHASE/traces/ (PHASE=p2d)"
+	@echo "make checklists       Matthew's review lists: docs/checks/future.md (the 90-day re-verification, with due dates), present.md (scanned-PDF quotes, conflicts), past.md (book pages, traced geometry) and ohm.md (OpenHistoricalMap's ways)"
+	@echo "make ideal            The reference proposals' corridors (data/ideal/<proposal>/) from their recipes, along today's streets and track"
+	@echo "make photos           Download the lines' public-domain photos and resize them into public/photos/ (committed; never hotlinked)"
 	@echo "make app-data         Build the files the app reads (data/app/) from data/<era>/"
-	@echo "make data             future-sync, present, past and app-data"
+	@echo "make data             future-sync, present, past, ideal, photos and app-data"
 	@echo "make dev              Dev server on http://127.0.0.1:5173 (proxies BAM's basemap without make basemap)"
 	@echo "make test             Data rules, schemas and theme contrast (Vitest)"
 	@echo "make e2e              Playwright interaction tests"
@@ -59,14 +61,20 @@ past-review: past
 	$(PY) transit_pipeline.checklists
 	$(PY) transit_pipeline.ohm survey
 
+ideal: tools
+	$(PY) transit_pipeline.ideal
+
 checklists: tools
 	$(PY) transit_pipeline.checklists
 	$(PY) transit_pipeline.ohm survey
 
+photos: tools
+	$(PY) transit_pipeline.photos
+
 app-data: tools
 	$(PY) transit_pipeline.build
 
-data: future-sync present past app-data
+data: future-sync present past ideal photos app-data
 
 dev:
 	npx vite --host 127.0.0.1
