@@ -19,7 +19,7 @@ the change here and update the commit above.
 | `src/ui/Controls.tsx` | same path | Unchanged. |
 | `src/ui/Credits.tsx` | same path | This map's credit text. |
 | `src/styles.css` (base, title, controls, credits, tooltip, panel, dip, breakpoints) | `src/styles.css` | `.project-panel` is renamed `.line-panel`; the index, style panel and about panel rules are dropped. The era bar, year slider, index, legend and chooser rules are new. |
-| `scripts/siteMeta.ts` | same path | Icon dot in the interurban color. There is no share card until Phase 5. |
+| `scripts/siteMeta.ts` | same path | Icon dot in the interurban color. The share card (Phase 5): `og:image` and a large Twitter card from `public/share-card.jpg`, which `npm run share-card` draws from the map; BAM has none. |
 | `scripts/linePages.ts` | `scripts/projectPages.ts` | One page per line in `data/app/catalog.json`, plus `404.html`. |
 | `tsconfig.json`, `vite.config.ts`, `playwright.config.ts`, `package-lock.json` | same paths | Same versions. Vite proxies `/generated` to BAM without a local snapshot. Playwright gains an opt-in WebKit project (`PW_WEBKIT=1`). |
 | `pipeline/transit_pipeline/common.py` (`fetch`, `sha256`) | `pipeline/bam_pipeline/trace.py` (`fetch_document`) | Simplified. Phase 2 brings in BAM's `trace.py` georeferencing tools for digitizing historic maps. |

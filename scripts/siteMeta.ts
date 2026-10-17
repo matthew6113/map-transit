@@ -11,8 +11,13 @@ import { cssVariables, type ThemeVariables } from '../src/theme/variables.ts';
  * - canonical and og:url from SITE_URL (the deploy workflow passes the address GitHub Pages reports);
  * - the theme's CSS custom properties, so the title written into index.html paints in the theme's
  *   type and colors before the app's script has loaded.
- * The share card (og:image) comes in Phase 5.
+ * - the share card (Phase 5): public/share-card.jpg, made from the map by `npm run share-card`, as
+ *   og:image and a large Twitter card. Crawlers need an absolute address, so it needs SITE_URL.
  */
+
+/** The share card's size and description (tests/share-card.spec.ts draws it). */
+export const SHARE_CARD = { path: 'share-card.jpg', width: 1200, height: 630,
+  alt: 'Bay Area transit: a map of the Bay Area\'s transit lines, by Matthew Huguet' };
 
 interface ThemeColors {
   colors: Record<string, string>;
@@ -135,6 +140,15 @@ export function siteMeta(root: string): Plugin {
             ]
           : []),
         ...(site ? [`<link rel="canonical" href="${site}/" />`, `<meta property="og:url" content="${site}/" />`] : []),
+        ...(site
+          ? [
+              `<meta property="og:image" content="${site}/${SHARE_CARD.path}" />`,
+              `<meta property="og:image:width" content="${SHARE_CARD.width}" />`,
+              `<meta property="og:image:height" content="${SHARE_CARD.height}" />`,
+              `<meta property="og:image:alt" content="${escapeAttr(SHARE_CARD.alt)}" />`,
+              `<meta name="twitter:card" content="summary_large_image" />`,
+            ]
+          : []),
       ];
       return html.replace(/\s*<link rel="icon" href="data:," \/>/, () => `\n    ${[...tags, themeStyle(root)].join('\n    ')}`);
     },

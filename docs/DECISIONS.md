@@ -480,6 +480,11 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   ferries are hidden, since this map draws its own. BAM's single `layers.context` flag is split into
   roads, rail and ferry; that split should be backported to BAM.
 - **The style panel is deferred to Phase 5.** The palette is still a one-file swap.
+- **The share card is drawn from the map itself** (Phase 5, `npm run share-card`): 1200×630, the
+  title band over the map, in the theme's type and colors; one card for the site and every line's
+  page. Three options are open for Matthew (`docs/screenshots/p5/share-card-*.jpg`): the whole Bay
+  in 1925 (the default), today, or 1925, today and coming side by side. Redraw it when the data or
+  the palette changes.
 
 ## Accessibility (2026-10-17, Phase 5)
 

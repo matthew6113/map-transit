@@ -13,7 +13,8 @@
     "e2e": "playwright test tests/interaction.spec.ts tests/editor.spec.ts",
     "screenshots": "playwright test tests/screenshots.spec.ts",
     "perf": "playwright test tests/perf.spec.ts",
-    "a11y": "playwright test tests/a11y.spec.ts"
+    "a11y": "playwright test tests/a11y.spec.ts",
+    "share-card": "playwright test tests/share-card.spec.ts"
   },
   "dependencies": {
     "maplibre-gl": "6.11.2",
