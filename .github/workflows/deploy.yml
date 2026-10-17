@@ -85,7 +85,7 @@ jobs:
         with:
           path: dist
 
-  # The interaction tests in WebKit (mobile Safari's engine), which the cloud container lacks.
+  # The interaction and editor tests in WebKit (mobile Safari's engine), which the cloud container lacks.
   webkit:
     runs-on: ubuntu-24.04
     timeout-minutes: 30
@@ -97,6 +97,17 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps webkit
+      # The pinned basemap, from the release asset the build job keeps (verified when archived), so
+      # the tests don't load BAM's live site through the dev server's proxy: a slow response there
+      # left the map unloaded and timed tests out.
+      - name: Restore the basemap snapshot
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(node -p "require('./basemap.lock.json').id")
+          gh release download "basemap-$id" --pattern 'basemap.tar' --output /tmp/basemap.tar --clobber
+          mkdir -p public/generated
+          tar -xf /tmp/basemap.tar -C public/generated
       - run: npm run e2e
         env:
           PW_WEBKIT: "1"
