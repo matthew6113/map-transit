@@ -274,8 +274,11 @@ export function StylePanel({ theme, onChange, onClose }: Props) {
         <button type="button" onClick={() => { onChange(structuredClone(defaultTheme)); setMessage('Reset to the theme file.'); }}>Reset</button>
         <input ref={fileInput} type="file" accept="application/json,.json" hidden
           onChange={(e) => {
-            const f = (e.target as HTMLInputElement).files?.[0];
+            const input = e.target as HTMLInputElement;
+            const f = input.files?.[0];
             if (f) importTheme(f);
+            // So picking the same file again (edited on disk) imports it again.
+            input.value = '';
           }} />
         <p class="hint" role="status">{message}</p>
       </section>

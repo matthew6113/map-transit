@@ -1210,6 +1210,18 @@ body {
   right: 356px;
 }
 
+@media (min-width: 720px) {
+  /* Beside the line panel or the editor, not over their close buttons. */
+  .with-line .style-toggle {
+    right: calc(min(400px, 45%) + 16px);
+  }
+
+  /* With both panels open, the controls sit left of the wider one. */
+  .with-panel.with-line .controls {
+    right: max(356px, calc(min(400px, 45%) + 16px));
+  }
+}
+
 .style-panel {
   position: absolute;
   top: 0;

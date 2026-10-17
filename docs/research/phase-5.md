@@ -75,7 +75,7 @@ lines underneath" slider tries any value.
 | Option | For | Against |
 |---|---|---|
 | `even` (current) | Every year takes the same time (about 0.11 s at 1×), so time reads as time | The quiet decades take as long as the busy ones: 1960-90 takes as long as 1900-30 |
-| `busy` | A year takes longer the more opens and closes in it, from 0.03 s to 0.19 s at 1×. Over the same 20 s: 1900-30 and 1930-60 take 4.8 s each (3.4 s each when even); 1960-90 takes 2.3 s and 1990-2026 takes 2.7 s | Time is uneven, and the slider's ticks no longer move at a steady rate |
+| `busy` | A year takes longer the more lines open or close in it (by the square root of their number), from 0.05 s for a quiet year to 0.35 s for 1929, the busiest (34 lines), at 1×. Over the same 20 s: 1900-30 takes 4.6 s and 1930-60 4.5 s (3.4 s each when even); 1960-90 takes 2.5 s and 1990-2026 3.4 s | Time is uneven, and the slider's ticks no longer move at a steady rate |
 
 `fadeOutYears` (2) sets how long a closed line fades. The style panel's "Fade out over" slider
 tries other values.

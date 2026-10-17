@@ -27,6 +27,8 @@ const OPTIONS: Record<string, { label: string; url: string }[]> = {
 const TITLE = 'Bay Area transit';
 const DECK = 'Everything that ever ran, everything running now, and what’s coming';
 const BYLINE = 'by Matthew Huguet';
+/** The basemap's data is ODbL: an image made from it says so (as the map's own credit line does). */
+const CREDIT = 'Map data © OpenStreetMap contributors, Overture Maps Foundation';
 
 async function ready(page: Page) {
   await page.waitForFunction(() => document.body.dataset.mapReady === 'true', null, { timeout: 120_000 });
@@ -55,17 +57,18 @@ async function compose(page: Page, shots: { label: string; png: Buffer }[]): Pro
   await page.goto('/?test=1');
   await ready(page);
   const panels = shots.map((s) => ({ label: s.label, src: `data:image/png;base64,${s.png.toString('base64')}` }));
-  await page.evaluate(([panels, title, deck, byline]) => {
+  await page.evaluate(([panels, title, deck, byline, credit]) => {
     const card = document.createElement('div');
     card.id = 'transit-share-card';
     card.innerHTML = `
       <div class="panels">${panels.map((p) => `<figure><img src="${p.src}" alt="">${p.label ? `<figcaption>${p.label}</figcaption>` : ''}</figure>`).join('')}</div>
-      <div class="band"><h1></h1><p class="deck"></p><p class="by"></p></div>`;
+      <div class="band"><h1></h1><p class="deck"></p><p class="by"></p><p class="credit"></p></div>`;
     card.querySelector('h1')!.textContent = title;
     card.querySelector('.deck')!.textContent = deck;
     card.querySelector('.by')!.textContent = byline;
     document.body.appendChild(card);
-  }, [panels, TITLE, DECK, BYLINE] as const);
+    card.querySelector('.credit')!.textContent = credit;
+  }, [panels, TITLE, DECK, BYLINE, CREDIT] as const);
   await page.addStyleTag({
     content: `
       #transit-share-card { position: fixed; inset: 0; z-index: 1000; background: var(--color-land); font-family: var(--font-ui); }
@@ -79,12 +82,15 @@ async function compose(page: Page, shots: { label: string; png: Buffer }[]): Pro
         background: color-mix(in srgb, var(--color-panel-background) 92%, transparent); border-top: 1px solid var(--color-panel-rule); }
       #transit-share-card h1 { margin: 0; font-size: 54px; font-weight: 600; letter-spacing: -0.01em; color: var(--color-panel-text); line-height: 1.05; }
       #transit-share-card .deck { margin: 8px 0 0; font-family: var(--font-text); font-size: 26px; color: var(--color-panel-text); }
-      #transit-share-card .by { margin: 10px 0 0; font-size: 19px; color: var(--color-labels); }`,
+      #transit-share-card .by { margin: 10px 0 0; font-size: 19px; color: var(--color-labels); }
+      #transit-share-card .credit { position: absolute; right: 40px; bottom: 30px; margin: 0; font-size: 13px; color: var(--color-labels); }`,
   });
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(300);
   return page.screenshot({ type: 'jpeg', quality: 88 });
 }
+
+if (!(CHOSEN in OPTIONS)) throw new Error(`SHARE_CARD=${CHOSEN}: not one of ${Object.keys(OPTIONS).join(', ')}`);
 
 test('share card', async ({ browser }) => {
   test.setTimeout(900_000);

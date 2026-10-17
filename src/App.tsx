@@ -48,24 +48,42 @@ const initialYear = (): number => {
 const STYLE_PANEL_ENABLED = params.get('style') === '1';
 const STORAGE_KEY = 'transit.theme.v1';
 
-/** Layer options from the URL, so a view can be shared or screenshotted: ?labels=0&mask=0&buildings=0 */
+/** The theme as authored: the theme file, or the style panel's saved theme (?style=1, never under ?test=1). */
 function loadTheme(): Theme {
-  let theme = structuredClone(defaultTheme);
   if (STYLE_PANEL_ENABLED && !params.has('test')) {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) theme = normalizeTheme(JSON.parse(saved));
+      if (saved) return normalizeTheme(JSON.parse(saved));
     } catch {
       // Storage can be blocked; fall back to the theme file.
     }
   }
-  const flag = (name: string) => (params.has(name) ? params.get(name) !== '0' : undefined);
-  const L = theme.layers;
+  return structuredClone(defaultTheme);
+}
+
+const flag = (name: string) => (params.has(name) ? params.get(name) !== '0' : undefined);
+const LAYER_FLAGS = ['labels', 'mask', 'buildings', 'roads'].some((f) => params.has(f));
+
+/**
+ * Layer options from the URL, so a view can be shared or screenshotted: ?labels=0&mask=0&buildings=0.
+ * They change the view only, never the authored theme the style panel saves and exports.
+ */
+function withUrlFlags(theme: Theme): Theme {
+  if (!LAYER_FLAGS) return theme;
+  const t = structuredClone(theme);
+  const L = t.layers;
   L.labels = flag('labels') ?? L.labels;
   L.outsideRegion = flag('mask') ?? L.outsideRegion;
   L.buildings = flag('buildings') ?? L.buildings;
   L.contextRoads = flag('roads') ?? L.contextRoads;
-  return theme;
+  return t;
+}
+
+/** A field that takes typed text, where a shortcut's keys are the user's text (WCAG 2.1.4). */
+function takesText(el: HTMLElement | null): boolean {
+  if (!el) return false;
+  if (el.isContentEditable || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT') return true;
+  return el.tagName === 'INPUT' && !['range', 'checkbox', 'radio', 'color', 'button', 'submit', 'reset', 'file'].includes((el as HTMLInputElement).type);
 }
 
 interface FlightState {
@@ -77,7 +95,9 @@ interface FlightState {
 }
 
 export function App() {
-  const [theme, setTheme] = useState<Theme>(loadTheme);
+  // The authored theme (the style panel edits it); the map draws it with the URL's layer options.
+  const [authored, setAuthored] = useState<Theme>(loadTheme);
+  const theme = useMemo(() => withUrlFlags(authored), [authored]);
   const [panelOpen, setPanelOpen] = useState(STYLE_PANEL_ENABLED);
   const styleToggle = useRef<HTMLButtonElement>(null);
   const [mode, setMode] = useState<ViewMode>(params.get('view') === '3d' ? '3d' : '2d');
@@ -110,11 +130,17 @@ export function App() {
   const hasNetwork = useMemo(() => lines.some((l) => l.status === 'ideal'), [lines]);
   // While the editor is open it draws the network itself, so the map's copy steps aside.
   const network = hasNetwork && networkOn && !editing;
-  // Play's pace (?pace=busy): a year in which more opens and closes takes longer.
-  const pace = useMemo(() => (PACE === 'busy' ? busyPace([indexes.past, indexes.present], FIRST_YEAR, LAST_YEAR) : () => 1),
-    [indexes.past, indexes.present]);
-  const live = useRef({ era, openId, byId, indexes, year, speed, proposals, pace });
-  live.current = { era, openId, byId, indexes, year, speed, proposals, pace };
+  // Play's pace (?pace=busy): a year in which more lines open or close takes longer.
+  const pace = useMemo(() => {
+    if (PACE !== 'busy') return () => 1;
+    const pieces = DATASETS.past.flatMap((d) => {
+      const byFid = new Map((indexes[d]?.lines ?? []).map((f) => [f.fid, f]));
+      return lines.filter((l) => l.era === d).map((l) => l.fids.flatMap((fid) => byFid.get(fid) ?? []));
+    });
+    return busyPace(pieces, FIRST_YEAR, LAST_YEAR);
+  }, [indexes, lines]);
+  const live = useRef({ era, openId, byId, indexes, year, speed, proposals, pace, editing: editing && era === 'future' });
+  live.current = { era, openId, byId, indexes, year, speed, proposals, pace, editing: editing && era === 'future' };
 
   useEffect(() => {
     void loadCatalog().then(setLines);
@@ -122,13 +148,13 @@ export function App() {
 
   useEffect(() => {
     applyCssVariables(theme);
-    if (!STYLE_PANEL_ENABLED) return;
+    if (!STYLE_PANEL_ENABLED || params.has('test')) return;
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(theme));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(authored));
     } catch {
       // Not critical: the panel still works without persistence.
     }
-  }, [theme]);
+  }, [theme, authored]);
 
   const closePanel = useCallback(() => {
     setPanelOpen(false);
@@ -320,17 +346,19 @@ export function App() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null;
-      const typing = !!target && (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName));
       // Alt+Shift+S, as in BAM, not a bare "S": single-key shortcuts fire while typing (WCAG 2.1.4).
-      if (STYLE_PANEL_ENABLED && !typing && e.altKey && e.shiftKey && e.code === 'KeyS') {
+      if (STYLE_PANEL_ENABLED && !takesText(target) && e.altKey && e.shiftKey && e.code === 'KeyS') {
         e.preventDefault();
-        setPanelOpen((open) => !open);
-      } else if (e.key === 'Escape' && panelOpen) {
-        // The topmost panel closes first.
-        closePanel();
-      } else if (e.key === 'Escape' && live.current.openId && !document.querySelector('.map-chooser')) {
-        void closeLine();
+        if (panelOpen) closePanel();
+        else setPanelOpen(true);
+        return;
       }
+      if (e.key !== 'Escape') return;
+      // The topmost thing closes first: the shared-track chooser (MapView closes it), then the style
+      // panel (unless the editor is drawing on the map, where Escape cancels the line), then the line.
+      if (document.querySelector('.map-chooser')) return;
+      if (panelOpen && (target?.closest('.style-panel') || !live.current.editing)) closePanel();
+      else if (live.current.openId) void closeLine();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -463,7 +491,7 @@ export function App() {
           Style
         </button>
       )}
-      {panelOpen && <StylePanel theme={theme} onChange={setTheme} onClose={closePanel} />}
+      {panelOpen && <StylePanel theme={authored} onChange={setAuthored} onClose={closePanel} />}
     </div>
   );
 }
