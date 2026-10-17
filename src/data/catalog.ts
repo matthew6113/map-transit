@@ -84,7 +84,11 @@ export interface LineRecord {
   gauge_mm?: number;
   gauge_label?: string;
   traction?: { type: string; from?: string | null; to?: string | null }[];
-  photo?: { commons_file: string; author: string; date?: string; license: string; source_url: string };
+  /** A public-domain photo as the site serves it (public/photos/, `make photos`). */
+  photo?: {
+    file: string; width: number; height: number; caption: string; author: string; date?: string;
+    license: 'public-domain' | 'PD-US-expired' | 'CC0'; source_url: string; commons_file?: string; image_url?: string;
+  };
   links?: { label: string; url: string }[];
   notes?: string;
   flags: string[];

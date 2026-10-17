@@ -158,8 +158,12 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
 
 **Extras:**
 - `summary`
-- `photo`: `{commons_file, author, date, license, source_url}`. Public domain only: `public-domain`,
-  `PD-US-expired` or `CC0`. It is downloaded at build time, never hotlinked.
+- `photo`: `{commons_file | image_url, caption, author, date?, license, source_url, source?}`: a
+  Wikimedia Commons file name or a direct image address (a Library of Congress JPEG, say); a
+  sentence on what it shows, which is also its alt text; and the record that states its rights.
+  Public domain only: `public-domain`, `PD-US-expired` or `CC0`. `make photos` downloads it and
+  writes a resized copy, without metadata, to `public/photos/` (committed), and the catalog lists it
+  only once that copy exists. Never hotlinked.
 - `links[]`
 
 Plus the provenance fields above.

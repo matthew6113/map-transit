@@ -1001,10 +1001,13 @@ body {
   background: var(--color-panel-rule);
 }
 
-.line-panel .photo .credit {
-  display: block;
+.line-panel .photo figcaption {
   margin-top: 6px;
   font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.line-panel .photo .credit {
   color: color-mix(in srgb, var(--color-panel-text) 72%, transparent);
 }
 

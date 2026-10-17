@@ -227,6 +227,22 @@ def proposal(line: dict, sources: dict) -> dict:
     }
 
 
+def published_photo(line: dict) -> dict | None:
+    """The line's photo as the site serves it (public/photos/, from `make photos`), with its size; none
+    until it has been downloaded, so the panel never shows a broken image."""
+    if not line.get("photo"):
+        return None
+    from PIL import Image
+    from .photos import photo_file
+    name = photo_file(line["id"], line["photo"])
+    path = ROOT / "public" / name
+    if not path.exists():
+        print(f"[build] {line['id']}: its photo isn't downloaded yet (make photos), so it's left out")
+        return None
+    with Image.open(path) as im:
+        return {**line["photo"], "file": name, "width": im.width, "height": im.height}
+
+
 def main() -> None:
     sources = {s["id"]: s for s in json.loads(SOURCES.read_text())["sources"]}
     systems = {s["id"]: s for s in json.loads(SYSTEMS.read_text())["systems"]}
@@ -468,7 +484,8 @@ def main() -> None:
                 "status_label": statuses[line["status"]]["label"],
                 **{k: line[k] for k in ("status_as_of", "expected_opening", "last_verified", "summary", "fate",
                                         "fate_note", "successor", "continues_beyond", "gauge_mm", "gauge_label",
-                                        "traction", "photo", "links", "notes") if k in line},
+                                        "traction", "links", "notes") if k in line},
+                **({"photo": ph} if (ph := published_photo(line)) else {}),
                 **({"proposal": proposal(line, sources)} if line["status"] == "proposed" else {}),
                 **({"based_on": based_on(line, lines, sources), "author": line["author"]} if line["status"] == "ideal" else {}),
                 "flags": line["flags"],

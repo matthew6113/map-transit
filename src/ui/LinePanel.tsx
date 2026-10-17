@@ -20,6 +20,12 @@ const FATES: Record<string, string> = {
   replaced_by_rail: 'Replaced by another rail line',
 };
 
+const PHOTO_LICENSE: Record<string, string> = {
+  'public-domain': 'Public domain',
+  'PD-US-expired': 'Public domain (its US copyright has expired)',
+  CC0: 'CC0, no rights reserved',
+};
+
 const CONFIDENCE_LABEL: Record<string, string> = {
   surveyed: 'Surveyed',
   digitized: 'Traced from a map',
@@ -87,6 +93,21 @@ export function LinePanel({ line, onClose }: Props) {
       )}
 
       {line.summary && <p class="summary">{line.summary}</p>}
+
+      {line.photo && (
+        <figure class="photo">
+          {/* Served from this site (make photos), never hotlinked. */}
+          <img src={`${import.meta.env.BASE_URL}${line.photo.file}`} width={line.photo.width} height={line.photo.height}
+            alt={line.photo.caption} loading="lazy" decoding="async" />
+          <figcaption>
+            {line.photo.caption}{' '}
+            <span class="credit">
+              {line.photo.author}{line.photo.date ? `, ${line.photo.date}` : ''}. {PHOTO_LICENSE[line.photo.license]}.{' '}
+              <a href={line.photo.source_url}>Source</a>
+            </span>
+          </figcaption>
+        </figure>
+      )}
 
       <section>
         <dl class="facts">
@@ -159,19 +180,6 @@ export function LinePanel({ line, onClose }: Props) {
           </ol>
         </details>
       </section>
-
-      {line.photo && (
-        <figure class="photo">
-          <img src={`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(line.photo.commons_file)}?width=800`}
-            alt="" loading="lazy" />
-          <figcaption>
-            <span class="credit">
-              {line.photo.author}{line.photo.date ? `, ${line.photo.date}` : ''}. {line.photo.license}.{' '}
-              <a href={line.photo.source_url}>Source</a>
-            </span>
-          </figcaption>
-        </figure>
-      )}
 
       {line.flags.length > 0 && (
         <section>

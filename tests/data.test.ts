@@ -598,6 +598,14 @@ describe('app files (data/app/)', () => {
     }
   });
 
+  it('list only photos the site serves itself (make photos), never a hotlink', () => {
+    for (const l of catalog.lines as { id: string; photo?: { file: string } }[]) {
+      if (!l.photo) continue;
+      expect(l.photo.file, l.id).toMatch(/^photos\/[a-z0-9-]+\.jpg$/);
+      expect(existsSync(join(DATA, '..', 'public', l.photo.file)), `${l.id}: public/${l.photo.file}`).toBe(true);
+    }
+  });
+
   it('resolve every cited source into the catalog', () => {
     for (const l of catalog.lines) {
       for (const s of l.sources) expect(catalog.sources[s.source]?.title, `${l.id}: ${s.source}`).toBeTruthy();

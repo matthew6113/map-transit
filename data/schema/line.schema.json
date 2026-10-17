@@ -397,15 +397,38 @@
         "photo": {
           "type": "object",
           "additionalProperties": false,
+          "$comment": "A public-domain photo, downloaded at build time (make photos) and never hotlinked. Exactly one of commons_file and image_url.",
           "required": [
-            "commons_file",
+            "caption",
             "author",
             "license",
             "source_url"
           ],
+          "oneOf": [
+            {
+              "required": [
+                "commons_file"
+              ]
+            },
+            {
+              "required": [
+                "image_url"
+              ]
+            }
+          ],
           "properties": {
             "commons_file": {
-              "type": "string"
+              "type": "string",
+              "description": "A Wikimedia Commons file name, without File:."
+            },
+            "image_url": {
+              "type": "string",
+              "format": "uri",
+              "description": "A direct address of the image, such as a Library of Congress JPEG."
+            },
+            "caption": {
+              "type": "string",
+              "description": "What it shows, in a sentence: also the image's alt text."
             },
             "author": {
               "type": "string"
@@ -422,7 +445,12 @@
             },
             "source_url": {
               "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "description": "The record that states the image's rights."
+            },
+            "source": {
+              "type": "string",
+              "description": "An id in sources.json, when the photo's record is listed there."
             }
           }
         },
