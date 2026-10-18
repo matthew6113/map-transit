@@ -39,17 +39,17 @@ Screenshots are in `docs/screenshots/p5/`.
     with its caption, credit and license.
   - A photo can be a Commons file or a direct image address, cropped to part of the image (a
     halftone on a scanned page, one half of a stereograph).
-  - **Twenty-three past lines have a photo** (added after the checkpoint), each a halftone from a
-    journal published before 1931 and scanned by the Internet Archive, the one image host the container
-    reaches. They are the Key Route's Berkeley line and ferry, the North Shore's Mill Valley and San
-    Rafael lines, the Mt. Tamalpais railway, the Petaluma & Santa Rosa (at Sebastopol, and the 1905
-    crossing fight at Santa Rosa) and its steamers, the Key Route's Piedmont line (its pier terminal),
-    the SP's Encinal Avenue, Seventh Street, Shattuck Avenue and Lincoln Avenue lines (the last two on
-    the Oakland and Alameda moles), the San Mateo line, the Oakland, Antioch & Eastern (the Sacramento
-    Northern), Muni's Geary line, route A, Muni's F line (a car at the exposition's Scott Street gate),
-    the Ocean Shore, the Western Pacific's ferry, the Benicia train ferry, the Vallejo ferry and the
-    Golden Gate Ferry's Sausalito and Berkeley runs (screenshots `past-line-*-photo`). Each page was
-    read, so each caption follows the journal's own.
+  - **Twenty-four past lines have a photo** (added after the checkpoint), each a halftone from a journal
+    published before 1931 and scanned by the Internet Archive, the one image host the container reaches.
+    They are the Key Route's Berkeley line and ferry, the North Shore's Mill Valley and San Rafael
+    lines, the Mt. Tamalpais railway, the Petaluma & Santa Rosa (at Sebastopol, and the 1905 crossing
+    fight at Santa Rosa) and its steamers, the Key Route's Piedmont line (its pier terminal), the SP's
+    Encinal Avenue, Seventh Street, Shattuck Avenue and Lincoln Avenue lines (the last two on the
+    Oakland and Alameda moles), the SP's Peninsula trains (a Bay Shore cut-off tunnel), the San Mateo
+    line, the Oakland, Antioch & Eastern (the Sacramento Northern), Muni's Geary line, route A, Muni's F
+    line (a car at the exposition's Scott Street gate), the Ocean Shore, the Western Pacific's ferry,
+    the Benicia train ferry, the Vallejo ferry and the Golden Gate Ferry's Sausalito and Berkeley runs
+    (screenshots `past-line-*-photo`). Each page was read, so each caption follows the journal's own.
   - Some journal volumes on the Internet Archive are Google's scans, copied from HathiTrust, whose
     terms ask that the images not be re-hosted. None is used, though one holds the only exterior view
     found of the Golden Gate Ferry's first boat (*Marine Engineering*, October 1922).
@@ -103,7 +103,7 @@ New from this phase:
   - the ghost: `hue`, `ink` or `dashed`, and its opacity (0.3 or about 0.55);
   - the pace: `even` or `busy`.
 - **Photos:**
-  - look over the twenty-three in place (`past-line-*-photo`): keep, swap or drop any. Halftone scans show
+  - look over the twenty-four in place (`past-line-*-photo`): keep, swap or drop any. Halftone scans show
     moiré;
   - look at the Library of Congress candidates in `photos-candidates.md`, which also lists what to
     check;

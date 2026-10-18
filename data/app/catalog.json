@@ -36189,6 +36189,24 @@
         }
       ],
       "notes": "The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_railway-age_1907-03-15_42_11/page/n7.jpg",
+        "crop": [
+          0.373,
+          0.091,
+          0.839,
+          0.251
+        ],
+        "caption": "The north end of Tunnel No. 2 on the Southern Pacific's Bay Shore cut-off, nearly finished in 1907. The Peninsula trains ran through it from December 8, 1907.",
+        "author": "The Railroad Gazette",
+        "date": "published March 15, 1907",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11/page/n7/mode/1up",
+        "source": "railroad-gazette-1907-03-15",
+        "file": "photos/sp-peninsula-62a324fc.jpg",
+        "width": 960,
+        "height": 448
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -36470,18 +36488,18 @@
           "note": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\""
         },
         {
+          "source": "railroad-gazette-1907-03-15",
+          "supports": [
+            "photo",
+            "route"
+          ],
+          "pages": "330"
+        },
+        {
           "source": "gtfs-511",
           "supports": [
             "geometry"
           ]
-        },
-        {
-          "source": "railroad-gazette-1907-03-15",
-          "supports": [
-            "route"
-          ],
-          "pages": "328",
-          "note": "The cutoff began \"from existing tracks of the Southern Pacific in Seventh street\"."
         },
         {
           "source": "usgs-san-francisco-1899",
