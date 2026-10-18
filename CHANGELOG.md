@@ -2,6 +2,14 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-18: Photos for the Golden Gate Ferry's two runs
+
+- From *Pacific Marine Review* (the San Francisco Public Library's copy): **Hyde Street–Sausalito**, the *Golden
+  State* nearing completion at Alameda in 1926, built for that run; **Hyde Street–Berkeley**, the *Golden Poppy*
+  "on regular service between the foot of Hyde Street, San Francisco, and the foot of University Avenue, Berkeley"
+  (December 1927). The Sausalito line also cites the July 1926 article for the company's first diesel-electric
+  boat, the *Golden Gate*, entering service on July 4, 1922. Two new sources.
+
 ## 2026-10-18: Four photos from the 1915 convention issue
 
 - From the *Electric Railway Journal*'s Pacific Coast convention issue of 1915 (the Smithsonian Libraries' copy,

@@ -46,10 +46,34 @@
             "operator"
           ],
           "note": "The Southern Pacific's ferry company took over the Northwestern Pacific's auto ferry rights on May 1, 1929, and asked in 1938 to abandon the Hyde Street–Sausalito run."
+        },
+        {
+          "source": "pmr-1926-07-golden-state",
+          "supports": [
+            "general",
+            "photo"
+          ],
+          "pages": "295-296",
+          "note": "The company's first diesel-electric ferry, the Golden Gate, \"was put into service July 4, 1922\" on the San Francisco–Sausalito run."
         }
       ],
       "flags": [],
-      "notes": "NPS dates the merger with the Southern Pacific to 1928; the Railroad Commission's decision has the combined company taking over on May 1, 1929."
+      "notes": "NPS dates the merger with the Southern Pacific to 1928; the Railroad Commission's decision has the combined company taking over on May 1, 1929.",
+      "photo": {
+        "image_url": "https://archive.org/download/pacificmarinerev2326paci/page/n364.jpg",
+        "crop": [
+          0.05,
+          0.704,
+          0.639,
+          0.886
+        ],
+        "caption": "The Golden Gate Ferry Company's Golden State nearing completion at Alameda in 1926, built for its San Francisco–Sausalito run.",
+        "author": "Pacific Marine Review",
+        "date": "published July 1926",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/pacificmarinerev2326paci/page/n364/mode/1up",
+        "source": "pmr-1926-07-golden-state"
+      }
     },
     {
       "id": "ggf-hyde-berkeley",
@@ -99,10 +123,34 @@
             "closed"
           ],
           "note": "Authorized on August 9, 1937 to suspend the San Francisco-Berkeley route for six months. Closed on or about August 1937, the month of the order: when it last ran isn't sourced (decision 17)."
+        },
+        {
+          "source": "pmr-1927-12-golden-type",
+          "supports": [
+            "route",
+            "photo"
+          ],
+          "pages": "564-565",
+          "note": "The Golden Bear, Golden Poppy and Golden Shore were \"completed and placed in commission between June 1 and July 1, 1927\"; boats left every 15 minutes from 6 a.m. to 8 p.m., then every 30."
         }
       ],
       "flags": [],
-      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999). When it last ran isn't sourced, so it closes on or about the month of the order (decision 17)."
+      "notes": "The Railroad Commission let the ferry company suspend the route for six months in August 1937 (Decision No. 29999). When it last ran isn't sourced, so it closes on or about the month of the order (decision 17).",
+      "photo": {
+        "image_url": "https://archive.org/download/pacificmarinerev2427paci/page/n799.jpg",
+        "crop": [
+          0.293,
+          0.176,
+          0.64,
+          0.428
+        ],
+        "caption": "The Golden Gate Ferry Company's Golden Poppy, on regular service between the foot of Hyde Street and the foot of University Avenue, Berkeley, in 1927. The trip took 17 minutes.",
+        "author": "Pacific Marine Review",
+        "date": "published December 1927",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/pacificmarinerev2427paci/page/n799/mode/1up",
+        "source": "pmr-1927-12-golden-type"
+      }
     },
     {
       "id": "vallejo-ferry",
