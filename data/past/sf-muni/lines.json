@@ -756,12 +756,34 @@
           ],
           "pages": "39",
           "note": "\"January 21, 1951, No. 30—Trolley coach line substituted for streetcars on the old \\\"F\\\" line\""
+        },
+        {
+          "source": "erj-1915-cashin-exposition",
+          "supports": [
+            "photo"
+          ],
+          "pages": "518-519"
         }
       ],
       "flags": [
         "conflicting_sources"
       ],
-      "notes": "Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn."
+      "notes": "Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n544.jpg",
+        "crop": [
+          0.293,
+          0.7,
+          0.716,
+          0.905
+        ],
+        "caption": "A Municipal Railway car at the Scott Street entrance to the Panama-Pacific Exposition in 1915. The F line ended here, at Chestnut and Scott Sts, by the exposition's main gates.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n544/mode/1up",
+        "source": "erj-1915-cashin-exposition"
+      }
     },
     {
       "id": "muni-h-potrero",

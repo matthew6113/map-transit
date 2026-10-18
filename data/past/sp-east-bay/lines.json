@@ -173,10 +173,33 @@
           "supports": [
             "route"
           ]
+        },
+        {
+          "source": "erj-1915-mcpherson-sp",
+          "supports": [
+            "general",
+            "photo"
+          ],
+          "pages": "544-545"
         }
       ],
       "flags": [],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n569.jpg",
+        "crop": [
+          0.106,
+          0.64,
+          0.929,
+          0.923
+        ],
+        "caption": "Southern Pacific electric trains under a signal bridge on the Oakland Mole in 1915. The Shattuck Avenue trains ran out along the mole to meet the ferries at Oakland Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n569/mode/1up",
+        "source": "erj-1915-mcpherson-sp"
+      }
     },
     {
       "id": "sp-ninth-street",
@@ -870,12 +893,34 @@
             "route"
           ],
           "note": "Announced the day before: electric service on the \"horseshoe route\" from the Oakland pier to the Alameda pier, by way of Lincoln Avenue, beginning the morning of December 19, 1911."
+        },
+        {
+          "source": "erj-1915-johansen-sp",
+          "supports": [
+            "photo"
+          ],
+          "pages": "549"
         }
       ],
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n574.jpg",
+        "crop": [
+          0.082,
+          0.049,
+          0.896,
+          0.474
+        ],
+        "caption": "The Southern Pacific's electrified tracks on the Alameda Mole in 1915, under a catenary bridge carrying signals. The Lincoln Avenue trains ran out along it to the ferries at Alameda Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n574/mode/1up",
+        "source": "erj-1915-johansen-sp"
+      }
     },
     {
       "id": "sp-eighteenth-street",

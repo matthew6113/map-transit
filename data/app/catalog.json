@@ -2303,6 +2303,46 @@
       "license": "Public domain (published 1913)",
       "accessed": "2026-10-15"
     },
+    "erj-1915-cashin-exposition": {
+      "title": "Improvements in Transit Lines to Handle Exposition Traffic",
+      "author": "T. A. Cashin",
+      "publisher": "Electric Railway Journal 46, Pacific Coast convention issue",
+      "date": "1915",
+      "type": "journal",
+      "url": "https://archive.org/details/electricrailway461915newy/page/n543/mode/1up",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-18"
+    },
+    "erj-1915-harris-sfot": {
+      "title": "Maintaining Proper Relations Between a Railway and Its Car Men",
+      "author": "George H. Harris",
+      "publisher": "Electric Railway Journal 46, Pacific Coast convention issue",
+      "date": "1915",
+      "type": "journal",
+      "url": "https://archive.org/details/electricrailway461915newy/page/n556/mode/1up",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-18"
+    },
+    "erj-1915-johansen-sp": {
+      "title": "Operation of a 1200-Volt Direct-Current Distribution System",
+      "author": "J. Johansen",
+      "publisher": "Electric Railway Journal 46, Pacific Coast convention issue",
+      "date": "1915",
+      "type": "journal",
+      "url": "https://archive.org/details/electricrailway461915newy/page/n574/mode/1up",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-18"
+    },
+    "erj-1915-mcpherson-sp": {
+      "title": "Notes on Southern Pacific Electric Service in the Bay Cities",
+      "author": "J. C. McPherson",
+      "publisher": "Electric Railway Journal 46, Pacific Coast convention issue",
+      "date": "1915",
+      "type": "journal",
+      "url": "https://archive.org/details/electricrailway461915newy/page/n569/mode/1up",
+      "license": "Public domain (published 1915)",
+      "accessed": "2026-10-18"
+    },
     "erj-1920-09-11-ocean-shore": {
       "title": "Ocean Shore Ceases Operation",
       "publisher": "Electric Railway Journal 56(11)",
@@ -12722,6 +12762,24 @@
         }
       ],
       "notes": "Muni's report for 1914-15 gives December 28, 1914 for its first day; its later reports and Callwell give December 29, the day after the tunnel's opening celebration. Its extension to the Southern Pacific depot by 4th and Townsend Sts (1947-51) isn't drawn.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n544.jpg",
+        "crop": [
+          0.293,
+          0.7,
+          0.716,
+          0.905
+        ],
+        "caption": "A Municipal Railway car at the Scott Street entrance to the Panama-Pacific Exposition in 1915. The F line ended here, at Chestnut and Scott Sts, by the exposition's main gates.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n544/mode/1up",
+        "source": "erj-1915-cashin-exposition",
+        "file": "photos/muni-f-stockton-fdb5b015.jpg",
+        "width": 960,
+        "height": 656
+      },
       "flags": [
         "conflicting_sources"
       ],
@@ -12915,6 +12973,13 @@
           ],
           "pages": "39",
           "note": "\"January 21, 1951, No. 30—Trolley coach line substituted for streetcars on the old \\\"F\\\" line\""
+        },
+        {
+          "source": "erj-1915-cashin-exposition",
+          "supports": [
+            "photo"
+          ],
+          "pages": "518-519"
         },
         {
           "source": "usgs-san-francisco-north-1950",
@@ -14161,6 +14226,24 @@
         }
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n574.jpg",
+        "crop": [
+          0.082,
+          0.049,
+          0.896,
+          0.474
+        ],
+        "caption": "The Southern Pacific's electrified tracks on the Alameda Mole in 1915, under a catenary bridge carrying signals. The Lincoln Avenue trains ran out along it to the ferries at Alameda Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n574/mode/1up",
+        "source": "erj-1915-johansen-sp",
+        "file": "photos/sp-lincoln-avenue-c17ca22e.jpg",
+        "width": 960,
+        "height": 706
+      },
       "flags": [
         "needs_manual_digitizing"
       ],
@@ -14401,6 +14484,13 @@
             "route"
           ],
           "note": "Announced the day before: electric service on the \"horseshoe route\" from the Oakland pier to the Alameda pier, by way of Lincoln Avenue, beginning the morning of December 19, 1911."
+        },
+        {
+          "source": "erj-1915-johansen-sp",
+          "supports": [
+            "photo"
+          ],
+          "pages": "549"
         },
         {
           "source": "ca-brc-report-1894",
@@ -37447,6 +37537,24 @@
       "summary": "From the Key Route pier along Yerba Buena Avenue and 40th Street to Piedmont Avenue; extended into Piedmont in 1924.",
       "fate": "converted_to_bus",
       "notes": "Not yet drawn: the 1924 extension beyond Piedmont Avenue to Oakland Avenue in Piedmont, whose streets come only from secondary sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n556.jpg",
+        "crop": [
+          0.082,
+          0.047,
+          0.898,
+          0.349
+        ],
+        "caption": "The Key System's pier terminal in 1915, where the Piedmont trains and the system's other lines met the ferries to San Francisco.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n556/mode/1up",
+        "source": "erj-1915-harris-sfot",
+        "file": "photos/key-c-a7e7ad05.jpg",
+        "width": 960,
+        "height": 501
+      },
       "flags": [
         "needs_manual_digitizing"
       ],
@@ -37668,6 +37776,13 @@
           ],
           "pages": "215",
           "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        },
+        {
+          "source": "erj-1915-harris-sfot",
+          "supports": [
+            "photo"
+          ],
+          "pages": "531"
         },
         {
           "source": "usgs-san-francisco-1915",
@@ -41965,6 +42080,24 @@
         }
       ],
       "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n569.jpg",
+        "crop": [
+          0.106,
+          0.64,
+          0.929,
+          0.923
+        ],
+        "caption": "Southern Pacific electric trains under a signal bridge on the Oakland Mole in 1915. The Shattuck Avenue trains ran out along the mole to meet the ferries at Oakland Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n569/mode/1up",
+        "source": "erj-1915-mcpherson-sp",
+        "file": "photos/sp-shattuck-avenue-f5a9a6b3.jpg",
+        "width": 960,
+        "height": 465
+      },
       "flags": [],
       "undated": false,
       "length_km": 25.83,
@@ -42341,6 +42474,14 @@
           "supports": [
             "route"
           ]
+        },
+        {
+          "source": "erj-1915-mcpherson-sp",
+          "supports": [
+            "general",
+            "photo"
+          ],
+          "pages": "544-545"
         },
         {
           "source": "usgs-oakland-west-1949",

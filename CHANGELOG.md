@@ -2,6 +2,14 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-18: Four photos from the 1915 convention issue
+
+- From the *Electric Railway Journal*'s Pacific Coast convention issue of 1915 (the Smithsonian Libraries' copy,
+  scanned by the Internet Archive): **Muni's F line**, a Municipal Railway car at the Scott Street entrance to the
+  exposition, where the line ended; **the SP's Shattuck Avenue line**, electric trains under a signal bridge on the
+  Oakland Mole; **the SP's Lincoln Avenue line**, the electrified Alameda Mole; and **the Key Route's Piedmont
+  line**, the Key System's pier terminal. Four new sources.
+
 ## 2026-10-17: A photo for the Vallejo ferry
 
 - The Monticello Steamship Company's *Napa Valley*, signed "Vallejo San Francisco Direct Ferry", from *Pacific Marine

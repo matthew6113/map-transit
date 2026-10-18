@@ -325,12 +325,34 @@
           ],
           "pages": "215",
           "note": "\"The last trains crossed the Bay Bridge in 1958.\""
+        },
+        {
+          "source": "erj-1915-harris-sfot",
+          "supports": [
+            "photo"
+          ],
+          "pages": "531"
         }
       ],
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "Not yet drawn: the 1924 extension beyond Piedmont Avenue to Oakland Avenue in Piedmont, whose streets come only from secondary sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources."
+      "notes": "Not yet drawn: the 1924 extension beyond Piedmont Avenue to Oakland Avenue in Piedmont, whose streets come only from secondary sources. The last trains ran in 1958 (HAER); April 19 or 20, 1958 is given only by later sources.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n556.jpg",
+        "crop": [
+          0.082,
+          0.047,
+          0.898,
+          0.349
+        ],
+        "caption": "The Key System's pier terminal in 1915, where the Piedmont trains and the system's other lines met the ferries to San Francisco.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n556/mode/1up",
+        "source": "erj-1915-harris-sfot"
+      }
     },
     {
       "id": "key-b",
