@@ -17,7 +17,7 @@ import { cssVariables, type ThemeVariables } from '../src/theme/variables.ts';
 
 /** The share card's size and description (tests/share-card.spec.ts draws it). */
 export const SHARE_CARD = { path: 'share-card.jpg', width: 1200, height: 630,
-  alt: 'Bay Area transit: a map of the Bay Area\'s transit lines, by Matthew Huguet' };
+  alt: 'Bay Area transit: maps of the Bay Area\'s transit lines in 1925, today and to come, by Matthew Huguet' };
 
 interface ThemeColors {
   colors: Record<string, string>;

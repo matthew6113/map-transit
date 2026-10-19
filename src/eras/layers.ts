@@ -48,32 +48,37 @@ export interface TransitView {
 
 /**
  * Ways to draw the lost lines under today's and the future's networks ("Show lost lines underneath"),
- * for Matthew to choose from (Phase 5; `?ghoststyle=`), all at theme.transit.eras.ghostOpacity:
- * - `hue`: each line in its mode's hue, as in the past era, the default so far;
+ * shown at the Phase 5 checkpoint (`?ghoststyle=`), all at theme.transit.eras.ghostOpacity:
+ * - `hue`: each line in its mode's hue, as in the past era; Matthew's choice (decision 22);
  * - `ink`: the building print's ink, so the past reads as print under today's color;
  * - `dashed`: the mode's hue, dashed, so a lost line can't pass for a running one.
  */
 export type GhostStyle = 'hue' | 'ink' | 'dashed';
 export const GHOST_STYLES: GhostStyle[] = ['hue', 'ink', 'dashed'];
+export const DEFAULT_GHOST_STYLE: GhostStyle = 'hue';
 
 /**
- * Ways to draw the reference proposals, for Matthew to choose from (Phase 4; `?proposalstyle=`). All are
+ * Ways to draw the reference proposals, shown at the Phase 4 checkpoint (`?proposalstyle=`). All are
  * thinner than lines being built (theme.transit.proposals.width), and dashed where approximate:
- * - `translucent`: the mode's hue, slightly translucent (theme.transit.proposals), the default so far;
- * - `tint`: the mode's hue mixed toward the paper, opaque, so a proposal on real track can't pass for a running line;
+ * - `translucent`: the mode's hue, slightly translucent (theme.transit.proposals);
+ * - `tint`: the mode's hue mixed toward the paper, opaque, so a proposal on real track can't pass for a
+ *   running line; Matthew's choice (decision 22);
  * - `neutral`: one color for every proposal, the mode left to the panel.
  */
 export type ProposalStyle = 'translucent' | 'tint' | 'neutral';
 export const PROPOSAL_STYLES: ProposalStyle[] = ['translucent', 'tint', 'neutral'];
+export const DEFAULT_PROPOSAL_STYLE: ProposalStyle = 'tint';
 
 /**
- * Ways to draw a future line's status, for Matthew to choose from (Phase 3; `?solidity=` previews):
- * - `opacity`: the status ladder as opacity (theme.transit.status), the default so far;
- * - `tint`: the same ladder as an opaque tint toward the paper, so overlaps don't darken;
+ * Ways to draw a future line's status, shown at the Phase 3 checkpoint (`?solidity=` previews):
+ * - `opacity`: the status ladder as opacity (theme.transit.status);
+ * - `tint`: the same ladder as an opaque tint toward the paper, so overlaps don't darken; Matthew's
+ *   choice (decision 22);
  * - `committed`: two steps, pale and thin while planned or in environmental review, full once funded.
  */
 export type StatusStyle = 'opacity' | 'tint' | 'committed';
 export const STATUS_STYLES: StatusStyle[] = ['opacity', 'tint', 'committed'];
+export const DEFAULT_STATUS_STYLE: StatusStyle = 'tint';
 
 const UNCOMMITTED = ['planned', 'environmental'];
 
@@ -179,7 +184,7 @@ function color(theme: Theme): ExpressionSpecification {
  * Future status as solidity; shared existing track at BAM's 0.55. In the future era today's network
  * steps back (BAM: the present as print, the future in color). In the past era, the year's `vis`.
  */
-function opacity(theme: Theme, dataset: Dataset, era: Era, style: StatusStyle = 'opacity', proposalStyle: ProposalStyle = 'translucent'): ExpressionSpecification | number {
+function opacity(theme: Theme, dataset: Dataset, era: Era, style: StatusStyle = DEFAULT_STATUS_STYLE, proposalStyle: ProposalStyle = DEFAULT_PROPOSAL_STYLE): ExpressionSpecification | number {
   if (era === 'past') return VIS;
   if (dataset === 'present' && era === 'future') return theme.transit.eras.presentInFuture;
   if (dataset === 'ideal') return ['case', IS_PROPOSAL, proposalStyle === 'translucent' ? theme.transit.proposals.opacity : 1, 1];
@@ -222,7 +227,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
     (f.length === 0 ? ['literal', true] : f.length === 1 ? f[0] : ['all', ...f]) as FilterSpecification;
 
   if (view.ghost && view.era !== 'past') {
-    const ghost = view.ghostStyle ?? 'hue';
+    const ghost = view.ghostStyle ?? DEFAULT_GHOST_STYLE;
     layers.push({
       id: 'transit-ghost',
       type: 'line',
@@ -239,14 +244,14 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
   }
 
   const off = offset(theme);
-  const style = view.statusStyle ?? 'opacity';
+  const style = view.statusStyle ?? DEFAULT_STATUS_STYLE;
   for (const d of shownDatasets(view)) {
     const base = [...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view) : [])];
     const src = `transit-${d}-draw`;
     const styled = d === 'future' && style !== 'opacity';
-    const lineColor = styled ? statusColor(theme, style) : d === 'ideal' ? proposalColor(theme, view.proposalStyle ?? 'translucent') : color(theme);
+    const lineColor = styled ? statusColor(theme, style) : d === 'ideal' ? proposalColor(theme, view.proposalStyle ?? DEFAULT_PROPOSAL_STYLE) : color(theme);
     const f = d === 'future' ? statusWidth(style) : d === 'ideal' ? ['case', IS_PROPOSAL, theme.transit.proposals.width, 1] as ExpressionSpecification : 1;
-    const op = opacity(theme, d, view.era, style, view.proposalStyle ?? 'translucent');
+    const op = opacity(theme, d, view.era, style, view.proposalStyle ?? DEFAULT_PROPOSAL_STYLE);
     layers.push(
       {
         // A paper casing under every stroke, so lines read over the building print.
@@ -339,7 +344,7 @@ export function transitLayers(theme: Theme, view: TransitView, fonts: { regular:
     const base = [...pastFilter(view), ...groupFilter(view), ...(d === 'ideal' ? idealFilter(view, 'lstatus') : [])];
     const isNew: ExpressionSpecification = ['==', ['get', 'status'], 'new'];
     // A proposal's stations take the proposal look's color, so they read with its line.
-    const ring = d === 'ideal' ? proposalStationColor(theme, view.proposalStyle ?? 'translucent') : byGroup(theme, (g) => modeColor(theme, g));
+    const ring = d === 'ideal' ? proposalStationColor(theme, view.proposalStyle ?? DEFAULT_PROPOSAL_STYLE) : byGroup(theme, (g) => modeColor(theme, g));
     const waterside: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['pier', 'mole', 'ferry_terminal']]];
     const works: FilterSpecification = ['in', ['get', 'kind'], ['literal', ['carbarn', 'shop', 'yard', 'depot']]];
     layers.push(

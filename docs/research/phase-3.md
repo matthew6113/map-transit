@@ -46,8 +46,8 @@ No status changed from BAM's translation of Oct 7-8. Four lines gained a cited e
 ## Solidity: three options
 
 `?solidity=` previews each. The screenshots are in `docs/screenshots/p3/` (`future-<option>-regional`,
-`-sf`, `-south-bay` and `-north-bay`). The legend follows the option shown. Nothing is picked:
-`opacity` stays the default until Matthew chooses.
+`-sf`, `-south-bay` and `-north-bay`). The legend follows the option shown. Matthew chose
+`tint` after the Phase 5 checkpoint (decision 22).
 
 | Option | How it draws status | For | Against |
 |---|---|---|---|
@@ -73,8 +73,8 @@ From `future-status-2026-10.md`, unranked; each needs Matthew's word (here, or a
 
 ## For Matthew
 
-- **Solidity:** pick `opacity`, `tint` or `committed`, or ask for another; then the palette validator
-  runs again if the status values change (`docs/DECISIONS.md`).
+- **Solidity:** settled as `tint` (decision 22). The palette validator runs again if the status values
+  change (`docs/DECISIONS.md`).
 - **CAHSR's opening:** the plan states none for San Francisco to San José. The nearest wording is
   "deliver SF-B by 2039" (the San Francisco–Bakersfield scenario, funding-dependent). It is left null;
   say if the panel should carry that wording.

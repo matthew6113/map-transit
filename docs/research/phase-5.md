@@ -65,9 +65,9 @@ Screenshots are in `docs/screenshots/p5/`.
 
 | Option | For | Against |
 |---|---|---|
-| `past-1925` (current) | One vivid picture: the interurbans' heyday, the Key System's piers and San Francisco's streetcars | Says "past" more than "past, present, future" |
+| `past-1925` | One vivid picture: the interurbans' heyday, the Key System's piers and San Francisco's streetcars | Says "past" more than "past, present, future" |
 | `present` | Today's network, what most visitors know | Less to discover; BART dominates |
-| `three-eras` | 1925, today and what's coming side by side: the site's whole idea | Each panel is narrow, and in the "Coming" panel today's network steps back, so it reads pale; the future lines sit outside this frame |
+| `three-eras` (chosen, decision 22) | 1925, today and what's coming side by side: the site's whole idea | Each panel is narrow, and in the "Coming" panel today's network steps back, so it reads pale; the future lines sit outside this frame |
 
 Change it with `SHARE_CARD=<option> npm run share-card` and commit `public/share-card.jpg`.
 
@@ -75,20 +75,20 @@ Change it with `SHARE_CARD=<option> npm run share-card` and commit `public/share
 
 | Option | For | Against |
 |---|---|---|
-| `hue` (current) | The same color as in the past era, so a line keeps its identity | Can read as a faint running line |
+| `hue` (chosen, at 0.55; decision 22) | The same color as in the past era, so a line keeps its identity | Can read as a faint running line |
 | `ink` | The past as print under today's color, in the spirit of BAM's "the present as print, the future in color" | Mode is lost; it blends into the building print |
 | `dashed` | Plainly gone, and the mode stays | Dashes already mean "approximate" everywhere else |
 
-All three are drawn at `theme.transit.eras.ghostOpacity`, 0.3. At 0.3 most lost lines nearly vanish
-over the city's print: the Key System and the East Bay streetcars barely show in
-`present-ghost-hue-east-bay`. The `-055-` shots show 0.55, where they read. The style panel's "Lost
-lines underneath" slider tries any value.
+All three are drawn at `theme.transit.eras.ghostOpacity`, 0.3 at the checkpoint. At 0.3 most lost
+lines nearly vanish over the city's print: the Key System and the East Bay streetcars barely show in
+`present-ghost-hue-east-bay`. The `-055-` shots show 0.55, where they read, and 0.55 is the value
+since decision 22. The style panel's "Lost lines underneath" slider tries any value.
 
 ### Play's pace (`?pace=`)
 
 | Option | For | Against |
 |---|---|---|
-| `even` (current) | Every year takes the same time (about 0.11 s at 1×), so time reads as time | The quiet decades take as long as the busy ones: 1960-90 takes as long as 1900-30 |
+| `even` (chosen, decision 22) | Every year takes the same time (about 0.11 s at 1×), so time reads as time | The quiet decades take as long as the busy ones: 1960-90 takes as long as 1900-30 |
 | `busy` | A year takes longer the more lines open or close in it (by the square root of their number), from 0.05 s for a quiet year to 0.35 s for 1929, the busiest (34 lines), at 1×. Over the same 20 s: 1900-30 takes 4.6 s and 1930-60 4.5 s (3.4 s each when even); 1960-90 takes 2.5 s and 1990-2026 3.4 s | Time is uneven, and the slider's ticks no longer move at a steady rate |
 
 `fadeOutYears` (2) sets how long a closed line fades. The style panel's "Fade out over" slider
@@ -98,10 +98,8 @@ tries other values.
 
 New from this phase:
 
-- **Choices:**
-  - the share card: `past-1925`, `present` or `three-eras`;
-  - the ghost: `hue`, `ink` or `dashed`, and its opacity (0.3 or about 0.55);
-  - the pace: `even` or `busy`.
+- **Choices:** made after the checkpoint (decision 22): the `three-eras` share card, the lost lines
+  in their `hue` at 0.55, and the `even` pace.
 - **Photos:**
   - look over the twenty-four in place (`past-line-*-photo`): keep, swap or drop any. Halftone scans show
     moiré;
@@ -122,5 +120,5 @@ New from this phase:
 - **Deploy:** merging the pull request publishes the site to GitHub Pages, with the share card.
 
 Still open from Phases 2, 3 and 4: the lists in `phase-2d.md`, `phase-3.md` and `phase-4.md` ("For
-Matthew"). Among them: the solidity and proposal looks, your picks for the ideal network, and the
-future statuses' next check, due Jan 14, 2027.
+Matthew"). Among them: your picks for the ideal network and the future statuses' next check, due
+Jan 14, 2027. The solidity and proposal looks are settled (`tint` and `tint`, decision 22).

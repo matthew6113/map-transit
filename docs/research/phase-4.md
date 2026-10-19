@@ -55,8 +55,8 @@ by default. Three looks are open (`?proposalstyle=`; screenshots `future-proposa
 
 | Option | How | For | Against |
 |---|---|---|---|
-| `translucent` (default) | The mode's hue at 0.85 opacity | Mode reads at a glance, as everywhere else | A proposal on track that exists (the Dumbarton rail shuttle, on the surveyed cutoff) draws solid and reads almost like a running line |
-| `tint` | The mode's hue mixed halfway toward the paper | Still says the mode, but plainly not running | Pale lines are harder to see over the building print |
+| `translucent` | The mode's hue at 0.85 opacity | Mode reads at a glance, as everywhere else | A proposal on track that exists (the Dumbarton rail shuttle, on the surveyed cutoff) draws solid and reads almost like a running line |
+| `tint` (chosen, decision 22) | The mode's hue mixed halfway toward the paper | Still says the mode, but plainly not running | Pale lines are harder to see over the building print |
 | `neutral` | One grey for every proposal | Can't be mistaken for anything built or planned | Mode is only in the panel and the list |
 
 **Matthew's own network** draws at full strength in its mode, under its own toggle ("Show
@@ -76,7 +76,7 @@ New from this phase:
   its end are the ones the proposals leave open.
 - **How your network looks** once it has lines: full strength under its own toggle, as built; or
   otherwise.
-- **The proposals' look:** `translucent`, `tint` or `neutral` (above), or another.
+- **The proposals' look:** settled as `tint` (decision 22).
 - **Statuses to confirm:** the Geary/19th subway as "under study" (it is named in SFTP 2050 and Plan
   Bay Area 2050+, but only for studies; a literal reading would make it "in an adopted plan"); the
   busway as "in an adopted plan" (Plan Bay Area 2050+ carries it, while SamTrans still studies it).
@@ -88,4 +88,5 @@ New from this phase:
 - **More research:** a follow-up pass with network access, for the documents above.
 
 Still open from Phases 2 and 3: the lists in `phase-2d.md` and `phase-3.md` ("For Matthew"),
-including the solidity option and the future statuses' next check, due Jan 14, 2027.
+including the future statuses' next check, due Jan 14, 2027 (the solidity option is settled,
+decision 22).

@@ -1,13 +1,14 @@
 /** Play's pace through the years (Phase 5, `?pace=`); src/ui/YearSlider.tsx plays it. */
 
 /**
- * How play moves through the years, for Matthew to choose from (Phase 5; `?pace=`):
- * - `even`: every year takes the same time, the default so far;
+ * How play moves through the years, shown at the Phase 5 checkpoint (`?pace=`):
+ * - `even`: every year takes the same time; Matthew's choice (decision 22);
  * - `busy`: a year takes longer the more lines open or close in it, and quiet decades pass quickly.
  *   The sweep keeps its length.
  */
 export type Pace = 'even' | 'busy';
 export const PACES: Pace[] = ['even', 'busy'];
+export const DEFAULT_PACE: Pace = 'even';
 
 type Years = { open: number; close: number };
 

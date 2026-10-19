@@ -157,7 +157,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; paint
     { name: `present-ghost-${style}-east-bay`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=11.8/37.8200/-122.2700/0/0` },
     { name: `present-ghost-${style}-sf`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=13.0/37.7750/-122.4300/0/0` },
   ]),
-  // The same at 0.55 (theme.transit.eras.ghostOpacity is 0.3).
+  // The same at 0.55, theme.transit.eras.ghostOpacity since decision 22 (it was 0.3).
   ...(['hue', 'ink'] as const).map((style) => (
     { name: `present-ghost-${style}-055-east-bay`, url: `/?ghost=1&ghoststyle=${style}&test=1#map=11.8/37.8200/-122.2700/0/0`,
       paint: [['transit-ghost', 'line-opacity', 0.55]] as [string, string, unknown][] })),
