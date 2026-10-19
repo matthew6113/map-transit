@@ -275,12 +275,97 @@
       "general"
      ],
      "pages": "1"
+    },
+    {
+     "source": "ime-1913-10-edward-t-jeffery",
+     "supports": [
+      "route",
+      "photo"
+     ],
+     "pages": "428",
+     "note": "Went into service \"about Aug. 15\" (1913), \"taking the place of the stern-wheel steamer Telephone, which formerly connected the Western Pacific Railroad system at its terminal pier in Oakland and the ferry depot at the foot of Market street\"."
     }
    ],
    "flags": [
     "closed_unsourced"
    ],
-   "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered."
+   "notes": "Its last day isn't sourced: drawn to June 9, 1933, the last date a source shows the WP still using its own mole (decision 20). The course is drawn over water between the terminals, not as steered.",
+   "photo": {
+    "image_url": "https://archive.org/download/internationalma181913newy/page/n445.jpg",
+    "crop": [
+     0.0907,
+     0.3073,
+     0.936,
+     0.6805
+    ],
+    "caption": "The launch of the Western Pacific's ferry Edward T. Jeffery at the Moore & Scott yard in Oakland on July 19, 1913. From about August 15 she ran between the WP's pier in Oakland and the Ferry Building, in place of the stern-wheeler Telephone.",
+    "author": "International Marine Engineering",
+    "date": "published October 1913",
+    "license": "PD-US-expired",
+    "source_url": "https://archive.org/details/internationalma181913newy/page/n445/mode/1up",
+    "source": "ime-1913-10-edward-t-jeffery"
+   }
+  },
+  {
+   "id": "wp-niles-san-jose",
+   "name": "Western Pacific trains, Niles to San José",
+   "short_name": "WP San José branch",
+   "system": "western-pacific",
+   "operators": [
+    {
+     "name": "Western Pacific",
+     "from": "1922-08-23",
+     "to": "1931-07"
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": "1922-08-23",
+   "closed": "1931-07",
+   "status": "closed",
+   "summary": "The Western Pacific's branch trains from Niles by Irvington, Warm Springs, Milpitas and Berryessa to East San José, opened by a special from Oakland on August 23, 1922. By 1931, trains 101 and 102 ran between Niles and San José, meeting the Scenic Limited at Niles.",
+   "fate": "converted_to_bus",
+   "fate_note": "The Railroad Commission let the trains be replaced by a bus on June 29, 1931; the bus ran from July 13, 1931 and was itself given up under an order of November 16, 1931.",
+   "route": [
+    {
+     "segment": "wp-sj-niles-jct-warm-springs",
+     "note": "From Niles station the trains ran about half a kilometre along the main line to Niles Junction, which isn't drawn as part of this line."
+    },
+    {
+     "segment": "wp-sj-warm-springs-east-san-jose"
+    }
+   ],
+   "sources": [
+    {
+     "source": "oakland-tribune-1922-08-23",
+     "supports": [
+      "opened",
+      "route"
+     ],
+     "pages": "1",
+     "note": "\"riding from Oakland to San Jose on the first train over the new line\"."
+    },
+    {
+     "source": "crc-d23837",
+     "supports": [
+      "closed",
+      "route"
+     ],
+     "pages": "1, 4",
+     "note": "Trains 101 and 102 between Niles and San José, connecting with the Scenic Limited; discontinued, with a bus substituted."
+    },
+    {
+     "source": "crc-d24234",
+     "supports": [
+      "closed",
+      "fate"
+     ],
+     "pages": "1-2",
+     "note": "The bus ran from July 13, 1931; its abandonment authorized November 16, 1931."
+    }
+   ],
+   "flags": [],
+   "notes": "The first train, on August 23, 1922, was the Oakland Chamber of Commerce's special; the first day of regular trains isn't sourced. The order replacing the trains is dated June 29, 1931, effective ten days later, and the bus began on July 13, 1931, so the last trains ran in July 1931; the day isn't stated."
   }
  ]
 }

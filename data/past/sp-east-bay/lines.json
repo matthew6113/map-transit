@@ -173,10 +173,33 @@
           "supports": [
             "route"
           ]
+        },
+        {
+          "source": "erj-1915-mcpherson-sp",
+          "supports": [
+            "general",
+            "photo"
+          ],
+          "pages": "544-545"
         }
       ],
       "flags": [],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Through Northbrae to Thousand Oaks by the loop over Solano Avenue from about February 3, 1912, when service was planned to begin (San Francisco Call, February 2, 1912); the day itself isn't confirmed.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n569.jpg",
+        "crop": [
+          0.106,
+          0.64,
+          0.929,
+          0.923
+        ],
+        "caption": "Southern Pacific electric trains under a signal bridge on the Oakland Mole in 1915. The Shattuck Avenue trains ran out along the mole to meet the ferries at Oakland Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n569/mode/1up",
+        "source": "erj-1915-mcpherson-sp"
+      }
     },
     {
       "id": "sp-ninth-street",
@@ -322,12 +345,50 @@
           "supports": [
             "general"
           ]
+        },
+        {
+          "source": "oakland-tribune-1912-02-02",
+          "supports": [
+            "general"
+          ],
+          "pages": "18",
+          "note": "Trial trip over the loop to Albany and along Ninth Street on February 2, 1912; service \"within a week\"."
+        },
+        {
+          "source": "oakland-tribune-1912-02-06",
+          "supports": [
+            "general"
+          ],
+          "pages": "3"
+        },
+        {
+          "source": "oakland-tribune-1912-02-08",
+          "supports": [
+            "general"
+          ],
+          "pages": "7"
+        },
+        {
+          "source": "oakland-tribune-1912-02-12",
+          "supports": [
+            "general"
+          ],
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes\"; regular loop service from \"next Monday\"."
         }
       ],
       "flags": [
         "opened_unsourced"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: service over the loop by Solano Avenue to Ninth Street was planned to begin on Saturday, February 3, 1912, \"if the trials justify\" (San Francisco Call, February 2, 1912); no report of the day itself has been found. Wikipedia gives February 7, 1912, citing the Berkeley Gazette, not yet checked."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Opening: a trial train ran over the loop to Albany and along Ninth Street on February 2, 1912 (Oakland Tribune, Feb. 2), and the loop's twenty-minute service, celebrated at Albany on February 7, was inaugurated that day (Tribune, Feb. 6 and 8). But on February 12 Ninth Street trains still ran on their own, every 40 minutes from 9 to 5, \"principally for trial purposes\", with regular service around the loop planned for Monday, February 19 (Tribune, Feb. 12); no report of that day has been found, so the line is drawn from February 12, when a source shows it running. The San Francisco Call of February 2 had planned service from February 3; Wikipedia gives February 7, citing the Berkeley Gazette, not yet checked.",
+      "running": [
+        {
+          "date": "1912-02-12",
+          "source": "oakland-tribune-1912-02-12",
+          "pages": "10",
+          "note": "\"Trains are being run on the Ninth street line separately, between the mole and Albany, between 9 and 5 o'clock, on a 40 minute schedule, principally for trial purposes.\""
+        }
+      ]
     },
     {
       "id": "sp-seventh-street",
@@ -402,7 +463,8 @@
           "source": "rag-1912-09-13-guppy",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "460–463"
         },
@@ -497,7 +559,22 @@
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Not yet drawn: Melrose to 106th Avenue (Bond, Beck and Blanche Streets and Bancroft Avenue, which the sources name but don't place) and the 1939–41 \"Off-Line\" connection from the bridge. Electric trains ran from the Oakland Pier to Melrose from December 1911, mixed with steam until December 30, 1911. When they were extended beyond Melrose to Dutton Avenue isn't sourced: the line still ended at Melrose in September 1913, so the Bancroft Avenue stretch, shown with the line's dates, opened later than it appears.",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_railway-age_1912-09-13_53_11/page/n8.jpg",
+        "crop": [
+          0.1289,
+          0.3532,
+          0.8542,
+          0.6211
+        ],
+        "caption": "Southern Pacific electric cars, the equipment of its East Bay lines.",
+        "author": "Railway Age Gazette",
+        "date": "published September 13, 1912",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_railway-age_1912-09-13_53_11/page/n8/mode/1up",
+        "source": "rag-1912-09-13-guppy"
+      }
     },
     {
       "id": "sp-encinal-avenue",
@@ -623,7 +700,8 @@
           "source": "erj-1911-06-17-sp-oakland",
           "supports": [
             "general",
-            "electrification"
+            "electrification",
+            "photo"
           ],
           "pages": "1048",
           "note": "\"on June 1 the Alameda line was opened\" (1911); which of the two lines isn't stated."
@@ -654,7 +732,22 @@
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The June 1, 1911 opening is matched to this line because the trains ran \"from High street to the Alameda mole\", and the Encinal Avenue line ran to High Street (CRC D33732); no source of the day names Encinal Avenue.",
+      "photo": {
+        "image_url": "https://archive.org/download/transit-journal-1932_1911-06-17_37_24/page/n5.jpg",
+        "crop": [
+          0.0742,
+          0.345,
+          0.416,
+          0.671
+        ],
+        "caption": "One of the Southern Pacific's steel motor cars for its Alameda line, which opened on June 1, 1911, seen end on with its roller pantograph.",
+        "author": "Electric Railway Journal",
+        "date": "published June 17, 1911",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/transit-journal-1932_1911-06-17_37_24/page/n5/mode/1up",
+        "source": "erj-1911-06-17-sp-oakland"
+      }
     },
     {
       "id": "sp-lincoln-avenue",
@@ -800,12 +893,34 @@
             "route"
           ],
           "note": "Announced the day before: electric service on the \"horseshoe route\" from the Oakland pier to the Alameda pier, by way of Lincoln Avenue, beginning the morning of December 19, 1911."
+        },
+        {
+          "source": "erj-1915-johansen-sp",
+          "supports": [
+            "photo"
+          ],
+          "pages": "549"
         }
       ],
       "flags": [
         "needs_manual_digitizing"
       ],
-      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out."
+      "notes": "The Interurban Electric Railway, a Southern Pacific company authorized in 1936 to take over these lines (CRC D28671), ran them until 1941; the day it took over isn't sourced here. Both Alameda lines were electrified in 1911 (CRC D33732, p. 8). Not yet drawn: the track west of Webster Street to the mole, and the east end to the Fruitvale Bridge (1939–41), which the sources don't place street by street. The opening is the date announced the day before; no report of the day itself has been found, and earlier electric running on part of the line isn't ruled out.",
+      "photo": {
+        "image_url": "https://archive.org/download/electricrailway461915newy/page/n574.jpg",
+        "crop": [
+          0.082,
+          0.049,
+          0.896,
+          0.474
+        ],
+        "caption": "The Southern Pacific's electrified tracks on the Alameda Mole in 1915, under a catenary bridge carrying signals. The Lincoln Avenue trains ran out along it to the ferries at Alameda Pier.",
+        "author": "Electric Railway Journal",
+        "date": "published 1915",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/electricrailway461915newy/page/n574/mode/1up",
+        "source": "erj-1915-johansen-sp"
+      }
     },
     {
       "id": "sp-eighteenth-street",

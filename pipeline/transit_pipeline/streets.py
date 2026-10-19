@@ -73,10 +73,11 @@ def _filesystem() -> pafs.S3FileSystem:
     return pafs.S3FileSystem(anonymous=True, region="us-west-2")
 
 
-def _area(name: str) -> Path:
+def _area(name: str, box: tuple[float, float, float, float] | None = None) -> Path:
+    """The named box's roads, cached; a box outside AREAS (the ideal era's) gives its bounds."""
     cache = CACHE_DIR / f"{name}-roads.parquet"
     if not cache.exists():
-        x0, y0, x1, y1 = AREAS[name]
+        x0, y0, x1, y1 = box or AREAS[name]
         dataset = ds.dataset(f"{BUCKET}/release/{OVERTURE_RELEASE}/theme=transportation/type=segment/",
                              filesystem=_filesystem(), format="parquet")
         filt = ((pc.field("bbox", "xmin") < x1) & (pc.field("bbox", "xmax") > x0)
@@ -98,6 +99,17 @@ def roads() -> list[tuple[str, str, LineString, str]]:
                 seen.add(r["id"])
                 out.append((r["id"], norm(name), to_metres(shapely.from_wkb(r["geometry"])), area))
     return out
+
+
+def box_street(names: list[str], name: str, box: tuple[float, float, float, float]):
+    """Today's roads with these names in a box of their own, outside AREAS, so the past era's
+    lookups (which may search every box in AREAS) never see them. In metres."""
+    want = {norm(n) for n in names}
+    found = [to_metres(shapely.from_wkb(r["geometry"])) for r in pq.read_table(_area(name, box)).to_pylist()
+             if norm((r["names"] or {}).get("primary") or "") in want]
+    if not found:
+        raise SystemExit(f"[streets] no road named {names} in the {name} box")
+    return unary_union(found)
 
 
 def street(names: list[str], area: str | list[str] | None = None):

@@ -16,7 +16,14 @@ slot across the path, so different modes are drawn side by side close in (side_b
 Today's network is cut into shared, dated segments first (extensions.py, data/present/extensions.json),
 and past lines may run over present segments, track that is still in use (decision 13).
 - <era>-points.geojson  stations, piers, terminals, carbarns.
-- catalog.json          every line with its resolved sources, for the panel and the list.
+- catalog.json          every line with its citations, for the panel and the list, and each cited
+                        source's record once.
+
+The ideal era (data/ideal/<proposal>/) is the future's layer B: the reference proposals Matthew
+designs his own network from, built like the other eras and never on the year slider. Each catalog
+entry carries its proposal: who proposed it, in which document and year, and how far it has gone.
+Matthew's own network (data/ideal/network.geojson, from the editor) joins the same era: each of its
+lines becomes one segment, `designed`, with status `ideal` and what it's based on.
 
 Dates: a segment's own dates win. When one is null, the display borrows the earliest sourced opening
 and the latest sourced closing of the lines that used it, marked `borrowed` (decision 4). The source
@@ -39,9 +46,12 @@ from . import extensions
 from .common import APP, DATA, MODE_GROUP, ROOT, SOURCES, SYSTEMS, VOCAB, write_geojson, write_json
 from .side_by_side import Paths
 
-ERAS = ("past", "present", "future")
+ERAS = ("past", "present", "future", "ideal")
 OPEN_ENDED = 9999.0  # still running (or not yet open): no closing year
-NOT_YET = 9000.0  # future lines: never on the year slider
+NOT_YET = 9000.0  # future lines and proposals: never on the year slider
+UNBUILT = ("future", "ideal")
+NETWORK = DATA / "ideal" / "network.geojson"
+NETWORK_ID = "ideal-network"  # its source, its system and its lines' id prefix
 
 
 
@@ -147,8 +157,51 @@ def mode_spans(o_p: float | None, c_p: float | None, past_uses: list[tuple[float
     return [(a, b, m) for a, b, m in spans if m], [(a, b) for a, b, m in spans if not m]
 
 
+def network() -> tuple[list[dict], dict]:
+    """Matthew's network as the ideal era's lines and segments: one segment per line, as he drew it."""
+    if not NETWORK.exists():
+        return [], {}
+    lines, segments = [], {}
+    for f in json.loads(NETWORK.read_text())["features"]:
+        p = f["properties"]
+        lid = f"{NETWORK_ID}-{p['id']}"
+        segments[lid] = {"type": "Feature", "geometry": f["geometry"], "properties": {
+            "id": lid, "system": NETWORK_ID, "name": p["name"], "opened": None, "closed": None, "structure": None,
+            "geometry_confidence": "designed",
+            "geometry_method": "Drawn by Matthew in the network editor (data/ideal/network.geojson).",
+            "sources": [{"source": NETWORK_ID, "supports": ["geometry"]}], "flags": []}}
+        lines.append({
+            "id": lid, "name": p["name"], "system": NETWORK_ID, "mode": p["mode"], "era": "ideal",
+            "opened": None, "closed": None, "status": "ideal", "route": [{"segment": lid}],
+            "sources": [{"source": NETWORK_ID, "supports": ["general"]}], "flags": [],
+            **({"notes": p["notes"]} if p.get("notes") else {}),
+            "based_on": p["based_on"], "author": p["author"],
+        })
+    return lines, segments
+
+
+def based_on(line: dict, lines: list[dict], sources: dict) -> list[dict]:
+    """What a line of Matthew's network draws on, by name: a whole proposal, or one proposal line."""
+    by_line = {l["id"]: l for l in lines}
+    by_proposal = {l["proposal_id"]: l for l in lines if l.get("proposal_id")}
+    out = []
+    for ref in line["based_on"]:
+        if ref in by_line:
+            out.append({"id": ref, "name": by_line[ref]["name"], "line": ref})
+        elif ref in by_proposal:
+            l = by_proposal[ref]
+            out.append({"id": ref, "name": f"{l['proposed_by']}: {sources[l['document']]['title']}"})
+        else:
+            out.append({"id": ref, "name": ref})
+    return out
+
+
 def load_era(era: str):
     lines, segments, points = [], {}, []
+    if era == "ideal":
+        lines, segments = network()
+    if not (DATA / era).exists():
+        return lines, segments, points
     for folder in sorted(p for p in (DATA / era).glob("*") if p.is_dir()):
         if (folder / "lines.json").exists():
             lines += json.loads((folder / "lines.json").read_text())["lines"]
@@ -158,6 +211,36 @@ def load_era(era: str):
         if (folder / "points.geojson").exists():
             points += json.loads((folder / "points.geojson").read_text())["features"]
     return lines, segments, points
+
+
+def proposal(line: dict, sources: dict) -> dict:
+    """A reference line's proposal, for the panel: who, in which document, and how far it has gone."""
+    doc = sources[line["document"]]
+    return {
+        "id": line["proposal_id"],
+        "proposed_by": line["proposed_by"],
+        "document": {k: doc[k] for k in ("id", "title", "url", "date", "publisher", "type") if k in doc},
+        "year": line["year"],
+        "status": line["proposal_status"],
+        "status_label": VOCAB["proposal_statuses"][line["proposal_status"]]["label"],
+        "status_as_of": line["status_as_of"],
+    }
+
+
+def published_photo(line: dict) -> dict | None:
+    """The line's photo as the site serves it (public/photos/, from `make photos`), with its size; none
+    until it has been downloaded, so the panel never shows a broken image."""
+    if not line.get("photo"):
+        return None
+    from PIL import Image
+    from .photos import photo_file
+    name = photo_file(line["id"], line["photo"])
+    path = ROOT / "public" / name
+    if not path.exists():
+        print(f"[build] {line['id']}: its photo isn't downloaded yet (make photos), so it's left out")
+        return None
+    with Image.open(path) as im:
+        return {**line["photo"], "file": name, "width": im.width, "height": im.height}
 
 
 def main() -> None:
@@ -187,7 +270,7 @@ def main() -> None:
     past_mode_spans: dict = {}
 
     # The present first, so the past can draw its lines over present track with its display dates.
-    for era in ("present", "past", "future"):
+    for era in ("present", "past", "future", "ideal"):
         lines, segments, points = loaded[era]
         route_segments = {**present_segments, **segments} if era == "past" else segments
         uses = defaultdict(list)  # segment id -> lines that use it
@@ -202,7 +285,7 @@ def main() -> None:
                 spans[r["segment"]].append((line, r))
 
         def line_years(line):
-            if era == "future":
+            if era in UNBUILT:
                 return NOT_YET, OPEN_ENDED
             o = decimal_year(line["opened"])
             c = decimal_year(line["closed"]) if line["closed"] else (OPEN_ENDED if line["status"] == "active" else None)
@@ -233,7 +316,7 @@ def main() -> None:
         def segment_years(seg_props, users, used=None):
             """(open_y, close_y, borrowed, undated) for display, of a segment or a point. A segment
             borrows from its lines' use of it (route from/to), a point from its lines."""
-            if era == "future":
+            if era in UNBUILT:
                 return NOT_YET, OPEN_ENDED, False, False
             o = decimal_year(seg_props["opened"])
             c = decimal_year(seg_props["closed"])
@@ -401,10 +484,13 @@ def main() -> None:
                 "status_label": statuses[line["status"]]["label"],
                 **{k: line[k] for k in ("status_as_of", "expected_opening", "last_verified", "summary", "fate",
                                         "fate_note", "successor", "continues_beyond", "gauge_mm", "gauge_label",
-                                        "traction", "photo", "links", "notes") if k in line},
+                                        "traction", "links", "notes") if k in line},
+                **({"photo": ph} if (ph := published_photo(line)) else {}),
+                **({"proposal": proposal(line, sources)} if line["status"] == "proposed" else {}),
+                **({"based_on": based_on(line, lines, sources), "author": line["author"]} if line["status"] == "ideal" else {}),
                 "flags": line["flags"],
                 **({"running": line["running"]} if line.get("running") and RUNNING_DATES else {}),
-                "undated": era != "future" and (lo is None or lc is None),
+                "undated": era not in UNBUILT and (lo is None or lc is None),
                 "length_km": round(sum(segs_km.values()), 2),
                 "confidence_km": {k: round(v, 2) for k, v in sorted(segs_km.items())},
                 "bbox": bbox(oriented),
@@ -424,7 +510,8 @@ def main() -> None:
                     "flags": route_segments[r["segment"]]["properties"]["flags"],
                     **({"notes": route_segments[r["segment"]]["properties"]["notes"]} if "notes" in route_segments[r["segment"]]["properties"] else {}),
                 } for r in line["route"]],
-                "sources": [{**{k: v for k, v in sources[s["source"]].items() if k != "notes"}, **s} for s in line_sources(line, route_segments)],
+                # Citations only: the records are listed once, in the catalog's `sources` (the client joins them).
+                "sources": line_sources(line, route_segments),
             })
 
         by_line = {l["id"]: l for l in lines}
@@ -450,6 +537,8 @@ def main() -> None:
                 "lines": "," + ",".join(p["line_ids"]) + ",",
                 "open_y": round(o, 3) if o is not None else -1, "close_y": round(c, 3) if c is not None else -1,
                 "borrowed": 1 if borrowed else 0, "undated": 1 if undated else 0,
+                # The ideal era's layers (proposals, Matthew's network) switch on apart: a station goes with its lines.
+                **({"lstatus": users[0]["status"] if users else "proposed"} if era == "ideal" else {}),
             }})
 
         if era == "present":
@@ -474,7 +563,11 @@ def main() -> None:
         }
 
     coverage = {era: coverage[era] for era in ERAS}
-    write_json(APP / "catalog.json", {"lines": sorted(catalog, key=lambda l: (l["era"], l["name"]))})
+    cited = sorted({c["source"] for l in catalog for c in l["sources"]})
+    write_json(APP / "catalog.json", {
+        "sources": {sid: {k: v for k, v in sources[sid].items() if k not in ("id", "notes")} for sid in cited},
+        "lines": sorted(catalog, key=lambda l: (l["era"], l["name"])),
+    })
     write_json(APP / "coverage.json", coverage)
     update_data_log(coverage)
     for era, c in coverage.items():

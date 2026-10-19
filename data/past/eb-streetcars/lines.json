@@ -38,6 +38,12 @@
           "date": "1948-03-09",
           "source": "cpuc-d41306",
           "pages": "2, 4-5"
+        },
+        {
+          "date": "1948-11-04",
+          "source": "cpuc-d42199",
+          "pages": "2",
+          "note": "One of the \"four remaining local rail lines (Nos. 1, 2, 4 and 5) being operated in the Cities of Oakland and Berkeley\"."
         }
       ],
       "status": "closed",
@@ -66,6 +72,14 @@
             "name"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "cpuc-d42199",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "pages": "2, 9-11"
         }
       ],
       "flags": [
@@ -163,6 +177,12 @@
           "date": "1948-03-09",
           "source": "cpuc-d41306",
           "pages": "2, 4-5"
+        },
+        {
+          "date": "1948-11-04",
+          "source": "cpuc-d42199",
+          "pages": "2",
+          "note": "One of the \"four remaining local rail lines (Nos. 1, 2, 4 and 5) being operated in the Cities of Oakland and Berkeley\"."
         }
       ],
       "status": "closed",
@@ -199,6 +219,14 @@
             "name"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "cpuc-d42199",
+          "supports": [
+            "route",
+            "fate"
+          ],
+          "pages": "2, 9-11"
         }
       ],
       "flags": [
@@ -300,7 +328,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1946-09-29",
       "running": [
         {
           "date": "1946-09-10",
@@ -310,19 +338,30 @@
       ],
       "status": "closed",
       "summary": "From a loop at 8th St and Broadway out Broadway and College Ave to Berkeley, round a loop by Bancroft Way, Fulton St, Oxford St, University Ave and Shattuck Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from September 30, 1946 (Decision 39403; The Western Railroader, October 1946).",
       "sources": [
         {
           "source": "crc-d39403",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "5-6"
+        },
+        {
+          "source": "western-railroader-1946-10",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "2",
+          "note": "\"converted to bus operation September 30th\" (1946), the first day Decision 39403 allowed; the last cars ran the day before."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -406,7 +445,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1946-09-29",
       "running": [
         {
           "date": "1946-09-10",
@@ -416,19 +455,30 @@
       ],
       "status": "closed",
       "summary": "A connection to the F Shattuck Avenue trains: from Adeline St along Alcatraz Ave and College Ave to Bancroft Way and Telegraph Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from September 30, 1946 (Decision 39403; The Western Railroader, October 1946).",
       "sources": [
         {
           "source": "crc-d39403",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "5-6"
+        },
+        {
+          "source": "western-railroader-1946-10",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "2",
+          "note": "\"converted to bus operation September 30th\" (1946), the first day Decision 39403 allowed; the last cars ran the day before."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -468,9 +518,10 @@
           "pages": "2"
         },
         {
-          "date": "1933-06-12",
+          "date": "1933-05-02",
           "source": "crc-d26059",
-          "pages": "2-3"
+          "pages": "1",
+          "note": "The county's resolution of May 2, 1933 closed the Park Street bridge, \"over which the No. 9 street car line operated\", to cars over ten tons, so the line had to stop; the day it last ran isn't given."
         }
       ],
       "status": "closed",
@@ -525,13 +576,13 @@
         {
           "segment": "eb-international-blvd-23rd-ave-5th-ave",
           "running": [
-            "1933-06-12"
+            "1933-05-02"
           ]
         },
         {
           "segment": "eb-park-st-blanding-ave-san-jose-ave",
           "running": [
-            "1933-06-12"
+            "1933-05-02"
           ],
           "note": "In Alameda"
         }
@@ -974,7 +1025,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "running": [
         {
           "date": "1935-09-03",
@@ -994,6 +1045,8 @@
       ],
       "status": "closed",
       "summary": "From Fruitvale Ave and East 27th St by East 21st St, 14th Ave and East 18th St to 3rd Ave, then a private right-of-way to 1st Ave (not drawn: its course isn't given) and a loop downtown by 12th St, 13th St and Jefferson St.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "sources": [
         {
           "source": "crc-d28206",
@@ -1015,14 +1068,22 @@
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1095,7 +1156,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "running": [
         {
           "date": "1947-03-11",
@@ -1110,6 +1171,8 @@
       ],
       "status": "closed",
       "summary": "From MacArthur Blvd and 35th Ave by MacArthur Blvd and 14th Ave to East 18th St, then with the No. 14 to downtown, where both turned back on 13th St between Clay and Jefferson Sts.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "sources": [
         {
           "source": "cpuc-d40055",
@@ -1123,14 +1186,22 @@
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1451,7 +1522,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1948-03-27",
       "running": [
         {
           "date": "1948-03-09",
@@ -1461,19 +1532,29 @@
       ],
       "status": "closed",
       "summary": "From Leimert Blvd and Oakmore Rd by Park Blvd and a private right-of-way to East 18th St, then \"other streets\" to 13th St and Broadway (not drawn: neither is given), and out Broadway, Grand Ave, Lakeshore Ave and Walavista Ave to a right-of-way beyond Carlston Ave.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses took over after the last cars on Saturday, March 27, 1948 (Decision 41306; The Western Railroader, April 1948).",
       "sources": [
         {
           "source": "cpuc-d41306",
           "supports": [
             "route",
-            "name"
+            "name",
+            "fate"
           ],
           "pages": "2, 4-5"
+        },
+        {
+          "source": "western-railroader-1948-04",
+          "supports": [
+            "closed"
+          ],
+          "pages": "leaf n7",
+          "note": "\"Lines 14, 15 and 18 were abandoned as per schedule Saturday eveing [sic] March 27th\"."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {
@@ -1621,7 +1702,7 @@
       ],
       "era": "past",
       "opened": null,
-      "closed": null,
+      "closed": "1933-11-06",
       "running": [
         {
           "date": "1933-10-16",
@@ -1631,6 +1712,8 @@
       ],
       "status": "closed",
       "summary": "The old East Shore & Suburban's line, from San Pablo Ave just south of Ashby Ave through Albany and El Cerrito to Richmond, and on to the Richmond-San Rafael ferry at Point Richmond. The map draws only San Pablo Ave, to Potrero Ave: beyond it the order's streets (Potrero Ave, Pullman Ave, 23rd St, Macdonald Ave, Garrard Blvd, Standard Ave, Scofield Ave) no longer meet as they did, and are to be traced from the 1949 Richmond sheet.",
+      "fate": "converted_to_bus",
+      "fate_note": "Buses from Tuesday, November 7, 1933; the cars ran on only to Ashby Ave, Berkeley (Richmond Record-Herald, November 3 and 7, 1933).",
       "sources": [
         {
           "source": "crc-d26438",
@@ -1639,11 +1722,28 @@
             "name"
           ],
           "pages": "1"
+        },
+        {
+          "source": "richmond-record-herald-1933-11-03",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "1",
+          "note": "Buses from the morning of Tuesday, November 7, 1933: \"At that date all street car service will be discontinued between here and Oakland\"; cars to run \"only as far as Ashby avenue in Berkeley\"."
+        },
+        {
+          "source": "richmond-record-herald-1933-11-07",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "3",
+          "note": "\"For today, with the start of the new bus system in Richmond, there will be no more street car service in Richmond.\" Its last day was Monday, November 6."
         }
       ],
       "flags": [
-        "opened_unsourced",
-        "closed_unsourced"
+        "opened_unsourced"
       ],
       "route": [
         {

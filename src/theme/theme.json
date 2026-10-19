@@ -14,7 +14,8 @@
     "selectionFill": "#DEDAD1",
     "panelBackground": "#FFFFFF",
     "panelText": "#1E1E1E",
-    "panelRule": "#E3E3E3"
+    "panelRule": "#E3E3E3",
+    "controlBorder": "#949494"
   },
   "opacity": {
     "buildings": 0.85,
@@ -66,6 +67,13 @@
       "funded": 0.8,
       "under_construction": 0.95,
       "opening": 1
+    },
+    "proposals": {
+      "note": "The future's layer B, the reference proposals (Phase 4). Placeholder: three looks are open for Matthew (?proposalstyle=translucent, tint or neutral), all at this width. translucent: the mode's hue at this opacity; tint: the mode's hue mixed toward the paper by tintMix; neutral: one color for every proposal.",
+      "opacity": 0.85,
+      "width": 0.6,
+      "tintMix": 0.5,
+      "neutral": "#857D72"
     }
   },
   "type": {

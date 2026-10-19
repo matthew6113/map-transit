@@ -1,0 +1,23 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Alameda Belt Line along Clement Ave.",
+ "segments": {
+  "abl-clement-ave": {
+   "parts": [
+    {
+     "streets": [
+      "Clement Avenue"
+     ],
+     "from": "Broadway",
+     "to": "Grand Street",
+     "area": "eastbay"
+    }
+   ],
+   "check": [
+    "usgs-oakland-east-1949",
+    "usgs-oakland-west-1949"
+   ],
+   "est_error_m": 10,
+   "note": "Single track in the center of Clement Ave, from just east of Broadway to Grand St (CRC Decision 15177, 1925)"
+  }
+ }
+}

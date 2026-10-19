@@ -290,7 +290,7 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
 | Dash | `approximate` geometry only |
 | Hollow tube | Tunnel or subway (BAM's convention) |
 | Lighter tint | Display dates borrowed from the line |
-| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). |
+| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). Three ways to draw it are open for Matthew (Phase 3; `?solidity=opacity`, `tint` or `committed`); `opacity` stays the default until he picks. |
 | Faint, uncased | Ghost overlay |
 | Lines a few pixels apart, close in | Different modes on the same path (decision 10) |
 
@@ -345,8 +345,21 @@ Milliseconds from a year step to a settled map, 12 steps each:
 - B and C reload the source and re-lay out every layer at each step. A costs about one repaint.
 - An earlier run that compared one global-state paint layer against ten filtered layers was not a
   fair test and isn't used.
-- **Still to do:** re-measure on a real GPU, including WebKit on an iPhone, in Phase 5. The real past
-  data should be smaller than 10,000 segments.
+- **With the real data (2026-10-17, Phase 5):** the past era has 576 segments and 148 lines, not
+  10,000. The same measure, years 1906 to 1917 (the second test in `tests/perf.spec.ts`):
+
+  | View | Median | p90 | Max |
+  |---|---|---|---|
+  | The "Whole Bay" frame | 378 | 665 | 698 |
+  | San Francisco, zoom 13 | 233 | 341 | 381 |
+  | San Francisco, zoom 13, with the building print | 1,289 | 2,586 | 3,061 |
+
+  The building print, not the lines, is what costs under software WebGL. On a real GPU both are
+  far cheaper; that, and WebKit on an iPhone, needs a device (Matthew's).
+- **PMTiles aren't needed for the past era.** Its files are 628 KB and 972 KB (119 KB and 150 KB
+  gzipped) and load only in the past era. The catalog, the largest file at the start, now lists each
+  source's record once and lines cite it by id: 2.66 MB to 2.07 MB (319 KB to 255 KB gzipped). It
+  loads beside the map, not before it, so it delays only the list and the panels.
 <!-- perf:end -->
 
 ## Present-era data (2026-10-13, Phase 1)
@@ -466,4 +479,53 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 - **Freight-only rail stays as BAM's faint dashed context.** BAM's context lines for transit rail and
   ferries are hidden, since this map draws its own. BAM's single `layers.context` flag is split into
   roads, rail and ferry; that split should be backported to BAM.
-- **The style panel is deferred to Phase 5.** The palette is still a one-file swap.
+- **The style panel (Phase 5) is BAM's, behind `?style=1`.** Mode colors and widths, the eras, future
+  status, proposals, the shared basemap, type, 3D and layers, all live, with the contrast check; it
+  exports `theme.json` to commit. A change kept in the browser shows only with `?style=1`, never to
+  visitors. The basemap colors are BAM's, so a change there belongs in BAM too. BAM's newer
+  `controlBorder` came with it: fields and filter chips are outlined at 3:1 (WCAG 1.4.11).
+- **The share card is drawn from the map itself** (Phase 5, `npm run share-card`): 1200×630, the
+  title band over the map, in the theme's type and colors; one card for the site and every line's
+  page. Three options are open for Matthew (`docs/screenshots/p5/share-card-*.jpg`): the whole Bay
+  in 1925 (the default), today, or 1925, today and coming side by side. Redraw it when the data or
+  the palette changes.
+
+## Accessibility (2026-10-17, Phase 5)
+
+- **axe-core runs on nine views** (`npm run a11y`, `tests/a11y.spec.ts`, WCAG 2.1 A and AA rules):
+  the present, the past at 1925, the future with proposals, a line panel, a proposal panel, a line
+  panel with a photo, the editor, the style panel and a phone's line panel. CI runs it in WebKit. The map canvas is out of axe's reach; the
+  line list is its text equivalent.
+- **One fix:** a mode chip that's off had 45% text, under 4.5:1 on the panel. It's 62% now, still
+  struck through.
+- **By hand, with the keyboard:** every control shows a focus ring; the tab order runs skip link,
+  byline, era, the era's own controls (play, speed, year), the list toggle, mode chips, search and the
+  list. Enter on a line opens its panel with focus on its title; Escape closes it and returns focus to
+  the line in the list. Drawing in the editor needs a pointer; it's an author's tool, and its form
+  fields are keyboard accessible.
+
+## The ideal network (2026-10-16, Phase 4)
+
+- **The reference layer is two-level, like the eras** (refines `docs/SCHEMA.md`'s planned flat
+  `ideal/reference/<proposal>.geojson`). Each proposal is a folder, `data/ideal/<proposal>/`, with
+  segments and lines, so proposals that share a corridor share a stroke. The app treats it as a fourth
+  dataset, `ideal`, drawn in the future era only when "Show proposals" is on (`?proposals=1`).
+- **Proposals are drawn only where their documents word a route.** Along today's streets or track,
+  `approximate` (dashed) unless the right-of-way already exists; a stretch the words don't place
+  (a turn "somewhere between Masonic and Park Presidio", a new tube under the bay) is left out, and
+  the panel says so. A proposal with no path at all is on the tradeoffs page only
+  (`docs/ideal/tradeoffs.md`).
+- **`proposal_status` is a separate vocabulary** (adopted, study, advocacy, superseded, withdrawn),
+  since a proposal isn't a project being built; `adopted` and `study` need an official source.
+- **The look is a placeholder:** proposals at 0.6 of the width, off by default, in one of three looks
+  open for Matthew (`?proposalstyle=`): `translucent` (the mode's hue at 0.85 opacity, the default),
+  `tint` (the mode's hue mixed halfway toward the paper) or `neutral` (one grey,
+  `theme.transit.proposals.neutral`). See `docs/research/phase-4.md`.
+- **The editor (Phase 4b) is an author's tool behind `?edit=1`,** loaded on demand (Terra Draw 1.35.0
+  and its MapLibre adapter 1.4.1). It exports `data/ideal/network.geojson` to commit; nothing is saved
+  to the site. Its layers (`transit-editor-*`) survive the app's diffed style updates because
+  `syncStyle` carries them into each new style.
+- **Matthew's network draws at full strength once it has lines,** with its own toggle, on by default
+  and hidden while the editor is open (the editor draws it). Its geometry is `designed`, a fourth
+  confidence used for nothing else. Whether it should look otherwise (over everything, or in place
+  of the proposals) is his call.

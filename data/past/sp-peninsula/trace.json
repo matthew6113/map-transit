@@ -868,6 +868,24 @@
         }
       ],
       "est_error_m": 30
+    },
+    "sp-los-altos-mayfield-vasona": {
+      "parts": [
+        {
+          "ohm": [
+            198540837,
+            199596214,
+            199596213,
+            198748393
+          ]
+        }
+      ],
+      "check": [
+        "usgs-palo-alto-1953",
+        "usgs-san-jose-west-1953",
+        "usgs-los-gatos-1919"
+      ],
+      "note": "OpenHistoricalMap's ways from the Peninsula main line at Mayfield (California Ave) by Los Altos, Loyola, Monta Vista and Congress Junction to Vasona Junction on the South Pacific Coast's line"
     }
   }
 }

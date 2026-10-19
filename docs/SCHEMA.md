@@ -35,7 +35,8 @@ flattens them into `data/app/`:
   dates overlap count as alongside.
 - `<era>-points.geojson`: stations and other points. Like the strokes, each carries its display years
   (`open_y`, `close_y`) and the `borrowed` and `undated` marks (decision 4).
-- `catalog.json`: every line, with its sources resolved, for the panel and the list.
+- `catalog.json`: every line with its citations, for the panel and the list, and each cited source's
+  record once (`sources`, by id; the client joins them).
 
 ## Where files live
 
@@ -45,8 +46,10 @@ data/
   sources.json     every source, cited by id
   systems.json     operating systems and companies (Key System, SP, BART, Muni...)
   <era>/<group>/   lines.json, segments.geojson, points.geojson
-                   era is past, present or future; group is a system or a generator,
+                   era is past, present, future or ideal; group is a system or a generator,
                    e.g. future/bam (from BAM), present/bart (from GTFS), past/key-system
+  ideal/<proposal>/  the future's reference proposals (layer B), one folder per proposal
+  ideal/network.geojson  Matthew's own network (hand-edited or from the editor)
   app/             built by `make app-data`; don't edit
   raw/             downloads, git-ignored
 ```
@@ -155,8 +158,15 @@ BAM marks a straight join that no figure draws as `constructed:`. Those features
 
 **Extras:**
 - `summary`
-- `photo`: `{commons_file, author, date, license, source_url}`. Public domain only: `public-domain`,
-  `PD-US-expired` or `CC0`. It is downloaded at build time, never hotlinked.
+- `photo`: `{commons_file | image_url, crop?, caption, author, date?, license, source_url, source?}`:
+  a Wikimedia Commons file name or a direct image address (a Library of Congress JPEG, or a scanned
+  page, `archive.org/download/<item>/page/n<N>.jpg`); `crop`, the part to keep as fractions
+  [left, top, right, bottom] (a halftone on a page, one half of a stereograph); a sentence on what it
+  shows, which is also its alt text; and the record that states its rights. The line cites its
+  `source` with `supports: ["photo"]`.
+  Public domain only: `public-domain`, `PD-US-expired` or `CC0`. `make photos` downloads it and
+  writes a resized copy, without metadata, to `public/photos/` (committed), and the catalog lists it
+  only once that copy exists. Never hotlinked.
 - `links[]`
 
 Plus the provenance fields above.
@@ -187,7 +197,8 @@ Points, with these properties:
 - `line_ids[]`
 - `opened`, `closed`
 - `status`: future projects only; existing, new or rebuilt.
-- `fate`, `photo`
+- `fate`, `photo` (a point's photo is in the schema but not yet downloaded or drawn: `make photos` and
+  the panel take line photos only)
 - The provenance fields.
 
 ## Today's network, dated (`present/extensions.json`)
@@ -259,16 +270,60 @@ theme's `transit.widths`).
 - Future facts come from **official sources only**, as in BAM: public agencies, their adopted plans,
   hearing records, permits and GIS.
 - Every future line needs at least one `official` source, a `status_as_of` and a `last_verified`.
-- `npm test` fails when any future line was last verified more than 90 days ago. Re-verify it
-  against official sources (Phase 3 sets up the routine), then update `last_verified`.
+- `npm test` fails when any future line was last verified more than 90 days ago. The routine:
+  `make checklists` writes `docs/checks/future.md`, each line with its status, its last check and the
+  day it falls due. Re-verify a line against the agency's own pages, then update its entry in
+  `data/future/verified.json` and run `make future-sync app-data checklists`.
+- `data/future/verified.json` is hand-kept: per line id, `status`, `status_as_of`, `expected_opening`
+  (null when no official source states one), `last_verified`, `sources[]` (citations into
+  `data/sources.json`, each quoting what it supports; ids not starting `bam-`) and `notes`.
+  `bam_sync` applies it over BAM's translated stage and drops `status_unverified`, and
+  `expected_opening_unsourced` once a date is cited. A line it doesn't list keeps BAM's.
 - With no published alignment, a project has no geometry. It appears only in the list and the
   panel, as BAM does for Link21.
 
 ## Ideal network (Phase 4)
 
-These files are added in Phase 4:
+The future era has two layers: A, what's being built (`data/future/`), and B, the ideal network.
+Layer B starts from a **reference layer** of serious proposals, which Matthew designs his own
+network from. Nothing in layer B is generated: the reference layer records what each document
+proposes, and Matthew's network holds only the lines he picks.
 
-- `ideal/reference/<proposal>.geojson`: `proposal_id`, `proposed_by`, `document`, `year` and
-  `proposal_status`, plus the provenance fields.
-- `ideal/network.geojson`: Matthew's own network, hand-editable. Fields are `id`, `name`, `mode`,
-  `based_on[]` (reference proposal ids), `notes` and `author`.
+**The reference layer, `data/ideal/<proposal>/`,** is built like the other eras (this refines the
+flat `ideal/reference/<proposal>.geojson` of the plan, so that proposals sharing a corridor share
+one stroke): `segments.geojson` for the corridors as the documents describe them, `lines.json` for
+each proposed line, and optionally `points.geojson` for named stations. The folder is the proposal.
+Each line has `era: "ideal"`, `status: "proposed"`, and:
+
+| Field | Rule |
+|---|---|
+| `proposal_id` | The folder's name. |
+| `proposed_by` | Who proposed it, as the document names them (for example "SFCTA", "SPUR"). |
+| `document` | The source id of the document that proposes it; the line cites it in `sources[]` too. |
+| `year` | The document's date. |
+| `proposal_status` | How far the proposal has gone (`vocabulary.json`, `proposal_statuses`): `adopted` (in an adopted plan), `study` (under study by a public agency), `advocacy` (proposed by a group outside government), `superseded` or `withdrawn`. `adopted` and `study` need an `official` source. |
+| `status_as_of` | When `proposal_status` was last checked. |
+
+- Proposals are facts about documents: a document says what it proposes, so it is the source for
+  that, whoever published it (`type`: `official` for public agencies, `primary_document` for others).
+- **Geometry follows the ladder.** A path traced from a document's georeferenced map is
+  `digitized`; one rebuilt from the document's words along today's streets or track is
+  `approximate` (drawn dashed), and `geometry_method` says which words and which streets. Where a
+  document publishes no path, such as a new tube under the bay, the line has no segment drawn
+  for that stretch, and the panel says so.
+- On the map, proposals are drawn thinner (`theme.transit.proposals`) and only when "Show proposals"
+  is on (`?proposals=1`). They are never on the year slider. Three looks are open for Matthew
+  (`?proposalstyle=translucent`, `tint` or `neutral`).
+- A recipe may also place stations a document names by cross street (`points`): where today's
+  street crosses the corridor, or the nearest point to a street ending within 40 m of it.
+
+**Matthew's network, `data/ideal/network.geojson`,** is hand-editable, or exported from the
+in-browser editor (Phase 4b), and checked against `data/schema/network.schema.json`. Each feature is
+a line, with `id`, `name`, `mode`, `based_on[]` (the reference proposals or proposal lines it draws
+on; empty for his own), `notes` and `author`. It holds only what Matthew draws.
+
+`make app-data` turns each of its lines into an ideal-era line (`ideal-network-<id>`, status
+`ideal`) on one segment of its own, with `geometry_confidence: designed` (a design, not a surveyed
+or reconstructed path; no authored segment may use it). In the future era it draws at full
+strength with its own toggle, "Show Matthew's network" (`?network=0` hides it), shown once the
+file has lines; its panel says what each line is based on.

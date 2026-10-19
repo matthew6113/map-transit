@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Matthew's ideal network (data/ideal/network.geojson): hand-editable, or exported from the in-browser editor (Phase 4b)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "features"
+  ],
+  "properties": {
+    "type": {
+      "const": "FeatureCollection"
+    },
+    "$comment": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/feature"
+      }
+    }
+  },
+  "$defs": {
+    "feature": {
+      "type": "object",
+      "required": [
+        "type",
+        "properties",
+        "geometry"
+      ],
+      "properties": {
+        "type": {
+          "const": "Feature"
+        },
+        "properties": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "name",
+            "mode",
+            "based_on",
+            "author"
+          ],
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "mode": {
+              "enum": [
+                "rapid_transit",
+                "railroad",
+                "commuter_rail",
+                "intercity_rail",
+                "interurban",
+                "streetcar",
+                "cable",
+                "light_rail",
+                "people_mover",
+                "ferry",
+                "brt",
+                "heritage"
+              ]
+            },
+            "based_on": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+              },
+              "description": "Ids of the reference proposals (data/ideal/<proposal>/) or their lines this line draws on; empty for Matthew's own."
+            },
+            "notes": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "geometry": {
+          "type": "object",
+          "required": [
+            "type",
+            "coordinates"
+          ],
+          "properties": {
+            "type": {
+              "enum": [
+                "LineString",
+                "MultiLineString"
+              ]
+            },
+            "coordinates": {
+              "type": "array",
+              "minItems": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

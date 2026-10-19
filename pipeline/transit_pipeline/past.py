@@ -296,6 +296,13 @@ def apply_recipe(props: dict, recipe: dict, kind: str) -> dict:
         note = "Ways " + ", ".join(str(w) for w in ids)
         props["sources"] = [s for s in props["sources"] if not s["source"].startswith("ohm-")]
         props["sources"].append({"source": ohm.source_id(), "supports": ["geometry"], "note": note})
+    elif any(s["source"].startswith("ohm-") for s in props["sources"]):
+        # A way cited by hand (compared against, not drawn from) follows the snapshot in the cache,
+        # so that a fresh `ohm fetch` doesn't leave a citation to a snapshot no longer in sources.json.
+        from . import ohm
+        for s in props["sources"]:
+            if s["source"].startswith("ohm-"):
+                s["source"] = ohm.source_id()
     if kind != "point" and len(geometry["coordinates"]) >= 2:
         props_len = to_metres(LineString(geometry["coordinates"])).length
         print(f"[past] {props['id']}: {props_len:.0f} m, {props['geometry_confidence']}")

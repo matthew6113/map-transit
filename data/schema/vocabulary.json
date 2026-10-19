@@ -33,12 +33,22 @@
     "environmental": { "label": "Environmental review", "era": "future", "meaning": "In environmental review, or cleared but without construction funding." },
     "funded": { "label": "Funded", "era": "future", "meaning": "Environmentally cleared with construction funding committed; construction not started." },
     "under_construction": { "label": "Under construction", "era": "future", "meaning": "Construction, including early works, under way." },
-    "opening": { "label": "Opening", "era": "future", "meaning": "Built and in testing, or an opening date announced by the agency." }
+    "opening": { "label": "Opening", "era": "future", "meaning": "Built and in testing, or an opening date announced by the agency." },
+    "proposed": { "label": "Proposed", "era": "ideal", "meaning": "A proposal in the reference layer: drawn as its document describes it, not as anything being built." },
+    "ideal": { "label": "Ideal network", "era": "ideal", "meaning": "A line of Matthew's ideal network: his own design, drawn on the proposals or apart from them." }
+  },
+  "proposal_statuses": {
+    "adopted": { "label": "In an adopted plan", "meaning": "In a plan a public agency has adopted, such as Plan Bay Area or the San Francisco Transportation Plan, without funding or environmental review of its own yet." },
+    "study": { "label": "Under study", "meaning": "Being studied by a public agency; not adopted." },
+    "advocacy": { "label": "Advocacy", "meaning": "Proposed by a group outside government." },
+    "superseded": { "label": "Superseded", "meaning": "Replaced by a later decision or proposal." },
+    "withdrawn": { "label": "Withdrawn", "meaning": "Dropped by those who proposed it." }
   },
   "geometry_confidence": {
     "surveyed": "From OpenStreetMap, OpenHistoricalMap, GTFS or official GIS.",
     "digitized": "Traced from a georeferenced map.",
-    "approximate": "Reconstructed from text descriptions. Drawn dashed."
+    "approximate": "Reconstructed from text descriptions. Drawn dashed.",
+    "designed": "Drawn by Matthew in the network editor: a design, not a surveyed or reconstructed path."
   },
   "structures": ["street", "surface", "elevated", "subway", "tunnel", "cut", "bridge", "trestle", "mole", "pier", "ferry"],
   "fates": ["abandoned", "converted_to_bus", "absorbed_into_bart", "absorbed_into_muni", "rail_trail", "paved_over", "still_freight", "heritage_railway", "replaced_by_rail"],

@@ -149,12 +149,34 @@
             "operator"
           ],
           "note": "July 1, 1980: \"The new agreement takes effect, with Caltrans assuming responsibility for the Peninsula Commute Service.\""
+        },
+        {
+          "source": "railroad-gazette-1907-03-15",
+          "supports": [
+            "photo"
+          ],
+          "pages": "330"
         }
       ],
       "flags": [
         "conflicting_sources"
       ],
-      "notes": "The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935."
+      "notes": "The San Francisco end moved: at 18th and Valencia Sts at first (Caltrain), the Mission (the directories), Fourth and Brannan Sts from February 14, 1864, Market and Valencia Sts by 1867, and Fourth and Townsend Sts by 1876 (Langley's directory). Only the way out of the city that the 1899 sheet draws is mapped; the earlier approaches aren't. The first train, on October 17, 1863, ran only to Big Tree Station on San Francisquito Creek; Caltrain gives regular service to Mayfield that October. In San José the trains ended at the Market Street station until 1935.",
+      "photo": {
+        "image_url": "https://archive.org/download/sim_railway-age_1907-03-15_42_11/page/n7.jpg",
+        "crop": [
+          0.373,
+          0.091,
+          0.839,
+          0.251
+        ],
+        "caption": "The north end of Tunnel No. 2 on the Southern Pacific's Bay Shore cut-off, nearly finished in 1907. The Peninsula trains ran through it from December 8, 1907.",
+        "author": "The Railroad Gazette",
+        "date": "published March 15, 1907",
+        "license": "PD-US-expired",
+        "source_url": "https://archive.org/details/sim_railway-age_1907-03-15_42_11/page/n7/mode/1up",
+        "source": "railroad-gazette-1907-03-15"
+      }
     },
     {
       "id": "sp-ocean-view",
@@ -223,6 +245,147 @@
         "closed_unsourced"
       ],
       "notes": "When the last train ran isn't sourced: Decision No. 20459 (November 15, 1928) let the trains stop for highway work between San Jose Ave and Randall St, and in the year to October 31, 1928 they carried no southbound passengers at all; Decision No. 22212 (March 18, 1930) let them be abandoned. The track stayed in freight use (it is on the 1950 sheet)."
+    },
+    {
+      "id": "sp-los-altos-branch",
+      "name": "Southern Pacific trains by Los Altos, Mayfield to Vasona Junction",
+      "short_name": "Los Altos branch",
+      "system": "southern-pacific",
+      "operators": [
+        {
+          "name": "Southern Pacific",
+          "from": "1908-04-19",
+          "to": null
+        }
+      ],
+      "mode": "commuter_rail",
+      "era": "past",
+      "opened": "1908-04-19",
+      "closed": null,
+      "status": "closed",
+      "running": [
+        {
+          "date": "1958-09-28",
+          "source": "cscrm-2021-02-001977",
+          "pages": "11",
+          "note": "One weekday round trip, Nos. 129 and 132, California Ave to Los Gatos."
+        },
+        {
+          "date": "1959-04-26",
+          "source": "cscrm-2021-02-002006",
+          "pages": "11",
+          "note": "The \"Vasona Branch\" train, now to Campbell and San José."
+        },
+        {
+          "date": "1963-09-01",
+          "source": "cscrm-2021-02-002149",
+          "pages": "11",
+          "note": "The last timetable with the branch's train."
+        }
+      ],
+      "summary": "Southern Pacific trains from San Francisco over the Mayfield cut-off by Los Altos, Loyola, Monta Vista and Congress Junction to Vasona Junction and Los Gatos, six a day when it opened in 1908; by 1957 one weekday commute train each way.",
+      "fate": "abandoned",
+      "fate_note": "The Interstate Commerce Commission ended the Vasona Junction-Los Gatos stub in January 1959 and the branch itself in 1963, effective December 26 (Campbell Press). The Foothill Expressway was to use the right of way (Campbell Press).",
+      "route": [
+        {
+          "segment": "sp-los-altos-mayfield-vasona",
+          "note": "From Vasona Junction the trains ran on over the South Pacific Coast's line to Los Gatos until January 23, 1959, and then by Campbell to San José; neither stretch is drawn as part of this line."
+        }
+      ],
+      "sources": [
+        {
+          "source": "lat-1908-03-20",
+          "supports": [
+            "general"
+          ],
+          "pages": "2",
+          "note": "The first passenger train announced for Sunday, April 12, 1908, regular service \"a week later\"."
+        },
+        {
+          "source": "campbell-interurban-press-1908-04-29",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "4"
+        },
+        {
+          "source": "cscrm-2021-02-000600",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "10",
+          "note": "Regular service from April 19, 1908: six Los Gatos trains via Los Altos, Loyola, Monta Vista and Congress Junction."
+        },
+        {
+          "source": "erj-1910-01-29-sp-electrification",
+          "supports": [
+            "general"
+          ],
+          "pages": "204"
+        },
+        {
+          "source": "cscrm-2021-02-001977",
+          "supports": [
+            "route",
+            "stations"
+          ],
+          "pages": "11"
+        },
+        {
+          "source": "western-railroader-1959-02",
+          "supports": [
+            "route"
+          ],
+          "pages": "15",
+          "note": "The train ran to Los Gatos \"for the last time January 23\", 1959; then to Vasona."
+        },
+        {
+          "source": "cscrm-2021-02-002006",
+          "supports": [
+            "route"
+          ],
+          "pages": "11"
+        },
+        {
+          "source": "cscrm-2021-02-002149",
+          "supports": [
+            "general"
+          ],
+          "pages": "11"
+        },
+        {
+          "source": "cscrm-2021-02-002147",
+          "supports": [
+            "closed"
+          ],
+          "pages": "11",
+          "note": "From October 27, 1963 the branch is listed with no trains."
+        },
+        {
+          "source": "campbell-press-1963-12-18",
+          "supports": [
+            "closed",
+            "fate"
+          ],
+          "pages": "9",
+          "note": "The ICC \"has ruled for abandonment … effective December 26th\"."
+        },
+        {
+          "source": "cpuc-d67736",
+          "supports": [
+            "fate"
+          ],
+          "pages": "23",
+          "note": "Takes notice of the ICC's decision authorizing Southern Pacific \"to discontinue the Vasona Branch\"."
+        }
+      ],
+      "flags": [
+        "closed_unsourced",
+        "conflicting_sources"
+      ],
+      "notes": "Drawn to September 1963, its last timetable with a train (decision 20). The last day isn't settled: the timetable of October 27, 1963 has no train on the branch, the ICC's abandonment took effect on December 26, 1963 (Campbell Press), and a local history of 1973 gives the last train through Los Altos as January 27, 1964 (read only in a search snippet)."
     }
   ]
 }

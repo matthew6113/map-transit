@@ -20,14 +20,18 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       records of BART, SFMTA, VTA, Caltrain, SMART, the ferry operators, ACE, the Capitol Corridor, Amtrak, AC Transit,
       MTC, SFCTA, Alameda CTC and the CPUC. Future
       lines as researched for Bay Area megaprojects from official sources: VTA GIS, TJPA, Valley Link, SMART and the
-      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS). Past lines traced from
+      County of Sonoma (CC BY-SA 3.0 US), and the U.S. DOT National Transportation Atlas (BTS); their statuses and
+      expected openings from VTA, TJPA, MTC, SFCTA, the FTA, the High-Speed Rail Authority, Valley Link and SMART;
+      proposals as SFCTA, SFMTA, SamTrans and MTC describe them. Past
+      lines traced from
       the <a href="https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past">USGS
       Historical Topographic Map Collection</a> (public domain), from{' '}
       <a href="https://www.openhistoricalmap.org/">OpenHistoricalMap</a> (CC0) and along today's street centerlines from
       Overture Maps (ODbL), with dates from California Railroad Commission decisions, period journals, newspapers and city
       directories, Muni's own chronology, San Francisco's street railway reports of 1909 and 1929, the county histories of
-      1876–83, the state Board of Railroad Commissioners' reports and Poor's Manual of Railroads. Sources for every
-      line are in its panel.
+      1876–83, the state Board of Railroad Commissioners' reports and Poor's Manual of Railroads. Photos are public
+      domain, from period journals scanned by the <a href="https://archive.org/">Internet Archive</a>. Sources for
+      every line, and each photo's, are in its panel.
     </>
   );
 }

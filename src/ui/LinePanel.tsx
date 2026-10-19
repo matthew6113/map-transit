@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'preact/hooks';
 import type { LineRecord, ResolvedSource } from '../data/catalog';
-import { CONFIDENCE, FLAGS, STATUSES } from '../data/vocab';
+import { CONFIDENCE, FLAGS, PROPOSAL_STATUSES, STATUSES } from '../data/vocab';
 import { formatDate, formatLength, formatRunning, formatYears, modeVar, trackFrom } from './format';
 
 interface Props {
@@ -20,10 +20,17 @@ const FATES: Record<string, string> = {
   replaced_by_rail: 'Replaced by another rail line',
 };
 
+const PHOTO_LICENSE: Record<string, string> = {
+  'public-domain': 'Public domain',
+  'PD-US-expired': 'Public domain (its US copyright has expired)',
+  CC0: 'CC0, no rights reserved',
+};
+
 const CONFIDENCE_LABEL: Record<string, string> = {
   surveyed: 'Surveyed',
   digitized: 'Traced from a map',
   approximate: 'Approximate',
+  designed: 'Designed',
 };
 
 /** The line's panel: what it is, when it ran, what happened to it, how it's drawn, and its sources. */
@@ -33,7 +40,10 @@ export function LinePanel({ line, onClose }: Props) {
     heading.current?.focus({ preventScroll: true });
   }, [line.id]);
 
-  const future = line.era === 'future';
+  const proposal = line.proposal;
+  const mine = line.status === 'ideal';
+  // Not built (a future line, a proposal or a line of Matthew's network): no years of service.
+  const future = line.era === 'future' || line.era === 'ideal';
   const running = line.status === 'closed' && line.running?.length ? line.running : null;
   const years = running ? formatRunning(line.opened, line.closed, running)
     : formatYears(line.opened, line.closed, line.status, trackFrom(line.segments));
@@ -48,8 +58,8 @@ export function LinePanel({ line, onClose }: Props) {
           <h2 id="line-title" ref={heading} tabIndex={-1}>{line.name}</h2>
           <p class="meta">
             <span class="mode-chip"><i style={{ background: modeVar(line.group) }} />{line.mode_label}</span>
-            <span>{line.system_name}</span>
-            <span>{future ? STATUSES[line.status].label : years}</span>
+            <span>{proposal ? proposal.proposed_by : mine ? line.author : line.system_name}</span>
+            <span>{proposal ? proposal.status_label : future ? STATUSES[line.status].label : years}</span>
           </p>
         </div>
         <button type="button" class="close" aria-label="Close" onClick={onClose}>
@@ -57,7 +67,24 @@ export function LinePanel({ line, onClose }: Props) {
         </button>
       </header>
 
-      {future && (
+      {proposal && (
+        <p class="status-note">
+          <strong>A proposal</strong>, drawn as {proposal.document.url ? <a href={proposal.document.url}>{proposal.document.title}</a> : proposal.document.title}
+          {' '}({proposal.year.slice(0, 4)}) describes it; nothing here is being built. {proposal.status_label} as of{' '}
+          {formatDate(proposal.status_as_of)}: {PROPOSAL_STATUSES[proposal.status].meaning}
+        </p>
+      )}
+
+      {mine && (
+        <p class="status-note">
+          <strong>Matthew's network</strong>: his design, not a project being built or a proposal.
+          {line.based_on?.length
+            ? <> Based on {line.based_on.map((b, i) => <span key={b.id}>{i ? '; ' : ''}{b.name}</span>)}.</>
+            : ' Drawn on its own, from no proposal.'}
+        </p>
+      )}
+
+      {future && !proposal && !mine && (
         <p class="status-note">
           <strong>{STATUSES[line.status].label}</strong>
           {line.status_as_of && <> as of {formatDate(line.status_as_of)}</>}. {STATUSES[line.status].meaning}
@@ -66,6 +93,21 @@ export function LinePanel({ line, onClose }: Props) {
       )}
 
       {line.summary && <p class="summary">{line.summary}</p>}
+
+      {line.photo && (
+        <figure class="photo">
+          {/* Served from this site (make photos), never hotlinked. */}
+          <img src={`${import.meta.env.BASE_URL}${line.photo.file}`} width={line.photo.width} height={line.photo.height}
+            alt={line.photo.caption} loading="lazy" decoding="async" />
+          <figcaption>
+            {line.photo.caption}{' '}
+            <span class="credit">
+              {line.photo.author}{line.photo.date ? `, ${line.photo.date}` : ''}. {PHOTO_LICENSE[line.photo.license]}.{' '}
+              <a href={line.photo.source_url}>Source</a>
+            </span>
+          </figcaption>
+        </figure>
+      )}
 
       <section>
         <dl class="facts">
@@ -115,8 +157,9 @@ export function LinePanel({ line, onClose }: Props) {
         <details>
           <summary>Segments ({line.segments.length})</summary>
           <ol class="segments">
-            {line.segments.map((s) => (
-              <li key={s.id}>
+            {/* A segment can appear twice, once per period this line used it, so its id alone isn't a key. */}
+            {line.segments.map((s, i) => (
+              <li key={`${s.id}-${i}`}>
                 <span class="seg-name">{s.name}</span>
                 <span class="small">
                   {CONFIDENCE_LABEL[s.confidence]}
@@ -138,19 +181,6 @@ export function LinePanel({ line, onClose }: Props) {
           </ol>
         </details>
       </section>
-
-      {line.photo && (
-        <figure class="photo">
-          <img src={`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(line.photo.commons_file)}?width=800`}
-            alt="" loading="lazy" />
-          <figcaption>
-            <span class="credit">
-              {line.photo.author}{line.photo.date ? `, ${line.photo.date}` : ''}. {line.photo.license}.{' '}
-              <a href={line.photo.source_url}>Source</a>
-            </span>
-          </figcaption>
-        </figure>
-      )}
 
       {line.flags.length > 0 && (
         <section>

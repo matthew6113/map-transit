@@ -20,6 +20,7 @@ describe('theme.json', () => {
   it("keeps BAM's basemap colors, so the two maps can share one theme file", () => {
     expect(themeJson.colors).toMatchObject({
       land: '#FBFAF6', water: '#E3E8EA', shoreline: '#9CA6AE', buildings: '#3A3631', labels: '#3A3835', context: '#C5CAD0',
+      controlBorder: '#949494',
     });
   });
 });

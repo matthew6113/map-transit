@@ -1,0 +1,64 @@
+{
+  "$comment": "Recipe for transit_pipeline.ideal (make ideal). Research: docs/research/ideal/san-francisco.md, section 4.",
+  "system": "muni",
+  "segments": {
+    "central-subway-ext-columbus": {
+      "name": "Columbus Avenue, Union Street to Beach Street",
+      "streets": [
+        {
+          "names": [
+            "Columbus Avenue"
+          ],
+          "from": "Union Street",
+          "to": "Beach Street",
+          "area": "sf"
+        }
+      ],
+      "method": "Along today's Columbus Ave centerline (Overture) from Union St, at Washington Square, where every concept alignment has a North Beach station, to Beach St at Conrad Square, one of the study's Fisherman's Wharf ends. The concepts run in subway or on the surface; which isn't chosen. Not drawn: the link from the end of today's tunnel to Washington Square, which the text doesn't route.",
+      "sources": [
+        {
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route"
+          ],
+          "note": "\"A station in North Beach at or near Washington Square is present in all concept alignments\"; alignments on Columbus Avenue, on Powell Street, and on Powell and Beach Streets, ending near Kirkland Yard at Powell and Beach or at Conrad Square near Columbus and Beach (paraphrase)."
+        },
+        {
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    },
+    "central-subway-ext-powell": {
+      "name": "Powell Street, Union Street to Beach Street",
+      "streets": [
+        {
+          "names": [
+            "Powell Street"
+          ],
+          "from": "Union Street",
+          "to": "Beach Street",
+          "area": "sf"
+        }
+      ],
+      "method": "Along today's Powell St centerline (Overture) from Union St, at Washington Square, to Beach St near Kirkland Yard, the study's other Fisherman's Wharf end. Subway or surface isn't chosen. Not drawn: the link from the end of today's tunnel to Washington Square.",
+      "sources": [
+        {
+          "source": "sfmta-t-third-phase-3-study-2015",
+          "supports": [
+            "route"
+          ],
+          "note": "\"A station in North Beach at or near Washington Square is present in all concept alignments\"; alignments on Columbus Avenue, on Powell Street, and on Powell and Beach Streets, ending near Kirkland Yard at Powell and Beach or at Conrad Square near Columbus and Beach (paraphrase)."
+        },
+        {
+          "source": "overture-roads-2026-09-23-1",
+          "supports": [
+            "geometry"
+          ]
+        }
+      ]
+    }
+  }
+}

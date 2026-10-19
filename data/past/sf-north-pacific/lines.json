@@ -22,7 +22,7 @@
         }
       ],
       "era": "past",
-      "opened": "1870-10",
+      "opened": "1870-10-22",
       "closed": null,
       "status": "closed",
       "running": [
@@ -78,13 +78,22 @@
             "route"
           ],
           "pages": "874"
+        },
+        {
+          "source": "alta-guide-1871",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "97",
+          "note": "Petaluma to Santa Rosa \"was completed on the 22nd of October 1870\"; that afternoon \"the first passenger car from Petaluma arrived at Santa Rosa\"."
         }
       ],
       "flags": [
         "closed_unsourced",
         "conflicting_sources"
       ],
-      "notes": "The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 1870, when a passenger car was put on to Santa Rosa. Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running)."
+      "notes": "The company's own returns open Donahue to Santa Rosa on January 1, 1870, before the line was built in the autumn of 1870 (Sonoma County history); the map takes October 22, 1870, when the first passenger car from Petaluma reached Santa Rosa (the Alta California guide of 1871). Donahue to Petaluma, eight miles along the river, isn't drawn: no map of it has been traced. By 1887 it was a branch, and trains came from Tiburon instead (decision 20 draws this line to 1885, the last date a source shows it running)."
     },
     {
       "id": "sfnp-tiburon",

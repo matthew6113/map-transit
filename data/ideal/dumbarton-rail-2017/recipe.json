@@ -1,0 +1,20 @@
+{
+  "$comment": "Recipe for transit_pipeline.ideal (make ideal). Research: docs/research/ideal/link21-dumbarton-express-rail.md, section 2.",
+  "system": "samtrans",
+  "segments": {
+    "dumbarton-rail-2017-redwood-jct-newark": {
+      "name": "Dumbarton rail corridor, Redwood Junction to Newark",
+      "copy": "sp-dumbarton-cutoff",
+      "method": "The Dumbarton Cutoff as the past era draws it (OpenHistoricalMap's ways), from Redwood Junction across the rail bridge to Newark: the study's rail runs on the existing Dumbarton rail bridge and right-of-way between Redwood City and Newark. Not drawn: the stretch on today's Caltrain track from Redwood Junction to Redwood City station, and the extension to Union City, which the text doesn't route.",
+      "sources": [
+        {
+          "source": "samtrans-dtcs-final-report-2017",
+          "supports": [
+            "route"
+          ],
+          "note": "A \"rail shuttle service\" on the Dumbarton rail bridge between Redwood City and Newark, \"with the goal of extending to Union City by 2030\"."
+        }
+      ]
+    }
+  }
+}

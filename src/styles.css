@@ -409,7 +409,7 @@ body {
 .year-slider select {
   font: 12px/1.3 var(--font-ui);
   padding: 2px 3px;
-  border: 1px solid var(--color-panel-rule);
+  border: 1px solid var(--color-control-border);
   border-radius: 2px;
   background: var(--color-panel-background);
   color: var(--color-panel-text);
@@ -535,7 +535,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  border: 1px solid var(--color-panel-rule);
+  border: 1px solid var(--color-control-border);
   border-radius: 2px;
   background: transparent;
   color: var(--color-panel-text);
@@ -568,7 +568,8 @@ body {
 }
 
 .mode-toggle[aria-pressed='false'] {
-  color: color-mix(in srgb, var(--color-panel-text) 45%, transparent);
+  /* Dimmer than a chip that's on, but still 4.5:1 on the panel (WCAG AA); the strike says it's off. */
+  color: color-mix(in srgb, var(--color-panel-text) 62%, transparent);
   text-decoration: line-through;
 }
 
@@ -625,12 +626,28 @@ body {
   opacity: 0.4;
 }
 
+.index .legend .thin {
+  stroke-width: 1.4;
+}
+
+.index .legend .proposal-translucent {
+  opacity: 0.85;
+}
+
+.index .legend .proposal-tint {
+  stroke: color-mix(in srgb, var(--color-panel-text) 50%, var(--color-land));
+}
+
+.index .legend .proposal-neutral {
+  stroke: var(--transit-proposal-neutral);
+}
+
 .index .search input {
   width: 100%;
   margin-top: 8px;
   font: 13px/1.3 var(--font-ui);
   padding: 5px 7px;
-  border: 1px solid var(--color-panel-rule);
+  border: 1px solid var(--color-control-border);
   border-radius: 2px;
   background: var(--color-panel-background);
   color: var(--color-panel-text);
@@ -984,10 +1001,13 @@ body {
   background: var(--color-panel-rule);
 }
 
-.line-panel .photo .credit {
-  display: block;
+.line-panel .photo figcaption {
   margin-top: 6px;
   font-size: 12.5px;
+  line-height: 1.4;
+}
+
+.line-panel .photo .credit {
   color: color-mix(in srgb, var(--color-panel-text) 72%, transparent);
 }
 
@@ -1081,5 +1101,306 @@ body {
 
   #index-body {
     max-height: calc(50dvh - 120px);
+  }
+}
+
+/* The network editor (src/editor/Editor.tsx, ?edit=1): in the line panel's place. */
+.editor .editor-tools,
+.editor .editor-file {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 6px;
+}
+
+.editor .editor-tools button,
+.editor .editor-file button {
+  font: 13px/1.2 var(--font-ui);
+  padding: 6px 10px;
+  border: 1px solid var(--color-panel-rule);
+  border-radius: 4px;
+  background: var(--color-panel-background);
+  color: var(--color-panel-text);
+  cursor: pointer;
+}
+
+.editor .editor-tools button[aria-pressed='true'] {
+  background: var(--color-panel-text);
+  color: var(--color-panel-background);
+  border-color: var(--color-panel-text);
+}
+
+.editor .editor-tools button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.editor .editor-form label,
+.editor .editor-form fieldset {
+  display: block;
+  margin: 0 0 10px;
+  font: 13px/1.3 var(--font-ui);
+}
+
+.editor .editor-form fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.editor .editor-form legend {
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.editor .editor-form input[type='text'],
+.editor .editor-form select,
+.editor .editor-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  font: 13px/1.3 var(--font-ui);
+  padding: 5px 7px;
+  border: 1px solid var(--color-control-border);
+  border-radius: 4px;
+  background: var(--color-panel-background);
+  color: var(--color-panel-text);
+}
+
+.editor .editor-form label.check {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  margin: 0 0 4px;
+}
+
+.editor button.link {
+  font: inherit;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------- style panel (?style=1, from BAM) */
+
+.style-toggle {
+  position: absolute;
+  top: calc(12px + var(--safe-top));
+  right: calc(16px + var(--safe-right));
+  z-index: 3;
+  appearance: none;
+  border: 1px solid var(--color-control-border);
+  background: var(--color-panel-background);
+  color: var(--color-panel-text);
+  font: 600 12px/1 var(--font-ui);
+  padding: 7px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.style-toggle:focus-visible,
+.style-panel :focus-visible {
+  outline: 2px solid var(--color-selection);
+  outline-offset: 1px;
+}
+
+.with-panel .controls {
+  right: 356px;
+}
+
+@media (min-width: 720px) {
+  /* Beside the line panel or the editor, not over their close buttons. */
+  .with-line .style-toggle {
+    right: calc(min(400px, 45%) + 16px);
+  }
+
+  /* With both panels open, the controls sit left of the wider one. */
+  .with-panel.with-line .controls {
+    right: max(356px, calc(min(400px, 45%) + 16px));
+  }
+}
+
+.style-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 340px;
+  overflow-y: auto;
+  /* Over the line panel and the editor: an author's tool, opened on purpose. */
+  z-index: 6;
+  background: var(--color-panel-background);
+  color: var(--color-panel-text);
+  border-left: 1px solid var(--color-panel-rule);
+  padding: 14px 16px 24px;
+  font-size: 12.5px;
+}
+
+.style-panel header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.style-panel h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.style-panel h3 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.style-panel section {
+  border-top: 1px solid var(--color-panel-rule);
+  padding: 12px 0;
+}
+
+.style-panel .close {
+  appearance: none;
+  border: 0;
+  background: none;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  color: var(--color-panel-text);
+}
+
+.style-panel .close svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  stroke-width: 1.5;
+}
+
+.style-panel .hint {
+  margin: 4px 0 10px;
+  color: color-mix(in srgb, var(--color-panel-text) 65%, transparent);
+}
+
+.style-panel code {
+  font-size: 11.5px;
+}
+
+.style-panel .field {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0;
+}
+
+.style-panel .field > span {
+  min-width: 0;
+}
+
+.style-panel input[type='color'] {
+  width: 28px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid var(--color-control-border);
+  background: none;
+}
+
+.style-panel input[type='text'] {
+  width: 76px;
+  font: 12px/1.2 ui-monospace, 'SF Mono', Menlo, monospace;
+  padding: 3px 4px;
+  border: 1px solid var(--color-control-border);
+  color: var(--color-panel-text);
+  background: var(--color-panel-background);
+}
+
+.style-panel select {
+  font: inherit;
+  padding: 3px 4px;
+  max-width: 100%;
+}
+
+.style-panel .field select {
+  grid-column: 2 / 4;
+}
+
+.style-panel .slider-field {
+  grid-template-columns: 1fr 110px 34px;
+}
+
+.style-panel .slider-field input[type='range'] {
+  accent-color: var(--color-panel-text);
+}
+
+.style-panel .slider-field output {
+  text-align: right;
+}
+
+.style-panel .check {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.style-panel fieldset {
+  border: 0;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.style-panel legend {
+  padding: 0;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.style-panel .sample {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.style-panel .issues {
+  margin: 0;
+  padding-left: 16px;
+  font-weight: 600;
+}
+
+.style-panel .actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.style-panel .actions button {
+  font: 600 12px/1 var(--font-ui);
+  padding: 7px 10px;
+  border: 1px solid var(--color-control-border);
+  background: var(--color-panel-background);
+  color: var(--color-panel-text);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.style-panel .actions .hint {
+  flex-basis: 100%;
+}
+
+@media (max-width: 640px) {
+  .style-panel {
+    top: auto;
+    width: 100%;
+    max-height: 60%;
+    border-left: 0;
+    border-top: 1px solid var(--color-panel-rule);
+  }
+
+  .with-panel .controls {
+    right: 10px;
   }
 }

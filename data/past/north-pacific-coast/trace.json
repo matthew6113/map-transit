@@ -151,6 +151,44 @@
    ],
    "check": "usgs-duncans-mills-1945",
    "note": "Cut at Monte Rio as the 1945 sheet labels it"
+  },
+  "npc-san-rafael-san-quentin": {
+   "parts": [
+    {
+     "join": "nwp-san-anselmo-san-rafael",
+     "at": "end"
+    },
+    {
+     "ohm": [
+      200221496,
+      200221509
+     ],
+     "from": [
+      -122.525905,
+      37.968652
+     ]
+    }
+   ],
+   "check": [
+    "usgs-tamalpais-1941",
+    "usgs-tamalpais-1897",
+    "usgs-san-francisco-1899"
+   ],
+   "note": "From the San Rafael branch's end at San Rafael, southeast beside the Northwestern Pacific's main line and along the shore to the wharf at Point San Quentin; OpenHistoricalMap's ways, traced by its mappers from the 1897 Tamalpais and 1895 San Francisco sheets, run within a few tens of metres of the line on the 1941 Tamalpais sheet as far as that sheet goes. Where in San Rafael the San Rafael & San Quentin ended isn't sourced"
+  },
+  "npc-san-quentin-ferry-course": {
+   "parts": [
+    {
+     "water": [
+      [
+       -122.47741,
+       37.94349
+      ],
+      "Davis Street/Vallejo Street"
+     ]
+    }
+   ],
+   "note": "The sources give the terminals: the Davis St wharf between Broadway and Vallejo St, and Point San Quentin"
   }
  }
 }

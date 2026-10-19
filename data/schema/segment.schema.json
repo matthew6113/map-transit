@@ -239,7 +239,8 @@
           "enum": [
             "surveyed",
             "digitized",
-            "approximate"
+            "approximate",
+            "designed"
           ]
         },
         "geometry_method": {

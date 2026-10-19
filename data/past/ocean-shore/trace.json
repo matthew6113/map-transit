@@ -1,0 +1,66 @@
+{
+ "$comment": "Geometry recipes (pipeline/transit_pipeline/past.py): the Ocean Shore Railroad's coast line from OpenHistoricalMap's way.",
+ "segments": {
+  "os-daly-city-tobin": {
+   "parts": [
+    {
+     "ohm": [
+      200014102
+     ],
+     "to": [
+      -122.50536,
+      37.59614
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-mateo-1915",
+    "usgs-san-francisco-south-1950",
+    "usgs-montara-mountain-1949"
+   ],
+   "note": "From Daly City, near the county line, to the coast at Thornton and along the Mussel Rock bluffs by Edgemar, Salada, Vallemar and Rockaway to Tobin (Pedro Valley), cut where the 1949 sheet labels Pedro Valley. OpenHistoricalMap's way lies on the coast and the old grade as the 1949-50 sheets draw them; the 1915 sheet as scanned sets the line about 150 m off"
+  },
+  "os-tobin-farallone": {
+   "parts": [
+    {
+     "ohm": [
+      200014102
+     ],
+     "from": [
+      -122.50536,
+      37.59614
+     ],
+     "to": [
+      -122.51719,
+      37.53987
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-mateo-1915",
+    "usgs-san-francisco-south-1950",
+    "usgs-montara-mountain-1949"
+   ],
+   "note": "Round San Pedro Point and along the bluffs at Devil's Slide to Montara and Farallone, cut where the 1949 sheet labels Montara"
+  },
+  "os-farallone-north-granada": {
+   "parts": [
+    {
+     "ohm": [
+      200014102
+     ],
+     "from": [
+      -122.51719,
+      37.53987
+     ]
+    }
+   ],
+   "check": [
+    "usgs-san-mateo-1915",
+    "usgs-san-francisco-south-1950",
+    "usgs-montara-mountain-1949"
+   ],
+   "note": "By Moss Beach and across the flat to Princeton and North Granada, where the way ends, as the 1915 sheet's drawing of the line does"
+  }
+ }
+}

@@ -11,10 +11,13 @@ export function stepMs(speed: number) {
   return SWEEP_MS / (LAST_YEAR - FIRST_YEAR) / speed;
 }
 
+
 interface Props {
   year: number;
   playing: boolean;
   speed: number;
+  /** A year's step as a multiple of an even one (`?pace=`). */
+  pace?: (year: number) => number;
   onYear: (year: number, opts?: { animateFrom?: number }) => void;
   onPlaying: (playing: boolean) => void;
   onSpeed: (speed: number) => void;
@@ -35,18 +38,18 @@ function bySystem<T extends { system: string }>(items: T[]): [string, T[]][] {
   return [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
 }
 
-export function YearSlider({ year, playing, speed, onYear, onPlaying, onSpeed, undated }: Props) {
-  const live = useRef({ year, onYear });
-  live.current = { year, onYear };
+export function YearSlider({ year, playing, speed, pace = () => 1, onYear, onPlaying, onSpeed, undated }: Props) {
+  const live = useRef({ year, onYear, pace });
+  live.current = { year, onYear, pace };
 
   useEffect(() => {
     if (!playing) return;
     const reduced = prefersReducedMotion();
     const step = reduced ? 10 : 1;
-    const ms = reduced ? 700 : stepMs(speed);
     let last = performance.now();
     let raf = 0;
     const tick = (now: number) => {
+      const ms = reduced ? 700 : stepMs(speed) * live.current.pace(Math.min(LAST_YEAR, live.current.year + step));
       if (now - last >= ms) {
         last = now;
         const from = live.current.year;

@@ -1,0 +1,155 @@
+{
+ "$comment": "Hand-edited (docs/SCHEMA.md). The California & Nevada Railroad. Research: docs/research/sources-2c/dumbarton-cn.md, section 2.",
+ "lines": [
+  {
+   "id": "cn-oakland-bryant",
+   "name": "California & Nevada trains, Emery to Bryant",
+   "short_name": "California & Nevada",
+   "system": "california-nevada",
+   "operators": [
+    {
+     "name": "California and Nevada Railroad",
+     "from": null,
+     "to": null
+    }
+   ],
+   "mode": "railroad",
+   "era": "past",
+   "opened": null,
+   "closed": null,
+   "status": "closed",
+   "summary": "A narrow-gauge railroad from the Southern Pacific's Berkeley line at Emery, by Fortieth St and San Pablo Ave, Berkeley and San Pablo, up San Pablo Creek to Orinda Park and Bryant, built in the 1880s toward a Nevada line it never reached. It ran trains for the public now and then: twice a week to Orinda Park in 1889, a daily express to Bryant in the summer of 1896, two or three round trips a week by the end of 1897.",
+   "fate": "abandoned",
+   "fate_note": "By December 1897 it \"no longer runs trains regularly\" (Oakland Tribune). Its right of way north of Berkeley later carried the Santa Fe's Oakland line.",
+   "running": [
+    {
+     "date": "1889-10-10",
+     "source": "oakland-tribune-1889-10-10",
+     "pages": "n5",
+     "note": "\"Regular trains are now run twice a week … to the end of the road near Orinda Park\"."
+    },
+    {
+     "date": "1892-07-13",
+     "source": "ca-brc-report-13",
+     "pages": "118",
+     "note": "The company's sworn answer: it charged and collected fares, under \"fare schedules\"."
+    },
+    {
+     "date": "1895-06-30",
+     "source": "poors-1896",
+     "pages": "339",
+     "note": "Passenger earnings of $2,816 in the year to June 30, 1895."
+    },
+    {
+     "date": "1896-06-01",
+     "source": "oakland-tribune-1896-06-20",
+     "pages": "7",
+     "note": "\"on and after June 1st a daily express train will be run between Oakland and Bryants\"."
+    },
+    {
+     "date": "1897-12-07",
+     "source": "oakland-tribune-1897-12-07",
+     "pages": "4",
+     "note": "\"no longer runs trains regularly … Round trips are made two or three times a week.\""
+    }
+   ],
+   "route": [
+    {
+     "segment": "cn-emery-russell"
+    },
+    {
+     "segment": "cn-russell-stege"
+    },
+    {
+     "segment": "cn-stege-orinda-park"
+    },
+    {
+     "segment": "cn-orinda-park-bryant",
+     "running": [
+      "1896-06-01"
+     ],
+     "note": "Built in 1891; the trains of 1889 ran to Orinda Park. Shown for 1896, when the daily express ran to Bryants."
+    }
+   ],
+   "sources": [
+    {
+     "source": "oakland-tribune-1889-10-10",
+     "supports": [
+      "general",
+      "route"
+     ],
+     "pages": "n5"
+    },
+    {
+     "source": "ca-brc-report-13",
+     "supports": [
+      "general"
+     ],
+     "pages": "118",
+     "note": "The company's answer to a complaint over fares, sworn July 13, 1892; the line was 23 miles long."
+    },
+    {
+     "source": "langley-sf-directory-1892",
+     "supports": [
+      "general"
+     ],
+     "pages": "327",
+     "note": "\"California and Nevada Railroad Co., ticket office, 650 Market\"."
+    },
+    {
+     "source": "poors-1891",
+     "supports": [
+      "general"
+     ],
+     "pages": "83",
+     "note": "\"formally opened in March, 1885 … No operations other than transportation of construction materials\", which the newspapers and the company contradict."
+    },
+    {
+     "source": "poors-1892",
+     "supports": [
+      "route"
+     ],
+     "pages": "95"
+    },
+    {
+     "source": "poors-1893",
+     "supports": [
+      "route",
+      "operator"
+     ],
+     "pages": "107",
+     "note": "\"Leased to and operated by the Pacific Construction and Improvement Co.\"; two passenger cars and a combination car."
+    },
+    {
+     "source": "poors-1896",
+     "supports": [
+      "general"
+     ],
+     "pages": "339-340"
+    },
+    {
+     "source": "oakland-tribune-1896-06-20",
+     "supports": [
+      "route",
+      "stations"
+     ],
+     "pages": "7",
+     "note": "Emery station; Fortieth St and San Pablo Ave; Bryants, with a stage to Lafayette and Walnut Creek."
+    },
+    {
+     "source": "oakland-tribune-1897-12-07",
+     "supports": [
+      "general"
+     ],
+     "pages": "4"
+    }
+   ],
+   "flags": [
+    "opened_unsourced",
+    "closed_unsourced",
+    "conflicting_sources"
+   ],
+   "notes": "Drawn for the years the sources show it running (decision 20): from October 1889 to December 1897. Poor's gives a formal opening in March 1885 but, in 1891 and 1892, says the road carried only construction materials, which the Tribune of 1889 and the company's own answer of 1892 contradict; when its first public train ran isn't sourced. By December 1897 it ran only now and then; a daily train is reported again in 1899-1900, carrying hay and grain, and the line was sold at foreclosure about 1902, both read only in the scans' text (docs/research/sources-2c/dumbarton-cn.md)."
+  }
+ ]
+}
