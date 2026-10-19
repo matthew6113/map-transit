@@ -169,7 +169,7 @@ export function StylePanel({ theme, onChange, onClose }: Props) {
 
       <section>
         <h3>Future status</h3>
-        <p class="hint">Solidity by status (the default <code>?solidity=opacity</code>).</p>
+        <p class="hint">Solidity by status, as <code>?solidity=opacity</code> draws it (the map draws <code>tint</code>).</p>
         {(Object.keys(STATUS_LABELS) as StatusKey[]).map((s) => (
           <Slider label={STATUS_LABELS[s]} min={0.1} max={1} step={0.05} value={theme.transit.status[s]}
             onInput={(v) => set((t) => { t.transit.status[s] = v; })} />

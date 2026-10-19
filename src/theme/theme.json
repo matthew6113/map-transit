@@ -49,7 +49,7 @@
       "heritage": 0.6
     },
     "eras": {
-      "ghostOpacity": 0.3,
+      "ghostOpacity": 0.55,
       "presentInFuture": 0.4,
       "borrowedDatesMix": 0.5,
       "fadeInYears": 1,

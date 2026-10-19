@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import type { LineRecord } from '../data/catalog';
 import { GROUPS, STATUSES, type Era } from '../data/vocab';
-import { DATASETS, type ProposalStyle, type StatusStyle } from '../eras/layers';
+import { DATASETS, DEFAULT_PROPOSAL_STYLE, DEFAULT_STATUS_STYLE, type ProposalStyle, type StatusStyle } from '../eras/layers';
 import { MODE_GROUPS, type ModeGroup } from '../theme/theme';
 import { formatRunning, formatYears, modeVar, trackFrom } from './format';
 
@@ -30,7 +30,7 @@ interface Props {
  * The legend is the filter: each mode chip turns its lines on and off on the map and in the list.
  * The list is the screen-reader equivalent of the canvas.
  */
-export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = 'opacity', proposals = false, network = false, proposalStyle = 'translucent' }: Props) {
+export function Index({ era, lines, running, hiddenGroups, onToggleGroup, openId, onOpen, onExpand, statusStyle = DEFAULT_STATUS_STYLE, proposals = false, network = false, proposalStyle = DEFAULT_PROPOSAL_STYLE }: Props) {
   const [open, setOpen] = useState(() => typeof matchMedia === 'function' && !matchMedia('(max-width: 719px)').matches);
   const [query, setQuery] = useState('');
   const inEra = useMemo(() => lines.filter((l) => DATASETS[era].includes(l.era)

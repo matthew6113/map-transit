@@ -4,7 +4,10 @@ import { clearDrawing, currentCamera, flyBack, flyToLine, lineCamera, panelPaddi
 import { lineIdFromPath, navigate, setQuery } from './basemap/router';
 import { loadCatalog, loadEraIndex, type EraIndex, type LineRecord } from './data/catalog';
 import { GROUPS, STATUSES, type Dataset, type Era, type Status } from './data/vocab';
-import { DATASETS, fadeOutYears, GHOST_STYLES, PROPOSAL_STYLES, STATUS_STYLES, type GhostStyle, type ProposalStyle, type StatusStyle } from './eras/layers';
+import {
+  DATASETS, DEFAULT_GHOST_STYLE, DEFAULT_PROPOSAL_STYLE, DEFAULT_STATUS_STYLE, fadeOutYears, GHOST_STYLES, PROPOSAL_STYLES, STATUS_STYLES,
+  type GhostStyle, type ProposalStyle, type StatusStyle,
+} from './eras/layers';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, normalizeTheme, type ModeGroup, type Theme } from './theme/theme';
@@ -16,7 +19,7 @@ import { EraSwitcher } from './ui/EraSwitcher';
 import { Index } from './ui/Index';
 import { LinePanel } from './ui/LinePanel';
 import { StylePanel } from './ui/StylePanel';
-import { busyPace, PACES, type Pace } from './timeline/pace';
+import { busyPace, DEFAULT_PACE, PACES, type Pace } from './timeline/pace';
 import { FIRST_YEAR, LAST_YEAR, stepMs, YearSlider } from './ui/YearSlider';
 
 const params = new URLSearchParams(location.search);
@@ -31,14 +34,14 @@ const eraOf = (d: Dataset): Era => (d === 'ideal' ? 'future' : d);
 /** The network editor (Phase 4b), for Matthew: ?edit=1, in the future era. */
 const EDIT = params.get('edit') === '1';
 const initialEra = (): Era => (ERAS.includes(params.get('era') as Era) ? (params.get('era') as Era) : EDIT ? 'future' : 'present');
-/** How future status is drawn, while Matthew chooses (Phase 3): ?solidity=opacity|tint|committed */
-const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : 'opacity';
-/** How the reference proposals are drawn, while Matthew chooses (Phase 4): ?proposalstyle=translucent|tint|neutral */
-const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : 'translucent';
-/** How the lost lines are drawn under today's network, while Matthew chooses (Phase 5): ?ghoststyle=hue|ink|dashed */
-const GHOST_STYLE: GhostStyle = GHOST_STYLES.includes(params.get('ghoststyle') as GhostStyle) ? (params.get('ghoststyle') as GhostStyle) : 'hue';
-/** How play moves through the years, while Matthew chooses (Phase 5): ?pace=even|busy */
-const PACE: Pace = PACES.includes(params.get('pace') as Pace) ? (params.get('pace') as Pace) : 'even';
+/** How future status is drawn (decision 22; the others preview with ?solidity=opacity|tint|committed). */
+const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') as StatusStyle) ? (params.get('solidity') as StatusStyle) : DEFAULT_STATUS_STYLE;
+/** How the reference proposals are drawn (decision 22; ?proposalstyle=translucent|tint|neutral). */
+const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : DEFAULT_PROPOSAL_STYLE;
+/** How the lost lines are drawn under today's network (decision 22; ?ghoststyle=hue|ink|dashed). */
+const GHOST_STYLE: GhostStyle = GHOST_STYLES.includes(params.get('ghoststyle') as GhostStyle) ? (params.get('ghoststyle') as GhostStyle) : DEFAULT_GHOST_STYLE;
+/** How play moves through the years (decision 22; ?pace=even|busy). */
+const PACE: Pace = PACES.includes(params.get('pace') as Pace) ? (params.get('pace') as Pace) : DEFAULT_PACE;
 const initialYear = (): number => {
   const y = Number(params.get('year'));
   return Number.isInteger(y) && y >= FIRST_YEAR && y <= LAST_YEAR ? y : DEFAULT_YEAR;

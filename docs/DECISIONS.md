@@ -171,6 +171,22 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     track does under decision 13. The other option, drawing the NPC only from San Anselmo north with
     a note, was not taken.
 
+## Made by Matthew (2026-10-19, after the Phase 5 checkpoint)
+
+22. **The look options shown at the Phase 3, 4 and 5 checkpoints are settled.** Each stays a URL
+    option for comparison; the map draws the chosen one by default.
+    - **The share card** is `three-eras`: 1925, today and what's coming side by side, the site's whole
+      idea (`npm run share-card`, `public/share-card.jpg`).
+    - **The lost lines under today's network** are drawn in their mode's `hue`, at 0.55
+      (`theme.transit.eras.ghostOpacity`, 0.3 before), where the Key System and the East Bay
+      streetcars read over the city's print.
+    - **Play's pace** is `even`: every year takes the same time.
+    - **Future status** is drawn as a `tint` of the mode's color toward the paper (`?solidity=`), so
+      overlaps don't darken and buildings stay under the stroke. The ladder in
+      `theme.transit.status` is unchanged.
+    - **The reference proposals** are drawn as a `tint` too (`?proposalstyle=`): the mode's hue mixed
+      halfway toward the paper, so a proposal on track that exists can't pass for a running line.
+
 ## Today's network, dated (2026-10-14, Phase 2b)
 
 - **A present segment's date is its track's.** `opened` is when the track first carried passengers,
@@ -290,7 +306,7 @@ These rules come from MapLibre 6.11.2's own source, confirmed in the plan review
 | Dash | `approximate` geometry only |
 | Hollow tube | Tunnel or subway (BAM's convention) |
 | Lighter tint | Display dates borrowed from the line |
-| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). Three ways to draw it are open for Matthew (Phase 3; `?solidity=opacity`, `tint` or `committed`); `opacity` stays the default until he picks. |
+| Solidity | Future status. In the future era, today's network steps back to 0.4 (BAM: "the present as print, the future in color"). Three ways to draw it were shown at Phase 3 (`?solidity=opacity`, `tint` or `committed`); Matthew chose `tint` (decision 22). |
 | Faint, uncased | Ghost overlay |
 | Lines a few pixels apart, close in | Different modes on the same path (decision 10) |
 
@@ -486,9 +502,9 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   `controlBorder` came with it: fields and filter chips are outlined at 3:1 (WCAG 1.4.11).
 - **The share card is drawn from the map itself** (Phase 5, `npm run share-card`): 1200×630, the
   title band over the map, in the theme's type and colors; one card for the site and every line's
-  page. Three options are open for Matthew (`docs/screenshots/p5/share-card-*.jpg`): the whole Bay
-  in 1925 (the default), today, or 1925, today and coming side by side. Redraw it when the data or
-  the palette changes.
+  page. Of the three options (`docs/screenshots/p5/share-card-*.jpg`: the whole Bay in 1925, today,
+  or 1925, today and coming side by side), Matthew chose the last (decision 22). Redraw it when the
+  data or the palette changes.
 
 ## Accessibility (2026-10-17, Phase 5)
 
@@ -517,9 +533,9 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
   (`docs/ideal/tradeoffs.md`).
 - **`proposal_status` is a separate vocabulary** (adopted, study, advocacy, superseded, withdrawn),
   since a proposal isn't a project being built; `adopted` and `study` need an official source.
-- **The look is a placeholder:** proposals at 0.6 of the width, off by default, in one of three looks
-  open for Matthew (`?proposalstyle=`): `translucent` (the mode's hue at 0.85 opacity, the default),
-  `tint` (the mode's hue mixed halfway toward the paper) or `neutral` (one grey,
+- **The look:** proposals at 0.6 of the width, off by default, in one of three looks
+  (`?proposalstyle=`): `translucent` (the mode's hue at 0.85 opacity), `tint` (the mode's hue mixed
+  halfway toward the paper; Matthew's choice, decision 22) or `neutral` (one grey,
   `theme.transit.proposals.neutral`). See `docs/research/phase-4.md`.
 - **The editor (Phase 4b) is an author's tool behind `?edit=1`,** loaded on demand (Terra Draw 1.35.0
   and its MapLibre adapter 1.4.1). It exports `data/ideal/network.geojson` to commit; nothing is saved

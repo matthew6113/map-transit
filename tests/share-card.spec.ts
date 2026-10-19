@@ -2,14 +2,14 @@
  * The share card (og:image, Phase 5): the map at 1200×630 with the title over it, drawn from the
  * app itself so it follows the data and the theme. `npm run share-card` writes the chosen card to
  * public/share-card.jpg (committed; the build serves it) and every option to docs/screenshots/p5/.
- * SHARE_CARD picks the option (the default is below; Matthew chooses).
+ * SHARE_CARD picks the option; the default is Matthew's choice (decision 22).
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { test, type Page } from '@playwright/test';
 
 const W = 1200;
 const H = 630;
-const CHOSEN = process.env.SHARE_CARD ?? 'past-1925';
+const CHOSEN = process.env.SHARE_CARD ?? 'three-eras';
 const DIR = 'docs/screenshots/p5';
 
 /** Each option's map view(s); a triptych has one per era. The centres sit south of the core, so the
