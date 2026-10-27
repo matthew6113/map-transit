@@ -14,6 +14,7 @@ import { applyCssVariables, defaultTheme, MODE_GROUPS, normalizeTheme, type Mode
 import { applyYear, resetVisibility, visibleAt, type Dated } from './timeline/visibility';
 import { Controls } from './ui/Controls';
 import { Credits } from './ui/Credits';
+import { DraftNote } from './ui/DraftNote';
 import type { Editor as EditorComponent } from './editor/Editor';
 import { EraSwitcher } from './ui/EraSwitcher';
 import { Index } from './ui/Index';
@@ -431,6 +432,7 @@ export function App() {
       <header class="title">
         <h1>{SITE_TITLE}</h1>
         <p class="byline">by <a href="https://www.matthewhuguet.com/">Matthew Huguet</a></p>
+        <DraftNote collapse={interacted || !!line || (editing && era === 'future')} />
         <div class="era-bar">
           <EraSwitcher era={era} onChange={chooseEra} />
           {era === 'past' && (
