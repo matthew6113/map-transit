@@ -3238,6 +3238,23 @@
           37.3239
         ]
       }
+    },
+    "angel-island-tiburon-ferry": {
+      "lines": {
+        "angel-island-tiburon-ferry-tiburon-to-angel-island": {
+          "opened": "1959",
+          "sources": [
+            {
+              "source": "tiburon-res-36-2024",
+              "supports": [
+                "opened"
+              ],
+              "note": "Paraphrase: Captain Milton McDonough founded the Angel Island Tiburon Ferry in 1959."
+            }
+          ],
+          "notes": "The year the McDonough family's ferry began, as the Town of Tiburon gives it; no official source gives the day."
+        }
+      }
     }
   }
 }

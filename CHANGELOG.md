@@ -2,6 +2,12 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-10-28: The Angel Island–Tiburon ferry's year
+
+- **Tiburon to Angel Island** opens in 1959, the year the Town of Tiburon's Resolution No. 36-2024 gives for
+  Captain Milton McDonough's founding of the Angel Island Tiburon Ferry (seen in search results only). Its
+  route now shows on the year slider. One new source.
+
 ## 2026-10-18: A photo for the Peninsula trains
 
 - **The Southern Pacific's Peninsula trains**: the north end of Tunnel No. 2 on the Bay Shore cut-off, nearly

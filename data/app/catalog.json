@@ -3944,6 +3944,14 @@
       "license": "Public domain (published 1908)",
       "accessed": "2026-10-16"
     },
+    "tiburon-res-36-2024": {
+      "title": "Resolution No. 36-2024: commending Angel Island Tiburon Ferry, the Tiburon Peninsula Chamber of Commerce's 2024 Business of the Year",
+      "publisher": "Town of Tiburon (Town Council)",
+      "date": "2024-11-06",
+      "type": "official",
+      "url": "https://townoftiburon.org/DocumentCenter/View/5075/Angel-Island-Tiburon-Ferry---Business-of-the-Year-2024",
+      "accessed": "2026-10-28"
+    },
     "times-gazette-1911-12-30": {
       "title": "Times-Gazette (Redwood City), December 30, 1911: \"Redwood is main transfer station\" and \"A red letter day\"",
       "publisher": "Times-Gazette (Daly City Public Library scan)",
@@ -53103,14 +53111,13 @@
       "mode_label": "Ferry",
       "group": "ferry",
       "era": "present",
-      "opened": null,
+      "opened": "1959",
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "The year the McDonough family's ferry began, as the Town of Tiburon gives it; no official source gives the day.",
+      "flags": [],
+      "undated": false,
       "length_km": 1.87,
       "confidence_km": {
         "surveyed": 1.87
@@ -53130,8 +53137,8 @@
           "name": "Tiburon to Angel Island, as run in GTFS",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "GTFS shapes.txt: 4 shapes run by 632 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
           "structure": null,
@@ -53151,6 +53158,13 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "source": "tiburon-res-36-2024",
+          "supports": [
+            "opened"
+          ],
+          "note": "Paraphrase: Captain Milton McDonough founded the Angel Island Tiburon Ferry in 1959."
         }
       ]
     },
