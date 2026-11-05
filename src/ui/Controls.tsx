@@ -1,5 +1,7 @@
-// Vendored from BAM (src/ui/Controls.tsx at 9600699), unchanged apart from this line.
+// Vendored from BAM (src/ui/Controls.tsx at 9600699). One change (docs/VENDORED.md): `children`, this map's
+// own control groups (the base map menu), drawn between the 2D/3D group and "Whole Bay".
 import { useEffect, useState } from 'preact/hooks';
+import type { ComponentChildren } from 'preact';
 import type { Map as MapLibreMap } from 'maplibre-gl';
 import type { ViewMode } from '../map/style';
 import { MAX_PITCH_3D, PITCH_3D } from '../map/MapView';
@@ -10,11 +12,12 @@ interface Props {
   onModeChange: (mode: ViewMode) => void;
   /** Back to the whole Bay (closing any open project). */
   onHome: () => void;
+  children?: ComponentChildren;
 }
 
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-export function Controls({ map, mode, onModeChange, onHome }: Props) {
+export function Controls({ map, mode, onModeChange, onHome, children }: Props) {
   const [bearing, setBearing] = useState(0);
 
   useEffect(() => {
@@ -68,6 +71,7 @@ export function Controls({ map, mode, onModeChange, onHome }: Props) {
           {mode === '3d' ? '2D' : '3D'}
         </button>
       </div>
+      {children}
       <div class="control-group">
         <button type="button" class="text wide" disabled={disabled} title="Back to the whole Bay"
           onClick={onHome}>
