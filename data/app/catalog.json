@@ -4783,6 +4783,14 @@
       "url": "https://vtabart.org/wp-content/uploads/2026/07/BSVII_Executive-Monthly-Report_May_2026-070726-v2.pdf",
       "accessed": "2026-10-16"
     },
+    "vta-measure-a-compliance-fy2023": {
+      "title": "2000 Measure A Transit Improvement Program: independent accountant's report on compliance examination and budgetary comparison schedule, for the fiscal year ended June 30, 2023",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "date": "2024-04",
+      "type": "official",
+      "url": "https://www.vta.org/sites/default/files/2024-04/FY2023%20-%20VTA%202000%20Measure%20A%20Compliance%20Examination%20Report_0.pdf",
+      "accessed": "2026-10-28"
+    },
     "washington-press-1912-04-26": {
       "title": "The Washington Press (Niles), April 26, 1912: Southern Pacific timetable",
       "publisher": "The Washington Press (Washington Township Museum of Local History scan)",
@@ -49848,9 +49856,9 @@
         "opened_unsourced"
       ],
       "undated": true,
-      "length_km": 23.98,
+      "length_km": 23.95,
       "confidence_km": {
-        "surveyed": 23.98
+        "surveyed": 23.95
       },
       "bbox": [
         -121.98426,
@@ -49860,23 +49868,65 @@
       ],
       "fids": [
         298,
-        299
+        299,
+        300,
+        301
       ],
       "segments": [
         {
-          "id": "vta-green-gtfs",
-          "name": "Green line, as run in GTFS",
+          "id": "vta-green-undated-2",
+          "name": "Green line, part not yet dated",
           "opened": null,
           "closed": null,
           "borrowed": false,
           "undated": true,
           "confidence": "surveyed",
-          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m",
+          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
           "structure": null,
           "flags": [
             "opened_unsourced"
-          ],
-          "notes": "One segment per line until Phase 2 splits today's network into dated segments, so lines sharing track overlap."
+          ]
+        },
+        {
+          "id": "vta-vasona",
+          "name": "Vasona line, San Fernando to Winchester",
+          "opened": "2005-10",
+          "closed": null,
+          "borrowed": false,
+          "undated": false,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the stretch between San Fernando Station and Winchester Station (data/present/extensions.json)",
+          "structure": null,
+          "flags": [],
+          "notes": "VTA's own track, new in 2005, though for much of the way to Campbell it runs beside the Southern Pacific's old line, which carried passengers long before (decision 24). Cut at San Fernando, the first station past the junction with the Guadalupe line, which no official source places; the few hundred metres between them stay undated."
+        },
+        {
+          "id": "vta-green-undated-1",
+          "name": "Green line, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
+        },
+        {
+          "id": "vta-green-undated-3",
+          "name": "Green line, part not yet dated",
+          "opened": null,
+          "closed": null,
+          "borrowed": false,
+          "undated": true,
+          "confidence": "surveyed",
+          "method": "GTFS shapes.txt: 5 shapes run by 337 trips, merged (kept where more than 25 m from track already drawn), simplified to 3 m; the part not covered by a dated stretch",
+          "structure": null,
+          "flags": [
+            "opened_unsourced"
+          ]
         }
       ],
       "sources": [
@@ -49889,6 +49939,22 @@
             "name",
             "operator"
           ]
+        },
+        {
+          "source": "vta-measure-a-compliance-fy2023",
+          "supports": [
+            "opened",
+            "route"
+          ],
+          "pages": "14",
+          "note": "\"The 5.3-mile Vasona Light Rail line (Phase 1) between Downtown San Jose and Campbell was opened in October 2005.\""
+        },
+        {
+          "source": "vta-30-years-timeline",
+          "supports": [
+            "opened"
+          ],
+          "note": "2005: \"Winchester light rail extension opens, connecting San Jose to downtown Campbell\""
         }
       ]
     },
@@ -51853,13 +51919,13 @@
         37.41578
       ],
       "fids": [
-        300,
-        301,
         302,
         303,
         304,
         305,
-        306
+        306,
+        307,
+        308
       ],
       "segments": [
         {

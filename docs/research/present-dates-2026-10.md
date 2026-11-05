@@ -21,11 +21,10 @@ what was found and why each stays undated, so the next pass starts here.
   where Tasman West begins. No official source found names them. Wikipedia's station articles give
   June 17, 1988 downtown and April 25, 1991 to Santa Teresa (their sources weren't checked), and the
   1991 day conflicts with VTA's April 21.
-- **A question for Matthew:** for much of the way to Campbell the Vasona line runs along the
-  Southern Pacific's old line, which carried passengers long before 2005 (`sp-peninsula`, the
-  Vasona Branch trains). A segment's `opened` is when its track first carried passengers, so dating
-  the stretch 2005 would contradict the past era. Either the light rail's own track counts as a new
-  segment (dated 2005), or the corridor takes the Southern Pacific's date, which is a past fact.
+- **The Vasona line:** for much of the way to Campbell it runs along the Southern Pacific's old
+  line, which carried passengers long before 2005 (`sp-peninsula`, the Vasona Branch trains).
+  Matthew ruled on November 5 that the light rail's own track is new track, dated from October 2005
+  (decision 24). It is cut at San Fernando, the first station past the junction.
 
 ## Ferries
 

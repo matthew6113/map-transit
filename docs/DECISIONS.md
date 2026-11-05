@@ -192,6 +192,11 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     dates the Napa Valley Wine Train (September 16, 1989), the Niles Canyon Railway (May 21, 1988)
     and, with the Town of Tiburon, the Angel Island–Tiburon ferry (1959). It covers the service
     only: the track under a heritage railway is older, and its date stays a past fact.
+24. **The Vasona light rail is new track, dated from October 2005** (Matthew, November 5, 2026).
+    For much of the way to Campbell it runs beside the Southern Pacific's old line, which carried
+    passengers long before, but it is VTA's own track, so it takes VTA's date, not the railroad's.
+    The stretch is cut at San Fernando, the first station past the junction with the Guadalupe
+    line, which no official source places.
 
 ## Today's network, dated (2026-10-14, Phase 2b)
 

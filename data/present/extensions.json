@@ -2918,6 +2918,33 @@
               "note": "\"The Capitol light rail line, a 3.5-mile extension of the Tasman light rail line, opened for revenue service in June 2004.\" It \"travels along Capitol Avenue from just south of Hostetter Road to Alum Rock Avenue\"."
             }
           ]
+        },
+        {
+          "id": "vta-vasona",
+          "name": "Vasona line, San Fernando to Winchester",
+          "line": "vta-green",
+          "from": "San Fernando Station",
+          "to": "Winchester Station",
+          "opened": "2005-10",
+          "notes": "VTA's own track, new in 2005, though for much of the way to Campbell it runs beside the Southern Pacific's old line, which carried passengers long before (decision 24). Cut at San Fernando, the first station past the junction with the Guadalupe line, which no official source places; the few hundred metres between them stay undated.",
+          "sources": [
+            {
+              "source": "vta-measure-a-compliance-fy2023",
+              "supports": [
+                "opened",
+                "route"
+              ],
+              "pages": "14",
+              "note": "\"The 5.3-mile Vasona Light Rail line (Phase 1) between Downtown San Jose and Campbell was opened in October 2005.\""
+            },
+            {
+              "source": "vta-30-years-timeline",
+              "supports": [
+                "opened"
+              ],
+              "note": "2005: \"Winchester light rail extension opens, connecting San Jose to downtown Campbell\""
+            }
+          ]
         }
       ],
       "points": {
@@ -2952,7 +2979,7 @@
               "note": "2005: \"Winchester light rail extension opens, connecting San Jose to downtown Campbell\""
             }
           ],
-          "notes": "The end of the Vasona line. Where the line leaves the Guadalupe line isn't named in an official source yet, so its track stays undated."
+          "notes": "The end of the Vasona line, which opened in October 2005 (decision 24)."
         }
       },
       "dates": {

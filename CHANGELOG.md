@@ -9,6 +9,9 @@ Data changes, newest first. Code changes are in the git log.
   1988, when its first trains ran between Sunol and Brightside (ncry.org). Both now show on the year slider.
   The Angel Island–Tiburon ferry's 1959 also cites the ferry's own site. Three new sources, all seen in
   search results only.
+- **VTA's Vasona line**, San Fernando to Winchester, opens in October 2005 as new track (decision 24), from
+  VTA's 2000 Measure A compliance report for FY2023 (read on vta.org). The Green line now grows in on the
+  slider there. One new source.
 
 ## 2026-10-28: The Angel Island–Tiburon ferry's year
 
