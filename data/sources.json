@@ -7970,6 +7970,53 @@
       "license": "Public domain (published 1927)",
       "accessed": "2026-10-18",
       "notes": "pp. 564-565: \"THE new automobile ferry service across San Francisco Bay from the foot of Hyde St., San Francisco, to the foot of University Avenue, at Berkeley\"; the Golden Bear, Golden Poppy and Golden Shore were \"completed and placed in commission between June 1 and July 1, 1927\"; \"The time required for the trip is 17 minutes.\" The halftone \"The Golden Gate Ferry Company's diesel-electric vehicular ferryboat Golden Poppy, on regular service between the foot of Hyde Street, San Francisco, and the foot of University Avenue, Berkeley\" on p. 564. Read on the page image, October 18, 2026."
+    },
+    {
+      "id": "tiburon-res-36-2024",
+      "title": "Resolution No. 36-2024: commending Angel Island Tiburon Ferry, the Tiburon Peninsula Chamber of Commerce's 2024 Business of the Year",
+      "publisher": "Town of Tiburon (Town Council)",
+      "date": "2024-11-06",
+      "type": "official",
+      "url": "https://townoftiburon.org/DocumentCenter/View/5075/Angel-Island-Tiburon-Ferry---Business-of-the-Year-2024",
+      "accessed": "2026-10-28",
+      "notes": "Seen in web search results only; the document wasn't opened (townoftiburon.org can't be reached from the build container). Paraphrase: the Town Council's resolution, adopted November 6, 2024, credits Captain Milton McDonough with founding the Angel Island Tiburon Ferry in 1959; its vessel Angel Island, launched in April 1975, is still in service."
+    },
+    {
+      "id": "winetrain-preserving-rail-line",
+      "title": "Preserving Napa's rail line",
+      "publisher": "Napa Valley Wine Train",
+      "type": "official",
+      "url": "https://www.winetrain.com/about-the-wine-train/preserving-napas-rail-line/",
+      "accessed": "2026-11-05",
+      "notes": "The operator's own account of its service (decision 23). Seen in web search results only; the page wasn't opened (winetrain.com can't be reached from the build container). \"September 16, 1989, marked the inaugural passenger voyage of the Napa Valley Wine Train.\" The site's structured data gives the company a founding date of September 5, 1989."
+    },
+    {
+      "id": "ncry-about",
+      "title": "About",
+      "publisher": "Niles Canyon Railway (Pacific Locomotive Association)",
+      "type": "official",
+      "url": "https://www.ncry.org/about/",
+      "accessed": "2026-11-05",
+      "notes": "The operator's own account of its service (decision 23). Seen in web search results only; the page wasn't opened (ncry.org can't be reached from the build container). \"On May 21, 1988, almost 122 years after the first Western Pacific excursion, the Pacific Locomotive Association brought railroad passenger operations back to life in Niles Canyon.\" \"Association volunteers worked for over a year on the first part of the track reconstruction between Sunol and Brightside.\""
+    },
+    {
+      "id": "angelislandferry-about",
+      "title": "Learn the history of the Angel Island",
+      "publisher": "Angel Island Tiburon Ferry",
+      "type": "official",
+      "url": "https://angelislandferry.com/about",
+      "accessed": "2026-11-05",
+      "notes": "The operator's own account of its service (decision 23). Seen in web search results only; the page wasn't opened (angelislandferry.com can't be reached from the build container). Paraphrase: family owned and operated since 1959. \"Milton named his first official vessel the “Gaycin” after his little nieces, Gail and Cindy. So, with the Gaycin, the Angel Island Ferry Service was born.\""
+    },
+    {
+      "id": "vta-measure-a-compliance-fy2023",
+      "title": "2000 Measure A Transit Improvement Program: independent accountant's report on compliance examination and budgetary comparison schedule, for the fiscal year ended June 30, 2023",
+      "publisher": "Santa Clara Valley Transportation Authority",
+      "date": "2024-04",
+      "type": "official",
+      "url": "https://www.vta.org/sites/default/files/2024-04/FY2023%20-%20VTA%202000%20Measure%20A%20Compliance%20Examination%20Report_0.pdf",
+      "accessed": "2026-10-28",
+      "notes": "Read on vta.org. p. 14 (PDF p. 18), \"Extension to Vasona Junction\": \"The 5.3-mile Vasona Light Rail line (Phase 1) between Downtown San Jose and Campbell was opened in October 2005.\" Phase 2, from Winchester Station to Vasona Junction, is on hold (September 2019)."
     }
   ]
 }
