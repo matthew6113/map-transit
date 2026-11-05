@@ -9,8 +9,11 @@ const DIR = process.env.SHOTS_DIR ?? 'docs/screenshots/p0';
 // SHOTS_ONLY=past- takes only the views whose names match (a regular expression).
 const ONLY = new RegExp(process.env.SHOTS_ONLY ?? '');
 
-/** `paint` sets a layer's paint property before the shot: a token value to compare, without the style panel. */
-const VIEWS: { name: string; url: string; width?: number; height?: number; paint?: [string, string, unknown][] }[] = [
+/**
+ * `paint` sets a layer's paint property before the shot: a token value to compare, without the style panel.
+ * `basemapMenu` opens the base map menu before the shot.
+ */
+const VIEWS: { name: string; url: string; width?: number; height?: number; paint?: [string, string, unknown][]; basemapMenu?: boolean }[] = [
   { name: 'present-regional', url: '/?test=1' },
   { name: 'future-regional', url: '/?era=future&test=1' },
   { name: 'present-sf', url: '/?test=1#map=13.2/37.7840/-122.4100/0/0' },
@@ -175,6 +178,25 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; paint
     { name: `past-line-${id}-photo`, url: `/l/${id}?era=past&year=1928&test=1&at=99` })),
   { name: 'mobile-line-key-f-photo', url: '/l/key-f?era=past&year=1912&test=1&at=99', width: 390, height: 844 },
   { name: 'style-panel-mobile', url: '/?style=1&test=1', width: 390, height: 844 },
+  // The base maps (decision 23): plain, streets and satellite side by side
+  // (SHOTS_DIR=docs/screenshots/basemaps SHOTS_ONLY=basemap-).
+  ...(['plain', 'streets', 'satellite'] as const).flatMap((b) => [
+    { name: `basemap-${b}-regional`, url: `/?basemap=${b}&test=1` },
+    { name: `basemap-${b}-sf`, url: `/?basemap=${b}&test=1#map=14.6/37.7880/-122.4040/0/0` },
+    { name: `basemap-${b}-east-bay-1925`, url: `/?era=past&year=1925&basemap=${b}&test=1#map=11.8/37.8200/-122.2700/0/0` },
+  ]),
+  { name: 'basemap-satellite-natural-sf', url: '/?basemap=satellite&satellitestyle=natural&test=1#map=14.6/37.7880/-122.4040/0/0' },
+  { name: 'basemap-satellite-natural-regional', url: '/?basemap=satellite&satellitestyle=natural&test=1' },
+  { name: 'basemap-satellite-south-bay', url: '/?basemap=satellite&test=1#map=12.0/37.4700/-122.0500/0/0' },
+  { name: 'basemap-streets-market-st', url: '/?basemap=streets&test=1#map=16/37.7848/-122.4075/0/0' },
+  { name: 'basemap-streets-oakland', url: '/?basemap=streets&test=1#map=14.2/37.8050/-122.2700/0/0' },
+  { name: 'basemap-streets-line-muni-n', url: '/l/muni-n?basemap=streets&test=1&at=99' },
+  { name: 'basemap-satellite-line-bart-yellow', url: '/l/bart-yellow?basemap=satellite&test=1&at=99' },
+  { name: 'basemap-streets-3d-sf', url: '/?view=3d&basemap=streets&test=1#map=15/37.7880/-122.3990/-20/55' },
+  { name: 'basemap-satellite-3d-sf', url: '/?view=3d&basemap=satellite&test=1#map=15/37.7880/-122.3990/-20/55' },
+  { name: 'basemap-future-satellite', url: '/?era=future&basemap=satellite&test=1' },
+  { name: 'basemap-menu', url: '/?test=1', basemapMenu: true },
+  { name: 'basemap-mobile-menu', url: '/l/bart-yellow?basemap=streets&test=1&at=99', width: 390, height: 844, basemapMenu: true },
 ];
 
 async function settle(page: Page) {
@@ -210,6 +232,10 @@ for (const v of VIEWS.filter((x) => ONLY.test(x.name))) {
       }, v.paint);
     }
     await settle(page);
+    if (v.basemapMenu) {
+      await page.locator('.transit-basemap > button').click();
+      await page.locator('#transit-basemap-menu').waitFor();
+    }
     await page.screenshot({ path: `${DIR}/${v.name}.png`, timeout: 120_000 });
     await context.close();
   });
