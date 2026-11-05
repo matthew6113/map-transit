@@ -39,6 +39,12 @@ export function normalizeTheme(input: unknown): Theme {
     Object.assign(merged.transit.status, pickNumbers(t.transit.status));
     Object.assign(merged.transit.proposals, pickNumbers(t.transit.proposals));
     if (typeof t.transit.proposals?.neutral === 'string') merged.transit.proposals.neutral = t.transit.proposals.neutral;
+    // The streets and satellite base maps (decision 23): only values of the default's type.
+    const b = t.transit.basemaps;
+    if (b) {
+      Object.assign(merged.transit.basemaps.streets, pickLike(merged.transit.basemaps.streets, b.streets));
+      Object.assign(merged.transit.basemaps.satellite, pickLike(merged.transit.basemaps.satellite, b.satellite));
+    }
   }
   Object.assign(merged.type, pickStrings(t.type));
   if (t.map) {
@@ -63,6 +69,19 @@ function pickStrings(o: unknown): Record<string, string> {
     for (const [k, v] of Object.entries(o)) if (typeof v === 'string') out[k] = v;
   }
   return out;
+}
+
+/** The keys of `like` that `o` gives a value of the same type (a finite number, or a string). */
+function pickLike<T extends object>(like: T, o: unknown): Partial<T> {
+  const out: Record<string, unknown> = {};
+  if (o && typeof o === 'object') {
+    for (const [k, v] of Object.entries(o)) {
+      const d = (like as Record<string, unknown>)[k];
+      if (typeof d === 'string' && typeof v === 'string') out[k] = v;
+      else if (typeof d === 'number' && typeof v === 'number' && Number.isFinite(v)) out[k] = v;
+    }
+  }
+  return out as Partial<T>;
 }
 
 function pickNumbers(o: unknown): Record<string, number> {
@@ -132,6 +151,16 @@ export function contrastIssues(theme: Theme): ContrastIssue[] {
       const ratio = contrast(c, bg);
       if (ratio < 3) issues.push({ subject: `Mode: ${group}`, against: name, ratio, needed: 3 });
     }
+  }
+  // The streets base map (decision 23): lines also cross its parks, and its street names are text.
+  const streets = theme.transit.basemaps.streets;
+  for (const group of MODE_GROUPS) {
+    const ratio = contrast(modeColor(theme, group), streets.park);
+    if (ratio < 3) issues.push({ subject: `Mode: ${group}`, against: 'parks (streets)', ratio, needed: 3 });
+  }
+  for (const [name, bg] of [['land', theme.colors.land], ['roads (streets)', streets.road]] as [string, string][]) {
+    const ratio = contrast(streets.labels, bg);
+    if (ratio < 4.5) issues.push({ subject: 'Street names', against: name, ratio, needed: 4.5 });
   }
   for (const [name, bg] of grounds) {
     const ratio = contrast(theme.colors.labels, bg);

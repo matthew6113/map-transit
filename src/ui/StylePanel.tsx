@@ -206,6 +206,30 @@ export function StylePanel({ theme, onChange, onClose }: Props) {
       </section>
 
       <section>
+        <h3>Streets and satellite</h3>
+        <p class="hint">This map's own base maps (the layers button by the map controls); they show with ?basemap=streets or satellite.</p>
+        {([['road', 'Streets: roads'], ['roadCasing', 'Streets: road edges'], ['minorRoad', 'Streets: minor roads from afar'],
+          ['park', 'Streets: parks'], ['labels', 'Streets: names']] as const).map(([key, label]) => (
+          <ColorField label={label} value={theme.transit.basemaps.streets[key]}
+            onInput={(v) => set((t) => { t.transit.basemaps.streets[key] = v; })} />
+        ))}
+        <Slider label="Streets: building opacity" min={0} max={0.6} step={0.02} value={theme.transit.basemaps.streets.buildingOpacity}
+          onInput={(v) => set((t) => { t.transit.basemaps.streets.buildingOpacity = v; })} />
+        <Slider label="Satellite: saturation" min={-1} max={0.5} step={0.05} value={theme.transit.basemaps.satellite.saturation}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.saturation = v; })} />
+        <Slider label="Satellite: darkest (toward the paper)" min={0} max={0.6} step={0.02} value={theme.transit.basemaps.satellite.brightnessMin}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.brightnessMin = v; })} />
+        <Slider label="Satellite: brightest" min={0.5} max={1} step={0.02} value={theme.transit.basemaps.satellite.brightnessMax}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.brightnessMax = v; })} />
+        <Slider label="Satellite: contrast" min={-0.6} max={0.6} step={0.05} value={theme.transit.basemaps.satellite.contrast}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.contrast = v; })} />
+        <Slider label="Satellite: water opacity" min={0} max={1} step={0.05} value={theme.transit.basemaps.satellite.water}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.water = v; })} />
+        <Slider label="Satellite: veil outside the nine counties" min={0} max={1} step={0.05} value={theme.transit.basemaps.satellite.outsideRegion}
+          onInput={(v) => set((t) => { t.transit.basemaps.satellite.outsideRegion = v; })} />
+      </section>
+
+      <section>
         <h3>Type</h3>
         {([['ui', 'Interface'], ['text', 'Summaries and notes'], ['mapLabels', 'Map labels']] as const).map(([key, label]) => (
           <label class="field">
