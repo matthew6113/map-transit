@@ -187,6 +187,53 @@ Choices made so far, newest last within each section. A decision waiting on Matt
     - **The reference proposals** are drawn as a `tint` too (`?proposalstyle=`): the mode's hue mixed
       halfway toward the paper, so a proposal on track that exists can't pass for a running line.
 
+## Asked for by Matthew (2026-11-05): two more base maps (open for Matthew's review)
+
+23. **Besides BAM's print, the lines can be drawn over a street map or aerial imagery.** Matthew asked
+    for "a satellite and a standard OpenStreetMap layer that matches the aesthetic". The sources, the
+    look and the names below are open for his review. Screenshots are in `docs/screenshots/basemaps/`.
+    - **How it's chosen.** A layers button in the map controls, between 3D and "Whole Bay", opens a
+      short menu: *Plain* (BAM's print, the default), *Streets* and *Satellite*. It's one button, not
+      three, because on a phone with a line's sheet open the controls column already reaches halfway up
+      the map. `?basemap=streets|satellite` opens on one and the URL keeps the choice.
+    - **Streets: OpenStreetMap from OpenFreeMap** (`tiles.openfreemap.org`, the OpenMapTiles schema,
+      rebuilt weekly, no key, ODbL). It's drawn in BAM's paper and ink, in the spirit of Carto's
+      Positron: gray roads from afar that become white streets with gray edges close in, parks a faint
+      gray-green, street names from zoom 13 (minor streets from 15), district and neighborhood names
+      from 12, park names from 15, and BAM's buildings at 0.1. There's no hue, because hue means mode.
+      BAM's land, water, shore, freight rail and place names stay as they are, so switching between Plain
+      and Streets moves nothing but the streets. OpenStreetMap's rail, transit, busways and ferries are
+      left out, since the map draws its own lines. Names sit over the lines' strokes, so a street a line
+      runs along can still be read, but under the stations, so the open line's station names still
+      win: MapLibre places the upper layers' labels first.
+    - **Satellite: the USGS National Map's imagery** (`USGSImageryOnly`, USDA NAIP and USGS orthoimagery,
+      public domain, no key; cached to zoom 16 and overzoomed past it). It's muted toward the paper:
+      saturation −0.45, darkest at 0.18 and contrast −0.1, so the lines stay the star. `?satellitestyle=natural`
+      shows it unmuted for comparison. The water stays BAM's print and so does the shore, because the
+      USGS cache has nothing clean to show there: black no-data blocks and mosaic seams over the Bay from
+      afar, and empty tiles over open water even at zoom 14. The salt ponds are left to the imagery,
+      where their colors show. BAM's buildings and context lines are hidden, the land outside the nine
+      counties is veiled at 0.75, and BAM's place names stay. The lines' paper casings and the stations'
+      paper fills keep them legible over the photos.
+    - **Tokens.** The new colors and numbers are in `theme.transit.basemaps` (BAM's blocks are untouched),
+      tunable in the style panel's "Streets and satellite" section. `npm test` checks street names at
+      4.5:1 on land and on roads, and every mode at 3:1 on parks.
+    - **Built on BAM's style, not into it.** `src/map/basemaps.ts` adjusts BAM's style by layer id. It hides
+      the layers a base map replaces (so a diffed `setStyle` only flips their visibility) and splices its
+      own `transit-streets-*` and `transit-satellite` layers in by position, so `src/basemap/basemap.ts`
+      stays BAM's.
+    - **The first tiles from another site at run time.** Until now everything the map loads is
+      same-origin (decision 1, refined under "Architecture"). Both services send
+      `access-control-allow-origin: *` on simple GETs, so the CORS problem that made BAM's basemap move
+      same-origin doesn't arise. Their sources are in the style only while their base map is shown, so
+      the default view loads nothing from either. If a service is down, its base map shows as paper and
+      the lines still draw. Self-hosting the streets would mean a Bay Area extract of OpenStreetMap's
+      tiles (Protomaps, as a pinned release asset like BAM's snapshot), probably a few hundred MB more for
+      GitHub Pages; imagery can't reasonably be self-hosted.
+    - **Not used: Esri's World Imagery.** It's sharper over water and seamless, but using it outside
+      ArcGIS needs an ArcGIS account under Esri's terms, so it's a license question for Matthew rather
+      than a default.
+
 ## Today's network, dated (2026-10-14, Phase 2b)
 
 - **A present segment's date is its track's.** `opened` is when the track first carried passengers,
@@ -508,9 +555,10 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 
 ## Accessibility (2026-10-17, Phase 5)
 
-- **axe-core runs on nine views** (`npm run a11y`, `tests/a11y.spec.ts`, WCAG 2.1 A and AA rules):
+- **axe-core runs on ten views** (`npm run a11y`, `tests/a11y.spec.ts`, WCAG 2.1 A and AA rules):
   the present, the past at 1925, the future with proposals, a line panel, a proposal panel, a line
-  panel with a photo, the editor, the style panel and a phone's line panel. CI runs it in WebKit. The map canvas is out of axe's reach; the
+  panel with a photo, the editor, the style panel, a phone's line panel and (decision 23) the base map
+  menu open over the imagery. CI runs it in WebKit. The map canvas is out of axe's reach; the
   line list is its text equivalent.
 - **One fix:** a mode chip that's off had 45% text, under 4.5:1 on the panel. It's 62% now, still
   struck through.

@@ -92,10 +92,10 @@ BAM's "the present as print, the future in color".
 | `npm run e2e` | Playwright: eras, hover and select, keyboard, reduced motion, mobile, deep links. |
 | `npm run screenshots` | Key views into `docs/screenshots/p0/`; set `SHOTS_DIR=docs/screenshots/p<n>` for a later checkpoint. |
 | `npm run perf` | The year-slider rendering spike (10k synthetic features, then the real past data; 4x CPU slowdown). |
-| `npm run a11y` | axe-core (WCAG 2.1 A and AA) on nine key views. CI runs it in WebKit. |
+| `npm run a11y` | axe-core (WCAG 2.1 A and AA) on ten key views. CI runs it in WebKit. |
 | `npm run share-card` | Draws the share card from the map into `public/share-card.jpg` (`SHARE_CARD=three-eras\|past-1925\|present`; the first is the default), and every option into `docs/screenshots/p5/`. |
 | `npx tsc --noEmit`, `npm run build` | Type-check; production build. |
 | Deploy | Push to `main`. `.github/workflows/deploy.yml` restores the basemap snapshot, tests, builds and publishes to GitHub Pages. Pull requests build and test only. |
 
-URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `#map=zoom/lat/lng/bearing/pitch`,
+URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `?basemap=streets|satellite`, `#map=zoom/lat/lng/bearing/pitch`,
 `/l/{line-id}`. Author's tools: `?style=1` (the style panel; Alt+Shift+S), `?edit=1` (the network editor). For review only, `?test=1&at=<seconds>` holds a line's flight still.

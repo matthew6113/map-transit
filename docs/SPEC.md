@@ -56,7 +56,11 @@ is stored as hand-editable GeoJSON, with an in-browser editor in Phase 4b.
   line for link previews.
 - **Layout:** 2D by default, with a 3D tilt. Panels become a bottom sheet below 720 px. Works on
   mobile Safari.
-- **Static site** on GitHub Pages, with BAM's basemap served from the same origin.
+- **Base map** (decision 23): BAM's print by default; a layers button in the map controls switches to
+  OpenStreetMap's streets or the USGS's aerial imagery, both drawn to match the print
+  (`?basemap=streets|satellite`).
+- **Static site** on GitHub Pages, with BAM's basemap served from the same origin. The streets and
+  imagery base maps load from their services only when picked.
 
 ## Phases (stop for Matthew's review after each)
 

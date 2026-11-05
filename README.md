@@ -42,10 +42,10 @@ npm run dev      # http://127.0.0.1:5173
 | `make data` | All of the above, in order. |
 | `npm test` | Schemas, data rules (sources, null-date flags, routes, bounds, future-status freshness) and theme contrast. |
 | `npm run e2e` / `npm run screenshots` / `npm run perf` | Playwright: interaction tests, review screenshots, and the year-slider rendering spike. |
-| `npm run a11y` / `npm run share-card` | axe-core on nine key views; draw the share card (`public/share-card.jpg`) from the map. |
+| `npm run a11y` / `npm run share-card` | axe-core on ten key views; draw the share card (`public/share-card.jpg`) from the map. |
 | `npm run build` | Type-check and production build into `dist/`. |
 
-URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `/l/{line-id}`. Author's
+URL options: `?era=past|present|future`, `?year=1925`, `?ghost=1`, `?view=3d`, `?basemap=streets|satellite`, `/l/{line-id}`. Author's
 tools: `?style=1` (the style panel) and `?edit=1` (the network editor).
 
 ## How the data works
