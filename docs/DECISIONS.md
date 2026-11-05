@@ -186,6 +186,12 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       `theme.transit.status` is unchanged.
     - **The reference proposals** are drawn as a `tint` too (`?proposalstyle=`): the mode's hue mixed
       halfway toward the paper, so a proposal on track that exists can't pass for a running line.
+23. **An operator's own account counts as an official source for its own service** (Matthew,
+    November 5, 2026). Today's network takes its dates from official sources only; a private
+    operator's own site may now date when its own service began, as a public agency's does. It
+    dates the Napa Valley Wine Train (September 16, 1989), the Niles Canyon Railway (May 21, 1988)
+    and, with the Town of Tiburon, the Angel Island–Tiburon ferry (1959). It covers the service
+    only: the track under a heritage railway is older, and its date stays a past fact.
 
 ## Today's network, dated (2026-10-14, Phase 2b)
 

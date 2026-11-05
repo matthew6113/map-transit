@@ -40,6 +40,13 @@
       "url": "https://greatamericanstations.com/?p=7131",
       "accessed": "2026-10-14"
     },
+    "angelislandferry-about": {
+      "title": "Learn the history of the Angel Island",
+      "publisher": "Angel Island Tiburon Ferry",
+      "type": "official",
+      "url": "https://angelislandferry.com/about",
+      "accessed": "2026-11-05"
+    },
     "argonaut-1878-01-12": {
       "title": "The Argonaut 2(1), January 12, 1878: North Pacific Coast Railroad timetable advertisement",
       "publisher": "The Argonaut, San Francisco",
@@ -2693,6 +2700,13 @@
       "license": "Public domain (published 1881)",
       "accessed": "2026-10-15"
     },
+    "ncry-about": {
+      "title": "About",
+      "publisher": "Niles Canyon Railway (Pacific Locomotive Association)",
+      "type": "official",
+      "url": "https://www.ncry.org/about/",
+      "accessed": "2026-11-05"
+    },
     "nps-hyde-street-pier": {
       "title": "Hyde Street Pier",
       "publisher": "National Park Service, San Francisco Maritime National Historical Park",
@@ -4897,6 +4911,13 @@
       "url": "https://archive.org/details/sanfranciscosstr1192wilc",
       "license": "Public record; cited for facts",
       "accessed": "2026-10-16"
+    },
+    "winetrain-preserving-rail-line": {
+      "title": "Preserving Napa's rail line",
+      "publisher": "Napa Valley Wine Train",
+      "type": "official",
+      "url": "https://www.winetrain.com/about-the-wine-train/preserving-napas-rail-line/",
+      "accessed": "2026-11-05"
     },
     "wood-1883": {
       "title": "History of Alameda County, California",
@@ -51225,16 +51246,14 @@
       "mode_label": "Heritage railway",
       "group": "heritage",
       "era": "present",
-      "opened": null,
+      "opened": "1989-09-16",
       "closed": null,
       "status": "active",
       "status_label": "In service",
       "summary": "Dining trains from the McKinstry St station in Napa up the valley to St. Helena and back, a 36-mile round trip on the Southern Pacific's old Napa Valley branch.",
-      "notes": "Railfan & Railroad gives the Public Utilities Commission's approval of August 23, 1989 and a start as early as September 16, 1989; left null here because today's network takes its dates from official sources only, and the Commission's 1989 decision isn't online. Wine Industry Advisor announced a ride for March 24, 2026 (February 24, 2026, seen only through a search).",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Railfan & Railroad gives the Public Utilities Commission's approval of August 23, 1989 and a start as early as September 16, 1989. Wine Industry Advisor announced a ride for March 24, 2026 (February 24, 2026, seen only through a search).",
+      "flags": [],
+      "undated": false,
       "length_km": 28.5,
       "confidence_km": {
         "surveyed": 28.5
@@ -51254,8 +51273,8 @@
           "name": "Napa to St. Helena",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "Along OpenStreetMap's Napa Valley Railroad from -122.28366,38.30246 to -122.47146,38.50769 (28584 m; Overture 2026-09-23.1 rail). OpenStreetMap's ways named Napa Valley Railroad, from the McKinstry St station in Napa to the St. Helena station (Overture's places).",
           "structure": "surface",
@@ -51292,6 +51311,13 @@
           "note": "The Public Utilities Commission's approval of August 23, 1989; service to begin as early as September 16."
         },
         {
+          "source": "winetrain-preserving-rail-line",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"September 16, 1989, marked the inaugural passenger voyage of the Napa Valley Wine Train.\""
+        },
+        {
           "source": "overture-rail-2026-09-23-1",
           "supports": [
             "geometry"
@@ -51314,16 +51340,14 @@
       "mode_label": "Heritage railway",
       "group": "heritage",
       "era": "present",
-      "opened": null,
+      "opened": "1988-05-21",
       "closed": null,
       "status": "active",
       "status_label": "In service",
       "summary": "Excursion trains behind diesel and steam through Niles Canyon between Sunol and Niles, on select weekends, run by volunteers of the Pacific Locomotive Association.",
-      "notes": "Its first train ran on May 21, 1988 (Classic Trains); left null here because today's network takes its dates from official sources only. Its public trains board at Sunol in 2026, by its own schedule (ncry.org, seen only through a search).",
-      "flags": [
-        "opened_unsourced"
-      ],
-      "undated": true,
+      "notes": "Its public trains board at Sunol in 2026, by its own schedule (ncry.org, seen only through a search). The first trains ran on the first rebuilt section, between Sunol and Brightside (ncry.org).",
+      "flags": [],
+      "undated": false,
       "length_km": 10.26,
       "confidence_km": {
         "surveyed": 10.26
@@ -51348,8 +51372,8 @@
           "name": "Niles to Sunol, through Niles Canyon",
           "opened": null,
           "closed": null,
-          "borrowed": false,
-          "undated": true,
+          "borrowed": true,
+          "undated": false,
           "confidence": "surveyed",
           "method": "Along OpenStreetMap's Niles Canyon Railway from -121.97769,37.57722 to -121.88877,37.59399 (10281 m; Overture 2026-09-23.1 rail). OpenStreetMap's ways named Niles Canyon Railway, from its Niles station to the Sunol depot at Kilkare Rd (Overture's places), the stretch its public trains run.",
           "structure": "surface",
@@ -51378,6 +51402,13 @@
           ],
           "pages": "69",
           "note": "The first train ran into Sunol on May 21, 1988; Niles to Sunol, 7 miles."
+        },
+        {
+          "source": "ncry-about",
+          "supports": [
+            "opened"
+          ],
+          "note": "\"On May 21, 1988 ... the Pacific Locomotive Association brought railroad passenger operations back to life in Niles Canyon.\""
         },
         {
           "source": "overture-rail-2026-09-23-1",
@@ -53115,7 +53146,7 @@
       "closed": null,
       "status": "active",
       "status_label": "In service",
-      "notes": "The year the McDonough family's ferry began, as the Town of Tiburon gives it; no official source gives the day.",
+      "notes": "The year the McDonogh family's ferry began, as the Town of Tiburon and the ferry itself give it; neither gives the day.",
       "flags": [],
       "undated": false,
       "length_km": 1.87,
@@ -53165,6 +53196,13 @@
             "opened"
           ],
           "note": "Paraphrase: Captain Milton McDonough founded the Angel Island Tiburon Ferry in 1959."
+        },
+        {
+          "source": "angelislandferry-about",
+          "supports": [
+            "opened"
+          ],
+          "note": "Paraphrase: family owned and operated since 1959; the Gaycin was its first boat."
         }
       ]
     },

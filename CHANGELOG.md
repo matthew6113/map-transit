@@ -2,6 +2,14 @@
 
 Data changes, newest first. Code changes are in the git log.
 
+## 2026-11-05: Two heritage railways dated from their operators' own sites
+
+- Under decision 23, an operator's own account dates its own service: the **Napa Valley Wine Train** from
+  September 16, 1989, its first passenger trip (winetrain.com), and the **Niles Canyon Railway** from May 21,
+  1988, when its first trains ran between Sunol and Brightside (ncry.org). Both now show on the year slider.
+  The Angel Island–Tiburon ferry's 1959 also cites the ferry's own site. Three new sources, all seen in
+  search results only.
+
 ## 2026-10-28: The Angel Island–Tiburon ferry's year
 
 - **Tiburon to Angel Island** opens in 1959, the year the Town of Tiburon's Resolution No. 36-2024 gives for

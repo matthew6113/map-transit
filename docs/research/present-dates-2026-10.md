@@ -1,7 +1,8 @@
 # Today's network: the undated lines, Oct 28, 2026
 
 A pass over the present-era lines that never appear on the year slider. One is now dated: the Angel
-Island–Tiburon ferry, 1959 (Town of Tiburon, Resolution No. 36-2024). For the rest, this note records
+Island–Tiburon ferry, 1959 (Town of Tiburon, Resolution No. 36-2024). On November 5 two more were,
+the heritage railways below, once Matthew ruled that an operator's own site counts (decision 23). For the rest, this note records
 what was found and why each stays undated, so the next pass starts here.
 
 `vta.org` is reachable from the build container now. `sfbayferry.com`, `goldengate.org`,
@@ -45,9 +46,9 @@ what was found and why each stays undated, so the next pass starts here.
 
 The operators' own sites give dates: the Napa Valley Wine Train's first trip on September 16, 1989
 (winetrain.com) and the Niles Canyon Railway's first train on May 21, 1988 (ncry.org). Both are
-private operators, not public agencies, so under today's rule (official sources only) both stay null.
-**A question for Matthew:** may an operator's own statement date its own service? The track under
-both is older and is a past fact, which may come from any citable source.
+private operators. Matthew ruled on November 5 that an operator's own account counts as an official
+source for its own service (decision 23), so both are now dated. The track under both is older and
+is a past fact, which may come from any citable source.
 
 The Western Railway Museum: no start date or current schedule found.
 

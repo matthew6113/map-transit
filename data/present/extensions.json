@@ -3250,9 +3250,49 @@
                 "opened"
               ],
               "note": "Paraphrase: Captain Milton McDonough founded the Angel Island Tiburon Ferry in 1959."
+            },
+            {
+              "source": "angelislandferry-about",
+              "supports": [
+                "opened"
+              ],
+              "note": "Paraphrase: family owned and operated since 1959; the Gaycin was its first boat."
             }
           ],
-          "notes": "The year the McDonough family's ferry began, as the Town of Tiburon gives it; no official source gives the day."
+          "notes": "The year the McDonogh family's ferry began, as the Town of Tiburon and the ferry itself give it; neither gives the day."
+        }
+      }
+    },
+    "napa-valley-wine-train": {
+      "lines": {
+        "napa-valley-wine-train": {
+          "opened": "1989-09-16",
+          "sources": [
+            {
+              "source": "winetrain-preserving-rail-line",
+              "supports": [
+                "opened"
+              ],
+              "note": "\"September 16, 1989, marked the inaugural passenger voyage of the Napa Valley Wine Train.\""
+            }
+          ]
+        }
+      }
+    },
+    "niles-canyon-railway": {
+      "lines": {
+        "niles-canyon-railway": {
+          "opened": "1988-05-21",
+          "sources": [
+            {
+              "source": "ncry-about",
+              "supports": [
+                "opened"
+              ],
+              "note": "\"On May 21, 1988 ... the Pacific Locomotive Association brought railroad passenger operations back to life in Niles Canyon.\""
+            }
+          ],
+          "notes": "The first trains ran on the first rebuilt section, between Sunol and Brightside (ncry.org)."
         }
       }
     }

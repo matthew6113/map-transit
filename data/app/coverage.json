@@ -26,12 +26,12 @@
     "km_by_confidence": {
       "surveyed": 1715.1
     },
-    "undated_segments": 13,
-    "borrowed_dates": 76,
+    "undated_segments": 11,
+    "borrowed_dates": 78,
     "flags": {
       "conflicting_sources": 4,
       "license_unclear": 31,
-      "opened_unsourced": 374,
+      "opened_unsourced": 372,
       "status_unverified": 1
     }
   },
