@@ -186,6 +186,17 @@ Choices made so far, newest last within each section. A decision waiting on Matt
       `theme.transit.status` is unchanged.
     - **The reference proposals** are drawn as a `tint` too (`?proposalstyle=`): the mode's hue mixed
       halfway toward the paper, so a proposal on track that exists can't pass for a running line.
+23. **An operator's own account counts as an official source for its own service** (Matthew,
+    November 5, 2026). Today's network takes its dates from official sources only; a private
+    operator's own site may now date when its own service began, as a public agency's does. It
+    dates the Napa Valley Wine Train (September 16, 1989), the Niles Canyon Railway (May 21, 1988)
+    and, with the Town of Tiburon, the Angel Island–Tiburon ferry (1959). It covers the service
+    only: the track under a heritage railway is older, and its date stays a past fact.
+24. **The Vasona light rail is new track, dated from October 2005** (Matthew, November 5, 2026).
+    For much of the way to Campbell it runs beside the Southern Pacific's old line, which carried
+    passengers long before, but it is VTA's own track, so it takes VTA's date, not the railroad's.
+    The stretch is cut at San Fernando, the first station past the junction with the Guadalupe
+    line, which no official source places.
 
 ## Asked for by Matthew (2026-11-05): two more base maps (open for Matthew's review)
 
