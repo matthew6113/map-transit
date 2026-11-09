@@ -20,6 +20,25 @@ Status key: **in use** is drawn on the map; **checked** was used only to check o
 | How to refresh | `make basemap-refresh`, then review the diff of `basemap.lock.json`. |
 | Gaps | Context rail carries no names or operators. Abandoned, disused and under-construction track was filtered out in BAM's pipeline. |
 
+### Streets base map: OpenStreetMap from OpenFreeMap (decision 25)
+
+| | |
+|---|---|
+| Status | In use, when a viewer picks *Streets*. Loaded by the viewer's browser at run time, not downloaded or stored here. |
+| Origin | `https://tiles.openfreemap.org/planet` (TileJSON; tiles under `/planet/<build>/{z}/{x}/{y}.pbf`, z0–14, overzoomed past 14). OpenStreetMap in the OpenMapTiles schema (3.16), rebuilt weekly by OpenFreeMap; the build read on Nov 5, 2026 was `20261101_080013_pt`. No key and no stated usage limit. |
+| Layers used | `transportation` (roads; rail, transit, busways and ferries left out), `transportation_name`, `park` (only classes that name a park, recreation area, preserve or open space: OpenStreetMap's protected areas also include "historic" districts and the U.S. Navy), `landcover` (parks, gardens, golf courses, woods), `landuse` (cemeteries), `aeroway` (runways, taxiways), `place` (suburbs, quarters, neighborhoods) and `poi` (park names). |
+| License | Map data © OpenStreetMap contributors, ODbL 1.0. The tile schema © OpenMapTiles (CC BY 4.0). OpenFreeMap asks for the credit "OpenFreeMap © OpenMapTiles Data from OpenStreetMap", which the collapsed credit line carries while Streets is shown. |
+| Gaps | Names only in Latin script (`name:en`, then `name:latin`), because BAM's glyphs carry no CJK ranges. The service is run by one person on donations: if it's down, Streets shows as paper with BAM's water and the lines. |
+
+### Satellite base map: USGS National Map imagery (decision 25)
+
+| | |
+|---|---|
+| Status | In use, when a viewer picks *Satellite*. Loaded by the viewer's browser at run time, not downloaded or stored here. |
+| Origin | `https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer` ("USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024"), tiles `/tile/{z}/{y}/{x}`, cached to 1:9,028 (zoom 16) and overzoomed past it. No key. |
+| License | Public domain (U.S. federal government work: USDA NAIP and USGS orthoimagery). Credited as courtesy in the map's credits. |
+| Gaps | Over open water the cache has black no-data blocks and mosaic seams from afar and empty tiles close in, so BAM's water is drawn over it. Imagery from 2024 and earlier, at 0.6–1 m in most of the region. |
+
 ## Present era
 
 The lines are built by `make present`: `pipeline/transit_pipeline/gtfs.py`, with `osm_lanes.py` for BRT.

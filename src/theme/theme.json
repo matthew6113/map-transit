@@ -74,6 +74,25 @@
       "width": 0.6,
       "tintMix": 0.5,
       "neutral": "#857D72"
+    },
+    "basemaps": {
+      "note": "The two other base maps besides BAM's print (decision 25). Placeholders for Matthew's review. streets: OpenStreetMap's streets, parks and names in BAM's paper and ink, without hue, which means mode; buildings are BAM's ink at buildingOpacity. satellite: the USGS's imagery, muted toward the paper so the lines stay the star (raster saturation, brightness and contrast as MapLibre takes them; ?satellitestyle=natural previews it unmuted), under BAM's water at `water` (the USGS has no clean imagery of open water) and, outside the nine counties, a veil at outsideRegion.",
+      "streets": {
+        "road": "#FFFFFF",
+        "roadCasing": "#D3D6DA",
+        "minorRoad": "#DCDEE1",
+        "park": "#EAEDE4",
+        "labels": "#5F5C57",
+        "buildingOpacity": 0.1
+      },
+      "satellite": {
+        "saturation": -0.45,
+        "brightnessMin": 0.18,
+        "brightnessMax": 1,
+        "contrast": -0.1,
+        "water": 1,
+        "outsideRegion": 0.75
+      }
     }
   },
   "type": {

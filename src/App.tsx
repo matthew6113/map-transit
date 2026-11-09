@@ -8,10 +8,12 @@ import {
   DATASETS, DEFAULT_GHOST_STYLE, DEFAULT_PROPOSAL_STYLE, DEFAULT_STATUS_STYLE, fadeOutYears, GHOST_STYLES, PROPOSAL_STYLES, STATUS_STYLES,
   type GhostStyle, type ProposalStyle, type StatusStyle,
 } from './eras/layers';
+import { BASEMAPS, DEFAULT_BASEMAP, DEFAULT_SATELLITE_STYLE, SATELLITE_STYLES, type Basemap, type SatelliteStyle } from './map/basemaps';
 import { homeCamera, MapView, onAfterSync } from './map/MapView';
 import type { StyleInputs, ViewMode } from './map/style';
 import { applyCssVariables, defaultTheme, MODE_GROUPS, normalizeTheme, type ModeGroup, type Theme } from './theme/theme';
 import { applyYear, resetVisibility, visibleAt, type Dated } from './timeline/visibility';
+import { BasemapMenu } from './ui/BasemapMenu';
 import { Controls } from './ui/Controls';
 import { Credits } from './ui/Credits';
 import { DraftNote } from './ui/DraftNote';
@@ -41,6 +43,8 @@ const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') 
 const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : DEFAULT_PROPOSAL_STYLE;
 /** How the lost lines are drawn under today's network (decision 22; ?ghoststyle=hue|ink|dashed). */
 const GHOST_STYLE: GhostStyle = GHOST_STYLES.includes(params.get('ghoststyle') as GhostStyle) ? (params.get('ghoststyle') as GhostStyle) : DEFAULT_GHOST_STYLE;
+/** How the satellite base map's imagery is drawn (decision 25; ?satellitestyle=muted|natural). */
+const SATELLITE_STYLE: SatelliteStyle = SATELLITE_STYLES.includes(params.get('satellitestyle') as SatelliteStyle) ? (params.get('satellitestyle') as SatelliteStyle) : DEFAULT_SATELLITE_STYLE;
 /** How play moves through the years (decision 22; ?pace=even|busy). */
 const PACE: Pace = PACES.includes(params.get('pace') as Pace) ? (params.get('pace') as Pace) : DEFAULT_PACE;
 const initialYear = (): number => {
@@ -105,6 +109,9 @@ export function App() {
   const [panelOpen, setPanelOpen] = useState(STYLE_PANEL_ENABLED);
   const styleToggle = useRef<HTMLButtonElement>(null);
   const [mode, setMode] = useState<ViewMode>(params.get('view') === '3d' ? '3d' : '2d');
+  // What the lines are drawn over (decision 25): BAM's print, streets or imagery; ?basemap= keeps it.
+  const [basemap, setBasemap] = useState<Basemap>(() =>
+    BASEMAPS.includes(params.get('basemap') as Basemap) ? (params.get('basemap') as Basemap) : DEFAULT_BASEMAP);
   const [era, setEraState] = useState<Era>(initialEra);
   const [year, setYear] = useState(initialYear);
   const [ghost, setGhost] = useState(params.get('ghost') === '1');
@@ -178,10 +185,12 @@ export function App() {
     theme,
     mode,
     loaded,
+    basemap,
+    satelliteStyle: SATELLITE_STYLE,
     view: { era, ghost: ghost && era !== 'past', hiddenGroups, selected: openId, statusStyle: STATUS_STYLE,
       proposals: proposals && era === 'future', network: network && era === 'future', proposalStyle: PROPOSAL_STYLE,
       ghostStyle: GHOST_STYLE },
-  }), [theme, mode, loaded, era, ghost, hiddenGroups, openId, proposals, network]);
+  }), [theme, mode, loaded, basemap, era, ghost, hiddenGroups, openId, proposals, network]);
 
   /** The past era's year, as feature-state (src/timeline/visibility.ts). */
   const showYear = useCallback((opts: { animateFrom?: number } = {}) => {
@@ -239,9 +248,10 @@ export function App() {
       proposals: proposals && era === 'future' ? '1' : null,
       network: hasNetwork && !networkOn && era === 'future' ? '0' : null,
       edit: editing ? '1' : null,
+      basemap: basemap === DEFAULT_BASEMAP ? null : basemap,
     }), 400);
     return () => window.clearTimeout(t);
-  }, [era, year, ghost, proposals, editing, hasNetwork, networkOn]);
+  }, [era, year, ghost, proposals, editing, hasNetwork, networkOn, basemap]);
 
   const setEra = useCallback((next: Era) => {
     setPlaying(false);
@@ -358,9 +368,10 @@ export function App() {
         return;
       }
       if (e.key !== 'Escape') return;
-      // The topmost thing closes first: the shared-track chooser (MapView closes it), then the style
-      // panel (unless the editor is drawing on the map, where Escape cancels the line), then the line.
-      if (document.querySelector('.map-chooser')) return;
+      // The topmost thing closes first: the shared-track chooser (MapView closes it) or the base map
+      // menu (which closes itself), then the style panel (unless the editor is drawing on the map,
+      // where Escape cancels the line), then the line.
+      if (document.querySelector('.map-chooser, .transit-basemap-menu')) return;
       if (panelOpen && (target?.closest('.style-panel') || !live.current.editing)) closePanel();
       else if (live.current.openId) void closeLine();
     };
@@ -484,8 +495,11 @@ export function App() {
         onFirstInteraction={() => setInteracted(true)} onHoverLine={onHoverLine}
         onSelectLine={(id) => { if (!editing) void openLine(id); }} />
       <span id="controls-start" tabIndex={-1} />
-      <Controls map={map} mode={mode} onModeChange={setMode} onHome={goHome} />
-      <Credits collapse={interacted || !!line || (editing && era === 'future')} has511={lines.some((l) => l.sources.some((s) => s.source === 'gtfs-511'))} />
+      <Controls map={map} mode={mode} onModeChange={setMode} onHome={goHome}>
+        <BasemapMenu basemap={basemap} onChange={setBasemap} disabled={!map} />
+      </Controls>
+      <Credits collapse={interacted || !!line || (editing && era === 'future')} has511={lines.some((l) => l.sources.some((s) => s.source === 'gtfs-511'))}
+        basemap={basemap} />
       {line && !(editing && era === 'future') && <LinePanel line={line} onClose={() => void closeLine()} />}
       {editing && era === 'future' && map && Editor && (
         <Editor map={map} theme={theme} proposals={proposalChoices} onClose={() => setEditing(false)} />

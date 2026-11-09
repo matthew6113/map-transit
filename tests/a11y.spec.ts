@@ -28,6 +28,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; open?
   { name: 'the editor', url: '/?edit=1&test=1' },
   { name: 'the style panel', url: '/?style=1&test=1' },
   { name: 'phone, a line panel', url: '/l/bart-yellow?test=1&at=99', width: 390, height: 844 },
+  { name: 'the base map menu, on satellite', url: '/?basemap=satellite&test=1', open: 'basemap' },
 ];
 
 for (const v of VIEWS) {
@@ -36,6 +37,7 @@ for (const v of VIEWS) {
     const page = await context.newPage();
     await page.goto(v.url);
     await ready(page);
+    if (v.open === 'basemap') await page.locator('.transit-basemap > button').click();
     await page.waitForTimeout(1500);
     await audit(page, v.name);
     await context.close();

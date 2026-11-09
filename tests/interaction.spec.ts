@@ -1,7 +1,7 @@
 /**
  * Interaction tests: eras, the legend's filters, the list, opening and closing lines (list, map,
- * shared track, deep link, Escape), the year slider by keyboard, reduced motion, the phone layout and
- * the style panel.
+ * shared track, deep link, Escape), the year slider by keyboard, reduced motion, the phone layout,
+ * the style panel and the base map menu.
  * Chromium here; WebKit in CI (PW_WEBKIT=1).
  */
 import { readFileSync } from 'node:fs';
@@ -208,4 +208,66 @@ test("the URL's layer options change the view, not the theme the style panel sav
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('transit.theme.v1') ?? 'null'));
   expect(saved?.layers?.buildings).toBe(true);
   await expect(page.getByRole('complementary', { name: 'Style panel' }).getByLabel('Buildings', { exact: true })).toBeChecked();
+});
+
+test('the base map menu switches between plain, streets and satellite, by pointer and by keyboard (decision 25)', async ({ page }) => {
+  await page.goto('/?test=1');
+  await ready(page);
+  const layer = (id: string) => page.evaluate((i) => !!(window as unknown as { __map: import('maplibre-gl').Map }).__map.getLayer(i), id);
+  const menu = page.locator('#transit-basemap-menu');
+  // Nothing from another site until a base map asks for it.
+  expect(await layer('transit-satellite')).toBe(false);
+  expect(await layer('transit-streets-roads')).toBe(false);
+
+  // A pick with the pointer switches and closes the menu.
+  await page.getByRole('button', { name: 'Base map: Plain' }).click();
+  await expect(menu).toBeVisible();
+  await page.getByRole('radio', { name: /^Satellite/ }).click();
+  await expect(menu).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Base map: Satellite' })).toBeFocused();
+  await expect.poll(() => layer('transit-satellite')).toBe(true);
+  await expect.poll(() => new URL(page.url()).searchParams.get('basemap')).toBe('satellite');
+  await expect(page.locator('.credits-toggle')).toContainText('imagery USGS');
+
+  // From the keyboard: Enter opens it on the checked option, arrows move and keep it open, Escape closes it.
+  await page.keyboard.press('Enter');
+  await expect(page.getByRole('radio', { name: /^Satellite/ })).toBeFocused();
+  await page.keyboard.press('ArrowUp');
+  await expect(page.getByRole('radio', { name: /^Streets/ })).toBeChecked();
+  await expect(menu).toBeVisible();
+  await expect.poll(() => layer('transit-streets-roads')).toBe(true);
+  expect(await layer('transit-satellite')).toBe(false);
+  await page.keyboard.press('Escape');
+  await expect(menu).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Base map: Streets' })).toBeFocused();
+  await expect(page.locator('.credits-toggle')).toContainText('OpenMapTiles');
+
+  // Back to plain: the other site's layers leave the style, and the URL drops the option.
+  await page.getByRole('button', { name: 'Base map: Streets' }).click();
+  await page.getByRole('radio', { name: /^Plain/ }).click();
+  await expect.poll(() => layer('transit-streets-roads')).toBe(false);
+  await expect.poll(() => new URL(page.url()).searchParams.has('basemap')).toBe(false);
+});
+
+test('?basemap= opens on that base map, and Escape closes the menu before an open line', async ({ page }) => {
+  await page.goto('/l/bart-yellow?basemap=streets&test=1&at=99');
+  await ready(page);
+  const panel = page.locator('.line-panel');
+  await expect(panel).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Base map: Streets' })).toBeVisible();
+  const toggle = page.getByRole('button', { name: 'Base map: Streets' });
+  const menu = page.locator('#transit-basemap-menu');
+  // A press anywhere outside closes it.
+  await toggle.click();
+  await expect(menu).toBeVisible();
+  await panel.locator('h2').click();
+  await expect(menu).toBeHidden();
+  // Escape closes the menu first and leaves the line open; the next Escape closes the line.
+  await toggle.click();
+  await expect(menu).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(menu).toBeHidden();
+  await expect(panel).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(panel).toBeHidden();
 });

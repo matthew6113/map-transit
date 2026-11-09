@@ -2,6 +2,7 @@
 // Every dataset, its license and its gaps are in DATA_LOG.md.
 import { useEffect, useState } from 'preact/hooks';
 import { OVERTURE_RELEASE } from '../basemap/config';
+import type { Basemap } from '../map/basemaps';
 
 /** 511's Data Disseminator Agreement (5.b): "data provided by 511.org", linked, near the data. */
 export const Credit511 = () => <a href="http://www.511.org">Data provided by 511.org</a>;
@@ -13,7 +14,12 @@ export function MapDataCredits({ has511 = false }: { has511?: boolean }) {
       Base map from <a href="https://matthew6113.github.io/BAM/">Bay Area megaprojects</a>: map data{' '}
       <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> and{' '}
       <a href="https://overturemaps.org">Overture Maps Foundation</a> (release {OVERTURE_RELEASE}, ODbL); building
-      footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. Today's lines from GTFS feeds:{' '}
+      footprints from OpenStreetMap, Microsoft and Esri Community Maps contributors. The streets base map:{' '}
+      <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> data (ODbL) in the{' '}
+      <a href="https://www.openmaptiles.org/">© OpenMapTiles</a> schema, served by{' '}
+      <a href="https://openfreemap.org">OpenFreeMap</a>. The satellite base map:{' '}
+      <a href="https://www.usgs.gov/programs/national-geospatial-program/national-map">USGS The National Map</a>{' '}
+      orthoimagery (USDA NAIP and USGS, public domain). Today's lines from GTFS feeds:{' '}
       <a href="https://511.org/open-data/transit">511.org</a> (MTC),{' '}
       <a href="https://www.bart.gov/schedules/developers/developer-license-agreement">BART</a> and Amtrak; BRT lanes from{' '}
       <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL); their opening dates from the
@@ -41,9 +47,18 @@ interface Props {
   collapse: boolean;
   /** Any line on the map comes from 511's feed: its credit stays visible even when collapsed. */
   has511?: boolean;
+  /** The base map shown: the streets' and the imagery's credits stay visible too (decision 25). */
+  basemap?: Basemap;
 }
 
-export function Credits({ collapse, has511 = false }: Props) {
+/** The collapsed credit line: OpenStreetMap's and Overture's always, plus the base map's own. */
+const SHORT: Record<Basemap, string> = {
+  plain: '© OpenStreetMap contributors, Overture Maps',
+  streets: '© OpenStreetMap contributors, OpenFreeMap, © OpenMapTiles, Overture Maps',
+  satellite: '© OpenStreetMap contributors, Overture Maps, imagery USGS',
+};
+
+export function Credits({ collapse, has511 = false, basemap = 'plain' }: Props) {
   const [open, setOpen] = useState(true);
 
   useEffect(() => {
@@ -63,7 +78,7 @@ export function Credits({ collapse, has511 = false }: Props) {
       {has511 && !open && <span class="credit-511"><Credit511 /> · </span>}
       <button type="button" class="credits-toggle" aria-expanded={open} aria-controls="credits-body"
         onClick={() => setOpen(!open)}>
-        {open ? 'Hide credits' : '© OpenStreetMap contributors, Overture Maps · Credits'}
+        {open ? 'Hide credits' : `${SHORT[basemap]} · Credits`}
       </button>
     </footer>
   );
