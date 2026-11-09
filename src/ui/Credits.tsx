@@ -47,7 +47,7 @@ interface Props {
   collapse: boolean;
   /** Any line on the map comes from 511's feed: its credit stays visible even when collapsed. */
   has511?: boolean;
-  /** The base map shown: the streets' and the imagery's credits stay visible too (decision 23). */
+  /** The base map shown: the streets' and the imagery's credits stay visible too (decision 25). */
   basemap?: Basemap;
 }
 

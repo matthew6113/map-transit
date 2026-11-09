@@ -276,7 +276,7 @@ body {
   stroke-linejoin: round;
 }
 
-/* The base map menu (decision 23; src/ui/BasemapMenu.tsx), this map's own: it opens to the left of its
+/* The base map menu (decision 25; src/ui/BasemapMenu.tsx), this map's own: it opens to the left of its
    button and grows upward, so it never runs off the bottom of the map. */
 .transit-basemap {
   position: relative;

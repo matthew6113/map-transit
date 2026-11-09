@@ -20,7 +20,7 @@ Status key: **in use** is drawn on the map; **checked** was used only to check o
 | How to refresh | `make basemap-refresh`, then review the diff of `basemap.lock.json`. |
 | Gaps | Context rail carries no names or operators. Abandoned, disused and under-construction track was filtered out in BAM's pipeline. |
 
-### Streets base map: OpenStreetMap from OpenFreeMap (decision 23)
+### Streets base map: OpenStreetMap from OpenFreeMap (decision 25)
 
 | | |
 |---|---|
@@ -30,7 +30,7 @@ Status key: **in use** is drawn on the map; **checked** was used only to check o
 | License | Map data © OpenStreetMap contributors, ODbL 1.0. The tile schema © OpenMapTiles (CC BY 4.0). OpenFreeMap asks for the credit "OpenFreeMap © OpenMapTiles Data from OpenStreetMap", which the collapsed credit line carries while Streets is shown. |
 | Gaps | Names only in Latin script (`name:en`, then `name:latin`), because BAM's glyphs carry no CJK ranges. The service is run by one person on donations: if it's down, Streets shows as paper with BAM's water and the lines. |
 
-### Satellite base map: USGS National Map imagery (decision 23)
+### Satellite base map: USGS National Map imagery (decision 25)
 
 | | |
 |---|---|

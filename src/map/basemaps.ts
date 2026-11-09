@@ -1,5 +1,5 @@
 /**
- * The base maps under the lines (decision 23):
+ * The base maps under the lines (decision 25):
  * - `plain`, BAM's print (the default): land, water, the buildings in ink, city and water names;
  * - `streets`: OpenStreetMap's streets, parks and names, drawn in BAM's paper and ink without hue
  *   (hue means mode), over BAM's land and water, with BAM's buildings faint;

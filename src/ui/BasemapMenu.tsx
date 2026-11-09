@@ -1,5 +1,5 @@
 /**
- * The base map menu (decision 23): one button in the map controls opens a short list, Plain,
+ * The base map menu (decision 25): one button in the map controls opens a short list, Plain,
  * Streets or Satellite. A menu rather than three buttons, so the controls column stays short on a
  * phone with a line's sheet open. Radio buttons, so arrow keys move between the options; a pick made
  * with the pointer closes the menu, and Escape or a press outside closes it too.

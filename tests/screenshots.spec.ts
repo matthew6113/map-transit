@@ -178,7 +178,7 @@ const VIEWS: { name: string; url: string; width?: number; height?: number; paint
     { name: `past-line-${id}-photo`, url: `/l/${id}?era=past&year=1928&test=1&at=99` })),
   { name: 'mobile-line-key-f-photo', url: '/l/key-f?era=past&year=1912&test=1&at=99', width: 390, height: 844 },
   { name: 'style-panel-mobile', url: '/?style=1&test=1', width: 390, height: 844 },
-  // The base maps (decision 23): plain, streets and satellite side by side
+  // The base maps (decision 25): plain, streets and satellite side by side
   // (SHOTS_DIR=docs/screenshots/basemaps SHOTS_ONLY=basemap-).
   ...(['plain', 'streets', 'satellite'] as const).flatMap((b) => [
     { name: `basemap-${b}-regional`, url: `/?basemap=${b}&test=1` },

@@ -39,7 +39,7 @@ export function normalizeTheme(input: unknown): Theme {
     Object.assign(merged.transit.status, pickNumbers(t.transit.status));
     Object.assign(merged.transit.proposals, pickNumbers(t.transit.proposals));
     if (typeof t.transit.proposals?.neutral === 'string') merged.transit.proposals.neutral = t.transit.proposals.neutral;
-    // The streets and satellite base maps (decision 23): only values of the default's type.
+    // The streets and satellite base maps (decision 25): only values of the default's type.
     const b = t.transit.basemaps;
     if (b) {
       Object.assign(merged.transit.basemaps.streets, pickLike(merged.transit.basemaps.streets, b.streets));
@@ -152,7 +152,7 @@ export function contrastIssues(theme: Theme): ContrastIssue[] {
       if (ratio < 3) issues.push({ subject: `Mode: ${group}`, against: name, ratio, needed: 3 });
     }
   }
-  // The streets base map (decision 23): lines also cross its parks, and its street names are text.
+  // The streets base map (decision 25): lines also cross its parks, and its street names are text.
   const streets = theme.transit.basemaps.streets;
   for (const group of MODE_GROUPS) {
     const ratio = contrast(modeColor(theme, group), streets.park);

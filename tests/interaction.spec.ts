@@ -210,7 +210,7 @@ test("the URL's layer options change the view, not the theme the style panel sav
   await expect(page.getByRole('complementary', { name: 'Style panel' }).getByLabel('Buildings', { exact: true })).toBeChecked();
 });
 
-test('the base map menu switches between plain, streets and satellite, by pointer and by keyboard (decision 23)', async ({ page }) => {
+test('the base map menu switches between plain, streets and satellite, by pointer and by keyboard (decision 25)', async ({ page }) => {
   await page.goto('/?test=1');
   await ready(page);
   const layer = (id: string) => page.evaluate((i) => !!(window as unknown as { __map: import('maplibre-gl').Map }).__map.getLayer(i), id);

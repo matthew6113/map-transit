@@ -1,5 +1,5 @@
 /**
- * The base maps (decision 23): each one's whole style is valid MapLibre, puts its layers where the
+ * The base maps (decision 25): each one's whole style is valid MapLibre, puts its layers where the
  * map needs them, and loads another site's tiles only while it is shown.
  */
 import { beforeAll, describe, expect, it, vi } from 'vitest';

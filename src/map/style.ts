@@ -15,7 +15,7 @@ export interface StyleInputs {
   view: TransitView;
   /** Datasets whose sources have been added (kept once loaded, so switching back doesn't refetch). */
   loaded: Dataset[];
-  /** What the lines are drawn over: BAM's print (the default), streets or imagery (decision 23). */
+  /** What the lines are drawn over: BAM's print (the default), streets or imagery (decision 25). */
   basemap?: Basemap;
   satelliteStyle?: SatelliteStyle;
 }

@@ -200,7 +200,7 @@ Choices made so far, newest last within each section. A decision waiting on Matt
 
 ## Asked for by Matthew (2026-11-05): two more base maps (open for Matthew's review)
 
-23. **Besides BAM's print, the lines can be drawn over a street map or aerial imagery.** Matthew asked
+25. **Besides BAM's print, the lines can be drawn over a street map or aerial imagery.** Matthew asked
     for "a satellite and a standard OpenStreetMap layer that matches the aesthetic". The sources, the
     look and the names below are open for his review. Screenshots are in `docs/screenshots/basemaps/`.
     - **How it's chosen.** A layers button in the map controls, between 3D and "Whole Bay", opens a
@@ -568,7 +568,7 @@ Matthew chose OpenStreetMap's lane tags for all three (decision 9).
 
 - **axe-core runs on ten views** (`npm run a11y`, `tests/a11y.spec.ts`, WCAG 2.1 A and AA rules):
   the present, the past at 1925, the future with proposals, a line panel, a proposal panel, a line
-  panel with a photo, the editor, the style panel, a phone's line panel and (decision 23) the base map
+  panel with a photo, the editor, the style panel, a phone's line panel and (decision 25) the base map
   menu open over the imagery. CI runs it in WebKit. The map canvas is out of axe's reach; the
   line list is its text equivalent.
 - **One fix:** a mode chip that's off had 45% text, under 4.5:1 on the panel. It's 62% now, still

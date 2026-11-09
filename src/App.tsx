@@ -43,7 +43,7 @@ const STATUS_STYLE: StatusStyle = STATUS_STYLES.includes(params.get('solidity') 
 const PROPOSAL_STYLE: ProposalStyle = PROPOSAL_STYLES.includes(params.get('proposalstyle') as ProposalStyle) ? (params.get('proposalstyle') as ProposalStyle) : DEFAULT_PROPOSAL_STYLE;
 /** How the lost lines are drawn under today's network (decision 22; ?ghoststyle=hue|ink|dashed). */
 const GHOST_STYLE: GhostStyle = GHOST_STYLES.includes(params.get('ghoststyle') as GhostStyle) ? (params.get('ghoststyle') as GhostStyle) : DEFAULT_GHOST_STYLE;
-/** How the satellite base map's imagery is drawn (decision 23; ?satellitestyle=muted|natural). */
+/** How the satellite base map's imagery is drawn (decision 25; ?satellitestyle=muted|natural). */
 const SATELLITE_STYLE: SatelliteStyle = SATELLITE_STYLES.includes(params.get('satellitestyle') as SatelliteStyle) ? (params.get('satellitestyle') as SatelliteStyle) : DEFAULT_SATELLITE_STYLE;
 /** How play moves through the years (decision 22; ?pace=even|busy). */
 const PACE: Pace = PACES.includes(params.get('pace') as Pace) ? (params.get('pace') as Pace) : DEFAULT_PACE;
@@ -109,7 +109,7 @@ export function App() {
   const [panelOpen, setPanelOpen] = useState(STYLE_PANEL_ENABLED);
   const styleToggle = useRef<HTMLButtonElement>(null);
   const [mode, setMode] = useState<ViewMode>(params.get('view') === '3d' ? '3d' : '2d');
-  // What the lines are drawn over (decision 23): BAM's print, streets or imagery; ?basemap= keeps it.
+  // What the lines are drawn over (decision 25): BAM's print, streets or imagery; ?basemap= keeps it.
   const [basemap, setBasemap] = useState<Basemap>(() =>
     BASEMAPS.includes(params.get('basemap') as Basemap) ? (params.get('basemap') as Basemap) : DEFAULT_BASEMAP);
   const [era, setEraState] = useState<Era>(initialEra);
